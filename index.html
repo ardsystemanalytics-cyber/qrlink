@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QR LINK – Sprievodca, ktorý čaká na mieste</title>
+  <meta name="description" content="QR LINK – digitálny sprievodca po mestách, pamiatkach a náučných chodníkoch. Naskenujte QR kód priamo na mieste a počúvajte príbeh.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="QR LINK – domov">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#1F5B41" stroke-width="2">
+        <path d="M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h3v3h-3zM19 14h2v2h-2zM14 19h2v2h-2zM19 19h2v2h-2z"/>
+      </svg>
+      QR<b>LINK</b>
+    </a>
+    <button class="nav-toggle" aria-label="Otvoriť menu">MENU</button>
+    <nav class="nav">
+      <a href="index.html" class="active">Mapa</a>
+      <a href="index.html#miesta">Miesta</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <div class="eyebrow">Naskenuj · Počúvaj · Objavuj</div>
+    <h1>Sprievodca, ktorý čaká priamo na mieste</h1>
+    <p class="lead">QR LINK premieňa mestá, hrady a náučné chodníky na príbehy.
+    Naskenujte kód na tabuli a vypočujte si, čo sa tu naozaj stalo –
+    alebo si vyberte miesto na mape a naplánujte výlet vopred.</p>
+  </section>
+
+  <section class="wrap">
+    <div class="map-panel qr-corners" aria-label="Mapa miest so sprievodcom QR LINK">
+      <span class="c3"></span>
+      <svg viewBox="-40 -40 1080 600" role="img" aria-label="Mapa Slovenska s vyznačenými miestami">
+        <path class="map-shape" d="
+          M 30 407 L 73 440 L 226 512 L 334 503 L 369 429 L 491 384
+          L 603 373 L 665 290 L 749 335 L 852 351 L 929 335 L 998 227
+          L 995 144 L 901 86 L 779 50 L 657 58 L 566 86 L 514 55
+          L 460 0 L 408 28 L 352 25 L 300 30 L 232 86 L 213 160
+          L 134 210 L 59 207 L 24 274 L 19 299 Z"/>
+        <g id="mapDots"></g>
+      </svg>
+      <div class="map-legend" id="mapLegend"></div>
+    </div>
+  </section>
+
+  <section class="wrap" id="miesta">
+    <div class="section-head">
+      <h2>Kam sa vyberieme?</h2>
+      <span class="count" id="cardCount"></span>
+    </div>
+    <div class="filters" id="filters"></div>
+    <div class="grid" id="cards"></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© <a href="https://www.ardsystem.sk" target="_blank" rel="noopener">ARDSYSTÉM, s. r. o.</a> – všetky práva vyhradené</span>
+    <span>QR LINK · digitálny sprievodca</span>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

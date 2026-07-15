@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Miesto – QR LINK</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="QR LINK – domov">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#1F5B41" stroke-width="2">
+        <path d="M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h3v3h-3zM19 14h2v2h-2zM14 19h2v2h-2zM19 19h2v2h-2z"/>
+      </svg>
+      QR<b>LINK</b>
+    </a>
+    <button class="nav-toggle" aria-label="Otvoriť menu">MENU</button>
+    <nav class="nav">
+      <a href="index.html">Mapa</a>
+      <a href="index.html#miesta" class="active">Miesta</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs" aria-label="Ste tu">
+    <a href="index.html">Domov</a><span class="sep">›</span>
+    <a href="index.html#miesta" id="crumbKat">Kategória</a><span class="sep">›</span>
+    <span class="here" id="crumbHere">…</span>
+  </nav>
+
+  <section class="cat-hero">
+    <h1 id="catTitle">…</h1>
+    <p id="catDesc"></p>
+  </section>
+
+  <section class="route" id="routeList" aria-label="Zoznam zastavení"></section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© <a href="https://www.ardsystem.sk" target="_blank" rel="noopener">ARDSYSTÉM, s. r. o.</a> – všetky práva vyhradené</span>
+    <span>QR LINK · digitálny sprievodca</span>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
