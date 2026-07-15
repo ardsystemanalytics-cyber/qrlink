@@ -26,6 +26,7 @@ function renderMap() {
     g.setAttribute("tabindex", "0");
     g.setAttribute("role", "link");
     g.setAttribute("aria-label", m.nazov);
+    g.dataset.id = m.id;
     g.innerHTML = `
       <circle cx="${m.mapX}" cy="${m.mapY}" fill="${kat ? kat.farba : "#1F5B41"}"></circle>
       <text x="${m.mapX + 14}" y="${m.mapY + 5}">${m.nazov}</text>`;
@@ -51,11 +52,11 @@ let aktivnyFilter = "vsetko";
 function renderFilters() {
   const host = Q("#filters");
   if (!host) return;
-  const chips = [{ id: "vsetko", nazov: "Všetko" }, ...DB.kategorie];
+  const chips = [{ id: "vsetko", nazov: "Všetky kategórie", farba: null }, ...DB.kategorie];
   chips.forEach(k => {
     const b = document.createElement("button");
     b.className = "chip" + (k.id === aktivnyFilter ? " active" : "");
-    b.textContent = k.nazov;
+    b.innerHTML = (k.farba ? `<i style="background:${k.farba}"></i>` : "") + k.nazov;
     b.addEventListener("click", () => {
       aktivnyFilter = k.id;
       QA(".chip", host).forEach(c => c.classList.remove("active"));
@@ -82,15 +83,45 @@ function cardHTML(m) {
   </a>`;
 }
 
+let hladanyText = "";
+
+function vyhovuje(m) {
+  const vKategorii = aktivnyFilter === "vsetko" || m.kategorie.includes(aktivnyFilter);
+  const vHladani = !hladanyText ||
+    m.nazov.toLowerCase().includes(hladanyText) ||
+    (m.popis || "").toLowerCase().includes(hladanyText);
+  return vKategorii && vHladani;
+}
+
 function renderCards() {
   const host = Q("#cards");
   if (!host) return;
-  const list = DB.miesta.filter(m =>
-    aktivnyFilter === "vsetko" || m.kategorie.includes(aktivnyFilter));
+  const list = DB.miesta.filter(vyhovuje);
   host.innerHTML = list.map(cardHTML).join("") ||
-    `<p style="grid-column:1/-1;color:var(--ink-soft)">V tejto kategórii zatiaľ nič nie je.</p>`;
+    `<p style="grid-column:1/-1;color:var(--ink-soft)">Nenašli sme žiadne miesto – skúste iný výraz alebo kategóriu.</p>`;
   const cnt = Q("#cardCount");
   if (cnt) cnt.textContent = `${list.length} miest`;
+
+  /* stlmenie bodov na mape, ktoré nevyhovujú filtru/hľadaniu */
+  QA(".map-dot").forEach(d => {
+    const m = miestoById(d.dataset.id);
+    d.classList.toggle("dim", m ? !vyhovuje(m) : false);
+  });
+}
+
+function initSearch() {
+  const inp = Q("#searchInput");
+  if (!inp) return;
+  inp.addEventListener("input", () => {
+    hladanyText = inp.value.trim().toLowerCase();
+    renderCards();
+  });
+}
+
+function renderStats() {
+  const sm = Q("#statMiesta"), sz = Q("#statZastavenia");
+  if (sm) sm.textContent = DB.miesta.length;
+  if (sz) sz.textContent = DB.zastavenia.length;
 }
 
 /* ------------------------------------ stránka kategórie (miesta) -- */
@@ -261,6 +292,8 @@ function renderKontakt() {
 document.addEventListener("DOMContentLoaded", () => {
   initNav();
   renderMap();
+  initSearch();
+  renderStats();
   renderFilters();
   renderCards();
   renderKategoria();
