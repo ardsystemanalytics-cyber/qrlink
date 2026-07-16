@@ -61,13 +61,8 @@ a { color: var(--pine); }
   display: flex; align-items: center; gap: 24px;
   min-height: 68px;
 }
-.logo {
-  display: flex; align-items: center; gap: 10px;
-  font-family: var(--f-display); font-weight: 800; font-size: 22px;
-  color: var(--ink); text-decoration: none; letter-spacing: -.02em;
-}
-.logo svg { width: 30px; height: 30px; }
-.logo b { color: var(--pine); font-weight: 800; }
+.logo img { height: 36px; width: auto; display: block; }
+.logo { display: flex; align-items: center; text-decoration: none; }
 
 .nav { margin-left: auto; display: flex; gap: 4px; }
 .nav a {
@@ -144,7 +139,7 @@ a { color: var(--pine); }
   border-radius: 999px; padding: 10px 18px;
   flex: 1 1 260px; max-width: 340px; color: var(--ink-soft);
 }
-.search svg { width: 18px; height: 18px; flex: 0 0 auto; }
+.search svg { width: 16px; height: 16px; flex: 0 0 auto; opacity: .5; }
 .search input {
   border: 0; background: none; outline: none; width: 100%;
   font-family: var(--f-body); font-size: 15px; color: var(--ink);
