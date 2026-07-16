@@ -26,7 +26,7 @@
 
   --radius: 20px;
   --shadow: 0 3px 10px rgba(36,56,43,.07), 0 16px 40px rgba(36,56,43,.09);
-  --maxw: 1170px;
+  --maxw: 1140px;
 }
 
 * { box-sizing: border-box; }
@@ -205,77 +205,7 @@ a { color: var(--pine); }
 .stat b { font-family: var(--f-display); font-size: 19px; display: block; line-height: 1.1; }
 .stat small { color: var(--ink-soft); font-size: 13.5px; }
 
-/* body na obrázkovej mape */
-.map-pin {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  background: none; border: none;
-  cursor: pointer; padding: 4px;
-  display: flex; align-items: center; gap: 6px;
-  z-index: 2;
-}
-.pin-dot {
-  display: block; width: 13px; height: 13px;
-  border-radius: 50%;
-  background: var(--pin-color, #2E5B41);
-  border: 2.5px solid #fff;
-  box-shadow: 0 1px 4px rgba(0,0,0,.25);
-  flex: 0 0 auto;
-  transition: transform .15s;
-}
-.map-pin:hover .pin-dot, .map-pin:focus .pin-dot { transform: scale(1.5); }
-.pin-label {
-  font-family: var(--f-body); font-size: 11px; font-weight: 700;
-  color: var(--ink); white-space: nowrap;
-  background: rgba(255,255,255,.82); backdrop-filter: blur(4px);
-  padding: 2px 7px; border-radius: 99px;
-  border: 1px solid rgba(255,255,255,.6);
-  opacity: 0; pointer-events: none;
-  transition: opacity .15s;
-}
-.map-pin:hover .pin-label, .map-pin:focus .pin-label { opacity: 1; }
-.map-pin.dim .pin-dot { opacity: .2; }
-@media (max-width: 640px) {
-  .pin-dot { width: 10px; height: 10px; }
-  .pin-label { display: none; }
-}
-
 .map-dot.dim { opacity: .18; }
-
-/* ----------------------------------------- MAPA SEKCIA (obrazok) -- */
-.mapa-section {
-  position: relative;
-  padding: 0 0 48px;
-}
-
-/* obrazok mapy – plna sirka, centrovana, ako pozadie */
-.mapa-bg {
-  position: relative;
-  width: 100%;
-  max-width: var(--maxw);
-  margin: 0 auto;
-  pointer-events: none;
-  user-select: none;
-}
-.mapa-bg img {
-  width: 100%; height: auto; display: block;
-  opacity: .92;
-}
-
-/* vrstva pre interaktivne body – absolutna nad obrazkom */
-.mapa-dots-layer {
-  position: absolute; inset: 0;
-  pointer-events: auto;
-}
-
-/* panel pláva nad mapou pomocou negatívneho marginu zhora */
-.mapa-section .wrap {
-  position: relative;
-  z-index: 5;
-  margin-top: -88%;   /* panel sa prekryje s mapou – % z sirky .wrap ~ pomer obrazka */
-  pointer-events: none;
-}
-.mapa-section .map-panel { pointer-events: auto; }
 
 /* ------------------------------------------------- MAPA (panel) --- */
 .map-panel {
@@ -331,7 +261,7 @@ a { color: var(--pine); }
 .map-legend i { width: 11px; height: 11px; border-radius: 50%; display: inline-block; }
 
 /* ------------------------------------------------------- FILTRE --- */
-.filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 26px 0 26px; }
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 26px 0 6px; }
 .chip {
   font-family: var(--f-mono); font-size: 13px; font-weight: 600;
   padding: 8px 16px; border-radius: 999px; cursor: pointer;
