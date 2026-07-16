@@ -74,10 +74,14 @@
         <div class="filters" id="filters"></div>
       </div>
 
-      <!-- 2. MAPA – obrázok + piny -->
+      <!-- 2. MAPA – obrázok ako pozadie, SVG s pinmi presne nad ním -->
       <div class="map-img-wrap">
         <img src="assets/images/mapa-sk.jpg" alt="Ilustrovaná mapa Slovenska" draggable="false">
-        <div id="mapDots" class="mapa-dots-layer" aria-label="Interaktívne body na mape Slovenska"></div>
+        <svg id="mapDots" class="mapa-dots-layer"
+             viewBox="-40 -40 1080 600"
+             aria-label="Interaktívne body na mape Slovenska">
+        </svg>
+      </div>
       </div>
 
       <!-- 3. ŠTATISTIKY – pod mapou -->

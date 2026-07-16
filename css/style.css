@@ -198,13 +198,29 @@ a { color: var(--pine); }
   user-select: none; pointer-events: none;
 }
 
-/* vrstva pinov – absolútna, presne kryje obrázok */
+/* vrstva pinov – SVG absolútne nad obrázkom, rovnaký viewBox ako pôvodná mapa */
 .mapa-dots-layer {
   position: absolute;
   inset: 0;
+  width: 100%; height: 100%;
+  overflow: visible;
   pointer-events: none;
 }
-.mapa-dots-layer .map-pin { pointer-events: auto; }
+.mapa-dots-layer .map-dot { pointer-events: auto; cursor: pointer; }
+.map-dot circle { transition: r .15s; }
+.map-dot:hover circle, .map-dot:focus circle { r: 11; }
+.map-dot.dim circle { opacity: .2; }
+.map-dot.dim text  { opacity: .1; }
+
+.pin-svg-label {
+  font-family: var(--f-body); font-size: 28px; font-weight: 700;
+  fill: var(--ink);
+  paint-order: stroke; stroke: rgba(255,255,255,.9); stroke-width: 6px;
+  opacity: 0; pointer-events: none;
+  transition: opacity .15s;
+}
+.map-dot:hover .pin-svg-label,
+.map-dot:focus .pin-svg-label { opacity: 1; }
 
 
 

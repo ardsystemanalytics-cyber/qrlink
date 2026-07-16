@@ -9,7 +9,7 @@ const param = (k) => new URLSearchParams(location.search).get(k);
 const katById = (id) => DB.kategorie.find(k => k.id === id);
 const miestoById = (id) => DB.miesta.find(m => m.id === id);
 
-/* ---------------------------------------------------- mapa (img) --- */
+/* ---------------------------------------------------- mapa (svg) --- */
 function renderMap() {
   const host = Q("#mapDots");
   if (!host) return;
@@ -17,19 +17,19 @@ function renderMap() {
   DB.miesta.forEach(m => {
     const kat = katById(m.primarna);
     const farba = kat ? kat.farba : "#2E5B41";
-    // Použi geograficky kalibrované % súradnice z PIN_COORDS
-    const coords = PIN_COORDS[m.id];
-    if (!coords) return; // miesto bez súradníc preskočíme
-    const [pctX, pctY] = coords;
 
-    const btn = document.createElement("button");
-    btn.className = "map-pin";
-    btn.dataset.id = m.id;
-    btn.setAttribute("aria-label", m.nazov);
-    btn.style.cssText = `left:${pctX}%;top:${pctY}%;--pin-color:${farba}`;
-    btn.innerHTML = `<span class="pin-dot"></span><span class="pin-label">${m.nazov}</span>`;
-    btn.addEventListener("click", () => location.href = `kategoria.html?id=${m.id}`);
-    host.appendChild(btn);
+    const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
+    g.setAttribute("class", "map-dot");
+    g.setAttribute("tabindex", "0");
+    g.setAttribute("role", "link");
+    g.setAttribute("aria-label", m.nazov);
+    g.dataset.id = m.id;
+    g.innerHTML = `
+      <circle cx="${m.mapX}" cy="${m.mapY}" r="7" fill="${farba}" stroke="#fff" stroke-width="2.5"/>
+      <text x="${m.mapX + 11}" y="${m.mapY + 4}" class="pin-svg-label">${m.nazov}</text>`;
+    g.addEventListener("click", () => location.href = `kategoria.html?id=${m.id}`);
+    g.addEventListener("keydown", e => { if (e.key === "Enter") location.href = `kategoria.html?id=${m.id}`; });
+    host.appendChild(g);
   });
 }
 
@@ -96,7 +96,7 @@ function renderCards() {
   if (cnt) cnt.textContent = `${list.length} miest`;
 
   /* stlmenie bodov na mape, ktoré nevyhovujú filtru/hľadaniu */
-  QA(".map-pin").forEach(d => {
+  QA(".map-dot").forEach(d => {
     const m = miestoById(d.dataset.id); // pin
     d.classList.toggle("dim", m ? !vyhovuje(m) : false);
   });
