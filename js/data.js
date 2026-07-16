@@ -34,7 +34,7 @@ const PLACE_PHOTOS = {
   "trebisov":             "https://images.unsplash.com/photo-1589553416260-f586c8f1514f?w=800&q=80",
   "turzovka":             "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
   "vranov":               "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=800&q=80",
-  "hrad-strecno":         "https://images.unsplash.com/photo-1589553416260-f586c8f1514f?w=800&q=80",
+  "hrad-strecno":         "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg",
   "cierne-klacany":       "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80",
   "klenoty-pohranicie":   "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
   "cestovatelsky-dennik": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
@@ -70,6 +70,10 @@ const DB = {
   miesta: [
 
     /* ---- MESTÁ ---- */
+    { id: "hrad-strecno", nazov: "Hrad Strečno", primarna: "pamiatky", kategorie: ["pamiatky"],
+      mapX: 354, mapY: 120,
+      cover: "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg",
+      popis: "Stredoveký hrad nad Váhom – 14 zastavení s audio sprievodcom." },
     { id: "bratislava-ivanka", nazov: "Ivanka pri Dunaji", primarna: "mesta", kategorie: ["mesta"],
       mapX: 73,  mapY: 393, cover: "", popis: "Obec pri Bratislave s bohatou históriou." },
 
@@ -113,10 +117,6 @@ const DB = {
       mapX: 845, mapY: 199, cover: "", popis: "Mesto na východnom Slovensku." },
 
     /* ---- PAMIATKY / CHODNÍKY / OSTATNÉ ---- */
-    { id: "hrad-strecno", nazov: "Hrad Strečno", primarna: "pamiatky", kategorie: ["pamiatky"],
-      mapX: 354, mapY: 120,
-      cover: "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg",
-      popis: "Stredoveký hrad nad Váhom – 14 zastavení s audio sprievodcom." },
 
     { id: "cierne-klacany", nazov: "Čiernokľačianska Pyxida", primarna: "pamiatky", kategorie: ["pamiatky"],
       mapX: 275, mapY: 346, cover: "", popis: "Vzácna slonovinová schránka z veľkomoravského obdobia." },

@@ -52,27 +52,26 @@ let aktivnyFilter = "vsetko";
 function renderFilters() {
   const host = Q("#filters");
   if (!host) return;
-  // Zisti ci sme v sekcii miesta (pod nadpisom Kam sa vyberieme)
-  const isMiestaSection = host.closest("#miesta") !== null;
-  const chips = [{ id: "vsetko", nazov: "Všetko", farba: null }, ...DB.kategorie];
+  const chips = [{ id: "vsetko", nazov: "Všetko" }, ...DB.kategorie];
   chips.forEach(k => {
     const b = document.createElement("button");
     b.className = "chip" + (k.id === aktivnyFilter ? " active" : "");
+    b.dataset.katId = k.id;
     if (k.id === "vsetko") {
       b.textContent = "Všetko";
-    } else if (isMiestaSection && typeof KAT_ICONS !== "undefined" && KAT_ICONS[k.id]) {
-      // Sekcia "Kam sa vyberieme?" – ikonky
-      b.innerHTML = `<span class="chip-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">${KAT_ICONS[k.id]}</svg></span>${k.nazov}`;
     } else {
-      // Sekcia mapy – farebné bodky
-      b.innerHTML = `<i style="width:9px;height:9px;border-radius:50%;background:${k.farba};display:inline-block;margin-right:4px"></i>${k.nazov}`;
+      const icon = (typeof KAT_ICONS !== "undefined" && KAT_ICONS[k.id]) || "";
+      b.innerHTML = `<span class="chip-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">${icon}</svg></span>${k.nazov}`;
     }
     b.addEventListener("click", () => {
       aktivnyFilter = k.id;
-      QA(".chip", host).forEach(c => c.classList.remove("active"));
+      QA(".chip").forEach(c => c.classList.remove("active"));
       b.classList.add("active");
+      // Synchronizuj aj filtre na mape
+      QA("#mapFilters .chip").forEach(c => {
+        if (c.dataset.katId === k.id) c.classList.add("active");
+      });
       renderCards();
-      // Ak je aj mapa, aktualizuj aj piny
       QA(".map-dot").forEach(d => {
         const m = miestoById(d.dataset.id);
         d.classList.toggle("dim", m ? !vyhovuje(m) : false);
@@ -106,6 +105,40 @@ function vyhovuje(m) {
     m.nazov.toLowerCase().includes(hladanyText) ||
     (m.popis || "").toLowerCase().includes(hladanyText);
   return vKategorii && vHladani;
+}
+
+
+/* ---------------------------------------- filtre na mape (bodky) --- */
+function renderMapFilters() {
+  const host = Q("#mapFilters");
+  if (!host) return;
+  const chips = [{ id: "vsetko", nazov: "Všetko", farba: null }, ...DB.kategorie];
+  chips.forEach(k => {
+    const b = document.createElement("button");
+    b.className = "chip" + (k.id === aktivnyFilter ? " active" : "");
+    if (k.id === "vsetko") {
+      b.textContent = "Všetko";
+    } else {
+      b.innerHTML = `<i style="width:9px;height:9px;border-radius:50%;background:${k.farba};display:inline-block;margin-right:2px;flex-shrink:0"></i>${k.nazov}`;
+    }
+    b.addEventListener("click", () => {
+      aktivnyFilter = k.id;
+      QA(".chip").forEach(c => c.classList.remove("active"));
+      QA(".chip", host).forEach(c => c.classList.remove("active"));
+      b.classList.add("active");
+      // Synchronizuj aj filtre v sekcii miest
+      QA("#filters .chip").forEach(c => {
+        if (c.dataset.katId === k.id) c.classList.add("active");
+      });
+      renderCards();
+      QA(".map-dot").forEach(d => {
+        const m = miestoById(d.dataset.id);
+        d.classList.toggle("dim", m ? !vyhovuje(m) : false);
+      });
+    });
+    b.dataset.katId = k.id;
+    host.appendChild(b);
+  });
 }
 
 let showAll = false;
@@ -335,6 +368,7 @@ function renderKontakt() {
 document.addEventListener("DOMContentLoaded", () => {
   initNav();
   renderMap();
+  renderMapFilters();
   initSearch();
   renderStats();
   renderFilters();
