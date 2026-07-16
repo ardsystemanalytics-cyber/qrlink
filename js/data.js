@@ -61,7 +61,7 @@ const DB = {
     { id: "mesta",     nazov: "Mestá",                                  farba: "#4E7FAE" },
     { id: "pamiatky",  nazov: "Pamiatky",                               farba: "#C34A3A" },
     { id: "chodniky",  nazov: "Náučné chodníky",                        farba: "#D9A441" },
-    { id: "enviro",    nazov: "Environmentálna výchova a vzdelávanie",  farba: "#3A6EA5" },
+    { id: "enviro",    nazov: "Environmentálna výchova a vzdelávanie",  farba: "#41a579" },
     { id: "pohranicie", nazov: "Česko-slovenské pohraničie",            farba: "#7A5C8C" }
   ],
 
