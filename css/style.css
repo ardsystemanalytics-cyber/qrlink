@@ -26,7 +26,7 @@
 
   --radius: 20px;
   --shadow: 0 3px 10px rgba(36,56,43,.07), 0 16px 40px rgba(36,56,43,.09);
-  --maxw: 1140px;
+  --maxw: 1180px;
 }
 
 * { box-sizing: border-box; }
