@@ -9,15 +9,18 @@ const param = (k) => new URLSearchParams(location.search).get(k);
 const katById = (id) => DB.kategorie.find(k => k.id === id);
 const miestoById = (id) => DB.miesta.find(m => m.id === id);
 
-/* ---------------------------------------------------- mapa (svg) --- */
+/* ---------------------------------------------------- hlavička ---- */
+function initNav() {
+  const t = Q(".nav-toggle");
+  if (t) t.addEventListener("click", () => Q(".nav").classList.toggle("open"));
+}
+
+/* ------------------------------------------------- mapa (index) --- */
 function renderMap() {
   const host = Q("#mapDots");
   if (!host) return;
-
   DB.miesta.forEach(m => {
     const kat = katById(m.primarna);
-    const farba = kat ? kat.farba : "#2E5B41";
-
     const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
     g.setAttribute("class", "map-dot");
     g.setAttribute("tabindex", "0");
@@ -25,18 +28,22 @@ function renderMap() {
     g.setAttribute("aria-label", m.nazov);
     g.dataset.id = m.id;
     g.innerHTML = `
-      <circle cx="${m.mapX}" cy="${m.mapY}" r="7" fill="${farba}" stroke="#fff" stroke-width="2.5"/>
-      <text x="${m.mapX + 11}" y="${m.mapY + 4}" class="pin-svg-label">${m.nazov}</text>`;
-    g.addEventListener("click", () => location.href = `kategoria.html?id=${m.id}`);
-    g.addEventListener("keydown", e => { if (e.key === "Enter") location.href = `kategoria.html?id=${m.id}`; });
+      <circle cx="${m.mapX}" cy="${m.mapY}" fill="${kat ? kat.farba : "#1F5B41"}"></circle>
+      <text x="${m.mapX + 14}" y="${m.mapY + 5}">${m.nazov}</text>`;
+    const go = () => location.href = `kategoria.html?id=${m.id}`;
+    g.addEventListener("click", go);
+    g.addEventListener("keydown", e => { if (e.key === "Enter") go(); });
     host.appendChild(g);
   });
-}
 
-/* ---------------------------------------------------- hlavička ---- */
-function initNav() {
-  const t = Q(".nav-toggle");
-  if (t) t.addEventListener("click", () => Q(".nav").classList.toggle("open"));
+  const legend = Q("#mapLegend");
+  if (legend) {
+    DB.kategorie.forEach(k => {
+      const s = document.createElement("span");
+      s.innerHTML = `<i style="background:${k.farba}"></i>${k.nazov}`;
+      legend.appendChild(s);
+    });
+  }
 }
 
 /* ------------------------------------------- filtre + karty ------- */
@@ -97,7 +104,7 @@ function renderCards() {
 
   /* stlmenie bodov na mape, ktoré nevyhovujú filtru/hľadaniu */
   QA(".map-dot").forEach(d => {
-    const m = miestoById(d.dataset.id); // pin
+    const m = miestoById(d.dataset.id);
     d.classList.toggle("dim", m ? !vyhovuje(m) : false);
   });
 }

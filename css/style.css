@@ -26,7 +26,7 @@
 
   --radius: 20px;
   --shadow: 0 3px 10px rgba(36,56,43,.07), 0 16px 40px rgba(36,56,43,.09);
-  --maxw: 1180px;
+  --maxw: 1140px;
 }
 
 * { box-sizing: border-box; }
@@ -165,64 +165,27 @@ a { color: var(--pine); }
 .f-icon svg { width: 24px; height: 24px; }
 
 /* ------------------------------------------------- MAPA (panel) --- */
-.map-panel {
-  position: relative;
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  box-shadow: 0 8px 40px rgba(36,56,43,.13), 0 2px 8px rgba(36,56,43,.07);
-  margin: -72px 0 20px;
-  padding: clamp(16px, 2.4vw, 28px) clamp(16px, 2.4vw, 28px) 20px;
-  z-index: 10;
-  overflow: hidden;
+.map-head {
+  display: flex; flex-wrap: wrap; gap: 14px 24px;
+  align-items: center; justify-content: space-between;
+  margin-bottom: 6px;
 }
-
-/* text + filtre nad mapou */
-.map-top { position: relative; z-index: 2; }
-.map-top h2 {
-  font-family: var(--f-display); font-weight: 700; font-size: 22px;
-  letter-spacing: -.01em; margin: 0 0 2px;
+.map-head h2 {
+  font-family: var(--f-display); font-weight: 700; font-size: 26px;
+  letter-spacing: -.01em; margin: 0;
 }
-
-/* obrázok mapy + vrstva pinov */
-.map-img-wrap {
-  position: relative;
-  width: 100%;
-  margin: 0 -clamp(16px, 2.4vw, 28px); /* vytiahni na okraj panelu */
-  width: calc(100% + 2 * clamp(16px, 2.4vw, 28px));
-  line-height: 0;
+.search {
+  display: flex; align-items: center; gap: 10px;
+  background: var(--paper); border: 1px solid var(--line);
+  border-radius: 999px; padding: 10px 18px;
+  flex: 1 1 260px; max-width: 340px; color: var(--ink-soft);
 }
-.map-img-wrap img {
-  width: 100%; height: auto;
-  display: block;
-  user-select: none; pointer-events: none;
+.search svg { width: 16px; height: 16px; flex: 0 0 auto; opacity: .5; }
+.search input {
+  border: 0; background: none; outline: none; width: 100%;
+  font-family: var(--f-body); font-size: 15px; color: var(--ink);
 }
-
-/* vrstva pinov – SVG absolútne nad obrázkom, rovnaký viewBox ako pôvodná mapa */
-.mapa-dots-layer {
-  position: absolute;
-  inset: 0;
-  width: 100%; height: 100%;
-  overflow: visible;
-  pointer-events: none;
-}
-.mapa-dots-layer .map-dot { pointer-events: auto; cursor: pointer; }
-.map-dot circle { transition: r .15s; }
-.map-dot:hover circle, .map-dot:focus circle { r: 11; }
-.map-dot.dim circle { opacity: .2; }
-.map-dot.dim text  { opacity: .1; }
-
-.pin-svg-label {
-  font-family: var(--f-body); font-size: 28px; font-weight: 700;
-  fill: var(--ink);
-  paint-order: stroke; stroke: rgba(255,255,255,.9); stroke-width: 6px;
-  opacity: 0; pointer-events: none;
-  transition: opacity .15s;
-}
-.map-dot:hover .pin-svg-label,
-.map-dot:focus .pin-svg-label { opacity: 1; }
-
-
+.chip i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 7px; vertical-align: baseline; }
 
 .map-stats {
   display: flex; flex-wrap: wrap; gap: 10px 34px;
@@ -242,46 +205,19 @@ a { color: var(--pine); }
 .stat b { font-family: var(--f-display); font-size: 19px; display: block; line-height: 1.1; }
 .stat small { color: var(--ink-soft); font-size: 13.5px; }
 
-/* body na obrázkovej mape */
-.map-pin {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  background: none; border: none;
-  cursor: pointer; padding: 4px;
-  display: flex; align-items: center; gap: 6px;
-  z-index: 2;
-}
-.pin-dot {
-  display: block; width: 13px; height: 13px;
-  border-radius: 50%;
-  background: var(--pin-color, #2E5B41);
-  border: 2.5px solid #fff;
-  box-shadow: 0 1px 4px rgba(0,0,0,.25);
-  flex: 0 0 auto;
-  transition: transform .15s;
-}
-.map-pin:hover .pin-dot, .map-pin:focus .pin-dot { transform: scale(1.5); }
-.pin-label {
-  font-family: var(--f-body); font-size: 11px; font-weight: 700;
-  color: var(--ink); white-space: nowrap;
-  background: rgba(255,255,255,.82); backdrop-filter: blur(4px);
-  padding: 2px 7px; border-radius: 99px;
-  border: 1px solid rgba(255,255,255,.6);
-  opacity: 0; pointer-events: none;
-  transition: opacity .15s;
-}
-.map-pin:hover .pin-label, .map-pin:focus .pin-label { opacity: 1; }
-.map-pin.dim .pin-dot { opacity: .2; }
-@media (max-width: 640px) {
-  .pin-dot { width: 10px; height: 10px; }
-  .pin-label { display: none; }
-}
-
 .map-dot.dim { opacity: .18; }
 
-
-
-
+/* ------------------------------------------------- MAPA (panel) --- */
+.map-panel {
+  position: relative;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 8px 40px rgba(36,56,43,.13), 0 2px 8px rgba(36,56,43,.07);
+  margin: -72px 0 20px; /* negatívny margin – panel "pláva" nad spodkom hero */
+  padding: clamp(10px, 3vw, 28px);
+  z-index: 10;
+}
 /* QR zameriavacie rožky */
 .qr-corners::before, .qr-corners::after,
 .qr-corners > .c3::before, .qr-corners > .c3::after {
@@ -325,7 +261,7 @@ a { color: var(--pine); }
 .map-legend i { width: 11px; height: 11px; border-radius: 50%; display: inline-block; }
 
 /* ------------------------------------------------------- FILTRE --- */
-.filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 26px 0 26px; }
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 26px 0 6px; }
 .chip {
   font-family: var(--f-mono); font-size: 13px; font-weight: 600;
   padding: 8px 16px; border-radius: 999px; cursor: pointer;
