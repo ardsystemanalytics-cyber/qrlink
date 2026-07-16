@@ -121,7 +121,7 @@ a { color: var(--pine); }
   font-size: clamp(15px, 1.4vw, 17px); max-width: 48ch;
 }
 
-/* fotka – absolútna, zaberá pravých 58% vrátane zabudovaného fade */
+/* fotka – absolútna, pravých 62%, full-bleed, bez akýchkoľvek overlayov */
 .hero-photo {
   position: absolute; top: 0; right: 0;
   width: 62%; height: 100%;
@@ -130,7 +130,7 @@ a { color: var(--pine); }
 .hero-photo img {
   width: 100%; height: 100%;
   object-fit: cover;
-  object-position: 30% center;
+  object-position: left center;
   display: block;
 }
 
