@@ -58,7 +58,7 @@ const DB = {
 
   /* ------------------------------------------------ 1. KATEGÓRIE --- */
   kategorie: [
-    { id: "mesta",     nazov: "Mestá",                                  farba: "#2E5B41" },
+    { id: "mesta",     nazov: "Mestá",                                  farba: "#4E7FAE" },
     { id: "pamiatky",  nazov: "Pamiatky",                               farba: "#C34A3A" },
     { id: "chodniky",  nazov: "Náučné chodníky",                        farba: "#D9A441" },
     { id: "enviro",    nazov: "Environmentálna výchova a vzdelávanie",  farba: "#3A6EA5" },

@@ -88,7 +88,7 @@ function renderFilters() {
 
 function cardHTML(m) {
   const katObj = katById(m.primarna) || {};
-  const farba  = katObj.farba || "#2E5B41";
+  const farba  = katObj.farba || "#4E7FAE";
   const icon   = (typeof KAT_ICONS !== "undefined" && KAT_ICONS[m.primarna]) || KAT_ICONS["mesta"] || "";
   const photo  = (typeof PLACE_PHOTOS !== "undefined" && PLACE_PHOTOS[m.id])
     || "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80";
@@ -169,7 +169,7 @@ const CARDS_PER_PAGE = 12;
 
 function cardHTML(m) {
   const katObj = katById(m.primarna) || {};
-  const farba  = katObj.farba || "#2E5B41";
+  const farba  = katObj.farba || "#4E7FAE";
   const icon   = (typeof KAT_ICONS !== "undefined" && KAT_ICONS[m.primarna]) || KAT_ICONS["mesta"] || "";
   const photo  = (typeof PLACE_PHOTOS !== "undefined" && PLACE_PHOTOS[m.id])
     || "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80";
