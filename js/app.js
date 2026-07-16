@@ -52,22 +52,27 @@ let aktivnyFilter = "vsetko";
 function renderFilters() {
   const host = Q("#filters");
   if (!host) return;
-  const chips = [{ id: "vsetko", nazov: "Všetko" }, ...DB.kategorie];
+  const chips = [{ id: "vsetko", nazov: "Všetko", farba: null }, ...DB.kategorie];
   chips.forEach(k => {
     const b = document.createElement("button");
     b.className = "chip" + (k.id === aktivnyFilter ? " active" : "");
     b.dataset.katId = k.id;
+
     if (k.id === "vsetko") {
       b.textContent = "Všetko";
     } else {
       const icon = (typeof KAT_ICONS !== "undefined" && KAT_ICONS[k.id]) || "";
-      b.innerHTML = `<span class="chip-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">${icon}</svg></span>${k.nazov}`;
+      // Farebny kruzok s bielou ikonkou (=rovnaka farba ako bodka na mape)
+      b.innerHTML = `
+        <span class="chip-icon-circle" style="background:${k.farba}">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"
+               stroke-linecap="round" stroke-linejoin="round" width="14" height="14">${icon}</svg>
+        </span>${k.nazov}`;
     }
     b.addEventListener("click", () => {
       aktivnyFilter = k.id;
       QA(".chip").forEach(c => c.classList.remove("active"));
       b.classList.add("active");
-      // Synchronizuj aj filtre na mape
       QA("#mapFilters .chip").forEach(c => {
         if (c.dataset.katId === k.id) c.classList.add("active");
       });
@@ -82,18 +87,36 @@ function renderFilters() {
 }
 
 function cardHTML(m) {
+  const katObj = katById(m.primarna) || {};
+  const farba  = katObj.farba || "#2E5B41";
+  const icon   = (typeof KAT_ICONS !== "undefined" && KAT_ICONS[m.primarna]) || KAT_ICONS["mesta"] || "";
+  const photo  = (typeof PLACE_PHOTOS !== "undefined" && PLACE_PHOTOS[m.id])
+    || "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80";
+
+  // Farebne taby – farba z kategorie
   const tags = m.kategorie.map(id => {
     const k = katById(id);
-    return k ? `<span class="tag">${k.nazov}</span>` : "";
+    if (!k) return "";
+    return `<span class="card-tag" style="background:${k.farba}18;color:${k.farba};border-color:${k.farba}33">${k.nazov}</span>`;
   }).join("");
-  const img = m.cover
-    ? `<img src="${m.cover}" alt="${m.nazov}" loading="lazy">`
-    : `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-         <path d="M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h3v3h-3zM19 14h2v2h-2zM14 19h2v2h-2zM19 19h2v2h-2z"/>
-       </svg>`;
-  return `<a class="card" href="kategoria.html?id=${m.id}">
-    <div class="thumb">${img}</div>
-    <div class="body"><h3>${m.nazov}</h3><div class="tags">${tags}</div></div>
+
+  // Farba ikonky = farba primárnej kategórie
+  // Pozadie: 15% opacity farby, ikona plnou farbou
+  return `<a class="place-card" href="kategoria.html?id=${m.id}">
+    <div class="card-photo">
+      <img src="${photo}" alt="${m.nazov}" loading="lazy">
+      <span class="card-cat-icon" style="background:${farba};border:none">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"
+             stroke-linecap="round" stroke-linejoin="round">${icon}</svg>
+      </span>
+    </div>
+    <div class="card-body">
+      <h3>${m.nazov}</h3>
+      <div class="card-footer">
+        <div class="card-tags">${tags}</div>
+        <span class="card-arrow">→</span>
+      </div>
+    </div>
   </a>`;
 }
 
@@ -145,18 +168,27 @@ let showAll = false;
 const CARDS_PER_PAGE = 12;
 
 function cardHTML(m) {
-  const katObj = DB.kategorie.find(k => k.id === m.primarna) || {};
-  const icon = KAT_ICONS[m.primarna] || KAT_ICONS["mesta"];
-  const photo = PLACE_PHOTOS[m.id] || `https://source.unsplash.com/800x500/?slovakia,landscape`;
+  const katObj = katById(m.primarna) || {};
+  const farba  = katObj.farba || "#2E5B41";
+  const icon   = (typeof KAT_ICONS !== "undefined" && KAT_ICONS[m.primarna]) || KAT_ICONS["mesta"] || "";
+  const photo  = (typeof PLACE_PHOTOS !== "undefined" && PLACE_PHOTOS[m.id])
+    || "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80";
+
+  // Farebne taby – farba z kategorie
   const tags = m.kategorie.map(id => {
-    const k = DB.kategorie.find(x => x.id === id);
-    return k ? `<span class="card-tag" style="--tc:${k.farba}">${k.nazov}</span>` : "";
+    const k = katById(id);
+    if (!k) return "";
+    return `<span class="card-tag" style="background:${k.farba}18;color:${k.farba};border-color:${k.farba}33">${k.nazov}</span>`;
   }).join("");
+
+  // Farba ikonky = farba primárnej kategórie
+  // Pozadie: 15% opacity farby, ikona plnou farbou
   return `<a class="place-card" href="kategoria.html?id=${m.id}">
     <div class="card-photo">
       <img src="${photo}" alt="${m.nazov}" loading="lazy">
-      <span class="card-cat-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">${icon}</svg>
+      <span class="card-cat-icon" style="background:${farba};border:none">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"
+             stroke-linecap="round" stroke-linejoin="round">${icon}</svg>
       </span>
     </div>
     <div class="card-body">
