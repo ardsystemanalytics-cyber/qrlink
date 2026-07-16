@@ -18,6 +18,33 @@
    - texty označené [DOPLNIŤ] sú zatiaľ prázdne – čakajú na obsah
    ===================================================================== */
 
+// Geograficky kalibrované % súradnice pinov na obrázku mapy
+const PIN_COORDS = {
+  "bratislava-ivanka": [13.49, 77.37],
+  "betliar": [62.62, 52.6],
+  "euroregion-beskydy": [35.72, 13.62],
+  "frydlant": [30.18, 9.4],
+  "kraj-rusinov": [83.55, 24.86],
+  "knm": [36.67, 23.45],
+  "porabka": [42.9, 9.75],
+  "presov": [73.6, 38.03],
+  "roznov": [26.89, 15.55],
+  "ruzomberok": [44.37, 34.16],
+  "sokolovce": [22.66, 60.86],
+  "trebisov": [80.87, 55.94],
+  "turzovka": [34.16, 18.54],
+  "vranov": [80.26, 43.3],
+  "hrad-strecno": [37.79, 29.42],
+  "cierne-klacany": [30.96, 69.11],
+  "klenoty-pohranicie": [28.8, 20.64],
+  "cestovatelsky-dennik": [27.93, 25.03],
+  "nch-pohranicie": [32.26, 16.25],
+  "nch-hlinene": [33.55, 19.76],
+  "nch-zivcakova": [33.12, 17.13],
+  "gabcikovo": [13.05, 85.09],
+  "zvonica-hrusove": [21.44, 48.21],
+};
+
 const DB = {
 
   /* ------------------------------------------------ 1. KATEGÓRIE --- */
