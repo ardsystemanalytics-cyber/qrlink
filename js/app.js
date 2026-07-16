@@ -111,7 +111,7 @@ function renderCards() {
 
 function initSearch() {
   const inp = Q("#searchInput");
-  if (!inp) return;
+  if (!inp) return; // pole bolo odstrânené z UI
   inp.addEventListener("input", () => {
     hladanyText = inp.value.trim().toLowerCase();
     renderCards();
