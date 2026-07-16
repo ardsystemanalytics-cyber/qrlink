@@ -261,7 +261,7 @@ a { color: var(--pine); }
 .map-legend i { width: 11px; height: 11px; border-radius: 50%; display: inline-block; }
 
 /* ------------------------------------------------------- FILTRE --- */
-.filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 26px 0 6px; }
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 26px 0 26px; }
 .chip {
   font-family: var(--f-mono); font-size: 13px; font-weight: 600;
   padding: 8px 16px; border-radius: 999px; cursor: pointer;
