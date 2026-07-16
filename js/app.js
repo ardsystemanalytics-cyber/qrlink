@@ -9,41 +9,40 @@ const param = (k) => new URLSearchParams(location.search).get(k);
 const katById = (id) => DB.kategorie.find(k => k.id === id);
 const miestoById = (id) => DB.miesta.find(m => m.id === id);
 
+/* ---------------------------------------------------- mapa (img) --- */
+function renderMap() {
+  const host = Q("#mapDots");
+  if (!host) return;
+
+  // Súradnice zodpovedajú pôvodnému SVG viewBoxu (x:19–1003, y:0–512)
+  // Mapa je background-image na .map-panel: size=92% width, position=center 54%
+  // Piny renderujeme v % relatívne k .mapa-dots-layer (left:4%..right:4% panelu)
+  // => x% z obrázka = priamo x% z vrstvy dots (lebo vrstva = 92% panelu = šírka obr.)
+  // => y% z obrázka treba prepočítať cez výšku vrstvy vs. výšku bg obrázka
+
+  const X_MIN = 19, X_MAX = 1003, Y_MIN = 0, Y_MAX = 512;
+
+  DB.miesta.forEach(m => {
+    const kat = katById(m.primarna);
+    const pctX = ((m.mapX - X_MIN) / (X_MAX - X_MIN) * 100).toFixed(2);
+    const pctY = ((m.mapY - Y_MIN) / (Y_MAX - Y_MIN) * 100).toFixed(2);
+    const farba = kat ? kat.farba : "#2E5B41";
+
+    const btn = document.createElement("button");
+    btn.className = "map-pin";
+    btn.dataset.id = m.id;
+    btn.setAttribute("aria-label", m.nazov);
+    btn.style.cssText = `left:${pctX}%;top:${pctY}%;--pin-color:${farba}`;
+    btn.innerHTML = `<span class="pin-dot"></span><span class="pin-label">${m.nazov}</span>`;
+    btn.addEventListener("click", () => location.href = `kategoria.html?id=${m.id}`);
+    host.appendChild(btn);
+  });
+}
+
 /* ---------------------------------------------------- hlavička ---- */
 function initNav() {
   const t = Q(".nav-toggle");
   if (t) t.addEventListener("click", () => Q(".nav").classList.toggle("open"));
-}
-
-/* ------------------------------------------------- mapa (index) --- */
-function renderMap() {
-  const host = Q("#mapDots");
-  if (!host) return;
-  DB.miesta.forEach(m => {
-    const kat = katById(m.primarna);
-    const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
-    g.setAttribute("class", "map-dot");
-    g.setAttribute("tabindex", "0");
-    g.setAttribute("role", "link");
-    g.setAttribute("aria-label", m.nazov);
-    g.dataset.id = m.id;
-    g.innerHTML = `
-      <circle cx="${m.mapX}" cy="${m.mapY}" fill="${kat ? kat.farba : "#1F5B41"}"></circle>
-      <text x="${m.mapX + 14}" y="${m.mapY + 5}">${m.nazov}</text>`;
-    const go = () => location.href = `kategoria.html?id=${m.id}`;
-    g.addEventListener("click", go);
-    g.addEventListener("keydown", e => { if (e.key === "Enter") go(); });
-    host.appendChild(g);
-  });
-
-  const legend = Q("#mapLegend");
-  if (legend) {
-    DB.kategorie.forEach(k => {
-      const s = document.createElement("span");
-      s.innerHTML = `<i style="background:${k.farba}"></i>${k.nazov}`;
-      legend.appendChild(s);
-    });
-  }
 }
 
 /* ------------------------------------------- filtre + karty ------- */
@@ -103,8 +102,8 @@ function renderCards() {
   if (cnt) cnt.textContent = `${list.length} miest`;
 
   /* stlmenie bodov na mape, ktoré nevyhovujú filtru/hľadaniu */
-  QA(".map-dot").forEach(d => {
-    const m = miestoById(d.dataset.id);
+  QA(".map-pin").forEach(d => {
+    const m = miestoById(d.dataset.id); // pin
     d.classList.toggle("dim", m ? !vyhovuje(m) : false);
   });
 }
