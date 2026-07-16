@@ -18,40 +18,40 @@
    - texty označené [DOPLNIŤ] sú zatiaľ prázdne – čakajú na obsah
    ===================================================================== */
 
-// Fotky miest – Unsplash CDN (voľné na použitie)
+// Fotky miest
 const PLACE_PHOTOS = {
-  "bratislava-ivanka": "https://source.unsplash.com/800x500/?castle,slovakia,river",
-  "betliar": "https://source.unsplash.com/800x500/?manor,castle,forest",
-  "euroregion-beskydy": "https://source.unsplash.com/800x500/?mountains,beskydy,landscape",
-  "frydlant": "https://source.unsplash.com/800x500/?gothic,castle,czech",
-  "kraj-rusinov": "https://source.unsplash.com/800x500/?museum,art,eastern-europe",
-  "knm": "https://source.unsplash.com/800x500/?town,river,slovakia",
-  "porabka": "https://source.unsplash.com/800x500/?lake,dam,mountains",
-  "presov": "https://source.unsplash.com/800x500/?baroque,square,slovakia",
-  "roznov": "https://source.unsplash.com/800x500/?open-air,museum,wooden",
-  "ruzomberok": "https://source.unsplash.com/800x500/?valley,mountains,liptov",
-  "sokolovce": "https://source.unsplash.com/800x500/?windmill,village,slovakia",
-  "trebisov": "https://source.unsplash.com/800x500/?ruins,castle,zemplin",
-  "turzovka": "https://source.unsplash.com/800x500/?pilgrimage,church,hills",
-  "vranov": "https://source.unsplash.com/800x500/?town,topla,eastern",
-  "hrad-strecno": "https://source.unsplash.com/800x500/?medieval,castle,vah,river",
-  "cierne-klacany": "https://source.unsplash.com/800x500/?romanesque,church,village",
-  "klenoty-pohranicie": "https://source.unsplash.com/800x500/?borderland,nature,path",
-  "cestovatelsky-dennik": "https://source.unsplash.com/800x500/?travel,diary,landscape",
-  "nch-pohranicie": "https://source.unsplash.com/800x500/?trail,forest,nature",
-  "nch-hlinene": "https://source.unsplash.com/800x500/?hiking,trail,forest",
-  "nch-zivcakova": "https://source.unsplash.com/800x500/?pilgrimage,path,nature",
-  "gabcikovo": "https://source.unsplash.com/800x500/?dam,danube,power",
-  "zvonica-hrusove": "https://source.unsplash.com/800x500/?bell,tower,village",
+  "bratislava-ivanka":    "assets/images/places/bratislava-ivanka.jpg",
+  "betliar":              "assets/images/places/betliar.jpg",
+  "euroregion-beskydy":   "assets/images/places/euroregion-beskydy.jpg",
+  "frydlant":             "assets/images/places/frydlant.jpg",
+  "kraj-rusinov":         "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+  "knm":                  "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&q=80",
+  "porabka":              "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800&q=80",
+  "presov":               "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?w=800&q=80",
+  "roznov":               "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80",
+  "ruzomberok":           "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+  "sokolovce":            "https://images.unsplash.com/photo-1599598425947-5202edd56bdb?w=800&q=80",
+  "trebisov":             "https://images.unsplash.com/photo-1589553416260-f586c8f1514f?w=800&q=80",
+  "turzovka":             "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+  "vranov":               "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=800&q=80",
+  "hrad-strecno":         "https://images.unsplash.com/photo-1589553416260-f586c8f1514f?w=800&q=80",
+  "cierne-klacany":       "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80",
+  "klenoty-pohranicie":   "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+  "cestovatelsky-dennik": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+  "nch-pohranicie":       "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+  "nch-hlinene":          "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+  "nch-zivcakova":        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+  "gabcikovo":            "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+  "zvonica-hrusove":      "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80",
 };
 
-// SVG path ikony kategórií
+// SVG ikonky kategórií – line štýl podľa dizajnu
 const KAT_ICONS = {
-  "mesta": `<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>`,
-  "pamiatky": `<path d="M6 3h12l3 9H3L6 3z"/><path d="M3 12h18v9H3z"/><path d="M9 21V12m6 9V12"/>`,
-  "chodniky": `<path d="M3 17l6-6 4 4 8-10"/><circle cx="19" cy="5" r="2"/>`,
-  "enviro": `<path d="M12 2a9 9 0 0 0-9 9c0 4 2.5 7.5 6 8.5V22h6v-2.5c3.5-1 6-4.5 6-8.5a9 9 0 0 0-9-9z"/>`,
-  "pohranicie": `<circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>`,
+  "mesta": `<rect x="3" y="10" width="18" height="11" rx="1"/><path d="M7 10V7a5 5 0 0 1 10 0v3"/><line x1="12" y1="14" x2="12" y2="17"/><rect x="9" y="14" width="6" height="7" rx="1"/>`,
+  "pamiatky": `<path d="M6 7h12M4 11h16M2 15h20"/><rect x="5" y="15" width="3" height="6"/><rect x="10.5" y="15" width="3" height="6"/><rect x="16" y="15" width="3" height="6"/><path d="M3 21h18"/>`,
+  "chodniky": `<path d="M3 20c3-3 6-5 9-5s6 2 9 5"/><circle cx="8" cy="10" r="2"/><path d="M8 8V5M5 11l3-1 3 1"/>`,
+  "enviro": `<path d="M12 22V12"/><path d="M12 12C12 7 7 4 3 6c0 4 3 7 9 6"/><path d="M12 12c0-5 5-8 9-6-1 4-4 7-9 6"/>`,
+  "pohranicie": `<circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>`,
 };
 
 const DB = {

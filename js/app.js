@@ -52,23 +52,31 @@ let aktivnyFilter = "vsetko";
 function renderFilters() {
   const host = Q("#filters");
   if (!host) return;
-  const chips = [{ id: "vsetko", nazov: "Všetko", farba: null, icon: null }, ...DB.kategorie];
+  // Zisti ci sme v sekcii miesta (pod nadpisom Kam sa vyberieme)
+  const isMiestaSection = host.closest("#miesta") !== null;
+  const chips = [{ id: "vsetko", nazov: "Všetko", farba: null }, ...DB.kategorie];
   chips.forEach(k => {
     const b = document.createElement("button");
     b.className = "chip" + (k.id === aktivnyFilter ? " active" : "");
-    let inner = "";
     if (k.id === "vsetko") {
-      inner = "Všetko";
+      b.textContent = "Všetko";
+    } else if (isMiestaSection && typeof KAT_ICONS !== "undefined" && KAT_ICONS[k.id]) {
+      // Sekcia "Kam sa vyberieme?" – ikonky
+      b.innerHTML = `<span class="chip-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">${KAT_ICONS[k.id]}</svg></span>${k.nazov}`;
     } else {
-      const icon = KAT_ICONS[k.id] || "";
-      inner = `<span class="chip-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">${icon}</svg></span>${k.nazov}`;
+      // Sekcia mapy – farebné bodky
+      b.innerHTML = `<i style="width:9px;height:9px;border-radius:50%;background:${k.farba};display:inline-block;margin-right:4px"></i>${k.nazov}`;
     }
-    b.innerHTML = inner;
     b.addEventListener("click", () => {
       aktivnyFilter = k.id;
       QA(".chip", host).forEach(c => c.classList.remove("active"));
       b.classList.add("active");
       renderCards();
+      // Ak je aj mapa, aktualizuj aj piny
+      QA(".map-dot").forEach(d => {
+        const m = miestoById(d.dataset.id);
+        d.classList.toggle("dim", m ? !vyhovuje(m) : false);
+      });
     });
     host.appendChild(b);
   });
