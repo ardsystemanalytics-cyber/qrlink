@@ -273,42 +273,18 @@ a { color: var(--pine); }
 .chip.active { background: var(--grad); border-color: transparent; color: #fff; }
 
 /* --------------------------------------------------------- GRID --- */
-.grid {
-  display: grid; gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
-  padding: 20px 0 60px;
-}
-.card {
-  position: relative;
-  background: var(--card); border: 1px solid var(--line);
-  border-radius: var(--radius); overflow: hidden;
-  text-decoration: none; color: var(--ink);
-  display: flex; flex-direction: column;
-  transition: transform .18s, box-shadow .18s, border-color .18s;
-}
-.card:hover { transform: translateY(-4px); box-shadow: var(--shadow); border-color: var(--pine); }
-.card .thumb {
-  aspect-ratio: 16/10; background: var(--paper-deep);
-  display: flex; align-items: center; justify-content: center;
-  overflow: hidden;
-}
-.card .thumb img { width: 100%; height: 100%; object-fit: cover; }
-.card .thumb svg { width: 46px; height: 46px; opacity: .35; }
-.card .body { padding: 16px 18px 18px; }
-.card h3 {
-  font-family: var(--f-display); font-weight: 600; font-size: 19px;
-  line-height: 1.25; margin: 0 0 8px; letter-spacing: -.01em;
-}
-.card .tags { display: flex; flex-wrap: wrap; gap: 6px; }
-.card .tag {
-  font-family: var(--f-mono); font-size: 11px; font-weight: 600;
-  padding: 3px 9px; border-radius: 999px;
-  background: var(--paper); border: 1px solid var(--line); color: var(--ink-soft);
-}
 
-.section-head {
-  display: flex; align-items: baseline; gap: 16px; margin-top: 44px;
-}
+
+
+
+
+
+
+
+
+
+
+
 .section-head h2 {
   font-family: var(--f-display); font-weight: 800; font-size: 28px;
   letter-spacing: -.02em; margin: 0;
@@ -495,3 +471,106 @@ a { color: var(--pine); }
 
 /* prístupnosť */
 :focus-visible { outline: 3px solid var(--berry); outline-offset: 2px; }
+
+/* ================================================= SEKCIA MIESTA === */
+.places-head { margin: 52px 0 6px; }
+.places-head h2 {
+  font-family: var(--f-display); font-weight: 700;
+  font-size: clamp(28px, 3.5vw, 40px); letter-spacing: -.02em;
+  margin: 0 0 8px; color: var(--ink);
+}
+.places-sub { color: var(--ink-soft); margin: 0 0 24px; font-size: 15px; }
+
+/* filtre s ikonkami */
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 28px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 7px;
+  font-family: var(--f-body); font-size: 14px; font-weight: 600;
+  padding: 9px 18px; border-radius: 999px; cursor: pointer;
+  background: var(--card); color: var(--ink);
+  border: 1.5px solid var(--line);
+  transition: all .15s;
+}
+.chip:hover { border-color: var(--pine); color: var(--pine); }
+.chip.active { background: var(--pine); border-color: var(--pine); color: #fff; }
+.chip-icon { width: 18px; height: 18px; display: flex; align-items: center; }
+.chip-icon svg { width: 18px; height: 18px; }
+
+/* grid kariet */
+.places-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+@media (max-width: 1000px) { .places-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 700px)  { .places-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 460px)  { .places-grid { grid-template-columns: 1fr; } }
+
+/* karta miesta */
+.place-card {
+  background: var(--card); border-radius: 18px;
+  overflow: hidden; text-decoration: none; color: var(--ink);
+  border: 1px solid var(--line);
+  display: flex; flex-direction: column;
+  transition: transform .18s, box-shadow .18s;
+}
+.place-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+
+.card-photo {
+  position: relative; aspect-ratio: 4/3; overflow: hidden;
+  background: var(--paper-deep);
+}
+.card-photo img {
+  width: 100%; height: 100%; object-fit: cover; display: block;
+  transition: transform .35s;
+}
+.place-card:hover .card-photo img { transform: scale(1.04); }
+
+.card-cat-icon {
+  position: absolute; top: 12px; left: 12px;
+  width: 38px; height: 38px; border-radius: 50%;
+  background: rgba(255,255,255,.92); backdrop-filter: blur(4px);
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,.12);
+}
+.card-cat-icon svg { width: 18px; height: 18px; color: var(--ink); }
+
+.card-body {
+  padding: 14px 16px 16px;
+  display: flex; flex-direction: column; flex: 1;
+}
+.card-body h3 {
+  font-family: var(--f-display); font-weight: 600; font-size: 17px;
+  margin: 0 0 10px; line-height: 1.25; letter-spacing: -.01em;
+}
+.card-footer {
+  display: flex; align-items: flex-end;
+  justify-content: space-between; gap: 8px;
+  margin-top: auto;
+}
+.card-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+.card-tag {
+  font-size: 11.5px; font-weight: 600; padding: 3px 9px;
+  border-radius: 999px; background: var(--paper);
+  color: var(--ink-soft); border: 1px solid var(--line);
+}
+.card-arrow {
+  flex: 0 0 auto; width: 32px; height: 32px; border-radius: 50%;
+  background: var(--paper); border: 1px solid var(--line);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 15px; color: var(--pine);
+  transition: background .15s;
+}
+.place-card:hover .card-arrow { background: var(--pine); color: #fff; border-color: var(--pine); }
+
+/* more button */
+.more-wrap { display: flex; justify-content: center; margin: 36px 0 60px; }
+.more-btn {
+  display: flex; align-items: center; gap: 10px;
+  font-family: var(--f-body); font-size: 15px; font-weight: 600;
+  padding: 14px 32px; border-radius: 999px;
+  background: var(--card); border: 1.5px solid var(--line);
+  color: var(--ink); cursor: pointer;
+  transition: all .15s;
+}
+.more-btn:hover { border-color: var(--pine); color: var(--pine); }

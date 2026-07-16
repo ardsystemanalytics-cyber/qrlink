@@ -52,11 +52,18 @@ let aktivnyFilter = "vsetko";
 function renderFilters() {
   const host = Q("#filters");
   if (!host) return;
-  const chips = [{ id: "vsetko", nazov: "Všetky kategórie", farba: null }, ...DB.kategorie];
+  const chips = [{ id: "vsetko", nazov: "Všetko", farba: null, icon: null }, ...DB.kategorie];
   chips.forEach(k => {
     const b = document.createElement("button");
     b.className = "chip" + (k.id === aktivnyFilter ? " active" : "");
-    b.innerHTML = (k.farba ? `<i style="background:${k.farba}"></i>` : "") + k.nazov;
+    let inner = "";
+    if (k.id === "vsetko") {
+      inner = "Všetko";
+    } else {
+      const icon = KAT_ICONS[k.id] || "";
+      inner = `<span class="chip-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">${icon}</svg></span>${k.nazov}`;
+    }
+    b.innerHTML = inner;
     b.addEventListener("click", () => {
       aktivnyFilter = k.id;
       QA(".chip", host).forEach(c => c.classList.remove("active"));
@@ -93,20 +100,48 @@ function vyhovuje(m) {
   return vKategorii && vHladani;
 }
 
+let showAll = false;
+const CARDS_PER_PAGE = 12;
+
+function cardHTML(m) {
+  const katObj = DB.kategorie.find(k => k.id === m.primarna) || {};
+  const icon = KAT_ICONS[m.primarna] || KAT_ICONS["mesta"];
+  const photo = PLACE_PHOTOS[m.id] || `https://source.unsplash.com/800x500/?slovakia,landscape`;
+  const tags = m.kategorie.map(id => {
+    const k = DB.kategorie.find(x => x.id === id);
+    return k ? `<span class="card-tag" style="--tc:${k.farba}">${k.nazov}</span>` : "";
+  }).join("");
+  return `<a class="place-card" href="kategoria.html?id=${m.id}">
+    <div class="card-photo">
+      <img src="${photo}" alt="${m.nazov}" loading="lazy">
+      <span class="card-cat-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">${icon}</svg>
+      </span>
+    </div>
+    <div class="card-body">
+      <h3>${m.nazov}</h3>
+      <div class="card-footer">
+        <div class="card-tags">${tags}</div>
+        <span class="card-arrow">→</span>
+      </div>
+    </div>
+  </a>`;
+}
+
 function renderCards() {
   const host = Q("#cards");
+  const moreBtn = Q("#moreBtn");
   if (!host) return;
-  const list = DB.miesta.filter(vyhovuje);
-  host.innerHTML = list.map(cardHTML).join("") ||
-    `<p style="grid-column:1/-1;color:var(--ink-soft)">Nenašli sme žiadne miesto – skúste iný výraz alebo kategóriu.</p>`;
+  const list = DB.miesta.filter(m =>
+    m.mapX !== undefined && (aktivnyFilter === "vsetko" || m.kategorie.includes(aktivnyFilter)));
+  const visible = showAll ? list : list.slice(0, CARDS_PER_PAGE);
+  host.innerHTML = visible.map(cardHTML).join("") ||
+    `<p style="grid-column:1/-1;color:var(--ink-soft)">Žiadne miesta pre túto kategóriu.</p>`;
   const cnt = Q("#cardCount");
   if (cnt) cnt.textContent = `${list.length} miest`;
-
-  /* stlmenie bodov na mape, ktoré nevyhovujú filtru/hľadaniu */
-  QA(".map-dot").forEach(d => {
-    const m = miestoById(d.dataset.id);
-    d.classList.toggle("dim", m ? !vyhovuje(m) : false);
-  });
+  if (moreBtn) {
+    moreBtn.style.display = list.length > CARDS_PER_PAGE && !showAll ? "flex" : "none";
+  }
 }
 
 function initSearch() {

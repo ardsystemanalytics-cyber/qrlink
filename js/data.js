@@ -18,6 +18,42 @@
    - texty označené [DOPLNIŤ] sú zatiaľ prázdne – čakajú na obsah
    ===================================================================== */
 
+// Fotky miest – Unsplash CDN (voľné na použitie)
+const PLACE_PHOTOS = {
+  "bratislava-ivanka": "https://source.unsplash.com/800x500/?castle,slovakia,river",
+  "betliar": "https://source.unsplash.com/800x500/?manor,castle,forest",
+  "euroregion-beskydy": "https://source.unsplash.com/800x500/?mountains,beskydy,landscape",
+  "frydlant": "https://source.unsplash.com/800x500/?gothic,castle,czech",
+  "kraj-rusinov": "https://source.unsplash.com/800x500/?museum,art,eastern-europe",
+  "knm": "https://source.unsplash.com/800x500/?town,river,slovakia",
+  "porabka": "https://source.unsplash.com/800x500/?lake,dam,mountains",
+  "presov": "https://source.unsplash.com/800x500/?baroque,square,slovakia",
+  "roznov": "https://source.unsplash.com/800x500/?open-air,museum,wooden",
+  "ruzomberok": "https://source.unsplash.com/800x500/?valley,mountains,liptov",
+  "sokolovce": "https://source.unsplash.com/800x500/?windmill,village,slovakia",
+  "trebisov": "https://source.unsplash.com/800x500/?ruins,castle,zemplin",
+  "turzovka": "https://source.unsplash.com/800x500/?pilgrimage,church,hills",
+  "vranov": "https://source.unsplash.com/800x500/?town,topla,eastern",
+  "hrad-strecno": "https://source.unsplash.com/800x500/?medieval,castle,vah,river",
+  "cierne-klacany": "https://source.unsplash.com/800x500/?romanesque,church,village",
+  "klenoty-pohranicie": "https://source.unsplash.com/800x500/?borderland,nature,path",
+  "cestovatelsky-dennik": "https://source.unsplash.com/800x500/?travel,diary,landscape",
+  "nch-pohranicie": "https://source.unsplash.com/800x500/?trail,forest,nature",
+  "nch-hlinene": "https://source.unsplash.com/800x500/?hiking,trail,forest",
+  "nch-zivcakova": "https://source.unsplash.com/800x500/?pilgrimage,path,nature",
+  "gabcikovo": "https://source.unsplash.com/800x500/?dam,danube,power",
+  "zvonica-hrusove": "https://source.unsplash.com/800x500/?bell,tower,village",
+};
+
+// SVG path ikony kategórií
+const KAT_ICONS = {
+  "mesta": `<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>`,
+  "pamiatky": `<path d="M6 3h12l3 9H3L6 3z"/><path d="M3 12h18v9H3z"/><path d="M9 21V12m6 9V12"/>`,
+  "chodniky": `<path d="M3 17l6-6 4 4 8-10"/><circle cx="19" cy="5" r="2"/>`,
+  "enviro": `<path d="M12 2a9 9 0 0 0-9 9c0 4 2.5 7.5 6 8.5V22h6v-2.5c3.5-1 6-4.5 6-8.5a9 9 0 0 0-9-9z"/>`,
+  "pohranicie": `<circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>`,
+};
+
 const DB = {
 
   /* ------------------------------------------------ 1. KATEGÓRIE --- */

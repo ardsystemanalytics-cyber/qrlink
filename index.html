@@ -152,11 +152,20 @@
   </section>
 
   <section class="wrap" id="miesta">
-    <div class="section-head">
+    <div class="places-head">
       <h2>Kam sa vyberieme?</h2>
-      <span class="count" id="cardCount"></span>
+      <p class="places-sub">Objavujte miesta, hrady a náučné chodníky na príbehy po celom Slovensku.</p>
     </div>
-    <div class="grid" id="cards"></div>
+    <div class="filters" id="filters"></div>
+    <div class="places-grid" id="cards"></div>
+    <div class="more-wrap">
+      <button class="more-btn" id="moreBtn" onclick="showAll=true;renderCards()" style="display:none">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+          <circle cx="12" cy="12" r="10"/><path d="M8 12h8M12 8l4 4-4 4"/>
+        </svg>
+        Zobraziť ďalšie miesta
+      </button>
+    </div>
   </section>
 </main>
 
