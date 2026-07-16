@@ -58,11 +58,11 @@ const DB = {
 
   /* ------------------------------------------------ 1. KATEGÓRIE --- */
   kategorie: [
-    { id: "mesta",     nazov: "Mestá",                                  farba: "#75D2C7" },
-    { id: "pamiatky",  nazov: "Pamiatky",                               farba: "#E57466" },
-    { id: "chodniky",  nazov: "Náučné chodníky",                        farba: "#F8CB4C" },
-    { id: "enviro",    nazov: "Environmentálna výchova a vzdelávanie",  farba: "#4C97D0" },
-    { id: "pohranicie", nazov: "Česko-slovenské pohraničie",            farba: "#A092DD" }
+    { id: "mesta",     nazov: "Mestá",                                  farba: "#2E5B41" },
+    { id: "pamiatky",  nazov: "Pamiatky",                               farba: "#C34A3A" },
+    { id: "chodniky",  nazov: "Náučné chodníky",                        farba: "#D9A441" },
+    { id: "enviro",    nazov: "Environmentálna výchova a vzdelávanie",  farba: "#3A6EA5" },
+    { id: "pohranicie", nazov: "Česko-slovenské pohraničie",            farba: "#7A5C8C" }
   ],
 
   /* --------------------------------------------------- 2. MIESTA --- */
