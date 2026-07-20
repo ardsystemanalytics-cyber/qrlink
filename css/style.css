@@ -642,7 +642,7 @@ a { color: var(--pine); }
 
 /* ===== PATIČKA ===== */
 .site-footer {
-  background: var(--paper-deep);
+  background: #ffffff;
   border-top: 1px solid var(--line);
   margin-top: 40px;
 }
