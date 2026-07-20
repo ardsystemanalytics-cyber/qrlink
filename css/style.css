@@ -188,7 +188,6 @@ a { color: var(--pine); }
 .chip i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 7px; vertical-align: baseline; }
 
 .map-stats {
-  z-index: 1000;
   display: flex; flex-wrap: wrap; gap: 10px 34px;
   justify-content: center;
   background: var(--card); border: 1px solid var(--line);
@@ -456,7 +455,18 @@ a { color: var(--pine); }
 .contact-card .mono { font-family: var(--f-mono); font-size: 14px; }
 
 /* -------------------------------------------------------- PÄTKA --- */
-
+.site-footer {
+  border-top: 1px solid var(--line);
+  background: var(--paper-deep);
+  padding: 26px 0; margin-top: 20px;
+}
+.site-footer .wrap {
+  display: flex; flex-wrap: wrap; gap: 10px 24px;
+  align-items: center; justify-content: space-between;
+  font-size: 14px; color: var(--ink-soft);
+}
+.site-footer a { color: var(--pine); text-decoration: none; }
+.footer-logo img { height: 32px; width: auto; }
 .contact-logo { height: 42px; width: auto; margin-bottom: 16px; }
 
 /* prístupnosť */
@@ -493,10 +503,10 @@ a { color: var(--pine); }
 /* grid kariet */
 .places-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
-@media (max-width: 1000px) { .places-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 1000px) { .places-grid { grid-template-columns: repeat(4, 1fr); } }
 @media (max-width: 700px)  { .places-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 460px)  { .places-grid { grid-template-columns: 1fr; } }
 
@@ -549,14 +559,7 @@ a { color: var(--pine); }
 
 /* more button */
 .more-wrap { display: flex; justify-content: center; margin: 36px 0 60px; }
-.more-btn {
-  display: flex; align-items: center; gap: 10px;
-  font-family: var(--f-body); font-size: 15px; font-weight: 600;
-  padding: 14px 32px; border-radius: 999px;
-  background: var(--card); border: 1.5px solid var(--line);
-  color: var(--ink); cursor: pointer;
-  transition: all .15s;
-}
+
 .more-btn:hover { border-color: var(--pine); color: var(--pine); }
 
 /* farebný krúžok s ikonkou vo filtroch */
@@ -585,10 +588,111 @@ a { color: var(--pine); }
 
 /* ================================================= PATIČKA === */
 /* ================================================= PATIČKA === */
-
+.site-footer {
+  background: var(--paper-deep);
+  border-top: 1px solid var(--line);
+  margin-top: 40px;
+}
 
 /* Horná časť – 4 rovnaké stĺpce */
+.footer-benefits {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0 48px;
+  padding: 36px 0 32px;
+  border-bottom: 1px solid var(--line);
+  align-items: start;
+}
+@media (max-width: 900px) {
+  .footer-benefits { grid-template-columns: 1fr 1fr; gap: 28px 32px; }
+}
+@media (max-width: 560px) {
+  .footer-benefits { grid-template-columns: 1fr; gap: 22px; }
+}
 
+.footer-benefit {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+/* Ikonka – väčšia, tenká, modrá (outline only) */
+.footer-benefit svg {
+  width: 46px;
+  height: 46px;
+  flex-shrink: 0;
+  stroke: #4E7FAE;
+  stroke-width: 1.4;
+  fill: none;
+  color: #4E7FAE;
+  margin-top: 0;
+}
+.footer-benefit strong {
+  display: block;
+  font-family: var(--f-display);
+  font-weight: 700;
+  font-size: 14.5px;
+  margin-bottom: 4px;
+  color: var(--ink);
+  letter-spacing: -.01em;
+}
+.footer-benefit p {
+  margin: 0;
+  font-size: 12.5px;
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+
+/* 4. stĺpec – QR LINK + sociálne siete */
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+.footer-social > span {
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--ink-soft);
+}
+.social-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 2px;
+}
+.social-links a {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: transparent;
+  border: 1.5px solid var(--ink-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ink);
+  text-decoration: none;
+  transition: border-color .15s, color .15s;
+}
+.social-links a:hover {
+  border-color: var(--pine);
+  color: var(--pine);
+}
+
+/* Dolná časť – logo + copyright */
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 24px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  font-size: 13px;
+  color: var(--ink-soft);
+}
+.footer-bottom .footer-logo img,
+.footer-logo img { height: 42px; width: auto; display: block; }
+.logo img { height: 42px; width: auto; display: block; }
 
 /* ------------------------------------------- LEAFLET MAPA --- */
 .mapa-section { padding: 0 0 48px; }
@@ -639,57 +743,19 @@ a { color: var(--pine); }
   margin-right: auto;
 }
 
-
-/* ===== PATIČKA ===== */
-.site-footer {
-  background: var(--paper-deep);
-  border-top: 1px solid var(--line);
-  margin-top: 40px;
+/* Zobraziť ďalšie miesta – outline pill */
+.more-wrap { display: flex; justify-content: center; margin: 32px 0 56px; }
+.more-btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-family: var(--f-body); font-size: 15px; font-weight: 500;
+  color: var(--ink);
+  background: var(--card);
+  border: 1.5px solid var(--line);
+  border-radius: 999px;
+  padding: 14px 32px;
+  cursor: pointer;
+  transition: border-color .15s, box-shadow .15s;
+  box-shadow: 0 2px 8px rgba(0,0,0,.05);
 }
-.footer-benefits {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 0 40px;
-  padding: 36px 0 32px;
-  border-bottom: 1px solid var(--line);
-  align-items: start;
-}
-@media (max-width: 900px) { .footer-benefits { grid-template-columns: 1fr 1fr; gap: 28px 32px; } }
-@media (max-width: 560px) { .footer-benefits { grid-template-columns: 1fr; gap: 22px; } }
-
-.footer-benefit { display: flex; flex-direction: row; align-items: flex-start; gap: 14px; }
-.footer-benefit svg {
-  width: 42px; height: 42px; flex-shrink: 0;
-  stroke: var(--pine); stroke-width: 1.4; fill: none;
-}
-.footer-benefit strong {
-  display: block; font-family: var(--f-display);
-  font-weight: 700; font-size: 14px;
-  margin-bottom: 4px; color: var(--ink);
-}
-.footer-benefit p { margin: 0; font-size: 12.5px; color: var(--ink-soft); line-height: 1.5; }
-
-/* Footer bottom – logo | copyright | QR LINK + sociálne */
-.footer-bottom {
-  display: flex; flex-wrap: wrap; gap: 10px 24px;
-  align-items: center; justify-content: space-between;
-  padding: 20px 0; font-size: 13px; color: var(--ink-soft);
-}
-.footer-bottom-right {
-  display: flex; align-items: center; gap: 16px;
-}
-.footer-bottom-right > span { font-size: 13px; color: var(--ink-soft); }
-.footer-bottom .footer-logo img,
-.footer-logo img { height: 42px; width: auto; display: block; }
-.logo img { height: 42px; width: auto; display: block; }
-
-/* Sociálne siete – outline kruhy v bottom liste */
-.social-links { display: flex; gap: 8px; }
-.social-links a {
-  width: 34px; height: 34px; border-radius: 50%;
-  background: transparent; border: 1.5px solid var(--line);
-  display: flex; align-items: center; justify-content: center;
-  color: var(--ink); text-decoration: none;
-  transition: border-color .15s, color .15s;
-}
-.social-links a:hover { border-color: var(--pine); color: var(--pine); }
+.more-btn:hover { border-color: var(--pine); box-shadow: 0 4px 16px rgba(0,0,0,.08); }
+.more-btn svg { opacity: .6; }
