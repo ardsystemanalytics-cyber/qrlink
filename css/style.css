@@ -111,7 +111,7 @@ a { color: var(--pine); }
 
 .hero h1 {
   font-family: var(--f-display); font-weight: 600;
-  font-size: clamp(32px, 4.2vw, 52px);
+  font-size: clamp(32px, 4.2vw, 62px);
   line-height: 1.07; letter-spacing: -.02em;
   color: var(--ink);
   margin: 0 0 18px;
