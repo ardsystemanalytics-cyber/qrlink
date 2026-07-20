@@ -193,7 +193,7 @@ a { color: var(--pine); }
   background: var(--card); border: 1px solid var(--line);
   border-radius: 18px; box-shadow: var(--shadow);
   padding: 16px 28px;
-  max-width: 720px; margin: -34px auto 6px; position: relative;
+  max-width: 720px; margin: 0 auto 16px; position: relative;
 }
 .stat { display: flex; align-items: center; gap: 12px; }
 .stat .s-icon {
