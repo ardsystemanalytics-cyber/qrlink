@@ -173,10 +173,10 @@
   </div>
 </footer>
 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="js/data.js"></script>
 <script src="js/app.js"></script>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
   // Inicializácia Leaflet mapy – spustí sa po načítaní DB z data.js
   function initLeafletMap() {
@@ -251,10 +251,22 @@
     // Filtre – skrývanie/zobrazovanie pinov
     window._mapMarkers = markers;
     window._leafletMap = map;
+
+    // Vynúti prekreslenie mapy – rieši prípad keď je kontajner skrytý pri init
+    setTimeout(() => map.invalidateSize(), 100);
+    setTimeout(() => {
+      map.invalidateSize();
+      map.fitBounds(skBounds, { padding: [20, 20] });
+    }, 300);
   }
 
   document.addEventListener("DOMContentLoaded", () => {
-    if (typeof DB !== "undefined") initLeafletMap();
+    if (typeof L !== "undefined" && typeof DB !== "undefined") {
+      initLeafletMap();
+    } else {
+      // Fallback ak skripty nestihli
+      window.addEventListener("load", initLeafletMap);
+    }
   });
   </script>
 </body>

@@ -699,7 +699,6 @@ a { color: var(--pine); }
   position: relative;
   overflow: hidden;
 }
-#leaflet-map { position: relative; z-index: 1; }
 
 /* Popup štýl */
 .leaflet-popup-content-wrapper {
@@ -732,9 +731,9 @@ a { color: var(--pine); }
 
 /* Mapa max rozmery, centrovana */
 #leaflet-map {
-  height: clamp(420px, 55vw, 800px);
-  max-width: 1180px;
-  border-radius: 0 0 var(--radius) var(--radius);
+  height: clamp(420px, 52vw, 800px);
+  position: relative;
+  z-index: 1;
 }
 .mapa-section .map-panel {
   max-width: 1180px;
