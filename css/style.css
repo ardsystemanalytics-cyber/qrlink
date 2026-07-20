@@ -699,6 +699,16 @@ a { color: var(--pine); }
   position: relative;
   overflow: hidden;
 }
+/* Fade okraje mapy do pozadia */
+.mapa-section .map-panel::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 500;
+  border-radius: var(--radius);
+  box-shadow: inset 0 0 60px 30px var(--paper);
+}
 #leaflet-map { position: relative; z-index: 1; }
 
 /* Popup štýl */
@@ -749,19 +759,4 @@ a { color: var(--pine); }
 .leaflet-marker-icon div {
   box-shadow: 0 2px 8px rgba(0,0,0,.35) !important;
   border: 3px solid #fff !important;
-}
-
-/* Fade len na mape – okraje plynulo miznú do pozadia */
-.leaflet-map-wrap {
-  position: relative;
-}
-.leaflet-map-wrap::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  z-index: 800;
-  background:
-    linear-gradient(to right,  var(--paper) 0%, transparent 8%, transparent 92%, var(--paper) 100%),
-    linear-gradient(to bottom, var(--paper) 0%, transparent 8%, transparent 92%, var(--paper) 100%);
 }
