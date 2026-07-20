@@ -6,6 +6,24 @@
   <title>QR LINK – Sprievodca, ktorý čaká na mieste</title>
   <meta name="description" content="QR LINK – digitálny sprievodca po mestách, pamiatkach a náučných chodníkoch. Naskenujte QR kód priamo na mieste a počúvajte príbeh.">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <style>
+    #leaflet-map {
+      height: 480px;
+      border-radius: 0 0 var(--radius) var(--radius);
+      overflow: hidden;
+      z-index: 1;
+    }
+    /* Vlastný štýl dlaždíc – svetlý, minimalistický */
+    .leaflet-tile-pane { filter: saturate(0.35) brightness(1.08); }
+    /* Fade na okrajoch mapy */
+    .mapa-section .map-panel { overflow: hidden; }
+    /* Zoom tlačidlá */
+    .leaflet-control-zoom a {
+      font-family: var(--f-body) !important;
+      color: var(--ink) !important;
+    }
+  </style>
 </head>
 <body>
 
@@ -65,89 +83,13 @@
     </div>
   </section>
 
-  <section class="wrap" id="mapa">
+  <section id="mapa" class="mapa-section">
     <div class="map-panel">
-      <div class="map-head">
+      <div class="map-top">
         <h2>Objavujte miesta na mape</h2>
+        <div class="filters" id="mapFilters"></div>
       </div>
-      <div class="filters" id="mapFilters"></div>
-
-      <svg viewBox="-120 -110 1250 730" role="img" aria-label="Ilustrovaná mapa Slovenska s vyznačenými miestami">
-        <defs>
-          <linearGradient id="land" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stop-color="#EAEDDA"/><stop offset="1" stop-color="#E2E7CF"/>
-          </linearGradient>
-          <radialGradient id="relief" cx=".5" cy=".42" r=".65">
-            <stop offset="0" stop-color="#B7C29A"/><stop offset=".7" stop-color="#C9D2AC" stop-opacity=".55"/>
-            <stop offset="1" stop-color="#D9DFBF" stop-opacity="0"/>
-          </radialGradient>
-          <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
-            <feGaussianBlur stdDeviation="6"/>
-          </filter>
-          <filter id="paperTex">
-            <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" result="n"/>
-            <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.45 0 0 0 0 0.5 0 0 0 0 0.38 0 0 0 .05 0"/>
-            <feComposite operator="in" in2="SourceGraphic"/>
-          </filter>
-          <symbol id="tree" viewBox="0 0 10 16" width="10" height="16">
-            <path d="M5 0 L9 9 H6.4 V13 H3.6 V9 H1 Z" fill="#8FA378"/>
-          </symbol>
-          <g id="skShape"><path d="M 26.1 398.3 C 22.3 389.1 20.1 375.2 19.2 362.3 C 18.3 349.4 20.9 335.6 20.9 320.9 C 20.9 306.1 17.8 284.4 19.2 273.8 C 20.6 263.2 24.7 266.4 29.6 257.2 C 34.5 248.0 37.5 225.4 48.8 218.5 C 60.1 211.6 84.8 215.7 97.6 215.7 C 110.4 215.7 115.8 220.3 125.4 218.5 C 135.0 216.7 145.1 213.9 155.0 204.7 C 164.9 195.5 174.2 172.4 184.7 163.2 C 195.2 154.0 210.0 160.9 217.8 149.4 C 225.6 137.9 225.6 105.1 231.7 94.0 C 237.8 82.9 247.6 89.0 254.3 83.0 C 261.0 77.0 264.0 67.3 271.8 58.1 C 279.6 48.9 288.0 33.2 301.4 27.7 C 314.8 22.2 339.1 20.3 351.9 24.9 C 364.7 29.5 368.7 50.2 378.0 55.3 C 387.3 60.4 398.3 60.8 407.6 55.3 C 416.9 49.8 425.1 31.3 433.8 22.1 C 442.5 12.9 450.9 -3.7 459.9 0.0 C 468.9 3.7 478.2 35.1 487.8 44.3 C 497.4 53.5 509.6 50.2 517.4 55.3 C 525.2 60.4 526.7 66.9 534.8 74.7 C 542.9 82.5 554.2 105.1 566.1 102.3 C 578.0 99.5 590.8 66.4 606.2 58.1 C 621.6 49.8 640.2 48.0 658.5 52.6 C 676.8 57.2 696.5 87.1 716.0 85.7 C 735.5 84.3 755.5 50.8 775.2 44.3 C 794.9 37.8 814.4 41.9 834.4 47.0 C 854.4 52.1 876.8 65.9 895.4 74.7 C 914.0 83.5 928.8 88.1 945.9 99.6 C 963.0 111.1 993.6 127.7 998.2 143.8 C 1002.9 159.9 982.2 179.3 973.8 196.4 C 965.4 213.5 955.1 231.0 947.6 246.2 C 940.1 261.4 932.5 272.9 928.5 287.7 C 924.5 302.4 936.1 324.1 923.3 334.7 C 910.5 345.3 871.5 349.9 851.8 351.3 C 832.0 352.7 830.0 353.6 804.8 343.0 C 779.5 332.4 727.9 295.1 700.3 287.7 C 672.7 280.3 655.6 284.4 639.3 298.7 C 623.0 313.0 620.1 354.9 602.7 373.4 C 585.3 391.8 558.0 406.6 534.8 409.4 C 511.6 412.2 491.0 386.8 463.4 390.0 C 435.8 393.2 391.7 409.8 369.3 428.7 C 346.9 447.6 353.0 489.6 329.2 503.4 C 305.4 517.2 257.6 511.7 226.5 511.7 C 195.4 511.7 169.2 515.4 142.8 503.4 C 116.4 491.4 84.7 454.1 67.9 439.8 C 51.1 425.5 48.8 424.6 41.8 417.7 C 34.8 410.8 29.9 407.5 26.1 398.3 Z"/></g>
-        </defs>
-
-        <!-- susedné krajiny – veľmi jemné pokračovanie mapy -->
-        <g fill="#5C6B5E">
-          <path opacity=".07" d="M -120 260 C -60 150 40 60 150 -20 C 210 -62 260 -95 320 -110 L -120 -110 Z"/>
-          <path opacity=".06" d="M 320 -110 C 500 -70 700 -60 900 -30 C 1000 -15 1070 -5 1130 10 L 1130 -110 Z"/>
-          <path opacity=".07" d="M 1130 10 C 1080 90 1050 200 1040 320 C 1035 380 1035 440 1045 500 L 1130 500 Z"/>
-          <path opacity=".06" d="M -120 620 C 100 570 380 560 640 540 C 830 526 990 520 1130 540 L 1130 620 Z"/>
-          <path opacity=".08" d="M -120 300 C -80 340 -30 400 10 470 C 40 520 60 570 70 620 L -120 620 Z"/>
-        </g>
-
-        <!-- tieň pod Slovenskom -->
-        <use href="#skShape" fill="#9AA786" opacity=".35" filter="url(#soft)" transform="translate(0 10)"/>
-
-        <!-- pevnina -->
-        <use href="#skShape" fill="url(#land)" stroke="#C7CFAF" stroke-width="2"/>
-
-        <!-- reliéf, hrebene, lesy, textúra – orezané tvarom SR -->
-        <clipPath id="skClip"><path d="M 26.1 398.3 C 22.3 389.1 20.1 375.2 19.2 362.3 C 18.3 349.4 20.9 335.6 20.9 320.9 C 20.9 306.1 17.8 284.4 19.2 273.8 C 20.6 263.2 24.7 266.4 29.6 257.2 C 34.5 248.0 37.5 225.4 48.8 218.5 C 60.1 211.6 84.8 215.7 97.6 215.7 C 110.4 215.7 115.8 220.3 125.4 218.5 C 135.0 216.7 145.1 213.9 155.0 204.7 C 164.9 195.5 174.2 172.4 184.7 163.2 C 195.2 154.0 210.0 160.9 217.8 149.4 C 225.6 137.9 225.6 105.1 231.7 94.0 C 237.8 82.9 247.6 89.0 254.3 83.0 C 261.0 77.0 264.0 67.3 271.8 58.1 C 279.6 48.9 288.0 33.2 301.4 27.7 C 314.8 22.2 339.1 20.3 351.9 24.9 C 364.7 29.5 368.7 50.2 378.0 55.3 C 387.3 60.4 398.3 60.8 407.6 55.3 C 416.9 49.8 425.1 31.3 433.8 22.1 C 442.5 12.9 450.9 -3.7 459.9 0.0 C 468.9 3.7 478.2 35.1 487.8 44.3 C 497.4 53.5 509.6 50.2 517.4 55.3 C 525.2 60.4 526.7 66.9 534.8 74.7 C 542.9 82.5 554.2 105.1 566.1 102.3 C 578.0 99.5 590.8 66.4 606.2 58.1 C 621.6 49.8 640.2 48.0 658.5 52.6 C 676.8 57.2 696.5 87.1 716.0 85.7 C 735.5 84.3 755.5 50.8 775.2 44.3 C 794.9 37.8 814.4 41.9 834.4 47.0 C 854.4 52.1 876.8 65.9 895.4 74.7 C 914.0 83.5 928.8 88.1 945.9 99.6 C 963.0 111.1 993.6 127.7 998.2 143.8 C 1002.9 159.9 982.2 179.3 973.8 196.4 C 965.4 213.5 955.1 231.0 947.6 246.2 C 940.1 261.4 932.5 272.9 928.5 287.7 C 924.5 302.4 936.1 324.1 923.3 334.7 C 910.5 345.3 871.5 349.9 851.8 351.3 C 832.0 352.7 830.0 353.6 804.8 343.0 C 779.5 332.4 727.9 295.1 700.3 287.7 C 672.7 280.3 655.6 284.4 639.3 298.7 C 623.0 313.0 620.1 354.9 602.7 373.4 C 585.3 391.8 558.0 406.6 534.8 409.4 C 511.6 412.2 491.0 386.8 463.4 390.0 C 435.8 393.2 391.7 409.8 369.3 428.7 C 346.9 447.6 353.0 489.6 329.2 503.4 C 305.4 517.2 257.6 511.7 226.5 511.7 C 195.4 511.7 169.2 515.4 142.8 503.4 C 116.4 491.4 84.7 454.1 67.9 439.8 C 51.1 425.5 48.8 424.6 41.8 417.7 C 34.8 410.8 29.9 407.5 26.1 398.3 Z"/></clipPath>
-        <g clip-path="url(#skClip)">
-          <ellipse cx="585" cy="118" rx="70" ry="26" transform="rotate(-8 585 118)" fill="url(#relief)" opacity="0.5"/><ellipse cx="510" cy="185" rx="95" ry="24" transform="rotate(-4 510 185)" fill="url(#relief)" opacity="0.38"/><ellipse cx="385" cy="122" rx="34" ry="30" transform="rotate(-20 385 122)" fill="url(#relief)" opacity="0.38"/><ellipse cx="402" cy="178" rx="26" ry="32" transform="rotate(-8 402 178)" fill="url(#relief)" opacity="0.3"/><ellipse cx="612" cy="252" rx="110" ry="30" transform="rotate(8 612 252)" fill="url(#relief)" opacity="0.3"/><ellipse cx="118" cy="318" rx="22" ry="78" transform="rotate(32 118 318)" fill="url(#relief)" opacity="0.28"/><ellipse cx="300" cy="120" rx="40" ry="26" transform="rotate(-18 300 120)" fill="url(#relief)" opacity="0.3"/><ellipse cx="898" cy="210" rx="34" ry="18" transform="rotate(-6 898 210)" fill="url(#relief)" opacity="0.3"/><ellipse cx="940" cy="140" rx="34" ry="22" transform="rotate(-28 940 140)" fill="url(#relief)" opacity="0.3"/><ellipse cx="255" cy="210" rx="30" ry="26" transform="rotate(-12 255 210)" fill="url(#relief)" opacity="0.26"/><ellipse cx="472" cy="92" rx="34" ry="18" transform="rotate(-6 472 92)" fill="url(#relief)" opacity="0.3"/>
-          <g fill="none" stroke="#93A279" stroke-width="1.6" stroke-linecap="round" opacity=".55" class="ridges"><path d="M 522.0 112 l 9.0 -9 l 9.0 9 l 9.0 -9 l 9.0 9 l 9.0 -9 l 9.0 9 l 9.0 -9 l 9.0 9 l 9.0 -9 l 9.0 9 l 9.0 -9 l 9.0 9 l 9.0 -9 l 9.0 9 " class="ridge"/><path d="M 522.5 132 l 7.5 -6 l 7.5 6 l 7.5 -6 l 7.5 6 l 7.5 -6 l 7.5 6 l 7.5 -6 l 7.5 6 l 7.5 -6 l 7.5 6 " class="ridge"/><path d="M 449.0 182 l 8.0 -7 l 8.0 7 l 8.0 -7 l 8.0 7 l 8.0 -7 l 8.0 7 l 8.0 -7 l 8.0 7 l 8.0 -7 l 8.0 7 l 8.0 -7 l 8.0 7 l 8.0 -7 l 8.0 7 " class="ridge"/><path d="M 355.0 120 l 7.5 -7 l 7.5 7 l 7.5 -7 l 7.5 7 l 7.5 -7 l 7.5 7 l 7.5 -7 l 7.5 7 " class="ridge"/><path d="M 564.0 248 l 8.0 -6 l 8.0 6 l 8.0 -6 l 8.0 6 l 8.0 -6 l 8.0 6 l 8.0 -6 l 8.0 6 l 8.0 -6 l 8.0 6 l 8.0 -6 l 8.0 6 " class="ridge"/><path d="M 919.0 140 l 7.0 -6 l 7.0 6 l 7.0 -6 l 7.0 6 l 7.0 -6 l 7.0 6 " class="ridge"/><path d="M 272.0 118 l 7.0 -6 l 7.0 6 l 7.0 -6 l 7.0 6 l 7.0 -6 l 7.0 6 l 7.0 -6 l 7.0 6 " class="ridge"/></g>
-          <g opacity=".5"><use href="#tree" x="414" y="312" transform="scale(1.06)" transform-origin="414 312"/><use href="#tree" x="391" y="332" transform="scale(0.90)" transform-origin="391 332"/><use href="#tree" x="389" y="330" transform="scale(0.72)" transform-origin="389 330"/><use href="#tree" x="424" y="308" transform="scale(0.75)" transform-origin="424 308"/><use href="#tree" x="423" y="347" transform="scale(0.77)" transform-origin="423 347"/><use href="#tree" x="405" y="337" transform="scale(1.22)" transform-origin="405 337"/><use href="#tree" x="437" y="325" transform="scale(1.24)" transform-origin="437 325"/><use href="#tree" x="388" y="349" transform="scale(0.86)" transform-origin="388 349"/><use href="#tree" x="397" y="310" transform="scale(0.87)" transform-origin="397 310"/><use href="#tree" x="729" y="173" transform="scale(1.02)" transform-origin="729 173"/><use href="#tree" x="713" y="183" transform="scale(1.00)" transform-origin="713 183"/><use href="#tree" x="660" y="167" transform="scale(0.81)" transform-origin="660 167"/><use href="#tree" x="717" y="186" transform="scale(0.87)" transform-origin="717 186"/><use href="#tree" x="708" y="188" transform="scale(0.86)" transform-origin="708 188"/><use href="#tree" x="727" y="200" transform="scale(0.83)" transform-origin="727 200"/><use href="#tree" x="707" y="191" transform="scale(1.18)" transform-origin="707 191"/><use href="#tree" x="791" y="249" transform="scale(1.24)" transform-origin="791 249"/><use href="#tree" x="735" y="256" transform="scale(1.12)" transform-origin="735 256"/><use href="#tree" x="738" y="259" transform="scale(0.72)" transform-origin="738 259"/><use href="#tree" x="785" y="274" transform="scale(1.02)" transform-origin="785 274"/><use href="#tree" x="805" y="250" transform="scale(1.08)" transform-origin="805 250"/><use href="#tree" x="779" y="264" transform="scale(0.95)" transform-origin="779 264"/><use href="#tree" x="801" y="283" transform="scale(0.96)" transform-origin="801 283"/><use href="#tree" x="785" y="237" transform="scale(1.09)" transform-origin="785 237"/><use href="#tree" x="514" y="456" transform="scale(1.15)" transform-origin="514 456"/><use href="#tree" x="480" y="424" transform="scale(1.07)" transform-origin="480 424"/><use href="#tree" x="456" y="428" transform="scale(0.79)" transform-origin="456 428"/><use href="#tree" x="465" y="407" transform="scale(1.12)" transform-origin="465 407"/><use href="#tree" x="466" y="417" transform="scale(0.92)" transform-origin="466 417"/><use href="#tree" x="534" y="408" transform="scale(0.95)" transform-origin="534 408"/><use href="#tree" x="505" y="450" transform="scale(1.15)" transform-origin="505 450"/><use href="#tree" x="673" y="408" transform="scale(0.93)" transform-origin="673 408"/><use href="#tree" x="627" y="440" transform="scale(1.23)" transform-origin="627 440"/><use href="#tree" x="608" y="403" transform="scale(0.83)" transform-origin="608 403"/><use href="#tree" x="615" y="419" transform="scale(1.02)" transform-origin="615 419"/><use href="#tree" x="618" y="394" transform="scale(0.93)" transform-origin="618 394"/><use href="#tree" x="628" y="423" transform="scale(1.22)" transform-origin="628 423"/><use href="#tree" x="268" y="431" transform="scale(1.04)" transform-origin="268 431"/><use href="#tree" x="266" y="407" transform="scale(1.19)" transform-origin="266 407"/><use href="#tree" x="276" y="449" transform="scale(1.14)" transform-origin="276 449"/><use href="#tree" x="240" y="425" transform="scale(0.76)" transform-origin="240 425"/><use href="#tree" x="262" y="407" transform="scale(0.74)" transform-origin="262 407"/><use href="#tree" x="223" y="412" transform="scale(0.89)" transform-origin="223 412"/><use href="#tree" x="829" y="274" transform="scale(0.78)" transform-origin="829 274"/><use href="#tree" x="833" y="293" transform="scale(0.71)" transform-origin="833 293"/><use href="#tree" x="904" y="306" transform="scale(0.78)" transform-origin="904 306"/><use href="#tree" x="847" y="292" transform="scale(0.90)" transform-origin="847 292"/><use href="#tree" x="835" y="318" transform="scale(1.25)" transform-origin="835 318"/><use href="#tree" x="147" y="259" transform="scale(0.75)" transform-origin="147 259"/><use href="#tree" x="113" y="252" transform="scale(0.85)" transform-origin="113 252"/><use href="#tree" x="180" y="242" transform="scale(0.71)" transform-origin="180 242"/><use href="#tree" x="191" y="261" transform="scale(0.78)" transform-origin="191 261"/><use href="#tree" x="564" y="295" transform="scale(0.99)" transform-origin="564 295"/><use href="#tree" x="604" y="339" transform="scale(1.08)" transform-origin="604 339"/><use href="#tree" x="538" y="313" transform="scale(0.79)" transform-origin="538 313"/><use href="#tree" x="585" y="322" transform="scale(1.13)" transform-origin="585 322"/><use href="#tree" x="544" y="306" transform="scale(1.15)" transform-origin="544 306"/></g>
-          <rect x="-120" y="-110" width="1250" height="730" filter="url(#paperTex)" opacity=".5"/>
-        </g>
-
-        <g id="mapDots"></g>
-      </svg>
-
-      <div class="map-stats">
-        <div class="stat">
-          <span class="s-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M12 21s-7-5.5-7-11a7 7 0 1 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/>
-            </svg>
-          </span>
-          <div><b id="statMiesta">–</b><small>miest na mape</small></div>
-        </div>
-        <div class="stat">
-          <span class="s-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M4 13a8 8 0 0 1 16 0M4 13v4a2 2 0 0 0 2 2h1v-6H6M20 13v4a2 2 0 0 1-2 2h-1v-6h1"/>
-            </svg>
-          </span>
-          <div><b id="statZastavenia">–</b><small>zastavení s príbehmi</small></div>
-        </div>
-        <div class="stat">
-          <span class="s-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M12 21s-8-5.5-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 5.5-8 11-8 11z"/>
-            </svg>
-          </span>
-          <div><b>Inšpirujte sa</b><small>na váš ďalší výlet</small></div>
-        </div>
-      </div>
+      <div id="leaflet-map"></div>
     </div>
   </section>
 
@@ -233,5 +175,72 @@
 
 <script src="js/data.js"></script>
 <script src="js/app.js"></script>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+  // Inicializácia Leaflet mapy – spustí sa po načítaní DB z data.js
+  function initLeafletMap() {
+    const map = L.map("leaflet-map", {
+      center: [48.8, 19.5],
+      zoom: 7,
+      minZoom: 6,
+      maxZoom: 14,
+      zoomControl: true,
+    });
+
+    // Svetlé dlaždice – CartoDB Positron (bez API kľúča)
+    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>',
+      subdomains: "abcd",
+      maxZoom: 19,
+    }).addTo(map);
+
+    // Okraje SR – fade efekt (SVG overlay)
+    // Piny z DB
+    const markers = {};
+    DB.miesta.forEach(m => {
+      if (!m.lat || !m.lon) return;
+      const kat = DB.kategorie.find(k => k.id === m.primarna) || {};
+      const farba = kat.farba || "#4E7FAE";
+
+      // Vlastný farebný kruh marker
+      const icon = L.divIcon({
+        className: "",
+        html: `<div style="
+          width:14px;height:14px;border-radius:50%;
+          background:${farba};border:2.5px solid #fff;
+          box-shadow:0 1px 5px rgba(0,0,0,.3);
+          cursor:pointer;
+        "></div>`,
+        iconSize: [14, 14],
+        iconAnchor: [7, 7],
+      });
+
+      const marker = L.marker([m.lat, m.lon], { icon })
+        .addTo(map)
+        .bindPopup(`
+          <div style="min-width:160px;font-family:inherit">
+            <strong style="font-size:14px">${m.nazov}</strong><br>
+            <span style="font-size:12px;color:#666">${kat.nazov || ""}</span><br>
+            <a href="kategoria.html?id=${m.id}"
+               style="display:inline-block;margin-top:8px;font-size:12px;
+                      color:#4E7FAE;font-weight:600;text-decoration:none">
+              Zobraziť detail →
+            </a>
+          </div>
+        `, { maxWidth: 220 });
+
+      markers[m.id] = marker;
+    });
+
+    // Filtre – skrývanie/zobrazovanie pinov
+    window._mapMarkers = markers;
+    window._leafletMap = map;
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    if (typeof DB !== "undefined") initLeafletMap();
+  });
+  </script>
 </body>
 </html>

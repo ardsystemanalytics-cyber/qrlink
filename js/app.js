@@ -147,17 +147,24 @@ function renderMapFilters() {
     b.addEventListener("click", () => {
       aktivnyFilter = k.id;
       QA(".chip").forEach(c => c.classList.remove("active"));
-      QA(".chip", host).forEach(c => c.classList.remove("active"));
       b.classList.add("active");
-      // Synchronizuj aj filtre v sekcii miest
       QA("#filters .chip").forEach(c => {
         if (c.dataset.katId === k.id) c.classList.add("active");
       });
       renderCards();
-      QA(".map-dot").forEach(d => {
-        const m = miestoById(d.dataset.id);
-        d.classList.toggle("dim", m ? !vyhovuje(m) : false);
-      });
+      // Leaflet piny – skryj/zobraz podla filtra
+      if (window._mapMarkers && window._leafletMap) {
+        DB.miesta.forEach(m => {
+          const marker = window._mapMarkers[m.id];
+          if (!marker) return;
+          const show = k.id === "vsetko" || m.kategorie.includes(k.id);
+          if (show) {
+            if (!window._leafletMap.hasLayer(marker)) marker.addTo(window._leafletMap);
+          } else {
+            window._leafletMap.removeLayer(marker);
+          }
+        });
+      }
     });
     b.dataset.katId = k.id;
     host.appendChild(b);

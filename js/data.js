@@ -71,76 +71,76 @@ const DB = {
 
     /* ---- MESTÁ ---- */
     { id: "hrad-strecno", nazov: "Hrad Strečno", primarna: "pamiatky", kategorie: ["pamiatky"],
-      mapX: 354, mapY: 120,
+      lon: 18.864, lat: 49.177, mapX: 354, mapY: 120,
       cover: "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg",
       popis: "Stredoveký hrad nad Váhom – 14 zastavení s audio sprievodcom." },
     { id: "bratislava-ivanka", nazov: "Ivanka pri Dunaji", primarna: "mesta", kategorie: ["mesta"],
-      mapX: 73,  mapY: 393, cover: "", popis: "Obec pri Bratislave s bohatou históriou." },
+      lon: 17.252, lat: 48.175, mapX: 73,  mapY: 393, cover: "", popis: "Obec pri Bratislave s bohatou históriou." },
 
     { id: "betliar", nazov: "Betliar", primarna: "mesta", kategorie: ["mesta", "pamiatky"],
-      mapX: 641, mapY: 252, cover: "", popis: "Obec známa kaštieľom rodu Andrássyovcov." },
+      lon: 20.474, lat: 48.695, mapX: 641, mapY: 252, cover: "", popis: "Obec známa kaštieľom rodu Andrássyovcov." },
 
     { id: "euroregion-beskydy", nazov: "Euroregión Beskydy", primarna: "mesta", kategorie: ["mesta", "pohranicie"],
-      mapX: 330, mapY: 30, cover: "", popis: "Cezhraničný región na pomedzí Slovenska, Česka a Poľska." },
+      lon: 18.5, lat: 49.38, mapX: 330, mapY: 30, cover: "", popis: "Cezhraničný región na pomedzí Slovenska, Česka a Poľska." },
 
     { id: "frydlant", nazov: "Frýdlant", primarna: "mesta", kategorie: ["mesta", "pohranicie"],
-      mapX: 266, mapY: 6, cover: "", popis: "Mesto na česko-slovenskom pohraničí." },
+      lon: 15.082, lat: 50.921, mapX: 266, mapY: 6, cover: "", popis: "Mesto na česko-slovenskom pohraničí." },
 
     { id: "kraj-rusinov", nazov: "Kraj Rusínov a Andyho Warhola", primarna: "mesta", kategorie: ["mesta"],
-      mapX: 883, mapY: 94, cover: "", popis: "Región Medzilaboriec spätý s rusínskou kultúrou a rodinou Andyho Warhola." },
+      lon: 21.901, lat: 49.271, mapX: 883, mapY: 94, cover: "", popis: "Región Medzilaboriec spätý s rusínskou kultúrou a rodinou Andyho Warhola." },
 
     { id: "knm", nazov: "Kysucké Nové Mesto", primarna: "mesta", kategorie: ["mesta"],
-      mapX: 341, mapY: 86, cover: "", popis: "Mesto na Kysuciach." },
+      lon: 18.777, lat: 49.3, mapX: 341, mapY: 86, cover: "", popis: "Mesto na Kysuciach." },
 
     { id: "porabka", nazov: "Porąbka", primarna: "mesta", kategorie: ["mesta", "pohranicie"],
-      mapX: 413, mapY: 8, cover: "", popis: "Poľská obec v Beskydách." },
+      lon: 19.07, lat: 49.742, mapX: 413, mapY: 8, cover: "", popis: "Poľská obec v Beskydách." },
 
     { id: "presov", nazov: "Prešov", primarna: "mesta", kategorie: ["mesta"],
-      mapX: 768, mapY: 169, cover: "", popis: "Metropola Šariša s historickým centrom." },
+      lon: 21.239, lat: 48.999, mapX: 768, mapY: 169, cover: "", popis: "Metropola Šariša s historickým centrom." },
 
     { id: "roznov", nazov: "Rožnov pod Radhoštěm", primarna: "mesta", kategorie: ["mesta", "pohranicie"],
-      mapX: 228, mapY: 41, cover: "", popis: "Valašské mesto známe skanzenom." },
+      lon: 18.143, lat: 49.458, mapX: 228, mapY: 41, cover: "", popis: "Valašské mesto známe skanzenom." },
 
     { id: "ruzomberok", nazov: "Ružomberok", primarna: "mesta", kategorie: ["mesta"],
-      mapX: 430, mapY: 147, cover: "", popis: "Mesto na Liptove pod Veľkou Fatrou." },
+      lon: 19.308, lat: 49.083, mapX: 430, mapY: 147, cover: "", popis: "Mesto na Liptove pod Veľkou Fatrou." },
 
     { id: "sokolovce", nazov: "Sokolovce", primarna: "mesta", kategorie: ["mesta"],
-      mapX: 179, mapY: 299, cover: "", popis: "Obec pri Piešťanoch." },
+      lon: 17.77, lat: 48.597, mapX: 179, mapY: 299, cover: "", popis: "Obec pri Piešťanoch." },
 
     { id: "trebisov", nazov: "Trebišov", primarna: "mesta", kategorie: ["mesta"],
-      mapX: 852, mapY: 271, cover: "", popis: "Mesto na Zemplíne." },
+      lon: 21.718, lat: 48.629, mapX: 852, mapY: 271, cover: "", popis: "Mesto na Zemplíne." },
 
     { id: "turzovka", nazov: "Turzovka", primarna: "mesta", kategorie: ["mesta"],
-      mapX: 312, mapY: 58, cover: "", popis: "Mesto na horných Kysuciach." },
+      lon: 18.621, lat: 49.402, mapX: 312, mapY: 58, cover: "", popis: "Mesto na horných Kysuciach." },
 
     { id: "vranov", nazov: "Vranov nad Topľou", primarna: "mesta", kategorie: ["mesta"],
-      mapX: 845, mapY: 199, cover: "", popis: "Mesto na východnom Slovensku." },
+      lon: 21.676, lat: 48.882, mapX: 845, mapY: 199, cover: "", popis: "Mesto na východnom Slovensku." },
 
     /* ---- PAMIATKY / CHODNÍKY / OSTATNÉ ---- */
 
     { id: "cierne-klacany", nazov: "Čiernokľačianska Pyxida", primarna: "pamiatky", kategorie: ["pamiatky"],
-      mapX: 275, mapY: 346, cover: "", popis: "Vzácna slonovinová schránka z veľkomoravského obdobia." },
+      lon: 18.193, lat: 48.471, mapX: 275, mapY: 346, cover: "", popis: "Vzácna slonovinová schránka z veľkomoravského obdobia." },
 
     { id: "klenoty-pohranicie", nazov: "Klenoty v česko-slovenskom pohraničí", primarna: "pamiatky", kategorie: ["pamiatky", "pohranicie"],
-      mapX: 250, mapY: 70, cover: "", popis: "Kultúrne a prírodné klenoty pohraničia." },
+      lon: 18.27, lat: 49.36, mapX: 250, mapY: 70, cover: "", popis: "Kultúrne a prírodné klenoty pohraničia." },
 
     { id: "cestovatelsky-dennik", nazov: "Cestovateľský denník – Klenoty v česko-slovenskom pohraničí", primarna: "pamiatky", kategorie: ["pamiatky", "pohranicie"],
-      mapX: 240, mapY: 95, cover: "", popis: "Putovanie po klenotoch pohraničia." },
+      lon: 18.21, lat: 49.27, mapX: 240, mapY: 95, cover: "", popis: "Putovanie po klenotoch pohraničia." },
 
     { id: "nch-pohranicie", nazov: "Náučné chodníky v česko-slovenskom pohraničí", primarna: "chodniky", kategorie: ["chodniky", "pohranicie"],
-      mapX: 290, mapY: 45, cover: "", popis: "Sieť náučných chodníkov v pohraničí." },
+      lon: 18.49, lat: 49.45, mapX: 290, mapY: 45, cover: "", popis: "Sieť náučných chodníkov v pohraničí." },
 
     { id: "nch-hlinene", nazov: "Náučný chodník Hlinené", primarna: "chodniky", kategorie: ["chodniky"],
-      mapX: 305, mapY: 65, cover: "", popis: "Náučný chodník v okolí Turzovky." },
+      lon: 18.58, lat: 49.383, mapX: 305, mapY: 65, cover: "", popis: "Náučný chodník v okolí Turzovky." },
 
     { id: "nch-zivcakova", nazov: "Náučný chodník Živčákova", primarna: "chodniky", kategorie: ["chodniky"],
-      mapX: 300, mapY: 50, cover: "", popis: "Chodník k pútnickému miestu Živčákova." },
+      lon: 18.553, lat: 49.432, mapX: 300, mapY: 50, cover: "", popis: "Chodník k pútnickému miestu Živčákova." },
 
     { id: "gabcikovo", nazov: "Vodné dielo Gabčíkovo / Čunovo", primarna: "pamiatky", kategorie: ["pamiatky", "enviro"],
-      mapX: 68, mapY: 437, cover: "", popis: "Vodné dielo na Dunaji – doc. Ing. Július Binder, Dr. h. c." },
+      lon: 17.543, lat: 47.883, mapX: 68, mapY: 437, cover: "", popis: "Vodné dielo na Dunaji – doc. Ing. Július Binder, Dr. h. c." },
 
     { id: "zvonica-hrusove", nazov: "Zvonica Hrušové", primarna: "pamiatky", kategorie: ["pamiatky"],
-      mapX: 165, mapY: 227, cover: "", popis: "Historická zvonica." }
+      lon: 17.95, lat: 48.75, mapX: 165, mapY: 227, cover: "", popis: "Historická zvonica." }
   ],
 
   /* ----------------------------------------------- 3. ZASTAVENIA --- */
