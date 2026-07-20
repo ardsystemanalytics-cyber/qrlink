@@ -89,7 +89,7 @@
         <h2>Objavujte miesta na mape</h2>
         <div class="filters" id="mapFilters"></div>
       </div>
-      <div id="leaflet-map"></div>
+      <div class="leaflet-map-wrap"><div id="leaflet-map"></div></div>
     </div>
   </section>
 
@@ -180,19 +180,48 @@
   <script>
   // Inicializácia Leaflet mapy – spustí sa po načítaní DB z data.js
   function initLeafletMap() {
+    // Hranice Slovenska pre fitBounds
+    const skBounds = L.latLngBounds(
+      L.latLng(47.73, 16.83),   // juhozápad
+      L.latLng(49.61, 22.56)    // severovýchod
+    );
+
     const map = L.map("leaflet-map", {
-      center: [48.8, 19.5],
+      center: [48.7, 19.5],
       zoom: 7,
       minZoom: 6,
-      maxZoom: 14,
+      maxZoom: 16,
       zoomControl: true,
+      scrollWheelZoom: true,
     });
 
-    // Svetlé dlaždice – CartoDB Positron (bez API kľúča)
+    // Zobraziť Slovensko na celej mape pri načítaní
+    map.fitBounds(skBounds, { padding: [20, 20] });
+
+    // CartoDB Positron – jemná svetlá mapa (pôvodný štýl)
     L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>',
       subdomains: "abcd",
       maxZoom: 19,
+    }).addTo(map);
+      }
+    });
+    watercolor.addTo(map);
+
+    // Popisky miest nad akvarelom
+    L.tileLayer(
+      "https://tiles.stadiamaps.com/tiles/stamen_toner_labels/{z}/{x}/{y}{r}.png", {
+        minZoom: 1, maxZoom: 16, opacity: 0.5,
+        attribution: "",
+      }
+    ).addTo(map);
+
+    // Pridaj vrstvu s názvami miest (Toner Labels) nad akvarelom
+    L.tileLayer("https://tiles.stadiamaps.com/tiles/stamen_toner_labels/{z}/{x}/{y}{r}.png", {
+      attribution: "",
+      minZoom: 1,
+      maxZoom: 16,
+      opacity: 0.55,
     }).addTo(map);
 
     // Okraje SR – fade efekt (SVG overlay)
@@ -207,13 +236,13 @@
       const icon = L.divIcon({
         className: "",
         html: `<div style="
-          width:14px;height:14px;border-radius:50%;
+          width:18px;height:18px;border-radius:50%;
           background:${farba};border:2.5px solid #fff;
           box-shadow:0 1px 5px rgba(0,0,0,.3);
           cursor:pointer;
         "></div>`,
-        iconSize: [14, 14],
-        iconAnchor: [7, 7],
+        iconSize: [18, 18],
+        iconAnchor: [9, 9],
       });
 
       const marker = L.marker([m.lat, m.lon], { icon })
