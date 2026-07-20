@@ -117,7 +117,7 @@ a { color: var(--pine); }
   margin: 0 0 18px;
 }
 .hero p.lead {
-  color: var(--ink-soft); margin: 0 0 28px;
+  color: #000000; margin: 0 0 28px;
   font-size: clamp(15px, 1.4vw, 17px); max-width: 48ch;
 }
 
