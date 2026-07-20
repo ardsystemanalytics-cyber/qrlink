@@ -194,6 +194,7 @@ a { color: var(--pine); }
   border-radius: 18px; box-shadow: var(--shadow);
   padding: 16px 28px;
   max-width: 720px; margin: -34px auto 6px; position: relative;
+   z-index: 1000;
 }
 .stat { display: flex; align-items: center; gap: 12px; }
 .stat .s-icon {
