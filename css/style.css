@@ -753,7 +753,7 @@ a { color: var(--pine); }
 }
 
 /* Watercolor dlaždice – prirodné ilustrované farby */
-.leaflet-tile-pane { filter: saturate(1.0) brightness(1.0); }
+.leaflet-tile-pane { filter: saturate(0.35) brightness(1.08); }
 
 /* Piny na akvarelovom pozadí – výraznejší okraj a tieň */
 .leaflet-marker-icon div {
