@@ -743,12 +743,16 @@ a { color: var(--pine); }
 /* Mapa max rozmery, centrovana */
 #leaflet-map {
   height: clamp(420px, 55vw, 800px);
-  max-width: 1500px;
-  margin: 0 auto;
+  max-width: 1180px;
   border-radius: 0 0 var(--radius) var(--radius);
 }
 .mapa-section .map-panel {
-  max-width: 1500px;
+  max-width: 1180px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Terrain dlaždice – jemne zjemnené */
+.leaflet-tile-pane {
+  filter: saturate(0.82) brightness(1.03);
 }
