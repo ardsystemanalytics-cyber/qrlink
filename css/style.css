@@ -749,10 +749,6 @@ a { color: var(--pine); }
 
 /* Štatistiky – floating panel nad spodkom mapy */
 .map-stats {
-  position: absolute;
-  bottom: 24px;
-  left: 50%;
-  transform: translateX(-50%);
   z-index: 1000;
   display: flex;
   flex-wrap: wrap;
