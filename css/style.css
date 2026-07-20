@@ -12,13 +12,13 @@
   --paper-deep: #EDE9DB;
   --ink:        #24382B;   /* tmavá lesná zelená – text */
   --ink-soft:   #5C6B5E;
-  --pine:       #4E7FAE;   /* primárna zelená (pilulky, ikony) */
+  --pine:       #5c7159;   /* primárna zelená (pilulky, ikony) */
   --pine-deep:  #1E3D2C;   /* audio lišta */
   --berry:      #C34A3A;   /* tehlová červená – akcent */
   --gold:       #D9A441;   /* zlatá – náučné chodníky */
   --line:       #E4DFCE;
   --card:       #FFFFFF;
-  --grad: linear-gradient(95deg, #4E7FAE 0%, #6e6c91 100%);
+  --grad: linear-gradient(95deg, #5c7159 0%, #5c7159 100%);
 
   --f-display: "Fraunces", Georgia, serif;
   --f-body:    "Plus Jakarta Sans", system-ui, sans-serif;
