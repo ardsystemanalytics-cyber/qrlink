@@ -700,15 +700,6 @@ a { color: var(--pine); }
   overflow: hidden;
 }
 /* Fade okraje mapy do pozadia */
-.mapa-section .map-panel::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  z-index: 500;
-  border-radius: var(--radius);
-  box-shadow: inset 0 0 60px 30px var(--paper);
-}
 #leaflet-map { position: relative; z-index: 1; }
 
 /* Popup štýl */
