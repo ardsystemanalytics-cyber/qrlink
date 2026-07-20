@@ -157,12 +157,17 @@
     <span>QR LINK – digitálny sprievodca</span>
   </div>
 </footer>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="js/data.js"></script>
 <script src="js/app.js"></script>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
-  (function() {
+  function initMap() {
+    if (typeof L === 'undefined' || typeof DB === 'undefined') {
+      setTimeout(initMap, 50);
+      return;
+    }
+
     var map = L.map('leaflet-map', {
       center: [48.7, 19.5],
       zoom: 7,
@@ -178,39 +183,39 @@
       attribution: '&copy; OpenStreetMap &copy; CARTO'
     }).addTo(map);
 
-    // FitBounds na Slovensko
-    var skBounds = [[47.73, 16.83], [49.61, 22.56]];
-    map.fitBounds(skBounds, { padding: [20, 20] });
+    map.fitBounds([[47.73, 16.83], [49.61, 22.56]], { padding: [20, 20] });
 
-    // Piny z DB
-    if (typeof DB !== 'undefined') {
-      DB.miesta.forEach(function(m) {
-        if (!m.lat || !m.lon) return;
-        var kat = DB.kategorie.find(function(k) { return k.id === m.primarna; }) || {};
-        var farba = kat.farba || '#4E7FAE';
+    DB.miesta.forEach(function(m) {
+      if (!m.lat || !m.lon) return;
+      var kat = DB.kategorie.find(function(k) { return k.id === m.primarna; }) || {};
+      var farba = kat.farba || '#4E7FAE';
 
-        L.circleMarker([m.lat, m.lon], {
-          radius: 9,
-          fillColor: farba,
-          color: '#fff',
-          weight: 2.5,
-          fillOpacity: 1
-        }).addTo(map).bindPopup(
-          '<div style="min-width:150px"><strong>' + m.nazov + '</strong><br>' +
-          '<span style="font-size:12px;color:#666">' + (kat.nazov || '') + '</span><br>' +
-          '<a href="kategoria.html?id=' + m.id + '" style="font-size:12px;color:#4E7FAE;font-weight:600;text-decoration:none;display:inline-block;margin-top:6px">Zobraziť detail →</a></div>',
-          { maxWidth: 220 }
-        );
-      });
-    }
+      L.circleMarker([m.lat, m.lon], {
+        radius: 9,
+        fillColor: farba,
+        color: '#fff',
+        weight: 2.5,
+        fillOpacity: 1
+      }).addTo(map).bindPopup(
+        '<div style="min-width:150px;font-family:sans-serif">' +
+        '<strong style="font-size:14px">' + m.nazov + '</strong><br>' +
+        '<span style="font-size:12px;color:#666">' + (kat.nazov || '') + '</span><br>' +
+        '<a href="kategoria.html?id=' + m.id + '" ' +
+        'style="font-size:12px;color:#4E7FAE;font-weight:600;text-decoration:none;display:inline-block;margin-top:6px">' +
+        'Zobraziť detail →</a></div>',
+        { maxWidth: 220 }
+      );
+    });
 
     window._leafletMap = map;
+  }
 
-    // Filter sync
-    window._filterMap = function(katId) {
-      // Nová implementácia cez rerender
-    };
-  })();
+  // Zavolaj po nacitani stranky
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initMap);
+  } else {
+    initMap();
+  }
   </script>
 </body>
 </html>
