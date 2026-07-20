@@ -736,27 +736,3 @@ a { color: var(--pine); }
   line-height: 34px !important;
 }
 .leaflet-control-zoom a:hover { background: var(--paper-deep) !important; }
-
-/* Leaflet attribution/logo schovať */
-.leaflet-bottom.leaflet-right { display: none !important; }
-
-/* Mapa max rozmery, centrovana */
-#leaflet-map {
-  height: clamp(420px, 55vw, 800px);
-  max-width: 1180px;
-  border-radius: 0 0 var(--radius) var(--radius);
-}
-.mapa-section .map-panel {
-  max-width: 1180px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Watercolor dlaždice – prirodné ilustrované farby */
-.leaflet-tile-pane { filter: saturate(0.35) brightness(1.08); }
-
-/* Piny na akvarelovom pozadí – výraznejší okraj a tieň */
-.leaflet-marker-icon div {
-  box-shadow: 0 2px 8px rgba(0,0,0,.35) !important;
-  border: 3px solid #fff !important;
-}
