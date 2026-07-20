@@ -89,7 +89,37 @@
         <h2>Objavujte miesta na mape</h2>
         <div class="filters" id="mapFilters"></div>
       </div>
-      <div id="leaflet-map"></div>
+      <div class="map-img-wrap">
+        <div id="leaflet-map"></div>
+        <!-- Štatistiky – floating panel prekrývajúci spodok mapy -->
+        <div class="map-stats">
+          <div class="stat">
+            <span class="s-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 21s-7-5.5-7-11a7 7 0 1 1 14 0c0 5.5-7 11-7 11z"/>
+                <circle cx="12" cy="10" r="2.5"/>
+              </svg>
+            </span>
+            <div><b id="statMiesta">23</b><small>miest na mape</small></div>
+          </div>
+          <div class="stat">
+            <span class="s-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 13a8 8 0 0 1 16 0M4 13v4a2 2 0 0 0 2 2h1v-6H6M20 13v4a2 2 0 0 1-2 2h-1v-6h1"/>
+              </svg>
+            </span>
+            <div><b id="statZastavenia">14</b><small>zastavení s príbehmi</small></div>
+          </div>
+          <div class="stat">
+            <span class="s-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 21s-8-5.5-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 5.5-8 11-8 11z"/>
+              </svg>
+            </span>
+            <div><b>Inšpirujte sa</b><small>na váš ďalší výlet</small></div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -181,7 +211,7 @@
   // Inicializácia Leaflet mapy – spustí sa po načítaní DB z data.js
   function initLeafletMap() {
     const map = L.map("leaflet-map", {
-      center: [48.55, 19.8],
+      center: [48.8, 19.5],
       zoom: 7,
       minZoom: 6,
       maxZoom: 14,
