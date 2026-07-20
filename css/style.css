@@ -693,3 +693,5 @@ a { color: var(--pine); }
   transition: border-color .15s, color .15s;
 }
 .social-links a:hover { border-color: var(--pine); color: var(--pine); }
+
+.h1 .herogreen { color: #5c7159;  }
