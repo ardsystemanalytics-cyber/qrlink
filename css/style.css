@@ -752,7 +752,11 @@ a { color: var(--pine); }
   margin-right: auto;
 }
 
-/* Terrain dlaždice – jemne zjemnené */
-.leaflet-tile-pane {
-  filter: saturate(0.82) brightness(1.03);
+/* Watercolor dlaždice – prirodné ilustrované farby */
+.leaflet-tile-pane { filter: saturate(1.0) brightness(1.0); }
+
+/* Piny na akvarelovom pozadí – výraznejší okraj a tieň */
+.leaflet-marker-icon div {
+  box-shadow: 0 2px 8px rgba(0,0,0,.35) !important;
+  border: 3px solid #fff !important;
 }
