@@ -727,3 +727,17 @@ a { color: var(--pine); }
   line-height: 34px !important;
 }
 .leaflet-control-zoom a:hover { background: var(--paper-deep) !important; }
+
+/* ---- LEAFLET úpravy ---- */
+.leaflet-bottom.leaflet-right { display: none !important; }
+
+#leaflet-map {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.mapa-section .map-panel {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
