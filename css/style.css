@@ -455,18 +455,7 @@ a { color: var(--pine); }
 .contact-card .mono { font-family: var(--f-mono); font-size: 14px; }
 
 /* -------------------------------------------------------- PÄTKA --- */
-.site-footer {
-  border-top: 1px solid var(--line);
-  background: var(--paper-deep);
-  padding: 26px 0; margin-top: 20px;
-}
-.site-footer .wrap {
-  display: flex; flex-wrap: wrap; gap: 10px 24px;
-  align-items: center; justify-content: space-between;
-  font-size: 14px; color: var(--ink-soft);
-}
-.site-footer a { color: var(--pine); text-decoration: none; }
-.footer-logo img { height: 32px; width: auto; }
+
 .contact-logo { height: 42px; width: auto; margin-bottom: 16px; }
 
 /* prístupnosť */
