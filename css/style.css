@@ -188,19 +188,12 @@ a { color: var(--pine); }
 .chip i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 7px; vertical-align: baseline; }
 
 .map-stats {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px 34px;
+  display: flex; flex-wrap: wrap; gap: 10px 34px;
   justify-content: center;
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-radius: 18px;
-  box-shadow: var(--shadow);
+  background: var(--card); border: 1px solid var(--line);
+  border-radius: 18px; box-shadow: var(--shadow);
   padding: 16px 28px;
-  max-width: 720px;
-  margin: 16px auto 0;
-  position: relative;
-  z-index: 5;
+  max-width: 720px; margin: -34px auto 6px; position: relative;
 }
 .stat { display: flex; align-items: center; gap: 12px; }
 .stat .s-icon {
@@ -702,7 +695,11 @@ a { color: var(--pine); }
 
 /* ------------------------------------------- LEAFLET MAPA --- */
 .mapa-section { padding: 0 0 48px; }
-.mapa-section /* Fade okraje mapy do pozadia */
+.mapa-section .map-panel {
+  position: relative;
+  overflow: hidden;
+}
+/* Fade okraje mapy do pozadia */
 #leaflet-map { position: relative; z-index: 1; }
 
 /* Popup štýl */
