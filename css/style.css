@@ -699,16 +699,6 @@ a { color: var(--pine); }
   position: relative;
   overflow: hidden;
 }
-/* Fade okraje mapy do pozadia */
-.mapa-section .map-panel::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  z-index: 500;
-  border-radius: var(--radius);
-  box-shadow: inset 0 0 60px 30px var(--paper);
-}
 #leaflet-map { position: relative; z-index: 1; }
 
 /* Popup štýl */
@@ -736,3 +726,53 @@ a { color: var(--pine); }
   line-height: 34px !important;
 }
 .leaflet-control-zoom a:hover { background: var(--paper-deep) !important; }
+
+/* Leaflet attribution/logo schovať */
+.leaflet-bottom.leaflet-right { display: none !important; }
+
+/* Mapa max rozmery, centrovana */
+#leaflet-map {
+  height: clamp(420px, 55vw, 800px);
+  max-width: 1180px;
+  border-radius: 0 0 var(--radius) var(--radius);
+}
+.mapa-section .map-panel {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Watercolor dlaždice – prirodné ilustrované farby */
+.leaflet-tile-pane { filter: saturate(0.35) brightness(1.08); }
+
+/* Piny na akvarelovom pozadí – výraznejší okraj a tieň */
+.leaflet-marker-icon div {
+  box-shadow: 0 2px 8px rgba(0,0,0,.35) !important;
+  border: 3px solid #fff !important;
+}
+
+
+
+/* ---- FADE iba na mape – okraje plynulo miznú do pozadia stránky ---- */
+.leaflet-map-wrap {
+  position: relative;
+  border-radius: 0 0 var(--radius) var(--radius);
+  overflow: hidden;
+}
+.leaflet-map-wrap::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 800;
+  background:
+    linear-gradient(to right,
+      var(--paper) 0%,
+      transparent 12%,
+      transparent 88%,
+      var(--paper) 100%),
+    linear-gradient(to bottom,
+      transparent 0%,
+      transparent 85%,
+      var(--paper) 100%);
+}
