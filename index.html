@@ -126,7 +126,15 @@
   <section id="mapa" class="mapa-section">
     <div class="map-panel">
       <div class="map-top">
-        <h2>Objavujte miesta na mape</h2>
+        <div class="map-top-row">
+          <h2>Objavujte miesta na mape</h2>
+          <div class="map-search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+            </svg>
+            <input type="text" id="searchInput" placeholder="Hľadať miesto…" autocomplete="off">
+          </div>
+        </div>
         <div class="filters" id="mapFilters"></div>
       </div>
       <div class="map-img-wrap">

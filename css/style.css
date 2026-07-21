@@ -261,6 +261,29 @@ a { color: var(--pine); }
 }
 .map-legend i { width: 11px; height: 11px; border-radius: 50%; display: inline-block; }
 
+/* ------------------------------------------------- VYHĽADÁVANIE --- */
+.map-top { margin-top: -10px; }
+.map-top-row {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; flex-wrap: wrap;
+  margin-bottom: 0;
+}
+.map-top-row h2 { margin: 0; }
+.map-top .filters { margin-top: 40px; }
+.map-search {
+  display: flex; align-items: center; gap: 10px;
+  background: var(--card); border: 1px solid var(--line);
+  border-radius: 999px; padding: 11px 18px;
+  min-width: 220px; flex: 0 1 260px;
+}
+.map-search svg { width: 17px; height: 17px; color: var(--ink-soft); flex-shrink: 0; }
+.map-search input {
+  border: none; background: transparent; outline: none;
+  font-family: var(--f-body); font-size: 14px; color: var(--ink);
+  width: 100%;
+}
+.map-search input::placeholder { color: var(--ink-soft); }
+
 /* ------------------------------------------------------- FILTRE --- */
 .filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 26px 0 26px; }
 .chip {

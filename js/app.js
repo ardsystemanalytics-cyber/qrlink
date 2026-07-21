@@ -9,6 +9,15 @@ const param = (k) => new URLSearchParams(location.search).get(k);
 const katById = (id) => DB.kategorie.find(k => k.id === id);
 const miestoById = (id) => DB.miesta.find(m => m.id === id);
 
+/* odstráni diakritiku a zjednotí veľkosť písmen – pre vyhľadávanie */
+const DIACRITICS_RE = new RegExp("[̀-ͯ]", "g");
+const normalize = (s) => (s || "")
+  .toString()
+  .normalize("NFD")
+  .replace(DIACRITICS_RE, "")
+  .toLowerCase()
+  .trim();
+
 /* ---------------------------------------------------- hlavička ---- */
 function initNav() {
   const t = Q(".nav-toggle");
@@ -77,10 +86,7 @@ function renderFilters() {
         if (c.dataset.katId === k.id) c.classList.add("active");
       });
       renderCards();
-      QA(".map-dot").forEach(d => {
-        const m = miestoById(d.dataset.id);
-        d.classList.toggle("dim", m ? !vyhovuje(m) : false);
-      });
+      updateMapMarkers();
     });
     host.appendChild(b);
   });
@@ -122,12 +128,30 @@ function cardHTML(m) {
 
 let hladanyText = "";
 
+function vyhovujeHladaniu(m) {
+  if (!hladanyText) return true;
+  const nazovNorm = normalize(m.nazov);
+  const slova = hladanyText.split(/\s+/).filter(Boolean);
+  return slova.every(slovo => nazovNorm.includes(slovo));
+}
+
 function vyhovuje(m) {
   const vKategorii = aktivnyFilter === "vsetko" || m.kategorie.includes(aktivnyFilter);
-  const vHladani = !hladanyText ||
-    m.nazov.toLowerCase().includes(hladanyText) ||
-    (m.popis || "").toLowerCase().includes(hladanyText);
-  return vKategorii && vHladani;
+  return vKategorii && vyhovujeHladaniu(m);
+}
+
+/* Leaflet piny – skryj/zobraz podľa aktívneho filtra a vyhľadávania */
+function updateMapMarkers() {
+  if (!window._mapMarkers || !window._leafletMap) return;
+  DB.miesta.forEach(m => {
+    const marker = window._mapMarkers[m.id];
+    if (!marker) return;
+    if (vyhovuje(m)) {
+      if (!window._leafletMap.hasLayer(marker)) marker.addTo(window._leafletMap);
+    } else {
+      window._leafletMap.removeLayer(marker);
+    }
+  });
 }
 
 
@@ -152,19 +176,7 @@ function renderMapFilters() {
         if (c.dataset.katId === k.id) c.classList.add("active");
       });
       renderCards();
-      // Leaflet piny – skryj/zobraz podla filtra
-      if (window._mapMarkers && window._leafletMap) {
-        DB.miesta.forEach(m => {
-          const marker = window._mapMarkers[m.id];
-          if (!marker) return;
-          const show = k.id === "vsetko" || m.kategorie.includes(k.id);
-          if (show) {
-            if (!window._leafletMap.hasLayer(marker)) marker.addTo(window._leafletMap);
-          } else {
-            window._leafletMap.removeLayer(marker);
-          }
-        });
-      }
+      updateMapMarkers();
     });
     b.dataset.katId = k.id;
     host.appendChild(b);
@@ -212,11 +224,11 @@ function renderCards() {
   const host = Q("#cards");
   const moreBtn = Q("#moreBtn");
   if (!host) return;
-  const list = DB.miesta.filter(m =>
-    m.mapX !== undefined && (aktivnyFilter === "vsetko" || m.kategorie.includes(aktivnyFilter)));
+  const list = DB.miesta.filter(m => m.mapX !== undefined && vyhovuje(m));
   const visible = showAll ? list : list.slice(0, CARDS_PER_PAGE);
+  const emptyMsg = hladanyText ? "Nenašli sa žiadne miesta." : "Žiadne miesta pre túto kategóriu.";
   host.innerHTML = visible.map(cardHTML).join("") ||
-    `<p style="grid-column:1/-1;color:var(--ink-soft)">Žiadne miesta pre túto kategóriu.</p>`;
+    `<p style="grid-column:1/-1;color:var(--ink-soft)">${emptyMsg}</p>`;
   const cnt = Q("#cardCount");
   if (cnt) cnt.textContent = `${list.length} miest`;
   if (moreBtn) {
@@ -226,10 +238,11 @@ function renderCards() {
 
 function initSearch() {
   const inp = Q("#searchInput");
-  if (!inp) return; // pole bolo odstrânené z UI
+  if (!inp) return;
   inp.addEventListener("input", () => {
-    hladanyText = inp.value.trim().toLowerCase();
+    hladanyText = normalize(inp.value);
     renderCards();
+    updateMapMarkers();
   });
 }
 
