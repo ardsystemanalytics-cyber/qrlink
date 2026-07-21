@@ -493,7 +493,7 @@ a { color: var(--pine); }
 /* grid kariet */
 .places-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
 @media (max-width: 1000px) { .places-grid { grid-template-columns: repeat(3, 1fr); } }
