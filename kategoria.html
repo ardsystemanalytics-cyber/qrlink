@@ -21,18 +21,22 @@
 </header>
 
 <main class="wrap">
-  <nav class="crumbs" aria-label="Ste tu">
-    <a href="index.html">Domov</a><span class="sep">›</span>
-    <a href="index.html#miesta" id="crumbKat">Kategória</a><span class="sep">›</span>
-    <span class="here" id="crumbHere">…</span>
-  </nav>
+  <nav class="crumbs" id="crumbs" aria-label="Ste tu"></nav>
 
   <section class="cat-hero">
-    <h1 id="catTitle">…</h1>
-    <p id="catDesc"></p>
+    <div class="cat-hero-text">
+      <h1 id="catTitle">…</h1>
+      <p id="catDesc"></p>
+      <div class="cat-info" id="catInfo"></div>
+      <div id="catMapBtn"></div>
+    </div>
+    <div class="cat-hero-photo" id="catPhoto"></div>
   </section>
 
-  <section class="route" id="routeList" aria-label="Zoznam zastavení"></section>
+  <section class="route">
+    <h2 id="catGridTitle"></h2>
+    <div id="catGrid" class="subcat-grid"></div>
+  </section>
 </main>
 
 <footer class="site-footer">

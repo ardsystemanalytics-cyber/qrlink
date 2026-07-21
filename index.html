@@ -315,8 +315,7 @@
         iconAnchor: [9, 9],
       });
 
-      const photo = (typeof PLACE_PHOTOS !== "undefined" && PLACE_PHOTOS[m.id])
-        || "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80";
+      const photo = fotoPre(m);
 
       const marker = L.marker([m.lat, m.lon], { icon })
         .addTo(map)

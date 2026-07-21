@@ -8,6 +8,69 @@ const QA = (s, el = document) => [...el.querySelectorAll(s)];
 const param = (k) => new URLSearchParams(location.search).get(k);
 const katById = (id) => DB.kategorie.find(k => k.id === id);
 const miestoById = (id) => DB.miesta.find(m => m.id === id);
+const DEFAULT_PHOTO = "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80";
+
+/* ------------------------------------------- strom kategórií ------ */
+/* projekt = miesto bez "rodic" (top-level); podkategória = miesto s "rodic" */
+const jeKoren = (m) => !m.rodic;
+const detiOf = (id) => DB.miesta.filter(m => m.rodic === id);
+const zastaveniaPriamoOf = (id) => DB.zastavenia.filter(z => z.miesto === id);
+const maObsah = (z) => !!z.text && !z.text.includes("[DOPLNIŤ");
+
+/* počet zastavení s obsahom v celom podstrome (aj cez viac úrovní podkategórií) */
+function pocetZastaveni(id) {
+  let n = zastaveniaPriamoOf(id).filter(maObsah).length;
+  detiOf(id).forEach(dieta => { n += pocetZastaveni(dieta.id); });
+  return n;
+}
+
+function slovoZastavenia(n) {
+  if (n === 1) return "zastavenie";
+  if (n >= 2 && n <= 4) return "zastavenia";
+  return "zastavení";
+}
+
+/* koreňový projekt – odtiaľ sa dedí farba/ikona hlavnej kategórie */
+function rootProjekt(m) {
+  let cur = m;
+  while (cur.rodic) {
+    const p = miestoById(cur.rodic);
+    if (!p) break;
+    cur = p;
+  }
+  return cur;
+}
+
+/* reťaz predkov od koreňa po m (vrátane m) – pre breadcrumby */
+function retazPredkov(m) {
+  const chain = [];
+  let cur = m;
+  while (cur) { chain.unshift(cur); cur = cur.rodic ? miestoById(cur.rodic) : null; }
+  return chain;
+}
+
+/* fotka: vlastná (m.foto) → PLACE_PHOTOS → zdedená od rodiča → predvolená */
+function fotoPre(m) {
+  if (!m) return DEFAULT_PHOTO;
+  if (m.foto) return m.foto;
+  if (typeof PLACE_PHOTOS !== "undefined" && PLACE_PHOTOS[m.id]) return PLACE_PHOTOS[m.id];
+  if (m.rodic) return fotoPre(miestoById(m.rodic));
+  return DEFAULT_PHOTO;
+}
+
+/* vykreslí breadcrumby do #crumbs; items = [{label, href|null}] */
+function renderBreadcrumb(items) {
+  const host = Q("#crumbs");
+  if (!host) return;
+  const parts = [`<a href="index.html">Domov</a>`];
+  items.forEach(it => {
+    parts.push(`<span class="sep">›</span>`);
+    parts.push(it.href
+      ? `<a href="${it.href}">${it.label}</a>`
+      : `<span class="here">${it.label}</span>`);
+  });
+  host.innerHTML = parts.join("");
+}
 
 /* odstráni diakritiku a zjednotí veľkosť písmen – pre vyhľadávanie */
 const DIACRITICS_RE = new RegExp("[̀-ͯ]", "g");
@@ -94,8 +157,8 @@ function cardHTML(m) {
   const katObj = katById(m.primarna) || {};
   const farba  = katObj.farba || "#4E7FAE";
   const icon   = (typeof KAT_ICONS !== "undefined" && KAT_ICONS[m.primarna]) || KAT_ICONS["mesta"] || "";
-  const photo  = (typeof PLACE_PHOTOS !== "undefined" && PLACE_PHOTOS[m.id])
-    || "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80";
+  const photo  = fotoPre(m);
+  const pocet  = pocetZastaveni(m.id);
 
   // Farebne taby – farba z kategorie
   const tags = m.kategorie.map(id => {
@@ -116,6 +179,7 @@ function cardHTML(m) {
     </div>
     <div class="card-body">
       <h3>${m.nazov}</h3>
+      <span class="card-stops">${pocet} ${slovoZastavenia(pocet)}</span>
       <div class="card-footer">
         <div class="card-tags">${tags}</div>
         <span class="card-arrow">→</span>
@@ -188,40 +252,6 @@ function renderMapFilters() {
 let showAll = false;
 const CARDS_PER_PAGE = 12;
 
-function cardHTML(m) {
-  const katObj = katById(m.primarna) || {};
-  const farba  = katObj.farba || "#4E7FAE";
-  const icon   = (typeof KAT_ICONS !== "undefined" && KAT_ICONS[m.primarna]) || KAT_ICONS["mesta"] || "";
-  const photo  = (typeof PLACE_PHOTOS !== "undefined" && PLACE_PHOTOS[m.id])
-    || "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80";
-
-  // Farebne taby – farba z kategorie
-  const tags = m.kategorie.map(id => {
-    const k = katById(id);
-    if (!k) return "";
-    return `<span class="card-tag" style="background:${k.farba}18;color:${k.farba};border-color:${k.farba}33">${k.nazov}</span>`;
-  }).join("");
-
-  // Farba ikonky = farba primárnej kategórie
-  // Pozadie: 15% opacity farby, ikona plnou farbou
-  return `<a class="place-card" href="kategoria.html?id=${m.id}">
-    <div class="card-photo">
-      <img src="${photo}" alt="${m.nazov}" loading="lazy">
-      <span class="card-cat-icon" style="background:${farba};border:none">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"
-             stroke-linecap="round" stroke-linejoin="round">${icon}</svg>
-      </span>
-    </div>
-    <div class="card-body">
-      <h3>${m.nazov}</h3>
-      <div class="card-footer">
-        <div class="card-tags">${tags}</div>
-        <span class="card-arrow">→</span>
-      </div>
-    </div>
-  </a>`;
-}
-
 function renderCards() {
   const host = Q("#cards");
   const moreBtn = Q("#moreBtn");
@@ -262,33 +292,114 @@ function renderStats() {
   if (sz) sz.textContent = DB.zastavenia.length;
 }
 
+/* ---------------------------------------- karta podkategórie ------ */
+function subcatCardHTML(m) {
+  const pocet = pocetZastaveni(m.id);
+  return `<a class="place-card" href="kategoria.html?id=${m.id}">
+    <div class="card-photo">
+      <img src="${fotoPre(m)}" alt="${m.nazov}" loading="lazy">
+    </div>
+    <div class="card-body">
+      <h3>${m.nazov}</h3>
+      <span class="card-stops">${pocet} ${slovoZastavenia(pocet)}</span>
+      <div class="card-footer">
+        <span class="card-arrow">→</span>
+      </div>
+    </div>
+  </a>`;
+}
+
+/* ------------------------------------------ karta zastavenia ------ */
+function stopCardHTML(z) {
+  return `<a class="stop-card" href="zastavenie.html?id=${z.id}">
+    <div class="stop-photo">
+      <img src="${z.cover || DEFAULT_PHOTO}" alt="${z.nazov}" loading="lazy">
+      <span class="stop-no">${z.poradie}</span>
+    </div>
+    <div class="stop-body">
+      <h3>${z.nazov}</h3>
+      <p>${z.popis || ""}</p>
+      <div class="stop-footer">
+        <span class="stop-qr" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
+            <rect x="3" y="14" width="7" height="7"/>
+            <path d="M14 14h3v3h-3zM20 14v3M14 20h3M20 20v.01"/>
+          </svg>
+        </span>
+        <span class="stop-arrow">→</span>
+      </div>
+    </div>
+  </a>`;
+}
+
 /* ------------------------------------ stránka kategórie (miesta) -- */
 function renderKategoria() {
-  const host = Q("#routeList");
-  if (!host) return;
+  const titleEl = Q("#catTitle");
+  if (!titleEl) return;
   const m = miestoById(param("id"));
-  if (!m) { Q("#catTitle").textContent = "Miesto sa nenašlo"; return; }
+  if (!m) { titleEl.textContent = "Miesto sa nenašlo"; return; }
 
-  const kat = katById(m.primarna);
   document.title = `${m.nazov} – QR LINK`;
-  Q("#catTitle").textContent = m.nazov;
-  Q("#catDesc").textContent = m.popis || "";
-  Q("#crumbHere").textContent = m.nazov;
-  const cl = Q("#crumbKat");
-  if (kat) { cl.textContent = kat.nazov; cl.href = `index.html#miesta`; }
+  titleEl.textContent = m.nazov;
+  const descEl = Q("#catDesc");
+  if (descEl) descEl.textContent = m.popis || "";
 
-  const stops = DB.zastavenia
-    .filter(z => z.miesto === m.id)
-    .sort((a, b) => a.poradie - b.poradie);
+  const chain = retazPredkov(m);
+  renderBreadcrumb(chain.map((node, i) => ({
+    label: node.nazov,
+    href: i < chain.length - 1 ? `kategoria.html?id=${node.id}` : null
+  })));
 
-  host.innerHTML = stops.length
-    ? stops.map(z => `
-      <a class="stop" href="zastavenie.html?id=${z.id}">
-        <span class="no">${z.poradie}</span>
-        <h3>${z.nazov}</h3>
-        <span class="go">Detail →</span>
-      </a>`).join("")
-    : `<p style="color:var(--ink-soft)">Zastavenia pre toto miesto budú doplnené.</p>`;
+  const photoHost = Q("#catPhoto");
+  if (photoHost) photoHost.innerHTML = `<img src="${fotoPre(m)}" alt="${m.nazov}">`;
+
+  const koren = rootProjekt(m);
+  const podkategorie = detiOf(m.id);
+  const zastaveniaTu = zastaveniaPriamoOf(m.id).filter(maObsah).sort((a, b) => a.poradie - b.poradie);
+
+  const infoHost = Q("#catInfo");
+  if (infoHost) {
+    if (jeKoren(m)) {
+      const primKat = katById(m.primarna);
+      const dalsie = m.kategorie.filter(id => id !== m.primarna).map(katById).filter(Boolean);
+      infoHost.innerHTML = `
+        ${primKat ? `<span class="cat-info-pill"><i class="dot" style="background:${primKat.farba}"></i>Primárna kategória: <strong>${primKat.nazov}</strong></span>` : ""}
+        ${dalsie.length ? `<span class="cat-info-pill">Ďalšie kategórie: ${dalsie.map(k => `<i class="dot" style="background:${k.farba}"></i>${k.nazov}`).join(", ")}</span>` : ""}`;
+    } else if (!podkategorie.length) {
+      const pocet = pocetZastaveni(m.id);
+      const maAudio = zastaveniaTu.some(z => z.audio && z.audio.length);
+      const maGaleriu = zastaveniaTu.some(z => z.galeria && z.galeria.length);
+      infoHost.innerHTML = `
+        <span class="cat-info-pill">${pocet} ${slovoZastavenia(pocet)}</span>
+        ${maAudio ? `<span class="cat-info-pill">Audio sprievodca</span>` : ""}
+        ${maGaleriu ? `<span class="cat-info-pill">Galéria</span>` : ""}`;
+    } else {
+      infoHost.innerHTML = "";
+    }
+  }
+
+  const mapBtnHost = Q("#catMapBtn");
+  if (mapBtnHost) {
+    mapBtnHost.innerHTML = (koren.lat && koren.lon)
+      ? `<a class="btn cat-map-btn" href="index.html#mapa">Zobraziť na mape →</a>` : "";
+  }
+
+  const gridHost = Q("#catGrid");
+  const gridTitle = Q("#catGridTitle");
+  if (!gridHost) return;
+
+  if (podkategorie.length) {
+    if (gridTitle) gridTitle.textContent = "Vyberte si miesto";
+    gridHost.className = "subcat-grid";
+    gridHost.innerHTML = podkategorie.map(subcatCardHTML).join("");
+  } else {
+    if (gridTitle) gridTitle.textContent = m.nadpisZastaveni || "Zastavenia";
+    gridHost.className = "stops-grid";
+    gridHost.innerHTML = zastaveniaTu.length
+      ? zastaveniaTu.map(stopCardHTML).join("")
+      : `<p style="grid-column:1/-1;color:var(--ink-soft)">Zastavenia pre toto miesto budú doplnené.</p>`;
+  }
 }
 
 /* -------------------------------------- detail zastavenia --------- */
@@ -299,13 +410,13 @@ function renderZastavenie() {
   if (!z) { root.innerHTML = "<p>Zastavenie sa nenašlo.</p>"; return; }
 
   const m = miestoById(z.miesto);
-  const kat = m ? katById(m.primarna) : null;
   document.title = `${z.nazov} – QR LINK`;
 
-  Q("#crumbKat").textContent = kat ? kat.nazov : "";
-  Q("#crumbMiesto").textContent = m ? m.nazov : "";
-  Q("#crumbMiesto").href = m ? `kategoria.html?id=${m.id}` : "#";
-  Q("#crumbHere").textContent = z.nazov;
+  const chain = m ? retazPredkov(m) : [];
+  renderBreadcrumb([
+    ...chain.map(node => ({ label: node.nazov, href: `kategoria.html?id=${node.id}` })),
+    { label: z.nazov, href: null }
+  ]);
 
   Q("#dTitle").textContent = z.nazov;
   Q("#dSub").textContent = m ? `Zastavenie ${z.poradie} · ${m.nazov}` : "";

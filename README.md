@@ -7,7 +7,7 @@ na Vercel (alebo akýkoľvek statický hosting).
 
 ```
 index.html        domovská stránka (mapa SR + filtre + karty miest)
-kategoria.html    zoznam zastavení pre miesto (?id=hrad-strecno)
+kategoria.html    projekt/podkategória – grid podkategórií alebo zastavení (?id=hrad-strecno)
 zastavenie.html   detail zastavenia (?id=cesticka-na-hrad)
 kontakt.html      kontakt
 css/style.css     dizajn (needituje sa pri pridávaní obsahu)
@@ -29,8 +29,44 @@ Otvor `js/data.js` – je v ňom návod priamo v komentároch. V skratke:
 - **Nové miesto/mesto:** skopíruj blok v poli `miesta`, zmeň `id`, `nazov`,
   `mapX`/`mapY` (poloha bodu na mape) a kategórie.
 - **Nové zastavenie:** skopíruj blok v poli `zastavenia`, vyplň `miesto`
-  (id miesta), `poradie`, audio, text (HTML), galériu a GPS.
+  (id miesta alebo podkategórie), `poradie`, audio, text (HTML), galériu a GPS.
 - Texty označené `[DOPLNIŤ]` čakajú na obsah z pôvodného webu.
+
+## Hierarchia: hlavná kategória → projekt → podkategória → zastavenie
+
+Obsah má 4 úrovne:
+
+1. **Hlavná kategória** (`DB.kategorie`) – pevný zoznam (Mestá, Pamiatky,
+   Náučné chodníky, Environmentálna výchova a vzdelávanie, Česko-slovenské
+   pohraničie), rozšíriteľný pridaním ďalšieho záznamu. Slúži len na
+   filtrovanie a farebné/ikonové značenie.
+
+2. **Projekt** – top-level záznam v `miesta` (bez poľa `rodic`) – karta na
+   homepage aj bod na mape. Môže patriť do viacerých hlavných kategórií
+   (`kategorie: [...]`), ale vždy má práve jednu primárnu (`primarna`) –
+   tá určuje farbu/ikonu na karte, mape aj v breadcrumbe.
+
+3. **Podkategória** – záznam v `miesta` s `rodic` = id rodiča (projektu
+   alebo inej podkategórie). Nemá vlastnú hlavnú kategóriu – farbu/ikonu
+   aj fotku (ak nemá vlastnú `foto`) dedí od koreňového projektu.
+   Podkategórií môže byť pod jedným rodičom 0, 1 aj viac, do ľubovoľnej
+   hĺbky. Je to vždy samostatný záznam – aj keď sa volá rovnako ako iný
+   top-level projekt, nezdieľa s ním obsah ani zastavenia.
+
+4. **Zastavenie** – konečná QR podstránka (`zastavenie.html`).
+
+**Zobrazovanie:**
+- Karta projektu/podkategórie vždy zobrazuje počet zastavení = súčet
+  všetkých *obsahovo hotových* zastavení v celom jej podstrome (zastavenia
+  s textom `[DOPLNIŤ...]` sa nepočítajú).
+- Klik na kartu: ak má ďalšie podkategórie → grid podkategórií (max 6
+  v riadku); ak už nemá → grid konkrétnych zastavení (očíslované kartičky
+  s QR ikonou, max 5 v riadku, zobrazujú sa vždy všetky, žiadne skrývanie).
+- Breadcrumb rastie o úroveň s každým kliknutím: `Domov > Projekt >
+  Podkategória > (zastavenie)`.
+
+Testovací príklad tejto hierarchie je `euroregion-beskydy` v `js/data.js`
+(projekt s primárnou kategóriou Mestá, 7 podkategóriami a ich zastaveniami).
 
 ## QR kódy a presmerovanie zo starých adries
 

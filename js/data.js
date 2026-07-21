@@ -4,18 +4,48 @@
    Všetok obsah webu je tu. Dizajn sa needituje – pridávaš len dáta.
 
    ŠTRUKTÚRA:
-   1. kategorie  – hlavné aj vlastné kategórie (filtre, breadcrumbs)
-   2. miesta     – mestá / pamiatky / chodníky (body na mape, karty)
+   1. kategorie  – hlavné kategórie (filtre, farby/ikony), rozšíriteľné
+   2. miesta     – projekty aj podkategórie (pozri nižšie), tvoria strom
    3. zastavenia – jednotlivé QR podstránky (audio, text, galéria, GPS)
 
-   AKO PRIDAŤ NOVÉ MIESTO:
-   - skopíruj ľubovoľný blok v poli "miesta", zmeň id, názov, súradnice
-   - mapX / mapY = poloha bodu na mape (0–1000 šírka, 0–520 výška,
-     západ = vľavo; orientuj sa podľa existujúcich miest)
+   ---------------------------------------------------------------------
+   HIERARCHIA: hlavná kategória → projekt → podkategória (0..N úrovní) →
+   zastavenie
+
+   - PROJEKT je top-level záznam v "miesta" (bez poľa "rodic") – karta na
+     homepage aj bod na mape. Môže patriť do viacerých hlavných kategórií
+     (pole "kategorie"), ale vždy má práve jednu primárnu ("primarna") –
+     tá určuje farbu/ikonu na karte, mape aj v breadcrumbe.
+
+   - PODKATEGÓRIA je záznam v "miesta" s "rodic" = id rodiča (projektu
+     alebo inej podkategórie). Nemá vlastnú hlavnú kategóriu – farbu/ikonu
+     aj fotku (ak nemá vlastnú) DEDÍ od koreňového projektu. Podkategórií
+     môže byť pod jedným rodičom 0, 1 aj viac, a to do ľubovoľnej hĺbky.
+     Podkategória je vždy samostatný záznam – aj keď sa volá rovnako ako
+     existujúci top-level projekt, nezdieľa s ním obsah ani zastavenia.
+
+   - Karta projektu/podkategórie vždy zobrazuje počet zastavení = súčet
+     VŠETKÝCH zastavení v celom jej podstrome (aj cez viac úrovní), ale
+     počítajú sa len tie s vyplneným obsahom (text bez značky [DOPLNIŤ]).
+
+   - Klik na kartu: ak má ďalšie podkategórie → grid podkategórií (max 6
+     v riadku); ak už nemá žiadne ďalšie → grid konkrétnych zastavení
+     (očíslované kartičky, max 5 v riadku, zobrazujú sa vždy všetky).
+
+   AKO PRIDAŤ NOVÝ PROJEKT (top-level):
+   - skopíruj blok v poli "miesta" BEZ poľa "rodic", zmeň id, názov,
+     súradnice (mapX/mapY = poloha bodu na mape 0–1000/0–520) a kategórie
+
+   AKO PRIDAŤ PODKATEGÓRIU:
+   - skopíruj blok v poli "miesta", pridaj "rodic": "<id rodiča>",
+     mapX/mapY/lon/lat/kategorie/primarna sa nepoužívajú (nie je na mape)
+   - fotka sa dedí automaticky; pre vlastnú fotku pridaj pole "foto"
 
    AKO PRIDAŤ ZASTAVENIE:
-   - skopíruj blok v poli "zastavenia", zmeň id, miesto, poradie, obsah
-   - texty označené [DOPLNIŤ] sú zatiaľ prázdne – čakajú na obsah
+   - skopíruj blok v poli "zastavenia", zmeň id, miesto (id projektu ALEBO
+     ktorejkoľvek podkategórie), poradie, obsah
+   - texty označené [DOPLNIŤ] sú zatiaľ prázdne – čakajú na obsah a
+     NEPOČÍTAJÚ sa do zobrazeného počtu zastavení
    ===================================================================== */
 
 // Fotky miest
@@ -81,7 +111,33 @@ const DB = {
       lon: 20.474, lat: 48.695, mapX: 641, mapY: 252, cover: "", popis: "Obec známa kaštieľom rodu Andrássyovcov." },
 
     { id: "euroregion-beskydy", nazov: "Euroregión Beskydy", primarna: "mesta", kategorie: ["mesta", "pohranicie"],
-      lon: 18.5, lat: 49.38, mapX: 330, mapY: 30, cover: "", popis: "Cezhraničný región na pomedzí Slovenska, Česka a Poľska." },
+      lon: 18.5, lat: 49.38, mapX: 330, mapY: 30, cover: "", popis: "Objavujte výnimočné miesta na slovensko-českom pohraničí – mestá, hrady, prírodné krásy aj kultúrne dedičstvo, ktoré spája dva národy." },
+
+    /* ---- PODKATEGÓRIE „Euroregión Beskydy" (testovací obsah) ---- */
+    { id: "eb-oravsky-hrad", rodic: "euroregion-beskydy", nazov: "Oravský hrad",
+      foto: "https://images.unsplash.com/photo-1601918774946-25832a4be0d6?w=800&q=80",
+      popis: "Majestátny hrad týčiaci sa na brale nad riekou Orava patrí k najkrajším hradom Slovenska." },
+
+    { id: "eb-klin", rodic: "euroregion-beskydy", nazov: "Klin",
+      popis: "Podhorská obec pod Veľkou Račou, brána do Kysuckých Beskýd." },
+
+    { id: "eb-hrad-strecno", rodic: "euroregion-beskydy", nazov: "Hrad Strečno",
+      foto: "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg",
+      popis: "Stredoveký hrad nad Váhom – samostatná podkapitola v rámci Euroregiónu Beskydy." },
+
+    { id: "eb-plte-na-vahu", rodic: "euroregion-beskydy", nazov: "Plte na Váhu",
+      popis: "Tradičné pltníctvo – plavba na drevených pltiach po rieke Váh." },
+
+    { id: "eb-cadca", rodic: "euroregion-beskydy", nazov: "Čadca",
+      foto: "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80",
+      popis: "Srdce Kysúc a brána do Beskýd." },
+
+    { id: "eb-velka-raca", rodic: "euroregion-beskydy", nazov: "Veľká Rača",
+      foto: "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=800&q=80",
+      popis: "Najvyšší vrch Kysuckých Beskýd s panoramatickými výhľadmi." },
+
+    { id: "eb-rozhliadka-dedovka", rodic: "euroregion-beskydy", nazov: "Rozhliadňa Dedovka",
+      popis: "Vyhliadková veža s výhľadom na Kysuce, Beskydy aj Poľsko." },
 
     { id: "frydlant", nazov: "Frýdlant", primarna: "mesta", kategorie: ["mesta", "pohranicie"],
       lon: 15.082, lat: 50.921, mapX: 266, mapY: 6, cover: "", popis: "Mesto na česko-slovenskom pohraničí." },
@@ -196,7 +252,85 @@ const DB = {
     { id: "severna-veza", miesto: "hrad-strecno", poradie: 13, nazov: "Severná veža",
       cover: "", audio: [], text: "<p>[DOPLNIŤ – text zastavenia z pôvodného webu]</p>", galeria: [], gps: null, mapEmbed: "" },
     { id: "hlavne-nadvorie", miesto: "hrad-strecno", poradie: 14, nazov: "Hlavné nádvorie",
-      cover: "", audio: [], text: "<p>[DOPLNIŤ – text zastavenia z pôvodného webu]</p>", galeria: [], gps: null, mapEmbed: "" }
+      cover: "", audio: [], text: "<p>[DOPLNIŤ – text zastavenia z pôvodného webu]</p>", galeria: [], gps: null, mapEmbed: "" },
+
+    /* ============ EUROREGIÓN BESKYDY – podkategórie (testovací obsah) ============ */
+    /* -- Oravský hrad (eb-oravsky-hrad): 6 zastavení, 4 s obsahom -- */
+    { id: "eb-oh-brana-do-hradu", miesto: "eb-oravsky-hrad", poradie: 1, nazov: "Brána do hradu",
+      popis: "Hlavný vstup do hradného areálu.",
+      cover: "", audio: [], galeria: [], gps: null, mapEmbed: "",
+      text: `<p>Masívna vstupná brána strážila hrad po stáročia. Prechádzate ňou presne tade, kade
+      kedysi vchádzali kupci, posli aj samotní páni hradu – vitajte na Oravskom hrade.</p>` },
+    { id: "eb-oh-kaplnka", miesto: "eb-oravsky-hrad", poradie: 2, nazov: "Kaplnka",
+      popis: "Renesančná kaplnka sv. Michala.",
+      cover: "", audio: [], galeria: [], gps: null, mapEmbed: "",
+      text: `<p>Malá renesančná kaplnka zasvätená sv. Michalovi slúžila hradnej posádke aj panstvu
+      na súkromné bohoslužby. Zachovala sa v nej pôvodná výmaľba zo 17. storočia.</p>` },
+    { id: "eb-oh-hradna-studna", miesto: "eb-oravsky-hrad", poradie: 3, nazov: "Hradná studňa",
+      popis: "Hlboká studňa vytesaná do skaly.",
+      cover: "", audio: [], galeria: [], gps: null, mapEmbed: "",
+      text: `<p>Studňa vytesaná priamo do skalného brala zásobovala hrad vodou aj počas najdlhších
+      obliehaní. Jej hĺbka dodnes vyráža návštevníkom dych.</p>` },
+    { id: "eb-oh-vyhliadka", miesto: "eb-oravsky-hrad", poradie: 4, nazov: "Vyhliadka",
+      popis: "Panoramatický výhľad na Oravu.",
+      cover: "", audio: [], galeria: [], gps: null, mapEmbed: "",
+      text: `<p>Z najvyššieho nádvoria sa otvára jeden z najkrajších pohľadov na rieku Oravu a okolité
+      hrebene – odmena za výstup po hradných schodoch.</p>` },
+    { id: "eb-oh-nadvorie", miesto: "eb-oravsky-hrad", poradie: 5, nazov: "Nádvorie",
+      cover: "", audio: [], text: "<p>[DOPLNIŤ – text zastavenia]</p>", galeria: [], gps: null, mapEmbed: "" },
+    { id: "eb-oh-veza", miesto: "eb-oravsky-hrad", poradie: 6, nazov: "Veža",
+      cover: "", audio: [], text: "<p>[DOPLNIŤ – text zastavenia]</p>", galeria: [], gps: null, mapEmbed: "" },
+
+    /* -- Klin (eb-klin): 2 zastavenia -- */
+    { id: "eb-klin-centrum", miesto: "eb-klin", poradie: 1, nazov: "Centrum obce",
+      popis: "Srdce obce pod Veľkou Račou.",
+      cover: "", audio: [], galeria: [], gps: null, mapEmbed: "",
+      text: `<p>Obec Klin leží v malebnom údolí pod najvyšším vrchom Kysuckých Beskýd – Veľkou Račou.</p>` },
+    { id: "eb-klin-kostol", miesto: "eb-klin", poradie: 2, nazov: "Drevený kostolík",
+      popis: "Ľudová sakrálna architektúra Kysúc.",
+      cover: "", audio: [], galeria: [], gps: null, mapEmbed: "",
+      text: `<p>Drevený kostolík je ukážkou tradičnej ľudovej architektúry, akú nájdete len na
+      niekoľkých miestach Kysúc.</p>` },
+
+    /* -- Hrad Strečno – podkategória (eb-hrad-strecno): 2 zastavenia -- */
+    { id: "eb-hs-brana", miesto: "eb-hrad-strecno", poradie: 1, nazov: "Vstupná brána",
+      popis: "Prvý pohľad na hrad nad Váhom.",
+      cover: "", audio: [], galeria: [], gps: null, mapEmbed: "",
+      text: `<p>Hrad Strečno strážil odjakživa dôležitú obchodnú cestu popri Váhu – vstupná brána
+      vás víta rovnako, ako vítala pocestných pred stáročiami.</p>` },
+    { id: "eb-hs-nadvorie", miesto: "eb-hrad-strecno", poradie: 2, nazov: "Hradné nádvorie",
+      popis: "Centrálny priestor hradného areálu.",
+      cover: "", audio: [], galeria: [], gps: null, mapEmbed: "",
+      text: `<p>Nádvorie bolo srdcom každodenného života na hrade – remeselníci, čeľaď aj panstvo sa
+      tu stretávali pri svojich každodenných povinnostiach.</p>` },
+
+    /* -- Plte na Váhu (eb-plte-na-vahu): 1 zastavenie -- */
+    { id: "eb-plte-nastupiste", miesto: "eb-plte-na-vahu", poradie: 1, nazov: "Nástupište pltí",
+      popis: "Miesto, kde sa nalodíte na tradičnú pltnícku plavbu.",
+      cover: "", audio: [], galeria: [], gps: null, mapEmbed: "",
+      text: `<p>Tradičné pltníctvo na Váhu ožíva aj dnes – z tohto nástupišťa sa vydávajú drevené
+      plte na plavbu, akou kedysi putovalo drevo z hôr až do údolia.</p>` },
+
+    /* -- Čadca (eb-cadca): 1 zastavenie -- */
+    { id: "eb-cadca-namestie", miesto: "eb-cadca", poradie: 1, nazov: "Námestie slobody",
+      popis: "Centrum mesta Čadca.",
+      cover: "", audio: [], galeria: [], gps: null, mapEmbed: "",
+      text: `<p>Námestie slobody je prirodzeným centrom Čadce – mesta, ktoré je bránou do Kysuckých
+      Beskýd.</p>` },
+
+    /* -- Veľká Rača (eb-velka-raca): 1 zastavenie -- */
+    { id: "eb-vr-vrchol", miesto: "eb-velka-raca", poradie: 1, nazov: "Vrchol Veľkej Rače",
+      popis: "Najvyšší bod Kysuckých Beskýd (1 236 m n. m.).",
+      cover: "", audio: [], galeria: [], gps: null, mapEmbed: "",
+      text: `<p>Z vrcholu Veľkej Rače sa za jasného počasia vidí až do Poľska a Českej republiky –
+      symbolické miesto, kde sa stretávajú tri krajiny.</p>` },
+
+    /* -- Rozhliadňa Dedovka (eb-rozhliadka-dedovka): 1 zastavenie -- */
+    { id: "eb-dedovka-vyhliadka", miesto: "eb-rozhliadka-dedovka", poradie: 1, nazov: "Vyhliadková plošina",
+      popis: "360° výhľad na Kysuce, Beskydy aj Poľsko.",
+      cover: "", audio: [], galeria: [], gps: null, mapEmbed: "",
+      text: `<p>Rozhliadňa Dedovka ponúka výhľad na tri krajiny naraz – ideálny cieľ nenáročnej
+      turistiky pre celú rodinu.</p>` }
   ],
 
   /* --------------------------------------------------- KONTAKT ----- */

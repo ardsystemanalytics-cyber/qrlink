@@ -329,40 +329,89 @@ a { color: var(--pine); }
 .crumbs .here { color: var(--berry); font-weight: 600; }
 
 /* ------------------------------------------- KATEGÓRIA / TRASA ---- */
-.cat-hero { padding: 22px 0 10px; }
+.cat-hero {
+  display: flex; gap: 32px; flex-wrap: wrap;
+  padding: 22px 0 10px; align-items: flex-start;
+}
+.cat-hero-text { flex: 1 1 380px; min-width: 280px; }
 .cat-hero h1 {
   font-family: var(--f-display); font-weight: 800;
   font-size: clamp(30px, 4.6vw, 46px); letter-spacing: -.02em;
   margin: 6px 0 10px;
 }
 .cat-hero p { color: var(--ink-soft); max-width: 62ch; margin: 0; }
+.cat-hero-photo {
+  flex: 0 0 340px; max-width: 100%; align-self: stretch;
+  border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow);
+  background: var(--paper-deep); min-height: 200px;
+}
+.cat-hero-photo img { width: 100%; height: 100%; min-height: 200px; object-fit: cover; display: block; }
 
-.route { position: relative; padding: 30px 0 70px; }
-.route::before {
-  content: ""; position: absolute; left: 27px; top: 40px; bottom: 60px;
-  width: 2px; background: repeating-linear-gradient(
-    to bottom, var(--pine) 0 6px, transparent 6px 12px);
-  opacity: .5;
+/* pilulky: primárna/ďalšie kategórie ALEBO počet zastavení/audio/galéria */
+.cat-info {
+  display: flex; flex-wrap: wrap; gap: 10px 22px;
+  margin-top: 16px; font-size: 13.5px; color: var(--ink-soft);
 }
-.stop {
-  position: relative;
-  display: flex; align-items: center; gap: 18px;
-  background: var(--card); border: 1px solid var(--line);
-  border-radius: var(--radius);
-  padding: 14px 18px; margin: 0 0 14px 0;
-  text-decoration: none; color: var(--ink);
-  transition: transform .15s, box-shadow .15s, border-color .15s;
+.cat-info-pill { display: inline-flex; align-items: center; gap: 6px; }
+.cat-info-pill strong { color: var(--ink); font-weight: 700; }
+.cat-info .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; flex-shrink: 0; }
+.cat-map-btn { margin-top: 18px; }
+
+.route { padding: 30px 0 70px; }
+.route h2 {
+  font-family: var(--f-display); font-weight: 700; font-size: 24px;
+  margin: 0 0 18px;
 }
-.stop:hover { transform: translateX(4px); box-shadow: var(--shadow); border-color: var(--pine); }
-.stop .no {
-  flex: 0 0 auto; width: 40px; height: 40px; border-radius: 50%;
-  background: var(--pine); color: #fff;
-  font-family: var(--f-mono); font-weight: 600; font-size: 15px;
+
+/* grid podkategórií – max 6 v riadku, karty v štýle .place-card */
+.subcat-grid {
+  display: grid; grid-template-columns: repeat(6, 1fr); gap: 18px;
+}
+@media (max-width: 1100px) { .subcat-grid { grid-template-columns: repeat(4, 1fr); } }
+@media (max-width: 700px)  { .subcat-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 460px)  { .subcat-grid { grid-template-columns: 1fr; } }
+
+.card-stops { font-size: 12.5px; color: var(--ink-soft); margin: 0 0 10px; display: block; }
+
+/* grid zastavení – max 5 v riadku, vždy všetky, žiadne skrývanie */
+.stops-grid {
+  display: grid; grid-template-columns: repeat(5, 1fr); gap: 18px;
+}
+@media (max-width: 1000px) { .stops-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 700px)  { .stops-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 460px)  { .stops-grid { grid-template-columns: 1fr; } }
+
+.stop-card {
+  background: var(--card); border-radius: 18px; overflow: hidden;
+  border: 1px solid var(--line); text-decoration: none; color: var(--ink);
+  display: flex; flex-direction: column;
+  transition: transform .18s, box-shadow .18s;
+}
+.stop-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+.stop-photo { position: relative; aspect-ratio: 4/3; overflow: hidden; background: var(--paper-deep); }
+.stop-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.stop-no {
+  position: absolute; top: 10px; left: 10px; width: 30px; height: 30px;
+  border-radius: 50%; background: var(--pine); color: #fff;
+  font-family: var(--f-mono); font-weight: 700; font-size: 13px;
   display: flex; align-items: center; justify-content: center;
-  position: relative; z-index: 1;
+  box-shadow: 0 2px 8px rgba(0,0,0,.2);
 }
-.stop h3 { font-family: var(--f-display); font-weight: 600; font-size: 18px; margin: 0; }
-.stop .go { margin-left: auto; color: var(--pine); font-family: var(--f-mono); font-size: 13px; white-space: nowrap; }
+.stop-body { padding: 14px 16px 16px; display: flex; flex-direction: column; flex: 1; }
+.stop-body h3 {
+  font-family: var(--f-display); font-weight: 600; font-size: 16px;
+  margin: 0 0 6px; line-height: 1.25;
+}
+.stop-body p { font-size: 12.5px; color: var(--ink-soft); margin: 0 0 12px; flex: 1; line-height: 1.4; }
+.stop-footer { display: flex; align-items: center; justify-content: space-between; margin-top: auto; }
+.stop-qr svg { width: 18px; height: 18px; color: var(--ink-soft); }
+.stop-arrow {
+  flex: 0 0 auto; width: 30px; height: 30px; border-radius: 50%;
+  background: var(--paper); border: 1px solid var(--line);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 14px; color: var(--pine); transition: background .15s;
+}
+.stop-card:hover .stop-arrow { background: var(--pine); color: #fff; border-color: var(--pine); }
 
 /* --------------------------------------------- DETAIL ZASTAVENIA -- */
 .detail { padding-bottom: 70px; }
