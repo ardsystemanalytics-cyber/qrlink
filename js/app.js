@@ -56,7 +56,9 @@ function renderMap() {
 }
 
 /* ------------------------------------------- filtre + karty ------- */
-let aktivnyFilter = "vsetko";
+/* Filter kariet (#filters) a filter mapy (#mapFilters) sú nezávislé –
+   ovplyvňujú len svoju vlastnú sekciu. */
+let aktivnyFilterKarty = "vsetko";
 
 function renderFilters() {
   const host = Q("#filters");
@@ -64,7 +66,7 @@ function renderFilters() {
   const chips = [{ id: "vsetko", nazov: "Všetko", farba: null }, ...DB.kategorie];
   chips.forEach(k => {
     const b = document.createElement("button");
-    b.className = "chip" + (k.id === aktivnyFilter ? " active" : "");
+    b.className = "chip" + (k.id === aktivnyFilterKarty ? " active" : "");
     b.dataset.katId = k.id;
 
     if (k.id === "vsetko") {
@@ -79,14 +81,10 @@ function renderFilters() {
         </span>${k.nazov}`;
     }
     b.addEventListener("click", () => {
-      aktivnyFilter = k.id;
-      QA(".chip").forEach(c => c.classList.remove("active"));
+      aktivnyFilterKarty = k.id;
+      QA("#filters .chip").forEach(c => c.classList.remove("active"));
       b.classList.add("active");
-      QA("#mapFilters .chip").forEach(c => {
-        if (c.dataset.katId === k.id) c.classList.add("active");
-      });
       renderCards();
-      updateMapMarkers();
     });
     host.appendChild(b);
   });
@@ -126,6 +124,7 @@ function cardHTML(m) {
   </a>`;
 }
 
+let aktivnyFilterMapa = "vsetko";
 let hladanyText = "";
 
 function vyhovujeHladaniu(m) {
@@ -135,18 +134,22 @@ function vyhovujeHladaniu(m) {
   return slova.every(slovo => nazovNorm.includes(slovo));
 }
 
-function vyhovuje(m) {
-  const vKategorii = aktivnyFilter === "vsetko" || m.kategorie.includes(aktivnyFilter);
+function vyhovujeKartam(m) {
+  return aktivnyFilterKarty === "vsetko" || m.kategorie.includes(aktivnyFilterKarty);
+}
+
+function vyhovujeMape(m) {
+  const vKategorii = aktivnyFilterMapa === "vsetko" || m.kategorie.includes(aktivnyFilterMapa);
   return vKategorii && vyhovujeHladaniu(m);
 }
 
-/* Leaflet piny – skryj/zobraz podľa aktívneho filtra a vyhľadávania */
+/* Leaflet piny – skryj/zobraz podľa filtra a vyhľadávania nad mapou */
 function updateMapMarkers() {
   if (!window._mapMarkers || !window._leafletMap) return;
   DB.miesta.forEach(m => {
     const marker = window._mapMarkers[m.id];
     if (!marker) return;
-    if (vyhovuje(m)) {
+    if (vyhovujeMape(m)) {
       if (!window._leafletMap.hasLayer(marker)) marker.addTo(window._leafletMap);
     } else {
       window._leafletMap.removeLayer(marker);
@@ -162,20 +165,16 @@ function renderMapFilters() {
   const chips = [{ id: "vsetko", nazov: "Všetko", farba: null }, ...DB.kategorie];
   chips.forEach(k => {
     const b = document.createElement("button");
-    b.className = "chip" + (k.id === aktivnyFilter ? " active" : "");
+    b.className = "chip" + (k.id === aktivnyFilterMapa ? " active" : "");
     if (k.id === "vsetko") {
       b.textContent = "Všetko";
     } else {
       b.innerHTML = `<i style="width:9px;height:9px;border-radius:50%;background:${k.farba};display:inline-block;margin-right:2px;flex-shrink:0"></i>${k.nazov}`;
     }
     b.addEventListener("click", () => {
-      aktivnyFilter = k.id;
-      QA(".chip").forEach(c => c.classList.remove("active"));
+      aktivnyFilterMapa = k.id;
+      QA("#mapFilters .chip").forEach(c => c.classList.remove("active"));
       b.classList.add("active");
-      QA("#filters .chip").forEach(c => {
-        if (c.dataset.katId === k.id) c.classList.add("active");
-      });
-      renderCards();
       updateMapMarkers();
     });
     b.dataset.katId = k.id;
@@ -224,11 +223,10 @@ function renderCards() {
   const host = Q("#cards");
   const moreBtn = Q("#moreBtn");
   if (!host) return;
-  const list = DB.miesta.filter(m => m.mapX !== undefined && vyhovuje(m));
+  const list = DB.miesta.filter(m => m.mapX !== undefined && vyhovujeKartam(m));
   const visible = showAll ? list : list.slice(0, CARDS_PER_PAGE);
-  const emptyMsg = hladanyText ? "Nenašli sa žiadne miesta." : "Žiadne miesta pre túto kategóriu.";
   host.innerHTML = visible.map(cardHTML).join("") ||
-    `<p style="grid-column:1/-1;color:var(--ink-soft)">${emptyMsg}</p>`;
+    `<p style="grid-column:1/-1;color:var(--ink-soft)">Žiadne miesta pre túto kategóriu.</p>`;
   const cnt = Q("#cardCount");
   if (cnt) cnt.textContent = `${list.length} miest`;
   if (moreBtn) {
@@ -241,7 +239,6 @@ function initSearch() {
   if (!inp) return;
   inp.addEventListener("input", () => {
     hladanyText = normalize(inp.value);
-    renderCards();
     updateMapMarkers();
   });
 }
