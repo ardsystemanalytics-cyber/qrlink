@@ -320,9 +320,39 @@
               <a class="map-popup-btn" href="kategoria.html?id=${m.id}">Zobraziť detail →</a>
             </div>
           </div>
-        `, { maxWidth: 240, minWidth: 220, closeButton: false, className: "map-popup-wrap" });
+        `, { maxWidth: 240, minWidth: 220, closeButton: false, className: "map-popup-wrap", autoPan: false });
 
       markers[m.id] = marker;
+    });
+
+    // Popup vpravo od bodky, guľička vycentrovaná na výšku celého popupu
+    const POPUP_GAP = 14;
+    map.on("popupopen", (e) => {
+      const popup = e.popup;
+      const el = popup._container;
+      if (!el) return;
+      el.style.visibility = "hidden";
+      requestAnimationFrame(() => {
+        const markerPt = map.latLngToContainerPoint(popup.getLatLng());
+        const mapRect = map.getContainer().getBoundingClientRect();
+        const markerScreenX = mapRect.left + markerPt.x;
+        const markerScreenY = mapRect.top + markerPt.y;
+
+        const popupRect = el.getBoundingClientRect();
+
+        const desiredLeft = markerScreenX + POPUP_GAP;
+        const desiredTop = markerScreenY - popupRect.height / 2;
+
+        const shiftX = desiredLeft - popupRect.left;
+        const shiftY = desiredTop - popupRect.top;
+
+        const curLeft = parseFloat(el.style.left) || 0;
+        const curBottom = parseFloat(el.style.bottom) || 0;
+
+        el.style.left = (curLeft + shiftX) + "px";
+        el.style.bottom = (curBottom - shiftY) + "px";
+        el.style.visibility = "visible";
+      });
     });
 
     // Filtre – skrývanie/zobrazovanie pinov
