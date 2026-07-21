@@ -125,22 +125,25 @@ function cardHTML(m) {
 }
 
 let aktivnyFilterMapa = "vsetko";
-let hladanyText = "";
+let hladanyTextMapa = "";
+let hladanyTextKarty = "";
 
-function vyhovujeHladaniu(m) {
+/* každé slovo z hľadaného textu musí byť niekde v názve miesta */
+function zhodujeSaSHladanim(nazov, hladanyText) {
   if (!hladanyText) return true;
-  const nazovNorm = normalize(m.nazov);
+  const nazovNorm = normalize(nazov);
   const slova = hladanyText.split(/\s+/).filter(Boolean);
   return slova.every(slovo => nazovNorm.includes(slovo));
 }
 
 function vyhovujeKartam(m) {
-  return aktivnyFilterKarty === "vsetko" || m.kategorie.includes(aktivnyFilterKarty);
+  const vKategorii = aktivnyFilterKarty === "vsetko" || m.kategorie.includes(aktivnyFilterKarty);
+  return vKategorii && zhodujeSaSHladanim(m.nazov, hladanyTextKarty);
 }
 
 function vyhovujeMape(m) {
   const vKategorii = aktivnyFilterMapa === "vsetko" || m.kategorie.includes(aktivnyFilterMapa);
-  return vKategorii && vyhovujeHladaniu(m);
+  return vKategorii && zhodujeSaSHladanim(m.nazov, hladanyTextMapa);
 }
 
 /* Leaflet piny – skryj/zobraz podľa filtra a vyhľadávania nad mapou */
@@ -225,8 +228,9 @@ function renderCards() {
   if (!host) return;
   const list = DB.miesta.filter(m => m.mapX !== undefined && vyhovujeKartam(m));
   const visible = showAll ? list : list.slice(0, CARDS_PER_PAGE);
+  const emptyMsg = hladanyTextKarty ? "Nenašli sa žiadne miesta." : "Žiadne miesta pre túto kategóriu.";
   host.innerHTML = visible.map(cardHTML).join("") ||
-    `<p style="grid-column:1/-1;color:var(--ink-soft)">Žiadne miesta pre túto kategóriu.</p>`;
+    `<p style="grid-column:1/-1;color:var(--ink-soft)">${emptyMsg}</p>`;
   const cnt = Q("#cardCount");
   if (cnt) cnt.textContent = `${list.length} miest`;
   if (moreBtn) {
@@ -238,8 +242,17 @@ function initSearch() {
   const inp = Q("#searchInput");
   if (!inp) return;
   inp.addEventListener("input", () => {
-    hladanyText = normalize(inp.value);
+    hladanyTextMapa = normalize(inp.value);
     updateMapMarkers();
+  });
+}
+
+function initPlacesSearch() {
+  const inp = Q("#placesSearchInput");
+  if (!inp) return;
+  inp.addEventListener("input", () => {
+    hladanyTextKarty = normalize(inp.value);
+    renderCards();
   });
 }
 
@@ -419,6 +432,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderMap();
   renderMapFilters();
   initSearch();
+  initPlacesSearch();
   renderStats();
   renderFilters();
   renderCards();

@@ -487,10 +487,14 @@ a { color: var(--pine); }
 
 /* ================================================= SEKCIA MIESTA === */
 .places-head { margin: 52px 0 6px; }
-.places-head h2 {
+.places-head-row {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; flex-wrap: wrap; margin-bottom: 8px;
+}
+.places-head-row h2 {
   font-family: var(--f-display); font-weight: 700;
   font-size: clamp(28px, 3.5vw, 40px); letter-spacing: -.02em;
-  margin: 0 0 8px; color: var(--ink);
+  margin: 0; color: var(--ink);
 }
 .places-sub { color: var(--ink-soft); margin: 0 0 24px; font-size: 15px; }
 

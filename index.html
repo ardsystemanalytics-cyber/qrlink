@@ -173,7 +173,15 @@
 
   <section class="wrap" id="miesta">
     <div class="places-head">
-      <h2>Kam sa vyberieme?</h2>
+      <div class="places-head-row">
+        <h2>Kam sa vyberieme?</h2>
+        <div class="map-search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <input type="text" id="placesSearchInput" placeholder="Hľadať miesto…" autocomplete="off">
+        </div>
+      </div>
       <p class="places-sub">Objavujte miesta, hrady a náučné chodníky na príbehy po celom Slovensku.</p>
     </div>
     <div class="filters" id="filters"></div>
