@@ -59,9 +59,17 @@ Obsah má 4 úrovne:
 - Karta projektu/podkategórie vždy zobrazuje počet zastavení = súčet
   všetkých *obsahovo hotových* zastavení v celom jej podstrome (zastavenia
   s textom `[DOPLNIŤ...]` sa nepočítajú).
-- Klik na kartu: ak má ďalšie podkategórie → grid podkategórií (max 6
-  v riadku); ak už nemá → grid konkrétnych zastavení (očíslované kartičky
-  s QR ikonou, max 5 v riadku, zobrazujú sa vždy všetky, žiadne skrývanie).
+- Ktorý dizajn kategórie sa použije, sa neurčuje podľa hĺbky (koreň/1./2./3.
+  úroveň), ale podľa typu uzla. Rozlišujeme dva pomenované typy, ktoré sa
+  budú používať aj v ďalšej komunikácii o dizajne:
+  - **Kategória bez zastavení** – má ďalšie podkategórie (`detiOf(id)` nie
+    je prázdne). Rovnaký dizajn na každej úrovni vetvenia (1., 2., 3. ...
+    koľko ich len bude), nielen na koreňovej stránke projektu. Konkrétny
+    vizuál tohto dizajnu sa ešte môže meniť/dolaďovať.
+  - **Kategória so zastaveniami** – už nemá ďalšie podkategórie a obsahuje
+    priamo zastavenia. Je to posledná (listová) úroveň, má samostatný
+    dizajn (max 5 kartičiek v riadku, zobrazujú sa vždy všetky). Aj tento
+    vizuál sa ešte môže meniť/dolaďovať.
 - Breadcrumb rastie o úroveň s každým kliknutím: `Domov > Projekt >
   Podkategória > (zastavenie)`.
 

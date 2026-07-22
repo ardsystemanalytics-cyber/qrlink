@@ -28,9 +28,15 @@
      VŠETKÝCH zastavení v celom jej podstrome (aj cez viac úrovní), ale
      počítajú sa len tie s vyplneným obsahom (text bez značky [DOPLNIŤ]).
 
-   - Klik na kartu: ak má ďalšie podkategórie → grid podkategórií (max 6
-     v riadku); ak už nemá žiadne ďalšie → grid konkrétnych zastavení
-     (očíslované kartičky, max 5 v riadku, zobrazujú sa vždy všetky).
+   - Ktorý dizajn kategórie sa použije, sa neurčuje podľa hĺbky (koreň/1./
+     2./3. úroveň), ale podľa typu uzla – dva pomenované typy (používajú sa
+     aj v komunikácii o dizajne):
+       • "Kategória bez zastavení" – má ďalšie podkategórie. Rovnaký
+         dizajn na každej úrovni vetvenia, nielen na koreni projektu.
+       • "Kategória so zastaveniami" – už nemá ďalšie podkategórie,
+         obsahuje priamo zastavenia. Posledná (listová) úroveň, iný
+         dizajn (max 5 kartičiek v riadku, zobrazujú sa vždy všetky).
+     Vizuál oboch typov sa ešte môže meniť/dolaďovať.
 
    AKO PRIDAŤ NOVÝ PROJEKT (top-level):
    - skopíruj blok v poli "miesta" BEZ poľa "rodic", zmeň id, názov,
@@ -106,6 +112,19 @@ const DB = {
       popis: "Stredoveký hrad nad Váhom – 14 zastavení s audio sprievodcom." },
     { id: "bratislava-ivanka", nazov: "Ivanka pri Dunaji", primarna: "mesta", kategorie: ["mesta"],
       lon: 17.252, lat: 48.175, mapX: 73,  mapY: 393, cover: "", popis: "Obec pri Bratislave s bohatou históriou." },
+
+    /* ---- TESTOVACIE VNORENIE (4 úrovne) – overenie "Kategória bez zastavení" na každej úrovni ---- */
+    { id: "ivanka-uroven-1", rodic: "bratislava-ivanka", nazov: "Úroveň 1 – testovacia podkategória",
+      popis: "Testovacia podkategória bez zastavení, 1. úroveň vnorenia." },
+
+    { id: "ivanka-uroven-2", rodic: "ivanka-uroven-1", nazov: "Úroveň 2 – testovacia podkategória",
+      popis: "Testovacia podkategória bez zastavení, 2. úroveň vnorenia." },
+
+    { id: "ivanka-uroven-3", rodic: "ivanka-uroven-2", nazov: "Úroveň 3 – testovacia podkategória",
+      popis: "Testovacia podkategória bez zastavení, 3. úroveň vnorenia." },
+
+    { id: "ivanka-uroven-4", rodic: "ivanka-uroven-3", nazov: "Úroveň 4 – so zastaveniami",
+      popis: "Testovacia podkategória, ktorá už obsahuje priamo zastavenia (posledná/listová úroveň)." },
 
     { id: "betliar", nazov: "Betliar", primarna: "mesta", kategorie: ["mesta", "pamiatky"],
       lon: 20.474, lat: 48.695, mapX: 641, mapY: 252, cover: "", popis: "Obec známa kaštieľom rodu Andrássyovcov." },
@@ -255,6 +274,17 @@ const DB = {
       cover: "", audio: [], text: "<p>[DOPLNIŤ – text zastavenia z pôvodného webu]</p>", galeria: [], gps: null, mapEmbed: "" },
     { id: "hlavne-nadvorie", miesto: "hrad-strecno", poradie: 14, nazov: "Hlavné nádvorie",
       cover: "", audio: [], text: "<p>[DOPLNIŤ – text zastavenia z pôvodného webu]</p>", galeria: [], gps: null, mapEmbed: "" },
+
+    /* ============ TESTOVACIE VNORENIE – Úroveň 4 (zastavenia) ============ */
+    { id: "ivanka-u4-z1", miesto: "ivanka-uroven-4", poradie: 1, nazov: "Testovacie zastavenie A",
+      popis: "Prvé testovacie zastavenie na 4. úrovni vnorenia.",
+      cover: "", audio: [], galeria: [], gps: null, mapEmbed: "",
+      text: `<p>Toto je testovacie zastavenie, ktoré overuje, že "Kategória so zastaveniami" sa správne
+      zobrazí až na poslednej (listovej) úrovni, bez ohľadu na to, koľko úrovní podkategórií je nad ňou.</p>` },
+    { id: "ivanka-u4-z2", miesto: "ivanka-uroven-4", poradie: 2, nazov: "Testovacie zastavenie B",
+      popis: "Druhé testovacie zastavenie na 4. úrovni vnorenia.",
+      cover: "", audio: [], galeria: [], gps: null, mapEmbed: "",
+      text: `<p>Druhé testovacie zastavenie – slúži na overenie gridu/zoznamu s viac ako jednou kartičkou.</p>` },
 
     /* ============ EUROREGIÓN BESKYDY – podkategórie (testovací obsah) ============ */
     /* -- Oravský hrad (eb-oravsky-hrad): 6 zastavení, 4 s obsahom -- */

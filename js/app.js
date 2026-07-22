@@ -430,7 +430,8 @@ function renderKategoria() {
 
   const mapBtnHost = Q("#catMapBtn");
   if (mapBtnHost) {
-    if (jeKoren(m)) {
+    if (podkategorie.length) {
+      /* Kategória bez zastavení – vetviaci dizajn, rovnaký na každej úrovni */
       const lokalit = pocetLokalit(m.id);
       const celkovyPocet = pocetZastaveni(m.id);
       mapBtnHost.innerHTML = `
@@ -449,6 +450,7 @@ function renderKategoria() {
           </div>
         </div>`;
     } else {
+      /* Kategória so zastaveniami – listový dizajn */
       const mapBtn = (koren.lat && koren.lon) ? `
         <a class="btn cat-map-btn" href="index.html#mapa">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -456,20 +458,7 @@ function renderKategoria() {
           </svg>
           Zobraziť na mape →
         </a>` : "";
-      let statPill = "";
-      if (podkategorie.length) {
-        const celkovyPocet = pocetZastaveni(m.id);
-        const lokalit = pocetLokalit(m.id);
-        statPill = celkovyPocet ? `
-          <div class="cat-stat-pill">
-            <span class="cat-stat-icon">${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.signpost)}</span>
-            <span>
-              <strong>Spolu ${celkovyPocet} ${slovoZastavenia(celkovyPocet)}</strong>
-              ${lokalit > 1 ? `<small>v ${lokalit} lokalitách</small>` : ""}
-            </span>
-          </div>` : "";
-      }
-      mapBtnHost.innerHTML = (mapBtn || statPill) ? `<div class="cat-actions">${mapBtn}${statPill}</div>` : "";
+      mapBtnHost.innerHTML = mapBtn ? `<div class="cat-actions">${mapBtn}</div>` : "";
     }
   }
 
@@ -479,7 +468,7 @@ function renderKategoria() {
   if (!gridHost) return;
 
   if (podkategorie.length) {
-    if (gridTitle) gridTitle.textContent = jeKoren(m) ? "Objavte miesta" : "Vyberte si miesto";
+    if (gridTitle) gridTitle.textContent = "Objavte miesta";
     if (toggleHost) toggleHost.innerHTML = "";
     gridHost.className = "subcat-grid";
     gridHost.innerHTML = podkategorie.map(subcatCardHTML).join("");
@@ -504,13 +493,13 @@ function renderKategoria() {
 
   const featuresHost = Q("#catFeatures");
   if (featuresHost) {
-    featuresHost.style.display = jeKoren(m) ? "" : "none";
-    featuresHost.innerHTML = jeKoren(m) ? catFeaturesHTML() : "";
+    featuresHost.style.display = podkategorie.length ? "" : "none";
+    featuresHost.innerHTML = podkategorie.length ? catFeaturesHTML() : "";
   }
 
   const siblingHost = Q("#catSiblingNav");
   if (siblingHost) {
-    if (jeKoren(m)) {
+    if (jeKoren(m) || podkategorie.length) {
       siblingHost.innerHTML = "";
     } else {
       const rodic = miestoById(m.rodic);
