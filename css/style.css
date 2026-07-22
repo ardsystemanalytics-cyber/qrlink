@@ -404,16 +404,41 @@ a { color: var(--pine); }
   display: flex; flex-wrap: wrap; gap: 10px 22px;
   margin-top: 16px; font-size: 13.5px; color: var(--ink-soft);
 }
-.cat-info-pill { display: inline-flex; align-items: center; gap: 6px; }
+.cat-info-pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--card); border: 1px solid var(--line);
+  border-radius: 999px; padding: 8px 16px;
+}
 .cat-info-pill strong { color: var(--ink); font-weight: 700; }
+.cat-info-pill svg { width: 15px; height: 15px; flex-shrink: 0; }
 .cat-info .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; flex-shrink: 0; }
 .cat-map-btn { margin-top: 18px; }
 
 .route { padding: 30px 0 70px; }
-.route h2 {
-  font-family: var(--f-display); font-weight: 700; font-size: 24px;
-  margin: 0 0 18px;
+.route-head {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+  gap: 14px; margin: 0 0 18px;
 }
+.route-head h2 {
+  font-family: var(--f-display); font-weight: 700; font-size: 24px;
+  margin: 0; position: relative; padding-bottom: 10px;
+}
+.route-head h2::after {
+  content: ""; position: absolute; left: 0; bottom: 0;
+  width: 36px; height: 3px; border-radius: 2px; background: var(--pine);
+}
+
+/* prepínač Karty / Zoznam */
+#catViewToggle { display: flex; gap: 8px; }
+.view-toggle-btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-family: var(--f-body); font-size: 13.5px; font-weight: 600;
+  padding: 9px 16px; border-radius: 999px; cursor: pointer;
+  background: var(--card); color: var(--ink-soft); border: 1px solid var(--line);
+}
+.view-toggle-btn svg { width: 16px; height: 16px; }
+.view-toggle-btn.active { background: var(--paper-deep); color: var(--ink); border-color: var(--paper-deep); }
+.view-toggle-btn:not(.active):hover { border-color: var(--pine); color: var(--pine); }
 
 /* grid podkategórií – max 6 v riadku, karty v štýle .place-card */
 .subcat-grid {
@@ -457,7 +482,11 @@ a { color: var(--pine); }
 }
 .stop-body p { font-size: 12.5px; color: var(--ink-soft); margin: 0 0 12px; flex: 1; line-height: 1.4; }
 .stop-footer { display: flex; align-items: center; justify-content: space-between; margin-top: auto; }
-.stop-qr svg { width: 18px; height: 18px; color: var(--ink-soft); }
+.stop-qr {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 12px; color: var(--ink-soft); white-space: nowrap;
+}
+.stop-qr svg { width: 18px; height: 18px; color: var(--ink-soft); flex-shrink: 0; }
 .stop-arrow {
   flex: 0 0 auto; width: 30px; height: 30px; border-radius: 50%;
   background: var(--paper); border: 1px solid var(--line);
@@ -465,6 +494,42 @@ a { color: var(--pine); }
   font-size: 14px; color: var(--pine); transition: background .15s;
 }
 .stop-card:hover .stop-arrow { background: var(--pine); color: #fff; border-color: var(--pine); }
+
+/* zoznamové zobrazenie zastavení (prepínač Zoznam) */
+.stops-list { display: flex; flex-direction: column; gap: 12px; }
+.stop-row {
+  display: flex; align-items: center; gap: 18px;
+  background: var(--card); border: 1px solid var(--line); border-radius: 16px;
+  padding: 14px 18px; text-decoration: none; color: var(--ink);
+  transition: transform .15s, box-shadow .15s, border-color .15s;
+}
+.stop-row:hover { transform: translateX(4px); box-shadow: var(--shadow); border-color: var(--pine); }
+.stop-row-no {
+  flex: 0 0 auto; width: 34px; height: 34px; border-radius: 50%;
+  background: var(--pine); color: #fff;
+  font-family: var(--f-mono); font-weight: 700; font-size: 13px;
+  display: flex; align-items: center; justify-content: center;
+}
+.stop-row-body { flex: 1; min-width: 0; }
+.stop-row-body h3 { font-family: var(--f-display); font-weight: 600; font-size: 16px; margin: 0; }
+.stop-row-body p { font-size: 12.5px; color: var(--ink-soft); margin: 3px 0 0; }
+.stop-row .stop-qr { flex: 0 0 auto; }
+.stop-row .stop-arrow { flex: 0 0 auto; }
+
+/* navigácia späť na rodiča / na ďalšie miesto */
+.cat-sibling-nav {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; flex-wrap: wrap;
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 22px 28px; margin: 44px 0 60px;
+}
+.cat-sibling-link {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: 14px; color: var(--ink-soft); text-decoration: none;
+}
+.cat-sibling-link:hover { color: var(--pine); }
+.cat-sibling-link strong { color: var(--ink); }
+.cat-sibling-next { margin-left: auto; }
 
 /* --------------------------------------------- DETAIL ZASTAVENIA -- */
 .detail { padding-bottom: 70px; }

@@ -112,12 +112,13 @@ const DB = {
 
     { id: "euroregion-beskydy", nazov: "Euroregión Beskydy", primarna: "mesta", kategorie: ["mesta", "pohranicie"],
       lon: 18.5, lat: 49.38, mapX: 330, mapY: 30, cover: "", popis: "Objavujte výnimočné miesta na slovensko-českom pohraničí – mestá, hrady, prírodné krásy aj kultúrne dedičstvo, ktoré spája dva národy.",
-      heroOverlay: { text: "Pohraničie plné zážitkov", popis: "Od hradov a historických miest po prírodu a oddych." } },
+      heroOverlay: { icon: "stromy", text: "Pohraničie plné zážitkov", popis: "Od hradov a historických miest po prírodu a oddych." } },
 
     /* ---- PODKATEGÓRIE „Euroregión Beskydy" (testovací obsah) ---- */
     { id: "eb-oravsky-hrad", rodic: "euroregion-beskydy", nazov: "Oravský hrad",
       foto: "https://images.unsplash.com/photo-1601918774946-25832a4be0d6?w=800&q=80",
-      popis: "Majestátny hrad týčiaci sa na brale nad riekou Orava patrí k najkrajším hradom Slovenska." },
+      popis: "Majestátny hrad týčiaci sa na brale nad riekou Orava patrí k najkrajším hradom Slovenska.",
+      heroOverlay: { icon: "hrad", text: "Zaujímavosť", popis: "Hrad stoji na brale vysokom 112 m nad riekou Orava." } },
 
     { id: "eb-klin", rodic: "euroregion-beskydy", nazov: "Klin",
       popis: "Podhorská obec pod Veľkou Račou, brána do Kysuckých Beskýd." },
@@ -258,22 +259,22 @@ const DB = {
     /* ============ EUROREGIÓN BESKYDY – podkategórie (testovací obsah) ============ */
     /* -- Oravský hrad (eb-oravsky-hrad): 6 zastavení, 4 s obsahom -- */
     { id: "eb-oh-brana-do-hradu", miesto: "eb-oravsky-hrad", poradie: 1, nazov: "Brána do hradu",
-      popis: "Hlavný vstup do hradného areálu.",
+      popis: "Hlavný vstup do hradného areálu, ktorý vás vtiahne do histórie.",
       cover: "", audio: [], galeria: [], gps: null, mapEmbed: "",
       text: `<p>Masívna vstupná brána strážila hrad po stáročia. Prechádzate ňou presne tade, kade
       kedysi vchádzali kupci, posli aj samotní páni hradu – vitajte na Oravskom hrade.</p>` },
     { id: "eb-oh-kaplnka", miesto: "eb-oravsky-hrad", poradie: 2, nazov: "Kaplnka",
-      popis: "Renesančná kaplnka sv. Michala.",
+      popis: "Renesančná kaplnka sv. Michala s unikátnou výzdobou.",
       cover: "", audio: [], galeria: [], gps: null, mapEmbed: "",
       text: `<p>Malá renesančná kaplnka zasvätená sv. Michalovi slúžila hradnej posádke aj panstvu
       na súkromné bohoslužby. Zachovala sa v nej pôvodná výmaľba zo 17. storočia.</p>` },
     { id: "eb-oh-hradna-studna", miesto: "eb-oravsky-hrad", poradie: 3, nazov: "Hradná studňa",
-      popis: "Hlboká studňa vytesaná do skaly.",
+      popis: "Hlboká studňa vytesaná do skaly, ktorá slúžila po stáročia.",
       cover: "", audio: [], galeria: [], gps: null, mapEmbed: "",
       text: `<p>Studňa vytesaná priamo do skalného brala zásobovala hrad vodou aj počas najdlhších
       obliehaní. Jej hĺbka dodnes vyráža návštevníkom dych.</p>` },
     { id: "eb-oh-vyhliadka", miesto: "eb-oravsky-hrad", poradie: 4, nazov: "Vyhliadka",
-      popis: "Panoramatický výhľad na Oravu.",
+      popis: "Nádherný panoramatický výhľad na rieku Oravu a okolitú krajinu.",
       cover: "", audio: [], galeria: [], gps: null, mapEmbed: "",
       text: `<p>Z najvyššieho nádvoria sa otvára jeden z najkrajších pohľadov na rieku Oravu a okolité
       hrebene – odmena za výstup po hradných schodoch.</p>` },
