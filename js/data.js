@@ -379,6 +379,11 @@ const DB = {
     web: "https://www.ardsystem.sk",
     ico: "36 397 563",
     dic: "2020105989",
-    icdph: "SK2020105989"
+    icdph: "SK2020105989",
+    social: {
+      facebook: "https://www.facebook.com",
+      instagram: "https://www.instagram.com",
+      linkedin: "https://www.linkedin.com"
+    }
   }
 };

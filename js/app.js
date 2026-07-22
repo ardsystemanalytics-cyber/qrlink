@@ -330,6 +330,24 @@ const CAT_INFO_ICONS = {
 const CAT_INFO_ICON_SVG = (path) =>
   `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${path}</svg>`;
 
+/* ikonky pre stránku Kontakt */
+const CONTACT_ICONS = {
+  building: `<path d="M3 21l18 0"/><path d="M9 8l1 0"/><path d="M9 12l1 0"/><path d="M9 16l1 0"/><path d="M14 8l1 0"/><path d="M14 12l1 0"/><path d="M14 16l1 0"/><path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16"/>`,
+  message: `<path d="M8 9h8"/><path d="M8 13h6"/><path d="M9 18h-3a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-3l-3 3l-3 -3"/>`,
+  phone: `<path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"/>`,
+  mail: `<path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10"/><path d="M3 7l9 6l9 -6"/>`,
+  world: `<path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"/><path d="M3.6 9h16.8"/><path d="M3.6 15h16.8"/><path d="M11.5 3a17 17 0 0 0 0 18"/><path d="M12.5 3a17 17 0 0 1 0 18"/>`,
+  send: `<path d="M10 14l11 -11"/><path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5"/>`,
+  armchair: `<path d="M5 11a2 2 0 0 1 2 2v2h10v-2a2 2 0 1 1 4 0v4a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-4a2 2 0 0 1 2 -2"/><path d="M5 11v-5a3 3 0 0 1 3 -3h8a3 3 0 0 1 3 3v5"/><path d="M6 19v2"/><path d="M18 19v2"/>`
+};
+const CONTACT_ICON_SVG = (path) =>
+  `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${path}</svg>`;
+const SOCIAL_ICONS = {
+  facebook: `<svg viewBox="0 0 24 24" fill="currentColor" width="15" height="15"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>`,
+  instagram: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>`,
+  linkedin: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><path d="M8 11v5"/><path d="M8 8v.01"/><path d="M12 16v-5"/><path d="M16 16v-3a2 2 0 1 0 -4 0"/><path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4l0 -10"/></svg>`
+};
+
 /* ------------------------------------------ karta zastavenia ------ */
 const STOP_QR_ICON = `<rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
     <rect x="3" y="14" width="7" height="7"/><path d="M14 14h3v3h-3zM20 14v3M14 20h3M20 20v.01"/>`;
@@ -796,16 +814,73 @@ function renderKontakt() {
   if (!host) return;
   const c = DB.kontakt;
   host.innerHTML = `
-    <p><strong>${c.firma}</strong></p>
-    ${c.adresa.map(r => `<p>${r}</p>`).join("")}
-    <p class="mono">tel.: <a href="tel:${c.tel.replace(/\s/g, "")}">${c.tel}</a></p>
-    <p class="mono">e-mail: <a href="mailto:${c.email}">${c.email}</a></p>
-    <p class="mono">web: <a href="${c.web}" target="_blank" rel="noopener">${c.web.replace("https://", "")}</a></p>`;
-  const f = Q("#contactFacts");
-  if (f) f.innerHTML = `
-    <p class="mono">IČO: ${c.ico}</p>
-    <p class="mono">DIČ: ${c.dic}</p>
-    <p class="mono">IČ-DPH: ${c.icdph}</p>`;
+    <p class="contact-firma">${c.firma}</p>
+    <div class="contact-field">
+      ${CONTACT_ICON_SVG(CAT_INFO_ICONS.pin)}
+      <span>${c.adresa.join(", ")}</span>
+    </div>
+    <div class="contact-field link">
+      ${CONTACT_ICON_SVG(CONTACT_ICONS.phone)}
+      <a href="tel:${c.tel.replace(/\s/g, "")}">${c.tel}</a>
+    </div>
+    <div class="contact-field link">
+      ${CONTACT_ICON_SVG(CONTACT_ICONS.mail)}
+      <a href="mailto:${c.email}">${c.email}</a>
+    </div>
+    <div class="contact-field link">
+      ${CONTACT_ICON_SVG(CONTACT_ICONS.world)}
+      <a href="${c.web}" target="_blank" rel="noopener">${c.web.replace("https://", "")}</a>
+    </div>`;
+
+  const social = Q("#contactSocial");
+  if (social && c.social) {
+    social.innerHTML = `
+      <a href="${c.social.facebook}" target="_blank" rel="noopener" aria-label="Facebook">${SOCIAL_ICONS.facebook}</a>
+      <a href="${c.social.instagram}" target="_blank" rel="noopener" aria-label="Instagram">${SOCIAL_ICONS.instagram}</a>
+      <a href="${c.social.linkedin}" target="_blank" rel="noopener" aria-label="LinkedIn">${SOCIAL_ICONS.linkedin}</a>`;
+  }
+
+  const features = Q("#contactFeatures");
+  if (features) features.innerHTML = contactFeaturesHTML();
+
+  initContactForm();
+}
+
+/* statický 4-stĺpcový pruh výhod na stránke Kontakt */
+function contactFeaturesHTML() {
+  const items = [
+    { icon: CAT_FEATURE_ICONS.qr, nadpis: "QR sprievodca", text: "Naskenujte QR kód priamo na mieste a spoznajte jeho príbeh." },
+    { icon: CAT_INFO_ICONS.kniha, nadpis: "Náučné chodníky", text: "Trasy so zastaveniami pre výlety plné objavovania." },
+    { icon: CONTACT_ICONS.armchair, nadpis: "Mestský mobiliár", text: "Informačné tabule a lavičky s QR kódom v teréne." },
+    { icon: CAT_INFO_ICONS.audio, nadpis: "Audio sprievodca", text: "Vypočujte si príbeh miesta priamo vo vašom telefóne." }
+  ];
+  return items.map(it => `
+    <div class="cat-feature">
+      <span class="cat-feature-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${it.icon}</svg>
+      </span>
+      <div>
+        <strong>${it.nadpis}</strong>
+        <p>${it.text}</p>
+      </div>
+    </div>`).join("");
+}
+
+/* formulár na stránke Kontakt – zatiaľ len klientská validácia a potvrdenie,
+   bez servera; miesto pre napojenie na e-mailovú/API službu */
+function initContactForm() {
+  const form = Q("#contactForm");
+  if (!form || form.dataset.bound) return;
+  form.dataset.bound = "1";
+  const status = Q("#formStatus");
+  form.addEventListener("submit", e => {
+    e.preventDefault();
+    form.reset();
+    if (status) {
+      status.textContent = "Ďakujeme za správu! Ozveme sa vám čo najskôr.";
+      status.className = "form-status ok";
+    }
+  });
 }
 
 /* ------------------------------------------------------- štart ---- */
