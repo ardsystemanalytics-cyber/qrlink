@@ -25,8 +25,10 @@
 
   <div class="detail-cover" id="dCover"></div>
 
-  <h1 id="dTitle">…</h1>
-  <p class="sub" id="dSub"></p>
+  <div class="detail-head">
+    <h1 id="dTitle">…</h1>
+    <div class="detail-meta" id="dSub"></div>
+  </div>
 
   <div id="playerHost"></div>
 
@@ -35,30 +37,11 @@
   <div id="galleryHost"></div>
 
   <div class="gps-box" id="gpsHost">
-    <span class="gps-label" id="gpsLabel">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M12 21s-7-5.5-7-11a7 7 0 1 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/>
-      </svg>
-      Kde QR kód nájdete
-    </span>
     <iframe id="gpsFrame" src="" loading="lazy" title="Mapa – poloha QR kódu"
       referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
   </div>
 
-  <div class="meta-row">
-    <span class="counter">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M13 4a3 3 0 1 1-2 0M7 21v-5l2-3 1-4h4l1 4 2 3v5"/>
-      </svg>
-      <span id="visitCount">–</span>
-    </span>
-    <a class="btn" id="allStops" href="#">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M13 4a3 3 0 1 1-2 0M8 21l2-6 3-2 1-4M14 21l-1-5"/>
-      </svg>
-      Všetky zastavenia
-    </a>
-  </div>
+  <div class="meta-row" id="metaRow"></div>
 </main>
 
 <footer class="site-footer">

@@ -244,7 +244,12 @@ const DB = {
         tatino vráti a ostane aspoň chvíľu doma. Vyzerali ho z hradnej veže, aby ho už z diaľky
         zazreli a po schodoch stihli dobehnúť dole. Vysadli na tatinovho tátoša a so slávou sa
         nechali vítať na hrade.</p>`,
-      galeria: ["https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg"],
+      galeria: [
+        "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg",
+        "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg",
+        "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg",
+        "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg"
+      ],
       gps: { lat: 49.177151, lng: 18.862854 },
       mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d652.0584362093641!2d18.86230682924827!3d49.1771509987075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDEwJzM3LjciTiAxOMKwNTEnNDYuMyJF!5e0!3m2!1ssk!2ssk!4v1594621969012!5m2!1ssk!2ssk"
     },

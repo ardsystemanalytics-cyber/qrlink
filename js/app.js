@@ -322,7 +322,8 @@ const CAT_INFO_ICONS = {
   audio: `<path d="M4 13a8 8 0 0 1 16 0M4 13v4a2 2 0 0 0 2 2h1v-6H6M20 13v4a2 2 0 0 1-2 2h-1v-6h1"/>`,
   galeria: `<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/>`,
   signpost: `<path d="M12 3v18M7 6h10l-2 3 2 3H7"/>`,
-  srdce: `<path d="M12 21s-8-5.5-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 5.5-8 11-8 11z"/>`
+  srdce: `<path d="M12 21s-8-5.5-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 5.5-8 11-8 11z"/>`,
+  stit: `<path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3"/>`
 };
 const CAT_INFO_ICON_SVG = (path) =>
   `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${path}</svg>`;
@@ -568,63 +569,146 @@ function renderZastavenie() {
   document.title = `${z.nazov} – QR LINK`;
 
   const chain = m ? retazPredkov(m) : [];
+  const koren = m ? rootProjekt(m) : null;
+  const hlavnaKat = koren ? katById(koren.primarna) : null;
   renderBreadcrumb([
+    ...(hlavnaKat ? [{ label: hlavnaKat.nazov, href: `index.html#miesta` }] : []),
     ...chain.map(node => ({ label: node.nazov, href: `kategoria.html?id=${node.id}` })),
     { label: z.nazov, href: null }
   ]);
 
   Q("#dTitle").textContent = z.nazov;
-  Q("#dSub").textContent = m ? `Zastavenie ${z.poradie} · ${m.nazov}` : "";
+
+  const zastaveniaMiesta = m ? zastaveniaPriamoOf(m.id).filter(maObsah).sort((a, b) => a.poradie - b.poradie) : [];
+  const poradieTu = zastaveniaMiesta.findIndex(x => x.id === z.id) + 1;
+  Q("#dSub").innerHTML = `
+    ${m ? `<span class="detail-meta-line">
+      ${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.pin)}${m.nazov}
+      ${z.gps ? `<span class="dot">•</span>${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.pin)}${z.gps.lat.toFixed(6)}, ${z.gps.lng.toFixed(6)}` : ""}
+    </span>` : ""}
+    ${zastaveniaMiesta.length ? `<span class="detail-meta-count">Zastavenie ${poradieTu} z ${zastaveniaMiesta.length}</span>` : ""}`;
 
   if (z.cover) {
-    Q("#dCover").innerHTML = `<img src="${z.cover}" alt="${z.nazov}">`;
+    Q("#dCover").innerHTML = `
+      <img src="${z.cover}" alt="${z.nazov}">
+      <span class="detail-cover-counter">1 / 1</span>
+      <button class="detail-share-btn" id="shareBtn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+          <path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/>
+        </svg>
+        Zdieľať
+      </button>`;
+    Q("#shareBtn").addEventListener("click", async () => {
+      const shareData = { title: z.nazov, url: location.href };
+      if (navigator.share) { try { await navigator.share(shareData); } catch (e) {} }
+      else if (navigator.clipboard) { navigator.clipboard.writeText(location.href); }
+    });
   } else { Q("#dCover").remove(); }
 
   if (z.audio && z.audio.length) renderPlayer(z.audio[0]);
   else Q("#playerHost").remove();
 
-  Q("#dText").innerHTML = z.text || "";
+  const dText = Q("#dText");
+  dText.innerHTML = z.text || "";
+  const headIcons = [CAT_FEATURE_ICONS.stromy, CAT_INFO_ICONS.stit];
+  QA("h2", dText).forEach((h2, i) => {
+    h2.innerHTML = `<span class="text-h2-icon">${CAT_INFO_ICON_SVG(headIcons[i % headIcons.length])}</span>${h2.innerHTML}`;
+  });
+
+  /* zoskupí obsah podľa h2 do .text-col blokov, aby nadpisy sedeli v rovnakom riadku (grid) */
+  if (QA("h2", dText).length > 1) {
+    const cols = [];
+    [...dText.childNodes].forEach(node => {
+      if (node.nodeType === 1 && node.tagName === "H2") cols.push([node]);
+      else if (cols.length) cols[cols.length - 1].push(node);
+    });
+    dText.innerHTML = "";
+    cols.forEach(nodes => {
+      const col = document.createElement("div");
+      col.className = "text-col";
+      nodes.forEach(n => col.appendChild(n));
+      dText.appendChild(col);
+    });
+  }
 
   if (z.galeria && z.galeria.length) renderGallery(z.galeria);
   else Q("#galleryHost").remove();
 
   if (z.mapEmbed) {
-    Q("#gpsLabel").textContent = z.gps
-      ? `GPS ${z.gps.lat.toFixed(6)}, ${z.gps.lng.toFixed(6)}`
-      : "Kde QR kód nájdete";
     Q("#gpsFrame").src = z.mapEmbed;
-  } else Q("#gpsHost").remove();
+    const mapLink = z.gps ? `https://www.google.com/maps?q=${z.gps.lat},${z.gps.lng}` : null;
+    if (mapLink) {
+      Q("#gpsHost").insertAdjacentHTML("afterbegin", `
+        <a class="gps-open-btn" href="${mapLink}" target="_blank" rel="noopener">
+          Otvoriť v Mapách
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+          </svg>
+        </a>`);
+    }
+  } else { Q("#gpsHost").remove(); }
 
-  renderCounter(z.id);
-  Q("#allStops").href = m ? `kategoria.html?id=${m.id}` : "index.html";
+  const metaRow = Q("#metaRow");
+  if (metaRow) {
+    metaRow.innerHTML = `
+      ${m ? `<a class="cat-sibling-link" href="kategoria.html?id=${m.id}"><span>←</span> Späť na „${m.nazov}"</a>` : `<span></span>`}
+      <span class="counter">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M13 4a3 3 0 1 1-2 0M7 21v-5l2-3 1-4h4l1 4 2 3v5"/>
+        </svg>
+        <span id="visitCount">–</span>
+      </span>
+      <a class="btn" id="allStops" href="${m ? `kategoria.html?id=${m.id}` : "index.html"}">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M13 4a3 3 0 1 1-2 0M8 21l2-6 3-2 1-4M14 21l-1-5"/>
+        </svg>
+        Všetky zastavenia
+      </a>`;
+    renderCounter(z.id);
+  }
 }
 
 /* audio prehrávač so skokmi ±10 s */
 function renderPlayer(src) {
   const host = Q("#playerHost");
   host.innerHTML = `
-    <div class="player">
-      <button class="skip" data-skip="-10" aria-label="Späť 10 sekúnd">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 18l-7-6 7-6M20 18l-7-6 7-6"/></svg>
-      </button>
-      <button id="playBtn" aria-label="Prehrať audio">
-        <svg id="iconPlay" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-        <svg id="iconPause" viewBox="0 0 24 24" fill="currentColor" style="display:none"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
-      </button>
-      <button class="skip" data-skip="10" aria-label="Vpred 10 sekúnd">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 6l7 6-7 6M4 6l7 6-7 6"/></svg>
-      </button>
-      <div class="bar" id="pBar"><i id="pFill"></i></div>
-      <span class="time" id="pTime">0:00</span>
-      <audio id="pAudio" src="${src}" preload="metadata"></audio>
+    <div class="player-row">
+      <div class="player">
+        <button class="skip" data-skip="-10" aria-label="Späť 10 sekúnd">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 18l-7-6 7-6M20 18l-7-6 7-6"/></svg>
+        </button>
+        <button id="playBtn" aria-label="Prehrať audio">
+          <svg id="iconPlay" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          <svg id="iconPause" viewBox="0 0 24 24" fill="currentColor" style="display:none"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+        </button>
+        <button class="skip" data-skip="10" aria-label="Vpred 10 sekúnd">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 6l7 6-7 6M4 6l7 6-7 6"/></svg>
+        </button>
+        <span class="time" id="pTime">0:00</span>
+        <div class="bar" id="pBar"><i id="pFill"></i><span class="bar-handle"></span></div>
+        <span class="time" id="pTotal">0:00</span>
+        <button class="volume-btn" aria-label="Hlasitosť">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M11 5 6 9H3v6h3l5 4z"/><path d="M16 8a5 5 0 0 1 0 8"/>
+          </svg>
+        </button>
+        <audio id="pAudio" src="${src}" preload="metadata"></audio>
+      </div>
+      <a class="player-download" href="${src}" download aria-label="Stiahnuť audio">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 3v12M7 10l5 5 5-5M5 21h14"/>
+        </svg>
+      </a>
     </div>`;
 
-  const a = Q("#pAudio"), fill = Q("#pFill"), time = Q("#pTime");
+  const a = Q("#pAudio"), fill = Q("#pFill"), time = Q("#pTime"), total = Q("#pTotal");
   const fmt = s => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
 
   Q("#playBtn").addEventListener("click", () => a.paused ? a.play() : a.pause());
   a.addEventListener("play", () => { Q("#iconPlay").style.display = "none"; Q("#iconPause").style.display = "block"; });
   a.addEventListener("pause", () => { Q("#iconPlay").style.display = "block"; Q("#iconPause").style.display = "none"; });
+  a.addEventListener("loadedmetadata", () => { if (a.duration) total.textContent = fmt(a.duration); });
   a.addEventListener("timeupdate", () => {
     if (a.duration) fill.style.width = (a.currentTime / a.duration * 100) + "%";
     time.textContent = fmt(a.currentTime);
@@ -641,6 +725,9 @@ function renderPlayer(src) {
 function renderGallery(imgs) {
   const host = Q("#galleryHost");
   host.innerHTML = `
+    <h2 class="gallery-title">
+      <span class="text-h2-icon">${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.galeria)}</span>Fotogaléria
+    </h2>
     <div class="gallery">
       <button class="g-arrow" data-dir="-1" aria-label="Predchádzajúce fotky">‹</button>
       <div class="g-strip" id="gStrip">
