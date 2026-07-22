@@ -445,19 +445,24 @@ function renderKategoria() {
 }
 
 /* statický 4-stĺpcový pruh výhod – zobrazuje sa len na stránke projektu (koreňa) */
+const CAT_FEATURE_ICONS = {
+  hrad: `<path d="M15 19v-2a3 3 0 0 0 -6 0v2a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1v-14h4v3h3v-3h4v3h3v-3h4v14a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1"/><path d="M3 11l18 0"/>`,
+  stromy: `<path d="M16 5l3 3l-2 1l4 4l-3 1l4 4h-9"/><path d="M15 21l0 -3"/><path d="M8 13l-2 -2"/><path d="M8 12l2 -2"/><path d="M8 21v-13"/><path d="M5.824 16a3 3 0 0 1 -2.743 -3.69a3 3 0 0 1 .304 -4.833a3 3 0 0 1 4.615 -3.707a3 3 0 0 1 4.614 3.707a3 3 0 0 1 .305 4.833a3 3 0 0 1 -2.919 3.695h-4l-.176 -.005"/>`,
+  ludia: `<path d="M5 7a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"/><path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/><path d="M21 21v-2a4 4 0 0 0 -3 -3.85"/>`,
+  qr: `<path d="M4 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4"/><path d="M7 17l0 .01"/><path d="M14 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4"/><path d="M7 7l0 .01"/><path d="M4 15a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4"/><path d="M17 7l0 .01"/><path d="M14 14l3 0"/><path d="M20 14l0 .01"/><path d="M14 14l0 3"/><path d="M14 20l3 0"/><path d="M17 17l3 0"/><path d="M20 17l0 3"/>`
+};
+
 function catFeaturesHTML() {
   const items = [
-    { icon: KAT_ICONS.pamiatky, nadpis: "História a kultúra", text: "Hrady, zámky a historické mestá s bohatým príbehom." },
-    { icon: KAT_ICONS.enviro, nadpis: "Príroda", text: "Krásne miesta v srdci Beskýd ideálne na oddych." },
-    { icon: `<circle cx="8" cy="8" r="3"/><circle cx="16" cy="8" r="3"/><path d="M2 20c0-3.5 2.5-6 6-6s6 2.5 6 6M10 20c0-3.5 2.5-6 6-6s6 2.5 6 6"/>`,
-      nadpis: "Spája nás", text: "Objavujte miesta, ktoré spájajú Slovensko a Česko." },
-    { icon: `<rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><path d="M14 14h3v3h-3zM20 14v3M14 20h3M20 20v.01"/>`,
-      nadpis: "QR sprievodca", text: "Naskenujte QR kódy a spoznajte miesta ešte lepšie." }
+    { icon: CAT_FEATURE_ICONS.hrad, nadpis: "História a kultúra", text: "Hrady, zámky a historické mestá s bohatým príbehom." },
+    { icon: CAT_FEATURE_ICONS.stromy, nadpis: "Príroda", text: "Krásne miesta v srdci Beskýd ideálne na oddych." },
+    { icon: CAT_FEATURE_ICONS.ludia, nadpis: "Spája nás", text: "Objavujte miesta, ktoré spájajú Slovensko a Česko." },
+    { icon: CAT_FEATURE_ICONS.qr, nadpis: "QR sprievodca", text: "Naskenujte QR kódy a spoznajte miesta ešte lepšie." }
   ];
   return items.map(it => `
     <div class="cat-feature">
       <span class="cat-feature-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${it.icon}</svg>
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${it.icon}</svg>
       </span>
       <div>
         <strong>${it.nadpis}</strong>
