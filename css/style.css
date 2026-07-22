@@ -451,7 +451,7 @@ a { color: var(--pine); }
   background: var(--card); color: var(--ink-soft); border: 1px solid var(--line);
 }
 .view-toggle-btn svg { width: 16px; height: 16px; }
-.view-toggle-btn.active { background: var(--paper-deep); color: var(--ink); border-color: var(--paper-deep); }
+.view-toggle-btn.active { background: var(--pine); color: #fff; border-color: var(--pine); }
 .view-toggle-btn:not(.active):hover { border-color: var(--pine); color: var(--pine); }
 
 /* grid podkategórií – max 6 v riadku, karty v štýle .place-card */
@@ -467,7 +467,7 @@ a { color: var(--pine); }
 
 /* grid zastavení – max 5 v riadku, vždy všetky, žiadne skrývanie */
 .stops-grid {
-  display: grid; grid-template-columns: repeat(5, 1fr); gap: 18px;
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px;
 }
 @media (max-width: 1000px) { .stops-grid { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 700px)  { .stops-grid { grid-template-columns: repeat(2, 1fr); } }

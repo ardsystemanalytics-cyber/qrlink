@@ -290,7 +290,7 @@ const DB = {
     /* -- Oravský hrad (eb-oravsky-hrad): 6 zastavení, 4 s obsahom -- */
     { id: "eb-oh-brana-do-hradu", miesto: "eb-oravsky-hrad", poradie: 1, nazov: "Brána do hradu",
       popis: "Hlavný vstup do hradného areálu, ktorý vás vtiahne do histórie.",
-      cover: "", audio: [], galeria: [], gps: null, mapEmbed: "",
+      cover: "", audio: ["https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-1.mp3"], galeria: [], gps: null, mapEmbed: "",
       text: `<p>Masívna vstupná brána strážila hrad po stáročia. Prechádzate ňou presne tade, kade
       kedysi vchádzali kupci, posli aj samotní páni hradu – vitajte na Oravskom hrade.</p>` },
     { id: "eb-oh-kaplnka", miesto: "eb-oravsky-hrad", poradie: 2, nazov: "Kaplnka",
