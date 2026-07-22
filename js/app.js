@@ -301,12 +301,19 @@ function subcatCardHTML(m) {
     </div>
     <div class="card-body">
       <h3>${m.nazov}</h3>
-      <span class="card-stops">${pocet} ${slovoZastavenia(pocet)}</span>
       <div class="card-footer">
+        <span class="card-stops">${pocet} ${slovoZastavenia(pocet)}</span>
         <span class="card-arrow">→</span>
       </div>
     </div>
   </a>`;
+}
+
+/* počet listových lokalít v podstrome (uzly, ktoré už nemajú ďalšie podkategórie) */
+function pocetLokalit(id) {
+  const deti = detiOf(id);
+  if (!deti.length) return 1;
+  return deti.reduce((sum, d) => sum + pocetLokalit(d.id), 0);
 }
 
 /* ------------------------------------------ karta zastavenia ------ */
@@ -352,7 +359,21 @@ function renderKategoria() {
   })));
 
   const photoHost = Q("#catPhoto");
-  if (photoHost) photoHost.innerHTML = `<img src="${fotoPre(m)}" alt="${m.nazov}">`;
+  if (photoHost) {
+    photoHost.innerHTML = `<img src="${fotoPre(m)}" alt="${m.nazov}">`;
+    if (m.heroOverlay) {
+      photoHost.innerHTML += `
+        <div class="cat-hero-overlay">
+          <span class="cat-hero-overlay-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${KAT_ICONS.enviro}</svg>
+          </span>
+          <div>
+            <strong>${m.heroOverlay.text}</strong>
+            <p>${m.heroOverlay.popis}</p>
+          </div>
+        </div>`;
+    }
+  }
 
   const koren = rootProjekt(m);
   const podkategorie = detiOf(m.id);
@@ -367,11 +388,9 @@ function renderKategoria() {
         ${primKat ? `<span class="cat-info-pill"><i class="dot" style="background:${primKat.farba}"></i>Primárna kategória: <strong>${primKat.nazov}</strong></span>` : ""}
         ${dalsie.length ? `<span class="cat-info-pill">Ďalšie kategórie: ${dalsie.map(k => `<i class="dot" style="background:${k.farba}"></i>${k.nazov}`).join(", ")}</span>` : ""}`;
     } else if (!podkategorie.length) {
-      const pocet = pocetZastaveni(m.id);
       const maAudio = zastaveniaTu.some(z => z.audio && z.audio.length);
       const maGaleriu = zastaveniaTu.some(z => z.galeria && z.galeria.length);
       infoHost.innerHTML = `
-        <span class="cat-info-pill">${pocet} ${slovoZastavenia(pocet)}</span>
         ${maAudio ? `<span class="cat-info-pill">Audio sprievodca</span>` : ""}
         ${maGaleriu ? `<span class="cat-info-pill">Galéria</span>` : ""}`;
     } else {
@@ -381,8 +400,28 @@ function renderKategoria() {
 
   const mapBtnHost = Q("#catMapBtn");
   if (mapBtnHost) {
-    mapBtnHost.innerHTML = (koren.lat && koren.lon)
-      ? `<a class="btn cat-map-btn" href="index.html#mapa">Zobraziť na mape →</a>` : "";
+    const celkovyPocet = pocetZastaveni(m.id);
+    const lokalit = pocetLokalit(m.id);
+    const mapBtn = (koren.lat && koren.lon) ? `
+      <a class="btn cat-map-btn" href="index.html#mapa">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 21s-7-5.5-7-11a7 7 0 1 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/>
+        </svg>
+        Zobraziť na mape →
+      </a>` : "";
+    const statPill = celkovyPocet ? `
+      <div class="cat-stat-pill">
+        <span class="cat-stat-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 3v18M7 6h10l-2 3 2 3H7"/>
+          </svg>
+        </span>
+        <span>
+          <strong>Spolu ${celkovyPocet} ${slovoZastavenia(celkovyPocet)}</strong>
+          ${lokalit > 1 ? `<small>v ${lokalit} lokalitách</small>` : ""}
+        </span>
+      </div>` : "";
+    mapBtnHost.innerHTML = (mapBtn || statPill) ? `<div class="cat-actions">${mapBtn}${statPill}</div>` : "";
   }
 
   const gridHost = Q("#catGrid");
@@ -400,6 +439,31 @@ function renderKategoria() {
       ? zastaveniaTu.map(stopCardHTML).join("")
       : `<p style="grid-column:1/-1;color:var(--ink-soft)">Zastavenia pre toto miesto budú doplnené.</p>`;
   }
+
+  const featuresHost = Q("#catFeatures");
+  if (featuresHost) featuresHost.innerHTML = jeKoren(m) ? catFeaturesHTML() : "";
+}
+
+/* statický 4-stĺpcový pruh výhod – zobrazuje sa len na stránke projektu (koreňa) */
+function catFeaturesHTML() {
+  const items = [
+    { icon: KAT_ICONS.pamiatky, nadpis: "História a kultúra", text: "Hrady, zámky a historické mestá s bohatým príbehom." },
+    { icon: KAT_ICONS.enviro, nadpis: "Príroda", text: "Krásne miesta v srdci Beskýd ideálne na oddych." },
+    { icon: `<circle cx="8" cy="8" r="3"/><circle cx="16" cy="8" r="3"/><path d="M2 20c0-3.5 2.5-6 6-6s6 2.5 6 6M10 20c0-3.5 2.5-6 6-6s6 2.5 6 6"/>`,
+      nadpis: "Spája nás", text: "Objavujte miesta, ktoré spájajú Slovensko a Česko." },
+    { icon: `<rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><path d="M14 14h3v3h-3zM20 14v3M14 20h3M20 20v.01"/>`,
+      nadpis: "QR sprievodca", text: "Naskenujte QR kódy a spoznajte miesta ešte lepšie." }
+  ];
+  return items.map(it => `
+    <div class="cat-feature">
+      <span class="cat-feature-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${it.icon}</svg>
+      </span>
+      <div>
+        <strong>${it.nadpis}</strong>
+        <p>${it.text}</p>
+      </div>
+    </div>`).join("");
 }
 
 /* -------------------------------------- detail zastavenia --------- */

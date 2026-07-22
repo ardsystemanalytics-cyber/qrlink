@@ -111,7 +111,8 @@ const DB = {
       lon: 20.474, lat: 48.695, mapX: 641, mapY: 252, cover: "", popis: "Obec známa kaštieľom rodu Andrássyovcov." },
 
     { id: "euroregion-beskydy", nazov: "Euroregión Beskydy", primarna: "mesta", kategorie: ["mesta", "pohranicie"],
-      lon: 18.5, lat: 49.38, mapX: 330, mapY: 30, cover: "", popis: "Objavujte výnimočné miesta na slovensko-českom pohraničí – mestá, hrady, prírodné krásy aj kultúrne dedičstvo, ktoré spája dva národy." },
+      lon: 18.5, lat: 49.38, mapX: 330, mapY: 30, cover: "", popis: "Objavujte výnimočné miesta na slovensko-českom pohraničí – mestá, hrady, prírodné krásy aj kultúrne dedičstvo, ktoré spája dva národy.",
+      heroOverlay: { text: "Pohraničie plné zážitkov", popis: "Od hradov a historických miest po prírodu a oddych." } },
 
     /* ---- PODKATEGÓRIE „Euroregión Beskydy" (testovací obsah) ---- */
     { id: "eb-oravsky-hrad", rodic: "euroregion-beskydy", nazov: "Oravský hrad",
