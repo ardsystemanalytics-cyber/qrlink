@@ -320,7 +320,9 @@ function pocetLokalit(id) {
 const CAT_INFO_ICONS = {
   pin: `<path d="M12 21s-7-5.5-7-11a7 7 0 1 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/>`,
   audio: `<path d="M4 13a8 8 0 0 1 16 0M4 13v4a2 2 0 0 0 2 2h1v-6H6M20 13v4a2 2 0 0 1-2 2h-1v-6h1"/>`,
-  galeria: `<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/>`
+  galeria: `<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/>`,
+  signpost: `<path d="M12 3v18M7 6h10l-2 3 2 3H7"/>`,
+  srdce: `<path d="M12 21s-8-5.5-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 5.5-8 11-8 11z"/>`
 };
 const CAT_INFO_ICON_SVG = (path) =>
   `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${path}</svg>`;
@@ -411,8 +413,8 @@ function renderKategoria() {
       const primKat = katById(m.primarna);
       const dalsie = m.kategorie.filter(id => id !== m.primarna).map(katById).filter(Boolean);
       infoHost.innerHTML = `
-        ${primKat ? `<span class="cat-info-pill"><i class="dot" style="background:${primKat.farba}"></i>Primárna kategória: <strong>${primKat.nazov}</strong></span>` : ""}
-        ${dalsie.length ? `<span class="cat-info-pill">Ďalšie kategórie: ${dalsie.map(k => `<i class="dot" style="background:${k.farba}"></i>${k.nazov}`).join(", ")}</span>` : ""}`;
+        ${primKat ? `<span class="cat-info-plain"><i class="dot" style="background:${primKat.farba}"></i>Primárna kategória: <strong>${primKat.nazov}</strong></span>` : ""}
+        ${dalsie.length ? `<span class="cat-info-plain">Ďalšie kategórie: ${dalsie.map(k => `<i class="dot" style="background:${k.farba}"></i>${k.nazov}`).join(", ")}</span>` : ""}`;
     } else if (!podkategorie.length) {
       const pocetTu = pocetZastaveni(m.id);
       const maAudio = zastaveniaTu.some(z => z.audio && z.audio.length);
@@ -428,31 +430,47 @@ function renderKategoria() {
 
   const mapBtnHost = Q("#catMapBtn");
   if (mapBtnHost) {
-    const mapBtn = (koren.lat && koren.lon) ? `
-      <a class="btn cat-map-btn" href="index.html#mapa">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M12 21s-7-5.5-7-11a7 7 0 1 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/>
-        </svg>
-        Zobraziť na mape →
-      </a>` : "";
-    let statPill = "";
-    if (podkategorie.length) {
-      const celkovyPocet = pocetZastaveni(m.id);
+    if (jeKoren(m)) {
       const lokalit = pocetLokalit(m.id);
-      statPill = celkovyPocet ? `
-        <div class="cat-stat-pill">
-          <span class="cat-stat-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M12 3v18M7 6h10l-2 3 2 3H7"/>
-            </svg>
-          </span>
-          <span>
-            <strong>Spolu ${celkovyPocet} ${slovoZastavenia(celkovyPocet)}</strong>
-            ${lokalit > 1 ? `<small>v ${lokalit} lokalitách</small>` : ""}
-          </span>
-        </div>` : "";
+      const celkovyPocet = pocetZastaveni(m.id);
+      mapBtnHost.innerHTML = `
+        <div class="cat-stats-row">
+          <div class="cat-stat-card">
+            ${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.pin)}
+            <span><strong>${lokalit}</strong>lokalít</span>
+          </div>
+          <div class="cat-stat-card">
+            ${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.signpost)}
+            <span><strong>spolu ${celkovyPocet}</strong>zastavení</span>
+          </div>
+          <div class="cat-stat-card">
+            ${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.srdce)}
+            <span><strong>inšpirácia</strong>na váš výlet</span>
+          </div>
+        </div>`;
+    } else {
+      const mapBtn = (koren.lat && koren.lon) ? `
+        <a class="btn cat-map-btn" href="index.html#mapa">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 21s-7-5.5-7-11a7 7 0 1 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/>
+          </svg>
+          Zobraziť na mape →
+        </a>` : "";
+      let statPill = "";
+      if (podkategorie.length) {
+        const celkovyPocet = pocetZastaveni(m.id);
+        const lokalit = pocetLokalit(m.id);
+        statPill = celkovyPocet ? `
+          <div class="cat-stat-pill">
+            <span class="cat-stat-icon">${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.signpost)}</span>
+            <span>
+              <strong>Spolu ${celkovyPocet} ${slovoZastavenia(celkovyPocet)}</strong>
+              ${lokalit > 1 ? `<small>v ${lokalit} lokalitách</small>` : ""}
+            </span>
+          </div>` : "";
+      }
+      mapBtnHost.innerHTML = (mapBtn || statPill) ? `<div class="cat-actions">${mapBtn}${statPill}</div>` : "";
     }
-    mapBtnHost.innerHTML = (mapBtn || statPill) ? `<div class="cat-actions">${mapBtn}${statPill}</div>` : "";
   }
 
   const gridHost = Q("#catGrid");
@@ -461,7 +479,7 @@ function renderKategoria() {
   if (!gridHost) return;
 
   if (podkategorie.length) {
-    if (gridTitle) gridTitle.textContent = "Vyberte si miesto";
+    if (gridTitle) gridTitle.textContent = jeKoren(m) ? "Objavte miesta" : "Vyberte si miesto";
     if (toggleHost) toggleHost.innerHTML = "";
     gridHost.className = "subcat-grid";
     gridHost.innerHTML = podkategorie.map(subcatCardHTML).join("");
