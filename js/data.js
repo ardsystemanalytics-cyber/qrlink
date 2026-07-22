@@ -295,9 +295,13 @@ const DB = {
     /* -- Oravský hrad (eb-oravsky-hrad): 6 zastavení, 4 s obsahom -- */
     { id: "eb-oh-brana-do-hradu", miesto: "eb-oravsky-hrad", poradie: 1, nazov: "Brána do hradu",
       popis: "Hlavný vstup do hradného areálu, ktorý vás vtiahne do histórie.",
-      cover: "assets/images/places/oravsky-hrad-brana.jpg", audio: ["https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-1.mp3"], galeria: [], gps: null, mapEmbed: "",
-      text: `<p>Masívna vstupná brána strážila hrad po stáročia. Prechádzate ňou presne tade, kade
-      kedysi vchádzali kupci, posli aj samotní páni hradu – vitajte na Oravskom hrade.</p>` },
+      cover: "assets/images/places/oravsky-hrad-brana.jpg", audio: ["https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-1.mp3"], galeria: [],
+      gps: { lat: 49.2621250, lng: 19.3589331 },
+      mapEmbed: "https://www.google.com/maps?q=49.2621250,19.3589331&z=16&output=embed",
+      text: `<p>Jednou z najväčších turistických atrakcií severného Slovenska je Oravský hrad, vybudovaný na skale nad riekou Orava v Oravskom Podzámku ako „orlie hniezdo“.</p>
+      <p>Hrad začali budovať na mieste starého dreveného hrádku po tatárskom vpáde v roku 1241. Z pôvodne malej pevnosti z 13. storočia vznikol v priebehu nasledujúcich storočí rozsiahly hradný areál, ktorý má dnes 154 miestností.</p>
+      <p>V minulosti bol župným hradom a sídlom Oravského hradného panstva. Patrila mu takmer celá Orava.</p>
+      <p>Budovy a interiér hradu nesú črty románskeho slohu, gotiky, renesancie, baroka i moderných slohov. Hrad je totiž stále živý komplex, ktorého vývoj sa dodnes nezastavil.</p>` },
     { id: "eb-oh-kaplnka", miesto: "eb-oravsky-hrad", poradie: 2, nazov: "Kaplnka",
       popis: "Renesančná kaplnka sv. Michala s unikátnou výzdobou.",
       cover: "assets/images/places/oravsky-hrad-kaplnka.jpg", audio: [], galeria: [], gps: null, mapEmbed: "",

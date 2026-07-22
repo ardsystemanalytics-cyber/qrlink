@@ -397,6 +397,31 @@ function stopRowHTML(z) {
   </a>`;
 }
 
+/* šípky kolotoča pre "Ďalšie zastavenia na trase" – zobrazia sa len ak karty pretekajú */
+function setupStopCarousel(scopeEl) {
+  const track = Q(".stop-carousel-track", scopeEl);
+  const prevBtn = Q(".stop-carousel-arrow.prev", scopeEl);
+  const nextBtn = Q(".stop-carousel-arrow.next", scopeEl);
+  if (!track || !prevBtn || !nextBtn) return;
+  const update = () => {
+    const overflow = track.scrollWidth > track.clientWidth + 4;
+    prevBtn.hidden = !overflow || track.scrollLeft <= 4;
+    nextBtn.hidden = !overflow || track.scrollLeft >= track.scrollWidth - track.clientWidth - 4;
+  };
+  const step = dir => {
+    const card = Q(".stop-card", track);
+    const width = card ? card.getBoundingClientRect().width + 16 : track.clientWidth;
+    track.scrollBy({ left: dir * width, behavior: "smooth" });
+  };
+  prevBtn.addEventListener("click", () => step(-1));
+  nextBtn.addEventListener("click", () => step(1));
+  track.addEventListener("scroll", update);
+  window.addEventListener("resize", update);
+  QA("img", track).forEach(img => img.addEventListener("load", update));
+  if (window.ResizeObserver) new ResizeObserver(update).observe(track);
+  update();
+}
+
 /* ------------------------------------ stránka kategórie (miesta) -- */
 function renderKategoria() {
   const titleEl = Q("#catTitle");
@@ -648,12 +673,15 @@ function renderZastavenie() {
     h2.innerHTML = `<span class="text-h2-icon">${CAT_INFO_ICON_SVG(headIcons[i % headIcons.length])}</span>${h2.innerHTML}`;
   });
 
-  /* zoskupí obsah podľa h2 do .text-col blokov, aby nadpisy sedeli v rovnakom riadku (grid) */
-  if (QA("h2", dText).length > 1) {
+  /* zoskupí obsah podľa h2 do .text-col blokov, aby nadpisy sedeli v rovnakom riadku (grid);
+     bez viacerých h2 (jeden celistvý text) ostáva jeden stĺpec na celú šírku */
+  const h2Count = QA("h2", dText).length;
+  if (dText.childNodes.length) {
     const cols = [];
     [...dText.childNodes].forEach(node => {
       if (node.nodeType === 1 && node.tagName === "H2") cols.push([node]);
       else if (cols.length) cols[cols.length - 1].push(node);
+      else { cols.push([]); cols[0].push(node); }
     });
     dText.innerHTML = "";
     cols.forEach(nodes => {
@@ -662,6 +690,7 @@ function renderZastavenie() {
       nodes.forEach(n => col.appendChild(n));
       dText.appendChild(col);
     });
+    if (h2Count <= 1) dText.classList.add("text-single-col");
   }
 
   if (z.galeria && z.galeria.length) renderGallery(z.galeria);
@@ -679,7 +708,38 @@ function renderZastavenie() {
           </svg>
         </a>`);
     }
-  } else { Q("#gpsHost").remove(); }
+  } else {
+    const gpsMapCol = Q("#gpsMapCol");
+    if (gpsMapCol) gpsMapCol.remove();
+  }
+
+  /* Ďalšie zastavenia na trase – karty ostatných zastavení toho istého miesta, s kolotočom pri väčšom počte */
+  const nextStopsHost = Q("#nextStopsHost");
+  if (nextStopsHost) {
+    const dalsie = zastaveniaMiesta.filter(x => x.id !== z.id);
+    if (dalsie.length) {
+      nextStopsHost.innerHTML = `
+        <h2 class="detail-bottom-title">Ďalšie zastavenia na trase</h2>
+        <div class="stop-carousel">
+          <button type="button" class="stop-carousel-arrow prev" aria-label="Predchádzajúce zastavenia" hidden>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6l6 6"/></svg>
+          </button>
+          <div class="stop-carousel-track">${dalsie.map(stopCardHTML).join("")}</div>
+          <button type="button" class="stop-carousel-arrow next" aria-label="Ďalšie zastavenia" hidden>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6l-6 6"/></svg>
+          </button>
+        </div>`;
+      setupStopCarousel(nextStopsHost);
+    } else {
+      nextStopsHost.remove();
+    }
+  }
+
+  const detailBottom = Q("#detailBottom");
+  if (detailBottom) {
+    if (!detailBottom.children.length) detailBottom.remove();
+    else if (detailBottom.children.length === 1) detailBottom.classList.add("detail-bottom-single");
+  }
 
   const metaRow = Q("#metaRow");
   if (metaRow) {

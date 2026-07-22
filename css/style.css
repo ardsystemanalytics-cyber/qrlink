@@ -597,6 +597,8 @@ a { color: var(--pine); }
 @media (min-width: 820px) {
   .detail .text { display: grid; grid-template-columns: 1fr 1fr; gap: 0 48px; align-items: start; }
 }
+/* jeden celistvý text (bez viacerých h2 sekcií) – celá šírka namiesto 2 stĺpcov */
+.detail .text.text-single-col { display: block; }
 
 /* audio prehrávač */
 .player-row { display: flex; align-items: center; gap: 14px; margin: 22px 0; }
@@ -683,6 +685,43 @@ a { color: var(--pine); }
   padding: 9px 16px; border-radius: 999px; box-shadow: var(--shadow);
 }
 .gps-open-btn svg { width: 15px; height: 15px; }
+
+/* dolná sekcia zastavenia – mapa vľavo, ďalšie zastavenia na trase vpravo */
+.detail-bottom {
+  display: grid; grid-template-columns: 380px 1fr; gap: 28px;
+  align-items: start; margin: 36px 0 0;
+}
+.detail-bottom.detail-bottom-single { grid-template-columns: 1fr; }
+@media (max-width: 860px) {
+  .detail-bottom { grid-template-columns: 1fr; }
+}
+.detail-bottom-title {
+  font-family: var(--f-display); font-weight: 700; font-size: 19px;
+  margin: 0 0 16px; color: var(--ink);
+}
+.detail-bottom-map .gps-box { margin: 0; }
+.detail-bottom-map .gps-box iframe { height: 260px; }
+
+.detail-bottom-next { min-width: 0; }
+.stop-carousel { position: relative; display: flex; align-items: center; gap: 10px; min-width: 0; }
+.stop-carousel-track {
+  display: flex; gap: 16px; flex: 1; min-width: 0; overflow-x: auto; scroll-snap-type: x mandatory;
+  scrollbar-width: none; padding-bottom: 2px;
+}
+.stop-carousel-track::-webkit-scrollbar { display: none; }
+.stop-carousel-track .stop-card { flex: 0 0 220px; scroll-snap-align: start; }
+.stop-carousel-arrow {
+  flex: 0 0 auto; width: 38px; height: 38px; border-radius: 50%;
+  background: var(--card); border: 1px solid var(--line); color: var(--ink);
+  display: flex; align-items: center; justify-content: center; cursor: pointer;
+  transition: background .15s, color .15s, border-color .15s;
+}
+.stop-carousel-arrow svg { width: 18px; height: 18px; }
+.stop-carousel-arrow:hover { background: var(--pine); color: #fff; border-color: var(--pine); }
+.stop-carousel-arrow[hidden] { display: none; }
+@media (max-width: 480px) {
+  .stop-carousel-track .stop-card { flex-basis: 200px; }
+}
 .gps-open-btn:hover { color: var(--pine); }
 
 .meta-row {
