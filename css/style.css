@@ -411,23 +411,6 @@ a { color: var(--pine); }
 .cat-feature strong { display: block; font-family: var(--f-display); font-weight: 700; font-size: 15px; margin-bottom: 4px; color: var(--ink); }
 .cat-feature p { margin: 0; font-size: 13px; color: var(--ink-soft); line-height: 1.45; }
 
-/* 3-stĺpcový variant pruhu – len na listovej stránke (Kategória so zastaveniami) */
-.cat-features-leaf {
-  grid-template-columns: repeat(3, 1fr) auto;
-  gap: 16px; padding: 20px 22px; margin: 22px 0 0;
-  align-items: center;
-}
-.cat-features-leaf .cat-feature { gap: 10px; }
-.cat-features-leaf .cat-feature-icon { width: 44px; height: 44px; }
-.cat-features-leaf .cat-feature-icon svg { width: 20px; height: 20px; }
-.cat-features-leaf .cat-feature strong { font-size: 13.5px; margin-bottom: 2px; }
-.cat-features-leaf .cat-feature p { font-size: 11.5px; }
-.cat-features-leaf .cat-feature-heart { flex-shrink: 0; }
-@media (max-width: 900px) {
-  .cat-features-leaf { grid-template-columns: repeat(2, 1fr); }
-  .cat-features-leaf .cat-feature-heart { display: none; }
-}
-
 /* pilulky: primárna/ďalšie kategórie ALEBO počet zastavení/audio/galéria */
 .cat-info {
   display: flex; flex-wrap: wrap; gap: 10px 22px;

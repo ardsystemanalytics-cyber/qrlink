@@ -30,6 +30,15 @@ function slovoZastavenia(n) {
   return "zastavení";
 }
 
+/* primárna/ďalšie kategórie koreňového projektu – zdieľané aj podkategóriami/zastaveniami pod ním */
+function kategorieInfoHTML(koren) {
+  const primKat = katById(koren.primarna);
+  const dalsie = koren.kategorie.filter(id => id !== koren.primarna).map(katById).filter(Boolean);
+  return `
+    ${primKat ? `<span class="cat-info-plain"><i class="dot" style="background:${primKat.farba}"></i>Primárna kategória: <strong>${primKat.nazov}</strong></span>` : ""}
+    ${dalsie.length ? `<span class="cat-info-plain">Ďalšie kategórie: ${dalsie.map(k => `<i class="dot" style="background:${k.farba}"></i>${k.nazov}`).join(", ")}</span>` : ""}`;
+}
+
 /* koreňový projekt – odtiaľ sa dedí farba/ikona hlavnej kategórie */
 function rootProjekt(m) {
   let cur = m;
@@ -430,20 +439,8 @@ function renderKategoria() {
 
   const infoHost = Q("#catInfo");
   if (infoHost) {
-    if (jeKoren(m)) {
-      const primKat = katById(m.primarna);
-      const dalsie = m.kategorie.filter(id => id !== m.primarna).map(katById).filter(Boolean);
-      infoHost.innerHTML = `
-        ${primKat ? `<span class="cat-info-plain"><i class="dot" style="background:${primKat.farba}"></i>Primárna kategória: <strong>${primKat.nazov}</strong></span>` : ""}
-        ${dalsie.length ? `<span class="cat-info-plain">Ďalšie kategórie: ${dalsie.map(k => `<i class="dot" style="background:${k.farba}"></i>${k.nazov}`).join(", ")}</span>` : ""}`;
-    } else if (!podkategorie.length) {
-      const pocetTu = pocetZastaveni(m.id);
-      const maAudio = zastaveniaTu.some(z => z.audio && z.audio.length);
-      const maGaleriu = zastaveniaTu.some(z => z.galeria && z.galeria.length);
-      infoHost.innerHTML = `
-        <span class="cat-info-pill">${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.pin)}${pocetTu} ${slovoZastavenia(pocetTu)}</span>
-        ${maAudio ? `<span class="cat-info-pill">${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.audio)}Audio sprievodca</span>` : ""}
-        ${maGaleriu ? `<span class="cat-info-pill">${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.galeria)}Galéria</span>` : ""}`;
+    if (jeKoren(m) || !podkategorie.length) {
+      infoHost.innerHTML = kategorieInfoHTML(jeKoren(m) ? m : koren);
     } else {
       infoHost.innerHTML = "";
     }
@@ -463,7 +460,7 @@ function renderKategoria() {
           </div>
           <div class="cat-stat-card">
             ${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.signpost)}
-            <span><strong>spolu ${celkovyPocet}</strong>zastavení</span>
+            <span><strong>spolu ${celkovyPocet}</strong>${slovoZastavenia(celkovyPocet)}</span>
           </div>
           <div class="cat-stat-card">
             ${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.srdce)}
@@ -471,8 +468,23 @@ function renderKategoria() {
           </div>
         </div>`;
     } else {
-      /* Kategória so zastaveniami – listový dizajn (bez tlačidla na mapu) */
-      mapBtnHost.innerHTML = "";
+      /* Kategória so zastaveniami – listový dizajn, rovnaké 3 karty ako pri vetvení */
+      const celkovyPocet = pocetZastaveni(m.id);
+      mapBtnHost.innerHTML = `
+        <div class="cat-stats-row">
+          <div class="cat-stat-card">
+            ${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.audio)}
+            <span><strong style="text-transform:none">Audio</strong>sprievodca</span>
+          </div>
+          <div class="cat-stat-card">
+            ${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.signpost)}
+            <span><strong>spolu ${celkovyPocet}</strong>${slovoZastavenia(celkovyPocet)}</span>
+          </div>
+          <div class="cat-stat-card">
+            ${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.srdce)}
+            <span><strong>inšpirácia</strong>na váš výlet</span>
+          </div>
+        </div>`;
     }
   }
 
@@ -510,9 +522,6 @@ function renderKategoria() {
     featuresHost.style.display = podkategorie.length ? "" : "none";
     featuresHost.innerHTML = podkategorie.length ? catFeaturesHTML() : "";
   }
-
-  const leafFeaturesHost = Q("#catLeafFeatures");
-  if (leafFeaturesHost) leafFeaturesHost.innerHTML = podkategorie.length ? "" : catLeafFeaturesHTML();
 
   const siblingHost = Q("#catSiblingNav");
   if (siblingHost) {
@@ -579,30 +588,6 @@ function catFeaturesHTML() {
         <p>${it.text}</p>
       </div>
     </div>`).join("");
-}
-
-/* statický 3-stĺpcový pruh výhod – zobrazuje sa len na listovej stránke (Kategória so zastaveniami) */
-function catLeafFeaturesHTML() {
-  const items = [
-    { icon: CAT_INFO_ICONS.pin, nadpis: "Objavujte miesta", text: "Zaujímavé lokality vo vašom okolí" },
-    { icon: CAT_INFO_ICONS.kniha, nadpis: "Poznajte príbehy", text: "Príbehy a historické súvislosti" },
-    { icon: CAT_INFO_ICONS.foto, nadpis: "Inšpirujte sa", text: "Tipy na výlety a zážitky v regióne" }
-  ];
-  return `<div class="cat-features cat-features-leaf">
-    ${items.map(it => `
-      <div class="cat-feature">
-        <span class="cat-feature-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${it.icon}</svg>
-        </span>
-        <div>
-          <strong>${it.nadpis}</strong>
-          <p>${it.text}</p>
-        </div>
-      </div>`).join("")}
-    <span class="cat-feature-icon cat-feature-heart">
-      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${CAT_INFO_ICONS.srdce}</svg>
-    </span>
-  </div>`;
 }
 
 /* -------------------------------------- detail zastavenia --------- */
