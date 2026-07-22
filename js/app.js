@@ -323,7 +323,9 @@ const CAT_INFO_ICONS = {
   galeria: `<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/>`,
   signpost: `<path d="M12 3v18M7 6h10l-2 3 2 3H7"/>`,
   srdce: `<path d="M12 21s-8-5.5-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 5.5-8 11-8 11z"/>`,
-  stit: `<path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3"/>`
+  stit: `<path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3"/>`,
+  kniha: `<path d="M19 4v16h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12"/><path d="M19 16h-12a2 2 0 0 0 -2 2"/><path d="M9 8h6"/>`,
+  foto: `<path d="M15 8h.01"/><path d="M3 6a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-12"/><path d="M3 16l5 -5c.928 -.893 2.072 -.893 3 0l5 5"/><path d="M14 14l1 -1c.928 -.893 2.072 -.893 3 0l3 3"/>`
 };
 const CAT_INFO_ICON_SVG = (path) =>
   `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${path}</svg>`;
@@ -491,6 +493,9 @@ function renderKategoria() {
     featuresHost.innerHTML = podkategorie.length ? catFeaturesHTML() : "";
   }
 
+  const leafFeaturesHost = Q("#catLeafFeatures");
+  if (leafFeaturesHost) leafFeaturesHost.innerHTML = podkategorie.length ? "" : catLeafFeaturesHTML();
+
   const siblingHost = Q("#catSiblingNav");
   if (siblingHost) {
     if (jeKoren(m) || podkategorie.length) {
@@ -556,6 +561,30 @@ function catFeaturesHTML() {
         <p>${it.text}</p>
       </div>
     </div>`).join("");
+}
+
+/* statický 3-stĺpcový pruh výhod – zobrazuje sa len na listovej stránke (Kategória so zastaveniami) */
+function catLeafFeaturesHTML() {
+  const items = [
+    { icon: CAT_INFO_ICONS.pin, nadpis: "Objavujte miesta", text: "Zaujímavé lokality vo vašom okolí" },
+    { icon: CAT_INFO_ICONS.kniha, nadpis: "Poznajte príbehy", text: "Príbehy a historické súvislosti" },
+    { icon: CAT_INFO_ICONS.foto, nadpis: "Inšpirujte sa", text: "Tipy na výlety a zážitky v regióne" }
+  ];
+  return `<div class="cat-features cat-features-leaf">
+    ${items.map(it => `
+      <div class="cat-feature">
+        <span class="cat-feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${it.icon}</svg>
+        </span>
+        <div>
+          <strong>${it.nadpis}</strong>
+          <p>${it.text}</p>
+        </div>
+      </div>`).join("")}
+    <span class="cat-feature-icon cat-feature-heart">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${CAT_INFO_ICONS.srdce}</svg>
+    </span>
+  </div>`;
 }
 
 /* -------------------------------------- detail zastavenia --------- */

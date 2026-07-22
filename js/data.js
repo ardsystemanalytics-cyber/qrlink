@@ -135,7 +135,7 @@ const DB = {
 
     /* ---- PODKATEGÓRIE „Euroregión Beskydy" (testovací obsah) ---- */
     { id: "eb-oravsky-hrad", rodic: "euroregion-beskydy", nazov: "Oravský hrad",
-      foto: "https://images.unsplash.com/photo-1601918774946-25832a4be0d6?w=800&q=80",
+      foto: "assets/images/places/oravsky-hrad-hero.jpg",
       popis: "Majestátny hrad týčiaci sa na brale nad riekou Orava patrí k najkrajším hradom Slovenska.",
       heroOverlay: { icon: "hrad", text: "Zaujímavosť", popis: "Hrad stoji na brale vysokom 112 m nad riekou Orava." } },
 
@@ -295,22 +295,22 @@ const DB = {
     /* -- Oravský hrad (eb-oravsky-hrad): 6 zastavení, 4 s obsahom -- */
     { id: "eb-oh-brana-do-hradu", miesto: "eb-oravsky-hrad", poradie: 1, nazov: "Brána do hradu",
       popis: "Hlavný vstup do hradného areálu, ktorý vás vtiahne do histórie.",
-      cover: "", audio: ["https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-1.mp3"], galeria: [], gps: null, mapEmbed: "",
+      cover: "assets/images/places/oravsky-hrad-brana.jpg", audio: ["https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-1.mp3"], galeria: [], gps: null, mapEmbed: "",
       text: `<p>Masívna vstupná brána strážila hrad po stáročia. Prechádzate ňou presne tade, kade
       kedysi vchádzali kupci, posli aj samotní páni hradu – vitajte na Oravskom hrade.</p>` },
     { id: "eb-oh-kaplnka", miesto: "eb-oravsky-hrad", poradie: 2, nazov: "Kaplnka",
       popis: "Renesančná kaplnka sv. Michala s unikátnou výzdobou.",
-      cover: "", audio: [], galeria: [], gps: null, mapEmbed: "",
+      cover: "assets/images/places/oravsky-hrad-kaplnka.jpg", audio: [], galeria: [], gps: null, mapEmbed: "",
       text: `<p>Malá renesančná kaplnka zasvätená sv. Michalovi slúžila hradnej posádke aj panstvu
       na súkromné bohoslužby. Zachovala sa v nej pôvodná výmaľba zo 17. storočia.</p>` },
     { id: "eb-oh-hradna-studna", miesto: "eb-oravsky-hrad", poradie: 3, nazov: "Hradná studňa",
       popis: "Hlboká studňa vytesaná do skaly, ktorá slúžila po stáročia.",
-      cover: "", audio: [], galeria: [], gps: null, mapEmbed: "",
+      cover: "assets/images/places/oravsky-hrad-studna.jpg", audio: [], galeria: [], gps: null, mapEmbed: "",
       text: `<p>Studňa vytesaná priamo do skalného brala zásobovala hrad vodou aj počas najdlhších
       obliehaní. Jej hĺbka dodnes vyráža návštevníkom dych.</p>` },
     { id: "eb-oh-vyhliadka", miesto: "eb-oravsky-hrad", poradie: 4, nazov: "Vyhliadka",
       popis: "Nádherný panoramatický výhľad na rieku Oravu a okolitú krajinu.",
-      cover: "", audio: [], galeria: [], gps: null, mapEmbed: "",
+      cover: "assets/images/places/oravsky-hrad-vyhliadka.jpg", audio: [], galeria: [], gps: null, mapEmbed: "",
       text: `<p>Z najvyššieho nádvoria sa otvára jeden z najkrajších pohľadov na rieku Oravu a okolité
       hrebene – odmena za výstup po hradných schodoch.</p>` },
     { id: "eb-oh-nadvorie", miesto: "eb-oravsky-hrad", poradie: 5, nazov: "Nádvorie",
