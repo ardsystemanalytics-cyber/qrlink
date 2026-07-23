@@ -344,11 +344,33 @@ function applyStaticI18n(scope) {
 function renderLangSwitch() {
   const cur = getLang();
   document.querySelectorAll(".lang-switch").forEach(host => {
-    host.innerHTML = I18N_LANGS.map(l =>
-      `<button type="button" class="lang-btn${l === cur ? " active" : ""}" data-lang="${l}">${l.toUpperCase()}</button>`
-    ).join("");
-    host.querySelectorAll("button").forEach(b =>
+    host.innerHTML = `
+      <button type="button" class="lang-current" aria-haspopup="true" aria-expanded="false">
+        ${cur.toUpperCase()}
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6l6 -6"/></svg>
+      </button>
+      <div class="lang-menu">
+        ${I18N_LANGS.map(l =>
+          `<button type="button" class="lang-btn${l === cur ? " active" : ""}" data-lang="${l}">${l.toUpperCase()}</button>`
+        ).join("")}
+      </div>`;
+
+    const toggle = host.querySelector(".lang-current");
+    const menu = host.querySelector(".lang-menu");
+    toggle.addEventListener("click", e => {
+      e.stopPropagation();
+      const open = host.classList.toggle("open");
+      toggle.setAttribute("aria-expanded", String(open));
+    });
+    host.querySelectorAll(".lang-btn").forEach(b =>
       b.addEventListener("click", () => setLang(b.dataset.lang)));
+  });
+
+  document.addEventListener("click", () => {
+    document.querySelectorAll(".lang-switch.open").forEach(host => {
+      host.classList.remove("open");
+      host.querySelector(".lang-current").setAttribute("aria-expanded", "false");
+    });
   });
 }
 

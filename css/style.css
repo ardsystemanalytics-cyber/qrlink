@@ -65,7 +65,7 @@ a { color: var(--pine); }
 .logo img { height: 36px; width: auto; display: block; }
 .logo { display: flex; align-items: center; text-decoration: none; }
 
-.nav { margin-left: auto; display: flex; gap: 4px; }
+.nav { margin-left: auto; display: flex; align-items: center; gap: 4px; }
 .nav a {
   font-size: 14.5px; font-weight: 600; text-decoration: none;
   color: var(--ink-soft); padding: 8px 13px; border-radius: 999px;
@@ -80,15 +80,33 @@ a { color: var(--pine); }
   padding: 8px 12px; font-family: var(--f-mono); font-size: 13px; cursor: pointer;
 }
 
-.lang-switch { display: flex; gap: 4px; margin-left: 10px; }
-.lang-switch .lang-btn {
+.lang-switch { position: relative; display: flex; align-items: center; margin-left: 10px; }
+.lang-current {
+  display: inline-flex; align-items: center; gap: 6px;
   font-family: var(--f-mono); font-size: 12px; font-weight: 700;
   color: var(--ink-soft); background: none; border: 1px solid var(--line);
   border-radius: 999px; padding: 6px 10px; cursor: pointer;
   transition: background .15s, color .15s, border-color .15s;
 }
+.lang-current svg { width: 13px; height: 13px; transition: transform .15s; }
+.lang-current:hover { background: var(--paper-deep); color: var(--ink); }
+.lang-switch.open .lang-current svg { transform: rotate(180deg); }
+
+.lang-menu {
+  display: none; flex-direction: column; gap: 2px;
+  position: absolute; top: calc(100% + 6px); right: 0; z-index: 10;
+  background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+  padding: 6px; box-shadow: var(--shadow); min-width: 64px;
+}
+.lang-switch.open .lang-menu { display: flex; }
+.lang-switch .lang-btn {
+  font-family: var(--f-mono); font-size: 12px; font-weight: 700;
+  color: var(--ink-soft); background: none; border: none;
+  border-radius: 8px; padding: 7px 10px; cursor: pointer; text-align: left;
+  transition: background .15s, color .15s;
+}
 .lang-switch .lang-btn:hover { background: var(--paper-deep); color: var(--ink); }
-.lang-switch .lang-btn.active { background: var(--grad); color: #fff; border-color: transparent; }
+.lang-switch .lang-btn.active { background: var(--grad); color: #fff; }
 
 @media (max-width: 780px) {
   .nav-toggle { display: block; }
