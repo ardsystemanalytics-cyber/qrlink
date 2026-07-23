@@ -874,6 +874,36 @@ a { color: var(--pine); }
 .form-status { margin: 0; font-size: 13.5px; min-height: 18px; }
 .form-status.ok { color: var(--pine); font-weight: 600; }
 
+/* kontaktný formulár na homepage – tmavá zelená karta pod zoznamom miest */
+.home-contact-card {
+  display: flex; flex-wrap: wrap; gap: 36px;
+  background: var(--pine-deep); border-radius: var(--radius);
+  padding: 40px 44px; margin: 10px 0 60px;
+}
+.home-contact-text { flex: 1 1 260px; color: #fff; }
+.home-contact-icon {
+  width: 46px; height: 46px; border-radius: 50%;
+  background: rgba(255,255,255,.12);
+  display: flex; align-items: center; justify-content: center;
+  margin-bottom: 16px;
+}
+.home-contact-icon svg { width: 22px; height: 22px; stroke: #fff; }
+.home-contact-text h2 {
+  font-family: var(--f-display); font-weight: 700; font-size: 24px;
+  margin: 0 0 10px; letter-spacing: -.01em;
+}
+.home-contact-text p { margin: 0; color: rgba(255,255,255,.75); max-width: 32ch; }
+.home-contact-form { flex: 2 1 480px; gap: 12px; }
+.home-contact-footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 14px; }
+.home-consent { display: flex; align-items: center; gap: 10px; font-size: 13px; color: rgba(255,255,255,.85); cursor: pointer; }
+.home-consent input { width: 17px; height: 17px; accent-color: var(--gold); cursor: pointer; }
+.home-contact-submit {
+  background: var(--paper); color: var(--ink); border: none; cursor: pointer;
+}
+.home-contact-submit:hover { background: #fff; }
+.home-contact-card .form-status { color: rgba(255,255,255,.85); }
+.home-contact-card .form-status.ok { color: #d9f0c9; }
+
 /* prístupnosť */
 :focus-visible { outline: 3px solid var(--berry); outline-offset: 2px; }
 

@@ -196,6 +196,41 @@
       </button>
     </div>
   </section>
+
+  <section class="wrap">
+    <div class="home-contact-card">
+      <div class="home-contact-text">
+        <span class="home-contact-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10"/><path d="M3 7l9 6l9 -6"/>
+          </svg>
+        </span>
+        <h2 data-i18n="home_contact_title">Máte otázku alebo záujem o spoluprácu?</h2>
+        <p data-i18n="home_contact_text">Napíšte nám a radi vám pomôžeme s vaším projektom či sprievodcom.</p>
+      </div>
+      <form id="homeContactForm" class="home-contact-form contact-form">
+        <div class="form-row">
+          <input type="text" name="meno" data-i18n="name_placeholder" data-i18n-attr="placeholder" placeholder="Meno a priezvisko *" required>
+          <input type="email" name="email" data-i18n="email_placeholder" data-i18n-attr="placeholder" placeholder="E-mail *" required>
+          <input type="tel" name="telefon" data-i18n="phone_placeholder" data-i18n-attr="placeholder" placeholder="Telefón">
+        </div>
+        <textarea name="sprava" data-i18n="message_placeholder" data-i18n-attr="placeholder" placeholder="Vaša správa *" required rows="3"></textarea>
+        <div class="home-contact-footer">
+          <label class="home-consent">
+            <input type="checkbox" required>
+            <span data-i18n="consent_label">Súhlasím so spracovaním údajov *</span>
+          </label>
+          <button type="submit" class="btn home-contact-submit">
+            <span data-i18n="send_button">Odoslať správu</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="17" height="17">
+              <path d="M10 14l11 -11"/><path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5"/>
+            </svg>
+          </button>
+        </div>
+        <p class="form-status" id="homeFormStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
 </main>
 
 <footer class="site-footer">

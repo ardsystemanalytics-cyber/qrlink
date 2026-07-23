@@ -883,7 +883,7 @@ function renderKontakt() {
   const features = Q("#contactFeatures");
   if (features) features.innerHTML = contactFeaturesHTML();
 
-  initContactForm();
+  initContactForm("#contactForm", "#formStatus");
 }
 
 /* statický 4-stĺpcový pruh výhod na stránke Kontakt */
@@ -906,13 +906,13 @@ function contactFeaturesHTML() {
     </div>`).join("");
 }
 
-/* formulár na stránke Kontakt – zatiaľ len klientská validácia a potvrdenie,
-   bez servera; miesto pre napojenie na e-mailovú/API službu */
-function initContactForm() {
-  const form = Q("#contactForm");
+/* kontaktné formuláre (stránka Kontakt aj homepage) – zatiaľ len klientská
+   validácia a potvrdenie, bez servera; miesto pre napojenie na e-mailovú/API službu */
+function initContactForm(formId, statusId) {
+  const form = Q(formId);
   if (!form || form.dataset.bound) return;
   form.dataset.bound = "1";
-  const status = Q("#formStatus");
+  const status = Q(statusId);
   form.addEventListener("submit", e => {
     e.preventDefault();
     form.reset();
@@ -933,6 +933,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderStats();
   renderFilters();
   renderCards();
+  initContactForm("#homeContactForm", "#homeFormStatus");
   renderKategoria();
   renderZastavenie();
   renderKontakt();
