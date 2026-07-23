@@ -94,11 +94,16 @@ const DB = {
 
   /* ------------------------------------------------ 1. KATEGÓRIE --- */
   kategorie: [
-    { id: "mesta",     nazov: "Mestá",                                  farba: "#4E7FAE" },
-    { id: "pamiatky",  nazov: "Pamiatky",                               farba: "#C34A3A" },
-    { id: "chodniky",  nazov: "Náučné chodníky",                        farba: "#D9A441" },
-    { id: "enviro",    nazov: "Environmentálna výchova a vzdelávanie",  farba: "#41a579" },
-    { id: "pohranicie", nazov: "Česko-slovenské pohraničie",            farba: "#7A5C8C" }
+    { id: "mesta",     nazov: "Mestá",                                  farba: "#4E7FAE",
+      i18n: { en: { nazov: "Towns" }, cs: { nazov: "Města" }, hu: { nazov: "Városok" } } },
+    { id: "pamiatky",  nazov: "Pamiatky",                               farba: "#C34A3A",
+      i18n: { en: { nazov: "Monuments" }, cs: { nazov: "Památky" }, hu: { nazov: "Műemlékek" } } },
+    { id: "chodniky",  nazov: "Náučné chodníky",                        farba: "#D9A441",
+      i18n: { en: { nazov: "Nature trails" }, cs: { nazov: "Naučné stezky" }, hu: { nazov: "Tanösvények" } } },
+    { id: "enviro",    nazov: "Environmentálna výchova a vzdelávanie",  farba: "#41a579",
+      i18n: { en: { nazov: "Environmental education" }, cs: { nazov: "Environmentální výchova a vzdělávání" }, hu: { nazov: "Környezeti nevelés és oktatás" } } },
+    { id: "pohranicie", nazov: "Česko-slovenské pohraničie",            farba: "#7A5C8C",
+      i18n: { en: { nazov: "Czech-Slovak borderland" }, cs: { nazov: "Česko-slovenské pohraničí" }, hu: { nazov: "Cseh-szlovák határvidék" } } }
   ],
 
   /* --------------------------------------------------- 2. MIESTA --- */
@@ -131,13 +136,33 @@ const DB = {
 
     { id: "euroregion-beskydy", nazov: "Euroregión Beskydy", primarna: "mesta", kategorie: ["mesta", "pohranicie"],
       lon: 18.5, lat: 49.38, mapX: 330, mapY: 30, cover: "", popis: "Objavujte výnimočné miesta na slovensko-českom pohraničí – mestá, hrady, prírodné krásy aj kultúrne dedičstvo, ktoré spája dva národy.",
-      heroOverlay: { icon: "stromy", text: "Pohraničie plné zážitkov", popis: "Od hradov a historických miest po prírodu a oddych." } },
+      heroOverlay: { icon: "stromy", text: "Pohraničie plné zážitkov", popis: "Od hradov a historických miest po prírodu a oddych.",
+        i18n: {
+          en: { text: "A borderland full of experiences", popis: "From castles and historic sites to nature and relaxation." },
+          cs: { text: "Pohraničí plné zážitků", popis: "Od hradů a historických míst po přírodu a odpočinek." },
+          hu: { text: "Élményekkel teli határvidék", popis: "Váraktól és történelmi helyszínektől a természetig és a pihenésig." }
+        } },
+      i18n: {
+        en: { nazov: "Beskydy Euroregion", popis: "Discover exceptional places on the Slovak-Czech border – towns, castles, natural beauty and cultural heritage that connects two nations." },
+        cs: { nazov: "Euroregion Beskydy", popis: "Objevujte výjimečná místa na slovensko-českém pohraničí – města, hrady, přírodní krásy i kulturní dědictví, které spojuje dva národy." },
+        hu: { nazov: "Beszkidek Eurorégió", popis: "Fedezze fel a szlovák–cseh határvidék kivételes helyszíneit – városokat, várakat, természeti szépségeket és a két nemzetet összekötő kulturális örökséget." }
+      } },
 
     /* ---- PODKATEGÓRIE „Euroregión Beskydy" (testovací obsah) ---- */
     { id: "eb-oravsky-hrad", rodic: "euroregion-beskydy", nazov: "Oravský hrad",
       foto: "assets/images/places/oravsky-hrad-hero.jpg",
       popis: "Majestátny hrad týčiaci sa na brale nad riekou Orava patrí k najkrajším hradom Slovenska.",
-      heroOverlay: { icon: "hrad", text: "Zaujímavosť", popis: "Hrad stoji na brale vysokom 112 m nad riekou Orava." } },
+      heroOverlay: { icon: "hrad", text: "Zaujímavosť", popis: "Hrad stoji na brale vysokom 112 m nad riekou Orava.",
+        i18n: {
+          en: { text: "Did you know?", popis: "The castle stands on a cliff 112 m above the Orava river." },
+          cs: { text: "Zajímavost", popis: "Hrad stojí na skále vysoké 112 m nad řekou Orava." },
+          hu: { text: "Érdekesség", popis: "A vár egy 112 méter magas sziklán áll az Orava folyó felett." }
+        } },
+      i18n: {
+        en: { nazov: "Orava Castle", popis: "A majestic castle towering on a cliff above the Orava river ranks among the most beautiful castles in Slovakia." },
+        cs: { nazov: "Oravský hrad", popis: "Majestátní hrad tyčící se na skále nad řekou Orava patří k nejkrásnějším hradům Slovenska." },
+        hu: { nazov: "Árva vára", popis: "Az Orava folyó fölötti sziklán magasodó fenséges vár Szlovákia egyik legszebb vára." }
+      } },
 
     { id: "eb-klin", rodic: "euroregion-beskydy", nazov: "Klin",
       popis: "Podhorská obec pod Veľkou Račou, brána do Kysuckých Beskýd." },
@@ -307,22 +332,63 @@ const DB = {
       text: `<p>Jednou z najväčších turistických atrakcií severného Slovenska je Oravský hrad, vybudovaný na skale nad riekou Orava v Oravskom Podzámku ako „orlie hniezdo“.</p>
       <p>Hrad začali budovať na mieste starého dreveného hrádku po tatárskom vpáde v roku 1241. Z pôvodne malej pevnosti z 13. storočia vznikol v priebehu nasledujúcich storočí rozsiahly hradný areál, ktorý má dnes 154 miestností.</p>
       <p>V minulosti bol župným hradom a sídlom Oravského hradného panstva. Patrila mu takmer celá Orava.</p>
-      <p>Budovy a interiér hradu nesú črty románskeho slohu, gotiky, renesancie, baroka i moderných slohov. Hrad je totiž stále živý komplex, ktorého vývoj sa dodnes nezastavil.</p>` },
+      <p>Budovy a interiér hradu nesú črty románskeho slohu, gotiky, renesancie, baroka i moderných slohov. Hrad je totiž stále živý komplex, ktorého vývoj sa dodnes nezastavil.</p>`,
+      i18n: {
+        en: { nazov: "The Castle Gate", popis: "The main entrance to the castle grounds that draws you into history.",
+          text: `<p>One of the greatest tourist attractions of northern Slovakia is Orava Castle, built on a rock above the Orava river in Oravský Podzámok as an "eagle's nest".</p>
+          <p>The castle began as a small wooden fort built after the Tatar invasion of 1241. From a small 13th-century fortress it grew over the following centuries into an extensive castle complex that has 154 rooms today.</p>
+          <p>In the past it was a county castle and the seat of the Orava castle estate. Almost all of Orava belonged to it.</p>
+          <p>The castle's buildings and interiors bear the marks of Romanesque, Gothic, Renaissance, Baroque and modern styles. The castle is in fact still a living complex whose development continues to this day.</p>` },
+        cs: { nazov: "Brána do hradu", popis: "Hlavní vstup do hradního areálu, který vás vtáhne do historie.",
+          text: `<p>Jednou z největších turistických atrakcí severního Slovenska je Oravský hrad, vybudovaný na skále nad řekou Orava v Oravském Podzámku jako „orlí hnízdo“.</p>
+          <p>Hrad začali stavět na místě starého dřevěného hrádku po tatarském vpádu v roce 1241. Z původně malé pevnosti ze 13. století vznikl v průběhu následujících staletí rozsáhlý hradní areál, který má dnes 154 místností.</p>
+          <p>V minulosti byl župním hradem a sídlem Oravského hradního panství. Patřila mu téměř celá Orava.</p>
+          <p>Budovy a interiér hradu nesou rysy románského slohu, gotiky, renesance, baroka i moderních slohů. Hrad je totiž stále živý komplex, jehož vývoj se dodnes nezastavil.</p>` },
+        hu: { nazov: "A vár kapuja", popis: "A várudvar fő bejárata, amely magával ragadja a történelembe.",
+          text: `<p>Észak-Szlovákia egyik legnagyobb turisztikai látványossága az Árva vára, amely az Orava folyó fölötti sziklán, Árvaváralján épült, mint egy „sasfészek".</p>
+          <p>A várat egy régi faerődítmény helyén kezdték építeni az 1241-es tatárjárás után. Az eredetileg kicsi, 13. századi erődítményből a következő évszázadok során kiterjedt váregyüttes lett, amelynek ma 154 helyisége van.</p>
+          <p>Egykor megyei vár és az Árvai váruradalom székhelye volt. Szinte egész Árva vidéke hozzá tartozott.</p>
+          <p>A vár épületei és belső terei a román, gótikus, reneszánsz, barokk és modern stílusok jegyeit hordozzák. A vár ugyanis ma is élő együttes, amelynek fejlődése a mai napig nem állt meg.</p>` }
+      } },
     { id: "eb-oh-kaplnka", miesto: "eb-oravsky-hrad", poradie: 2, nazov: "Kaplnka",
       popis: "Renesančná kaplnka sv. Michala s unikátnou výzdobou.",
       cover: "assets/images/places/oravsky-hrad-kaplnka.jpg", audio: [], galeria: [], gps: null, mapEmbed: "",
       text: `<p>Malá renesančná kaplnka zasvätená sv. Michalovi slúžila hradnej posádke aj panstvu
-      na súkromné bohoslužby. Zachovala sa v nej pôvodná výmaľba zo 17. storočia.</p>` },
+      na súkromné bohoslužby. Zachovala sa v nej pôvodná výmaľba zo 17. storočia.</p>`,
+      i18n: {
+        en: { nazov: "The Chapel", popis: "A Renaissance chapel of St. Michael with unique decoration.",
+          text: "<p>The small Renaissance chapel dedicated to St. Michael served the castle garrison and the nobility for private worship. It still preserves its original 17th-century wall paintings.</p>" },
+        cs: { nazov: "Kaple", popis: "Renesanční kaple sv. Michala s unikátní výzdobou.",
+          text: "<p>Malá renesanční kaple zasvěcená sv. Michalovi sloužila hradní posádce i panstvu k soukromým bohoslužbám. Zachovala se v ní původní malba ze 17. století.</p>" },
+        hu: { nazov: "A kápolna", popis: "Szent Mihály-kápolna, reneszánsz stílusban, egyedülálló díszítéssel.",
+          text: "<p>A Szent Mihálynak szentelt kis reneszánsz kápolna a vár őrségének és az uraságnak szolgált magánájtatosságra. Benne máig megmaradt a 17. századi eredeti falfestés.</p>" }
+      } },
     { id: "eb-oh-hradna-studna", miesto: "eb-oravsky-hrad", poradie: 3, nazov: "Hradná studňa",
       popis: "Hlboká studňa vytesaná do skaly, ktorá slúžila po stáročia.",
       cover: "assets/images/places/oravsky-hrad-studna.jpg", audio: [], galeria: [], gps: null, mapEmbed: "",
       text: `<p>Studňa vytesaná priamo do skalného brala zásobovala hrad vodou aj počas najdlhších
-      obliehaní. Jej hĺbka dodnes vyráža návštevníkom dych.</p>` },
+      obliehaní. Jej hĺbka dodnes vyráža návštevníkom dych.</p>`,
+      i18n: {
+        en: { nazov: "The Castle Well", popis: "A deep well carved into the rock that served for centuries.",
+          text: "<p>The well, carved directly into the rocky cliff, supplied the castle with water even during the longest sieges. Its depth still takes visitors' breath away today.</p>" },
+        cs: { nazov: "Hradní studna", popis: "Hluboká studna vytesaná do skály, která sloužila po staletí.",
+          text: "<p>Studna vytesaná přímo do skalního bradla zásobovala hrad vodou i během nejdelších obléhání. Její hloubka dodnes bere návštěvníkům dech.</p>" },
+        hu: { nazov: "A vár kútja", popis: "A sziklába vájt mély kút, amely évszázadokon át szolgálta a várat.",
+          text: "<p>A közvetlenül a sziklába vájt kút a leghosszabb ostromok idején is vízzel látta el a várat. Mélysége a mai látogatóknak is eláll a lélegzete.</p>" }
+      } },
     { id: "eb-oh-vyhliadka", miesto: "eb-oravsky-hrad", poradie: 4, nazov: "Vyhliadka",
       popis: "Nádherný panoramatický výhľad na rieku Oravu a okolitú krajinu.",
       cover: "assets/images/places/oravsky-hrad-vyhliadka.jpg", audio: [], galeria: [], gps: null, mapEmbed: "",
       text: `<p>Z najvyššieho nádvoria sa otvára jeden z najkrajších pohľadov na rieku Oravu a okolité
-      hrebene – odmena za výstup po hradných schodoch.</p>` },
+      hrebene – odmena za výstup po hradných schodoch.</p>`,
+      i18n: {
+        en: { nazov: "The Lookout", popis: "A magnificent panoramic view of the Orava river and surrounding countryside.",
+          text: "<p>From the highest courtyard opens one of the most beautiful views of the Orava river and the surrounding ridges – a reward for climbing the castle stairs.</p>" },
+        cs: { nazov: "Vyhlídka", popis: "Nádherný panoramatický výhled na řeku Oravu a okolní krajinu.",
+          text: "<p>Z nejvyššího nádvoří se otevírá jeden z nejkrásnějších pohledů na řeku Oravu a okolní hřebeny – odměna za výstup po hradních schodech.</p>" },
+        hu: { nazov: "A kilátó", popis: "Csodálatos panoráma az Orava folyóra és a környező tájra.",
+          text: "<p>A legfelső várudvarról nyílik az egyik legszebb kilátás az Orava folyóra és a környező hegygerincekre – ez a jutalom a vár lépcsőinek megmászásáért.</p>" }
+      } },
     { id: "eb-oh-nadvorie", miesto: "eb-oravsky-hrad", poradie: 5, nazov: "Nádvorie",
       cover: "", audio: [], text: "<p>[DOPLNIŤ – text zastavenia]</p>", galeria: [], gps: null, mapEmbed: "" },
     { id: "eb-oh-veza", miesto: "eb-oravsky-hrad", poradie: 6, nazov: "Veža",

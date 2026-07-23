@@ -24,19 +24,13 @@ function pocetZastaveni(id) {
   return n;
 }
 
-function slovoZastavenia(n) {
-  if (n === 1) return "zastavenie";
-  if (n >= 2 && n <= 4) return "zastavenia";
-  return "zastavení";
-}
-
 /* primárna/ďalšie kategórie koreňového projektu – zdieľané aj podkategóriami/zastaveniami pod ním */
 function kategorieInfoHTML(koren) {
   const primKat = katById(koren.primarna);
   const dalsie = koren.kategorie.filter(id => id !== koren.primarna).map(katById).filter(Boolean);
   return `
-    ${primKat ? `<span class="cat-info-plain"><i class="dot" style="background:${primKat.farba}"></i>Primárna kategória: <strong>${primKat.nazov}</strong></span>` : ""}
-    ${dalsie.length ? `<span class="cat-info-plain">Ďalšie kategórie: ${dalsie.map(k => `<i class="dot" style="background:${k.farba}"></i>${k.nazov}`).join(", ")}</span>` : ""}`;
+    ${primKat ? `<span class="cat-info-plain"><i class="dot" style="background:${primKat.farba}"></i>${t("primary_category")}<strong>${tc(primKat, "nazov")}</strong></span>` : ""}
+    ${dalsie.length ? `<span class="cat-info-plain">${t("other_categories")}${dalsie.map(k => `<i class="dot" style="background:${k.farba}"></i>${tc(k, "nazov")}`).join(", ")}</span>` : ""}`;
 }
 
 /* koreňový projekt – odtiaľ sa dedí farba/ikona hlavnej kategórie */
@@ -71,7 +65,7 @@ function fotoPre(m) {
 function renderBreadcrumb(items) {
   const host = Q("#crumbs");
   if (!host) return;
-  const parts = [`<a href="index.html">Domov</a>`];
+  const parts = [`<a href="index.html">${t("crumbs_home")}</a>`];
   items.forEach(it => {
     parts.push(`<span class="sep">›</span>`);
     parts.push(it.href
@@ -121,7 +115,7 @@ function renderMap() {
   if (legend) {
     DB.kategorie.forEach(k => {
       const s = document.createElement("span");
-      s.innerHTML = `<i style="background:${k.farba}"></i>${k.nazov}`;
+      s.innerHTML = `<i style="background:${k.farba}"></i>${tc(k, "nazov")}`;
       legend.appendChild(s);
     });
   }
@@ -142,7 +136,7 @@ function renderFilters() {
     b.dataset.katId = k.id;
 
     if (k.id === "vsetko") {
-      b.textContent = "Všetko";
+      b.textContent = t("filter_all");
     } else {
       const icon = (typeof KAT_ICONS !== "undefined" && KAT_ICONS[k.id]) || "";
       // Farebny kruzok s bielou ikonkou (=rovnaka farba ako bodka na mape)
@@ -150,7 +144,7 @@ function renderFilters() {
         <span class="chip-icon-circle" style="background:${k.farba}">
           <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"
                stroke-linecap="round" stroke-linejoin="round" width="14" height="14">${icon}</svg>
-        </span>${k.nazov}`;
+        </span>${tc(k, "nazov")}`;
     }
     b.addEventListener("click", () => {
       aktivnyFilterKarty = k.id;
@@ -173,22 +167,22 @@ function cardHTML(m) {
   const tags = m.kategorie.map(id => {
     const k = katById(id);
     if (!k) return "";
-    return `<span class="card-tag" style="background:${k.farba}18;color:${k.farba};border-color:${k.farba}33">${k.nazov}</span>`;
+    return `<span class="card-tag" style="background:${k.farba}18;color:${k.farba};border-color:${k.farba}33">${tc(k, "nazov")}</span>`;
   }).join("");
 
   // Farba ikonky = farba primárnej kategórie
   // Pozadie: 15% opacity farby, ikona plnou farbou
   return `<a class="place-card" href="kategoria.html?id=${m.id}">
     <div class="card-photo">
-      <img src="${photo}" alt="${m.nazov}" loading="lazy">
+      <img src="${photo}" alt="${tc(m, "nazov")}" loading="lazy">
       <span class="card-cat-icon" style="background:${farba};border:none">
         <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"
              stroke-linecap="round" stroke-linejoin="round">${icon}</svg>
       </span>
     </div>
     <div class="card-body">
-      <h3>${m.nazov}</h3>
-      <span class="card-stops">${pocet} ${slovoZastavenia(pocet)}</span>
+      <h3>${tc(m, "nazov")}</h3>
+      <span class="card-stops">${pocet} ${tStops(pocet)}</span>
       <div class="card-footer">
         <div class="card-tags">${tags}</div>
         <span class="card-arrow">→</span>
@@ -211,12 +205,12 @@ function zhodujeSaSHladanim(nazov, hladanyText) {
 
 function vyhovujeKartam(m) {
   const vKategorii = aktivnyFilterKarty === "vsetko" || m.kategorie.includes(aktivnyFilterKarty);
-  return vKategorii && zhodujeSaSHladanim(m.nazov, hladanyTextKarty);
+  return vKategorii && zhodujeSaSHladanim(tc(m, "nazov"), hladanyTextKarty);
 }
 
 function vyhovujeMape(m) {
   const vKategorii = aktivnyFilterMapa === "vsetko" || m.kategorie.includes(aktivnyFilterMapa);
-  return vKategorii && zhodujeSaSHladanim(m.nazov, hladanyTextMapa);
+  return vKategorii && zhodujeSaSHladanim(tc(m, "nazov"), hladanyTextMapa);
 }
 
 /* Leaflet piny – skryj/zobraz podľa filtra a vyhľadávania nad mapou */
@@ -243,9 +237,9 @@ function renderMapFilters() {
     const b = document.createElement("button");
     b.className = "chip" + (k.id === aktivnyFilterMapa ? " active" : "");
     if (k.id === "vsetko") {
-      b.textContent = "Všetko";
+      b.textContent = t("filter_all");
     } else {
-      b.innerHTML = `<i style="width:9px;height:9px;border-radius:50%;background:${k.farba};display:inline-block;margin-right:2px;flex-shrink:0"></i>${k.nazov}`;
+      b.innerHTML = `<i style="width:9px;height:9px;border-radius:50%;background:${k.farba};display:inline-block;margin-right:2px;flex-shrink:0"></i>${tc(k, "nazov")}`;
     }
     b.addEventListener("click", () => {
       aktivnyFilterMapa = k.id;
@@ -267,11 +261,11 @@ function renderCards() {
   if (!host) return;
   const list = DB.miesta.filter(m => m.mapX !== undefined && vyhovujeKartam(m));
   const visible = showAll ? list : list.slice(0, CARDS_PER_PAGE);
-  const emptyMsg = hladanyTextKarty ? "Nenašli sa žiadne miesta." : "Žiadne miesta pre túto kategóriu.";
+  const emptyMsg = hladanyTextKarty ? t("empty_no_results") : t("empty_no_category");
   host.innerHTML = visible.map(cardHTML).join("") ||
     `<p style="grid-column:1/-1;color:var(--ink-soft)">${emptyMsg}</p>`;
   const cnt = Q("#cardCount");
-  if (cnt) cnt.textContent = `${list.length} miest`;
+  if (cnt) cnt.textContent = `${list.length} ${t("stat_places_label")}`;
   if (moreBtn) {
     moreBtn.style.display = list.length > CARDS_PER_PAGE && !showAll ? "flex" : "none";
   }
@@ -306,12 +300,12 @@ function subcatCardHTML(m) {
   const pocet = pocetZastaveni(m.id);
   return `<a class="place-card" href="kategoria.html?id=${m.id}">
     <div class="card-photo">
-      <img src="${fotoPre(m)}" alt="${m.nazov}" loading="lazy">
+      <img src="${fotoPre(m)}" alt="${tc(m, "nazov")}" loading="lazy">
     </div>
     <div class="card-body">
-      <h3>${m.nazov}</h3>
+      <h3>${tc(m, "nazov")}</h3>
       <div class="card-footer">
-        <span class="card-stops">${pocet} ${slovoZastavenia(pocet)}</span>
+        <span class="card-stops">${pocet} ${tStops(pocet)}</span>
         <span class="card-arrow">→</span>
       </div>
     </div>
@@ -364,16 +358,16 @@ const STOP_QR_ICON = `<rect x="3" y="3" width="7" height="7"/><rect x="14" y="3"
 function stopCardHTML(z) {
   return `<a class="stop-card" href="zastavenie.html?id=${z.id}">
     <div class="stop-photo">
-      <img src="${z.cover || DEFAULT_PHOTO}" alt="${z.nazov}" loading="lazy">
+      <img src="${z.cover || DEFAULT_PHOTO}" alt="${tc(z, "nazov")}" loading="lazy">
       <span class="stop-no">${z.poradie}</span>
     </div>
     <div class="stop-body">
-      <h3>${z.nazov}</h3>
-      <p>${z.popis || ""}</p>
+      <h3>${tc(z, "nazov")}</h3>
+      <p>${tc(z, "popis") || ""}</p>
       <div class="stop-footer">
         <span class="stop-qr">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">${STOP_QR_ICON}</svg>
-          Naskenujte QR kód
+          ${t("scan_qr")}
         </span>
         <span class="stop-arrow">→</span>
       </div>
@@ -386,12 +380,12 @@ function stopRowHTML(z) {
   return `<a class="stop-row" href="zastavenie.html?id=${z.id}">
     <span class="stop-row-no">${z.poradie}</span>
     <div class="stop-row-body">
-      <h3>${z.nazov}</h3>
-      ${z.popis ? `<p>${z.popis}</p>` : ""}
+      <h3>${tc(z, "nazov")}</h3>
+      ${z.popis ? `<p>${tc(z, "popis")}</p>` : ""}
     </div>
     <span class="stop-qr">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">${STOP_QR_ICON}</svg>
-      Naskenujte QR kód
+      ${t("scan_qr")}
     </span>
     <span class="stop-arrow">→</span>
   </a>`;
@@ -427,22 +421,22 @@ function renderKategoria() {
   const titleEl = Q("#catTitle");
   if (!titleEl) return;
   const m = miestoById(param("id"));
-  if (!m) { titleEl.textContent = "Miesto sa nenašlo"; return; }
+  if (!m) { titleEl.textContent = t("not_found_place"); return; }
 
-  document.title = `${m.nazov} – QR LINK`;
-  titleEl.textContent = m.nazov;
+  document.title = `${tc(m, "nazov")} – QR LINK`;
+  titleEl.textContent = tc(m, "nazov");
   const descEl = Q("#catDesc");
-  if (descEl) descEl.textContent = m.popis || "";
+  if (descEl) descEl.textContent = tc(m, "popis") || "";
 
   const chain = retazPredkov(m);
   renderBreadcrumb(chain.map((node, i) => ({
-    label: node.nazov,
+    label: tc(node, "nazov"),
     href: i < chain.length - 1 ? `kategoria.html?id=${node.id}` : null
   })));
 
   const photoHost = Q("#catPhoto");
   if (photoHost) {
-    photoHost.innerHTML = `<img src="${fotoPre(m)}" alt="${m.nazov}">`;
+    photoHost.innerHTML = `<img src="${fotoPre(m)}" alt="${tc(m, "nazov")}">`;
     if (m.heroOverlay) {
       const overlayIcon = CAT_FEATURE_ICONS[m.heroOverlay.icon] || CAT_FEATURE_ICONS.stromy;
       photoHost.innerHTML += `
@@ -451,8 +445,8 @@ function renderKategoria() {
             <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${overlayIcon}</svg>
           </span>
           <div>
-            <strong>${m.heroOverlay.text}</strong>
-            <p>${m.heroOverlay.popis}</p>
+            <strong>${tc(m.heroOverlay, "text")}</strong>
+            <p>${tc(m.heroOverlay, "popis")}</p>
           </div>
         </div>`;
     }
@@ -481,15 +475,15 @@ function renderKategoria() {
         <div class="cat-stats-row">
           <div class="cat-stat-card">
             ${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.pin)}
-            <span><strong>${lokalit}</strong>lokalít</span>
+            <span><strong>${lokalit}</strong>${t("locations_suffix")}</span>
           </div>
           <div class="cat-stat-card">
             ${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.signpost)}
-            <span><strong>spolu ${celkovyPocet}</strong>${slovoZastavenia(celkovyPocet)}</span>
+            <span><strong>${t("total_label")} ${celkovyPocet}</strong>${tStops(celkovyPocet)}</span>
           </div>
           <div class="cat-stat-card">
             ${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.srdce)}
-            <span><strong>inšpirácia</strong>na váš výlet</span>
+            <span><strong>${t("inspiration_title")}</strong>${t("inspiration_text")}</span>
           </div>
         </div>`;
     } else {
@@ -499,15 +493,15 @@ function renderKategoria() {
         <div class="cat-stats-row">
           <div class="cat-stat-card">
             ${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.audio)}
-            <span><strong style="text-transform:none">Audio</strong>sprievodca</span>
+            <span><strong style="text-transform:none">${t("audio_title")}</strong>${t("audio_suffix")}</span>
           </div>
           <div class="cat-stat-card">
             ${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.signpost)}
-            <span><strong>spolu ${celkovyPocet}</strong>${slovoZastavenia(celkovyPocet)}</span>
+            <span><strong>${t("total_label")} ${celkovyPocet}</strong>${tStops(celkovyPocet)}</span>
           </div>
           <div class="cat-stat-card">
             ${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.srdce)}
-            <span><strong>inšpirácia</strong>na váš výlet</span>
+            <span><strong>${t("inspiration_title")}</strong>${t("inspiration_text")}</span>
           </div>
         </div>`;
     }
@@ -519,13 +513,13 @@ function renderKategoria() {
   if (!gridHost) return;
 
   if (podkategorie.length) {
-    if (gridTitle) gridTitle.textContent = "Objavte miesta";
+    if (gridTitle) gridTitle.textContent = t("discover_places");
     if (toggleHost) toggleHost.innerHTML = "";
     gridHost.className = "subcat-grid";
     gridHost.innerHTML = podkategorie.map(subcatCardHTML).join("");
   } else {
-    if (gridTitle) gridTitle.textContent = m.nadpisZastaveni || "Zastavenia";
-    const emptyMsg = `<p style="grid-column:1/-1;color:var(--ink-soft)">Zastavenia pre toto miesto budú doplnené.</p>`;
+    if (gridTitle) gridTitle.textContent = m.nadpisZastaveni || t("stops_default_title");
+    const emptyMsg = `<p style="grid-column:1/-1;color:var(--ink-soft)">${t("stops_coming_soon")}</p>`;
     if (toggleHost) {
       toggleHost.innerHTML = zastaveniaTu.length ? catViewToggleHTML() : "";
       QA(".view-toggle-btn", toggleHost).forEach(b => b.addEventListener("click", () => {
@@ -559,10 +553,10 @@ function renderKategoria() {
       const dalsi = surodenci[idx + 1];
       siblingHost.innerHTML = `<div class="cat-sibling-nav">
         ${rodic
-          ? `<a class="cat-sibling-link" href="kategoria.html?id=${rodic.id}"><span>←</span> Späť na „${rodic.nazov}"</a>`
+          ? `<a class="cat-sibling-link" href="kategoria.html?id=${rodic.id}"><span>←</span> ${t("back_to", { name: tc(rodic, "nazov") })}</a>`
           : `<span></span>`}
         ${dalsi
-          ? `<a class="cat-sibling-link cat-sibling-next" href="kategoria.html?id=${dalsi.id}">Ďalšie miesto: <strong>${dalsi.nazov}</strong> <span>→</span></a>`
+          ? `<a class="cat-sibling-link cat-sibling-next" href="kategoria.html?id=${dalsi.id}">${t("next_place_prefix")}<strong>${tc(dalsi, "nazov")}</strong> <span>→</span></a>`
           : `<span></span>`}
       </div>`;
     }
@@ -578,13 +572,13 @@ function catViewToggleHTML() {
         <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
         <rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/>
       </svg>
-      Karty
+      ${t("view_cards")}
     </button>
     <button class="view-toggle-btn${catView === "zoznam" ? " active" : ""}" data-view="zoznam">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/>
       </svg>
-      Zoznam
+      ${t("view_list")}
     </button>`;
 }
 
@@ -598,10 +592,10 @@ const CAT_FEATURE_ICONS = {
 
 function catFeaturesHTML() {
   const items = [
-    { icon: CAT_FEATURE_ICONS.hrad, nadpis: "História a kultúra", text: "Hrady, zámky a historické mestá s bohatým príbehom." },
-    { icon: CAT_FEATURE_ICONS.stromy, nadpis: "Príroda", text: "Krásne miesta v srdci Beskýd ideálne na oddych." },
-    { icon: CAT_FEATURE_ICONS.ludia, nadpis: "Spája nás", text: "Objavujte miesta, ktoré spájajú Slovensko a Česko." },
-    { icon: CAT_FEATURE_ICONS.qr, nadpis: "QR sprievodca", text: "Naskenujte QR kódy a spoznajte miesta ešte lepšie." }
+    { icon: CAT_FEATURE_ICONS.hrad, nadpis: t("history_culture_title"), text: t("history_culture_text") },
+    { icon: CAT_FEATURE_ICONS.stromy, nadpis: t("nature_title"), text: t("nature_text") },
+    { icon: CAT_FEATURE_ICONS.ludia, nadpis: t("connects_title"), text: t("connects_text") },
+    { icon: CAT_FEATURE_ICONS.qr, nadpis: t("qr_guide_title"), text: t("qr_guide_text") }
   ];
   return items.map(it => `
     <div class="cat-feature">
@@ -620,45 +614,45 @@ function renderZastavenie() {
   const root = Q("#detailRoot");
   if (!root) return;
   const z = DB.zastavenia.find(x => x.id === param("id"));
-  if (!z) { root.innerHTML = "<p>Zastavenie sa nenašlo.</p>"; return; }
+  if (!z) { root.innerHTML = `<p>${t("detail_not_found")}</p>`; return; }
 
   const m = miestoById(z.miesto);
-  document.title = `${z.nazov} – QR LINK`;
+  document.title = `${tc(z, "nazov")} – QR LINK`;
 
   const chain = m ? retazPredkov(m) : [];
   const koren = m ? rootProjekt(m) : null;
   const hlavnaKat = koren ? katById(koren.primarna) : null;
   renderBreadcrumb([
-    ...(hlavnaKat ? [{ label: hlavnaKat.nazov, href: `index.html#miesta` }] : []),
-    ...chain.map(node => ({ label: node.nazov, href: `kategoria.html?id=${node.id}` })),
-    { label: z.nazov, href: null }
+    ...(hlavnaKat ? [{ label: tc(hlavnaKat, "nazov"), href: `index.html#miesta` }] : []),
+    ...chain.map(node => ({ label: tc(node, "nazov"), href: `kategoria.html?id=${node.id}` })),
+    { label: tc(z, "nazov"), href: null }
   ]);
 
-  Q("#dTitle").textContent = z.nazov;
+  Q("#dTitle").textContent = tc(z, "nazov");
 
   const zastaveniaMiesta = m ? zastaveniaPriamoOf(m.id).filter(maObsah).sort((a, b) => a.poradie - b.poradie) : [];
   const poradieTu = zastaveniaMiesta.findIndex(x => x.id === z.id) + 1;
   Q("#dSub").innerHTML = `
     ${m ? `<span class="detail-meta-line">
-      ${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.pin)}${m.nazov}
+      ${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.pin)}${tc(m, "nazov")}
       ${z.gps ? `<span class="dot">•</span>${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.pin)}${z.gps.lat.toFixed(6)}, ${z.gps.lng.toFixed(6)}` : ""}
     </span>` : ""}
-    ${zastaveniaMiesta.length ? `<span class="detail-meta-count">Zastavenie ${poradieTu} z ${zastaveniaMiesta.length}</span>` : ""}`;
+    ${zastaveniaMiesta.length ? `<span class="detail-meta-count">${t("stop_of", { n: poradieTu, total: zastaveniaMiesta.length })}</span>` : ""}`;
 
   if (z.cover) {
     const pocetFoto = z.galeria && z.galeria.length ? z.galeria.length : 1;
     Q("#dCover").innerHTML = `
-      <img src="${z.cover}" alt="${z.nazov}">
+      <img src="${z.cover}" alt="${tc(z, "nazov")}">
       <span class="detail-cover-counter">1 / ${pocetFoto}</span>
       <button class="detail-share-btn" id="shareBtn">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
           <path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/>
         </svg>
-        Zdieľať
+        ${t("share")}
       </button>`;
     Q("#shareBtn").addEventListener("click", async () => {
-      const shareData = { title: z.nazov, url: location.href };
+      const shareData = { title: tc(z, "nazov"), url: location.href };
       if (navigator.share) { try { await navigator.share(shareData); } catch (e) {} }
       else if (navigator.clipboard) { navigator.clipboard.writeText(location.href); }
     });
@@ -668,7 +662,7 @@ function renderZastavenie() {
   else Q("#playerHost").remove();
 
   const dText = Q("#dText");
-  dText.innerHTML = z.text || "";
+  dText.innerHTML = tc(z, "text") || "";
   const headIcons = [CAT_FEATURE_ICONS.stromy, CAT_INFO_ICONS.stit];
   QA("h2", dText).forEach((h2, i) => {
     h2.innerHTML = `<span class="text-h2-icon">${CAT_INFO_ICON_SVG(headIcons[i % headIcons.length])}</span>${h2.innerHTML}`;
@@ -684,7 +678,7 @@ function renderZastavenie() {
     if (mapLink) {
       Q("#gpsHost").insertAdjacentHTML("afterbegin", `
         <a class="gps-open-btn" href="${mapLink}" target="_blank" rel="noopener">
-          Otvoriť v Mapách
+          ${t("open_in_maps")}
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
           </svg>
@@ -701,13 +695,13 @@ function renderZastavenie() {
     const dalsie = zastaveniaMiesta.filter(x => x.id !== z.id);
     if (dalsie.length) {
       nextStopsHost.innerHTML = `
-        <h2 class="detail-bottom-title">Ďalšie zastavenia na trase</h2>
+        <h2 class="detail-bottom-title">${t("next_stops_title")}</h2>
         <div class="stop-carousel">
-          <button type="button" class="stop-carousel-arrow prev" aria-label="Predchádzajúce zastavenia" hidden>
+          <button type="button" class="stop-carousel-arrow prev" aria-label="${t("prev_stops_aria")}" hidden>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6l6 6"/></svg>
           </button>
           <div class="stop-carousel-track">${dalsie.map(stopCardHTML).join("")}</div>
-          <button type="button" class="stop-carousel-arrow next" aria-label="Ďalšie zastavenia" hidden>
+          <button type="button" class="stop-carousel-arrow next" aria-label="${t("next_stops_aria")}" hidden>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6l-6 6"/></svg>
           </button>
         </div>`;
@@ -726,7 +720,7 @@ function renderZastavenie() {
   const metaRow = Q("#metaRow");
   if (metaRow) {
     metaRow.innerHTML = `
-      ${m ? `<a class="cat-sibling-link" href="kategoria.html?id=${m.id}"><span>←</span> Späť na „${m.nazov}"</a>` : `<span></span>`}
+      ${m ? `<a class="cat-sibling-link" href="kategoria.html?id=${m.id}"><span>←</span> ${t("back_to", { name: tc(m, "nazov") })}</a>` : `<span></span>`}
       <span class="counter">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M13 4a3 3 0 1 1-2 0M7 21v-5l2-3 1-4h4l1 4 2 3v5"/>
@@ -737,7 +731,7 @@ function renderZastavenie() {
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M13 4a3 3 0 1 1-2 0M8 21l2-6 3-2 1-4M14 21l-1-5"/>
         </svg>
-        Všetky zastavenia
+        ${t("all_stops")}
       </a>`;
     renderCounter(z.id);
   }
@@ -749,27 +743,27 @@ function renderPlayer(src) {
   host.innerHTML = `
     <div class="player-row">
       <div class="player">
-        <button class="skip" data-skip="-10" aria-label="Späť 10 sekúnd">
+        <button class="skip" data-skip="-10" aria-label="${t("skip_back_aria")}">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 18l-7-6 7-6M20 18l-7-6 7-6"/></svg>
         </button>
-        <button id="playBtn" aria-label="Prehrať audio">
+        <button id="playBtn" aria-label="${t("play_aria")}">
           <svg id="iconPlay" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
           <svg id="iconPause" viewBox="0 0 24 24" fill="currentColor" style="display:none"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
         </button>
-        <button class="skip" data-skip="10" aria-label="Vpred 10 sekúnd">
+        <button class="skip" data-skip="10" aria-label="${t("skip_fwd_aria")}">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 6l7 6-7 6M4 6l7 6-7 6"/></svg>
         </button>
         <span class="time" id="pTime">0:00</span>
         <div class="bar" id="pBar"><i id="pFill"></i><span class="bar-handle"></span></div>
         <span class="time" id="pTotal">0:00</span>
-        <button class="volume-btn" aria-label="Hlasitosť">
+        <button class="volume-btn" aria-label="${t("volume_aria")}">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M11 5 6 9H3v6h3l5 4z"/><path d="M16 8a5 5 0 0 1 0 8"/>
           </svg>
         </button>
         <audio id="pAudio" src="${src}" preload="metadata"></audio>
       </div>
-      <a class="player-download" href="${src}" download aria-label="Stiahnuť audio">
+      <a class="player-download" href="${src}" download aria-label="${t("download_audio_aria")}">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M12 3v12M7 10l5 5 5-5M5 21h14"/>
         </svg>
@@ -800,22 +794,22 @@ function renderGallery(imgs) {
   const host = Q("#galleryHost");
   host.innerHTML = `
     <h2 class="gallery-title">
-      <span class="text-h2-icon">${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.galeria)}</span>Fotogaléria
+      <span class="text-h2-icon">${CAT_INFO_ICON_SVG(CAT_INFO_ICONS.galeria)}</span>${t("gallery_title")}
     </h2>
     <div class="gallery">
-      <button class="g-arrow" data-dir="-1" aria-label="Predchádzajúce fotky">‹</button>
+      <button class="g-arrow" data-dir="-1" aria-label="${t("prev_photos_aria")}">‹</button>
       <div class="g-strip" id="gStrip">
-        ${imgs.map((s, i) => `<img src="${s}" alt="Fotografia ${i + 1}" loading="lazy" data-i="${i}">`).join("")}
+        ${imgs.map((s, i) => `<img src="${s}" alt="${t("photo_alt", { n: i + 1 })}" loading="lazy" data-i="${i}">`).join("")}
       </div>
-      <button class="g-arrow" data-dir="1" aria-label="Ďalšie fotky">›</button>
+      <button class="g-arrow" data-dir="1" aria-label="${t("next_photos_aria")}">›</button>
     </div>
-    <div class="lightbox" id="lb" role="dialog" aria-label="Zväčšená fotografia">
-      <button id="lbClose" aria-label="Zavrieť">×</button>
-      <button class="lb-arrow lb-prev" aria-label="Predchádzajúca fotografia">
+    <div class="lightbox" id="lb" role="dialog" aria-label="${t("lightbox_aria")}">
+      <button id="lbClose" aria-label="${t("close_aria")}">×</button>
+      <button class="lb-arrow lb-prev" aria-label="${t("prev_photo_aria")}">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6l6 6"/></svg>
       </button>
       <img id="lbImg" src="" alt="">
-      <button class="lb-arrow lb-next" aria-label="Ďalšia fotografia">
+      <button class="lb-arrow lb-next" aria-label="${t("next_photo_aria")}">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6l-6 6"/></svg>
       </button>
     </div>`;
@@ -850,7 +844,7 @@ function renderCounter(id) {
   const n = Number(localStorage.getItem(key) || 0) + 1;
   localStorage.setItem(key, n);
   const el = Q("#visitCount");
-  if (el) el.textContent = n === 1 ? "1 návšteva" : `${n} návštev`;
+  if (el) el.textContent = tVisits(n);
   /* Neskôr: nahradiť volaním serverového počítadla, viď README. */
 }
 
@@ -895,10 +889,10 @@ function renderKontakt() {
 /* statický 4-stĺpcový pruh výhod na stránke Kontakt */
 function contactFeaturesHTML() {
   const items = [
-    { icon: CAT_FEATURE_ICONS.qr, nadpis: "QR sprievodca", text: "Naskenujte QR kód priamo na mieste a spoznajte jeho príbeh." },
-    { icon: CAT_INFO_ICONS.kniha, nadpis: "Náučné chodníky", text: "Trasy so zastaveniami pre výlety plné objavovania." },
-    { icon: CONTACT_ICONS.armchair, nadpis: "Mestský mobiliár", text: "Informačné tabule a lavičky s QR kódom v teréne." },
-    { icon: CAT_INFO_ICONS.audio, nadpis: "Audio sprievodca", text: "Vypočujte si príbeh miesta priamo vo vašom telefóne." }
+    { icon: CAT_FEATURE_ICONS.qr, nadpis: t("contact_qr_title"), text: t("contact_qr_text") },
+    { icon: CAT_INFO_ICONS.kniha, nadpis: t("contact_trails_title"), text: t("contact_trails_text") },
+    { icon: CONTACT_ICONS.armchair, nadpis: t("contact_furniture_title"), text: t("contact_furniture_text") },
+    { icon: CAT_INFO_ICONS.audio, nadpis: t("contact_audio_title"), text: t("contact_audio_text") }
   ];
   return items.map(it => `
     <div class="cat-feature">
@@ -923,7 +917,7 @@ function initContactForm() {
     e.preventDefault();
     form.reset();
     if (status) {
-      status.textContent = "Ďakujeme za správu! Ozveme sa vám čo najskôr.";
+      status.textContent = t("form_success");
       status.className = "form-status ok";
     }
   });

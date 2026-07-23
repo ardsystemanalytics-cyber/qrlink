@@ -11,17 +11,18 @@
 <header class="site-header">
   <div class="wrap">
     <a class="logo" href="index.html" aria-label="ARDSYSTÉM – domov"><img src="img/logo-ardsystem.png" alt="ARDSYSTÉM, s. r. o."></a>
-    <button class="nav-toggle" aria-label="Otvoriť menu">MENU</button>
+    <button class="nav-toggle" data-i18n="menu_toggle_aria" data-i18n-attr="aria-label">MENU</button>
     <nav class="nav">
-      <a href="index.html">Mapa</a>
-      <a href="index.html#miesta" class="active">Miesta</a>
-      <a href="kontakt.html">Kontakt</a>
+      <a href="index.html" data-i18n="nav_map">Mapa</a>
+      <a href="index.html#miesta" class="active" data-i18n="nav_places">Miesta</a>
+      <a href="kontakt.html" data-i18n="nav_contact">Kontakt</a>
+      <div class="lang-switch"></div>
     </nav>
   </div>
 </header>
 
 <main class="wrap">
-  <nav class="crumbs" id="crumbs" aria-label="Ste tu"></nav>
+  <nav class="crumbs" id="crumbs" data-i18n="crumbs_aria" data-i18n-attr="aria-label" aria-label="Ste tu"></nav>
 
   <section class="cat-hero">
     <div class="cat-hero-text">
@@ -42,7 +43,7 @@
   </section>
 
   <section class="cat-features" id="catFeatures"></section>
-  <nav id="catSiblingNav" aria-label="Predchádzajúce a ďalšie miesto"></nav>
+  <nav id="catSiblingNav" data-i18n="sibling_nav_aria" data-i18n-attr="aria-label" aria-label="Predchádzajúce a ďalšie miesto"></nav>
 </main>
 
 <footer class="site-footer">
@@ -50,12 +51,13 @@
     <a class="footer-logo" href="https://www.ardsystem.sk" target="_blank" rel="noopener" aria-label="ARDSYSTÉM, s. r. o.">
       <img src="img/logo-ardsystem.png" alt="ARDSYSTÉM, s. r. o." style="height:42px;width:auto">
     </a>
-    <span>© ARDSYSTÉM, s.r.o. – všetky práva vyhradené</span>
-    <span>QR LINK – digitálny sprievodca</span>
+    <span data-i18n="footer_copyright">© ARDSYSTÉM, s.r.o. – všetky práva vyhradené</span>
+    <span data-i18n="footer_tagline">QR LINK – digitálny sprievodca</span>
   </div>
 </footer>
 
 <script src="js/data.js"></script>
+<script src="js/i18n.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

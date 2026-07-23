@@ -80,6 +80,16 @@ a { color: var(--pine); }
   padding: 8px 12px; font-family: var(--f-mono); font-size: 13px; cursor: pointer;
 }
 
+.lang-switch { display: flex; gap: 4px; margin-left: 10px; }
+.lang-switch .lang-btn {
+  font-family: var(--f-mono); font-size: 12px; font-weight: 700;
+  color: var(--ink-soft); background: none; border: 1px solid var(--line);
+  border-radius: 999px; padding: 6px 10px; cursor: pointer;
+  transition: background .15s, color .15s, border-color .15s;
+}
+.lang-switch .lang-btn:hover { background: var(--paper-deep); color: var(--ink); }
+.lang-switch .lang-btn.active { background: var(--grad); color: #fff; border-color: transparent; }
+
 @media (max-width: 780px) {
   .nav-toggle { display: block; }
   .nav {
@@ -89,6 +99,7 @@ a { color: var(--pine); }
   }
   .nav.open { display: flex; }
   .nav a { padding: 12px 14px; }
+  .lang-switch { margin: 10px 14px 0; }
 }
 
 /* --------------------------------------------------------- HERO --- */
