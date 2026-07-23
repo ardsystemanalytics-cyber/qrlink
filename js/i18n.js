@@ -8,6 +8,7 @@
 const I18N_LANGS = ["sk", "en", "cs", "hu"];
 const I18N_DEFAULT = "sk";
 const I18N_STORAGE_KEY = "qrlink-lang";
+const I18N_NAMES = { sk: "Slovenčina", en: "English", cs: "Čeština", hu: "Magyar" };
 
 const I18N = {
   sk: {
@@ -351,7 +352,10 @@ function renderLangSwitch() {
       </button>
       <div class="lang-menu">
         ${I18N_LANGS.map(l =>
-          `<button type="button" class="lang-btn${l === cur ? " active" : ""}" data-lang="${l}">${l.toUpperCase()}</button>`
+          `<button type="button" class="lang-btn${l === cur ? " active" : ""}" data-lang="${l}">
+            <span class="lang-badge">${l.toUpperCase()}</span>
+            <span class="lang-name">${I18N_NAMES[l]}</span>
+          </button>`
         ).join("")}
       </div>`;
 
