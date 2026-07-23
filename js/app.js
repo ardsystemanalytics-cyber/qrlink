@@ -673,25 +673,6 @@ function renderZastavenie() {
     h2.innerHTML = `<span class="text-h2-icon">${CAT_INFO_ICON_SVG(headIcons[i % headIcons.length])}</span>${h2.innerHTML}`;
   });
 
-  /* zoskupí obsah podľa h2 do .text-col blokov, aby nadpisy sedeli v rovnakom riadku (grid);
-     bez viacerých h2 (jeden celistvý text) ostáva jeden stĺpec na celú šírku */
-  const h2Count = QA("h2", dText).length;
-  if (dText.childNodes.length) {
-    const cols = [];
-    [...dText.childNodes].forEach(node => {
-      if (node.nodeType === 1 && node.tagName === "H2") cols.push([node]);
-      else if (cols.length) cols[cols.length - 1].push(node);
-      else { cols.push([]); cols[0].push(node); }
-    });
-    dText.innerHTML = "";
-    cols.forEach(nodes => {
-      const col = document.createElement("div");
-      col.className = "text-col";
-      nodes.forEach(n => col.appendChild(n));
-      dText.appendChild(col);
-    });
-    if (h2Count <= 1) dText.classList.add("text-single-col");
-  }
 
   if (z.galeria && z.galeria.length) renderGallery(z.galeria);
   else Q("#galleryHost").remove();
