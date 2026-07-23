@@ -295,7 +295,13 @@ const DB = {
     /* -- Oravský hrad (eb-oravsky-hrad): 6 zastavení, 4 s obsahom -- */
     { id: "eb-oh-brana-do-hradu", miesto: "eb-oravsky-hrad", poradie: 1, nazov: "Brána do hradu",
       popis: "Hlavný vstup do hradného areálu, ktorý vás vtiahne do histórie.",
-      cover: "assets/images/places/oravsky-hrad-brana.jpg", audio: ["https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-1.mp3"], galeria: [],
+      cover: "assets/images/places/oravsky-hrad-brana.jpg", audio: ["https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-1.mp3"],
+      galeria: [
+        "assets/images/places/oravsky-hrad-brana.jpg",
+        "assets/images/places/oravsky-hrad-kaplnka.jpg",
+        "assets/images/places/oravsky-hrad-studna.jpg",
+        "assets/images/places/oravsky-hrad-vyhliadka.jpg"
+      ],
       gps: { lat: 49.2621250, lng: 19.3589331 },
       mapEmbed: "https://www.google.com/maps?q=49.2621250,19.3589331&z=16&output=embed",
       text: `<p>Jednou z najväčších turistických atrakcií severného Slovenska je Oravský hrad, vybudovaný na skale nad riekou Orava v Oravskom Podzámku ako „orlie hniezdo“.</p>

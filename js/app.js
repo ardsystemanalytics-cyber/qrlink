@@ -646,9 +646,10 @@ function renderZastavenie() {
     ${zastaveniaMiesta.length ? `<span class="detail-meta-count">Zastavenie ${poradieTu} z ${zastaveniaMiesta.length}</span>` : ""}`;
 
   if (z.cover) {
+    const pocetFoto = z.galeria && z.galeria.length ? z.galeria.length : 1;
     Q("#dCover").innerHTML = `
       <img src="${z.cover}" alt="${z.nazov}">
-      <span class="detail-cover-counter">1 / 1</span>
+      <span class="detail-cover-counter">1 / ${pocetFoto}</span>
       <button class="detail-share-btn" id="shareBtn">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
@@ -810,18 +811,37 @@ function renderGallery(imgs) {
     </div>
     <div class="lightbox" id="lb" role="dialog" aria-label="Zväčšená fotografia">
       <button id="lbClose" aria-label="Zavrieť">×</button>
+      <button class="lb-arrow lb-prev" aria-label="Predchádzajúca fotografia">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6l6 6"/></svg>
+      </button>
       <img id="lbImg" src="" alt="">
+      <button class="lb-arrow lb-next" aria-label="Ďalšia fotografia">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6l-6 6"/></svg>
+      </button>
     </div>`;
 
   QA(".g-arrow", host).forEach(b => b.addEventListener("click", () =>
     Q("#gStrip").scrollBy({ left: 300 * Number(b.dataset.dir) })));
 
-  QA("#gStrip img").forEach(img => img.addEventListener("click", () => {
-    Q("#lbImg").src = img.src;
+  let lbIndex = 0;
+  const showLightbox = i => {
+    lbIndex = (i + imgs.length) % imgs.length;
+    Q("#lbImg").src = imgs[lbIndex];
+  };
+  QA("#gStrip img").forEach((img, i) => img.addEventListener("click", () => {
+    showLightbox(i);
     Q("#lb").classList.add("open");
   }));
   Q("#lbClose").addEventListener("click", () => Q("#lb").classList.remove("open"));
   Q("#lb").addEventListener("click", e => { if (e.target.id === "lb") Q("#lb").classList.remove("open"); });
+  Q(".lb-prev", host).addEventListener("click", () => showLightbox(lbIndex - 1));
+  Q(".lb-next", host).addEventListener("click", () => showLightbox(lbIndex + 1));
+  document.addEventListener("keydown", e => {
+    if (!Q("#lb").classList.contains("open")) return;
+    if (e.key === "ArrowLeft") showLightbox(lbIndex - 1);
+    else if (e.key === "ArrowRight") showLightbox(lbIndex + 1);
+    else if (e.key === "Escape") Q("#lb").classList.remove("open");
+  });
 }
 
 /* počítadlo návštev – zatiaľ lokálne; miesto pre napojenie na API */
