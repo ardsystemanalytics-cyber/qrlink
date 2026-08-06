@@ -49,7 +49,7 @@ const I18N = {
     view_cards: "Karty", view_list: "Zoznam",
     back_to: "Späť na „{name}“", next_place_prefix: "Ďalšie miesto: ",
     history_culture_title: "História a kultúra", history_culture_text: "Hrady, zámky a historické mestá s bohatým príbehom.",
-    nature_title: "Príroda", nature_text: "Krásne miesta v srdci Beskýd ideálne na oddych.",
+    nature_title: "Príroda", nature_text: "Objavujte krásu krajiny na každom kroku.",
     connects_title: "Spája nás", connects_text: "Objavujte miesta, ktoré spájajú Slovensko a Česko.",
     qr_guide_title: "QR sprievodca", qr_guide_text: "Naskenujte QR kódy a spoznajte miesta ešte lepšie.",
 
@@ -117,7 +117,7 @@ const I18N = {
     view_cards: "Cards", view_list: "List",
     back_to: "Back to “{name}”", next_place_prefix: "Next place: ",
     history_culture_title: "History & culture", history_culture_text: "Castles, chateaux and historic towns full of stories.",
-    nature_title: "Nature", nature_text: "Beautiful spots in the heart of the Beskids, perfect for relaxing.",
+    nature_title: "Nature", nature_text: "Discover the beauty of the landscape at every step.",
     connects_title: "What connects us", connects_text: "Discover places that connect Slovakia and Czechia.",
     qr_guide_title: "QR guide", qr_guide_text: "Scan QR codes and get to know the places even better.",
 
@@ -185,7 +185,7 @@ const I18N = {
     view_cards: "Karty", view_list: "Seznam",
     back_to: "Zpět na „{name}“", next_place_prefix: "Další místo: ",
     history_culture_title: "Historie a kultura", history_culture_text: "Hrady, zámky a historická města s bohatým příběhem.",
-    nature_title: "Příroda", nature_text: "Krásná místa v srdci Beskyd ideální na odpočinek.",
+    nature_title: "Příroda", nature_text: "Objevujte krásu krajiny na každém kroku.",
     connects_title: "Spojuje nás", connects_text: "Objevujte místa, která spojují Slovensko a Česko.",
     qr_guide_title: "QR průvodce", qr_guide_text: "Naskenujte QR kódy a poznejte místa ještě lépe.",
 
@@ -253,7 +253,7 @@ const I18N = {
     view_cards: "Kártyák", view_list: "Lista",
     back_to: "Vissza: „{name}”", next_place_prefix: "Következő helyszín: ",
     history_culture_title: "Történelem és kultúra", history_culture_text: "Várak, kastélyok és történelmi városok gazdag történettel.",
-    nature_title: "Természet", nature_text: "Csodálatos helyek a Beszkidek szívében, tökéletes pihenésre.",
+    nature_title: "Természet", nature_text: "Fedezze fel a táj szépségét minden lépésnél.",
     connects_title: "Ami összeköt minket", connects_text: "Fedezze fel a Szlovákiát és Csehországot összekötő helyszíneket.",
     qr_guide_title: "QR-kalauz", qr_guide_text: "Olvassa be a QR-kódokat, és ismerje meg jobban a helyszíneket.",
 
