@@ -159,8 +159,12 @@ a { color: var(--pine); }
     padding: 20px 2px; font-family: var(--f-body); font-weight: 700; font-size: 18px;
     color: var(--ink); background: none; border-radius: 0;
     border-bottom: 1px solid var(--line);
+    -webkit-tap-highlight-color: transparent;
   }
-  .nav a.active { background: none; color: var(--ink); }
+  .nav a.active,
+  .nav a:hover,
+  .nav a:active,
+  .nav a:focus { background: none; color: var(--ink); }
   .nav a::after {
     content: ""; flex: 0 0 auto; width: 9px; height: 9px;
     border-right: 2px solid var(--ink-soft); border-top: 2px solid var(--ink-soft);
