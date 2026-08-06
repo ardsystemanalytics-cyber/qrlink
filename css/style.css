@@ -187,7 +187,8 @@ a { color: var(--pine); }
   .hero-photo img { object-position: center 30%; }
   .hero-inner { padding-top: 28px; padding-bottom: 40px; }
   .hero-copy { max-width: 100%; }
-  .map-panel { margin-top: 24px; } /* na mobile bez prekrytia */
+  /* .mapa-section .map-panel (2 triedy) kvôli poradiu v súbore prebije .map-panel { margin: -72px... } nižšie */
+  .mapa-section .map-panel { margin-top: 24px; } /* na mobile bez prekrytia */
 }
 @media (max-width: 480px) {
   .hero-photo { height: 210px; }
@@ -443,7 +444,9 @@ a { color: var(--pine); }
   padding: 30px 32px; margin: 44px 0 60px;
 }
 @media (max-width: 900px) { .cat-features { grid-template-columns: 1fr 1fr; } }
-@media (max-width: 560px) { .cat-features { grid-template-columns: 1fr; } }
+@media (max-width: 560px) {
+  .cat-features { grid-template-columns: 1fr; margin: 24px 0 40px; padding: 24px 22px; }
+}
 .cat-feature { display: flex; gap: 14px; align-items: flex-start; }
 .cat-feature-icon {
   flex: 0 0 auto; width: 58px; height: 58px; border-radius: 50%;
@@ -586,6 +589,10 @@ a { color: var(--pine); }
 .cat-sibling-link:hover { color: var(--pine); }
 .cat-sibling-link strong { color: var(--ink); }
 .cat-sibling-next { margin-left: auto; }
+@media (max-width: 560px) {
+  .cat-sibling-nav { padding: 20px 22px; margin: 24px 0 40px; }
+  .cat-sibling-next { margin-left: 0; }
+}
 
 /* --------------------------------------------- DETAIL ZASTAVENIA -- */
 .detail { padding-bottom: 70px; }
@@ -701,7 +708,12 @@ a { color: var(--pine); }
   display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px;
   flex: 1; padding: 4px;
 }
-@media (max-width: 700px) { .gallery .g-strip { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 700px) {
+  .gallery .g-strip { grid-template-columns: repeat(2, 1fr); }
+  /* šípky posúvali vodorovný pás, na mobile je to statická mriežka bez scrollu – zbytočné */
+  .gallery .g-arrow { display: none; }
+  .gallery { gap: 0; }
+}
 .gallery .g-strip img {
   width: 100%; height: 170px; object-fit: cover; border-radius: 12px;
   cursor: pointer; border: 2px solid transparent; transition: border-color .15s;
@@ -815,7 +827,7 @@ a { color: var(--pine); }
   display: grid; gap: 22px; grid-template-columns: 1fr 1fr;
   padding: 26px 0 70px;
 }
-@media (max-width: 720px) { .contact-grid { grid-template-columns: 1fr; } }
+@media (max-width: 720px) { .contact-grid { grid-template-columns: 1fr; padding: 22px 0 30px; } }
 .contact-card {
   background: var(--card); border: 1px solid var(--line);
   border-radius: var(--radius); padding: 26px 28px;
@@ -1133,6 +1145,9 @@ a { color: var(--pine); }
   display: flex; flex-wrap: wrap; gap: 10px 24px;
   align-items: center; justify-content: space-between;
   padding: 20px 0; font-size: 13px; color: var(--ink-soft);
+}
+@media (max-width: 600px) {
+  .footer-bottom { justify-content: center; text-align: center; }
 }
 .footer-bottom-right {
   display: flex; align-items: center; gap: 16px;
