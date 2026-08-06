@@ -121,9 +121,12 @@
       </div>
     </div>
 
-    <!-- fotka vpravo – full-bleed, fade je priamo v obrázku -->
+    <!-- fotka vpravo – full-bleed, fade je priamo v obrázku; na mobile iná (zvislejšia) fotka -->
     <div class="hero-photo" aria-hidden="true">
-      <img src="assets/images/hrad-qr.jpg" alt="Hrad Beckov s informačnou tabuľou" loading="eager">
+      <picture>
+        <source media="(max-width: 820px)" srcset="assets/images/qrlink-hero.png">
+        <img src="assets/images/hrad-qr.jpg" alt="Hrad Beckov s informačnou tabuľou" loading="eager">
+      </picture>
     </div>
   </section>
 
