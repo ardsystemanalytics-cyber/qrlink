@@ -206,8 +206,10 @@
           </svg>
         </span>
         <h2 data-i18n="home_contact_title">Máte otázku alebo záujem o spoluprácu?</h2>
+        <span class="home-contact-accent"></span>
         <p data-i18n="home_contact_text">Napíšte nám a radi vám pomôžeme s vaším projektom či sprievodcom.</p>
       </div>
+      <span class="home-contact-divider"></span>
       <form id="homeContactForm" class="home-contact-form contact-form">
         <div class="form-row">
           <input type="text" name="meno" data-i18n="name_placeholder" data-i18n-attr="placeholder" placeholder="Meno a priezvisko *" required>
@@ -218,7 +220,11 @@
         <div class="home-contact-footer">
           <label class="home-consent">
             <input type="checkbox" required>
-            <span data-i18n="consent_label">Súhlasím so spracovaním údajov *</span>
+            <span>
+              <span data-i18n="consent_prefix">Súhlasím so</span>
+              <span class="home-consent-link" data-i18n="consent_link">spracovaním údajov</span>
+              <span data-i18n="consent_suffix">*</span>
+            </span>
           </label>
           <button type="submit" class="btn home-contact-submit">
             <span data-i18n="send_button">Odoslať správu</span>

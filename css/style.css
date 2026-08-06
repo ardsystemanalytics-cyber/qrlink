@@ -868,33 +868,51 @@ a { color: var(--pine); }
 
 /* kontaktný formulár na homepage – tmavá zelená karta pod zoznamom miest */
 .home-contact-card {
-  display: flex; flex-wrap: wrap; gap: 36px;
+  display: flex; flex-wrap: wrap; gap: 40px;
   background: var(--pine-deep); border-radius: var(--radius);
-  padding: 40px 44px; margin: 10px 0 60px;
+  padding: 44px 48px; margin: 10px 0 60px;
 }
-.home-contact-text { flex: 1 1 260px; color: #fff; }
+.home-contact-text { flex: 1 1 280px; color: #fff; }
 .home-contact-icon {
-  width: 46px; height: 46px; border-radius: 50%;
-  background: rgba(255,255,255,.12);
+  width: 64px; height: 64px; border-radius: 50%;
+  background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.18);
   display: flex; align-items: center; justify-content: center;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
-.home-contact-icon svg { width: 22px; height: 22px; stroke: #fff; }
+.home-contact-icon svg { width: 28px; height: 28px; stroke: #fff; }
 .home-contact-text h2 {
-  font-family: var(--f-display); font-weight: 700; font-size: 24px;
-  margin: 0 0 10px; letter-spacing: -.01em;
+  font-family: var(--f-display); font-weight: 700; font-size: 29px; line-height: 1.25;
+  margin: 0; letter-spacing: -.01em;
 }
-.home-contact-text p { margin: 0; color: rgba(255,255,255,.75); max-width: 32ch; }
-.home-contact-form { flex: 2 1 480px; gap: 12px; }
+.home-contact-accent {
+  display: block; width: 56px; height: 3px; border-radius: 2px;
+  background: var(--gold); margin: 18px 0;
+}
+.home-contact-text p { margin: 0; font-size: 15px; color: rgba(255,255,255,.7); max-width: 32ch; }
+.home-contact-divider { flex: 0 0 auto; align-self: stretch; width: 1px; background: rgba(255,255,255,.18); }
+.home-contact-form { flex: 2 1 480px; gap: 14px; }
 .home-contact-footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 14px; }
-.home-consent { display: flex; align-items: center; gap: 10px; font-size: 13px; color: rgba(255,255,255,.85); cursor: pointer; }
-.home-consent input { width: 17px; height: 17px; accent-color: var(--gold); cursor: pointer; }
+.home-consent { display: flex; align-items: center; gap: 10px; font-size: 13.5px; color: rgba(255,255,255,.85); cursor: pointer; }
+.home-consent-link { text-decoration: underline; }
+.home-consent input[type="checkbox"] {
+  appearance: none; -webkit-appearance: none; position: relative;
+  width: 20px; height: 20px; flex-shrink: 0; margin: 0;
+  border: 1.5px solid rgba(255,255,255,.55); border-radius: 5px;
+  background: transparent; cursor: pointer;
+}
+.home-consent input[type="checkbox"]:checked { background: var(--gold); border-color: var(--gold); }
+.home-consent input[type="checkbox"]:checked::after {
+  content: ""; position: absolute; left: 6px; top: 2px;
+  width: 5px; height: 10px; border: solid var(--pine-deep);
+  border-width: 0 2px 2px 0; transform: rotate(45deg);
+}
 .home-contact-submit {
   background: var(--paper); color: var(--ink); border: none; cursor: pointer;
 }
 .home-contact-submit:hover { background: #fff; }
 .home-contact-card .form-status { color: rgba(255,255,255,.85); }
 .home-contact-card .form-status.ok { color: #d9f0c9; }
+@media (max-width: 900px) { .home-contact-divider { display: none; } }
 
 /* prístupnosť */
 :focus-visible { outline: 3px solid var(--berry); outline-offset: 2px; }
