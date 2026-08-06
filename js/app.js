@@ -741,7 +741,6 @@ function renderZastavenie() {
 function renderPlayer(src) {
   const host = Q("#playerHost");
   host.innerHTML = `
-    <div class="player-row">
       <div class="player">
         <button class="skip" data-skip="-10" aria-label="${t("skip_back_aria")}">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 18l-7-6 7-6M20 18l-7-6 7-6"/></svg>
@@ -762,13 +761,7 @@ function renderPlayer(src) {
           </svg>
         </button>
         <audio id="pAudio" src="${src}" preload="metadata"></audio>
-      </div>
-      <a class="player-download" href="${src}" download aria-label="${t("download_audio_aria")}">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M12 3v12M7 10l5 5 5-5M5 21h14"/>
-        </svg>
-      </a>
-    </div>`;
+      </div>`;
 
   const a = Q("#pAudio"), fill = Q("#pFill"), time = Q("#pTime"), total = Q("#pTotal");
   const fmt = s => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, "0")}`;

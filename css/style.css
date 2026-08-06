@@ -658,12 +658,11 @@ a { color: var(--pine); }
 .text-h2-icon svg { width: 16px; height: 16px; stroke: var(--pine); }
 
 /* audio prehrávač */
-.player-row { display: flex; align-items: center; gap: 14px; margin: 22px 0; }
 .player {
-  display: flex; align-items: center; gap: 14px; flex: 1;
+  display: flex; align-items: center; gap: 14px;
   background: var(--pine-deep); color: #fff;
   border-radius: 999px; padding: 10px 20px 10px 10px;
-  box-shadow: var(--shadow);
+  margin: 22px 0; box-shadow: var(--shadow);
 }
 .player button {
   flex: 0 0 auto; width: 46px; height: 46px; border-radius: 50%;
@@ -685,13 +684,6 @@ a { color: var(--pine); }
   border: none; box-shadow: none;
 }
 .player .volume-btn svg { width: 18px; height: 18px; }
-.player-download {
-  flex: 0 0 auto; width: 46px; height: 46px; border-radius: 50%;
-  background: var(--card); border: 1px solid var(--line); color: var(--pine);
-  display: flex; align-items: center; justify-content: center;
-}
-.player-download svg { width: 18px; height: 18px; }
-.player-download:hover { border-color: var(--pine); }
 
 /* fotogaléria */
 .gallery-title {
