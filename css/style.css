@@ -1064,6 +1064,7 @@ a { color: var(--pine); }
 
 /* ------------------------------------------- LEAFLET MAPA --- */
 .mapa-section { padding: 0 0 48px; scroll-margin-top: 84px; }
+@media (max-width: 780px) { .mapa-section { padding: 0 0 30px; } }
 .mapa-section .map-panel {
   position: relative;
   overflow: hidden;
