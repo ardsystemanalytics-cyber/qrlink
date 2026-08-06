@@ -240,6 +240,7 @@ a { color: var(--pine); }
   padding: 16px 28px;
   max-width: 720px; margin: -34px auto 6px; position: relative;
 }
+@media (max-width: 780px) { .map-stats { display: none; } }
 .stat { display: flex; align-items: center; gap: 12px; }
 .stat .s-icon {
   width: 42px; height: 42px; border-radius: 50%;
