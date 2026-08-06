@@ -58,6 +58,9 @@ a { color: var(--pine); }
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--line);
 }
+/* backdrop-filter vytvára containing block pre position:fixed potomkov (mobilné menu .nav) –
+   kým je menu otvorené, vypneme ho, aby sa .nav vedelo roztiahnuť na celú obrazovku */
+.site-header.menu-open { backdrop-filter: none; }
 .site-header .wrap {
   display: flex; align-items: center; gap: 24px;
   min-height: 68px;
@@ -122,15 +125,70 @@ a { color: var(--pine); }
 .lang-switch .lang-btn.active .lang-name { border-color: var(--pine); }
 
 @media (max-width: 780px) {
-  .nav-toggle { display: block; }
+  .nav-toggle {
+    display: flex; align-items: center; justify-content: center;
+    width: 44px; height: 44px; padding: 0; font-size: 0; position: relative;
+    border-radius: 12px;
+  }
+  .nav-toggle::before {
+    content: ""; width: 30px; height: 30px; border-radius: 50%;
+    background: var(--pine-deep); flex-shrink: 0;
+  }
+  .nav-toggle::after {
+    content: ""; position: absolute; left: 50%; top: 50%;
+    width: 14px; height: 2px; background: #fff; border-radius: 1px;
+    box-shadow: 0 -4px 0 #fff, 0 4px 0 #fff;
+    transform: translate(-50%, -50%);
+  }
+  .nav-toggle.open::before {
+    content: "\2715"; width: auto; height: auto; border-radius: 0;
+    background: none; font-size: 19px; font-family: var(--f-body); color: var(--ink);
+  }
+  .nav-toggle.open::after { content: none; box-shadow: none; }
+
   .nav {
-    display: none; position: absolute; top: 68px; left: 0; right: 0;
-    background: var(--paper); border-bottom: 1px solid var(--line);
-    flex-direction: column; padding: 10px 20px 16px;
+    display: none; position: fixed; top: 69px; left: 0; right: 0;
+    max-height: calc(100vh - 69px - 64px);
+    background: #fff; overflow-y: auto; z-index: 60;
+    flex-direction: column; align-items: stretch; padding: 4px 20px 24px;
+    border-radius: 0 0 22px 22px; box-shadow: 0 20px 40px rgba(36,56,43,.18);
   }
   .nav.open { display: flex; }
-  .nav a { padding: 12px 14px; }
-  .lang-switch { margin: 10px 14px 0; }
+  .nav a {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 20px 2px; font-family: var(--f-body); font-weight: 700; font-size: 18px;
+    color: var(--ink); background: none; border-radius: 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .nav a.active { background: none; color: var(--ink); }
+  .nav a::after {
+    content: ""; flex: 0 0 auto; width: 9px; height: 9px;
+    border-right: 2px solid var(--ink-soft); border-top: 2px solid var(--ink-soft);
+    transform: rotate(45deg); opacity: .55;
+  }
+
+  /* jazykový prepínač na mobile – plnošírkový pruh s glóbusom, karta pod ním */
+  .lang-switch { position: relative; display: flex; flex-direction: column; align-items: stretch; width: 100%; margin: 18px 0 0; }
+  .lang-current {
+    width: 100%; display: grid; grid-template-columns: 22px 1fr 16px;
+    align-items: center; gap: 12px;
+    padding: 16px 18px; border-radius: 14px; font-size: 16px;
+    background: var(--paper); border: 1px solid var(--line);
+  }
+  .lang-current::before { content: "\1F310"; font-size: 16px; line-height: 1; }
+  .lang-current svg { justify-self: end; }
+  .lang-menu {
+    position: static; width: 100%; min-width: 0; margin-top: 8px;
+    border-radius: 14px; padding: 6px;
+  }
+  .lang-switch .lang-btn { padding: 14px 12px; }
+  .lang-name { border-bottom-color: transparent !important; }
+  .lang-switch .lang-btn.active::after {
+    content: ""; margin-left: auto; flex: 0 0 auto;
+    width: 7px; height: 12px;
+    border-right: 2px solid var(--pine); border-bottom: 2px solid var(--pine);
+    transform: rotate(45deg);
+  }
 }
 
 /* --------------------------------------------------------- HERO --- */
@@ -191,7 +249,7 @@ a { color: var(--pine); }
   .mapa-section .map-panel { margin-top: 24px; } /* na mobile bez prekrytia */
 }
 @media (max-width: 480px) {
-  .hero-photo { height: 210px; }
+  .hero-photo { height: 250px; }
 }
 
 .features { display: flex; flex-wrap: wrap; gap: 14px 34px; }

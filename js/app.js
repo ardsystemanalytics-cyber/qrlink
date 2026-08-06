@@ -87,7 +87,22 @@ const normalize = (s) => (s || "")
 /* ---------------------------------------------------- hlavička ---- */
 function initNav() {
   const t = Q(".nav-toggle");
-  if (t) t.addEventListener("click", () => Q(".nav").classList.toggle("open"));
+  const nav = Q(".nav");
+  const closeNav = () => {
+    nav.classList.remove("open");
+    t.classList.remove("open");
+    /* .site-header má backdrop-filter, ktorý by inak "uväznil" position:fixed .nav vo vnútri
+       hlavičky namiesto celej obrazovky – kým je menu otvorené, dočasne ho vypneme */
+    Q(".site-header").classList.remove("menu-open");
+  };
+  if (t) t.addEventListener("click", () => {
+    const open = nav.classList.toggle("open");
+    t.classList.toggle("open", open);
+    Q(".site-header").classList.toggle("menu-open", open);
+  });
+  /* klik na odkaz v mobilnom menu ho zavrie – inak zostane cezeň prekryté aj to, kam sa
+     stránka práve preskrolovala (napr. #mapa/#miesta na tej istej stránke) */
+  if (nav) QA("a", nav).forEach(a => a.addEventListener("click", closeNav));
 }
 
 /* ------------------------------------------------- mapa (index) --- */
