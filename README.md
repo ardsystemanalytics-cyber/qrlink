@@ -95,8 +95,18 @@ vo funkcii `renderCounter`.
 HOTOVÉ: dizajn, mapa SR s bodmi, filtre podľa kategórií, breadcrumbs,
 karty miest, trasa zastavení s poradím, detail zastavenia (audio prehrávač
 so skokmi ±10 s, text, fotogaléria s lightboxom, GPS mapa, tlačidlo
-Všetky zastavenia), kontakt, mobilná verzia.
+Všetky zastavenia), kontakt, mobilná verzia, viacjazyčnosť rozhrania
+(SK/EN/CS/HU, prepínač v hlavičke) – obsah zatiaľ preložený len pre
+Euroregión Beskydy / Oravský hrad, ostatné miesta majú zatiaľ len slovenský text.
 
 ČAKÁ NA OBSAH: texty/audio/fotky ostatných zastavení z pôvodného webu
-(v data.js označené [DOPLNIŤ]), cover fotky miest, viacjazyčnosť (SK/EN/DE/…),
-serverové počítadlo návštev, presmerovania starých QR adries.
+(v data.js označené [DOPLNIŤ]), cover fotky miest, preklady ostatných
+miest do EN/CS/HU, serverové počítadlo návštev, presmerovania starých
+QR adries.
+
+## Poznámka k vývoju (testovanie)
+
+Pri overovaní zmien počas vývoja (napr. kontrola syntaxe CSS/JS cez
+`node -e "..."`, alebo vizuálne testovanie v prehliadači) netreba žiadne
+schvaľovanie – je to len lokálne testovanie, nič sa tým nenasadzuje.
+Jediný krok, pred ktorým sa vždy pýtam, je `git push`.
