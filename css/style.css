@@ -1177,7 +1177,7 @@ a { color: var(--pine); }
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 0 40px;
-  padding: 36px 0 32px;
+  padding-top: 36px; padding-bottom: 32px;
   border-bottom: 1px solid var(--line);
   align-items: start;
 }
@@ -1200,7 +1200,7 @@ a { color: var(--pine); }
 .footer-bottom {
   display: flex; flex-wrap: wrap; gap: 10px 24px;
   align-items: center; justify-content: space-between;
-  padding: 20px 0; font-size: 13px; color: var(--ink-soft);
+  padding-top: 20px; padding-bottom: 20px; font-size: 13px; color: var(--ink-soft);
 }
 @media (max-width: 600px) {
   .footer-bottom { justify-content: center; text-align: center; }
