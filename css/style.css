@@ -432,6 +432,9 @@ a { color: var(--pine); }
   display: flex; gap: 40px; flex-wrap: wrap;
   padding: 22px 0 10px; align-items: flex-start;
 }
+/* na mobile sa celý úvod (nadpis, popis, kategórie, štatistiky, fotka) skryje –
+   hneď pod breadcrumbs je "Objavte miesta"/"Zastavenia" a mriežka/karty */
+@media (max-width: 780px) { .cat-hero { display: none; } }
 .cat-hero-text { flex: 1 1 420px; min-width: 280px; }
 .cat-hero h1 {
   font-family: var(--f-display); font-weight: 800;
