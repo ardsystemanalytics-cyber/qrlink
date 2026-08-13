@@ -5,7 +5,7 @@ backend:
   # Vlastný prihlasovací mostík (GitHub OAuth cez malé serverless funkcie
   # v priečinku /api – potrebné, lebo hostujeme na Verceli, nie na Netlify).
   # Ak sa produkčná doména zmení, uprav aj túto hodnotu.
-  base_url: https://qrlink.vercel.app
+  base_url: https://qrlink-six.vercel.app
   auth_endpoint: api/auth
 
 # Po uložení v CMS commitne priamo do vetvy "main" -> Vercel to hneď nasadí.
