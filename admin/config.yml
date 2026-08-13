@@ -25,6 +25,8 @@ collections:
     description: "Hlavné kategórie miest (Mestá, Pamiatky, Náučné chodníky…). Zobrazujú sa na hlavnej stránke."
     folder: "content/kategorie"
     create: true
+    extension: "json"
+    format: "json"
     slug: "{{id}}"
     identifier_field: nazov
     fields:
@@ -63,6 +65,8 @@ collections:
     description: "Mestá, pamiatky, náučné chodníky a ich podkategórie/trasy. Hlavné miesto má vyplnenú 'Hlavnú kategóriu' a súradnice; podkategória/trasa má namiesto toho vyplnené 'Nadradené miesto'."
     folder: "content/miesta"
     create: true
+    extension: "json"
+    format: "json"
     slug: "{{id}}"
     identifier_field: nazov
     fields:
@@ -190,6 +194,8 @@ collections:
     description: "Jednotlivé zastávky s QR kódom v rámci miesta/trasy (napr. izby na hrade, jednotlivé body na náučnom chodníku)."
     folder: "content/zastavenia"
     create: true
+    extension: "json"
+    format: "json"
     slug: "{{id}}"
     identifier_field: nazov
     fields:
@@ -279,6 +285,7 @@ collections:
       - name: "kontakt"
         label: "Kontaktné údaje"
         file: "content/kontakt.json"
+        format: "json"
         fields:
           - { label: "Firma", name: "firma", widget: "string" }
           - label: "Adresa"
