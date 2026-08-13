@@ -1,0 +1,120 @@
+/* =====================================================================
+   Vizuálny "skin" pre Decap CMS (/admin), aby farebne a typograficky
+   ladil so zvyškom webu QR LINK (rovnaké farby/fonty ako css/style.css).
+
+   Pozor pri budúcich úpravách: Decap CMS negeneruje stabilné CSS triedy
+   (sú to hashované CSS-in-JS triedy), takže časť selektorov nižšie cieli
+   na čiastočné zhody v názve triedy (napr. [class*="LoginButton"]).
+   Ak Decap v budúcnosti zmení vnútorné komponenty, tieto pravidlá sa
+   jednoducho prestanú aplikovať – nič sa tým nepokazí, len rozhranie
+   bude vyzerať ako pôvodný (neofarbený) Decap. Preto je tu všade
+   !important – aby sme prebili Decapove vlastné (rovnako "vysoko
+   špecifické") CSS-in-JS štýly.
+   ===================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --qr-paper: #F4EFE4;
+  --qr-paper-deep: #EDE9DB;
+  --qr-ink: #24382B;
+  --qr-ink-soft: #5C6B5E;
+  --qr-pine: #396033;
+  --qr-pine-deep: #1E3D2C;
+  --qr-berry: #C34A3A;
+  --qr-line: #E4DFCE;
+  --qr-card: #FFFFFF;
+}
+
+html, body, #nc-root {
+  background: var(--qr-paper) !important;
+}
+
+#nc-root, #nc-root input, #nc-root textarea, #nc-root button, #nc-root select {
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif !important;
+}
+
+#nc-root h1, #nc-root h2, #nc-root h3 {
+  font-family: "Fraunces", Georgia, serif !important;
+  color: var(--qr-ink) !important;
+}
+
+/* Prihlasovacia obrazovka -------------------------------------------- */
+[class*="StyledAuthenticationPage"] {
+  background:
+    radial-gradient(1200px 600px at 15% -10%, rgba(57,96,51,.08), transparent),
+    var(--qr-paper) !important;
+}
+
+[class*="LoginButton"] {
+  background: var(--qr-pine) !important;
+  border: none !important;
+  color: #fff !important;
+  border-radius: 999px !important;
+  padding: 14px 28px !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  box-shadow: 0 10px 24px rgba(57, 96, 51, .28) !important;
+  transition: background .15s ease, transform .15s ease !important;
+}
+[class*="LoginButton"]:hover {
+  background: var(--qr-pine-deep) !important;
+  transform: translateY(-1px);
+}
+[class*="LoginButton"] svg { fill: #fff !important; }
+
+/* Horný panel a bočný panel ------------------------------------------ */
+[class*="TopBarContainer"],
+[class*="ToolbarContainer"],
+[class*="AppHeader"] {
+  background: var(--qr-card) !important;
+  border-bottom: 1px solid var(--qr-line) !important;
+}
+
+[class*="Sidebar"] {
+  background: var(--qr-paper) !important;
+  border-right: 1px solid var(--qr-line) !important;
+}
+
+[class*="SidebarNavLink"][aria-current="page"],
+[class*="SidebarNavLink"][class*="active"] {
+  background: var(--qr-pine) !important;
+  color: #fff !important;
+  border-radius: 10px !important;
+}
+
+/* Karty kolekcií / záznamov ------------------------------------------ */
+[class*="CardTop"],
+[class*="Card-"],
+[class*="StyledCard"] {
+  border-radius: 14px !important;
+  border: 1px solid var(--qr-line) !important;
+  box-shadow: 0 2px 10px rgba(36, 56, 43, .05) !important;
+}
+
+/* Primárne / akčné tlačidlá (napr. "+ Kategória", "Publish", "Save") */
+[class*="-button-primary"],
+[class*="PublishButton"],
+button[class*="primary"] {
+  background: var(--qr-pine) !important;
+  border-color: var(--qr-pine) !important;
+  border-radius: 999px !important;
+  font-weight: 600 !important;
+}
+[class*="-button-primary"]:hover,
+[class*="PublishButton"]:hover {
+  background: var(--qr-pine-deep) !important;
+}
+
+/* Bežné tlačidlá */
+#nc-root button {
+  border-radius: 10px;
+}
+
+/* Odkazy */
+#nc-root a { color: var(--qr-pine); }
+
+/* Posuvník */
+#nc-root * {
+  scrollbar-color: var(--qr-pine) var(--qr-paper-deep);
+}
