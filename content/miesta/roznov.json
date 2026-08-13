@@ -1,0 +1,16 @@
+{
+  "poradie": 20,
+  "id": "roznov",
+  "nazov": "Rožnov pod Radhoštěm",
+  "primarna": "mesta",
+  "kategorie": [
+    "mesta",
+    "pohranicie"
+  ],
+  "lon": 18.143,
+  "lat": 49.458,
+  "mapX": 228,
+  "mapY": 41,
+  "cover": "",
+  "popis": "Valašské mesto známe skanzenom."
+}

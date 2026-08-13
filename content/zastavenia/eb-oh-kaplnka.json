@@ -1,0 +1,30 @@
+{
+  "id": "eb-oh-kaplnka",
+  "miesto": "eb-oravsky-hrad",
+  "poradie": 2,
+  "nazov": "Kaplnka",
+  "popis": "Renesančná kaplnka sv. Michala s unikátnou výzdobou.",
+  "cover": "assets/images/places/oravsky-hrad-kaplnka.jpg",
+  "audio": [],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "<p>Malá renesančná kaplnka zasvätená sv. Michalovi slúžila hradnej posádke aj panstvu\n      na súkromné bohoslužby. Zachovala sa v nej pôvodná výmaľba zo 17. storočia.</p>",
+  "i18n": {
+    "en": {
+      "nazov": "The Chapel",
+      "popis": "A Renaissance chapel of St. Michael with unique decoration.",
+      "text": "<p>The small Renaissance chapel dedicated to St. Michael served the castle garrison and the nobility for private worship. It still preserves its original 17th-century wall paintings.</p>"
+    },
+    "cs": {
+      "nazov": "Kaple",
+      "popis": "Renesanční kaple sv. Michala s unikátní výzdobou.",
+      "text": "<p>Malá renesanční kaple zasvěcená sv. Michalovi sloužila hradní posádce i panstvu k soukromým bohoslužbám. Zachovala se v ní původní malba ze 17. století.</p>"
+    },
+    "hu": {
+      "nazov": "A kápolna",
+      "popis": "Szent Mihály-kápolna, reneszánsz stílusban, egyedülálló díszítéssel.",
+      "text": "<p>A Szent Mihálynak szentelt kis reneszánsz kápolna a vár őrségének és az uraságnak szolgált magánájtatosságra. Benne máig megmaradt a 17. századi eredeti falfestés.</p>"
+    }
+  }
+}

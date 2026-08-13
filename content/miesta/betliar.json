@@ -1,0 +1,16 @@
+{
+  "poradie": 6,
+  "id": "betliar",
+  "nazov": "Betliar",
+  "primarna": "mesta",
+  "kategorie": [
+    "mesta",
+    "pamiatky"
+  ],
+  "lon": 20.474,
+  "lat": 48.695,
+  "mapX": 641,
+  "mapY": 252,
+  "cover": "",
+  "popis": "Obec známa kaštieľom rodu Andrássyovcov."
+}

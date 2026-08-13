@@ -1,0 +1,15 @@
+{
+  "poradie": 19,
+  "id": "presov",
+  "nazov": "Prešov",
+  "primarna": "mesta",
+  "kategorie": [
+    "mesta"
+  ],
+  "lon": 21.239,
+  "lat": 48.999,
+  "mapX": 768,
+  "mapY": 169,
+  "cover": "",
+  "popis": "Metropola Šariša s historickým centrom."
+}

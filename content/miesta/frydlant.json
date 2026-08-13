@@ -1,0 +1,16 @@
+{
+  "poradie": 15,
+  "id": "frydlant",
+  "nazov": "Frýdlant",
+  "primarna": "mesta",
+  "kategorie": [
+    "mesta",
+    "pohranicie"
+  ],
+  "lon": 15.082,
+  "lat": 50.921,
+  "mapX": 266,
+  "mapY": 6,
+  "cover": "",
+  "popis": "Mesto na česko-slovenskom pohraničí."
+}

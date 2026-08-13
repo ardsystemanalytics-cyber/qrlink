@@ -1,0 +1,16 @@
+{
+  "poradie": 18,
+  "id": "porabka",
+  "nazov": "Porąbka",
+  "primarna": "mesta",
+  "kategorie": [
+    "mesta",
+    "pohranicie"
+  ],
+  "lon": 19.07,
+  "lat": 49.742,
+  "mapX": 413,
+  "mapY": 8,
+  "cover": "",
+  "popis": "Poľská obec v Beskydách."
+}

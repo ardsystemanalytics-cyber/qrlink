@@ -1,0 +1,15 @@
+{
+  "poradie": 22,
+  "id": "sokolovce",
+  "nazov": "Sokolovce",
+  "primarna": "mesta",
+  "kategorie": [
+    "mesta"
+  ],
+  "lon": 17.77,
+  "lat": 48.597,
+  "mapX": 179,
+  "mapY": 299,
+  "cover": "",
+  "popis": "Obec pri Piešťanoch."
+}

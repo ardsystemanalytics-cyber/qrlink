@@ -1,0 +1,16 @@
+{
+  "poradie": 28,
+  "id": "cestovatelsky-dennik",
+  "nazov": "Cestovateľský denník – Klenoty v česko-slovenskom pohraničí",
+  "primarna": "pamiatky",
+  "kategorie": [
+    "pamiatky",
+    "pohranicie"
+  ],
+  "lon": 18.21,
+  "lat": 49.27,
+  "mapX": 240,
+  "mapY": 95,
+  "cover": "",
+  "popis": "Putovanie po klenotoch pohraničia."
+}

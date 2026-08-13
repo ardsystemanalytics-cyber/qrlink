@@ -1,0 +1,15 @@
+{
+  "poradie": 30,
+  "id": "nch-hlinene",
+  "nazov": "Náučný chodník Hlinené",
+  "primarna": "chodniky",
+  "kategorie": [
+    "chodniky"
+  ],
+  "lon": 18.58,
+  "lat": 49.383,
+  "mapX": 305,
+  "mapY": 65,
+  "cover": "",
+  "popis": "Náučný chodník v okolí Turzovky."
+}

@@ -1,0 +1,17 @@
+{
+  "poradie": 2,
+  "id": "chodniky",
+  "nazov": "Náučné chodníky",
+  "farba": "#D9A441",
+  "i18n": {
+    "en": {
+      "nazov": "Nature trails"
+    },
+    "cs": {
+      "nazov": "Naučné stezky"
+    },
+    "hu": {
+      "nazov": "Tanösvények"
+    }
+  }
+}

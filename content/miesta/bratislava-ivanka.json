@@ -1,0 +1,15 @@
+{
+  "poradie": 1,
+  "id": "bratislava-ivanka",
+  "nazov": "Ivanka pri Dunaji",
+  "primarna": "mesta",
+  "kategorie": [
+    "mesta"
+  ],
+  "lon": 17.252,
+  "lat": 48.175,
+  "mapX": 73,
+  "mapY": 393,
+  "cover": "",
+  "popis": "Obec pri Bratislave s bohatou históriou."
+}

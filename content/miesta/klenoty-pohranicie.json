@@ -1,0 +1,16 @@
+{
+  "poradie": 27,
+  "id": "klenoty-pohranicie",
+  "nazov": "Klenoty v česko-slovenskom pohraničí",
+  "primarna": "pamiatky",
+  "kategorie": [
+    "pamiatky",
+    "pohranicie"
+  ],
+  "lon": 18.27,
+  "lat": 49.36,
+  "mapX": 250,
+  "mapY": 70,
+  "cover": "",
+  "popis": "Kultúrne a prírodné klenoty pohraničia."
+}

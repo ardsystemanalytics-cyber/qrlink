@@ -1,0 +1,41 @@
+{
+  "poradie": 8,
+  "id": "eb-oravsky-hrad",
+  "rodic": "euroregion-beskydy",
+  "nazov": "Oravský hrad",
+  "foto": "assets/images/places/oravsky-hrad-hero.jpg",
+  "popis": "Majestátny hrad týčiaci sa na brale nad riekou Orava patrí k najkrajším hradom Slovenska.",
+  "heroOverlay": {
+    "icon": "hrad",
+    "text": "Zaujímavosť",
+    "popis": "Hrad stoji na brale vysokom 112 m nad riekou Orava.",
+    "i18n": {
+      "en": {
+        "text": "Did you know?",
+        "popis": "The castle stands on a cliff 112 m above the Orava river."
+      },
+      "cs": {
+        "text": "Zajímavost",
+        "popis": "Hrad stojí na skále vysoké 112 m nad řekou Orava."
+      },
+      "hu": {
+        "text": "Érdekesség",
+        "popis": "A vár egy 112 méter magas sziklán áll az Orava folyó felett."
+      }
+    }
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Orava Castle",
+      "popis": "A majestic castle towering on a cliff above the Orava river ranks among the most beautiful castles in Slovakia."
+    },
+    "cs": {
+      "nazov": "Oravský hrad",
+      "popis": "Majestátní hrad tyčící se na skále nad řekou Orava patří k nejkrásnějším hradům Slovenska."
+    },
+    "hu": {
+      "nazov": "Árva vára",
+      "popis": "Az Orava folyó fölötti sziklán magasodó fenséges vár Szlovákia egyik legszebb vára."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "poradie": 21,
+  "id": "ruzomberok",
+  "nazov": "Ružomberok",
+  "primarna": "mesta",
+  "kategorie": [
+    "mesta"
+  ],
+  "lon": 19.308,
+  "lat": 49.083,
+  "mapX": 430,
+  "mapY": 147,
+  "cover": "",
+  "popis": "Mesto na Liptove pod Veľkou Fatrou."
+}

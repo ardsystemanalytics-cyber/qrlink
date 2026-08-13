@@ -1,0 +1,17 @@
+{
+  "poradie": 1,
+  "id": "pamiatky",
+  "nazov": "Pamiatky",
+  "farba": "#C34A3A",
+  "i18n": {
+    "en": {
+      "nazov": "Monuments"
+    },
+    "cs": {
+      "nazov": "Památky"
+    },
+    "hu": {
+      "nazov": "Műemlékek"
+    }
+  }
+}

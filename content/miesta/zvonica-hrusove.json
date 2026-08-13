@@ -1,0 +1,15 @@
+{
+  "poradie": 33,
+  "id": "zvonica-hrusove",
+  "nazov": "Zvonica Hrušové",
+  "primarna": "pamiatky",
+  "kategorie": [
+    "pamiatky"
+  ],
+  "lon": 17.95,
+  "lat": 48.75,
+  "mapX": 165,
+  "mapY": 227,
+  "cover": "",
+  "popis": "Historická zvonica."
+}

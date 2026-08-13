@@ -1,0 +1,30 @@
+{
+  "id": "eb-oh-vyhliadka",
+  "miesto": "eb-oravsky-hrad",
+  "poradie": 4,
+  "nazov": "Vyhliadka",
+  "popis": "Nádherný panoramatický výhľad na rieku Oravu a okolitú krajinu.",
+  "cover": "assets/images/places/oravsky-hrad-vyhliadka.jpg",
+  "audio": [],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "<p>Z najvyššieho nádvoria sa otvára jeden z najkrajších pohľadov na rieku Oravu a okolité\n      hrebene – odmena za výstup po hradných schodoch.</p>",
+  "i18n": {
+    "en": {
+      "nazov": "The Lookout",
+      "popis": "A magnificent panoramic view of the Orava river and surrounding countryside.",
+      "text": "<p>From the highest courtyard opens one of the most beautiful views of the Orava river and the surrounding ridges – a reward for climbing the castle stairs.</p>"
+    },
+    "cs": {
+      "nazov": "Vyhlídka",
+      "popis": "Nádherný panoramatický výhled na řeku Oravu a okolní krajinu.",
+      "text": "<p>Z nejvyššího nádvoří se otevírá jeden z nejkrásnějších pohledů na řeku Oravu a okolní hřebeny – odměna za výstup po hradních schodech.</p>"
+    },
+    "hu": {
+      "nazov": "A kilátó",
+      "popis": "Csodálatos panoráma az Orava folyóra és a környező tájra.",
+      "text": "<p>A legfelső várudvarról nyílik az egyik legszebb kilátás az Orava folyóra és a környező hegygerincekre – ez a jutalom a vár lépcsőinek megmászásáért.</p>"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "poradie": 3,
+  "id": "enviro",
+  "nazov": "Environmentálna výchova a vzdelávanie",
+  "farba": "#41a579",
+  "i18n": {
+    "en": {
+      "nazov": "Environmental education"
+    },
+    "cs": {
+      "nazov": "Environmentální výchova a vzdělávání"
+    },
+    "hu": {
+      "nazov": "Környezeti nevelés és oktatás"
+    }
+  }
+}

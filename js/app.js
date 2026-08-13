@@ -10,6 +10,28 @@ const katById = (id) => DB.kategorie.find(k => k.id === id);
 const miestoById = (id) => DB.miesta.find(m => m.id === id);
 const DEFAULT_PHOTO = "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80";
 
+/* SEO – voliteľné polia "seo.title/description/image" (editovateľné cez CMS);
+   kým nie sú vyplnené, spadnú späť na bežný názov/popis/fotku daného záznamu.
+   Poznámka: takto nastavené meta tagy vidí prehliadač aj Google (renderuje JS),
+   ale NIE sociálne siete pri zdieľaní (tie JS nespúšťajú) – na to bude
+   časom treba samostatné pred-generovanie stránok. */
+function seoTitle(obj) { return (obj.seo && obj.seo.title) || tc(obj, "nazov"); }
+function seoDescription(obj) { return (obj.seo && obj.seo.description) || tc(obj, "popis") || ""; }
+function seoImage(obj) { return (obj.seo && obj.seo.image) || obj.cover || obj.foto || DEFAULT_PHOTO; }
+
+function updateSEO({ title, description, image }) {
+  document.title = title;
+  const setMeta = (selector, attr, value) => {
+    const el = Q(selector);
+    if (el) el.setAttribute(attr, value || "");
+  };
+  setMeta('meta[name="description"]', "content", description);
+  setMeta('meta[property="og:title"]', "content", title);
+  setMeta('meta[property="og:description"]', "content", description);
+  if (image) setMeta('meta[property="og:image"]', "content", image);
+  setMeta('meta[property="og:url"]', "content", location.href);
+}
+
 /* ------------------------------------------- strom kategórií ------ */
 /* projekt = miesto bez "rodic" (top-level); podkategória = miesto s "rodic" */
 const jeKoren = (m) => !m.rodic;
@@ -438,7 +460,7 @@ function renderKategoria() {
   const m = miestoById(param("id"));
   if (!m) { titleEl.textContent = t("not_found_place"); return; }
 
-  document.title = `${tc(m, "nazov")} – QR LINK`;
+  updateSEO({ title: `${seoTitle(m)} – QR LINK`, description: seoDescription(m), image: seoImage(m) });
   titleEl.textContent = tc(m, "nazov");
   const descEl = Q("#catDesc");
   if (descEl) descEl.textContent = tc(m, "popis") || "";
@@ -632,7 +654,7 @@ function renderZastavenie() {
   if (!z) { root.innerHTML = `<p>${t("detail_not_found")}</p>`; return; }
 
   const m = miestoById(z.miesto);
-  document.title = `${tc(z, "nazov")} – QR LINK`;
+  updateSEO({ title: `${seoTitle(z)} – QR LINK`, description: seoDescription(z), image: seoImage(z) });
 
   const chain = m ? retazPredkov(m) : [];
   const koren = m ? rootProjekt(m) : null;

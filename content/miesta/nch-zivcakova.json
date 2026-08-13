@@ -1,0 +1,15 @@
+{
+  "poradie": 31,
+  "id": "nch-zivcakova",
+  "nazov": "Náučný chodník Živčákova",
+  "primarna": "chodniky",
+  "kategorie": [
+    "chodniky"
+  ],
+  "lon": 18.553,
+  "lat": 49.432,
+  "mapX": 300,
+  "mapY": 50,
+  "cover": "",
+  "popis": "Chodník k pútnickému miestu Živčákova."
+}

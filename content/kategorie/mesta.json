@@ -1,0 +1,17 @@
+{
+  "poradie": 0,
+  "id": "mesta",
+  "nazov": "Mestá",
+  "farba": "#4E7FAE",
+  "i18n": {
+    "en": {
+      "nazov": "Towns"
+    },
+    "cs": {
+      "nazov": "Města"
+    },
+    "hu": {
+      "nazov": "Városok"
+    }
+  }
+}

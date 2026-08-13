@@ -1,0 +1,15 @@
+{
+  "poradie": 16,
+  "id": "kraj-rusinov",
+  "nazov": "Kraj Rusínov a Andyho Warhola",
+  "primarna": "mesta",
+  "kategorie": [
+    "mesta"
+  ],
+  "lon": 21.901,
+  "lat": 49.271,
+  "mapX": 883,
+  "mapY": 94,
+  "cover": "",
+  "popis": "Región Medzilaboriec spätý s rusínskou kultúrou a rodinou Andyho Warhola."
+}

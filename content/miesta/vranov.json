@@ -1,0 +1,15 @@
+{
+  "poradie": 25,
+  "id": "vranov",
+  "nazov": "Vranov nad Topľou",
+  "primarna": "mesta",
+  "kategorie": [
+    "mesta"
+  ],
+  "lon": 21.676,
+  "lat": 48.882,
+  "mapX": 845,
+  "mapY": 199,
+  "cover": "",
+  "popis": "Mesto na východnom Slovensku."
+}

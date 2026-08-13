@@ -1,0 +1,17 @@
+{
+  "poradie": 4,
+  "id": "pohranicie",
+  "nazov": "Česko-slovenské pohraničie",
+  "farba": "#7A5C8C",
+  "i18n": {
+    "en": {
+      "nazov": "Czech-Slovak borderland"
+    },
+    "cs": {
+      "nazov": "Česko-slovenské pohraničí"
+    },
+    "hu": {
+      "nazov": "Cseh-szlovák határvidék"
+    }
+  }
+}

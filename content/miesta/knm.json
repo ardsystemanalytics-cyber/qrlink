@@ -1,0 +1,15 @@
+{
+  "poradie": 17,
+  "id": "knm",
+  "nazov": "Kysucké Nové Mesto",
+  "primarna": "mesta",
+  "kategorie": [
+    "mesta"
+  ],
+  "lon": 18.777,
+  "lat": 49.3,
+  "mapX": 341,
+  "mapY": 86,
+  "cover": "",
+  "popis": "Mesto na Kysuciach."
+}

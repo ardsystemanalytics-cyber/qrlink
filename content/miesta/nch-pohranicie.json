@@ -1,0 +1,16 @@
+{
+  "poradie": 29,
+  "id": "nch-pohranicie",
+  "nazov": "Náučné chodníky v česko-slovenskom pohraničí",
+  "primarna": "chodniky",
+  "kategorie": [
+    "chodniky",
+    "pohranicie"
+  ],
+  "lon": 18.49,
+  "lat": 49.45,
+  "mapX": 290,
+  "mapY": 45,
+  "cover": "",
+  "popis": "Sieť náučných chodníkov v pohraničí."
+}

@@ -1,0 +1,299 @@
+backend:
+  name: github
+  repo: ardsystemanalytics-cyber/qrlink
+  branch: main
+  # Vlastný prihlasovací mostík (GitHub OAuth cez malé serverless funkcie
+  # v priečinku /api – potrebné, lebo hostujeme na Verceli, nie na Netlify).
+  # Ak sa produkčná doména zmení, uprav aj túto hodnotu.
+  base_url: https://qrlink.vercel.app
+  auth_endpoint: api/auth
+
+# Po uložení v CMS commitne priamo do vetvy "main" -> Vercel to hneď nasadí.
+# (Redakčný "editorial workflow" so schvaľovaním sme vedome vypli.)
+publish_mode: simple
+
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+locale: "en"
+
+collections:
+  - name: kategorie
+    label: "Kategórie"
+    label_singular: "Kategória"
+    description: "Hlavné kategórie miest (Mestá, Pamiatky, Náučné chodníky…). Zobrazujú sa na hlavnej stránke."
+    folder: "content/kategorie"
+    create: true
+    slug: "{{id}}"
+    identifier_field: nazov
+    fields:
+      - { label: "ID (nemeniť po vytvorení)", name: "id", widget: "string", hint: "Krátky identifikátor bez diakritiky a medzier, napr. 'mesta'. Musí byť rovnaký ako názov súboru." }
+      - { label: "Poradie zobrazenia", name: "poradie", widget: "number", value_type: "int", hint: "Nižšie číslo = zobrazí sa skôr." }
+      - { label: "Názov (slovensky)", name: "nazov", widget: "string" }
+      - { label: "Farba", name: "farba", widget: "color", allow_input: true, enable_alpha: false }
+      - label: "Preklady"
+        name: "i18n"
+        widget: "object"
+        required: false
+        collapsed: true
+        fields:
+          - label: "Angličtina"
+            name: "en"
+            widget: "object"
+            required: false
+            fields:
+              - { label: "Názov", name: "nazov", widget: "string", required: false }
+          - label: "Čeština"
+            name: "cs"
+            widget: "object"
+            required: false
+            fields:
+              - { label: "Názov", name: "nazov", widget: "string", required: false }
+          - label: "Maďarčina"
+            name: "hu"
+            widget: "object"
+            required: false
+            fields:
+              - { label: "Názov", name: "nazov", widget: "string", required: false }
+
+  - name: miesta
+    label: "Miesta"
+    label_singular: "Miesto"
+    description: "Mestá, pamiatky, náučné chodníky a ich podkategórie/trasy. Hlavné miesto má vyplnenú 'Hlavnú kategóriu' a súradnice; podkategória/trasa má namiesto toho vyplnené 'Nadradené miesto'."
+    folder: "content/miesta"
+    create: true
+    slug: "{{id}}"
+    identifier_field: nazov
+    fields:
+      - { label: "ID (nemeniť po vytvorení)", name: "id", widget: "string", hint: "Krátky identifikátor bez diakritiky a medzier. Musí byť rovnaký ako názov súboru." }
+      - { label: "Poradie zobrazenia", name: "poradie", widget: "number", value_type: "int", hint: "Nižšie číslo = zobrazí sa skôr na hlavnej stránke." }
+      - { label: "Názov (slovensky)", name: "nazov", widget: "string" }
+      - { label: "Popis (slovensky)", name: "popis", widget: "text", required: false }
+      - { label: "Titulná fotka (cover)", name: "cover", widget: "image", required: false }
+      - { label: "Fotka (foto)", name: "foto", widget: "image", required: false, hint: "Používa sa najmä pri podkategóriách." }
+
+      - label: "Hlavná kategória"
+        name: "primarna"
+        widget: "relation"
+        collection: "kategorie"
+        value_field: "id"
+        search_fields: ["nazov", "id"]
+        display_fields: ["nazov"]
+        required: false
+        hint: "Vyplniť LEN pre hlavné miesto (nie pre podkategóriu/trasu)."
+      - label: "Všetky kategórie"
+        name: "kategorie"
+        widget: "relation"
+        collection: "kategorie"
+        value_field: "id"
+        search_fields: ["nazov", "id"]
+        display_fields: ["nazov"]
+        multiple: true
+        required: false
+        hint: "Vyplniť LEN pre hlavné miesto – do ktorých kategórií ešte patrí (okrem hlavnej)."
+      - { label: "Zemepisná dĺžka (lon)", name: "lon", widget: "number", value_type: "float", required: false, hint: "Vyplniť LEN pre hlavné miesto – súradnica na mape." }
+      - { label: "Zemepisná šírka (lat)", name: "lat", widget: "number", value_type: "float", required: false, hint: "Vyplniť LEN pre hlavné miesto – súradnica na mape." }
+      - { label: "Pozícia X na ilustračnej mape (px)", name: "mapX", widget: "number", value_type: "int", required: false, hint: "Vyplniť LEN pre hlavné miesto." }
+      - { label: "Pozícia Y na ilustračnej mape (px)", name: "mapY", widget: "number", value_type: "int", required: false, hint: "Vyplniť LEN pre hlavné miesto." }
+
+      - label: "Nadradené miesto"
+        name: "rodic"
+        widget: "relation"
+        collection: "miesta"
+        value_field: "id"
+        search_fields: ["nazov", "id"]
+        display_fields: ["nazov", "id"]
+        required: false
+        hint: "Vyplniť LEN pre podkategóriu/trasu – ku ktorému hlavnému miestu patrí."
+
+      - label: "Zvýraznená zaujímavosť (voliteľné)"
+        name: "heroOverlay"
+        widget: "object"
+        required: false
+        collapsed: true
+        hint: "Malá 'vedeli ste že...' bublina na stránke miesta."
+        fields:
+          - { label: "Ikonka", name: "icon", widget: "select", options: ["hrad", "stromy", "ludia", "qr"], required: false }
+          - { label: "Nadpis (napr. 'Zaujímavosť')", name: "text", widget: "string", required: false }
+          - { label: "Text", name: "popis", widget: "text", required: false }
+          - label: "Preklady"
+            name: "i18n"
+            widget: "object"
+            required: false
+            collapsed: true
+            fields:
+              - label: "Angličtina"
+                name: "en"
+                widget: "object"
+                required: false
+                fields:
+                  - { label: "Nadpis", name: "text", widget: "string", required: false }
+                  - { label: "Text", name: "popis", widget: "text", required: false }
+              - label: "Čeština"
+                name: "cs"
+                widget: "object"
+                required: false
+                fields:
+                  - { label: "Nadpis", name: "text", widget: "string", required: false }
+                  - { label: "Text", name: "popis", widget: "text", required: false }
+              - label: "Maďarčina"
+                name: "hu"
+                widget: "object"
+                required: false
+                fields:
+                  - { label: "Nadpis", name: "text", widget: "string", required: false }
+                  - { label: "Text", name: "popis", widget: "text", required: false }
+
+      - label: "SEO (voliteľné)"
+        name: "seo"
+        widget: "object"
+        required: false
+        collapsed: true
+        hint: "Ak nevyplníš, použije sa automaticky názov/popis/fotka miesta."
+        fields:
+          - { label: "SEO titulok", name: "title", widget: "string", required: false }
+          - { label: "SEO popis", name: "description", widget: "text", required: false }
+          - { label: "SEO obrázok (zdieľanie na sociálnych sieťach)", name: "image", widget: "image", required: false }
+
+      - label: "Preklady obsahu"
+        name: "i18n"
+        widget: "object"
+        required: false
+        collapsed: true
+        fields:
+          - label: "Angličtina"
+            name: "en"
+            widget: "object"
+            required: false
+            fields:
+              - { label: "Názov", name: "nazov", widget: "string", required: false }
+              - { label: "Popis", name: "popis", widget: "text", required: false }
+          - label: "Čeština"
+            name: "cs"
+            widget: "object"
+            required: false
+            fields:
+              - { label: "Názov", name: "nazov", widget: "string", required: false }
+              - { label: "Popis", name: "popis", widget: "text", required: false }
+          - label: "Maďarčina"
+            name: "hu"
+            widget: "object"
+            required: false
+            fields:
+              - { label: "Názov", name: "nazov", widget: "string", required: false }
+              - { label: "Popis", name: "popis", widget: "text", required: false }
+
+  - name: zastavenia
+    label: "Zastavenia"
+    label_singular: "Zastavenie"
+    description: "Jednotlivé zastávky s QR kódom v rámci miesta/trasy (napr. izby na hrade, jednotlivé body na náučnom chodníku)."
+    folder: "content/zastavenia"
+    create: true
+    slug: "{{id}}"
+    identifier_field: nazov
+    fields:
+      - { label: "ID (nemeniť po vytvorení)", name: "id", widget: "string", hint: "Krátky identifikátor bez diakritiky a medzier. Musí byť rovnaký ako názov súboru." }
+      - label: "Miesto"
+        name: "miesto"
+        widget: "relation"
+        collection: "miesta"
+        value_field: "id"
+        search_fields: ["nazov", "id"]
+        display_fields: ["nazov", "id"]
+        hint: "Ku ktorému miestu/trase toto zastavenie patrí."
+      - { label: "Poradie v rámci miesta", name: "poradie", widget: "number", value_type: "int", hint: "Nižšie číslo = zobrazí sa skôr." }
+      - { label: "Názov (slovensky)", name: "nazov", widget: "string" }
+      - { label: "Krátky popis (slovensky)", name: "popis", widget: "text", required: false }
+      - { label: "Titulná fotka (cover)", name: "cover", widget: "image", required: false }
+      - label: "Text zastavenia (slovensky)"
+        name: "text"
+        widget: "text"
+        required: false
+        hint: "HTML formátovanie, napr. <p>...</p>, <h2>...</h2>. Ak si nie si istá/istý s HTML, napíš text do jedného <p>...</p> a ozvi sa."
+      - label: "Audio nahrávky"
+        name: "audio"
+        widget: "list"
+        required: false
+        field: { label: "Audio súbor", name: "url", widget: "file" }
+      - label: "Fotogaléria"
+        name: "galeria"
+        widget: "list"
+        required: false
+        field: { label: "Fotka", name: "url", widget: "image" }
+      - label: "GPS súradnice (voliteľné)"
+        name: "gps"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Zemepisná šírka (lat)", name: "lat", widget: "number", value_type: "float" }
+          - { label: "Zemepisná dĺžka (lng)", name: "lng", widget: "number", value_type: "float" }
+      - { label: "Vložená Google mapa (embed URL)", name: "mapEmbed", widget: "string", required: false, hint: "Adresa z Google Maps -> Zdieľať -> Vložiť mapu -> skopírovať len URL zo src=\"...\"." }
+
+      - label: "SEO (voliteľné)"
+        name: "seo"
+        widget: "object"
+        required: false
+        collapsed: true
+        hint: "Ak nevyplníš, použije sa automaticky názov/popis/fotka zastavenia."
+        fields:
+          - { label: "SEO titulok", name: "title", widget: "string", required: false }
+          - { label: "SEO popis", name: "description", widget: "text", required: false }
+          - { label: "SEO obrázok (zdieľanie na sociálnych sieťach)", name: "image", widget: "image", required: false }
+
+      - label: "Preklady obsahu"
+        name: "i18n"
+        widget: "object"
+        required: false
+        collapsed: true
+        fields:
+          - label: "Angličtina"
+            name: "en"
+            widget: "object"
+            required: false
+            fields:
+              - { label: "Názov", name: "nazov", widget: "string", required: false }
+              - { label: "Popis", name: "popis", widget: "text", required: false }
+              - { label: "Text", name: "text", widget: "text", required: false }
+          - label: "Čeština"
+            name: "cs"
+            widget: "object"
+            required: false
+            fields:
+              - { label: "Názov", name: "nazov", widget: "string", required: false }
+              - { label: "Popis", name: "popis", widget: "text", required: false }
+              - { label: "Text", name: "text", widget: "text", required: false }
+          - label: "Maďarčina"
+            name: "hu"
+            widget: "object"
+            required: false
+            fields:
+              - { label: "Názov", name: "nazov", widget: "string", required: false }
+              - { label: "Popis", name: "popis", widget: "text", required: false }
+              - { label: "Text", name: "text", widget: "text", required: false }
+
+  - name: kontakt
+    label: "Kontakt"
+    description: "Firemné a kontaktné údaje zobrazené na stránke Kontakt."
+    files:
+      - name: "kontakt"
+        label: "Kontaktné údaje"
+        file: "content/kontakt.json"
+        fields:
+          - { label: "Firma", name: "firma", widget: "string" }
+          - label: "Adresa"
+            name: "adresa"
+            widget: "list"
+            field: { label: "Riadok adresy", name: "riadok", widget: "string" }
+          - { label: "Telefón", name: "tel", widget: "string" }
+          - { label: "E-mail", name: "email", widget: "string" }
+          - { label: "Web", name: "web", widget: "string" }
+          - { label: "IČO", name: "ico", widget: "string" }
+          - { label: "DIČ", name: "dic", widget: "string" }
+          - { label: "IČ DPH", name: "icdph", widget: "string" }
+          - label: "Sociálne siete"
+            name: "social"
+            widget: "object"
+            fields:
+              - { label: "Facebook", name: "facebook", widget: "string", required: false }
+              - { label: "Instagram", name: "instagram", widget: "string", required: false }
+              - { label: "LinkedIn", name: "linkedin", widget: "string", required: false }

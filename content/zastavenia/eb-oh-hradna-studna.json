@@ -1,0 +1,30 @@
+{
+  "id": "eb-oh-hradna-studna",
+  "miesto": "eb-oravsky-hrad",
+  "poradie": 3,
+  "nazov": "Hradná studňa",
+  "popis": "Hlboká studňa vytesaná do skaly, ktorá slúžila po stáročia.",
+  "cover": "assets/images/places/oravsky-hrad-studna.jpg",
+  "audio": [],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "<p>Studňa vytesaná priamo do skalného brala zásobovala hrad vodou aj počas najdlhších\n      obliehaní. Jej hĺbka dodnes vyráža návštevníkom dych.</p>",
+  "i18n": {
+    "en": {
+      "nazov": "The Castle Well",
+      "popis": "A deep well carved into the rock that served for centuries.",
+      "text": "<p>The well, carved directly into the rocky cliff, supplied the castle with water even during the longest sieges. Its depth still takes visitors' breath away today.</p>"
+    },
+    "cs": {
+      "nazov": "Hradní studna",
+      "popis": "Hluboká studna vytesaná do skály, která sloužila po staletí.",
+      "text": "<p>Studna vytesaná přímo do skalního bradla zásobovala hrad vodou i během nejdelších obléhání. Její hloubka dodnes bere návštěvníkům dech.</p>"
+    },
+    "hu": {
+      "nazov": "A vár kútja",
+      "popis": "A sziklába vájt mély kút, amely évszázadokon át szolgálta a várat.",
+      "text": "<p>A közvetlenül a sziklába vájt kút a leghosszabb ostromok idején is vízzel látta el a várat. Mélysége a mai látogatóknak is eláll a lélegzete.</p>"
+    }
+  }
+}

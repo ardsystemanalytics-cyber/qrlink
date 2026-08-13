@@ -1,0 +1,49 @@
+{
+  "poradie": 7,
+  "id": "euroregion-beskydy",
+  "nazov": "Euroregión Beskydy",
+  "primarna": "mesta",
+  "kategorie": [
+    "mesta",
+    "pohranicie"
+  ],
+  "lon": 18.5,
+  "lat": 49.38,
+  "mapX": 330,
+  "mapY": 30,
+  "cover": "",
+  "popis": "Objavujte výnimočné miesta na slovensko-českom pohraničí – mestá, hrady, prírodné krásy aj kultúrne dedičstvo, ktoré spája dva národy.",
+  "heroOverlay": {
+    "icon": "stromy",
+    "text": "Pohraničie plné zážitkov",
+    "popis": "Od hradov a historických miest po prírodu a oddych.",
+    "i18n": {
+      "en": {
+        "text": "A borderland full of experiences",
+        "popis": "From castles and historic sites to nature and relaxation."
+      },
+      "cs": {
+        "text": "Pohraničí plné zážitků",
+        "popis": "Od hradů a historických míst po přírodu a odpočinek."
+      },
+      "hu": {
+        "text": "Élményekkel teli határvidék",
+        "popis": "Váraktól és történelmi helyszínektől a természetig és a pihenésig."
+      }
+    }
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Beskydy Euroregion",
+      "popis": "Discover exceptional places on the Slovak-Czech border – towns, castles, natural beauty and cultural heritage that connects two nations."
+    },
+    "cs": {
+      "nazov": "Euroregion Beskydy",
+      "popis": "Objevujte výjimečná místa na slovensko-českém pohraničí – města, hrady, přírodní krásy i kulturní dědictví, které spojuje dva národy."
+    },
+    "hu": {
+      "nazov": "Beszkidek Eurorégió",
+      "popis": "Fedezze fel a szlovák–cseh határvidék kivételes helyszíneit – városokat, várakat, természeti szépségeket és a két nemzetet összekötő kulturális örökséget."
+    }
+  }
+}

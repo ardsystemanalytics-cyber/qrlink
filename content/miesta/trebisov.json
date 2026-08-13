@@ -1,0 +1,15 @@
+{
+  "poradie": 23,
+  "id": "trebisov",
+  "nazov": "Trebišov",
+  "primarna": "mesta",
+  "kategorie": [
+    "mesta"
+  ],
+  "lon": 21.718,
+  "lat": 48.629,
+  "mapX": 852,
+  "mapY": 271,
+  "cover": "",
+  "popis": "Mesto na Zemplíne."
+}

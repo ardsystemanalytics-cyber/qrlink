@@ -1,0 +1,13 @@
+{
+  "id": "ivanka-u4-z1",
+  "miesto": "ivanka-uroven-4",
+  "poradie": 1,
+  "nazov": "Testovacie zastavenie A",
+  "popis": "Prvé testovacie zastavenie na 4. úrovni vnorenia.",
+  "cover": "",
+  "audio": [],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "<p>Toto je testovacie zastavenie, ktoré overuje, že \"Kategória so zastaveniami\" sa správne\n      zobrazí až na poslednej (listovej) úrovni, bez ohľadu na to, koľko úrovní podkategórií je nad ňou.</p>"
+}
