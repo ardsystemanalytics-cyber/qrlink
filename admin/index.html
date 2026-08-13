@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>QR LINK – Správa obsahu</title>
   <meta name="robots" content="noindex">
+  <!-- Natvrdo zadaná (absolútna) cesta ku config.yml – bez tohto sa pri
+       otvorení adresy "/admin" bez lomítka na konci vie CMS pokúsiť
+       stiahnuť config.yml zo zlého miesta a skončí to chybou 404. -->
+  <link href="/admin/config.yml" type="text/yaml" rel="cms-config-url">
 </head>
 <body>
   <!-- Decap CMS (Git-based redakčný systém) – prihlásenie cez GitHub,
