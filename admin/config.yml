@@ -214,9 +214,10 @@ collections:
       - { label: "Titulná fotka (cover)", name: "cover", widget: "image", required: false }
       - label: "Text zastavenia (slovensky)"
         name: "text"
-        widget: "text"
+        widget: "markdown"
         required: false
-        hint: "HTML formátovanie, napr. <p>...</p>, <h2>...</h2>. Ak si nie si istá/istý s HTML, napíš text do jedného <p>...</p> a ozvi sa."
+        buttons: ["bold", "italic", "link", "heading-two", "heading-three", "quote", "bulleted-list", "numbered-list"]
+        editor_components: []
       - label: "Audio nahrávky"
         name: "audio"
         widget: "list"
@@ -260,7 +261,7 @@ collections:
             fields:
               - { label: "Názov", name: "nazov", widget: "string", required: false }
               - { label: "Popis", name: "popis", widget: "text", required: false }
-              - { label: "Text", name: "text", widget: "text", required: false }
+              - { label: "Text", name: "text", widget: "markdown", required: false, buttons: ["bold", "italic", "link", "heading-two", "heading-three", "quote", "bulleted-list", "numbered-list"], editor_components: [] }
           - label: "Čeština"
             name: "cs"
             widget: "object"
@@ -268,7 +269,7 @@ collections:
             fields:
               - { label: "Názov", name: "nazov", widget: "string", required: false }
               - { label: "Popis", name: "popis", widget: "text", required: false }
-              - { label: "Text", name: "text", widget: "text", required: false }
+              - { label: "Text", name: "text", widget: "markdown", required: false, buttons: ["bold", "italic", "link", "heading-two", "heading-three", "quote", "bulleted-list", "numbered-list"], editor_components: [] }
           - label: "Maďarčina"
             name: "hu"
             widget: "object"
@@ -276,7 +277,7 @@ collections:
             fields:
               - { label: "Názov", name: "nazov", widget: "string", required: false }
               - { label: "Popis", name: "popis", widget: "text", required: false }
-              - { label: "Text", name: "text", widget: "text", required: false }
+              - { label: "Text", name: "text", widget: "markdown", required: false, buttons: ["bold", "italic", "link", "heading-two", "heading-three", "quote", "bulleted-list", "numbered-list"], editor_components: [] }
 
   - name: kontakt
     label: "Kontakt"

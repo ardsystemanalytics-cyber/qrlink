@@ -4,5 +4,8 @@
   "description": "QR LINK – statická stránka. 'build' skladá content/*.json (edituje sa cez Decap CMS na /admin) do js/data.js.",
   "scripts": {
     "build": "node scripts/build-data.js"
+  },
+  "dependencies": {
+    "marked": "^18.0.9"
   }
 }

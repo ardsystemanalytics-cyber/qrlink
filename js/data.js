@@ -683,22 +683,22 @@ const DB = {
         "lng": 19.3589331
       },
       "mapEmbed": "https://www.google.com/maps?q=49.2621250,19.3589331&z=16&output=embed",
-      "text": "<p>Jednou z najväčších turistických atrakcií severného Slovenska je Oravský hrad, vybudovaný na skale nad riekou Orava v Oravskom Podzámku ako „orlie hniezdo“.</p>\n      <p>Hrad začali budovať na mieste starého dreveného hrádku po tatárskom vpáde v roku 1241. Z pôvodne malej pevnosti z 13. storočia vznikol v priebehu nasledujúcich storočí rozsiahly hradný areál, ktorý má dnes 154 miestností.</p>\n      <p>V minulosti bol župným hradom a sídlom Oravského hradného panstva. Patrila mu takmer celá Orava.</p>\n      <p>Budovy a interiér hradu nesú črty románskeho slohu, gotiky, renesancie, baroka i moderných slohov. Hrad je totiž stále živý komplex, ktorého vývoj sa dodnes nezastavil.</p>",
+      "text": "<p>Jednou z najväčších turistických atrakcií severného Slovenska je Oravský hrad, vybudovaný na skale nad riekou Orava v Oravskom Podzámku ako „orlie hniezdo“.</p>\n<p>Hrad začali budovať na mieste starého dreveného hrádku po tatárskom vpáde v roku 1241. Z pôvodne malej pevnosti z 13. storočia vznikol v priebehu nasledujúcich storočí rozsiahly hradný areál, ktorý má dnes 154 miestností.</p>\n<p>V minulosti bol župným hradom a sídlom Oravského hradného panstva. Patrila mu takmer celá Orava.</p>\n<p>Budovy a interiér hradu nesú črty románskeho slohu, gotiky, renesancie, baroka i moderných slohov. Hrad je totiž stále živý komplex, ktorého vývoj sa dodnes nezastavil.</p>",
       "i18n": {
         "en": {
           "nazov": "The Castle Gate",
           "popis": "The main entrance to the castle grounds that draws you into history.",
-          "text": "<p>One of the greatest tourist attractions of northern Slovakia is Orava Castle, built on a rock above the Orava river in Oravský Podzámok as an \"eagle's nest\".</p>\n          <p>The castle began as a small wooden fort built after the Tatar invasion of 1241. From a small 13th-century fortress it grew over the following centuries into an extensive castle complex that has 154 rooms today.</p>\n          <p>In the past it was a county castle and the seat of the Orava castle estate. Almost all of Orava belonged to it.</p>\n          <p>The castle's buildings and interiors bear the marks of Romanesque, Gothic, Renaissance, Baroque and modern styles. The castle is in fact still a living complex whose development continues to this day.</p>"
+          "text": "<p>One of the greatest tourist attractions of northern Slovakia is Orava Castle, built on a rock above the Orava river in Oravský Podzámok as an &quot;eagle&#39;s nest&quot;.</p>\n<p>The castle began as a small wooden fort built after the Tatar invasion of 1241. From a small 13th-century fortress it grew over the following centuries into an extensive castle complex that has 154 rooms today.</p>\n<p>In the past it was a county castle and the seat of the Orava castle estate. Almost all of Orava belonged to it.</p>\n<p>The castle&#39;s buildings and interiors bear the marks of Romanesque, Gothic, Renaissance, Baroque and modern styles. The castle is in fact still a living complex whose development continues to this day.</p>"
         },
         "cs": {
           "nazov": "Brána do hradu",
           "popis": "Hlavní vstup do hradního areálu, který vás vtáhne do historie.",
-          "text": "<p>Jednou z největších turistických atrakcí severního Slovenska je Oravský hrad, vybudovaný na skále nad řekou Orava v Oravském Podzámku jako „orlí hnízdo“.</p>\n          <p>Hrad začali stavět na místě starého dřevěného hrádku po tatarském vpádu v roce 1241. Z původně malé pevnosti ze 13. století vznikl v průběhu následujících staletí rozsáhlý hradní areál, který má dnes 154 místností.</p>\n          <p>V minulosti byl župním hradem a sídlem Oravského hradního panství. Patřila mu téměř celá Orava.</p>\n          <p>Budovy a interiér hradu nesou rysy románského slohu, gotiky, renesance, baroka i moderních slohů. Hrad je totiž stále živý komplex, jehož vývoj se dodnes nezastavil.</p>"
+          "text": "<p>Jednou z největších turistických atrakcí severního Slovenska je Oravský hrad, vybudovaný na skále nad řekou Orava v Oravském Podzámku jako „orlí hnízdo“.</p>\n<p>Hrad začali stavět na místě starého dřevěného hrádku po tatarském vpádu v roce 1241. Z původně malé pevnosti ze 13. století vznikl v průběhu následujících staletí rozsáhlý hradní areál, který má dnes 154 místností.</p>\n<p>V minulosti byl župním hradem a sídlem Oravského hradního panství. Patřila mu téměř celá Orava.</p>\n<p>Budovy a interiér hradu nesou rysy románského slohu, gotiky, renesance, baroka i moderních slohů. Hrad je totiž stále živý komplex, jehož vývoj se dodnes nezastavil.</p>"
         },
         "hu": {
           "nazov": "A vár kapuja",
           "popis": "A várudvar fő bejárata, amely magával ragadja a történelembe.",
-          "text": "<p>Észak-Szlovákia egyik legnagyobb turisztikai látványossága az Árva vára, amely az Orava folyó fölötti sziklán, Árvaváralján épült, mint egy „sasfészek\".</p>\n          <p>A várat egy régi faerődítmény helyén kezdték építeni az 1241-es tatárjárás után. Az eredetileg kicsi, 13. századi erődítményből a következő évszázadok során kiterjedt váregyüttes lett, amelynek ma 154 helyisége van.</p>\n          <p>Egykor megyei vár és az Árvai váruradalom székhelye volt. Szinte egész Árva vidéke hozzá tartozott.</p>\n          <p>A vár épületei és belső terei a román, gótikus, reneszánsz, barokk és modern stílusok jegyeit hordozzák. A vár ugyanis ma is élő együttes, amelynek fejlődése a mai napig nem állt meg.</p>"
+          "text": "<p>Észak-Szlovákia egyik legnagyobb turisztikai látványossága az Árva vára, amely az Orava folyó fölötti sziklán, Árvaváralján épült, mint egy „sasfészek&quot;.</p>\n<p>A várat egy régi faerődítmény helyén kezdték építeni az 1241-es tatárjárás után. Az eredetileg kicsi, 13. századi erődítményből a következő évszázadok során kiterjedt váregyüttes lett, amelynek ma 154 helyisége van.</p>\n<p>Egykor megyei vár és az Árvai váruradalom székhelye volt. Szinte egész Árva vidéke hozzá tartozott.</p>\n<p>A vár épületei és belső terei a román, gótikus, reneszánsz, barokk és modern stílusok jegyeit hordozzák. A vár ugyanis ma is élő együttes, amelynek fejlődése a mai napig nem állt meg.</p>"
         }
       }
     },
@@ -748,7 +748,7 @@ const DB = {
         "en": {
           "nazov": "The Castle Well",
           "popis": "A deep well carved into the rock that served for centuries.",
-          "text": "<p>The well, carved directly into the rocky cliff, supplied the castle with water even during the longest sieges. Its depth still takes visitors' breath away today.</p>"
+          "text": "<p>The well, carved directly into the rocky cliff, supplied the castle with water even during the longest sieges. Its depth still takes visitors&#39; breath away today.</p>"
         },
         "cs": {
           "nazov": "Hradní studna",
@@ -864,7 +864,7 @@ const DB = {
       "audio": [
         "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-1.mp3"
       ],
-      "text": "\n        <h2>Cestička hradnej pani Žofie</h2>\n        <p>Cestička krátka, ale zato strmá a náročná s prekvapením na konci. Tak, ako cesta do neba.\n        Po týchto 151 schodoch pani Žofia často chodievala za svojimi poddanými a nosila im svoj\n        chlebík útechy. Adamko a Lacko zasa po tejto cestičke bežali tatinovi – hradnému pánovi –\n        naproti, aby ho privítali skôr, ako sa otvorí hradná brána. Cestička vás dovedie na paseku,\n        kde sa zastavil čas. Stredoveká osada s domčekom bylinkárky, pekára a rybára, kde nesmie\n        chýbať ani útulňa pre pútnikov.</p>\n        <h2>Cesta hradného pána Františka</h2>\n        <p>Hradný pán vracajúc sa z vojenských výprav chodieval touto širokou a pohodlnou pánskou\n        cestou. Často unavený, vyčerpaný, ale šťastný, že sa opäť stretne so svojou milovanou Žofiou\n        a chlapcami Adamkom a Lackom. Chlapci ho vždy netrpezlivo vyčkávali, kedy sa im ich milovaný\n        tatino vráti a ostane aspoň chvíľu doma. Vyzerali ho z hradnej veže, aby ho už z diaľky\n        zazreli a po schodoch stihli dobehnúť dole. Vysadli na tatinovho tátoša a so slávou sa\n        nechali vítať na hrade.</p>",
+      "text": "<h2>Cestička hradnej pani Žofie</h2>\n<p>Cestička krátka, ale zato strmá a náročná s prekvapením na konci. Tak, ako cesta do neba.\n        Po týchto 151 schodoch pani Žofia často chodievala za svojimi poddanými a nosila im svoj\n        chlebík útechy. Adamko a Lacko zasa po tejto cestičke bežali tatinovi – hradnému pánovi –\n        naproti, aby ho privítali skôr, ako sa otvorí hradná brána. Cestička vás dovedie na paseku,\n        kde sa zastavil čas. Stredoveká osada s domčekom bylinkárky, pekára a rybára, kde nesmie\n        chýbať ani útulňa pre pútnikov.</p>\n<h2>Cesta hradného pána Františka</h2>\n<p>Hradný pán vracajúc sa z vojenských výprav chodieval touto širokou a pohodlnou pánskou\n        cestou. Často unavený, vyčerpaný, ale šťastný, že sa opäť stretne so svojou milovanou Žofiou\n        a chlapcami Adamkom a Lackom. Chlapci ho vždy netrpezlivo vyčkávali, kedy sa im ich milovaný\n        tatino vráti a ostane aspoň chvíľu doma. Vyzerali ho z hradnej veže, aby ho už z diaľky\n        zazreli a po schodoch stihli dobehnúť dole. Vysadli na tatinovho tátoša a so slávou sa\n        nechali vítať na hrade.</p>",
       "galeria": [
         "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg",
         "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg",
@@ -1044,7 +1044,7 @@ const DB = {
       "galeria": [],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Toto je testovacie zastavenie, ktoré overuje, že \"Kategória so zastaveniami\" sa správne\n      zobrazí až na poslednej (listovej) úrovni, bez ohľadu na to, koľko úrovní podkategórií je nad ňou.</p>"
+      "text": "<p>Toto je testovacie zastavenie, ktoré overuje, že &quot;Kategória so zastaveniami&quot; sa správne\n      zobrazí až na poslednej (listovej) úrovni, bez ohľadu na to, koľko úrovní podkategórií je nad ňou.</p>"
     },
     {
       "id": "ivanka-u4-z2",

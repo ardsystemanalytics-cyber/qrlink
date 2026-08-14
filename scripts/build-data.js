@@ -8,9 +8,18 @@
 
 const fs = require("fs");
 const path = require("path");
+const { marked } = require("marked");
 
 const ROOT = path.join(__dirname, "..");
 const CONTENT = path.join(ROOT, "content");
+
+// Pole "text" na zastaveniach sa v content/ edituje ako Markdown (Decap CMS
+// tam ponúka klasický rich-text editor – výber nadpisu, tučné písmo a pod.
+// namiesto písania HTML značiek). Tu sa pri buildovaní prevedie na HTML,
+// presne v tvare, aký očakáva js/app.js (žiadna zmena v app.js netreba).
+function mdToHtml(md) {
+  return md ? marked.parse(md).trim() : md;
+}
 
 function readJSON(filePath) {
   return JSON.parse(fs.readFileSync(filePath, "utf8"));
@@ -32,7 +41,16 @@ const miesta = readFolder(path.join(CONTENT, "miesta"))
   .map(({ poradie, ...m }) => m); // "poradie" je len pomocné pre zoradenie, do data.js sa nedáva
 
 const zastavenia = readFolder(path.join(CONTENT, "zastavenia"))
-  .sort((a, b) => a.miesto.localeCompare(b.miesto) || (a.poradie ?? 0) - (b.poradie ?? 0));
+  .sort((a, b) => a.miesto.localeCompare(b.miesto) || (a.poradie ?? 0) - (b.poradie ?? 0))
+  .map(z => {
+    const out = { ...z, text: mdToHtml(z.text) };
+    if (out.i18n) {
+      out.i18n = Object.fromEntries(Object.entries(out.i18n).map(([lang, v]) =>
+        [lang, v && v.text ? { ...v, text: mdToHtml(v.text) } : v]
+      ));
+    }
+    return out;
+  });
 
 const kontakt = readJSON(path.join(CONTENT, "kontakt.json"));
 
