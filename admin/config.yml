@@ -198,22 +198,14 @@ collections:
     format: "json"
     slug: "{{id}}"
     identifier_field: nazov
+    # V /admin sa pri Zastaveniach objaví rozbaľovacie "Group by" s dvoma
+    # možnosťami – zvolíš si, či chceš zoznam rozdelený podľa hlavnej
+    # kategórie, alebo podľa konkrétneho miesta.
     view_groups:
-      - label: "Mestá"
+      - label: "Hlavná kategória"
         field: hlavnaKategoria
-        pattern: "mesta"
-      - label: "Pamiatky"
-        field: hlavnaKategoria
-        pattern: "pamiatky"
-      - label: "Náučné chodníky"
-        field: hlavnaKategoria
-        pattern: "chodniky"
-      - label: "Environmentálna výchova a vzdelávanie"
-        field: hlavnaKategoria
-        pattern: "enviro"
-      - label: "Česko-slovenské pohraničie"
-        field: hlavnaKategoria
-        pattern: "pohranicie"
+      - label: "Miesto"
+        field: miesto
     fields:
       - { label: "ID (nemeniť po vytvorení)", name: "id", widget: "string", hint: "Krátky identifikátor bez diakritiky a medzier. Musí byť rovnaký ako názov súboru." }
       - label: "Hlavná kategória (len na zoradenie v tomto zozname)"
@@ -221,11 +213,11 @@ collections:
         widget: "select"
         required: false
         options:
-          - { label: "Mestá", value: "mesta" }
-          - { label: "Pamiatky", value: "pamiatky" }
-          - { label: "Náučné chodníky", value: "chodniky" }
-          - { label: "Environmentálna výchova a vzdelávanie", value: "enviro" }
-          - { label: "Česko-slovenské pohraničie", value: "pohranicie" }
+          - "Mestá"
+          - "Pamiatky"
+          - "Náučné chodníky"
+          - "Environmentálna výchova a vzdelávanie"
+          - "Česko-slovenské pohraničie"
         hint: "Podľa čoho sa toto zastavenie zoskupí vyššie v zozname. Zvoľ hlavnú kategóriu miesta, ku ktorému patrí – ak si nie si istá/istý, kľudne nechaj prázdne, doplní sa to."
       - label: "Miesto"
         name: "miesto"

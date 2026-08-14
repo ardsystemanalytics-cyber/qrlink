@@ -16,11 +16,21 @@ const path = require("path");
 const ROOT = path.join(__dirname, "..");
 const MIESTA_DIR = path.join(ROOT, "content/miesta");
 const ZASTAVENIA_DIR = path.join(ROOT, "content/zastavenia");
+const KATEGORIE_DIR = path.join(ROOT, "content/kategorie");
 
 const miesta = {};
 fs.readdirSync(MIESTA_DIR).filter(f => f.endsWith(".json")).forEach(f => {
   const d = JSON.parse(fs.readFileSync(path.join(MIESTA_DIR, f), "utf8"));
   miesta[d.id] = d;
+});
+
+// Decap zoskupuje priamo podľa uloženej hodnoty poľa (bez pekného popisku),
+// preto sem ukladáme rovno slovenský názov kategórie (nie jej "id"),
+// nech sa v /admin zobrazí ako "Mestá", "Pamiatky"... a nie "mesta", "pamiatky"...
+const kategorieNazvy = {};
+fs.readdirSync(KATEGORIE_DIR).filter(f => f.endsWith(".json")).forEach(f => {
+  const d = JSON.parse(fs.readFileSync(path.join(KATEGORIE_DIR, f), "utf8"));
+  kategorieNazvy[d.id] = d.nazov;
 });
 
 function rootPrimarna(id, depth = 0) {
@@ -34,7 +44,8 @@ let changed = 0;
 fs.readdirSync(ZASTAVENIA_DIR).filter(f => f.endsWith(".json")).forEach(f => {
   const file = path.join(ZASTAVENIA_DIR, f);
   const z = JSON.parse(fs.readFileSync(file, "utf8"));
-  const kat = rootPrimarna(z.miesto);
+  const katId = rootPrimarna(z.miesto);
+  const kat = katId && kategorieNazvy[katId];
   if (kat && z.hlavnaKategoria !== kat) {
     z.hlavnaKategoria = kat;
     fs.writeFileSync(file, JSON.stringify(z, null, 2) + "\n", "utf8");
