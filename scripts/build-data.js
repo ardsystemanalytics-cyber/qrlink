@@ -42,7 +42,9 @@ const miesta = readFolder(path.join(CONTENT, "miesta"))
 
 const zastavenia = readFolder(path.join(CONTENT, "zastavenia"))
   .sort((a, b) => a.miesto.localeCompare(b.miesto) || (a.poradie ?? 0) - (b.poradie ?? 0))
-  .map(z => {
+  .map(({ hlavnaKategoria, ...z }) => {
+    // "hlavnaKategoria" je len pomocné pole na zoskupovanie v Decap CMS
+    // (/admin), do data.js sa nedáva – app.js ho nepozná/nepotrebuje.
     const out = { ...z, text: mdToHtml(z.text) };
     if (out.i18n) {
       out.i18n = Object.fromEntries(Object.entries(out.i18n).map(([lang, v]) =>
