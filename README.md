@@ -182,9 +182,13 @@ QR adries.
 GitHub OAuth App + premenných prostredia vo Vercel pre `/admin` prihlásenie
 – pozri sekciu "Redakčný systém (Decap CMS) na /admin" vyššie.
 
-## Poznámka k vývoju (testovanie)
+## Poznámka k vývoju (spolupráca s Claude)
 
-Pri overovaní zmien počas vývoja (napr. kontrola syntaxe CSS/JS cez
-`node -e "..."`, alebo vizuálne testovanie v prehliadači) netreba žiadne
-schvaľovanie – je to len lokálne testovanie, nič sa tým nenasadzuje.
-Jediný krok, pred ktorým sa vždy pýtam, je `git push`.
+Claude má na všetku prácu na tomto webe (úpravy kódu aj obsahu, testovanie,
+inštalácia balíčkov, konfigurácia, ladenie chýb a pod.) trvalé povolenie
+konať bez toho, aby sa vopred pýtal – netreba mu nič odsúhlasovať vopred.
+
+Jediné dva kroky, pred ktorými sa musí vždy spýtať a počkať na potvrdenie,
+sú:
+- `git commit`
+- `git push`

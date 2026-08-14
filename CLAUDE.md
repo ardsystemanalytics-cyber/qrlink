@@ -15,6 +15,6 @@ Repo-specific working instructions for Claude Code in this project.
 - If a request looks like it could break something, or there's a cleaner/better technical
   approach, feel free to point it out and suggest it instead of just implementing exactly
   as asked.
-- The only checkpoint that matters is `git push` — keep asking before pushing to GitHub.
+- The only checkpoints that matter are `git commit` and `git push` — always ask before doing either, every time.
 - When the work is done, give one concise summary of what was changed instead of
   narrating step by step along the way.
