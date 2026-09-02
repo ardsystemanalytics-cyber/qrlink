@@ -211,7 +211,7 @@ collections:
     # Keďže skupiny sa (viď POZOR nižšie) nedajú zoradiť podľa webu,
     # nech je aspoň priamo v zozname pri každom zastavení vidno, ku
     # ktorému konkrétnemu (najbližšiemu) miestu/podkategórii patrí.
-    summary: "Podkategória: {{miestoNazov}}"
+    summary: "{{nazov}}\nPodkategória: {{miestoNazov}}"
     # V /admin sa pri Zastaveniach objaví rozbaľovacie "Group by" –
     # zvolíš si, či chceš zoznam rozdelený podľa hlavnej kategórie,
     # alebo podľa celého projektu (všetky jeho podkategórie/trasy
