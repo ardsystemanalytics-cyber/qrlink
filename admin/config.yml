@@ -75,8 +75,8 @@ collections:
     view_groups:
       - label: "Hlavná kategória"
         field: hlavnaKategoria
-      - label: "Nadradené miesto"
-        field: rodicNazov
+      - label: "Projekt"
+        field: korenoveMiesto
     fields:
       - { label: "ID (nemeniť po vytvorení)", name: "id", widget: "string", hint: "Krátky identifikátor bez diakritiky a medzier. Musí byť rovnaký ako názov súboru." }
       - { label: "Poradie zobrazenia", name: "poradie", widget: "number", value_type: "int", hint: "Nižšie číslo = zobrazí sa skôr na hlavnej stránke." }

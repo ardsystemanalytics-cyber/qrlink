@@ -9,9 +9,11 @@
 
    - "hlavnaKategoria" – hlavná kategória tohto miesta (ak je to hlavné
      miesto) alebo jeho koreňového predka (ak je to podkategória/trasa).
-   - "rodicNazov" – čitateľný názov nadradeného miesta (ak toto miesto
-     nejaké má), aby sa dalo v /admin zoskupiť "čo patrí pod čo" bez
-     lúštenia id-čiek.
+   - "korenoveMiesto" – názov CELÉHO projektu, teda najvrchnejšieho
+     predka v reťazci rodičov (nie najbližšieho rodiča!). Vďaka tomu
+     pri zoskupovaní v /admin padnú VŠETKY úrovne podkategórií/trás
+     jedného projektu (napr. Ivanka pri Dunaji, úroveň 1-4) do jednej
+     spoločnej skupiny, nerozdelia sa na skupinu za každú úroveň.
 
    Spusti znova, keď pribudne/zmení sa nejaké miesto.
    ===================================================================== */
@@ -35,11 +37,16 @@ fs.readdirSync(KATEGORIE_DIR).filter(f => f.endsWith(".json")).forEach(f => {
   kategorieNazvy[d.id] = d.nazov;
 });
 
-function rootPrimarna(id, depth = 0) {
+function root(id, depth = 0) {
   const m = miesta[id];
-  if (!m || depth > 30) return null;
-  if (!m.rodic) return m.primarna || null;
-  return rootPrimarna(m.rodic, depth + 1);
+  if (!m || depth > 30) return m;
+  if (!m.rodic) return m;
+  return root(m.rodic, depth + 1);
+}
+
+function rootPrimarna(id) {
+  const r = root(id);
+  return (r && r.primarna) || null;
 }
 
 let changed = 0;
@@ -57,13 +64,14 @@ Object.values(miesta).forEach(m => {
     console.log(`POZOR: pre "${m.__file}" sa nepodarilo nájsť hlavnú kategóriu.`);
   }
 
-  if (m.rodic) {
-    const rodicNazov = miesta[m.rodic] ? miesta[m.rodic].nazov : m.rodic;
-    if (data.rodicNazov !== rodicNazov) {
-      data.rodicNazov = rodicNazov;
-      touched = true;
-    }
-  } else if (data.rodicNazov) {
+  const r = root(m.id);
+  const korenoveMiesto = r ? r.nazov : null;
+  if (korenoveMiesto && data.korenoveMiesto !== korenoveMiesto) {
+    data.korenoveMiesto = korenoveMiesto;
+    touched = true;
+  }
+  if (data.rodicNazov) {
+    // staré pole z predošlej verzie tohto skriptu – nahradené "korenoveMiesto"
     delete data.rodicNazov;
     touched = true;
   }
