@@ -1,12 +1,15 @@
 /* =====================================================================
-   JEDNORAZOVÝ SKRIPT – spustiť ručne: node scripts/backfill-hlavna-kategoria.js
-   Dopočíta na každom zastavení dve pomocné polia – slúžia LEN na
+   JEDNORAZOVÝ SKRIPT – spustiť ručne: node scripts/backfill-zastavenia-helpers.js
+   Dopočíta na každom zastavení tri pomocné polia – slúžia LEN na
    organizáciu v Decap CMS (zoskupenie zastavení v /admin):
    - "hlavnaKategoria" – hlavná kategória koreňového miesta (Mestá / Pamiatky / ...)
    - "projekt" – názov CELÉHO projektu (koreňového miesta), nech sa dá
      zoskupiť "všetky zastavenia patriace k tomuto projektu" na jednom
      mieste, bez ohľadu na to, na akej hĺbke podkategórie/trasy sa
      konkrétne zastavenie nachádza.
+   - "miestoNazov" – čitateľný názov konkrétneho (najbližšieho) miesta/
+     podkategórie (nie jeho id), aby sa dalo zoskupiť "Group by: Miesto"
+     podľa mena, nie podľa id-čka.
    Do js/data.js sa tieto polia nedostanú (build skript ich odstráni).
 
    Spusti znova, ak niekedy pribudne nové miesto/zastavenie a tieto
@@ -61,6 +64,13 @@ fs.readdirSync(ZASTAVENIA_DIR).filter(f => f.endsWith(".json")).forEach(f => {
 
   if (r && z.projekt !== r.nazov) {
     z.projekt = r.nazov;
+    touched = true;
+  }
+
+  const priameMiesto = miesta[z.miesto];
+  const miestoNazov = priameMiesto ? priameMiesto.nazov : z.miesto;
+  if (miestoNazov && z.miestoNazov !== miestoNazov) {
+    z.miestoNazov = miestoNazov;
     touched = true;
   }
 

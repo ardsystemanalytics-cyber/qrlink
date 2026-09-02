@@ -205,21 +205,29 @@ collections:
     format: "json"
     slug: "{{id}}"
     identifier_field: nazov
-    # Pri každom zastavení v zozname sa okrem názvu ukáže aj to, ku
-    # ktorému konkrétnemu (najbližšiemu) miestu/podkategórii patrí –
-    # nech je to vidno na prvý pohľad aj bez otvárania záznamu.
-    summary: "{{nazov}} — Miesto: {{miesto}}"
+    # Predvolené zoradenie v zozname (aj v rámci skupín nižšie) –
+    # rovnaké poradie, v akom sa zastavenia zobrazujú na webe.
+    sortable_fields: ["poradie", "nazov"]
+    summary: "{{nazov}}"
     # V /admin sa pri Zastaveniach objaví rozbaľovacie "Group by" –
     # zvolíš si, či chceš zoznam rozdelený podľa hlavnej kategórie,
     # podľa celého projektu (všetky jeho podkategórie/trasy spolu,
-    # nech je akokoľvek hlboko vnorené), alebo podľa konkrétneho miesta.
+    # nech je akokoľvek hlboko vnorené), alebo podľa konkrétneho miesta
+    # (podľa jeho názvu, nie id-čka).
+    #
+    # POZOR – obmedzenie Decap CMS: skupiny (aj poradie miest v rámci
+    # skupiny "Projekt") sa NEDAJÚ zoradiť tak, aby presne kopírovali
+    # poradie podkategórií na webe – to Decap CMS neponúka (potvrdené,
+    # nie je to prehliadnutá možnosť). V rámci JEDNEJ skupiny si ale
+    # vieš zapnúť triedenie "Sort by: Poradie" hore v zozname, nech
+    # aspoň zastavenia idú v správnom poradí.
     view_groups:
       - label: "Hlavná kategória"
         field: hlavnaKategoria
       - label: "Projekt"
         field: projekt
       - label: "Miesto"
-        field: miesto
+        field: miestoNazov
     fields:
       - { label: "ID (nemeniť po vytvorení)", name: "id", widget: "string", hint: "Krátky identifikátor bez diakritiky a medzier. Musí byť rovnaký ako názov súboru." }
       - label: "Hlavná kategória (len na zoradenie v tomto zozname)"
