@@ -77,7 +77,16 @@ collections:
       - { label: "Titulná fotka (cover)", name: "cover", widget: "image", required: false }
       - { label: "Fotka (foto)", name: "foto", widget: "image", required: false, hint: "Používa sa najmä pri podkategóriách." }
 
-      - label: "Hlavná kategória"
+      - label: "① Toto je podkategória/trasa? → vyber jej nadradené miesto"
+        name: "rodic"
+        widget: "relation"
+        collection: "miesta"
+        value_field: "id"
+        search_fields: ["nazov", "id"]
+        display_fields: ["nazov", "id"]
+        required: false
+        hint: "Vyplň LEN ak je toto podkategória/trasa patriaca pod iné (hlavné) miesto. Ak toto vyplníš, polia nižšie (Hlavná kategória, Všetky kategórie, súradnice) nechaj prázdne – nepoužijú sa, kategóriu aj farbu/ikonu táto podkategória zdedí od nadradeného miesta."
+      - label: "② Alebo je toto samostatné hlavné miesto? → vyplň jeho kategóriu a polohu"
         name: "primarna"
         widget: "relation"
         collection: "kategorie"
@@ -85,7 +94,7 @@ collections:
         search_fields: ["nazov", "id"]
         display_fields: ["nazov"]
         required: false
-        hint: "Vyplniť LEN pre hlavné miesto (nie pre podkategóriu/trasu)."
+        hint: "Vyplň LEN ak si vyššie NEVYBRALA/VYBRAL nadradené miesto (teda toto je samostatné hlavné miesto, nie podkategória)."
       - label: "Všetky kategórie"
         name: "kategorie"
         widget: "relation"
@@ -95,21 +104,11 @@ collections:
         display_fields: ["nazov"]
         multiple: true
         required: false
-        hint: "Vyplniť LEN pre hlavné miesto – do ktorých kategórií ešte patrí (okrem hlavnej)."
-      - { label: "Zemepisná dĺžka (lon)", name: "lon", widget: "number", value_type: "float", required: false, hint: "Vyplniť LEN pre hlavné miesto – súradnica na mape." }
-      - { label: "Zemepisná šírka (lat)", name: "lat", widget: "number", value_type: "float", required: false, hint: "Vyplniť LEN pre hlavné miesto – súradnica na mape." }
-      - { label: "Pozícia X na ilustračnej mape (px)", name: "mapX", widget: "number", value_type: "int", required: false, hint: "Vyplniť LEN pre hlavné miesto." }
-      - { label: "Pozícia Y na ilustračnej mape (px)", name: "mapY", widget: "number", value_type: "int", required: false, hint: "Vyplniť LEN pre hlavné miesto." }
-
-      - label: "Nadradené miesto"
-        name: "rodic"
-        widget: "relation"
-        collection: "miesta"
-        value_field: "id"
-        search_fields: ["nazov", "id"]
-        display_fields: ["nazov", "id"]
-        required: false
-        hint: "Vyplniť LEN pre podkategóriu/trasu – ku ktorému hlavnému miestu patrí."
+        hint: "Vyplniť LEN pre hlavné miesto (pozri ②) – do ktorých kategórií ešte patrí (okrem hlavnej)."
+      - { label: "Zemepisná dĺžka (lon)", name: "lon", widget: "number", value_type: "float", required: false, hint: "Vyplniť LEN pre hlavné miesto (pozri ②) – súradnica na mape." }
+      - { label: "Zemepisná šírka (lat)", name: "lat", widget: "number", value_type: "float", required: false, hint: "Vyplniť LEN pre hlavné miesto (pozri ②) – súradnica na mape." }
+      - { label: "Pozícia X na ilustračnej mape (px)", name: "mapX", widget: "number", value_type: "int", required: false, hint: "Vyplniť LEN pre hlavné miesto (pozri ②)." }
+      - { label: "Pozícia Y na ilustračnej mape (px)", name: "mapY", widget: "number", value_type: "int", required: false, hint: "Vyplniť LEN pre hlavné miesto (pozri ②)." }
 
       - label: "Zvýraznená zaujímavosť (voliteľné)"
         name: "heroOverlay"
