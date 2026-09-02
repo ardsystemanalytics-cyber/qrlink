@@ -1,6 +1,6 @@
 /* =====================================================================
    JEDNORAZOVÝ SKRIPT – spustiť ručne: node scripts/backfill-zastavenia-helpers.js
-   Dopočíta na každom zastavení tri pomocné polia – slúžia LEN na
+   Dopočíta na každom zastavení dve pomocné polia – slúžia LEN na
    organizáciu v Decap CMS (zoskupenie zastavení v /admin):
    - "hlavnaKategoria" – hlavná kategória koreňového miesta (Mestá / Pamiatky / ...)
    - "projekt" – názov CELÉHO projektu (koreňového miesta), nech sa dá
@@ -8,8 +8,9 @@
      mieste, bez ohľadu na to, na akej hĺbke podkategórie/trasy sa
      konkrétne zastavenie nachádza.
    - "miestoNazov" – čitateľný názov konkrétneho (najbližšieho) miesta/
-     podkategórie (nie jeho id), aby sa dalo zoskupiť "Group by: Miesto"
-     podľa mena, nie podľa id-čka.
+     podkategórie (nie jeho id) – zobrazí sa ako poznámka pod fotkou pri
+     každom zastavení v zozname (keďže skupiny sa nedajú zoradiť podľa
+     webu, aspoň takto je vidno, kam presne zastavenie patrí).
    Do js/data.js sa tieto polia nedostanú (build skript ich odstráni).
 
    Spusti znova, ak niekedy pribudne nové miesto/zastavenie a tieto

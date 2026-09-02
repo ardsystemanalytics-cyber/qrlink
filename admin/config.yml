@@ -208,14 +208,18 @@ collections:
     # Predvolené zoradenie v zozname (aj v rámci skupín nižšie) –
     # rovnaké poradie, v akom sa zastavenia zobrazujú na webe.
     sortable_fields: ["poradie", "nazov"]
-    summary: "{{nazov}}"
+    # Keďže skupiny sa (viď POZOR nižšie) nedajú zoradiť podľa webu,
+    # nech je aspoň priamo v zozname pri každom zastavení vidno, ku
+    # ktorému konkrétnemu (najbližšiemu) miestu/podkategórii patrí.
+    summary: "{{nazov}} — {{miestoNazov}}"
     # V /admin sa pri Zastaveniach objaví rozbaľovacie "Group by" –
     # zvolíš si, či chceš zoznam rozdelený podľa hlavnej kategórie,
-    # podľa celého projektu (všetky jeho podkategórie/trasy spolu,
-    # nech je akokoľvek hlboko vnorené), alebo podľa konkrétneho miesta
-    # (podľa jeho názvu, nie id-čka).
+    # alebo podľa celého projektu (všetky jeho podkategórie/trasy
+    # spolu, nech je akokoľvek hlboko vnorené). "Group by: Miesto" sme
+    # zámerne vynechali – pri drvivej väčšine projektov by len
+    # zdvojovalo "Projekt" (jedno miesto = jeden projekt).
     #
-    # POZOR – obmedzenie Decap CMS: skupiny (aj poradie miest v rámci
+    # POZOR – obmedzenie Decap CMS: skupiny (aj poradie zastavení v rámci
     # skupiny "Projekt") sa NEDAJÚ zoradiť tak, aby presne kopírovali
     # poradie podkategórií na webe – to Decap CMS neponúka (potvrdené,
     # nie je to prehliadnutá možnosť). V rámci JEDNEJ skupiny si ale
@@ -226,8 +230,6 @@ collections:
         field: hlavnaKategoria
       - label: "Projekt"
         field: projekt
-      - label: "Miesto"
-        field: miestoNazov
     fields:
       - { label: "ID (nemeniť po vytvorení)", name: "id", widget: "string", hint: "Krátky identifikátor bez diakritiky a medzier. Musí byť rovnaký ako názov súboru." }
       - label: "Hlavná kategória (len na zoradenie v tomto zozname)"

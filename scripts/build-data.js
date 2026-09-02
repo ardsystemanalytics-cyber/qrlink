@@ -46,8 +46,8 @@ const zastavenia = readFolder(path.join(CONTENT, "zastavenia"))
   .sort((a, b) => a.miesto.localeCompare(b.miesto) || (a.poradie ?? 0) - (b.poradie ?? 0))
   .map(({ hlavnaKategoria, projekt, miestoNazov, ...z }) => {
     // "hlavnaKategoria"/"projekt"/"miestoNazov" sú len pomocné polia na
-    // zoskupovanie v Decap CMS (/admin), do data.js sa nedávajú – app.js
-    // ich nepozná/nepotrebuje.
+    // zoskupovanie/popisky v Decap CMS (/admin), do data.js sa nedávajú
+    // – app.js ich nepozná/nepotrebuje.
     const out = { ...z, text: mdToHtml(z.text) };
     if (out.i18n) {
       out.i18n = Object.fromEntries(Object.entries(out.i18n).map(([lang, v]) =>
