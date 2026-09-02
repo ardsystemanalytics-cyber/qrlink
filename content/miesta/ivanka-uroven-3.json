@@ -3,5 +3,7 @@
   "id": "ivanka-uroven-3",
   "rodic": "ivanka-uroven-2",
   "nazov": "Úroveň 3 – testovacia podkategória",
-  "popis": "Testovacia podkategória bez zastavení, 3. úroveň vnorenia."
+  "popis": "Testovacia podkategória bez zastavení, 3. úroveň vnorenia.",
+  "hlavnaKategoria": "Mestá",
+  "rodicNazov": "Úroveň 2 – testovacia podkategória"
 }

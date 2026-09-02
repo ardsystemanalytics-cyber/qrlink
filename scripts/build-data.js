@@ -38,7 +38,9 @@ const kategorie = readFolder(path.join(CONTENT, "kategorie"))
 
 const miesta = readFolder(path.join(CONTENT, "miesta"))
   .sort((a, b) => (a.poradie ?? 0) - (b.poradie ?? 0))
-  .map(({ poradie, ...m }) => m); // "poradie" je len pomocné pre zoradenie, do data.js sa nedáva
+  // "poradie"/"hlavnaKategoria"/"rodicNazov" sú len pomocné polia
+  // (zoradenie + zoskupovanie v Decap CMS), do data.js sa nedávajú
+  .map(({ poradie, hlavnaKategoria, rodicNazov, ...m }) => m);
 
 const zastavenia = readFolder(path.join(CONTENT, "zastavenia"))
   .sort((a, b) => a.miesto.localeCompare(b.miesto) || (a.poradie ?? 0) - (b.poradie ?? 0))

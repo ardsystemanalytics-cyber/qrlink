@@ -3,5 +3,7 @@
   "id": "ivanka-uroven-4",
   "rodic": "ivanka-uroven-3",
   "nazov": "Úroveň 4 – so zastaveniami",
-  "popis": "Testovacia podkategória, ktorá už obsahuje priamo zastavenia (posledná/listová úroveň)."
+  "popis": "Testovacia podkategória, ktorá už obsahuje priamo zastavenia (posledná/listová úroveň).",
+  "hlavnaKategoria": "Mestá",
+  "rodicNazov": "Úroveň 3 – testovacia podkategória"
 }
