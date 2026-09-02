@@ -205,12 +205,19 @@ collections:
     format: "json"
     slug: "{{id}}"
     identifier_field: nazov
-    # V /admin sa pri Zastaveniach objaví rozbaľovacie "Group by" s dvoma
-    # možnosťami – zvolíš si, či chceš zoznam rozdelený podľa hlavnej
-    # kategórie, alebo podľa konkrétneho miesta.
+    # Pri každom zastavení v zozname sa okrem názvu ukáže aj to, ku
+    # ktorému konkrétnemu (najbližšiemu) miestu/podkategórii patrí –
+    # nech je to vidno na prvý pohľad aj bez otvárania záznamu.
+    summary: "{{nazov}} — Miesto: {{miesto}}"
+    # V /admin sa pri Zastaveniach objaví rozbaľovacie "Group by" –
+    # zvolíš si, či chceš zoznam rozdelený podľa hlavnej kategórie,
+    # podľa celého projektu (všetky jeho podkategórie/trasy spolu,
+    # nech je akokoľvek hlboko vnorené), alebo podľa konkrétneho miesta.
     view_groups:
       - label: "Hlavná kategória"
         field: hlavnaKategoria
+      - label: "Projekt"
+        field: projekt
       - label: "Miesto"
         field: miesto
     fields:

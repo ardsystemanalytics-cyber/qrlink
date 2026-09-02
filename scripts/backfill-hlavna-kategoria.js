@@ -1,13 +1,17 @@
 /* =====================================================================
    JEDNORAZOVÝ SKRIPT – spustiť ručne: node scripts/backfill-hlavna-kategoria.js
-   Dopočíta pomocné pole "hlavnaKategoria" na každom zastavení – slúži
-   LEN na organizáciu v Decap CMS (zoskupenie zastavení v /admin podľa
-   hlavnej kategórie ich koreňového miesta: Mestá / Pamiatky / ...).
-   Do js/data.js sa toto pole nedostane (build skript ho odstráni).
+   Dopočíta na každom zastavení dve pomocné polia – slúžia LEN na
+   organizáciu v Decap CMS (zoskupenie zastavení v /admin):
+   - "hlavnaKategoria" – hlavná kategória koreňového miesta (Mestá / Pamiatky / ...)
+   - "projekt" – názov CELÉHO projektu (koreňového miesta), nech sa dá
+     zoskupiť "všetky zastavenia patriace k tomuto projektu" na jednom
+     mieste, bez ohľadu na to, na akej hĺbke podkategórie/trasy sa
+     konkrétne zastavenie nachádza.
+   Do js/data.js sa tieto polia nedostanú (build skript ich odstráni).
 
-   Spusti znova, ak niekedy pribudne nové miesto/zastavenie a pole
-   "hlavnaKategoria" preň nebude v content/zastavenia/*.json vyplnené
-   alebo bude neaktuálne.
+   Spusti znova, ak niekedy pribudne nové miesto/zastavenie a tieto
+   polia preň v content/zastavenia/*.json nebudú vyplnené alebo budú
+   neaktuálne.
    ===================================================================== */
 
 const fs = require("fs");
@@ -33,25 +37,36 @@ fs.readdirSync(KATEGORIE_DIR).filter(f => f.endsWith(".json")).forEach(f => {
   kategorieNazvy[d.id] = d.nazov;
 });
 
-function rootPrimarna(id, depth = 0) {
+function root(id, depth = 0) {
   const m = miesta[id];
-  if (!m || depth > 30) return null;
-  if (!m.rodic) return m.primarna || null;
-  return rootPrimarna(m.rodic, depth + 1);
+  if (!m || depth > 30) return m;
+  if (!m.rodic) return m;
+  return root(m.rodic, depth + 1);
 }
 
 let changed = 0;
 fs.readdirSync(ZASTAVENIA_DIR).filter(f => f.endsWith(".json")).forEach(f => {
   const file = path.join(ZASTAVENIA_DIR, f);
   const z = JSON.parse(fs.readFileSync(file, "utf8"));
-  const katId = rootPrimarna(z.miesto);
-  const kat = katId && kategorieNazvy[katId];
+  const r = root(z.miesto);
+  const kat = r && r.primarna && kategorieNazvy[r.primarna];
+  let touched = false;
+
   if (kat && z.hlavnaKategoria !== kat) {
     z.hlavnaKategoria = kat;
-    fs.writeFileSync(file, JSON.stringify(z, null, 2) + "\n", "utf8");
-    changed++;
+    touched = true;
   } else if (!kat) {
     console.log(`POZOR: pre "${f}" (miesto: ${z.miesto}) sa nepodarilo nájsť hlavnú kategóriu.`);
+  }
+
+  if (r && z.projekt !== r.nazov) {
+    z.projekt = r.nazov;
+    touched = true;
+  }
+
+  if (touched) {
+    fs.writeFileSync(file, JSON.stringify(z, null, 2) + "\n", "utf8");
+    changed++;
   }
 });
 
