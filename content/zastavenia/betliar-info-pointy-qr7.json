@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 48.7025556,
+    "lng": 20.5063889
+  },
+  "mapEmbed": "https://www.google.com/maps?q=48.7025556,20.5063889&z=18&output=embed",
   "text": "Budova Obecného úradu je situovaná v centre obce a stojí na pôvodnom mieste niekdajšieho obecného úradu. V 30. rokoch minulého storočia v nej sídlilo notárstvo i matrika. V roku 1943 sa obec rozhodla na tomto mieste postaviť nový obecný dom. Dnešný vzhľad získala budova po rekonštrukcii v roku 1953. Sídli v nej obecné zastupiteľstvo. Na priečelí budovy je umiestnená Pamätná tabuľa k výročiu oslobodenia obce dňa 23.1.1945. Dňa 28. februára 1992 bola na tejto budove odhalená, pri príležitosti 110. výročia narodenia, Pamätná tabuľa husľovému virtuózovi a skladateľovi Jurajovi Kazamekovi.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Betliar",

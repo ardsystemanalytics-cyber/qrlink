@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 48.70527,
+    "lng": 20.507952
+  },
+  "mapEmbed": "https://www.google.com/maps?q=48.705270,20.507952&z=15&output=embed",
   "text": "Kultúrny dom bol postavený v 80. rokoch. Vybavený je sálou s javiskom, klubom dôchodcov, knižnicou a zasadačkou. V objekte kultúrneho domu sa uskutočňujú aj verejné kultúrne podujatia a prezentácie súkromných spoločností.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Betliar",

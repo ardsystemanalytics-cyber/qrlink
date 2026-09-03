@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.295734,
+    "lng": 18.788351
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2601.9793672482356!2d18.786162315630087!3d49.295733979332674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6441ca865d586922!2zNDnCsDE3JzQ0LjYiTiAxOMKwNDcnMTguMSJF!5e0!3m2!1ssk!2ssk!4v1660064857806!5m2!1ssk!2ssk",
   "text": "Kaštieľ v Radoli je renesančná stavba v obci Radoľa, okres Kysucké Nové Mesto.\n\nPrvá zmienka o kaštieli pochádza z roku 1575. Radoľa s kúriou sa znovu spomína v roku 1580. Kaštieľ vo svojej najstaršej fáze mal podobu vežovitej stavby so štvorcovým pôdorysom, s dvoma podlažiami a pivnicou.\n\nV roku 1658 bol kaštieľ prestavaný – k pôvodnej vežovitej stavbe bolo pristavaná časť s veľkou sieňou na oboch podlažiach a s niekoľkými obytnými miestnosťami radenými za sebou, bočný trakt s ďalšími miestnosťami, a k najstaršej časti bol pristavaný arkier murovaný z tehál. Niektoré okná boli zväčšené, iné zamurované, maľovanú výzdobu nahradili šambrány a rímsy vymurované z tehál, celú fasádu napokon zjednotili do jedného tónu v okrovej farebnosti.\n\nV urbári z roku 1710 sa kaštieľ spomína ako poschodový, s komnatami, dvoma pivnicami, kaplnkou, kuchyňou, izbou pre kuchárov, ďalšou izbou pre pekára a bola tu aj pekárenská pec. Kaplnka slúžila pre potreby zemepána, vstupovalo sa do nej zo súkromnej komnaty.\n\nKoncom 18. storočia boli v kaštieli urobené drobné úpravy (delenie niektorých miestností), ktoré pravdepodobne súviseli s jeho využívaním ako sídla pre úradníkov.\n\nNa začiatku 20. storočia zhorela strecha kaštieľa, pri obnove boli v miestnostiach horného podlažia urobené nové trámové stropy.\n\nObjekt bol zapísaný do zoznamu národných kultúrnych pamiatok.\n\nOd roku 1983 slúži ako miesto pre stále expozície Kysuckého múzea. Slúži aj ako miesto pre výstavy a prednášky.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Kysucké Nové Mesto",

@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.831074,
+    "lng": 19.203092
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m27!1m12!1m3!1d287118.2733634677!2d18.83482708665312!3d49.61824218687895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m12!3e0!4m4!2s49.403521%2C+18.625441!3m2!1d49.403521!2d18.625441!4m5!1s0x47169bf19b2dbc45%3A0xb6ab696e8bc1b03f!2sRuiny+zamku+Wo%C5%82ek%2C+43-353+Kobiernice%2C+Po%C4%BEsko!3m2!1d49.8310745!2d19.2030916!5e0!3m2!1ssk!2ssk!4v1515264312711",
   "text": "Ruiny kedysi slávneho hradu sa nachádzajú na kopci s názvom &#8222;Volek“ v obci Kobiernice. Bol postavený na začiatku štrnásteho storočia a pozostával z dvoch budov obklopených dvojitým zemným valom a kamennou stenou, kotré mali plniť obrannú funkciu. Čoskoro sa však stal sídlom rytierských lupičov. Hrad bol nakoniec zničený v roku 1476 Kazimierzom Jagiellońskym. K dnešnému dňu sa zachovali iba pozostatky hradu, valy a priekopy okolo hradu a pozostatky štvoruholníkovej bašty – brány.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Porąbka",

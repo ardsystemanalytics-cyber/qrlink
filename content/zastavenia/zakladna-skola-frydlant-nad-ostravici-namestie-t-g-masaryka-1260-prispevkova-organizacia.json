@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.593006,
+    "lng": 18.354736
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m27!1m12!1m3!1d165834.4642398111!2d18.436146163943786!3d49.50030627346428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m12!3e0!4m4!2s49.403521%2C+18.625441!3m2!1d49.403521!2d18.625441!4m5!1s0x4713f5a31d6fc8fd%3A0x1008bc79d81d4f33!2zWsOha2xhZG7DrSDFoWtvbGEgRnLDvWRsYW50IG5hZCBPc3RyYXZpY8OtLCBuw6FtxJtzdMOtIFQuRy4gTWFzYXJ5a2EgMTI2MCwgcMWZw61zcMSbdmtvdsOhIG9yZ2FuaXphY2UsIE7DoW3Em3N0w60gVG9tw6HFoWUgR2FycmlndWUgTWFzYXJ5a2EgMTI2MCwgRnLDvWRsYW50IG5hZCBPc3RyYXZpY8OtLCDEjGVza28!3m2!1d49.5930061!2d18.3547357!5e0!3m2!1ssk!2ssk!4v1515007244203",
   "text": "Sedemdesiate roky 20. storočia priniesli myšlienku vybudovať nový vzdelávací komplex, a tak bola začatá výstavba nového školského areálu na Janáčkovej ulici. Trvala takmer 10 rokov a stála zo vtedajšieho rozpočtu obce 46 mil. Kčs. V novostavbe našli svoj domov základná deväťročná škola sídliaca pôvodne na Ulici padlých hrdinov, a tiež gymnázium. Námestíčko vzniknuté pred novým urbanistickým celkom bolo pomenované po Gustavovi Klimentovi. Slávnostného otvorenia 1. septembra 1983 sa zúčastnilo mnoho miestnych aj regionálnych straníckych a mestských predstaviteľov. Po novembri 1989 a prvých slobodných voľbách v roku 1990 bola pred školou odhalená socha T. G. Masaryka a dala základnej škole impulz pre nové, dôstojnejšie meno, ktoré nesie dodnes.\n\nZákladnú školu navštevuje viac ako 600 žiakov a poskytuje im tiež služby školskej družiny a jedálne. Zriaďovateľom školy je mesto Frýdlant nad Ostravicí. Celý komplex doplňuje budova gymnázia, ktorá nadväzuje na budovu základnej školy. Gymnázium je šesťročné a navštevuje ho takmer 300 študentov. Zriaďovateľom frýdlantského gymnázia je Moravskoslezský kraj. Neoddeliteľnou súčasťou areálu je tiež úplne novozrekonštruované viacúčelové športové ihrisko, ktoré slúži nielen žiakom a študentom, ale v popoludňajších hodinách tiež širokej verejnosti.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Frýdlant",

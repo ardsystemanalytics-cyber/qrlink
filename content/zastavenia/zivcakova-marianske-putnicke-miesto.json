@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.394379,
+    "lng": 18.576926
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m25!1m12!1m3!1d10454.704666227619!2d18.59056905840188!3d49.393959260426485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m10!3e2!4m4!2s49.403521%2C+18.625441!3m2!1d49.403521!2d18.625441!4m3!3m2!1d49.3943691!2d18.5767922!5e0!3m2!1ssk!2ssk!4v1514626090760",
   "text": "Podobne ako v Lurdách, Medžugorí či Fatime, tak aj na Kysuciach na vrchu Živčáková sa udialo mnoho zjavení. Vrch Živčáková sa nachádza asi 3 km západne od mesta Turzovka. Z Turzovky vedie krížová cesta cez les s nástupom v Turzovke – Vyšný koniec a z mestskej časti Závodie.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Turzovka",

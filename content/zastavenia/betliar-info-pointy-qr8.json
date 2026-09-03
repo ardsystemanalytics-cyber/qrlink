@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 48.701483,
+    "lng": 20.505685
+  },
+  "mapEmbed": "https://www.google.com/maps?q=48.701483,20.505685&z=18&output=embed",
   "text": "Malý park bol založený po regulácii Krivého potoka začiatkom 20. storočia. Zaberá priestor po pravej strane potoka a tvorí časť centra obce. Základom parku sa stala lipová aleja doplnená na strane potoka majestátnymi topoľmi. Vedľa aleje je parková výsadba s lipovým stromoradím, ihličnanmi a záhonmi ruží. V centrálnom záhone je umiestnený pamätník 675. výročia založenia obce – balvan z vrchu Volovec (1263 m n.m.), ktorý sa vypína nad obcou, doplnený pamätnou tabuľou.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Betliar",

@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 48.704795,
+    "lng": 20.508461
+  },
+  "mapEmbed": "https://www.google.com/maps?q=48.704795,20.508461&z=18&output=embed",
   "text": "Budova patrí do komplexu budov bývalého majera z 19. storočia, ktoré pozostávali z dvoch stajní pre kone, priľahlého humna, stodoly, domu kočiša a osobitne stojacej budovy kočiarne. Štíty budov sú zdobené reliéfmi konských hláv. Na rovnaké účely slúžili v minulosti aj dva príľahlé objekty, ktoré sú v súčasnosti využívané ako reštaurácie a penzión.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Betliar",

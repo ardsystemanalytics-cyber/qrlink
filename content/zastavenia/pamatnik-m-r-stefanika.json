@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.402188,
+    "lng": 18.623988
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m25!1m12!1m3!1d1298.3234556256045!2d18.62429020194064!3d49.40302842381582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m10!3e2!4m4!2s49.403521%2C+18.625441!3m2!1d49.403521!2d18.625441!4m3!3m2!1d49.402159!2d18.6240682!5e0!3m2!1ssk!2ssk!4v1514453879439",
   "text": "Milan Rastislav Štefánik sa narodil v Košariskách v rodine evanjelického farára Pavla Štefánika a jeho manželky Albertiny rodenej Jurenkovej. Narodil sa ako šieste dieťa. Po ňom ešte prišli na svet ďalší šiesti súrodenci. Bol to slovenský astronóm, fotograf, vojenský letec, brigádny generál ozbrojených síl Francúzska, diplomat a politik. Mal najväčšiu zásluhu na formovaní česko-slovenského zahraničného odboja počas prvej svetovej vojny. Zohral dôležitú úlohu pri organizovaní česko-slovenských légií a pri sprostredkovaní kontaktov na\n\nfrancúzskych štátnych funkcionárov. Spolu s Tomášom Garriguom Masarykom a Edvardom Benešom bol kľúčovou osobou pri založení ČSR. Štefánik bol podpredsedom Československej národnej rady, ministrom vojny v Dočasnej vláde československej a následne aj v novovzniknutej ČSR. Dňa 4. mája 1919 nastúpil Štefánik na letisku Campoformido pri Udine do lietadla typu Caproni 450 (č. 11 495) sprevádzaný dvoma talianskymi letcami, poručíkom Giottom Mancinelliom Scottim a seržantom Umbertom Merlinom a mechanikom-rádiotelegrafistom Gabrielom Aggiustom. Cieľom jeho cesty bolo letisko vo Vajnoroch pri Bratislave. Lietadlo však nepristálo, pretože keď sa už blížilo k miestu pristátia, náhle sa zrútilo neďaleko Ivanky pri Dunaji. Leteckú katastrofu z posádky lietadla nikto neprežil.\n\nMilan Rastislav Štefánik je pochovaný v mohyle na Bradle, vrcholnom diele architekta Dušana Jurkoviča.\n\nNa znak jeho zásluh bol postavený v roku 1924 Pamätník oslobodenia s bustou Milana Rastislava Štefánika, ktorý sa nachádza v centre mesta Turzovka v malom parčíku. Po slovenskom dejateľovi je pomenovaná taktiež Ulica M. R. Štefánika.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Turzovka",

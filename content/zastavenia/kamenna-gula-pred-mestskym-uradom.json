@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.403882,
+    "lng": 18.624877
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m27!1m12!1m3!1d649.0689776674035!2d18.62456570646308!3d49.403687729361216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m12!3e2!4m4!2s49.403521%2C+18.625441!3m2!1d49.403521!2d18.625441!4m5!1s0x47146eae0d2a8743%3A0x3b433e1d0fc71a5!2zTWVzdHNrw70gw7pyYWQgVHVyem92a2EsIFIuIEphxaHDrWthLCBUdXJ6b3ZrYQ!3m2!1d49.4038848!2d18.6247913!5e0!3m2!1ssk!2ssk!4v1514464360327",
   "text": "Kamenná guľa sa nachádza pred budovou Mestského úradu v Turzovke. Každé 4 roky sa v Turzovke koná Svetové stretnutie Turzovčanov. Pamiatkou na prvé stretnutie je pamätník s plastikou od akademického maliara Ondreja Zimku ml. Prvé svetové stretnutie sa uskutočnilo v roku 1998 pri príležitosti 400. výročia vzniku Turzovky. Iniciátorom myšlienky stretnutia Turzovčanov, rodákov Turzovky a ich potomkov bol Spolok priateľov Turzovky na čele s predsedom Ivanom Gajdičiarom st. Svetové stretnutie Turzovčanov a ich potomkov sa koná v auguste každé štyri roky v rámci Turzovského kultúrneho leta a Beskydských slávností, ktoré majú už svoju tradíciu. Je to vhodná príležitosť pre všetkých, aby svoj rodný kraj – Kysuce prišli navštíviť práve v tomto čase, keď na tradičných turzovských hodoch vrcholia spoločenské a kultúrne aktivity jeho občanov. Stretnutia sú charakteristické účasťou rodákov a mnohých významných osobností, prominentov spoločenského a politického života, známych umelcov a športovcov. Názov svetové má svoje opodstatnenie v tom, že sa na ňom zúčastnia vždy rodáci zo zámoria alebo iných vzdialených končín sveta. Návštevníkmi svetového stretnutia boli osobnosti a rodáci ako Rudolf Zigmund – generálny tajomník Svetového kongresu Slovákov v USA, Jozef Okuliar či mnohí pravidelní účastníci stretnutia rodákov Helena Záhradníkova, Ondrej Zimka st., Ondrej Zimka ml., sochár Gustáv Švábik či Štefan Šimák.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Turzovka",

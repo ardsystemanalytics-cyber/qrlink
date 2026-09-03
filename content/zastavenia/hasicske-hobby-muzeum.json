@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.39586,
+    "lng": 18.62414
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d10386.160342452975!2d18.61735000500718!3d49.39989277808212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e2!4m3!3m2!1d49.403521!2d18.625441!4m5!1s0x47146eb4f5d461c5%3A0x89de3a05c61ee1f!2sVy%C5%A1n%C3%BD+Koniec%2C+023+54+Turzovka!3m2!1d49.39586!2d18.624140099999998!5e0!3m2!1ssk!2ssk!4v1514628859524",
   "text": "Je súkromné múzeum vášnivého zberateľa a veterána Ladislava Dlhopolčeka, ktoré bolo oficiálne otvorené pre verejnosť dňa 21.júla 2015. Predseda Turzovského veterán clubu Ladislav Dlhopolček už v mladosti mal ako každý chlapec rôzne záujmy a jeho vášeň ho neopustila ani s pribúdajúcimi rokmi. Predmety sa hromadili a boli medzi nimi vzácne kúsky, a otázka čo s nimi. Pri svojich cestách dostal nápad, čo tak založiť vlastné múzeum, v ktorom by expozíciu tvorili jednotlivé cenné exponáty, či sú to už váhy, hasičské prilby alebo fotoaparáty. Vo svojom rodinnom dome vyčlenil dve miestnosti a začala sa samotná realizácia jeho myšlienky.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Turzovka",

@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 48.700434,
+    "lng": 20.503074
+  },
+  "mapEmbed": "https://www.google.com/maps?q=48.700434,20.503074&z=18&output=embed",
   "text": "Budova Základnej školy bola postavená na ulici smerujúcej na železničnú stanicu v roku 1911 ako ľudová škola. Bol v nej byt pre učiteľa a tri veľké učebne. V areáli školy boli hospodárske a sociálne zariadenia a veľká záhrada. V roku 2001 obec oslávila 90. výročie jej vzniku a funkčná je dodnes.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Betliar",

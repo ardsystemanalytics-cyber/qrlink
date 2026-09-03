@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 48.701199,
+    "lng": 20.505906
+  },
+  "mapEmbed": "https://www.google.com/maps?q=48.701199,20.505906&z=18&output=embed",
   "text": "Dom Aloisa Šébla stál na rohu ulice smerujúcej z hlavnej cesty ku kaštieľu. Bol v ňom obchod a byt majiteľa. Jeho pôvodná podoba sa stratila výstavbou novej poschodovej budovy v roku 1934, v ktorej bol obchod, reštaurácia i spoločenská miestnosť. Objekt slúžil občanom ako obchodné a kultúrne stredisko veľmi dlho. Dnes je táto budova zrenovovaná a je v nej súkromný penzión „Barónka.“",
   "hlavnaKategoria": "Mestá",
   "projekt": "Betliar",

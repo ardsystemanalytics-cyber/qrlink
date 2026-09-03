@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.395664,
+    "lng": 18.639454
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m25!1m12!1m3!1d4979.78968524438!2d18.63256740479572!3d49.39980168254017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m10!3e2!4m4!2s49.403521%2C+18.625441!3m2!1d49.403521!2d18.625441!4m3!3m2!1d49.3957088!2d18.6394342!5e0!3m2!1ssk!2ssk!4v1514627639075",
   "text": "Malú sakrálnu stavbu na Bukovine stojacu pri turistickom chodníku nechala v roku 1945 postaviť rodina Štefankova ako poďakovanie Panne Márii za ochranu rodiny počas druhej svetovej vojny. Počas komunizmu bola niektorými aktívnymi členmi strany zámerne poškodená. Ide o jednoduchú stavbu ľudového charakteru s výklenkom bez konkrétneho zasvätenia. V roku 2017 prešla kaplnka komplexnou rekonštrukciou, ktorej iniciátorom bola rodina Kontríková, pokračovatelia rodiny Štefankovej.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Turzovka",

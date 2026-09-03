@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.403284,
+    "lng": 18.624934
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d5191.505634864872!2d18.625179999999986!3d49.403393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e2!4m3!3m2!1d49.403521!2d18.625441!4m5!1s0x47146eae07cfeb71%3A0x9db29709e102773f!2sMilana+Rastislava+%C5%A0tef%C3%A1nika+1%2C+023+54+Turzovka!3m2!1d49.4032841!2d18.6249339!5e0!3m2!1ssk!2ssk!4v1514628623753",
   "text": "Mesto Turzovka bolo v minulosti jedným z centier drotárstva. Park Drotára a džarka bol vybudovaný v roku 1998 a nachádza sa v blízkosti železničného priecestia a križovatky ulíc Nádražná, Štefániková a Obchodná. Dominantou parku je bronzové súsošie drotára a džarka, ktorého autorom je akademický maliar a čestný občan mesta Turzovka Miroslav Cipár. Pamätník bol slávnostne odhalený v roku 1998 pri príležitosti 400. výročia založenia mesta. Súčasťou parku je taktiež rustikálny prícestný stĺp Sv. Jána Nepomuckého, mučeníka katolíckej cirkvi, ktorý je umiestnený medzi dvoma vyše dvestoročnými lipami. Prícestný stĺp pochádza z 19. storočia, je dielom neznámeho autora a patrí k národným kultúrnym pamiatkam.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Turzovka",

@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.581054,
+    "lng": 18.36345
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m27!1m12!1m3!1d164269.820478465!2d18.41504250103388!3d49.487301064382784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m12!3e0!4m4!2s49.403521%2C+18.625441!3m2!1d49.403521!2d18.625441!4m5!1s0x4713f577bea679f5%3A0xd85f0d5fb2a78c4f!2zS291cGFsacWhdMSbIEZyw71kbGFudCBuYWQgT3N0cmF2aWPDrSwgU3BvcnRvdm7DrSAxNTMsIEZyw71kbGFudCwgRnLDvWRsYW50IG5hZCBPc3RyYXZpY8OtLCDEjGVza28!3m2!1d49.5810542!2d18.3634496!5e0!3m2!1ssk!2ssk!4v1515012225426",
   "text": "Kúpalisko vo Frýdlante nad Ostravicí ponúka návštevníkom vyhrievaný exteriérový bazén s rozmermi 50 x 22 m. Pre deti je pripravený bazénik s rozmermi 12 x 12 m. Návštevníci kúpaliska môžu využiť tobogán s dĺžkou 60 m a športové ihrisko pre volejbal či nohejbal. V areáli sú k dispozícii prezliekacie kabínky, občerstvenie, antukový kurt, parkovisko.\n\nFrýdlantské kúpalisko sa nachádza na okraji mesta a vďaka jeho polohe medzi vysokými stromami poskytuje pokoj, zázemie, súkromie a príjemnú relaxáciu bez rušivých vplyvov mestskej premávky.\n\nV tesnej blízkosti kúpaliska sa nachádza tenisová hala Edimex, ktorá je najväčším zastrešeným tenisovým centrom na Morave. Ponúka na využitie centrálny kurt s hľadiskom pre 300 divákov, 3 ďalšie kurty bez hľadiska, telocvičňu, regeneračné štúdio, obchod s tenisovým tovarom a tenisový bar. Halu si možno prenajať na rôzne športové či kultúrne akcie.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Frýdlant",

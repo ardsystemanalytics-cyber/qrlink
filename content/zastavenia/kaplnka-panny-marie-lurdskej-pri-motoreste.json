@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.405104,
+    "lng": 18.63602
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m25!1m12!1m3!1d2670.678757354229!2d18.629607358429322!3d49.40485652972632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m10!3e2!4m4!2s49.403521%2C+18.625441!3m2!1d49.403521!2d18.625441!4m3!3m2!1d49.4050253!2d18.6360416!5e0!3m2!1ssk!2ssk!4v1514624151031",
   "text": "V rokoch 2002 – 2003 ju dala postaviť rodina Rudolfa Mravca, k čomu ju inšpirovala návšteva Sv. Otca na Slovensku a pripravované sv. misie vo farnosti. Kaplnka bola posvätená 18. októbra 2003 počas prebiehajúcich sv. misií turzovským farárom a dekanom Jozefom Petrášom a misionárom pátrom Ivanom Flimelom.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Turzovka",

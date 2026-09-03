@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 48.701857,
+    "lng": 20.506214
+  },
+  "mapEmbed": "https://www.google.com/maps?q=48.701857,20.506214&z=18&output=embed",
   "text": "Osadenie sochy sv. Jána Nepomuckého v tejto lokalite sa v materiáloch dejín nespomína. Postavená je v strede lipovej aleje malého parku, pri okraji chodníka. Vyhotovená je z kamenného materiálu -pieskovca zemitej farby a stojí na betónovom stĺpe. Vplyvom počasia a doby bol povrch tejto pamiatky poškodený a Obecné zastupiteľstvo pristúpilo k jeho oprave. Rozhodlo sa zveriť jej reštaurovanie akademickému maliarovi Pavlovi Bradovkovi a magistrovi umenia Jozefovi Kužidlovi v roku 2003. Chýbajúce časti sochy podstavca a hlavne stĺpa boli domodelované. Slávnostné odhalenie sochy bolo 7. júna 2004. Rekonštrukcia bola financovaná z prostriedkov fondu Pro Slovakia a prostriedkov obce.\n\nJán Nepomucký – z Wikipédie, slobodnej encyklopédie http://sk.wikipedia.org/wiki/Ján_Nepomucký",
   "hlavnaKategoria": "Mestá",
   "projekt": "Betliar",

@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.820154,
+    "lng": 19.217641
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m27!1m12!1m3!1d341326.82404964266!2d18.810232123662075!3d49.634834235036905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m12!3e0!4m4!2s49.403521%2C+18.625441!3m2!1d49.403521!2d18.625441!4m5!1s0x47169c77d8aa7b05%3A0xcc8078c2f102c797!2zRG9tIEt1bHR1cnkgdyBQb3LEhWJjZSwgUnluZWssIFBvcsSFYmthLCBQb8S-c2tv!3m2!1d49.820147399999996!2d19.217641399999998!5e0!3m2!1ssk!2ssk!4v1515257318988",
   "text": "Regionálna izba v Porąbke existuje od roku 1998. Iniciátorom jeho založenia bola Spoločnosť milovníkov Žywieckej krajiny. Nachádza sa tu  množstvo exponátov z obce a okolia. Hlavnou súčasťou zbierok Izby sú poľnohospodárske náradie a predmety každodennej potreby a originálne kroje, ktoré sa v tejto oblasti nosili pred niekoľkými desaťročiami. Sú tu aj obrazy a ľudové sochy.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Porąbka",

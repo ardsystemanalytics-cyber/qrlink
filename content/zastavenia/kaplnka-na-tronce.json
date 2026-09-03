@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.814098,
+    "lng": 19.279333
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m27!1m12!1m3!1d329309.6808910739!2d18.853044728850854!3d49.63832994870063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m12!3e0!4m4!2s49.403521%2C+18.625441!3m2!1d49.403521!2d18.625441!4m5!1s0x47169b575814e7f9%3A0x3ef820685503f3fe!2zVHJ6b25rYSwgUG9yxIVia2EsIFBvxL5za28!3m2!1d49.8140983!2d19.279332699999998!5e0!3m2!1ssk!2ssk!4v1515253102781",
   "text": "Kaplnka na Tronce stojí na turistickom chodníku vedúcom cez Bukowski Groń na prechod Kocierska. Je tu obraz Matky Božskej Snežnej. Každú prvú augustovú nedeľu sa tu konajú odpustkové zhromaždenia, na ktoré prichádzajú davy veriacich.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Porąbka",

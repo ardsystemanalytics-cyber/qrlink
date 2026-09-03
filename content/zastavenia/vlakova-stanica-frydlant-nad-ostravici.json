@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.589223,
+    "lng": 18.353992
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m27!1m12!1m3!1d165786.5722229345!2d18.378436771598565!3d49.51443683546501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m12!3e0!4m4!2s49.403521%2C+18.625441!3m2!1d49.403521!2d18.625441!4m5!1s0x4713f5a1f5c630b3%3A0xeaeda3a5c439202a!2zRnLDvWRsYW50IG5hZCBPc3RyYXZpY8OtLCA3MzkgMTEgRnLDvWRsYW50IG5hZCBPc3RyYXZpY8OtLCDEjGVza28!3m2!1d49.5892129!2d18.3539943!5e0!3m2!1ssk!2ssk!4v1515012930523",
   "text": "Frýdlant nad Ostravicí je dôležitým železničným uzlom, ktorý je každoročne využívaný turistami na ich ďalšie cesty za krásami Beskýd. Dnešná výpravná budova vo Frýdlante nad Ostravicí pochádza z roku 1888. Z histórie vieme, že cisár František Jozef I. 2. januára 1869 udelil koncesnú listinu na výstavbu trate z Moravskej Ostravy do Frýdlantu v podhorí Beskýd, vtedy už známej obce s hutami a železiarňami. Dňa 3. januára roku 1871 prichádza do Frýdlantu prvý vlak po práve dokončenej trati Frýdlant – Ostrava, ktorej stavba trvala 2 roky. V súčasnej dobe je táto trať významným spojením ako pre cestujúcich, ktorí pravidelne dochádzajú za prácou, tak aj pre študentov mieriacich do škôl. Hojne využívaná je táto trať tiež pri cestách za aktívnym oddychom do blízkych Beskýd. Budova stanice prešla v roku 2013 celkovou rekonštrukciou, ktorej investorom bola Správa železničnej dopravnej cesty, štátna organizácia. Finančné prostriedky poskytol Štátny fond dopravnej infraštruktúry. Spoločne s budovou došlo ku kompletnej rekonštrukcii železničného zvršku a spodku vrátane mostných objektov a prejazdov, vybudovaniu zvýšených zastrešených nástupíšť pre prvú a druhú koľaj vrátane mimoúrovňového prístupu na nástupište podchodom a výťahu pre imobilných cestujúcich.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Frýdlant",

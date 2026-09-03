@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.817509,
+    "lng": 19.202544
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m27!1m12!1m3!1d329428.70636892144!2d18.851848268555383!3d49.62072682767876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m12!3e0!4m4!2s49.403521%2C+18.625441!3m2!1d49.403521!2d18.625441!4m5!1s0x47169c74aabfaf3b%3A0x63e9496d5d4f90e5!2sZasolnica%2C+34-312+Por%C4%85bka%2C+Po%C4%BEsko!3m2!1d49.8175087!2d19.2025445!5e0!3m2!1ssk!2ssk!4v1515255569148",
   "text": "Lesná rezervácia &#8222;Zasolnica“ vznikla v roku 1973 na ochranu starého karpatského bukového lesa. Je to jedna z mála prírodných rezervácií v Malom Beskide. Jeho celková plocha je 16 hektárov. Zahŕňa pásmo Wilkowickej Magury, oblasť Chrobackej Łąky a svahy Zasolnickej Hory.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Porąbka",

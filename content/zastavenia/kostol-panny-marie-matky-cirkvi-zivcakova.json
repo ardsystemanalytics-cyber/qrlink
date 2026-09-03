@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.397869,
+    "lng": 18.56986
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m27!1m12!1m3!1d10382.426433960283!2d18.588895647826213!3d49.3982073695037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m12!3e2!4m4!2s49.403521%2C+18.625441!3m2!1d49.403521!2d18.625441!4m5!1s0x47146e8488957e71%3A0xf6669f47887b7219!2zxb1pdsSNw6Frb3ZhIC0gcMO6dG5lIG1pZXN0bywgMDIzIDIxIEtvcsWIYQ!3m2!1d49.3978687!2d18.5698598!5e0!3m2!1ssk!2ssk!4v1514627233188",
   "text": "Základný kameň pre stavbu chrámu Panny Márie Matky Cirkvi požehnal v roku 2008 žilinský diecézny biskup Tomáš Galis. V júni nasledujúceho roka sa začalo s jeho stavbou. Slávnostná konsekrácia sa konala 4. októbra 2015. Do oltára boli vložené relikvie sv. Andreja-Svorada a Benedikta, sv. Jána Pavla II., sv. Márie Goretti a blahoslavenej sestry Zdenky Schelingovej. Novému chrámu dominuje veža s pozlátenou korunou a krížom. Na 43 m vysokej veži sa nachádza vyhliadková terasa, ku ktorej treba vystúpiť po 138 schodoch. Vo veži bol v roku 2011 umiestnený 830 kg vážiaci zvon Mária uliaty v moravskom Halenkove. V máji 2015 boli požehnané ďalšie tri zvony Najsvätejšie Srdce Ježišovo (355 kg), sv. Andrej-Svorad a Benedikt (220 kg) a sv. Jozef (150 kg). Všetky boli, podobne ako zvon Mária, uliate Josefom Tkadlecom v Halenkove. Na začiatku schodiska vedúceho do kostola sú sochy sv. Cyrila a Metoda. V interiéri kostola na čelnej stene za oltárom je impozantná mozaika s dvoma výjavmi zo Starého zákona – Stvorenie Evy z Adamovho boku a Noemova archa. Mozaika je tvorená kamienkami, sklom, keramikou a plátkovým zlatom. Jej autorom je uznávaný odborník páter Marko Ivan Rupnik pochádzajúci zo Slovinska, ktorého diela sa nachádzajú po celom svete. V hlavnej lodi chrámu je nainštalovaný píšťalový organ, ktorý po zakúpení v Nemecku kompletne zreštaurovala a uviedla do prevádzky firma Vojtek a syn zo Žiliny.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Turzovka",

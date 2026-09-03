@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.02074150738056,
+    "lng": 21.2813050192186
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2616.466150150564!2d21.278702275530243!3d49.02074057135459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473e935661e314c7%3A0xc25794fcd92c7ec3!2sSocha%20sv.%20J%C3%A1na%20Nepomuck%C3%A9ho!5e0!3m2!1ssk!2ssk!4v1731923325421!5m2!1ssk!2ssk",
   "text": "Kamenné barokové súsošie pochádza z roku 1770 a zobrazuje Pannu Máriu s Ježiškom. Pred ňou je kľačiaca postava sv. Jána Nepomuckého. Umiestnené je na vysokom kamennom podstavci a je ohradené kamennou balustrádou. Časovo i slohovo korešponduje s barokovými úpravami  kostola aj kláštora pavlínov. Keďže výzdoba v kostole je dielom majstra Hartmana je pravdepodobné, že aj toto súsošie je z jeho dielne. Samotné súsošie je svojim prevedením unikátne, pretože sv. Ján Nepomucký  býva zobrazovaný obyčajne ako samostatná postava. Súsošie je vysoké 220 cm. Plastika bola v roku 1986 zaradená do zoznamu kultúrnych pamiatok.\n\nZ dôvodu jeho poškodenia, ktoré spôsobili poveternostné vplyvy, bolo súsošie v roku 2001 akademickým sochárom Ondrejom Dzúrikom zrekonštruované a po skončení prác bolo  umiestnené v Kostole sv. Františka z Assisi. Na pôvodné miesto bola umiestnená jeho kópia, ktorej autorom je vranovský rodák akademický sochár Michal Czupil.\n\nNa území mesta a okresu sa nachádzajú aj sólové sochy tohto svätca. Jedna z nich je umiestnená na Ulici duklianskych hrdinov, ďalšia v obci Sedliská pod hradom Čičva pri rieke Ondava.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Vranov nad Topľou",

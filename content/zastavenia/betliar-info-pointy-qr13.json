@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 48.699018,
+    "lng": 20.501024
+  },
+  "mapEmbed": "https://www.google.com/maps?q=48.699018,20.501024&z=18&output=embed",
   "text": "Budova železničnej stanice stojí pri trati Rožňava – Dobšiná. Bola postavená v roku 1874 súčasne s výstavbou tejto trate, ktorá tvorila hlavný ťah Gemera s Bánréve do Dobšinej. V budove stanice bola kancelária dopravnej spoločnosti a byty pre zamestnancov. Svojmu účelu slúžila až do zrušenia premávky osobnej dopravy na tejto trati v roku 2003.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Betliar",

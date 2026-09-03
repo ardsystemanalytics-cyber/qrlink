@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.821086,
+    "lng": 19.218623
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m25!1m12!1m3!1d329484.85454185744!2d18.750619180929668!3d49.61242126866059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m10!3e0!4m4!2s49.403521%2C+18.625441!3m2!1d49.403521!2d18.625441!4m3!3m2!1d49.8208242!2d19.2179443!5e0!3m2!1ssk!2ssk!4v1515251549192",
   "text": "Objekt bol postavený v rokoch 1823 až 1827 v centre obce Porąbka. Kaplnka je murovaná s vonkajším rozmerom 5 x 5 m a výškou muriva 5,20 m. Vnútri je malý kamenný oltár, obraz Matky Božskej Ružencovej a nad ním  obraz sv. Urbana. Na boku oltára sú dve kamenné sochy sv. Františka a st. Jána Nepomuckého. Veža je postavená v barokovo-gotickom štýle a je šindľová. V roku 1913 bola umiestnená  pamätná tabuľa na prednej stene kaplnky venovaná účastníkom januárového povstania.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Porąbka",

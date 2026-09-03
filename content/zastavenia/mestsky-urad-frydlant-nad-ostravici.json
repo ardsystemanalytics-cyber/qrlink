@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.592778,
+    "lng": 18.359571
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m27!1m12!1m3!1d165783.04510097744!2d18.403776602322836!3d49.51547739682597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m12!3e0!4m4!2s49.403521%2C+18.625441!3m2!1d49.403521!2d18.625441!4m5!1s0x4713f5987824f24d%3A0xb00e1429c70b675f!2zTcSbc3Rza8O9IMO6xZlhZCBGcsO9ZGxhbnQgTmFkIE9zdHJhdmljw60sIE7DoW3Em3N0w60gMywgRnLDvWRsYW50LCBGcsO9ZGxhbnQgbmFkIE9zdHJhdmljw60sIMSMZXNrbw!3m2!1d49.5927784!2d18.3595714!5e0!3m2!1ssk!2ssk!4v1515004198461",
   "text": "Novorenesančná budova mestského úradu dominuje z južnej strany námestia vo Frýdlante nad Ostravicí. Bola postavená v roku 1894 zásluhou Katolíckej besedy ako objekt Národného domu. Staviteľom radnice bol B. Židlický z Ostravy. Národný dom bol slávnostne otvorený v roku 1895. Boli v ňom jednak miestnosti pre Frýdlantskú záložňu z roku 1871, sála pre katolícku besedu, ktorá je dnes premenená na Janáčkovu sieň, v ktorej sa teraz konajú svadobné obrady, koncerty a iné kultúrne a spoločenské podujatia. Prízemie budovy bolo prenajaté ako krčma, na 1. poschodí malo svoje miestnosti mesto. Radnica bola niekoľkokrát prestavovaná a upravovaná. Posledné opravy, ktoré stavbe dali pôvodný novorenesančný vzhľad, prebehli v rokoch 1998 – 99 podľa Ing. arch. Tomáša Šimonovského z Ostravy. V súčasnej dobe budova slúži ako správna budova pre vedenie mesta Frýdlant nad Ostravicí a odbor životného prostredia.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Frýdlant",

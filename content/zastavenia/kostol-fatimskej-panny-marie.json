@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.371677,
+    "lng": 18.609308
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m25!1m12!1m3!1d20891.305260460653!2d18.605053346126716!3d49.38966164171695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m10!3e2!4m4!2s49.403521%2C+18.625441!3m2!1d49.403521!2d18.625441!4m3!3m2!1d49.3716353!2d18.6091525!5e0!3m2!1ssk!2ssk!4v1514623171735",
   "text": "V júli 2000 bola z farnosti Turzovka vyčlenená nová farnosť Korňa. K novej farnosti boli ako filiálky prifarené aj Živčáková a Turkov. Prvým farárom sa stal dovtedajší turzovský farár a dekan Ivan Mahrík. Jeho zásluhou bol postavený aj kostolík v Turkove. Iniciátorkou stavby bola Veronika Krišťáková, ktorá pod kostol darovala pozemok. Stavba nového kostola sa začala v novembri 2000. Stavebné práce vykonávali svojpomocne veriaci z Turkova, Podvysokej, Korne i Turzovky a v priebehu dvoch rokov sa podarilo stavbu kostola dokončiť. Slávnostnú konsekráciu vykonal 12. mája 2002 nitriansky sídelný biskup Ján Chryzostom kardinál Korec. Mesto Turzovka zaobstaralo pre kostol zvon od firmy Tkadlec z Halenkova. Zaujímavosťou je, že socha Panny Márie Fatimskej pochádza priamo z portugalského pútnického miesta. Od 28. júna 2002 sa stal Turkov opätovne filiálkou turzovskej farnosti.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Turzovka",

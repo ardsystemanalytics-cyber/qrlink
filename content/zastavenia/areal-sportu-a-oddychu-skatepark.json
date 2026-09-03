@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.401766,
+    "lng": 18.619574
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d5191.748366758842!2d18.622272999999993!3d49.403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e2!4m3!3m2!1d49.403521!2d18.625441!4m5!1s0x47146eb04eeba0a5%3A0x1e28ecd103261601!2sAre%C3%A1l+%C5%A1portu+a+oddychu%2C+17%2C+Slovansk%C3%A1+62%2F7%2C+023+54+Turzovka!3m2!1d49.4017659!2d18.619573799999998!5e0!3m2!1ssk!2ssk!4v1514628550626",
   "text": "Športovým nadšencom mesto ponúka návštevu Areálu športu a oddychu v Turzovke-Závodí. K dispozícii je viacúčelové ihrisko s hracou plochou s rozmermi 42 m x 22 m určené na hádzanú, volejbal, nohejbal a vonkajšie hokejbalové ihrisko v štandardných medzinárodných rozmeroch 46 m x 22 m. V letných mesiacoch si môžete zahrať petang, tenis na dvoch antukových dvorcoch či previesť sa po dopravnom ihrisku na kolobežke, kárach alebo štvorkolke. Samozrejmosťou je vonkajšie a vnútorné spoločenské zázemie – oddychová terasa, lavičky, budova správcu so šatňami, hygienickým a športovým servisom a spoločenskou miestnosťou. Súčasťou areálu je vonkajší altánok s možnosťou opekačky a detské atrakcie pre najmenších. V blízkosti sa nachádza skatepark pre nadšencov adrenalínového športu so siedmimi prekážkami.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Turzovka",

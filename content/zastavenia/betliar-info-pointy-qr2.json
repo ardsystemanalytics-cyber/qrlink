@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 48.704072,
+    "lng": 20.509225
+  },
+  "mapEmbed": "https://www.google.com/maps?q=48.704072,20.509225&z=18&output=embed",
   "text": "Stredoveká stavba z 1. polovice 14. storočia, v 17. a 19. storočí upravovaná, najstaršia pamiatka obce. Podľa dostupných prameňov na mieste kostola stála už v 14. storočí kaplnka, ktorá sa postupom dejín prestavala do dnešnej podoby. Na gotický pôvod kostola poukazuje jeho pôdorys s pravouhlou svätyňou zaklenutou valenou klenbou a sakristiou, do ktorej vedie lomený portál. Veža bola pristavaná v 17. storočí. Loď kostola je zaklenutá barokovými klenbami. Z barokového zariadenia kostola sa zachovala iba drevená kazateľnica zo začiatku 18. storočia so sochami evanjelistov a drevená socha panny Márie kráľovnej z 2. polovice 18. storočia. Na hlavnom oltári z konca 19. storočia je obraz sv. Alžbety vdovy na bočnom oltári obraz sv. Alžbety Uhorskej.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Betliar",

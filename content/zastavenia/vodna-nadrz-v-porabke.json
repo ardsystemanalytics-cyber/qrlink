@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.807201,
+    "lng": 19.201918
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m27!1m12!1m3!1d327904.5029241407!2d18.779605057085988!3d49.623889390125676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m12!3e0!4m4!2s49.403521%2C+18.625441!3m2!1d49.403521!2d18.625441!4m5!1s0x47169c6c0f601ec9%3A0x6c293935b5dfa916!2sZapora+Por%C4%85bka+w+Mi%C4%99dzybrodziu+Bialskim%2C+%C5%81azki%2C+Mi%C4%99dzybrodzie+Bialskie%2C+Po%C4%BEsko!3m2!1d49.8072015!2d19.201918199999998!5e0!3m2!1ssk!2ssk!4v1515246322097",
   "text": "Vodná nádrž v Porąbke a zachytávač vody, dnes nazývaný Międzybrodzkie jazero, boli postavené v rokoch 1928 až 1937 v úzkej priechode medzi Zasolnicou a Kozubnikom. Toto bola prvá takáto investícia v Poľsku. Autorom projektu priehrady bol Ing. Gabriel Narutowicz (neskôr prezident Poľskej republiky). Priehrada je betónová, má výšku 37,3 m. Spolu s priehradami v Tresne a Czańcu tvorí kaskádu rieky Soła.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Porąbka",

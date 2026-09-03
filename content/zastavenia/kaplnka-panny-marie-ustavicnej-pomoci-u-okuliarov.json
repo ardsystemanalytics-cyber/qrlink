@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.406749,
+    "lng": 18.628815
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d5191.151182397404!2d18.625863202219136!3d49.40655402896331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e2!4m3!3m2!1d49.403521!2d18.625441!4m5!1s0x47146eac1b258d37%3A0x52043d7bc83c5197!2sR.+Ja%C5%A1%C3%ADka+318%2F38%2C+023+54+Turzovka!3m2!1d49.406646699999996!2d18.6280857!5e0!3m2!1ssk!2ssk!4v1514628309169",
   "text": "Pôvodná drevená kaplnka Blahoslavenej Panny Márie bola postavená v roku 1810 Jozefom Okuliarom, ktorý na ňu zložil fundáciu 10 zlatých. Zaujímavé je, že kaplnka sa nachádzala v obvode cintorína. Obnovy, resp. opravy kaplnky sa spomínajú v rokoch 1822, 1856 či 1860. V roku 1856 namaľoval do kaplnky obraz Panny Márie známy tešínsky maliar Eduard Świerkiewicz. Stará drevená kaplnka bola v roku 1924 asanovaná a na jej mieste bola postavená súčasná kaplnka Panny Márie ustavičnej pomoci. Rok 1924 sa nachádza aj na jej priečelí. Fasáda kaplnky je vyzdobená upraveným erbovým znamením z národného erbu – z modrého trojvršia vyrastajúci zlatý dvojkríž. Nad ním sa vznáša osemcípa zlatá hviezda. Kovový dvojkríž je umiestnený aj na špici malej vežičky.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Turzovka",

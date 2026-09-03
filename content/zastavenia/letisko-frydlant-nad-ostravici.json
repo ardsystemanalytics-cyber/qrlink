@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.589172,
+    "lng": 18.376106
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m27!1m12!1m3!1d165846.86804241038!2d18.387242968969634!3d49.49664604044663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m12!3e0!4m4!2s49.403521%2C+18.625441!3m2!1d49.403521!2d18.625441!4m5!1s0x47140a7b63d93a8f%3A0xe487d1164233bd12!2sAeroklub+Fr%C3%BDdlant+nad+Ostravic%C3%AD%2C+Fr%C3%BDdlant+nad+Ostravic%C3%AD%2C+739+11+Fr%C3%BDdlant+nad+Ostravic%C3%AD%2C+%C4%8Cesko!3m2!1d49.589171699999994!2d18.3761056!5e0!3m2!1ssk!2ssk!4v1515008105929",
   "text": "Športové letisko nad mestom Frýdlant nad Ostravicí a pod Lysou horou slúži pre motorové aj bezmotorové lietanie. Najvyšší vrchol Ondřejníka Skalka umožňuje prevádzkovanie množstva paradisciplín.\n\nLetisko vo Frýdlante nad Ostravicí je najvýchodnejšie položeným letiskom Českej republiky. Vlastníkom a prevádzkovateľom verejného vnútroštátneho letiska je Aeroklub Frýdlant nad Ostravicí. Je držiteľom licencií na prevádzkovanie leteckých prác, leteckej školy a parašutistickej školy. V súčasnosti združuje okolo 100 členov, ale za celú históriu existencie letiska a pôsobenia frýdlantského aeroklubu vyšlo z jeho radov nespočetné množstvo pilotov, parašutistov a predtým aj modelárov. Členovia sa v rámci aeroklubu nevenujú len vlastnému motorovému alebo bezmotorovému lietaniu a parašutizmu, ale aj organizácii a zabezpečeniu letových prevádzok, základných a zdokonaľovacích výcvikov, údržbe leteckej techniky, opravám a výstavbe areálu letiska, údržbe letiskovej vzletovej a pristávacej dráhy, organizovaniu športových, leteckých a spoločenských akcií, práci s mládežou a poskytovaniu služieb iným organizáciám, návštevníkom, turistom alebo hosťom letiska. Aeroklub vlastní lietadlá, vrtuľníky, klzáky, ultraľahké lietadlá i voľné balóny.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Frýdlant",

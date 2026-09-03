@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 48.703546,
+    "lng": 20.508526
+  },
+  "mapEmbed": "https://www.google.com/maps?q=48.703546,20.508526&z=18&output=embed",
   "text": "Evanjelická fara je postavená v tesnej blízkosti evanjelického kostola. Je v nej byt pre duchovného a sídli v nej aj farský úrad. Fara bola aj sídlom Seniorského úradu Gemerského seniorátu. Na priečelí fary bola v roku 1998 odhalená Pamätná tabuľa pamiatke ThDr. Júliusa Madarása, doktora teológie, ktorý v obci pôsobil.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Betliar",

@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.419162,
+    "lng": 18.59347
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m25!1m12!1m3!1d10601.225427162688!2d18.603647203180532!3d49.41196450564725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m10!3e2!4m4!2s49.403521%2C+18.625441!3m2!1d49.403521!2d18.625441!4m3!3m2!1d49.4194515!2d18.594634799999998!5e0!3m2!1ssk!2ssk!4v1514465966220",
   "text": "Nachádzajú sa v mestskej časti Predmier. Je to vodná plocha dvoch štrkovísk pri sútoku riek Predmieranka a Korňanka. História lovných rybníkoch siaha až do roku 1975. Pôvodne sa členovia rybárskeho spolku stretávali len pri bežných rybačkách. Kysucký región je chudobný na stojace vody, a preto vznikla potreba vybudovať vlastné lovné rybníky. Spolok dokončil stavbu svojho prvého rybníka – v Turzovke a spravil zarybnenie. Nasadený bol kapor (600 kg, 1- až 2-kilové) a pstruh dúhový (200 kg, dvojročný). Na výstavbe rybníka bolo odpracované veľké množstvo brigádnických hodín. Pre zaujímavosť: pán Zemaník 840 hodín a pán Drvár 620 hodín.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Turzovka",

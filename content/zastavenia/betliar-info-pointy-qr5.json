@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 48.70283,
+    "lng": 20.507596
+  },
+  "mapEmbed": "https://www.google.com/maps?q=48.70283,20.507596&z=19&output=embed",
   "text": "Je postavená v strede obce na mieste bývalého hasičského skladu. Už v roku 1884 bol v obci grófom Manó Andrássym založený dobrovoľný hasičský zbor. Zakladateľ zboru zakúpil aj prvú hasičskú výstroj a výzbroj. V roku 1932 bola postavená nová hasičská zbrojnica, ktorá je zaujímavá tým, že stojí na železobetónových podstavcoch nad šírkou celého potoka. Je v nej zasadačka, garáže a priestory pre hasičskú techniku. Pri príležitosti 50. výročia založenia Dobrovoľného hasičského zboru v obci si obec zadovážila i hasičskú vlajku. Na čelnej strane budovy bola pri príležitosti 120. výročia založenia odhalená Pamätná tabuľa na pamiatku zaslúžilých členov Dobrovoľného hasičského zboru. Vo výklenku z druhej strany budovy je uložená soška patróna hasičov – sv. Floriána.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Betliar",

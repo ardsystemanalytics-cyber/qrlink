@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.855608,
+    "lng": 19.217363
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d342937.4142361295!2d18.80230021809637!3d49.65126879764531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x47146eade122dcab%3A0x67cf567148392c17!2zTsOhZHJhxb5uw6EgMTEtMTMsIDAyMyA1NCBUdXJ6b3ZrYQ!3m2!1d49.403683!2d18.625353!4m5!1s0x47169bce5894abc1%3A0xfb7ab4c7291dfca5!2sParkowa+20A%2C+43-356+Kobiernice%2C+Po%C4%BEsko!3m2!1d49.855607899999995!2d19.217363!5e0!3m2!1ssk!2ssk!4v1518034501411",
   "text": "Vila v Kobiernicki bol postavený v prvej polovici 19. storočia v klasicistickom štýle rodinou Tomkowičovcov.  Budova je prízemná, s vysokou strechou v tvare obdĺžnika. V strede budovy sa nachádza predsieň pred štyrmi iónovými stĺpmi a na stenu pilastry s iónovými korunami. Fasáda zo strany záhrady je veľmi zdobená, takmer úplne od podlahy, rozdelená pilastrami. Vo vnútri budovy sa nachádzajú neogotické krby. Vila sa nachádza v centre obce, obklopená historickým parkom, kde prežili mnohé druhy nádherných stromov až do súčasnosti. V rokoch 1886 – 1920 vo vile pôsobila  z rzhodnutia Národného parlamentu z roku 1884, Stredná poľnohospodárska škola. Škola bola založená s podporou vtedajšieho majiteľa panstva Kobiernice, baróna Herman Čeča z Koz. Tieto miesta sú naozaj kreatívne. Dnes tu sídli Dom kultúry, vzdelávacie centrum a sídlo združení pôsobiacich v obci.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Porąbka",

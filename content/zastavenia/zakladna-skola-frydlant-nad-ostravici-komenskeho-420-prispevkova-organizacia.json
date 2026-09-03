@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.592179,
+    "lng": 18.357999
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m27!1m12!1m3!1d165827.00272619413!2d18.353963274557014!3d49.50250799225783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m12!3e0!4m4!2s49.403521%2C+18.625441!3m2!1d49.403521!2d18.625441!4m5!1s0x4713f59877833131%3A0xcb8b6b99834ea021!2zWsOha2xhZG7DrSDFoWtvbGEgRnLDvWRsYW50IG5hZCBPc3RyYXZpY8OtIEtvbWVuc2vDqWhvIDQyMCBva3JlcyBGcsO9ZGVrLU3DrXN0ZWssIHDFmcOtc3DEm3Zrb3bDoSBvcmdhbml6YWNlLCBIbGF2bsOtIDEzOSwgRnLDvWRsYW50IG5hZCBPc3RyYXZpY8OtLCDEjGVza28!3m2!1d49.592178499999996!2d18.3579988!5e0!3m2!1ssk!2ssk!4v1515007861863",
   "text": "História školy sa píše od roku 1925, kedy sa začala stavať budova na Komenského ulici a bola dlho najvyššou budovou v meste. Výučba sa začala v školskom roku 1926/1927. V máji 1994 sa škola rozšírila o nový pavilón pre druhý stupeň vzdelávania. Historická časť budovy bola v roku 2004 po mnohých rokoch rekonštruovaná a areál školy bol rozšírený o časť, kde je teraz školská jedáleň a učebne pre prvý stupeň vzdelávania. Areál školy dopĺňa moderne vybavené športové ihrisko. Základná škola má kapacitu 560 žiakov. Jej zriaďovateľom je mesto Frýdlant nad Ostravicí. Škola má tiež svoje odlúčené pracovisko, ktoré sa nachádza v mestskej časti Nová Ves.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Frýdlant",

@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 48.702415,
+    "lng": 20.506491
+  },
+  "mapEmbed": "https://www.google.com/maps?q=48.702415,20.506491&z=18&output=embed",
   "text": "Budova Správy lesov bola pôvodne sídlom správcu majetkov rodiny Andrássyovcov a postavená bola v roku 1900. Neskôr v nej sídlilo i posádkové veliteľstvo delostreleckého oddielu 261 a od októbra 1934 sídli v budove Správa štátnych lesov a statkov, ktorá v tom istom roku prevzala rozsiahlu časť majetku rodiny Andrássyovcov. Dodnes v budove sídli Správa lesov SR.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Betliar",

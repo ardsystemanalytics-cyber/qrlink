@@ -93,13 +93,28 @@ function extractImages(html) {
   return out;
 }
 
-async function extractAudio(pageUrl) {
+// Audio aj GPS sú na starom webe len v ACF poliach vyrenderovaných priamo do
+// HTML (nie sú v REST API), preto oboje vyťahujeme z jednej vyrenderovanej
+// stránky zastavenia. GPS má formu "<h3>Mapa - GPS (lat, lng)</h3>" +
+// Google Maps iframe (ten použijeme ako "mapEmbed" – rovnaký formát, aký
+// admin/config.yml očakáva pri ručnom vypĺňaní).
+async function extractAudioAndGps(pageUrl) {
   const html = await fetchText(pageUrl);
-  const out = [];
-  const re = /<source[^>]+src="([^"]+\.mp3)"/gi;
+
+  const audio = [];
+  const audioRe = /<source[^>]+src="([^"]+\.mp3)"/gi;
   let m;
-  while ((m = re.exec(html))) out.push(m[1]);
-  return out;
+  while ((m = audioRe.exec(html))) audio.push(m[1]);
+
+  let gps = null;
+  const gpsMatch = html.match(/Mapa\s*-\s*GPS\s*\(\s*(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)\s*\)/i);
+  if (gpsMatch) gps = { lat: parseFloat(gpsMatch[1]), lng: parseFloat(gpsMatch[2]) };
+
+  let mapEmbed = "";
+  const embedMatch = html.match(/<iframe[^>]+src="(https:\/\/www\.google\.com\/maps[^"]+)"/i);
+  if (embedMatch) mapEmbed = embedMatch[1].replace(/&amp;/g, "&");
+
+  return { audio, gps, mapEmbed };
 }
 
 async function fetchCategoryItems(categoryId) {
@@ -164,7 +179,7 @@ async function main() {
     const text = htmlToText(item.content.rendered);
     const galeria = extractImages(item.content.rendered).map((url) => ({ url }));
     const cover = await fetchFeaturedImage(item.featured_media);
-    const audioUrls = await extractAudio(item.link);
+    const { audio: audioUrls, gps: scrapedGps, mapEmbed: scrapedMapEmbed } = await extractAudioAndGps(item.link);
     const audio = audioUrls.map((url) => ({ url }));
 
     const out = {
@@ -181,8 +196,8 @@ async function main() {
       cover: cover || existing?.cover || "",
       audio: audio.length ? audio : existing?.audio ?? [],
       galeria: galeria.length ? galeria : existing?.galeria ?? [],
-      gps: existing?.gps ?? null,
-      mapEmbed: existing?.mapEmbed ?? "",
+      gps: scrapedGps ?? existing?.gps ?? null,
+      mapEmbed: scrapedMapEmbed || existing?.mapEmbed || "",
       text: text || existing?.text || "",
       hlavnaKategoria: miesto.hlavnaKategoria ?? "",
       projekt: miesto.korenoveMiesto ?? miesto.nazov,
@@ -191,7 +206,7 @@ async function main() {
     };
 
     fs.writeFileSync(zPath, JSON.stringify(out, null, 2) + "\n", "utf8");
-    console.log(`  ${existing ? "update" : "NOVÝ "} ${slug}.json  (audio:${audio.length} galéria:${galeria.length})`);
+    console.log(`  ${existing ? "update" : "NOVÝ "} ${slug}.json  (audio:${audio.length} galéria:${galeria.length} gps:${scrapedGps ? "áno" : "nie"})`);
     poradie++;
   }
 }

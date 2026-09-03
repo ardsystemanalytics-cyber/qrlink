@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.398615,
+    "lng": 18.639535
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m27!1m12!1m3!1d5192.752350868868!2d18.6308630034943!3d49.40179144673554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m12!3e2!4m4!2s49.403521%2C+18.625441!3m2!1d49.403521!2d18.625441!4m5!1s0x4714694d828f4a4f%3A0xfeb5bfbc603ea00d!2sRekrea%C4%8Dn%C3%A9+Stredisko+Bukovina%2C+Pod+Bukovinou%2C+Turzovka!3m2!1d49.398615299999996!2d18.6395351!5e0!3m2!1ssk!2ssk!4v1514464868078",
   "text": "Rekreačné stredisko Bukovina sa nachádza 2 km od centra Turzovky v regióne Kysuce. Stredisko ponúka priamo v areáli možnosť ubytovacích a stravovacích služieb. K dispozícii sú dva lyžiarske vleky s dĺžkou 500 m a 600 m s prepravnou kapacitou 1250 osôb za hodinu. Svahy sú vhodné pre začiatočníkov, ale aj pokročilých lyžiarov. Sú denne upravované snežnými pásovými vozidlami. Je tu aj možnosť večerného lyžovania, nakoľko je svah osvetlený umelým osvetlením. Ubytovacia kapacita rekreačného strediska je 45 lôžok. 18 lôžok je v hlavnej chate v dvoj-, troj- a štvorposteľových izbách so sociálnym zariadením. V blízkosti sa nachádza bežecká trasa Beskydsko-javornícka lyžiarska magistrála. Základná dĺžka magistrály je 54 km, vinie sa od hraníc Českej republiky z Makova – Veľkého Javorníka, Makova – Bumbálky a pokračuje pohorím Vysokých Javorníkov až po lokalitu Čadca – Husárik. Ďalšie trasy tvoria alternatívy, možnosti nástupu alebo zostupu z hlavnej trasy a majú celkovú dĺžku cca 42 km. Turisti z Českej republiky sa môžu napojiť v Makove – Bumbálke, v Makovskom priesmyku (U Tabuli) a v Klokočove – Konečnej. Na hrebeni Javorníkov okrem nezameniteľnej atmosféry osád sprevádza turistov aj jedinečná galéria v prírode, ktorú vytvorili umelci z regiónu Kysúc a Považia.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Turzovka",

@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 48.701845,
+    "lng": 20.514181
+  },
+  "mapEmbed": "https://www.google.com/maps?q=48.701845,20.514181&z=18&output=embed",
   "text": "Pomník padlým v 1. a v 2. svetovej vojne sa nachádza na miestnom cintoríne. Nový cintorín bol založený v roku 1931. Boli v ňom vytvorené tzv. ulice, ktoré lemovalo 160 vysadených líp. V strede cintorína bol pri jeho vysvätení odhalený pomník v tvare mohutného kríža s mramorovou tabuľou, do ktorej boli vytesané mená občanov padlých v 1. svetovej vojne. Druhá tabuľa bola na pomníku umiestnená po skončení 2. svetovej vojny a sú na nej vyryté mená padlých v tejto vojne. Pri pomníku sa dodnes konajú pri významných výročiach obecné pietne akty.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Betliar",

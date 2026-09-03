@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 48.70222,
+    "lng": 20.501995
+  },
+  "mapEmbed": "https://www.google.com/maps?q=48.702220,20.501995&z=18&output=embed",
   "text": "Rodinný dom na Polomskej ulici č. 113 bol postavený začiatkom 20. storočia po ľavej strane hlavnej cesty smerom do Dobšinej. Nesie na sebe znaky stavebných úprav domov z doby postavenia. Je zachovalý, majitelia ho udržiavajú na požadovanej úrovni. Dodnes je obývaný a je jedným z mála zachovalých domov z tejto doby.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Betliar",

@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 48.703489,
+    "lng": 20.508859
+  },
+  "mapEmbed": "https://www.google.com/maps?q=48.703489,20.508859&z=18&output=embed",
   "text": "Evanjelický kostol augsburského vyznania bol postavený v roku 1786 po tolerančnom patente cisára Jozefa II., podľa vtedajších predpisov bez veže a zvonov. Klasicistická veža bola pristavaná až v roku 1826, pod ňou bol otvorený nový vstup do kostola. Pôvodný južný vstup s murovanou predsieňou zostal zachovaný. Pozdĺžny sieňový priestor kostola zaklenutý neskorobarokovými klenbami má zaujímavý uzáver v ostrom uhle. Tu je umiestnený murovaný stĺpový oltár s obrazom Kristus a Samaritánka pri studni z roku 1838, ktorý je jedným z najlepších diel významného levočského maliara Jozefa Czauczika.\n\nBudovu kostola i veže postihli požiare a v roku 1856 vyhoreli do základov. Vzápätí bol však znovu vybudovaný a neporušený zostal až do roku 1911, kedy bola strecha kostola pokrytá eternitom a veža plechom. V 1937 bol kostol renovovaný. Posledné úpravy interiéru kostola sa konali v 90. rokoch minulého storočia, v roku 2006 získala veža kostola novú medenú krytinu a v roku 2008 sa previedla výmena strešnej krytiny na lodi kostola.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Betliar",

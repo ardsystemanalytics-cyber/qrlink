@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.174201,
+    "lng": 18.860655
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d652.0972983161395!2d18.86010782924825!3d49.17420099870749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDEwJzI3LjEiTiAxOMKwNTEnMzguNCJF!5e0!3m2!1ssk!2ssk!4v1594622583792!5m2!1ssk!2ssk",
   "text": "Krížne cesty\n\nTu sa obidve cesty stretajú tak, ako sa stretá hradný pán František s pani Žofiou a idú vedno ruka v ruke na Strečniansky hrad, kde ich víta služobníctvo.\n\nHistória hradov na Slovensku\n\n11. a 12. storočie bolo obdobím, kedy bolo dôležité chrániť pohraničné územie pred útokmi nepriateľov. Okrem strážnej služby pomáhal tomuto účelu aj systém hradov pri najdôležitejších komunikáciách. Najväčší rozmach výstavby kamenných hradov na Slovensku však začal až v polovici 13. storočia (bezprostredne po tatárskej invázii). Nové objekty boli postavené buď na miestach pôvodných drevených hradov, alebo v ich blízkosti. V priebehu 14. – 15. storočia prechádzali pôvodne kráľovské majetky do rúk šľachty buď ako záloha za poskytnutú pôžičku, alebo za mimoriadne služby kráľovi. Šľachta niekedy investovala do ich prestavieb a zmenila staré hrady na prepychové paláce. Až turecké nájazdy v 16. storočí si vyžiadali výstavbu nových opevnení. Systém stredovekých hradov však postupne už od poslednej tretiny 17. storočia začína strácať svoj vojenský a strategický význam a v priebehu 18. storočia dochádza k presunu šľachtických rodov z hradných panstiev do kaštieľov. Práve v tomto období boli mnohé hrady zbúrané, vypálené a iné po vysťahovaní obyvateľov začali rýchlo chátrať.",
   "hlavnaKategoria": "Pamiatky",
   "projekt": "Hrad Strečno",

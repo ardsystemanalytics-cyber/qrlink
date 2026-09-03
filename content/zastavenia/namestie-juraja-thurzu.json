@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.403598,
+    "lng": 18.62358
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m25!1m12!1m3!1d1333.5962569436483!2d18.624453631398385!3d49.40376214936572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m10!3e2!4m4!2s49.403521%2C+18.625441!3m2!1d49.403521!2d18.625441!4m3!3m2!1d49.403267799999995!2d18.6239868!5e0!3m2!1ssk!2ssk!4v1514451878671",
   "text": "Prvá písomná zmienka o trvalom osídlení územia mesta Turzovka sa viaže s Jurajom Thurzom a pochádza z obdobia valašskej kolonizácie, z roku 1580 ako „locum Predmér“. Thurzovci ako majitelia bytčianskeho panstva potrebovali zaistiť svoje majetky na vlastnom území proti prenikaniu valachov z okolitých panstiev. S pomenovaním Turzovky sa stretávame prvýkrát v Urbári bytčianskeho panstva, v ktorom je urobený dodatočný zápis, že Turzovka bola založená roku 1598. Obec získala lokačnú listinu 21. februára 1602. Juraj Thurzo v nej nariaďuje prvým osadníkom, aby v novom území vystavali čo najskôr kostol a faru. V roku 1968 je Turzovka povýšená na mesto a do používania sa uvádza erb mesta, ktorý neskôr heraldická komisia upravila do dnešnej podoby.\n\nNa počesť uhorského palatína a zakladateľa Turzovky Juraja Thurzu dalo mesto Turzovka v roku 2009 vybudovať Námestie Juraja Thurzu. Námestie sa nachádza na Obchodnej ulici pri Šarkparku a súčasťou je Pamätná tabuľa Juraja Thurzu, ktorá bola slávnostne odhalená pri príležitosti IV. svetového stretnutia Turzovčanov. Iniciátorom bol Spolok priateľov Turzovky za pomoci viacerých sponzorov a prispievateľov. Autorom bronzovej tabule je sochár Ondrej Zimka ml. Tabuľa je osadená do opracovanej žuly, ukotvenej do nerezového rámu, ktorý je upevnený v betónovom podstavci. Na bronzovej plastike je vyobrazenie Juraja III. Thurzu s opisom všetkých hodností, ktoré zakladateľ Turzovky počas svojho života získal.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Turzovka",

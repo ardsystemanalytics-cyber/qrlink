@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 48.693316,
+    "lng": 20.506356
+  },
+  "mapEmbed": "https://www.google.com/maps?q=48.693316,20.506356&z=18&output=embed",
   "text": "Dva poschodové bytové domy z 19. storočia postavené pre zamestnancov bývalého železiarskeho podniku Andrássyovcov a Nádasdyovcov. Domy neskôr slúžili ako byty pre dôchodcov Rimamuránskej železiarskej spoločnosti. Dnes sú využívané prevažne ako rekreačné obydlia.\n\nV lokalite pracovali ešte na začiatku 20. storočia vysoké pece na tavbu železnej rudy, z ktorých sa v blízkom teréne zachovali zvyšky kamenných múrov. Voda z rieky Slaná odvedená umelým kanálom, ktorý dodnes existuje, poháňala ešte v 50. rokoch 20. storočia turbínu malej vodnej elektrárne.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Betliar",

@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.580831,
+    "lng": 18.319616
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m27!1m12!1m3!1d165836.98823990137!2d18.329842754776482!3d49.499561483498425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m12!3e0!4m4!2s49.403521%2C+18.625441!3m2!1d49.403521!2d18.625441!4m5!1s0x4713f5029ed1857b%3A0xe3a8a964517bb58f!2zS2FwbGUgc3ZhdMOpaG8gQW50b27DrW5hIFBhZHXDoW5za8OpaG8sIE9uZMWZZWpuw61rLCA3MzkgMTEgRnLDvWRsYW50IG5hZCBPc3RyYXZpY8OtLCDEjGVza28!3m2!1d49.5808313!2d18.3196163!5e0!3m2!1ssk!2ssk!4v1515012727603",
   "text": "Romantická Kaplnka sv. Antonína stojí pred turistickou chatou Klubu českých turistov Ondřejník a zaniknutou chatou Solárkou pod vrchom masívu Ondřejník. Jej umiestnenie poskytuje široký výhľad do okolitej krajiny, na Frýdlant nad Ostravicí v údolí, na celú Ostravskú panvu a masív Lysej hory, najvyššej hory Moravskoslezských Beskýd.\n\nKaplnka a pohostenie v blízkej drevenici Ondřejníček sú v lete aj zime častým cieľom turistov zo širokého okolia.\n\nNa Ondřejník vedie z Frýdlantu niekoľko turistických trás aj pohodlná asfaltová cesta.\n\nKaplnka je pomerne mladou stavbou. Bola postavená v rámci výstavby nového a moderného horského hotela Solárka v rokoch 1932 – 1933, ktorý nechali postaviť manželia Oldřich a Františka Látalovi z Moravskej Ostravy. Solárka sa mala stať moderným hotelom v horskom prostredí, ktorý by spĺňal všetky požiadavky na pohodlný, avšak štýlový pobyt na horách. A aby majitelia dodali okoliu svojho hotela romantickejší ráz, postavili v roku 1933 v jeho blízkosti kaplnku pomenovanú na pamiatku najväčších priaznivcov turisticky na Ondřejníku, prof. Antonína Uřídila z Brna.\n\nHoci slávny hotel Solárka 28. 9. 2002 vyhorel a jeho trosky boli až ku kamennej podmurovke zbúrané, Kaplnka sv. Antonína ďalej hľadí do údolia a rozpráva o bývalej sláve turistiky na Ondřejníku.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Frýdlant",

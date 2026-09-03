@@ -11,8 +11,11 @@
     }
   ],
   "galeria": [],
-  "gps": null,
-  "mapEmbed": "",
+  "gps": {
+    "lat": 49.585279,
+    "lng": 18.364264
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m27!1m12!1m3!1d164588.38168304492!2d18.40416407705247!3d49.496800374406526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m12!3e0!4m4!2s49.403521%2C+18.625441!3m2!1d49.403521!2d18.625441!4m5!1s0x4713f59c53610893%3A0xe97711584e233f61!2zVSBoxZlpxaF0xJsgMTQyNCwgRnLDvWRsYW50LCA3MzkgMTEgRnLDvWRsYW50IG5hZCBPc3RyYXZpY8OtLCDEjGVza28!3m2!1d49.5852788!2d18.3642642!5e0!3m2!1ssk!2ssk!4v1515009563390",
   "text": "Futbal vo Frýdlante má skutočne hlboké korene. Veď začiatky tohto športu na území nášho mesta siahajú až do roku 1921. Pod hlavičkou SK Frýdlant sa niekoľko športových nadšencov stáva priekopníkmi futbalu v meste. Koncom dvadsiatych rokov 20. storočia nastáva vo Frýdlante veľký rozmach futbalu. Vzniká celý rad amatérskych periférnych klubov ako CZ Vincek Hamer Cukor, SK Odeon Papiereň, Viktoria, Kamenec, Kopec I, Kopec II, Paseky, Nová Dědina, Obecný a Argentína. Tieto kluby medzi sebou zvádzali tuhé boje o majstra Frýdlantu a práve v týchto družstvách začínalo množstvo neskorších vynikajúcich hráčov, ktorí šírili slávu nášho mesta v celom kraji. V roku 1931 je oficiálne založené SSF – Športové združenia Frýdlant (Sportovní sdružení Frýdlant) a súčasne tiež oddiel futbalu. V roku 1932 začal továrnik Postelberg, majiteľ závodu NORMA, s budovaním športového areálu. Ten bol slávnostne otvorený v roku 1933 majstrovským zápasom proti SK Meteor Vratimov, v ktorom domáci hráči rozdrvili svojho súpera v pomere 5:0. Vo Frýdlante tak nastal obrovský rozmach futbalu. V máji 2012 sa 1. Beskydský futbalový klub Frýdlant nad Ostravicí dočkal najväčšieho úspechu v dejinách klubu, keď z majstrovstiev Európy neprofesionálnych tímov v Rakúsku doviezol striebornú medailu a stal sa tak vicemajstrom Európy „Mountain Village European Championship“.\n\nFutbalový štadión sa skladá z troch hracích plôch, z toho jedna je s umelým trávnikom tretej generácie a s možnosťou osvetlenia. Kapacita štadióna je 2600 miest, z toho je 530 miest na sedenie.\n\nSúčasťou areálu je aj hala Sport. Ide o viacúčelový športový areál využívaný prevažne na halové športy. Hlavnou súčasťou haly je veľká telocvičňa s rozmermi 15 x 30 m, ktorá je vhodná pre hru bedmintonu (2 kurty), nohejbalu, florbalu, hádzanej, sálového futbalu a volejbalu. Areál športovej haly ďalej disponuje herňou stolného tenisu. V hale Sport sa ďalej nachádza posilňovňa a nefajčiarsky bar s kapacitou 30 miest.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Frýdlant",
