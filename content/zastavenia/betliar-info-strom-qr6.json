@@ -11,7 +11,10 @@
     }
   ],
   "galeria": [],
-  "gps": null,
+  "gps": {
+    "lat": 48.708569,
+    "lng": 20.510668
+  },
   "mapEmbed": "https://www.google.com/maps?q=48.708569,20.510668&z=18&output=embed",
   "text": "Povyše, na ostrovčeku obmývanom dvomi odrazenými ramenami potôčika, stojí osemuholníková stavba pavilónu s oknami v tvare geometrických slobodomurárskych symbolov. Objekt bol postavený koncom 18. storočia a bol viackrát prestavaný. Dal ho postaviť gróf Leopold Andrássy, ktorý bol zakladateľom slobodomurárskeho hnutia na Gemeri.\n\nSlobodomurárske hnutie vzniklo začiatkom 18.storočia v Anglicku a odtiaľ sa rozšírilo do ostatných častí Európy. Pôvodne bolo členstvo v organizácii utajované, neskôr členovia vytvárali uzavretú spoločnosť. Cieľom hnutia bolo mravné zdokonalenie, sloboda myslenia, náboženská tolerancia, povznesenie verejného blaha, mravnosti a ľudskosti, a sčasti aj dobročinnosť.\n\nSteny interiéru slobodomurárskeho pavilónu sú ozdobené maľbou antického chrámového stĺporadia, ktoré evokujú interiér chrámu. V interiéri kedysi stávala biela mramorová socha – ženské torzo pokryté štylizovanou rybárskou sieťou – dnes je socha kvôli bezpečnosti umiestnená v kaštieli. Namiesto nej sú na podlahe uložené dva poškodené kamenné barokové epitafy (náhrobné kamene), ktoré boli v 70-tych rokoch minulého storočia sňaté z budovy poľovníckeho pavilónu v blízkom lese (Bosniak). Pôvodne ich bolo päť, všetky boli vtedy reštaurované.\n\nV okolí pavilónu sú pomerne časte 3 a 5 kmenne stromy, ktoré podľa niektorých historikov/odborníkov boli vysadené zámerné, (aby spolu zrástli) aby bola aj v prírode zvýraznená slobodomurárska symbolika.",
   "hlavnaKategoria": "Mestá",

@@ -11,7 +11,10 @@
     }
   ],
   "galeria": [],
-  "gps": null,
+  "gps": {
+    "lat": 48.706519,
+    "lng": 20.509787
+  },
   "mapEmbed": "https://www.google.com/maps?q=48.706519,20.509787&z=18&output=embed",
   "text": "Tisy patria medzi naše najtmavšie ihličnaté dreviny. Všetky časti plodu okrem dužiny sú jedovaté. Rastú aj na tmavých miestach, sú nenáročné na pôdu.\n\nTis je európska drevina, s obľubou sa pestuje v parkoch a záhradách a je vhodný nielen do prírodných, ale aj do architektonických parkov, pretože dobre znáša rez a dá sa tvarovať.\n\nV našom parku, pri ceste k Hermesovej studni rastie 9 tisov, údajne veľmi starých. Ich presný vek je ťažké určiť, lebo jeho vetvy začínajú po 200 až 250 rokoch zrastať do jedného hrubšieho kmeňa. Hoci sú hrúbky kmeňov rozdielne, všetkých 9 tisov bolo vysadených súčasne a odhadujeme, že majú vyše 300 rokov",
   "hlavnaKategoria": "Mestá",

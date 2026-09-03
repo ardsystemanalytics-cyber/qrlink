@@ -106,13 +106,21 @@ async function extractAudioAndGps(pageUrl) {
   let m;
   while ((m = audioRe.exec(html))) audio.push(m[1]);
 
-  let gps = null;
-  const gpsMatch = html.match(/Mapa\s*-\s*GPS\s*\(\s*(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)\s*\)/i);
-  if (gpsMatch) gps = { lat: parseFloat(gpsMatch[1]), lng: parseFloat(gpsMatch[2]) };
-
   let mapEmbed = "";
   const embedMatch = html.match(/<iframe[^>]+src="(https:\/\/www\.google\.com\/maps[^"]+)"/i);
   if (embedMatch) mapEmbed = embedMatch[1].replace(/&amp;/g, "&");
+
+  // GPS je zvyčajne v nadpise "Mapa - GPS (lat, lng)", ale niekedy je ten
+  // nadpis prázdny ("Mapa - GPS ()") a súradnice sú len v "q=lat,lng"
+  // parametri Google Maps embed iframe – preto skúšame oba zdroje.
+  let gps = null;
+  const gpsHeadingMatch = html.match(/Mapa\s*-\s*GPS\s*\(\s*(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)\s*\)/i);
+  if (gpsHeadingMatch) {
+    gps = { lat: parseFloat(gpsHeadingMatch[1]), lng: parseFloat(gpsHeadingMatch[2]) };
+  } else if (mapEmbed) {
+    const qMatch = mapEmbed.match(/[?&]q=(-?\d+(?:\.\d+)?),(-?\d+(?:\.\d+)?)/);
+    if (qMatch) gps = { lat: parseFloat(qMatch[1]), lng: parseFloat(qMatch[2]) };
+  }
 
   return { audio, gps, mapEmbed };
 }

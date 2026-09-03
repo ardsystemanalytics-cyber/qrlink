@@ -11,7 +11,10 @@
     }
   ],
   "galeria": [],
-  "gps": null,
+  "gps": {
+    "lat": 48.70623,
+    "lng": 20.510967
+  },
   "mapEmbed": "https://www.google.com/maps?q=48.706230,20.510967&z=18&output=embed",
   "text": "Dorastá asi do výšky 15m, korunu má kužeľovitú a nepravidelnú. Kvitne v lete (jún-júl). V parku rastie viacero stromov katalpy trubačovitej, najkrajšie nájdeme v ľavej kulise severozápadného priehľadu, v pozadí s mohutnými smrekmi. Počas kvitnutia má veľmi pekné kvety a často sa do parku k tomuto stromu chodia fotiť nevesty.",
   "hlavnaKategoria": "Mestá",

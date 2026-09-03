@@ -11,7 +11,10 @@
     }
   ],
   "galeria": [],
-  "gps": null,
+  "gps": {
+    "lat": 48.705616,
+    "lng": 20.510145
+  },
   "mapEmbed": "https://www.google.com/maps?q=48.705616,20.510145&z=18&output=embed",
   "text": "Pochádza z chladnejších častí Severnej Ameriky, je to široko kužeľovitý, pekne rozkonárený strom s jemnou textúrou a tmavozelenou farbou. Do Európy sa prvé semená dostali okolo roku 1736 a odvtedy sa pestuje ako dekoratívny, mrazuvzdorný strom. V našom parku rastú v tesnej blízkosti pri Tsuge zmiešané lesné dreviny, ktoré ju značne priestorovo obmedzujú.",
   "hlavnaKategoria": "Mestá",

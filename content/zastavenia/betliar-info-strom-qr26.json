@@ -11,7 +11,10 @@
     }
   ],
   "galeria": [],
-  "gps": null,
+  "gps": {
+    "lat": 48.70669,
+    "lng": 20.510739
+  },
   "mapEmbed": "https://www.google.com/maps?q=48.706690,20.510739&z=18&output=embed",
   "text": "Jeden z najstarších a najväčších Smrekovcov Dahúrskych na území Slovenska.",
   "hlavnaKategoria": "Mestá",

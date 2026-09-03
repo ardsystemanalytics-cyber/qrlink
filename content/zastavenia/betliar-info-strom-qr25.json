@@ -11,7 +11,10 @@
     }
   ],
   "galeria": [],
-  "gps": null,
+  "gps": {
+    "lat": 48.706446,
+    "lng": 20.510877
+  },
   "mapEmbed": "https://www.google.com/maps?q=48.706446,20.510877&z=18&output=embed",
   "text": "Je pozoruhodný najmä z toho dôvodu, že do výšky asi 4m sú konáre kuželovito zhrubnuté. V štvormetrovej výške kmeňa sa bradavičnaté zhrubnutia postupne zmenšujú, až úplne miznú.\n\n(V parku v rastú ďalšie dva exempláre smreka, ktoré majú bradavičnato zhrubnuté základy konárov, no menej ako opísaný smrek)",
   "hlavnaKategoria": "Mestá",

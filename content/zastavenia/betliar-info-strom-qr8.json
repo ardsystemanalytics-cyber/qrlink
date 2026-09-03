@@ -11,7 +11,10 @@
     }
   ],
   "galeria": [],
-  "gps": null,
+  "gps": {
+    "lat": 48.714267,
+    "lng": 20.51212
+  },
   "mapEmbed": "https://www.google.com/maps?q=48.714267,20.512120&z=18&output=embed",
   "text": "Významným činiteľom v architektúre parku je umelý vodný systém. Umelý vodný systém bol v parku dobudovaný v druhej polovici 19.storočia. Najväčšou stavbou bol rybník, v severnej časti parku. Jeho výstavbou sa zabezpečil stály a rovnomerný prívod vody do veľkého vodopádu, všetkých troch fontán a malého horného račieho rybníka.\n\nVo veľkom rybníku sa zaviedol chov kaprov a v minulosti sa tu chovali aj labute. V súčasnosti sú na území parku 3 rybníky. Veľký, račí (v minulosti sa tam chovali raky) a tretí pod veľkým vodopádom.\n\nZ vodných stavieb sú pozoruhodné aj pomerne dlhé umelé vodné korytá. Sieť umelých korýt bola ešte začiatkom 20.storočia podstatne dlhšia, v dôsledku nedostatočnej údržby, a tiež že stratili svoj význam, niektoré vodné toky úplne zanikli.\n\nVoda má predovšetkým funkciu estetickú (optickú) ale nemenej dôležitý je aj jej biologický význam. Optimálne množstvo vody vo všetkých častiach parku (v každom ročnom období) vytvára predpoklady pre nerušený rast drevín, a tiež lúky v parku vďačia za svoju zeleň dobrému zásobovaniu vodou.",
   "hlavnaKategoria": "Mestá",

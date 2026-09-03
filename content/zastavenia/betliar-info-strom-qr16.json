@@ -11,7 +11,10 @@
     }
   ],
   "galeria": [],
-  "gps": null,
+  "gps": {
+    "lat": 48.708339,
+    "lng": 20.509412
+  },
   "mapEmbed": "https://www.google.com/maps?q=48.708339,20.509412&z=18&output=embed",
   "text": "V parku južne od kaštieľa, asi 7m od hospodárskej budovy, má výšku okolo 25m a predpokladáme, že má viac ako 200 rokov (cca 220). Vysoký a statný strom, veľmi rozšírený v strednej Európe, na Balkáne a v Stredomorí.",
   "hlavnaKategoria": "Mestá",

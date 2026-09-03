@@ -11,7 +11,10 @@
     }
   ],
   "galeria": [],
-  "gps": null,
+  "gps": {
+    "lat": 48.70966,
+    "lng": 20.511112
+  },
   "mapEmbed": "https://www.google.com/maps?q=48.709660,20.511112&z=18&output=embed",
   "text": "Vedľa chodníka môžeme vidieť z vápenatého tufu (penovec) vyhotovený, 3,10 m vysoký stĺp. Jeho dnešné pomenovanie je Olympijský oheň – stĺp mal údajne kedysi na vrchole misovitú nádobu pre oheň a odtiaľ pochádza jeho dnešné pomenovanie. Nevieme však s určitosťou povedať, či bol stĺp skutočne postavený pre takéto účely. Je možné, že architekt nechal stĺp postaviť len kvôli doplneniu a spestreniu (riedkej) skupiny stromov pred vodopádom.",
   "hlavnaKategoria": "Mestá",

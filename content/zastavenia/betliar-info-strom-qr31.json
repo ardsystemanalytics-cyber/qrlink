@@ -11,7 +11,10 @@
     }
   ],
   "galeria": [],
-  "gps": null,
+  "gps": {
+    "lat": 48.705493,
+    "lng": 20.509575
+  },
   "mapEmbed": "https://www.google.com/maps?q=48.705493,20.509575&z=18&output=embed",
   "text": "Pochádza z Japonska, do Európy sa doviezla okolo roku 1860. Dorastá do výšky 30m. Má krátky kmeň, rozložitú korunu s mierne ovysnutými konármi.\n\nV tunajších parkoch je to zriedkavý strom (ďalšia v botanickej záhrade v Banskej Štiavnici).",
   "hlavnaKategoria": "Mestá",

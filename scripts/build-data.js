@@ -42,13 +42,19 @@ const miesta = readFolder(path.join(CONTENT, "miesta"))
   // (zoradenie + zoskupovanie v Decap CMS), do data.js sa nedávajú
   .map(({ poradie, hlavnaKategoria, korenoveMiesto, ...m }) => m);
 
+// "audio"/"galeria" sú v Decap CMS "list" polia s jedným pod-poľom ("url"),
+// takže sa v content/*.json vždy ukladajú ako [{url: "..."}, ...] – presne
+// tak, ako to CMS/admin uloží pri ručnom vypĺňaní. app.js ale pri prehrávači
+// aj galérii očakáva rovno pole reťazcov (URL), preto to tu rozbalíme.
+const urlListToStrings = (list) => (list || []).map((it) => (typeof it === "string" ? it : it?.url)).filter(Boolean);
+
 const zastavenia = readFolder(path.join(CONTENT, "zastavenia"))
   .sort((a, b) => a.miesto.localeCompare(b.miesto) || (a.poradie ?? 0) - (b.poradie ?? 0))
   .map(({ hlavnaKategoria, projekt, miestoNazov, ...z }) => {
     // "hlavnaKategoria"/"projekt"/"miestoNazov" sú len pomocné polia na
     // zoskupovanie/popisky v Decap CMS (/admin), do data.js sa nedávajú
     // – app.js ich nepozná/nepotrebuje.
-    const out = { ...z, text: mdToHtml(z.text) };
+    const out = { ...z, text: mdToHtml(z.text), audio: urlListToStrings(z.audio), galeria: urlListToStrings(z.galeria) };
     if (out.i18n) {
       out.i18n = Object.fromEntries(Object.entries(out.i18n).map(([lang, v]) =>
         [lang, v && v.text ? { ...v, text: mdToHtml(v.text) } : v]

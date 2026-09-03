@@ -11,7 +11,10 @@
     }
   ],
   "galeria": [],
-  "gps": null,
+  "gps": {
+    "lat": 48.705419,
+    "lng": 20.50968
+  },
   "mapEmbed": "https://www.google.com/maps?q=48.705419,20.509680&z=18&output=embed",
   "text": "Je kultivarom (odrodou) buka lesného, po vypučaní má červené listy, neskôr stmavnú. V parku rastu buky červenolisté na viacerých miestach, buď samostatne, alebo tiež v skupinách. Krásne exempláre rastú na lúke pred kaštieľom. Všetkým bukom červenolistým odhadujeme 140 až 150 rokov.",
   "hlavnaKategoria": "Mestá",
