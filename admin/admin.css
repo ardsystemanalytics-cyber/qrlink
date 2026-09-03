@@ -92,7 +92,7 @@ html, body, #nc-root {
   box-shadow: 0 2px 10px rgba(36, 56, 43, .05) !important;
 }
 
-/* Primárne / akčné tlačidlá (napr. "+ Kategória", "Publish", "Save") */
+/* Primárne / akčné tlačidlá (napr. "Publish", "Save") */
 [class*="-button-primary"],
 [class*="PublishButton"],
 button[class*="primary"] {
@@ -111,6 +111,21 @@ button[class*="primary"] {
 [class*="PublishButton"] svg,
 button[class*="primary"] svg {
   fill: #fff !important;
+}
+
+/* "Nový záznam" tlačidlo v hornej lište kolekcie (napr. "+ Miesto",
+   "+ Zastavenie", "+ Kategória"). Toto je odkaz (<a>), nie <button>,
+   preto naň dopadalo všeobecné pravidlo "#nc-root a" nižšie a text
+   ostával tmavozelený na tmavom pozadí – nečitateľné. */
+[class*="CollectionTopNewButton"] {
+  background: var(--qr-pine) !important;
+  border-color: var(--qr-pine) !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+}
+[class*="CollectionTopNewButton"]:hover {
+  background: var(--qr-pine-deep) !important;
+  color: #fff !important;
 }
 
 /* Bežné tlačidlá */
