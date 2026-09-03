@@ -151,6 +151,26 @@ const DB = {
       }
     },
     {
+      "id": "turzovka-mesto",
+      "rodic": "turzovka",
+      "nazov": "Turzovka – mestské pamiatky a zaujímavosti",
+      "popis": "Ostatné pamätihodnosti a zaujímavosti priamo v meste Turzovka."
+    },
+    {
+      "id": "betliar-info-pointy",
+      "rodic": "betliar",
+      "nazov": "Pamätihodnosti obce Betliar",
+      "popis": "Prehliadková trasa po pamätihodnostiach priamo v obci Betliar.",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/category/betliar/info-pointy/",
+        "en": "https://www.qrlink.sk/new/en/category/betliar/info-pointy/",
+        "de": "https://www.qrlink.sk/new/de/category/betliar/info-pointy/",
+        "ru": "https://www.qrlink.sk/new/ru/category/betliar/info-pointy/",
+        "pl": "https://www.qrlink.sk/new/pl/category/betliar/info-pointy/",
+        "hu": "https://www.qrlink.sk/new/hu/category/betliar/info-pointy/"
+      }
+    },
+    {
       "id": "bratislava-ivanka",
       "nazov": "Ivanka pri Dunaji",
       "primarna": "mesta",
@@ -165,10 +185,52 @@ const DB = {
       "popis": "Obec pri Bratislave s bohatou históriou."
     },
     {
+      "id": "turzovka-pamatniky",
+      "rodic": "turzovka",
+      "nazov": "Pamätníky v Turzovke",
+      "popis": "Pamätníky a pamätné miesta v Turzovke.",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/category/turzovka/pamatniky-v-turzovke/",
+        "en": "https://www.qrlink.sk/new/en/category/turzovka/pamatniky-v-turzovke/",
+        "de": "https://www.qrlink.sk/new/de/category/turzovka/pamatniky-v-turzovke/",
+        "ru": "https://www.qrlink.sk/new/ru/category/turzovka/pamatniky-v-turzovke/",
+        "pl": "https://www.qrlink.sk/new/pl/category/turzovka/pamatniky-v-turzovke/",
+        "hu": "https://www.qrlink.sk/new/hu/category/turzovka/pamatniky-v-turzovke/"
+      }
+    },
+    {
+      "id": "betliar-info-strom",
+      "rodic": "betliar",
+      "nazov": "Anglický park pri kaštieli Andrássyovcov",
+      "popis": "Náučná trasa anglickým parkom – fauna, flóra a architektúra.",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/category/betliar/info-strom/",
+        "en": "https://www.qrlink.sk/new/en/category/betliar/info-strom/",
+        "de": "https://www.qrlink.sk/new/de/category/betliar/info-strom/",
+        "ru": "https://www.qrlink.sk/new/ru/category/betliar/info-strom/",
+        "pl": "https://www.qrlink.sk/new/pl/category/betliar/info-strom/",
+        "hu": "https://www.qrlink.sk/new/hu/category/betliar/info-strom/"
+      }
+    },
+    {
       "id": "ivanka-uroven-1",
       "rodic": "bratislava-ivanka",
       "nazov": "Úroveň 1 – testovacia podkategória",
       "popis": "Testovacia podkategória bez zastavení, 1. úroveň vnorenia."
+    },
+    {
+      "id": "turzovka-sakralne-pamiatky",
+      "rodic": "turzovka",
+      "nazov": "Sakrálne pamiatky",
+      "popis": "Kostoly a kaplnky v Turzovke a okolí.",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/category/turzovka/sakralne-pamiatky/",
+        "en": "https://www.qrlink.sk/new/en/category/turzovka/sakralne-pamiatky/",
+        "de": "https://www.qrlink.sk/new/de/category/turzovka/sakralne-pamiatky/",
+        "ru": "https://www.qrlink.sk/new/ru/category/turzovka/sakralne-pamiatky/",
+        "pl": "https://www.qrlink.sk/new/pl/category/turzovka/sakralne-pamiatky/",
+        "hu": "https://www.qrlink.sk/new/hu/category/turzovka/sakralne-pamiatky/"
+      }
     },
     {
       "id": "ivanka-uroven-2",
@@ -767,7 +829,7 @@ const DB = {
   "zastavenia": [
     {
       "id": "betliar-info-pointy-qr1",
-      "miesto": "betliar",
+      "miesto": "betliar-info-pointy",
       "poradie": 1,
       "nazov": "Kultúrny dom",
       "popis": "",
@@ -792,7 +854,7 @@ const DB = {
     },
     {
       "id": "betliar-info-pointy-qr2",
-      "miesto": "betliar",
+      "miesto": "betliar-info-pointy",
       "poradie": 2,
       "nazov": "Kostol rímskokatolícky sv. Alžbety vdovy",
       "popis": "",
@@ -817,7 +879,7 @@ const DB = {
     },
     {
       "id": "betliar-info-pointy-qr3",
-      "miesto": "betliar",
+      "miesto": "betliar-info-pointy",
       "poradie": 3,
       "nazov": "Kostol evanjelický augsburského vyznania",
       "popis": "",
@@ -842,7 +904,7 @@ const DB = {
     },
     {
       "id": "betliar-info-pointy-qr4",
-      "miesto": "betliar",
+      "miesto": "betliar-info-pointy",
       "poradie": 4,
       "nazov": "Evanjelická fara",
       "popis": "",
@@ -867,7 +929,7 @@ const DB = {
     },
     {
       "id": "betliar-info-pointy-qr5",
-      "miesto": "betliar",
+      "miesto": "betliar-info-pointy",
       "poradie": 5,
       "nazov": "Hasičská zbrojnica",
       "popis": "",
@@ -892,7 +954,7 @@ const DB = {
     },
     {
       "id": "betliar-info-pointy-qr6",
-      "miesto": "betliar",
+      "miesto": "betliar-info-pointy",
       "poradie": 6,
       "nazov": "Budova správy lesov",
       "popis": "",
@@ -917,7 +979,7 @@ const DB = {
     },
     {
       "id": "betliar-info-pointy-qr7",
-      "miesto": "betliar",
+      "miesto": "betliar-info-pointy",
       "poradie": 7,
       "nazov": "Budova obecného úradu",
       "popis": "",
@@ -942,7 +1004,7 @@ const DB = {
     },
     {
       "id": "betliar-info-pointy-qr8",
-      "miesto": "betliar",
+      "miesto": "betliar-info-pointy",
       "poradie": 8,
       "nazov": "Malý park",
       "popis": "",
@@ -967,7 +1029,7 @@ const DB = {
     },
     {
       "id": "betliar-info-pointy-qr9",
-      "miesto": "betliar",
+      "miesto": "betliar-info-pointy",
       "poradie": 9,
       "nazov": "Socha sv. Jána Nepomuckého",
       "popis": "",
@@ -992,7 +1054,7 @@ const DB = {
     },
     {
       "id": "betliar-info-pointy-qr10",
-      "miesto": "betliar",
+      "miesto": "betliar-info-pointy",
       "poradie": 10,
       "nazov": "Rodinný dom na Polomskej ulici",
       "popis": "",
@@ -1017,7 +1079,7 @@ const DB = {
     },
     {
       "id": "betliar-info-pointy-qr11",
-      "miesto": "betliar",
+      "miesto": "betliar-info-pointy",
       "poradie": 11,
       "nazov": "Bytový dom v lokalite „Píla“",
       "popis": "",
@@ -1042,7 +1104,7 @@ const DB = {
     },
     {
       "id": "betliar-info-pointy-qr12",
-      "miesto": "betliar",
+      "miesto": "betliar-info-pointy",
       "poradie": 12,
       "nazov": "Budova základnej školy",
       "popis": "",
@@ -1067,7 +1129,7 @@ const DB = {
     },
     {
       "id": "betliar-info-pointy-qr13",
-      "miesto": "betliar",
+      "miesto": "betliar-info-pointy",
       "poradie": 13,
       "nazov": "Budova železničnej stanice",
       "popis": "",
@@ -1092,7 +1154,7 @@ const DB = {
     },
     {
       "id": "betliar-info-pointy-qr14",
-      "miesto": "betliar",
+      "miesto": "betliar-info-pointy",
       "poradie": 14,
       "nazov": "Bytové domy na Nižnej Maši",
       "popis": "",
@@ -1117,7 +1179,7 @@ const DB = {
     },
     {
       "id": "betliar-info-pointy-qr15",
-      "miesto": "betliar",
+      "miesto": "betliar-info-pointy",
       "poradie": 15,
       "nazov": "Dom Aloisa Šébla",
       "popis": "",
@@ -1142,7 +1204,7 @@ const DB = {
     },
     {
       "id": "betliar-info-pointy-qr16",
-      "miesto": "betliar",
+      "miesto": "betliar-info-pointy",
       "poradie": 16,
       "nazov": "Rodný dom Júliusa Koššutha",
       "popis": "",
@@ -1167,7 +1229,7 @@ const DB = {
     },
     {
       "id": "betliar-info-pointy-qr17",
-      "miesto": "betliar",
+      "miesto": "betliar-info-pointy",
       "poradie": 17,
       "nazov": "Pomník padlým na miestnom cintoríne",
       "popis": "",
@@ -1192,7 +1254,7 @@ const DB = {
     },
     {
       "id": "betliar-info-pointy-qr18",
-      "miesto": "betliar",
+      "miesto": "betliar-info-pointy",
       "poradie": 18,
       "nazov": "Hospodárska budova Kaštieľa Betliar",
       "popis": "",
@@ -1217,8 +1279,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr1",
-      "miesto": "betliar",
-      "poradie": 19,
+      "miesto": "betliar-info-strom",
+      "poradie": 1,
       "nazov": "Anglický park pri kaštieli",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/kastiel-min.jpg",
@@ -1242,8 +1304,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr2",
-      "miesto": "betliar",
-      "poradie": 20,
+      "miesto": "betliar-info-strom",
+      "poradie": 2,
       "nazov": "Rotunda",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-2.jpg",
@@ -1267,8 +1329,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr3",
-      "miesto": "betliar",
-      "poradie": 21,
+      "miesto": "betliar-info-strom",
+      "poradie": 3,
       "nazov": "Fontána",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-3.jpg",
@@ -1292,8 +1354,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr4",
-      "miesto": "betliar",
-      "poradie": 22,
+      "miesto": "betliar-info-strom",
+      "poradie": 4,
       "nazov": "Kaštieľ",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-4.jpg",
@@ -1317,8 +1379,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr5",
-      "miesto": "betliar",
-      "poradie": 23,
+      "miesto": "betliar-info-strom",
+      "poradie": 5,
       "nazov": "Hermesova studňa",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-5.jpg",
@@ -1342,8 +1404,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr6",
-      "miesto": "betliar",
-      "poradie": 24,
+      "miesto": "betliar-info-strom",
+      "poradie": 6,
       "nazov": "Slobodomurársky pavilón",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-6.jpg",
@@ -1367,8 +1429,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr7",
-      "miesto": "betliar",
-      "poradie": 25,
+      "miesto": "betliar-info-strom",
+      "poradie": 7,
       "nazov": "Veľký Vodopád",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-7.jpg",
@@ -1392,8 +1454,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr8",
-      "miesto": "betliar",
-      "poradie": 26,
+      "miesto": "betliar-info-strom",
+      "poradie": 8,
       "nazov": "Zavlažovací systém",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-8.jpg",
@@ -1417,8 +1479,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr9",
-      "miesto": "betliar",
-      "poradie": 27,
+      "miesto": "betliar-info-strom",
+      "poradie": 9,
       "nazov": "Olympijský oheň",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-9.jpg",
@@ -1442,8 +1504,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr10",
-      "miesto": "betliar",
-      "poradie": 28,
+      "miesto": "betliar-info-strom",
+      "poradie": 10,
       "nazov": "Japonský most",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-10.jpg",
@@ -1467,8 +1529,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr11",
-      "miesto": "betliar",
-      "poradie": 29,
+      "miesto": "betliar-info-strom",
+      "poradie": 11,
       "nazov": "Čínsky pavilón",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-11.jpg",
@@ -1492,8 +1554,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr12",
-      "miesto": "betliar",
-      "poradie": 30,
+      "miesto": "betliar-info-strom",
+      "poradie": 12,
       "nazov": "Parkové plastiky",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-12.jpg",
@@ -1517,8 +1579,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr13",
-      "miesto": "betliar",
-      "poradie": 31,
+      "miesto": "betliar-info-strom",
+      "poradie": 13,
       "nazov": "Veľký rybník",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-13.jpg",
@@ -1542,8 +1604,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr14",
-      "miesto": "betliar",
-      "poradie": 32,
+      "miesto": "betliar-info-strom",
+      "poradie": 14,
       "nazov": "Zverinec",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-14.jpg",
@@ -1567,8 +1629,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr15",
-      "miesto": "betliar",
-      "poradie": 33,
+      "miesto": "betliar-info-strom",
+      "poradie": 15,
       "nazov": "Bosniak / Bosnia bar",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-15.jpg",
@@ -1592,8 +1654,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr16",
-      "miesto": "betliar",
-      "poradie": 34,
+      "miesto": "betliar-info-strom",
+      "poradie": 16,
       "nazov": "Borovica čierna",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-16.jpg",
@@ -1617,8 +1679,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr17",
-      "miesto": "betliar",
-      "poradie": 35,
+      "miesto": "betliar-info-strom",
+      "poradie": 17,
       "nazov": "Douglaska tisolistá",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-17.jpg",
@@ -1642,8 +1704,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr18",
-      "miesto": "betliar",
-      "poradie": 36,
+      "miesto": "betliar-info-strom",
+      "poradie": 18,
       "nazov": "Tsuga kanadská",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-18.jpg",
@@ -1667,8 +1729,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr19",
-      "miesto": "betliar",
-      "poradie": 37,
+      "miesto": "betliar-info-strom",
+      "poradie": 19,
       "nazov": "Platan javorolistý",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-19.jpg",
@@ -1692,8 +1754,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr20",
-      "miesto": "betliar",
-      "poradie": 38,
+      "miesto": "betliar-info-strom",
+      "poradie": 20,
       "nazov": "Višňa pílkatá (sakura)",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-20.jpg",
@@ -1717,8 +1779,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr21",
-      "miesto": "betliar",
-      "poradie": 39,
+      "miesto": "betliar-info-strom",
+      "poradie": 21,
       "nazov": "Dub letný stĺpovitý",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-21.jpg",
@@ -1742,8 +1804,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr22",
-      "miesto": "betliar",
-      "poradie": 40,
+      "miesto": "betliar-info-strom",
+      "poradie": 22,
       "nazov": "Lipa americká",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-22.jpg",
@@ -1767,8 +1829,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr23",
-      "miesto": "betliar",
-      "poradie": 41,
+      "miesto": "betliar-info-strom",
+      "poradie": 23,
       "nazov": "Ľaliovník tulipánokvetý",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-23.jpg",
@@ -1792,8 +1854,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr24",
-      "miesto": "betliar",
-      "poradie": 42,
+      "miesto": "betliar-info-strom",
+      "poradie": 24,
       "nazov": "Ginko dvojlaločné",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-24.jpg",
@@ -1817,8 +1879,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr25",
-      "miesto": "betliar",
-      "poradie": 43,
+      "miesto": "betliar-info-strom",
+      "poradie": 25,
       "nazov": "Smrek (obyčajný) strukovitý",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-25.jpg",
@@ -1842,8 +1904,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr26",
-      "miesto": "betliar",
-      "poradie": 44,
+      "miesto": "betliar-info-strom",
+      "poradie": 26,
       "nazov": "Smrekovec Dahúrsky",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-26.jpg",
@@ -1867,8 +1929,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr27",
-      "miesto": "betliar",
-      "poradie": 45,
+      "miesto": "betliar-info-strom",
+      "poradie": 27,
       "nazov": "Javor mliečny",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-27-2.jpg",
@@ -1892,8 +1954,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr28",
-      "miesto": "betliar",
-      "poradie": 46,
+      "miesto": "betliar-info-strom",
+      "poradie": 28,
       "nazov": "Katalpa trubačovitá",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-28-2.jpg",
@@ -1917,8 +1979,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr29",
-      "miesto": "betliar",
-      "poradie": 47,
+      "miesto": "betliar-info-strom",
+      "poradie": 29,
       "nazov": "Pagaštan konský",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-29-3.jpg",
@@ -1942,8 +2004,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr30",
-      "miesto": "betliar",
-      "poradie": 48,
+      "miesto": "betliar-info-strom",
+      "poradie": 30,
       "nazov": "Buk červenolistý",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-30.jpg",
@@ -1967,8 +2029,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr31",
-      "miesto": "betliar",
-      "poradie": 49,
+      "miesto": "betliar-info-strom",
+      "poradie": 31,
       "nazov": "Zelkova ostrolistá",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/qr31.png",
@@ -1992,8 +2054,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr32",
-      "miesto": "betliar",
-      "poradie": 50,
+      "miesto": "betliar-info-strom",
+      "poradie": 32,
       "nazov": "Magnólia končistolistá",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-32.jpg",
@@ -2017,8 +2079,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr33",
-      "miesto": "betliar",
-      "poradie": 51,
+      "miesto": "betliar-info-strom",
+      "poradie": 33,
       "nazov": "Tis obyčajný",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-33.jpg",
@@ -2042,8 +2104,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr34",
-      "miesto": "betliar",
-      "poradie": 52,
+      "miesto": "betliar-info-strom",
+      "poradie": 34,
       "nazov": "Borovica vejmutovka",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/qr34.png",
@@ -2067,8 +2129,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr35",
-      "miesto": "betliar",
-      "poradie": 53,
+      "miesto": "betliar-info-strom",
+      "poradie": 35,
       "nazov": "Zvernica",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/zvernica-min.png",
@@ -6548,7 +6610,7 @@ const DB = {
     },
     {
       "id": "kostol-nanebovzatia-panny-marie-pomnik-padlym-v-1-sv-vojne",
-      "miesto": "turzovka",
+      "miesto": "turzovka-mesto",
       "poradie": 1,
       "nazov": "Kostol Nanebovzatia Panny Márie – Pomník padlým v 1. sv. vojne",
       "popis": "",
@@ -6573,7 +6635,7 @@ const DB = {
     },
     {
       "id": "muzeum-karola-tocika",
-      "miesto": "turzovka",
+      "miesto": "turzovka-mesto",
       "poradie": 2,
       "nazov": "Múzeum Karola Točíka",
       "popis": "",
@@ -6598,7 +6660,7 @@ const DB = {
     },
     {
       "id": "rybniky",
-      "miesto": "turzovka",
+      "miesto": "turzovka-mesto",
       "poradie": 3,
       "nazov": "Rybníky",
       "popis": "",
@@ -6623,7 +6685,7 @@ const DB = {
     },
     {
       "id": "prirodny-amfiteater-historia-beskydskych-slavnosti",
-      "miesto": "turzovka",
+      "miesto": "turzovka-mesto",
       "poradie": 4,
       "nazov": "Prírodný amfiteáter – história beskydských slávností",
       "popis": "",
@@ -6648,7 +6710,7 @@ const DB = {
     },
     {
       "id": "lyziarske-stredisko-bukovina-javornicko-beskydska-magistrala",
-      "miesto": "turzovka",
+      "miesto": "turzovka-mesto",
       "poradie": 5,
       "nazov": "Lyžiarske stredisko Bukovina, Javornícko – beskydská magistrála",
       "popis": "",
@@ -6673,7 +6735,7 @@ const DB = {
     },
     {
       "id": "kamenna-gula-pred-mestskym-uradom",
-      "miesto": "turzovka",
+      "miesto": "turzovka-mesto",
       "poradie": 6,
       "nazov": "Kamenná guľa pred Mestským úradom",
       "popis": "",
@@ -6697,34 +6759,9 @@ const DB = {
       }
     },
     {
-      "id": "pamatniky",
-      "miesto": "turzovka",
-      "poradie": 7,
-      "nazov": "Pamätná tabuľa a izba Rudolfa Jašíka",
-      "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/jasik.jpg",
-      "audio": [
-        {
-          "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/8-1-The-memorial-table-and-the-Room-of-Rudolf-Jasik.mp3"
-        }
-      ],
-      "galeria": [],
-      "gps": null,
-      "mapEmbed": "",
-      "text": "<p>Pamätná tabuľa sa nachádza pri vstupe do budovy Kultúrneho a spoločenského strediska v Turzovke. Rudolf Jašík bol významným a uznávaným spisovateľom, rodákom z Turzovky, ktorý sa narodil 2. decembra 1919 a zomrel 30. júna 1960 v Bratislave. Jeho diela zachytávajú a sú odrazom toho, čo v živote prežil. Jeho literárna tvorba sa viaže na rok 1940 a od poézie a poviedok prešiel postupne k známym románom – Na brehu priezračnej rieky, Námestie sv. Alžbety či Mŕtvi nespievajú. Každoročne sa v mesiacoch november – december konajú pri príležitosti jeho pôsobenia Jašíkove Kysuce – literárna súťaž spojená s fotografickou súťažou „Na brehu priezračnej rieky“, ktorej súčasťou je pietna spomienka pri pamätnej tabuli. V priestoroch Kultúrneho a spoločenského strediska v Turzovke sa taktiež nachádza stála expozícia osobných predmetov a dokumentov, ktorá približuje jeho život.</p>",
-      "povodnaUrl": {
-        "sk": "https://www.qrlink.sk/new/pamatniky/",
-        "en": "https://www.qrlink.sk/new/en/pamatniky/",
-        "de": "https://www.qrlink.sk/new/de/pamatniky/",
-        "ru": "https://www.qrlink.sk/new/ru/pamatniky/",
-        "pl": "https://www.qrlink.sk/new/pl/pamatniky/",
-        "hu": "https://www.qrlink.sk/new/hu/pamatniky/"
-      }
-    },
-    {
       "id": "namestie-juraja-thurzu",
-      "miesto": "turzovka",
-      "poradie": 8,
+      "miesto": "turzovka-mesto",
+      "poradie": 7,
       "nazov": "Námestie Juraja Thurzu",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/7.jpg",
@@ -6747,34 +6784,9 @@ const DB = {
       }
     },
     {
-      "id": "kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov",
-      "miesto": "turzovka",
-      "poradie": 9,
-      "nazov": "Kaplnka Panny Márie ustavičnej pomoci U Okuliarov",
-      "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/u-koliarov.jpg",
-      "audio": [
-        {
-          "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-1-The-chapel-of-Virgin-Mary’s-perpetual-help-in-settlement-U-Okruhliakov.mp3"
-        }
-      ],
-      "galeria": [],
-      "gps": null,
-      "mapEmbed": "",
-      "text": "<p>Pôvodná drevená kaplnka Blahoslavenej Panny Márie bola postavená v roku 1810 Jozefom Okuliarom, ktorý na ňu zložil fundáciu 10 zlatých. Zaujímavé je, že kaplnka sa nachádzala v obvode cintorína. Obnovy, resp. opravy kaplnky sa spomínajú v rokoch 1822, 1856 či 1860. V roku 1856 namaľoval do kaplnky obraz Panny Márie známy tešínsky maliar Eduard Świerkiewicz. Stará drevená kaplnka bola v roku 1924 asanovaná a na jej mieste bola postavená súčasná kaplnka Panny Márie ustavičnej pomoci. Rok 1924 sa nachádza aj na jej priečelí. Fasáda kaplnky je vyzdobená upraveným erbovým znamením z národného erbu – z modrého trojvršia vyrastajúci zlatý dvojkríž. Nad ním sa vznáša osemcípa zlatá hviezda. Kovový dvojkríž je umiestnený aj na špici malej vežičky.</p>",
-      "povodnaUrl": {
-        "sk": "https://www.qrlink.sk/new/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/",
-        "en": "https://www.qrlink.sk/new/en/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/",
-        "de": "https://www.qrlink.sk/new/de/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/",
-        "ru": "https://www.qrlink.sk/new/ru/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/",
-        "pl": "https://www.qrlink.sk/new/pl/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/",
-        "hu": "https://www.qrlink.sk/new/hu/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/"
-      }
-    },
-    {
       "id": "areal-sportu-a-oddychu-skatepark",
-      "miesto": "turzovka",
-      "poradie": 10,
+      "miesto": "turzovka-mesto",
+      "poradie": 8,
       "nazov": "Areál športu a oddychu, Skatepark",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/5.jpg",
@@ -6798,8 +6810,8 @@ const DB = {
     },
     {
       "id": "park-drotara-a-dzarka-pricestny-stlp-jana-nepomuckeho-susosie-drotara-a-dzarka",
-      "miesto": "turzovka",
-      "poradie": 11,
+      "miesto": "turzovka-mesto",
+      "poradie": 9,
       "nazov": "Park Drotára a Džarka, Prícestný stĺp Jána Nepomuckého, Súsošie Drotára a Džarka",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/4.jpg",
@@ -6823,8 +6835,8 @@ const DB = {
     },
     {
       "id": "hasicske-hobby-muzeum",
-      "miesto": "turzovka",
-      "poradie": 12,
+      "miesto": "turzovka-mesto",
+      "poradie": 10,
       "nazov": "Hasičské Hobby múzeum",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/Hasicske-hobby-muzeum.jpg",
@@ -6847,9 +6859,34 @@ const DB = {
       }
     },
     {
+      "id": "pamatniky",
+      "miesto": "turzovka-pamatniky",
+      "poradie": 1,
+      "nazov": "Pamätná tabuľa a izba Rudolfa Jašíka",
+      "popis": "",
+      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/jasik.jpg",
+      "audio": [
+        {
+          "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/8-1-The-memorial-table-and-the-Room-of-Rudolf-Jasik.mp3"
+        }
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Pamätná tabuľa sa nachádza pri vstupe do budovy Kultúrneho a spoločenského strediska v Turzovke. Rudolf Jašík bol významným a uznávaným spisovateľom, rodákom z Turzovky, ktorý sa narodil 2. decembra 1919 a zomrel 30. júna 1960 v Bratislave. Jeho diela zachytávajú a sú odrazom toho, čo v živote prežil. Jeho literárna tvorba sa viaže na rok 1940 a od poézie a poviedok prešiel postupne k známym románom – Na brehu priezračnej rieky, Námestie sv. Alžbety či Mŕtvi nespievajú. Každoročne sa v mesiacoch november – december konajú pri príležitosti jeho pôsobenia Jašíkove Kysuce – literárna súťaž spojená s fotografickou súťažou „Na brehu priezračnej rieky“, ktorej súčasťou je pietna spomienka pri pamätnej tabuli. V priestoroch Kultúrneho a spoločenského strediska v Turzovke sa taktiež nachádza stála expozícia osobných predmetov a dokumentov, ktorá približuje jeho život.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/pamatniky/",
+        "en": "https://www.qrlink.sk/new/en/pamatniky/",
+        "de": "https://www.qrlink.sk/new/de/pamatniky/",
+        "ru": "https://www.qrlink.sk/new/ru/pamatniky/",
+        "pl": "https://www.qrlink.sk/new/pl/pamatniky/",
+        "hu": "https://www.qrlink.sk/new/hu/pamatniky/"
+      }
+    },
+    {
       "id": "pamatnik-m-r-stefanika",
-      "miesto": "turzovka",
-      "poradie": 13,
+      "miesto": "turzovka-pamatniky",
+      "poradie": 2,
       "nazov": "Pamätník M. R. Štefánika",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/8.jpg",
@@ -6873,8 +6910,8 @@ const DB = {
     },
     {
       "id": "pamatnik-tomasa-uhorcika",
-      "miesto": "turzovka",
-      "poradie": 14,
+      "miesto": "turzovka-pamatniky",
+      "poradie": 3,
       "nazov": "Pamätník Tomáša Uhorčíka",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/uhorcik.jpg",
@@ -6898,8 +6935,8 @@ const DB = {
     },
     {
       "id": "pamatna-tabula-v-parku-rodakov",
-      "miesto": "turzovka",
-      "poradie": 15,
+      "miesto": "turzovka-pamatniky",
+      "poradie": 4,
       "nazov": "Pamätná tabuľa v Parku rodákov",
       "popis": "",
       "cover": "",
@@ -6922,9 +6959,34 @@ const DB = {
       }
     },
     {
+      "id": "kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov",
+      "miesto": "turzovka-sakralne-pamiatky",
+      "poradie": 1,
+      "nazov": "Kaplnka Panny Márie ustavičnej pomoci U Okuliarov",
+      "popis": "",
+      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/u-koliarov.jpg",
+      "audio": [
+        {
+          "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-1-The-chapel-of-Virgin-Mary’s-perpetual-help-in-settlement-U-Okruhliakov.mp3"
+        }
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Pôvodná drevená kaplnka Blahoslavenej Panny Márie bola postavená v roku 1810 Jozefom Okuliarom, ktorý na ňu zložil fundáciu 10 zlatých. Zaujímavé je, že kaplnka sa nachádzala v obvode cintorína. Obnovy, resp. opravy kaplnky sa spomínajú v rokoch 1822, 1856 či 1860. V roku 1856 namaľoval do kaplnky obraz Panny Márie známy tešínsky maliar Eduard Świerkiewicz. Stará drevená kaplnka bola v roku 1924 asanovaná a na jej mieste bola postavená súčasná kaplnka Panny Márie ustavičnej pomoci. Rok 1924 sa nachádza aj na jej priečelí. Fasáda kaplnky je vyzdobená upraveným erbovým znamením z národného erbu – z modrého trojvršia vyrastajúci zlatý dvojkríž. Nad ním sa vznáša osemcípa zlatá hviezda. Kovový dvojkríž je umiestnený aj na špici malej vežičky.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/",
+        "en": "https://www.qrlink.sk/new/en/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/",
+        "de": "https://www.qrlink.sk/new/de/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/",
+        "ru": "https://www.qrlink.sk/new/ru/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/",
+        "pl": "https://www.qrlink.sk/new/pl/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/",
+        "hu": "https://www.qrlink.sk/new/hu/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/"
+      }
+    },
+    {
       "id": "kaplnka-panny-marie-lurdskej-pri-motoreste",
-      "miesto": "turzovka",
-      "poradie": 16,
+      "miesto": "turzovka-sakralne-pamiatky",
+      "poradie": 2,
       "nazov": "Kaplnka Panny Márie Lurdskej pri motoreste",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/u-mravca.jpg",
@@ -6948,8 +7010,8 @@ const DB = {
     },
     {
       "id": "kaplnka-na-javorovej-ulici",
-      "miesto": "turzovka",
-      "poradie": 17,
+      "miesto": "turzovka-sakralne-pamiatky",
+      "poradie": 3,
       "nazov": "Kaplnka na Javorovej ulici",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/javorova.jpg",
@@ -6973,8 +7035,8 @@ const DB = {
     },
     {
       "id": "kaplnka-panny-marie-skapuliarskej",
-      "miesto": "turzovka",
-      "poradie": 18,
+      "miesto": "turzovka-sakralne-pamiatky",
+      "poradie": 4,
       "nazov": "Kaplnka Panny Márie Škapuliarskej",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/skapuliarska.jpg",
@@ -6998,8 +7060,8 @@ const DB = {
     },
     {
       "id": "kaplnka-sedembolestnej-panny-marie-u-blazkov",
-      "miesto": "turzovka",
-      "poradie": 19,
+      "miesto": "turzovka-sakralne-pamiatky",
+      "poradie": 5,
       "nazov": "Kaplnka Sedembolestnej Panny Márie U Blažkov",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/u-blazkov.jpg",
@@ -7023,8 +7085,8 @@ const DB = {
     },
     {
       "id": "kaplnka-najsvatejsieho-srdca-panny-marie",
-      "miesto": "turzovka",
-      "poradie": 20,
+      "miesto": "turzovka-sakralne-pamiatky",
+      "poradie": 6,
       "nazov": "Kaplnka Najsvätejšieho Srdca Panny Márie",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/Kaplnka-Hlinené-Najsv-Srdca-P-Marie.jpg",
@@ -7048,8 +7110,8 @@ const DB = {
     },
     {
       "id": "kostol-fatimskej-panny-marie",
-      "miesto": "turzovka",
-      "poradie": 21,
+      "miesto": "turzovka-sakralne-pamiatky",
+      "poradie": 7,
       "nazov": "Kostol Fatimskej Panny Márie",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/kostol-turkov.jpg",
@@ -7073,8 +7135,8 @@ const DB = {
     },
     {
       "id": "kaplnka-sedembolestnej-panny-marie",
-      "miesto": "turzovka",
-      "poradie": 22,
+      "miesto": "turzovka-sakralne-pamiatky",
+      "poradie": 8,
       "nazov": "Kaplnka Sedembolestnej Panny Márie",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/Kaplnka-Sedembolestnej-Panny.jpg",
@@ -7098,8 +7160,8 @@ const DB = {
     },
     {
       "id": "zivcakova-marianske-putnicke-miesto",
-      "miesto": "turzovka",
-      "poradie": 23,
+      "miesto": "turzovka-sakralne-pamiatky",
+      "poradie": 9,
       "nazov": "Živčáková – mariánske pútnické miesto",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/zivcakova.jpg",
@@ -7123,8 +7185,8 @@ const DB = {
     },
     {
       "id": "kaplnka-panny-marie-kralovnej-pokoja-zivcakova",
-      "miesto": "turzovka",
-      "poradie": 24,
+      "miesto": "turzovka-sakralne-pamiatky",
+      "poradie": 10,
       "nazov": "Kaplnka Panny Márie Kráľovnej pokoja, Živčáková",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/zivcakova-kaplnka.jpg",
@@ -7148,8 +7210,8 @@ const DB = {
     },
     {
       "id": "kostol-panny-marie-matky-cirkvi-zivcakova",
-      "miesto": "turzovka",
-      "poradie": 25,
+      "miesto": "turzovka-sakralne-pamiatky",
+      "poradie": 11,
       "nazov": "Kostol Panny Márie Matky Cirkvi, Živčáková",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/kostol-zivcakova.jpg",
@@ -7173,8 +7235,8 @@ const DB = {
     },
     {
       "id": "kaplnka-na-bukovine",
-      "miesto": "turzovka",
-      "poradie": 26,
+      "miesto": "turzovka-sakralne-pamiatky",
+      "poradie": 12,
       "nazov": "Kaplnka na Bukovine",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/bukovina.jpg",

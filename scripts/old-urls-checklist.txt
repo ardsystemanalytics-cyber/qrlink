@@ -1,6 +1,18 @@
-# Zoznam pôvodných URL zo starého webu (1680 riadkov) na otestovanie presmerovania.
+# Zoznam pôvodných URL zo starého webu (1704 riadkov) na otestovanie presmerovania.
 # Formát: <typ> <id> <jazyk> <stará URL>
 
+miesto	betliar-info-pointy	sk	https://www.qrlink.sk/new/category/betliar/info-pointy/
+miesto	betliar-info-pointy	en	https://www.qrlink.sk/new/en/category/betliar/info-pointy/
+miesto	betliar-info-pointy	de	https://www.qrlink.sk/new/de/category/betliar/info-pointy/
+miesto	betliar-info-pointy	ru	https://www.qrlink.sk/new/ru/category/betliar/info-pointy/
+miesto	betliar-info-pointy	pl	https://www.qrlink.sk/new/pl/category/betliar/info-pointy/
+miesto	betliar-info-pointy	hu	https://www.qrlink.sk/new/hu/category/betliar/info-pointy/
+miesto	betliar-info-strom	sk	https://www.qrlink.sk/new/category/betliar/info-strom/
+miesto	betliar-info-strom	en	https://www.qrlink.sk/new/en/category/betliar/info-strom/
+miesto	betliar-info-strom	de	https://www.qrlink.sk/new/de/category/betliar/info-strom/
+miesto	betliar-info-strom	ru	https://www.qrlink.sk/new/ru/category/betliar/info-strom/
+miesto	betliar-info-strom	pl	https://www.qrlink.sk/new/pl/category/betliar/info-strom/
+miesto	betliar-info-strom	hu	https://www.qrlink.sk/new/hu/category/betliar/info-strom/
 miesto	betliar	sk	https://www.qrlink.sk/new/category/betliar/
 miesto	betliar	en	https://www.qrlink.sk/new/en/category/betliar/
 miesto	betliar	de	https://www.qrlink.sk/new/de/category/betliar/
@@ -109,6 +121,18 @@ miesto	trebisov	de	https://www.qrlink.sk/new/de/category/trebisov/
 miesto	trebisov	ru	https://www.qrlink.sk/new/ru/category/trebisov/
 miesto	trebisov	pl	https://www.qrlink.sk/new/pl/category/trebisov/
 miesto	trebisov	hu	https://www.qrlink.sk/new/hu/category/trebisov/
+miesto	turzovka-pamatniky	sk	https://www.qrlink.sk/new/category/turzovka/pamatniky-v-turzovke/
+miesto	turzovka-pamatniky	en	https://www.qrlink.sk/new/en/category/turzovka/pamatniky-v-turzovke/
+miesto	turzovka-pamatniky	de	https://www.qrlink.sk/new/de/category/turzovka/pamatniky-v-turzovke/
+miesto	turzovka-pamatniky	ru	https://www.qrlink.sk/new/ru/category/turzovka/pamatniky-v-turzovke/
+miesto	turzovka-pamatniky	pl	https://www.qrlink.sk/new/pl/category/turzovka/pamatniky-v-turzovke/
+miesto	turzovka-pamatniky	hu	https://www.qrlink.sk/new/hu/category/turzovka/pamatniky-v-turzovke/
+miesto	turzovka-sakralne-pamiatky	sk	https://www.qrlink.sk/new/category/turzovka/sakralne-pamiatky/
+miesto	turzovka-sakralne-pamiatky	en	https://www.qrlink.sk/new/en/category/turzovka/sakralne-pamiatky/
+miesto	turzovka-sakralne-pamiatky	de	https://www.qrlink.sk/new/de/category/turzovka/sakralne-pamiatky/
+miesto	turzovka-sakralne-pamiatky	ru	https://www.qrlink.sk/new/ru/category/turzovka/sakralne-pamiatky/
+miesto	turzovka-sakralne-pamiatky	pl	https://www.qrlink.sk/new/pl/category/turzovka/sakralne-pamiatky/
+miesto	turzovka-sakralne-pamiatky	hu	https://www.qrlink.sk/new/hu/category/turzovka/sakralne-pamiatky/
 miesto	turzovka	sk	https://www.qrlink.sk/new/category/turzovka/
 miesto	turzovka	en	https://www.qrlink.sk/new/en/category/turzovka/
 miesto	turzovka	de	https://www.qrlink.sk/new/de/category/turzovka/

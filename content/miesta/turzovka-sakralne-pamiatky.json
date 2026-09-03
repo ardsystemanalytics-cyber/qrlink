@@ -1,0 +1,17 @@
+{
+  "poradie": 2,
+  "id": "turzovka-sakralne-pamiatky",
+  "rodic": "turzovka",
+  "nazov": "Sakrálne pamiatky",
+  "popis": "Kostoly a kaplnky v Turzovke a okolí.",
+  "hlavnaKategoria": "Mestá",
+  "korenoveMiesto": "Turzovka",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/turzovka/sakralne-pamiatky/",
+    "en": "https://www.qrlink.sk/new/en/category/turzovka/sakralne-pamiatky/",
+    "de": "https://www.qrlink.sk/new/de/category/turzovka/sakralne-pamiatky/",
+    "ru": "https://www.qrlink.sk/new/ru/category/turzovka/sakralne-pamiatky/",
+    "pl": "https://www.qrlink.sk/new/pl/category/turzovka/sakralne-pamiatky/",
+    "hu": "https://www.qrlink.sk/new/hu/category/turzovka/sakralne-pamiatky/"
+  }
+}

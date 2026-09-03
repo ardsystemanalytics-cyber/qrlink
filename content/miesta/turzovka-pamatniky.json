@@ -1,0 +1,17 @@
+{
+  "poradie": 1,
+  "id": "turzovka-pamatniky",
+  "rodic": "turzovka",
+  "nazov": "Pamätníky v Turzovke",
+  "popis": "Pamätníky a pamätné miesta v Turzovke.",
+  "hlavnaKategoria": "Mestá",
+  "korenoveMiesto": "Turzovka",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/turzovka/pamatniky-v-turzovke/",
+    "en": "https://www.qrlink.sk/new/en/category/turzovka/pamatniky-v-turzovke/",
+    "de": "https://www.qrlink.sk/new/de/category/turzovka/pamatniky-v-turzovke/",
+    "ru": "https://www.qrlink.sk/new/ru/category/turzovka/pamatniky-v-turzovke/",
+    "pl": "https://www.qrlink.sk/new/pl/category/turzovka/pamatniky-v-turzovke/",
+    "hu": "https://www.qrlink.sk/new/hu/category/turzovka/pamatniky-v-turzovke/"
+  }
+}

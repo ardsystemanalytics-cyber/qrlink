@@ -170,7 +170,12 @@ async function main() {
     const out = {
       id: slug,
       miesto: miestoId,
-      poradie: existing?.poradie ?? poradie,
+      // poradie/hlavnaKategoria/projekt/miestoNazov sú odvodené od TOHTO behu
+      // (poradie v rámci aktuálne sťahovanej WP kategórie, zvyšné z aktuálneho
+      // "miesto") – nie z prípadného predošlého záznamu. Keby sa zastavenie
+      // medzičasom preradilo pod iné (pod)miesto (napr. Betliar rozdelený na
+      // podkategórie), starý záznam by inak zostal s nesprávnymi hodnotami.
+      poradie,
       nazov,
       popis: existing?.popis ?? "",
       cover: cover || existing?.cover || "",
@@ -179,9 +184,9 @@ async function main() {
       gps: existing?.gps ?? null,
       mapEmbed: existing?.mapEmbed ?? "",
       text: text || existing?.text || "",
-      hlavnaKategoria: existing?.hlavnaKategoria ?? miesto.hlavnaKategoria ?? "",
-      projekt: existing?.projekt ?? miesto.korenoveMiesto ?? miesto.nazov,
-      miestoNazov: existing?.miestoNazov ?? miesto.nazov,
+      hlavnaKategoria: miesto.hlavnaKategoria ?? "",
+      projekt: miesto.korenoveMiesto ?? miesto.nazov,
+      miestoNazov: miesto.nazov,
       povodnaUrl: buildOldUrls(item.link),
     };
 

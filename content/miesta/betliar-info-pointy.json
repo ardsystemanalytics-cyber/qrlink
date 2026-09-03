@@ -1,0 +1,17 @@
+{
+  "poradie": 1,
+  "id": "betliar-info-pointy",
+  "rodic": "betliar",
+  "nazov": "Pamätihodnosti obce Betliar",
+  "popis": "Prehliadková trasa po pamätihodnostiach priamo v obci Betliar.",
+  "hlavnaKategoria": "Mestá",
+  "korenoveMiesto": "Betliar",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/betliar/info-pointy/",
+    "en": "https://www.qrlink.sk/new/en/category/betliar/info-pointy/",
+    "de": "https://www.qrlink.sk/new/de/category/betliar/info-pointy/",
+    "ru": "https://www.qrlink.sk/new/ru/category/betliar/info-pointy/",
+    "pl": "https://www.qrlink.sk/new/pl/category/betliar/info-pointy/",
+    "hu": "https://www.qrlink.sk/new/hu/category/betliar/info-pointy/"
+  }
+}

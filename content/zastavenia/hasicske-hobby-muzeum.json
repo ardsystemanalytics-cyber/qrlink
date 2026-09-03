@@ -1,7 +1,7 @@
 {
   "id": "hasicske-hobby-muzeum",
-  "miesto": "turzovka",
-  "poradie": 12,
+  "miesto": "turzovka-mesto",
+  "poradie": 10,
   "nazov": "Hasičské Hobby múzeum",
   "popis": "",
   "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/Hasicske-hobby-muzeum.jpg",
@@ -16,7 +16,7 @@
   "text": "Je súkromné múzeum vášnivého zberateľa a veterána Ladislava Dlhopolčeka, ktoré bolo oficiálne otvorené pre verejnosť dňa 21.júla 2015. Predseda Turzovského veterán clubu Ladislav Dlhopolček už v mladosti mal ako každý chlapec rôzne záujmy a jeho vášeň ho neopustila ani s pribúdajúcimi rokmi. Predmety sa hromadili a boli medzi nimi vzácne kúsky, a otázka čo s nimi. Pri svojich cestách dostal nápad, čo tak založiť vlastné múzeum, v ktorom by expozíciu tvorili jednotlivé cenné exponáty, či sú to už váhy, hasičské prilby alebo fotoaparáty. Vo svojom rodinnom dome vyčlenil dve miestnosti a začala sa samotná realizácia jeho myšlienky.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Turzovka",
-  "miestoNazov": "Turzovka",
+  "miestoNazov": "Turzovka – mestské pamiatky a zaujímavosti",
   "povodnaUrl": {
     "sk": "https://www.qrlink.sk/new/hasicske-hobby-muzeum/",
     "en": "https://www.qrlink.sk/new/en/hasicske-hobby-muzeum/",

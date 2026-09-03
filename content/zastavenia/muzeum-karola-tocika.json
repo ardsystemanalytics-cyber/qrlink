@@ -1,6 +1,6 @@
 {
   "id": "muzeum-karola-tocika",
-  "miesto": "turzovka",
+  "miesto": "turzovka-mesto",
   "poradie": 2,
   "nazov": "Múzeum Karola Točíka",
   "popis": "",
@@ -16,7 +16,7 @@
   "text": "Mestské múzeum sa nachádza na prízemí budovy Mestského úradu Turzovka a bolo pomenované po Karolovi Točíkovi, ktorý bol nielen turzovským farárom a dekanom, ale tiež regionálnym historikom. Iniciátorom zrodu múzea bol Spolok priateľov Turzovky v zastúpení p. Ivanom Gajdičiarom a p. Drahomírom Veličkom (predseda združenia Terra Kisucensis). Mestské múzeum bolo slávnostne otvorené 12. augusta 2016. Prvou expozíciou v novootvorenom múzeu bola výstava pod názvom Dedičstvo otcov. Výstava obsahovala výber z bohatého depozitu exponátov darovaných múzeu občanmi Turzovky a okolia.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Turzovka",
-  "miestoNazov": "Turzovka",
+  "miestoNazov": "Turzovka – mestské pamiatky a zaujímavosti",
   "povodnaUrl": {
     "sk": "https://www.qrlink.sk/new/muzeum-karola-tocika/",
     "en": "https://www.qrlink.sk/new/en/muzeum-karola-tocika/",

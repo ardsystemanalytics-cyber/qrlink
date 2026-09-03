@@ -1,0 +1,17 @@
+{
+  "poradie": 2,
+  "id": "betliar-info-strom",
+  "rodic": "betliar",
+  "nazov": "Anglický park pri kaštieli Andrássyovcov",
+  "popis": "Náučná trasa anglickým parkom – fauna, flóra a architektúra.",
+  "hlavnaKategoria": "Mestá",
+  "korenoveMiesto": "Betliar",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/betliar/info-strom/",
+    "en": "https://www.qrlink.sk/new/en/category/betliar/info-strom/",
+    "de": "https://www.qrlink.sk/new/de/category/betliar/info-strom/",
+    "ru": "https://www.qrlink.sk/new/ru/category/betliar/info-strom/",
+    "pl": "https://www.qrlink.sk/new/pl/category/betliar/info-strom/",
+    "hu": "https://www.qrlink.sk/new/hu/category/betliar/info-strom/"
+  }
+}
