@@ -171,6 +171,20 @@ const DB = {
       }
     },
     {
+      "id": "betliar-info-strom-architektura",
+      "rodic": "betliar-info-strom",
+      "nazov": "Architektúra",
+      "popis": "Architektonické prvky anglického parku pri kaštieli Andrássyovcov.",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/category/betliar/info-strom/architektura/",
+        "en": "https://www.qrlink.sk/new/en/category/betliar/info-strom/architektura/",
+        "de": "https://www.qrlink.sk/new/de/category/betliar/info-strom/architektura/",
+        "ru": "https://www.qrlink.sk/new/ru/category/betliar/info-strom/architektura/",
+        "pl": "https://www.qrlink.sk/new/pl/category/betliar/info-strom/architektura/",
+        "hu": "https://www.qrlink.sk/new/hu/category/betliar/info-strom/architektura/"
+      }
+    },
+    {
       "id": "bratislava-ivanka",
       "nazov": "Ivanka pri Dunaji",
       "primarna": "mesta",
@@ -196,6 +210,20 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/turzovka/pamatniky-v-turzovke/",
         "pl": "https://www.qrlink.sk/new/pl/category/turzovka/pamatniky-v-turzovke/",
         "hu": "https://www.qrlink.sk/new/hu/category/turzovka/pamatniky-v-turzovke/"
+      }
+    },
+    {
+      "id": "betliar-info-strom-fauna-flora",
+      "rodic": "betliar-info-strom",
+      "nazov": "Fauna a flóra",
+      "popis": "Fauna a flóra anglického parku pri kaštieli Andrássyovcov.",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/category/betliar/info-strom/flora/",
+        "en": "https://www.qrlink.sk/new/en/category/betliar/info-strom/flora/",
+        "de": "https://www.qrlink.sk/new/de/category/betliar/info-strom/flora/",
+        "ru": "https://www.qrlink.sk/new/ru/category/betliar/info-strom/flora/",
+        "pl": "https://www.qrlink.sk/new/pl/category/betliar/info-strom/flora/",
+        "hu": "https://www.qrlink.sk/new/hu/category/betliar/info-strom/flora/"
       }
     },
     {
@@ -1333,7 +1361,7 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr1",
-      "miesto": "betliar-info-strom",
+      "miesto": "betliar-info-strom-architektura",
       "poradie": 1,
       "nazov": "Anglický park pri kaštieli",
       "popis": "",
@@ -1358,7 +1386,7 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr2",
-      "miesto": "betliar-info-strom",
+      "miesto": "betliar-info-strom-architektura",
       "poradie": 2,
       "nazov": "Rotunda",
       "popis": "",
@@ -1383,7 +1411,7 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr3",
-      "miesto": "betliar-info-strom",
+      "miesto": "betliar-info-strom-architektura",
       "poradie": 3,
       "nazov": "Fontána",
       "popis": "",
@@ -1408,7 +1436,7 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr4",
-      "miesto": "betliar-info-strom",
+      "miesto": "betliar-info-strom-architektura",
       "poradie": 4,
       "nazov": "Kaštieľ",
       "popis": "",
@@ -1433,7 +1461,7 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr5",
-      "miesto": "betliar-info-strom",
+      "miesto": "betliar-info-strom-architektura",
       "poradie": 5,
       "nazov": "Hermesova studňa",
       "popis": "",
@@ -1458,7 +1486,7 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr6",
-      "miesto": "betliar-info-strom",
+      "miesto": "betliar-info-strom-architektura",
       "poradie": 6,
       "nazov": "Slobodomurársky pavilón",
       "popis": "",
@@ -1483,7 +1511,7 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr7",
-      "miesto": "betliar-info-strom",
+      "miesto": "betliar-info-strom-architektura",
       "poradie": 7,
       "nazov": "Veľký Vodopád",
       "popis": "",
@@ -1508,7 +1536,7 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr8",
-      "miesto": "betliar-info-strom",
+      "miesto": "betliar-info-strom-architektura",
       "poradie": 8,
       "nazov": "Zavlažovací systém",
       "popis": "",
@@ -1533,7 +1561,7 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr9",
-      "miesto": "betliar-info-strom",
+      "miesto": "betliar-info-strom-architektura",
       "poradie": 9,
       "nazov": "Olympijský oheň",
       "popis": "",
@@ -1558,7 +1586,7 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr10",
-      "miesto": "betliar-info-strom",
+      "miesto": "betliar-info-strom-architektura",
       "poradie": 10,
       "nazov": "Japonský most",
       "popis": "",
@@ -1583,7 +1611,7 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr11",
-      "miesto": "betliar-info-strom",
+      "miesto": "betliar-info-strom-architektura",
       "poradie": 11,
       "nazov": "Čínsky pavilón",
       "popis": "",
@@ -1608,7 +1636,7 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr12",
-      "miesto": "betliar-info-strom",
+      "miesto": "betliar-info-strom-architektura",
       "poradie": 12,
       "nazov": "Parkové plastiky",
       "popis": "",
@@ -1633,7 +1661,7 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr13",
-      "miesto": "betliar-info-strom",
+      "miesto": "betliar-info-strom-architektura",
       "poradie": 13,
       "nazov": "Veľký rybník",
       "popis": "",
@@ -1658,7 +1686,7 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr14",
-      "miesto": "betliar-info-strom",
+      "miesto": "betliar-info-strom-architektura",
       "poradie": 14,
       "nazov": "Zverinec",
       "popis": "",
@@ -1683,7 +1711,7 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr15",
-      "miesto": "betliar-info-strom",
+      "miesto": "betliar-info-strom-architektura",
       "poradie": 15,
       "nazov": "Bosniak / Bosnia bar",
       "popis": "",
@@ -1708,8 +1736,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr16",
-      "miesto": "betliar-info-strom",
-      "poradie": 16,
+      "miesto": "betliar-info-strom-fauna-flora",
+      "poradie": 1,
       "nazov": "Borovica čierna",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-16.jpg",
@@ -1733,8 +1761,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr17",
-      "miesto": "betliar-info-strom",
-      "poradie": 17,
+      "miesto": "betliar-info-strom-fauna-flora",
+      "poradie": 2,
       "nazov": "Douglaska tisolistá",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-17.jpg",
@@ -1758,8 +1786,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr18",
-      "miesto": "betliar-info-strom",
-      "poradie": 18,
+      "miesto": "betliar-info-strom-fauna-flora",
+      "poradie": 3,
       "nazov": "Tsuga kanadská",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-18.jpg",
@@ -1783,8 +1811,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr19",
-      "miesto": "betliar-info-strom",
-      "poradie": 19,
+      "miesto": "betliar-info-strom-fauna-flora",
+      "poradie": 4,
       "nazov": "Platan javorolistý",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-19.jpg",
@@ -1808,8 +1836,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr20",
-      "miesto": "betliar-info-strom",
-      "poradie": 20,
+      "miesto": "betliar-info-strom-fauna-flora",
+      "poradie": 5,
       "nazov": "Višňa pílkatá (sakura)",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-20.jpg",
@@ -1833,8 +1861,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr21",
-      "miesto": "betliar-info-strom",
-      "poradie": 21,
+      "miesto": "betliar-info-strom-fauna-flora",
+      "poradie": 6,
       "nazov": "Dub letný stĺpovitý",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-21.jpg",
@@ -1858,8 +1886,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr22",
-      "miesto": "betliar-info-strom",
-      "poradie": 22,
+      "miesto": "betliar-info-strom-fauna-flora",
+      "poradie": 7,
       "nazov": "Lipa americká",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-22.jpg",
@@ -1883,8 +1911,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr23",
-      "miesto": "betliar-info-strom",
-      "poradie": 23,
+      "miesto": "betliar-info-strom-fauna-flora",
+      "poradie": 8,
       "nazov": "Ľaliovník tulipánokvetý",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-23.jpg",
@@ -1908,8 +1936,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr24",
-      "miesto": "betliar-info-strom",
-      "poradie": 24,
+      "miesto": "betliar-info-strom-fauna-flora",
+      "poradie": 9,
       "nazov": "Ginko dvojlaločné",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-24.jpg",
@@ -1933,8 +1961,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr25",
-      "miesto": "betliar-info-strom",
-      "poradie": 25,
+      "miesto": "betliar-info-strom-fauna-flora",
+      "poradie": 10,
       "nazov": "Smrek (obyčajný) strukovitý",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-25.jpg",
@@ -1958,8 +1986,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr26",
-      "miesto": "betliar-info-strom",
-      "poradie": 26,
+      "miesto": "betliar-info-strom-fauna-flora",
+      "poradie": 11,
       "nazov": "Smrekovec Dahúrsky",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-26.jpg",
@@ -1983,8 +2011,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr27",
-      "miesto": "betliar-info-strom",
-      "poradie": 27,
+      "miesto": "betliar-info-strom-fauna-flora",
+      "poradie": 12,
       "nazov": "Javor mliečny",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-27-2.jpg",
@@ -2008,8 +2036,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr28",
-      "miesto": "betliar-info-strom",
-      "poradie": 28,
+      "miesto": "betliar-info-strom-fauna-flora",
+      "poradie": 13,
       "nazov": "Katalpa trubačovitá",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-28-2.jpg",
@@ -2033,8 +2061,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr29",
-      "miesto": "betliar-info-strom",
-      "poradie": 29,
+      "miesto": "betliar-info-strom-fauna-flora",
+      "poradie": 14,
       "nazov": "Pagaštan konský",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-29-3.jpg",
@@ -2058,8 +2086,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr30",
-      "miesto": "betliar-info-strom",
-      "poradie": 30,
+      "miesto": "betliar-info-strom-fauna-flora",
+      "poradie": 15,
       "nazov": "Buk červenolistý",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-30.jpg",
@@ -2083,8 +2111,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr31",
-      "miesto": "betliar-info-strom",
-      "poradie": 31,
+      "miesto": "betliar-info-strom-fauna-flora",
+      "poradie": 16,
       "nazov": "Zelkova ostrolistá",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/qr31.png",
@@ -2108,8 +2136,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr32",
-      "miesto": "betliar-info-strom",
-      "poradie": 32,
+      "miesto": "betliar-info-strom-fauna-flora",
+      "poradie": 17,
       "nazov": "Magnólia končistolistá",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-32.jpg",
@@ -2133,8 +2161,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr33",
-      "miesto": "betliar-info-strom",
-      "poradie": 33,
+      "miesto": "betliar-info-strom-fauna-flora",
+      "poradie": 18,
       "nazov": "Tis obyčajný",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-33.jpg",
@@ -2158,8 +2186,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr34",
-      "miesto": "betliar-info-strom",
-      "poradie": 34,
+      "miesto": "betliar-info-strom-fauna-flora",
+      "poradie": 19,
       "nazov": "Borovica vejmutovka",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/qr34.png",
@@ -2183,8 +2211,8 @@ const DB = {
     },
     {
       "id": "betliar-info-strom-qr35",
-      "miesto": "betliar-info-strom",
-      "poradie": 35,
+      "miesto": "betliar-info-strom-fauna-flora",
+      "poradie": 20,
       "nazov": "Zvernica",
       "popis": "",
       "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/zvernica-min.png",

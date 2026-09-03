@@ -1,0 +1,17 @@
+{
+  "poradie": 1,
+  "id": "betliar-info-strom-architektura",
+  "rodic": "betliar-info-strom",
+  "nazov": "Architektúra",
+  "popis": "Architektonické prvky anglického parku pri kaštieli Andrássyovcov.",
+  "hlavnaKategoria": "Mestá",
+  "korenoveMiesto": "Betliar",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/betliar/info-strom/architektura/",
+    "en": "https://www.qrlink.sk/new/en/category/betliar/info-strom/architektura/",
+    "de": "https://www.qrlink.sk/new/de/category/betliar/info-strom/architektura/",
+    "ru": "https://www.qrlink.sk/new/ru/category/betliar/info-strom/architektura/",
+    "pl": "https://www.qrlink.sk/new/pl/category/betliar/info-strom/architektura/",
+    "hu": "https://www.qrlink.sk/new/hu/category/betliar/info-strom/architektura/"
+  }
+}
