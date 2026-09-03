@@ -10,6 +10,7 @@
   <meta property="og:description" content="QR LINK – digitálny sprievodca po mestách, pamiatkach a náučných chodníkoch. Naskenujte QR kód priamo na mieste a počúvajte príbeh.">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@3/dist/maplibre-gl.css"/>
   <style>
     #leaflet-map {
       height: 480px;
@@ -328,6 +329,8 @@
 <script src="js/app.js"></script>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/maplibre-gl@3/dist/maplibre-gl.js"></script>
+  <script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.1.1/leaflet-maplibre-gl.js"></script>
   <script>
   // Inicializácia Leaflet mapy – spustí sa po načítaní DB z data.js
   function initLeafletMap() {
@@ -339,17 +342,14 @@
       zoomControl: true,
     });
 
-    // Svetlé dlaždice – Esri Light Gray Canvas (bez API kľúča).
-    // Pôvodne tu bolo CARTO Positron, ale CARTO od istého dátumu vyžaduje
-    // API kľúč aj na anonymné dlaždice (bez neho vracia dlaždice s
-    // vodoznakom "API KEY REQUIRED"), preto sme prešli na Esri.
-    L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}", {
-      attribution: '&copy; <a href="https://www.esri.com/">Esri</a>',
-      maxZoom: 16,
-    }).addTo(map);
-    // Popisky (mestá, hranice, štáty) – samostatná priesvitná vrstva nad podkladom.
-    L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}", {
-      maxZoom: 16,
+    // Svetlé dlaždice – OpenFreeMap "Positron" (vektorový štýl cez MapLibre
+    // GL, zadarmo, bez API kľúča). Pôvodne tu bolo CARTO Positron (rovnaký
+    // vzhľad aj font), ale CARTO od istého dátumu vyžaduje API kľúč aj na
+    // anonymné dlaždice (bez neho vracia dlaždice s vodoznakom
+    // "API KEY REQUIRED"), preto sme prešli na OpenFreeMap.
+    L.maplibreGL({
+      style: "https://tiles.openfreemap.org/styles/positron",
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(map);
 
     // Okraje SR – fade efekt (SVG overlay)
