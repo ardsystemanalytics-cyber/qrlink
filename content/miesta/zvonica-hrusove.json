@@ -13,5 +13,13 @@
   "cover": "",
   "popis": "Historická zvonica.",
   "hlavnaKategoria": "Pamiatky",
-  "korenoveMiesto": "Zvonica Hrušové"
+  "korenoveMiesto": "Zvonica Hrušové",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/",
+    "en": "https://www.qrlink.sk/new/en/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/",
+    "de": "https://www.qrlink.sk/new/de/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/",
+    "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/",
+    "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/",
+    "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/"
+  }
 }

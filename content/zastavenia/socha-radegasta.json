@@ -1,0 +1,28 @@
+{
+  "id": "socha-radegasta",
+  "miesto": "roznov",
+  "poradie": 5,
+  "nazov": "SOCHA RADEGASTA",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/09/socha-radegasta.png",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2022/09/Socha.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Původní sochu Radegasta vytvořil sochař Albín Polášek z betonu a kameninové drti. Na horský hřbet mezi Pustevnami a Radhoštěm byla umístěna v roce 1931. Horské podnebí sochu narušovalo, a proto byla v roce 1996 přesunuta do haly radnice ve Frenštátu pod Radhoštěm a na jejím místě stojí od roku 1998 kopie z odolnější žuly.\n\nRadegasta uctívali pohané jako boha slunce, hojnosti a úrody. Albín Polášek jej ztvárnil jako postavu s mužským tělem a lví hlavou, na které má nasazenou přilbu s býčími rohy. V pravé ruce svírá roh hojnosti, levou se opírá o sekyru.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Rožnov pod Radhoštěm",
+  "miestoNazov": "Rožnov pod Radhoštěm",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/socha-radegasta/",
+    "en": "https://www.qrlink.sk/new/en/socha-radegasta/",
+    "de": "https://www.qrlink.sk/new/de/socha-radegasta/",
+    "ru": "https://www.qrlink.sk/new/ru/socha-radegasta/",
+    "pl": "https://www.qrlink.sk/new/pl/socha-radegasta/",
+    "hu": "https://www.qrlink.sk/new/hu/socha-radegasta/"
+  }
+}

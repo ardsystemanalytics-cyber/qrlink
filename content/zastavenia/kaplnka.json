@@ -3,13 +3,36 @@
   "miesto": "hrad-strecno",
   "poradie": 12,
   "nazov": "Kaplnka",
-  "cover": "",
-  "audio": [],
-  "text": "[DOPLNIŤ – text zastavenia z pôvodného webu]",
-  "galeria": [],
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/12-kaplnka.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/12.mp3"
+    },
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/12A.mp3"
+    },
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/12B.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/12a-Žofia-Bosniaková.jpg"
+    }
+  ],
   "gps": null,
   "mapEmbed": "",
+  "text": "V kaplnke môžete vidieť gotickú hviezdicovú klenbu, ktorú sa podarilo zrekonštruovať podľa pôvodných rebier – našli sa zrútené v kaplnke a v hradnej studni. Nad emporou, na ktorej stojíme, bola pôvodne ešte jedna empora. Vchádzalo sa na ňu z druhého podlažia severného paláca. V podlahe kaplnky je odkrytá krypta, do ktorej bolo uložené telo Žofie Bosniakovej, ktorá zomrela v roku 1644 ako 34-ročná. V roku 1689 tu jej telo našli cisárske vojská, ktoré na príkaz cisára ničili hrad. Aj 45 rokov po smrti bolo jej telo takmer neporušené. Keďže hrad bol vtedy už ruinou, Žofiino telo bolo po krátkom čase premiestnené do kostola v neďalekej Tepličke nad Váhom, kde bolo uložené v presklenej rakve a ľudia ho tam chodili obdivovať. Avšak v roku 2009 mentálne chorý muž rakvu so Žofiiným telom vyniesol von, podpálil a zničil tak veľmi vzácne kultúrne dedičstvo. V našej krypte sa dnes na Žofiinu počesť nachádza replika jej tela, zhotovená akademickým maliarom Stanom Lajdom. Žofia Bosniaková je najvýraznejšou osobnosťou v dejinách nášho hradu. V minulosti ju mali ľudia veľmi radi, pretože bola milá, skromná, dobrosrdečná a nikdy neodmietla žiadnu prosbu o pomoc. Spolu so svojím manželom založila útulok pre chudobných, chorých, siroty a cudzincov. Práve pre jej dobré skutky a pre neporušené telo, ktoré sa našlo v našej krypte, je Žofia považovaná za svätú, aj je známa pod pomenovaním svätica zo Strečna. Dokonca v roku 1997 sa začal proces jej blahorečenia (pre nedostatok archívnych dôkazov, že sa okolo jej osoby diali zázraky, zatiaľ blahorečená nebola). O Žofii existuje niekoľko povestí a legiend. Jedna z najznámejších hovorí, že Žofia Bosniaková v čase najväčšej biedy rozdávala chudobným zadarmo malé chlebíky, a tie podľa jej mena dostali pomenovanie bosniaky. V okolí Štrečna a Žiliny sú bosniaky známe aj dnes.\n\nSakristia\n\nVo vitrínach sa nachádzajú kamenné fragmenty, ktoré sa našli v hradnej studni počas čistiacich prác (1988 – 1992). V prvej vitrínke sú zrejme časti portálu dverí, časť výzdoby nad vstupom do hradu alebo náhrobný kameň s menom Vešeléni.\n\nLegendy o Žofii Bosniakovej\n\nŽofiino manželstvo s Františkom Vešelénim bolo zo začiatku veľmi šťastné. Postupom času, keď František často odchádzal na Fiľakovský hrad (bol kapitánom hradu), zaľúbil sa do druhej ženy, do tzv. Muránskej Venuše z hradu Muráň, do Márie Séči. Žofia veľmi trpela jeho nevšímavosťou a údajne denne chodila do kaplnky v skalách, aby si tam vymodlila jeho lásku späť. Raz ju tam v modlitbe k Panne Márii našiel František, prosil ju o odpustenie a prisahal jej večnú lásku. Keď však Žofia zomrela, František Vešeléni sa krátko na to opäť oženil a za manželku si zobral práve spomínanú Máriu Séči.\n\nReštaurovanie kaplnky\n\nPred reštaurovaním boli steny kaplnky preomietnuté cementovou omietkou, v hornej časti boli domurované do pôvodnej výšky a zaklenuté novou rekonštrukčnou železobetónovou klenbou. Steny boli natreté na bielo a rebrá klenby zase na tehlovočerveno. Toto bola zrejme aj pôvodná základná stredoveká farebnosť kaplnky. Keďže z vonkajšej strany omietka chýbala, dážď spôsoboval zvýšenú vlhkosť a plesne v interiéri. Výskumom sa zistilo, že pod cementovou omietkou sú zachované pôvodné stredoveké omietky. Samotné reštaurovanie začalo kompletným odstránením cementových omietok. Výsledkom bolo očistenie stein až na pôvodné kamenné murivo s čiastočne zachovanými pôvodnými stredovekými omietkami v spodnej časti stien. Následne boli murivá a omietky hĺbkovo spevnené. Po celkovom spevnení a konzervácii došlo k doplneniu zachovaných častí omietky. V stenách boli doplnené aj drevené lešenárske guľatiny z výstavby kaplnky, po ktorých ostali už len diery do exteriéru. Takisto došlo k farebnému sceleniu kaplnky, aby výrazná klenba kaplnky z konca 20. storočia nepôsobila rušivo a nepútala väčšiu pozornosť ako pôvodné stredoveké omietky.",
   "hlavnaKategoria": "Pamiatky",
   "projekt": "Hrad Strečno",
-  "miestoNazov": "Hrad Strečno"
+  "miestoNazov": "Hrad Strečno",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/castles/kaplnka/",
+    "en": "https://www.qrlink.sk/new/en/castles/kaplnka/",
+    "de": "https://www.qrlink.sk/new/de/castles/kaplnka/",
+    "ru": "https://www.qrlink.sk/new/ru/castles/kaplnka/",
+    "pl": "https://www.qrlink.sk/new/pl/castles/kaplnka/",
+    "hu": "https://www.qrlink.sk/new/hu/castles/kaplnka/"
+  }
 }

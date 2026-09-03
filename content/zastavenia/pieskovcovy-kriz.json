@@ -1,0 +1,28 @@
+{
+  "id": "pieskovcovy-kriz",
+  "miesto": "vranov",
+  "poradie": 2,
+  "nazov": "Pieskovcový kríž",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage6.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2021/09/02-Pieskovcovy-kriz-1.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Pieskovcový kríž z  roku 1864 bol pôvodne umiestnený pri zaniknutom kostole sv. Štefana, ktorý sa nachádzal pravdepodobne v centre mesta. Kríž je zachovaný v pomerne pôvodnej podobe. V okolí kostolov sa v minulosti nachádzali cintoríny a aj pri spomínanom kostole sv. Štefana sa pri archeologickom prieskume našli hrobové miesta. Historici predpokladajú, že kríž bol súčasťou cintorína. Druhou možnosťou je, že to bol prícestný kríž, pretože popri kostole viedla obchodná cesta.\n\nUmiestnenie objektu teda nebolo náhodné.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Vranov nad Topľou",
+  "miestoNazov": "Vranov nad Topľou",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/pieskovcovy-kriz/",
+    "en": "https://www.qrlink.sk/new/en/pieskovcovy-kriz/",
+    "de": "https://www.qrlink.sk/new/de/pieskovcovy-kriz/",
+    "ru": "https://www.qrlink.sk/new/ru/pieskovcovy-kriz/",
+    "pl": "https://www.qrlink.sk/new/pl/pieskovcovy-kriz/",
+    "hu": "https://www.qrlink.sk/new/hu/pieskovcovy-kriz/"
+  }
+}

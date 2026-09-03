@@ -1,0 +1,28 @@
+{
+  "id": "kalvaria",
+  "miesto": "ruzomberok",
+  "poradie": 6,
+  "nazov": "KALVÁRIA",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/17-kalvaria.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/12-Kalvária.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Kalvária s Kostol Povýšenia svätého Kríža a 14 kaplnkami zastavení krížovej cesty bola vybudovaná v období rokov 1858 – 1860. Exteriérová realizácia krížovej cesty je výrazná krajinná dominanta, ktorá vznikla z iniciatívy miestnych rímskokatolíckych kňazov Jána Nepomuka Záhoru, Andreja Kučmu a veriacich ružomberskej farnosti. Klasicistický kostolík bol obnovovaný v rokoch 1902 – 1903 a 1947 – 1948. Vnútorné zariadenie navrhol Valér Aurel Zavarský, reliéfne plastiky sú dielom Františka Gibalu. Interiér v roku 1959 obohatili nástenné maľby Mikuláša Klimčáka. Autentický areál jednoduchých sakrálnych stavieb koncipovaných v klasicistickom duchu je pútnickým miestom a súčasťou duchovnej histórie mesta Ružomberok.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Ružomberok",
+  "miestoNazov": "Ružomberok",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/kalvaria/",
+    "en": "https://www.qrlink.sk/new/en/kalvaria/",
+    "de": "https://www.qrlink.sk/new/de/kalvaria/",
+    "ru": "https://www.qrlink.sk/new/ru/kalvaria/",
+    "pl": "https://www.qrlink.sk/new/pl/kalvaria/",
+    "hu": "https://www.qrlink.sk/new/hu/kalvaria/"
+  }
+}

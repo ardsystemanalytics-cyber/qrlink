@@ -1,0 +1,32 @@
+{
+  "id": "zvonica-2",
+  "miesto": "nch-hlinene",
+  "poradie": 6,
+  "nazov": "Zvonica",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/18-zvonica-3.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/09/08-08-zvonica.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png"
+    }
+  ],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Rok postavenia zvonice nie je známy, pravdepodobne pochádza z prvej polovice minulého storočia. Pôvodne išlo o drevenú zvonicu, ku ktorej bola neskôr pristavaná murovaná prístavba, čím vznikla aj malá kaplnka. Zaujímavosťou je, že vo zvonici sa nachádzajú dva zvony, z ktorých jeden má datovanie 1752. Ide teda o najstarší zvon turzovskej farnosti in situ (najstarší z roku 1614 sa nachádza v zbierkach Mestského múzea K. Točíka). Zvony však nie sú pôvodné, podľa zachovanej ústnej tradície boli do zvonice dovezené prvým zvonárom z neznámej lokality z Moravy. V roku 1919 bol v osade postavený kríž, ale z kronikárskeho zápisu nie je jasné, o ktorý z dvoch jestvujúcich išlo. Či o kríž v lokality Pri kríži alebo kríž pri zvonici. Súčasný kríž pri zvonici bol osadený na jeseň 2020.\n\nNázov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho regionu,\n\nKód projektu:NFP304030BMA2",
+  "hlavnaKategoria": "Náučné chodníky",
+  "projekt": "Náučný chodník Hlinené",
+  "miestoNazov": "Náučný chodník Hlinené",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/zvonica-2/",
+    "en": "https://www.qrlink.sk/new/en/zvonica-2/",
+    "de": "https://www.qrlink.sk/new/de/zvonica-2/",
+    "ru": "https://www.qrlink.sk/new/ru/zvonica-2/",
+    "pl": "https://www.qrlink.sk/new/pl/zvonica-2/",
+    "hu": "https://www.qrlink.sk/new/hu/zvonica-2/"
+  }
+}

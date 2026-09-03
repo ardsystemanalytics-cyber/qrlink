@@ -3,13 +3,26 @@
   "miesto": "hrad-strecno",
   "poradie": 7,
   "nazov": "Cisterna",
-  "cover": "",
-  "audio": [],
-  "text": "[DOPLNIŤ – text zastavenia z pôvodného webu]",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/7-cisterna-1.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/7-1.mp3"
+    }
+  ],
   "galeria": [],
   "gps": null,
   "mapEmbed": "",
+  "text": "Cisterna slúžila na zachytávanie dažďovej vody zo striech hradu. Voda sa do nej dostávala pomocou dažďových odkvapov. Cisterna je hlboká  3,5m a priemer má 2,6m. Päť spodných radov obloženia je pôvodných, ostatné 3 rady sú dorekonštruované. Dno a obvod cisterny bol v čase používania vymazaný ílom, čím sa zabránilo presakovaniu vody do vápencového podložia. Voda z cisterny nebola pitná, iba úžitková.",
   "hlavnaKategoria": "Pamiatky",
   "projekt": "Hrad Strečno",
-  "miestoNazov": "Hrad Strečno"
+  "miestoNazov": "Hrad Strečno",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/castles/cisterna/",
+    "en": "https://www.qrlink.sk/new/en/castles/cisterna/",
+    "de": "https://www.qrlink.sk/new/de/castles/cisterna/",
+    "ru": "https://www.qrlink.sk/new/ru/castles/cisterna/",
+    "pl": "https://www.qrlink.sk/new/pl/castles/cisterna/",
+    "hu": "https://www.qrlink.sk/new/hu/castles/cisterna/"
+  }
 }

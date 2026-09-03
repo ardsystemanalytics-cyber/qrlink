@@ -1,0 +1,28 @@
+{
+  "id": "rybniky",
+  "miesto": "turzovka",
+  "poradie": 3,
+  "nazov": "Rybníky",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/12.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/12.-Ponds.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Nachádzajú sa v mestskej časti Predmier. Je to vodná plocha dvoch štrkovísk pri sútoku riek Predmieranka a Korňanka. História lovných rybníkoch siaha až do roku 1975. Pôvodne sa členovia rybárskeho spolku stretávali len pri bežných rybačkách. Kysucký región je chudobný na stojace vody, a preto vznikla potreba vybudovať vlastné lovné rybníky. Spolok dokončil stavbu svojho prvého rybníka – v Turzovke a spravil zarybnenie. Nasadený bol kapor (600 kg, 1- až 2-kilové) a pstruh dúhový (200 kg, dvojročný). Na výstavbe rybníka bolo odpracované veľké množstvo brigádnických hodín. Pre zaujímavosť: pán Zemaník 840 hodín a pán Drvár 620 hodín.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Turzovka",
+  "miestoNazov": "Turzovka",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/rybniky/",
+    "en": "https://www.qrlink.sk/new/en/rybniky/",
+    "de": "https://www.qrlink.sk/new/de/rybniky/",
+    "ru": "https://www.qrlink.sk/new/ru/rybniky/",
+    "pl": "https://www.qrlink.sk/new/pl/rybniky/",
+    "hu": "https://www.qrlink.sk/new/hu/rybniky/"
+  }
+}

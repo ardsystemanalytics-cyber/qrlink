@@ -14,5 +14,13 @@
   "cover": "",
   "popis": "Obec známa kaštieľom rodu Andrássyovcov.",
   "hlavnaKategoria": "Mestá",
-  "korenoveMiesto": "Betliar"
+  "korenoveMiesto": "Betliar",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/betliar/",
+    "en": "https://www.qrlink.sk/new/en/category/betliar/",
+    "de": "https://www.qrlink.sk/new/de/category/betliar/",
+    "ru": "https://www.qrlink.sk/new/ru/category/betliar/",
+    "pl": "https://www.qrlink.sk/new/pl/category/betliar/",
+    "hu": "https://www.qrlink.sk/new/hu/category/betliar/"
+  }
 }

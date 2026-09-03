@@ -1,0 +1,28 @@
+{
+  "id": "betliar-info-strom-qr13",
+  "miesto": "betliar",
+  "poradie": 31,
+  "nazov": "Veľký rybník",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-13.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/13.-Veľký-rybník.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Bol vybudovaný v 80tych rokoch 19. storočia a má rozlohu 4750m2. Na rybníku je vybudované prístavisko, z brehu vedie drevený mostík do malej besiedky.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Betliar",
+  "miestoNazov": "Betliar",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/betliar-info-strom-qr13/",
+    "en": "https://www.qrlink.sk/new/en/betliar-info-strom-qr13/",
+    "de": "https://www.qrlink.sk/new/de/betliar-info-strom-qr13/",
+    "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr13/",
+    "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr13/",
+    "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr13/"
+  }
+}

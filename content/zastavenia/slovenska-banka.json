@@ -1,0 +1,28 @@
+{
+  "id": "slovenska-banka",
+  "miesto": "ruzomberok",
+  "poradie": 21,
+  "nazov": "SLOVENSKÁ BANKA",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/10-kniznica.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/25-SLOVENSKÁ-BANKA.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Solitérna dvojpodlažná stavba mestského charakteru sídlo, Ružomberského úverného spolku, účastinnej spoločnosti, neskoršej Úverovej a od r. 1919 Slovenskej banky. Novobaroková budova so secesnými prvkami na čelnej fasáde bola postavená v rokoch 1902 – 1903 podľa projektu Milana Michala Harminca, neskoršie dispozičné úpravy sa realizovali v roku 1936. Dom patril k významným strediskám slovenského bankovníctva a slovenského národného života. Jeho história je spojená s rodinami Makovickovcov, Beniačovcov a Houdekovcov, ktorých príslušníci patrili k významným osobnostiam hospodárskeho, politického a kultúrneho života.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Ružomberok",
+  "miestoNazov": "Ružomberok",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/slovenska-banka/",
+    "en": "https://www.qrlink.sk/new/en/slovenska-banka/",
+    "de": "https://www.qrlink.sk/new/de/slovenska-banka/",
+    "ru": "https://www.qrlink.sk/new/ru/slovenska-banka/",
+    "pl": "https://www.qrlink.sk/new/pl/slovenska-banka/",
+    "hu": "https://www.qrlink.sk/new/hu/slovenska-banka/"
+  }
+}

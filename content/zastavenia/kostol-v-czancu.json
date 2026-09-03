@@ -1,0 +1,28 @@
+{
+  "id": "kostol-v-czancu",
+  "miesto": "porabka",
+  "poradie": 9,
+  "nazov": "Kostol v Czaňcu",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/9-1.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/9.-THE-CHURCH-IN-CZAŃC.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Farský kostol zasvätený Svätému Bartholomejovi v Czańcu bol postavený v rokoch 1921-1924, na mieste dreveného kostola, ktorý sa datuje do 15. storočia. Po starom kostole ostala murovaná kostolná veža z roku 1764 a zakristia. Nový kostol bol postavený vďaka vtedajším majiteľom panstva Czaneckeho arcivojvodu Karola Štefana Habsburského z Żywca, patróna farnosti Czaniec. Autorom projektu chrámu bol slávny krakovský architekt Franciiszek Mączyński.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Porąbka",
+  "miestoNazov": "Porąbka",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/kostol-v-czancu/",
+    "en": "https://www.qrlink.sk/new/en/kostol-v-czancu/",
+    "de": "https://www.qrlink.sk/new/de/kostol-v-czancu/",
+    "ru": "https://www.qrlink.sk/new/ru/kostol-v-czancu/",
+    "pl": "https://www.qrlink.sk/new/pl/kostol-v-czancu/",
+    "hu": "https://www.qrlink.sk/new/hu/kostol-v-czancu/"
+  }
+}

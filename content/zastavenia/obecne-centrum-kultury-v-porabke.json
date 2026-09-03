@@ -1,0 +1,28 @@
+{
+  "id": "obecne-centrum-kultury-v-porabke",
+  "miesto": "porabka",
+  "poradie": 3,
+  "nazov": "Obecné centrum kultúry v Porąbke",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/Untitled.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/3.-THE-MUNICIPAL-CULTURE-CENTRE-IN-PORABKA.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Obecné centrum kultúry v Porąbke je základnou kultúrnou organizáciou v časti obce ak aj celej obci. Tu prebieha spolupráca so združeniami pôsobiacimi na území obce a organizačnými jednotkami organizujúcimi voľný čas pre deti a mládež. Organizuje súťaže, turnaje, výstavy, konkurzy. Pripravujem  noviny. Je tiež sídlom Mestskej verejnej knižnice a združení pôsobiacich v obci Porąbka.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Porąbka",
+  "miestoNazov": "Porąbka",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/obecne-centrum-kultury-v-porabke/",
+    "en": "https://www.qrlink.sk/new/en/obecne-centrum-kultury-v-porabke/",
+    "de": "https://www.qrlink.sk/new/de/obecne-centrum-kultury-v-porabke/",
+    "ru": "https://www.qrlink.sk/new/ru/obecne-centrum-kultury-v-porabke/",
+    "pl": "https://www.qrlink.sk/new/pl/obecne-centrum-kultury-v-porabke/",
+    "hu": "https://www.qrlink.sk/new/hu/obecne-centrum-kultury-v-porabke/"
+  }
+}

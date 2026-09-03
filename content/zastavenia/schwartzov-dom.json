@@ -1,0 +1,32 @@
+{
+  "id": "schwartzov-dom",
+  "miesto": "vranov",
+  "poradie": 4,
+  "nazov": "Schwartzov dom",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Schwartzov-dom.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2021/09/04-Schwartsov-dom.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Schwartzov-dom-1.jpg"
+    }
+  ],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Schwartzov dom je jedna z najreprezentatívnejších zachovaných profánnych budov vo Vranove nad Topľou. Jej staviteľom bol významný vranovský obchodník Hugo Schwartz v roku 1911. Hugo Schwartz s manželkou Lujzou rodenou Bergerovou, s bratmi Ignácom a Izidorom boli aj vlastníkmi najväčšieho vranovského podniku – obchodu s priemyselným tovarom, ktorý sa nachádzal v budove. Bohato zdobené neskorosecesné priečelie budovy dopĺňa bohatá štuková výzdoba interiéru. Nad vchodom je korunná rímsa podopretá ozdobnými prvkami na fasáde. Tieto prvky sú zachované na budove dodnes. V medzivojnovom období stála pred obchodom benzínová pumpa. Majitelia obchodu zabezpečili tiež elektrické osvetlenie priľahlej križovatky. Rodina bola známa svojimi filantropickými darmi, najznámejší bol „amerikanec“ Mikulaš Schwartz, ktorý zo Spojených štátov amerických svojimi finančnými darmi podporil nielen židovskú obec, ale aj katolícke zbory. Daroval rímskokatolíckej cirkvi 50 tisíc korún na zakúpenie zvona a 10 tisíc dolárov na výstavbu vranovskej synagógy. Keď Izidor Schwartz – brat Ignáca a Huga zomrel (pôsobil ako obchodný splnomocnenec Slovenskej všeobecnej úverovej banky), ich rodina darovala rímskokatolíckej cirkvi na opravy kostola 100 tisíc korún. Členovia tejto, pre Vranov významnej židovskej rodiny, sú pochovaní na miestnom židovskom cintoríne.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Vranov nad Topľou",
+  "miestoNazov": "Vranov nad Topľou",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/schwartzov-dom/",
+    "en": "https://www.qrlink.sk/new/en/schwartzov-dom/",
+    "de": "https://www.qrlink.sk/new/de/schwartzov-dom/",
+    "ru": "https://www.qrlink.sk/new/ru/schwartzov-dom/",
+    "pl": "https://www.qrlink.sk/new/pl/schwartzov-dom/",
+    "hu": "https://www.qrlink.sk/new/hu/schwartzov-dom/"
+  }
+}

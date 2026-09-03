@@ -3,13 +3,26 @@
   "miesto": "hrad-strecno",
   "poradie": 14,
   "nazov": "Hlavné nádvorie",
-  "cover": "",
-  "audio": [],
-  "text": "[DOPLNIŤ – text zastavenia z pôvodného webu]",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/14-hlavné-nádvorie-e1593777205229.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/14.mp3"
+    }
+  ],
   "galeria": [],
   "gps": null,
   "mapEmbed": "",
+  "text": "Na hlavnom nádvorí sa nachádza hlboká hradná studňa. Vysekaná je do skalného podložia do hĺbky až 88m, pričom výška vodnej hladiny je asi 1,5m. Počas archeologického výskumu sa našlo najviac zaujímavých pamiatok práve v studni. Tá bola totiž pri ničení hradu zasypaná odpadom a časťami architektonických prvkov úplne povrch a v podstate sa o jej existencii pred výskumom ani nevedelo. Vyčistili ju jaskyniari z Martina (trvalo to 5 rokov).\n\nHistória hradu Strečno v 18. – 20. storočí\n\nPo tom, ako bol hrad zabavený Ladislavovi Vešelénimu, strečnianske panstvo bolo rozdelené na dve časti. Jednu získal Pavol Esterházy (pán Bytče) – vzniklo tak panstvo Bytča-Strečno. Druhú časť dostali bratia Löwenburgovci. V druhej polovici 19. storočia Esterházyovci predali panstvo Bytča-Strečno veľkopodnikateľovi s drevom Leopoldovi Popperovi. Na konci 19. storočia Popperovci kvôli dlhom začali rozpredávať svoje majetky. Strečno tak získal obchodník Samuel Hahn. Löwenburgovská časť majetku sa rozdelila na dve časti – tepličské a gbeľanské panstvo, ktoré viackrát menili svojich majiteľov, poslednou majiteľkou bola grófka Iphigénia D‘ Hartcourt a grófka Šarlota Mayláth. Obchodník Hahn začal hrad rozoberať a kameň predávať ako stavebný materiál. Neskôr začal pod hradom ťažiť vápenec. V ťažbe sa pokračovalo aj počas prvej ČSR (Vápenka Varín). Až keď sa Strečno dostalo do rúk Československého klubu turistov, boli práce vedúce k likvidácii hradu zastavené. Počas 2. svetovej vojny bol hrad značne zničený, hlavne keď tu bojovali francúzske partizánske jednotky. Od roku 1978 sa rekonštruoval. Na rekonštrukciu sa používal kameň získaný zo sutiny priamo z hradu alebo bol dovezený z lomu Polom. Úplne bola zrekonštruovaná hlavná brána, hlavná veža, južný palác, severný palác a kaplnka. Z veľkej časti bola doplnená severná veža a predbránie, čiastočne východný palác, parkánová hradba a delové opevnenie.\n\nMilí návštevníci, tu sa naše spoločné sprevádzanie hradom končí. Dúfame, že sa vám virtuálna prehliadka páčila a obohatila vás nielen vizuálne, ale aj duchovne. Sprevádzali vás virtuálne ARDSYSTÉM, lektorsky hrad Strečno a hudobne Zbor starej hudby ARCUS.\n\nhttps://ardsystem.sk/\n\nhttps://www.pmza.sk/\n\nhttps://www.zborarcus.sk/",
   "hlavnaKategoria": "Pamiatky",
   "projekt": "Hrad Strečno",
-  "miestoNazov": "Hrad Strečno"
+  "miestoNazov": "Hrad Strečno",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/castles/hlavne-nadvorie/",
+    "en": "https://www.qrlink.sk/new/en/castles/hlavne-nadvorie/",
+    "de": "https://www.qrlink.sk/new/de/castles/hlavne-nadvorie/",
+    "ru": "https://www.qrlink.sk/new/ru/castles/hlavne-nadvorie/",
+    "pl": "https://www.qrlink.sk/new/pl/castles/hlavne-nadvorie/",
+    "hu": "https://www.qrlink.sk/new/hu/castles/hlavne-nadvorie/"
+  }
 }

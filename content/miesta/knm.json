@@ -13,5 +13,13 @@
   "cover": "",
   "popis": "Mesto na Kysuciach.",
   "hlavnaKategoria": "Mestá",
-  "korenoveMiesto": "Kysucké Nové Mesto"
+  "korenoveMiesto": "Kysucké Nové Mesto",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/knm/",
+    "en": "https://www.qrlink.sk/new/en/category/knm/",
+    "de": "https://www.qrlink.sk/new/de/category/knm/",
+    "ru": "https://www.qrlink.sk/new/ru/category/knm/",
+    "pl": "https://www.qrlink.sk/new/pl/category/knm/",
+    "hu": "https://www.qrlink.sk/new/hu/category/knm/"
+  }
 }

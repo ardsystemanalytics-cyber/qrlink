@@ -13,5 +13,13 @@
   "cover": "",
   "popis": "Mesto na Zemplíne.",
   "hlavnaKategoria": "Mestá",
-  "korenoveMiesto": "Trebišov"
+  "korenoveMiesto": "Trebišov",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/trebisov/",
+    "en": "https://www.qrlink.sk/new/en/category/trebisov/",
+    "de": "https://www.qrlink.sk/new/de/category/trebisov/",
+    "ru": "https://www.qrlink.sk/new/ru/category/trebisov/",
+    "pl": "https://www.qrlink.sk/new/pl/category/trebisov/",
+    "hu": "https://www.qrlink.sk/new/hu/category/trebisov/"
+  }
 }

@@ -1,0 +1,28 @@
+{
+  "id": "kaplnka-na-javorovej-ulici",
+  "miesto": "turzovka",
+  "poradie": 17,
+  "nazov": "Kaplnka na Javorovej ulici",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/javorova.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-3-The-chapel-on-the-“Javorova”-street.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Ide o menšiu sakrálnu stavbu, ktorá stojí na Javorovej ulici. Jej iniciátorom bol Jakub Štefanka, ktorý pri kopaní základov pre hospodársku budovu našiel v zemi sochu Panny Márie Hostýnskej. To bol impulz pre postavenie malej kaplnky, v ktorej sa aj v súčasnosti nachádza socha Panny Márie Hostýnskej (už nie pôvodná). Na dverách kaplnky je umiestnený Máriin monogram.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Turzovka",
+  "miestoNazov": "Turzovka",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/kaplnka-na-javorovej-ulici/",
+    "en": "https://www.qrlink.sk/new/en/kaplnka-na-javorovej-ulici/",
+    "de": "https://www.qrlink.sk/new/de/kaplnka-na-javorovej-ulici/",
+    "ru": "https://www.qrlink.sk/new/ru/kaplnka-na-javorovej-ulici/",
+    "pl": "https://www.qrlink.sk/new/pl/kaplnka-na-javorovej-ulici/",
+    "hu": "https://www.qrlink.sk/new/hu/kaplnka-na-javorovej-ulici/"
+  }
+}

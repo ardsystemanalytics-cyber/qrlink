@@ -3,13 +3,30 @@
   "miesto": "hrad-strecno",
   "poradie": 4,
   "nazov": "Prvé podlažie Južného paláca",
-  "cover": "",
-  "audio": [],
-  "text": "[DOPLNIŤ – text zastavenia z pôvodného webu]",
-  "galeria": [],
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/4-model-hradu-17.-storočie.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/4-1.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/4a-model-hradu-20.-storočie.png"
+    }
+  ],
   "gps": null,
   "mapEmbed": "",
+  "text": "Prvá písomná zmienka o Strečne, ako o provincii pochádza z roku 1316. V tomto období ovládal celú Žilinskú kotlinu Matúš Čák Trenčiansky a po jeho smrti prevzal jeho majetky uhorský kráľ, Karol Róbert. Ako kamenný hrad, ,,comitatus castri Strychen“, sa Strečno spomína v listine z roku 1384. Hrad bol postavený na vysokom vápencovom brale (cca 100m) nad riekou Váh. Takéto výnimočné umiestnenie umožňovalo prísnu kontrolu každého, kto chcel prejsť dolinou Váhu. Preto bol hrad využívaný na stráženie mýtnej stanice, ktorá sa nachádzala pri brode cez rieku. Do konca 14. storočia bol hrad kráľovským majetkom. V nasledujúcom období viackrát menil majiteľov, medzi ktorými bol prvý poľský šľachtic Sudivoj z Ostrorohu, bývalý husitský kapitán Ján Čapek zo Sán, Pongrác z Liptovského Mikuláša či Pavol Kiniži (ktorý bol aj majiteľom hradu Lietava). Vdova po Pavlovi Kinižim, Benigna, predala hrad Zápoľským. Následne hrad pripadol Mikulášovi Kostkovi, po ktorom ho vlastnili Deršfiovci. Najznámejšími majiteľmi boli František Vešeléni a jeho žena Žofia Bosniaková, ktorí hrad vlastnili v 17. storočí. Spočiatku mal hrad iba malú rozlohu (22x18m). Tvorila ho obytná budova, cisterna a päťposchodová hranolová veža, tzv. bergfrit. Prístup do hradu bol z južnej strany chránený priekopou vysekanou do hradnej skaly, cez ktorú viedol most k hlavnej bráne. V 16. storočí bol hrad značne rozšírený a prestavaný. Bolo potrebné ho opevniť, aby sa stal bezpečným útočiskom a taktiež zútulniť pre potreby šľachty. Hrad sa tak postupne rozrástol o severný palác zakončený kaplnkou a tiež o južný palác s 2 obytnými krídlami. Na západnej strane vzniklo predhradie so severnou vežou a novou hlavnou bránou s predbráním. Na východnej strane vznikol dvojpodlažný palác a múry boli posunuté až na okraj skalnej steny nad riekou. V 17. storočí vznikli tri delové bastióny a z južnej strany pribudli dve nové predhradia s bránami. V tomto období dosiahol hrad svoju najväčšiu rozlohu – 165x61m a stal sa najlepšie opevneným hradom na strednom Považí. Model hradu v jeho najväčšej rozlohe môžete vidieť vo vitríne. V priebehu druhej polovice 17. storočia prežil hrad niekoľko dramatických udalostí. Vtedajší majiteľ, František Vešeléni, zomrel a majetky zdedil jeho syn Ladislav. Avšak ten sa musel svojich majetkov v Uhorsku vzdať, pretože došlo k prezradeniu, že jeho otec pripravoval povstanie proti cisárovi. Po konfiškácii majetku sa na hrade usídlili Tőkőlyho vojaci, ktorí bojovali v rámci protihabsburského povstania. Cisár Leopold I. preto prikázal hrad definitívne zničiť. Opevnenie a strechy hradu boli zbúrané, studňa a hradná cisterna boli zasypané. Od konca 17. storočia hrad chátral. V roku 1970 bol hrad vyhlásený za Národnú kultúrnu pamiatku. Následne bol rekonštruovaný (1978 – 1994) a v roku 1995 bol ako zrekonštruovaná zrúcanina sprístupnený verejnosti. Druhý model hradu zobrazuje stav zrúcaniny pred rekonštrukciou (30 roky 20. storočia).\n\nV súčasnosti môžete vidieť v tejto miestnosti výstavu dobových pohľadníc hradu Strečno a neďalekého Starého hradu a fotografíí súčasnej podoby Strečna.",
   "hlavnaKategoria": "Pamiatky",
   "projekt": "Hrad Strečno",
-  "miestoNazov": "Hrad Strečno"
+  "miestoNazov": "Hrad Strečno",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/castles/prve-podlazie-juzneho-palaca/",
+    "en": "https://www.qrlink.sk/new/en/castles/prve-podlazie-juzneho-palaca/",
+    "de": "https://www.qrlink.sk/new/de/castles/prve-podlazie-juzneho-palaca/",
+    "ru": "https://www.qrlink.sk/new/ru/castles/prve-podlazie-juzneho-palaca/",
+    "pl": "https://www.qrlink.sk/new/pl/castles/prve-podlazie-juzneho-palaca/",
+    "hu": "https://www.qrlink.sk/new/hu/castles/prve-podlazie-juzneho-palaca/"
+  }
 }

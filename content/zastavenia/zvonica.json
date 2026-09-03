@@ -1,0 +1,28 @@
+{
+  "id": "zvonica",
+  "miesto": "ruzomberok",
+  "poradie": 1,
+  "nazov": "ZVONICA",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/24-vlkolinec_-zvonica.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/01-Zvonica-4.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Drevená zvonica, postavená v roku 1770, patrí medzi sídelné dominanty obce. Predstavuje jednu z jej najstarších stavieb v obci, pre ktorú je charakteristická zrubová stavba s drevenou šindľovou krytinou strechy a obvodovým plášťom. Jej pôvodná funkcia spočívala v ohlasovaní času modlitieb, požiaru a iných nebezpečenstiev v obci, čomu zodpovedá i jej poloha v rámci sídla. Situovanie zvonice v minulosti tvorilo hranicu medzi horným a dolným koncom Vlkolínca. Zvonica patrí typologicky medzi výnimočné solitérne stavby, slúžiace na zavesenie zvonov.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Ružomberok",
+  "miestoNazov": "Ružomberok",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/zvonica/",
+    "en": "https://www.qrlink.sk/new/en/zvonica/",
+    "de": "https://www.qrlink.sk/new/de/zvonica/",
+    "ru": "https://www.qrlink.sk/new/ru/zvonica/",
+    "pl": "https://www.qrlink.sk/new/pl/zvonica/",
+    "hu": "https://www.qrlink.sk/new/hu/zvonica/"
+  }
+}

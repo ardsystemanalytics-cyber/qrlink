@@ -1,0 +1,28 @@
+{
+  "id": "lesni-stezka-vyhlidka",
+  "miesto": "nch-pohranicie",
+  "poradie": 12,
+  "nazov": "Lesní stezka Vyhlídka",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/vyhliadka1.jpg",
+  "audio": [],
+  "galeria": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/vyhliadka2.jpg"
+    }
+  ],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Jde o moderní venkovní hřiště s atrakcemi v dřevěném provedení. Cestičky jsou z jemné šotoliny, které zvládne i městský kočárek. Originální jsou dvě ptačí hnízda zavěšená na stromech, na která se dá vyšplhat po pavoučí síti. V jejich okolí jsou v korunách stromů umístěny dřevěné sochy ptáků, které lze přímo z kukaní pozorovat. Vše je doplněno otočnými naučnými cedulemi s pěknými obrázky. Na dalších zastaveních se děti vyřádí na skluzavce, prolézačkách nebo dřevěných špalcích. Milé jsou dvě houpací sítě, určené k pozorování mraků. Cestu také lemují zastavení se zvětšenými dřevěnými maketami hmyzu a lesních hub. Pro větší děti i dospělé je tu umístěno workoutové hřiště s kruhy, hrazdou, lanem apod.\n\nTop zajímavost:\n\nZ této stezky se dá pokračovat na turisty hojně navštěvovaný Ondřejník.",
+  "hlavnaKategoria": "Náučné chodníky",
+  "projekt": "Náučné chodníky v česko-slovenskom pohraničí",
+  "miestoNazov": "Náučné chodníky v česko-slovenskom pohraničí",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/castles/lesni-stezka-vyhlidka/",
+    "en": "https://www.qrlink.sk/new/en/castles/lesni-stezka-vyhlidka/",
+    "de": "https://www.qrlink.sk/new/de/castles/lesni-stezka-vyhlidka/",
+    "ru": "https://www.qrlink.sk/new/ru/castles/lesni-stezka-vyhlidka/",
+    "pl": "https://www.qrlink.sk/new/pl/castles/lesni-stezka-vyhlidka/",
+    "hu": "https://www.qrlink.sk/new/hu/castles/lesni-stezka-vyhlidka/"
+  }
+}

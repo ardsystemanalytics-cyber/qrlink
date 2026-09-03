@@ -3,13 +3,30 @@
   "miesto": "hrad-strecno",
   "poradie": 8,
   "nazov": "Vstup do hlavnej veže",
-  "cover": "",
-  "audio": [],
-  "text": "[DOPLNIŤ – text zastavenia z pôvodného webu]",
-  "galeria": [],
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/IMG_20200703_125543.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/8.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/8-vstup-do-veže1.jpg"
+    }
+  ],
   "gps": null,
   "mapEmbed": "",
+  "text": "Na prízemí, pri vstupe do veže, sa nachádza 8m hlboký otvor. V čase využívania hradu táto miestnosť slúžila, ako chladnička či zásobáreň potravín. Keďže miestnosť nemá žiadny iný prístup okrem vrchného otvoru, v praxi to vyzeralo tak, že sluha sa na lane spustil cez otvor dovnútra a vyzdvihol odtiaľ požadované suroviny. V minulosti sa vo veži nenachádzali schody. Pôvodne tu boli drevené rebríky, ktoré viedli na každé z piatich podlaží veže. Dokonca aj do veže sa najskôr chodilo až z 2. podlažia po pristavenom rebríku, aby sa nepriateľom sťažil jednoduchý prístup dovnútra.",
   "hlavnaKategoria": "Pamiatky",
   "projekt": "Hrad Strečno",
-  "miestoNazov": "Hrad Strečno"
+  "miestoNazov": "Hrad Strečno",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/castles/vstup-do-hlavnej-veze/",
+    "en": "https://www.qrlink.sk/new/en/castles/vstup-do-hlavnej-veze/",
+    "de": "https://www.qrlink.sk/new/de/castles/vstup-do-hlavnej-veze/",
+    "ru": "https://www.qrlink.sk/new/ru/castles/vstup-do-hlavnej-veze/",
+    "pl": "https://www.qrlink.sk/new/pl/castles/vstup-do-hlavnej-veze/",
+    "hu": "https://www.qrlink.sk/new/hu/castles/vstup-do-hlavnej-veze/"
+  }
 }

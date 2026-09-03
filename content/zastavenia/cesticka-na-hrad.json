@@ -3,11 +3,13 @@
   "miesto": "hrad-strecno",
   "poradie": 1,
   "nazov": "Cestička na hrad",
+  "popis": "",
   "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg",
   "audio": [
-    "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-1.mp3"
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-1.mp3"
+    }
   ],
-  "text": "## Cestička hradnej pani Žofie\n\nCestička krátka, ale zato strmá a náročná s prekvapením na konci. Tak, ako cesta do neba.\n        Po týchto 151 schodoch pani Žofia často chodievala za svojimi poddanými a nosila im svoj\n        chlebík útechy. Adamko a Lacko zasa po tejto cestičke bežali tatinovi – hradnému pánovi –\n        naproti, aby ho privítali skôr, ako sa otvorí hradná brána. Cestička vás dovedie na paseku,\n        kde sa zastavil čas. Stredoveká osada s domčekom bylinkárky, pekára a rybára, kde nesmie\n        chýbať ani útulňa pre pútnikov.\n\n## Cesta hradného pána Františka\n\nHradný pán vracajúc sa z vojenských výprav chodieval touto širokou a pohodlnou pánskou\n        cestou. Často unavený, vyčerpaný, ale šťastný, že sa opäť stretne so svojou milovanou Žofiou\n        a chlapcami Adamkom a Lackom. Chlapci ho vždy netrpezlivo vyčkávali, kedy sa im ich milovaný\n        tatino vráti a ostane aspoň chvíľu doma. Vyzerali ho z hradnej veže, aby ho už z diaľky\n        zazreli a po schodoch stihli dobehnúť dole. Vysadli na tatinovho tátoša a so slávou sa\n        nechali vítať na hrade.",
   "galeria": [
     "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg",
     "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg",
@@ -19,7 +21,16 @@
     "lng": 18.862854
   },
   "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d652.0584362093641!2d18.86230682924827!3d49.1771509987075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDEwJzM3LjciTiAxOMKwNTEnNDYuMyJF!5e0!3m2!1ssk!2ssk!4v1594621969012!5m2!1ssk!2ssk",
+  "text": "Cestička hradnej pani Žofie\n\nCestička krátka, ale zato strmá a náročná s prekvapením na konci. Tak, ako cesta do neba.  Po týchto 151 schodoch pani Žofia často chodievala za svojimi poddanými a nosila im svoj chlebík útechy. Adamko a Lacko zasa po tejto cestičke bežali tatinovi – hradnému pánovi – naproti, aby ho privítali skôr, ako sa otvorí hradná brána. Cestička vás dovedie na paseku, kde sa zastavil čas. Stredoveká osada s domčekom bylinkárky, pekára a rybára, kde nesmie chýbať ani útulňa pre pútnikov.\n\nCesta hradného pána Františka\n\nHradný pán vracajúc sa z vojenských výprav chodieval touto širokou a pohodlnou pánskou cestou. Často unavený, vyčerpaný, ale šťastný, že sa opäť stretne so svojou milovanou Žofiou a chlapcami Adamkom a Lackom. Chlapci ho vždy netrpezlivo vyčkávali, kedy sa im ich milovaný tatino vráti a ostane aspoň chvíľu doma. Vyzerali ho z hradnej veže, aby ho už z diaľky zazreli a po schodoch stihli dobehnúť dole. Vysadli na tatinovho tátoša a so slávou sa nechali vítať na hrade.",
   "hlavnaKategoria": "Pamiatky",
   "projekt": "Hrad Strečno",
-  "miestoNazov": "Hrad Strečno"
+  "miestoNazov": "Hrad Strečno",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/castles/cesticka-na-hrad/",
+    "en": "https://www.qrlink.sk/new/en/castles/cesticka-na-hrad/",
+    "de": "https://www.qrlink.sk/new/de/castles/cesticka-na-hrad/",
+    "ru": "https://www.qrlink.sk/new/ru/castles/cesticka-na-hrad/",
+    "pl": "https://www.qrlink.sk/new/pl/castles/cesticka-na-hrad/",
+    "hu": "https://www.qrlink.sk/new/hu/castles/cesticka-na-hrad/"
+  }
 }

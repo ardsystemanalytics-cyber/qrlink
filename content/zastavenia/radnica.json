@@ -1,0 +1,28 @@
+{
+  "id": "radnica",
+  "miesto": "ruzomberok",
+  "poradie": 12,
+  "nazov": "RADNICA",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/8-radnica.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/18-Radnica.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Reprezentačná budova v novorenesančnom slohu bola postavená v roku 1897 podľa projektu staviteľa Štefana Michalíka na mieste šustríkovskej kúrie zo 17. storočia. Adaptácia a prestavba interiéru v roku 1937 sa uskutočnila podľa projektu Jozefa Uhlára a Štefana Martoníka. V roku 1968 boli v oknách ústredného schodiska osadené vitráže podľa umeleckého návrhu Róberta Dúbravca. Od svojho vzniku slúži ako radnica  – sídlo mestského úradu. Budova radnice je úzko spätá s osobnosťou Andreja Hlinku, južnom krídle budovy bol v rokoch 1898 – 1985 umiestnený rímskokatolícky farský úrad. Dominantná architektúra objektu bola komplexne obnovená v období rokov 2001 – 2010.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Ružomberok",
+  "miestoNazov": "Ružomberok",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/radnica/",
+    "en": "https://www.qrlink.sk/new/en/radnica/",
+    "de": "https://www.qrlink.sk/new/de/radnica/",
+    "ru": "https://www.qrlink.sk/new/ru/radnica/",
+    "pl": "https://www.qrlink.sk/new/pl/radnica/",
+    "hu": "https://www.qrlink.sk/new/hu/radnica/"
+  }
+}

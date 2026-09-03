@@ -1,0 +1,28 @@
+{
+  "id": "regionalna-izba-v-porabke",
+  "miesto": "porabka",
+  "poradie": 4,
+  "nazov": "Regionálna izba v Porąbke",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/4.-Izba-Regionalna-w-Porąbce.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/4.-THE-REGIONAL-ROOM-IN-PORABKA.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Regionálna izba v Porąbke existuje od roku 1998. Iniciátorom jeho založenia bola Spoločnosť milovníkov Žywieckej krajiny. Nachádza sa tu  množstvo exponátov z obce a okolia. Hlavnou súčasťou zbierok Izby sú poľnohospodárske náradie a predmety každodennej potreby a originálne kroje, ktoré sa v tejto oblasti nosili pred niekoľkými desaťročiami. Sú tu aj obrazy a ľudové sochy.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Porąbka",
+  "miestoNazov": "Porąbka",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/regionalna-izba-v-porabke/",
+    "en": "https://www.qrlink.sk/new/en/regionalna-izba-v-porabke/",
+    "de": "https://www.qrlink.sk/new/de/regionalna-izba-v-porabke/",
+    "ru": "https://www.qrlink.sk/new/ru/regionalna-izba-v-porabke/",
+    "pl": "https://www.qrlink.sk/new/pl/regionalna-izba-v-porabke/",
+    "hu": "https://www.qrlink.sk/new/hu/regionalna-izba-v-porabke/"
+  }
+}

@@ -13,5 +13,13 @@
   "cover": "",
   "popis": "Mesto na východnom Slovensku.",
   "hlavnaKategoria": "Mestá",
-  "korenoveMiesto": "Vranov nad Topľou"
+  "korenoveMiesto": "Vranov nad Topľou",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/vranov-nad-toplou/",
+    "en": "https://www.qrlink.sk/new/en/category/vranov-nad-toplou/",
+    "de": "https://www.qrlink.sk/new/de/category/vranov-nad-toplou/",
+    "ru": "https://www.qrlink.sk/new/ru/category/vranov-nad-toplou/",
+    "pl": "https://www.qrlink.sk/new/pl/category/vranov-nad-toplou/",
+    "hu": "https://www.qrlink.sk/new/hu/category/vranov-nad-toplou/"
+  }
 }

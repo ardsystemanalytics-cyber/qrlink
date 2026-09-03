@@ -1,0 +1,31 @@
+{
+  "id": "vcelarska-naucna-stezka",
+  "miesto": "nch-pohranicie",
+  "poradie": 10,
+  "nazov": "Včelařská naučná stezka",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/včela-2.jpg",
+  "audio": [],
+  "galeria": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/včela3.jpg"
+    },
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/včela1.jpg"
+    }
+  ],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Naučná stezka se skládá z odpočinkového stanoviště, což je velký dřevěný altán, v jehož okolí jsou umístěny informační panely, na kterých se návštěvníci dočtou řadu zajímavostí z historie včelařství a základní informace o včele medonosné. Včelstvo je v podstatě takový super organismus, který přežívá v nezměněné podobě na naší planetě už milióny let a každá včela v něm hraje svou důležitou roli. Kterými členy je takové včelstvo tvořeno a jak společně fungují – o tom všem se také návštěvníci z informačních cedulí mohou něco dozvědět.\n\nTop zajímavost:\n\nPodél stezky protéká řeka Ostravice, ke které je krásný přístup s výhledem na řeku. Vedle stezky je taky výukový včelí úl, kde se návštěvníci můžou podívat na to, jak včelky pracují.",
+  "hlavnaKategoria": "Náučné chodníky",
+  "projekt": "Náučné chodníky v česko-slovenskom pohraničí",
+  "miestoNazov": "Náučné chodníky v česko-slovenskom pohraničí",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/castles/vcelarska-naucna-stezka/",
+    "en": "https://www.qrlink.sk/new/en/castles/vcelarska-naucna-stezka/",
+    "de": "https://www.qrlink.sk/new/de/castles/vcelarska-naucna-stezka/",
+    "ru": "https://www.qrlink.sk/new/ru/castles/vcelarska-naucna-stezka/",
+    "pl": "https://www.qrlink.sk/new/pl/castles/vcelarska-naucna-stezka/",
+    "hu": "https://www.qrlink.sk/new/hu/castles/vcelarska-naucna-stezka/"
+  }
+}

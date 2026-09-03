@@ -14,5 +14,13 @@
   "cover": "",
   "popis": "Valašské mesto známe skanzenom.",
   "hlavnaKategoria": "Mestá",
-  "korenoveMiesto": "Rožnov pod Radhoštěm"
+  "korenoveMiesto": "Rožnov pod Radhoštěm",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/roznov-pod-radhostem/",
+    "en": "https://www.qrlink.sk/new/en/category/roznov-pod-radhostem/",
+    "de": "https://www.qrlink.sk/new/de/category/roznov-pod-radhostem/",
+    "ru": "https://www.qrlink.sk/new/ru/category/roznov-pod-radhostem/",
+    "pl": "https://www.qrlink.sk/new/pl/category/roznov-pod-radhostem/",
+    "hu": "https://www.qrlink.sk/new/hu/category/roznov-pod-radhostem/"
+  }
 }

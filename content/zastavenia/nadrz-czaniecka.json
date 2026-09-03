@@ -1,0 +1,28 @@
+{
+  "id": "nadrz-czaniecka",
+  "miesto": "porabka",
+  "poradie": 7,
+  "nazov": "Nádrž Czaniecka",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/7.-Zbiornik-Czaniecki.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/7.-THE-RESERVOIR-CZANIECKA.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Umelá nádrž Czaniecka bola postavená v roku 1966 s cieľom vytvoriť možnosť zberu vody pre Hornoslezskú priemyselnú oblasť a Bielsko Bialu s reguláciou stavu vody. Nachádza sa v malebnom údolí rieky Sola. Rozkladá sa na ploche 45 hektárov a jeho kapacita je 1,3 milióna m3 Nádrž má priame pásmom sanitárnej ochrany.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Porąbka",
+  "miestoNazov": "Porąbka",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/nadrz-czaniecka/",
+    "en": "https://www.qrlink.sk/new/en/nadrz-czaniecka/",
+    "de": "https://www.qrlink.sk/new/de/nadrz-czaniecka/",
+    "ru": "https://www.qrlink.sk/new/ru/nadrz-czaniecka/",
+    "pl": "https://www.qrlink.sk/new/pl/nadrz-czaniecka/",
+    "hu": "https://www.qrlink.sk/new/hu/nadrz-czaniecka/"
+  }
+}

@@ -14,5 +14,13 @@
   "cover": "",
   "popis": "Poľská obec v Beskydách.",
   "hlavnaKategoria": "Mestá",
-  "korenoveMiesto": "Porąbka"
+  "korenoveMiesto": "Porąbka",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/porabka/",
+    "en": "https://www.qrlink.sk/new/en/category/porabka/",
+    "de": "https://www.qrlink.sk/new/de/category/porabka/",
+    "ru": "https://www.qrlink.sk/new/ru/category/porabka/",
+    "pl": "https://www.qrlink.sk/new/pl/category/porabka/",
+    "hu": "https://www.qrlink.sk/new/hu/category/porabka/"
+  }
 }

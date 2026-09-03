@@ -14,5 +14,13 @@
   "cover": "",
   "popis": "Kultúrne a prírodné klenoty pohraničia.",
   "hlavnaKategoria": "Pamiatky",
-  "korenoveMiesto": "Klenoty v česko-slovenskom pohraničí"
+  "korenoveMiesto": "Klenoty v česko-slovenskom pohraničí",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/klenoty-v-cesko-slovenskom-pohranici/",
+    "en": "https://www.qrlink.sk/new/en/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/klenoty-v-cesko-slovenskom-pohranici/",
+    "de": "https://www.qrlink.sk/new/de/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/klenoty-v-cesko-slovenskom-pohranici/",
+    "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/klenoty-v-cesko-slovenskom-pohranici/",
+    "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/klenoty-v-cesko-slovenskom-pohranici/",
+    "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/klenoty-v-cesko-slovenskom-pohranici/"
+  }
 }

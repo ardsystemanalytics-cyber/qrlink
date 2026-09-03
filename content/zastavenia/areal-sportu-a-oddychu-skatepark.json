@@ -1,0 +1,28 @@
+{
+  "id": "areal-sportu-a-oddychu-skatepark",
+  "miesto": "turzovka",
+  "poradie": 10,
+  "nazov": "Areál športu a oddychu, Skatepark",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/5.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/5.-The-Sport-and-Recreation-centre-the-skatepark.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Športovým nadšencom mesto ponúka návštevu Areálu športu a oddychu v Turzovke-Závodí. K dispozícii je viacúčelové ihrisko s hracou plochou s rozmermi 42 m x 22 m určené na hádzanú, volejbal, nohejbal a vonkajšie hokejbalové ihrisko v štandardných medzinárodných rozmeroch 46 m x 22 m. V letných mesiacoch si môžete zahrať petang, tenis na dvoch antukových dvorcoch či previesť sa po dopravnom ihrisku na kolobežke, kárach alebo štvorkolke. Samozrejmosťou je vonkajšie a vnútorné spoločenské zázemie – oddychová terasa, lavičky, budova správcu so šatňami, hygienickým a športovým servisom a spoločenskou miestnosťou. Súčasťou areálu je vonkajší altánok s možnosťou opekačky a detské atrakcie pre najmenších. V blízkosti sa nachádza skatepark pre nadšencov adrenalínového športu so siedmimi prekážkami.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Turzovka",
+  "miestoNazov": "Turzovka",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/areal-sportu-a-oddychu-skatepark/",
+    "en": "https://www.qrlink.sk/new/en/areal-sportu-a-oddychu-skatepark/",
+    "de": "https://www.qrlink.sk/new/de/areal-sportu-a-oddychu-skatepark/",
+    "ru": "https://www.qrlink.sk/new/ru/areal-sportu-a-oddychu-skatepark/",
+    "pl": "https://www.qrlink.sk/new/pl/areal-sportu-a-oddychu-skatepark/",
+    "hu": "https://www.qrlink.sk/new/hu/areal-sportu-a-oddychu-skatepark/"
+  }
+}

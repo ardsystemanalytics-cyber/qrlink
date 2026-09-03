@@ -1,0 +1,28 @@
+{
+  "id": "betliar-info-pointy-qr8",
+  "miesto": "betliar",
+  "poradie": 8,
+  "nazov": "Malý park",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/8-maly-park.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/8.-MALÝ-PARK.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Malý park bol založený po regulácii Krivého potoka začiatkom 20. storočia. Zaberá priestor po pravej strane potoka a tvorí časť centra obce. Základom parku sa stala lipová aleja doplnená na strane potoka majestátnymi topoľmi. Vedľa aleje je parková výsadba s lipovým stromoradím, ihličnanmi a záhonmi ruží. V centrálnom záhone je umiestnený pamätník 675. výročia založenia obce – balvan z vrchu Volovec (1263 m n.m.), ktorý sa vypína nad obcou, doplnený pamätnou tabuľou.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Betliar",
+  "miestoNazov": "Betliar",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/betliar-info-pointy-qr8/",
+    "en": "https://www.qrlink.sk/new/en/betliar-info-pointy-qr8/",
+    "de": "https://www.qrlink.sk/new/de/betliar-info-pointy-qr8/",
+    "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr8/",
+    "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr8/",
+    "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr8/"
+  }
+}

@@ -3,13 +3,39 @@
   "miesto": "hrad-strecno",
   "poradie": 3,
   "nazov": "Expozícia archeológie",
-  "cover": "",
-  "audio": [],
-  "text": "[DOPLNIŤ – text zastavenia z pôvodného webu]",
-  "galeria": [],
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/IMG_20200701_150652.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/3-2.mp3"
+    },
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/3D-1.mp3"
+    },
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/3E-3.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/IMG_20200701_150645.jpg"
+    },
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/strečno-mapka_3.jpg"
+    }
+  ],
   "gps": null,
   "mapEmbed": "",
+  "text": "V tejto miestnosti sa nachádza archeologická expozícia. Vo vitrínach môžete vidieť archeologické nálezy z obdobia od praveku po stredovek, ktoré sa našli počas archeologických výskumov v Strečne a v okolitých obciach (Varín, Rosina, Krasňany, Gbeľany).\n\nZ obdobia starších štvrtohôr (pleistocén) môžete vidieť zub a kel mamuta, spodnú čeľusť a chrbtový stavec jaskynného medveďa.\nV ďalšej vitríne sú exponáty z mladšej (neolit) a neskorej doby kamennej (eneolit), napr. kamenné čepieľky a sekerky, medený čakan (symbol moci a vysokého sociálneho postavenia jeho nositeľa, nemal pracovnú ani bojovú funkciu).\nĎalšia vitrína obsahuje keramiku z pohrebísk lužickej kultúry (1500 pred n.l. – 400 pred n.l.) z rôznych lokalít horného Považia. Ľud lužickej kultúry pochovával svojich zosnulých žiarovo. Táto keramika slúžila ako popolnice (urny) na uloženie kremačných zvyškov pri pohrebných obradoch. Menšia keramika sa zvykla uložiť do hrobov ako milodar.\nModel tkáčskeho stavu z doby bronzovej – Spôsob tkania sa až do stredoveku príliš nemenil. Archeológovia väčšinou ako pozostatok stavov nachádzajú hlinené závažia, ktoré vidno dole. Tieto naše nie sú originály iba kópia.\nModel pece na železo – zmenšený model zobrazuje pec na tavenie železa z 1. – 2. storočia. Podobné pece sa vyskytovali v okolí Strečna (Železné studničky pri Varíne), keďže sa tu železná ruda aj ťažila. Pec je vyrobená z hliny s otvorom na vyberanie železa (zvrchu), otvorom na dúchanie vzduchu (vpredu) a otvorom na odpich trosky (zboku), ktorá vzniká pri tavení železa. Pec sa plnila striedavo železnou rudou a dreveným uhlím, potom sa zmes zapálila a po čase sa otvorom na odpich dostala von troska. Železo sa muselo z pece vylámať, preto často dochádzalo k jej poškodeniu.\nV ďalšej vitríne je keramika lužickej kultúry. Na druhej poličke je umiestnený poklad (depot) z Rosiny pozostávajúci z bronzovej sekerky, oštepu a náramkov.\nNasledujúca vitrína obsahuje kachlice objavené na hrade Strečno (kachlica s rodovým erbom Deršfiovcov)\nV ďalšej vitríne môžete vidieť hlinenú nádobu (dvojkónickú), ktorá slúžila ako popolnica z lužického pohrebiska vo Varíne.\nVo veľkej vitríne sa nachádzajú stredoveké a novoveké nálezy, napr. kachlice a keramika z hradu, železné zámky, pánty dverí, guľky do hákovnice a kamenná delová guľa z hradu, železný meč z 9. storočia, praslen používaný na pradenie.\nV poslednej vitríne môžete vidieť kachlice z pôvodných pecí nájdených pri prácach na obnove hradu Strečno (17. – 18. storočie).",
   "hlavnaKategoria": "Pamiatky",
   "projekt": "Hrad Strečno",
-  "miestoNazov": "Hrad Strečno"
+  "miestoNazov": "Hrad Strečno",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/castles/expozicia-archeologie/",
+    "en": "https://www.qrlink.sk/new/en/castles/expozicia-archeologie/",
+    "de": "https://www.qrlink.sk/new/de/castles/expozicia-archeologie/",
+    "ru": "https://www.qrlink.sk/new/ru/castles/expozicia-archeologie/",
+    "pl": "https://www.qrlink.sk/new/pl/castles/expozicia-archeologie/",
+    "hu": "https://www.qrlink.sk/new/hu/castles/expozicia-archeologie/"
+  }
 }

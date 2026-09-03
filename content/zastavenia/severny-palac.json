@@ -3,13 +3,26 @@
   "miesto": "hrad-strecno",
   "poradie": 11,
   "nazov": "Severný palác",
-  "cover": "",
-  "audio": [],
-  "text": "[DOPLNIŤ – text zastavenia z pôvodného webu]",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/11-severný-palác.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/11.mp3"
+    }
+  ],
   "galeria": [],
   "gps": null,
   "mapEmbed": "",
+  "text": "Severný palác mal pôvodne 2 podlažia – vidno to podľa otvorov v stenách, v ktorých boli trámy a na trámoch bolo umiestnené ďalšie podlažie. Otvor v hornom rohu je vnútorná časť tzv. prevétu – stredovekej toalety. Z vonkajšej strany paláca je čiastočne zrekonštruovaný. Pôvodne sa zachovali iba nosníky (krakorce). Samotná toaleta fungovala ako latrína, kde výkaly padali popri múre dolu pod hrad. Podobný prevét sa nachádzal aj na vonkajšom múre východného palác.",
   "hlavnaKategoria": "Pamiatky",
   "projekt": "Hrad Strečno",
-  "miestoNazov": "Hrad Strečno"
+  "miestoNazov": "Hrad Strečno",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/castles/severny-palac/",
+    "en": "https://www.qrlink.sk/new/en/castles/severny-palac/",
+    "de": "https://www.qrlink.sk/new/de/castles/severny-palac/",
+    "ru": "https://www.qrlink.sk/new/ru/castles/severny-palac/",
+    "pl": "https://www.qrlink.sk/new/pl/castles/severny-palac/",
+    "hu": "https://www.qrlink.sk/new/hu/castles/severny-palac/"
+  }
 }

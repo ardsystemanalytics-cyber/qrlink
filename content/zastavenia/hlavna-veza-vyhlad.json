@@ -3,13 +3,33 @@
   "miesto": "hrad-strecno",
   "poradie": 9,
   "nazov": "Hlavná veža – výhľad",
-  "cover": "",
-  "audio": [],
-  "text": "[DOPLNIŤ – text zastavenia z pôvodného webu]",
-  "galeria": [],
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/9-hl.veža.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/9-1.mp3"
+    },
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/9A-1.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/IMG_20200624_150338.jpg"
+    }
+  ],
   "gps": null,
   "mapEmbed": "",
+  "text": "Hlavná hradná veža je najvyšším miesto hradu. Od rieky Váh sme teraz vzdialení 148 metrov. V minulosti mala veža obrannú funkciu a využívala sa na kontrolu okolia. Na západnej strane môžete vidieť vrch Zvonica, na ktorom sa nachádza Pamätník francúzskych partizánov. Francúzski partizáni bojovali v okolí Strečna počas SNP. Veľa z nich tu padlo, a preto bol na ich počesť vybudovaný tento pamätník (v krypte sa nachádzajú telesné pozostatky 24 partizánov). Na severozápade môžete vidieť obec Varín. V miestnom kostole bol pred viac ako 300 rokmi krstený najznámejší slovenský zbojník, Juraj Jánošík, rodák z neďalekej Terchovej (Terchová je od Varína vzdialená zhruba 14 km). Smerom na severovýchod sa nachádza Starý hrad (nie je ho vidieť), pôvodne nazývaný hrad Varín. Postavený bol v 13. storočí na pravom brehu Váhu. Viedla tadiaľ hlavná považská cesta do Turca a Liptova, ktorá prechádzala v blízkosti hradu z pravej strany rieky na ľavú brodom cez Váh. Na prelome 13. a 14. storočia sa začala budovať cesta na ľavom brehu Váhu a hrad Varín sa tak dostal mimo dôležitej obchodnej trasy. Jeho funkciu následne prebral novopostavený hrad Strečno. Význam hradu Varín poklesol, o čom svedčí aj jeho premenovanie na Starý hrad. V súčasnosti je iba ruinou.\n\nKrásna Marienka (povesť)\n\nSusedia zo Starého hradu a Strečna zahoreli takmer súčasne láskou ku krásnej Marienke z podhradia Strečna. Hoci k oltáru si nevestu násilím odviedol strečniansky hradný pán, Marienka milovala šľachetného Milka – pána Starého hradu. Strečniansky hradný pán o tom vedel, a tak radšej pre istotu svojho soka zákerne zavraždil. Marienka následne utiekla z prekliateho hradu Strečno a v noci tajne navštevovala Milkov hrob, ktorý bol neďaleko rieky Váh. Strečniansky hradný pán sa o tom dozvedel a na brehu Váhu čakal na Marienku, aby ju odprosil. Prišiel však rytier v brnení a hradný pán domnievajúc sa, že ide pomstiť Mil\n\nkovu smrť, rytierovi zoťal mečom hlavu. Keď sa hlava dokotúľala až k nemu, zistil, že v skutočnosti zabil svoju ženu Marienku. Na druhý deň pri Milkovom hrobe našli mŕtveho aj strečnianskeho hradného pána. Zabil ho totiž blesk počas búrky, ktorá sa spustila po tomto veľkom nešťastí.",
   "hlavnaKategoria": "Pamiatky",
   "projekt": "Hrad Strečno",
-  "miestoNazov": "Hrad Strečno"
+  "miestoNazov": "Hrad Strečno",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/castles/hlavna-veza-vyhlad/",
+    "en": "https://www.qrlink.sk/new/en/castles/hlavna-veza-vyhlad/",
+    "de": "https://www.qrlink.sk/new/de/castles/hlavna-veza-vyhlad/",
+    "ru": "https://www.qrlink.sk/new/ru/castles/hlavna-veza-vyhlad/",
+    "pl": "https://www.qrlink.sk/new/pl/castles/hlavna-veza-vyhlad/",
+    "hu": "https://www.qrlink.sk/new/hu/castles/hlavna-veza-vyhlad/"
+  }
 }

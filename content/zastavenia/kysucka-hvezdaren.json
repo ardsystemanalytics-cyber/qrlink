@@ -1,0 +1,28 @@
+{
+  "id": "kysucka-hvezdaren",
+  "miesto": "knm",
+  "poradie": 2,
+  "nazov": "Kysucká hvezdáreň",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/08/krajska-hvezdaren-zilina59999427.png",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2022/09/Kysucka-hvezdaren.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Kysucká hvezdáreň je regionálna kultúrna inštitúcia, ktorej hlavným poslaním je odborno-pozorovateľská činnosť v oblasti astronómie a popularizácia astronómie a príbuzných prírodných a technických vied rôznymi formami podujatí pre široký okruh obyvateľov. Hvezdáreň organizuje exkurzie, prednášky pre rôzne vekové stupne pre školy a verejnosť, besedy k aktuálnym objavom a úkazom, denné a nočné pozorovanie oblohy pre verejnosť, premietanie vedecko-populárnych filmov a pod. Hvezdáreň sa dlhodobo zúčastňuje na mnohých medzinárodných aktivitách a pozorovaniach. V jej priestoroch nájdete stálu expozíciu Vesmír očami detí.\n\nHvezdáreň sa nachádza v miestnej časti Suľkov. Viac informácií na: www.astrokysuce.sk alebo t.č. 041/421 2946",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Kysucké Nové Mesto",
+  "miestoNazov": "Kysucké Nové Mesto",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/kysucka-hvezdaren/",
+    "en": "https://www.qrlink.sk/new/en/kysucka-hvezdaren/",
+    "de": "https://www.qrlink.sk/new/de/kysucka-hvezdaren/",
+    "ru": "https://www.qrlink.sk/new/ru/kysucka-hvezdaren/",
+    "pl": "https://www.qrlink.sk/new/pl/kysucka-hvezdaren/",
+    "hu": "https://www.qrlink.sk/new/hu/kysucka-hvezdaren/"
+  }
+}

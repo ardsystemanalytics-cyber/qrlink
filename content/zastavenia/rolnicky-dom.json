@@ -1,0 +1,28 @@
+{
+  "id": "rolnicky-dom",
+  "miesto": "ruzomberok",
+  "poradie": 23,
+  "nazov": "ROĽNÍCKY DOM",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/26-vlkolinec_rolnicky-dom.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/04-ROĽNÍCKY-DOM.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Zrubový  ľudový dvojdom s dvojpriestorovou stodolou, maštaľou a murovanou sýpkou je charakteristickým urbanistickým zoskupením sídla Vlkolínec. Drevo ako základný stavebný materiál je uplatnený pri obytnej a hospodárskej stavbe, kameň sa používal len na stavbu komôr a sýpok. Súbor stavieb dokumentuje tradičné bývanie a spôsob hospodárenia vo Vlkolínci a v regióne dolného Liptova. Intaktne zachovaná ľudová architektúra je využívaná ako expozícia in situ.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Ružomberok",
+  "miestoNazov": "Ružomberok",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/rolnicky-dom/",
+    "en": "https://www.qrlink.sk/new/en/rolnicky-dom/",
+    "de": "https://www.qrlink.sk/new/de/rolnicky-dom/",
+    "ru": "https://www.qrlink.sk/new/ru/rolnicky-dom/",
+    "pl": "https://www.qrlink.sk/new/pl/rolnicky-dom/",
+    "hu": "https://www.qrlink.sk/new/hu/rolnicky-dom/"
+  }
+}

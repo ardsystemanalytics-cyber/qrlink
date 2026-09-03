@@ -1,0 +1,28 @@
+{
+  "id": "studna",
+  "miesto": "ruzomberok",
+  "poradie": 22,
+  "nazov": "STUDŇA",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/25-vlkolinec_studna.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/02-Studňa.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Drevená rumpáľová studňa, hlboká 12 metrov, slúžila v minulosti ako jediný zdroj pitnej vody. Vrchnú stavbu tvorí drevená konštrukcia na kamennej podmurovke, sedlová strieška je pokrytá drevenou šindľovou krytinou a vnútorná konštrukcia studne je z kameňa. Verejná studňa z roku 1860 reprezentuje jednoduchú ľudovú technickú stavbu s charakteristickými typologickými znakmi a dobovým konštrukčným riešením. Architektonický vzhľad a konštrukčné riešenie s neopakovateľným výrazom sú jedinečným prvkom identity prostredia pamiatkového územia.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Ružomberok",
+  "miestoNazov": "Ružomberok",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/studna/",
+    "en": "https://www.qrlink.sk/new/en/studna/",
+    "de": "https://www.qrlink.sk/new/de/studna/",
+    "ru": "https://www.qrlink.sk/new/ru/studna/",
+    "pl": "https://www.qrlink.sk/new/pl/studna/",
+    "hu": "https://www.qrlink.sk/new/hu/studna/"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "frydecky-les",
+  "miesto": "nch-pohranicie",
+  "poradie": 7,
+  "nazov": "Frýdecký les",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/fr2.jpg",
+  "audio": [],
+  "galeria": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/frídecký-1.jpg"
+    }
+  ],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Naučná stezka ukazuje, že les má mnoho funkcí a neslouží jen pro pěstování a těžbu dřeva. Les je také domovem mnoha druhů rostlin a živočichů – od hmyzu až po velkou zvěř. Naučná stezka je vhodná zejména pro školní mládež. Přes zamokřená místa již byly položeny jednoduché lávky a přes rokli s potůčkem byl postaven mostek.\n\nTop zajímavost:\n\nBludné balvany ve Frýdeckém lese\n\nS bludnými neboli eratickými balvany se na severu Moravy a ve Slezsku můžeme setkat na mnoha místech. Nález balvanů ve Frýdeckém lese byl poprvé zveřejněn v roce 2006. Větší skupina balvanů je v levém přítoku potůčku Podšajarky, v rokli zhruba 200 metrů severně od Zátiší, další leží přímo v řečišti Podšajarky.",
+  "hlavnaKategoria": "Náučné chodníky",
+  "projekt": "Náučné chodníky v česko-slovenskom pohraničí",
+  "miestoNazov": "Náučné chodníky v česko-slovenskom pohraničí",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/castles/frydecky-les/",
+    "en": "https://www.qrlink.sk/new/en/castles/frydecky-les/",
+    "de": "https://www.qrlink.sk/new/de/castles/frydecky-les/",
+    "ru": "https://www.qrlink.sk/new/ru/castles/frydecky-les/",
+    "pl": "https://www.qrlink.sk/new/pl/castles/frydecky-les/",
+    "hu": "https://www.qrlink.sk/new/hu/castles/frydecky-les/"
+  }
+}

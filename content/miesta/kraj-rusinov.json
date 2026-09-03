@@ -13,5 +13,13 @@
   "cover": "",
   "popis": "Región Medzilaboriec spätý s rusínskou kultúrou a rodinou Andyho Warhola.",
   "hlavnaKategoria": "Mestá",
-  "korenoveMiesto": "Kraj Rusínov a Andyho Warhola"
+  "korenoveMiesto": "Kraj Rusínov a Andyho Warhola",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/kraj-rusinov-a-andyho-warhola/",
+    "en": "https://www.qrlink.sk/new/en/category/kraj-rusinov-a-andyho-warhola/",
+    "de": "https://www.qrlink.sk/new/de/category/kraj-rusinov-a-andyho-warhola/",
+    "ru": "https://www.qrlink.sk/new/ru/category/kraj-rusinov-a-andyho-warhola/",
+    "pl": "https://www.qrlink.sk/new/pl/category/kraj-rusinov-a-andyho-warhola/",
+    "hu": "https://www.qrlink.sk/new/hu/category/kraj-rusinov-a-andyho-warhola/"
+  }
 }

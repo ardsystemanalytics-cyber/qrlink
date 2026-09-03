@@ -1,0 +1,28 @@
+{
+  "id": "betliar-info-pointy-qr1",
+  "miesto": "betliar",
+  "poradie": 1,
+  "nazov": "Kultúrny dom",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/1-kulturny-dom.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/1.-KULTÚRNY-DOM.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Kultúrny dom bol postavený v 80. rokoch. Vybavený je sálou s javiskom, klubom dôchodcov, knižnicou a zasadačkou. V objekte kultúrneho domu sa uskutočňujú aj verejné kultúrne podujatia a prezentácie súkromných spoločností.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Betliar",
+  "miestoNazov": "Betliar",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/betliar-info-pointy-qr1/",
+    "en": "https://www.qrlink.sk/new/en/betliar-info-pointy-qr1/",
+    "de": "https://www.qrlink.sk/new/de/betliar-info-pointy-qr1/",
+    "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr1/",
+    "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr1/",
+    "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr1/"
+  }
+}

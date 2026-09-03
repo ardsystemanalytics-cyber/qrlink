@@ -1,0 +1,28 @@
+{
+  "id": "liptovske-muzeum",
+  "miesto": "ruzomberok",
+  "poradie": 9,
+  "nazov": "LIPTOVSKÉ MÚZEUM",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/14-lipt.-muzeum.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/23-LIPTOVSKÉ-MÚZEUM.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Liptovské múzeum založili bratia Artúr a Július Kűrtiovci v roku 1912. Z pôvodných priestorov stredovekej fary bola kultúrna inštitúcia premiestnená do terajšej budovy, ktorú dalo mesto Ružomberok postaviť v roku 1934. Autorom projektu je miestny architekt Vojtech Donner, stavbu realizoval v rokoch 1935 – 1937 Július Záchenský. Reprezentatívna stavba, uzatvárajúca námestie Š. N. Hýroša, predstavuje tradicionalisticky koncipovanú budovu s nadčasovým riešením expozičných a prevádzkových priestorov.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Ružomberok",
+  "miestoNazov": "Ružomberok",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/liptovske-muzeum/",
+    "en": "https://www.qrlink.sk/new/en/liptovske-muzeum/",
+    "de": "https://www.qrlink.sk/new/de/liptovske-muzeum/",
+    "ru": "https://www.qrlink.sk/new/ru/liptovske-muzeum/",
+    "pl": "https://www.qrlink.sk/new/pl/liptovske-muzeum/",
+    "hu": "https://www.qrlink.sk/new/hu/liptovske-muzeum/"
+  }
+}

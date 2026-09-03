@@ -1,0 +1,28 @@
+{
+  "id": "lesna-rezervacia-zasolnica",
+  "miesto": "porabka",
+  "poradie": 8,
+  "nazov": "Lesná rezervácia Zasolnica",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/8.-porabka-zasolnica1.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/8.-THE-FOREST-RESERVATION-ZASOLNICA.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Lesná rezervácia &#8222;Zasolnica“ vznikla v roku 1973 na ochranu starého karpatského bukového lesa. Je to jedna z mála prírodných rezervácií v Malom Beskide. Jeho celková plocha je 16 hektárov. Zahŕňa pásmo Wilkowickej Magury, oblasť Chrobackej Łąky a svahy Zasolnickej Hory.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Porąbka",
+  "miestoNazov": "Porąbka",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/lesna-rezervacia-zasolnica/",
+    "en": "https://www.qrlink.sk/new/en/lesna-rezervacia-zasolnica/",
+    "de": "https://www.qrlink.sk/new/de/lesna-rezervacia-zasolnica/",
+    "ru": "https://www.qrlink.sk/new/ru/lesna-rezervacia-zasolnica/",
+    "pl": "https://www.qrlink.sk/new/pl/lesna-rezervacia-zasolnica/",
+    "hu": "https://www.qrlink.sk/new/hu/lesna-rezervacia-zasolnica/"
+  }
+}

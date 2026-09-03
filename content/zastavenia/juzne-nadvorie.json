@@ -3,13 +3,26 @@
   "miesto": "hrad-strecno",
   "poradie": 6,
   "nazov": "Južné nádvorie",
-  "cover": "",
-  "audio": [],
-  "text": "[DOPLNIŤ – text zastavenia z pôvodného webu]",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/6-južné-nádvorie.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/6-1.mp3"
+    }
+  ],
   "galeria": [],
   "gps": null,
   "mapEmbed": "",
+  "text": "Na mieste dnešného južného nádvoria sa pôvodne nachádzala priekopa, ktorá chránila prístup do veže. Neskôr na jej mieste vzniklo nádvorie, ktoré malo ďalšie podlažie a takisto strechu.",
   "hlavnaKategoria": "Pamiatky",
   "projekt": "Hrad Strečno",
-  "miestoNazov": "Hrad Strečno"
+  "miestoNazov": "Hrad Strečno",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/castles/juzne-nadvorie/",
+    "en": "https://www.qrlink.sk/new/en/castles/juzne-nadvorie/",
+    "de": "https://www.qrlink.sk/new/de/castles/juzne-nadvorie/",
+    "ru": "https://www.qrlink.sk/new/ru/castles/juzne-nadvorie/",
+    "pl": "https://www.qrlink.sk/new/pl/castles/juzne-nadvorie/",
+    "hu": "https://www.qrlink.sk/new/hu/castles/juzne-nadvorie/"
+  }
 }

@@ -1,0 +1,28 @@
+{
+  "id": "betliar-info-strom-qr12",
+  "miesto": "betliar",
+  "poradie": 30,
+  "nazov": "Parkové plastiky",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-12.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/12.-Plastiky.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "V minulosti bolo v parku umiestnených niekoľko plastík, z ktorých niektoré boli vyhotovené podľa návrhov francúzskych sochárov 19.storočia. V 2005 boli odcudzené tri vzácne sochy – socha rytiera Arpáda (veľmi pekná), vzácna socha budhu ktorá zmizla spred pokladne (umiestnená blízko fontány) a tiež socha černocha, ktorá bola odliata v železiarňach v Drnave.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Betliar",
+  "miestoNazov": "Betliar",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/betliar-info-strom-qr12/",
+    "en": "https://www.qrlink.sk/new/en/betliar-info-strom-qr12/",
+    "de": "https://www.qrlink.sk/new/de/betliar-info-strom-qr12/",
+    "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr12/",
+    "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr12/",
+    "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr12/"
+  }
+}

@@ -13,5 +13,13 @@
   "cover": "",
   "popis": "Mesto na Liptove pod Veľkou Fatrou.",
   "hlavnaKategoria": "Mestá",
-  "korenoveMiesto": "Ružomberok"
+  "korenoveMiesto": "Ružomberok",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/ruzomberok/",
+    "en": "https://www.qrlink.sk/new/en/category/ruzomberok/",
+    "de": "https://www.qrlink.sk/new/de/category/ruzomberok/",
+    "ru": "https://www.qrlink.sk/new/ru/category/ruzomberok/",
+    "pl": "https://www.qrlink.sk/new/pl/category/ruzomberok/",
+    "hu": "https://www.qrlink.sk/new/hu/category/ruzomberok/"
+  }
 }

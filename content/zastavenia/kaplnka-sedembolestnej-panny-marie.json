@@ -1,0 +1,28 @@
+{
+  "id": "kaplnka-sedembolestnej-panny-marie",
+  "miesto": "turzovka",
+  "poradie": 22,
+  "nazov": "Kaplnka Sedembolestnej Panny Márie",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/Kaplnka-Sedembolestnej-Panny.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-8-The-chapel-of-the-Seven-sorrow-Virgin-Mary.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Kaplnka bola postavená v roku 1944 nad cestou vedúcou z Turzovky cez horské sedlo Semeteš na Považie. Vo vežičke je umiestnený zvon s nápisom: „Ulil R. Manoušek a spol. v Brne 1943.“",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Turzovka",
+  "miestoNazov": "Turzovka",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/kaplnka-sedembolestnej-panny-marie/",
+    "en": "https://www.qrlink.sk/new/en/kaplnka-sedembolestnej-panny-marie/",
+    "de": "https://www.qrlink.sk/new/de/kaplnka-sedembolestnej-panny-marie/",
+    "ru": "https://www.qrlink.sk/new/ru/kaplnka-sedembolestnej-panny-marie/",
+    "pl": "https://www.qrlink.sk/new/pl/kaplnka-sedembolestnej-panny-marie/",
+    "hu": "https://www.qrlink.sk/new/hu/kaplnka-sedembolestnej-panny-marie/"
+  }
+}

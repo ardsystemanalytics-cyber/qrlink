@@ -13,5 +13,13 @@
   "cover": "",
   "popis": "Obec pri Piešťanoch.",
   "hlavnaKategoria": "Mestá",
-  "korenoveMiesto": "Sokolovce"
+  "korenoveMiesto": "Sokolovce",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/sokolovce/",
+    "en": "https://www.qrlink.sk/new/en/category/sokolovce/",
+    "de": "https://www.qrlink.sk/new/de/category/sokolovce/",
+    "ru": "https://www.qrlink.sk/new/ru/category/sokolovce/",
+    "pl": "https://www.qrlink.sk/new/pl/category/sokolovce/",
+    "hu": "https://www.qrlink.sk/new/hu/category/sokolovce/"
+  }
 }

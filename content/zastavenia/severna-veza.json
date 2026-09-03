@@ -3,13 +3,29 @@
   "miesto": "hrad-strecno",
   "poradie": 13,
   "nazov": "Severná veža",
-  "cover": "",
-  "audio": [],
-  "text": "[DOPLNIŤ – text zastavenia z pôvodného webu]",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/13-severná-veža-e1593776801900.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/13.mp3"
+    },
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/13A.mp3"
+    }
+  ],
   "galeria": [],
   "gps": null,
   "mapEmbed": "",
+  "text": "Na prízemí severnej veže sú ešte pôvodné strieľne a zrekonštruované otvorené ohnisko. Nad ním sa nachádza imitácia komína. Na rohu kaplnky môžete vidieť dodatočne vylámaný priestor, kde sa nachádzalo točité schodisko a tým sa vstupovalo na ďalšie poschodie veže. Počas rekonštrukčných prác bolo zrekonštruované aj okno – pôvodne to boli dvere, ktorými sa dalo dostať na druhú emporu kaplnky.\n\nSeverná veža – výhľad\n\nZo severnej veže je výhľad na samotný hrad a jeho najbližšie okolie. Majestátne týčiaci sa hrad na nedobytnom brale, akoby strážil tajomstvom opradené miesta. Pltníci by vedeli povedať o čom je tu reč, vždy s malou dušičkou plávajú popod hrad a sú vďační za to, keď ich Margita a Besná nechá v pokoji preplávať. Dve skaly so ženskými menami ako náhrobné kamene vyčnievajúce z vody, pripomínajú dávne smutnú minulosť, ktorá sa tam stala.\n\nMargita a Besná (povesť)\n\nK týmto dvom skalám sa viaže povesť o bohatom ovdovelom sedliakovi, ktorý sa po druhý raz oženil s mladou ženou. Mal aj krásnu dcéru Margitu, ktorú macocha nenávidela pre jej krásu a lásku k jednému mládencovi, do ktorého sa zaľúbila aj macocha. Keďže mládenec ju odmietol, myslela len na to, ako sa Margite pomstiť. Raz sa za ňou tajne ponáhľala a dostihla ju práve vtedy, keď šla okolo skaly nad Váhom a na tomto mieste ju zhodila do rieky. Vlny zaniesli Margitino telo ku skale, ktorá od tých čias nesie jej meno. Keď pravda vyšla najavo, šialená a besná macocha sa sama vrhla do Váhu práve na tom mieste, kde sa utopila Margita. A preto sa druhá skala volá práve Besná.",
   "hlavnaKategoria": "Pamiatky",
   "projekt": "Hrad Strečno",
-  "miestoNazov": "Hrad Strečno"
+  "miestoNazov": "Hrad Strečno",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/castles/severna-veza/",
+    "en": "https://www.qrlink.sk/new/en/castles/severna-veza/",
+    "de": "https://www.qrlink.sk/new/de/castles/severna-veza/",
+    "ru": "https://www.qrlink.sk/new/ru/castles/severna-veza/",
+    "pl": "https://www.qrlink.sk/new/pl/castles/severna-veza/",
+    "hu": "https://www.qrlink.sk/new/hu/castles/severna-veza/"
+  }
 }

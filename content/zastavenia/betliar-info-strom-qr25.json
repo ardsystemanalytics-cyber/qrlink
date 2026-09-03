@@ -1,0 +1,28 @@
+{
+  "id": "betliar-info-strom-qr25",
+  "miesto": "betliar",
+  "poradie": 43,
+  "nazov": "Smrek (obyčajný) strukovitý",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-25.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/25.-Smrek-obyčajný-strukovitý.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Je pozoruhodný najmä z toho dôvodu, že do výšky asi 4m sú konáre kuželovito zhrubnuté. V štvormetrovej výške kmeňa sa bradavičnaté zhrubnutia postupne zmenšujú, až úplne miznú.\n\n(V parku v rastú ďalšie dva exempláre smreka, ktoré majú bradavičnato zhrubnuté základy konárov, no menej ako opísaný smrek)",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Betliar",
+  "miestoNazov": "Betliar",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/betliar-info-strom-qr25/",
+    "en": "https://www.qrlink.sk/new/en/betliar-info-strom-qr25/",
+    "de": "https://www.qrlink.sk/new/de/betliar-info-strom-qr25/",
+    "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr25/",
+    "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr25/",
+    "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr25/"
+  }
+}

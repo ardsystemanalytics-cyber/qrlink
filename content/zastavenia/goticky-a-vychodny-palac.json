@@ -3,13 +3,26 @@
   "miesto": "hrad-strecno",
   "poradie": 10,
   "nazov": "Gotický a východný palác",
-  "cover": "",
-  "audio": [],
-  "text": "[DOPLNIŤ – text zastavenia z pôvodného webu]",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/10-východný-palác-e1593775595595.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/10.mp3"
+    }
+  ],
   "galeria": [],
   "gps": null,
   "mapEmbed": "",
+  "text": "Z pôvodného gotického paláca objaveného počas archeologického výskumu sa zachovala iba časť suterénu s pôvodným portálom dverí. Dnes môžete vnútri vidieť ukážku mučiarne.\n\nV minulosti sa mučiareň pravdepodobne nenachádzala na tomto mieste, pretože smerom od veže nahor bol horný hrad určený pre pánov. Smerom od veže nadol bol dolný hrad určený pre služobníctvo. Vonkajší múr východného paláca je jedným z najlepšie zachovaných pôvodných múrov hradu, keďže ostatné múry sú značne spevňované. Múr sa zachoval aj s pôvodnými okennými otvormi.",
   "hlavnaKategoria": "Pamiatky",
   "projekt": "Hrad Strečno",
-  "miestoNazov": "Hrad Strečno"
+  "miestoNazov": "Hrad Strečno",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/castles/goticky-a-vychodny-palac/",
+    "en": "https://www.qrlink.sk/new/en/castles/goticky-a-vychodny-palac/",
+    "de": "https://www.qrlink.sk/new/de/castles/goticky-a-vychodny-palac/",
+    "ru": "https://www.qrlink.sk/new/ru/castles/goticky-a-vychodny-palac/",
+    "pl": "https://www.qrlink.sk/new/pl/castles/goticky-a-vychodny-palac/",
+    "hu": "https://www.qrlink.sk/new/hu/castles/goticky-a-vychodny-palac/"
+  }
 }

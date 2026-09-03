@@ -3,13 +3,26 @@
   "miesto": "hrad-strecno",
   "poradie": 2,
   "nazov": "Vstup na hrad",
-  "cover": "",
-  "audio": [],
-  "text": "[DOPLNIŤ – text zastavenia z pôvodného webu]",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/06/IMG_20200624_153200.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/2_final.mp3"
+    }
+  ],
   "galeria": [],
   "gps": null,
   "mapEmbed": "",
+  "text": "Krížne cesty\n\nTu sa obidve cesty stretajú tak, ako sa stretá hradný pán František s pani Žofiou a idú vedno ruka v ruke na Strečniansky hrad, kde ich víta služobníctvo.\n\nHistória hradov na Slovensku\n\n11. a 12. storočie bolo obdobím, kedy bolo dôležité chrániť pohraničné územie pred útokmi nepriateľov. Okrem strážnej služby pomáhal tomuto účelu aj systém hradov pri najdôležitejších komunikáciách. Najväčší rozmach výstavby kamenných hradov na Slovensku však začal až v polovici 13. storočia (bezprostredne po tatárskej invázii). Nové objekty boli postavené buď na miestach pôvodných drevených hradov, alebo v ich blízkosti. V priebehu 14. – 15. storočia prechádzali pôvodne kráľovské majetky do rúk šľachty buď ako záloha za poskytnutú pôžičku, alebo za mimoriadne služby kráľovi. Šľachta niekedy investovala do ich prestavieb a zmenila staré hrady na prepychové paláce. Až turecké nájazdy v 16. storočí si vyžiadali výstavbu nových opevnení. Systém stredovekých hradov však postupne už od poslednej tretiny 17. storočia začína strácať svoj vojenský a strategický význam a v priebehu 18. storočia dochádza k presunu šľachtických rodov z hradných panstiev do kaštieľov. Práve v tomto období boli mnohé hrady zbúrané, vypálené a iné po vysťahovaní obyvateľov začali rýchlo chátrať.",
   "hlavnaKategoria": "Pamiatky",
   "projekt": "Hrad Strečno",
-  "miestoNazov": "Hrad Strečno"
+  "miestoNazov": "Hrad Strečno",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/castles/vstup-na-hrad/",
+    "en": "https://www.qrlink.sk/new/en/castles/vstup-na-hrad/",
+    "de": "https://www.qrlink.sk/new/de/castles/vstup-na-hrad/",
+    "ru": "https://www.qrlink.sk/new/ru/castles/vstup-na-hrad/",
+    "pl": "https://www.qrlink.sk/new/pl/castles/vstup-na-hrad/",
+    "hu": "https://www.qrlink.sk/new/hu/castles/vstup-na-hrad/"
+  }
 }

@@ -1,0 +1,28 @@
+{
+  "id": "betliar-info-strom-qr24",
+  "miesto": "betliar",
+  "poradie": 42,
+  "nazov": "Ginko dvojlaločné",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-24.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/24.-Ginko-dvojlaločné.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Vlasťou tohto stromu je pravdepodobne východná Čína, odpradávna sa pestuje vo východnej Ázii, hlavne okolo budhistických chrámov (bol posvätným stromom starých číňanov), kde možno nájsť stromy staré vyše 1000 rokov. Do Európy bolo Ginko dovezené okolo roku 1730. Dorastá do výšky 30m a dožíva sa veku až 2000 rokov. Jeho listy majú blahodárne a liečivé účinky.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Betliar",
+  "miestoNazov": "Betliar",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/betliar-info-strom-qr24/",
+    "en": "https://www.qrlink.sk/new/en/betliar-info-strom-qr24/",
+    "de": "https://www.qrlink.sk/new/de/betliar-info-strom-qr24/",
+    "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr24/",
+    "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr24/",
+    "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr24/"
+  }
+}

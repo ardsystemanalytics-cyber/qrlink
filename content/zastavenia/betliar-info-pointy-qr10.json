@@ -1,0 +1,28 @@
+{
+  "id": "betliar-info-pointy-qr10",
+  "miesto": "betliar",
+  "poradie": 10,
+  "nazov": "Rodinný dom na Polomskej ulici",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/10-rodinny-dom-na-polomskej-ulici.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/10.-RODINNÝ-DOM-NA-POLOMSKEJ-ULICI.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Rodinný dom na Polomskej ulici č. 113 bol postavený začiatkom 20. storočia po ľavej strane hlavnej cesty smerom do Dobšinej. Nesie na sebe znaky stavebných úprav domov z doby postavenia. Je zachovalý, majitelia ho udržiavajú na požadovanej úrovni. Dodnes je obývaný a je jedným z mála zachovalých domov z tejto doby.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Betliar",
+  "miestoNazov": "Betliar",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/betliar-info-pointy-qr10/",
+    "en": "https://www.qrlink.sk/new/en/betliar-info-pointy-qr10/",
+    "de": "https://www.qrlink.sk/new/de/betliar-info-pointy-qr10/",
+    "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr10/",
+    "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr10/",
+    "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr10/"
+  }
+}

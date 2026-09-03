@@ -1,0 +1,28 @@
+{
+  "id": "mestsky-cintorin",
+  "miesto": "ruzomberok",
+  "poradie": 7,
+  "nazov": "MESTSKÝ CINTORÍN",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/16-mestsky-cintorin.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/17-MESTSKÝ-CINTORÍN.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Mestský cintorín z roku 1913, osadený vo svažitom teréne, ktorého pietny charakter je umocnený kulisou zelene, je miestom odpočinku významných osobností mesta, regiónu i historických osobností celoslovenského významu. Pôsobivé hrobky a hroby, situované v kompozičnom usporiadaní lemujúcom hlavnú os areálu s ústredným cintorínskym krížom, vytvárajú charakteristický obraz jedného z najkrajších novodobých cintorínov na Slovensku. Na cintoríne sa nachádzajú národné kultúrne pamiatky – hrobka rodiny Makovických, dielo Dušana Jurkoviča, hrobka Ľudovíta Fullu a jeho prvej manželky Juliany Kláry, realizovaná podľa návrhu Martina Kusého st. a Ľudovíta Fullu.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Ružomberok",
+  "miestoNazov": "Ružomberok",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/mestsky-cintorin/",
+    "en": "https://www.qrlink.sk/new/en/mestsky-cintorin/",
+    "de": "https://www.qrlink.sk/new/de/mestsky-cintorin/",
+    "ru": "https://www.qrlink.sk/new/ru/mestsky-cintorin/",
+    "pl": "https://www.qrlink.sk/new/pl/mestsky-cintorin/",
+    "hu": "https://www.qrlink.sk/new/hu/mestsky-cintorin/"
+  }
+}

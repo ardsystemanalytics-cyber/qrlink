@@ -1,0 +1,28 @@
+{
+  "id": "vodna-nadrz-v-porabke",
+  "miesto": "porabka",
+  "poradie": 1,
+  "nazov": "Vodná nádrž v Porąbke",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/1.-Zapora-Wodna-w-Porąbce.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/1.-THE-WATER-RESERVOIR-IN-PORABKA.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Vodná nádrž v Porąbke a zachytávač vody, dnes nazývaný Międzybrodzkie jazero, boli postavené v rokoch 1928 až 1937 v úzkej priechode medzi Zasolnicou a Kozubnikom. Toto bola prvá takáto investícia v Poľsku. Autorom projektu priehrady bol Ing. Gabriel Narutowicz (neskôr prezident Poľskej republiky). Priehrada je betónová, má výšku 37,3 m. Spolu s priehradami v Tresne a Czańcu tvorí kaskádu rieky Soła.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Porąbka",
+  "miestoNazov": "Porąbka",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/vodna-nadrz-v-porabke/",
+    "en": "https://www.qrlink.sk/new/en/vodna-nadrz-v-porabke/",
+    "de": "https://www.qrlink.sk/new/de/vodna-nadrz-v-porabke/",
+    "ru": "https://www.qrlink.sk/new/ru/vodna-nadrz-v-porabke/",
+    "pl": "https://www.qrlink.sk/new/pl/vodna-nadrz-v-porabke/",
+    "hu": "https://www.qrlink.sk/new/hu/vodna-nadrz-v-porabke/"
+  }
+}

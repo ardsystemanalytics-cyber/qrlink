@@ -3,13 +3,26 @@
   "miesto": "hrad-strecno",
   "poradie": 5,
   "nazov": "Prízemie južného paláca – kuchyňa",
-  "cover": "",
-  "audio": [],
-  "text": "[DOPLNIŤ – text zastavenia z pôvodného webu]",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/5-kuchyňa.png",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/5-1.mp3"
+    }
+  ],
   "galeria": [],
   "gps": null,
   "mapEmbed": "",
+  "text": "Táto miestnosť predstavuje hradnú kuchyňu. Centrum kuchyne tvorilo otvorené ohnisko, ktoré sa používalo na prípravu jedál. V strede steny sa nachádza dymovod, ktorý slúžil na odvádzanie dymu. Po stranách dymovodu môžete vidieť časť portálu dverí a ostenia okna. Ďalej si tu môžete všimnúť stredoveký žarnov na mletie múky, maselnicu na mútenie masla, nádoby na uskladnenie oleja a vína a ďalšie kuchynské pomôcky a nádoby na prípravu jedál či uskladnenie surovín. Podobné nádoby a pomôcky sa nachádzajú aj vo vitrínach. Hlavnou zložkou stredovekej stravy boli nekvasené chlebíky a rôzne kaše, ale aj mäso s bylinami, ktoré rástli v blízkosti obydlí. Jedlo sa tiež veľa ovocia a zeleniny. Ako inšpiráciu si môžete na paneli prečítať 2 recepty zo stredovekej kuchárky.",
   "hlavnaKategoria": "Pamiatky",
   "projekt": "Hrad Strečno",
-  "miestoNazov": "Hrad Strečno"
+  "miestoNazov": "Hrad Strečno",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/castles/prizemie-juzneho-palaca-kuchyna/",
+    "en": "https://www.qrlink.sk/new/en/castles/prizemie-juzneho-palaca-kuchyna/",
+    "de": "https://www.qrlink.sk/new/de/castles/prizemie-juzneho-palaca-kuchyna/",
+    "ru": "https://www.qrlink.sk/new/ru/castles/prizemie-juzneho-palaca-kuchyna/",
+    "pl": "https://www.qrlink.sk/new/pl/castles/prizemie-juzneho-palaca-kuchyna/",
+    "hu": "https://www.qrlink.sk/new/hu/castles/prizemie-juzneho-palaca-kuchyna/"
+  }
 }

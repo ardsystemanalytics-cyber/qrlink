@@ -1,0 +1,28 @@
+{
+  "id": "betliar-info-strom-qr4",
+  "miesto": "betliar",
+  "poradie": 22,
+  "nazov": "Kaštieľ",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-4.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/4.-Kaštieľ.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Kaštieľ, sídlo šľachtickej rodiny Andrassyovcov. Do súčasnej podoby bol prestavaný v rokoch 1881 – 1886 a už v tej dobe bol súčasťou komplexu budov:\n\npokladňa – v minulosti kuchyňa + ubytovanie pre služobníctvo\nbudova – ubytovanie pre mladého pána grófa + jeho ateliér\noproti pokladni cez most – hospodárske budovy + stajne",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Betliar",
+  "miestoNazov": "Betliar",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/betliar-info-strom-qr4/",
+    "en": "https://www.qrlink.sk/new/en/betliar-info-strom-qr4/",
+    "de": "https://www.qrlink.sk/new/de/betliar-info-strom-qr4/",
+    "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr4/",
+    "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr4/",
+    "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr4/"
+  }
+}

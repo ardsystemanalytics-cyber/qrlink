@@ -13,5 +13,13 @@
   "cover": "",
   "popis": "Mesto na horných Kysuciach.",
   "hlavnaKategoria": "Mestá",
-  "korenoveMiesto": "Turzovka"
+  "korenoveMiesto": "Turzovka",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/turzovka/",
+    "en": "https://www.qrlink.sk/new/en/category/turzovka/",
+    "de": "https://www.qrlink.sk/new/de/category/turzovka/",
+    "ru": "https://www.qrlink.sk/new/ru/category/turzovka/",
+    "pl": "https://www.qrlink.sk/new/pl/category/turzovka/",
+    "hu": "https://www.qrlink.sk/new/hu/category/turzovka/"
+  }
 }

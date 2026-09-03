@@ -1,0 +1,28 @@
+{
+  "id": "martakov-kopec-rozhladna-zakopcie",
+  "miesto": "knm",
+  "poradie": 4,
+  "nazov": "Martákov kopec- Rozhľadňa Zákopčie",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/08/Marťákov-kopec.png",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2022/09/Martakov-kopec.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Nadmorská výška: 854 metrov, výška rozhľadne: 14 metrov, rok postavenia: 2011\n\nNachádza sa na vrchole Marťákovho kopca v Javorníkoch. Z rozhľadne sa naskytá výhľad na takmer celé Kysuce, blízke Zákopčie (sever), na Moravsko-sliezske Beskydy (severozápad) s dominantnou Lysou horou (vysielač), Kysucké Beskydy (severovýchod), Kysuckú vrchovinu, Oravskú Maguru (východ), Malú Fatru (juhovýchod) a pri dobrej viditeľnosti aj na vrcholky Západných Tatier na juhovýchodnom obzore. Blízko rozhľadne sa nachádza drevený kríž a turistický prístrešok na oddych.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Kysucké Nové Mesto",
+  "miestoNazov": "Kysucké Nové Mesto",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/martakov-kopec-rozhladna-zakopcie/",
+    "en": "https://www.qrlink.sk/new/en/martakov-kopec-rozhladna-zakopcie/",
+    "de": "https://www.qrlink.sk/new/de/martakov-kopec-rozhladna-zakopcie/",
+    "ru": "https://www.qrlink.sk/new/ru/martakov-kopec-rozhladna-zakopcie/",
+    "pl": "https://www.qrlink.sk/new/pl/martakov-kopec-rozhladna-zakopcie/",
+    "hu": "https://www.qrlink.sk/new/hu/martakov-kopec-rozhladna-zakopcie/"
+  }
+}

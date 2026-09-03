@@ -1,0 +1,28 @@
+{
+  "id": "galeria-ludovita-fullu",
+  "miesto": "ruzomberok",
+  "poradie": 8,
+  "nazov": "GALÉRIA ĽUDOVÍTA FULLU",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/15-fulova-galeria.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/24-GALÉRIA-ĽUDOVÍTA-FULLU.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Prvá významná galéria na Slovensku, postavená po roku 1945. Autormi diela, dokončeného v roku 1969, sú architekti Štefan Hatala a Martin Kusý, ktorému prináleží autorstvo koncepcie objektu z roku 1964. Výnimočná stavba reprezentuje nový prúd modernej architektúry a patrí medzi jej najlepšie realizácie na Slovensku. Strohé geometrické formy pravdivo vyjadrujú lineárnu náväznosť vnútorných priestorov. Nachádza sa tu reprezentatívna stála expozícia výtvarných diel majstra Ľudovíta Fullu a byt umelca s pôvodným zariadením.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Ružomberok",
+  "miestoNazov": "Ružomberok",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/galeria-ludovita-fullu/",
+    "en": "https://www.qrlink.sk/new/en/galeria-ludovita-fullu/",
+    "de": "https://www.qrlink.sk/new/de/galeria-ludovita-fullu/",
+    "ru": "https://www.qrlink.sk/new/ru/galeria-ludovita-fullu/",
+    "pl": "https://www.qrlink.sk/new/pl/galeria-ludovita-fullu/",
+    "hu": "https://www.qrlink.sk/new/hu/galeria-ludovita-fullu/"
+  }
+}

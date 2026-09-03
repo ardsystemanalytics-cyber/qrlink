@@ -1,0 +1,28 @@
+{
+  "id": "rozhladna-tabor",
+  "miesto": "knm",
+  "poradie": 1,
+  "nazov": "Rozhľadňa Tábor",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/08/tabor.png",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2022/09/rozhladna-tabor.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Nadmorská výška: 697 metrov, rok postavenia: 2015\n\nVrchol Tábora s nadmorskou výškou 697 m n. m. je dominantou Kysuckého Nového Mesta. Od roku 2015 je na ňom vystavaná mohutná, štvorposchodová drevená rozhľadňa a 50-timi schodmi. Pri stúpaní do kopca sa nám otvárajú výhľady na Kysucké Nové Mesto, z rozhľadne vidíme ďalej Poľanu, Budatínsku Lehotu, Vreteň, tzv. Kysuckú bránu a samozrejme i Malú Fatru.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Kysucké Nové Mesto",
+  "miestoNazov": "Kysucké Nové Mesto",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/rozhladna-tabor/",
+    "en": "https://www.qrlink.sk/new/en/rozhladna-tabor/",
+    "de": "https://www.qrlink.sk/new/de/rozhladna-tabor/",
+    "ru": "https://www.qrlink.sk/new/ru/rozhladna-tabor/",
+    "pl": "https://www.qrlink.sk/new/pl/rozhladna-tabor/",
+    "hu": "https://www.qrlink.sk/new/hu/rozhladna-tabor/"
+  }
+}

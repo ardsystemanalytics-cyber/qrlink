@@ -1,0 +1,28 @@
+{
+  "id": "zivcakova-marianske-putnicke-miesto",
+  "miesto": "turzovka",
+  "poradie": 23,
+  "nazov": "Živčáková – mariánske pútnické miesto",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/zivcakova.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-9-Zivcakova-–-Marian-pilgrimage-place-3.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Podobne ako v Lurdách, Medžugorí či Fatime, tak aj na Kysuciach na vrchu Živčáková sa udialo mnoho zjavení. Vrch Živčáková sa nachádza asi 3 km západne od mesta Turzovka. Z Turzovky vedie krížová cesta cez les s nástupom v Turzovke – Vyšný koniec a z mestskej časti Závodie.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Turzovka",
+  "miestoNazov": "Turzovka",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/zivcakova-marianske-putnicke-miesto/",
+    "en": "https://www.qrlink.sk/new/en/zivcakova-marianske-putnicke-miesto/",
+    "de": "https://www.qrlink.sk/new/de/zivcakova-marianske-putnicke-miesto/",
+    "ru": "https://www.qrlink.sk/new/ru/zivcakova-marianske-putnicke-miesto/",
+    "pl": "https://www.qrlink.sk/new/pl/zivcakova-marianske-putnicke-miesto/",
+    "hu": "https://www.qrlink.sk/new/hu/zivcakova-marianske-putnicke-miesto/"
+  }
+}

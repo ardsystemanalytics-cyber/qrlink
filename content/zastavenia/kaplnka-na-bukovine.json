@@ -1,0 +1,28 @@
+{
+  "id": "kaplnka-na-bukovine",
+  "miesto": "turzovka",
+  "poradie": 26,
+  "nazov": "Kaplnka na Bukovine",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/bukovina.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-12-The-chapel-in-Bukovina.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Malú sakrálnu stavbu na Bukovine stojacu pri turistickom chodníku nechala v roku 1945 postaviť rodina Štefankova ako poďakovanie Panne Márii za ochranu rodiny počas druhej svetovej vojny. Počas komunizmu bola niektorými aktívnymi členmi strany zámerne poškodená. Ide o jednoduchú stavbu ľudového charakteru s výklenkom bez konkrétneho zasvätenia. V roku 2017 prešla kaplnka komplexnou rekonštrukciou, ktorej iniciátorom bola rodina Kontríková, pokračovatelia rodiny Štefankovej.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Turzovka",
+  "miestoNazov": "Turzovka",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/kaplnka-na-bukovine/",
+    "en": "https://www.qrlink.sk/new/en/kaplnka-na-bukovine/",
+    "de": "https://www.qrlink.sk/new/de/kaplnka-na-bukovine/",
+    "ru": "https://www.qrlink.sk/new/ru/kaplnka-na-bukovine/",
+    "pl": "https://www.qrlink.sk/new/pl/kaplnka-na-bukovine/",
+    "hu": "https://www.qrlink.sk/new/hu/kaplnka-na-bukovine/"
+  }
+}

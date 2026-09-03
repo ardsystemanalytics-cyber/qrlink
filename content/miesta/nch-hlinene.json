@@ -13,5 +13,13 @@
   "cover": "",
   "popis": "Náučný chodník v okolí Turzovky.",
   "hlavnaKategoria": "Náučné chodníky",
-  "korenoveMiesto": "Náučný chodník Hlinené"
+  "korenoveMiesto": "Náučný chodník Hlinené",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/",
+    "en": "https://www.qrlink.sk/new/en/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/",
+    "de": "https://www.qrlink.sk/new/de/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/",
+    "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/",
+    "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/",
+    "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/"
+  }
 }

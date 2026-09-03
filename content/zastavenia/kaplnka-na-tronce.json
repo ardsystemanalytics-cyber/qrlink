@@ -1,0 +1,28 @@
+{
+  "id": "kaplnka-na-tronce",
+  "miesto": "porabka",
+  "poradie": 6,
+  "nazov": "Kaplnka na Tronce",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/6.-Kapliczka-na-Trzonce.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6.-THE-CHAPEL-ON-TRONCA.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Kaplnka na Tronce stojí na turistickom chodníku vedúcom cez Bukowski Groń na prechod Kocierska. Je tu obraz Matky Božskej Snežnej. Každú prvú augustovú nedeľu sa tu konajú odpustkové zhromaždenia, na ktoré prichádzajú davy veriacich.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Porąbka",
+  "miestoNazov": "Porąbka",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/kaplnka-na-tronce/",
+    "en": "https://www.qrlink.sk/new/en/kaplnka-na-tronce/",
+    "de": "https://www.qrlink.sk/new/de/kaplnka-na-tronce/",
+    "ru": "https://www.qrlink.sk/new/ru/kaplnka-na-tronce/",
+    "pl": "https://www.qrlink.sk/new/pl/kaplnka-na-tronce/",
+    "hu": "https://www.qrlink.sk/new/hu/kaplnka-na-tronce/"
+  }
+}

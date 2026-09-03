@@ -1,0 +1,28 @@
+{
+  "id": "betliar-info-strom-qr11",
+  "miesto": "betliar",
+  "poradie": 29,
+  "nazov": "Čínsky pavilón",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-11.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/11.-Čínsky-pavilón.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Má pôdorys v podobe osemuholníka s kupolovitou strechou, je zhotovený z plechu a slúžil na odkladanie športových potrieb a na odpočinok. Bol postavený v prvej polovici 80-tych rokov 19.storočia.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Betliar",
+  "miestoNazov": "Betliar",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/betliar-info-strom-qr11/",
+    "en": "https://www.qrlink.sk/new/en/betliar-info-strom-qr11/",
+    "de": "https://www.qrlink.sk/new/de/betliar-info-strom-qr11/",
+    "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr11/",
+    "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr11/",
+    "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr11/"
+  }
+}

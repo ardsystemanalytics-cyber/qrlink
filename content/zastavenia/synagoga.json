@@ -1,0 +1,28 @@
+{
+  "id": "synagoga",
+  "miesto": "ruzomberok",
+  "poradie": 20,
+  "nazov": "SYNAGÓGA",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/9-synagoga.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/14-Sinagóga.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Novorománska synagóga z rokov 1879 – 1880 predstavuje konvenčný typ židovskej sakrálnej architektúry druhej polovice 19. storočia. Od doby svojho vzniku slúžila ako modlitebňa pre židovskú náboženskú obec. Trojloďová sieň pozdĺžneho pôdorysu s emporami v interiéri má fasády s novorománskym tvaroslovím. Stavbu podľa vzoru synagógy v Miškolci viedol Juraj Lukáč. Objekt bol prvý krát zrekonštruovaný v roku 1929 a jeho dobový architektonický výraz, vrátane detailov tvaroslovia a výplní otvorov bol zachovaný v originálnej podobe. V roku 2014 bola synagóga komplexne zrekonštruovaná z prostriedkov mesta Ružomberok. Architektonická pamiatka nadobudla nový primárny účel svojho spoločenského využitia ako polyfunkčná výstavná a koncertná sieň mesta.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Ružomberok",
+  "miestoNazov": "Ružomberok",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/synagoga/",
+    "en": "https://www.qrlink.sk/new/en/synagoga/",
+    "de": "https://www.qrlink.sk/new/de/synagoga/",
+    "ru": "https://www.qrlink.sk/new/ru/synagoga/",
+    "pl": "https://www.qrlink.sk/new/pl/synagoga/",
+    "hu": "https://www.qrlink.sk/new/hu/synagoga/"
+  }
+}

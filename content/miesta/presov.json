@@ -13,5 +13,13 @@
   "cover": "",
   "popis": "Metropola Šariša s historickým centrom.",
   "hlavnaKategoria": "Mestá",
-  "korenoveMiesto": "Prešov"
+  "korenoveMiesto": "Prešov",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/presov/",
+    "en": "https://www.qrlink.sk/new/en/category/presov/",
+    "de": "https://www.qrlink.sk/new/de/category/presov/",
+    "ru": "https://www.qrlink.sk/new/ru/category/presov/",
+    "pl": "https://www.qrlink.sk/new/pl/category/presov/",
+    "hu": "https://www.qrlink.sk/new/hu/category/presov/"
+  }
 }

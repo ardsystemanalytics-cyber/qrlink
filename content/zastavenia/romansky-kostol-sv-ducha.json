@@ -1,0 +1,28 @@
+{
+  "id": "romansky-kostol-sv-ducha",
+  "miesto": "trebisov",
+  "poradie": 9,
+  "nazov": "Románsky kostol sv. Ducha",
+  "popis": "",
+  "cover": "",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/09/01-Románsky-kostol-svätého-ducha.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "K najstarším sakrálnym pamiatkam Trebišova patrí románsky kostol Sv. Ducha, ktorého základy s cintorínom boli náhodne objavené v areáli Stanice mladých prírodovedcov v Trebišove. Jeho existenciu potvrdzovali záznamy v pápežských desiatkoch vyhotovené v rokoch 1332-1337. Archeologický výskum ukázal, že kostol Sv. Ducha mal obdľžnikovú loď s polooblúkovou apsidou-svätyňou. V 65-tich kostrových hroboch boli mŕtvi pochovaný na chrbte bez rakvy a väčšinou aj bez milodarov. Na základe nálezov možno kostol Sv. Ducha datovať pravdepodobne do 1.polovice 13. stor. a jeho zánik okolo roku 1400.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Trebišov",
+  "miestoNazov": "Trebišov",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/romansky-kostol-sv-ducha/",
+    "en": "https://www.qrlink.sk/new/en/romansky-kostol-sv-ducha/",
+    "de": "https://www.qrlink.sk/new/de/romansky-kostol-sv-ducha/",
+    "ru": "https://www.qrlink.sk/new/ru/romansky-kostol-sv-ducha/",
+    "pl": "https://www.qrlink.sk/new/pl/romansky-kostol-sv-ducha/",
+    "hu": "https://www.qrlink.sk/new/hu/romansky-kostol-sv-ducha/"
+  }
+}

@@ -14,5 +14,13 @@
   "cover": "",
   "popis": "Mesto na česko-slovenskom pohraničí.",
   "hlavnaKategoria": "Mestá",
-  "korenoveMiesto": "Frýdlant"
+  "korenoveMiesto": "Frýdlant",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/frydlant/",
+    "en": "https://www.qrlink.sk/new/en/category/frydlant/",
+    "de": "https://www.qrlink.sk/new/de/category/frydlant/",
+    "ru": "https://www.qrlink.sk/new/ru/category/frydlant/",
+    "pl": "https://www.qrlink.sk/new/pl/category/frydlant/",
+    "hu": "https://www.qrlink.sk/new/hu/category/frydlant/"
+  }
 }

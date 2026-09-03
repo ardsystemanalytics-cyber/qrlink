@@ -1,0 +1,28 @@
+{
+  "id": "lipa-slobody",
+  "miesto": "vranov",
+  "poradie": 7,
+  "nazov": "Lipa slobody",
+  "popis": "",
+  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/65a5690.jpg",
+  "audio": [
+    {
+      "url": "https://www.qrlink.sk/new/wp-content/uploads/2021/09/07-Lipa-slobody.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Lipa bola vysadená v roku 1918 a dnes stojí pred strednou odbornou školou v centre mesta. Vysadili ju vranovskí lokalpatrioti a zástancovia samostatnosti nášho národa na počesť vzniku samostatného Československa 28. októbra 1918 po skončení prvej svetovej vojny a rozpade Rakúsko-Uhorska. Nadšenie bolo spoločné, lebo v tom čase žilo vo Vranove aj viac českých rodín. Keď to bol ešte malý strom, tak ho polievali a starali sa o neho aby zostal pre budúce generácie ako symbol prvého spoločného štátu Čechov a Slovákov.\n\nO pôvode stromu sa traduje aj iný príbeh. Hovorí sa v ňom, že tento strom vysadili francúzski vojaci, ktorí sa zo zranení počas prvej svetovej vojny liečili v nemocnici vo Vranove, ktorá bola zriadená v budove školy. Aj keď frontová línia nikdy nedorazila do nášho mesta a prechádzala cez svidnický, stropkovský a humenský okres, ranení vojaci boli z frontovej línie prevážaní do Vranova, kde sa liečili. Mnohí z nich tu aj zraneniam podľahli, a boli pochovaní na miestnom cintoríne. Spomínaní vojaci zranenia prežili a lipu zasadili na pamiatku pred poľnou nemocnicou.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Vranov nad Topľou",
+  "miestoNazov": "Vranov nad Topľou",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/lipa-slobody/",
+    "en": "https://www.qrlink.sk/new/en/lipa-slobody/",
+    "de": "https://www.qrlink.sk/new/de/lipa-slobody/",
+    "ru": "https://www.qrlink.sk/new/ru/lipa-slobody/",
+    "pl": "https://www.qrlink.sk/new/pl/lipa-slobody/",
+    "hu": "https://www.qrlink.sk/new/hu/lipa-slobody/"
+  }
+}
