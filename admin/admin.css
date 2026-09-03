@@ -100,10 +100,17 @@ button[class*="primary"] {
   border-color: var(--qr-pine) !important;
   border-radius: 999px !important;
   font-weight: 600 !important;
+  color: #fff !important;
 }
 [class*="-button-primary"]:hover,
 [class*="PublishButton"]:hover {
   background: var(--qr-pine-deep) !important;
+  color: #fff !important;
+}
+[class*="-button-primary"] svg,
+[class*="PublishButton"] svg,
+button[class*="primary"] svg {
+  fill: #fff !important;
 }
 
 /* Bežné tlačidlá */
