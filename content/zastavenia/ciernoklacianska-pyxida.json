@@ -7,33 +7,33 @@
   "cover": "",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/10/pyxida.mp3"
+      "url": "assets/audio/migrated/pyxida.mp3"
     }
   ],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/09/2025-10-09_12h27_42.jpg"
+      "url": "assets/images/migrated/2025-10-09_12h27_42.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/09/2025-09-25_11h43_44.jpg"
+      "url": "assets/images/migrated/2025-09-25_11h43_44.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/09/foto-030zNew.jpg"
+      "url": "assets/images/migrated/foto-030znew.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/09/kolnik_fotoz-min.jpg"
+      "url": "assets/images/migrated/kolnik_fotoz-min.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/09/foto-054-min.jpg"
+      "url": "assets/images/migrated/foto-054-min.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/09/Image0011-min.jpg"
+      "url": "assets/images/migrated/image0011-min.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/09/foto-036_1993-min.jpg"
+      "url": "assets/images/migrated/foto-036_1993-min.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/09/2025-09-25_11h40_55-min.png"
+      "url": "assets/images/migrated/2025-09-25_11h40_55-min.png"
     }
   ],
   "gps": {

@@ -4,10 +4,10 @@
   "poradie": 13,
   "nazov": "Cyril Daxner – Daxnerov dom",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2024/11/daxner1.jpg",
+  "cover": "assets/images/migrated/daxner1.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2024/11/02-daxner.mp3"
+      "url": "assets/audio/migrated/02-daxner.mp3"
     }
   ],
   "galeria": [],

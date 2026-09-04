@@ -4,15 +4,15 @@
   "poradie": 1,
   "nazov": "O Hlinenom v najstarších časoch",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Hlinené-1..png",
+  "cover": "assets/images/migrated/hlinene-1.png",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/09/01-01-O-hlinenom-v-najstarsich-casoch.mp3"
+      "url": "assets/audio/migrated/01-01-o-hlinenom-v-najstarsich-casoch.mp3"
     }
   ],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png"
+      "url": "assets/images/migrated/obalka-03.png"
     }
   ],
   "gps": null,

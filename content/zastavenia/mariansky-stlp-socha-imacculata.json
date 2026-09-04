@@ -4,10 +4,10 @@
   "poradie": 17,
   "nazov": "MARIÁNSKY STĹP – SOCHA IMACCULATA",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/1-2-namestie-a.hlinku.jpg",
+  "cover": "assets/images/migrated/1-2-namestie-a-hlinku.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/20-MARIÁNSKY-STĹP-SOCHA-IMACCULATA.mp3"
+      "url": "assets/audio/migrated/20-mariansky-stlp-socha-imacculata.mp3"
     }
   ],
   "galeria": [],

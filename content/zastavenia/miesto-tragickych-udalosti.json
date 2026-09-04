@@ -4,10 +4,10 @@
   "poradie": 25,
   "nazov": "MIESTO TRAGICKÝCH UDALOSTÍ",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/21-miesto-strelby_-cernova.jpg",
+  "cover": "assets/images/migrated/21-miesto-strelby_-cernova.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/08-MIESTO-TRAGICKÝCH-UDALOSTÍ.mp3"
+      "url": "assets/audio/migrated/08-miesto-tragickych-udalosti.mp3"
     }
   ],
   "galeria": [],

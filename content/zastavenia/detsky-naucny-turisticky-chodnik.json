@@ -4,14 +4,14 @@
   "poradie": 2,
   "nazov": "Detský náučný turistický chodník",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/201631453_515707596139872_3880037117091592767_n.jpg",
+  "cover": "assets/images/migrated/201631453_515707596139872_3880037117091592767_n.jpg",
   "audio": [],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Drevenička-Korňa.jpg"
+      "url": "assets/images/migrated/drevenicka-korna.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/199505802_1883109211852134_8317344405388699304_n.jpg"
+      "url": "assets/images/migrated/199505802_1883109211852134_8317344405388699304_n.jpg"
     }
   ],
   "gps": null,

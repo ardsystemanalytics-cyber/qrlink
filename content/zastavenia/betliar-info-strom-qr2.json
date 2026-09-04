@@ -4,10 +4,10 @@
   "poradie": 2,
   "nazov": "Rotunda",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-2.jpg",
+  "cover": "assets/images/migrated/qr-2.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/2.-Rotunda.mp3"
+      "url": "assets/audio/migrated/2-rotunda.mp3"
     }
   ],
   "galeria": [],

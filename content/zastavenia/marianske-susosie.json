@@ -4,10 +4,10 @@
   "poradie": 5,
   "nazov": "Mariánske súsošie",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/06/002.jpg",
+  "cover": "assets/images/migrated/002.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/09/05-Mariánske-Súsošie.mp3"
+      "url": "assets/audio/migrated/05-marianske-susosie.mp3"
     }
   ],
   "galeria": [],

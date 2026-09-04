@@ -4,10 +4,10 @@
   "poradie": 3,
   "nazov": "Pamätník Tomáša Uhorčíka",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/uhorcik.jpg",
+  "cover": "assets/images/migrated/uhorcik.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/8-3-The-Monument-of-Tomas-Uhorcik.mp3"
+      "url": "assets/audio/migrated/8-3-the-monument-of-tomas-uhorcik.mp3"
     }
   ],
   "galeria": [],

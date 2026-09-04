@@ -4,10 +4,10 @@
   "poradie": 18,
   "nazov": "Hospodárska budova Kaštieľa Betliar",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/18-hodpodarska-budova-kastiela.jpg",
+  "cover": "assets/images/migrated/18-hodpodarska-budova-kastiela.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/18.-HOSPODÁRSKA-BUDOVA-KAŠTIEĽA-BETLIAR.mp3"
+      "url": "assets/audio/migrated/18-hospodarska-budova-kastiela-betliar.mp3"
     }
   ],
   "galeria": [],

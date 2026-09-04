@@ -4,10 +4,10 @@
   "poradie": 3,
   "nazov": "Evanjelické kolégium",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Evanjelické-kolégium.jpg",
+  "cover": "assets/images/migrated/evanjelicke-kolegium.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/05/09-Evanjelické-kolégium.mp3"
+      "url": "assets/audio/migrated/09-evanjelicke-kolegium.mp3"
     }
   ],
   "galeria": [],

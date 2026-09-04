@@ -4,10 +4,10 @@
   "poradie": 7,
   "nazov": "Edmund Reitter – člověk a filantrop",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/11/6_Vitrina-se-sbírek-Edmunda-Reittera.png",
+  "cover": "assets/images/migrated/6_vitrina-se-sbirek-edmunda-reittera.png",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/Reiter03-1.mp3"
+      "url": "assets/audio/migrated/reiter03-1.mp3"
     }
   ],
   "galeria": [],

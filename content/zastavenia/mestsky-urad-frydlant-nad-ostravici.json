@@ -4,10 +4,10 @@
   "poradie": 1,
   "nazov": "Mestský úrad Frýdlant nad Ostravicí",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/01-Městský-úřad-na-Náměstí.jpg",
+  "cover": "assets/images/migrated/01-mestsky-urad-na-namesti.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/1.-Building-of-the-Municipality-office-Frýdlant-nad-Ostravicí.mp3"
+      "url": "assets/audio/migrated/1-building-of-the-municipality-office-frydlant-nad-ostravici.mp3"
     }
   ],
   "galeria": [],

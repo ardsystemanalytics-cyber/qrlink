@@ -4,10 +4,10 @@
   "poradie": 4,
   "nazov": "Regionálna izba v Porąbke",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/4.-Izba-Regionalna-w-Porąbce.jpg",
+  "cover": "assets/images/migrated/4-izba-regionalna-w-porabce.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/4.-THE-REGIONAL-ROOM-IN-PORABKA.mp3"
+      "url": "assets/audio/migrated/4-the-regional-room-in-porabka.mp3"
     }
   ],
   "galeria": [],

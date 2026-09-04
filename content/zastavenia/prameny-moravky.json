@@ -4,11 +4,11 @@
   "poradie": 6,
   "nazov": "Prameny Morávky",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/moravka-1.jpg",
+  "cover": "assets/images/migrated/moravka-1.jpg",
   "audio": [],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/moravka-2.jpg"
+      "url": "assets/images/migrated/moravka-2.jpg"
     }
   ],
   "gps": null,

@@ -4,15 +4,15 @@
   "poradie": 5,
   "nazov": "Socha Břetislav Benda – Mladosti a kráse patrí budúcnosť.",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage4.jpg",
+  "cover": "assets/images/migrated/webp-net-resizeimage4.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2021/09/05-Socha.mp3"
+      "url": "assets/audio/migrated/05-socha.mp3"
     }
   ],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage5.jpg"
+      "url": "assets/images/migrated/webp-net-resizeimage5.jpg"
     }
   ],
   "gps": null,

@@ -4,10 +4,10 @@
   "poradie": 8,
   "nazov": "Areál športu a oddychu, Skatepark",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/5.jpg",
+  "cover": "assets/images/migrated/5.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/5.-The-Sport-and-Recreation-centre-the-skatepark.mp3"
+      "url": "assets/audio/migrated/5-the-sport-and-recreation-centre-the-skatepark.mp3"
     }
   ],
   "galeria": [],

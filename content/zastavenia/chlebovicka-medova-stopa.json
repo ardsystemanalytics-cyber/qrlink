@@ -4,11 +4,11 @@
   "poradie": 11,
   "nazov": "Chlebovická Medová stopa",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/mc1.png",
+  "cover": "assets/images/migrated/mc1.png",
   "audio": [],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Bez-názvuc2.jpg"
+      "url": "assets/images/migrated/bez-nazvuc2.jpg"
     }
   ],
   "gps": null,

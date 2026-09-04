@@ -4,10 +4,10 @@
   "poradie": 12,
   "nazov": "Súsošie sv. Jána Nepomuckého, Panny Márie s Ježiškom",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2024/11/socha-nepomuckého.jpeg",
+  "cover": "assets/images/migrated/socha-nepomuckeho.jpeg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2024/11/01-susosie.mp3"
+      "url": "assets/audio/migrated/01-susosie.mp3"
     }
   ],
   "galeria": [],

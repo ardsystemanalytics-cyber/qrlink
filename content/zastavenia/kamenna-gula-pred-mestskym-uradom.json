@@ -4,10 +4,10 @@
   "poradie": 6,
   "nazov": "Kamenná guľa pred Mestským úradom",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/9.jpg",
+  "cover": "assets/images/migrated/9.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/9.-The-stone-sphere-in-front-of-the-Town-hall-on-the-occasion-of-the-1st-world-meeting-of-Turzovka-people-2.mp3"
+      "url": "assets/audio/migrated/9-the-stone-sphere-in-front-of-the-town-hall-on-the-occasion-of-the-1st-world-meeting-of-turzovka-people-2.mp3"
     }
   ],
   "galeria": [],

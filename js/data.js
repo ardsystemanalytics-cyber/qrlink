@@ -24,7 +24,7 @@ const PLACE_PHOTOS = {
   "trebisov": "https://images.unsplash.com/photo-1589553416260-f586c8f1514f?w=800&q=80",
   "turzovka": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
   "vranov": "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=800&q=80",
-  "hrad-strecno": "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg",
+  "hrad-strecno": "assets/images/migrated/1-paseka-e1592570206493.jpg",
   "cierne-klacany": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80",
   "klenoty-pohranicie": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
   "cestovatelsky-dennik": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
@@ -139,7 +139,7 @@ const DB = {
       "lat": 49.177,
       "mapX": 354,
       "mapY": 120,
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg",
+      "cover": "assets/images/migrated/1-paseka-e1592570206493.jpg",
       "popis": "Stredoveký hrad nad Váhom – 14 zastavení s audio sprievodcom.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/",
@@ -399,7 +399,7 @@ const DB = {
       "id": "eb-hrad-strecno",
       "rodic": "euroregion-beskydy",
       "nazov": "Hrad Strečno",
-      "foto": "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg",
+      "foto": "assets/images/migrated/1-paseka-e1592570206493.jpg",
       "popis": "Stredoveký hrad nad Váhom – samostatná podkapitola v rámci Euroregiónu Beskydy."
     },
     {
@@ -861,9 +861,9 @@ const DB = {
       "poradie": 1,
       "nazov": "Kultúrny dom",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/1-kulturny-dom.jpg",
+      "cover": "assets/images/migrated/1-kulturny-dom.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/1.-KULTÚRNY-DOM.mp3"
+        "assets/audio/migrated/1-kulturny-dom.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -887,9 +887,9 @@ const DB = {
       "poradie": 2,
       "nazov": "Kostol rímskokatolícky sv. Alžbety vdovy",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/2-rimskokatolicky-kostol.jpg",
+      "cover": "assets/images/migrated/2-rimskokatolicky-kostol.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/2.-KOSTOL-RÍMSKOKATOLÍCKY-SV.-ALŽBETY-VDOVY.mp3"
+        "assets/audio/migrated/2-kostol-rimskokatolicky-sv-alzbety-vdovy.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -913,9 +913,9 @@ const DB = {
       "poradie": 3,
       "nazov": "Kostol evanjelický augsburského vyznania",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/3-evanjelicky-kostol.jpg",
+      "cover": "assets/images/migrated/3-evanjelicky-kostol.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/3.-KOSTOL-EVANJELICKÝ-AUGSBURSKÉHO-VYZNANIA.mp3"
+        "assets/audio/migrated/3-kostol-evanjelicky-augsburskeho-vyznania.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -939,9 +939,9 @@ const DB = {
       "poradie": 4,
       "nazov": "Evanjelická fara",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/4-evanjelicka-fara.jpg",
+      "cover": "assets/images/migrated/4-evanjelicka-fara.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/4.-EVANJELICKÁ-FARA.mp3"
+        "assets/audio/migrated/4-evanjelicka-fara.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -965,9 +965,9 @@ const DB = {
       "poradie": 5,
       "nazov": "Hasičská zbrojnica",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/5-hasicska-zbrojnica.jpg",
+      "cover": "assets/images/migrated/5-hasicska-zbrojnica.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/5.-HASIČSKÁ-ZBROJNICA.mp3"
+        "assets/audio/migrated/5-hasicska-zbrojnica.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -991,9 +991,9 @@ const DB = {
       "poradie": 6,
       "nazov": "Budova správy lesov",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/6-budova-spravy-lesov.jpg",
+      "cover": "assets/images/migrated/6-budova-spravy-lesov.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/6.-BUDOVA-SPRÁVY-LESOV.mp3"
+        "assets/audio/migrated/6-budova-spravy-lesov.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1017,9 +1017,9 @@ const DB = {
       "poradie": 7,
       "nazov": "Budova obecného úradu",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/7-obecny-urad.jpg",
+      "cover": "assets/images/migrated/7-obecny-urad.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/7.-BUDOVA-OBECNÉHO-ÚRADU.mp3"
+        "assets/audio/migrated/7-budova-obecneho-uradu.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1043,9 +1043,9 @@ const DB = {
       "poradie": 8,
       "nazov": "Malý park",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/8-maly-park.jpg",
+      "cover": "assets/images/migrated/8-maly-park.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/8.-MALÝ-PARK.mp3"
+        "assets/audio/migrated/8-maly-park.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1069,9 +1069,9 @@ const DB = {
       "poradie": 9,
       "nazov": "Socha sv. Jána Nepomuckého",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/9-socha.jpg",
+      "cover": "assets/images/migrated/9-socha.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/9.-SOCHA-SV.-JÁNA-NEPOMUCKÉHO.mp3"
+        "assets/audio/migrated/9-socha-sv-jana-nepomuckeho.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1095,9 +1095,9 @@ const DB = {
       "poradie": 10,
       "nazov": "Rodinný dom na Polomskej ulici",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/10-rodinny-dom-na-polomskej-ulici.jpg",
+      "cover": "assets/images/migrated/10-rodinny-dom-na-polomskej-ulici.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/10.-RODINNÝ-DOM-NA-POLOMSKEJ-ULICI.mp3"
+        "assets/audio/migrated/10-rodinny-dom-na-polomskej-ulici.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1121,9 +1121,9 @@ const DB = {
       "poradie": 11,
       "nazov": "Bytový dom v lokalite „Píla“",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/11-bytovy-dom-pila.jpg",
+      "cover": "assets/images/migrated/11-bytovy-dom-pila.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/11.-BYTOVÝ-DOM-V-LOKALITE-„PÍLA“.mp3"
+        "assets/audio/migrated/11-bytovy-dom-v-lokalite-pila.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1147,9 +1147,9 @@ const DB = {
       "poradie": 12,
       "nazov": "Budova základnej školy",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/12-zakladna-skola.jpg",
+      "cover": "assets/images/migrated/12-zakladna-skola.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/12.-BUDOVA-ZÁKLADNEJ-ŠKOLY.mp3"
+        "assets/audio/migrated/12-budova-zakladnej-skoly.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1173,9 +1173,9 @@ const DB = {
       "poradie": 13,
       "nazov": "Budova železničnej stanice",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/13-budova-zel-stanice.jpg",
+      "cover": "assets/images/migrated/13-budova-zel-stanice.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/13.-BUDOVA-ŽELEZNIČNEJ-STANICE.mp3"
+        "assets/audio/migrated/13-budova-zeleznicnej-stanice.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1199,9 +1199,9 @@ const DB = {
       "poradie": 14,
       "nazov": "Bytové domy na Nižnej Maši",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/14-bytove-domy-nizna-masa.jpg",
+      "cover": "assets/images/migrated/14-bytove-domy-nizna-masa.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/14.-BYTOVÉ-DOMY-NA-NIŽNEJ-MAŠI.mp3"
+        "assets/audio/migrated/14-bytove-domy-na-niznej-masi.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1225,9 +1225,9 @@ const DB = {
       "poradie": 15,
       "nazov": "Dom Aloisa Šébla",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/15-dom-alojza-sebla.jpg",
+      "cover": "assets/images/migrated/15-dom-alojza-sebla.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/15.-DOM-ALOISA-ŠÉBLA.mp3"
+        "assets/audio/migrated/15-dom-aloisa-sebla.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1251,9 +1251,9 @@ const DB = {
       "poradie": 16,
       "nazov": "Rodný dom Júliusa Koššutha",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/16-dom-juliusa-kossutha.jpg",
+      "cover": "assets/images/migrated/16-dom-juliusa-kossutha.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/16.-RODNÝ-DOM-JÚLIUSA-KOŠŠUTHA.mp3"
+        "assets/audio/migrated/16-rodny-dom-juliusa-kossutha.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1277,9 +1277,9 @@ const DB = {
       "poradie": 17,
       "nazov": "Pomník padlým na miestnom cintoríne",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/17-pomnik-padlym.jpg",
+      "cover": "assets/images/migrated/17-pomnik-padlym.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/17.-POMNÍK-PADLÝM-NA-MIESTNOM-CINTORÍNE.mp3"
+        "assets/audio/migrated/17-pomnik-padlym-na-miestnom-cintorine.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1303,9 +1303,9 @@ const DB = {
       "poradie": 18,
       "nazov": "Hospodárska budova Kaštieľa Betliar",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/18-hodpodarska-budova-kastiela.jpg",
+      "cover": "assets/images/migrated/18-hodpodarska-budova-kastiela.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/18.-HOSPODÁRSKA-BUDOVA-KAŠTIEĽA-BETLIAR.mp3"
+        "assets/audio/migrated/18-hospodarska-budova-kastiela-betliar.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1329,9 +1329,9 @@ const DB = {
       "poradie": 1,
       "nazov": "Anglický park pri kaštieli",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/kastiel-min.jpg",
+      "cover": "assets/images/migrated/kastiel-min.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/1-Park.mp3"
+        "assets/audio/migrated/1-park.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1355,9 +1355,9 @@ const DB = {
       "poradie": 2,
       "nazov": "Rotunda",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-2.jpg",
+      "cover": "assets/images/migrated/qr-2.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/2.-Rotunda.mp3"
+        "assets/audio/migrated/2-rotunda.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1381,9 +1381,9 @@ const DB = {
       "poradie": 3,
       "nazov": "Fontána",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-3.jpg",
+      "cover": "assets/images/migrated/qr-3.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/3.-Fontána.mp3"
+        "assets/audio/migrated/3-fontana.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1407,9 +1407,9 @@ const DB = {
       "poradie": 4,
       "nazov": "Kaštieľ",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-4.jpg",
+      "cover": "assets/images/migrated/qr-4.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/4.-Kaštieľ.mp3"
+        "assets/audio/migrated/4-kastiel.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1433,9 +1433,9 @@ const DB = {
       "poradie": 5,
       "nazov": "Hermesova studňa",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-5.jpg",
+      "cover": "assets/images/migrated/qr-5.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/5.-Hermesova-studňa.mp3"
+        "assets/audio/migrated/5-hermesova-studna.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1459,9 +1459,9 @@ const DB = {
       "poradie": 6,
       "nazov": "Slobodomurársky pavilón",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-6.jpg",
+      "cover": "assets/images/migrated/qr-6.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/6.-Slobodomurársky-pavilón.mp3"
+        "assets/audio/migrated/6-slobodomurarsky-pavilon.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1485,9 +1485,9 @@ const DB = {
       "poradie": 7,
       "nazov": "Veľký Vodopád",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-7.jpg",
+      "cover": "assets/images/migrated/qr-7.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/7.-Veľký-Vodopád.mp3"
+        "assets/audio/migrated/7-velky-vodopad.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1511,9 +1511,9 @@ const DB = {
       "poradie": 8,
       "nazov": "Zavlažovací systém",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-8.jpg",
+      "cover": "assets/images/migrated/qr-8.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/8.-Zavlažovací-systém.mp3"
+        "assets/audio/migrated/8-zavlazovaci-system.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1537,9 +1537,9 @@ const DB = {
       "poradie": 9,
       "nazov": "Olympijský oheň",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-9.jpg",
+      "cover": "assets/images/migrated/qr-9.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/9.-Olympijský-oheň.mp3"
+        "assets/audio/migrated/9-olympijsky-ohen.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1563,9 +1563,9 @@ const DB = {
       "poradie": 10,
       "nazov": "Japonský most",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-10.jpg",
+      "cover": "assets/images/migrated/qr-10.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/10.-Japonský-most.mp3"
+        "assets/audio/migrated/10-japonsky-most.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1589,9 +1589,9 @@ const DB = {
       "poradie": 11,
       "nazov": "Čínsky pavilón",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-11.jpg",
+      "cover": "assets/images/migrated/qr-11.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/11.-Čínsky-pavilón.mp3"
+        "assets/audio/migrated/11-cinsky-pavilon.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1615,9 +1615,9 @@ const DB = {
       "poradie": 12,
       "nazov": "Parkové plastiky",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-12.jpg",
+      "cover": "assets/images/migrated/qr-12.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/12.-Plastiky.mp3"
+        "assets/audio/migrated/12-plastiky.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1641,9 +1641,9 @@ const DB = {
       "poradie": 13,
       "nazov": "Veľký rybník",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-13.jpg",
+      "cover": "assets/images/migrated/qr-13.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/13.-Veľký-rybník.mp3"
+        "assets/audio/migrated/13-velky-rybnik.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1667,9 +1667,9 @@ const DB = {
       "poradie": 14,
       "nazov": "Zverinec",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-14.jpg",
+      "cover": "assets/images/migrated/qr-14.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/09/zverinec.mp3"
+        "assets/audio/migrated/zverinec.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1693,9 +1693,9 @@ const DB = {
       "poradie": 15,
       "nazov": "Bosniak / Bosnia bar",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-15.jpg",
+      "cover": "assets/images/migrated/qr-15.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/15.-Bosniak-Bosnia-bar.mp3"
+        "assets/audio/migrated/15-bosniak-bosnia-bar.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1719,9 +1719,9 @@ const DB = {
       "poradie": 1,
       "nazov": "Borovica čierna",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-16.jpg",
+      "cover": "assets/images/migrated/qr-16.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/16.-Borovica-čierna.mp3"
+        "assets/audio/migrated/16-borovica-cierna.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1745,9 +1745,9 @@ const DB = {
       "poradie": 2,
       "nazov": "Douglaska tisolistá",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-17.jpg",
+      "cover": "assets/images/migrated/qr-17.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/17.-Douglaska-tisolistá.mp3"
+        "assets/audio/migrated/17-douglaska-tisolista.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1771,9 +1771,9 @@ const DB = {
       "poradie": 3,
       "nazov": "Tsuga kanadská",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-18.jpg",
+      "cover": "assets/images/migrated/qr-18.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/18.-Tsuga-kanadská.mp3"
+        "assets/audio/migrated/18-tsuga-kanadska.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1797,9 +1797,9 @@ const DB = {
       "poradie": 4,
       "nazov": "Platan javorolistý",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-19.jpg",
+      "cover": "assets/images/migrated/qr-19.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/19.-Platan-javorolistý.mp3"
+        "assets/audio/migrated/19-platan-javorolisty.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1823,9 +1823,9 @@ const DB = {
       "poradie": 5,
       "nazov": "Višňa pílkatá (sakura)",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-20.jpg",
+      "cover": "assets/images/migrated/qr-20.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/20.-Višňa-pílkatá-sakura.mp3"
+        "assets/audio/migrated/20-visna-pilkata-sakura.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1849,9 +1849,9 @@ const DB = {
       "poradie": 6,
       "nazov": "Dub letný stĺpovitý",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-21.jpg",
+      "cover": "assets/images/migrated/qr-21.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/21.-Dub-letný-stĺpovitý.mp3"
+        "assets/audio/migrated/21-dub-letny-stlpovity.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1875,9 +1875,9 @@ const DB = {
       "poradie": 7,
       "nazov": "Lipa americká",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-22.jpg",
+      "cover": "assets/images/migrated/qr-22.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/22.-Lipa-americká.mp3"
+        "assets/audio/migrated/22-lipa-americka.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1901,9 +1901,9 @@ const DB = {
       "poradie": 8,
       "nazov": "Ľaliovník tulipánokvetý",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-23.jpg",
+      "cover": "assets/images/migrated/qr-23.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/23.-Ľaliovník-tulipánokvetý.mp3"
+        "assets/audio/migrated/23-laliovnik-tulipanokvety.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1927,9 +1927,9 @@ const DB = {
       "poradie": 9,
       "nazov": "Ginko dvojlaločné",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-24.jpg",
+      "cover": "assets/images/migrated/qr-24.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/24.-Ginko-dvojlaločné.mp3"
+        "assets/audio/migrated/24-ginko-dvojlalocne.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1953,9 +1953,9 @@ const DB = {
       "poradie": 10,
       "nazov": "Smrek (obyčajný) strukovitý",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-25.jpg",
+      "cover": "assets/images/migrated/qr-25.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/25.-Smrek-obyčajný-strukovitý.mp3"
+        "assets/audio/migrated/25-smrek-obycajny-strukovity.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -1979,9 +1979,9 @@ const DB = {
       "poradie": 11,
       "nazov": "Smrekovec Dahúrsky",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-26.jpg",
+      "cover": "assets/images/migrated/qr-26.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/26.-Smrekovec-Dahúrsky.mp3"
+        "assets/audio/migrated/26-smrekovec-dahursky.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -2005,9 +2005,9 @@ const DB = {
       "poradie": 12,
       "nazov": "Javor mliečny",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-27-2.jpg",
+      "cover": "assets/images/migrated/qr-27-2.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/27.-Javor-mliečny.mp3"
+        "assets/audio/migrated/27-javor-mliecny.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -2031,9 +2031,9 @@ const DB = {
       "poradie": 13,
       "nazov": "Katalpa trubačovitá",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-28-2.jpg",
+      "cover": "assets/images/migrated/qr-28-2.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/28.-Katalpa-trubačovitá.mp3"
+        "assets/audio/migrated/28-katalpa-trubacovita.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -2057,9 +2057,9 @@ const DB = {
       "poradie": 14,
       "nazov": "Pagaštan konský",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-29-3.jpg",
+      "cover": "assets/images/migrated/qr-29-3.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/29.-Pagaštan-konský.mp3"
+        "assets/audio/migrated/29-pagastan-konsky.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -2083,9 +2083,9 @@ const DB = {
       "poradie": 15,
       "nazov": "Buk červenolistý",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-30.jpg",
+      "cover": "assets/images/migrated/qr-30.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/30.-Buk-červenolistý.mp3"
+        "assets/audio/migrated/30-buk-cervenolisty.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -2109,9 +2109,9 @@ const DB = {
       "poradie": 16,
       "nazov": "Zelkova ostrolistá",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/qr31.png",
+      "cover": "assets/images/migrated/qr31.png",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/31.-Zelkova-ostrolistá.mp3"
+        "assets/audio/migrated/31-zelkova-ostrolista.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -2135,9 +2135,9 @@ const DB = {
       "poradie": 17,
       "nazov": "Magnólia končistolistá",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-32.jpg",
+      "cover": "assets/images/migrated/qr-32.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/32.-Magnólia-končistolistá.mp3"
+        "assets/audio/migrated/32-magnolia-koncistolista.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -2161,9 +2161,9 @@ const DB = {
       "poradie": 18,
       "nazov": "Tis obyčajný",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-33.jpg",
+      "cover": "assets/images/migrated/qr-33.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/33.-Tis-obyčajný.mp3"
+        "assets/audio/migrated/33-tis-obycajny.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -2187,9 +2187,9 @@ const DB = {
       "poradie": 19,
       "nazov": "Borovica vejmutovka",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/qr34.png",
+      "cover": "assets/images/migrated/qr34.png",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/34.-Borovica-vejmutovka.mp3"
+        "assets/audio/migrated/34-borovica-vejmutovka.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -2213,9 +2213,9 @@ const DB = {
       "poradie": 20,
       "nazov": "Zvernica",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/zvernica-min.png",
+      "cover": "assets/images/migrated/zvernica-min.png",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/09/zvernica.mp3"
+        "assets/audio/migrated/zvernica.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -2239,7 +2239,7 @@ const DB = {
       "poradie": 1,
       "nazov": "Mestské múzeum Karola Točíka",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/muzeum-karola-tocika-2.jpg",
+      "cover": "assets/images/migrated/muzeum-karola-tocika-2.jpg",
       "audio": [],
       "galeria": [],
       "gps": null,
@@ -2260,7 +2260,7 @@ const DB = {
       "poradie": 2,
       "nazov": "Historická knižnica Bibliotheca antiqua Taganiana",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/kniž.jpg",
+      "cover": "assets/images/migrated/kniz.jpg",
       "audio": [],
       "galeria": [],
       "gps": null,
@@ -2281,7 +2281,7 @@ const DB = {
       "poradie": 3,
       "nazov": "Vyhliadková veža s oddychovou zónou na vrchu Bukovina.",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/3.jpg",
+      "cover": "assets/images/migrated/3-2.jpg",
       "audio": [],
       "galeria": [],
       "gps": null,
@@ -2302,7 +2302,7 @@ const DB = {
       "poradie": 4,
       "nazov": "Náučný chodník Vrchlinenským kopcom",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/400412770_326151270144609_2430754977789051967_n.jpg",
+      "cover": "assets/images/migrated/400412770_326151270144609_2430754977789051967_n.jpg",
       "audio": [],
       "galeria": [],
       "gps": null,
@@ -2323,7 +2323,7 @@ const DB = {
       "poradie": 5,
       "nazov": "Korňanský ropný prameň",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/pramen.jpg",
+      "cover": "assets/images/migrated/pramen.jpg",
       "audio": [],
       "galeria": [],
       "gps": null,
@@ -2344,7 +2344,7 @@ const DB = {
       "poradie": 6,
       "nazov": "Kostol Nanebovzatia Panny Márie v Turzovke",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/kostol-nanebovzatia-panny-marie-v-tuzovke.jpg",
+      "cover": "assets/images/migrated/kostol-nanebovzatia-panny-marie-v-tuzovke.jpg",
       "audio": [],
       "galeria": [],
       "gps": null,
@@ -2365,7 +2365,7 @@ const DB = {
       "poradie": 7,
       "nazov": "Rodný dom Jozefa Kronera",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/rodny-dom-jozefa-kronera.jpg",
+      "cover": "assets/images/migrated/rodny-dom-jozefa-kronera.jpg",
       "audio": [],
       "galeria": [],
       "gps": null,
@@ -2386,7 +2386,7 @@ const DB = {
       "poradie": 8,
       "nazov": "Veľká Rača – (1236 m n. m.)",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/DSC02296-2.jpg",
+      "cover": "assets/images/migrated/dsc02296-2.jpg",
       "audio": [],
       "galeria": [],
       "gps": null,
@@ -2407,7 +2407,7 @@ const DB = {
       "poradie": 9,
       "nazov": "Pútnické miesto Živčáková",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/marianske-putnicke-miesto-zivcakova.jpg",
+      "cover": "assets/images/migrated/marianske-putnicke-miesto-zivcakova.jpg",
       "audio": [],
       "galeria": [],
       "gps": null,
@@ -2428,7 +2428,7 @@ const DB = {
       "poradie": 10,
       "nazov": "Lysá hora ",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/IMG_5946.jpg",
+      "cover": "assets/images/migrated/img_5946.jpg",
       "audio": [],
       "galeria": [],
       "gps": null,
@@ -2449,7 +2449,7 @@ const DB = {
       "poradie": 11,
       "nazov": "Zámok v Paskove",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/IMG_1288.jpg",
+      "cover": "assets/images/migrated/img_1288.jpg",
       "audio": [],
       "galeria": [],
       "gps": null,
@@ -2470,7 +2470,7 @@ const DB = {
       "poradie": 12,
       "nazov": "Zámocký park",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/paskov4.jpg",
+      "cover": "assets/images/migrated/paskov4.jpg",
       "audio": [],
       "galeria": [],
       "gps": null,
@@ -2491,7 +2491,7 @@ const DB = {
       "poradie": 13,
       "nazov": "Rozhľadňa Okrouhlá",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/Staříč_rozhledna_Okruhla_2.jpg",
+      "cover": "assets/images/migrated/staric_rozhledna_okruhla_2.jpg",
       "audio": [],
       "galeria": [],
       "gps": null,
@@ -2512,7 +2512,7 @@ const DB = {
       "poradie": 14,
       "nazov": "Hrad Hukvaldy s odborom",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/hrad-hukvaldy.jpg",
+      "cover": "assets/images/migrated/hrad-hukvaldy.jpg",
       "audio": [],
       "galeria": [],
       "gps": null,
@@ -2554,7 +2554,7 @@ const DB = {
       "poradie": 16,
       "nazov": "Bazilika Minor – pútnický chrám Navštívenie Panny Márie",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/IMG_4094.jpg",
+      "cover": "assets/images/migrated/img_4094.jpg",
       "audio": [],
       "galeria": [],
       "gps": null,
@@ -2575,7 +2575,7 @@ const DB = {
       "poradie": 17,
       "nazov": "Múzeum Beskýd Frýdek-Místek (Frýdecký zámok)",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/IMG_4028.jpg",
+      "cover": "assets/images/migrated/img_4028.jpg",
       "audio": [],
       "galeria": [],
       "gps": null,
@@ -2596,7 +2596,7 @@ const DB = {
       "poradie": 18,
       "nazov": "Pustevny",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/IMG_6938.jpg",
+      "cover": "assets/images/migrated/img_6938.jpg",
       "audio": [],
       "galeria": [],
       "gps": null,
@@ -2617,7 +2617,7 @@ const DB = {
       "poradie": 19,
       "nazov": "Javorníky – dominanta Horných Kysúc",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/Javorníky-výhlad.jpg",
+      "cover": "assets/images/migrated/javorniky-vyhlad.jpg",
       "audio": [],
       "galeria": [],
       "gps": null,
@@ -2638,7 +2638,7 @@ const DB = {
       "poradie": 20,
       "nazov": "Múzeum kysuckej dediny",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/vychylovka-2.jpg",
+      "cover": "assets/images/migrated/vychylovka-2.jpg",
       "audio": [],
       "galeria": [],
       "gps": null,
@@ -2661,17 +2661,17 @@ const DB = {
       "popis": "",
       "cover": "",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/10/pyxida.mp3"
+        "assets/audio/migrated/pyxida.mp3"
       ],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/09/2025-10-09_12h27_42.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/09/2025-09-25_11h43_44.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/09/foto-030zNew.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/09/kolnik_fotoz-min.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/09/foto-054-min.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/09/Image0011-min.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/09/foto-036_1993-min.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/09/2025-09-25_11h40_55-min.png"
+        "assets/images/migrated/2025-10-09_12h27_42.jpg",
+        "assets/images/migrated/2025-09-25_11h43_44.jpg",
+        "assets/images/migrated/foto-030znew.jpg",
+        "assets/images/migrated/kolnik_fotoz-min.jpg",
+        "assets/images/migrated/foto-054-min.jpg",
+        "assets/images/migrated/image0011-min.jpg",
+        "assets/images/migrated/foto-036_1993-min.jpg",
+        "assets/images/migrated/2025-09-25_11h40_55-min.png"
       ],
       "gps": {
         "lat": 48.343092,
@@ -2761,7 +2761,7 @@ const DB = {
       "popis": "Hlavný vstup do hradného areálu, ktorý vás vtiahne do histórie.",
       "cover": "assets/images/places/oravsky-hrad-brana.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-1.mp3"
+        "assets/audio/migrated/1-1.mp3"
       ],
       "galeria": [
         "assets/images/places/oravsky-hrad-brana.jpg",
@@ -2952,9 +2952,9 @@ const DB = {
       "poradie": 1,
       "nazov": "Mestský úrad Frýdlant nad Ostravicí",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/01-Městský-úřad-na-Náměstí.jpg",
+      "cover": "assets/images/migrated/01-mestsky-urad-na-namesti.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/1.-Building-of-the-Municipality-office-Frýdlant-nad-Ostravicí.mp3"
+        "assets/audio/migrated/1-building-of-the-municipality-office-frydlant-nad-ostravici.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -2978,9 +2978,9 @@ const DB = {
       "poradie": 2,
       "nazov": "Kostol sv. Bartolomeja",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/02-Kostel-sv.-Bartoloměje-1.jpg",
+      "cover": "assets/images/migrated/02-kostel-sv-bartolomeje-1.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/2.-Church-of-St.-Bartolomej-2.mp3"
+        "assets/audio/migrated/2-church-of-st-bartolomej-2.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -3004,9 +3004,9 @@ const DB = {
       "poradie": 3,
       "nazov": "Centrum sociálnych služieb",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/03-Středisko-sociálních-služeb-kaple.jpg",
+      "cover": "assets/images/migrated/03-stredisko-socialnich-sluzeb-kaple.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/3.-Social-Service-Centrum-4.mp3"
+        "assets/audio/migrated/3-social-service-centrum-4.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -3030,9 +3030,9 @@ const DB = {
       "poradie": 4,
       "nazov": "Kultúrne centrum Frýdlant nad Ostravicí",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/04-Kulturní-centrum-Frýdlant-nad-Ostravicí.jpg",
+      "cover": "assets/images/migrated/04-kulturni-centrum-frydlant-nad-ostravici.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/4.-Culture-Centrum-of-Frýdlant-nad-Ostravicí-4.mp3"
+        "assets/audio/migrated/4-culture-centrum-of-frydlant-nad-ostravici-4.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -3056,9 +3056,9 @@ const DB = {
       "poradie": 5,
       "nazov": "Základná škola Frýdlant nad Ostravicí, Námestie T. G. Masaryka 1260, príspevková organizácia",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/05-Základní-škola-T.G.Masaryka.jpg",
+      "cover": "assets/images/migrated/05-zakladni-skola-t-g-masaryka.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/5.-Elementary-School-Frýdlant-nad-Ostravicí-4.mp3"
+        "assets/audio/migrated/5-elementary-school-frydlant-nad-ostravici-4.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -3082,9 +3082,9 @@ const DB = {
       "poradie": 6,
       "nazov": "Základná škola Frýdlant nad Ostravicí, Komenského 420, príspevková organizácia",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/6.jpg",
+      "cover": "assets/images/migrated/6-2.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6.-Elementary-school-Frýdlant-nad-Ostravicí.mp3"
+        "assets/audio/migrated/6-elementary-school-frydlant-nad-ostravici.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -3108,9 +3108,9 @@ const DB = {
       "poradie": 7,
       "nazov": "Letisko Frýdlant nad Ostravicí",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/07-Letiště-Frýdlant-nad-Ostravicí.jpg",
+      "cover": "assets/images/migrated/07-letiste-frydlant-nad-ostravici.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/7.-Airport-Frýdlant-nad-Ostravicí.mp3"
+        "assets/audio/migrated/7-airport-frydlant-nad-ostravici.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -3134,9 +3134,9 @@ const DB = {
       "poradie": 8,
       "nazov": "Futbalové ihrisko a hala Sport Frýdlant nad Ostravicí",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/08-Fotbalové-hřiště-a-hala-Sport.jpg",
+      "cover": "assets/images/migrated/08-fotbalove-hriste-a-hala-sport.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/8.Football-playground-and-Sport-Hall-in-Frýdlant-nad-Ostravicí.mp3"
+        "assets/audio/migrated/8-football-playground-and-sport-hall-in-frydlant-nad-ostravici.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -3160,9 +3160,9 @@ const DB = {
       "poradie": 9,
       "nazov": "Kúpalisko a tenisové kurty Edimex",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/09-koupaliště.jpg",
+      "cover": "assets/images/migrated/09-koupaliste.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/9.-Swimming-pool-and-tennis-courts-Edimex.mp3"
+        "assets/audio/migrated/9-swimming-pool-and-tennis-courts-edimex.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -3186,9 +3186,9 @@ const DB = {
       "poradie": 10,
       "nazov": "Športové a relaxačné centrum Kotelna",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/10-Sportovní-a-relaxační-centrum-Kotelna.jpg",
+      "cover": "assets/images/migrated/10-sportovni-a-relaxacni-centrum-kotelna.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/10.-Sport-and-relax-centre-Kotelna.mp3"
+        "assets/audio/migrated/10-sport-and-relax-centre-kotelna.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -3212,9 +3212,9 @@ const DB = {
       "poradie": 11,
       "nazov": "Kaplnka sv. Antonína Paduánskeho, Ondřejník",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/11-Kaple-sv.-Antonína-Paduánského-Ondřejník.jpg",
+      "cover": "assets/images/migrated/11-kaple-sv-antonina-paduanskeho-ondrejnik.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/11.-Chapel-of-St.-Antonín-Paduánsky-Ondřejník.mp3"
+        "assets/audio/migrated/11-chapel-of-st-antonin-paduansky-ondrejnik.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -3238,9 +3238,9 @@ const DB = {
       "poradie": 12,
       "nazov": "Vlaková stanica Frýdlant nad Ostravicí",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/12-Vlakové-nádraží-Frýdlant-nad-Ostravicí.jpg",
+      "cover": "assets/images/migrated/12-vlakove-nadrazi-frydlant-nad-ostravici.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/12.-Train-station-Frýdlant-nad-Ostravicí-4.mp3"
+        "assets/audio/migrated/12-train-station-frydlant-nad-ostravici-4.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -3264,7 +3264,7 @@ const DB = {
       "poradie": 1,
       "nazov": "Doc. Ing. Július Binder, Dr.h.c.",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2024/06/julius_binder1.jpg",
+      "cover": "assets/images/migrated/julius_binder1.jpg",
       "audio": [],
       "galeria": [],
       "gps": null,
@@ -3327,15 +3327,15 @@ const DB = {
       "poradie": 1,
       "nazov": "Cestička na hrad",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg",
+      "cover": "assets/images/migrated/1-paseka-e1592570206493.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-1.mp3"
+        "assets/audio/migrated/1-1.mp3"
       ],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg"
+        "assets/images/migrated/1-paseka-e1592570206493.jpg",
+        "assets/images/migrated/1-paseka-e1592570206493.jpg",
+        "assets/images/migrated/1-paseka-e1592570206493.jpg",
+        "assets/images/migrated/1-paseka-e1592570206493.jpg"
       ],
       "gps": {
         "lat": 49.177151,
@@ -3358,9 +3358,9 @@ const DB = {
       "poradie": 2,
       "nazov": "Vstup na hrad",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/06/IMG_20200624_153200.jpg",
+      "cover": "assets/images/migrated/img_20200624_153200.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/07/2_final.mp3"
+        "assets/audio/migrated/2_final.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -3384,15 +3384,15 @@ const DB = {
       "poradie": 3,
       "nazov": "Expozícia archeológie",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/IMG_20200701_150652.jpg",
+      "cover": "assets/images/migrated/img_20200701_150652.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/07/3-2.mp3",
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/07/3D-1.mp3",
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/07/3E-3.mp3"
+        "assets/audio/migrated/3-2.mp3",
+        "assets/audio/migrated/3d-1.mp3",
+        "assets/audio/migrated/3e-3.mp3"
       ],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/07/IMG_20200701_150645.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/07/strečno-mapka_3.jpg"
+        "assets/images/migrated/img_20200701_150645.jpg",
+        "assets/images/migrated/strecno-mapka_3.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3412,12 +3412,12 @@ const DB = {
       "poradie": 4,
       "nazov": "Prvé podlažie Južného paláca",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/4-model-hradu-17.-storočie.jpg",
+      "cover": "assets/images/migrated/4-model-hradu-17-storocie.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/07/4-1.mp3"
+        "assets/audio/migrated/4-1.mp3"
       ],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/07/4a-model-hradu-20.-storočie.png"
+        "assets/images/migrated/4a-model-hradu-20-storocie.png"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3437,9 +3437,9 @@ const DB = {
       "poradie": 5,
       "nazov": "Prízemie južného paláca – kuchyňa",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/5-kuchyňa.png",
+      "cover": "assets/images/migrated/5-kuchyna.png",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/07/5-1.mp3"
+        "assets/audio/migrated/5-1.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -3460,9 +3460,9 @@ const DB = {
       "poradie": 6,
       "nazov": "Južné nádvorie",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/6-južné-nádvorie.jpg",
+      "cover": "assets/images/migrated/6-juzne-nadvorie.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/07/6-1.mp3"
+        "assets/audio/migrated/6-1.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -3483,9 +3483,9 @@ const DB = {
       "poradie": 7,
       "nazov": "Cisterna",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/7-cisterna-1.jpg",
+      "cover": "assets/images/migrated/7-cisterna-1.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/07/7-1.mp3"
+        "assets/audio/migrated/7-1.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -3506,12 +3506,12 @@ const DB = {
       "poradie": 8,
       "nazov": "Vstup do hlavnej veže",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/IMG_20200703_125543.jpg",
+      "cover": "assets/images/migrated/img_20200703_125543.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/07/8.mp3"
+        "assets/audio/migrated/8.mp3"
       ],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/07/8-vstup-do-veže1.jpg"
+        "assets/images/migrated/8-vstup-do-veze1.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3531,13 +3531,13 @@ const DB = {
       "poradie": 9,
       "nazov": "Hlavná veža – výhľad",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/9-hl.veža.jpg",
+      "cover": "assets/images/migrated/9-hl-veza.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/07/9-1.mp3",
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/07/9A-1.mp3"
+        "assets/audio/migrated/9-1.mp3",
+        "assets/audio/migrated/9a-1.mp3"
       ],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/07/IMG_20200624_150338.jpg"
+        "assets/images/migrated/img_20200624_150338.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3557,9 +3557,9 @@ const DB = {
       "poradie": 10,
       "nazov": "Gotický a východný palác",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/10-východný-palác-e1593775595595.jpg",
+      "cover": "assets/images/migrated/10-vychodny-palac-e1593775595595.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/07/10.mp3"
+        "assets/audio/migrated/10.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -3580,9 +3580,9 @@ const DB = {
       "poradie": 11,
       "nazov": "Severný palác",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/11-severný-palác.jpg",
+      "cover": "assets/images/migrated/11-severny-palac.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/07/11.mp3"
+        "assets/audio/migrated/11.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -3603,14 +3603,14 @@ const DB = {
       "poradie": 12,
       "nazov": "Kaplnka",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/12-kaplnka.jpg",
+      "cover": "assets/images/migrated/12-kaplnka.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/07/12.mp3",
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/07/12A.mp3",
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/07/12B.mp3"
+        "assets/audio/migrated/12.mp3",
+        "assets/audio/migrated/12a.mp3",
+        "assets/audio/migrated/12b.mp3"
       ],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/07/12a-Žofia-Bosniaková.jpg"
+        "assets/images/migrated/12a-zofia-bosniakova.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3630,10 +3630,10 @@ const DB = {
       "poradie": 13,
       "nazov": "Severná veža",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/13-severná-veža-e1593776801900.jpg",
+      "cover": "assets/images/migrated/13-severna-veza-e1593776801900.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/07/13.mp3",
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/07/13A.mp3"
+        "assets/audio/migrated/13.mp3",
+        "assets/audio/migrated/13a.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -3654,9 +3654,9 @@ const DB = {
       "poradie": 14,
       "nazov": "Hlavné nádvorie",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/14-hlavné-nádvorie-e1593777205229.jpg",
+      "cover": "assets/images/migrated/14-hlavne-nadvorie-e1593777205229.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2020/07/14.mp3"
+        "assets/audio/migrated/14.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -3703,9 +3703,9 @@ const DB = {
       "poradie": 1,
       "nazov": "Bytčianski Turzovci (pôvod, dejiny rodu, erb)",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/11/fam.poss-036.jpg",
+      "cover": "assets/images/migrated/fam-poss-036.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/12/Tabula-01.mp3"
+        "assets/audio/migrated/tabula-01.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -3726,9 +3726,9 @@ const DB = {
       "poradie": 2,
       "nazov": "Politická a vojenská kariéra Juraja Turza",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/11/thurzo-nakoni.png",
+      "cover": "assets/images/migrated/thurzo-nakoni.png",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/12/Tabula-02.mp3"
+        "assets/audio/migrated/tabula-02.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -3749,9 +3749,9 @@ const DB = {
       "poradie": 3,
       "nazov": "Juraj Turzo a Turzovka",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/11/3.jpg",
+      "cover": "assets/images/migrated/3.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/12/Tabula-03.mp3"
+        "assets/audio/migrated/tabula-03.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -3772,9 +3772,9 @@ const DB = {
       "poradie": 4,
       "nazov": "Juraj Turzo – podporovateľ vzdelanosti a patrón evanjelickej cirkvi ",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/11/4.jpg",
+      "cover": "assets/images/migrated/4.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/12/Tabula-04.mp3"
+        "assets/audio/migrated/tabula-04.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -3795,9 +3795,9 @@ const DB = {
       "poradie": 5,
       "nazov": "Záver života uhorského palatína",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/11/5.png",
+      "cover": "assets/images/migrated/5.png",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/12/Tabula-05.mp3"
+        "assets/audio/migrated/tabula-05.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -3818,9 +3818,9 @@ const DB = {
       "poradie": 6,
       "nazov": "Edmund Reitter – vědec, novinář a cestovatel",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/11/9_Titulní-strana-publikace.jpg",
+      "cover": "assets/images/migrated/9_titulni-strana-publikace.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/12/Reiter02.mp3"
+        "assets/audio/migrated/reiter02.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -3841,9 +3841,9 @@ const DB = {
       "poradie": 7,
       "nazov": "Edmund Reitter – člověk a filantrop",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/11/6_Vitrina-se-sbírek-Edmunda-Reittera.png",
+      "cover": "assets/images/migrated/6_vitrina-se-sbirek-edmunda-reittera.png",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/12/Reiter03-1.mp3"
+        "assets/audio/migrated/reiter03-1.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -3864,9 +3864,9 @@ const DB = {
       "poradie": 8,
       "nazov": "Edmund Reitter – odkaz v soudobém Paskově",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/11/7_Edmund-Reitter-v-kruhu-spolku-paskovských-hasičů.jpg",
+      "cover": "assets/images/migrated/7_edmund-reitter-v-kruhu-spolku-paskovskych-hasicu.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/12/Reiter04.mp3"
+        "assets/audio/migrated/reiter04.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -3887,9 +3887,9 @@ const DB = {
       "poradie": 9,
       "nazov": "Potomstvo Juraja Turza",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/11/6.jpg",
+      "cover": "assets/images/migrated/6.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/12/Tabula-06-2.mp3"
+        "assets/audio/migrated/tabula-06-2.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -3910,9 +3910,9 @@ const DB = {
       "poradie": 10,
       "nazov": "Edmund Reitter – rodinné zázemí",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/11/4_Portrét-Edmunda-Reittera.jpg",
+      "cover": "assets/images/migrated/4_portret-edmunda-reittera.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/12/Reiter01.mp3"
+        "assets/audio/migrated/reiter01.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -3933,9 +3933,9 @@ const DB = {
       "poradie": 1,
       "nazov": "Rozhľadňa Tábor",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/08/tabor.png",
+      "cover": "assets/images/migrated/tabor.png",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2022/09/rozhladna-tabor.mp3"
+        "assets/audio/migrated/rozhladna-tabor.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -3956,9 +3956,9 @@ const DB = {
       "poradie": 2,
       "nazov": "Kysucká hvezdáreň",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/08/krajska-hvezdaren-zilina59999427.png",
+      "cover": "assets/images/migrated/krajska-hvezdaren-zilina59999427.png",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2022/09/Kysucka-hvezdaren.mp3"
+        "assets/audio/migrated/kysucka-hvezdaren.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -3979,9 +3979,9 @@ const DB = {
       "poradie": 3,
       "nazov": "Kaštieľ v Radoli",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/08/radola.png",
+      "cover": "assets/images/migrated/radola.png",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2022/09/Kastiel-v-radoli.mp3"
+        "assets/audio/migrated/kastiel-v-radoli.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -4005,9 +4005,9 @@ const DB = {
       "poradie": 4,
       "nazov": "Martákov kopec- Rozhľadňa Zákopčie",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/08/Marťákov-kopec.png",
+      "cover": "assets/images/migrated/martakov-kopec.png",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2022/09/Martakov-kopec.mp3"
+        "assets/audio/migrated/martakov-kopec.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -4028,9 +4028,9 @@ const DB = {
       "poradie": 5,
       "nazov": "Rozhľadňa Luby",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/08/Rozhladna-Luby.jpg",
+      "cover": "assets/images/migrated/rozhladna-luby.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2022/09/Rozhladna-lubi.mp3"
+        "assets/audio/migrated/rozhladna-lubi.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -4051,9 +4051,9 @@ const DB = {
       "poradie": 6,
       "nazov": "Chránená lipa",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/08/lipa1.png",
+      "cover": "assets/images/migrated/lipa1.png",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2022/09/Chranena-lipa.mp3"
+        "assets/audio/migrated/chranena-lipa.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -4074,11 +4074,11 @@ const DB = {
       "poradie": 1,
       "nazov": "Vysťahovalectvo",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2026/06/vystahovalectvo-1.jpg",
+      "cover": "assets/images/migrated/vystahovalectvo-1.jpg",
       "audio": [],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2026/06/europsky-emigranti-habura.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2026/06/habura-foto-vystahovalectvo.jpg"
+        "assets/images/migrated/europsky-emigranti-habura.jpg",
+        "assets/images/migrated/habura-foto-vystahovalectvo.jpg"
       ],
       "gps": {
         "lat": 49.32246968713569,
@@ -4101,11 +4101,11 @@ const DB = {
       "poradie": 2,
       "nazov": "Ťažba ropy v Regióne",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2026/06/Miková.jpg",
+      "cover": "assets/images/migrated/mikova.jpg",
       "audio": [],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2026/06/Pohľad-na-bane-v-Mikovej.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2026/06/Mikova-zvyšky-studní.jpg"
+        "assets/images/migrated/pohlad-na-bane-v-mikovej.jpg",
+        "assets/images/migrated/mikova-zvysky-studni.jpg"
       ],
       "gps": {
         "lat": 49.322560596913995,
@@ -4128,12 +4128,12 @@ const DB = {
       "poradie": 1,
       "nazov": "O Hlinenom v najstarších časoch",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Hlinené-1..png",
+      "cover": "assets/images/migrated/hlinene-1.png",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/09/01-01-O-hlinenom-v-najstarsich-casoch.mp3"
+        "assets/audio/migrated/01-01-o-hlinenom-v-najstarsich-casoch.mp3"
       ],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png"
+        "assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -4153,12 +4153,12 @@ const DB = {
       "poradie": 2,
       "nazov": "Svetlonos",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/received_1981576642221183.jpeg",
+      "cover": "assets/images/migrated/received_1981576642221183.jpeg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/09/04-04-svetlonos.mp3"
+        "assets/audio/migrated/04-04-svetlonos.mp3"
       ],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png"
+        "assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -4178,12 +4178,12 @@ const DB = {
       "poradie": 3,
       "nazov": "Zákopy",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/rtzrtzrt.jpg",
+      "cover": "assets/images/migrated/rtzrtzrt.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/09/05-05-zakopy.mp3"
+        "assets/audio/migrated/05-05-zakopy.mp3"
       ],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png"
+        "assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -4203,12 +4203,12 @@ const DB = {
       "poradie": 4,
       "nazov": "Hlinenský potok",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/received_1353598935231418.jpeg",
+      "cover": "assets/images/migrated/received_1353598935231418.jpeg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/09/06-06-hlinensky-potok.mp3"
+        "assets/audio/migrated/06-06-hlinensky-potok.mp3"
       ],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png"
+        "assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -4228,12 +4228,12 @@ const DB = {
       "poradie": 5,
       "nazov": "Najužší bod",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/received_816669920100860.jpeg",
+      "cover": "assets/images/migrated/received_816669920100860.jpeg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/09/07-07-najuzsi-bod.mp3"
+        "assets/audio/migrated/07-07-najuzsi-bod.mp3"
       ],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png"
+        "assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -4253,12 +4253,12 @@ const DB = {
       "poradie": 6,
       "nazov": "Zvonica",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/18-zvonica-3.jpg",
+      "cover": "assets/images/migrated/18-zvonica-3.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/09/08-08-zvonica.mp3"
+        "assets/audio/migrated/08-08-zvonica.mp3"
       ],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png"
+        "assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -4278,11 +4278,11 @@ const DB = {
       "poradie": 1,
       "nazov": "NCH Zarúbaná Kýčera",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Divinka.jpg",
+      "cover": "assets/images/migrated/divinka.jpg",
       "audio": [],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Klapy.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Svederník.jpeg"
+        "assets/images/migrated/klapy.jpg",
+        "assets/images/migrated/svedernik.jpeg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2599.8675225100465!2d18.55861117649205!3d49.33572687140091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDIwJzA4LjYiTiAxOMKwMzMnNDAuMyJF!5e0!3m2!1ssk!2ssk!4v1693316832386!5m2!1ssk!2ssk",
@@ -4302,11 +4302,11 @@ const DB = {
       "poradie": 2,
       "nazov": "Detský náučný turistický chodník",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/201631453_515707596139872_3880037117091592767_n.jpg",
+      "cover": "assets/images/migrated/201631453_515707596139872_3880037117091592767_n.jpg",
       "audio": [],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Drevenička-Korňa.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/08/199505802_1883109211852134_8317344405388699304_n.jpg"
+        "assets/images/migrated/drevenicka-korna.jpg",
+        "assets/images/migrated/199505802_1883109211852134_8317344405388699304_n.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2595.6958741200174!2d18.548644275425218!3d49.41465676140126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDI0JzUyLjgiTiAxOMKwMzMnMDQuNCJF!5e0!3m2!1ssk!2ssk!4v1693317305855!5m2!1ssk!2ssk",
@@ -4326,10 +4326,10 @@ const DB = {
       "poradie": 3,
       "nazov": "Kysucký detský les",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/historická-lesná-útraťová-železnica-.jpg",
+      "cover": "assets/images/migrated/historicka-lesna-utratova-zeleznica.jpg",
       "audio": [],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Brýzgalky-3.jpg"
+        "assets/images/migrated/bryzgalky-3.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2597.338988456459!2d19.096093675422946!3d49.38357926360561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDIzJzAwLjkiTiAxOcKwMDUnNTUuMiJF!5e0!3m2!1ssk!2ssk!4v1693317671356!5m2!1ssk!2ssk",
@@ -4349,11 +4349,11 @@ const DB = {
       "poradie": 4,
       "nazov": "Ku prameňu rieky Kysuca – 400 rokov – 4000 krokov",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Prameň-Kysuce.jpg",
+      "cover": "assets/images/migrated/pramen-kysuce.jpg",
       "audio": [],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Makov-greguše.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Makov-Kršlisko.jpg"
+        "assets/images/migrated/makov-greguse.jpg",
+        "assets/images/migrated/makov-krslisko.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2599.0863723121875!2d18.402335075420527!3d49.350513765949906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDIxJzAxLjgiTiAxOMKwMjQnMTcuNyJF!5e0!3m2!1ssk!2ssk!4v1693317865170!5m2!1ssk!2ssk",
@@ -4373,11 +4373,11 @@ const DB = {
       "poradie": 5,
       "nazov": "Chodník Jozefa Krónera",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Dom-Jozefa-Krónera-začiatok-nch.jpg",
+      "cover": "assets/images/migrated/dom-jozefa-kronera-zaciatok-nch.jpg",
       "audio": [],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/08/5.-Na-Michalke-2.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Veľký-Polom.jpg"
+        "assets/images/migrated/5-na-michalke-2.jpg",
+        "assets/images/migrated/velky-polom.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2595.227160405695!2d18.686675875425863!3d49.42351926077234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDI1JzI0LjciTiAxOMKwNDEnMjEuMyJF!5e0!3m2!1ssk!2ssk!4v1693318141031!5m2!1ssk!2ssk",
@@ -4397,10 +4397,10 @@ const DB = {
       "poradie": 6,
       "nazov": "Prameny Morávky",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/moravka-1.jpg",
+      "cover": "assets/images/migrated/moravka-1.jpg",
       "audio": [],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/08/moravka-2.jpg"
+        "assets/images/migrated/moravka-2.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2586.1742785178662!2d18.521811775438422!3d49.59446284862748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDM1JzQwLjEiTiAxOMKwMzEnMjcuOCJF!5e0!3m2!1ssk!2ssk!4v1693318475745!5m2!1ssk!2ssk",
@@ -4420,10 +4420,10 @@ const DB = {
       "poradie": 7,
       "nazov": "Frýdecký les",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/fr2.jpg",
+      "cover": "assets/images/migrated/fr2.jpg",
       "audio": [],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/08/frídecký-1.jpg"
+        "assets/images/migrated/fridecky-1.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2580.605452484018!2d18.35841647544615!3d49.69940234115713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDQxJzU3LjgiTiAxOMKwMjEnMzkuNiJF!5e0!3m2!1ssk!2ssk!4v1693384634344!5m2!1ssk!2ssk",
@@ -4443,10 +4443,10 @@ const DB = {
       "poradie": 8,
       "nazov": "Gruň – Bílý Kříž",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/grun-1.png",
+      "cover": "assets/images/migrated/grun-1.png",
       "audio": [],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/08/gr2.jpg"
+        "assets/images/migrated/gr2.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2592.659645413536!2d18.4393050754294!3d49.47204535732784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDI4JzE5LjQiTiAxOMKwMjYnMzAuOCJF!5e0!3m2!1ssk!2ssk!4v1693384789384!5m2!1ssk!2ssk",
@@ -4466,10 +4466,10 @@ const DB = {
       "poradie": 9,
       "nazov": "Čertův mlýn",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/čert2.jpg",
+      "cover": "assets/images/migrated/cert2.jpg",
       "audio": [],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/08/cert1.jpg"
+        "assets/images/migrated/cert1.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2591.726688868354!2d18.26245507543072!3d49.489669556076244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDI5JzIyLjgiTiAxOMKwMTUnNTQuMSJF!5e0!3m2!1ssk!2ssk!4v1693385924368!5m2!1ssk!2ssk",
@@ -4489,11 +4489,11 @@ const DB = {
       "poradie": 10,
       "nazov": "Včelařská naučná stezka",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/včela-2.jpg",
+      "cover": "assets/images/migrated/vcela-2.jpg",
       "audio": [],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/08/včela3.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/08/včela1.jpg"
+        "assets/images/migrated/vcela3.jpg",
+        "assets/images/migrated/vcela1.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2583.557827388851!2d18.364425075442078!3d49.64378784511767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDM4JzM3LjYiTiAxOMKwMjInMDEuMiJF!5e0!3m2!1ssk!2ssk!4v1693406215876!5m2!1ssk!2ssk",
@@ -4513,10 +4513,10 @@ const DB = {
       "poradie": 11,
       "nazov": "Chlebovická Medová stopa",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/mc1.png",
+      "cover": "assets/images/migrated/mc1.png",
       "audio": [],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Bez-názvuc2.jpg"
+        "assets/images/migrated/bez-nazvuc2.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2582.8343518192314!2d18.275270075443068!3d49.65742034414708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDM5JzI2LjciTiAxOMKwMTYnNDAuMiJF!5e0!3m2!1ssk!2ssk!4v1693406767616!5m2!1ssk!2ssk",
@@ -4536,10 +4536,10 @@ const DB = {
       "poradie": 12,
       "nazov": "Lesní stezka Vyhlídka",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/vyhliadka1.jpg",
+      "cover": "assets/images/migrated/vyhliadka1.jpg",
       "audio": [],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/08/vyhliadka2.jpg"
+        "assets/images/migrated/vyhliadka2.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2586.4788239879226!2d18.34265947543805!3d49.588719249036146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDM1JzE5LjQiTiAxOMKwMjAnNDIuOCJF!5e0!3m2!1ssk!2ssk!4v1693407597189!5m2!1ssk!2ssk",
@@ -4559,12 +4559,12 @@ const DB = {
       "poradie": 1,
       "nazov": "Najstaršie zmienky o Živčákovej",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Zivcakova_mapa.jpg",
+      "cover": "assets/images/migrated/zivcakova_mapa.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/08/01-Najstarsie-zmienky-o-zivcakovej.mp3"
+        "assets/audio/migrated/01-najstarsie-zmienky-o-zivcakovej.mp3"
       ],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png"
+        "assets/images/migrated/obalka-03.png"
       ],
       "gps": {
         "lat": 49.397869104654376,
@@ -4589,10 +4589,10 @@ const DB = {
       "popis": "",
       "cover": "",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/08/02-vodna-pila-vincenta-hrtusa.mp3"
+        "assets/audio/migrated/02-vodna-pila-vincenta-hrtusa.mp3"
       ],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png"
+        "assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -4612,12 +4612,12 @@ const DB = {
       "poradie": 3,
       "nazov": "Mimoriadne udalosti na území Turzovky",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/20230823_134552.jpg",
+      "cover": "assets/images/migrated/20230823_134552.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/08/03-mimoriadne-udalosti.mp3"
+        "assets/audio/migrated/03-mimoriadne-udalosti.mp3"
       ],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png"
+        "assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -4637,12 +4637,12 @@ const DB = {
       "poradie": 4,
       "nazov": " Údajné zjavenia na Živčákovej Matúšovi Lašútovi",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Zivcakova_II.jpg",
+      "cover": "assets/images/migrated/zivcakova_ii.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/08/04-udajne-zjavenia.mp3"
+        "assets/audio/migrated/04-udajne-zjavenia.mp3"
       ],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png"
+        "assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -4662,12 +4662,12 @@ const DB = {
       "poradie": 5,
       "nazov": "Vývoj do roku 1989",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Živčáková-Chrám-matky-Cirkvi-1.jpg",
+      "cover": "assets/images/migrated/zivcakova-chram-matky-cirkvi-1.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/08/05-vyvoj-do-roku-1989.mp3"
+        "assets/audio/migrated/05-vyvoj-do-roku-1989.mp3"
       ],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png"
+        "assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -4687,12 +4687,12 @@ const DB = {
       "poradie": 6,
       "nazov": "Stavba kaplnky a pútnické miesto",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Zivcakova_V.jpg",
+      "cover": "assets/images/migrated/zivcakova_v.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/08/06-stavba-kaplnky-a-putnicke-miesto.mp3"
+        "assets/audio/migrated/06-stavba-kaplnky-a-putnicke-miesto.mp3"
       ],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png"
+        "assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -4712,9 +4712,9 @@ const DB = {
       "poradie": 1,
       "nazov": "Vodná nádrž v Porąbke",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/1.-Zapora-Wodna-w-Porąbce.jpg",
+      "cover": "assets/images/migrated/1-zapora-wodna-w-porabce.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/1.-THE-WATER-RESERVOIR-IN-PORABKA.mp3"
+        "assets/audio/migrated/1-the-water-reservoir-in-porabka.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -4738,9 +4738,9 @@ const DB = {
       "poradie": 2,
       "nazov": "Osada „Kolonia” v štýle Witkiewiczovcov",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/2.Budynek-na-osiedlu-Kolonia-w-stylu-Witkiewiczowskim.jpg",
+      "cover": "assets/images/migrated/2-budynek-na-osiedlu-kolonia-w-stylu-witkiewiczowskim.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/2.-THE-SETTLEMENT-„KOLONIA“-IN-THE-WITKIEWICZ-STYLE.mp3"
+        "assets/audio/migrated/2-the-settlement-kolonia-in-the-witkiewicz-style.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -4764,9 +4764,9 @@ const DB = {
       "poradie": 3,
       "nazov": "Obecné centrum kultúry v Porąbke",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/Untitled.jpg",
+      "cover": "assets/images/migrated/untitled.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/3.-THE-MUNICIPAL-CULTURE-CENTRE-IN-PORABKA.mp3"
+        "assets/audio/migrated/3-the-municipal-culture-centre-in-porabka.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -4790,9 +4790,9 @@ const DB = {
       "poradie": 4,
       "nazov": "Regionálna izba v Porąbke",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/4.-Izba-Regionalna-w-Porąbce.jpg",
+      "cover": "assets/images/migrated/4-izba-regionalna-w-porabce.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/4.-THE-REGIONAL-ROOM-IN-PORABKA.mp3"
+        "assets/audio/migrated/4-the-regional-room-in-porabka.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -4816,9 +4816,9 @@ const DB = {
       "poradie": 5,
       "nazov": "Kaplnka st. Urbana; ul. Krakowska",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/5.-Kaplica-św.-Urbana.jpg",
+      "cover": "assets/images/migrated/5-kaplica-sw-urbana.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/5.-THE-CHAPEL-OF-SAINT-URBAN-KRAKOWSKA-STREET.mp3"
+        "assets/audio/migrated/5-the-chapel-of-saint-urban-krakowska-street.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -4842,9 +4842,9 @@ const DB = {
       "poradie": 6,
       "nazov": "Kaplnka na Tronce",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/6.-Kapliczka-na-Trzonce.jpg",
+      "cover": "assets/images/migrated/6-kapliczka-na-trzonce.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6.-THE-CHAPEL-ON-TRONCA.mp3"
+        "assets/audio/migrated/6-the-chapel-on-tronca.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -4868,9 +4868,9 @@ const DB = {
       "poradie": 7,
       "nazov": "Nádrž Czaniecka",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/7.-Zbiornik-Czaniecki.jpg",
+      "cover": "assets/images/migrated/7-zbiornik-czaniecki.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/7.-THE-RESERVOIR-CZANIECKA.mp3"
+        "assets/audio/migrated/7-the-reservoir-czaniecka.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -4894,9 +4894,9 @@ const DB = {
       "poradie": 8,
       "nazov": "Lesná rezervácia Zasolnica",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/8.-porabka-zasolnica1.jpg",
+      "cover": "assets/images/migrated/8-porabka-zasolnica1.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/8.-THE-FOREST-RESERVATION-ZASOLNICA.mp3"
+        "assets/audio/migrated/8-the-forest-reservation-zasolnica.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -4920,9 +4920,9 @@ const DB = {
       "poradie": 9,
       "nazov": "Kostol v Czaňcu",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/9-1.jpg",
+      "cover": "assets/images/migrated/9-1.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/9.-THE-CHURCH-IN-CZAŃC.mp3"
+        "assets/audio/migrated/9-the-church-in-czanc.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -4946,9 +4946,9 @@ const DB = {
       "poradie": 10,
       "nazov": "Kaplnka v Bujakowskom Lese",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/10.-Kapliczka-w-Bujakowskim-Lesie.jpg",
+      "cover": "assets/images/migrated/10-kapliczka-w-bujakowskim-lesie.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/10.-THE-CHAPEL-IN-THE-BUJAKOW-FOREST.mp3"
+        "assets/audio/migrated/10-the-chapel-in-the-bujakow-forest.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -4972,9 +4972,9 @@ const DB = {
       "poradie": 11,
       "nazov": "Vila v Kobiernicach a pamiatkový park",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/11.Dworek-w-Kobiernicach.jpg",
+      "cover": "assets/images/migrated/11-dworek-w-kobiernicach.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/11.-THE-VILLA-IN-KOBIERNICE-AND-THE-REMEMBER-PARK.mp3"
+        "assets/audio/migrated/11-the-villa-in-kobiernice-and-the-remember-park.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -4998,9 +4998,9 @@ const DB = {
       "poradie": 12,
       "nazov": "Zrúcanina hradu na Wolku a historická trasa",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/12.Ruiny-Zamku-na-Wołku.jpg",
+      "cover": "assets/images/migrated/12-ruiny-zamku-na-wo-ku.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/12.-THE-RUIN-OF-THE-CASTLE-ON-WOLK-AND-THE-HISTORICAL-ROUTE.mp3"
+        "assets/audio/migrated/12-the-ruin-of-the-castle-on-wolk-and-the-historical-route.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -5024,9 +5024,9 @@ const DB = {
       "poradie": 1,
       "nazov": "Šarišská galéria",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Šarišská-galéria.jpg",
+      "cover": "assets/images/migrated/sarisska-galeria.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/05/18-Šarišská-galéria.mp3"
+        "assets/audio/migrated/18-sarisska-galeria.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5047,9 +5047,9 @@ const DB = {
       "poradie": 2,
       "nazov": "Kostol sv. Jozefa",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Františkánsky-kostol.jpg",
+      "cover": "assets/images/migrated/frantiskansky-kostol.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/05/04-Františkánsky-kostol.mp3"
+        "assets/audio/migrated/04-frantiskansky-kostol.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5070,9 +5070,9 @@ const DB = {
       "poradie": 3,
       "nazov": "Evanjelické kolégium",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Evanjelické-kolégium.jpg",
+      "cover": "assets/images/migrated/evanjelicke-kolegium.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/05/09-Evanjelické-kolégium.mp3"
+        "assets/audio/migrated/09-evanjelicke-kolegium.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5093,9 +5093,9 @@ const DB = {
       "poradie": 4,
       "nazov": "Katedrálny chrám sv. Jána Krstiteľa",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Chrám-sv.-Jána-Krstiteľa.jpg",
+      "cover": "assets/images/migrated/chram-sv-jana-krstitela.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/05/03-Chrám-sv.-Jána-Krstiteľa.mp3"
+        "assets/audio/migrated/03-chram-sv-jana-krstitela.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5116,9 +5116,9 @@ const DB = {
       "poradie": 5,
       "nazov": "Súsošie Immaculaty",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Súsošie-Imacculata.jpg",
+      "cover": "assets/images/migrated/susosie-imacculata.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/05/10-Súsošie-Immaculaty.mp3"
+        "assets/audio/migrated/10-susosie-immaculaty.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5139,9 +5139,9 @@ const DB = {
       "poradie": 6,
       "nazov": "Mestské hradby – Floriánova brána",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Mestské-hradby-Floriánova-brána.jpg",
+      "cover": "assets/images/migrated/mestske-hradby-florianova-brana.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/05/16-Mestské-hradby.mp3"
+        "assets/audio/migrated/16-mestske-hradby.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5162,9 +5162,9 @@ const DB = {
       "poradie": 7,
       "nazov": "Konkatedrála sv. Mikuláša",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Kostol-sv.-Mikuláša.jpg",
+      "cover": "assets/images/migrated/kostol-sv-mikulasa.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/05/01-Kostol-sv.-Mikuláša.mp3"
+        "assets/audio/migrated/01-kostol-sv-mikulasa.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5185,9 +5185,9 @@ const DB = {
       "poradie": 8,
       "nazov": "Evanjelický a. v. chrám sv. Trojice",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Evanjelický-kostol-sv.-Trojice.jpg",
+      "cover": "assets/images/migrated/evanjelicky-kostol-sv-trojice.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/05/02-Evanjelický-chrám-svetej-trojice.mp3"
+        "assets/audio/migrated/02-evanjelicky-chram-svetej-trojice.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5208,9 +5208,9 @@ const DB = {
       "poradie": 9,
       "nazov": "Neptúnova fontána",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Neptúnová-fontána.jpg",
+      "cover": "assets/images/migrated/neptunova-fontana.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/05/14-Neptúnova-fontána.mp3"
+        "assets/audio/migrated/14-neptunova-fontana.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5231,9 +5231,9 @@ const DB = {
       "poradie": 10,
       "nazov": "Hlavná ulica",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Hlavná-ulica.jpg",
+      "cover": "assets/images/migrated/hlavna-ulica.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/05/15-Hlavná-ulica.mp3"
+        "assets/audio/migrated/15-hlavna-ulica.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5254,9 +5254,9 @@ const DB = {
       "poradie": 11,
       "nazov": "Ortodoxná synagóga",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Ortodoxná-synagóga.jpg",
+      "cover": "assets/images/migrated/ortodoxna-synagoga.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/05/05-Ortodoxná-synagóga.mp3"
+        "assets/audio/migrated/05-ortodoxna-synagoga.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5277,9 +5277,9 @@ const DB = {
       "poradie": 12,
       "nazov": "Gréckokatolícky biskupský palác",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Gréckokatolický-biskupský-palác.jpg",
+      "cover": "assets/images/migrated/greckokatolicky-biskupsky-palac.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/05/17-Gréckokatolícky-biskupský-palác.mp3"
+        "assets/audio/migrated/17-greckokatolicky-biskupsky-palac.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5300,9 +5300,9 @@ const DB = {
       "poradie": 13,
       "nazov": "Kalvária",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Kalvária.jpg",
+      "cover": "assets/images/migrated/kalvaria.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/05/06-Kalvária.mp3"
+        "assets/audio/migrated/06-kalvaria.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5323,9 +5323,9 @@ const DB = {
       "poradie": 14,
       "nazov": "Župný dom",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Župný-dom.jpg",
+      "cover": "assets/images/migrated/zupny-dom.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/05/13-župný-dom.mp3"
+        "assets/audio/migrated/13-zupny-dom.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5346,9 +5346,9 @@ const DB = {
       "poradie": 15,
       "nazov": "Palác Klobušickovcov",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Palác-Klobušických.jpg",
+      "cover": "assets/images/migrated/palac-klobusickych.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/05/11-Palác-Klobušických.mp3"
+        "assets/audio/migrated/11-palac-klobusickych.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5369,9 +5369,9 @@ const DB = {
       "poradie": 16,
       "nazov": "Radnica",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Radnica.jpg",
+      "cover": "assets/images/migrated/radnica.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/05/07-Radnica.mp3"
+        "assets/audio/migrated/07-radnica.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5392,9 +5392,9 @@ const DB = {
       "poradie": 17,
       "nazov": "Rákociho palác",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Rákocziho-palác.jpg",
+      "cover": "assets/images/migrated/rakocziho-palac.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/05/12-Rákociho-palác.mp3"
+        "assets/audio/migrated/12-rakociho-palac.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5415,9 +5415,9 @@ const DB = {
       "poradie": 18,
       "nazov": "Caraffova väznica",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Carrafova-väznica.jpg",
+      "cover": "assets/images/migrated/carrafova-vaznica.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/05/08-Caraffova-väznica.mp3"
+        "assets/audio/migrated/08-caraffova-vaznica.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5438,9 +5438,9 @@ const DB = {
       "poradie": 19,
       "nazov": "Múzeum vín",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Múzeum-vín.jpg",
+      "cover": "assets/images/migrated/muzeum-vin.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/05/19-múzeum-vín.mp3"
+        "assets/audio/migrated/19-muzeum-vin.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5461,9 +5461,9 @@ const DB = {
       "poradie": 1,
       "nazov": "JURKOVIČOVA ROZHĽADŇA",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/09/jurkovicova-rozhladna.jpg",
+      "cover": "assets/images/migrated/jurkovicova-rozhladna.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2022/09/Jurkovicova-rozhladna.mp3"
+        "assets/audio/migrated/jurkovicova-rozhladna.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5484,9 +5484,9 @@ const DB = {
       "poradie": 2,
       "nazov": "RUINY HRADU HRADISKO",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/08/zdrucanina-hradu-hradisko.jpg",
+      "cover": "assets/images/migrated/zdrucanina-hradu-hradisko.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2022/09/Hradisko.mp3"
+        "assets/audio/migrated/hradisko.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5507,9 +5507,9 @@ const DB = {
       "poradie": 3,
       "nazov": "VALAŠSKÉ MÚZEUM V PRÍRODE",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/09/valasske-muzeum-v-prirode-3.jpg",
+      "cover": "assets/images/migrated/valasske-muzeum-v-prirode-3.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2022/09/Valasske-muzeum-v-prirode.mp3"
+        "assets/audio/migrated/valasske-muzeum-v-prirode.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5530,9 +5530,9 @@ const DB = {
       "poradie": 4,
       "nazov": "KAPLE sv. CYRILA A METODĚJE",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/09/kaple-sv-cyrila-a-metodeja.jpg",
+      "cover": "assets/images/migrated/kaple-sv-cyrila-a-metodeja.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2022/09/Kaple.mp3"
+        "assets/audio/migrated/kaple.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5553,9 +5553,9 @@ const DB = {
       "poradie": 5,
       "nazov": "SOCHA RADEGASTA",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/09/socha-radegasta.png",
+      "cover": "assets/images/migrated/socha-radegasta.png",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2022/09/Socha.mp3"
+        "assets/audio/migrated/socha.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5576,9 +5576,9 @@ const DB = {
       "poradie": 6,
       "nazov": "CHATA MAMĚNKA  A LIBUŠÍN",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/09/chata-libusin.jpg",
+      "cover": "assets/images/migrated/chata-libusin.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2022/09/Chata.mp3"
+        "assets/audio/migrated/chata.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5599,9 +5599,9 @@ const DB = {
       "poradie": 1,
       "nazov": "ZVONICA",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/24-vlkolinec_-zvonica.jpg",
+      "cover": "assets/images/migrated/24-vlkolinec_-zvonica.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/04/01-Zvonica-4.mp3"
+        "assets/audio/migrated/01-zvonica-4.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5622,9 +5622,9 @@ const DB = {
       "poradie": 2,
       "nazov": "RÍMSKOKATOLÍCKY KOSTOL NAVŠTÍVENIA PANNY MÁRIE",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/23-vlkolinec_-kostol.jpg",
+      "cover": "assets/images/migrated/23-vlkolinec_-kostol.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/04/03-RÍMSKOKATOLÍCKY-KOSTOL-NAVŠTÍVENIA-PANNY-MÁRIE-1.mp3"
+        "assets/audio/migrated/03-rimskokatolicky-kostol-navstivenia-panny-marie-1.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5645,9 +5645,9 @@ const DB = {
       "poradie": 3,
       "nazov": "POMNÍK OBETIAM ČERNOVSKEJ TRAGÉDIE",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/22-pomnik-obetiam-_-cernova.jpg",
+      "cover": "assets/images/migrated/22-pomnik-obetiam-_-cernova.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/04/07-PAMÄTNÍK-OBETIAM-ČERNOVSKEJ-TRAGÉDIE.mp3"
+        "assets/audio/migrated/07-pamatnik-obetiam-cernovskej-tragedie.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5668,9 +5668,9 @@ const DB = {
       "poradie": 4,
       "nazov": "KOSTOL RUŽENCOVEJ PANNY MÁRIE",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/20-kostol-ruzencovej-panny-marie_-cernova.jpg",
+      "cover": "assets/images/migrated/20-kostol-ruzencovej-panny-marie_-cernova.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/04/06-KOSTOL-RUŽENCOVEJ-PANNY-MÁRIE.mp3"
+        "assets/audio/migrated/06-kostol-ruzencovej-panny-marie.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5691,9 +5691,9 @@ const DB = {
       "poradie": 5,
       "nazov": "RODNÝ DOM ANDREJA HLINKU",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/19-dom.-a.-hlinku_cernova.jpg",
+      "cover": "assets/images/migrated/19-dom-a-hlinku_cernova.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/04/05-RODNÝ-DOM-ANDREJA-HLINKU.mp3"
+        "assets/audio/migrated/05-rodny-dom-andreja-hlinku.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5714,9 +5714,9 @@ const DB = {
       "poradie": 6,
       "nazov": "KALVÁRIA",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/17-kalvaria.jpg",
+      "cover": "assets/images/migrated/17-kalvaria.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/04/12-Kalvária.mp3"
+        "assets/audio/migrated/12-kalvaria.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5737,9 +5737,9 @@ const DB = {
       "poradie": 7,
       "nazov": "MESTSKÝ CINTORÍN",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/16-mestsky-cintorin.jpg",
+      "cover": "assets/images/migrated/16-mestsky-cintorin.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/04/17-MESTSKÝ-CINTORÍN.mp3"
+        "assets/audio/migrated/17-mestsky-cintorin.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5760,9 +5760,9 @@ const DB = {
       "poradie": 8,
       "nazov": "GALÉRIA ĽUDOVÍTA FULLU",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/15-fulova-galeria.jpg",
+      "cover": "assets/images/migrated/15-fulova-galeria.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/04/24-GALÉRIA-ĽUDOVÍTA-FULLU.mp3"
+        "assets/audio/migrated/24-galeria-ludovita-fullu.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5783,9 +5783,9 @@ const DB = {
       "poradie": 9,
       "nazov": "LIPTOVSKÉ MÚZEUM",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/14-lipt.-muzeum.jpg",
+      "cover": "assets/images/migrated/14-lipt-muzeum.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/04/23-LIPTOVSKÉ-MÚZEUM.mp3"
+        "assets/audio/migrated/23-liptovske-muzeum.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5806,9 +5806,9 @@ const DB = {
       "poradie": 10,
       "nazov": "EVANJELICKÝ A. V. KOSTOL",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/12-evanjelicky-kostol.jpg",
+      "cover": "assets/images/migrated/12-evanjelicky-kostol.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/04/15-Evanjelický-kostol.mp3"
+        "assets/audio/migrated/15-evanjelicky-kostol.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5829,9 +5829,9 @@ const DB = {
       "poradie": 11,
       "nazov": "KULTÚRNY DOM ANDREJA HLINKU",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/11-kult.-dom-A.-hlinku.jpg",
+      "cover": "assets/images/migrated/11-kult-dom-a-hlinku.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/04/16-KULTÚRNY-DOM-ANDREJA-HLINKU.mp3"
+        "assets/audio/migrated/16-kulturny-dom-andreja-hlinku.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5852,9 +5852,9 @@ const DB = {
       "poradie": 12,
       "nazov": "RADNICA",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/8-radnica.jpg",
+      "cover": "assets/images/migrated/8-radnica.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/04/18-Radnica.mp3"
+        "assets/audio/migrated/18-radnica.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5875,9 +5875,9 @@ const DB = {
       "poradie": 13,
       "nazov": "RÍMSKOKATOLÍCKY KOSTOL SV. ONDREJA",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/6-kostol-sv-Ondreja.jpg",
+      "cover": "assets/images/migrated/6-kostol-sv-ondreja.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/04/11-RÍMSKOKATOLÍCKY-KOSTOL-SV-ONDREJA-1.mp3"
+        "assets/audio/migrated/11-rimskokatolicky-kostol-sv-ondreja-1.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5898,9 +5898,9 @@ const DB = {
       "poradie": 14,
       "nazov": "MAUZÓLEUM ANDREJA  HLINKU",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/7-mauzoleum-a..-hlinku.jpg",
+      "cover": "assets/images/migrated/7-mauzoleum-a-hlinku.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/04/21-MAUZÓLEUM-ANDREJA-HLINKU.mp3"
+        "assets/audio/migrated/21-mauzoleum-andreja-hlinku.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5921,9 +5921,9 @@ const DB = {
       "poradie": 15,
       "nazov": "PIARISTICKÉ GYMNÁZIUM",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/5-piaristicke-gymnazium.jpg",
+      "cover": "assets/images/migrated/5-piaristicke-gymnazium.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/05/22-PIARISTICKÉ-GYMNÁZIUM.mp3"
+        "assets/audio/migrated/22-piaristicke-gymnazium.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5944,9 +5944,9 @@ const DB = {
       "poradie": 16,
       "nazov": "NÁMESTIE ANDREJA HLINKU",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/1-2-namestie-a.hlinku.jpg",
+      "cover": "assets/images/migrated/1-2-namestie-a-hlinku.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/04/26-NÁMESTIE-ANDREJA-HLINKU.mp3"
+        "assets/audio/migrated/26-namestie-andreja-hlinku.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5967,9 +5967,9 @@ const DB = {
       "poradie": 17,
       "nazov": "MARIÁNSKY STĹP – SOCHA IMACCULATA",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/1-2-namestie-a.hlinku.jpg",
+      "cover": "assets/images/migrated/1-2-namestie-a-hlinku.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/04/20-MARIÁNSKY-STĹP-SOCHA-IMACCULATA.mp3"
+        "assets/audio/migrated/20-mariansky-stlp-socha-imacculata.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -5990,9 +5990,9 @@ const DB = {
       "poradie": 18,
       "nazov": "RÍMSKOKATOLÍCKY KOSTOL POVÝŠENIA SV. KRÍŽA",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/3-4-kostol-pov.-sv.-kriza_-kolegium-piaristov.jpg",
+      "cover": "assets/images/migrated/3-4-kostol-pov-sv-kriza_-kolegium-piaristov.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/04/13-RÍMSKOKATOLÍCKY-KOSTOL-POVÝŠENIA-SV-KRÍŽA.mp3"
+        "assets/audio/migrated/13-rimskokatolicky-kostol-povysenia-sv-kriza.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -6013,9 +6013,9 @@ const DB = {
       "poradie": 19,
       "nazov": "KOLÉGIUM PIARISTOV",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/3-4-kostol-pov.-sv.-kriza_-kolegium-piaristov.jpg",
+      "cover": "assets/images/migrated/3-4-kostol-pov-sv-kriza_-kolegium-piaristov.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/04/19-KOLÉGIUM-PIARISTOV.mp3"
+        "assets/audio/migrated/19-kolegium-piaristov.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -6036,9 +6036,9 @@ const DB = {
       "poradie": 20,
       "nazov": "SYNAGÓGA",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/9-synagoga.jpg",
+      "cover": "assets/images/migrated/9-synagoga.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/04/14-Sinagóga.mp3"
+        "assets/audio/migrated/14-sinagoga.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -6059,9 +6059,9 @@ const DB = {
       "poradie": 21,
       "nazov": "SLOVENSKÁ BANKA",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/10-kniznica.jpg",
+      "cover": "assets/images/migrated/10-kniznica.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/04/25-SLOVENSKÁ-BANKA.mp3"
+        "assets/audio/migrated/25-slovenska-banka.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -6082,9 +6082,9 @@ const DB = {
       "poradie": 22,
       "nazov": "STUDŇA",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/25-vlkolinec_studna.jpg",
+      "cover": "assets/images/migrated/25-vlkolinec_studna.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/04/02-Studňa.mp3"
+        "assets/audio/migrated/02-studna.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -6105,9 +6105,9 @@ const DB = {
       "poradie": 23,
       "nazov": "ROĽNÍCKY DOM",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/26-vlkolinec_rolnicky-dom.jpg",
+      "cover": "assets/images/migrated/26-vlkolinec_rolnicky-dom.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/04/04-ROĽNÍCKY-DOM.mp3"
+        "assets/audio/migrated/04-rolnicky-dom.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -6128,9 +6128,9 @@ const DB = {
       "poradie": 24,
       "nazov": "POMNÍK „SLOBODA SLOVENSKÉHO NÁRODA“",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/13-socha-slobody_-obetiam-ii.-sv.-vojny.jpg",
+      "cover": "assets/images/migrated/13-socha-slobody_-obetiam-ii-sv-vojny.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/04/10-Pomník-sloboda-slovenského-národa.mp3"
+        "assets/audio/migrated/10-pomnik-sloboda-slovenskeho-naroda.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -6151,9 +6151,9 @@ const DB = {
       "poradie": 25,
       "nazov": "MIESTO TRAGICKÝCH UDALOSTÍ",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/21-miesto-strelby_-cernova.jpg",
+      "cover": "assets/images/migrated/21-miesto-strelby_-cernova.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/04/08-MIESTO-TRAGICKÝCH-UDALOSTÍ.mp3"
+        "assets/audio/migrated/08-miesto-tragickych-udalosti.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -6174,9 +6174,9 @@ const DB = {
       "poradie": 26,
       "nazov": "VLÁČIK KORYTKO NA ŽELEZNIČNEJ STANICI",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/18-vlacik-korytko-na-ZS.jpg",
+      "cover": "assets/images/migrated/18-vlacik-korytko-na-zs.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/04/09-ŽELEZNIČNÁ-STANICA.mp3"
+        "assets/audio/migrated/09-zeleznicna-stanica.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -6197,7 +6197,7 @@ const DB = {
       "poradie": 1,
       "nazov": "Kaštieľ Sokolovce",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/05/kastiel-sokolovce.png",
+      "cover": "assets/images/migrated/kastiel-sokolovce.png",
       "audio": [],
       "galeria": [],
       "gps": {
@@ -6221,9 +6221,9 @@ const DB = {
       "poradie": 1,
       "nazov": "Mestský park",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/06/009.jpg",
+      "cover": "assets/images/migrated/009.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/09/09-mestský-park.mp3"
+        "assets/audio/migrated/09-mestsky-park.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -6244,9 +6244,9 @@ const DB = {
       "poradie": 2,
       "nazov": "Mauzóleum grófa Júliusa Andrássyho",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/06/003.jpg",
+      "cover": "assets/images/migrated/003.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/09/08-Mauzóleum-grófa-Júliusa-Andrássyho.mp3"
+        "assets/audio/migrated/08-mauzoleum-grofa-juliusa-andrassyho.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -6267,9 +6267,9 @@ const DB = {
       "poradie": 3,
       "nazov": "Pavlínsky kláštor",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/06/001.jpg",
+      "cover": "assets/images/migrated/001.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/09/07-Paulínsky-kláštor.mp3"
+        "assets/audio/migrated/07-paulinsky-klastor.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -6290,9 +6290,9 @@ const DB = {
       "poradie": 4,
       "nazov": "Barokovo-klasicistický kaštieľ",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/06/003-1.jpg",
+      "cover": "assets/images/migrated/003-1.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/09/06-Barokovo-klasicistický-kaštieľ-1.mp3"
+        "assets/audio/migrated/06-barokovo-klasicisticky-kastiel-1.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -6313,9 +6313,9 @@ const DB = {
       "poradie": 5,
       "nazov": "Mariánske súsošie",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/06/002.jpg",
+      "cover": "assets/images/migrated/002.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/09/05-Mariánske-Súsošie.mp3"
+        "assets/audio/migrated/05-marianske-susosie.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -6336,9 +6336,9 @@ const DB = {
       "poradie": 6,
       "nazov": "Nížinný vodný hrad Parič",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/06/HIR_2186-HDR.jpg",
+      "cover": "assets/images/migrated/hir_2186-hdr.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/09/04-Nížinný-vodný-hrad-Parič.mp3"
+        "assets/audio/migrated/04-nizinny-vodny-hrad-paric.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -6359,9 +6359,9 @@ const DB = {
       "poradie": 7,
       "nazov": "Gréckokatolícky chrám Zosnutia presvätej Bohorodičky",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/06/003-2.jpg",
+      "cover": "assets/images/migrated/003-2.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/09/03-Gréckokatolícky-chrám-Zosnutia-presvätej-Bohorodičky.mp3"
+        "assets/audio/migrated/03-greckokatolicky-chram-zosnutia-presvatej-bohorodicky.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -6382,9 +6382,9 @@ const DB = {
       "poradie": 8,
       "nazov": "Rímskokatolícky kostol Návštevy Panny Márie",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/06/002-1.jpg",
+      "cover": "assets/images/migrated/002-1.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/09/02-Rímskokatolícky-kostol-Návštevy-Panny-Márie.mp3"
+        "assets/audio/migrated/02-rimskokatolicky-kostol-navstevy-panny-marie.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -6407,7 +6407,7 @@ const DB = {
       "popis": "",
       "cover": "",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/09/01-Románsky-kostol-svätého-ducha.mp3"
+        "assets/audio/migrated/01-romansky-kostol-svateho-ducha.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -6428,9 +6428,9 @@ const DB = {
       "poradie": 1,
       "nazov": "Kostol Nanebovzatia Panny Márie – Pomník padlým v 1. sv. vojne",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/1-1.jpg",
+      "cover": "assets/images/migrated/1-1.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/1.-The-church-of-the-assumption-of-the-Virgin-Mary-–-The-memorial-of-the-Fallen-in-the-1st-World-War-12.mp3"
+        "assets/audio/migrated/1-the-church-of-the-assumption-of-the-virgin-mary-the-memorial-of-the-fallen-in-the-1st-world-war-12.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -6454,9 +6454,9 @@ const DB = {
       "poradie": 2,
       "nazov": "Múzeum Karola Točíka",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/2.jpg",
+      "cover": "assets/images/migrated/2.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/2.-The-town-museum-of-Karol-Tocik.mp3"
+        "assets/audio/migrated/2-the-town-museum-of-karol-tocik.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -6480,9 +6480,9 @@ const DB = {
       "poradie": 3,
       "nazov": "Rybníky",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/12.jpg",
+      "cover": "assets/images/migrated/12.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/12.-Ponds.mp3"
+        "assets/audio/migrated/12-ponds.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -6506,9 +6506,9 @@ const DB = {
       "poradie": 4,
       "nazov": "Prírodný amfiteáter – história beskydských slávností",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/11.jpg",
+      "cover": "assets/images/migrated/11.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/11.-Natural-amphitheater-history-of-Beskydy-Festival-2.mp3"
+        "assets/audio/migrated/11-natural-amphitheater-history-of-beskydy-festival-2.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -6532,9 +6532,9 @@ const DB = {
       "poradie": 5,
       "nazov": "Lyžiarske stredisko Bukovina, Javornícko – beskydská magistrála",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/bukovina.jpg",
+      "cover": "assets/images/migrated/bukovina-2.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/10.-The-Ski-areal-Bukovina.mp3"
+        "assets/audio/migrated/10-the-ski-areal-bukovina.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -6558,9 +6558,9 @@ const DB = {
       "poradie": 6,
       "nazov": "Kamenná guľa pred Mestským úradom",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/9.jpg",
+      "cover": "assets/images/migrated/9.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/9.-The-stone-sphere-in-front-of-the-Town-hall-on-the-occasion-of-the-1st-world-meeting-of-Turzovka-people-2.mp3"
+        "assets/audio/migrated/9-the-stone-sphere-in-front-of-the-town-hall-on-the-occasion-of-the-1st-world-meeting-of-turzovka-people-2.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -6584,9 +6584,9 @@ const DB = {
       "poradie": 7,
       "nazov": "Námestie Juraja Thurzu",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/7.jpg",
+      "cover": "assets/images/migrated/7.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/7.-The-Square-of-Juraj-Thurza.mp3"
+        "assets/audio/migrated/7-the-square-of-juraj-thurza.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -6610,9 +6610,9 @@ const DB = {
       "poradie": 8,
       "nazov": "Areál športu a oddychu, Skatepark",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/5.jpg",
+      "cover": "assets/images/migrated/5.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/5.-The-Sport-and-Recreation-centre-the-skatepark.mp3"
+        "assets/audio/migrated/5-the-sport-and-recreation-centre-the-skatepark.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -6636,9 +6636,9 @@ const DB = {
       "poradie": 9,
       "nazov": "Park Drotára a Džarka, Prícestný stĺp Jána Nepomuckého, Súsošie Drotára a Džarka",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/4.jpg",
+      "cover": "assets/images/migrated/4-2.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/4.-The-park-of-tinker-and-young-tinker-Drotár-and-Džrek-the-pillar-of-Jan-Nepomuk-the-sculpture-of-tinker-and-young-tinker.mp3"
+        "assets/audio/migrated/4-the-park-of-tinker-and-young-tinker-drotar-and-dzrek-the-pillar-of-jan-nepomuk-the-sculpture-of-tinker-and-young-tinker.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -6662,9 +6662,9 @@ const DB = {
       "poradie": 10,
       "nazov": "Hasičské Hobby múzeum",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/Hasicske-hobby-muzeum.jpg",
+      "cover": "assets/images/migrated/hasicske-hobby-muzeum.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/3.-The-Firemen´s-hobby-museum.mp3"
+        "assets/audio/migrated/3-the-firemen-s-hobby-museum.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -6688,9 +6688,9 @@ const DB = {
       "poradie": 1,
       "nazov": "Pamätná tabuľa a izba Rudolfa Jašíka",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/jasik.jpg",
+      "cover": "assets/images/migrated/jasik.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/8-1-The-memorial-table-and-the-Room-of-Rudolf-Jasik.mp3"
+        "assets/audio/migrated/8-1-the-memorial-table-and-the-room-of-rudolf-jasik.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -6714,9 +6714,9 @@ const DB = {
       "poradie": 2,
       "nazov": "Pamätník M. R. Štefánika",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/8.jpg",
+      "cover": "assets/images/migrated/8.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/8-2-The-monument-of-M.R.Stefanika-4.mp3"
+        "assets/audio/migrated/8-2-the-monument-of-m-r-stefanika-4.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -6740,9 +6740,9 @@ const DB = {
       "poradie": 3,
       "nazov": "Pamätník Tomáša Uhorčíka",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/uhorcik.jpg",
+      "cover": "assets/images/migrated/uhorcik.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/8-3-The-Monument-of-Tomas-Uhorcik.mp3"
+        "assets/audio/migrated/8-3-the-monument-of-tomas-uhorcik.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -6768,7 +6768,7 @@ const DB = {
       "popis": "",
       "cover": "",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/8-4-The-Memorial-table-in-the-Park-of-Natives.mp3"
+        "assets/audio/migrated/8-4-the-memorial-table-in-the-park-of-natives.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -6792,9 +6792,9 @@ const DB = {
       "poradie": 1,
       "nazov": "Kaplnka Panny Márie ustavičnej pomoci U Okuliarov",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/u-koliarov.jpg",
+      "cover": "assets/images/migrated/u-koliarov.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-1-The-chapel-of-Virgin-Mary’s-perpetual-help-in-settlement-U-Okruhliakov.mp3"
+        "assets/audio/migrated/6-1-the-chapel-of-virgin-mary-s-perpetual-help-in-settlement-u-okruhliakov.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -6818,9 +6818,9 @@ const DB = {
       "poradie": 2,
       "nazov": "Kaplnka Panny Márie Lurdskej pri motoreste",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/u-mravca.jpg",
+      "cover": "assets/images/migrated/u-mravca.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-2-The-chapel-of-the-Virgin-Mary-Lourdes.mp3"
+        "assets/audio/migrated/6-2-the-chapel-of-the-virgin-mary-lourdes.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -6844,9 +6844,9 @@ const DB = {
       "poradie": 3,
       "nazov": "Kaplnka na Javorovej ulici",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/javorova.jpg",
+      "cover": "assets/images/migrated/javorova.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-3-The-chapel-on-the-“Javorova”-street.mp3"
+        "assets/audio/migrated/6-3-the-chapel-on-the-javorova-street.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -6867,9 +6867,9 @@ const DB = {
       "poradie": 4,
       "nazov": "Kaplnka Panny Márie Škapuliarskej",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/skapuliarska.jpg",
+      "cover": "assets/images/migrated/skapuliarska.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-4-The-chapel-of-the-Virgin-Mary-“Škapuliarskej”.mp3"
+        "assets/audio/migrated/6-4-the-chapel-of-the-virgin-mary-skapuliarskej.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -6890,9 +6890,9 @@ const DB = {
       "poradie": 5,
       "nazov": "Kaplnka Sedembolestnej Panny Márie U Blažkov",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/u-blazkov.jpg",
+      "cover": "assets/images/migrated/u-blazkov.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-5-The-chapel-of-Senven-sorrows-Viring-Mary-in-“U-Blazkov”.mp3"
+        "assets/audio/migrated/6-5-the-chapel-of-senven-sorrows-viring-mary-in-u-blazkov.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -6913,9 +6913,9 @@ const DB = {
       "poradie": 6,
       "nazov": "Kaplnka Najsvätejšieho Srdca Panny Márie",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/Kaplnka-Hlinené-Najsv-Srdca-P-Marie.jpg",
+      "cover": "assets/images/migrated/kaplnka-hlinene-najsv-srdca-p-marie.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-6-The-chapel-of-the-most-holy-heart-of-Virgin-Mary-8.mp3"
+        "assets/audio/migrated/6-6-the-chapel-of-the-most-holy-heart-of-virgin-mary-8.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -6936,9 +6936,9 @@ const DB = {
       "poradie": 7,
       "nazov": "Kostol Fatimskej Panny Márie",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/kostol-turkov.jpg",
+      "cover": "assets/images/migrated/kostol-turkov.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-7-The-church-of-the-Virgin-Mary-of-Fatima.mp3"
+        "assets/audio/migrated/6-7-the-church-of-the-virgin-mary-of-fatima.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -6962,9 +6962,9 @@ const DB = {
       "poradie": 8,
       "nazov": "Kaplnka Sedembolestnej Panny Márie",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/Kaplnka-Sedembolestnej-Panny.jpg",
+      "cover": "assets/images/migrated/kaplnka-sedembolestnej-panny.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-8-The-chapel-of-the-Seven-sorrow-Virgin-Mary.mp3"
+        "assets/audio/migrated/6-8-the-chapel-of-the-seven-sorrow-virgin-mary.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -6985,9 +6985,9 @@ const DB = {
       "poradie": 9,
       "nazov": "Živčáková – mariánske pútnické miesto",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/zivcakova.jpg",
+      "cover": "assets/images/migrated/zivcakova.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-9-Zivcakova-–-Marian-pilgrimage-place-3.mp3"
+        "assets/audio/migrated/6-9-zivcakova-marian-pilgrimage-place-3.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -7011,9 +7011,9 @@ const DB = {
       "poradie": 10,
       "nazov": "Kaplnka Panny Márie Kráľovnej pokoja, Živčáková",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/zivcakova-kaplnka.jpg",
+      "cover": "assets/images/migrated/zivcakova-kaplnka.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-10-The-chapel-of-the-Virgin-Mary-Queen-of-peace.mp3"
+        "assets/audio/migrated/6-10-the-chapel-of-the-virgin-mary-queen-of-peace.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -7037,9 +7037,9 @@ const DB = {
       "poradie": 11,
       "nazov": "Kostol Panny Márie Matky Cirkvi, Živčáková",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/kostol-zivcakova.jpg",
+      "cover": "assets/images/migrated/kostol-zivcakova.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-11-The-church-of-the-Virgin-Mary-Mother-of-the-Church-in-Zivcakova.mp3"
+        "assets/audio/migrated/6-11-the-church-of-the-virgin-mary-mother-of-the-church-in-zivcakova.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -7063,9 +7063,9 @@ const DB = {
       "poradie": 12,
       "nazov": "Kaplnka na Bukovine",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/bukovina.jpg",
+      "cover": "assets/images/migrated/bukovina.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-12-The-chapel-in-Bukovina.mp3"
+        "assets/audio/migrated/6-12-the-chapel-in-bukovina.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -7089,12 +7089,12 @@ const DB = {
       "poradie": 1,
       "nazov": "Kaplnka a Vojenský cintorín z 1. sv. vojny",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage9.jpg",
+      "cover": "assets/images/migrated/webp-net-resizeimage9.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2021/08/01-Kaplnka-a-vojensky-cintorin-1.mp3"
+        "assets/audio/migrated/01-kaplnka-a-vojensky-cintorin-1.mp3"
       ],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage10.jpg"
+        "assets/images/migrated/webp-net-resizeimage10.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.0284020819972!2d21.673188115964297!3d48.8957958792911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzQ0LjkiTiAyMcKwNDAnMzEuNCJF!5e0!3m2!1ssk!2ssk!4v1629985649847!5m2!1ssk!2ssk",
@@ -7114,9 +7114,9 @@ const DB = {
       "poradie": 2,
       "nazov": "Pieskovcový kríž",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage6.jpg",
+      "cover": "assets/images/migrated/webp-net-resizeimage6.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2021/09/02-Pieskovcovy-kriz-1.mp3"
+        "assets/audio/migrated/02-pieskovcovy-kriz-1.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -7137,14 +7137,14 @@ const DB = {
       "poradie": 3,
       "nazov": "Bazilika minor Narodenia Panny Márie a kláštor paulínov",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Bazilika-minor-Narodenia-Panny-Márie-a-kláštor-paulínov.jpg",
+      "cover": "assets/images/migrated/bazilika-minor-narodenia-panny-marie-a-klastor-paulinov.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2021/11/03-Bazilika-Minor-Narodenia-Panny-Marie.mp3"
+        "assets/audio/migrated/03-bazilika-minor-narodenia-panny-marie.mp3"
       ],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2021/08/5-bazilika-minor-1024x773.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2021/08/6-klaštor-paulinov.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage1-1024x768.jpg"
+        "assets/images/migrated/5-bazilika-minor-1024x773.jpg",
+        "assets/images/migrated/6-klastor-paulinov.jpg",
+        "assets/images/migrated/webp-net-resizeimage1-1024x768.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.222210164304!2d21.6782549159643!3d48.89210217929072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzMxLjYiTiAyMcKwNDAnNDkuNiJF!5e0!3m2!1ssk!2ssk!4v1629985933748!5m2!1ssk!2ssk",
@@ -7164,12 +7164,12 @@ const DB = {
       "poradie": 4,
       "nazov": "Schwartzov dom",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Schwartzov-dom.jpg",
+      "cover": "assets/images/migrated/schwartzov-dom.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2021/09/04-Schwartsov-dom.mp3"
+        "assets/audio/migrated/04-schwartsov-dom.mp3"
       ],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Schwartzov-dom-1.jpg"
+        "assets/images/migrated/schwartzov-dom-1.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.324815893478!2d21.679354615964247!3d48.89014657929066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzI0LjUiTiAyMcKwNDAnNTMuNiJF!5e0!3m2!1ssk!2ssk!4v1629986095509!5m2!1ssk!2ssk",
@@ -7189,12 +7189,12 @@ const DB = {
       "poradie": 5,
       "nazov": "Socha Břetislav Benda – Mladosti a kráse patrí budúcnosť.",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage4.jpg",
+      "cover": "assets/images/migrated/webp-net-resizeimage4.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2021/09/05-Socha.mp3"
+        "assets/audio/migrated/05-socha.mp3"
       ],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage5.jpg"
+        "assets/images/migrated/webp-net-resizeimage5.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.3604879302734!2d21.68146001596417!3d48.88946667929064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzIyLjEiTiAyMcKwNDEnMDEuMSJF!5e0!3m2!1ssk!2ssk!4v1629986212712!5m2!1ssk!2ssk",
@@ -7214,9 +7214,9 @@ const DB = {
       "poradie": 6,
       "nazov": "Kostol sv. Štefana",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Kostol-sv.-Štefana.jpg",
+      "cover": "assets/images/migrated/kostol-sv-stefana.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2021/09/06-Kostol-sv-Stefana.mp3"
+        "assets/audio/migrated/06-kostol-sv-stefana.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -7237,9 +7237,9 @@ const DB = {
       "poradie": 7,
       "nazov": "Lipa slobody",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/65a5690.jpg",
+      "cover": "assets/images/migrated/65a5690.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2021/09/07-Lipa-slobody.mp3"
+        "assets/audio/migrated/07-lipa-slobody.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -7260,9 +7260,9 @@ const DB = {
       "poradie": 8,
       "nazov": "Roľnícke povstanie na Východnom Slovensku 1831",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage2.jpg",
+      "cover": "assets/images/migrated/webp-net-resizeimage2.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2021/09/08-Rolnicke-povstanie.mp3"
+        "assets/audio/migrated/08-rolnicke-povstanie.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -7283,13 +7283,13 @@ const DB = {
       "poradie": 9,
       "nazov": "Slnečné hodiny – Kalvínsky kostol na Hviezdoslavovej ulici",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage3.jpg",
+      "cover": "assets/images/migrated/webp-net-resizeimage3.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2021/09/09-Slnecne-hodiny-kalvinsky-kostol-3.mp3"
+        "assets/audio/migrated/09-slnecne-hodiny-kalvinsky-kostol-3.mp3"
       ],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage8.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage7.jpg"
+        "assets/images/migrated/webp-net-resizeimage8.jpg",
+        "assets/images/migrated/webp-net-resizeimage7.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.5260361833125!2d21.687261515964014!3d48.88631127929029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzEwLjciTiAyMcKwNDEnMjIuMCJF!5e0!3m2!1ssk!2ssk!4v1629986980289!5m2!1ssk!2ssk",
@@ -7311,7 +7311,7 @@ const DB = {
       "popis": "",
       "cover": "",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2022/04/O-vranach-pri-Topli.mp3"
+        "assets/audio/migrated/o-vranach-pri-topli.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -7332,9 +7332,9 @@ const DB = {
       "poradie": 11,
       "nazov": "História vranovskej synagógy",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/04/Ortodoxn_zidovsk-synag-ga-patrila-k-dominant-m_Vranov-Enhanced-Colorized@2x.jpg",
+      "cover": "assets/images/migrated/ortodoxn_zidovsk-synag-ga-patrila-k-dominant-m_vranov-enhanced-colorized-2x.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2022/04/Historia-Vranovskej-Sinagogiy.mp3"
+        "assets/audio/migrated/historia-vranovskej-sinagogiy.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -7355,9 +7355,9 @@ const DB = {
       "poradie": 12,
       "nazov": "Súsošie sv. Jána Nepomuckého, Panny Márie s Ježiškom",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2024/11/socha-nepomuckého.jpeg",
+      "cover": "assets/images/migrated/socha-nepomuckeho.jpeg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2024/11/01-susosie.mp3"
+        "assets/audio/migrated/01-susosie.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -7381,9 +7381,9 @@ const DB = {
       "poradie": 13,
       "nazov": "Cyril Daxner – Daxnerov dom",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2024/11/daxner1.jpg",
+      "cover": "assets/images/migrated/daxner1.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2024/11/02-daxner.mp3"
+        "assets/audio/migrated/02-daxner.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -7407,9 +7407,9 @@ const DB = {
       "poradie": 14,
       "nazov": "Pamätník hrdinom a bojovníkom proti fašizmu a Pamätník oslobodenia mesta",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2024/11/pamatník.jpg",
+      "cover": "assets/images/migrated/pamatnik.jpg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2024/11/03-pamatnik.mp3"
+        "assets/audio/migrated/03-pamatnik.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -7433,27 +7433,27 @@ const DB = {
       "poradie": 1,
       "nazov": "Zvonica v Hrušovom",
       "popis": "",
-      "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/zvonica-hrusove.jpeg",
+      "cover": "assets/images/migrated/zvonica-hrusove.jpeg",
       "audio": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/zvonica-hrusove.mp3"
+        "assets/audio/migrated/zvonica-hrusove.mp3"
       ],
       "galeria": [
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/2025-08-18_13h09_48.png",
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_hodiny-min.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_rekonštrukčné-práce_2025-2-min.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_rekonštrukčné-práce_2025-3-min.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_rekonštrukčné-práce_2025-4-min.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_rekonštrukčné-práce_2025-5-min.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_rekonštrukčné-práce_2025-6-min.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_rekonštrukčné-práce_2025-7-min.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_strecha-1-min.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_strecha-2-min.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/2_Hrušovská-zvonica-hodiny-s-24-hodinovým-ciferníkom_3-min.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/3_Hrušovská-zvonica-hodiny-s-24-hodinovým-ciferníkom-min.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_nápis-min.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_rekonštrukcia-2025-1-min.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_rekonštrukcia-2025-2-min.jpg",
-        "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_rekonštrukčné-práce_2025-1-min.jpg"
+        "assets/images/migrated/2025-08-18_13h09_48.png",
+        "assets/images/migrated/hrusovska-zvonica_hodiny-min.jpg",
+        "assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-2-min.jpg",
+        "assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-3-min.jpg",
+        "assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-4-min.jpg",
+        "assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-5-min.jpg",
+        "assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-6-min.jpg",
+        "assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-7-min.jpg",
+        "assets/images/migrated/hrusovska-zvonica_strecha-1-min.jpg",
+        "assets/images/migrated/hrusovska-zvonica_strecha-2-min.jpg",
+        "assets/images/migrated/2_hrusovska-zvonica-hodiny-s-24-hodinovym-cifernikom_3-min.jpg",
+        "assets/images/migrated/3_hrusovska-zvonica-hodiny-s-24-hodinovym-cifernikom-min.jpg",
+        "assets/images/migrated/hrusovska-zvonica_napis-min.jpg",
+        "assets/images/migrated/hrusovska-zvonica_rekonstrukcia-2025-1-min.jpg",
+        "assets/images/migrated/hrusovska-zvonica_rekonstrukcia-2025-2-min.jpg",
+        "assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-1-min.jpg"
       ],
       "gps": {
         "lat": 48.775257658652436,

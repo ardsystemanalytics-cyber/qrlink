@@ -4,10 +4,10 @@
   "poradie": 7,
   "nazov": "Veľký Vodopád",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-7.jpg",
+  "cover": "assets/images/migrated/qr-7.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/7.-Veľký-Vodopád.mp3"
+      "url": "assets/audio/migrated/7-velky-vodopad.mp3"
     }
   ],
   "galeria": [],

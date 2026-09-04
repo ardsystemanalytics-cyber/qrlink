@@ -4,10 +4,10 @@
   "poradie": 1,
   "nazov": "Anglický park pri kaštieli",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/kastiel-min.jpg",
+  "cover": "assets/images/migrated/kastiel-min.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/1-Park.mp3"
+      "url": "assets/audio/migrated/1-park.mp3"
     }
   ],
   "galeria": [],

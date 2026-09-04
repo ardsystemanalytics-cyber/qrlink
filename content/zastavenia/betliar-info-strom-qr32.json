@@ -4,10 +4,10 @@
   "poradie": 17,
   "nazov": "Magnólia končistolistá",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-32.jpg",
+  "cover": "assets/images/migrated/qr-32.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/32.-Magnólia-končistolistá.mp3"
+      "url": "assets/audio/migrated/32-magnolia-koncistolista.mp3"
     }
   ],
   "galeria": [],

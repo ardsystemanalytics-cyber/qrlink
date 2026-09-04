@@ -4,10 +4,10 @@
   "poradie": 11,
   "nazov": "Ortodoxná synagóga",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Ortodoxná-synagóga.jpg",
+  "cover": "assets/images/migrated/ortodoxna-synagoga.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/05/05-Ortodoxná-synagóga.mp3"
+      "url": "assets/audio/migrated/05-ortodoxna-synagoga.mp3"
     }
   ],
   "galeria": [],

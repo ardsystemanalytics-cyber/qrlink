@@ -4,10 +4,10 @@
   "poradie": 7,
   "nazov": "Letisko Frýdlant nad Ostravicí",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/07-Letiště-Frýdlant-nad-Ostravicí.jpg",
+  "cover": "assets/images/migrated/07-letiste-frydlant-nad-ostravici.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/7.-Airport-Frýdlant-nad-Ostravicí.mp3"
+      "url": "assets/audio/migrated/7-airport-frydlant-nad-ostravici.mp3"
     }
   ],
   "galeria": [],

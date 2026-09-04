@@ -4,10 +4,10 @@
   "poradie": 10,
   "nazov": "Smrek (obyčajný) strukovitý",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-25.jpg",
+  "cover": "assets/images/migrated/qr-25.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/25.-Smrek-obyčajný-strukovitý.mp3"
+      "url": "assets/audio/migrated/25-smrek-obycajny-strukovity.mp3"
     }
   ],
   "galeria": [],

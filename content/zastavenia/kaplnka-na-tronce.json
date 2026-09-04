@@ -4,10 +4,10 @@
   "poradie": 6,
   "nazov": "Kaplnka na Tronce",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/6.-Kapliczka-na-Trzonce.jpg",
+  "cover": "assets/images/migrated/6-kapliczka-na-trzonce.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6.-THE-CHAPEL-ON-TRONCA.mp3"
+      "url": "assets/audio/migrated/6-the-chapel-on-tronca.mp3"
     }
   ],
   "galeria": [],

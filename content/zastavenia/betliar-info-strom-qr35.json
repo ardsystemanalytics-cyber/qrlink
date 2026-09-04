@@ -4,10 +4,10 @@
   "poradie": 20,
   "nazov": "Zvernica",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/zvernica-min.png",
+  "cover": "assets/images/migrated/zvernica-min.png",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/09/zvernica.mp3"
+      "url": "assets/audio/migrated/zvernica.mp3"
     }
   ],
   "galeria": [],

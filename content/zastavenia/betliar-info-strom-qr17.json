@@ -4,10 +4,10 @@
   "poradie": 2,
   "nazov": "Douglaska tisolistá",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-17.jpg",
+  "cover": "assets/images/migrated/qr-17.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/17.-Douglaska-tisolistá.mp3"
+      "url": "assets/audio/migrated/17-douglaska-tisolista.mp3"
     }
   ],
   "galeria": [],

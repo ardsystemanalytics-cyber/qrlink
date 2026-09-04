@@ -4,10 +4,10 @@
   "poradie": 5,
   "nazov": "Základná škola Frýdlant nad Ostravicí, Námestie T. G. Masaryka 1260, príspevková organizácia",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/05-Základní-škola-T.G.Masaryka.jpg",
+  "cover": "assets/images/migrated/05-zakladni-skola-t-g-masaryka.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/5.-Elementary-School-Frýdlant-nad-Ostravicí-4.mp3"
+      "url": "assets/audio/migrated/5-elementary-school-frydlant-nad-ostravici-4.mp3"
     }
   ],
   "galeria": [],

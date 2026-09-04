@@ -4,10 +4,10 @@
   "poradie": 18,
   "nazov": "RÍMSKOKATOLÍCKY KOSTOL POVÝŠENIA SV. KRÍŽA",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/3-4-kostol-pov.-sv.-kriza_-kolegium-piaristov.jpg",
+  "cover": "assets/images/migrated/3-4-kostol-pov-sv-kriza_-kolegium-piaristov.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/13-RÍMSKOKATOLÍCKY-KOSTOL-POVÝŠENIA-SV-KRÍŽA.mp3"
+      "url": "assets/audio/migrated/13-rimskokatolicky-kostol-povysenia-sv-kriza.mp3"
     }
   ],
   "galeria": [],

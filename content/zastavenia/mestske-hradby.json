@@ -4,10 +4,10 @@
   "poradie": 6,
   "nazov": "Mestské hradby – Floriánova brána",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Mestské-hradby-Floriánova-brána.jpg",
+  "cover": "assets/images/migrated/mestske-hradby-florianova-brana.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/05/16-Mestské-hradby.mp3"
+      "url": "assets/audio/migrated/16-mestske-hradby.mp3"
     }
   ],
   "galeria": [],

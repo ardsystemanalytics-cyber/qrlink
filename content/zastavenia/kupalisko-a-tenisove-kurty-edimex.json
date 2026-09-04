@@ -4,10 +4,10 @@
   "poradie": 9,
   "nazov": "Kúpalisko a tenisové kurty Edimex",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/09-koupaliště.jpg",
+  "cover": "assets/images/migrated/09-koupaliste.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/9.-Swimming-pool-and-tennis-courts-Edimex.mp3"
+      "url": "assets/audio/migrated/9-swimming-pool-and-tennis-courts-edimex.mp3"
     }
   ],
   "galeria": [],

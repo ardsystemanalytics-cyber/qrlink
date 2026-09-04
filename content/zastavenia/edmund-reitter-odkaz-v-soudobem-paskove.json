@@ -4,10 +4,10 @@
   "poradie": 8,
   "nazov": "Edmund Reitter – odkaz v soudobém Paskově",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/11/7_Edmund-Reitter-v-kruhu-spolku-paskovských-hasičů.jpg",
+  "cover": "assets/images/migrated/7_edmund-reitter-v-kruhu-spolku-paskovskych-hasicu.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/Reiter04.mp3"
+      "url": "assets/audio/migrated/reiter04.mp3"
     }
   ],
   "galeria": [],

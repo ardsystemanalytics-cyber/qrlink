@@ -4,15 +4,15 @@
   "poradie": 5,
   "nazov": "Najužší bod",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/received_816669920100860.jpeg",
+  "cover": "assets/images/migrated/received_816669920100860.jpeg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/09/07-07-najuzsi-bod.mp3"
+      "url": "assets/audio/migrated/07-07-najuzsi-bod.mp3"
     }
   ],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png"
+      "url": "assets/images/migrated/obalka-03.png"
     }
   ],
   "gps": null,

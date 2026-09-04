@@ -7,12 +7,12 @@
   "cover": "",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/02-vodna-pila-vincenta-hrtusa.mp3"
+      "url": "assets/audio/migrated/02-vodna-pila-vincenta-hrtusa.mp3"
     }
   ],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png"
+      "url": "assets/images/migrated/obalka-03.png"
     }
   ],
   "gps": null,

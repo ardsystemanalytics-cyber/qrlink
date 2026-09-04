@@ -4,10 +4,10 @@
   "poradie": 1,
   "nazov": "Bytčianski Turzovci (pôvod, dejiny rodu, erb)",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/11/fam.poss-036.jpg",
+  "cover": "assets/images/migrated/fam-poss-036.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/Tabula-01.mp3"
+      "url": "assets/audio/migrated/tabula-01.mp3"
     }
   ],
   "galeria": [],

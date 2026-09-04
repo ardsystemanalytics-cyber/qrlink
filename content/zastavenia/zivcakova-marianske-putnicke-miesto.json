@@ -4,10 +4,10 @@
   "poradie": 9,
   "nazov": "Živčáková – mariánske pútnické miesto",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/zivcakova.jpg",
+  "cover": "assets/images/migrated/zivcakova.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-9-Zivcakova-–-Marian-pilgrimage-place-3.mp3"
+      "url": "assets/audio/migrated/6-9-zivcakova-marian-pilgrimage-place-3.mp3"
     }
   ],
   "galeria": [],

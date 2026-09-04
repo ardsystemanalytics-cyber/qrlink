@@ -4,10 +4,10 @@
   "poradie": 12,
   "nazov": "Javor mliečny",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-27-2.jpg",
+  "cover": "assets/images/migrated/qr-27-2.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/27.-Javor-mliečny.mp3"
+      "url": "assets/audio/migrated/27-javor-mliecny.mp3"
     }
   ],
   "galeria": [],

@@ -4,10 +4,10 @@
   "poradie": 9,
   "nazov": "Socha sv. Jána Nepomuckého",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/9-socha.jpg",
+  "cover": "assets/images/migrated/9-socha.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/9.-SOCHA-SV.-JÁNA-NEPOMUCKÉHO.mp3"
+      "url": "assets/audio/migrated/9-socha-sv-jana-nepomuckeho.mp3"
     }
   ],
   "galeria": [],

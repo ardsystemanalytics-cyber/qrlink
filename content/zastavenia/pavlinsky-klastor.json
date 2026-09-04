@@ -4,10 +4,10 @@
   "poradie": 3,
   "nazov": "Pavlínsky kláštor",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/06/001.jpg",
+  "cover": "assets/images/migrated/001.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/09/07-Paulínsky-kláštor.mp3"
+      "url": "assets/audio/migrated/07-paulinsky-klastor.mp3"
     }
   ],
   "galeria": [],

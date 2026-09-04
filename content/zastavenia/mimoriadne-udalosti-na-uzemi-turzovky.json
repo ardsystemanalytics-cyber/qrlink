@@ -4,15 +4,15 @@
   "poradie": 3,
   "nazov": "Mimoriadne udalosti na území Turzovky",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/20230823_134552.jpg",
+  "cover": "assets/images/migrated/20230823_134552.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/03-mimoriadne-udalosti.mp3"
+      "url": "assets/audio/migrated/03-mimoriadne-udalosti.mp3"
     }
   ],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png"
+      "url": "assets/images/migrated/obalka-03.png"
     }
   ],
   "gps": null,

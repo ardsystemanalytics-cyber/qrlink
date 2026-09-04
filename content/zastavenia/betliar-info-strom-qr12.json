@@ -4,10 +4,10 @@
   "poradie": 12,
   "nazov": "Parkové plastiky",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-12.jpg",
+  "cover": "assets/images/migrated/qr-12.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/12.-Plastiky.mp3"
+      "url": "assets/audio/migrated/12-plastiky.mp3"
     }
   ],
   "galeria": [],

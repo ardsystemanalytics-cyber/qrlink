@@ -4,10 +4,10 @@
   "poradie": 5,
   "nazov": "Lyžiarske stredisko Bukovina, Javornícko – beskydská magistrála",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/bukovina.jpg",
+  "cover": "assets/images/migrated/bukovina-2.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/10.-The-Ski-areal-Bukovina.mp3"
+      "url": "assets/audio/migrated/10-the-ski-areal-bukovina.mp3"
     }
   ],
   "galeria": [],

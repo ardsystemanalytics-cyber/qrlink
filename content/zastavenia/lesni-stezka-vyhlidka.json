@@ -4,11 +4,11 @@
   "poradie": 12,
   "nazov": "Lesní stezka Vyhlídka",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/vyhliadka1.jpg",
+  "cover": "assets/images/migrated/vyhliadka1.jpg",
   "audio": [],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/vyhliadka2.jpg"
+      "url": "assets/images/migrated/vyhliadka2.jpg"
     }
   ],
   "gps": null,

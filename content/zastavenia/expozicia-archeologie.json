@@ -4,24 +4,24 @@
   "poradie": 3,
   "nazov": "Expozícia archeológie",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/IMG_20200701_150652.jpg",
+  "cover": "assets/images/migrated/img_20200701_150652.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/3-2.mp3"
+      "url": "assets/audio/migrated/3-2.mp3"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/3D-1.mp3"
+      "url": "assets/audio/migrated/3d-1.mp3"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/3E-3.mp3"
+      "url": "assets/audio/migrated/3e-3.mp3"
     }
   ],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/IMG_20200701_150645.jpg"
+      "url": "assets/images/migrated/img_20200701_150645.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/strečno-mapka_3.jpg"
+      "url": "assets/images/migrated/strecno-mapka_3.jpg"
     }
   ],
   "gps": null,

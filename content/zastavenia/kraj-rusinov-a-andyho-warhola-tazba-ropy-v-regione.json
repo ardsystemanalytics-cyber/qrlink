@@ -4,14 +4,14 @@
   "poradie": 2,
   "nazov": "Ťažba ropy v Regióne",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2026/06/Miková.jpg",
+  "cover": "assets/images/migrated/mikova.jpg",
   "audio": [],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2026/06/Pohľad-na-bane-v-Mikovej.jpg"
+      "url": "assets/images/migrated/pohlad-na-bane-v-mikovej.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2026/06/Mikova-zvyšky-studní.jpg"
+      "url": "assets/images/migrated/mikova-zvysky-studni.jpg"
     }
   ],
   "gps": {

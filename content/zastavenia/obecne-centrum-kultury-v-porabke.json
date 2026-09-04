@@ -4,10 +4,10 @@
   "poradie": 3,
   "nazov": "Obecné centrum kultúry v Porąbke",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/Untitled.jpg",
+  "cover": "assets/images/migrated/untitled.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/3.-THE-MUNICIPAL-CULTURE-CENTRE-IN-PORABKA.mp3"
+      "url": "assets/audio/migrated/3-the-municipal-culture-centre-in-porabka.mp3"
     }
   ],
   "galeria": [],

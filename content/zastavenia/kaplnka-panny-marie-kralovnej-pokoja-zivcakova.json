@@ -4,10 +4,10 @@
   "poradie": 10,
   "nazov": "Kaplnka Panny Márie Kráľovnej pokoja, Živčáková",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/zivcakova-kaplnka.jpg",
+  "cover": "assets/images/migrated/zivcakova-kaplnka.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-10-The-chapel-of-the-Virgin-Mary-Queen-of-peace.mp3"
+      "url": "assets/audio/migrated/6-10-the-chapel-of-the-virgin-mary-queen-of-peace.mp3"
     }
   ],
   "galeria": [],

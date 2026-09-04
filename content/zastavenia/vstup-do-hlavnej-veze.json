@@ -4,15 +4,15 @@
   "poradie": 8,
   "nazov": "Vstup do hlavnej veže",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/IMG_20200703_125543.jpg",
+  "cover": "assets/images/migrated/img_20200703_125543.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/8.mp3"
+      "url": "assets/audio/migrated/8.mp3"
     }
   ],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/8-vstup-do-veže1.jpg"
+      "url": "assets/images/migrated/8-vstup-do-veze1.jpg"
     }
   ],
   "gps": null,

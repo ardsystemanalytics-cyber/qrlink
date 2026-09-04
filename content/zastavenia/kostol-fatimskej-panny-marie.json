@@ -4,10 +4,10 @@
   "poradie": 7,
   "nazov": "Kostol Fatimskej Panny Márie",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/kostol-turkov.jpg",
+  "cover": "assets/images/migrated/kostol-turkov.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-7-The-church-of-the-Virgin-Mary-of-Fatima.mp3"
+      "url": "assets/audio/migrated/6-7-the-church-of-the-virgin-mary-of-fatima.mp3"
     }
   ],
   "galeria": [],

@@ -4,10 +4,10 @@
   "poradie": 3,
   "nazov": "Centrum sociálnych služieb",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/03-Středisko-sociálních-služeb-kaple.jpg",
+  "cover": "assets/images/migrated/03-stredisko-socialnich-sluzeb-kaple.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/3.-Social-Service-Centrum-4.mp3"
+      "url": "assets/audio/migrated/3-social-service-centrum-4.mp3"
     }
   ],
   "galeria": [],

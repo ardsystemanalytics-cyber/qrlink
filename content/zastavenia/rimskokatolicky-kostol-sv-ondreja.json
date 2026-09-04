@@ -4,10 +4,10 @@
   "poradie": 13,
   "nazov": "RÍMSKOKATOLÍCKY KOSTOL SV. ONDREJA",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/6-kostol-sv-Ondreja.jpg",
+  "cover": "assets/images/migrated/6-kostol-sv-ondreja.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/11-RÍMSKOKATOLÍCKY-KOSTOL-SV-ONDREJA-1.mp3"
+      "url": "assets/audio/migrated/11-rimskokatolicky-kostol-sv-ondreja-1.mp3"
     }
   ],
   "galeria": [],

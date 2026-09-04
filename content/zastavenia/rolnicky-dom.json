@@ -4,10 +4,10 @@
   "poradie": 23,
   "nazov": "ROĽNÍCKY DOM",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/26-vlkolinec_rolnicky-dom.jpg",
+  "cover": "assets/images/migrated/26-vlkolinec_rolnicky-dom.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/04-ROĽNÍCKY-DOM.mp3"
+      "url": "assets/audio/migrated/04-rolnicky-dom.mp3"
     }
   ],
   "galeria": [],

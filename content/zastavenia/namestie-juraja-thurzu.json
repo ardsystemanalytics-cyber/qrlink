@@ -4,10 +4,10 @@
   "poradie": 7,
   "nazov": "Námestie Juraja Thurzu",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/7.jpg",
+  "cover": "assets/images/migrated/7.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/7.-The-Square-of-Juraj-Thurza.mp3"
+      "url": "assets/audio/migrated/7-the-square-of-juraj-thurza.mp3"
     }
   ],
   "galeria": [],

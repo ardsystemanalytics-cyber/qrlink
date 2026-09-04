@@ -4,10 +4,10 @@
   "poradie": 16,
   "nazov": "Zelkova ostrolistá",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/qr31.png",
+  "cover": "assets/images/migrated/qr31.png",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/31.-Zelkova-ostrolistá.mp3"
+      "url": "assets/audio/migrated/31-zelkova-ostrolista.mp3"
     }
   ],
   "galeria": [],

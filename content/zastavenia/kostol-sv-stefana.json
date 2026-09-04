@@ -4,10 +4,10 @@
   "poradie": 6,
   "nazov": "Kostol sv. Štefana",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Kostol-sv.-Štefana.jpg",
+  "cover": "assets/images/migrated/kostol-sv-stefana.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2021/09/06-Kostol-sv-Stefana.mp3"
+      "url": "assets/audio/migrated/06-kostol-sv-stefana.mp3"
     }
   ],
   "galeria": [],

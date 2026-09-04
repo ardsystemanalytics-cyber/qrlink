@@ -4,10 +4,10 @@
   "poradie": 18,
   "nazov": "Tis obyčajný",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-33.jpg",
+  "cover": "assets/images/migrated/qr-33.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/33.-Tis-obyčajný.mp3"
+      "url": "assets/audio/migrated/33-tis-obycajny.mp3"
     }
   ],
   "galeria": [],

@@ -4,10 +4,10 @@
   "poradie": 8,
   "nazov": "Ľaliovník tulipánokvetý",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-23.jpg",
+  "cover": "assets/images/migrated/qr-23.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/23.-Ľaliovník-tulipánokvetý.mp3"
+      "url": "assets/audio/migrated/23-laliovnik-tulipanokvety.mp3"
     }
   ],
   "galeria": [],

@@ -4,10 +4,10 @@
   "poradie": 9,
   "nazov": "Potomstvo Juraja Turza",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/11/6.jpg",
+  "cover": "assets/images/migrated/6.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/Tabula-06-2.mp3"
+      "url": "assets/audio/migrated/tabula-06-2.mp3"
     }
   ],
   "galeria": [],

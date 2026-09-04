@@ -4,10 +4,10 @@
   "poradie": 9,
   "nazov": "LIPTOVSKÉ MÚZEUM",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/14-lipt.-muzeum.jpg",
+  "cover": "assets/images/migrated/14-lipt-muzeum.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/23-LIPTOVSKÉ-MÚZEUM.mp3"
+      "url": "assets/audio/migrated/23-liptovske-muzeum.mp3"
     }
   ],
   "galeria": [],

@@ -4,10 +4,10 @@
   "poradie": 26,
   "nazov": "VLÁČIK KORYTKO NA ŽELEZNIČNEJ STANICI",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/18-vlacik-korytko-na-ZS.jpg",
+  "cover": "assets/images/migrated/18-vlacik-korytko-na-zs.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/09-ŽELEZNIČNÁ-STANICA.mp3"
+      "url": "assets/audio/migrated/09-zeleznicna-stanica.mp3"
     }
   ],
   "galeria": [],

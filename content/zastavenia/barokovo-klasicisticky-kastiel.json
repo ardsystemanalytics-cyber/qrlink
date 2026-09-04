@@ -4,10 +4,10 @@
   "poradie": 4,
   "nazov": "Barokovo-klasicistický kaštieľ",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/06/003-1.jpg",
+  "cover": "assets/images/migrated/003-1.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/09/06-Barokovo-klasicistický-kaštieľ-1.mp3"
+      "url": "assets/audio/migrated/06-barokovo-klasicisticky-kastiel-1.mp3"
     }
   ],
   "galeria": [],

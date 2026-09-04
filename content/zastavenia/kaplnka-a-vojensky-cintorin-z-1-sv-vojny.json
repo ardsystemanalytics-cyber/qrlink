@@ -4,15 +4,15 @@
   "poradie": 1,
   "nazov": "Kaplnka a Vojenský cintorín z 1. sv. vojny",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage9.jpg",
+  "cover": "assets/images/migrated/webp-net-resizeimage9.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/01-Kaplnka-a-vojensky-cintorin-1.mp3"
+      "url": "assets/audio/migrated/01-kaplnka-a-vojensky-cintorin-1.mp3"
     }
   ],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage10.jpg"
+      "url": "assets/images/migrated/webp-net-resizeimage10.jpg"
     }
   ],
   "gps": null,

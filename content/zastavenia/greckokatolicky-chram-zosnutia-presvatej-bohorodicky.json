@@ -4,10 +4,10 @@
   "poradie": 7,
   "nazov": "Gréckokatolícky chrám Zosnutia presvätej Bohorodičky",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/06/003-2.jpg",
+  "cover": "assets/images/migrated/003-2.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/09/03-Gréckokatolícky-chrám-Zosnutia-presvätej-Bohorodičky.mp3"
+      "url": "assets/audio/migrated/03-greckokatolicky-chram-zosnutia-presvatej-bohorodicky.mp3"
     }
   ],
   "galeria": [],

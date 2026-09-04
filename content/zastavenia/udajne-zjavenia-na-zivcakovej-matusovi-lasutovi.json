@@ -4,15 +4,15 @@
   "poradie": 4,
   "nazov": " Údajné zjavenia na Živčákovej Matúšovi Lašútovi",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Zivcakova_II.jpg",
+  "cover": "assets/images/migrated/zivcakova_ii.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/04-udajne-zjavenia.mp3"
+      "url": "assets/audio/migrated/04-udajne-zjavenia.mp3"
     }
   ],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png"
+      "url": "assets/images/migrated/obalka-03.png"
     }
   ],
   "gps": null,

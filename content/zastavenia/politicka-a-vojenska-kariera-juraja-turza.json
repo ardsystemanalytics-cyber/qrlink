@@ -4,10 +4,10 @@
   "poradie": 2,
   "nazov": "Politická a vojenská kariéra Juraja Turza",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/11/thurzo-nakoni.png",
+  "cover": "assets/images/migrated/thurzo-nakoni.png",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/Tabula-02.mp3"
+      "url": "assets/audio/migrated/tabula-02.mp3"
     }
   ],
   "galeria": [],

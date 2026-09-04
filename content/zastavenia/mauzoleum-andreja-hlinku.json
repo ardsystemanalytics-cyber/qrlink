@@ -4,10 +4,10 @@
   "poradie": 14,
   "nazov": "MAUZÓLEUM ANDREJA  HLINKU",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/7-mauzoleum-a..-hlinku.jpg",
+  "cover": "assets/images/migrated/7-mauzoleum-a-hlinku.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/21-MAUZÓLEUM-ANDREJA-HLINKU.mp3"
+      "url": "assets/audio/migrated/21-mauzoleum-andreja-hlinku.mp3"
     }
   ],
   "galeria": [],

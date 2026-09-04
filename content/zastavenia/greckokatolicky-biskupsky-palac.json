@@ -4,10 +4,10 @@
   "poradie": 12,
   "nazov": "Gréckokatolícky biskupský palác",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Gréckokatolický-biskupský-palác.jpg",
+  "cover": "assets/images/migrated/greckokatolicky-biskupsky-palac.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/05/17-Gréckokatolícky-biskupský-palác.mp3"
+      "url": "assets/audio/migrated/17-greckokatolicky-biskupsky-palac.mp3"
     }
   ],
   "galeria": [],

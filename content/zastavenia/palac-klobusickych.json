@@ -4,10 +4,10 @@
   "poradie": 15,
   "nazov": "Palác Klobušickovcov",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Palác-Klobušických.jpg",
+  "cover": "assets/images/migrated/palac-klobusickych.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/05/11-Palác-Klobušických.mp3"
+      "url": "assets/audio/migrated/11-palac-klobusickych.mp3"
     }
   ],
   "galeria": [],

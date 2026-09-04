@@ -4,10 +4,10 @@
   "poradie": 2,
   "nazov": "Kaplnka Panny Márie Lurdskej pri motoreste",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/u-mravca.jpg",
+  "cover": "assets/images/migrated/u-mravca.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-2-The-chapel-of-the-Virgin-Mary-Lourdes.mp3"
+      "url": "assets/audio/migrated/6-2-the-chapel-of-the-virgin-mary-lourdes.mp3"
     }
   ],
   "galeria": [],

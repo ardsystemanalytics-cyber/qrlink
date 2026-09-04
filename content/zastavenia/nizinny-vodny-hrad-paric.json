@@ -4,10 +4,10 @@
   "poradie": 6,
   "nazov": "Nížinný vodný hrad Parič",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/06/HIR_2186-HDR.jpg",
+  "cover": "assets/images/migrated/hir_2186-hdr.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/09/04-Nížinný-vodný-hrad-Parič.mp3"
+      "url": "assets/audio/migrated/04-nizinny-vodny-hrad-paric.mp3"
     }
   ],
   "galeria": [],

@@ -4,10 +4,10 @@
   "poradie": 1,
   "nazov": "Pamätná tabuľa a izba Rudolfa Jašíka",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/jasik.jpg",
+  "cover": "assets/images/migrated/jasik.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/8-1-The-memorial-table-and-the-Room-of-Rudolf-Jasik.mp3"
+      "url": "assets/audio/migrated/8-1-the-memorial-table-and-the-room-of-rudolf-jasik.mp3"
     }
   ],
   "galeria": [],

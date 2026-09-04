@@ -4,10 +4,10 @@
   "poradie": 10,
   "nazov": "EVANJELICKÝ A. V. KOSTOL",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/12-evanjelicky-kostol.jpg",
+  "cover": "assets/images/migrated/12-evanjelicky-kostol.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/15-Evanjelický-kostol.mp3"
+      "url": "assets/audio/migrated/15-evanjelicky-kostol.mp3"
     }
   ],
   "galeria": [],

@@ -4,10 +4,10 @@
   "poradie": 3,
   "nazov": "Kostol evanjelický augsburského vyznania",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/3-evanjelicky-kostol.jpg",
+  "cover": "assets/images/migrated/3-evanjelicky-kostol.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/3.-KOSTOL-EVANJELICKÝ-AUGSBURSKÉHO-VYZNANIA.mp3"
+      "url": "assets/audio/migrated/3-kostol-evanjelicky-augsburskeho-vyznania.mp3"
     }
   ],
   "galeria": [],

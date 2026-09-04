@@ -4,10 +4,10 @@
   "poradie": 4,
   "nazov": "Kaplnka Panny Márie Škapuliarskej",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/skapuliarska.jpg",
+  "cover": "assets/images/migrated/skapuliarska.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-4-The-chapel-of-the-Virgin-Mary-“Škapuliarskej”.mp3"
+      "url": "assets/audio/migrated/6-4-the-chapel-of-the-virgin-mary-skapuliarskej.mp3"
     }
   ],
   "galeria": [],

@@ -4,14 +4,14 @@
   "poradie": 1,
   "nazov": "NCH Zarúbaná Kýčera",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Divinka.jpg",
+  "cover": "assets/images/migrated/divinka.jpg",
   "audio": [],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Klapy.jpg"
+      "url": "assets/images/migrated/klapy.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Svederník.jpeg"
+      "url": "assets/images/migrated/svedernik.jpeg"
     }
   ],
   "gps": null,

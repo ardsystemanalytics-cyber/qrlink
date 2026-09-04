@@ -6,7 +6,7 @@
   "popis": "Hlavný vstup do hradného areálu, ktorý vás vtiahne do histórie.",
   "cover": "assets/images/places/oravsky-hrad-brana.jpg",
   "audio": [
-    "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-1.mp3"
+    "assets/audio/migrated/1-1.mp3"
   ],
   "galeria": [
     "assets/images/places/oravsky-hrad-brana.jpg",

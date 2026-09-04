@@ -4,10 +4,10 @@
   "poradie": 1,
   "nazov": "Borovica čierna",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-16.jpg",
+  "cover": "assets/images/migrated/qr-16.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/16.-Borovica-čierna.mp3"
+      "url": "assets/audio/migrated/16-borovica-cierna.mp3"
     }
   ],
   "galeria": [],

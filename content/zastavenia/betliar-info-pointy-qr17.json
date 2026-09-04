@@ -4,10 +4,10 @@
   "poradie": 17,
   "nazov": "Pomník padlým na miestnom cintoríne",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/17-pomnik-padlym.jpg",
+  "cover": "assets/images/migrated/17-pomnik-padlym.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/17.-POMNÍK-PADLÝM-NA-MIESTNOM-CINTORÍNE.mp3"
+      "url": "assets/audio/migrated/17-pomnik-padlym-na-miestnom-cintorine.mp3"
     }
   ],
   "galeria": [],

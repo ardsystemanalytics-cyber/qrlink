@@ -4,10 +4,10 @@
   "poradie": 3,
   "nazov": "VALAŠSKÉ MÚZEUM V PRÍRODE",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/09/valasske-muzeum-v-prirode-3.jpg",
+  "cover": "assets/images/migrated/valasske-muzeum-v-prirode-3.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2022/09/Valasske-muzeum-v-prirode.mp3"
+      "url": "assets/audio/migrated/valasske-muzeum-v-prirode.mp3"
     }
   ],
   "galeria": [],

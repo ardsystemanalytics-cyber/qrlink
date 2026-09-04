@@ -4,10 +4,10 @@
   "poradie": 6,
   "nazov": "Budova správy lesov",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/6-budova-spravy-lesov.jpg",
+  "cover": "assets/images/migrated/6-budova-spravy-lesov.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/6.-BUDOVA-SPRÁVY-LESOV.mp3"
+      "url": "assets/audio/migrated/6-budova-spravy-lesov.mp3"
     }
   ],
   "galeria": [],

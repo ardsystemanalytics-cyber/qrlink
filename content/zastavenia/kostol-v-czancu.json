@@ -4,10 +4,10 @@
   "poradie": 9,
   "nazov": "Kostol v Czaňcu",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/9-1.jpg",
+  "cover": "assets/images/migrated/9-1.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/9.-THE-CHURCH-IN-CZAŃC.mp3"
+      "url": "assets/audio/migrated/9-the-church-in-czanc.mp3"
     }
   ],
   "galeria": [],

@@ -4,10 +4,10 @@
   "poradie": 3,
   "nazov": "Juraj Turzo a Turzovka",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/11/3.jpg",
+  "cover": "assets/images/migrated/3.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/Tabula-03.mp3"
+      "url": "assets/audio/migrated/tabula-03.mp3"
     }
   ],
   "galeria": [],

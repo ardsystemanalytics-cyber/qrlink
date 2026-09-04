@@ -4,10 +4,10 @@
   "poradie": 8,
   "nazov": "Kaplnka Sedembolestnej Panny Márie",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/Kaplnka-Sedembolestnej-Panny.jpg",
+  "cover": "assets/images/migrated/kaplnka-sedembolestnej-panny.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-8-The-chapel-of-the-Seven-sorrow-Virgin-Mary.mp3"
+      "url": "assets/audio/migrated/6-8-the-chapel-of-the-seven-sorrow-virgin-mary.mp3"
     }
   ],
   "galeria": [],

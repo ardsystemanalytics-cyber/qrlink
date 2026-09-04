@@ -4,10 +4,10 @@
   "poradie": 13,
   "nazov": "Budova železničnej stanice",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/13-budova-zel-stanice.jpg",
+  "cover": "assets/images/migrated/13-budova-zel-stanice.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/13.-BUDOVA-ŽELEZNIČNEJ-STANICE.mp3"
+      "url": "assets/audio/migrated/13-budova-zeleznicnej-stanice.mp3"
     }
   ],
   "galeria": [],

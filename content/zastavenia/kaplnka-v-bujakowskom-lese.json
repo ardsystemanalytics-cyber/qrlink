@@ -4,10 +4,10 @@
   "poradie": 10,
   "nazov": "Kaplnka v Bujakowskom Lese",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/10.-Kapliczka-w-Bujakowskim-Lesie.jpg",
+  "cover": "assets/images/migrated/10-kapliczka-w-bujakowskim-lesie.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/10.-THE-CHAPEL-IN-THE-BUJAKOW-FOREST.mp3"
+      "url": "assets/audio/migrated/10-the-chapel-in-the-bujakow-forest.mp3"
     }
   ],
   "galeria": [],

@@ -4,10 +4,10 @@
   "poradie": 2,
   "nazov": "Múzeum Karola Točíka",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/2.jpg",
+  "cover": "assets/images/migrated/2.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/2.-The-town-museum-of-Karol-Tocik.mp3"
+      "url": "assets/audio/migrated/2-the-town-museum-of-karol-tocik.mp3"
     }
   ],
   "galeria": [],

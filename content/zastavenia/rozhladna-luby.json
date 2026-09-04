@@ -4,10 +4,10 @@
   "poradie": 5,
   "nazov": "Rozhľadňa Luby",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/08/Rozhladna-Luby.jpg",
+  "cover": "assets/images/migrated/rozhladna-luby.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2022/09/Rozhladna-lubi.mp3"
+      "url": "assets/audio/migrated/rozhladna-lubi.mp3"
     }
   ],
   "galeria": [],

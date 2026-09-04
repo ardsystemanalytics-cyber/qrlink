@@ -4,10 +4,10 @@
   "poradie": 16,
   "nazov": "Radnica",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Radnica.jpg",
+  "cover": "assets/images/migrated/radnica.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/05/07-Radnica.mp3"
+      "url": "assets/audio/migrated/07-radnica.mp3"
     }
   ],
   "galeria": [],

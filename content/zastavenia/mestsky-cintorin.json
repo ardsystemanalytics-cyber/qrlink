@@ -4,10 +4,10 @@
   "poradie": 7,
   "nazov": "MESTSKÝ CINTORÍN",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/16-mestsky-cintorin.jpg",
+  "cover": "assets/images/migrated/16-mestsky-cintorin.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/17-MESTSKÝ-CINTORÍN.mp3"
+      "url": "assets/audio/migrated/17-mestsky-cintorin.mp3"
     }
   ],
   "galeria": [],

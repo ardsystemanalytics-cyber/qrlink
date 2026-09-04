@@ -4,10 +4,10 @@
   "poradie": 15,
   "nazov": "Dom Aloisa Šébla",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/15-dom-alojza-sebla.jpg",
+  "cover": "assets/images/migrated/15-dom-alojza-sebla.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/15.-DOM-ALOISA-ŠÉBLA.mp3"
+      "url": "assets/audio/migrated/15-dom-aloisa-sebla.mp3"
     }
   ],
   "galeria": [],

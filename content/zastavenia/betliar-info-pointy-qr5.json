@@ -4,10 +4,10 @@
   "poradie": 5,
   "nazov": "Hasičská zbrojnica",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/5-hasicska-zbrojnica.jpg",
+  "cover": "assets/images/migrated/5-hasicska-zbrojnica.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/5.-HASIČSKÁ-ZBROJNICA.mp3"
+      "url": "assets/audio/migrated/5-hasicska-zbrojnica.mp3"
     }
   ],
   "galeria": [],

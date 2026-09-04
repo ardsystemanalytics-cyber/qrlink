@@ -4,10 +4,10 @@
   "poradie": 13,
   "nazov": "Katalpa trubačovitá",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-28-2.jpg",
+  "cover": "assets/images/migrated/qr-28-2.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/28.-Katalpa-trubačovitá.mp3"
+      "url": "assets/audio/migrated/28-katalpa-trubacovita.mp3"
     }
   ],
   "galeria": [],

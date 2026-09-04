@@ -4,10 +4,10 @@
   "poradie": 4,
   "nazov": "Katedrálny chrám sv. Jána Krstiteľa",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Chrám-sv.-Jána-Krstiteľa.jpg",
+  "cover": "assets/images/migrated/chram-sv-jana-krstitela.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/05/03-Chrám-sv.-Jána-Krstiteľa.mp3"
+      "url": "assets/audio/migrated/03-chram-sv-jana-krstitela.mp3"
     }
   ],
   "galeria": [],

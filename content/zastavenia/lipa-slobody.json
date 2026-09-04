@@ -4,10 +4,10 @@
   "poradie": 7,
   "nazov": "Lipa slobody",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/65a5690.jpg",
+  "cover": "assets/images/migrated/65a5690.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2021/09/07-Lipa-slobody.mp3"
+      "url": "assets/audio/migrated/07-lipa-slobody.mp3"
     }
   ],
   "galeria": [],

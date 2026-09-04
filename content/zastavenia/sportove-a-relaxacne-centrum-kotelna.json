@@ -4,10 +4,10 @@
   "poradie": 10,
   "nazov": "Športové a relaxačné centrum Kotelna",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/10-Sportovní-a-relaxační-centrum-Kotelna.jpg",
+  "cover": "assets/images/migrated/10-sportovni-a-relaxacni-centrum-kotelna.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/10.-Sport-and-relax-centre-Kotelna.mp3"
+      "url": "assets/audio/migrated/10-sport-and-relax-centre-kotelna.mp3"
     }
   ],
   "galeria": [],

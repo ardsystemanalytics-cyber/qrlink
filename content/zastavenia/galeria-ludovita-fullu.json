@@ -4,10 +4,10 @@
   "poradie": 8,
   "nazov": "GALÉRIA ĽUDOVÍTA FULLU",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/15-fulova-galeria.jpg",
+  "cover": "assets/images/migrated/15-fulova-galeria.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/24-GALÉRIA-ĽUDOVÍTA-FULLU.mp3"
+      "url": "assets/audio/migrated/24-galeria-ludovita-fullu.mp3"
     }
   ],
   "galeria": [],

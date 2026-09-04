@@ -4,15 +4,15 @@
   "poradie": 4,
   "nazov": "Prvé podlažie Južného paláca",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/4-model-hradu-17.-storočie.jpg",
+  "cover": "assets/images/migrated/4-model-hradu-17-storocie.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/4-1.mp3"
+      "url": "assets/audio/migrated/4-1.mp3"
     }
   ],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/4a-model-hradu-20.-storočie.png"
+      "url": "assets/images/migrated/4a-model-hradu-20-storocie.png"
     }
   ],
   "gps": null,

@@ -4,10 +4,10 @@
   "poradie": 1,
   "nazov": "Kostol Nanebovzatia Panny Márie – Pomník padlým v 1. sv. vojne",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/1-1.jpg",
+  "cover": "assets/images/migrated/1-1.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/1.-The-church-of-the-assumption-of-the-Virgin-Mary-–-The-memorial-of-the-Fallen-in-the-1st-World-War-12.mp3"
+      "url": "assets/audio/migrated/1-the-church-of-the-assumption-of-the-virgin-mary-the-memorial-of-the-fallen-in-the-1st-world-war-12.mp3"
     }
   ],
   "galeria": [],

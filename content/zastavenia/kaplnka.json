@@ -4,21 +4,21 @@
   "poradie": 12,
   "nazov": "Kaplnka",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/12-kaplnka.jpg",
+  "cover": "assets/images/migrated/12-kaplnka.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/12.mp3"
+      "url": "assets/audio/migrated/12.mp3"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/12A.mp3"
+      "url": "assets/audio/migrated/12a.mp3"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/12B.mp3"
+      "url": "assets/audio/migrated/12b.mp3"
     }
   ],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/12a-Žofia-Bosniaková.jpg"
+      "url": "assets/images/migrated/12a-zofia-bosniakova.jpg"
     }
   ],
   "gps": null,

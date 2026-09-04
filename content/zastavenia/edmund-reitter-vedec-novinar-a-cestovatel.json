@@ -4,10 +4,10 @@
   "poradie": 6,
   "nazov": "Edmund Reitter – vědec, novinář a cestovatel",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/11/9_Titulní-strana-publikace.jpg",
+  "cover": "assets/images/migrated/9_titulni-strana-publikace.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/Reiter02.mp3"
+      "url": "assets/audio/migrated/reiter02.mp3"
     }
   ],
   "galeria": [],

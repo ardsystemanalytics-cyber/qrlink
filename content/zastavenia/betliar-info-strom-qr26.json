@@ -4,10 +4,10 @@
   "poradie": 11,
   "nazov": "Smrekovec Dahúrsky",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-26.jpg",
+  "cover": "assets/images/migrated/qr-26.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/26.-Smrekovec-Dahúrsky.mp3"
+      "url": "assets/audio/migrated/26-smrekovec-dahursky.mp3"
     }
   ],
   "galeria": [],

@@ -4,10 +4,10 @@
   "poradie": 8,
   "nazov": "Evanjelický a. v. chrám sv. Trojice",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Evanjelický-kostol-sv.-Trojice.jpg",
+  "cover": "assets/images/migrated/evanjelicky-kostol-sv-trojice.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/05/02-Evanjelický-chrám-svetej-trojice.mp3"
+      "url": "assets/audio/migrated/02-evanjelicky-chram-svetej-trojice.mp3"
     }
   ],
   "galeria": [],

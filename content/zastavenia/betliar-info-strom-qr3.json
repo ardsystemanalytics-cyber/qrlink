@@ -4,10 +4,10 @@
   "poradie": 3,
   "nazov": "Fontána",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-3.jpg",
+  "cover": "assets/images/migrated/qr-3.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/3.-Fontána.mp3"
+      "url": "assets/audio/migrated/3-fontana.mp3"
     }
   ],
   "galeria": [],

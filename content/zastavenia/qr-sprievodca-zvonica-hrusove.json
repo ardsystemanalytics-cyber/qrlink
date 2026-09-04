@@ -4,60 +4,60 @@
   "poradie": 1,
   "nazov": "Zvonica v Hrušovom",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/zvonica-hrusove.jpeg",
+  "cover": "assets/images/migrated/zvonica-hrusove.jpeg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/zvonica-hrusove.mp3"
+      "url": "assets/audio/migrated/zvonica-hrusove.mp3"
     }
   ],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/2025-08-18_13h09_48.png"
+      "url": "assets/images/migrated/2025-08-18_13h09_48.png"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_hodiny-min.jpg"
+      "url": "assets/images/migrated/hrusovska-zvonica_hodiny-min.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_rekonštrukčné-práce_2025-2-min.jpg"
+      "url": "assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-2-min.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_rekonštrukčné-práce_2025-3-min.jpg"
+      "url": "assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-3-min.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_rekonštrukčné-práce_2025-4-min.jpg"
+      "url": "assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-4-min.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_rekonštrukčné-práce_2025-5-min.jpg"
+      "url": "assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-5-min.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_rekonštrukčné-práce_2025-6-min.jpg"
+      "url": "assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-6-min.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_rekonštrukčné-práce_2025-7-min.jpg"
+      "url": "assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-7-min.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_strecha-1-min.jpg"
+      "url": "assets/images/migrated/hrusovska-zvonica_strecha-1-min.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_strecha-2-min.jpg"
+      "url": "assets/images/migrated/hrusovska-zvonica_strecha-2-min.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/2_Hrušovská-zvonica-hodiny-s-24-hodinovým-ciferníkom_3-min.jpg"
+      "url": "assets/images/migrated/2_hrusovska-zvonica-hodiny-s-24-hodinovym-cifernikom_3-min.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/3_Hrušovská-zvonica-hodiny-s-24-hodinovým-ciferníkom-min.jpg"
+      "url": "assets/images/migrated/3_hrusovska-zvonica-hodiny-s-24-hodinovym-cifernikom-min.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_nápis-min.jpg"
+      "url": "assets/images/migrated/hrusovska-zvonica_napis-min.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_rekonštrukcia-2025-1-min.jpg"
+      "url": "assets/images/migrated/hrusovska-zvonica_rekonstrukcia-2025-1-min.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_rekonštrukcia-2025-2-min.jpg"
+      "url": "assets/images/migrated/hrusovska-zvonica_rekonstrukcia-2025-2-min.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hrušovská-zvonica_rekonštrukčné-práce_2025-1-min.jpg"
+      "url": "assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-1-min.jpg"
     }
   ],
   "gps": {

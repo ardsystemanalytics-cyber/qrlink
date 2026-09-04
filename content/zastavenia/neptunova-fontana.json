@@ -4,10 +4,10 @@
   "poradie": 9,
   "nazov": "Neptúnova fontána",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Neptúnová-fontána.jpg",
+  "cover": "assets/images/migrated/neptunova-fontana.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/05/14-Neptúnova-fontána.mp3"
+      "url": "assets/audio/migrated/14-neptunova-fontana.mp3"
     }
   ],
   "galeria": [],

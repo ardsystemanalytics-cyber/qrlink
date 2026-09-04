@@ -4,10 +4,10 @@
   "poradie": 10,
   "nazov": "Hlavná ulica",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Hlavná-ulica.jpg",
+  "cover": "assets/images/migrated/hlavna-ulica.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/05/15-Hlavná-ulica.mp3"
+      "url": "assets/audio/migrated/15-hlavna-ulica.mp3"
     }
   ],
   "galeria": [],

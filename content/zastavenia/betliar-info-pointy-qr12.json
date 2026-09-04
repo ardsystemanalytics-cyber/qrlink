@@ -4,10 +4,10 @@
   "poradie": 12,
   "nazov": "Budova základnej školy",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/12-zakladna-skola.jpg",
+  "cover": "assets/images/migrated/12-zakladna-skola.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/12.-BUDOVA-ZÁKLADNEJ-ŠKOLY.mp3"
+      "url": "assets/audio/migrated/12-budova-zakladnej-skoly.mp3"
     }
   ],
   "galeria": [],

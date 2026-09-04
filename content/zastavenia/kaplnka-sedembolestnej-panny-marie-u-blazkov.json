@@ -4,10 +4,10 @@
   "poradie": 5,
   "nazov": "Kaplnka Sedembolestnej Panny Márie U Blažkov",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/u-blazkov.jpg",
+  "cover": "assets/images/migrated/u-blazkov.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-5-The-chapel-of-Senven-sorrows-Viring-Mary-in-“U-Blazkov”.mp3"
+      "url": "assets/audio/migrated/6-5-the-chapel-of-senven-sorrows-viring-mary-in-u-blazkov.mp3"
     }
   ],
   "galeria": [],

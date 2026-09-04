@@ -4,14 +4,14 @@
   "poradie": 5,
   "nazov": "Chodník Jozefa Krónera",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Dom-Jozefa-Krónera-začiatok-nch.jpg",
+  "cover": "assets/images/migrated/dom-jozefa-kronera-zaciatok-nch.jpg",
   "audio": [],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/5.-Na-Michalke-2.jpg"
+      "url": "assets/images/migrated/5-na-michalke-2.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Veľký-Polom.jpg"
+      "url": "assets/images/migrated/velky-polom.jpg"
     }
   ],
   "gps": null,

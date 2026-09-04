@@ -4,10 +4,10 @@
   "poradie": 3,
   "nazov": "Tsuga kanadská",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-18.jpg",
+  "cover": "assets/images/migrated/qr-18.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/18.-Tsuga-kanadská.mp3"
+      "url": "assets/audio/migrated/18-tsuga-kanadska.mp3"
     }
   ],
   "galeria": [],

@@ -4,10 +4,10 @@
   "poradie": 7,
   "nazov": "Konkatedrála sv. Mikuláša",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Kostol-sv.-Mikuláša.jpg",
+  "cover": "assets/images/migrated/kostol-sv-mikulasa.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/05/01-Kostol-sv.-Mikuláša.mp3"
+      "url": "assets/audio/migrated/01-kostol-sv-mikulasa.mp3"
     }
   ],
   "galeria": [],

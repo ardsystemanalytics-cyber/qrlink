@@ -4,10 +4,10 @@
   "poradie": 4,
   "nazov": "Platan javorolistý",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-19.jpg",
+  "cover": "assets/images/migrated/qr-19.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/19.-Platan-javorolistý.mp3"
+      "url": "assets/audio/migrated/19-platan-javorolisty.mp3"
     }
   ],
   "galeria": [],

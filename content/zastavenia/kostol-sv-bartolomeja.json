@@ -4,10 +4,10 @@
   "poradie": 2,
   "nazov": "Kostol sv. Bartolomeja",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/02-Kostel-sv.-Bartoloměje-1.jpg",
+  "cover": "assets/images/migrated/02-kostel-sv-bartolomeje-1.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/2.-Church-of-St.-Bartolomej-2.mp3"
+      "url": "assets/audio/migrated/2-church-of-st-bartolomej-2.mp3"
     }
   ],
   "galeria": [],

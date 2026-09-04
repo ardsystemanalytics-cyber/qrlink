@@ -4,11 +4,11 @@
   "poradie": 7,
   "nazov": "Frýdecký les",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/fr2.jpg",
+  "cover": "assets/images/migrated/fr2.jpg",
   "audio": [],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/frídecký-1.jpg"
+      "url": "assets/images/migrated/fridecky-1.jpg"
     }
   ],
   "gps": null,

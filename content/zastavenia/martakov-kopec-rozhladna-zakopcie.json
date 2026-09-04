@@ -4,10 +4,10 @@
   "poradie": 4,
   "nazov": "Martákov kopec- Rozhľadňa Zákopčie",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/08/Marťákov-kopec.png",
+  "cover": "assets/images/migrated/martakov-kopec.png",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2022/09/Martakov-kopec.mp3"
+      "url": "assets/audio/migrated/martakov-kopec.mp3"
     }
   ],
   "galeria": [],

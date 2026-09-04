@@ -4,10 +4,10 @@
   "poradie": 14,
   "nazov": "Pagaštan konský",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-29-3.jpg",
+  "cover": "assets/images/migrated/qr-29-3.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/29.-Pagaštan-konský.mp3"
+      "url": "assets/audio/migrated/29-pagastan-konsky.mp3"
     }
   ],
   "galeria": [],

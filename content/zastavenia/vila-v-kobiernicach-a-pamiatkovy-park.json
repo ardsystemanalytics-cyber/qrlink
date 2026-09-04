@@ -4,10 +4,10 @@
   "poradie": 11,
   "nazov": "Vila v Kobiernicach a pamiatkový park",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/11.Dworek-w-Kobiernicach.jpg",
+  "cover": "assets/images/migrated/11-dworek-w-kobiernicach.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/11.-THE-VILLA-IN-KOBIERNICE-AND-THE-REMEMBER-PARK.mp3"
+      "url": "assets/audio/migrated/11-the-villa-in-kobiernice-and-the-remember-park.mp3"
     }
   ],
   "galeria": [],

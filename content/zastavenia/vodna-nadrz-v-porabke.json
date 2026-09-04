@@ -4,10 +4,10 @@
   "poradie": 1,
   "nazov": "Vodná nádrž v Porąbke",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/1.-Zapora-Wodna-w-Porąbce.jpg",
+  "cover": "assets/images/migrated/1-zapora-wodna-w-porabce.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/1.-THE-WATER-RESERVOIR-IN-PORABKA.mp3"
+      "url": "assets/audio/migrated/1-the-water-reservoir-in-porabka.mp3"
     }
   ],
   "galeria": [],

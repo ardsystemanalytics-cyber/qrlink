@@ -4,11 +4,11 @@
   "poradie": 8,
   "nazov": "Gruň – Bílý Kříž",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/grun-1.png",
+  "cover": "assets/images/migrated/grun-1.png",
   "audio": [],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/gr2.jpg"
+      "url": "assets/images/migrated/gr2.jpg"
     }
   ],
   "gps": null,

@@ -4,10 +4,10 @@
   "poradie": 2,
   "nazov": "RÍMSKOKATOLÍCKY KOSTOL NAVŠTÍVENIA PANNY MÁRIE",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/23-vlkolinec_-kostol.jpg",
+  "cover": "assets/images/migrated/23-vlkolinec_-kostol.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/03-RÍMSKOKATOLÍCKY-KOSTOL-NAVŠTÍVENIA-PANNY-MÁRIE-1.mp3"
+      "url": "assets/audio/migrated/03-rimskokatolicky-kostol-navstivenia-panny-marie-1.mp3"
     }
   ],
   "galeria": [],

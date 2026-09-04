@@ -4,10 +4,10 @@
   "poradie": 9,
   "nazov": "Ginko dvojlaločné",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-24.jpg",
+  "cover": "assets/images/migrated/qr-24.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/24.-Ginko-dvojlaločné.mp3"
+      "url": "assets/audio/migrated/24-ginko-dvojlalocne.mp3"
     }
   ],
   "galeria": [],

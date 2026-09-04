@@ -4,10 +4,10 @@
   "poradie": 4,
   "nazov": "Kultúrne centrum Frýdlant nad Ostravicí",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/04-Kulturní-centrum-Frýdlant-nad-Ostravicí.jpg",
+  "cover": "assets/images/migrated/04-kulturni-centrum-frydlant-nad-ostravici.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/4.-Culture-Centrum-of-Frýdlant-nad-Ostravicí-4.mp3"
+      "url": "assets/audio/migrated/4-culture-centrum-of-frydlant-nad-ostravici-4.mp3"
     }
   ],
   "galeria": [],

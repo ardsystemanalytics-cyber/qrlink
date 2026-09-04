@@ -4,10 +4,10 @@
   "poradie": 6,
   "nazov": "CHATA MAMĚNKA  A LIBUŠÍN",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/09/chata-libusin.jpg",
+  "cover": "assets/images/migrated/chata-libusin.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2022/09/Chata.mp3"
+      "url": "assets/audio/migrated/chata.mp3"
     }
   ],
   "galeria": [],

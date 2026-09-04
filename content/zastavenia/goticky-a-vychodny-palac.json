@@ -4,10 +4,10 @@
   "poradie": 10,
   "nazov": "Gotický a východný palác",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/10-východný-palác-e1593775595595.jpg",
+  "cover": "assets/images/migrated/10-vychodny-palac-e1593775595595.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/10.mp3"
+      "url": "assets/audio/migrated/10.mp3"
     }
   ],
   "galeria": [],

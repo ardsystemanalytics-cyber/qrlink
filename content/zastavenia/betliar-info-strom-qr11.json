@@ -4,10 +4,10 @@
   "poradie": 11,
   "nazov": "Čínsky pavilón",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-11.jpg",
+  "cover": "assets/images/migrated/qr-11.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/11.-Čínsky-pavilón.mp3"
+      "url": "assets/audio/migrated/11-cinsky-pavilon.mp3"
     }
   ],
   "galeria": [],

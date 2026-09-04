@@ -4,11 +4,11 @@
   "poradie": 3,
   "nazov": "Kysucký detský les",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/historická-lesná-útraťová-železnica-.jpg",
+  "cover": "assets/images/migrated/historicka-lesna-utratova-zeleznica.jpg",
   "audio": [],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Brýzgalky-3.jpg"
+      "url": "assets/images/migrated/bryzgalky-3.jpg"
     }
   ],
   "gps": null,

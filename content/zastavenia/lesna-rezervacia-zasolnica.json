@@ -4,10 +4,10 @@
   "poradie": 8,
   "nazov": "Lesná rezervácia Zasolnica",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/8.-porabka-zasolnica1.jpg",
+  "cover": "assets/images/migrated/8-porabka-zasolnica1.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/8.-THE-FOREST-RESERVATION-ZASOLNICA.mp3"
+      "url": "assets/audio/migrated/8-the-forest-reservation-zasolnica.mp3"
     }
   ],
   "galeria": [],

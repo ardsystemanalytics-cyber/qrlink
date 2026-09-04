@@ -4,18 +4,18 @@
   "poradie": 9,
   "nazov": "Hlavná veža – výhľad",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/9-hl.veža.jpg",
+  "cover": "assets/images/migrated/9-hl-veza.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/9-1.mp3"
+      "url": "assets/audio/migrated/9-1.mp3"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/9A-1.mp3"
+      "url": "assets/audio/migrated/9a-1.mp3"
     }
   ],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/IMG_20200624_150338.jpg"
+      "url": "assets/images/migrated/img_20200624_150338.jpg"
     }
   ],
   "gps": null,

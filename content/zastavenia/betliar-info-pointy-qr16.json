@@ -4,10 +4,10 @@
   "poradie": 16,
   "nazov": "Rodný dom Júliusa Koššutha",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/16-dom-juliusa-kossutha.jpg",
+  "cover": "assets/images/migrated/16-dom-juliusa-kossutha.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/16.-RODNÝ-DOM-JÚLIUSA-KOŠŠUTHA.mp3"
+      "url": "assets/audio/migrated/16-rodny-dom-juliusa-kossutha.mp3"
     }
   ],
   "galeria": [],

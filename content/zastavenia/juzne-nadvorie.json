@@ -4,10 +4,10 @@
   "poradie": 6,
   "nazov": "Južné nádvorie",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/6-južné-nádvorie.jpg",
+  "cover": "assets/images/migrated/6-juzne-nadvorie.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/6-1.mp3"
+      "url": "assets/audio/migrated/6-1.mp3"
     }
   ],
   "galeria": [],

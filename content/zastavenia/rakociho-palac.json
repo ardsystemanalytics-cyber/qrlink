@@ -4,10 +4,10 @@
   "poradie": 17,
   "nazov": "Rákociho palác",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Rákocziho-palác.jpg",
+  "cover": "assets/images/migrated/rakocziho-palac.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/05/12-Rákociho-palác.mp3"
+      "url": "assets/audio/migrated/12-rakociho-palac.mp3"
     }
   ],
   "galeria": [],

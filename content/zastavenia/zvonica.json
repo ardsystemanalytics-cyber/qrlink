@@ -4,10 +4,10 @@
   "poradie": 1,
   "nazov": "ZVONICA",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/24-vlkolinec_-zvonica.jpg",
+  "cover": "assets/images/migrated/24-vlkolinec_-zvonica.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/01-Zvonica-4.mp3"
+      "url": "assets/audio/migrated/01-zvonica-4.mp3"
     }
   ],
   "galeria": [],

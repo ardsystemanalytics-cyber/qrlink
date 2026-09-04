@@ -4,10 +4,10 @@
   "poradie": 14,
   "nazov": "Župný dom",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Župný-dom.jpg",
+  "cover": "assets/images/migrated/zupny-dom.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/05/13-župný-dom.mp3"
+      "url": "assets/audio/migrated/13-zupny-dom.mp3"
     }
   ],
   "galeria": [],

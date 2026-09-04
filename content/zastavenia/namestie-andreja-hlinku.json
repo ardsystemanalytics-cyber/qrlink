@@ -4,10 +4,10 @@
   "poradie": 16,
   "nazov": "NÁMESTIE ANDREJA HLINKU",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/1-2-namestie-a.hlinku.jpg",
+  "cover": "assets/images/migrated/1-2-namestie-a-hlinku.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/26-NÁMESTIE-ANDREJA-HLINKU.mp3"
+      "url": "assets/audio/migrated/26-namestie-andreja-hlinku.mp3"
     }
   ],
   "galeria": [],

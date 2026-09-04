@@ -4,15 +4,15 @@
   "poradie": 4,
   "nazov": "Schwartzov dom",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Schwartzov-dom.jpg",
+  "cover": "assets/images/migrated/schwartzov-dom.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2021/09/04-Schwartsov-dom.mp3"
+      "url": "assets/audio/migrated/04-schwartsov-dom.mp3"
     }
   ],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Schwartzov-dom-1.jpg"
+      "url": "assets/images/migrated/schwartzov-dom-1.jpg"
     }
   ],
   "gps": null,

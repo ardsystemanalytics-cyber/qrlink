@@ -4,10 +4,10 @@
   "poradie": 8,
   "nazov": "Roľnícke povstanie na Východnom Slovensku 1831",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage2.jpg",
+  "cover": "assets/images/migrated/webp-net-resizeimage2.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2021/09/08-Rolnicke-povstanie.mp3"
+      "url": "assets/audio/migrated/08-rolnicke-povstanie.mp3"
     }
   ],
   "galeria": [],

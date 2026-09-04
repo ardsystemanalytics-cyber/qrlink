@@ -4,10 +4,10 @@
   "poradie": 14,
   "nazov": "Bytové domy na Nižnej Maši",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/14-bytove-domy-nizna-masa.jpg",
+  "cover": "assets/images/migrated/14-bytove-domy-nizna-masa.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/14.-BYTOVÉ-DOMY-NA-NIŽNEJ-MAŠI.mp3"
+      "url": "assets/audio/migrated/14-bytove-domy-na-niznej-masi.mp3"
     }
   ],
   "galeria": [],

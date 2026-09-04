@@ -4,10 +4,10 @@
   "poradie": 5,
   "nazov": "Prízemie južného paláca – kuchyňa",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/5-kuchyňa.png",
+  "cover": "assets/images/migrated/5-kuchyna.png",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/5-1.mp3"
+      "url": "assets/audio/migrated/5-1.mp3"
     }
   ],
   "galeria": [],

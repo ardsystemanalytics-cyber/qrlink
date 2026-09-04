@@ -4,10 +4,10 @@
   "poradie": 7,
   "nazov": "Nádrž Czaniecka",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/7.-Zbiornik-Czaniecki.jpg",
+  "cover": "assets/images/migrated/7-zbiornik-czaniecki.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/7.-THE-RESERVOIR-CZANIECKA.mp3"
+      "url": "assets/audio/migrated/7-the-reservoir-czaniecka.mp3"
     }
   ],
   "galeria": [],

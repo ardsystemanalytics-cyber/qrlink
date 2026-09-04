@@ -4,10 +4,10 @@
   "poradie": 14,
   "nazov": "Zverinec",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-14.jpg",
+  "cover": "assets/images/migrated/qr-14.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/09/zverinec.mp3"
+      "url": "assets/audio/migrated/zverinec.mp3"
     }
   ],
   "galeria": [],

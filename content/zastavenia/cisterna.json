@@ -4,10 +4,10 @@
   "poradie": 7,
   "nazov": "Cisterna",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/7-cisterna-1.jpg",
+  "cover": "assets/images/migrated/7-cisterna-1.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/7-1.mp3"
+      "url": "assets/audio/migrated/7-1.mp3"
     }
   ],
   "galeria": [],

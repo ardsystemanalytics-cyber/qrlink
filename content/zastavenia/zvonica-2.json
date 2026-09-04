@@ -4,15 +4,15 @@
   "poradie": 6,
   "nazov": "Zvonica",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/18-zvonica-3.jpg",
+  "cover": "assets/images/migrated/18-zvonica-3.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/09/08-08-zvonica.mp3"
+      "url": "assets/audio/migrated/08-08-zvonica.mp3"
     }
   ],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png"
+      "url": "assets/images/migrated/obalka-03.png"
     }
   ],
   "gps": null,

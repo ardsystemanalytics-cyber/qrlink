@@ -4,10 +4,10 @@
   "poradie": 4,
   "nazov": "Prírodný amfiteáter – história beskydských slávností",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/11.jpg",
+  "cover": "assets/images/migrated/11.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/11.-Natural-amphitheater-history-of-Beskydy-Festival-2.mp3"
+      "url": "assets/audio/migrated/11-natural-amphitheater-history-of-beskydy-festival-2.mp3"
     }
   ],
   "galeria": [],

@@ -4,13 +4,13 @@
   "poradie": 13,
   "nazov": "Severná veža",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/13-severná-veža-e1593776801900.jpg",
+  "cover": "assets/images/migrated/13-severna-veza-e1593776801900.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/13.mp3"
+      "url": "assets/audio/migrated/13.mp3"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/13A.mp3"
+      "url": "assets/audio/migrated/13a.mp3"
     }
   ],
   "galeria": [],

@@ -4,10 +4,10 @@
   "poradie": 6,
   "nazov": "Kaplnka Najsvätejšieho Srdca Panny Márie",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/Kaplnka-Hlinené-Najsv-Srdca-P-Marie.jpg",
+  "cover": "assets/images/migrated/kaplnka-hlinene-najsv-srdca-p-marie.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-6-The-chapel-of-the-most-holy-heart-of-Virgin-Mary-8.mp3"
+      "url": "assets/audio/migrated/6-6-the-chapel-of-the-most-holy-heart-of-virgin-mary-8.mp3"
     }
   ],
   "galeria": [],

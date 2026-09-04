@@ -4,10 +4,10 @@
   "poradie": 12,
   "nazov": "Vlaková stanica Frýdlant nad Ostravicí",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/12-Vlakové-nádraží-Frýdlant-nad-Ostravicí.jpg",
+  "cover": "assets/images/migrated/12-vlakove-nadrazi-frydlant-nad-ostravici.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/12.-Train-station-Frýdlant-nad-Ostravicí-4.mp3"
+      "url": "assets/audio/migrated/12-train-station-frydlant-nad-ostravici-4.mp3"
     }
   ],
   "galeria": [],

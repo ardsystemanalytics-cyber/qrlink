@@ -4,10 +4,10 @@
   "poradie": 2,
   "nazov": "Kostol sv. Jozefa",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Františkánsky-kostol.jpg",
+  "cover": "assets/images/migrated/frantiskansky-kostol.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/05/04-Františkánsky-kostol.mp3"
+      "url": "assets/audio/migrated/04-frantiskansky-kostol.mp3"
     }
   ],
   "galeria": [],

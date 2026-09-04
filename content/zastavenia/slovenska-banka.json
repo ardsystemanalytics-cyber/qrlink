@@ -4,10 +4,10 @@
   "poradie": 21,
   "nazov": "SLOVENSKÁ BANKA",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/10-kniznica.jpg",
+  "cover": "assets/images/migrated/10-kniznica.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/25-SLOVENSKÁ-BANKA.mp3"
+      "url": "assets/audio/migrated/25-slovenska-banka.mp3"
     }
   ],
   "galeria": [],

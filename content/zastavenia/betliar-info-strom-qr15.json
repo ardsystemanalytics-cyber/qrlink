@@ -4,10 +4,10 @@
   "poradie": 15,
   "nazov": "Bosniak / Bosnia bar",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-15.jpg",
+  "cover": "assets/images/migrated/qr-15.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/15.-Bosniak-Bosnia-bar.mp3"
+      "url": "assets/audio/migrated/15-bosniak-bosnia-bar.mp3"
     }
   ],
   "galeria": [],

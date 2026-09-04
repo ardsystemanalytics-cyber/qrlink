@@ -4,10 +4,10 @@
   "poradie": 2,
   "nazov": "RUINY HRADU HRADISKO",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/08/zdrucanina-hradu-hradisko.jpg",
+  "cover": "assets/images/migrated/zdrucanina-hradu-hradisko.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2022/09/Hradisko.mp3"
+      "url": "assets/audio/migrated/hradisko.mp3"
     }
   ],
   "galeria": [],

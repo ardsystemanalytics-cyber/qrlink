@@ -4,10 +4,10 @@
   "poradie": 6,
   "nazov": "Základná škola Frýdlant nad Ostravicí, Komenského 420, príspevková organizácia",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/6.jpg",
+  "cover": "assets/images/migrated/6-2.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6.-Elementary-school-Frýdlant-nad-Ostravicí.mp3"
+      "url": "assets/audio/migrated/6-elementary-school-frydlant-nad-ostravici.mp3"
     }
   ],
   "galeria": [],

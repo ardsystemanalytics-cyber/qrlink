@@ -4,10 +4,10 @@
   "poradie": 5,
   "nazov": "Súsošie Immaculaty",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Súsošie-Imacculata.jpg",
+  "cover": "assets/images/migrated/susosie-imacculata.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/05/10-Súsošie-Immaculaty.mp3"
+      "url": "assets/audio/migrated/10-susosie-immaculaty.mp3"
     }
   ],
   "galeria": [],

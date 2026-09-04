@@ -4,10 +4,10 @@
   "poradie": 2,
   "nazov": "Kostol rímskokatolícky sv. Alžbety vdovy",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/2-rimskokatolicky-kostol.jpg",
+  "cover": "assets/images/migrated/2-rimskokatolicky-kostol.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/2.-KOSTOL-RÍMSKOKATOLÍCKY-SV.-ALŽBETY-VDOVY.mp3"
+      "url": "assets/audio/migrated/2-kostol-rimskokatolicky-sv-alzbety-vdovy.mp3"
     }
   ],
   "galeria": [],

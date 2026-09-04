@@ -4,10 +4,10 @@
   "poradie": 5,
   "nazov": "Kaplnka st. Urbana; ul. Krakowska",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/5.-Kaplica-św.-Urbana.jpg",
+  "cover": "assets/images/migrated/5-kaplica-sw-urbana.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/5.-THE-CHAPEL-OF-SAINT-URBAN-KRAKOWSKA-STREET.mp3"
+      "url": "assets/audio/migrated/5-the-chapel-of-saint-urban-krakowska-street.mp3"
     }
   ],
   "galeria": [],

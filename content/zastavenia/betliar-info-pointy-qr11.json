@@ -4,10 +4,10 @@
   "poradie": 11,
   "nazov": "Bytový dom v lokalite „Píla“",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/11-bytovy-dom-pila.jpg",
+  "cover": "assets/images/migrated/11-bytovy-dom-pila.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/11.-BYTOVÝ-DOM-V-LOKALITE-„PÍLA“.mp3"
+      "url": "assets/audio/migrated/11-bytovy-dom-v-lokalite-pila.mp3"
     }
   ],
   "galeria": [],

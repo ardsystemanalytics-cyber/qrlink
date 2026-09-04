@@ -4,10 +4,10 @@
   "poradie": 1,
   "nazov": "Šarišská galéria",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Šarišská-galéria.jpg",
+  "cover": "assets/images/migrated/sarisska-galeria.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/05/18-Šarišská-galéria.mp3"
+      "url": "assets/audio/migrated/18-sarisska-galeria.mp3"
     }
   ],
   "galeria": [],

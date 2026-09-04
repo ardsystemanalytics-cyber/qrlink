@@ -4,10 +4,10 @@
   "poradie": 15,
   "nazov": "Buk červenolistý",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-30.jpg",
+  "cover": "assets/images/migrated/qr-30.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/30.-Buk-červenolistý.mp3"
+      "url": "assets/audio/migrated/30-buk-cervenolisty.mp3"
     }
   ],
   "galeria": [],

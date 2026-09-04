@@ -4,15 +4,15 @@
   "poradie": 6,
   "nazov": "Stavba kaplnky a pútnické miesto",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Zivcakova_V.jpg",
+  "cover": "assets/images/migrated/zivcakova_v.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/06-stavba-kaplnky-a-putnicke-miesto.mp3"
+      "url": "assets/audio/migrated/06-stavba-kaplnky-a-putnicke-miesto.mp3"
     }
   ],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png"
+      "url": "assets/images/migrated/obalka-03.png"
     }
   ],
   "gps": null,

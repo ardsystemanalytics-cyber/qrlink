@@ -4,17 +4,17 @@
   "poradie": 1,
   "nazov": "Cestička na hrad",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg",
+  "cover": "assets/images/migrated/1-paseka-e1592570206493.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-1.mp3"
+      "url": "assets/audio/migrated/1-1.mp3"
     }
   ],
   "galeria": [
-    "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg",
-    "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg",
-    "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg",
-    "https://www.qrlink.sk/new/wp-content/uploads/2020/06/1-paseka-e1592570206493.jpg"
+    "assets/images/migrated/1-paseka-e1592570206493.jpg",
+    "assets/images/migrated/1-paseka-e1592570206493.jpg",
+    "assets/images/migrated/1-paseka-e1592570206493.jpg",
+    "assets/images/migrated/1-paseka-e1592570206493.jpg"
   ],
   "gps": {
     "lat": 49.177151,

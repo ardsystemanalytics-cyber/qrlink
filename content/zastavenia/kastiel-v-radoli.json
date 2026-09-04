@@ -4,10 +4,10 @@
   "poradie": 3,
   "nazov": "Kaštieľ v Radoli",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/08/radola.png",
+  "cover": "assets/images/migrated/radola.png",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2022/09/Kastiel-v-radoli.mp3"
+      "url": "assets/audio/migrated/kastiel-v-radoli.mp3"
     }
   ],
   "galeria": [],

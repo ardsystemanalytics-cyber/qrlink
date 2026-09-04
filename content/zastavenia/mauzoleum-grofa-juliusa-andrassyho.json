@@ -4,10 +4,10 @@
   "poradie": 2,
   "nazov": "Mauzóleum grófa Júliusa Andrássyho",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/06/003.jpg",
+  "cover": "assets/images/migrated/003.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/09/08-Mauzóleum-grófa-Júliusa-Andrássyho.mp3"
+      "url": "assets/audio/migrated/08-mauzoleum-grofa-juliusa-andrassyho.mp3"
     }
   ],
   "galeria": [],

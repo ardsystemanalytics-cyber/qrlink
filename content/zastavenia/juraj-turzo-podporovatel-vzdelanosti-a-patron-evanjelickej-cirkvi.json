@@ -4,10 +4,10 @@
   "poradie": 4,
   "nazov": "Juraj Turzo – podporovateľ vzdelanosti a patrón evanjelickej cirkvi ",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/11/4.jpg",
+  "cover": "assets/images/migrated/4.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/Tabula-04.mp3"
+      "url": "assets/audio/migrated/tabula-04.mp3"
     }
   ],
   "galeria": [],

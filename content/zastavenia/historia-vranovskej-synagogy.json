@@ -4,10 +4,10 @@
   "poradie": 11,
   "nazov": "História vranovskej synagógy",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/04/Ortodoxn_zidovsk-synag-ga-patrila-k-dominant-m_Vranov-Enhanced-Colorized@2x.jpg",
+  "cover": "assets/images/migrated/ortodoxn_zidovsk-synag-ga-patrila-k-dominant-m_vranov-enhanced-colorized-2x.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2022/04/Historia-Vranovskej-Sinagogiy.mp3"
+      "url": "assets/audio/migrated/historia-vranovskej-sinagogiy.mp3"
     }
   ],
   "galeria": [],

@@ -4,10 +4,10 @@
   "poradie": 8,
   "nazov": "Zavlažovací systém",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-8.jpg",
+  "cover": "assets/images/migrated/qr-8.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/8.-Zavlažovací-systém.mp3"
+      "url": "assets/audio/migrated/8-zavlazovaci-system.mp3"
     }
   ],
   "galeria": [],

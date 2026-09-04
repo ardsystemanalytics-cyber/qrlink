@@ -4,10 +4,10 @@
   "poradie": 9,
   "nazov": "Park Drotára a Džarka, Prícestný stĺp Jána Nepomuckého, Súsošie Drotára a Džarka",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/4.jpg",
+  "cover": "assets/images/migrated/4-2.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/4.-The-park-of-tinker-and-young-tinker-Drotár-and-Džrek-the-pillar-of-Jan-Nepomuk-the-sculpture-of-tinker-and-young-tinker.mp3"
+      "url": "assets/audio/migrated/4-the-park-of-tinker-and-young-tinker-drotar-and-dzrek-the-pillar-of-jan-nepomuk-the-sculpture-of-tinker-and-young-tinker.mp3"
     }
   ],
   "galeria": [],

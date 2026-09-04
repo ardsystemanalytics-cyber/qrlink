@@ -4,10 +4,10 @@
   "poradie": 5,
   "nazov": "Višňa pílkatá (sakura)",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-20.jpg",
+  "cover": "assets/images/migrated/qr-20.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/20.-Višňa-pílkatá-sakura.mp3"
+      "url": "assets/audio/migrated/20-visna-pilkata-sakura.mp3"
     }
   ],
   "galeria": [],

@@ -4,10 +4,10 @@
   "poradie": 15,
   "nazov": "PIARISTICKÉ GYMNÁZIUM",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/5-piaristicke-gymnazium.jpg",
+  "cover": "assets/images/migrated/5-piaristicke-gymnazium.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/05/22-PIARISTICKÉ-GYMNÁZIUM.mp3"
+      "url": "assets/audio/migrated/22-piaristicke-gymnazium.mp3"
     }
   ],
   "galeria": [],

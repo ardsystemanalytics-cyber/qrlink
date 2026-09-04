@@ -4,10 +4,10 @@
   "poradie": 10,
   "nazov": "Japonský most",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-10.jpg",
+  "cover": "assets/images/migrated/qr-10.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/10.-Japonský-most.mp3"
+      "url": "assets/audio/migrated/10-japonsky-most.mp3"
     }
   ],
   "galeria": [],

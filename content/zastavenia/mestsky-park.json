@@ -4,10 +4,10 @@
   "poradie": 1,
   "nazov": "Mestský park",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/06/009.jpg",
+  "cover": "assets/images/migrated/009.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/09/09-mestský-park.mp3"
+      "url": "assets/audio/migrated/09-mestsky-park.mp3"
     }
   ],
   "galeria": [],

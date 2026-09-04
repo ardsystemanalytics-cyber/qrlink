@@ -4,10 +4,10 @@
   "poradie": 5,
   "nazov": "Hermesova studňa",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-5.jpg",
+  "cover": "assets/images/migrated/qr-5.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/5.-Hermesova-studňa.mp3"
+      "url": "assets/audio/migrated/5-hermesova-studna.mp3"
     }
   ],
   "galeria": [],

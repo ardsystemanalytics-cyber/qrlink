@@ -4,10 +4,10 @@
   "poradie": 11,
   "nazov": "Severný palác",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/11-severný-palác.jpg",
+  "cover": "assets/images/migrated/11-severny-palac.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/11.mp3"
+      "url": "assets/audio/migrated/11.mp3"
     }
   ],
   "galeria": [],

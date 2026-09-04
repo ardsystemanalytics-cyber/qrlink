@@ -4,10 +4,10 @@
   "poradie": 1,
   "nazov": "Rozhľadňa Tábor",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/08/tabor.png",
+  "cover": "assets/images/migrated/tabor.png",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2022/09/rozhladna-tabor.mp3"
+      "url": "assets/audio/migrated/rozhladna-tabor.mp3"
     }
   ],
   "galeria": [],

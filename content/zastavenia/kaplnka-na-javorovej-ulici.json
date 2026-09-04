@@ -4,10 +4,10 @@
   "poradie": 3,
   "nazov": "Kaplnka na Javorovej ulici",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/javorova.jpg",
+  "cover": "assets/images/migrated/javorova.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-3-The-chapel-on-the-“Javorova”-street.mp3"
+      "url": "assets/audio/migrated/6-3-the-chapel-on-the-javorova-street.mp3"
     }
   ],
   "galeria": [],

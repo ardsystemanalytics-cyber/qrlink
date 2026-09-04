@@ -4,10 +4,10 @@
   "poradie": 11,
   "nazov": "Kaplnka sv. Antonína Paduánskeho, Ondřejník",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/11-Kaple-sv.-Antonína-Paduánského-Ondřejník.jpg",
+  "cover": "assets/images/migrated/11-kaple-sv-antonina-paduanskeho-ondrejnik.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/11.-Chapel-of-St.-Antonín-Paduánsky-Ondřejník.mp3"
+      "url": "assets/audio/migrated/11-chapel-of-st-antonin-paduansky-ondrejnik.mp3"
     }
   ],
   "galeria": [],

@@ -4,10 +4,10 @@
   "poradie": 10,
   "nazov": "Hasičské Hobby múzeum",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/Hasicske-hobby-muzeum.jpg",
+  "cover": "assets/images/migrated/hasicske-hobby-muzeum.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/3.-The-Firemen´s-hobby-museum.mp3"
+      "url": "assets/audio/migrated/3-the-firemen-s-hobby-museum.mp3"
     }
   ],
   "galeria": [],

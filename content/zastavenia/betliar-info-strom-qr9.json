@@ -4,10 +4,10 @@
   "poradie": 9,
   "nazov": "Olympijský oheň",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-9.jpg",
+  "cover": "assets/images/migrated/qr-9.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/9.-Olympijský-oheň.mp3"
+      "url": "assets/audio/migrated/9-olympijsky-ohen.mp3"
     }
   ],
   "galeria": [],

@@ -4,10 +4,10 @@
   "poradie": 10,
   "nazov": "Edmund Reitter – rodinné zázemí",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/11/4_Portrét-Edmunda-Reittera.jpg",
+  "cover": "assets/images/migrated/4_portret-edmunda-reittera.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/12/Reiter01.mp3"
+      "url": "assets/audio/migrated/reiter01.mp3"
     }
   ],
   "galeria": [],

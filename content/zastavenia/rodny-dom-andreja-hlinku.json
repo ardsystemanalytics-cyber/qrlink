@@ -4,10 +4,10 @@
   "poradie": 5,
   "nazov": "RODNÝ DOM ANDREJA HLINKU",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/19-dom.-a.-hlinku_cernova.jpg",
+  "cover": "assets/images/migrated/19-dom-a-hlinku_cernova.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/05-RODNÝ-DOM-ANDREJA-HLINKU.mp3"
+      "url": "assets/audio/migrated/05-rodny-dom-andreja-hlinku.mp3"
     }
   ],
   "galeria": [],

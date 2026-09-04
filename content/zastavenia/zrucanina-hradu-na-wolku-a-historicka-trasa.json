@@ -4,10 +4,10 @@
   "poradie": 12,
   "nazov": "Zrúcanina hradu na Wolku a historická trasa",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/12.Ruiny-Zamku-na-Wołku.jpg",
+  "cover": "assets/images/migrated/12-ruiny-zamku-na-wo-ku.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/12.-THE-RUIN-OF-THE-CASTLE-ON-WOLK-AND-THE-HISTORICAL-ROUTE.mp3"
+      "url": "assets/audio/migrated/12-the-ruin-of-the-castle-on-wolk-and-the-historical-route.mp3"
     }
   ],
   "galeria": [],

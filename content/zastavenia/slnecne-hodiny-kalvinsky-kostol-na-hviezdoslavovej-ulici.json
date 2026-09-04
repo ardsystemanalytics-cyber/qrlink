@@ -4,18 +4,18 @@
   "poradie": 9,
   "nazov": "Slnečné hodiny – Kalvínsky kostol na Hviezdoslavovej ulici",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage3.jpg",
+  "cover": "assets/images/migrated/webp-net-resizeimage3.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2021/09/09-Slnecne-hodiny-kalvinsky-kostol-3.mp3"
+      "url": "assets/audio/migrated/09-slnecne-hodiny-kalvinsky-kostol-3.mp3"
     }
   ],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage8.jpg"
+      "url": "assets/images/migrated/webp-net-resizeimage8.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage7.jpg"
+      "url": "assets/images/migrated/webp-net-resizeimage7.jpg"
     }
   ],
   "gps": null,

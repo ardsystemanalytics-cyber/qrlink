@@ -4,10 +4,10 @@
   "poradie": 1,
   "nazov": "JURKOVIČOVA ROZHĽADŇA",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/09/jurkovicova-rozhladna.jpg",
+  "cover": "assets/images/migrated/jurkovicova-rozhladna.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2022/09/Jurkovicova-rozhladna.mp3"
+      "url": "assets/audio/migrated/jurkovicova-rozhladna.mp3"
     }
   ],
   "galeria": [],

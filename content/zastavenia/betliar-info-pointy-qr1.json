@@ -4,10 +4,10 @@
   "poradie": 1,
   "nazov": "Kultúrny dom",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/1-kulturny-dom.jpg",
+  "cover": "assets/images/migrated/1-kulturny-dom.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/1.-KULTÚRNY-DOM.mp3"
+      "url": "assets/audio/migrated/1-kulturny-dom.mp3"
     }
   ],
   "galeria": [],

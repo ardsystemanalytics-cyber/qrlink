@@ -4,15 +4,15 @@
   "poradie": 5,
   "nazov": "Vývoj do roku 1989",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Živčáková-Chrám-matky-Cirkvi-1.jpg",
+  "cover": "assets/images/migrated/zivcakova-chram-matky-cirkvi-1.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/05-vyvoj-do-roku-1989.mp3"
+      "url": "assets/audio/migrated/05-vyvoj-do-roku-1989.mp3"
     }
   ],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png"
+      "url": "assets/images/migrated/obalka-03.png"
     }
   ],
   "gps": null,

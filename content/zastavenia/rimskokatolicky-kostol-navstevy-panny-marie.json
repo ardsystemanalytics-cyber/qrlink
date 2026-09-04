@@ -4,10 +4,10 @@
   "poradie": 8,
   "nazov": "Rímskokatolícky kostol Návštevy Panny Márie",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/06/002-1.jpg",
+  "cover": "assets/images/migrated/002-1.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/09/02-Rímskokatolícky-kostol-Návštevy-Panny-Márie.mp3"
+      "url": "assets/audio/migrated/02-rimskokatolicky-kostol-navstevy-panny-marie.mp3"
     }
   ],
   "galeria": [],

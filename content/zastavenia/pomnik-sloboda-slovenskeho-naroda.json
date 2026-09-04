@@ -4,10 +4,10 @@
   "poradie": 24,
   "nazov": "POMNÍK „SLOBODA SLOVENSKÉHO NÁRODA“",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/13-socha-slobody_-obetiam-ii.-sv.-vojny.jpg",
+  "cover": "assets/images/migrated/13-socha-slobody_-obetiam-ii-sv-vojny.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/10-Pomník-sloboda-slovenského-národa.mp3"
+      "url": "assets/audio/migrated/10-pomnik-sloboda-slovenskeho-naroda.mp3"
     }
   ],
   "galeria": [],

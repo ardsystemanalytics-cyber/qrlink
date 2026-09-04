@@ -4,10 +4,10 @@
   "poradie": 1,
   "nazov": "Kaplnka Panny Márie ustavičnej pomoci U Okuliarov",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/u-koliarov.jpg",
+  "cover": "assets/images/migrated/u-koliarov.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-1-The-chapel-of-Virgin-Mary’s-perpetual-help-in-settlement-U-Okruhliakov.mp3"
+      "url": "assets/audio/migrated/6-1-the-chapel-of-virgin-mary-s-perpetual-help-in-settlement-u-okruhliakov.mp3"
     }
   ],
   "galeria": [],

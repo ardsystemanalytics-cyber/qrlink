@@ -4,10 +4,10 @@
   "poradie": 8,
   "nazov": "Malý park",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/8-maly-park.jpg",
+  "cover": "assets/images/migrated/8-maly-park.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/8.-MALÝ-PARK.mp3"
+      "url": "assets/audio/migrated/8-maly-park.mp3"
     }
   ],
   "galeria": [],

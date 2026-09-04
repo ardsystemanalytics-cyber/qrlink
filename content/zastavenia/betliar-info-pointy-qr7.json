@@ -4,10 +4,10 @@
   "poradie": 7,
   "nazov": "Budova obecného úradu",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/7-obecny-urad.jpg",
+  "cover": "assets/images/migrated/7-obecny-urad.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/7.-BUDOVA-OBECNÉHO-ÚRADU.mp3"
+      "url": "assets/audio/migrated/7-budova-obecneho-uradu.mp3"
     }
   ],
   "galeria": [],

@@ -4,10 +4,10 @@
   "poradie": 14,
   "nazov": "Hlavné nádvorie",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/14-hlavné-nádvorie-e1593777205229.jpg",
+  "cover": "assets/images/migrated/14-hlavne-nadvorie-e1593777205229.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2020/07/14.mp3"
+      "url": "assets/audio/migrated/14.mp3"
     }
   ],
   "galeria": [],

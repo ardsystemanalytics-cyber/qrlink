@@ -4,14 +4,14 @@
   "poradie": 4,
   "nazov": "Ku prameňu rieky Kysuca – 400 rokov – 4000 krokov",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Prameň-Kysuce.jpg",
+  "cover": "assets/images/migrated/pramen-kysuce.jpg",
   "audio": [],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Makov-greguše.jpg"
+      "url": "assets/images/migrated/makov-greguse.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2023/08/Makov-Kršlisko.jpg"
+      "url": "assets/images/migrated/makov-krslisko.jpg"
     }
   ],
   "gps": null,

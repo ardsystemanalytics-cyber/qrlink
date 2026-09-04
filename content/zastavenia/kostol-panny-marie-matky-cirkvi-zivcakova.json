@@ -4,10 +4,10 @@
   "poradie": 11,
   "nazov": "Kostol Panny Márie Matky Cirkvi, Živčáková",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/kostol-zivcakova.jpg",
+  "cover": "assets/images/migrated/kostol-zivcakova.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-11-The-church-of-the-Virgin-Mary-Mother-of-the-Church-in-Zivcakova.mp3"
+      "url": "assets/audio/migrated/6-11-the-church-of-the-virgin-mary-mother-of-the-church-in-zivcakova.mp3"
     }
   ],
   "galeria": [],

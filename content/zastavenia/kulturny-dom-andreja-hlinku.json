@@ -4,10 +4,10 @@
   "poradie": 11,
   "nazov": "KULTÚRNY DOM ANDREJA HLINKU",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/11-kult.-dom-A.-hlinku.jpg",
+  "cover": "assets/images/migrated/11-kult-dom-a-hlinku.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/16-KULTÚRNY-DOM-ANDREJA-HLINKU.mp3"
+      "url": "assets/audio/migrated/16-kulturny-dom-andreja-hlinku.mp3"
     }
   ],
   "galeria": [],

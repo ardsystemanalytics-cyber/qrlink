@@ -4,10 +4,10 @@
   "poradie": 2,
   "nazov": "Osada „Kolonia” v štýle Witkiewiczovcov",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/2.Budynek-na-osiedlu-Kolonia-w-stylu-Witkiewiczowskim.jpg",
+  "cover": "assets/images/migrated/2-budynek-na-osiedlu-kolonia-w-stylu-witkiewiczowskim.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/2.-THE-SETTLEMENT-„KOLONIA“-IN-THE-WITKIEWICZ-STYLE.mp3"
+      "url": "assets/audio/migrated/2-the-settlement-kolonia-in-the-witkiewicz-style.mp3"
     }
   ],
   "galeria": [],

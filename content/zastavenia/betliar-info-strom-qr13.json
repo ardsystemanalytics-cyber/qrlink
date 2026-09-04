@@ -4,10 +4,10 @@
   "poradie": 13,
   "nazov": "Veľký rybník",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/QR-13.jpg",
+  "cover": "assets/images/migrated/qr-13.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/13.-Veľký-rybník.mp3"
+      "url": "assets/audio/migrated/13-velky-rybnik.mp3"
     }
   ],
   "galeria": [],

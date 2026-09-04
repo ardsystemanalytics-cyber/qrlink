@@ -4,10 +4,10 @@
   "poradie": 3,
   "nazov": "Rybníky",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/12.jpg",
+  "cover": "assets/images/migrated/12.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/12.-Ponds.mp3"
+      "url": "assets/audio/migrated/12-ponds.mp3"
     }
   ],
   "galeria": [],

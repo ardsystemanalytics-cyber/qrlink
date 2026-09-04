@@ -4,10 +4,10 @@
   "poradie": 22,
   "nazov": "STUDŇA",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/25-vlkolinec_studna.jpg",
+  "cover": "assets/images/migrated/25-vlkolinec_studna.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/02-Studňa.mp3"
+      "url": "assets/audio/migrated/02-studna.mp3"
     }
   ],
   "galeria": [],

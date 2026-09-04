@@ -4,10 +4,10 @@
   "poradie": 13,
   "nazov": "Kalvária",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/Kalvária.jpg",
+  "cover": "assets/images/migrated/kalvaria.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/05/06-Kalvária.mp3"
+      "url": "assets/audio/migrated/06-kalvaria.mp3"
     }
   ],
   "galeria": [],

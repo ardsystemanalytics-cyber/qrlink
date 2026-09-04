@@ -4,10 +4,10 @@
   "poradie": 2,
   "nazov": "Pamätník M. R. Štefánika",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/8.jpg",
+  "cover": "assets/images/migrated/8.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/8-2-The-monument-of-M.R.Stefanika-4.mp3"
+      "url": "assets/audio/migrated/8-2-the-monument-of-m-r-stefanika-4.mp3"
     }
   ],
   "galeria": [],

@@ -4,14 +4,14 @@
   "poradie": 1,
   "nazov": "Vysťahovalectvo",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2026/06/vystahovalectvo-1.jpg",
+  "cover": "assets/images/migrated/vystahovalectvo-1.jpg",
   "audio": [],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2026/06/europsky-emigranti-habura.jpg"
+      "url": "assets/images/migrated/europsky-emigranti-habura.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2026/06/habura-foto-vystahovalectvo.jpg"
+      "url": "assets/images/migrated/habura-foto-vystahovalectvo.jpg"
     }
   ],
   "gps": {

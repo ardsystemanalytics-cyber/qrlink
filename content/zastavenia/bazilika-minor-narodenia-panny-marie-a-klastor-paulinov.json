@@ -4,21 +4,21 @@
   "poradie": 3,
   "nazov": "Bazilika minor Narodenia Panny Márie a kláštor paulínov",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Bazilika-minor-Narodenia-Panny-Márie-a-kláštor-paulínov.jpg",
+  "cover": "assets/images/migrated/bazilika-minor-narodenia-panny-marie-a-klastor-paulinov.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2021/11/03-Bazilika-Minor-Narodenia-Panny-Marie.mp3"
+      "url": "assets/audio/migrated/03-bazilika-minor-narodenia-panny-marie.mp3"
     }
   ],
   "galeria": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/5-bazilika-minor-1024x773.jpg"
+      "url": "assets/images/migrated/5-bazilika-minor-1024x773.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/6-klaštor-paulinov.jpg"
+      "url": "assets/images/migrated/6-klastor-paulinov.jpg"
     },
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage1-1024x768.jpg"
+      "url": "assets/images/migrated/webp-net-resizeimage1-1024x768.jpg"
     }
   ],
   "gps": null,

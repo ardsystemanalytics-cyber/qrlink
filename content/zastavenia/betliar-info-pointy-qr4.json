@@ -4,10 +4,10 @@
   "poradie": 4,
   "nazov": "Evanjelická fara",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/4-evanjelicka-fara.jpg",
+  "cover": "assets/images/migrated/4-evanjelicka-fara.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2025/08/4.-EVANJELICKÁ-FARA.mp3"
+      "url": "assets/audio/migrated/4-evanjelicka-fara.mp3"
     }
   ],
   "galeria": [],

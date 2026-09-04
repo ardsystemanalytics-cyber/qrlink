@@ -4,10 +4,10 @@
   "poradie": 6,
   "nazov": "Chránená lipa",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2022/08/lipa1.png",
+  "cover": "assets/images/migrated/lipa1.png",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2022/09/Chranena-lipa.mp3"
+      "url": "assets/audio/migrated/chranena-lipa.mp3"
     }
   ],
   "galeria": [],

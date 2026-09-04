@@ -4,10 +4,10 @@
   "poradie": 8,
   "nazov": "Futbalové ihrisko a hala Sport Frýdlant nad Ostravicí",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/11/08-Fotbalové-hřiště-a-hala-Sport.jpg",
+  "cover": "assets/images/migrated/08-fotbalove-hriste-a-hala-sport.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/8.Football-playground-and-Sport-Hall-in-Frýdlant-nad-Ostravicí.mp3"
+      "url": "assets/audio/migrated/8-football-playground-and-sport-hall-in-frydlant-nad-ostravici.mp3"
     }
   ],
   "galeria": [],

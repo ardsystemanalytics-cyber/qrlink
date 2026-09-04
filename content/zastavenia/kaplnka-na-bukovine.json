@@ -4,10 +4,10 @@
   "poradie": 12,
   "nazov": "Kaplnka na Bukovine",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2017/12/bukovina.jpg",
+  "cover": "assets/images/migrated/bukovina.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/03/6-12-The-chapel-in-Bukovina.mp3"
+      "url": "assets/audio/migrated/6-12-the-chapel-in-bukovina.mp3"
     }
   ],
   "galeria": [],

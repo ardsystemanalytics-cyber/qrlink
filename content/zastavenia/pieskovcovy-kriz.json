@@ -4,10 +4,10 @@
   "poradie": 2,
   "nazov": "Pieskovcový kríž",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage6.jpg",
+  "cover": "assets/images/migrated/webp-net-resizeimage6.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2021/09/02-Pieskovcovy-kriz-1.mp3"
+      "url": "assets/audio/migrated/02-pieskovcovy-kriz-1.mp3"
     }
   ],
   "galeria": [],

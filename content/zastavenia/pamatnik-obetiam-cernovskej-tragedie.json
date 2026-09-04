@@ -4,10 +4,10 @@
   "poradie": 3,
   "nazov": "POMNÍK OBETIAM ČERNOVSKEJ TRAGÉDIE",
   "popis": "",
-  "cover": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/22-pomnik-obetiam-_-cernova.jpg",
+  "cover": "assets/images/migrated/22-pomnik-obetiam-_-cernova.jpg",
   "audio": [
     {
-      "url": "https://www.qrlink.sk/new/wp-content/uploads/2018/04/07-PAMÄTNÍK-OBETIAM-ČERNOVSKEJ-TRAGÉDIE.mp3"
+      "url": "assets/audio/migrated/07-pamatnik-obetiam-cernovskej-tragedie.mp3"
     }
   ],
   "galeria": [],
