@@ -1,0 +1,28 @@
+{
+  "id": "pesnicka-kohutik-jaraby",
+  "miesto": "dendrolog-2",
+  "poradie": 1,
+  "nazov": "Pesnička &#8222;Kohútik jarabý&#8220;",
+  "popis": "",
+  "cover": "assets/images/migrated/zs-banova-dendrofon-01-min.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/kohutik-jaraby.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Text pesničky &#8222;Kohútik jarabý“\n\nKohútik jarabý,\n\nnechoď do záhrady,\n\npolámeš ľaliu,\n\npotom ťa zabijú.\n\nA keď ťa zabijú\n\nTak ťa pochovajú\n\nDo takej záhrady\n\nKde páni sedajú",
+  "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
+  "projekt": "ZŠ a MŠ Bánová",
+  "miestoNazov": "Dendrológ 2",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/pesnicka-kohutik-jaraby/",
+    "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/pesnicka-kohutik-jaraby/",
+    "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/pesnicka-kohutik-jaraby/",
+    "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/pesnicka-kohutik-jaraby/",
+    "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/pesnicka-kohutik-jaraby/",
+    "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/pesnicka-kohutik-jaraby/"
+  }
+}

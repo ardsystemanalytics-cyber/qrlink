@@ -129,6 +129,13 @@ const DB = {
   ],
   "miesta": [
     {
+      "id": "bludisko",
+      "rodic": "zs-a-ms-banova",
+      "nazov": "Bludisko",
+      "foto": "",
+      "popis": ""
+    },
+    {
       "id": "hrad-strecno",
       "nazov": "Hrad Strečno",
       "primarna": "pamiatky",
@@ -199,6 +206,13 @@ const DB = {
       "popis": "Obec pri Bratislave s bohatou históriou."
     },
     {
+      "id": "dendrolog-1",
+      "rodic": "zs-a-ms-banova",
+      "nazov": "Dendrológ 1",
+      "foto": "",
+      "popis": ""
+    },
+    {
       "id": "turzovka-pamatniky",
       "rodic": "turzovka",
       "nazov": "Pamätníky v Turzovke",
@@ -241,6 +255,13 @@ const DB = {
       }
     },
     {
+      "id": "dendrolog-2",
+      "rodic": "zs-a-ms-banova",
+      "nazov": "Dendrológ 2",
+      "foto": "",
+      "popis": ""
+    },
+    {
       "id": "ivanka-uroven-1",
       "rodic": "bratislava-ivanka",
       "nazov": "Úroveň 1 – testovacia podkategória",
@@ -261,6 +282,13 @@ const DB = {
       }
     },
     {
+      "id": "hmyzi-domcek",
+      "rodic": "zs-a-ms-banova",
+      "nazov": "Hmyzí domček",
+      "foto": "",
+      "popis": ""
+    },
+    {
       "id": "ivanka-uroven-2",
       "rodic": "ivanka-uroven-1",
       "nazov": "Úroveň 2 – testovacia podkategória",
@@ -273,10 +301,24 @@ const DB = {
       "popis": "Testovacia podkategória bez zastavení, 3. úroveň vnorenia."
     },
     {
+      "id": "pexeso",
+      "rodic": "zs-a-ms-banova",
+      "nazov": "Pexeso",
+      "foto": "",
+      "popis": ""
+    },
+    {
       "id": "ivanka-uroven-4",
       "rodic": "ivanka-uroven-3",
       "nazov": "Úroveň 4 – so zastaveniami",
       "popis": "Testovacia podkategória, ktorá už obsahuje priamo zastavenia (posledná/listová úroveň)."
+    },
+    {
+      "id": "vtacia-budka",
+      "rodic": "zs-a-ms-banova",
+      "nazov": "Vtáčia búdka",
+      "foto": "",
+      "popis": ""
     },
     {
       "id": "betliar",
@@ -300,6 +342,13 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/betliar/",
         "hu": "https://www.qrlink.sk/new/hu/category/betliar/"
       }
+    },
+    {
+      "id": "vtacie-krmitko",
+      "rodic": "zs-a-ms-banova",
+      "nazov": "Vtáčie kŕmitko",
+      "foto": "",
+      "popis": ""
     },
     {
       "id": "euroregion-beskydy",
@@ -852,6 +901,20 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/",
         "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/"
       }
+    },
+    {
+      "id": "zs-a-ms-banova",
+      "nazov": "ZŠ a MŠ Bánová",
+      "primarna": "enviro",
+      "kategorie": [
+        "enviro"
+      ],
+      "lon": 18.72,
+      "lat": 49.19,
+      "mapX": 356,
+      "mapY": 128,
+      "cover": "assets/images/migrated/zs-banova-bludisko-22-min.jpg",
+      "popis": "Areál základnej a materskej školy v Žiline-Bánovej s náučnými zastaveniami pre environmentálnu výchovu."
     }
   ],
   "zastavenia": [
@@ -2234,6 +2297,144 @@ const DB = {
       }
     },
     {
+      "id": "vevericka",
+      "miesto": "bludisko",
+      "poradie": 1,
+      "nazov": "Veverička",
+      "popis": "",
+      "cover": "assets/images/migrated/zs-banova-bludisko-22-min.jpg",
+      "audio": [
+        "assets/audio/migrated/bludisko-vevericka.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>&#x1f43f;&#xfe0f; Veverička</p>\n<p>Veverička skáče v lese,</p>\n<p>oriešky si schováva.</p>\n<p>Kŕmi sa nimi na halúzke,</p>\n<p>vietor lístky rozháňa.</p>\n<p>Po vetvičke beží hravo,</p>\n<p>chvostík za ňou poskakuje.</p>\n<p>Na zimu má zásob plno,</p>\n<p>v dutom strome oddychuje.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/vevericka/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/vevericka/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/vevericka/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/vevericka/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/vevericka/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/vevericka/"
+      }
+    },
+    {
+      "id": "krtko",
+      "miesto": "bludisko",
+      "poradie": 2,
+      "nazov": "Krtko",
+      "popis": "",
+      "cover": "assets/images/migrated/zs-banova-bludisko-25-min.jpg",
+      "audio": [
+        "assets/audio/migrated/bludisko-krtko.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>&#x1f43e; Krtko</p>\n<p>Krtko býva pod zemou,</p>\n<p>s lopatkami pracuje tmou.</p>\n<p>Hlboký si kope dom,</p>\n<p>V pokoji si spinká v ňom.</p>\n<p>Oči malé, skoro slepý je,</p>\n<p>čuch ho k cieľu dovedie.</p>\n<p>Tunel vedie sem i ta,</p>\n<p>krtko vie, kde domov má.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/krtko/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/krtko/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/krtko/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/krtko/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/krtko/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/krtko/"
+      }
+    },
+    {
+      "id": "mravec",
+      "miesto": "bludisko",
+      "poradie": 3,
+      "nazov": "Mravec",
+      "popis": "",
+      "cover": "assets/images/migrated/zs-banova-bludisko-27-min.jpg",
+      "audio": [
+        "assets/audio/migrated/bludisko-mravec.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>&#x1f41c; Mravec</p>\n<p>Mravec kráča v dlhom rade,</p>\n<p>na chrbát si cukor háďže.</p>\n<p>Silný je ako veľký chlap,</p>\n<p>zvládne aj ten najťažší náklad.</p>\n<p>V mravenisku všetko vrie,</p>\n<p>každý vie, kde jeho miesto je.</p>\n<p>Pracujú tam noci dni,</p>\n<p>mravčia vôľa nikdy neskončí.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/mravec/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/mravec/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/mravec/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/mravec/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/mravec/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/mravec/"
+      }
+    },
+    {
+      "id": "vcielka",
+      "miesto": "bludisko",
+      "poradie": 4,
+      "nazov": "Včielka",
+      "popis": "",
+      "cover": "assets/images/migrated/zs-banova-bludisko-24-min.jpg",
+      "audio": [
+        "assets/audio/migrated/bludisko-vcielka.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>&#x1f41d; Včielka</p>\n<p>Včielka malá v lúke spieva,</p>\n<p>z kvetu na kvet ticho lieta.</p>\n<p>Bzučí, spieva, tancuje,</p>\n<p>v úli medík čaruje.</p>\n<p>Každý kvietok pozdraví,</p>\n<p>slniečko náladu jej spraví.</p>\n<p>Z peľu varí chutný med,</p>\n<p>čo má rado celý svet.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/vcielka/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/vcielka/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/vcielka/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/vcielka/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/vcielka/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/vcielka/"
+      }
+    },
+    {
+      "id": "slimak",
+      "miesto": "bludisko",
+      "poradie": 5,
+      "nazov": "Slimák",
+      "popis": "",
+      "cover": "assets/images/migrated/zs-banova-bludisko-23-min.jpg",
+      "audio": [
+        "assets/audio/migrated/bludisko-slimak.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>&#x1f40c; Slimák</p>\n<p>Slimák sa neponáhľa, nemá stres,</p>\n<p>nechce prejsť svet za jeden deň.</p>\n<p>Kam príde, tam sa zastaví,</p>\n<p>život v tempe nestrávi.</p>\n<p>Keď zaprší, rád sa smeje,</p>\n<p>po kvapkách sa veselo kĺže.</p>\n<p>Zanecháva slizký pás,</p>\n<p>ahoj slimák, vitaj zas!</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/slimak/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/slimak/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/slimak/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/slimak/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/slimak/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/slimak/"
+      }
+    },
+    {
+      "id": "bobor",
+      "miesto": "bludisko",
+      "poradie": 6,
+      "nazov": "Bobor",
+      "popis": "",
+      "cover": "assets/images/migrated/zs-banova-bludisko-26-min.jpg",
+      "audio": [
+        "assets/audio/migrated/bludisko-bobor.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Bobor</p>\n<p>Bobor stavia hrádzu v rieke,</p>\n<p>zo stromov má hradby veľké.</p>\n<p>Zúbky silné, ostré má,</p>\n<p>stromy rýchlo ohrýza.</p>\n<p>Chvost má plochý ako pádlо,</p>\n<p>pleskne ním, keď skočí na dno.</p>\n<p>Vo vode je majster plavby,</p>\n<p>v rieke tvorí svoje stavby.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/bobor/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/bobor/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/bobor/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/bobor/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/bobor/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/bobor/"
+      }
+    },
+    {
       "id": "mestske-muzeum-karola-tocika",
       "miesto": "cestovatelsky-dennik",
       "poradie": 1,
@@ -2686,6 +2887,284 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/ciernoklacianska-pyxida/",
         "pl": "https://www.qrlink.sk/new/pl/ciernoklacianska-pyxida/",
         "hu": "https://www.qrlink.sk/new/hu/ciernoklacianska-pyxida/"
+      }
+    },
+    {
+      "id": "javor-mliecny",
+      "miesto": "dendrolog-1",
+      "poradie": 1,
+      "nazov": "1. Javor Mliečny",
+      "popis": "",
+      "cover": "assets/images/migrated/javor-mliecny-min.jpg",
+      "audio": [
+        "assets/audio/migrated/pexeso-javor-mliecny-2.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Javor Mliečny – Acer platanoides</p>\n<p>Dorastá do 25 – 30 m a dobre znáša mestské prostredie i znečistenie ovzdušia. Najradšej rastie na čerstvých, hlinitých pôdach od nížin po podhorské pásmo. Z poranenej stopky listu vyteká biela „mliečna“ šťava, podľa ktorej dostal meno; listy sú päťlaločné s dlhou špičkou. Svetlé, husté drevo s jemnou plameňovou kresbou sa používa na nábytok a rezonančné dosky huslí či gitár. Na jar medodajné kvety lákajú včely skôr, než sa plne rozvinú listy.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/javor-mliecny/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/javor-mliecny/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/javor-mliecny/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/javor-mliecny/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/javor-mliecny/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/javor-mliecny/"
+      }
+    },
+    {
+      "id": "2-gastan-jedly",
+      "miesto": "dendrolog-1",
+      "poradie": 2,
+      "nazov": "2. Gaštan Jedlý",
+      "popis": "",
+      "cover": "assets/images/migrated/gastan-jedly-min.jpg",
+      "audio": [
+        "assets/audio/migrated/pexeso-gastan-jedly.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Gaštan Jedlý – Castanea sativa</p>\n<p>Mohutný strom 20 – 35 m, ktorý vyžaduje teplejšie, slnečné svahy s hlbokými, mierne kyslými pôdami. Dlhé kožovité listy majú ostré pílkovité okraje a na jeseň sa sfarbujú do zlatohneda. V pichľavých pologuľovitých obaloch dozrievajú sladké jedlé oriešky obľúbené v kuchyni aj cukrárstve. Drevo podobné dubu je odolné voči hnilobe a slúži na sudy, podlahy i vonkajšie stavby. Staré gaštany sa dožívajú aj vyše 500 rokov a v dutinách poskytujú úkryt netopierom.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/2-gastan-jedly/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/2-gastan-jedly/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/2-gastan-jedly/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/2-gastan-jedly/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/2-gastan-jedly/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/2-gastan-jedly/"
+      }
+    },
+    {
+      "id": "3-orech-kralovsky",
+      "miesto": "dendrolog-1",
+      "poradie": 3,
+      "nazov": "3. Orech Kráľovský",
+      "popis": "",
+      "cover": "assets/images/migrated/orech-kralovsky-min.jpg",
+      "audio": [
+        "assets/audio/migrated/pexeso-orech-kralovsky.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Orech Kráľovský – Juglans regia</p>\n<p>Bežne dorastá do 25 – 30 m a vyžaduje teplé, chránené stanovištia s vápenatými pôdami. Široké nepárno perovité listy vydávajú typickú živicovú vôňu a po dotyku môžu zafarbiť pokožku. V tvrdej kôstke dozrieva chutné jadro – jeden z najvýživnejších orechov našich záhrad. Tmavohnedé, dekoratívne drevo je mimoriadne cenené na luxusný nábytok, pažby zbraní či umelecké dyhy. Strom si vytvára chemickú „ochrannú zónu“ – pod ním klíči len málo rastlín, lebo uvoľňuje alelopatické látky.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/3-orech-kralovsky/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/3-orech-kralovsky/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/3-orech-kralovsky/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/3-orech-kralovsky/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/3-orech-kralovsky/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/3-orech-kralovsky/"
+      }
+    },
+    {
+      "id": "4-ceresna-vtacia",
+      "miesto": "dendrolog-1",
+      "poradie": 4,
+      "nazov": "4. Čerešňa Vtáčia",
+      "popis": "",
+      "cover": "assets/images/migrated/ceresna-vtacia-min.jpg",
+      "audio": [
+        "assets/audio/migrated/pexeso-ceresna-vtacia.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Čerešňa Vtáčia – Prunus avium</p>\n<p>Dosahuje 20 – 30 m a najlepšie rastie na slnečných, hlbokých pôdach pahorkatín a nízkych hôr. Na jar rozkvitá záplavou bielych voňavých súkvetí často ešte pred vypučaním listov. Hladká hnedočervená kôra s vodorovnými lenticelami sa v pásoch olupuje. Drevo s teplým červeným odtieňom je obľúbené v stolárstve aj pri výrobe hudobných nástrojov. Lesné vtáky roznášajú semená, takže divo rastúce čerešne sú prirodzenou súčasťou lesných mozaík.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/4-ceresna-vtacia/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/4-ceresna-vtacia/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/4-ceresna-vtacia/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/4-ceresna-vtacia/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/4-ceresna-vtacia/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/4-ceresna-vtacia/"
+      }
+    },
+    {
+      "id": "5-jablon-domaca",
+      "miesto": "dendrolog-1",
+      "poradie": 5,
+      "nazov": "5. Jabloň Domáca",
+      "popis": "",
+      "cover": "assets/images/migrated/jablon-min.jpg",
+      "audio": [
+        "assets/audio/migrated/pexeso-jablon-domaca.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Jabloň Domáca – Malus domestica</p>\n<p>Strom alebo vyšší ker 5 – 10 m, ktorý kvitne poréžovým až bielym oblakom kvetov v apríli. Darí sa mu v slnečných, mierne vlhkých záhradách a sadov na hlinitopiesočnatých pôdach. Plody – jablká – tvoria základ mnohých tradičných jedál i nápojov a skladujú sa celé mesiace. Husté, tvrdé drevo s jemnou kresbou využívajú rezbári, výrobcovia hudobných nástrojov a je skvelé na údenie mäsa. Staré odrody často poskytujú dutiny pre sýkorky a netopiere, čím zvyšujú biodiverzitu sadu.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/5-jablon-domaca/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/5-jablon-domaca/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/5-jablon-domaca/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/5-jablon-domaca/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/5-jablon-domaca/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/5-jablon-domaca/"
+      }
+    },
+    {
+      "id": "6-slivka-trnkova",
+      "miesto": "dendrolog-1",
+      "poradie": 6,
+      "nazov": "6. Slivka Trnková",
+      "popis": "",
+      "cover": "assets/images/migrated/slivka-trnkova-min.jpg",
+      "audio": [
+        "assets/audio/migrated/pexeso-slivka-trnkova.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Slivka Trnková – Prunus spinosa</p>\n<p>Hustý tŕnitý ker alebo nízky strom 2 – 5 m, ktorý tvorí nepreniknuteľné húštiny na suchších medziach a svahoch. V marci až apríli kvitne drobnými bielymi kvetmi ešte pred olistením a patrí k prvým jarným pastvám pre opeľovače. Modro­čierne plody – trnky – chutia trpko, no po jesenných mrazoch zmäknú a využívajú sa na lekváre či aromatizovanie destilátov. Husto rozvetvené konáre s ostňami poskytujú bezpečný úkryt drobnému vtáctvu. Trnky sú príbuzné slivkám, no dokážu rýchlo zmladzovať koreňovými výmladkami a spevňovať erózne svahy.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/6-slivka-trnkova/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/6-slivka-trnkova/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/6-slivka-trnkova/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/6-slivka-trnkova/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/6-slivka-trnkova/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/6-slivka-trnkova/"
+      }
+    },
+    {
+      "id": "7-buk-lesny",
+      "miesto": "dendrolog-1",
+      "poradie": 7,
+      "nazov": "7. Buk Lesný",
+      "popis": "",
+      "cover": "assets/images/migrated/buk-lesny-min.jpg",
+      "audio": [
+        "assets/audio/migrated/pexeso-buk-lesny.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Buk Lesný – Fagus sylvatica</p>\n<p>Môže dosiahnuť 40 – 45 m a vytvára mohutné, tienisté koruny, pod ktorými rastie len málo rastlín. Tvorí čisté bukové porasty vo vlhkých pahorkatinách aj nižších horách do 1 000 m, kde obľubuje hlboké, úrodné pôdy. Kmeň má hladkú sivú kôru prezývanú „slonia koža“. Po parení bukové drevo zmäkne a dá sa ohýbať, preto z neho vznikli slávne ohýbané stoličky Thonet. Listy bukov v lese vytvárajú hrubú vrstvu humusu, ktorá zadržiava vlhkosť.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/7-buk-lesny/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/7-buk-lesny/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/7-buk-lesny/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/7-buk-lesny/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/7-buk-lesny/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/7-buk-lesny/"
+      }
+    },
+    {
+      "id": "8-breza-previsnuta",
+      "miesto": "dendrolog-1",
+      "poradie": 8,
+      "nazov": "8. Breza Previsnutá",
+      "popis": "",
+      "cover": "assets/images/migrated/breza-previsnuta-min.jpg",
+      "audio": [
+        "assets/audio/migrated/pexeso-breza-previsnuta.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Breza Previsnutá – Betula pendula</p>\n<p>Stredne veľký strom 15 – 25 m, zriedka 30 m, s nápadnou bielou kôrou, ktorá sa odlupuje v papierových vločkách. Najlepšie sa jej darí na svetlých, kyslých a suchších pôdach od nížin po podhorské oblasti. Dlhé previsnuté konáre jej dali druhové meno a elegantný vzhľad. Kôra obsahuje betulín, ktorý odpudzuje vodu; preto sa ňou kedysi utesňovali strechy a člny. Brezy sú priekopníci – rýchlo kolonizujú holoruby či požiare a pripravujú pôdu pre ďalšie stromy.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/8-breza-previsnuta/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/8-breza-previsnuta/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/8-breza-previsnuta/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/8-breza-previsnuta/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/8-breza-previsnuta/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/8-breza-previsnuta/"
+      }
+    },
+    {
+      "id": "pesnicka-kohutik-jaraby",
+      "miesto": "dendrolog-2",
+      "poradie": 1,
+      "nazov": "Pesnička &#8222;Kohútik jarabý&#8220;",
+      "popis": "",
+      "cover": "assets/images/migrated/zs-banova-dendrofon-01-min.jpg",
+      "audio": [
+        "assets/audio/migrated/kohutik-jaraby.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Text pesničky &#8222;Kohútik jarabý“</p>\n<p>Kohútik jarabý,</p>\n<p>nechoď do záhrady,</p>\n<p>polámeš ľaliu,</p>\n<p>potom ťa zabijú.</p>\n<p>A keď ťa zabijú</p>\n<p>Tak ťa pochovajú</p>\n<p>Do takej záhrady</p>\n<p>Kde páni sedajú</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/pesnicka-kohutik-jaraby/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/pesnicka-kohutik-jaraby/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/pesnicka-kohutik-jaraby/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/pesnicka-kohutik-jaraby/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/pesnicka-kohutik-jaraby/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/pesnicka-kohutik-jaraby/"
+      }
+    },
+    {
+      "id": "pesnicka-oda-na-radost",
+      "miesto": "dendrolog-2",
+      "poradie": 2,
+      "nazov": "Pesnička &#8222;Óda na radosť&#8220;",
+      "popis": "",
+      "cover": "assets/images/migrated/zs-banova-dendrofon-02-min.jpg",
+      "audio": [
+        "assets/audio/migrated/oda-na-radost.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Pesnička &#8222;Óda na radosť“</p>\n<p>Óda na radosť je záverečná časť Beethovenovej 9. symfónie d moll op 125 k Schillerovej óde &#8222;Na radosť“ (Ode &#8222;An die Freude“)</p>\n<p>Slovenský preklad: Óda na radosť</p>\n<p>Radosť – krásna iskra Božia, elyzejskej dcéry hlas,</p>\n<p>teraz s láskou nevýslovnou ku svätyni vedieš nás.</p>\n<p>Tvoje kúzla prinavrátia, čo zlá doba nechráni –</p>\n<p>všetci ľudia budú bratia pod tvojimi krídlami.</p>\n<p>Ak ti dosiaľ šťastie prialo, priateľovi pomáhaj,</p>\n<p>ak túžiš za ženou stálou, príď – tu u nás nájdeš raj.</p>\n<p>Keby sa dnes každá duša stretla hneď na úsvite,</p>\n<p>svätý mier viac nenarušia, plač so smútkom odíde.</p>\n<p>Radosť! Človek odjakživa pije z ňadier prírody,</p>\n<p>ľudia tebou sa len živia, z teba žijú národy.</p>\n<p>Plný strapec tmavej révy – darca najvzácnejších vín,</p>\n<p>tebou sýtia sa aj červy, teba schváli Cherubín.</p>\n<p>Lúče slnečné sa roja, nebo žiari nad nami,</p>\n<p>spoločnými cestami poďme v časoch nepokoja.</p>\n<p>V náruč poďte milióny – tu je bozk pre celý svet.</p>\n<p>Bratia k hniezdam vzneste let, kde náš milý Otec tróni.</p>\n<p>V prach sa kloňte – milióny, života bez Tvorcu niet.</p>\n<p>Tam pri hviezdach bude bdieť, tam pri hviezdach musí tróniť.</p>\n<p>Radosť, jasná iskra bohov, elyzejskej dcéry hlas,</p>\n<p>teraz s láskou nevýslovnou ku svätyni vedieš nás.</p>\n<p>Zdroj: Wikipedia</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/pesnicka-oda-na-radost/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/pesnicka-oda-na-radost/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/pesnicka-oda-na-radost/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/pesnicka-oda-na-radost/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/pesnicka-oda-na-radost/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/pesnicka-oda-na-radost/"
+      }
+    },
+    {
+      "id": "dendrolog-2-tretia-podstranka",
+      "miesto": "dendrolog-2",
+      "poradie": 3,
+      "nazov": "Tvrdosť dreva",
+      "popis": "",
+      "cover": "assets/images/migrated/dendrolog-min.jpg",
+      "audio": [
+        "assets/audio/migrated/text-to-speech_frank_tvrdost-dreva-_2025-07-16.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Tvrdosť dreva</p>\n<p>Na svete existuje viac ako 60 000 druhov stromov, pričom podľa Medzinárodnej organizácie botanických záhrad ich v celosvetovom zozname každoročne pribudne viac ako 2000. Na Slovensku z tohto ohromného čísla pritom rastie “len” 77 druhov.</p>\n<p>Každý typ dreviny má svoju jedinečnú bunkovú štruktúru, ktorá určuje, ako sa správa v rôznych podmienkach a aké je jej najlepšie využitie. Jednou z mechanických vlastností dreva je stupeň jeho tvrdosti. Ide o fyzikálnu veličinu, ktorá vyjadruje, ako je drevo schopné odolávať vniknutiu cudzieho telesa do jeho štruktúry.</p>\n<p>AKO SA MERIA TVRDOSŤ DREVA</p>\n<p>Na meranie tvrdosti dreva sa používajú dve metódy – Brinellova a Janka. Najčastejšie sa využíva práve druhá spomínaná, ktorá je pomenovaná po výskumníkovi Gabrielovi Jankovi.</p>\n<p>Do dreva sa postupne vtláča oceľová guľôčka s priemerom 11,28 mm až dovtedy, kým nie je do povrchu vnorená polovica jej priemeru. Sila, ktorú bolo nutné vynaložiť na zatlačenie tejto guličky do štruktúry dreva, je výsledná hodnota jeho tvrdosti udávaná v MPa (megapascal) alebo v kg/cm2 (kilogram na meter štvorcový).</p>\n<p>TABUĽKA TVRDOSTI DREVA</p>\n<p>Tvrdosť v kg/cm2\nDruh dreva</p>\n<ol>\n<li><p>0 – 350 kg/cm2 (veľmi mäkké drevo)\nsmrek, borovica, jedľa, lipa</p>\n</li>\n<li><p>351 – 500 kg/cm2 (mäkké drevo)\nbreza, jelša, teak</p>\n</li>\n<li><p>501 – 650 kg/cm2 (stredne tvrdé drevo)\ngaštan jedlý, lieska</p>\n</li>\n<li><p>651 – 1000 kg/cm2 (tvrdé drevo)\ndub, javor, orech, čerešňa, buk, agát, tis</p>\n</li>\n<li><p>1001 – 1500 kg/cm2 (veľmi tvrdé drevo)\ndrieň, krušpán</p>\n</li>\n<li><p>nad 1501 kg/cm2 (neobyčajne tvrdé drevo)\neben, massaranduba</p>\n</li>\n</ol>\n<p>NAJMÄKŠIE A NAJTVRDŠIE DREVO NA SLOVENSKU</p>\n<p>Na Slovensku nerastú najtvrdšie dreviny sveta. V našich zemepisných šírkach nájdete len drevo s maximálnym stupňom tvrdosti 4 – tvrdé drevo. Najtvrdšie drevo na Slovensku má agát, najmäkšie drevo zas borovica.</p>\n<p>Zaujímavosťou je, že tvrdosť jedného typu dreviny sa môže v rôznych klimatických podmienkach meniť (najvýznamnejší faktor, ktorý ju ovplyvňuje, je vlhkosť). Najtvrdším drevom na svete je preto pravdepodobne guajakové drevo rastúce v dažďových pralesoch Južnej Ameriky.</p>\n<p>Zdroj: Wikipedia</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/dendrolog-2-tretia-podstranka/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/dendrolog-2-tretia-podstranka/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/dendrolog-2-tretia-podstranka/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/dendrolog-2-tretia-podstranka/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/dendrolog-2-tretia-podstranka/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/dendrolog-2-tretia-podstranka/"
+      }
+    },
+    {
+      "id": "dendrolog-2-stvrta-podstranka",
+      "miesto": "dendrolog-2",
+      "poradie": 4,
+      "nazov": "Stupnica",
+      "popis": "",
+      "cover": "assets/images/migrated/dendrofon-min.jpg",
+      "audio": [
+        "assets/audio/migrated/c_major.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/2025-07-16_09h11_35.png"
+      ],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Stupnica</p>\n<p>(iné názvy: tónová stupnica, hudobná stupnica) je v muzikológii rad tónov, stupňovito zoradených v stúpajúcom alebo klesajúcom smere podľa určitých pravidiel od základného (prvého) tónu – toniky stupnice k jeho oktáve (oktáva je vzdialenosť tónov z ktorých ten vyšší má dvojnásobnú frekvenciu).</p>\n<p>Skupinu tónov danej stupnice, použitú v určitej hudobnej skladbe alebo piesni nazývame tónina.[1] Stupnice sú v podstate konvencie, ktoré sa vytvorili tak, aby ladili nášmu sluchu. Rôzne stupnice sa líšia hlavne počtom tónov a ich vzdialenosťami (intervalmi), t. j. hlavne umiestnením poltónov a celých tónov.</p>\n<p>Durové stupnice sú diatonické stupnice, typické pre európsku hudbu. Názov je odvodený z latinského „durum“ – tvrdý.</p>\n<p>C dur – Základnou durovou stupnicou je C dur. Skladá sa z týchto tónov: C,D,E,F,G,A,H,C. Na klavíri sú to iba biele klávesy. Na vokálne (hlasové) účely majú tóny C-dur aj svoje slabičné názvy, to je tvz. solmizačná stupnica.</p>\n<p>Zvuková nahrávka – Ogg Vorbis sound file of C Major scale, Zdroj: Aidan Hanrath, Vlastné dielo</p>\n<p>Zdroj: Wikipedia</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/"
       }
     },
     {
@@ -3319,6 +3798,98 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/hmyzi-hotel/",
         "pl": "https://www.qrlink.sk/new/pl/castles/hmyzi-hotel/",
         "hu": "https://www.qrlink.sk/new/hu/castles/hmyzi-hotel/"
+      }
+    },
+    {
+      "id": "vcela-samotarka",
+      "miesto": "hmyzi-domcek",
+      "poradie": 1,
+      "nazov": "Včela samotárka",
+      "popis": "",
+      "cover": "assets/images/migrated/zs-banova-hmyzi-domcek-09-min.jpg",
+      "audio": [
+        "assets/audio/migrated/text-to-speech_frank_vcela-samotarka-_2025-07-16.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Včela samotárka\nSamotárske včely na rozdiel od včiel medonosných nežijú vo vyspelých spoločenstvách, ale vedú osamelý spôsob života. Na Slovensku sa vyskytuje vyše 600 druhov týchto včiel a predstavujú nenahraditeľnú súčasť prírodných ekosystémov. Ich hlavnou úlohou je opeľovanie rastlín – v miernom pásme Európy je na tento proces závislých približne 78 % rastlinných druhov. Navyše, viac než tri štvrtiny poľnohospodárskych plodín sú odkázané na opeľovanie hmyzom. Samotné včely si, prirodzene, neuvedomujú, aký významný je ich prínos pre fungovanie rastlinného sveta.</p>\n<p>V posledných rokoch však čoraz častejšie počúvame o výraznom poklese hmyzích populácií naprieč Európou. Dlhodobé následky tohto javu sú zatiaľ ťažko predvídateľné. Pre samotárske včely sú najväčším ohrozením strata prirodzeného prostredia a intenzívna chemizácia krajiny. Kým kedysi sa mohli voľne presúvať krajinou, dnes im v pohybe bránia rôzne umelé bariéry. V snahe maximalizovať výnosy sa z krajiny stratili remízky, aleje, prírodné lúky, mokrade a meandrujúce toky.</p>\n<p>V dôsledku týchto zmien hynie časť hmyzu pri hľadaní potravy a úkrytov vyčerpaním, pričom izolácia jednotlivých populácií vedie k ich genetickému oslabovaniu. Zaujímavosťou je, že mestské a prímestské záhrady môžu mať na samotárky aj pozitívny vplyv. Vďaka rôznorodosti rastlín a menšej mierke záhrad poskytujú dostatok potravy i miest na hniezdenie. V porovnaní s rozľahlými poľnohospodárskymi monokultúrami tak predstavujú tieto sídla akési útočiská života.</p>\n<p>Samotárske včely nepredstavujú pre ľudí hrozbu, hoci disponujú žihadlom. Sú mierumilovné a bodajú iba vo výnimočných prípadoch, napríklad keď sú silno stlačené. Aj preto sú ideálnym objektom na pozorovanie pre milovníkov prírody. Farmári, ktorí hospodária v súlade s prírodou, môžu pomocou prítomnosti týchto včiel získať spätnú väzbu o kvalite svojho prístupu. Na to, aby sa samotárskym včelám darilo, potrebujú aj vhodné podmienky na hniezdenie – najčastejšie si vytvárajú nory v pôde, ale obľubujú aj dutiny v odumretom dreve, škáry v murive či prázdne steblá rastlín.</p>\n<p>Zdroj: Wikipedia</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/vcela-samotarka/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/vcela-samotarka/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/vcela-samotarka/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/vcela-samotarka/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/vcela-samotarka/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/vcela-samotarka/"
+      }
+    },
+    {
+      "id": "cmel",
+      "miesto": "hmyzi-domcek",
+      "poradie": 2,
+      "nazov": "Čmeľ",
+      "popis": "",
+      "cover": "assets/images/migrated/zs-banova-hmyzi-domcek-08-min.jpg",
+      "audio": [
+        "assets/audio/migrated/text-to-speech_frank_cmel-latinsky-b-_2025-07-16.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Čmeľ – lat. Bombus\nČmeľ (čmeliak) je rod lietajúceho hmyzu, patriaci do čeľade včelovitých (Apidae). Rovnako ako jeho príbuzné včely medonosné sa živí nektárom a peľom, ktorý zbiera nielen pre seba, ale aj pre výživu lariev. Väčšina čmeľov sa vyznačuje mierumilovnou povahou a životom v spoločenstvách. Typické je ich robustné telo s hustým štetinovitým ochlpením, prevažne čierno-žltého sfarbenia, no vyskytujú sa aj oranžové, červené alebo čisto čierne formy. Niektoré druhy majú koniec bruška s bielym zafarbením.</p>\n<p>Na rozdiel od včiel medonosných čmele neprezimujú v kolóniách a nezhromažďujú zásoby medu, preto sa pre jeho produkciu nevyužívajú. Kráľovné aj robotnice sú schopné bodnúť opakovane, keďže ich žihadlá nemajú spätné háčiky.</p>\n<p>Čmele zohrávajú dôležitú úlohu v opeľovaní rastlín, a to nielen vo voľnej prírode, ale aj v poľnohospodárstve. Vďaka hustému ochlpeniu, na ktorom zachytávajú veľké množstvo peľu, a intenzívnemu bzučaniu počas návštev kvetov, sú efektívnejšie pri opeľovaní aj zložitejších súkvetí. Ukázali sa ako veľmi užitoční napríklad pri pestovaní paradajok v skleníkoch. V mnohých rozvinutých krajinách však v dôsledku nadmerného používania pesticídov čelí tento hmyz poklesu početnosti a patrí medzi ohrozené druhy.</p>\n<p>Zdroj: Wikipedia</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/cmel/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/cmel/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/cmel/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/cmel/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/cmel/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/cmel/"
+      }
+    },
+    {
+      "id": "zlatoocka-obycajna",
+      "miesto": "hmyzi-domcek",
+      "poradie": 3,
+      "nazov": "Zlatoočka obyčajná",
+      "popis": "",
+      "cover": "assets/images/migrated/zs-banova-hmyzi-domcek-10-min.jpg",
+      "audio": [
+        "assets/audio/migrated/text-to-speech_frank_zlatoocka-obycaj-_2025-07-16.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Zlatoočka obyčajná\nZlatoočka obyčajná (lat. Chrysopa) patrí do čeľade sieťokrídlovcov (Neuroptera). Ide o drobný hmyz s dĺžkou tela približne 6 až 10 mm. Jej telo je štíhle, krídla sú priehľadné a blanité, s výrazným žilkovaním, ktoré môže dosahovať rozpätie 2 až 3 cm. Zlatoočku charakterizuje malá hlavička s veľkými, vypúlenými očami a dlhými tykadlami. Jej sfarbenie sa pohybuje od hnedastého cez škvrnité až po výraznú zelenú farbu.</p>\n<p>Larvy zlatoočky dosahujú veľkosť 7 až 10 mm. Majú sploštenú hlavičku, výrazné hryzadlá a tri páry nôh. Ich farba býva najčastejšie hnedá, sivá alebo zelenohnedá. Vzhľadom pripomínajú larvy lienok. Na Slovensku sa najčastejšie stretávame s druhom zlatoočka obyčajná – Chrysopa carnea. Zlatoočky sú predátori – živia sa škodlivým hmyzom ako sú vošky, larvy múch, malé húsenice, červce, roztoče, minérky a dokonca aj vajíčka iných druhov hmyzu. Jedna larva dokáže počas svojho vývoja skonzumovať 200 až 500 vošiek, alebo za jedinú hodinu zožrať 30 až 50 roztočov.</p>\n<p>Dospelá samička dokáže denne naklásť až 20 vajíčok a počas svojho života vyprodukuje aj 800. Vývin larvy trvá zvyčajne 8 až 20 dní. Pred premenou na dospelca sa larva zakuklí priamo na rastline. Zimu prečká ukrytá pod kôrou stromov alebo v rôznych škárach budov. Pre podporu výskytu zlatoočiek v záhradách je dôležité vyhýbať sa používaniu chemických postrekov, najmä tých, ktoré obsahujú akaricídy – látky škodlivé najmä pre roztoče, ale aj pre užitočný hmyz ako zlatoočky.</p>\n<p>Zdroj: Wikipedia</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/zlatoocka-obycajna/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/zlatoocka-obycajna/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/zlatoocka-obycajna/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/zlatoocka-obycajna/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/zlatoocka-obycajna/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/zlatoocka-obycajna/"
+      }
+    },
+    {
+      "id": "lienka-sedembodkova",
+      "miesto": "hmyzi-domcek",
+      "poradie": 4,
+      "nazov": "Lienka sedembodková",
+      "popis": "",
+      "cover": "assets/images/migrated/zs-banova-hmyzi-domcek-07-min.jpg",
+      "audio": [
+        "assets/audio/migrated/text-to-speech_frank_lienka-sedembodko-_2025-07-16.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Lienka sedembodková (lat. Coccinella septempunctata)\nLienka sedembodková (Coccinella septempunctata) patrí medzi najznámejšie a najrozšírenejšie druhy lienok na Slovensku aj vo svete. Radí sa do radu chrobákov (Coleoptera) a je členom čeľade lienkovité (Coccinellidae). Tento druh je považovaný za užitočný hmyz, pretože sa živí voškami a ďalšími škodcami, čím zohráva dôležitú úlohu v biologickej ochrane rastlín.</p>\n<p>Dospelá lienka dorastá do veľkosti 5 až 8 mm a má šesť nôh. Typickým znakom je oranžovo-červené zafarbenie s charakteristickými siedmimi čiernymi bodkami – šesť sa nachádza symetricky po bokoch kroviek a siedma je umiestnená v strede, blízko spojenia krídel. Ďalšími rozpoznávacími znakmi sú dve biele škvrny na hrudi a bledé miesta medzi očami na hlave. Lienky majú aj krátke tykadlá, pomocou ktorých vnímajú pachy a orientujú sa v prostredí. Na rozdiel od niektorých iných druhov lienok je vzhľad sedembodkovej lienky pomerne jednotný – len výnimočne sa jedince líšia počtom bodiek alebo farbou kroviek.</p>\n<p>Počas svojho života mení lienka preferované prostredie. Larvy sa vyvíjajú pri zemi, ukryté medzi bylinami. Po dosiahnutí dospelosti sa presúvajú vyššie, napríklad na kríky, kde sa ďalej živia a pripravujú na zimovanie. Prezimovať môžu v kôre stromov, v škárach budov alebo v pôde. Na jar sa opäť vracajú na miesta vhodné na kladenie vajíčok – do nižších rastlinných vrstiev, kde majú ich larvy zabezpečené útočisko aj potravu.</p>\n<p>Aj keď sa lienka sedembodková najčastejšie živí voškami, dokáže sa prispôsobiť aj inej potrave – napríklad peľu alebo hubovým spóram – ak je hlavný zdroj nedostupný. Pri nedostatku potravy sa aktívne presúva do nových oblastí. Jej vývoj a aktivita sú ovplyvnené počasím – v teplejších podmienkach sa vývojový cyklus urýchľuje.</p>\n<p>Zdroj: Wikipedia</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/lienka-sedembodkova/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/lienka-sedembodkova/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/lienka-sedembodkova/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/lienka-sedembodkova/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/lienka-sedembodkova/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/lienka-sedembodkova/"
       }
     },
     {
@@ -4704,6 +5275,121 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/stavba-kaplnky-a-putnicke-miesto/",
         "pl": "https://www.qrlink.sk/new/pl/castles/stavba-kaplnky-a-putnicke-miesto/",
         "hu": "https://www.qrlink.sk/new/hu/castles/stavba-kaplnky-a-putnicke-miesto/"
+      }
+    },
+    {
+      "id": "kov",
+      "miesto": "pexeso",
+      "poradie": 1,
+      "nazov": "Kov",
+      "popis": "",
+      "cover": "assets/images/migrated/zs-banova-info-pexeso-02-min.jpg",
+      "audio": [
+        "assets/audio/migrated/text-to-speech_frank_kovy-mozu-byt-nek-_2025-07-16.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Kov\nKovy môžu byť nekonečne recyklované a patria do červených kontajnerov. Niekde sa zbierajú v kombinácii s plastami, či s viacvrstvovými kombinovanými materiálmi (VKM).</p>\n<p>Sem patria kovové obaly, konzervy, kovové výrobky a súčiastky, alobal, hliníkové plechovky od nápojov, železné a neželezné kovové súčiastky a všetky kovy so symbolom FE 40 a ALU 41.</p>\n<p>Do tohto kontajnera nepatria kovové obaly kombinované s iným obalom, napr. obaly zo zubnej pasty, kovy hrubo znečistené zvyškami jedla, farbami a rôznymi chemickými a toxickými látkami.</p>\n<p>Zdroj: Wikipedia</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/kov/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/kov/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/kov/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/kov/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/kov/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/kov/"
+      }
+    },
+    {
+      "id": "sklo",
+      "miesto": "pexeso",
+      "poradie": 2,
+      "nazov": "Sklo",
+      "popis": "",
+      "cover": "assets/images/migrated/zs-banova-info-pexeso-03-min.jpg",
+      "audio": [
+        "assets/audio/migrated/text-to-speech_frank_sklo-je-mozne-rec-_2025-07-16.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Sklo\nSklo je možné recyklovať prakticky donekonečna. Odpad zo skla patrí do zeleného kontajnera a pred vyhodením je potrebné obal zbaviť zvyškov jedla resp. tekutín.</p>\n<p>Do zelených zberných nádob patria sklenené obaly od nápojov či potravín, poháre, predmety zo skla, fľaštičky od kozmetiky, okenné sklo, sklenené črepy, obaly s recyklačným symbolom a kódom GL 70, 71 a 72.</p>\n<p>Sem nepatrí: porcelán, keramika, autosklo, zrkadlá, TV obrazovky, fľaše od chemikálií, veľmi znečistené fľaše a sklenené obaly (najmä pieskom), fľaštičky od liečiv, žiarovky a žiarivky, sklo kombinované s iným materiálom (drôtené sklo).</p>\n<p>Čím ďalej, tým viac je praktizovaný oddelený zber číreho a farebného skla. Najčastejšie sa používa delený kontajner, kde je jedna polovica pre číre a druhá pre farebné sklo. Niekde sa môžu nachádzať dva samostatné kontajnery pre číre a farebné sklo, namiesto deleného kontajnera.</p>\n<p>Číre sklo: iba číre fľaše, poháre a iné číre sklo bez sfarbenia.</p>\n<p>Farebné (zmesné) sklo: hnedé, zelené, šedé, modré fľaše, fľaštičky od liekov, tabuľové sklo (aj číre kvôli jeho chemickému zloženiu), biele (mliečne) sklo.</p>\n<p>Pokiaľ je iba jeden kontajner na sklo, tak sa nerozlišuje na číre a farebné sklo, ale všetko sa separuje do jedného kontajnera.</p>\n<p>Zdroj: Wikipedia</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/sklo/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/sklo/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/sklo/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/sklo/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/sklo/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/sklo/"
+      }
+    },
+    {
+      "id": "bio",
+      "miesto": "pexeso",
+      "poradie": 3,
+      "nazov": "Bio",
+      "popis": "",
+      "cover": "assets/images/migrated/zs-banova-info-pexeso-04.jpg",
+      "audio": [
+        "assets/audio/migrated/text-to-speech_frank_bioodpad-nadoba-_2025-07-16.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Bioodpad\nNádoba na bioodpad má hnedú farbu a je označená ako biologicky rozložiteľný odpad.</p>\n<p>Do hnedého kontajnera patrí biologicky rozložiteľný odpad, ako sú zvyšky ovocia, zeleniny, šupky, zvyšky kávy a čaju, tráva, malé konáre zo stromov, kvety, lístie.</p>\n<p>Nepatria sem vlasy, popol, zvyšky jedla a mäsa, kosti, plastové sáčky, kamene, škrupiny z vajec a ostatný nerozložiteľný odpad.</p>\n<p>Zdroj: Wikipedia</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/bio/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/bio/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/bio/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/bio/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/bio/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/bio/"
+      }
+    },
+    {
+      "id": "plast",
+      "miesto": "pexeso",
+      "poradie": 4,
+      "nazov": "Plast",
+      "popis": "",
+      "cover": "assets/images/migrated/zs-banova-info-pexeso-05.jpg",
+      "audio": [
+        "assets/audio/migrated/text-to-speech_frank_plasty-sa-vyrabaj-_2025-07-16-1.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Plasty\nPlasty sa vyrábajú z ropy a sú najčastejšie vyskytujúci sa odpad v domácností. Plasty tvoria asi najväčší podiel triedeného odpadu. Spätne spracovať sa dajú najmä termoplasty, z ktorých je väčšina obalových systémov. Plasty sú rovnako ďalej dotrieďované.</p>\n<p>Do žltého kontajnera patria PET fľaše od nápojov (ich objem je potrebné najskôr znížiť napríklad zošliapnutím, stlačením), tégliky, obaly od sladkostí, igelitové vrecká (aj mikroténové), číre a farebné fólie, polystyrén, poháriky z automatov a iné plastové nádobky a obaly s recyklačným symbolom a kódom PET (1), LDPE (2), HDPE (4), PP (5), PS (6).</p>\n<p>Sem nepatria PET fľaše od potravinárskych olejov, novodurové rúrky obaly od nebezpečných látok (motorový olej, chemikálie, farby a pod.), nádobky od liečiv, textil z umelých vlákien, podlahové krytiny, linoleá, guma, molitan, pneumatiky, vrstvené obaly.</p>\n<p>V niektorých mestách je do kontajnerov na plasty možné hádzať aj nápojové kartóny, čo je na smetiaku napísané.</p>\n<p>Zdroj: Wikipedia</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/plast/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/plast/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/plast/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/plast/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/plast/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/plast/"
+      }
+    },
+    {
+      "id": "papier",
+      "miesto": "pexeso",
+      "poradie": 5,
+      "nazov": "Papier",
+      "popis": "",
+      "cover": "assets/images/migrated/zs-banova-info-pexeso-06-min.jpg",
+      "audio": [
+        "assets/audio/migrated/text-to-speech_frank_papier-sa-moze-re-_2025-07-16.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Papier\nPapier sa môže recyklovať v závislosti od jeho kvality 6-krát niekedy až 7-krát. Tenké vlákna, z ktorých pozostáva papier, sa skracujú pri každej recyklácii, čím sa znižuje ich kvalita a možnosť opakovanej recyklácie. Škatule pred vyhodením je potrebné stlačiť na plocho, aby nezaberali veľký priestor v kontajneri.</p>\n<p>Do modrého kontajnera patria noviny, časopisy, kancelársky papier, reklamné letáky, krabice (ak nie sú kombinované s iným materiálom napr. hliník, celofán), kartóny, papierové vrecúška, obálky, papierová lepenka, knihy bez väzby, obaly s recyklačným symbolom a kódom PAP 20, 21 a 22.</p>\n<p>Do kontajnera na papier nepatrí mokrý, mastný a znečistený papier, uhlový a voskovaný papier, knihy v tvrdej väzbe, nápojové kartóny, asfaltový a dechtovaný papier, použité plienky a hygienické potreby, kopírovací a samoprepisovací celofán.</p>\n<p>Zdroj: Wikipedia</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/papier/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/papier/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/papier/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/papier/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/papier/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/papier/"
       }
     },
     {
@@ -7425,6 +8111,144 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/pamatnik-hrdinom-a-bojovnikom-proti-fasizmu-a-pamatnik-oslobodenia-mesta/",
         "pl": "https://www.qrlink.sk/new/pl/pamatnik-hrdinom-a-bojovnikom-proti-fasizmu-a-pamatnik-oslobodenia-mesta/",
         "hu": "https://www.qrlink.sk/new/hu/pamatnik-hrdinom-a-bojovnikom-proti-fasizmu-a-pamatnik-oslobodenia-mesta/"
+      }
+    },
+    {
+      "id": "sykorka-belasa",
+      "miesto": "vtacia-budka",
+      "poradie": 1,
+      "nazov": "Sýkorka Belasá",
+      "popis": "",
+      "cover": "assets/images/migrated/sykorka-belasa-min.jpg",
+      "audio": [
+        "assets/audio/migrated/sykorka-belasa-spev-psitsi-sirrrrrrr.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Sýkorka Belasá</p>\n<p>Zvuková nahrávka – Spev &#8222;psitsi-sirrrrrrr“</p>\n<p>Zdroj: Vladimír Yu. Arkhipov, Arkhivov, Vlastné dielo, CC BY-SA 3.0,</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/sykorka-belasa/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/sykorka-belasa/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/sykorka-belasa/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/sykorka-belasa/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/sykorka-belasa/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/sykorka-belasa/"
+      }
+    },
+    {
+      "id": "cervienka-obycajna",
+      "miesto": "vtacia-budka",
+      "poradie": 2,
+      "nazov": "Červienka obyčajná",
+      "popis": "",
+      "cover": "assets/images/migrated/cervienka-obycajna-min.jpg",
+      "audio": [
+        "assets/audio/migrated/cervienka-obycajna-spev.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Červienka obyčajná</p>\n<p>Zvuková nahrávka – Spev</p>\n<p>Zdroj: Zdeněk Vermouzek, CC BY-SA 4.0,</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/cervienka-obycajna/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/cervienka-obycajna/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/cervienka-obycajna/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/cervienka-obycajna/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/cervienka-obycajna/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/cervienka-obycajna/"
+      }
+    },
+    {
+      "id": "oriesok-obycajny",
+      "miesto": "vtacia-budka",
+      "poradie": 3,
+      "nazov": "Oriešok obyčajný",
+      "popis": "",
+      "cover": "assets/images/migrated/oriesok-obycajny-min.jpg",
+      "audio": [
+        "assets/audio/migrated/oriesok-obycajny-hlas.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Oriešok obyčajný</p>\n<p>Zvuková nahrávka – Hlas</p>\n<p>Zdroj: Ľuboš Rendek, Vlastné dielo, CC BY-SA 4.0,</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/oriesok-obycajny/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/oriesok-obycajny/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/oriesok-obycajny/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/oriesok-obycajny/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/oriesok-obycajny/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/oriesok-obycajny/"
+      }
+    },
+    {
+      "id": "pinka-obycajna",
+      "miesto": "vtacie-krmitko",
+      "poradie": 1,
+      "nazov": "Pinka obyčajná",
+      "popis": "",
+      "cover": "assets/images/migrated/pinka-obycajna-min.jpg",
+      "audio": [
+        "assets/audio/migrated/pinka-obycajna-spev.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Pinka obyčajná</p>\n<p>Zvuková nahrávka 1 – Spev</p>\n<p>Zdroj: SanoAK: Alexander Kürthy, Vlastné dielo, CC BY-SA 4.0,</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/pinka-obycajna/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/pinka-obycajna/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/pinka-obycajna/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/pinka-obycajna/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/pinka-obycajna/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/pinka-obycajna/"
+      }
+    },
+    {
+      "id": "stehlik-cecetka",
+      "miesto": "vtacie-krmitko",
+      "poradie": 2,
+      "nazov": "Stehlík čečetka",
+      "popis": "",
+      "cover": "assets/images/migrated/stehlik-cecetka-min.jpg",
+      "audio": [
+        "assets/audio/migrated/stehlik-cecetka-vabenie-djuii-a-ce-cet.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Stehlík čečetka</p>\n<p>Zvuková nahrávka 1 – Vábenie &#8222;djüii“ a &#8222;če-čet“.</p>\n<p>Zdroj: Jonathon Jongsma , CC BY-SA 3.0,</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/stehlik-cecetka/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/stehlik-cecetka/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/stehlik-cecetka/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/stehlik-cecetka/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/stehlik-cecetka/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/stehlik-cecetka/"
+      }
+    },
+    {
+      "id": "drozd-cierny",
+      "miesto": "vtacie-krmitko",
+      "poradie": 3,
+      "nazov": "Drozd Čierny",
+      "popis": "",
+      "cover": "assets/images/migrated/drozd-cierny-min.jpg",
+      "audio": [
+        "assets/audio/migrated/drozd-cierny-hlas-vzrusenia-tix-tix-1.mp3"
+      ],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Drozd Čierny</p>\n<p>Zvuková nahrávka – Hlas vzrušenia tix tix..</p>\n<p>Zdroj: Alexander Kürthy, Vlastné dielo, CC BY-SA 4.0,</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/drozd-cierny/",
+        "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/drozd-cierny/",
+        "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/drozd-cierny/",
+        "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/drozd-cierny/",
+        "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/drozd-cierny/",
+        "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/drozd-cierny/"
       }
     },
     {

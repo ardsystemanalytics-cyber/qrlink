@@ -1,0 +1,28 @@
+{
+  "id": "bobor",
+  "miesto": "bludisko",
+  "poradie": 6,
+  "nazov": "Bobor",
+  "popis": "",
+  "cover": "assets/images/migrated/zs-banova-bludisko-26-min.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/bludisko-bobor.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Bobor\n\nBobor stavia hrádzu v rieke,\n\nzo stromov má hradby veľké.\n\nZúbky silné, ostré má,\n\nstromy rýchlo ohrýza.\n\nChvost má plochý ako pádlо,\n\npleskne ním, keď skočí na dno.\n\nVo vode je majster plavby,\n\nv rieke tvorí svoje stavby.",
+  "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
+  "projekt": "ZŠ a MŠ Bánová",
+  "miestoNazov": "Bludisko",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/bobor/",
+    "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/bobor/",
+    "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/bobor/",
+    "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/bobor/",
+    "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/bobor/",
+    "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/bobor/"
+  }
+}

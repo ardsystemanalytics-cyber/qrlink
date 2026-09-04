@@ -1,0 +1,28 @@
+{
+  "id": "stehlik-cecetka",
+  "miesto": "vtacie-krmitko",
+  "poradie": 2,
+  "nazov": "Stehlík čečetka",
+  "popis": "",
+  "cover": "assets/images/migrated/stehlik-cecetka-min.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/stehlik-cecetka-vabenie-djuii-a-ce-cet.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Stehlík čečetka\n\nZvuková nahrávka 1 – Vábenie &#8222;djüii“ a &#8222;če-čet“.\n\nZdroj: Jonathon Jongsma , CC BY-SA 3.0,",
+  "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
+  "projekt": "ZŠ a MŠ Bánová",
+  "miestoNazov": "Vtáčie kŕmitko",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/stehlik-cecetka/",
+    "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/stehlik-cecetka/",
+    "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/stehlik-cecetka/",
+    "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/stehlik-cecetka/",
+    "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/stehlik-cecetka/",
+    "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/stehlik-cecetka/"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "krtko",
+  "miesto": "bludisko",
+  "poradie": 2,
+  "nazov": "Krtko",
+  "popis": "",
+  "cover": "assets/images/migrated/zs-banova-bludisko-25-min.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/bludisko-krtko.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "&#x1f43e; Krtko\n\nKrtko býva pod zemou,\n\ns lopatkami pracuje tmou.\n\nHlboký si kope dom,\n\nV pokoji si spinká v ňom.\n\nOči malé, skoro slepý je,\n\nčuch ho k cieľu dovedie.\n\nTunel vedie sem i ta,\n\nkrtko vie, kde domov má.",
+  "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
+  "projekt": "ZŠ a MŠ Bánová",
+  "miestoNazov": "Bludisko",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/krtko/",
+    "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/krtko/",
+    "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/krtko/",
+    "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/krtko/",
+    "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/krtko/",
+    "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/krtko/"
+  }
+}

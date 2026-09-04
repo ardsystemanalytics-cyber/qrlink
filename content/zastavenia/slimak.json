@@ -1,0 +1,28 @@
+{
+  "id": "slimak",
+  "miesto": "bludisko",
+  "poradie": 5,
+  "nazov": "Slimák",
+  "popis": "",
+  "cover": "assets/images/migrated/zs-banova-bludisko-23-min.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/bludisko-slimak.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "&#x1f40c; Slimák\n\nSlimák sa neponáhľa, nemá stres,\n\nnechce prejsť svet za jeden deň.\n\nKam príde, tam sa zastaví,\n\nživot v tempe nestrávi.\n\nKeď zaprší, rád sa smeje,\n\npo kvapkách sa veselo kĺže.\n\nZanecháva slizký pás,\n\nahoj slimák, vitaj zas!",
+  "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
+  "projekt": "ZŠ a MŠ Bánová",
+  "miestoNazov": "Bludisko",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/slimak/",
+    "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/slimak/",
+    "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/slimak/",
+    "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/slimak/",
+    "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/slimak/",
+    "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/slimak/"
+  }
+}

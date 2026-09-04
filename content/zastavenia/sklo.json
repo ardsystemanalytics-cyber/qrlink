@@ -1,0 +1,28 @@
+{
+  "id": "sklo",
+  "miesto": "pexeso",
+  "poradie": 2,
+  "nazov": "Sklo",
+  "popis": "",
+  "cover": "assets/images/migrated/zs-banova-info-pexeso-03-min.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/text-to-speech_frank_sklo-je-mozne-rec-_2025-07-16.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Sklo\nSklo je možné recyklovať prakticky donekonečna. Odpad zo skla patrí do zeleného kontajnera a pred vyhodením je potrebné obal zbaviť zvyškov jedla resp. tekutín.\n\nDo zelených zberných nádob patria sklenené obaly od nápojov či potravín, poháre, predmety zo skla, fľaštičky od kozmetiky, okenné sklo, sklenené črepy, obaly s recyklačným symbolom a kódom GL 70, 71 a 72.\n\nSem nepatrí: porcelán, keramika, autosklo, zrkadlá, TV obrazovky, fľaše od chemikálií, veľmi znečistené fľaše a sklenené obaly (najmä pieskom), fľaštičky od liečiv, žiarovky a žiarivky, sklo kombinované s iným materiálom (drôtené sklo).\n\nČím ďalej, tým viac je praktizovaný oddelený zber číreho a farebného skla. Najčastejšie sa používa delený kontajner, kde je jedna polovica pre číre a druhá pre farebné sklo. Niekde sa môžu nachádzať dva samostatné kontajnery pre číre a farebné sklo, namiesto deleného kontajnera.\n\nČíre sklo: iba číre fľaše, poháre a iné číre sklo bez sfarbenia.\n\nFarebné (zmesné) sklo: hnedé, zelené, šedé, modré fľaše, fľaštičky od liekov, tabuľové sklo (aj číre kvôli jeho chemickému zloženiu), biele (mliečne) sklo.\n\nPokiaľ je iba jeden kontajner na sklo, tak sa nerozlišuje na číre a farebné sklo, ale všetko sa separuje do jedného kontajnera.\n\nZdroj: Wikipedia",
+  "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
+  "projekt": "ZŠ a MŠ Bánová",
+  "miestoNazov": "Pexeso",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/sklo/",
+    "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/sklo/",
+    "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/sklo/",
+    "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/sklo/",
+    "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/sklo/",
+    "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/sklo/"
+  }
+}

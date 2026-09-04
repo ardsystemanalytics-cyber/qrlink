@@ -1,0 +1,28 @@
+{
+  "id": "pinka-obycajna",
+  "miesto": "vtacie-krmitko",
+  "poradie": 1,
+  "nazov": "Pinka obyčajná",
+  "popis": "",
+  "cover": "assets/images/migrated/pinka-obycajna-min.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/pinka-obycajna-spev.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Pinka obyčajná\n\nZvuková nahrávka 1 – Spev\n\nZdroj: SanoAK: Alexander Kürthy, Vlastné dielo, CC BY-SA 4.0,",
+  "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
+  "projekt": "ZŠ a MŠ Bánová",
+  "miestoNazov": "Vtáčie kŕmitko",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/pinka-obycajna/",
+    "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/pinka-obycajna/",
+    "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/pinka-obycajna/",
+    "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/pinka-obycajna/",
+    "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/pinka-obycajna/",
+    "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/pinka-obycajna/"
+  }
+}

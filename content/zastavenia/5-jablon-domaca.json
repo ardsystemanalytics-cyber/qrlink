@@ -1,0 +1,28 @@
+{
+  "id": "5-jablon-domaca",
+  "miesto": "dendrolog-1",
+  "poradie": 5,
+  "nazov": "5. Jabloň Domáca",
+  "popis": "",
+  "cover": "assets/images/migrated/jablon-min.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/pexeso-jablon-domaca.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Jabloň Domáca – Malus domestica\n\nStrom alebo vyšší ker 5 – 10 m, ktorý kvitne poréžovým až bielym oblakom kvetov v apríli. Darí sa mu v slnečných, mierne vlhkých záhradách a sadov na hlinitopiesočnatých pôdach. Plody – jablká – tvoria základ mnohých tradičných jedál i nápojov a skladujú sa celé mesiace. Husté, tvrdé drevo s jemnou kresbou využívajú rezbári, výrobcovia hudobných nástrojov a je skvelé na údenie mäsa. Staré odrody často poskytujú dutiny pre sýkorky a netopiere, čím zvyšujú biodiverzitu sadu.",
+  "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
+  "projekt": "ZŠ a MŠ Bánová",
+  "miestoNazov": "Dendrológ 1",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/5-jablon-domaca/",
+    "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/5-jablon-domaca/",
+    "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/5-jablon-domaca/",
+    "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/5-jablon-domaca/",
+    "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/5-jablon-domaca/",
+    "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/5-jablon-domaca/"
+  }
+}

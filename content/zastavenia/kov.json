@@ -1,0 +1,28 @@
+{
+  "id": "kov",
+  "miesto": "pexeso",
+  "poradie": 1,
+  "nazov": "Kov",
+  "popis": "",
+  "cover": "assets/images/migrated/zs-banova-info-pexeso-02-min.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/text-to-speech_frank_kovy-mozu-byt-nek-_2025-07-16.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Kov\nKovy môžu byť nekonečne recyklované a patria do červených kontajnerov. Niekde sa zbierajú v kombinácii s plastami, či s viacvrstvovými kombinovanými materiálmi (VKM).\n\nSem patria kovové obaly, konzervy, kovové výrobky a súčiastky, alobal, hliníkové plechovky od nápojov, železné a neželezné kovové súčiastky a všetky kovy so symbolom FE 40 a ALU 41.\n\nDo tohto kontajnera nepatria kovové obaly kombinované s iným obalom, napr. obaly zo zubnej pasty, kovy hrubo znečistené zvyškami jedla, farbami a rôznymi chemickými a toxickými látkami.\n\nZdroj: Wikipedia",
+  "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
+  "projekt": "ZŠ a MŠ Bánová",
+  "miestoNazov": "Pexeso",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/kov/",
+    "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/kov/",
+    "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/kov/",
+    "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/kov/",
+    "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/kov/",
+    "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/kov/"
+  }
+}

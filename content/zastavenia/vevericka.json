@@ -1,0 +1,28 @@
+{
+  "id": "vevericka",
+  "miesto": "bludisko",
+  "poradie": 1,
+  "nazov": "Veverička",
+  "popis": "",
+  "cover": "assets/images/migrated/zs-banova-bludisko-22-min.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/bludisko-vevericka.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "&#x1f43f;&#xfe0f; Veverička\n\nVeverička skáče v lese,\n\noriešky si schováva.\n\nKŕmi sa nimi na halúzke,\n\nvietor lístky rozháňa.\n\nPo vetvičke beží hravo,\n\nchvostík za ňou poskakuje.\n\nNa zimu má zásob plno,\n\nv dutom strome oddychuje.",
+  "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
+  "projekt": "ZŠ a MŠ Bánová",
+  "miestoNazov": "Bludisko",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/vevericka/",
+    "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/vevericka/",
+    "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/vevericka/",
+    "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/vevericka/",
+    "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/vevericka/",
+    "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/vevericka/"
+  }
+}

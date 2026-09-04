@@ -1,0 +1,28 @@
+{
+  "id": "2-gastan-jedly",
+  "miesto": "dendrolog-1",
+  "poradie": 2,
+  "nazov": "2. Gaštan Jedlý",
+  "popis": "",
+  "cover": "assets/images/migrated/gastan-jedly-min.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/pexeso-gastan-jedly.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Gaštan Jedlý – Castanea sativa\n\nMohutný strom 20 – 35 m, ktorý vyžaduje teplejšie, slnečné svahy s hlbokými, mierne kyslými pôdami. Dlhé kožovité listy majú ostré pílkovité okraje a na jeseň sa sfarbujú do zlatohneda. V pichľavých pologuľovitých obaloch dozrievajú sladké jedlé oriešky obľúbené v kuchyni aj cukrárstve. Drevo podobné dubu je odolné voči hnilobe a slúži na sudy, podlahy i vonkajšie stavby. Staré gaštany sa dožívajú aj vyše 500 rokov a v dutinách poskytujú úkryt netopierom.",
+  "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
+  "projekt": "ZŠ a MŠ Bánová",
+  "miestoNazov": "Dendrológ 1",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/2-gastan-jedly/",
+    "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/2-gastan-jedly/",
+    "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/2-gastan-jedly/",
+    "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/2-gastan-jedly/",
+    "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/2-gastan-jedly/",
+    "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/2-gastan-jedly/"
+  }
+}

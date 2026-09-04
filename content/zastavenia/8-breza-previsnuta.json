@@ -1,0 +1,28 @@
+{
+  "id": "8-breza-previsnuta",
+  "miesto": "dendrolog-1",
+  "poradie": 8,
+  "nazov": "8. Breza Previsnutá",
+  "popis": "",
+  "cover": "assets/images/migrated/breza-previsnuta-min.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/pexeso-breza-previsnuta.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Breza Previsnutá – Betula pendula\n\nStredne veľký strom 15 – 25 m, zriedka 30 m, s nápadnou bielou kôrou, ktorá sa odlupuje v papierových vločkách. Najlepšie sa jej darí na svetlých, kyslých a suchších pôdach od nížin po podhorské oblasti. Dlhé previsnuté konáre jej dali druhové meno a elegantný vzhľad. Kôra obsahuje betulín, ktorý odpudzuje vodu; preto sa ňou kedysi utesňovali strechy a člny. Brezy sú priekopníci – rýchlo kolonizujú holoruby či požiare a pripravujú pôdu pre ďalšie stromy.",
+  "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
+  "projekt": "ZŠ a MŠ Bánová",
+  "miestoNazov": "Dendrológ 1",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/8-breza-previsnuta/",
+    "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/8-breza-previsnuta/",
+    "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/8-breza-previsnuta/",
+    "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/8-breza-previsnuta/",
+    "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/8-breza-previsnuta/",
+    "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/8-breza-previsnuta/"
+  }
+}

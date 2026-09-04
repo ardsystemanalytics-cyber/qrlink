@@ -1,0 +1,28 @@
+{
+  "id": "oriesok-obycajny",
+  "miesto": "vtacia-budka",
+  "poradie": 3,
+  "nazov": "Oriešok obyčajný",
+  "popis": "",
+  "cover": "assets/images/migrated/oriesok-obycajny-min.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/oriesok-obycajny-hlas.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Oriešok obyčajný\n\nZvuková nahrávka – Hlas\n\nZdroj: Ľuboš Rendek, Vlastné dielo, CC BY-SA 4.0,",
+  "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
+  "projekt": "ZŠ a MŠ Bánová",
+  "miestoNazov": "Vtáčia búdka",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/oriesok-obycajny/",
+    "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/oriesok-obycajny/",
+    "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/oriesok-obycajny/",
+    "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/oriesok-obycajny/",
+    "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/oriesok-obycajny/",
+    "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/oriesok-obycajny/"
+  }
+}

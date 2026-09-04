@@ -1,0 +1,28 @@
+{
+  "id": "drozd-cierny",
+  "miesto": "vtacie-krmitko",
+  "poradie": 3,
+  "nazov": "Drozd Čierny",
+  "popis": "",
+  "cover": "assets/images/migrated/drozd-cierny-min.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/drozd-cierny-hlas-vzrusenia-tix-tix-1.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Drozd Čierny\n\nZvuková nahrávka – Hlas vzrušenia tix tix..\n\nZdroj: Alexander Kürthy, Vlastné dielo, CC BY-SA 4.0,",
+  "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
+  "projekt": "ZŠ a MŠ Bánová",
+  "miestoNazov": "Vtáčie kŕmitko",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/drozd-cierny/",
+    "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/drozd-cierny/",
+    "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/drozd-cierny/",
+    "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/drozd-cierny/",
+    "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/drozd-cierny/",
+    "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/drozd-cierny/"
+  }
+}

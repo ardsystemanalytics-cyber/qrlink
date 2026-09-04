@@ -1,0 +1,28 @@
+{
+  "id": "cmel",
+  "miesto": "hmyzi-domcek",
+  "poradie": 2,
+  "nazov": "Čmeľ",
+  "popis": "",
+  "cover": "assets/images/migrated/zs-banova-hmyzi-domcek-08-min.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/text-to-speech_frank_cmel-latinsky-b-_2025-07-16.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Čmeľ – lat. Bombus\nČmeľ (čmeliak) je rod lietajúceho hmyzu, patriaci do čeľade včelovitých (Apidae). Rovnako ako jeho príbuzné včely medonosné sa živí nektárom a peľom, ktorý zbiera nielen pre seba, ale aj pre výživu lariev. Väčšina čmeľov sa vyznačuje mierumilovnou povahou a životom v spoločenstvách. Typické je ich robustné telo s hustým štetinovitým ochlpením, prevažne čierno-žltého sfarbenia, no vyskytujú sa aj oranžové, červené alebo čisto čierne formy. Niektoré druhy majú koniec bruška s bielym zafarbením.\n\nNa rozdiel od včiel medonosných čmele neprezimujú v kolóniách a nezhromažďujú zásoby medu, preto sa pre jeho produkciu nevyužívajú. Kráľovné aj robotnice sú schopné bodnúť opakovane, keďže ich žihadlá nemajú spätné háčiky.\n\nČmele zohrávajú dôležitú úlohu v opeľovaní rastlín, a to nielen vo voľnej prírode, ale aj v poľnohospodárstve. Vďaka hustému ochlpeniu, na ktorom zachytávajú veľké množstvo peľu, a intenzívnemu bzučaniu počas návštev kvetov, sú efektívnejšie pri opeľovaní aj zložitejších súkvetí. Ukázali sa ako veľmi užitoční napríklad pri pestovaní paradajok v skleníkoch. V mnohých rozvinutých krajinách však v dôsledku nadmerného používania pesticídov čelí tento hmyz poklesu početnosti a patrí medzi ohrozené druhy.\n\nZdroj: Wikipedia",
+  "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
+  "projekt": "ZŠ a MŠ Bánová",
+  "miestoNazov": "Hmyzí domček",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/cmel/",
+    "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/cmel/",
+    "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/cmel/",
+    "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/cmel/",
+    "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/cmel/",
+    "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/cmel/"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "sykorka-belasa",
+  "miesto": "vtacia-budka",
+  "poradie": 1,
+  "nazov": "Sýkorka Belasá",
+  "popis": "",
+  "cover": "assets/images/migrated/sykorka-belasa-min.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/sykorka-belasa-spev-psitsi-sirrrrrrr.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Sýkorka Belasá\n\nZvuková nahrávka – Spev &#8222;psitsi-sirrrrrrr“\n\nZdroj: Vladimír Yu. Arkhipov, Arkhivov, Vlastné dielo, CC BY-SA 3.0,",
+  "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
+  "projekt": "ZŠ a MŠ Bánová",
+  "miestoNazov": "Vtáčia búdka",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/sykorka-belasa/",
+    "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/sykorka-belasa/",
+    "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/sykorka-belasa/",
+    "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/sykorka-belasa/",
+    "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/sykorka-belasa/",
+    "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/sykorka-belasa/"
+  }
+}

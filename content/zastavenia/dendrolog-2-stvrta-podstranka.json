@@ -1,0 +1,32 @@
+{
+  "id": "dendrolog-2-stvrta-podstranka",
+  "miesto": "dendrolog-2",
+  "poradie": 4,
+  "nazov": "Stupnica",
+  "popis": "",
+  "cover": "assets/images/migrated/dendrofon-min.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/c_major.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/2025-07-16_09h11_35.png"
+    }
+  ],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Stupnica\n\n(iné názvy: tónová stupnica, hudobná stupnica) je v muzikológii rad tónov, stupňovito zoradených v stúpajúcom alebo klesajúcom smere podľa určitých pravidiel od základného (prvého) tónu – toniky stupnice k jeho oktáve (oktáva je vzdialenosť tónov z ktorých ten vyšší má dvojnásobnú frekvenciu).\n\nSkupinu tónov danej stupnice, použitú v určitej hudobnej skladbe alebo piesni nazývame tónina.[1] Stupnice sú v podstate konvencie, ktoré sa vytvorili tak, aby ladili nášmu sluchu. Rôzne stupnice sa líšia hlavne počtom tónov a ich vzdialenosťami (intervalmi), t. j. hlavne umiestnením poltónov a celých tónov.\n\nDurové stupnice sú diatonické stupnice, typické pre európsku hudbu. Názov je odvodený z latinského „durum“ – tvrdý.\n\nC dur – Základnou durovou stupnicou je C dur. Skladá sa z týchto tónov: C,D,E,F,G,A,H,C. Na klavíri sú to iba biele klávesy. Na vokálne (hlasové) účely majú tóny C-dur aj svoje slabičné názvy, to je tvz. solmizačná stupnica.\n\nZvuková nahrávka – Ogg Vorbis sound file of C Major scale, Zdroj: Aidan Hanrath, Vlastné dielo\n\nZdroj: Wikipedia",
+  "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
+  "projekt": "ZŠ a MŠ Bánová",
+  "miestoNazov": "Dendrológ 2",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/",
+    "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/",
+    "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/",
+    "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/",
+    "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/",
+    "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/"
+  }
+}

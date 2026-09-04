@@ -1,0 +1,28 @@
+{
+  "id": "6-slivka-trnkova",
+  "miesto": "dendrolog-1",
+  "poradie": 6,
+  "nazov": "6. Slivka Trnková",
+  "popis": "",
+  "cover": "assets/images/migrated/slivka-trnkova-min.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/pexeso-slivka-trnkova.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Slivka Trnková – Prunus spinosa\n\nHustý tŕnitý ker alebo nízky strom 2 – 5 m, ktorý tvorí nepreniknuteľné húštiny na suchších medziach a svahoch. V marci až apríli kvitne drobnými bielymi kvetmi ešte pred olistením a patrí k prvým jarným pastvám pre opeľovače. Modro­čierne plody – trnky – chutia trpko, no po jesenných mrazoch zmäknú a využívajú sa na lekváre či aromatizovanie destilátov. Husto rozvetvené konáre s ostňami poskytujú bezpečný úkryt drobnému vtáctvu. Trnky sú príbuzné slivkám, no dokážu rýchlo zmladzovať koreňovými výmladkami a spevňovať erózne svahy.",
+  "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
+  "projekt": "ZŠ a MŠ Bánová",
+  "miestoNazov": "Dendrológ 1",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/6-slivka-trnkova/",
+    "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/6-slivka-trnkova/",
+    "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/6-slivka-trnkova/",
+    "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/6-slivka-trnkova/",
+    "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/6-slivka-trnkova/",
+    "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/6-slivka-trnkova/"
+  }
+}

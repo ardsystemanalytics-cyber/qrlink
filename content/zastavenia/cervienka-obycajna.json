@@ -1,0 +1,28 @@
+{
+  "id": "cervienka-obycajna",
+  "miesto": "vtacia-budka",
+  "poradie": 2,
+  "nazov": "Červienka obyčajná",
+  "popis": "",
+  "cover": "assets/images/migrated/cervienka-obycajna-min.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/cervienka-obycajna-spev.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Červienka obyčajná\n\nZvuková nahrávka – Spev\n\nZdroj: Zdeněk Vermouzek, CC BY-SA 4.0,",
+  "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
+  "projekt": "ZŠ a MŠ Bánová",
+  "miestoNazov": "Vtáčia búdka",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/cervienka-obycajna/",
+    "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/cervienka-obycajna/",
+    "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/cervienka-obycajna/",
+    "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/cervienka-obycajna/",
+    "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/cervienka-obycajna/",
+    "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/cervienka-obycajna/"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "javor-mliecny",
+  "miesto": "dendrolog-1",
+  "poradie": 1,
+  "nazov": "1. Javor Mliečny",
+  "popis": "",
+  "cover": "assets/images/migrated/javor-mliecny-min.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/pexeso-javor-mliecny-2.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Javor Mliečny – Acer platanoides\n\nDorastá do 25 – 30 m a dobre znáša mestské prostredie i znečistenie ovzdušia. Najradšej rastie na čerstvých, hlinitých pôdach od nížin po podhorské pásmo. Z poranenej stopky listu vyteká biela „mliečna“ šťava, podľa ktorej dostal meno; listy sú päťlaločné s dlhou špičkou. Svetlé, husté drevo s jemnou plameňovou kresbou sa používa na nábytok a rezonančné dosky huslí či gitár. Na jar medodajné kvety lákajú včely skôr, než sa plne rozvinú listy.",
+  "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
+  "projekt": "ZŠ a MŠ Bánová",
+  "miestoNazov": "Dendrológ 1",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/javor-mliecny/",
+    "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/javor-mliecny/",
+    "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/javor-mliecny/",
+    "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/javor-mliecny/",
+    "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/javor-mliecny/",
+    "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/javor-mliecny/"
+  }
+}

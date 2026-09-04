@@ -1,0 +1,28 @@
+{
+  "id": "3-orech-kralovsky",
+  "miesto": "dendrolog-1",
+  "poradie": 3,
+  "nazov": "3. Orech Kráľovský",
+  "popis": "",
+  "cover": "assets/images/migrated/orech-kralovsky-min.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/pexeso-orech-kralovsky.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Orech Kráľovský – Juglans regia\n\nBežne dorastá do 25 – 30 m a vyžaduje teplé, chránené stanovištia s vápenatými pôdami. Široké nepárno perovité listy vydávajú typickú živicovú vôňu a po dotyku môžu zafarbiť pokožku. V tvrdej kôstke dozrieva chutné jadro – jeden z najvýživnejších orechov našich záhrad. Tmavohnedé, dekoratívne drevo je mimoriadne cenené na luxusný nábytok, pažby zbraní či umelecké dyhy. Strom si vytvára chemickú „ochrannú zónu“ – pod ním klíči len málo rastlín, lebo uvoľňuje alelopatické látky.",
+  "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
+  "projekt": "ZŠ a MŠ Bánová",
+  "miestoNazov": "Dendrológ 1",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/3-orech-kralovsky/",
+    "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/3-orech-kralovsky/",
+    "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/3-orech-kralovsky/",
+    "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/3-orech-kralovsky/",
+    "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/3-orech-kralovsky/",
+    "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/3-orech-kralovsky/"
+  }
+}

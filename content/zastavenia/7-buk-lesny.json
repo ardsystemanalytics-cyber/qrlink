@@ -1,0 +1,28 @@
+{
+  "id": "7-buk-lesny",
+  "miesto": "dendrolog-1",
+  "poradie": 7,
+  "nazov": "7. Buk Lesný",
+  "popis": "",
+  "cover": "assets/images/migrated/buk-lesny-min.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/pexeso-buk-lesny.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Buk Lesný – Fagus sylvatica\n\nMôže dosiahnuť 40 – 45 m a vytvára mohutné, tienisté koruny, pod ktorými rastie len málo rastlín. Tvorí čisté bukové porasty vo vlhkých pahorkatinách aj nižších horách do 1 000 m, kde obľubuje hlboké, úrodné pôdy. Kmeň má hladkú sivú kôru prezývanú „slonia koža“. Po parení bukové drevo zmäkne a dá sa ohýbať, preto z neho vznikli slávne ohýbané stoličky Thonet. Listy bukov v lese vytvárajú hrubú vrstvu humusu, ktorá zadržiava vlhkosť.",
+  "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
+  "projekt": "ZŠ a MŠ Bánová",
+  "miestoNazov": "Dendrológ 1",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/7-buk-lesny/",
+    "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/7-buk-lesny/",
+    "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/7-buk-lesny/",
+    "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/7-buk-lesny/",
+    "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/7-buk-lesny/",
+    "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/7-buk-lesny/"
+  }
+}

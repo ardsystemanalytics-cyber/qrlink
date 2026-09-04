@@ -1,0 +1,28 @@
+{
+  "id": "4-ceresna-vtacia",
+  "miesto": "dendrolog-1",
+  "poradie": 4,
+  "nazov": "4. Čerešňa Vtáčia",
+  "popis": "",
+  "cover": "assets/images/migrated/ceresna-vtacia-min.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/pexeso-ceresna-vtacia.mp3"
+    }
+  ],
+  "galeria": [],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "Čerešňa Vtáčia – Prunus avium\n\nDosahuje 20 – 30 m a najlepšie rastie na slnečných, hlbokých pôdach pahorkatín a nízkych hôr. Na jar rozkvitá záplavou bielych voňavých súkvetí často ešte pred vypučaním listov. Hladká hnedočervená kôra s vodorovnými lenticelami sa v pásoch olupuje. Drevo s teplým červeným odtieňom je obľúbené v stolárstve aj pri výrobe hudobných nástrojov. Lesné vtáky roznášajú semená, takže divo rastúce čerešne sú prirodzenou súčasťou lesných mozaík.",
+  "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
+  "projekt": "ZŠ a MŠ Bánová",
+  "miestoNazov": "Dendrológ 1",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/4-ceresna-vtacia/",
+    "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/4-ceresna-vtacia/",
+    "de": "https://www.qrlink.sk/new/de/environmental-upbringing-and-education/4-ceresna-vtacia/",
+    "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/4-ceresna-vtacia/",
+    "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/4-ceresna-vtacia/",
+    "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/4-ceresna-vtacia/"
+  }
+}
