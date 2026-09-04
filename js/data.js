@@ -2109,7 +2109,7 @@ const DB = {
       "poradie": 16,
       "nazov": "Zelkova ostrolistá",
       "popis": "",
-      "cover": "assets/images/migrated/qr31.png",
+      "cover": "assets/images/migrated/qr31.jpg",
       "audio": [
         "assets/audio/migrated/31-zelkova-ostrolista.mp3"
       ],
@@ -2187,7 +2187,7 @@ const DB = {
       "poradie": 19,
       "nazov": "Borovica vejmutovka",
       "popis": "",
-      "cover": "assets/images/migrated/qr34.png",
+      "cover": "assets/images/migrated/qr34.jpg",
       "audio": [
         "assets/audio/migrated/34-borovica-vejmutovka.mp3"
       ],
@@ -2213,7 +2213,7 @@ const DB = {
       "poradie": 20,
       "nazov": "Zvernica",
       "popis": "",
-      "cover": "assets/images/migrated/zvernica-min.png",
+      "cover": "assets/images/migrated/zvernica-min.jpg",
       "audio": [
         "assets/audio/migrated/zvernica.mp3"
       ],
@@ -2671,7 +2671,7 @@ const DB = {
         "assets/images/migrated/foto-054-min.jpg",
         "assets/images/migrated/image0011-min.jpg",
         "assets/images/migrated/foto-036_1993-min.jpg",
-        "assets/images/migrated/2025-09-25_11h40_55-min.png"
+        "assets/images/migrated/2025-09-25_11h40_55-min.jpg"
       ],
       "gps": {
         "lat": 48.343092,
@@ -3417,7 +3417,7 @@ const DB = {
         "assets/audio/migrated/4-1.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/4a-model-hradu-20-storocie.png"
+        "assets/images/migrated/4a-model-hradu-20-storocie.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3437,7 +3437,7 @@ const DB = {
       "poradie": 5,
       "nazov": "Prízemie južného paláca – kuchyňa",
       "popis": "",
-      "cover": "assets/images/migrated/5-kuchyna.png",
+      "cover": "assets/images/migrated/5-kuchyna.jpg",
       "audio": [
         "assets/audio/migrated/5-1.mp3"
       ],
@@ -3726,7 +3726,7 @@ const DB = {
       "poradie": 2,
       "nazov": "Politická a vojenská kariéra Juraja Turza",
       "popis": "",
-      "cover": "assets/images/migrated/thurzo-nakoni.png",
+      "cover": "assets/images/migrated/thurzo-nakoni.jpg",
       "audio": [
         "assets/audio/migrated/tabula-02.mp3"
       ],
@@ -3795,7 +3795,7 @@ const DB = {
       "poradie": 5,
       "nazov": "Záver života uhorského palatína",
       "popis": "",
-      "cover": "assets/images/migrated/5.png",
+      "cover": "assets/images/migrated/5.jpg",
       "audio": [
         "assets/audio/migrated/tabula-05.mp3"
       ],
@@ -3841,7 +3841,7 @@ const DB = {
       "poradie": 7,
       "nazov": "Edmund Reitter – člověk a filantrop",
       "popis": "",
-      "cover": "assets/images/migrated/6_vitrina-se-sbirek-edmunda-reittera.png",
+      "cover": "assets/images/migrated/6_vitrina-se-sbirek-edmunda-reittera.jpg",
       "audio": [
         "assets/audio/migrated/reiter03-1.mp3"
       ],
@@ -3933,7 +3933,7 @@ const DB = {
       "poradie": 1,
       "nazov": "Rozhľadňa Tábor",
       "popis": "",
-      "cover": "assets/images/migrated/tabor.png",
+      "cover": "assets/images/migrated/tabor.jpg",
       "audio": [
         "assets/audio/migrated/rozhladna-tabor.mp3"
       ],
@@ -3956,7 +3956,7 @@ const DB = {
       "poradie": 2,
       "nazov": "Kysucká hvezdáreň",
       "popis": "",
-      "cover": "assets/images/migrated/krajska-hvezdaren-zilina59999427.png",
+      "cover": "assets/images/migrated/krajska-hvezdaren-zilina59999427.jpg",
       "audio": [
         "assets/audio/migrated/kysucka-hvezdaren.mp3"
       ],
@@ -3979,7 +3979,7 @@ const DB = {
       "poradie": 3,
       "nazov": "Kaštieľ v Radoli",
       "popis": "",
-      "cover": "assets/images/migrated/radola.png",
+      "cover": "assets/images/migrated/radola.jpg",
       "audio": [
         "assets/audio/migrated/kastiel-v-radoli.mp3"
       ],
@@ -4005,7 +4005,7 @@ const DB = {
       "poradie": 4,
       "nazov": "Martákov kopec- Rozhľadňa Zákopčie",
       "popis": "",
-      "cover": "assets/images/migrated/martakov-kopec.png",
+      "cover": "assets/images/migrated/martakov-kopec.jpg",
       "audio": [
         "assets/audio/migrated/martakov-kopec.mp3"
       ],
@@ -4051,7 +4051,7 @@ const DB = {
       "poradie": 6,
       "nazov": "Chránená lipa",
       "popis": "",
-      "cover": "assets/images/migrated/lipa1.png",
+      "cover": "assets/images/migrated/lipa1.jpg",
       "audio": [
         "assets/audio/migrated/chranena-lipa.mp3"
       ],
@@ -4128,7 +4128,7 @@ const DB = {
       "poradie": 1,
       "nazov": "O Hlinenom v najstarších časoch",
       "popis": "",
-      "cover": "assets/images/migrated/hlinene-1.png",
+      "cover": "assets/images/migrated/hlinene-1.jpg",
       "audio": [
         "assets/audio/migrated/01-01-o-hlinenom-v-najstarsich-casoch.mp3"
       ],
@@ -4443,7 +4443,7 @@ const DB = {
       "poradie": 8,
       "nazov": "Gruň – Bílý Kříž",
       "popis": "",
-      "cover": "assets/images/migrated/grun-1.png",
+      "cover": "assets/images/migrated/grun-1.jpg",
       "audio": [],
       "galeria": [
         "assets/images/migrated/gr2.jpg"
@@ -4513,7 +4513,7 @@ const DB = {
       "poradie": 11,
       "nazov": "Chlebovická Medová stopa",
       "popis": "",
-      "cover": "assets/images/migrated/mc1.png",
+      "cover": "assets/images/migrated/mc1.jpg",
       "audio": [],
       "galeria": [
         "assets/images/migrated/bez-nazvuc2.jpg"
@@ -5553,7 +5553,7 @@ const DB = {
       "poradie": 5,
       "nazov": "SOCHA RADEGASTA",
       "popis": "",
-      "cover": "assets/images/migrated/socha-radegasta.png",
+      "cover": "assets/images/migrated/socha-radegasta.jpg",
       "audio": [
         "assets/audio/migrated/socha.mp3"
       ],
@@ -6197,7 +6197,7 @@ const DB = {
       "poradie": 1,
       "nazov": "Kaštieľ Sokolovce",
       "popis": "",
-      "cover": "assets/images/migrated/kastiel-sokolovce.png",
+      "cover": "assets/images/migrated/kastiel-sokolovce.jpg",
       "audio": [],
       "galeria": [],
       "gps": {
@@ -7438,7 +7438,7 @@ const DB = {
         "assets/audio/migrated/zvonica-hrusove.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/2025-08-18_13h09_48.png",
+        "assets/images/migrated/2025-08-18_13h09_48.jpg",
         "assets/images/migrated/hrusovska-zvonica_hodiny-min.jpg",
         "assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-2-min.jpg",
         "assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-3-min.jpg",
