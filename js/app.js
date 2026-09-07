@@ -845,10 +845,15 @@ function renderGallery(imgs, activeIndex, showHeroPhoto) {
       <button class="g-arrow" data-dir="1" aria-label="${t("next_photos_aria")}">›</button>
     </div>`;
 
-  QA(".g-arrow", host).forEach(b => b.addEventListener("click", () =>
-    Q("#gStrip").scrollBy({ left: 300 * Number(b.dataset.dir) })));
+  let current = activeIndex;
+  const goTo = i => {
+    current = (i + imgs.length) % imgs.length;
+    showHeroPhoto(current);
+    Q(`#gStrip img[data-i="${current}"]`)?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+  };
 
-  QA("#gStrip img").forEach((img, i) => img.addEventListener("click", () => showHeroPhoto(i)));
+  QA(".g-arrow", host).forEach(b => b.addEventListener("click", () => goTo(current + Number(b.dataset.dir))));
+  QA("#gStrip img").forEach((img, i) => img.addEventListener("click", () => goTo(i)));
 }
 
 /* počítadlo návštev – zatiaľ lokálne; miesto pre napojenie na API */
