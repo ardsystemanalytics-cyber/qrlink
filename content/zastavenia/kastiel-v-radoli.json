@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/kastiel-v-radoli.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/radola.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.295734,
     "lng": 18.788351

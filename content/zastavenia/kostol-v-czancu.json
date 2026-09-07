@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/9-the-church-in-czanc.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/9-1.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.850158,
     "lng": 19.243509

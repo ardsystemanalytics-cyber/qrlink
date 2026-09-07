@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/3-kostol-evanjelicky-augsburskeho-vyznania.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/3-evanjelicky-kostol.jpg"
+    }
+  ],
   "gps": {
     "lat": 48.703489,
     "lng": 20.508859

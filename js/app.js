@@ -676,11 +676,14 @@ function renderZastavenie() {
     </span>` : ""}
     ${zastaveniaMiesta.length ? `<span class="detail-meta-count">${t("stop_of", { n: poradieTu, total: zastaveniaMiesta.length })}</span>` : ""}`;
 
-  if (z.cover) {
-    const pocetFoto = z.galeria && z.galeria.length ? z.galeria.length : 1;
+  // Hlavná fotka hore je zároveň prvá fotka fotogalérie nižšie - klik na
+  // ktorúkoľvek miniatúru v galérii ju sem prepne (pozri showHeroPhoto).
+  const heroPhotos = (z.galeria && z.galeria.length) ? z.galeria : (z.cover ? [z.cover] : []);
+  let heroIndex = z.cover ? Math.max(0, heroPhotos.indexOf(z.cover)) : 0;
+  if (heroPhotos.length) {
     Q("#dCover").innerHTML = `
-      <img src="${z.cover}" alt="${tc(z, "nazov")}">
-      <span class="detail-cover-counter">1 / ${pocetFoto}</span>
+      <img src="${heroPhotos[heroIndex]}" alt="${tc(z, "nazov")}" id="dCoverImg">
+      <span class="detail-cover-counter" id="dCoverCounter">${heroIndex + 1} / ${heroPhotos.length}</span>
       <button class="detail-share-btn" id="shareBtn">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
@@ -695,6 +698,13 @@ function renderZastavenie() {
     });
   } else { Q("#dCover").remove(); }
 
+  function showHeroPhoto(i) {
+    heroIndex = i;
+    Q("#dCoverImg").src = heroPhotos[i];
+    Q("#dCoverCounter").textContent = `${i + 1} / ${heroPhotos.length}`;
+    QA("#gStrip img").forEach((img, j) => img.classList.toggle("active", j === i));
+  }
+
   if (z.audio && z.audio.length) renderPlayer(z.audio[0]);
   else Q("#playerHost").remove();
 
@@ -706,7 +716,7 @@ function renderZastavenie() {
   });
 
 
-  if (z.galeria && z.galeria.length) renderGallery(z.galeria);
+  if (z.galeria && z.galeria.length) renderGallery(z.galeria, heroIndex, showHeroPhoto);
   else Q("#galleryHost").remove();
 
   if (z.mapEmbed) {
@@ -819,8 +829,9 @@ function renderPlayer(src) {
     a.currentTime = Math.max(0, a.currentTime + Number(b.dataset.skip))));
 }
 
-/* fotogaléria so šípkami + lightbox */
-function renderGallery(imgs) {
+/* fotogaléria so šípkami - klik na miniatúru prepne fotku v hlavnej časti
+   hore (#dCover), nie samostatný lightbox (pozri showHeroPhoto vyššie). */
+function renderGallery(imgs, activeIndex, showHeroPhoto) {
   const host = Q("#galleryHost");
   host.innerHTML = `
     <h2 class="gallery-title">
@@ -829,43 +840,15 @@ function renderGallery(imgs) {
     <div class="gallery">
       <button class="g-arrow" data-dir="-1" aria-label="${t("prev_photos_aria")}">‹</button>
       <div class="g-strip" id="gStrip">
-        ${imgs.map((s, i) => `<img src="${s}" alt="${t("photo_alt", { n: i + 1 })}" loading="lazy" data-i="${i}">`).join("")}
+        ${imgs.map((s, i) => `<img src="${s}" alt="${t("photo_alt", { n: i + 1 })}" loading="lazy" data-i="${i}" class="${i === activeIndex ? "active" : ""}">`).join("")}
       </div>
       <button class="g-arrow" data-dir="1" aria-label="${t("next_photos_aria")}">›</button>
-    </div>
-    <div class="lightbox" id="lb" role="dialog" aria-label="${t("lightbox_aria")}">
-      <button id="lbClose" aria-label="${t("close_aria")}">×</button>
-      <button class="lb-arrow lb-prev" aria-label="${t("prev_photo_aria")}">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6l6 6"/></svg>
-      </button>
-      <img id="lbImg" src="" alt="">
-      <button class="lb-arrow lb-next" aria-label="${t("next_photo_aria")}">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6l-6 6"/></svg>
-      </button>
     </div>`;
 
   QA(".g-arrow", host).forEach(b => b.addEventListener("click", () =>
     Q("#gStrip").scrollBy({ left: 300 * Number(b.dataset.dir) })));
 
-  let lbIndex = 0;
-  const showLightbox = i => {
-    lbIndex = (i + imgs.length) % imgs.length;
-    Q("#lbImg").src = imgs[lbIndex];
-  };
-  QA("#gStrip img").forEach((img, i) => img.addEventListener("click", () => {
-    showLightbox(i);
-    Q("#lb").classList.add("open");
-  }));
-  Q("#lbClose").addEventListener("click", () => Q("#lb").classList.remove("open"));
-  Q("#lb").addEventListener("click", e => { if (e.target.id === "lb") Q("#lb").classList.remove("open"); });
-  Q(".lb-prev", host).addEventListener("click", () => showLightbox(lbIndex - 1));
-  Q(".lb-next", host).addEventListener("click", () => showLightbox(lbIndex + 1));
-  document.addEventListener("keydown", e => {
-    if (!Q("#lb").classList.contains("open")) return;
-    if (e.key === "ArrowLeft") showLightbox(lbIndex - 1);
-    else if (e.key === "ArrowRight") showLightbox(lbIndex + 1);
-    else if (e.key === "Escape") Q("#lb").classList.remove("open");
-  });
+  QA("#gStrip img").forEach((img, i) => img.addEventListener("click", () => showHeroPhoto(i)));
 }
 
 /* počítadlo návštev – zatiaľ lokálne; miesto pre napojenie na API */

@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/2_final.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/img_20200624_153200.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.174201,
     "lng": 18.860655

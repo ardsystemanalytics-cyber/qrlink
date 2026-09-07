@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/5-the-sport-and-recreation-centre-the-skatepark.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/5.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.401766,
     "lng": 18.619574

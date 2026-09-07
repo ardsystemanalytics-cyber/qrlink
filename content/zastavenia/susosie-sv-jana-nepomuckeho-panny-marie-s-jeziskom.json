@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/01-susosie.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/socha-nepomuckeho.jpeg"
+    }
+  ],
   "gps": {
     "lat": 49.02074150738056,
     "lng": 21.2813050192186

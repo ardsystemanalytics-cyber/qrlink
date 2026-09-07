@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/16-rodny-dom-juliusa-kossutha.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/16-dom-juliusa-kossutha.jpg"
+    }
+  ],
   "gps": {
     "lat": 48.702361,
     "lng": 20.507765

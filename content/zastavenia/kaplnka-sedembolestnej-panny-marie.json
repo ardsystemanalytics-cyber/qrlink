@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/6-8-the-chapel-of-the-seven-sorrow-virgin-mary.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/kaplnka-sedembolestnej-panny.jpg"
+    }
+  ],
   "gps": null,
   "mapEmbed": "",
   "text": "Kaplnka bola postavená v roku 1944 nad cestou vedúcou z Turzovky cez horské sedlo Semeteš na Považie. Vo vežičke je umiestnený zvon s nápisom: „Ulil R. Manoušek a spol. v Brne 1943.“",

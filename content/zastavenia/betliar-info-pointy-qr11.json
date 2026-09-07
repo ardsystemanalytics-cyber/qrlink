@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/11-bytovy-dom-v-lokalite-pila.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/11-bytovy-dom-pila.jpg"
+    }
+  ],
   "gps": {
     "lat": 48.703401,
     "lng": 20.499198

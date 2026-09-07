@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/8-football-playground-and-sport-hall-in-frydlant-nad-ostravici.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/08-fotbalove-hriste-a-hala-sport.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.585279,
     "lng": 18.364264

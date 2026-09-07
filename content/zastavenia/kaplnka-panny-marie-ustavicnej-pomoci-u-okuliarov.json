@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/6-1-the-chapel-of-virgin-mary-s-perpetual-help-in-settlement-u-okruhliakov.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/u-koliarov.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.406749,
     "lng": 18.628815

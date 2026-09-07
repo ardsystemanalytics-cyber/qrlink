@@ -6,7 +6,11 @@
   "popis": "",
   "cover": "assets/images/migrated/kniz.jpg",
   "audio": [],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/kniz.jpg"
+    }
+  ],
   "gps": null,
   "mapEmbed": "",
   "text": "Historická knižnica sa nachádza priestoroch kultúrneho domu v meste Turzovka a je pomenovaná po Františkovi Taganínim, ktorý bol dlhoročný buditeľ, kňaz a zaslúžil sa o rozvoj školstva a vzdelávania. Jeho vášňou boli celoživotne knihy, zbieral knihy a dokonca si založil jednu z prvých vlastných knižníc. V knižnici nájdete   2 500 knižných zväzkov v maďarskom, latinskom a nemeckom jazyku. Z obsahového hľadiska ide o liturgické, teologické, homiletické, náboženské diela, ale nájdeme tu aj knihy z oblasti histórie, jazykovedy, či geografia. Knižnicu zdobia 2 obrazy kňažnej Sissy a cisára Františka Jozefa I. Tieto portréty maľoval rodák z Turzovky Dominik Bartolomej Lippay. Nachádzajú sa tu rôzne dobové doplnky dávnych knižníc s možnosťou meditácie, štúdia kníh, či organizovania recitálov v komornom duchu.",

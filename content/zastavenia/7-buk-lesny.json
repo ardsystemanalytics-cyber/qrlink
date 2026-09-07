@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/pexeso-buk-lesny.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/buk-lesny-min.jpg"
+    }
+  ],
   "gps": null,
   "mapEmbed": "",
   "text": "**Buk Lesný – Fagus sylvatica**\n\nMôže dosiahnuť 40 – 45 m a vytvára mohutné, tienisté koruny, pod ktorými rastie len málo rastlín. Tvorí čisté bukové porasty vo vlhkých pahorkatinách aj nižších horách do 1 000 m, kde obľubuje hlboké, úrodné pôdy. Kmeň má hladkú sivú kôru prezývanú „slonia koža“. Po parení bukové drevo zmäkne a dá sa ohýbať, preto z neho vznikli slávne ohýbané stoličky Thonet. Listy bukov v lese vytvárajú hrubú vrstvu humusu, ktorá zadržiava vlhkosť.",

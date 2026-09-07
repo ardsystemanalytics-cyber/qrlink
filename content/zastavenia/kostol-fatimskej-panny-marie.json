@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/6-7-the-church-of-the-virgin-mary-of-fatima.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/kostol-turkov.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.371677,
     "lng": 18.609308

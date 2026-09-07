@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/3-social-service-centrum-4.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/03-stredisko-socialnich-sluzeb-kaple.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.594454,
     "lng": 18.357188

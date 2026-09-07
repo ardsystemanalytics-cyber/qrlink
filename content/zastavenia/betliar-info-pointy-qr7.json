@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/7-budova-obecneho-uradu.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/7-obecny-urad.jpg"
+    }
+  ],
   "gps": {
     "lat": 48.7025556,
     "lng": 20.5063889

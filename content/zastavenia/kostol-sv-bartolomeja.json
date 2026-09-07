@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/2-church-of-st-bartolomej-2.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/02-kostel-sv-bartolomeje-1.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.593281,
     "lng": 18.358821

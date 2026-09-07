@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/2-the-settlement-kolonia-in-the-witkiewicz-style.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/2-budynek-na-osiedlu-kolonia-w-stylu-witkiewiczowskim.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.814007,
     "lng": 19.215975

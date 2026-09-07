@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/7-1.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/7-cisterna-1.jpg"
+    }
+  ],
   "gps": null,
   "mapEmbed": "",
   "text": "Cisterna slúžila na zachytávanie dažďovej vody zo striech hradu. Voda sa do nej dostávala pomocou dažďových odkvapov. Cisterna je hlboká  3,5m a priemer má 2,6m. Päť spodných radov obloženia je pôvodných, ostatné 3 rady sú dorekonštruované. Dno a obvod cisterny bol v čase používania vymazaný ílom, čím sa zabránilo presakovaniu vody do vápencového podložia. Voda z cisterny nebola pitná, iba úžitková.",

@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/11-chapel-of-st-antonin-paduansky-ondrejnik.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/11-kaple-sv-antonina-paduanskeho-ondrejnik.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.580831,
     "lng": 18.319616

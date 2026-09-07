@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/12-plastiky.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/qr-12.jpg"
+    }
+  ],
   "gps": {
     "lat": 48.705933,
     "lng": 20.510053

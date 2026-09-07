@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/bludisko-bobor.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/zs-banova-bludisko-26-min.jpg"
+    }
+  ],
   "gps": null,
   "mapEmbed": "",
   "text": "**Bobor**\n\nBobor stavia hrádzu v rieke, \n\nzo stromov má hradby veľké. \n\nZúbky silné, ostré má, \n\nstromy rýchlo ohrýza.\n\nChvost má plochý ako pádlо, \n\npleskne ním, keď skočí na dno. \n\nVo vode je majster plavby, \n\nv rieke tvorí svoje stavby.",

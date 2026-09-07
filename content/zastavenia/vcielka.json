@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/bludisko-vcielka.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/zs-banova-bludisko-24-min.jpg"
+    }
+  ],
   "gps": null,
   "mapEmbed": "",
   "text": "**&#x1f41d; Včielka**\n\nVčielka malá v lúke spieva, \n\nz kvetu na kvet ticho lieta. \n\nBzučí, spieva, tancuje, \n\nv úli medík čaruje.\n\nKaždý kvietok pozdraví, \n\nslniečko náladu jej spraví. \n\nZ peľu varí chutný med, \n\nčo má rado celý svet.",

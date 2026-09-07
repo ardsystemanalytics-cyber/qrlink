@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/8-the-forest-reservation-zasolnica.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/8-porabka-zasolnica1.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.817509,
     "lng": 19.202544

@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/10-the-chapel-in-the-bujakow-forest.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/10-kapliczka-w-bujakowskim-lesie.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.841205,
     "lng": 19.19673

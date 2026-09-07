@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/8-2-the-monument-of-m-r-stefanika-4.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/8.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.402188,
     "lng": 18.623988

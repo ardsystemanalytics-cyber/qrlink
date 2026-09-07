@@ -87,6 +87,10 @@ function inlineToMarkdown(html) {
   s = s.replace(/<(strong|b)[^>]*>([\s\S]*?)<\/\1>/gi, wrap("**"));
   s = s.replace(/<(em|i)[^>]*>([\s\S]*?)<\/\1>/gi, wrap("*"));
   s = s.replace(/<a[^>]+href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi, (_, href, inner) => `[${inner.trim()}](${href})`);
+  // Fotky priamo v texte necháme na pôvodnom mieste (presne ako na starom webe)
+  // - "mapka_*" je opakovaný generický pôdorys hradu na každom zastavení, nie
+  // skutočná fotka, tak ten vynecháme (rovnaká výnimka ako pri extractImages).
+  s = s.replace(/<img[^>]+src="([^"]+)"[^>]*>/gi, (_, src) => (/\/mapka_\d+/i.test(src) ? "" : `\n\n![](${src})\n\n`));
   s = s.replace(/<br\s*\/?>/gi, "  \n");
   s = s.replace(/<[^>]+>/g, ""); // zvyšné tagy (span a pod.)
   return decodeEntitiesInline(s).replace(/[ \t]+/g, " ").trim();
@@ -250,8 +254,11 @@ async function main() {
 
     const nazov = decodeEntities(item.title.rendered);
     const text = htmlToMarkdown(item.content.rendered, nazov);
-    const galeria = extractImages(item.content.rendered).map((url) => ({ url }));
+    const textImages = extractImages(item.content.rendered);
     const cover = await fetchFeaturedImage(item.featured_media);
+    // Hlavná fotka (cover) je v galérii vždy prvá - presne ako na starom webe.
+    const galeriaUrls = cover ? [cover, ...textImages.filter((u) => u !== cover)] : textImages;
+    const galeria = galeriaUrls.map((url) => ({ url }));
     const { audio: audioUrls, gps: scrapedGps, mapEmbed: scrapedMapEmbed } = await extractAudioAndGps(item.link);
     const audio = audioUrls.map((url) => ({ url }));
 

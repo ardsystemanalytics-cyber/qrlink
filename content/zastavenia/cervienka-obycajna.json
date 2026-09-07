@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/cervienka-obycajna-spev.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/cervienka-obycajna-min.jpg"
+    }
+  ],
   "gps": null,
   "mapEmbed": "",
   "text": "Zvuková nahrávka – Spev\n\nZdroj: [Zdeněk Vermouzek](http://www.xeno-canto.org/249306), [CC BY-SA 4.0](https://sk.wikipedia.org/wiki/S%C3%BAbor:XC249306-2015-05-31_05-47_ERI_RUB_a.ogg),",

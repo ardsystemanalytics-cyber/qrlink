@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/11-natural-amphitheater-history-of-beskydy-festival-2.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/11.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.401528,
     "lng": 18.627594

@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/7-velky-vodopad.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/qr-7.jpg"
+    }
+  ],
   "gps": {
     "lat": 48.710302,
     "lng": 20.510427

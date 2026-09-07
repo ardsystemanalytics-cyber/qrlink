@@ -6,7 +6,11 @@
   "popis": "",
   "cover": "assets/images/migrated/kastiel-sokolovce.jpg",
   "audio": [],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/kastiel-sokolovce.jpg"
+    }
+  ],
   "gps": {
     "lat": 48.5358319,
     "lng": 17.8419151

@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/5-hermesova-studna.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/qr-5.jpg"
+    }
+  ],
   "gps": {
     "lat": 48.707988,
     "lng": 20.509918

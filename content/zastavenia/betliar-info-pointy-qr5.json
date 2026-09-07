@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/5-hasicska-zbrojnica.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/5-hasicska-zbrojnica.jpg"
+    }
+  ],
   "gps": {
     "lat": 48.70283,
     "lng": 20.507596

@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/02-daxner.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/daxner1.jpg"
+    }
+  ],
   "gps": {
     "lat": 48.88860140720319,
     "lng": 21.685508182597058

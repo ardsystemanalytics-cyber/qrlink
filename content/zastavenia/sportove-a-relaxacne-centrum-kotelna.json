@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/10-sport-and-relax-centre-kotelna.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/10-sportovni-a-relaxacni-centrum-kotelna.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.590088,
     "lng": 18.362385

@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/12-budova-zakladnej-skoly.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/12-zakladna-skola.jpg"
+    }
+  ],
   "gps": {
     "lat": 48.700434,
     "lng": 20.503074

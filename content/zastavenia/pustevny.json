@@ -6,7 +6,11 @@
   "popis": "",
   "cover": "assets/images/migrated/img_6938.jpg",
   "audio": [],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/img_6938.jpg"
+    }
+  ],
   "gps": null,
   "mapEmbed": "",
   "text": "Pustevny sú veľmi atraktívnym miestom na výlety za každého počasia. Na osadu neďaleko mýtickej hory Radhošť sa dá vyviezť lanovkou, prísť pešo, v zime na bežkách a v lete na bicykli. Pustevny sú najobľúbenejším turistickým centom v Beskydách a socha Radegasta, ktorú nájdete cestou na Radhošť, je najznámejším symbolom celého Moravskosliezskeho kraja. K povšimnutiu stojí architektúra turistických ubytovní LIBUŠÍN a MAMĚNKA od slovenského architekta Dušana Jurkoviča, či drevený kostol sv. Cyrila a Metóda a súsošie oboch vierozvestcov od autora Albína Poláška z roku 1931, ktorý sa nachádza na samotnom vrchole.",

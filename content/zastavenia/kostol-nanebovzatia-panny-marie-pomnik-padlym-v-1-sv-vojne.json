@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/1-the-church-of-the-assumption-of-the-virgin-mary-the-memorial-of-the-fallen-in-the-1st-world-war-12.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/1-1.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.405817,
     "lng": 18.626376

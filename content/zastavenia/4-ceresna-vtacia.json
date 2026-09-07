@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/pexeso-ceresna-vtacia.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/ceresna-vtacia-min.jpg"
+    }
+  ],
   "gps": null,
   "mapEmbed": "",
   "text": "**Čerešňa Vtáčia – Prunus avium**\n\nDosahuje 20 – 30 m a najlepšie rastie na slnečných, hlbokých pôdach pahorkatín a nízkych hôr. Na jar rozkvitá záplavou bielych voňavých súkvetí často ešte pred vypučaním listov. Hladká hnedočervená kôra s vodorovnými lenticelami sa v pásoch olupuje. Drevo s teplým červeným odtieňom je obľúbené v stolárstve aj pri výrobe hudobných nástrojov. Lesné vtáky roznášajú semená, takže divo rastúce čerešne sú prirodzenou súčasťou lesných mozaík.",

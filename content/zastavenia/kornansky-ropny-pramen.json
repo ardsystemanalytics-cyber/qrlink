@@ -6,7 +6,11 @@
   "popis": "",
   "cover": "assets/images/migrated/pramen.jpg",
   "audio": [],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/pramen.jpg"
+    }
+  ],
   "gps": null,
   "mapEmbed": "",
   "text": "Jednou z najväčších geologických atraktivít v osade u Muchovcov od roku 1984 je prírodná rezervácia ropný prameň. Ide o ojedinelý európsky unikát povrchového prirodzeného výveru ľahkej ropy s občasnými výronmi samo zapaľujúceho sa metánu. Legenda hovorí o pytliakovi, ktorý mal údajne spadnúť do náleziska pri prenasledovaní zveri. I keď sa jedná o veľmi kvalitnú ropu, nepreukázali sa také množstvá, ktoré by sa vyplatili pre priemyselnú ťažbu.",

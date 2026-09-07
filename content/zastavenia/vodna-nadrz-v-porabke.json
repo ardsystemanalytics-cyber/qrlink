@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/1-the-water-reservoir-in-porabka.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/1-zapora-wodna-w-porabce.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.807201,
     "lng": 19.201918

@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/6-elementary-school-frydlant-nad-ostravici.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/6-2.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.592179,
     "lng": 18.357999

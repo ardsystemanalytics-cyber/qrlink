@@ -6,7 +6,11 @@
   "popis": "",
   "cover": "assets/images/migrated/rodny-dom-jozefa-kronera.jpg",
   "audio": [],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/rodny-dom-jozefa-kronera.jpg"
+    }
+  ],
   "gps": null,
   "mapEmbed": "",
   "text": "Domček, v ktorom sa v roku 1924 narodil významný slovenský herec Jozef Kroner.  Múzeum je prístupné každý deň. V múzeu nájdete v strede stôl, hercovo kreslo a vitrínu, v ktorej je množstvo predmetov zo života umelca, napr. osobné listy, rôzne ocenenia, rybárske čižmy, okuliare, šálka, dokonca aj soška Oscara za film Obchod na Korze, v ktorom Jozef Kroner stvárnil hlavnú postavu.",

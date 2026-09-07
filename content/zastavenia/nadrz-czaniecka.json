@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/7-the-reservoir-czaniecka.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/7-zbiornik-czaniecki.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.828962,
     "lng": 19.220428

@@ -6,7 +6,11 @@
   "popis": "",
   "cover": "assets/images/migrated/muzeum-karola-tocika-2.jpg",
   "audio": [],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/muzeum-karola-tocika-2.jpg"
+    }
+  ],
   "gps": null,
   "mapEmbed": "",
   "text": "Mestské múzeum v Turzovke je venované Karolovi Točíkovi, ktorý bol nielen turzovským farárom a dekanom, ale aj regionálnym historikom. V Turzovke pôsobil v rokoch 1917 – 1959.\n\nPrvá expozícia bola zložená z výberu exponátov, ktoré múzeu darovali miestne inštitúcie ale aj občania Turzovky a blízkych obcí. Výnimočným exponátom múzea je originál zvona, ktorý nechal pre najstarší drevený kostol (dnes už zaniknutý) v Turzovke uliať práve jej zakladateľ Juraj Turzo v roku 1614. Zvon je najstarším a zároveň najcennejším exponátom a jeho štylizovaná podoba sa objavila aj v logu múzea.",

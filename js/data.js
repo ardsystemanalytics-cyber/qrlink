@@ -929,7 +929,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/1-kulturny-dom.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/1-kulturny-dom.jpg"
+      ],
       "gps": {
         "lat": 48.70527,
         "lng": 20.507952
@@ -955,7 +957,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/2-kostol-rimskokatolicky-sv-alzbety-vdovy.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/2-rimskokatolicky-kostol.jpg"
+      ],
       "gps": {
         "lat": 48.704072,
         "lng": 20.509225
@@ -981,7 +985,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/3-kostol-evanjelicky-augsburskeho-vyznania.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/3-evanjelicky-kostol.jpg"
+      ],
       "gps": {
         "lat": 48.703489,
         "lng": 20.508859
@@ -1007,7 +1013,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/4-evanjelicka-fara.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/4-evanjelicka-fara.jpg"
+      ],
       "gps": {
         "lat": 48.703546,
         "lng": 20.508526
@@ -1033,7 +1041,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/5-hasicska-zbrojnica.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/5-hasicska-zbrojnica.jpg"
+      ],
       "gps": {
         "lat": 48.70283,
         "lng": 20.507596
@@ -1059,7 +1069,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/6-budova-spravy-lesov.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/6-budova-spravy-lesov.jpg"
+      ],
       "gps": {
         "lat": 48.702415,
         "lng": 20.506491
@@ -1085,7 +1097,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/7-budova-obecneho-uradu.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/7-obecny-urad.jpg"
+      ],
       "gps": {
         "lat": 48.7025556,
         "lng": 20.5063889
@@ -1111,7 +1125,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/8-maly-park.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/8-maly-park.jpg"
+      ],
       "gps": {
         "lat": 48.701483,
         "lng": 20.505685
@@ -1137,7 +1153,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/9-socha-sv-jana-nepomuckeho.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/9-socha.jpg"
+      ],
       "gps": {
         "lat": 48.701857,
         "lng": 20.506214
@@ -1163,7 +1181,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/10-rodinny-dom-na-polomskej-ulici.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/10-rodinny-dom-na-polomskej-ulici.jpg"
+      ],
       "gps": {
         "lat": 48.70222,
         "lng": 20.501995
@@ -1189,7 +1209,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/11-bytovy-dom-v-lokalite-pila.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/11-bytovy-dom-pila.jpg"
+      ],
       "gps": {
         "lat": 48.703401,
         "lng": 20.499198
@@ -1215,7 +1237,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/12-budova-zakladnej-skoly.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/12-zakladna-skola.jpg"
+      ],
       "gps": {
         "lat": 48.700434,
         "lng": 20.503074
@@ -1241,7 +1265,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/13-budova-zeleznicnej-stanice.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/13-budova-zel-stanice.jpg"
+      ],
       "gps": {
         "lat": 48.699018,
         "lng": 20.501024
@@ -1267,7 +1293,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/14-bytove-domy-na-niznej-masi.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/14-bytove-domy-nizna-masa.jpg"
+      ],
       "gps": {
         "lat": 48.693316,
         "lng": 20.506356
@@ -1293,7 +1321,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/15-dom-aloisa-sebla.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/15-dom-alojza-sebla.jpg"
+      ],
       "gps": {
         "lat": 48.701199,
         "lng": 20.505906
@@ -1319,7 +1349,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/16-rodny-dom-juliusa-kossutha.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/16-dom-juliusa-kossutha.jpg"
+      ],
       "gps": {
         "lat": 48.702361,
         "lng": 20.507765
@@ -1345,7 +1377,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/17-pomnik-padlym-na-miestnom-cintorine.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/17-pomnik-padlym.jpg"
+      ],
       "gps": {
         "lat": 48.701845,
         "lng": 20.514181
@@ -1371,7 +1405,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/18-hospodarska-budova-kastiela-betliar.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/18-hodpodarska-budova-kastiela.jpg"
+      ],
       "gps": {
         "lat": 48.704795,
         "lng": 20.508461
@@ -1397,7 +1433,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/1-park.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/kastiel-min.jpg"
+      ],
       "gps": {
         "lat": 48.704752,
         "lng": 20.509297
@@ -1423,7 +1461,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/2-rotunda.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-2.jpg"
+      ],
       "gps": {
         "lat": 48.704758,
         "lng": 20.509616
@@ -1449,7 +1489,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/3-fontana.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-3.jpg"
+      ],
       "gps": {
         "lat": 48.705933,
         "lng": 20.510053
@@ -1475,7 +1517,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/4-kastiel.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-4.jpg"
+      ],
       "gps": {
         "lat": 48.706329,
         "lng": 20.510568
@@ -1501,7 +1545,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/5-hermesova-studna.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-5.jpg"
+      ],
       "gps": {
         "lat": 48.707988,
         "lng": 20.509918
@@ -1527,7 +1573,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/6-slobodomurarsky-pavilon.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-6.jpg"
+      ],
       "gps": {
         "lat": 48.708569,
         "lng": 20.510668
@@ -1553,7 +1601,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/7-velky-vodopad.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-7.jpg"
+      ],
       "gps": {
         "lat": 48.710302,
         "lng": 20.510427
@@ -1579,7 +1629,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/8-zavlazovaci-system.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-8.jpg"
+      ],
       "gps": {
         "lat": 48.714267,
         "lng": 20.51212
@@ -1605,7 +1657,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/9-olympijsky-ohen.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-9.jpg"
+      ],
       "gps": {
         "lat": 48.70966,
         "lng": 20.511112
@@ -1631,7 +1685,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/10-japonsky-most.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-10.jpg"
+      ],
       "gps": {
         "lat": 48.708112,
         "lng": 20.511672
@@ -1657,7 +1713,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/11-cinsky-pavilon.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-11.jpg"
+      ],
       "gps": {
         "lat": 48.70729,
         "lng": 20.51154
@@ -1683,7 +1741,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/12-plastiky.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-12.jpg"
+      ],
       "gps": {
         "lat": 48.705933,
         "lng": 20.510053
@@ -1709,7 +1769,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/13-velky-rybnik.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-13.jpg"
+      ],
       "gps": {
         "lat": 48.715222,
         "lng": 20.513051
@@ -1735,7 +1797,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/zverinec.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-14.jpg"
+      ],
       "gps": {
         "lat": 48.716717,
         "lng": 20.513134
@@ -1761,7 +1825,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/15-bosniak-bosnia-bar.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-15.jpg"
+      ],
       "gps": {
         "lat": 48.709349,
         "lng": 20.515601
@@ -1787,7 +1853,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/16-borovica-cierna.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-16.jpg"
+      ],
       "gps": {
         "lat": 48.708339,
         "lng": 20.509412
@@ -1813,7 +1881,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/17-douglaska-tisolista.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-17.jpg"
+      ],
       "gps": {
         "lat": 48.706683,
         "lng": 20.508922
@@ -1839,7 +1909,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/18-tsuga-kanadska.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-18.jpg"
+      ],
       "gps": {
         "lat": 48.705616,
         "lng": 20.510145
@@ -1865,7 +1937,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/19-platan-javorolisty.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-19.jpg"
+      ],
       "gps": {
         "lat": 48.706692,
         "lng": 20.511001
@@ -1891,7 +1965,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/20-visna-pilkata-sakura.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-20.jpg"
+      ],
       "gps": {
         "lat": 48.706692,
         "lng": 20.511001
@@ -1917,7 +1993,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/21-dub-letny-stlpovity.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-21.jpg"
+      ],
       "gps": {
         "lat": 48.71051,
         "lng": 20.511554
@@ -1943,7 +2021,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/22-lipa-americka.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-22.jpg"
+      ],
       "gps": {
         "lat": 48.709194,
         "lng": 20.511602
@@ -1969,7 +2049,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/23-laliovnik-tulipanokvety.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-23.jpg"
+      ],
       "gps": {
         "lat": 48.706038,
         "lng": 20.510848
@@ -1995,7 +2077,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/24-ginko-dvojlalocne.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-24.jpg"
+      ],
       "gps": {
         "lat": 48.706533,
         "lng": 20.511006
@@ -2021,7 +2105,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/25-smrek-obycajny-strukovity.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-25.jpg"
+      ],
       "gps": {
         "lat": 48.706446,
         "lng": 20.510877
@@ -2047,7 +2133,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/26-smrekovec-dahursky.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-26.jpg"
+      ],
       "gps": {
         "lat": 48.70669,
         "lng": 20.510739
@@ -2073,7 +2161,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/27-javor-mliecny.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-27-2.jpg"
+      ],
       "gps": {
         "lat": 48.707153,
         "lng": 20.510791
@@ -2099,7 +2189,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/28-katalpa-trubacovita.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-28-2.jpg"
+      ],
       "gps": {
         "lat": 48.70623,
         "lng": 20.510967
@@ -2125,7 +2217,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/29-pagastan-konsky.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-29-3.jpg"
+      ],
       "gps": {
         "lat": 48.706648,
         "lng": 20.509593
@@ -2151,7 +2245,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/30-buk-cervenolisty.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-30.jpg"
+      ],
       "gps": {
         "lat": 48.705419,
         "lng": 20.50968
@@ -2177,7 +2273,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/31-zelkova-ostrolista.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr31.jpg"
+      ],
       "gps": {
         "lat": 48.705493,
         "lng": 20.509575
@@ -2203,7 +2301,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/32-magnolia-koncistolista.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-32.jpg"
+      ],
       "gps": {
         "lat": 48.706115,
         "lng": 20.509837
@@ -2229,7 +2329,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/33-tis-obycajny.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr-33.jpg"
+      ],
       "gps": {
         "lat": 48.706519,
         "lng": 20.509787
@@ -2255,7 +2357,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/34-borovica-vejmutovka.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/qr34.jpg"
+      ],
       "gps": {
         "lat": 48.708518,
         "lng": 20.51155
@@ -2281,7 +2385,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/zvernica.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/zvernica-min.jpg"
+      ],
       "gps": {
         "lat": 48.718658,
         "lng": 20.514409
@@ -2307,7 +2413,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/bludisko-vevericka.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/zs-banova-bludisko-22-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p><strong>&#x1f43f;&#xfe0f; Veverička</strong></p>\n<p>Veverička skáče v lese, </p>\n<p>oriešky si schováva. </p>\n<p>Kŕmi sa nimi na halúzke, </p>\n<p>vietor lístky rozháňa.</p>\n<p>Po vetvičke beží hravo, </p>\n<p>chvostík za ňou poskakuje. </p>\n<p>Na zimu má zásob plno, </p>\n<p>v dutom strome oddychuje.</p>",
@@ -2330,7 +2438,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/bludisko-krtko.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/zs-banova-bludisko-25-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p><strong>&#x1f43e; Krtko</strong></p>\n<p>Krtko býva pod zemou, </p>\n<p>s lopatkami pracuje tmou. </p>\n<p>Hlboký si kope dom, </p>\n<p>V pokoji si spinká v ňom.</p>\n<p>Oči malé, skoro slepý je, </p>\n<p>čuch ho k cieľu dovedie. </p>\n<p>Tunel vedie sem i ta, </p>\n<p>krtko vie, kde domov má.</p>",
@@ -2353,7 +2463,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/bludisko-mravec.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/zs-banova-bludisko-27-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p><strong>&#x1f41c; Mravec</strong></p>\n<p>Mravec kráča v dlhom rade, </p>\n<p>na chrbát si cukor háďže. </p>\n<p>Silný je ako veľký chlap, </p>\n<p>zvládne aj ten najťažší náklad.</p>\n<p>V mravenisku všetko vrie, </p>\n<p>každý vie, kde jeho miesto je. </p>\n<p>Pracujú tam noci dni, </p>\n<p>mravčia vôľa nikdy neskončí.</p>",
@@ -2376,7 +2488,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/bludisko-vcielka.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/zs-banova-bludisko-24-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p><strong>&#x1f41d; Včielka</strong></p>\n<p>Včielka malá v lúke spieva, </p>\n<p>z kvetu na kvet ticho lieta. </p>\n<p>Bzučí, spieva, tancuje, </p>\n<p>v úli medík čaruje.</p>\n<p>Každý kvietok pozdraví, </p>\n<p>slniečko náladu jej spraví. </p>\n<p>Z peľu varí chutný med, </p>\n<p>čo má rado celý svet.</p>",
@@ -2399,7 +2513,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/bludisko-slimak.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/zs-banova-bludisko-23-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p><strong>&#x1f40c; Slimák</strong></p>\n<p>Slimák sa neponáhľa, nemá stres, </p>\n<p>nechce prejsť svet za jeden deň. </p>\n<p>Kam príde, tam sa zastaví, </p>\n<p>život v tempe nestrávi.</p>\n<p>Keď zaprší, rád sa smeje, </p>\n<p>po kvapkách sa veselo kĺže. </p>\n<p>Zanecháva slizký pás, </p>\n<p>ahoj slimák, vitaj zas!</p>",
@@ -2422,7 +2538,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/bludisko-bobor.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/zs-banova-bludisko-26-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p><strong>Bobor</strong></p>\n<p>Bobor stavia hrádzu v rieke, </p>\n<p>zo stromov má hradby veľké. </p>\n<p>Zúbky silné, ostré má, </p>\n<p>stromy rýchlo ohrýza.</p>\n<p>Chvost má plochý ako pádlо, </p>\n<p>pleskne ním, keď skočí na dno. </p>\n<p>Vo vode je majster plavby, </p>\n<p>v rieke tvorí svoje stavby.</p>",
@@ -2443,7 +2561,9 @@ const DB = {
       "popis": "",
       "cover": "assets/images/migrated/muzeum-karola-tocika-2.jpg",
       "audio": [],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/muzeum-karola-tocika-2.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Mestské múzeum v Turzovke je venované Karolovi Točíkovi, ktorý bol nielen turzovským farárom a dekanom, ale aj regionálnym historikom. V Turzovke pôsobil v rokoch 1917 – 1959.</p>\n<p>Prvá expozícia bola zložená z výberu exponátov, ktoré múzeu darovali miestne inštitúcie ale aj občania Turzovky a blízkych obcí. Výnimočným exponátom múzea je originál zvona, ktorý nechal pre najstarší drevený kostol (dnes už zaniknutý) v Turzovke uliať práve jej zakladateľ Juraj Turzo v roku 1614. Zvon je najstarším a zároveň najcennejším exponátom a jeho štylizovaná podoba sa objavila aj v logu múzea.</p>",
@@ -2464,7 +2584,9 @@ const DB = {
       "popis": "",
       "cover": "assets/images/migrated/kniz.jpg",
       "audio": [],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/kniz.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Historická knižnica sa nachádza priestoroch kultúrneho domu v meste Turzovka a je pomenovaná po Františkovi Taganínim, ktorý bol dlhoročný buditeľ, kňaz a zaslúžil sa o rozvoj školstva a vzdelávania. Jeho vášňou boli celoživotne knihy, zbieral knihy a dokonca si založil jednu z prvých vlastných knižníc. V knižnici nájdete   2 500 knižných zväzkov v maďarskom, latinskom a nemeckom jazyku. Z obsahového hľadiska ide o liturgické, teologické, homiletické, náboženské diela, ale nájdeme tu aj knihy z oblasti histórie, jazykovedy, či geografia. Knižnicu zdobia 2 obrazy kňažnej Sissy a cisára Františka Jozefa I. Tieto portréty maľoval rodák z Turzovky Dominik Bartolomej Lippay. Nachádzajú sa tu rôzne dobové doplnky dávnych knižníc s možnosťou meditácie, štúdia kníh, či organizovania recitálov v komornom duchu.</p>",
@@ -2485,7 +2607,9 @@ const DB = {
       "popis": "",
       "cover": "assets/images/migrated/3-2.jpg",
       "audio": [],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/3-2.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Vyhliadková veža sa nachádza na vrchu Bukovina, z ktorého je krásny výhľad na celé mesto ako aj cezhraničné územie nevynímajúc najvyšší vrch moravsko – sliezskych Beskýd Lysú horu. Na veži je umiestnený ďalekohľad s cieľom vychutnať si krásu prírody z blízka. Súčasťou veže je oddychová zóna, kde nájdete galériu venovanú významným osobnostiam mesta Paskov a Turzovky.  Turistickou atraktivitou sú slnečné hodiny s lavičkami a 4  vyrezávanými sochami významných dejateľov mesta Turzovka a Paskova :  Juraj Thurzo, Adam Bonec, Eduard Reitter, .</p>",
@@ -2506,7 +2630,9 @@ const DB = {
       "popis": "",
       "cover": "assets/images/migrated/400412770_326151270144609_2430754977789051967_n.jpg",
       "audio": [],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/400412770_326151270144609_2430754977789051967_n.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p><strong>Náučný chodník Vrchlinenským kopcom</strong></p>\n<p>Náučný chodník v Hlinenom má niekoľko zastavení s 7 informačnými tabuľami a s QR kódmi, panoramatickou tabuľou na vrchole, drevenými sochami lesných zvieratiek vhodných pre turistiku s deťmi v krásnom prostredí s výhľadom na Moravskosliezske Beskydy. Vedľa cesty smerom na vrchol sa stretnete s rôznymi zaujímavosťami, ktoré sa  viažu k životu tunajších ľudí, pretože Hlinené je najstaršou osídlenou oblasťou. Smerom na vrchol bude mať trasa jedno odbočenie k drevenému fotorámu v tvare srdca. Táto nenáročná trasa  začína pri kaplnke u Blažkov a končí  pri drevenej zvonici 737 mnm v osade Vrchhlinené</p>",
@@ -2527,7 +2653,9 @@ const DB = {
       "popis": "",
       "cover": "assets/images/migrated/pramen.jpg",
       "audio": [],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/pramen.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Jednou z najväčších geologických atraktivít v osade u Muchovcov od roku 1984 je prírodná rezervácia ropný prameň. Ide o ojedinelý európsky unikát povrchového prirodzeného výveru ľahkej ropy s občasnými výronmi samo zapaľujúceho sa metánu. Legenda hovorí o pytliakovi, ktorý mal údajne spadnúť do náleziska pri prenasledovaní zveri. I keď sa jedná o veľmi kvalitnú ropu, nepreukázali sa také množstvá, ktoré by sa vyplatili pre priemyselnú ťažbu.</p>",
@@ -2548,7 +2676,9 @@ const DB = {
       "popis": "",
       "cover": "assets/images/migrated/kostol-nanebovzatia-panny-marie-v-tuzovke.jpg",
       "audio": [],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/kostol-nanebovzatia-panny-marie-v-tuzovke.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Najvýznamnejšou sakrálnou stavbou, ktorá bola zapísaná aj do zoznamu národných kultúrnych pamiatok, je rímskokatolícky barokový Kostol Nanebovzatia Panny Márie z roku 1759. Hlavný oltár pochádza z 18. storočia, sú tu pamiatky z neskorého baroka, klasicizmu ako i neskorého novoklasicizmu. Bohato sú tu zastúpené diela maliarov Jozefa Božetecha Klemensa, Jozefa Hübscha, Alexandra Loszinského ako i neznámych tvorcov. Pozoruhodným prvkom kostola je pseudobarokový organ s polychromovanou drevorezbou. Do stredu chórového parapetu je zabudovaná časť pôvodného organu z roku 1799.</p>",
@@ -2569,7 +2699,9 @@ const DB = {
       "popis": "",
       "cover": "assets/images/migrated/rodny-dom-jozefa-kronera.jpg",
       "audio": [],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/rodny-dom-jozefa-kronera.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Domček, v ktorom sa v roku 1924 narodil významný slovenský herec Jozef Kroner.  Múzeum je prístupné každý deň. V múzeu nájdete v strede stôl, hercovo kreslo a vitrínu, v ktorej je množstvo predmetov zo života umelca, napr. osobné listy, rôzne ocenenia, rybárske čižmy, okuliare, šálka, dokonca aj soška Oscara za film Obchod na Korze, v ktorom Jozef Kroner stvárnil hlavnú postavu.</p>",
@@ -2590,7 +2722,9 @@ const DB = {
       "popis": "",
       "cover": "assets/images/migrated/dsc02296-2.jpg",
       "audio": [],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/dsc02296-2.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Najvyšší vrch Kysuckých Beskýd, ktorý ponúka široké  možností ako si vychutnať voľné chvíle v krásnom horskom prostredí, a to v každom ročnom období.</p>\n<p>Veľká Rača je  miestom na skvelú turistiku. Najjednoduchšie je vrch Veľká Rača prístupný z obce Oščadnica z lokality Dedovka.</p>\n<p>Na vrchole vás čaká vyhliadková plošina s osadenou turistickou mapou a tabuľami s panoramatickým výhľadom. Najkrajšie výhľady sú na hrebeň Západných Tatier, hrebeň Malej Fatry, Babiu Horu a Pilsko.</p>\n<p>Skalné diery : – Malá skalná diera (dlhá 9 m) a Veľká skalná diera (dlhá 22 m. Jaskyňa pseudokrasového charakteru, ktorá vznikla rozpadom lavíc pieskovcov. V pieskovcov sa vytvorili rôzne veľké otvory, tzv. jaskyne. Tento úkaz je súčasťou Národnej prírodnej rezervácie Veľká Rača</p>",
@@ -2611,7 +2745,9 @@ const DB = {
       "popis": "",
       "cover": "assets/images/migrated/marianske-putnicke-miesto-zivcakova.jpg",
       "audio": [],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/marianske-putnicke-miesto-zivcakova.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>V júni v roku 1958 sa na vrchu Živčáková mala lesnému robotníkovi Matúšovi Lašutovi zjaviť Panna Mária. Správa sa rýchlo rozšírila a miesto údajného zjavenia začali navštevovať veriaci, ktorí putovali na horu. V roku 1992 BÚ v Nitre súhlasil a v nasledujúcom roku bola na hore Živčáková postavená kaplnka Panny Márie, Kráľovnej pokoja. Jej projekt vypracoval Ing. arch. Marián Goč. V areáli zjavenia sa nachádza niekoľko prameňov s liečivou vodou. Žilinský biskup Tomáš Galis dňa 19. októbra 2008 vyhlásil Horu Živčáková za oficiálne mariánske pútnické miesto a vysvätil základný kameň budúceho chrámu Panny Márie Matky Cirkvi. 4. októbra 2015 bol chrám slávnostne vysvätený žilinským diecéznym biskupom Mons. Tomášom Galisom. Vo veži kostola sú umiestnené štyri zvony, ktoré sú dielom Josefa Tkadleca z Halenkova.</p>\n<p>Veža slúži aj ako vyhliadková a je sprístupnená pre pútnikov i turistov, z jej otvorenej terasy je kruhový výhľad na okolitú prírodu. Ak si chcete pozrieť tento výhľad musíte vyšľapať približne 140 schodov. Vstup do veže je zdarma. Vyhliadková veža je sprístupnená len za priaznivého počasia.</p>\n<p>K pútnickému miestu z mestskej časti Turzovka – Vyšný koniec vedie taktiež Náučný chodník – Lašútov chodník . Chodník má cca 2,5 km a pomenovaný je po lesnom robotníkovi Matúšovi Lašútovi, ktorému sa zjavila na tomto mieste Panna Mária. Trasa je doplnená informačnými tabuľami a 14 zastaveniami krížovej cesty.</p>",
@@ -2632,7 +2768,9 @@ const DB = {
       "popis": "",
       "cover": "assets/images/migrated/img_5946.jpg",
       "audio": [],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/img_5946.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Najvyššia hora Moravskosliezskych Beskýd (1323 m n. m.), niekedy je tiež prezývaná kráľovná Moravskosliezskych Beskýd.</p>\n<p>Masív Lysej hory je od ďalších častí Moravskosliezskych Beskýd oddelený hlbokými údoliami Ostravice, Řečice a Mohelnice a je tvorený dominantným vrcholom so štyrmi hlavnými rozsochami a niekoľkými ďalšími bočnými hrebeňmi a hrebienkami. Z vrcholu „Giguly“ (starý názov Lysej hory) vybiehajú 4 rázsochy:</p>\n<p>„Lukšinec“, „Malchor“, „Zimná Polana“ a „Veľký Kobylík“.</p>\n<p>Na vrcholku Lysej hory je meteorologická stanica, televízny vysielač, stanica horskej služby a niekoľko turistických chát. Pri jednej z nich stojí malá kaplnka. Ďalej sa tu nachádzajú aj pamätné dosky turistom, ktorí zahynuli za okupácie.</p>\n<p>Medzi geomorfologické zaujímavosti Lysej hory patria jaskynné systémy na rozsoche Lukšince, ktorým sa hovorí Ondrášove diery. Jedná sa o 250 m puklinových chodieb a dómov s výškovým rozsahom cca 30 m. Vzhľadom na reálne nebezpečenstvo úrazu je systém uzavretý a vstupy sú zabezpečené mrežou. V zime tu prezimujú netopiere.</p>\n<p>Lysá hora ponúka za pekného počasia prekrásne výhľady na hrebene a údolia Beskýd a Javorníkov, na slovenské hory od Malej a Veľkej Fatry až po Západné a Vysoké Tatry a na západe na Jeseníky.</p>",
@@ -2653,7 +2791,9 @@ const DB = {
       "popis": "",
       "cover": "assets/images/migrated/img_1288.jpg",
       "audio": [],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/img_1288.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Barokový zámok bol postavený v rokoch 1640-1646 za Václava z Vrbna zrejme na mieste pôvodnej pevnosti. Zámok bol postupne majetkom mnohých šľachtických rodov a v roku 1869 ho nechal gróf Moric zo Saint Genois po požiari prestavať do jeho dnešnej podoby štvorkrídlového zámku s manzardovou strechou a novoklasicistickou fasádou. Po druhej svetovej vojne v roku 1945 bol celý majetok posledného majiteľa Otto Stolberga vyvlastnený a zámok adaptovaný na nemocnicu. Tým došlo nielen k zmene jeho poslania, ale do značnej miery aj k negatívnemu ovplyvneniu historickej podstaty budovy.</p>\n<p>Zámok je dnes vďaka rozsiahlym rekonštrukciám prístupný verejnosti. Na prízemí zámku si môžu návštevníci prezrieť Galériu erbov držiteľov Paskova, Výstavu modelov drevených kostolov, kaplniek a zvoníc severnej Moravy a Sliezska, Stálu expozíciu k histórii Paskova a expozíciu venovanú entomológovi Edmundovi Reitterovi. Na poschodí prebiehajú rôzne výstavy</p>",
@@ -2674,7 +2814,9 @@ const DB = {
       "popis": "",
       "cover": "assets/images/migrated/paskov4.jpg",
       "audio": [],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/paskov4.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Park v okolí zámku bol vybudovaný v 19. storočí, najprv vo francúzskom a neskôr v anglickom štýle. Zeleň o rozlohe 17 hektárov bola vďaka výskytu chráneného chrobáka páchnika hnedého vyhlásená za európsky významnú lokalitu. Romantickú atmosféru ponúka predovšetkým jeho severná časť so vzácnymi drevinami a vodným tokom. Skupina sôch gréckych bohýň Atény, Niké, Tychej a Eris pred zámkom doplnená sochou bájneho hrdinu Herkula je výnimočným umeleckým stvárnením odkazu antickej mytológie. Početné lavičky ponúkajú  príjemné posedenie v jarnom, letnom i jesennom období, v ktorých má park vždy inú a zároveň podmanivú atmosféru.</p>",
@@ -2695,7 +2837,9 @@ const DB = {
       "popis": "",
       "cover": "assets/images/migrated/staric_rozhledna_okruhla_2.jpg",
       "audio": [],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/staric_rozhledna_okruhla_2.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Rozhľadňa v Staríči sa nachádza na kopci Okrouhlá 378 m nad morom. Stožiar je vysoký 55 ma, pričom vyhliadková plošina sa nachádza vo výške 30m, z ktorej je nádherný rozhľad po okolí. V prípade krásneho počasia je výhľad na Jeseníky, Pod kopcom Okrouhlá je pre danú rozhľadňu vybudované parkovisko pre 10 osobných automobilov. Pre záujemcov, ktorí by chceli dôjsť autobusom, je možné parkovať na blízkom parkovisku pri futbalovom ihrisku</p>",
@@ -2716,7 +2860,9 @@ const DB = {
       "popis": "",
       "cover": "assets/images/migrated/hrad-hukvaldy.jpg",
       "audio": [],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/hrad-hukvaldy.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Zrúcanina gotického hradu z 13. storočia patrí k najrozsiahlejším hradným komplexom v Českej republike. Popri pevnostnom charaktere mal hrad význam aj ako správne sídlo rozsiahleho panstva, ktoré sa čoskoro po založení stalo súčasťou majetku olomouckých biskupov. Keď boli v roku 1760 byty a kancelárie úradníctva prenesené z hradu do podhradia, hukvaldský hrad sa začal meniť na ruinu, ktorá bola využívaná hlavne ako lacný zdroj stavebného kameňa. Nové využitie hradu začalo v 19. storočí s rozvojom „turistického ruchu“. Veľký záujem ľudí o hrad viedol k snahám túto pamiatku zachovať a využiť ju ako centrum kultúrneho diania. Z hradu sú prekrásne výhľady do okolia.</p>\n<p>Najvýraznejšou osobnosťou, ktorá je spojená s hradom Hukvaldy, bol hudobný skladateľ Leoš Janáček.</p>\n<p>K hradu patrí obora, kde sa nachádza socha líšky Bystrúšky, a v ktorej môžete uvidieť daniely a muflóny. Raritou, ktorú môžete uvidieť v obore cestou na hrad, sú obnažené koreňové systémy siedmich mohutných bukov. Doslova vodopády eróziou obnažených koreňov prýštia zo svahu, niektoré sú dlhé až osem metrov. Súčasťou hradu je aj letný amfiteáter s vynikajúcou akustikou, kde sa koná každoročne Medzinárodný hudobný festival Leoša Janáčka.</p>",
@@ -2758,7 +2904,9 @@ const DB = {
       "popis": "",
       "cover": "assets/images/migrated/img_4094.jpg",
       "audio": [],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/img_4094.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Na miernom návrší oproti zámku a Zámockému námestiu vo Frýdku stojí veľkolepá neskoro baroková katedrála – pútnický chrám Navštívenia Panny Márie. Základný kameň kostola bol položený roku 1740. Roku 1759 bol ešte nie celkom hotový chrám vysvätený. Neboli postavené veže a ani vnútorné vybavenie kostola nebolo úplné. V roku 1777 bol kostol dokončený. Frýdek tak získal dominantu, vďaka ktorej je občas nazývaný „Sliezske Lurdy“. V roku 1999 bol kostol povýšený pápežom Jánom Pavlom II. na baziliku minor. Od roku 2018 je kostol národnou kultúrnou pamiatkou.</p>\n<p>Tento nádherný kostol má cenný hlavný oltár, organ a v podzemí dokonca aj kryptu. V okolitom parku uvidíte novorenesančnú kaplnku Srdce Pána a štrnásť kaplniek krížovej cesty.</p>",
@@ -2779,7 +2927,9 @@ const DB = {
       "popis": "",
       "cover": "assets/images/migrated/img_4028.jpg",
       "audio": [],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/img_4028.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Hrad s mestečkom založil tešínske knieža Kazimír I. asi medzi rokmi 1327-1339 na strategicky výhodnej vyvýšenine nad riekou Ostravicou. Na prelome 16. a 17. storočia, teda za grófa Bartolomeja Bruntálskeho z Vrbna, bol hrad prestavaný na zámok. Ďalšou významnou osobnosťou, ktorá výrazne zasiahla do podoby zámku, bol Jiří III. gróf z Oppersdorfu. Ten kúpil panstvo v roku 1636. Závažnou udalosťou pre zámok aj mesto Frýdek bol veľký požiar mesta v roku 1688. Majiteľom zámku bol v tom čase gróf František Eusebius, ktorý ihneď po požiari začal opravy zničeného zámku. Sobášom dcéry Františka Eusebia prešlo panstvo do rúk rodu Pražmov z Bielkova. Tento rod bol po celé 18. storočie držiteľom frýdockého panstva, zámok bol v tejto dobe významným kultúrnym a spoločenským centrom. Rod Pražmov z Bielkova pozitívne ovplyvnil aj vznik veľkého pútnického chrámu Navštívenia Panny Márie, ktorého výstavbu od roku 1740 štedro podporoval. V roku 1798 predal rod Pražmov frýdecké panstvo Márii Kristíne Habsburskej, sestre Jozefa II. Rod Habsburgovcov držal zámok až do roku 1918. Po zabraní Habsburgovcom bol zámok v nútenej správe. Bol využívaný ako sídlo rôznych úradov, potom ako riaditeľstvo štátnych lesov, úradovne, byty. Do zámku bolo roku 1960 presťahované múzeum a v súčasnej dobe ponúka päť stálych expozícií s radom krátkodobých výstav. V zámku môžete navštíviť tieto expozície: zámocký okruh, Beskydy – príroda a ľudia, Frýdek a Místek, Frýdek – Mariánske pútnické miesto, Pamätník Óndry Łysohorského.</p>",
@@ -2800,7 +2950,9 @@ const DB = {
       "popis": "",
       "cover": "assets/images/migrated/img_6938.jpg",
       "audio": [],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/img_6938.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Pustevny sú veľmi atraktívnym miestom na výlety za každého počasia. Na osadu neďaleko mýtickej hory Radhošť sa dá vyviezť lanovkou, prísť pešo, v zime na bežkách a v lete na bicykli. Pustevny sú najobľúbenejším turistickým centom v Beskydách a socha Radegasta, ktorú nájdete cestou na Radhošť, je najznámejším symbolom celého Moravskosliezskeho kraja. K povšimnutiu stojí architektúra turistických ubytovní LIBUŠÍN a MAMĚNKA od slovenského architekta Dušana Jurkoviča, či drevený kostol sv. Cyrila a Metóda a súsošie oboch vierozvestcov od autora Albína Poláška z roku 1931, ktorý sa nachádza na samotnom vrchole.</p>",
@@ -2821,7 +2973,9 @@ const DB = {
       "popis": "",
       "cover": "assets/images/migrated/javorniky-vyhlad.jpg",
       "audio": [],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/javorniky-vyhlad.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>V blízkosti slovensko-českých hraníc sa rozprestiera obľúbené pohorie Javorníky. Jeho najvyšším vrcholom je Veľký Javorník, ktorý je ako stvorený na turistiku s rodinou a priateľmi. Očarí vás malebnými zákutiami, krásnou prírodou ako aj nenáročnosťou výstupových trás.</p>\n<p>Cestou sa vám naskytujú panoramatické výhľady najmä na Moravskosliezske Beskydy. Na hrebeni okrem prírodných krás nájdete aj diela ľudských rúk, a to v podobe kamenných objektov – jedinečnú kamennú galériu v prírode. Ich autormi sú umelci spätí s regiónmi Kysuce a Horné Považie (medzi nimi Ondrej Zimka, Gustáv Švábik-Macvejda, Milan Greguš, Pavol Muška, Ondrej 4. a ateliér Tri kamene a iní).</p>",
@@ -2842,7 +2996,9 @@ const DB = {
       "popis": "",
       "cover": "assets/images/migrated/vychylovka-2.jpg",
       "audio": [],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/vychylovka-2.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Je skanzen nachádzajúci sa neďaleko obce Nová Bystrica, časti Vychylovka v doline Chmúra, ktorá je súčasťou CHKO Kysuce. Skanzen vznikol 11. októbra 1974, pričom jeden z hlavných dôvodov pre jeho vznik bola záchrana najcennejších pamiatok ľudovej architektúry z obcí Riečnica a Harvelka, ktoré mali zaniknúť z dôvodu výstavby vodnej nádrže Nová Bystrica.</p>\n<p>Do roku 1981, kedy bola sprístupnená prvá časť expozície, sa vybudovalo 22 z celkove plánovaných 69 objektov expozície múzea v prírode. Národopisná expozícia sa usiluje o rekonštrukciu sídelnej krajiny a životného prostredia, s prezentáciou ľudovej architektúry a spôsobu života i kultúry ľudu na Kysuciach v druhej polovici 19. storočia a prvej polovici 20. storočia. Technické stavby prezentuje vodný mlyn a píla s hrázdenou konštrukciou z obce Klubina. Zo sakrálnych stavieb sa tu nachádza murovaná kaplnka z prvej štvrtiny 19. storočia zo Zborova nad Bystricou a cintorín s kovovými krížmi, predstavujúci cintoríny na Kysuciach začiatkom tohto storočia.</p>",
@@ -2880,7 +3036,7 @@ const DB = {
         "lng": 18.418106
       },
       "mapEmbed": "https://www.google.com/maps?q=48.343092,18.418106&z=18&output=embed",
-      "text": "<p><strong>Čiernokľačianska Pyxida je svetový unikát, ktorý naveky bude reprezentovať Čierne Kľačany, Nitru, Slovensko. Objavitelia i propagátori tohto unikátneho archeologického nálezu si zaslúžia našu úctu, pretože skladajú mozaiku odkrývania histórie.</strong></p>\n<p>**<em>Čiernokľačianska pyxida bola objavená v roku 1974 v lokalite pri mlyne</em> **</p>\n<p>Pri budovaní vodovodu v obci hĺbiaci mechanizmus počas výkopu ryhy na vodovodné potrubie narušil archeologické objekty so zvyškami ľudských kostier, črepmi nádob a zvieracími kosťami. Najvýznamnejším objektom bol porušený kostrový hrob, v ktorom sa našli fragmenty slonovinovej pyxidy.</p>\n<p>**<em>Pyxidu zachránila mládež</em> **</p>\n<p>Vtedy žiaci ZDŠ – Milan Švec, Stanislav Lukáč, Milan Tonka, Dušan Filipčík našli úlomky a študenti Gymnázia Janka Kráľa – Július Horný ml. a Ivan Lukáč následne hľadali väzbu medzi úlomkami. Nahlásenie nálezu pyxidy a podnet podal Július Horný st. na Archeologický ústav v Nitre. Vďaka všetkým patrí pyxida k raritám a unikátom obce, Slovenska i Európy. Pri obhliadke náleziska sa podarilo zachrániť súbor nálezov z rôznych období praveku a včasnej doby dejinnej, medzi ktorými vzbudili pozornosť najmä fragmenty pyxidy zo slonoviny.</p>\n<p><em><strong>Miesto nálezu</strong></em></p>\n<p>Lokalita nálezu sa nachádza asi 500 m južne od obce pri mlyne na vrchole a južnom svahu mierneho návršia. Z južnej a západnej strany pretekajú neďaleko potoky Širočina a Bočovka. Ryha na vodovodné potrubie, vyhĺbená od vodárne po okraj obce na ľavej strane cesty, narušila viaceré, prevažne sídliskové objekty. Ich zvyšky sa zreteľne črtali v dĺžke asi 200 m. Nesporne najvýznamnejším objektom bol porušený kostrový hrob, v ktorom sa našli fragmenty slonovinovej pyxidy.</p>\n<p><em><strong>Motívy pyxidy</strong></em></p>\n<p>Pyxida bola poskladaná do tvaru valcovitého plášťa. Jej výzdoba realizovaná v nízkom reliéfe je tvorená výjavom oráča s dobytčím záprahom a kráčajúcej ženy s košom obilia. V bukolickom výjave medzi odpočívajúcim stádom oviec a kôz dominujú postavy sediaceho mladého a prichádzajúceho starého pastiera.</p>\n<p><em><strong>Z histórie</strong></em></p>\n<p>Maximálny rozkvet umenia rezby zo slonoviny sa začína v polovici 4. storočia. Zo slonoviny sa vyrábali rôzne predmety, ale aj schránky. Výzdoba samozrejme reprezentovala spôsob použitia či majiteľa. Významné miesto medzi prácami zo slonoviny majú pyxidy – nádobka kruhového alebo oválneho tvaru s dnom a vrchnákom. Na rozvoji produkcie pyxíd sa v nemalej miere podieľala cirkev. Kresťanská liturgia prevzala používanie pyxidy nielen ako schránky na kadidlo, ale predovšetkým na ukladanie relikvií a hostie či eucharistie. Tak to určoval aj koncil v Narbonne z roku 589. V 9. storočí bývali pyxidy umiestnené nad oltárom a slúžili už ako relikviár. Vďaka tomu sa vo významných kresťanských chrámoch západnej Európy zachovali pozoruhodné exempláre.</p>\n<p><em><strong>Pamätná tabuľa</strong></em></p>\n<p>V roku 1991 bola odhalená pamätná tabuľa na kultúrnom dome s textom: „Z tejto obce pochádza výnimočné antické dielo, živé aj v časoch Veľkej Moravy, reliéfne zdobená slonovinová pyxida. Z úcty k histórii a k pamiatke sv. Cyrila a Metoda venujú vďační Slováci.” Tabuľu odhaľoval, prof. ThDr. Alojz Martinec, starosta obce Peter Horný, prvý podpredseda Matice slovenskej PhDr. Stanislav Bajaník – náš rodák a čestný občan,  za početnej účasti vzácnych hostí.</p>\n<p>**<em>Odhalenie pomníka</em> **</p>\n<p>V r. 1993 pri príležitosti celoslovenského stretnutia Kľačian na Slovensku bol pri mlyne, mieste nálezu Čiernokľačianskej pyxidy odhalený pomník s bronzovou tabuľou za účasti významných rodákov, hostí z Matice slovenskej, okolitých obcí a miest. Kameň darovala obec, bronzovú tabuľu Matica slovenská.</p>\n<p><em><strong>Odhalenie a vysvätenie súsošia sv. Cyrila a Metoda</strong></em></p>\n<p>V roku 1997 bolo v našej obci odhalenie a vysvätenie súsošia sv. Cyrila a Metoda ako prvého cyrilo-metodského súsošia na Slovensku v druhej SR. Autori: Akad. soch. Ľudmila Cvengrošová, Ing. arch. Viola Bajaníková – ako nezištný dar obci. Realizácia firma Koňuš – Gubáň, Kremnica. Súsošie s čiernokľačianskou pyxidou sa nachádza aj v Nitre, v Devíne, Zalavár (Blatno hrad) – Maďarsko. Iniciátormi a gestormi realizácie diela boli prvý podpredseda Matice slovenskej PhDr. Stanislav Bajaník, starosta obce Peter </p>\n<p>Horný, predseda MO MS Ing. Jozef Švec a poslanci obecného zastupiteľstva. Vysvätil ho náš rodák Mons. Vincent Malý, Dr.h.c.</p>\n<p><em><strong>Dar pápežovi Jánovi Pavlovi II.</strong></em></p>\n<p>V roku 2003 bola kópia čiernokľačianskej pyxidy odovzdaná pápežskému nunciovi v Bratislave ako dar pápežovi Jánovi Pavlovi II. a Vatikánu na jeho ostatnej návšteve na Slovensku. Nuncius a Svätá Stolica za dar osobitne písomne poďakovali. Dar odovzdávali: Imrich Dočolomanský, miestny rímsko-katolícky farár, Valéria Kršáková, zástupkyňa starostu obce, Ing. Jozef Švec, predseda MO Matice slovenskej, PhDr. Stanislav Bajaník za Maticu slovenskú.</p>\n<p><em><strong>Relief Pyxidy</strong></em></p>\n<p><em><strong>Stanislav Lukáč, vo výkope vodovodu, r. 1974</strong></em></p>\n<p><em><strong>Rozložená rekonštrukcia motívov pyxidy</strong></em></p>\n<p><em><strong>Odhalenie pamätnej tabule na budove kultúrneho domu, r. 1991</strong></em></p>\n<p><em><strong>Miesto nálezu –  pamätník Pyxidy Prof. ThDr. Alojz Martinec a  Mons. Vincent Malý, Dr.h.c.</strong></em></p>\n<p><em><strong>Miesto nálezu – pamätník Pyxidy PhDr. Stanislav Bajaník</strong></em></p>\n<p><em><strong>Za mnohé aktivity čo boli organizované v súvislosti  s  Pyxidou bola unikátna výstava vo Vatikáne v dňoch 12. novembra 2013 – 26. januára 2014 „Najstaršie doklady počiatkov kresťanstva na Slovensku – sv. Cyril a Metod, patróni Európy,“ kde Pyxida mala prvé miesto. Nad podujatím, ktoré organizovalo Slovenské národné múzeum,  Archeologický ústav Slovenskej akadémie vied a Veľvyslanectvo SR pri Svätej Stolici, prevzali záštitu predseda vlády SR Robert Fico a nitriansky biskup Mons. prof. Viliam Judák. Foto: archív PhDr. Petra Bednára, CSc.</strong></em></p>",
+      "text": "<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/09/2025-10-09_12h27_42.jpg\" alt=\"\"></p>\n<p><strong>Čiernokľačianska Pyxida je svetový unikát, ktorý naveky bude reprezentovať Čierne Kľačany, Nitru, Slovensko. Objavitelia i propagátori tohto unikátneho archeologického nálezu si zaslúžia našu úctu, pretože skladajú mozaiku odkrývania histórie.</strong></p>\n<p>**<em>Čiernokľačianska pyxida bola objavená v roku 1974 v lokalite pri mlyne</em> **</p>\n<p>Pri budovaní vodovodu v obci hĺbiaci mechanizmus počas výkopu ryhy na vodovodné potrubie narušil archeologické objekty so zvyškami ľudských kostier, črepmi nádob a zvieracími kosťami. Najvýznamnejším objektom bol porušený kostrový hrob, v ktorom sa našli fragmenty slonovinovej pyxidy.</p>\n<p>**<em>Pyxidu zachránila mládež</em> **</p>\n<p>Vtedy žiaci ZDŠ – Milan Švec, Stanislav Lukáč, Milan Tonka, Dušan Filipčík našli úlomky a študenti Gymnázia Janka Kráľa – Július Horný ml. a Ivan Lukáč následne hľadali väzbu medzi úlomkami. Nahlásenie nálezu pyxidy a podnet podal Július Horný st. na Archeologický ústav v Nitre. Vďaka všetkým patrí pyxida k raritám a unikátom obce, Slovenska i Európy. Pri obhliadke náleziska sa podarilo zachrániť súbor nálezov z rôznych období praveku a včasnej doby dejinnej, medzi ktorými vzbudili pozornosť najmä fragmenty pyxidy zo slonoviny.</p>\n<p><em><strong>Miesto nálezu</strong></em></p>\n<p>Lokalita nálezu sa nachádza asi 500 m južne od obce pri mlyne na vrchole a južnom svahu mierneho návršia. Z južnej a západnej strany pretekajú neďaleko potoky Širočina a Bočovka. Ryha na vodovodné potrubie, vyhĺbená od vodárne po okraj obce na ľavej strane cesty, narušila viaceré, prevažne sídliskové objekty. Ich zvyšky sa zreteľne črtali v dĺžke asi 200 m. Nesporne najvýznamnejším objektom bol porušený kostrový hrob, v ktorom sa našli fragmenty slonovinovej pyxidy.</p>\n<p><em><strong>Motívy pyxidy</strong></em></p>\n<p>Pyxida bola poskladaná do tvaru valcovitého plášťa. Jej výzdoba realizovaná v nízkom reliéfe je tvorená výjavom oráča s dobytčím záprahom a kráčajúcej ženy s košom obilia. V bukolickom výjave medzi odpočívajúcim stádom oviec a kôz dominujú postavy sediaceho mladého a prichádzajúceho starého pastiera.</p>\n<p><em><strong>Z histórie</strong></em></p>\n<p>Maximálny rozkvet umenia rezby zo slonoviny sa začína v polovici 4. storočia. Zo slonoviny sa vyrábali rôzne predmety, ale aj schránky. Výzdoba samozrejme reprezentovala spôsob použitia či majiteľa. Významné miesto medzi prácami zo slonoviny majú pyxidy – nádobka kruhového alebo oválneho tvaru s dnom a vrchnákom. Na rozvoji produkcie pyxíd sa v nemalej miere podieľala cirkev. Kresťanská liturgia prevzala používanie pyxidy nielen ako schránky na kadidlo, ale predovšetkým na ukladanie relikvií a hostie či eucharistie. Tak to určoval aj koncil v Narbonne z roku 589. V 9. storočí bývali pyxidy umiestnené nad oltárom a slúžili už ako relikviár. Vďaka tomu sa vo významných kresťanských chrámoch západnej Európy zachovali pozoruhodné exempláre.</p>\n<p><em><strong>Pamätná tabuľa</strong></em></p>\n<p>V roku 1991 bola odhalená pamätná tabuľa na kultúrnom dome s textom: „Z tejto obce pochádza výnimočné antické dielo, živé aj v časoch Veľkej Moravy, reliéfne zdobená slonovinová pyxida. Z úcty k histórii a k pamiatke sv. Cyrila a Metoda venujú vďační Slováci.” Tabuľu odhaľoval, prof. ThDr. Alojz Martinec, starosta obce Peter Horný, prvý podpredseda Matice slovenskej PhDr. Stanislav Bajaník – náš rodák a čestný občan,  za početnej účasti vzácnych hostí.</p>\n<p>**<em>Odhalenie pomníka</em> **</p>\n<p>V r. 1993 pri príležitosti celoslovenského stretnutia Kľačian na Slovensku bol pri mlyne, mieste nálezu Čiernokľačianskej pyxidy odhalený pomník s bronzovou tabuľou za účasti významných rodákov, hostí z Matice slovenskej, okolitých obcí a miest. Kameň darovala obec, bronzovú tabuľu Matica slovenská.</p>\n<p><em><strong>Odhalenie a vysvätenie súsošia sv. Cyrila a Metoda</strong></em></p>\n<p>V roku 1997 bolo v našej obci odhalenie a vysvätenie súsošia sv. Cyrila a Metoda ako prvého cyrilo-metodského súsošia na Slovensku v druhej SR. Autori: Akad. soch. Ľudmila Cvengrošová, Ing. arch. Viola Bajaníková – ako nezištný dar obci. Realizácia firma Koňuš – Gubáň, Kremnica. Súsošie s čiernokľačianskou pyxidou sa nachádza aj v Nitre, v Devíne, Zalavár (Blatno hrad) – Maďarsko. Iniciátormi a gestormi realizácie diela boli prvý podpredseda Matice slovenskej PhDr. Stanislav Bajaník, starosta obce Peter </p>\n<p>Horný, predseda MO MS Ing. Jozef Švec a poslanci obecného zastupiteľstva. Vysvätil ho náš rodák Mons. Vincent Malý, Dr.h.c.</p>\n<p><em><strong>Dar pápežovi Jánovi Pavlovi II.</strong></em></p>\n<p>V roku 2003 bola kópia čiernokľačianskej pyxidy odovzdaná pápežskému nunciovi v Bratislave ako dar pápežovi Jánovi Pavlovi II. a Vatikánu na jeho ostatnej návšteve na Slovensku. Nuncius a Svätá Stolica za dar osobitne písomne poďakovali. Dar odovzdávali: Imrich Dočolomanský, miestny rímsko-katolícky farár, Valéria Kršáková, zástupkyňa starostu obce, Ing. Jozef Švec, predseda MO Matice slovenskej, PhDr. Stanislav Bajaník za Maticu slovenskú.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/09/2025-09-25_11h43_44.jpg\" alt=\"\"></p>\n<p><em><strong>Relief Pyxidy</strong></em></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/09/foto-030zNew.jpg\" alt=\"\"></p>\n<p><em><strong>Stanislav Lukáč, vo výkope vodovodu, r. 1974</strong></em></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/09/kolnik_fotoz-min.jpg\" alt=\"\"></p>\n<p><em><strong>Rozložená rekonštrukcia motívov pyxidy</strong></em></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/09/foto-054-min.jpg\" alt=\"\"></p>\n<p><em><strong>Odhalenie pamätnej tabule na budove kultúrneho domu, r. 1991</strong></em></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/09/Image0011-min.jpg\" alt=\"\"></p>\n<p><em><strong>Miesto nálezu –  pamätník Pyxidy Prof. ThDr. Alojz Martinec a  Mons. Vincent Malý, Dr.h.c.</strong></em></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/09/foto-036_1993-min.jpg\" alt=\"\"></p>\n<p><em><strong>Miesto nálezu – pamätník Pyxidy PhDr. Stanislav Bajaník</strong></em></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/09/2025-09-25_11h40_55-min.png\" alt=\"\"></p>\n<p><em><strong>Za mnohé aktivity čo boli organizované v súvislosti  s  Pyxidou bola unikátna výstava vo Vatikáne v dňoch 12. novembra 2013 – 26. januára 2014 „Najstaršie doklady počiatkov kresťanstva na Slovensku – sv. Cyril a Metod, patróni Európy,“ kde Pyxida mala prvé miesto. Nad podujatím, ktoré organizovalo Slovenské národné múzeum,  Archeologický ústav Slovenskej akadémie vied a Veľvyslanectvo SR pri Svätej Stolici, prevzali záštitu predseda vlády SR Robert Fico a nitriansky biskup Mons. prof. Viliam Judák. Foto: archív PhDr. Petra Bednára, CSc.</strong></em></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/ciernoklacianska-pyxida/",
         "en": "https://www.qrlink.sk/new/en/ciernoklacianska-pyxida/",
@@ -2900,7 +3056,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/pexeso-javor-mliecny-2.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/javor-mliecny-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p><strong>Javor Mliečny – Acer platanoides</strong></p>\n<p>Dorastá do 25 – 30 m a dobre znáša mestské prostredie i znečistenie ovzdušia. Najradšej rastie na čerstvých, hlinitých pôdach od nížin po podhorské pásmo. Z poranenej stopky listu vyteká biela „mliečna“ šťava, podľa ktorej dostal meno; listy sú päťlaločné s dlhou špičkou. Svetlé, husté drevo s jemnou plameňovou kresbou sa používa na nábytok a rezonančné dosky huslí či gitár. Na jar medodajné kvety lákajú včely skôr, než sa plne rozvinú listy.</p>",
@@ -2923,7 +3081,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/pexeso-gastan-jedly.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/gastan-jedly-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p><strong>Gaštan Jedlý – Castanea sativa</strong></p>\n<p>Mohutný strom 20 – 35 m, ktorý vyžaduje teplejšie, slnečné svahy s hlbokými, mierne kyslými pôdami. Dlhé kožovité listy majú ostré pílkovité okraje a na jeseň sa sfarbujú do zlatohneda. V pichľavých pologuľovitých obaloch dozrievajú sladké jedlé oriešky obľúbené v kuchyni aj cukrárstve. Drevo podobné dubu je odolné voči hnilobe a slúži na sudy, podlahy i vonkajšie stavby. Staré gaštany sa dožívajú aj vyše 500 rokov a v dutinách poskytujú úkryt netopierom.</p>",
@@ -2946,7 +3106,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/pexeso-orech-kralovsky.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/orech-kralovsky-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p><strong>Orech Kráľovský – Juglans regia</strong></p>\n<p>Bežne dorastá do 25 – 30 m a vyžaduje teplé, chránené stanovištia s vápenatými pôdami. Široké nepárno perovité listy vydávajú typickú živicovú vôňu a po dotyku môžu zafarbiť pokožku. V tvrdej kôstke dozrieva chutné jadro – jeden z najvýživnejších orechov našich záhrad. Tmavohnedé, dekoratívne drevo je mimoriadne cenené na luxusný nábytok, pažby zbraní či umelecké dyhy. Strom si vytvára chemickú „ochrannú zónu“ – pod ním klíči len málo rastlín, lebo uvoľňuje alelopatické látky.</p>",
@@ -2969,7 +3131,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/pexeso-ceresna-vtacia.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/ceresna-vtacia-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p><strong>Čerešňa Vtáčia – Prunus avium</strong></p>\n<p>Dosahuje 20 – 30 m a najlepšie rastie na slnečných, hlbokých pôdach pahorkatín a nízkych hôr. Na jar rozkvitá záplavou bielych voňavých súkvetí často ešte pred vypučaním listov. Hladká hnedočervená kôra s vodorovnými lenticelami sa v pásoch olupuje. Drevo s teplým červeným odtieňom je obľúbené v stolárstve aj pri výrobe hudobných nástrojov. Lesné vtáky roznášajú semená, takže divo rastúce čerešne sú prirodzenou súčasťou lesných mozaík.</p>",
@@ -2992,7 +3156,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/pexeso-jablon-domaca.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/jablon-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p><strong>Jabloň Domáca – Malus domestica</strong></p>\n<p>Strom alebo vyšší ker 5 – 10 m, ktorý kvitne poréžovým až bielym oblakom kvetov v apríli. Darí sa mu v slnečných, mierne vlhkých záhradách a sadov na hlinitopiesočnatých pôdach. Plody – jablká – tvoria základ mnohých tradičných jedál i nápojov a skladujú sa celé mesiace. Husté, tvrdé drevo s jemnou kresbou využívajú rezbári, výrobcovia hudobných nástrojov a je skvelé na údenie mäsa. Staré odrody často poskytujú dutiny pre sýkorky a netopiere, čím zvyšujú biodiverzitu sadu.</p>",
@@ -3015,7 +3181,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/pexeso-slivka-trnkova.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/slivka-trnkova-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p><strong>Slivka Trnková – Prunus spinosa</strong></p>\n<p>Hustý tŕnitý ker alebo nízky strom 2 – 5 m, ktorý tvorí nepreniknuteľné húštiny na suchších medziach a svahoch. V marci až apríli kvitne drobnými bielymi kvetmi ešte pred olistením a patrí k prvým jarným pastvám pre opeľovače. Modro­čierne plody – trnky – chutia trpko, no po jesenných mrazoch zmäknú a využívajú sa na lekváre či aromatizovanie destilátov. Husto rozvetvené konáre s ostňami poskytujú bezpečný úkryt drobnému vtáctvu. Trnky sú príbuzné slivkám, no dokážu rýchlo zmladzovať koreňovými výmladkami a spevňovať erózne svahy.</p>",
@@ -3038,7 +3206,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/pexeso-buk-lesny.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/buk-lesny-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p><strong>Buk Lesný – Fagus sylvatica</strong></p>\n<p>Môže dosiahnuť 40 – 45 m a vytvára mohutné, tienisté koruny, pod ktorými rastie len málo rastlín. Tvorí čisté bukové porasty vo vlhkých pahorkatinách aj nižších horách do 1 000 m, kde obľubuje hlboké, úrodné pôdy. Kmeň má hladkú sivú kôru prezývanú „slonia koža“. Po parení bukové drevo zmäkne a dá sa ohýbať, preto z neho vznikli slávne ohýbané stoličky Thonet. Listy bukov v lese vytvárajú hrubú vrstvu humusu, ktorá zadržiava vlhkosť.</p>",
@@ -3061,7 +3231,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/pexeso-breza-previsnuta.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/breza-previsnuta-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p><strong>Breza Previsnutá – Betula pendula</strong></p>\n<p>Stredne veľký strom 15 – 25 m, zriedka 30 m, s nápadnou bielou kôrou, ktorá sa odlupuje v papierových vločkách. Najlepšie sa jej darí na svetlých, kyslých a suchších pôdach od nížin po podhorské oblasti. Dlhé previsnuté konáre jej dali druhové meno a elegantný vzhľad. Kôra obsahuje betulín, ktorý odpudzuje vodu; preto sa ňou kedysi utesňovali strechy a člny. Brezy sú priekopníci – rýchlo kolonizujú holoruby či požiare a pripravujú pôdu pre ďalšie stromy.</p>",
@@ -3084,7 +3256,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/kohutik-jaraby.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/zs-banova-dendrofon-01-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<h2>Text pesničky „Kohútik jarabý“</h2>\n<p><em>Kohútik jarabý,</em> </p>\n<p><em>nechoď do záhrady,</em> </p>\n<p><em>polámeš ľaliu,</em> </p>\n<p><em>potom ťa zabijú.</em></p>\n<p><em>A keď ťa zabijú</em> </p>\n<p><em>Tak ťa pochovajú</em> </p>\n<p><em>Do takej záhrady</em> </p>\n<p><em>Kde páni sedajú</em></p>",
@@ -3107,7 +3281,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/oda-na-radost.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/zs-banova-dendrofon-02-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>**<em>Óda na radosť</em> **je záverečná časť Beethovenovej 9. symfónie d moll op 125 k Schillerovej óde „Na radosť“ (Ode „An die Freude“)</p>\n<p><strong>Slovenský preklad:</strong> <em><strong>Óda na radosť</strong></em></p>\n<p><em>Radosť – krásna iskra Božia, elyzejskej dcéry hlas,</em></p>\n<p><em>teraz s láskou nevýslovnou ku svätyni vedieš nás.</em></p>\n<p><em>Tvoje kúzla prinavrátia, čo zlá doba nechráni –</em></p>\n<p><em>všetci ľudia budú bratia pod tvojimi krídlami.</em></p>\n<p><em>Ak ti dosiaľ šťastie prialo, priateľovi pomáhaj,</em></p>\n<p><em>ak túžiš za ženou stálou, príď – tu u nás nájdeš raj.</em></p>\n<p><em>Keby sa dnes každá duša stretla hneď na úsvite,</em></p>\n<p><em>svätý mier viac nenarušia, plač so smútkom odíde.</em></p>\n<p><em>Radosť! Človek odjakživa pije z ňadier prírody,</em></p>\n<p><em>ľudia tebou sa len živia, z teba žijú národy.</em></p>\n<p><em>Plný strapec tmavej révy – darca najvzácnejších vín,</em></p>\n<p><em>tebou sýtia sa aj červy, teba schváli Cherubín.</em></p>\n<p><em>Lúče slnečné sa roja, nebo žiari nad nami,</em></p>\n<p><em>spoločnými cestami poďme v časoch nepokoja.</em></p>\n<p><em>V náruč poďte milióny – tu je bozk pre celý svet.</em></p>\n<p><em>Bratia k hniezdam vzneste let, kde náš milý Otec tróni.</em></p>\n<p><em>V prach sa kloňte – milióny, života bez Tvorcu niet.</em></p>\n<p><em>Tam pri hviezdach bude bdieť, tam pri hviezdach musí tróniť.</em></p>\n<p><em>Radosť, jasná iskra bohov, elyzejskej dcéry hlas,</em></p>\n<p><em>teraz s láskou nevýslovnou ku svätyni vedieš nás.</em></p>\n<p><em><strong>Zdroj</strong>: <a href=\"https://sk.wikipedia.org/wiki/%C3%93da_na_rados%C5%A5_(Beethoven)\">Wikipedia</a></em></p>",
@@ -3130,7 +3306,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/text-to-speech_frank_tvrdost-dreva-_2025-07-16.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/dendrolog-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Na svete existuje viac ako 60 000 druhov stromov, pričom podľa Medzinárodnej organizácie botanických záhrad ich v celosvetovom zozname každoročne pribudne viac ako 2000. Na Slovensku z tohto ohromného čísla pritom rastie “len” 77 druhov.</p>\n<p>Každý typ dreviny má svoju jedinečnú bunkovú štruktúru, ktorá určuje, ako sa správa v rôznych podmienkach a aké je jej najlepšie využitie. Jednou z mechanických vlastností dreva je stupeň jeho tvrdosti. Ide o fyzikálnu veličinu, ktorá vyjadruje, ako je drevo schopné odolávať vniknutiu cudzieho telesa do jeho štruktúry.</p>\n<h2><strong>AKO SA MERIA TVRDOSŤ DREVA</strong></h2>\n<p>Na meranie tvrdosti dreva sa používajú dve metódy – Brinellova a Janka. Najčastejšie sa využíva práve druhá spomínaná, ktorá je pomenovaná po výskumníkovi Gabrielovi Jankovi.</p>\n<p>Do dreva sa postupne vtláča oceľová guľôčka s priemerom 11,28 mm až dovtedy, kým nie je do povrchu vnorená polovica jej priemeru. Sila, ktorú bolo nutné vynaložiť na zatlačenie tejto guličky do štruktúry dreva, je výsledná hodnota jeho tvrdosti udávaná v MPa (megapascal) alebo v kg/cm2 (kilogram na meter štvorcový).</p>\n<h2>TABUĽKA TVRDOSTI DREVA</h2>\n<table>\n<thead>\n<tr>\n<th><strong>Tvrdosť v kg/cm2</strong></th>\n<th><strong>Druh dreva</strong></th>\n</tr>\n</thead>\n<tbody><tr>\n<td>1. 0 – 350 kg/cm2 (veľmi mäkké drevo)</td>\n<td>smrek, borovica, jedľa, lipa</td>\n</tr>\n<tr>\n<td>2. 351 – 500 kg/cm2 (mäkké drevo)</td>\n<td>breza, jelša, teak</td>\n</tr>\n<tr>\n<td>3. 501 – 650 kg/cm2 (stredne tvrdé drevo)</td>\n<td>gaštan jedlý, lieska</td>\n</tr>\n<tr>\n<td>4. 651 – 1000 kg/cm2 (tvrdé drevo)</td>\n<td>dub, javor, orech, čerešňa, buk, agát, tis</td>\n</tr>\n<tr>\n<td>5. 1001 – 1500 kg/cm2 (veľmi tvrdé drevo)</td>\n<td>drieň, krušpán</td>\n</tr>\n<tr>\n<td>6. nad 1501 kg/cm2 (neobyčajne tvrdé drevo)</td>\n<td>eben, massaranduba</td>\n</tr>\n</tbody></table>\n<h2>NAJMÄKŠIE A NAJTVRDŠIE DREVO NA SLOVENSKU</h2>\n<p>Na Slovensku nerastú najtvrdšie dreviny sveta. V našich zemepisných šírkach nájdete len drevo s maximálnym stupňom tvrdosti 4 – tvrdé drevo. <strong>Najtvrdšie drevo na Slovensku má agát, najmäkšie drevo zas borovica.</strong></p>\n<p>Zaujímavosťou je, že tvrdosť jedného typu dreviny sa môže v rôznych klimatických podmienkach meniť (najvýznamnejší faktor, ktorý ju ovplyvňuje, je vlhkosť). <strong>Najtvrdším drevom na svete je preto pravdepodobne guajakové drevo rastúce v dažďových pralesoch Južnej Ameriky.</strong></p>\n<p><strong>Zdroj</strong>: <a href=\"https://cs.wikipedia.org/wiki/Tvrdost_d%C5%99eva\">Wikipedia</a></p>",
@@ -3154,11 +3332,12 @@ const DB = {
         "assets/audio/migrated/c_major.mp3"
       ],
       "galeria": [
+        "assets/images/migrated/dendrofon-min.jpg",
         "assets/images/migrated/2025-07-16_09h11_35.png"
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<h2><strong>Stupnica</strong></h2>\n<p>(iné názvy: <strong>tónová stupnica, hudobná stupnica</strong>) je v muzikológii rad tónov, stupňovito zoradených v stúpajúcom alebo klesajúcom smere podľa určitých pravidiel od základného (prvého) tónu – toniky stupnice k jeho oktáve (oktáva je vzdialenosť tónov z ktorých ten vyšší má dvojnásobnú frekvenciu).</p>\n<p>Skupinu tónov danej stupnice, použitú v určitej hudobnej skladbe alebo piesni nazývame tónina.<a href=\"https://sk.wikipedia.org/wiki/Stupnica_(hudba)#cite_note-1\">[1]</a>Stupnice sú v podstate konvencie, ktoré sa vytvorili tak, aby ladili nášmu sluchu. Rôzne stupnice sa líšia hlavne počtom tónov a ich vzdialenosťami (intervalmi), t. j. hlavne umiestnením poltónov a celých tónov.</p>\n<p><strong>Durové stupnice</strong> sú diatonické stupnice, typické pre európsku hudbu. Názov je odvodený z latinského „durum“ – tvrdý.</p>\n<p><strong>C dur –</strong> Základnou durovou stupnicou je C dur. Skladá sa z týchto tónov: C,D,E,F,G,A,H,C. Na klavíri sú to iba biele klávesy. Na vokálne (hlasové) účely majú tóny C-dur aj svoje slabičné názvy, to je tvz. solmizačná stupnica.</p>\n<p>Zvuková nahrávka – Ogg Vorbis sound file of C Major scale, Zdroj: <a href=\"https://sk.wikipedia.org/wiki/S%C3%BAbor:C_major.ogg\">Aidan Hanrath, Vlastné dielo</a></p>\n<p>Zdroj: <a href=\"https://sk.wikipedia.org/wiki/Stupnica_(hudba)\">Wikipedia</a></p>",
+      "text": "<h2><strong>Stupnica</strong></h2>\n<p>(iné názvy: <strong>tónová stupnica, hudobná stupnica</strong>) je v muzikológii rad tónov, stupňovito zoradených v stúpajúcom alebo klesajúcom smere podľa určitých pravidiel od základného (prvého) tónu – toniky stupnice k jeho oktáve (oktáva je vzdialenosť tónov z ktorých ten vyšší má dvojnásobnú frekvenciu).</p>\n<p>Skupinu tónov danej stupnice, použitú v určitej hudobnej skladbe alebo piesni nazývame tónina.<a href=\"https://sk.wikipedia.org/wiki/Stupnica_(hudba)#cite_note-1\">[1]</a>Stupnice sú v podstate konvencie, ktoré sa vytvorili tak, aby ladili nášmu sluchu. Rôzne stupnice sa líšia hlavne počtom tónov a ich vzdialenosťami (intervalmi), t. j. hlavne umiestnením poltónov a celých tónov.</p>\n<p><strong>Durové stupnice</strong> sú diatonické stupnice, typické pre európsku hudbu. Názov je odvodený z latinského „durum“ – tvrdý.</p>\n<p><strong>C dur –</strong> Základnou durovou stupnicou je C dur. Skladá sa z týchto tónov: C,D,E,F,G,A,H,C. Na klavíri sú to iba biele klávesy. Na vokálne (hlasové) účely majú tóny C-dur aj svoje slabičné názvy, to je tvz. solmizačná stupnica.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/07/2025-07-16_09h11_35.png\" alt=\"\"></p>\n<p>Zvuková nahrávka – Ogg Vorbis sound file of C Major scale, Zdroj: <a href=\"https://sk.wikipedia.org/wiki/S%C3%BAbor:C_major.ogg\">Aidan Hanrath, Vlastné dielo</a></p>\n<p>Zdroj: <a href=\"https://sk.wikipedia.org/wiki/Stupnica_(hudba)\">Wikipedia</a></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/",
         "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/",
@@ -3436,7 +3615,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/1-building-of-the-municipality-office-frydlant-nad-ostravici.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/01-mestsky-urad-na-namesti.jpg"
+      ],
       "gps": {
         "lat": 49.592778,
         "lng": 18.359571
@@ -3462,7 +3643,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/2-church-of-st-bartolomej-2.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/02-kostel-sv-bartolomeje-1.jpg"
+      ],
       "gps": {
         "lat": 49.593281,
         "lng": 18.358821
@@ -3488,7 +3671,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/3-social-service-centrum-4.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/03-stredisko-socialnich-sluzeb-kaple.jpg"
+      ],
       "gps": {
         "lat": 49.594454,
         "lng": 18.357188
@@ -3514,7 +3699,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/4-culture-centrum-of-frydlant-nad-ostravici-4.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/04-kulturni-centrum-frydlant-nad-ostravici.jpg"
+      ],
       "gps": {
         "lat": 49.592142,
         "lng": 18.357303
@@ -3540,7 +3727,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/5-elementary-school-frydlant-nad-ostravici-4.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/05-zakladni-skola-t-g-masaryka.jpg"
+      ],
       "gps": {
         "lat": 49.593006,
         "lng": 18.354736
@@ -3566,7 +3755,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/6-elementary-school-frydlant-nad-ostravici.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/6-2.jpg"
+      ],
       "gps": {
         "lat": 49.592179,
         "lng": 18.357999
@@ -3592,7 +3783,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/7-airport-frydlant-nad-ostravici.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/07-letiste-frydlant-nad-ostravici.jpg"
+      ],
       "gps": {
         "lat": 49.589172,
         "lng": 18.376106
@@ -3618,7 +3811,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/8-football-playground-and-sport-hall-in-frydlant-nad-ostravici.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/08-fotbalove-hriste-a-hala-sport.jpg"
+      ],
       "gps": {
         "lat": 49.585279,
         "lng": 18.364264
@@ -3644,7 +3839,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/9-swimming-pool-and-tennis-courts-edimex.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/09-koupaliste.jpg"
+      ],
       "gps": {
         "lat": 49.581054,
         "lng": 18.36345
@@ -3670,7 +3867,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/10-sport-and-relax-centre-kotelna.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/10-sportovni-a-relaxacni-centrum-kotelna.jpg"
+      ],
       "gps": {
         "lat": 49.590088,
         "lng": 18.362385
@@ -3696,7 +3895,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/11-chapel-of-st-antonin-paduansky-ondrejnik.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/11-kaple-sv-antonina-paduanskeho-ondrejnik.jpg"
+      ],
       "gps": {
         "lat": 49.580831,
         "lng": 18.319616
@@ -3722,7 +3923,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/12-train-station-frydlant-nad-ostravici-4.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/12-vlakove-nadrazi-frydlant-nad-ostravici.jpg"
+      ],
       "gps": {
         "lat": 49.589223,
         "lng": 18.353992
@@ -3746,7 +3949,9 @@ const DB = {
       "popis": "",
       "cover": "assets/images/migrated/julius_binder1.jpg",
       "audio": [],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/julius_binder1.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p><strong>Spomíname s úctou na Dr. h. c. doc. Ing. Júliusa Bindera, CSc.</strong></p>\n<p>Narodil sa v Bernolákove a 12. septembra by sa dožil 90 rokov.</p>\n<p>Po tom, čo vyštudoval odbor hydrotechnické stavby na Fakulte inžinierskeho staviteľstva vtedy Slovenskej vysokej školy technickej (SVŠT), dnes Slovenskej technickej univerzite (STU) v Bratislave, od roku 1955 – 1991 pracoval v Hydroconsulte Bratislava (pôvodne Hydroprojekte) najprv ako projektant, neskôr výrobný námestník, resp. hlavný inžinier podniku. Predmetom jeho odbornej činnosti boli najmä hydraulika otvorených vodných tokov, úpravy vodných tokov, vodohospodárska bilancia v povodí, cestné stavby, vodárenstvo, ochrana podzemných vôd pred znečistením, čistenie odpadových vôd, špeciálne problémy pri rekonštrukcii teplární, vodné cesty, vodná doprava a špeciálne zakladanie. Podieľal sa na projektovaní vodohospodárskych diel a hydrotechnických stavieb. Mal rozhodujúci podiel na vyriešení ochrany podzemných vôd na Žitnom ostrove pred ropnými derivátmi. Bol hlavným inžinierom projektu čistiarne odpadových vôd v bratislavskom Slovnafte, podieľal sa na riešení projektu čistiarne odpadových vôd Chemických závodov Nováky a na sanácii skládky nebezpečných odpadov v Chemku Strážske.</p>\n<p>Popri projekčnej činnosti pôsobil dvadsať rokov na Strednej priemyselnej škole stavebnej v Bratislave a vyučoval na Strednej poľnohospodárskej škole odbor poľnohospodárskej meliorácie. Neskôr externe prednášal na SVŠT. Environmentálne témy prednášal aj na zahraničných univerzitách a vedeckých spoločnostiach takmer vo všetkých štátoch Európy, ale i v USA, Kanade, Mexiku, Venezuele, Juhoafrickej republike, v Číne, Japonsku.  Zároveň svoje prednášky zameriaval na históriu výstavby Sústavy vodných diel Gabčíkovo – Nagymaros (SVD G-N) a objasňoval postup Slovenskej republiky pri realizácii Variantu „C“. Pritom zdôrazňoval, že výstavba Sústavy mala za cieľ rovnocenne nielen ochranu pred povodňami, zlepšenie plavebných podmienok na spoločnom úseku Dunaja a ekologickú výrobu elektriny, ale aj trvale udržateľné zlepšenie environmentálnych podmienok v ramennej sústave Dunaja a podporu rekreačného, športového a kultúrneho využitia v oblasti Zdrže Čunovo.</p>\n<p>Od roku 1986 bol členom tzv. Spoločnej operatívnej skupiny splnomocnencov vlád, ktorá vykonávala rozsiahle aktivity vrátane operatívneho riadenia a koordinácie prác na výstavbe SVDG-N, prípravy podkladových materiálov na rokovanie splnomocnencov vlád a ich Spoločného poradného zboru.  Od roku 1991 pôsobil ako riaditeľ Vodohospodárskej výstavby.</p>\n<p>Vyvrcholenie odbornej kariéry Júliusa Bindera je spojené s návrhom a výstavbou Sústavy vodných diel Gabčíkovo – Nagymaros a od roku 1990 najmä s presadením a realizáciou náhradného Variantu „C“ vodnej stavby. Ten už nerátal s účasťou Maďarska, ktoré v roku 1989 od projektu definitívne odstúpilo. Kľúčovým momentom bolo prehradenie prirodzeného koryta Dunaja na území SR. Začiatok prác 24. 10. 1992 o 9.05 h prakticky uviedol Vodné dielo Gabčíkovo do prevádzky. Neskôr Medzinárodný súdny dvor (MSD) v Haagu v rozsudku z 25. 9. 1997 potvrdil platnosť medzinárodnej zmluvy z roku 1977 a vyhlásil za oprávnené vybudovanie náhradného riešenia (variant C).</p>\n<p>Jeho pôsobenie vo Vodohospodárskej výstavbe, š. p., je spojené nielen s dokončením Sústavy vodných diel Gabčíkovo a jeho financovaním, ale i s vybudovaním Areálu vodných športov „Divoká voda“ a Galérie moderného umenia „Danubiana“. Presadenie a výstavba vodárenských nádrží Málinec (1989 – 1993) a Turček (1993 – 1996) a najmä Vodného diela Žilina (1994 – 1998) je do značnej miery aj jeho dielom. Vo funkcii generálneho riaditeľa Vodohospodárskej výstavby, š. p., pôsobil až do roku 1998.</p>\n<p>Vydal niekoľko odborných knižných publikácií. Je autorom niekoľkých patentov a zlepšovacích návrhov, ako aj nositeľom viacerých ocenení a vyznamenaní, spomeňme najmä Rad Ľudovíta  Štúra I. triedy (1995),  Zlatý dvojkríž za zásluhy o národnú kultúru (1996), Cenu za záchranu kultúrneho dedičstva a rozvoj mesta Banská Štiavnica (1997) a cena Štefana Moyzesa za prínosy k národnému životu od Nadácie Matice slovenskej (1998). V roku 1995 mu Vedecká rada STU v Bratislave udelila titul Doctor honoris causa a v roku 1997 habilitoval na Stavebnej fakulte Žilinskej univerzity a bol menovaný docentom.</p>\n<p>Pápež Ján Pavol II. udelil 26. 10. 2004 Júliusovi Binderovi za jeho svedectvo veriaceho katolíckeho laika, ako aj za celoživotné dielo najvyššie cirkevné vyznamenanie pre laika Rytiersky rád sv. Gregora Veľkého.</p>\n<p>Dr. h. c. doc. Ing. Július Binder, CSc. zomrel 26. 7. 2021. Česť jeho pamiatke.</p>",
@@ -3811,7 +4016,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/text-to-speech_frank_vcela-samotarka-_2025-07-16.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/zs-banova-hmyzi-domcek-09-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Samotárske včely na rozdiel od včiel medonosných nežijú vo vyspelých spoločenstvách, ale vedú osamelý spôsob života. Na Slovensku sa vyskytuje vyše 600 druhov týchto včiel a predstavujú nenahraditeľnú súčasť prírodných ekosystémov. Ich hlavnou úlohou je opeľovanie rastlín – v miernom pásme Európy je na tento proces závislých približne 78 % rastlinných druhov. Navyše, viac než tri štvrtiny poľnohospodárskych plodín sú odkázané na opeľovanie hmyzom. Samotné včely si, prirodzene, neuvedomujú, aký významný je ich prínos pre fungovanie rastlinného sveta.</p>\n<p>V posledných rokoch však čoraz častejšie počúvame o výraznom poklese hmyzích populácií naprieč Európou. Dlhodobé následky tohto javu sú zatiaľ ťažko predvídateľné. Pre samotárske včely sú najväčším ohrozením strata prirodzeného prostredia a intenzívna chemizácia krajiny. Kým kedysi sa mohli voľne presúvať krajinou, dnes im v pohybe bránia rôzne umelé bariéry. V snahe maximalizovať výnosy sa z krajiny stratili remízky, aleje, prírodné lúky, mokrade a meandrujúce toky.</p>\n<p>V dôsledku týchto zmien hynie časť hmyzu pri hľadaní potravy a úkrytov vyčerpaním, pričom izolácia jednotlivých populácií vedie k ich genetickému oslabovaniu. Zaujímavosťou je, že mestské a prímestské záhrady môžu mať na samotárky aj pozitívny vplyv. Vďaka rôznorodosti rastlín a menšej mierke záhrad poskytujú dostatok potravy i miest na hniezdenie. V porovnaní s rozľahlými poľnohospodárskymi monokultúrami tak predstavujú tieto sídla akési útočiská života.</p>\n<p>Samotárske včely nepredstavujú pre ľudí hrozbu, hoci disponujú žihadlom. Sú mierumilovné a bodajú iba vo výnimočných prípadoch, napríklad keď sú silno stlačené. Aj preto sú ideálnym objektom na pozorovanie pre milovníkov prírody. Farmári, ktorí hospodária v súlade s prírodou, môžu pomocou prítomnosti týchto včiel získať spätnú väzbu o kvalite svojho prístupu. Na to, aby sa samotárskym včelám darilo, potrebujú aj vhodné podmienky na hniezdenie – najčastejšie si vytvárajú nory v pôde, ale obľubujú aj dutiny v odumretom dreve, škáry v murive či prázdne steblá rastlín.</p>\n<p>Zdroj: <a href=\"https://cs.wikipedia.org/wiki/V%C4%8Dely_samot%C3%A1%C5%99ky\">Wikipedia</a></p>",
@@ -3834,7 +4041,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/text-to-speech_frank_cmel-latinsky-b-_2025-07-16.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/zs-banova-hmyzi-domcek-08-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<h2>Čmeľ – lat. <em>Bombus</em></h2>\n<p>Čmeľ (čmeliak) je rod lietajúceho hmyzu, patriaci do čeľade včelovitých (Apidae). Rovnako ako jeho príbuzné včely medonosné sa živí nektárom a peľom, ktorý zbiera nielen pre seba, ale aj pre výživu lariev. Väčšina čmeľov sa vyznačuje mierumilovnou povahou a životom v spoločenstvách. Typické je ich robustné telo s hustým štetinovitým ochlpením, prevažne čierno-žltého sfarbenia, no vyskytujú sa aj oranžové, červené alebo čisto čierne formy. Niektoré druhy majú koniec bruška s bielym zafarbením.</p>\n<p>Na rozdiel od včiel medonosných čmele neprezimujú v kolóniách a nezhromažďujú zásoby medu, preto sa pre jeho produkciu nevyužívajú. Kráľovné aj robotnice sú schopné bodnúť opakovane, keďže ich žihadlá nemajú spätné háčiky.</p>\n<p>Čmele zohrávajú dôležitú úlohu v opeľovaní rastlín, a to nielen vo voľnej prírode, ale aj v poľnohospodárstve. Vďaka hustému ochlpeniu, na ktorom zachytávajú veľké množstvo peľu, a intenzívnemu bzučaniu počas návštev kvetov, sú efektívnejšie pri opeľovaní aj zložitejších súkvetí. Ukázali sa ako veľmi užitoční napríklad pri pestovaní paradajok v skleníkoch. V mnohých rozvinutých krajinách však v dôsledku nadmerného používania pesticídov čelí tento hmyz poklesu početnosti a patrí medzi ohrozené druhy.</p>\n<p><em>Zdroj: <a href=\"https://sk.wikipedia.org/wiki/%C4%8Cme%C4%BE\">Wikipedia</a></em></p>",
@@ -3857,7 +4066,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/text-to-speech_frank_zlatoocka-obycaj-_2025-07-16.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/zs-banova-hmyzi-domcek-10-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Zlatoočka obyčajná (lat. Chrysopa) patrí do čeľade sieťokrídlovcov (Neuroptera). Ide o drobný hmyz s dĺžkou tela približne 6 až 10 mm. Jej telo je štíhle, krídla sú priehľadné a blanité, s výrazným žilkovaním, ktoré môže dosahovať rozpätie 2 až 3 cm. Zlatoočku charakterizuje malá hlavička s veľkými, vypúlenými očami a dlhými tykadlami. Jej sfarbenie sa pohybuje od hnedastého cez škvrnité až po výraznú zelenú farbu.</p>\n<p>Larvy zlatoočky dosahujú veľkosť 7 až 10 mm. Majú sploštenú hlavičku, výrazné hryzadlá a tri páry nôh. Ich farba býva najčastejšie hnedá, sivá alebo zelenohnedá. Vzhľadom pripomínajú larvy lienok. Na Slovensku sa najčastejšie stretávame s druhom zlatoočka obyčajná – Chrysopa carnea. Zlatoočky sú predátori – živia sa škodlivým hmyzom ako sú vošky, larvy múch, malé húsenice, červce, roztoče, minérky a dokonca aj vajíčka iných druhov hmyzu. Jedna larva dokáže počas svojho vývoja skonzumovať 200 až 500 vošiek, alebo za jedinú hodinu zožrať 30 až 50 roztočov.</p>\n<p>Dospelá samička dokáže denne naklásť až 20 vajíčok a počas svojho života vyprodukuje aj 800. Vývin larvy trvá zvyčajne 8 až 20 dní. Pred premenou na dospelca sa larva zakuklí priamo na rastline. Zimu prečká ukrytá pod kôrou stromov alebo v rôznych škárach budov. Pre podporu výskytu zlatoočiek v záhradách je dôležité vyhýbať sa používaniu chemických postrekov, najmä tých, ktoré obsahujú akaricídy – látky škodlivé najmä pre roztoče, ale aj pre užitočný hmyz ako zlatoočky.</p>\n<p><em>Zdroj: <a href=\"https://cs.wikipedia.org/wiki/Zlatoo%C4%8Dka_obecn%C3%A1\">Wikipedia</a></em></p>",
@@ -3880,7 +4091,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/text-to-speech_frank_lienka-sedembodko-_2025-07-16.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/zs-banova-hmyzi-domcek-07-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<h2>Lienka sedembodková (lat. <em>Coccinella septempunctata</em>)</h2>\n<p>Lienka sedembodková (Coccinella septempunctata) patrí medzi najznámejšie a najrozšírenejšie druhy lienok na Slovensku aj vo svete. Radí sa do radu chrobákov (Coleoptera) a je členom čeľade lienkovité (Coccinellidae). Tento druh je považovaný za užitočný hmyz, pretože sa živí voškami a ďalšími škodcami, čím zohráva dôležitú úlohu v biologickej ochrane rastlín.</p>\n<p>Dospelá lienka dorastá do veľkosti 5 až 8 mm a má šesť nôh. Typickým znakom je oranžovo-červené zafarbenie s charakteristickými siedmimi čiernymi bodkami – šesť sa nachádza symetricky po bokoch kroviek a siedma je umiestnená v strede, blízko spojenia krídel. Ďalšími rozpoznávacími znakmi sú dve biele škvrny na hrudi a bledé miesta medzi očami na hlave. Lienky majú aj krátke tykadlá, pomocou ktorých vnímajú pachy a orientujú sa v prostredí. Na rozdiel od niektorých iných druhov lienok je vzhľad sedembodkovej lienky pomerne jednotný – len výnimočne sa jedince líšia počtom bodiek alebo farbou kroviek.</p>\n<p>Počas svojho života mení lienka preferované prostredie. Larvy sa vyvíjajú pri zemi, ukryté medzi bylinami. Po dosiahnutí dospelosti sa presúvajú vyššie, napríklad na kríky, kde sa ďalej živia a pripravujú na zimovanie. Prezimovať môžu v kôre stromov, v škárach budov alebo v pôde. Na jar sa opäť vracajú na miesta vhodné na kladenie vajíčok – do nižších rastlinných vrstiev, kde majú ich larvy zabezpečené útočisko aj potravu.</p>\n<p>Aj keď sa lienka sedembodková najčastejšie živí voškami, dokáže sa prispôsobiť aj inej potrave – napríklad peľu alebo hubovým spóram – ak je hlavný zdroj nedostupný. Pri nedostatku potravy sa aktívne presúva do nových oblastí. Jej vývoj a aktivita sú ovplyvnené počasím – v teplejších podmienkach sa vývojový cyklus urýchľuje.</p>\n<p><em>Zdroj: <a href=\"https://sk.wikipedia.org/wiki/Lienka_sedembodkov%C3%A1\">Wikipedia</a></em></p>",
@@ -3904,9 +4117,6 @@ const DB = {
         "assets/audio/migrated/1-1.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/1-paseka-e1592570206493.jpg",
-        "assets/images/migrated/1-paseka-e1592570206493.jpg",
-        "assets/images/migrated/1-paseka-e1592570206493.jpg",
         "assets/images/migrated/1-paseka-e1592570206493.jpg"
       ],
       "gps": {
@@ -3934,7 +4144,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/2_final.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/img_20200624_153200.jpg"
+      ],
       "gps": {
         "lat": 49.174201,
         "lng": 18.860655
@@ -3963,12 +4175,13 @@ const DB = {
         "assets/audio/migrated/3e-3.mp3"
       ],
       "galeria": [
+        "assets/images/migrated/img_20200701_150652.jpg",
         "assets/images/migrated/img_20200701_150645.jpg",
         "assets/images/migrated/strecno-mapka_3.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>V tejto miestnosti sa nachádza archeologická expozícia. Vo vitrínach môžete vidieť archeologické nálezy z obdobia od praveku po stredovek, ktoré sa našli počas archeologických výskumov v Strečne a v okolitých obciach (Varín, Rosina, Krasňany, Gbeľany).</p>",
+      "text": "<p>V tejto miestnosti sa nachádza archeologická expozícia. Vo vitrínach môžete vidieť archeologické nálezy z obdobia od praveku po stredovek, ktoré sa našli počas archeologických výskumov v Strečne a v okolitých obciach (Varín, Rosina, Krasňany, Gbeľany).</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2020/07/stre%C4%8Dno-mapka_3.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/expozicia-archeologie/",
         "en": "https://www.qrlink.sk/new/en/castles/expozicia-archeologie/",
@@ -3989,11 +4202,12 @@ const DB = {
         "assets/audio/migrated/4-1.mp3"
       ],
       "galeria": [
+        "assets/images/migrated/4-model-hradu-17-storocie.jpg",
         "assets/images/migrated/4a-model-hradu-20-storocie.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Prvá písomná zmienka o Strečne, ako o provincii pochádza z roku 1316. V tomto období ovládal celú Žilinskú kotlinu Matúš Čák Trenčiansky a po jeho smrti prevzal jeho majetky uhorský kráľ, Karol Róbert. Ako kamenný hrad, ,,comitatus castri Strychen“, sa Strečno spomína v listine z roku 1384. Hrad bol postavený na vysokom vápencovom brale (cca 100m) nad riekou Váh. Takéto výnimočné umiestnenie umožňovalo prísnu kontrolu každého, kto chcel prejsť dolinou Váhu. Preto bol hrad využívaný na stráženie mýtnej stanice, ktorá sa nachádzala pri brode cez rieku. Do konca 14. storočia bol hrad kráľovským majetkom. V nasledujúcom období viackrát menil majiteľov, medzi ktorými bol prvý poľský šľachtic Sudivoj z Ostrorohu, bývalý husitský kapitán Ján Čapek zo Sán, Pongrác z Liptovského Mikuláša či Pavol Kiniži (ktorý bol aj majiteľom hradu Lietava). Vdova po Pavlovi Kinižim, Benigna, predala hrad Zápoľským. Následne hrad pripadol Mikulášovi Kostkovi, po ktorom ho vlastnili Deršfiovci. Najznámejšími majiteľmi boli František Vešeléni a jeho žena Žofia Bosniaková, ktorí hrad vlastnili v 17. storočí. Spočiatku mal hrad iba malú rozlohu (22x18m). Tvorila ho obytná budova, cisterna a päťposchodová hranolová veža, tzv. bergfrit. Prístup do hradu bol z južnej strany chránený priekopou vysekanou do hradnej skaly, cez ktorú viedol most k hlavnej bráne. V 16. storočí bol hrad značne rozšírený a prestavaný. Bolo potrebné ho opevniť, aby sa stal bezpečným útočiskom a taktiež zútulniť pre potreby šľachty. Hrad sa tak postupne rozrástol o severný palác zakončený kaplnkou a tiež o južný palác s 2 obytnými krídlami. Na západnej strane vzniklo predhradie so severnou vežou a novou hlavnou bránou s predbráním. Na východnej strane vznikol dvojpodlažný palác a múry boli posunuté až na okraj skalnej steny nad riekou. V 17. storočí vznikli tri delové bastióny a z južnej strany pribudli dve nové predhradia s bránami. V tomto období dosiahol hrad svoju najväčšiu rozlohu – 165x61m a stal sa najlepšie opevneným hradom na strednom Považí. Model hradu v jeho najväčšej rozlohe môžete vidieť vo vitríne. V priebehu druhej polovice 17. storočia prežil hrad niekoľko dramatických udalostí. Vtedajší majiteľ, František Vešeléni, zomrel a majetky zdedil jeho syn Ladislav. Avšak ten sa musel svojich majetkov v Uhorsku vzdať, pretože došlo k prezradeniu, že jeho otec pripravoval povstanie proti cisárovi. Po konfiškácii majetku sa na hrade usídlili Tőkőlyho vojaci, ktorí bojovali v rámci protihabsburského povstania. Cisár Leopold I. preto prikázal hrad definitívne zničiť. Opevnenie a strechy hradu boli zbúrané, studňa a hradná cisterna boli zasypané. Od konca 17. storočia hrad chátral. V roku 1970 bol hrad vyhlásený za Národnú kultúrnu pamiatku. Následne bol rekonštruovaný (1978 – 1994) a v roku 1995 bol ako zrekonštruovaná zrúcanina sprístupnený verejnosti. Druhý model hradu zobrazuje stav zrúcaniny pred rekonštrukciou (30 roky 20. storočia).</p>\n<p>V súčasnosti môžete vidieť v tejto miestnosti výstavu dobových pohľadníc hradu Strečno a neďalekého Starého hradu a fotografíí súčasnej podoby Strečna.</p>",
+      "text": "<p>Prvá písomná zmienka o Strečne, ako o provincii pochádza z roku 1316. V tomto období ovládal celú Žilinskú kotlinu Matúš Čák Trenčiansky a po jeho smrti prevzal jeho majetky uhorský kráľ, Karol Róbert. Ako kamenný hrad, ,,comitatus castri Strychen“, sa Strečno spomína v listine z roku 1384. Hrad bol postavený na vysokom vápencovom brale (cca 100m) nad riekou Váh. Takéto výnimočné umiestnenie umožňovalo prísnu kontrolu každého, kto chcel prejsť dolinou Váhu. Preto bol hrad využívaný na stráženie mýtnej stanice, ktorá sa nachádzala pri brode cez rieku. Do konca 14. storočia bol hrad kráľovským majetkom. V nasledujúcom období viackrát menil majiteľov, medzi ktorými bol prvý poľský šľachtic Sudivoj z Ostrorohu, bývalý husitský kapitán Ján Čapek zo Sán, Pongrác z Liptovského Mikuláša či Pavol Kiniži (ktorý bol aj majiteľom hradu Lietava). Vdova po Pavlovi Kinižim, Benigna, predala hrad Zápoľským. Následne hrad pripadol Mikulášovi Kostkovi, po ktorom ho vlastnili Deršfiovci. Najznámejšími majiteľmi boli František Vešeléni a jeho žena Žofia Bosniaková, ktorí hrad vlastnili v 17. storočí. Spočiatku mal hrad iba malú rozlohu (22x18m). Tvorila ho obytná budova, cisterna a päťposchodová hranolová veža, tzv. bergfrit. Prístup do hradu bol z južnej strany chránený priekopou vysekanou do hradnej skaly, cez ktorú viedol most k hlavnej bráne. V 16. storočí bol hrad značne rozšírený a prestavaný. Bolo potrebné ho opevniť, aby sa stal bezpečným útočiskom a taktiež zútulniť pre potreby šľachty. Hrad sa tak postupne rozrástol o severný palác zakončený kaplnkou a tiež o južný palác s 2 obytnými krídlami. Na západnej strane vzniklo predhradie so severnou vežou a novou hlavnou bránou s predbráním. Na východnej strane vznikol dvojpodlažný palác a múry boli posunuté až na okraj skalnej steny nad riekou. V 17. storočí vznikli tri delové bastióny a z južnej strany pribudli dve nové predhradia s bránami. V tomto období dosiahol hrad svoju najväčšiu rozlohu – 165x61m a stal sa najlepšie opevneným hradom na strednom Považí. Model hradu v jeho najväčšej rozlohe môžete vidieť vo vitríne. V priebehu druhej polovice 17. storočia prežil hrad niekoľko dramatických udalostí. Vtedajší majiteľ, František Vešeléni, zomrel a majetky zdedil jeho syn Ladislav. Avšak ten sa musel svojich majetkov v Uhorsku vzdať, pretože došlo k prezradeniu, že jeho otec pripravoval povstanie proti cisárovi. Po konfiškácii majetku sa na hrade usídlili Tőkőlyho vojaci, ktorí bojovali v rámci protihabsburského povstania. Cisár Leopold I. preto prikázal hrad definitívne zničiť. Opevnenie a strechy hradu boli zbúrané, studňa a hradná cisterna boli zasypané. Od konca 17. storočia hrad chátral. V roku 1970 bol hrad vyhlásený za Národnú kultúrnu pamiatku. Následne bol rekonštruovaný (1978 – 1994) a v roku 1995 bol ako zrekonštruovaná zrúcanina sprístupnený verejnosti. Druhý model hradu zobrazuje stav zrúcaniny pred rekonštrukciou (30 roky 20. storočia).</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2020/07/4a-model-hradu-20.-storo%C4%8Die.png\" alt=\"\"></p>\n<p>V súčasnosti môžete vidieť v tejto miestnosti výstavu dobových pohľadníc hradu Strečno a neďalekého Starého hradu a fotografíí súčasnej podoby Strečna.</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/prve-podlazie-juzneho-palaca/",
         "en": "https://www.qrlink.sk/new/en/castles/prve-podlazie-juzneho-palaca/",
@@ -4013,7 +4227,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/5-1.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/5-kuchyna.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Táto miestnosť predstavuje hradnú kuchyňu. Centrum kuchyne tvorilo otvorené ohnisko, ktoré sa používalo na prípravu jedál. V strede steny sa nachádza dymovod, ktorý slúžil na odvádzanie dymu. Po stranách dymovodu môžete vidieť časť portálu dverí a ostenia okna. Ďalej si tu môžete všimnúť stredoveký žarnov na mletie múky, maselnicu na mútenie masla, nádoby na uskladnenie oleja a vína a ďalšie kuchynské pomôcky a nádoby na prípravu jedál či uskladnenie surovín. Podobné nádoby a pomôcky sa nachádzajú aj vo vitrínach. Hlavnou zložkou stredovekej stravy boli nekvasené chlebíky a rôzne kaše, ale aj mäso s bylinami, ktoré rástli v blízkosti obydlí. Jedlo sa tiež veľa ovocia a zeleniny. Ako inšpiráciu si môžete na paneli prečítať 2 recepty zo stredovekej kuchárky.</p>",
@@ -4036,7 +4252,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/6-1.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/6-juzne-nadvorie.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Na mieste dnešného južného nádvoria sa pôvodne nachádzala priekopa, ktorá chránila prístup do veže. Neskôr na jej mieste vzniklo nádvorie, ktoré malo ďalšie podlažie a takisto strechu.</p>",
@@ -4059,7 +4277,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/7-1.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/7-cisterna-1.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Cisterna slúžila na zachytávanie dažďovej vody zo striech hradu. Voda sa do nej dostávala pomocou dažďových odkvapov. Cisterna je hlboká  3,5m a priemer má 2,6m. Päť spodných radov obloženia je pôvodných, ostatné 3 rady sú dorekonštruované. Dno a obvod cisterny bol v čase používania vymazaný ílom, čím sa zabránilo presakovaniu vody do vápencového podložia. Voda z cisterny nebola pitná, iba úžitková.</p>",
@@ -4083,11 +4303,12 @@ const DB = {
         "assets/audio/migrated/8.mp3"
       ],
       "galeria": [
+        "assets/images/migrated/img_20200703_125543.jpg",
         "assets/images/migrated/8-vstup-do-veze1.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Na prízemí, pri vstupe do veže, sa nachádza 8m hlboký otvor. V čase využívania hradu táto miestnosť slúžila, ako chladnička či zásobáreň potravín. Keďže miestnosť nemá žiadny iný prístup okrem vrchného otvoru, v praxi to vyzeralo tak, že sluha sa na lane spustil cez otvor dovnútra a vyzdvihol odtiaľ požadované suroviny. V minulosti sa vo veži nenachádzali schody. Pôvodne tu boli drevené rebríky, ktoré viedli na každé z piatich podlaží veže. Dokonca aj do veže sa najskôr chodilo až z 2. podlažia po pristavenom rebríku, aby sa nepriateľom sťažil jednoduchý prístup dovnútra.</p>",
+      "text": "<p>Na prízemí, pri vstupe do veže, sa nachádza 8m hlboký otvor. V čase využívania hradu táto miestnosť slúžila, ako chladnička či zásobáreň potravín. Keďže miestnosť nemá žiadny iný prístup okrem vrchného otvoru, v praxi to vyzeralo tak, že sluha sa na lane spustil cez otvor dovnútra a vyzdvihol odtiaľ požadované suroviny. V minulosti sa vo veži nenachádzali schody. Pôvodne tu boli drevené rebríky, ktoré viedli na každé z piatich podlaží veže. Dokonca aj do veže sa najskôr chodilo až z 2. podlažia po pristavenom rebríku, aby sa nepriateľom sťažil jednoduchý prístup dovnútra.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2020/07/8-vstup-do-ve%C5%BEe1.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/vstup-do-hlavnej-veze/",
         "en": "https://www.qrlink.sk/new/en/castles/vstup-do-hlavnej-veze/",
@@ -4109,11 +4330,12 @@ const DB = {
         "assets/audio/migrated/9a-1.mp3"
       ],
       "galeria": [
+        "assets/images/migrated/9-hl-veza.jpg",
         "assets/images/migrated/img_20200624_150338.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Hlavná hradná veža je najvyšším miesto hradu. Od rieky Váh sme teraz vzdialení 148 metrov. V minulosti mala veža obrannú funkciu a využívala sa na kontrolu okolia. Na západnej strane môžete vidieť vrch Zvonica, na ktorom sa nachádza Pamätník francúzskych partizánov. Francúzski partizáni bojovali v okolí Strečna počas SNP. Veľa z nich tu padlo, a preto bol na ich počesť vybudovaný tento pamätník (v krypte sa nachádzajú telesné pozostatky 24 partizánov). Na severozápade môžete vidieť obec Varín. V miestnom kostole bol pred viac ako 300 rokmi krstený najznámejší slovenský zbojník, Juraj Jánošík, rodák z neďalekej Terchovej (Terchová je od Varína vzdialená zhruba 14 km). Smerom na severovýchod sa nachádza Starý hrad (nie je ho vidieť), pôvodne nazývaný hrad Varín. Postavený bol v 13. storočí na pravom brehu Váhu. Viedla tadiaľ hlavná považská cesta do Turca a Liptova, ktorá prechádzala v blízkosti hradu z pravej strany rieky na ľavú brodom cez Váh. Na prelome 13. a 14. storočia sa začala budovať cesta na ľavom brehu Váhu a hrad Varín sa tak dostal mimo dôležitej obchodnej trasy. Jeho funkciu následne prebral novopostavený hrad Strečno. Význam hradu Varín poklesol, o čom svedčí aj jeho premenovanie na Starý hrad. V súčasnosti je iba ruinou.</p>\n<h2>Krásna Marienka (povesť)</h2>\n<p>Susedia zo Starého hradu a Strečna zahoreli takmer súčasne láskou ku krásnej Marienke z podhradia Strečna. Hoci k oltáru si nevestu násilím odviedol strečniansky hradný pán, Marienka milovala šľachetného Milka – pána Starého hradu. Strečniansky hradný pán o tom vedel, a tak radšej pre istotu svojho soka zákerne zavraždil. Marienka následne utiekla z prekliateho hradu Strečno a v noci tajne navštevovala Milkov hrob, ktorý bol neďaleko rieky Váh. Strečniansky hradný pán sa o tom dozvedel a na brehu Váhu čakal na Marienku, aby ju odprosil. Prišiel však rytier v brnení a hradný pán domnievajúc sa, že ide pomstiť Mil</p>\n<p>kovu smrť, rytierovi zoťal mečom hlavu. Keď sa hlava dokotúľala až k nemu, zistil, že v skutočnosti zabil svoju ženu Marienku. Na druhý deň pri Milkovom hrobe našli mŕtveho aj strečnianskeho hradného pána. Zabil ho totiž blesk počas búrky, ktorá sa spustila po tomto veľkom nešťastí.</p>",
+      "text": "<p>Hlavná hradná veža je najvyšším miesto hradu. Od rieky Váh sme teraz vzdialení 148 metrov. V minulosti mala veža obrannú funkciu a využívala sa na kontrolu okolia. Na západnej strane môžete vidieť vrch Zvonica, na ktorom sa nachádza Pamätník francúzskych partizánov. Francúzski partizáni bojovali v okolí Strečna počas SNP. Veľa z nich tu padlo, a preto bol na ich počesť vybudovaný tento pamätník (v krypte sa nachádzajú telesné pozostatky 24 partizánov). Na severozápade môžete vidieť obec Varín. V miestnom kostole bol pred viac ako 300 rokmi krstený najznámejší slovenský zbojník, Juraj Jánošík, rodák z neďalekej Terchovej (Terchová je od Varína vzdialená zhruba 14 km). Smerom na severovýchod sa nachádza Starý hrad (nie je ho vidieť), pôvodne nazývaný hrad Varín. Postavený bol v 13. storočí na pravom brehu Váhu. Viedla tadiaľ hlavná považská cesta do Turca a Liptova, ktorá prechádzala v blízkosti hradu z pravej strany rieky na ľavú brodom cez Váh. Na prelome 13. a 14. storočia sa začala budovať cesta na ľavom brehu Váhu a hrad Varín sa tak dostal mimo dôležitej obchodnej trasy. Jeho funkciu následne prebral novopostavený hrad Strečno. Význam hradu Varín poklesol, o čom svedčí aj jeho premenovanie na Starý hrad. V súčasnosti je iba ruinou.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2020/07/IMG_20200624_150338.jpg\" alt=\"\"></p>\n<h2>Krásna Marienka (povesť)</h2>\n<p>Susedia zo Starého hradu a Strečna zahoreli takmer súčasne láskou ku krásnej Marienke z podhradia Strečna. Hoci k oltáru si nevestu násilím odviedol strečniansky hradný pán, Marienka milovala šľachetného Milka – pána Starého hradu. Strečniansky hradný pán o tom vedel, a tak radšej pre istotu svojho soka zákerne zavraždil. Marienka následne utiekla z prekliateho hradu Strečno a v noci tajne navštevovala Milkov hrob, ktorý bol neďaleko rieky Váh. Strečniansky hradný pán sa o tom dozvedel a na brehu Váhu čakal na Marienku, aby ju odprosil. Prišiel však rytier v brnení a hradný pán domnievajúc sa, že ide pomstiť Mil</p>\n<p>kovu smrť, rytierovi zoťal mečom hlavu. Keď sa hlava dokotúľala až k nemu, zistil, že v skutočnosti zabil svoju ženu Marienku. Na druhý deň pri Milkovom hrobe našli mŕtveho aj strečnianskeho hradného pána. Zabil ho totiž blesk počas búrky, ktorá sa spustila po tomto veľkom nešťastí.</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/hlavna-veza-vyhlad/",
         "en": "https://www.qrlink.sk/new/en/castles/hlavna-veza-vyhlad/",
@@ -4133,7 +4355,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/10.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/10-vychodny-palac-e1593775595595.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Z pôvodného gotického paláca objaveného počas archeologického výskumu sa zachovala iba časť suterénu s pôvodným portálom dverí. Dnes môžete vnútri vidieť ukážku mučiarne.</p>\n<p>V minulosti sa mučiareň pravdepodobne nenachádzala na tomto mieste, pretože smerom od veže nahor bol horný hrad určený pre pánov. Smerom od veže nadol bol dolný hrad určený pre služobníctvo. Vonkajší múr východného paláca je jedným z najlepšie zachovaných pôvodných múrov hradu, keďže ostatné múry sú značne spevňované. Múr sa zachoval aj s pôvodnými okennými otvormi.</p>",
@@ -4156,7 +4380,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/11.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/11-severny-palac.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Severný palác mal pôvodne 2 podlažia – vidno to podľa otvorov v stenách, v ktorých boli trámy a na trámoch bolo umiestnené ďalšie podlažie. Otvor v hornom rohu je vnútorná časť tzv. prevétu – stredovekej toalety. Z vonkajšej strany paláca je čiastočne zrekonštruovaný. Pôvodne sa zachovali iba nosníky (krakorce). Samotná toaleta fungovala ako latrína, kde výkaly padali popri múre dolu pod hrad. Podobný prevét sa nachádzal aj na vonkajšom múre východného palác.</p>",
@@ -4182,11 +4408,12 @@ const DB = {
         "assets/audio/migrated/12b.mp3"
       ],
       "galeria": [
+        "assets/images/migrated/12-kaplnka.jpg",
         "assets/images/migrated/12a-zofia-bosniakova.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>V kaplnke môžete vidieť gotickú hviezdicovú klenbu, ktorú sa podarilo zrekonštruovať podľa pôvodných rebier – našli sa zrútené v kaplnke a v hradnej studni. Nad emporou, na ktorej stojíme, bola pôvodne ešte jedna empora. Vchádzalo sa na ňu z druhého podlažia severného paláca. V podlahe kaplnky je odkrytá krypta, do ktorej bolo uložené telo Žofie Bosniakovej, ktorá zomrela v roku 1644 ako 34-ročná. V roku 1689 tu jej telo našli cisárske vojská, ktoré na príkaz cisára ničili hrad. Aj 45 rokov po smrti bolo jej telo takmer neporušené. Keďže hrad bol vtedy už ruinou, Žofiino telo bolo po krátkom čase premiestnené do kostola v neďalekej Tepličke nad Váhom, kde bolo uložené v presklenej rakve a ľudia ho tam chodili obdivovať. Avšak v roku 2009 mentálne chorý muž rakvu so Žofiiným telom vyniesol von, podpálil a zničil tak veľmi vzácne kultúrne dedičstvo. V našej krypte sa dnes na Žofiinu počesť nachádza replika jej tela, zhotovená akademickým maliarom Stanom Lajdom. Žofia Bosniaková je najvýraznejšou osobnosťou v dejinách nášho hradu. V minulosti ju mali ľudia veľmi radi, pretože bola milá, skromná, dobrosrdečná a nikdy neodmietla žiadnu prosbu o pomoc. Spolu so svojím manželom založila útulok pre chudobných, chorých, siroty a cudzincov. Práve pre jej dobré skutky a pre neporušené telo, ktoré sa našlo v našej krypte, je Žofia považovaná za svätú, aj je známa pod pomenovaním svätica zo Strečna. Dokonca v roku 1997 sa začal proces jej blahorečenia (pre nedostatok archívnych dôkazov, že sa okolo jej osoby diali zázraky, zatiaľ blahorečená nebola). O Žofii existuje niekoľko povestí a legiend. Jedna z najznámejších hovorí, že Žofia Bosniaková v čase najväčšej biedy rozdávala chudobným zadarmo malé chlebíky, a tie podľa jej mena dostali pomenovanie bosniaky. V okolí Štrečna a Žiliny sú bosniaky známe aj dnes.</p>\n<h2>Sakristia</h2>\n<p>Vo vitrínach sa nachádzajú kamenné fragmenty, ktoré sa našli v hradnej studni počas čistiacich prác (1988 – 1992). V prvej vitrínke sú zrejme časti portálu dverí, časť výzdoby nad vstupom do hradu alebo náhrobný kameň s menom Vešeléni.</p>\n<h2>Legendy o Žofii Bosniakovej</h2>\n<p>Žofiino manželstvo s Františkom Vešelénim bolo zo začiatku veľmi šťastné. Postupom času, keď František často odchádzal na Fiľakovský hrad (bol kapitánom hradu), zaľúbil sa do druhej ženy, do tzv. Muránskej Venuše z hradu Muráň, do Márie Séči. Žofia veľmi trpela jeho nevšímavosťou a údajne denne chodila do kaplnky v skalách, aby si tam vymodlila jeho lásku späť. Raz ju tam v modlitbe k Panne Márii našiel František, prosil ju o odpustenie a prisahal jej večnú lásku. Keď však Žofia zomrela, František Vešeléni sa krátko na to opäť oženil a za manželku si zobral práve spomínanú Máriu Séči.</p>\n<h2>Reštaurovanie kaplnky</h2>\n<p>Pred reštaurovaním boli steny kaplnky preomietnuté cementovou omietkou, v hornej časti boli domurované do pôvodnej výšky a zaklenuté novou rekonštrukčnou železobetónovou klenbou. Steny boli natreté na bielo a rebrá klenby zase na tehlovočerveno. Toto bola zrejme aj pôvodná základná stredoveká farebnosť kaplnky. Keďže z vonkajšej strany omietka chýbala, dážď spôsoboval zvýšenú vlhkosť a plesne v interiéri. Výskumom sa zistilo, že pod cementovou omietkou sú zachované pôvodné stredoveké omietky. Samotné reštaurovanie začalo kompletným odstránením cementových omietok. Výsledkom bolo očistenie stein až na pôvodné kamenné murivo s čiastočne zachovanými pôvodnými stredovekými omietkami v spodnej časti stien. Následne boli murivá a omietky hĺbkovo spevnené. Po celkovom spevnení a konzervácii došlo k doplneniu zachovaných častí omietky. V stenách boli doplnené aj drevené lešenárske guľatiny z výstavby kaplnky, po ktorých ostali už len diery do exteriéru. Takisto došlo k farebnému sceleniu kaplnky, aby výrazná klenba kaplnky z konca 20. storočia nepôsobila rušivo a nepútala väčšiu pozornosť ako pôvodné stredoveké omietky.</p>",
+      "text": "<p>V kaplnke môžete vidieť gotickú hviezdicovú klenbu, ktorú sa podarilo zrekonštruovať podľa pôvodných rebier – našli sa zrútené v kaplnke a v hradnej studni. Nad emporou, na ktorej stojíme, bola pôvodne ešte jedna empora. Vchádzalo sa na ňu z druhého podlažia severného paláca. V podlahe kaplnky je odkrytá krypta, do ktorej bolo uložené telo Žofie Bosniakovej, ktorá zomrela v roku 1644 ako 34-ročná. V roku 1689 tu jej telo našli cisárske vojská, ktoré na príkaz cisára ničili hrad. Aj 45 rokov po smrti bolo jej telo takmer neporušené. Keďže hrad bol vtedy už ruinou, Žofiino telo bolo po krátkom čase premiestnené do kostola v neďalekej Tepličke nad Váhom, kde bolo uložené v presklenej rakve a ľudia ho tam chodili obdivovať. Avšak v roku 2009 mentálne chorý muž rakvu so Žofiiným telom vyniesol von, podpálil a zničil tak veľmi vzácne kultúrne dedičstvo. V našej krypte sa dnes na Žofiinu počesť nachádza replika jej tela, zhotovená akademickým maliarom Stanom Lajdom. Žofia Bosniaková je najvýraznejšou osobnosťou v dejinách nášho hradu. V minulosti ju mali ľudia veľmi radi, pretože bola milá, skromná, dobrosrdečná a nikdy neodmietla žiadnu prosbu o pomoc. Spolu so svojím manželom založila útulok pre chudobných, chorých, siroty a cudzincov. Práve pre jej dobré skutky a pre neporušené telo, ktoré sa našlo v našej krypte, je Žofia považovaná za svätú, aj je známa pod pomenovaním svätica zo Strečna. Dokonca v roku 1997 sa začal proces jej blahorečenia (pre nedostatok archívnych dôkazov, že sa okolo jej osoby diali zázraky, zatiaľ blahorečená nebola). O Žofii existuje niekoľko povestí a legiend. Jedna z najznámejších hovorí, že Žofia Bosniaková v čase najväčšej biedy rozdávala chudobným zadarmo malé chlebíky, a tie podľa jej mena dostali pomenovanie bosniaky. V okolí Štrečna a Žiliny sú bosniaky známe aj dnes.</p>\n<h2>Sakristia</h2>\n<p>Vo vitrínach sa nachádzajú kamenné fragmenty, ktoré sa našli v hradnej studni počas čistiacich prác (1988 – 1992). V prvej vitrínke sú zrejme časti portálu dverí, časť výzdoby nad vstupom do hradu alebo náhrobný kameň s menom Vešeléni.</p>\n<h2>Legendy o Žofii Bosniakovej</h2>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2020/07/12a-%C5%BDofia-Bosniakov%C3%A1.jpg\" alt=\"\"></p>\n<p>Žofiino manželstvo s Františkom Vešelénim bolo zo začiatku veľmi šťastné. Postupom času, keď František často odchádzal na Fiľakovský hrad (bol kapitánom hradu), zaľúbil sa do druhej ženy, do tzv. Muránskej Venuše z hradu Muráň, do Márie Séči. Žofia veľmi trpela jeho nevšímavosťou a údajne denne chodila do kaplnky v skalách, aby si tam vymodlila jeho lásku späť. Raz ju tam v modlitbe k Panne Márii našiel František, prosil ju o odpustenie a prisahal jej večnú lásku. Keď však Žofia zomrela, František Vešeléni sa krátko na to opäť oženil a za manželku si zobral práve spomínanú Máriu Séči.</p>\n<h2>Reštaurovanie kaplnky</h2>\n<p>Pred reštaurovaním boli steny kaplnky preomietnuté cementovou omietkou, v hornej časti boli domurované do pôvodnej výšky a zaklenuté novou rekonštrukčnou železobetónovou klenbou. Steny boli natreté na bielo a rebrá klenby zase na tehlovočerveno. Toto bola zrejme aj pôvodná základná stredoveká farebnosť kaplnky. Keďže z vonkajšej strany omietka chýbala, dážď spôsoboval zvýšenú vlhkosť a plesne v interiéri. Výskumom sa zistilo, že pod cementovou omietkou sú zachované pôvodné stredoveké omietky. Samotné reštaurovanie začalo kompletným odstránením cementových omietok. Výsledkom bolo očistenie stein až na pôvodné kamenné murivo s čiastočne zachovanými pôvodnými stredovekými omietkami v spodnej časti stien. Následne boli murivá a omietky hĺbkovo spevnené. Po celkovom spevnení a konzervácii došlo k doplneniu zachovaných častí omietky. V stenách boli doplnené aj drevené lešenárske guľatiny z výstavby kaplnky, po ktorých ostali už len diery do exteriéru. Takisto došlo k farebnému sceleniu kaplnky, aby výrazná klenba kaplnky z konca 20. storočia nepôsobila rušivo a nepútala väčšiu pozornosť ako pôvodné stredoveké omietky.</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/kaplnka/",
         "en": "https://www.qrlink.sk/new/en/castles/kaplnka/",
@@ -4207,7 +4434,9 @@ const DB = {
         "assets/audio/migrated/13.mp3",
         "assets/audio/migrated/13a.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/13-severna-veza-e1593776801900.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Na prízemí severnej veže sú ešte pôvodné strieľne a zrekonštruované otvorené ohnisko. Nad ním sa nachádza imitácia komína. Na rohu kaplnky môžete vidieť dodatočne vylámaný priestor, kde sa nachádzalo točité schodisko a tým sa vstupovalo na ďalšie poschodie veže. Počas rekonštrukčných prác bolo zrekonštruované aj okno – pôvodne to boli dvere, ktorými sa dalo dostať na druhú emporu kaplnky.</p>\n<h2>Severná veža – výhľad</h2>\n<p>Zo severnej veže je výhľad na samotný hrad a jeho najbližšie okolie. Majestátne týčiaci sa hrad na nedobytnom brale, akoby strážil tajomstvom opradené miesta. Pltníci by vedeli povedať o čom je tu reč, vždy s malou dušičkou plávajú popod hrad a sú vďační za to, keď ich Margita a Besná nechá v pokoji preplávať. Dve skaly so ženskými menami ako náhrobné kamene vyčnievajúce z vody, pripomínajú dávne smutnú minulosť, ktorá sa tam stala.</p>\n<h2>Margita a Besná (povesť)</h2>\n<p>K týmto dvom skalám sa viaže povesť o bohatom ovdovelom sedliakovi, ktorý sa po druhý raz oženil s mladou ženou. Mal aj krásnu dcéru Margitu, ktorú macocha nenávidela pre jej krásu a lásku k jednému mládencovi, do ktorého sa zaľúbila aj macocha. Keďže mládenec ju odmietol, myslela len na to, ako sa Margite pomstiť. Raz sa za ňou tajne ponáhľala a dostihla ju práve vtedy, keď šla okolo skaly nad Váhom a na tomto mieste ju zhodila do rieky. Vlny zaniesli Margitino telo ku skale, ktorá od tých čias nesie jej meno. Keď pravda vyšla najavo, šialená a besná macocha sa sama vrhla do Váhu práve na tom mieste, kde sa utopila Margita. A preto sa druhá skala volá práve Besná.</p>",
@@ -4230,7 +4459,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/14.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/14-hlavne-nadvorie-e1593777205229.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Na hlavnom nádvorí sa nachádza hlboká hradná studňa. Vysekaná je do skalného podložia do hĺbky až 88m, pričom výška vodnej hladiny je asi 1,5m. Počas archeologického výskumu sa našlo najviac zaujímavých pamiatok práve v studni. Tá bola totiž pri ničení hradu zasypaná odpadom a časťami architektonických prvkov úplne povrch a v podstate sa o jej existencii pred výskumom ani nevedelo. Vyčistili ju jaskyniari z Martina (trvalo to 5 rokov).</p>\n<h2>História hradu Strečno v 18. – 20. storočí</h2>\n<p>Po tom, ako bol hrad zabavený Ladislavovi Vešelénimu, strečnianske panstvo bolo rozdelené na dve časti. Jednu získal Pavol Esterházy (pán Bytče) – vzniklo tak panstvo Bytča-Strečno. Druhú časť dostali bratia Löwenburgovci. V druhej polovici 19. storočia Esterházyovci predali panstvo Bytča-Strečno veľkopodnikateľovi s drevom Leopoldovi Popperovi. Na konci 19. storočia Popperovci kvôli dlhom začali rozpredávať svoje majetky. Strečno tak získal obchodník Samuel Hahn. Löwenburgovská časť majetku sa rozdelila na dve časti – tepličské a gbeľanské panstvo, ktoré viackrát menili svojich majiteľov, poslednou majiteľkou bola grófka Iphigénia D‘ Hartcourt a grófka Šarlota Mayláth. Obchodník Hahn začal hrad rozoberať a kameň predávať ako stavebný materiál. Neskôr začal pod hradom ťažiť vápenec. V ťažbe sa pokračovalo aj počas prvej ČSR (Vápenka Varín). Až keď sa Strečno dostalo do rúk Československého klubu turistov, boli práce vedúce k likvidácii hradu zastavené. Počas 2. svetovej vojny bol hrad značne zničený, hlavne keď tu bojovali francúzske partizánske jednotky. Od roku 1978 sa rekonštruoval. Na rekonštrukciu sa používal kameň získaný zo sutiny priamo z hradu alebo bol dovezený z lomu Polom. Úplne bola zrekonštruovaná hlavná brána, hlavná veža, južný palác, severný palác a kaplnka. Z veľkej časti bola doplnená severná veža a predbránie, čiastočne východný palác, parkánová hradba a delové opevnenie.</p>\n<h4>Milí návštevníci, tu sa naše spoločné sprevádzanie hradom končí. Dúfame, že sa vám virtuálna prehliadka páčila a obohatila vás nielen vizuálne, ale aj duchovne. Sprevádzali vás virtuálne ARDSYSTÉM, lektorsky hrad Strečno a hudobne Zbor starej hudby ARCUS.</h4>\n<p><a href=\"https://www.ardsystem.sk/\">https://ardsystem.sk/</a></p>\n<p><a href=\"https://www.pmza.sk/\">https://www.pmza.sk/</a></p>\n<p><a href=\"https://www.zborarcus.sk/\">https://www.zborarcus.sk/</a></p>",
@@ -4279,7 +4510,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/tabula-01.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/fam-poss-036.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Rod Turzovcov, ktorý pochádzal zo spišských Betlanoviec, patril od konca 15. do prvej štvrtiny 17. storočia k najvýznamnejším uhorským šľachtickým rodom. Členovia rodu žili v Uhorsku, Poľsku či dnešnom Rakúsku a Nemecku. Na slovenskom území sa rod delil na niekoľko vetiev: spišskú, banskobystrickú, trenčiansku, bytčiansko-oravskú, bojnickú a šintavskú. Príslušníci rodu zastávali v Uhorsku popredné hodnosti v správe krajiny a vlastnili rozsiahle majetky. Viacerí z nich študovali na popredných európskych univerzitách v Taliansku, Poľsku či Nemecku.</p>\n<p>Zakladateľom bytčiansko-oravskej vetvy bol František Turzo, syn Jána (VI.) zvaného Krivý.  Príslušníci tejto vetvy si odvodzovali aj svoj predikát „<em>de Bethlenfalva</em>“ z pôvodného sídla rodu na Spiši. František sa po štúdiách v Padove niekedy začiatkom roka 1543 vrátil do Uhorska. Jeho príbuzný Alexej Turzo mu testamentárne odkázal biskupské majetky s hradom v Nitre. František v apríli 1544 nastúpil do funkcie nitrianskeho biskupa a župana a ujal sa i biskupských majetkov. Postupne získal vysoké dvorské funkcie – stal sa prefektom Uhorskej komory, členom miestodržiteľstva a v októbri 1556 ako jediný uhorský šľachtic dokonca predsedom Dvorskej komory. Na jar v tom istom roku sa zriekol hodnosti biskupa a v záujme zachovania rodu sa oženil s Barborou Kostkovou. V týchto funkciách sa mu podarilo získať oravské panstvo i s hradom. Manželstvo však bolo bezdetné, v roku 1561 mu navyše manželka zomrela. O rok neskôr sa František druhýkrát oženil s Katarínou Zrínskou. V tomto období kúpil lietavské panstvo  a získal aj hrad Hričov, zámok v Bytči spolu s mestom a panstvom. v Bytči nechal František v rokoch 1571 – 1574 postaviť hlavné rodové sídlo – renesančný zámok, na ktorého výstavbu si pozval talianskych majstrov. Z druhého manželstva sa manželom narodilo päť detí, jedným z nich bol pokračovateľ rodu Juraj, ktorý sa narodil na hrade Lietava 2. septembra 1567.</p>\n<p>Najstarším hodnoverným prameňom na erb Turzovcov je pečať Teofila Turza z roku 1493. V nej možno vidieť všeobecne známy delený štít, v jeho hornom poli vyrastá korunovaný lev, v dolnom poli sú umiestnené tri ruže. Pre bytčiansko-oravskú vetvu Turzovcov je podstatnou vývinovou fázou grófsky erb, ktorý v roku 1607 udelil Jurajovi cisár Rudolf II.  Erb pozostáva zo štvrteného štítu v strede s malým zlatým srdcovým štítkom, v ktorom je čierny ríšsky orol. Prvé a štvrté pole štvrteného štítu je delené, v jeho hornej červenej časti sa nachádza vyrastajúci zlatý, korunovaný lev, v dolnej zlatej polovici sú tri červené ruže. V druhom a treťom modrom poli je strieborný jednorožec so zlatou zbrojou. Erb má dva klenoty. Vľavo spod zlatej koruny na otvorenej turnajovej prilbe splývajú tu i tam modro-strieborné prikrývadlá, klenotom je z koruny vyrastajúci strieborný jednorožec so zlatou zbrojou. Vpravo spod zlatej koruny splývajú tu i tam červeno-zlaté prikrývadlá a klenot tvorí zo zlatej koruny vyrastajúci zlatý lev. Figúry v erbe zachovávajú pravidlo heraldickej zdvorilosti, sú k sebe zdvorilo obrátené.</p>",
@@ -4302,7 +4535,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/tabula-02.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/thurzo-nakoni.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Juraj Turzo sa ako 17-ročný mladík dostal na výchovu  na viedenský dvor rakúskeho arcikniežaťa Ernesta. Tu sa mu dostalo náležitého dvorského vzdelania, najmä v oblasti vojenstva a diplomacie. Doplnil si aj jazykové vedomosti. Okrem maďarčiny a slovenčiny ovládal slovom i písmom i latinu a nemčinu. V roku 1585 sa mladý Juraj vrátil domov do Bytče, aby sa ujal riadenia svojich majetkov.</p>\n<p>Vojensky sa Juraj Turzo angažoval v protitureckých bojoch, najmä v rámci tzv. pätnásťročnej vojny (1590 – 1604). Osobne bol prítomný vo viacerých bitkách, ktoré súviseli s dobývaním hradov Divín, Šomoška, Hájnačka, Modrý Kameň či Fiľakovo. Zúčastnil sa aj v bojoch pri Budíne, Vacove, Ostrihome a Stoličnom Belehrade. Od roku 1597 mala Turzova kariéra stúpajúcu tendenciu. V októbri 1597 rokoval s poľským kráľom o protitureckých akciách v Nových Zámkoch. O rok neskôr ho nachádzame vo funkcii radcu cisára Rudolfa II. a v roku 1599 získal funkciu kráľovského pohárnika. Za jeho zásluhy v protitureckých bojoch ho arciknieža Matej, brat Rudolfa II., navrhol na bratislavskom sneme v roku 1602 do funkcie kapitána preddunajského vojska a veliteľa novozámockej pevnosti. Zaujímavé je, že sa napriek svojmu evanjelickému vyznaniu Turzo nepridal na stranu protihabsburského povstania Štefana Bočkaja, ale ostal verný cisárovi – katolíkovi. Za jeho odmietavý postoj voči povstaniu mu povstalci v priebehu roka 1605 vyplienili majetky v oblasti severozápadného Slovenska, vrátane hlavného sídla v Bytči.</p>\n<p>Začiatkom 17. storočia vypukli spory medzi arcikniežaťom Matejom a jeho bratom, cisárom Rudolfom II.  Juraj Turzo začal podporovať tolerantnejšieho a prezieravejšieho Mateja, ktorý 16. novembra 1608 nastúpil na uhorský trón ako Matej II. Bol to práve on, kto pri voľbe uhorského palatína presadzoval do tejto, po panovníkovi najvyššej hodnosti Juraja Turza. Stalo sa tak 7. decembra 1609. Turzovo sídlo – Bytča sa stala strediskom vysokej uhorskej politiky. Avšak o dianí v okolitých krajinách mu pravidelne podávali správy jeho vyslanci v Prahe, Viedni, Tešíne, Krakove či Sedmohradsku. Medzi jeho prvoradé úlohy patrila starostlivosť o pohraničné hrady, ktoré boli nevyhnutné z hľadiska protitureckej obrany štátu.  Na jeho príkaz boli vykonané vizitácie hradov v Nitrianskej, Zvolenskej, Novohradskej a Malohontskej stolici. Staral sa tiež o pravidelný žold hradných posádok s cieľom zabrániť dezerciám.</p>\n<p>Okrem vojenských záležitostí Turzo z titulu svojich funkcií musel riešiť aj niektoré kriminálne zločiny. Ešte v roku 1600 ho Dvorská kancelária poverila úlohou súvisiacou s trestnou činnosťou lednického zemepána Michal Telekešiho, ktorý prepadol povozy s cennými darmi určenými pre cisára. Tento čin bol hodnotený ako urážka majestátu a velezrada. Turzo na príkaz arcikniežaťa Mateja obsadil hrad Lednicu a skonfiškoval ho pre kráľovskú komoru. Vážny prípad riešil už ako palatín v roku 1610. Kráľ Matej ho poveril vyšetrovaním proti neslávne známej Alžbete Bátoryovej. Jej zločiny však Turzo nepotrestal dostatočne a Bátoryová skončila v doživotnom žalári na svojom Čachtickom hrade.</p>",
@@ -4325,7 +4560,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/tabula-03.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/3.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Turzovka je jediným sídlom na Slovensku, ktoré vo svojom názve zachovalo pamiatku na tohto významného uhorského šľachtica, držiteľa úradu palatína, vplyvného politika, hrdinu protitureckých bojov, humanistického vzdelanca a patróna evanjelickej cirkvi. Jeho vzťah k Turzovke sa dá pozorovať v troch rovinách: 1. založenie obce, 2. jej pomenovanie, 3. založenie farnosti. K založeniu obce viedli Turza snahy o ochranu vlastných majetkových záujmov a územia proti prenikajúcim valachom zo susedného Budatínskeho panstva a tiež úsilie o osídlenie dovtedy hospodársky len sporo využívaných oblastí v povodí horného toku Kysuce. Turzovka rozhodne vznikla s jeho vedomím a súhlasom na mieste staršej dlhopoľskej osady Predmier a lokality Markove lúky v roku 1598. O štyri roky neskôr, 21. februára 1602 vydal Turzo novozaloženej obci, jej lokátorovi a zároveň dedičnému richtárovi Adamovi Bonecovi výsadnú listinu, v ktorej určil poddaným základné podmienky usadenia sa a vymedzil im chotár. Išlo o veľké územie, na ktorom sa v súčasnosti nachádza niekoľko obcí – Makov, Vysoká nad Kysucou., Olešná, Klokočov, Korňa a samotná Turzovka.</p>\n<p>Novozaložená obec bola pomenovaná po svojom zakladateľovi – <em>Turzova</em>, v maďarčine a latinčine <em>Turzofalva</em> či <em>Turzowafalva</em> (Turzova dedina). Až do polovice 18. storočia sa pre Turzovku používali paralelne názvy Turzovka, Predmier, niekedy aj Kysuca alebo Nižná Kysuca. Do založenia Turzovky v kysuckej oblasti Bytčianskeho panstva, nejestvovala nijaká samostatná obec. Keď vznikla Turzovka išlo teda o prvú kysuckú lokalitu na Turzovom panstve, preto ju zrejme pomenovali Turzovou dedinou (<em>Turzofalva</em>), skrátene <em>Turzova</em> neskôr <em>Turzovka</em>. Pomenovanie vzniklo celkom spontánne, prirodzene a vyplynulo z celkového vývoja osídlenia na panstve. Bolo spomenuté, že išlo nielen o prvú obec na hornej Kysuci, ale naviac aj hraničnú obec Bytčianskeho panstva. Z tohto dôvodu ju pomenovali Turzovou, aby bolo nespochybniteľné, že ide o Turzov majetok, Turzovu obec. Nový názov <em>Turzova</em>/<em>Turzovka</em> sa presadil na úkor staršieho, pôvodného pomenovania lokality Predmier.</p>\n<p>Juraj Turzo založil v novozriadenej obci v roku 1615 farnosť povolaním evanjelického farára. Kým v procese pomenovania Turzo nezohral aktívnu úlohu, v oblasti náboženského života sa naopak v prospech svojej dediny angažoval azda najviac. Už v privilégiu z roku 1602 výslovne uviedol, aby lokátor a tamojší obyvatelia postavili v dedine kostol a faru. Stalo sa tak v roku 1614, keď postavili prvý drevený kostol a zemepán im doň daroval zvon, odliaty pravdepodobne v zvonolejárskej dielni v Dolnom Kubíne. Zvon sa zachoval do súčasnosti a aktuálne je súčasťou zbierok Mestského múzea v Turzovke. Turzo sa tiež postaral o duchovného správcu a jeho príchodom bola de facto i de iure zriadená nová farnosť – v tom čase evanjelická. Približne do konca apríla 1615 patrila Turzovka ako filiálna obec k farnosti v Hričove. Začiatkom mája Turzo do Turzovky povolal evanjelického kňaza Michala Orlandiho Carbonaria (Uhliara). Na činnosť evanjelickej farnosti od roku 1673 plynulo nadviazala katolícka farnosť.</p>",
@@ -4348,7 +4585,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/tabula-04.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/4.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Turzovci sa stali prívržencami evanjelickej viery augsburského vyznania ešte za čias Františka Turza. V týchto intenciách vystupoval aj jeho syn Juraj, ktorý sa stal veľkou oporou evanjelickej cirkvi v Uhorsku, napriek tomu, že ostal verný katolíckemu cisárskemu dvoru. Na dvor do Bytče priviedol viacerých vzdelancov. Jeho pričinením sa  bytčianske gymnázium stalo školou, ktorej absolventi pokračovali na domácich i zahraničných univerzitách. Sám disponoval hodnotnou knižnicou, obsahujúcou viac ako 800 zväzkov kníh. V jeho listoch sa objavuje termín „<em>natio slavica nostra</em>“ (naša slovenská nácia). Turzo založil niekoľko evanjelických farností na Orave (Lokca, Námestovo, Podvlk, Jablonka, Nižná či Žaškov) i Kysuciach (Turzovka). Pri farách boli zakladané školy. Vďaka Turzovej finančnej podpore mohli viacerí nádejní mladíci študovať na zahraničných univerzitách.</p>\n<p>Jeho najväčšou zásluhou v náboženskej oblasti je nesporne zorganizovanie cirkevnej synody v Žiline, ktorou sa evanjelická cirkev v Uhorsku definitívne odlúčila zo štruktúr katolíckej cirkvi. Okrem uhorského palatína bol ústrednou postavou synody senior žilinského kontubernia, vzdelanec a Turzov dvorný kazateľ Eliáš Láni. Synoda sa mala pôvodne uskutočniť už v roku 1609, ale kvôli určitým nezhodám sa napokon nezišla. V dňoch 28. – 30. marca 1610 však už do Žiliny na Turzovo pozvanie zavítali mnohí šľachtici, stoliční predstavitelia, zástupcovia popredných miest a evanjelickí duchovní. Sám palatín prišiel so sprievodom už o deň skôr. Po duchovných aktivitách v žilinskom farskom kostole (dnes katedrálnom) prítomní  diskutovali o návrhoch na miesta superintendentov a pristúpili k tvorbe zákonných článkov. Komisia spísala 16 článkov a znenie superintendentskej prísahy. Posledný deň synody 30. marca boli vyvolení prví evanjelickí superintendenti: Eliáš Láni pre oblasť Trenčianskej, Liptovej a Oravskej stolice, Samuel Melik pre Turčiansku, Zvolenskú, Novohradskú stolicu a Hont a napokon Izák Abrahamides pre Bratislavskú, Nitriansku a Tekovskú stolicu. Hoci prví dvaja sa zdráhali prijať tieto úrady, palatín Turzo ich presvedčil o správnosti voľby. V organizácii dôležitej náboženskej synody sa palatín preukázal ako vynikajúci organizátor a diplomat.</p>",
@@ -4371,7 +4610,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/tabula-05.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/5.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Hodnosť palatína a povinnosti s ňou spojené neboli jednoduché. Vyžadovali si okrem duševnej pripravenosti aj dobrú telesnú kondíciu a zdatnosť. Nemožno pochybovať, že vplyv na jeho neskoršie zdravie uhorského palatína mali dlhšie pobyty vo vojenských táboroch a účasti na bojiskách. Turza neskôr značne vyčerpávali pomerne časté cesty do Bratislavy, Viedne či Košíc, pričom trpel viacerými chorobami. Niektoré z nich nadobúdali chronický charakter. Členovia jeho rodiny radi navštevovali kúpele v Rajeckých Tepliciach, kde v roku 1610 postavili kúpeľný dom. Keďže Juraj Turzo trpel na reumatizmus, skoliózu, artrózu i ľadvinové kamene, najmä po roku 1612 stále častejšie vyhľadával príležitosť zrelaxovať v liečivej vode rajeckých kúpeľov. Napriek tomu sa jeho zdravotný stav zhoršoval a v dôsledku toho sa nemohol zúčastniť ani na svadbách dcéry Stanislava Turza v októbri 1614, ani v októbri o dva roky neskôr na svadbe Anny Sidónie, dcéry tešínskeho kniežaťa Adama Václava. Zhoršený zdravotný stav ho prinútil, aby v roku 1615 z Wittenbergu do Bytče povolal svojho syna Imricha, hoci toho práve zvolili za rektora tamojšej univerzity. V priebehu roka 1616 už Juraj Turzo nikam necestoval. Zomrel na Štedrý deň 24. decembra 1616 vo veku 49 rokov. Pravdepodobnou príčinou smrti bola pľúcna choroba – zápal pľúc alebo tuberkulóza.</p>\n<p>Telo zomrelého uložili 28. decembra do drevenej rakvy, v ktorej mu maliar vyhotovil posmrtný portrét. Drevenú rakvu 9. januára 1617 uzavreli a 7. februára ju vložili do väčšej cínovej. Pozostalá rodina mu následne vystrojila veľkolepý pohreb 19. februára 1617. Palatínov katafalk bol umiestnený v sobášnom paláci, odkiaľ sa potom pohrebný sprievod pohol k farskému kostolu. V sprievode šli okrem rodiny aj významní šľachtici, stoliční a krajinskí hodnostári, kapitáni pohraničných hradov, predstavitelia miest, zahraničné delegácie, ale aj študenti z Bytče, Rajca či Žiliny, členovia miestnych cechov, ozbrojená palatínova stráž, panské služobníctvo či obyvatelia z dedín bytčianskeho a lietavského panstva. Hlavným kazateľom pri pohrebných obradoch bol superintendent Eliáš Láni. Po nich rakvu uložili do krypty chrámu Všetkých svätých v Bytči. O niekoľko rokov neskôr ale Turzove telesné pozostatky previezli do rodinnej hrobky v kaplnke sv. Michala na Oravskom hrade. Tam sa dodnes nachádza jeho mramorový epitaf, zobrazujúci palatína v životnej veľkosti.</p>",
@@ -4394,7 +4635,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/reiter02.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/9_titulni-strana-publikace.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Mezi odbornými kruhy se Edmund Reitter proslavil jako vynikající entomolog, především koleopterolog. Do současnosti je tento dlouholetý paskovský občan zařazován mezi nevýznamnější evropské i světové odborníky svého oboru.</p>\n<p>Nesmírně pracovitý Reitter spojoval studium brouků s jejich sběrem přímo v terénu i s neobyčejně rozsáhlou publikační činností. Díky zkoumání sběrů předaných od přátel z velmi vzdálených lokalit (Kavkaz, Arménie, Mongolsko, Sibiř atd.) představuje předního odborníka přes koleopterologii pro celou palearktickou zónu, která se rozkládá na území Evropy, většiny Asie a severní části Afriky. V době své badatelské a publikační činnosti byl dokonce považován za největšího znalce kavkazských brouků.</p>\n<p>Společně s jinými odborníky a přáteli podnikl desítky cest za předmětem svého zájmu. Se síťkou na brouky navštívil střední, východní a jižní Evropu, převážně ve všech případech území tehdejšího Rakousko-Uherska. Materiál pro svou práci si přivážel například z Tater, Podkarpatské Rusi, Sedmihradska, Dalmácie, Bosny, Černé Hory nebo Jižního Tyrolska. Téměř samozřejmé byly i jeho výzkumy věnované sběrům v různých částech Beskyd nebo přímo v okolí Paskova. Poslední velkou cestu uskutečnil v roce 1913, tedy ve svých 68 letech, do Chorvatska.</p>\n<p>Přestože o brouky jevil Reitter zájem již při svém studiu na gymnáziu v Opavě a poté se staly jeho koníčkem i při prvním pobytu v Paskově, plně se jim oddal až po přestěhování do Vídně v roce 1879 a následně po dvou letech do nedalekého Mödlingu. Entomologický obchod, který v té době provozoval, se stal věhlasným centrem příznivců tohoto oboru. Jeho provozování s obdobným úspěchem a popularitou obnovil i po návratu do Paskova v roce 1891.</p>\n<p>Spolu s dalšími odborníky založil Vídeňské entomologické noviny (Wíener Entomologische Zeitung), které po čase sám vydával. Jeho nejrozsáhlejším publikačním počinem je pětisvazková Fauna Germanica. V nákladu 35 tis. kusů ji vydal pro spolek německých učitelů. Reitter je autorem přes 1 000 článků v různých odborných časopisech. Jeho práce sloužily jako východisko pro systémový pohled na studium hmyzu hlavně novým nastupujícím zájemcům o entomologii, především koleopterologii.</p>\n<p>Věhlas výsledků práce Edmunda Reittera se brzy promítnul i do jeho členství v různých prestižních entomologických společnostech, a to nejen v Rakousku-Uhersku, ale také například v Německu, Španělsku, Finsku, Rusku nebo dokonce v Egyptě.</p>\n<p>Za nejrozsáhlejší do současnosti zachovaný odkaz nesmírného nadšení a pracovitosti Reittera můžeme považovat hlavní část jeho sbírky, která se v ucelené podobě nachází od roku 1916 v Maďarském národním muzeu.</p>",
@@ -4417,7 +4660,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/reiter03-1.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/6_vitrina-se-sbirek-edmunda-reittera.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Přestože se pro připomenutí Edmunda Reittera nabízí vzpomenout především jeho badatelskou a publikační činnost, nelze opomenout také pozoruhodnou společenskou angažovanost i duchovní zaměření této osobnosti.</p>\n<p>Rodným jazykem Reittera byla němčina, která se používala jako úřední a dorozumívací jazyk také v jeho prvních zaměstnáních u hrabat Larisch-Mönichů a Saint-Genois. V němčině publikoval i své odborné práce. U Reitterů však byla v rodinném prostředí používaná také čeština. Sám se dovedl česky domluvit a v období pobytu v Paskově posílal děti do české školy.</p>\n<p>Nebyly mu lhostejné ani sociální poměry a společenské dění. Známá je jeho podpora spolkové činnosti paskovských hasičů, kterou dokládá i skutečnost, že mu zde bylo přiznáno postavení čestného člena.</p>\n<p>Opomenout nelze ani zřízení vojenského lazaretu pro raněné vojáky z 1. světové války, kdy mezi ošetřovatelky raněných a nemocných zařadil také rodinné příslušníky, nejmladší dceru Theu a neteř Emilii.</p>\n<p>Přirozeně se neváhal postarat o svou mladší neprovdanou sestru Marii a otce Vincenta, kteří strávili poslední léta života právě v kruhu Reitterovy rodiny.</p>\n<p>Známá je rovněž jeho ochota předávat zkušenosti mladým začínajícím entomologům. To platilo pro srozumitelný styl, kterým psal své odborné práce, ale i pro četné osobní konzultace, při nichž neváhal poskytovat pro další studium také exponáty ze svých sbírek. Návratnost přitom zdaleka nebyla zaručena a v mnoha případech se nenaplnila. Tyto ztráty však byly u Reittera vyváženy pocitem radosti z naplnění jednoho z jeho životních poslání – předávat svou zkušenost a poznání následovatelům.</p>\n<p>Věhlas odborných úspěchů vyvolával pro Reittera nabídky k členství v mnoha prestižních entomologických společnostech a on je neodmítal. Jako příklady lze uvést Německý entomologický spolek v Berlíně, Spolek slezských sběratelů hmyzu ve Vratislavi nebo Společnost pro faunu a floru v Helsinkách. Za největší společenské ocenění udělené za jeho vědecké zásluhy je však třeba považovat čestný titul císařského rady.</p>\n<p>Bohatou vrstevnatost osobnosti Edmunda Reittera dokládá i jeho stopa v krásné literatuře. V mládí psal poezii a ve svých dvaceti letech také vydal lyricky pojatou básnickou sbírku. Ke konci života se snad logicky v kontextu jeho životního příběhu a osobnostních vlastností přiklání k spiritistickému vnímání světa. Nikoli náhodou si tak při vědomí blížící se smrti sám velmi pečlivě připravil pohřební obřad a oznámení o úmrtí nechal rozeslat až po něm. To aby ušetřil své přátele nákladů na cestu i nebezpečí onemocnění v chladném počasí.</p>\n<p>Symbolický odkaz vedoucí až k téměř neuvěřitelně rozsáhlému dílu však hledejme v jeho přístupu k práci a životu, který v koncentrované zkratce vyjadřují dva citáty: „Vytrvalost vede k cíli“ a „Musíte mít jen odvahu, to je vše“.</p>",
@@ -4440,7 +4685,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/reiter04.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/7_edmund-reitter-v-kruhu-spolku-paskovskych-hasicu.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Přestože byl Edmund Reitter po smrti svého syna a odchodu vnuka do zahraničí ve 40. letech 20. století téměř zapomenut, je současná rehabilitace jeho odkazu zcela na místě.</p>\n<p>Stává se tak po roce 1989, kdy se zásadně mění společenská situace, která je daleko více vstřícná k připomínání a poznávání některých osobností, včetně těch, které byly spojeny s německou národností, nebo jejich rodina odešla na západ.</p>\n<p>Již v 90. letech minulého století byla z iniciativy tehdejšího vedení města instalována na domě č. p. 35 na ulici Nádražní, ve kterém téměř 30 let Reitter žil a také v roce 1920 zemřel, kovová pamětní deska. Jejího výtvarného řešení se ujal akademický sochař Václav Fidrich. Ve stejném období vydává obecní úřad v Paskově drobnou, ale informačně velmi cennou publikaci Vzpomínka na entomologa Edmunda Reittera od autorů Jiřího Janáčka a Radima Šiguta.</p>\n<p>Další období, kdy Paskov připomíná svého slavného občana, přichází po odkupu areálu paskovského zámku a parku. Získáním a následnou revitalizací zámecké budovy získává město prostory pro stálé výstavy. Jedna z nich je vyčleněna pod názvem „Sál Edmunda Reittera“ připomenutí právě této osobnosti. Stylový nábytek z doby, kdy Reitter v Paskově žil, několik dochovaných fotografií, cyklus knih Fauna Germanica a drobné fragmenty z jeho sbírek brouků mají za cíl navodit iluzi vědcova rodinného a pracovního prostředí. Sál Edmunda Reittera byl zpřístupněn veřejnosti spolu s další stálou expozicí věnovanou historii Paskova v přízemí hlavní budovy u příležitosti 750. výročí od první dochované písemné zprávy o Paskovu – tj. v roce 2017. Později byl pro doplnění a zatraktivnění prohlídky této místnosti natočen o Reitterovi krátký hraný film.</p>\n<p>Od roku 2013 je osobnost Edmunda Reittera připomenuta také na jednom z panelů informačního systému Zajímavosti z historie Paskova. Na čtyřkilometrovém okruhu vyznačeném účelovou turistickou značkou pro naučné stezky přibližuje zájemcům v pořadí páté zastavení bývalou rozsáhlou rybniční soustavu, která náležela k paskovskému panství. Informace o Edmundu Reitterovi jako jejímu správci v období 70. let 19. století za majitele hraběte Mořice Saint-Genois na toto jeho postavení a na další aktivity poukazují.</p>\n<p>Posledním hmatatelným připomenutím světoznámého paskovského vědce jsou texty na lavičkách v zámeckém parku. Odkaz Edmunda Reittera je připomenut hned na třech z nich. Město Paskov tímto způsobem přibližuje svou historii od roku 2022.</p>\n<p>Zapomenout však nelze ani na některé společenské akce pro děti i dospělé zájemce, které čerpají inspiraci z historie. I v nich se občas „objevuje“ postava Edmunda Reittera.</p>\n<p>Přes veškeré uvedené aktivity však zůstává v platnosti konstatování českého přírodovědce Jiřího Hudečka, který ve svém textu o Edmundu Reitterovi zveřejněném u příležitosti 150. výročí od jeho narození uvedl, že na důstojné uctění památky tohoto vědce se stále čeká.</p>",
@@ -4463,7 +4710,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/tabula-06-2.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/6.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Juraj Turzo bol ženatý dvakrát, jeho prvou manželkou sa stala Žofia Forgáčová. Z päť rokov trvajúceho manželstva pochádzali tri deti, ale len dve dcéry Zuzana a Judita sa dožili dospelosti. Turzova prvá manželka náhle skonala v roku 1590. Jeho druhou manželkou sa o necelé dva roky neskôr stala Alžbeta Coborová. Je zaujímavé, že mali katolícky sobáš a aj Coborová pochádzala z katolíckeho rodu. Napriek rozdielnym konfesiám bolo manželstvo harmonické a vzišlo z neho deväť potomkov, z ktorých sa dospelosti dožilo päť dcér a predovšetkým syn, dedič a pokračovateľ rodu Imrich. Narodil sa v Bytči 11. septembra 1598. Na dvore bytčianskeho zámku ho vychovávali učitelia akými boli E. Láni, J. Nozitius či neskôr J. Spiegel  a F. Armpruster. Jeho ďalšie vzdelanie pokračovalo na univerzite vo Wittenbergu, kde  si ho profesorský zbor 8. októbra 1615 zvolil za rektora. Túto hodnosť zastával mladý Imrich len do 1. mája 1616, keď pre otcovu chorobu rezignoval a vrátil sa do Bytče. Po otcovej smrti sa Imrich podľa testamentu stal na základe princípu nedeliteľnosti majetkov ich dedičom. V roku 1618 sa Imrich oženil s Kristínou Ňáriovou. V tom istom roku sa ujal funkcie hlavného župana Oravskej stolice a bol zvolený aj za kráľovského tabulárneho sudcu. Na rozdiel od svojho otca sa stal stúpencom protihabsburského tábora a pôsobil v službách sedmohradského kniežaťa Gabriela Betlena ako jeho popredný hodnostár. Zúčastnil sa ako diplomat pri rôznych rokovaniach medzi cisárom a Betlenom. S podlomeným zdravím prišiel na mierové rokovania do Mikulova, kde 19. októbra 1621 zomrel. Zanechal po sebe dcéru Alžbetu, Kristína sa narodila až po jeho smrti. Ním rod Turzovcov vymrel po meči.</p>\n<p>Po smrti manželky Juraja Turza Alžbety Coborovej v marci 1626 sa ich dcéry Zuzana, Judita, Barbora, Helena, Mária, Katarína a Anna zišli na Lietavskom hrade, kde podpísali dokument, na základe ktorého vznikol Oravský komposesorát. Ten pozostával z celého oravského a štvrtiny lietavského panstva. Turzovské majetky mala spravovať vždy najstaršia dcéra so svojim manželom. Keďže v tom čase boli prvé tri dcéry vdovami, prvým riaditeľom Oravského komposesorátu sa stal Gašpar Ilešházi s manželkou Helenou Turzovou. Najstaršia Zuzana sa stala trikrát vdovou, Judita bola vydatá za Andreja Jakušiča, Barbora za Krištofa Erdödyho, manželom Heleny bol spomínaný Gašpar Ilešházi, Mária sa vydala za Michala Vizkeletyho, Katarína za Štefana Tököliho a najmladšia Anna tvorila manželský pár s Jánom Suňogom.</p>",
@@ -4486,7 +4735,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/reiter01.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/4_portret-edmunda-reittera.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Edmund Reitter pocházel z německy mluvící rodiny. Narodil se v moravské Mohelnici 22. 10. 1845. Po smrti matky se jeho otec znovu oženil. Z tohoto manželství vzešli pro Edmunda dva nevlastní sourozenci – bratr Johan a sestra Marie.</p>\n<p>Rodinné prostředí, otec i děd pracovali jako lesníci, bylo od dětství pro malého Edmunda zázemím pro vytváření blízkého vztahu k přírodě.</p>\n<p>Již při studiu na reálném gymnáziu v Opavě začal tíhnout k entomologii, v rámci které se jeho orientace zacílila především na koleopterologii. První z uvedených slov cizího původů označuje vědu zabývající se hmyzem, druhé odbornou specializaci na brouky. K praktickým zájmům mladého Reittera v době mládí patřilo také zemědělství a rybnikaření.</p>\n<p>Svou první práci po dokončení studií nalezl po boku otce na panství hraběte Larisch-Mönnicha v Karviné. V roce 1869 vstoupil jako úředník do služeb majitele paskovského panství hraběte Mořice Saint-Genois. Díky svým přirozeným ambicím však brzy přešel z původního postavení moderně řečeno zaměstnance do daleko samostatnější pozice pachtýře rybníků.</p>\n<p>Jeho první manželství uzavřené v r. 1871 s Annou Kunte, dcerou sládka paskovského panského pivovaru, však nebylo naplněno šťastným příběhem. Nejprve mu brzy po porodu umírá dcera Thea (v roce 1872) a jen o něco později i manželka Anna (v roce 1873).</p>\n<p>Reitter však nezůstává dlouho sám a již necelý rok po smrti své první ženy vstupuje opět do manželství. Druhá manželka Hermína Nováková byla dcerou paskovského obchodníka. Z tohoto manželství vzešlo celkem šest dětí, ze kterých se pět dožilo dospělosti. Nejstarší Martha se narodila v roce 1875. Prvorozený syn Erich, který přišel na svět o rok později, však v šesti měsících zemřel. V roce 1880 se rodina rozrostla o syna Emmericha. Také jeho místem narození byl Paskov, byť to bylo již v době, kdy Reitter, tehdy již ponořen do vědecké práce a podnikatelských aktivit, přesídlil do Vídně a později do nedalekého Mödlingu. Paní Reitterová však následovala svého muže o něco později. Při pobytu v Mödlingu přišly u Reitterů na svět další dvě dcery, v roce 1883 Edith a o čtyři roky později Amanda Felicitas.</p>\n<p>Po smrti tchána a na naléhání manželky se rodina vrací v r. 1891 zpět do Paskova a usídluje se v domě č. p. 35, který se o šest let později stává jejich majetkem. Zde se v roce 1893 narodila poslední dcera Thea. Rodinné sídlo, tehdy po zámku největší obytný dům v Paskově, využíval Reitter nejen jako zázemí pro svou rodinu, ale také jako depozitář rozsáhlých sbírek brouků, knihovnu bohaté odborné literatury i sklad různých entomologických potřeb.</p>\n<p>Již za života Edmunda se entomologii začal věnovat také jeho syn Emmerich. Rodinná tradice se dočkala pokračování i ve třetí generaci, a to konkrétně v reálném zájmu o entomologii Emmerichova syna Evalda. Po smrti Emmericha v roce 1945 (zemřel a byl pohřben v Opavě) a odchodu Evalda v roce 1949 do západoněmeckého Mnichova se však reálné aktivity rodiny Reitterů v tehdejším Československu uzavírají.</p>",
@@ -4509,7 +4760,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/rozhladna-tabor.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/tabor.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2600.5853598694816!2d18.768725688647475!3d49.32213557521233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5e43da6c3837017c!2zNDnCsDE5JzIxLjkiTiAxOMKwNDYnMTUuMSJF!5e0!3m2!1ssk!2ssk!4v1660064468331!5m2!1ssk!2ssk",
       "text": "<p>Nadmorská výška: 697 metrov, rok postavenia: 2015</p>\n<p>Vrchol Tábora s nadmorskou výškou 697 m n. m. je dominantou Kysuckého Nového Mesta. Od roku 2015 je na ňom vystavaná mohutná, štvorposchodová drevená rozhľadňa a 50-timi schodmi. Pri stúpaní do kopca sa nám otvárajú výhľady na Kysucké Nové Mesto, z rozhľadne vidíme ďalej Poľanu, Budatínsku Lehotu, Vreteň, tzv. Kysuckú bránu a samozrejme i Malú Fatru.</p>",
@@ -4532,7 +4785,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/kysucka-hvezdaren.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/krajska-hvezdaren-zilina59999427.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2601.365512497397!2d18.763212815690366!3d49.307361279334096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4714432d1b5b4e9f%3A0x992ac2d9601869cf!2zS3JhanNrw6EgaHZlemTDoXJlxYggdiDFvWlsaW5l!5e0!3m2!1ssk!2ssk!4v1663696484685!5m2!1ssk!2ssk",
       "text": "<p>Kysucká hvezdáreň je regionálna kultúrna inštitúcia, ktorej hlavným poslaním je odborno-pozorovateľská činnosť v oblasti astronómie a popularizácia astronómie a príbuzných prírodných a technických vied rôznymi formami podujatí pre široký okruh obyvateľov. Hvezdáreň organizuje exkurzie, prednášky pre rôzne vekové stupne pre školy a verejnosť, besedy k aktuálnym objavom a úkazom, denné a nočné pozorovanie oblohy pre verejnosť, premietanie vedecko-populárnych filmov a pod. Hvezdáreň sa dlhodobo zúčastňuje na mnohých medzinárodných aktivitách a pozorovaniach. V jej priestoroch nájdete stálu expozíciu Vesmír očami detí. </p>\n<p>Hvezdáreň sa nachádza v miestnej časti Suľkov. Viac informácií na: <a href=\"https://www.astrokysuce.sk\">www.astrokysuce.sk</a> alebo t.č. 041/421 2946</p>",
@@ -4555,7 +4810,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/kastiel-v-radoli.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/radola.jpg"
+      ],
       "gps": {
         "lat": 49.295734,
         "lng": 18.788351
@@ -4581,7 +4838,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/martakov-kopec.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/martakov-kopec.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2597.704347520183!2d18.72975531563311!3d49.37666697934162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaa597fb96b6f0f77!2zNDnCsDIyJzM2LjAiTiAxOMKwNDMnNTUuMCJF!5e0!3m2!1ssk!2ssk!4v1660065094533!5m2!1ssk!2ssk",
       "text": "<p>Nadmorská výška: 854 metrov, výška rozhľadne: 14 metrov, rok postavenia: 2011</p>\n<p>Nachádza sa na vrchole Marťákovho kopca v Javorníkoch. Z rozhľadne sa naskytá výhľad na takmer celé Kysuce, blízke Zákopčie (sever), na Moravsko-sliezske Beskydy (severozápad) s dominantnou Lysou horou (vysielač), Kysucké Beskydy (severovýchod), Kysuckú vrchovinu, Oravskú Maguru (východ), Malú Fatru (juhovýchod) a pri dobrej viditeľnosti aj na vrcholky Západných Tatier na juhovýchodnom obzore. Blízko rozhľadne sa nachádza drevený kríž a turistický prístrešok na oddych.</p>",
@@ -4604,7 +4863,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/rozhladna-lubi.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/rozhladna-luby.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2599.0548195652!2d18.527255315632107!3d49.35111097933872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5bba2c936e469e39!2zNDnCsDIxJzA0LjAiTiAxOMKwMzEnNDYuMCJF!5e0!3m2!1ssk!2ssk!4v1660065196116!5m2!1ssk!2ssk",
       "text": "<p>Nadmorská výška: 908 metrov, výška rozhľadne: 20 metrov, rok postavenia: 2012</p>\n<p>Rozhľadňa sa nachádza hlavnom hrebeni Javorníkov, medzi obcami Veľké Rovné a Vysoká nad Kysucou na vrchu Luby. Je to drevená protipožiarna rozhľadňa a vstup na ňu je zakázaný. Krásne výhľady si však užijete aj spod rozhľadne.</p>\n<p>Vrch Luby má dva vrcholy. Práve na nižšom z nich (908 m n. m.) sa nachádza 20,5 metrová drevená rozhľadňa. Časť vrchu je odlesnená, preto sa výhľady na vrcholy Moravsko-sliezskych Beskýd otvárajú už priamo pod rozhľadňou. Od rozhľadne vedie turistický chodník spájajúci roztrúsené osady obce Veľké Rovné.</p>",
@@ -4627,7 +4888,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/chranena-lipa.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/lipa1.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Jeden z prvých dvoch chránených stromov na Kysuciach je lipa malolistá (Tilia Cordata) rastúca na severnom okraji intravilánu mesta a má viac ako 300 rokov. Lipa malolistá bola pravdepodobne vysadená ako hraničný strom chotára mesta. Poprsný obvod lipy je 582 cm, pri koreňoch 693 cm. Strom má výšku 23 metrov a obvod koruny 22 metrov. </p>\n<p>V roku 1848 pred bojom s maďarským vojskom pod ňou vraj nocovali slovenskí dobrovoľníci. Lipa je živým symbolom histórie Kysúc s vysokou krajinársko-estetickou funkciou. Prechádzka k lipe je výborným relaxom. </p>\n<p>Ďalšími chránenými stromami na území mesta sú dve lipy veľkolisté na Litovelskej ulici.</p>",
@@ -4649,6 +4912,7 @@ const DB = {
       "cover": "assets/images/migrated/vystahovalectvo-1.jpg",
       "audio": [],
       "galeria": [
+        "assets/images/migrated/vystahovalectvo-1.jpg",
         "assets/images/migrated/europsky-emigranti-habura.jpg",
         "assets/images/migrated/habura-foto-vystahovalectvo.jpg"
       ],
@@ -4657,7 +4921,7 @@ const DB = {
         "lng": 21.85219682449781
       },
       "mapEmbed": "https://www.google.com/maps?q=49.32246968713569,21.85219682449781&z=14&output=embed",
-      "text": "<p>Na prelome 19. a 20. storočia sa z dedín dnešného okresu Medzilaborce čoraz častejšie odchádzalo za oceán. Amerika nebola symbolom dobrodružstva, ale nádejou na lepší život. Mladí muži aj celé rodiny opúšťali Mikovú, Haburu, Medzilaborce a ďalšie rusínske obce v presvedčení, že si zarobia a vrátia sa domov. Mnohí však zostali v Spojených štátoch natrvalo. </p>\n<p>A práve medzi nimi boli aj rodičia jedného z najvýznamnejších umelcov 20. storočia – Andyho Warhola.</p>\n<h2>Prečo sa rozhodli odísť</h2>\n<p>Koncom 19. storočia žila väčšina obyvateľov severovýchodného Slovenska z drobného hospodárstva. Pôdy bolo málo, pracovných príležitostí ešte menej a mnohé rodiny žili na hranici chudoby. </p>\n<p>V rovnakom období prudko rástol americký priemysel, ktorý potreboval tisíce robotníkov. Hoci práca v baniach a oceliarňach bola náročná, ponúkala zárobok, aký si doma mnohí nevedeli predstaviť. Amerika sa tak pre mnohé rodiny stala jedinou reálnou šancou na lepší život. </p>\n<p>Vysťahovalectvo zasiahlo prakticky celé územie dnešného okresu Medzilaboriec. Silne ovplyvnilo najmä rusínske obce ako sú Miková, Habura, Čertižné, Ňagov či Radvaň nad Laborcom. </p>\n<p>V niektorých dedinách odišiel do Ameriky minimálne jeden člen takmer z každej rodiny. Historické pramene uvádzajú, že z Mikovej odišla do začiatku prvej svetovej vojny približne tretina obyvateľov. V rokoch 1890 – 1914 sa za oceán vysťahovalo približne 225 000 karpatských Rusínov.</p>\n<h2>Cesta za oceán</h2>\n<p>Cesta do Ameriky nebola jednoduchá. Väčšina vysťahovalcov z regiónu cestovala vlakom do veľkých európskych prístavov, najmä do Hamburgu a Brém, odkiaľ pokračovala parníkmi cez Atlantik do Spojených štátov. Po príchode do New Yorku absolvovali zdravotné prehliadky a administratívne kontroly na ostrove Ellis Island. </p>\n<p>Mnohí následne smerovali do priemyselných miest, ako Pittsburgh či Cleveland, kde už existovali početné komunity prisťahovalcov z Karpát. </p>\n<p><em>Európski emigranti po príchode do Spojených štátov začiatkom 20. storočia, zdroj:</em> <em><a href=\"https://time.com/\">https://time.com/</a>.</em></p>\n<h2>Príbeh rodiny Warholovcov</h2>\n<p>Jedným z tisícov vysťahovalcov bol aj Andrej Varchola z Mikovej. Do Spojených štátov odišiel za prácou začiatkom 20. storočia. O niekoľko rokov ho nasledovala jeho manželka Júlia Zavacká, ktorá pochádzala z tej istej obce. </p>\n<p>Usadili sa v Pittsburghu, kde sa im narodili traja synovia. Najmladší z nich, Andrew Warhola, sa narodil v roku 1928 a svet ho neskôr spoznal pod menom Andy Warhol.</p>\n<p><em>Vízum Júlie Warholovej do Spojených štátov amerických, zdroj: Petra Tóth Atelier.</em></p>\n<p><em>Júlia Warholová (rod. Zavacká) so synmi Johnom a Andrewom (neskôr Andym Warholom, vpravo), zdroj: <a href=\"https://www.rusyn.sk/\">https://www.rusyn.sk/</a>.</em> </p>\n<p>Hoci sa Andy narodil v Amerike, vyrastal v rusínskej rodine. Doma sa hovorilo rusínsky, zachovávali sa gréckokatolícke tradície a významný vplyv na jeho vzťah k umeniu mala práve matka Júlia. </p>\n<p>Tému vysťahovalectva z tohto regiónu dnes približuje aj Náučný chodník Kraj Rusínov a Andyho Warhola, ktorý vedie z Habury smerom k hranici katastrálnych území Habury a Mikovej.</p>",
+      "text": "<p>Na prelome 19. a 20. storočia sa z dedín dnešného okresu Medzilaborce čoraz častejšie odchádzalo za oceán. Amerika nebola symbolom dobrodružstva, ale nádejou na lepší život. Mladí muži aj celé rodiny opúšťali Mikovú, Haburu, Medzilaborce a ďalšie rusínske obce v presvedčení, že si zarobia a vrátia sa domov. Mnohí však zostali v Spojených štátoch natrvalo. </p>\n<p>A práve medzi nimi boli aj rodičia jedného z najvýznamnejších umelcov 20. storočia – Andyho Warhola.</p>\n<h2>Prečo sa rozhodli odísť</h2>\n<p>Koncom 19. storočia žila väčšina obyvateľov severovýchodného Slovenska z drobného hospodárstva. Pôdy bolo málo, pracovných príležitostí ešte menej a mnohé rodiny žili na hranici chudoby. </p>\n<p>V rovnakom období prudko rástol americký priemysel, ktorý potreboval tisíce robotníkov. Hoci práca v baniach a oceliarňach bola náročná, ponúkala zárobok, aký si doma mnohí nevedeli predstaviť. Amerika sa tak pre mnohé rodiny stala jedinou reálnou šancou na lepší život. </p>\n<p>Vysťahovalectvo zasiahlo prakticky celé územie dnešného okresu Medzilaboriec. Silne ovplyvnilo najmä rusínske obce ako sú Miková, Habura, Čertižné, Ňagov či Radvaň nad Laborcom. </p>\n<p>V niektorých dedinách odišiel do Ameriky minimálne jeden člen takmer z každej rodiny. Historické pramene uvádzajú, že z Mikovej odišla do začiatku prvej svetovej vojny približne tretina obyvateľov. V rokoch 1890 – 1914 sa za oceán vysťahovalo približne 225 000 karpatských Rusínov.</p>\n<h2>Cesta za oceán</h2>\n<p>Cesta do Ameriky nebola jednoduchá. Väčšina vysťahovalcov z regiónu cestovala vlakom do veľkých európskych prístavov, najmä do Hamburgu a Brém, odkiaľ pokračovala parníkmi cez Atlantik do Spojených štátov. Po príchode do New Yorku absolvovali zdravotné prehliadky a administratívne kontroly na ostrove Ellis Island. </p>\n<p>Mnohí následne smerovali do priemyselných miest, ako Pittsburgh či Cleveland, kde už existovali početné komunity prisťahovalcov z Karpát. </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/06/europsky-emigranti-habura.jpg\" alt=\"\"></p>\n<p><em>Európski emigranti po príchode do Spojených štátov začiatkom 20. storočia, zdroj:</em> <em><a href=\"https://time.com/\">https://time.com/</a>.</em></p>\n<h2>Príbeh rodiny Warholovcov</h2>\n<p>Jedným z tisícov vysťahovalcov bol aj Andrej Varchola z Mikovej. Do Spojených štátov odišiel za prácou začiatkom 20. storočia. O niekoľko rokov ho nasledovala jeho manželka Júlia Zavacká, ktorá pochádzala z tej istej obce. </p>\n<p>Usadili sa v Pittsburghu, kde sa im narodili traja synovia. Najmladší z nich, Andrew Warhola, sa narodil v roku 1928 a svet ho neskôr spoznal pod menom Andy Warhol. </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/06/habura-foto-vystahovalectvo.jpg\" alt=\"\"></p>\n<p><em>Vízum Júlie Warholovej do Spojených štátov amerických, zdroj: Petra Tóth Atelier.</em></p>\n<p><em>Júlia Warholová (rod. Zavacká) so synmi Johnom a Andrewom (neskôr Andym Warholom, vpravo), zdroj: <a href=\"https://www.rusyn.sk/\">https://www.rusyn.sk/</a>.</em> </p>\n<p>Hoci sa Andy narodil v Amerike, vyrastal v rusínskej rodine. Doma sa hovorilo rusínsky, zachovávali sa gréckokatolícke tradície a významný vplyv na jeho vzťah k umeniu mala práve matka Júlia. </p>\n<p>Tému vysťahovalectva z tohto regiónu dnes približuje aj Náučný chodník Kraj Rusínov a Andyho Warhola, ktorý vedie z Habury smerom k hranici katastrálnych území Habury a Mikovej.</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/kraj-rusinov-a-andyho-warhola-vystahovalectvo/",
         "en": "https://www.qrlink.sk/new/en/kraj-rusinov-a-andyho-warhola-vystahovalectvo/",
@@ -4676,6 +4940,7 @@ const DB = {
       "cover": "assets/images/migrated/mikova.jpg",
       "audio": [],
       "galeria": [
+        "assets/images/migrated/mikova.jpg",
         "assets/images/migrated/pohlad-na-bane-v-mikovej.jpg",
         "assets/images/migrated/mikova-zvysky-studni.jpg"
       ],
@@ -4684,7 +4949,7 @@ const DB = {
         "lng": 21.848361265647892
       },
       "mapEmbed": "https://www.google.com/maps?q=49.322560596913995,21.848361265647892&z=14&output=embed",
-      "text": "<p>Málokto vie, že severovýchod Slovenska patrí k najstarším oblastiam ťažby ropy v strednej Európe. Jedným z najvýznamnejších miest bola obec Miková, kde sa ropa prirodzene objavovala na povrchu zeme už stáročia. </p>\n<p>Miestni obyvatelia si všimli čiernu tekutinu vytekajúcu zo zeme v lokalite Dychtivka a potok, do ktorého vytekala, nazvali Ripné. Spočiatku netušili, že ide o cennú surovinu. Ropu využívali najmä ako liečivo pre dobytok alebo na mazanie vozov.</p>\n<p><em>Foto: Obec Miková, r. 1936.</em></p>\n<h2>Od prírodných prameňov k priemyselnej ťažbe</h2>\n<p>Prvá známa písomná zmienka o výskyte ropy v okolí Mikovej pochádza z roku 1684. Záznamy z roku 1742 hovoria o jej čistení a destilácii. Skutočný rozvoj však nastal až na prelome 19. a 20. storočia, keď geológovia potvrdili perspektívnosť ložísk v okolí Mikovej a Habury. </p>\n<p>V roku 1911 sa začala moderná ťažba z prvých vrtov Alexander a Magdaléna. Po vzniku Československa pokračoval geologický prieskum a francúzska spoločnosť <em>Société Anonyme des Pétroles de Mikova</em> otvorila ďalšie vrty. Spočiatku sa z najúspešnejšieho vrtu denne získavali približne 4 tony ropy. </p>\n<p><em>Pohľad na bane v Mikovej, zdroj: <a href=\"http://www.mikova.sk/sk/ukazka-strany-2\">www.mikova.sk/sk/ukazka-strany-2</a>.</em></p>\n<h2>Ropa strategickou surovinou</h2>\n<p>Najväčší význam mala mikovská ropa počas oboch svetových vojen. V roku 1941 pokračovalo vŕtanie vrtu Matej V, ktorý dosiahol hĺbku 1 368,9 metra a stal sa jedným z najhlbších a najvýkonnejších vrtov na východnom Slovensku. Len z vrtu Matej I sa v rokoch 1941 – 1943 vyťažilo približne 12 900 ton ropy. </p>\n<p>Podľa spomienok obyvateľov a historických záznamov sa v Mikovej počas existencie bane vyťažilo približne 226 600 ton kvalitnej parafínovej ropy, ktorá obsahovala vysoký podiel benzínových zložiek.</p>\n<h2><strong>Vplyv ťažby ropy na život v Mikovej</strong></h2>\n<p>Objavenie ropy prinieslo do dovtedy poľnohospodárskej obce nové pracovné príležitosti. Miestni obyvatelia našli zamestnanie pri vrtných prácach, obsluhe zariadení aj údržbe bane. Do Mikovej prichádzali odborníci z rôznych krajín a obec sa na niekoľko desaťročí zaradila medzi významné ropné lokality severovýchodného Slovenska.</p>\n<h2><strong>Koniec ťažby</strong></h2>\n<p>Po druhej svetovej vojne sa ukázalo, že ďalšia ťažba už nie je ekonomicky výhodná. Baňa bola 14. septembra 1951 uzavretá a o dva roky neskôr prešla do likvidácie. Hoci sa v roku 1998 uskutočnil ešte jeden prieskumný vrt Alexander-1, komerčne využiteľné množstvo ropy sa už nepotvrdilo. </p>\n<p>Hoci sa ťažba ropy skončila, jej stopy sa v kraji zachovali dodnes. Pozostatky niekdajších vrtov, lokality Dychtivka a Ripné či ďalšie miesta spojené s históriou ťažby ropy približuje návštevníkom Náučný chodník Kraj Rusínov a Andyho Warhola. </p>\n<p><em>Mikova-zvyšky studní od 1911 do 1943, zdroj:</em> <a href=\"https://www.researchgate.net/profile/J_Milicka\"><em>J. Milicka</em></a><em>.</em></p>",
+      "text": "<p>Málokto vie, že severovýchod Slovenska patrí k najstarším oblastiam ťažby ropy v strednej Európe. Jedným z najvýznamnejších miest bola obec Miková, kde sa ropa prirodzene objavovala na povrchu zeme už stáročia. </p>\n<p>Miestni obyvatelia si všimli čiernu tekutinu vytekajúcu zo zeme v lokalite Dychtivka a potok, do ktorého vytekala, nazvali Ripné. Spočiatku netušili, že ide o cennú surovinu. Ropu využívali najmä ako liečivo pre dobytok alebo na mazanie vozov.</p>\n<p><em>Foto: Obec Miková, r. 1936.</em></p>\n<h2>Od prírodných prameňov k priemyselnej ťažbe</h2>\n<p>Prvá známa písomná zmienka o výskyte ropy v okolí Mikovej pochádza z roku 1684. Záznamy z roku 1742 hovoria o jej čistení a destilácii. Skutočný rozvoj však nastal až na prelome 19. a 20. storočia, keď geológovia potvrdili perspektívnosť ložísk v okolí Mikovej a Habury. </p>\n<p>V roku 1911 sa začala moderná ťažba z prvých vrtov Alexander a Magdaléna. Po vzniku Československa pokračoval geologický prieskum a francúzska spoločnosť <em>Société Anonyme des Pétroles de Mikova</em> otvorila ďalšie vrty. Spočiatku sa z najúspešnejšieho vrtu denne získavali približne 4 tony ropy. </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/06/Poh%C4%BEad-na-bane-v-Mikovej.jpg\" alt=\"\"></p>\n<p><em>Pohľad na bane v Mikovej, zdroj: <a href=\"http://www.mikova.sk/sk/ukazka-strany-2\">www.mikova.sk/sk/ukazka-strany-2</a>.</em></p>\n<h2>Ropa strategickou surovinou</h2>\n<p>Najväčší význam mala mikovská ropa počas oboch svetových vojen. V roku 1941 pokračovalo vŕtanie vrtu Matej V, ktorý dosiahol hĺbku 1 368,9 metra a stal sa jedným z najhlbších a najvýkonnejších vrtov na východnom Slovensku. Len z vrtu Matej I sa v rokoch 1941 – 1943 vyťažilo približne 12 900 ton ropy. </p>\n<p>Podľa spomienok obyvateľov a historických záznamov sa v Mikovej počas existencie bane vyťažilo približne 226 600 ton kvalitnej parafínovej ropy, ktorá obsahovala vysoký podiel benzínových zložiek.</p>\n<h2><strong>Vplyv ťažby ropy na život v Mikovej</strong></h2>\n<p>Objavenie ropy prinieslo do dovtedy poľnohospodárskej obce nové pracovné príležitosti. Miestni obyvatelia našli zamestnanie pri vrtných prácach, obsluhe zariadení aj údržbe bane. Do Mikovej prichádzali odborníci z rôznych krajín a obec sa na niekoľko desaťročí zaradila medzi významné ropné lokality severovýchodného Slovenska.</p>\n<h2><strong>Koniec ťažby</strong></h2>\n<p>Po druhej svetovej vojne sa ukázalo, že ďalšia ťažba už nie je ekonomicky výhodná. Baňa bola 14. septembra 1951 uzavretá a o dva roky neskôr prešla do likvidácie. Hoci sa v roku 1998 uskutočnil ešte jeden prieskumný vrt Alexander-1, komerčne využiteľné množstvo ropy sa už nepotvrdilo. </p>\n<p>Hoci sa ťažba ropy skončila, jej stopy sa v kraji zachovali dodnes. Pozostatky niekdajších vrtov, lokality Dychtivka a Ripné či ďalšie miesta spojené s históriou ťažby ropy približuje návštevníkom Náučný chodník Kraj Rusínov a Andyho Warhola. </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/06/Mikova-zvy%C5%A1ky-studn%C3%AD.jpg\" alt=\"\"></p>\n<p><em>Mikova-zvyšky studní od 1911 do 1943, zdroj:</em> <a href=\"https://www.researchgate.net/profile/J_Milicka\"><em>J. Milicka</em></a><em>.</em></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/kraj-rusinov-a-andyho-warhola-tazba-ropy-v-regione/",
         "en": "https://www.qrlink.sk/new/en/kraj-rusinov-a-andyho-warhola-tazba-ropy-v-regione/",
@@ -4705,11 +4970,12 @@ const DB = {
         "assets/audio/migrated/01-01-o-hlinenom-v-najstarsich-casoch.mp3"
       ],
       "galeria": [
+        "assets/images/migrated/hlinene-1.jpg",
         "assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Patrí k najstarším mestským častiam Turzovky. Tvorí severnú a väčšiu časť východnej hranice jej katastra. Zo severu susedí s obcou Klokočov, z východu s Olešnou. V písomných prameňoch sa spomína od konca 16. storočia v rôznych podobách. Etymológia názvu je zreteľná, toponymum je odvodené z adjektíva hlinené (miesto) &gt; Hlinené.</p>\n<p>V druhej polovici 16. storočia slúžila táto oblasť ako pastviny pre valašský dobytok. Salaše tu stavali poddaní budatínskeho zemepána, ktorí so stádami prechádzali Javorníky z Nesluše a Diviny. Keďže v tom čase neboli pohraničné oblasti riadne vymedzené, dochádzalo v nich k stretom i ozbrojeným násilnostiam medzi poddanými susediacich panstiev. Hlinené sa v takýchto súvislostiach spomína v roku 1584 a potom aj v roku 1592. V roku 1584 salaše postavené vo Vrch Hlinenom prepadli a vyplienili poddaní tešínskej kňažnej. V roku 1592 zase utrpel salaš Martina Mičeka v Hlinenom, odkiaľ poddaní a drábi Juraja Turza odviedli 12 baranov, vzali šesť hrúd syra vlnu a dve sekery.  Na konci 16. storočia zemepán Juraj Turzo založil Turzovku ako určitú hrádzu proti prenikaniu budatínskych valachov na územia, ktoré považoval za svoje majetky. Ani bezprostredne po jej vzniku nebolo všetkému koniec a spory pokračovali. V máji 1601 bolo vedené vyšetrovanie sporov medzi panstvami Bytča a Budatín, v ktorom vypovedalo viacero svedkov. Niektoré z ich výpovedí uvádzame na dokreslenie situácie: <em>První svedek Jura Drahoš, 60-ročný, od Rožnova &#8230; pod prísahu vyznal, že ty jiste vrchy po Predmyer, <strong>Hlynenne</strong>, Bahan a Bruhovy užívali k zámku budatinskemu slobodne &#8230;</em></p>\n<p><em>Dvanácty svedek Ďuro Bakoš z Krásna, asi 45-ročný &#8230; pod prísahu vyznal, že sluhuval v Nesluši &#8230; a že za mladych časov svých pásal slobodne na Bahenej, <strong>na Hlinenej</strong>, na Dluhej a žadni jim neprekážal&#8230;</em>   Ešte v tom istom roku uzatvoril Juraj Turzo ako bytčiansky zemepán dohodu so svojim susedom z Budatínom Mojžišom Suňogom dohodu o nových hraniciach, ktoré sa posunuli z potoka Predmier (dn. Predmieranka) na východ a novou hranicou medzi panstvami sa stala riečka Olešnianka. Táto nová hranica je potom potvrdená aj vo výsadnej listine, ktorú Turzo vydal obyvateľom Turzovky vo februári 1602.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
+      "text": "<p>Patrí k najstarším mestským častiam Turzovky. Tvorí severnú a väčšiu časť východnej hranice jej katastra. Zo severu susedí s obcou Klokočov, z východu s Olešnou. V písomných prameňoch sa spomína od konca 16. storočia v rôznych podobách. Etymológia názvu je zreteľná, toponymum je odvodené z adjektíva hlinené (miesto) &gt; Hlinené.</p>\n<p>V druhej polovici 16. storočia slúžila táto oblasť ako pastviny pre valašský dobytok. Salaše tu stavali poddaní budatínskeho zemepána, ktorí so stádami prechádzali Javorníky z Nesluše a Diviny. Keďže v tom čase neboli pohraničné oblasti riadne vymedzené, dochádzalo v nich k stretom i ozbrojeným násilnostiam medzi poddanými susediacich panstiev. Hlinené sa v takýchto súvislostiach spomína v roku 1584 a potom aj v roku 1592. V roku 1584 salaše postavené vo Vrch Hlinenom prepadli a vyplienili poddaní tešínskej kňažnej. V roku 1592 zase utrpel salaš Martina Mičeka v Hlinenom, odkiaľ poddaní a drábi Juraja Turza odviedli 12 baranov, vzali šesť hrúd syra vlnu a dve sekery.  Na konci 16. storočia zemepán Juraj Turzo založil Turzovku ako určitú hrádzu proti prenikaniu budatínskych valachov na územia, ktoré považoval za svoje majetky. Ani bezprostredne po jej vzniku nebolo všetkému koniec a spory pokračovali. V máji 1601 bolo vedené vyšetrovanie sporov medzi panstvami Bytča a Budatín, v ktorom vypovedalo viacero svedkov. Niektoré z ich výpovedí uvádzame na dokreslenie situácie: <em>První svedek Jura Drahoš, 60-ročný, od Rožnova &#8230; pod prísahu vyznal, že ty jiste vrchy po Predmyer, <strong>Hlynenne</strong>, Bahan a Bruhovy užívali k zámku budatinskemu slobodne &#8230;</em></p>\n<p><em>Dvanácty svedek Ďuro Bakoš z Krásna, asi 45-ročný &#8230; pod prísahu vyznal, že sluhuval v Nesluši &#8230; a že za mladych časov svých pásal slobodne na Bahenej, <strong>na Hlinenej</strong>, na Dluhej a žadni jim neprekážal&#8230;</em>   Ešte v tom istom roku uzatvoril Juraj Turzo ako bytčiansky zemepán dohodu so svojim susedom z Budatínom Mojžišom Suňogom dohodu o nových hraniciach, ktoré sa posunuli z potoka Predmier (dn. Predmieranka) na východ a novou hranicou medzi panstvami sa stala riečka Olešnianka. Táto nová hranica je potom potvrdená aj vo výsadnej listine, ktorú Turzo vydal obyvateľom Turzovky vo februári 1602.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/o-hlinenom-v-najstarsich-casoch/",
         "en": "https://www.qrlink.sk/new/en/o-hlinenom-v-najstarsich-casoch/",
@@ -4730,11 +4996,12 @@ const DB = {
         "assets/audio/migrated/04-04-svetlonos.mp3"
       ],
       "galeria": [
+        "assets/images/migrated/received_1981576642221183.jpeg",
         "assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Svetlonos bol veľmi rozšírenou démonickou bytosťou. Mal rôzne pomenovania: svetlonos, svetielko, bludička, svetlá noc. Svetlonos patril medzi podzemné a zlé bytosti podobne ako rarach, bes, ďas a pod. Objavoval sa v noci v lesných húštinách, pri mokradiach (trasafkách) a v blízkosti vodných zdrojov. Niekde mal podobu malého chlapca so žeravými očami, ktorý pred pozorovateľom rástol do nadprirodzenej veľkosti. Zvádzal ľudí zo správnej cesty, vábil do močiarov, vodil ich po poliach, cez skálie a tŕnie či po cintorínoch. Lákal nielen svetlom, ale aj plačom či volaním po mene. Svetlonosmi sa údajne stávali po smrti zlí, nežičliví ľudia, takí, ktorí iným odorávali z polí či takí, čo krivo prisahali na Bibliu a za trest im horeli dva prsty. Úmyselne alebo nechtiac ho mohol privolať človek, ktorý po zotmení zahvízdal. Preto sa ľudia stránili pískať v noci. Traduje sa, že zbaviť sa ho človek mohol prežehnaním, oľutovaním svojho previnenia či odrobinami zo štedrovečerného stola. Svetlonos strácal nad človekom moc, keď sa ten ukryl pod strechu, alebo keď sa začalo brieždiť. Vtedy svetlonos stratil svoju moc a povodeného nechal tak. Hoci by sa mohlo zdať, že pomenovanie svetlonosa pochádza z toho, že mu svieti nos, nie je to tak. Slovenské slovo svetlonos je doslovný preklad latinského Lucifer (lat. lux – svetlo, ferre – nosiť, prenášať) – nositeľ svetla, svetlonosič.</p>\n<p>O stretnutí so svetlonosom hovorí aj krátky príbeh z roku 1930: <em>Raz istý muž videl večer pobehovať svetlonosa kdesi blízko domu. I vyšiel von a zapískal, hneď však zas rýchlo vbehol do izby. A tu už dupy, dup – svetlonos začal behať okolo okien a menom volal toho muža: „Jozefe, poď von! Jozefe, poď von!“ Jozef sa však ani nehol z miesta, len sa tak od strachu triasol, čo s ním bude. Hoci vedel, že pod strechou je chránený od moci svetlonosa. Keď sa svetlonos nemohol dočkať, omrzelo ho podaromnici okolo domu naprázdno pobehovať, stratil sa a viac neprišiel. Však ani náš milý Jozef sa už nikdy neopovážil na svetlonosa zapískať.</em></p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
+      "text": "<p>Svetlonos bol veľmi rozšírenou démonickou bytosťou. Mal rôzne pomenovania: svetlonos, svetielko, bludička, svetlá noc. Svetlonos patril medzi podzemné a zlé bytosti podobne ako rarach, bes, ďas a pod. Objavoval sa v noci v lesných húštinách, pri mokradiach (trasafkách) a v blízkosti vodných zdrojov. Niekde mal podobu malého chlapca so žeravými očami, ktorý pred pozorovateľom rástol do nadprirodzenej veľkosti. Zvádzal ľudí zo správnej cesty, vábil do močiarov, vodil ich po poliach, cez skálie a tŕnie či po cintorínoch. Lákal nielen svetlom, ale aj plačom či volaním po mene. Svetlonosmi sa údajne stávali po smrti zlí, nežičliví ľudia, takí, ktorí iným odorávali z polí či takí, čo krivo prisahali na Bibliu a za trest im horeli dva prsty. Úmyselne alebo nechtiac ho mohol privolať človek, ktorý po zotmení zahvízdal. Preto sa ľudia stránili pískať v noci. Traduje sa, že zbaviť sa ho človek mohol prežehnaním, oľutovaním svojho previnenia či odrobinami zo štedrovečerného stola. Svetlonos strácal nad človekom moc, keď sa ten ukryl pod strechu, alebo keď sa začalo brieždiť. Vtedy svetlonos stratil svoju moc a povodeného nechal tak. Hoci by sa mohlo zdať, že pomenovanie svetlonosa pochádza z toho, že mu svieti nos, nie je to tak. Slovenské slovo svetlonos je doslovný preklad latinského Lucifer (lat. lux – svetlo, ferre – nosiť, prenášať) – nositeľ svetla, svetlonosič.</p>\n<p>O stretnutí so svetlonosom hovorí aj krátky príbeh z roku 1930: <em>Raz istý muž videl večer pobehovať svetlonosa kdesi blízko domu. I vyšiel von a zapískal, hneď však zas rýchlo vbehol do izby. A tu už dupy, dup – svetlonos začal behať okolo okien a menom volal toho muža: „Jozefe, poď von! Jozefe, poď von!“ Jozef sa však ani nehol z miesta, len sa tak od strachu triasol, čo s ním bude. Hoci vedel, že pod strechou je chránený od moci svetlonosa. Keď sa svetlonos nemohol dočkať, omrzelo ho podaromnici okolo domu naprázdno pobehovať, stratil sa a viac neprišiel. Však ani náš milý Jozef sa už nikdy neopovážil na svetlonosa zapískať.</em></p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/svetlonos/",
         "en": "https://www.qrlink.sk/new/en/svetlonos/",
@@ -4755,11 +5022,12 @@ const DB = {
         "assets/audio/migrated/05-05-zakopy.mp3"
       ],
       "galeria": [
+        "assets/images/migrated/rtzrtzrt.jpg",
         "assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Turzovka sa síce dostala do kontaktu s nemeckým vojskom už na začiatku druhej svetovej vojny, keď tadiaľto prechádzalo v súvislosti s útokom na Poľsko. Bojové akcie sa na území mesta odohrávali až počas rokov 1944 – 45 počas Slovenského národného povstania a neskôr i v priebehu oslobodzovania. V Turzovke a jej okolí vznikli počas vojny rôzne ilegálne a partizánske skupiny. V septembri 1944 z príkazu Nemeckej brannej moci boli nariadené povinné práce pri kopaní zákopov. Každá obec mala vyslať určený počet ľudí, pre Turzovku bolo stanovených, vzhľadom na počet obyvateľov, 800 pracovníkov. Od tejto povinnosti boli oslobodené len osoby, ktoré boli zamestnané v dôležitom podniku, choré a práce neschopné osoby a tie, ktoré viedli domácnosť. V októbri 1944 bolo vydané nariadenie, ktoré nesplnenie povinnosti trestalo odoslaním do najbližšieho tábora ako „asociálny živel.“ Začiatkom októbra bolo z Turzovky nasadených na opevňovacie práce vo Svrčinovci 905 mužov a 260 žien. Asi v tom istom období boli tieto práce vykonávané aj na území mesta a obec bola povinná vyplácať robotníkom mzdu. Pozostatky zákopov možno vidieť i na tomto mieste.</p>\n<p>Prvé bojové stretnutia medzi nemeckými jednotkami a partizánmi sa odohrali na konci októbra 1944 v Kline a na Hlaviciach, ktoré s Hlineným susedia. Obec musela nemecké vojsko zásobovať drevom, uhlím, okrem toho boli obyvatelia povinní vykonávať povoznícke práce, odovzdávať seno a iné naturálie. Partizáni pôsobili aj na Košariskách v Hlinenom, odkiaľ organizovali výpady na Nemcov. V centre vojsko obsadilo pre vlastnú potrebu budovy ľudovej i meštianskej školy  a tiež budovu sociálneho domu sv. Jozefa. Boje prebiehali až do jari 1945. Vojenské jednotky 18. sovietskej armády generál-poručíka A. I. Gastiloviča 30. apríla 1945 dobyli Kysucké Nové Mesto a odtiaľ cez Neslušu a Dlhú nad Kysucou postupovali na Turzovku. Na druhý deň prebiehali boje na Vyšnom Konci a 2. mája 1945 bola obce oslobodená. V tomto celosvetovom konflikte padlo na bojiskách a v zázemí 64 obyvateľov Turzovky (vrátane Klokočova a Korne) a ďalších sedem obetí pochádzalo z Turkova a Dlhej, ktoré boli k Turzovke pripojené v roku 1948. Doposiaľ identifikovaných židovských obetí pochádzajúcich alebo bývajúcich v obci bolo 74.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
+      "text": "<p>Turzovka sa síce dostala do kontaktu s nemeckým vojskom už na začiatku druhej svetovej vojny, keď tadiaľto prechádzalo v súvislosti s útokom na Poľsko. Bojové akcie sa na území mesta odohrávali až počas rokov 1944 – 45 počas Slovenského národného povstania a neskôr i v priebehu oslobodzovania. V Turzovke a jej okolí vznikli počas vojny rôzne ilegálne a partizánske skupiny. V septembri 1944 z príkazu Nemeckej brannej moci boli nariadené povinné práce pri kopaní zákopov. Každá obec mala vyslať určený počet ľudí, pre Turzovku bolo stanovených, vzhľadom na počet obyvateľov, 800 pracovníkov. Od tejto povinnosti boli oslobodené len osoby, ktoré boli zamestnané v dôležitom podniku, choré a práce neschopné osoby a tie, ktoré viedli domácnosť. V októbri 1944 bolo vydané nariadenie, ktoré nesplnenie povinnosti trestalo odoslaním do najbližšieho tábora ako „asociálny živel.“ Začiatkom októbra bolo z Turzovky nasadených na opevňovacie práce vo Svrčinovci 905 mužov a 260 žien. Asi v tom istom období boli tieto práce vykonávané aj na území mesta a obec bola povinná vyplácať robotníkom mzdu. Pozostatky zákopov možno vidieť i na tomto mieste.</p>\n<p>Prvé bojové stretnutia medzi nemeckými jednotkami a partizánmi sa odohrali na konci októbra 1944 v Kline a na Hlaviciach, ktoré s Hlineným susedia. Obec musela nemecké vojsko zásobovať drevom, uhlím, okrem toho boli obyvatelia povinní vykonávať povoznícke práce, odovzdávať seno a iné naturálie. Partizáni pôsobili aj na Košariskách v Hlinenom, odkiaľ organizovali výpady na Nemcov. V centre vojsko obsadilo pre vlastnú potrebu budovy ľudovej i meštianskej školy  a tiež budovu sociálneho domu sv. Jozefa. Boje prebiehali až do jari 1945. Vojenské jednotky 18. sovietskej armády generál-poručíka A. I. Gastiloviča 30. apríla 1945 dobyli Kysucké Nové Mesto a odtiaľ cez Neslušu a Dlhú nad Kysucou postupovali na Turzovku. Na druhý deň prebiehali boje na Vyšnom Konci a 2. mája 1945 bola obce oslobodená. V tomto celosvetovom konflikte padlo na bojiskách a v zázemí 64 obyvateľov Turzovky (vrátane Klokočova a Korne) a ďalších sedem obetí pochádzalo z Turkova a Dlhej, ktoré boli k Turzovke pripojené v roku 1948. Doposiaľ identifikovaných židovských obetí pochádzajúcich alebo bývajúcich v obci bolo 74.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/zakopy/",
         "en": "https://www.qrlink.sk/new/en/zakopy/",
@@ -4780,11 +5048,12 @@ const DB = {
         "assets/audio/migrated/06-06-hlinensky-potok.mp3"
       ],
       "galeria": [
+        "assets/images/migrated/received_1353598935231418.jpeg",
         "assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Na tomto mieste (južne od vrchu Hlinené, 875 m n. m.) začína svoju púť Hlinenský potok (č. hydrologického poradia 4-21-06-034), ktorý obojstranne do svojho koryta prijíma ďalšie bezmenné potôčiky a jarčeky. Z ľavej strany doliny priteká desať prítokov, z pravej deväť. Potok tečie mestskou časťou Hlinené v severo-južnej línii. Samotný Hlinenský potok je ľavobrežným prítokom Kysuce. Jeho ústie sa nachádza Pod Kempou pri vyústení doliny Hlinené v Turzovke. Dĺžka toku je takmer 4 km. V písomných prameňoch sa spomína napr.  v roku 1769 ako <em>Hliniana</em>, 1793 – <em>rivus</em> (potok) <em>Hlinena</em> či 1824 – <em>Hlinana</em>. Názov dostal potok od terénneho pomenovania lokality Hlinené &gt; adjektívum hlinenský + apelatívum potok &gt; Hlinenský potok. Pomenovanie Hlinené je odvodené z apelatíva hlina &gt; hlinené (miesto) &gt; Hlinené. Motiváciou bolo hlinené miesto.</p>\n<p>Hoci Hlinenský potok zväčša nemá veľké prietoky, v čase intenzívnych zrážok a jarného topenia snehu v oblasti Turzovskej vrchoviny dochádza k náhlemu zvýšeniu objemu odtoku povrchových vôd, čo spôsobuje výrazné zvyšovanie jeho hladiny. Nadmerné množstvo týchto vôd zo spádovej oblasti, navýšené lokálnymi prítokmi v hornej časti povodia toku, niekedy môžu spôsobovať v zastavanej časti eróziu svahov a pri zvyšovaní prietokov i vyliatie potoka z koryta. Potok má charakter horskej bystriny, v minulosti tu žili raky, pstruhy a iné vodné živočíchy, ktoré sú citlivé na čistotu vody. V Hlinenskom potoku má aktuálne znečistenie a kolísanie hladiny vplyv na faunu typických vodných druhov. Pri vyšších prietokoch migrujú v dolnej časti z rieky Kysuca najmä ryby.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
+      "text": "<p>Na tomto mieste (južne od vrchu Hlinené, 875 m n. m.) začína svoju púť Hlinenský potok (č. hydrologického poradia 4-21-06-034), ktorý obojstranne do svojho koryta prijíma ďalšie bezmenné potôčiky a jarčeky. Z ľavej strany doliny priteká desať prítokov, z pravej deväť. Potok tečie mestskou časťou Hlinené v severo-južnej línii. Samotný Hlinenský potok je ľavobrežným prítokom Kysuce. Jeho ústie sa nachádza Pod Kempou pri vyústení doliny Hlinené v Turzovke. Dĺžka toku je takmer 4 km. V písomných prameňoch sa spomína napr.  v roku 1769 ako <em>Hliniana</em>, 1793 – <em>rivus</em> (potok) <em>Hlinena</em> či 1824 – <em>Hlinana</em>. Názov dostal potok od terénneho pomenovania lokality Hlinené &gt; adjektívum hlinenský + apelatívum potok &gt; Hlinenský potok. Pomenovanie Hlinené je odvodené z apelatíva hlina &gt; hlinené (miesto) &gt; Hlinené. Motiváciou bolo hlinené miesto.</p>\n<p>Hoci Hlinenský potok zväčša nemá veľké prietoky, v čase intenzívnych zrážok a jarného topenia snehu v oblasti Turzovskej vrchoviny dochádza k náhlemu zvýšeniu objemu odtoku povrchových vôd, čo spôsobuje výrazné zvyšovanie jeho hladiny. Nadmerné množstvo týchto vôd zo spádovej oblasti, navýšené lokálnymi prítokmi v hornej časti povodia toku, niekedy môžu spôsobovať v zastavanej časti eróziu svahov a pri zvyšovaní prietokov i vyliatie potoka z koryta. Potok má charakter horskej bystriny, v minulosti tu žili raky, pstruhy a iné vodné živočíchy, ktoré sú citlivé na čistotu vody. V Hlinenskom potoku má aktuálne znečistenie a kolísanie hladiny vplyv na faunu typických vodných druhov. Pri vyšších prietokoch migrujú v dolnej časti z rieky Kysuca najmä ryby.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/hlinensky-potok/",
         "en": "https://www.qrlink.sk/new/en/hlinensky-potok/",
@@ -4805,11 +5074,12 @@ const DB = {
         "assets/audio/migrated/07-07-najuzsi-bod.mp3"
       ],
       "galeria": [
+        "assets/images/migrated/received_816669920100860.jpeg",
         "assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Nachádzate sa v lokalite Pri kríži. Jeho zaujímavosťou je, že v tejto oblasti vytvára kataster mesta určité „hrdlo,“ ktoré je jeho najužším miestom. Z východu (od Olešnej) na západ (po Klokočov) meria len niečo viac ako 300 metrov. Je to zároveň miesto krížnych ciest. Takýmto miestam sa v minulosti pripisoval magický význam. Mali byť obľúbeným miestom pôsobenia nadprirodzených síl. Kresťania tieto miesta označovali krížom. Aj na tomto mieste sa nachádzal v minulosti malý krížik. Označoval miesto, kde tragicky zahynul pri práci s drevom istý Jakub, rodák z neďalekej osady. Na jeho pamiatku tu umiestnili kríž jeho príbuzní. O tom, že nejaký kríž tu stojí dlhé roky, svedčí aj skutočnosť, že priľahlý pľac nesie názov „Pod krížom.“ Kríže sa na území Slovenska vo voľnej krajine začali nebývalo rozširovať od druhej polovice 18. storočia. Umiestňovali sa popri komunikáciách, na križovatky, rázcestia, na hranice chotárov, pri žriedle vody či prameňoch. Popri cestičkách a chodníkoch pripomínali miesto tragickej smrti alebo zázračného zjavenia. Slúžili aj ako ukazovateľ cesty či orientačný bod. Vo Vrch Hlinenom sa drevený kríž s plechovým korpusom prvý raz spomína už v roku 1828, ktorý bol obnovený či skôr vymenený v roku 1919.</p>\n<p>Miesto Pri kríži má viacero symbolov. V nedeľu sa tu stretávali ľudia z Potôčkov, Riečok aj Vrch Hlineného a spoločne sa tu modlili za úrodu, dážď, zdravie alebo prednášali Bohu iné prosby. Ľudia si tu po namáhavom a strmom výstupe, unavení s batohom na chrbte oddýchli, pomodlili sa a pokračovali do svojich pľacov (príbytkov) U Kadurov, Na Vŕšok, Na Rovienky, Do Stoligov alebo Do Gajdičiarov. V týchto odľahlých osadách bol život kvôli namáhavej práci a vzdialenostiam náročný, skromný, ale zároveň radostný. Aj keď horské osady boli od seba vzdialené, ľudia mali k sebe blízko.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
+      "text": "<p>Nachádzate sa v lokalite Pri kríži. Jeho zaujímavosťou je, že v tejto oblasti vytvára kataster mesta určité „hrdlo,“ ktoré je jeho najužším miestom. Z východu (od Olešnej) na západ (po Klokočov) meria len niečo viac ako 300 metrov. Je to zároveň miesto krížnych ciest. Takýmto miestam sa v minulosti pripisoval magický význam. Mali byť obľúbeným miestom pôsobenia nadprirodzených síl. Kresťania tieto miesta označovali krížom. Aj na tomto mieste sa nachádzal v minulosti malý krížik. Označoval miesto, kde tragicky zahynul pri práci s drevom istý Jakub, rodák z neďalekej osady. Na jeho pamiatku tu umiestnili kríž jeho príbuzní. O tom, že nejaký kríž tu stojí dlhé roky, svedčí aj skutočnosť, že priľahlý pľac nesie názov „Pod krížom.“ Kríže sa na území Slovenska vo voľnej krajine začali nebývalo rozširovať od druhej polovice 18. storočia. Umiestňovali sa popri komunikáciách, na križovatky, rázcestia, na hranice chotárov, pri žriedle vody či prameňoch. Popri cestičkách a chodníkoch pripomínali miesto tragickej smrti alebo zázračného zjavenia. Slúžili aj ako ukazovateľ cesty či orientačný bod. Vo Vrch Hlinenom sa drevený kríž s plechovým korpusom prvý raz spomína už v roku 1828, ktorý bol obnovený či skôr vymenený v roku 1919.</p>\n<p>Miesto Pri kríži má viacero symbolov. V nedeľu sa tu stretávali ľudia z Potôčkov, Riečok aj Vrch Hlineného a spoločne sa tu modlili za úrodu, dážď, zdravie alebo prednášali Bohu iné prosby. Ľudia si tu po namáhavom a strmom výstupe, unavení s batohom na chrbte oddýchli, pomodlili sa a pokračovali do svojich pľacov (príbytkov) U Kadurov, Na Vŕšok, Na Rovienky, Do Stoligov alebo Do Gajdičiarov. V týchto odľahlých osadách bol život kvôli namáhavej práci a vzdialenostiam náročný, skromný, ale zároveň radostný. Aj keď horské osady boli od seba vzdialené, ľudia mali k sebe blízko.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/najuzsi-bod/",
         "en": "https://www.qrlink.sk/new/en/najuzsi-bod/",
@@ -4830,11 +5100,12 @@ const DB = {
         "assets/audio/migrated/08-08-zvonica.mp3"
       ],
       "galeria": [
+        "assets/images/migrated/18-zvonica-3.jpg",
         "assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Rok postavenia zvonice nie je známy, pravdepodobne pochádza z prvej polovice minulého storočia. Pôvodne išlo o drevenú zvonicu, ku ktorej bola neskôr pristavaná murovaná prístavba, čím vznikla aj malá kaplnka. Zaujímavosťou je, že vo zvonici sa nachádzajú dva zvony, z ktorých jeden má datovanie 1752. Ide teda o najstarší zvon turzovskej farnosti in situ (najstarší z roku 1614 sa nachádza v zbierkach Mestského múzea K. Točíka). Zvony však nie sú pôvodné, podľa zachovanej ústnej tradície boli do zvonice dovezené prvým zvonárom z neznámej lokality z Moravy. V roku 1919 bol v osade postavený kríž, ale z kronikárskeho zápisu nie je jasné, o ktorý z dvoch jestvujúcich išlo. Či o kríž v lokality Pri kríži alebo kríž pri zvonici. Súčasný kríž pri zvonici bol osadený na jeseň 2020.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
+      "text": "<p>Rok postavenia zvonice nie je známy, pravdepodobne pochádza z prvej polovice minulého storočia. Pôvodne išlo o drevenú zvonicu, ku ktorej bola neskôr pristavaná murovaná prístavba, čím vznikla aj malá kaplnka. Zaujímavosťou je, že vo zvonici sa nachádzajú dva zvony, z ktorých jeden má datovanie 1752. Ide teda o najstarší zvon turzovskej farnosti in situ (najstarší z roku 1614 sa nachádza v zbierkach Mestského múzea K. Točíka). Zvony však nie sú pôvodné, podľa zachovanej ústnej tradície boli do zvonice dovezené prvým zvonárom z neznámej lokality z Moravy. V roku 1919 bol v osade postavený kríž, ale z kronikárskeho zápisu nie je jasné, o ktorý z dvoch jestvujúcich išlo. Či o kríž v lokality Pri kríži alebo kríž pri zvonici. Súčasný kríž pri zvonici bol osadený na jeseň 2020.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/zvonica-2/",
         "en": "https://www.qrlink.sk/new/en/zvonica-2/",
@@ -4853,12 +5124,13 @@ const DB = {
       "cover": "assets/images/migrated/divinka.jpg",
       "audio": [],
       "galeria": [
+        "assets/images/migrated/divinka.jpg",
         "assets/images/migrated/klapy.jpg",
         "assets/images/migrated/svedernik.jpeg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2599.8675225100465!2d18.55861117649205!3d49.33572687140091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDIwJzA4LjYiTiAxOMKwMzMnNDAuMyJF!5e0!3m2!1ssk!2ssk!4v1693316832386!5m2!1ssk!2ssk",
-      "text": "<h2>K rozhľadni Zarúbaná Kýčera</h2>\n<p>Náučný chodník pozostáva zo 6-tich informačných panelov zaoberajúcich sa históriou obce, architektúrou, geológiou a geomorfológiou pohoria, rastlinstvom a živočíšstvom. Pri niektorých paneloch sú umiestnené prístrešky s lavičkami pre oddych. Na konci náučného chodníka je postavená vyhliadková veža, z ktorej sú nádherné výhľady na Javorníky, Malú Fatru, Súľovské skaly, Moravskosliezske Beskydy.</p>\n<h2>Top zajímavost:</h2>\n<h3>Múzeum drotárie</h3>\n<p>Múzeum drotárie  je jeden z najstarších objektov v centre obce Veľké Rovné, ktorý sa podaril zrekonštruovať na základe zachovanej dobovej fotografi. Snahou bolo prinavrátenie pôvodnej dôstojnosti objektu.</p>\n<h3>Rozhľadňa Zarúbaná Kýčera</h3>\n<p>Vyhliadková veža má tri podlažia vo výške 15 metrov, na ktoré sa vystupuje po rebríkoch. Za dobrého počasia sa vám v plnej svojej kráse predvedie nielen hrebeň Javorníkov, ale aj Malá Fatra, Strážovské vrchy, Súľovské skaly, Biele Karpaty, Beskydy, Vršatské bradlá a z Oravy Roháče, Babia hora či Pilsko.</p>",
+      "text": "<h2>K rozhľadni Zarúbaná Kýčera</h2>\n<p>Náučný chodník pozostáva zo 6-tich informačných panelov zaoberajúcich sa históriou obce, architektúrou, geológiou a geomorfológiou pohoria, rastlinstvom a živočíšstvom. Pri niektorých paneloch sú umiestnené prístrešky s lavičkami pre oddych. Na konci náučného chodníka je postavená vyhliadková veža, z ktorej sú nádherné výhľady na Javorníky, Malú Fatru, Súľovské skaly, Moravskosliezske Beskydy.</p>\n<h2>Top zajímavost:</h2>\n<h3>Múzeum drotárie</h3>\n<p>Múzeum drotárie  je jeden z najstarších objektov v centre obce Veľké Rovné, ktorý sa podaril zrekonštruovať na základe zachovanej dobovej fotografi. Snahou bolo prinavrátenie pôvodnej dôstojnosti objektu.</p>\n<h3>Rozhľadňa Zarúbaná Kýčera</h3>\n<p>Vyhliadková veža má tri podlažia vo výške 15 metrov, na ktoré sa vystupuje po rebríkoch. Za dobrého počasia sa vám v plnej svojej kráse predvedie nielen hrebeň Javorníkov, ale aj Malá Fatra, Strážovské vrchy, Súľovské skaly, Biele Karpaty, Beskydy, Vršatské bradlá a z Oravy Roháče, Babia hora či Pilsko.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/Klapy.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/Svedern%C3%ADk.jpeg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/nch-zarubana-kycera/",
         "en": "https://www.qrlink.sk/new/en/castles/nch-zarubana-kycera/",
@@ -4877,12 +5149,13 @@ const DB = {
       "cover": "assets/images/migrated/201631453_515707596139872_3880037117091592767_n.jpg",
       "audio": [],
       "galeria": [
+        "assets/images/migrated/201631453_515707596139872_3880037117091592767_n.jpg",
         "assets/images/migrated/drevenicka-korna.jpg",
         "assets/images/migrated/199505802_1883109211852134_8317344405388699304_n.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2595.6958741200174!2d18.548644275425218!3d49.41465676140126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDI0JzUyLjgiTiAxOMKwMzMnMDQuNCJF!5e0!3m2!1ssk!2ssk!4v1693317305855!5m2!1ssk!2ssk",
-      "text": "<p>Na náučný chodník sa vydáme z časti Vyšná Korňa, auto zaparkujeme pri ruine základnej školy pár metrov nad výrobňou syrových korbáčikoch. Vydáme sa do osady Durajčíkovci, ďalej ponad osadu Vyšní Slezákovi až k Panorama Ranču. Po ceste nachádzame 6 informačných tabúľ venovaným zvieratám, ktoré môžeme počas prechádzky stretnúť. Sú to zvieratá: veverica, zajac, srna, diviak, jež, líška. Na konci náučného chodníka sa nachádza drevený rám, z ktorého si môžeme urobiť pekné fotky s krásnymi výhľadmi, zvonička a bufet, kde sa môžeme občerstviť. Ďalej môžeme pokračovať na vrch Bobek, na hranici s Českou republikou, ktorý ponúka krásne výhľady aj na Moravskosliezske Beskydy.</p>\n<h2>Top zaujímavosť:</h2>\n<h3>Lipy na Vigľaši</h3>\n<p>Staré stromy sú pamätníkmi rôznych udalostí a ľudských osudov. V Korni stoja tri mohutné lipy na Vígľaši, ktoré má obec aj v erbe. Nepatria k jediným unikátom. Zaujímavosťou je ďalšia lipa na Grúni, ktorej obvod kmeňa je vyše 6 metrov. Raritou je tiež smrek hadovitý v osade U Žilov.</p>\n<h3>Korňanský ropný prameň</h3>\n<p>Na východnom okraji v blízkosti osady Muchovci v obci Korňa sa nachádza ojedinelý európsky unikát – prirodzený povrchový výver ľahkej ropy s občasnými výronmi samozapaľujúceho sa metánu. Výver, ktorý dokumentujte roponosnosť flyšových vrstiev, obsahuje vysoké percentá olejov. Ropa sa sústreďuje v malom jazierku s priemerom 1,5 – 2 m. Napriek tomu, že sa jedná o veľmi kvalitnú ropu, vrty v okolí – s ktorými sa začalo už na konci 19. storočia, nepreukázali také množstvo ropy, aby sa vyplatila priemyselná ťažba. Miestni obyvatelia ju v minulosti využívali na kúrenie, svietenie i mazanie. Vrty, ktoré sa tu uskutočnili (celkovo ich bolo 5, prvý v roku 1900 a posledný v roku 1929-33 do hĺbky 968 m), však nepotvrdili rentabilnosť ťažby (celkovo sa vyťažilo len 15-16 vagónov ropy). V roku 1973 ropný prameň vyhlásili za chránený prírodný výtvor, v roku 1995 prekategorizovali na prírodnú pamiatku s výmerom 0,171 ha. K prameňu je voľný prístup, cca 150 m od parkoviska pri hlavnej ceste.</p>\n<h3>Veterný mlyn</h3>\n<p>Veterný mlyn je jedným zo siedmych divov obce Korňa. Tento prvý div je zaujímavým zobrazením veterného mlynu, ktorý je umiestnený v Nižnej Korni. Dáva do povedomia starý veterný mlyn, ktorý stojí v osade u Šulca, je však už v zlom technickom stave. Nachádza sa v ťažko dostupnom teréne, preto je potrebné prejsť približne tri kilometre cez les, aby ste sa k nemu dostali.</p>\n<p>Povráva sa, že zariadenie starého mlynu do Korne doviezol predok Jozefa Gajdičiara, ktorý pracoval v Ostravsku ako baník. Lopatky vrtule boli roztáčané najmä severným vetrom, pri ktorom sa najlepšie mlela múka. Zaujímavosťou je, že na Morave sa zachovalo asi 70 podobných stavieb a podobný mlyn bol na Slovensko prenesený aj z Poľska. Odporúčame zobrať si so sebou aj trošku zrna a vyskúšať si namlieť múku.</p>\n<h3>Pútnické miesto Živčáková</h3>\n<p>V júni v roku 1958 sa na vrchu Živčáková mala lesnému robotníkovi Matúšovi Lašutovi zjaviť Panna Mária. Správa sa rýchlo rozšírila a miesto údajného zjavenia začali navštevovať veriaci, ktorí putovali na horu, odkiaľ si odnášali vodu z neďalekého prameňa. V roku 1992 BÚ v Nitre súhlasil a v nasledujúcom roku bola na hore Živčáková postavená kaplnka Panny Márie, Kráľovnej pokoja. Jej projekt vypracoval Ing. Arch. Marián Goč. V areáli zjavenia sa nachádza niekoľko prameňov s liečivou vodou, ktoré nezamŕzajú ani v najtuhších zimách.</p>\n<p>Žilinský biskup Tomáš Galis dňa 19. októbra 2008 vyhlásil Horu Živčáková za oficiálne mariánske pútnické miesto a vysvätil základný kameň budúceho chrámu Panny Márie Matky Cirkvi. 4. októbra 2015 bol chrám slávnostne vysvätený žilinským diecéznym biskupom Mons. Tomášom Galisom. Jeho výstavba trvala 7 rokov. Vo veži kostola sú umiestnené štyri zvony, ktoré sú dielom Josefa Tkadleca z Halenkova.</p>\n<p>Veža slúži aj ako vyhliadková a je sprístupnená pre pútnikov i turistov, z jej otvorenej terasy je kruhový výhľad na okolitú prírodu. Ak si chcete pozrieť tento výhľad musíte vyšľapať približne 140 schodov. Vstup do veže je zdarma, vstupné je dobrovoľné. Vyhliadková veža je sprístupnená len za priaznivého počasia.</p>",
+      "text": "<p>Na náučný chodník sa vydáme z časti Vyšná Korňa, auto zaparkujeme pri ruine základnej školy pár metrov nad výrobňou syrových korbáčikoch. Vydáme sa do osady Durajčíkovci, ďalej ponad osadu Vyšní Slezákovi až k Panorama Ranču. Po ceste nachádzame 6 informačných tabúľ venovaným zvieratám, ktoré môžeme počas prechádzky stretnúť. Sú to zvieratá: veverica, zajac, srna, diviak, jež, líška. Na konci náučného chodníka sa nachádza drevený rám, z ktorého si môžeme urobiť pekné fotky s krásnymi výhľadmi, zvonička a bufet, kde sa môžeme občerstviť. Ďalej môžeme pokračovať na vrch Bobek, na hranici s Českou republikou, ktorý ponúka krásne výhľady aj na Moravskosliezske Beskydy.</p>\n<h2>Top zaujímavosť:</h2>\n<h3>Lipy na Vigľaši</h3>\n<p>Staré stromy sú pamätníkmi rôznych udalostí a ľudských osudov. V Korni stoja tri mohutné lipy na Vígľaši, ktoré má obec aj v erbe. Nepatria k jediným unikátom. Zaujímavosťou je ďalšia lipa na Grúni, ktorej obvod kmeňa je vyše 6 metrov. Raritou je tiež smrek hadovitý v osade U Žilov.</p>\n<h3>Korňanský ropný prameň</h3>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/Dreveni%C4%8Dka-Kor%C5%88a.jpg\" alt=\"\"></p>\n<p>Na východnom okraji v blízkosti osady Muchovci v obci Korňa sa nachádza ojedinelý európsky unikát – prirodzený povrchový výver ľahkej ropy s občasnými výronmi samozapaľujúceho sa metánu. Výver, ktorý dokumentujte roponosnosť flyšových vrstiev, obsahuje vysoké percentá olejov. Ropa sa sústreďuje v malom jazierku s priemerom 1,5 – 2 m. Napriek tomu, že sa jedná o veľmi kvalitnú ropu, vrty v okolí – s ktorými sa začalo už na konci 19. storočia, nepreukázali také množstvo ropy, aby sa vyplatila priemyselná ťažba. Miestni obyvatelia ju v minulosti využívali na kúrenie, svietenie i mazanie. Vrty, ktoré sa tu uskutočnili (celkovo ich bolo 5, prvý v roku 1900 a posledný v roku 1929-33 do hĺbky 968 m), však nepotvrdili rentabilnosť ťažby (celkovo sa vyťažilo len 15-16 vagónov ropy). V roku 1973 ropný prameň vyhlásili za chránený prírodný výtvor, v roku 1995 prekategorizovali na prírodnú pamiatku s výmerom 0,171 ha. K prameňu je voľný prístup, cca 150 m od parkoviska pri hlavnej ceste.</p>\n<h3>Veterný mlyn</h3>\n<p>Veterný mlyn je jedným zo siedmych divov obce Korňa. Tento prvý div je zaujímavým zobrazením veterného mlynu, ktorý je umiestnený v Nižnej Korni. Dáva do povedomia starý veterný mlyn, ktorý stojí v osade u Šulca, je však už v zlom technickom stave. Nachádza sa v ťažko dostupnom teréne, preto je potrebné prejsť približne tri kilometre cez les, aby ste sa k nemu dostali.</p>\n<p>Povráva sa, že zariadenie starého mlynu do Korne doviezol predok Jozefa Gajdičiara, ktorý pracoval v Ostravsku ako baník. Lopatky vrtule boli roztáčané najmä severným vetrom, pri ktorom sa najlepšie mlela múka. Zaujímavosťou je, že na Morave sa zachovalo asi 70 podobných stavieb a podobný mlyn bol na Slovensko prenesený aj z Poľska. Odporúčame zobrať si so sebou aj trošku zrna a vyskúšať si namlieť múku.</p>\n<h3>Pútnické miesto Živčáková</h3>\n<p>V júni v roku 1958 sa na vrchu Živčáková mala lesnému robotníkovi Matúšovi Lašutovi zjaviť Panna Mária. Správa sa rýchlo rozšírila a miesto údajného zjavenia začali navštevovať veriaci, ktorí putovali na horu, odkiaľ si odnášali vodu z neďalekého prameňa. V roku 1992 BÚ v Nitre súhlasil a v nasledujúcom roku bola na hore Živčáková postavená kaplnka Panny Márie, Kráľovnej pokoja. Jej projekt vypracoval Ing. Arch. Marián Goč. V areáli zjavenia sa nachádza niekoľko prameňov s liečivou vodou, ktoré nezamŕzajú ani v najtuhších zimách.</p>\n<p>Žilinský biskup Tomáš Galis dňa 19. októbra 2008 vyhlásil Horu Živčáková za oficiálne mariánske pútnické miesto a vysvätil základný kameň budúceho chrámu Panny Márie Matky Cirkvi. 4. októbra 2015 bol chrám slávnostne vysvätený žilinským diecéznym biskupom Mons. Tomášom Galisom. Jeho výstavba trvala 7 rokov. Vo veži kostola sú umiestnené štyri zvony, ktoré sú dielom Josefa Tkadleca z Halenkova.</p>\n<p>Veža slúži aj ako vyhliadková a je sprístupnená pre pútnikov i turistov, z jej otvorenej terasy je kruhový výhľad na okolitú prírodu. Ak si chcete pozrieť tento výhľad musíte vyšľapať približne 140 schodov. Vstup do veže je zdarma, vstupné je dobrovoľné. Vyhliadková veža je sprístupnená len za priaznivého počasia.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/199505802_1883109211852134_8317344405388699304_n.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/detsky-naucny-turisticky-chodnik/",
         "en": "https://www.qrlink.sk/new/en/castles/detsky-naucny-turisticky-chodnik/",
@@ -4901,11 +5174,12 @@ const DB = {
       "cover": "assets/images/migrated/historicka-lesna-utratova-zeleznica.jpg",
       "audio": [],
       "galeria": [
+        "assets/images/migrated/historicka-lesna-utratova-zeleznica.jpg",
         "assets/images/migrated/bryzgalky-3.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2597.338988456459!2d19.096093675422946!3d49.38357926360561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDIzJzAwLjkiTiAxOcKwMDUnNTUuMiJF!5e0!3m2!1ssk!2ssk!4v1693317671356!5m2!1ssk!2ssk",
-      "text": "<p>Chodník vybudovaný v areáli Múzea Kysuckej dediny vo Vychylovke ponúka poučenie i zábavu pre malých aj veľkých návštevníkov. Na jednotlivých 7 stanovištiach, ktoré sú umiestnené na chodníku, si môžete vyskúšať ako sa dá les vnímať nie len zrakom, na ktorý sa človek najmä spolieha, ale aj hmatom, čuchom, sluchom aj chuťou. Na sprevádzanie po chodníku je možnosť objednať si odborných sprievodcov –ktorí zabezpečia odborný výklad a aj zábavu vo forme lesných hier a pohybových aktivít. Okolo náučného chodníka môžeme nájsť kŕmidla pre zver, drevenú detskú rozhľadňu, detské ihrisko s hojdačkami, preliezkami, lavičkami a drevený altánok.</p>\n<h2>Top zajímavost:</h2>\n<h3>Skanzen Vychylovka</h3>\n<p>Pamiatky ľudovej architektúry to všetko ponúka Skanzen Vychylovka. Odkaz starých a prastarých rodičov ležiaci v malebnom prostredí Chmúrnej doliny dokáže pre svojich návštevníkov priniesť spomienky na mladosť, spoznávať históriu, ba aj osvetliť kopaničiarsky spôsob osídlenia, ktorý bol charakteristický práve pre Kysuce.</p>\n<p>Jednu z najrozsiahlejších expozícii ľudovej architektúry na Slovensku tvorí 34 stavieb, z ktorých prevažná časť je prenesená z dnes už neexistujúcich obcí Riečnica a Harvelka. Centrum skanzenu tvorí kaplnka Panny Márie Ružencovej zo Zborova nad Bystricou, krčma z obce Korňa a najstarší obytný dom z Oščadnice. Nemožno nepoukázať ani na skvost vodného mlynu a píly s hrazdenou konštrukciou z obce Klubina. Počas sezóny tu návštevníci môžu vidieť ukážky práce remeselníkov, vystúpenia folklórnych skupín, súborov z kysuckého regiónu a prípravu tradičných kysuckých jedál. Výnimočnosť tohto prostredia vyhľadávajú aj filmári. Medzi najznámejšie diela, ktoré sa aspoň čiastočne odohrali v skanzene, patrí film Želary a Lietajúci Cyprián. Sezónna prevádzka v národopisnej expozícii je od 1. mája do 31. októbra.</p>",
+      "text": "<p>Chodník vybudovaný v areáli Múzea Kysuckej dediny vo Vychylovke ponúka poučenie i zábavu pre malých aj veľkých návštevníkov. Na jednotlivých 7 stanovištiach, ktoré sú umiestnené na chodníku, si môžete vyskúšať ako sa dá les vnímať nie len zrakom, na ktorý sa človek najmä spolieha, ale aj hmatom, čuchom, sluchom aj chuťou. Na sprevádzanie po chodníku je možnosť objednať si odborných sprievodcov –ktorí zabezpečia odborný výklad a aj zábavu vo forme lesných hier a pohybových aktivít. Okolo náučného chodníka môžeme nájsť kŕmidla pre zver, drevenú detskú rozhľadňu, detské ihrisko s hojdačkami, preliezkami, lavičkami a drevený altánok.</p>\n<h2>Top zajímavost:</h2>\n<h3>Skanzen Vychylovka</h3>\n<p>Pamiatky ľudovej architektúry to všetko ponúka Skanzen Vychylovka. Odkaz starých a prastarých rodičov ležiaci v malebnom prostredí Chmúrnej doliny dokáže pre svojich návštevníkov priniesť spomienky na mladosť, spoznávať históriu, ba aj osvetliť kopaničiarsky spôsob osídlenia, ktorý bol charakteristický práve pre Kysuce.</p>\n<p>Jednu z najrozsiahlejších expozícii ľudovej architektúry na Slovensku tvorí 34 stavieb, z ktorých prevažná časť je prenesená z dnes už neexistujúcich obcí Riečnica a Harvelka. Centrum skanzenu tvorí kaplnka Panny Márie Ružencovej zo Zborova nad Bystricou, krčma z obce Korňa a najstarší obytný dom z Oščadnice. Nemožno nepoukázať ani na skvost vodného mlynu a píly s hrazdenou konštrukciou z obce Klubina. Počas sezóny tu návštevníci môžu vidieť ukážky práce remeselníkov, vystúpenia folklórnych skupín, súborov z kysuckého regiónu a prípravu tradičných kysuckých jedál. Výnimočnosť tohto prostredia vyhľadávajú aj filmári. Medzi najznámejšie diela, ktoré sa aspoň čiastočne odohrali v skanzene, patrí film Želary a Lietajúci Cyprián. Sezónna prevádzka v národopisnej expozícii je od 1. mája do 31. októbra.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/Br%C3%BDzgalky-3.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/kysucky-detsky-les/",
         "en": "https://www.qrlink.sk/new/en/castles/kysucky-detsky-les/",
@@ -4924,12 +5198,13 @@ const DB = {
       "cover": "assets/images/migrated/pramen-kysuce.jpg",
       "audio": [],
       "galeria": [
+        "assets/images/migrated/pramen-kysuce.jpg",
         "assets/images/migrated/makov-greguse.jpg",
         "assets/images/migrated/makov-krslisko.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2599.0863723121875!2d18.402335075420527!3d49.350513765949906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDIxJzAxLjgiTiAxOMKwMjQnMTcuNyJF!5e0!3m2!1ssk!2ssk!4v1693317865170!5m2!1ssk!2ssk",
-      "text": "<p>Náučný chodník ku prameňu rieky Kysuca – 400 rokov – 4000 krokov  vznikol pri príležitosti 400-tého výročia prvej písomnej zmienky o obci Makov ležiacej medzi Turzovskou vrchovinou a Javorníkmi v CHKO Kysuce. Náučný chodník je dĺžkou nenáročný cca 2 km avšak s prudším stúpaním, ktoré nám spríjemňujú oddychové lavičky s vyrezávanými zvieratami z dreva.</p>\n<h2>Top zajímavost:</h2>\n<h3>Brest u Papaji</h3>\n<p>Najstarší a najmohutnejší brest hrabolistý v strednej Európe, ktorý má takmer 500 rokov, Unikátny exemplár brestu hrabolistého Ulmus carpinifolia sa vyznačuje nielen vekom, ale aj neobvyklou mohutnosťou. Obvod kmeňa vo výške 130 cm je 625 cm a pri koreni viac ako 11 metrov. Výška je asi 30 m. Nachádza sa v časti Makov – Kopanice , z hlavne cesty pri Chate Makov odbočíme vľavo cez most, na prvej križovatke za obchodom odbočíme vľavo a pokračujeme cca 1,5 km.</p>\n<h3>Rozhľadňa Stratenec</h3>\n<p>Drevená rozhľadňa bola vybudovaná na vrchu Stratenec, v nadmorskej výške 1055 m n.m., ešte v roku 2008**.** Vyhliadka má výšku 8 metrov a 22 schodov. Nachádza sa tu tiež kamenný pamätník Tri kríže. Venovaný je trom vojakom, ktorí padli počas 2. svetovej vojny, v čase oslobodenia Veľkých Karlovíc. Rozhľadňa na vrchu Stratenec má významné prvenstvo. Je najvyššia v celých Javorníkoch a nachádza sa na najzápadnejšom vrchu tohto pohoria.</p>\n<h3>Obec Makov</h3>\n<p>Ponúka  množstvo turistických a cyklistických atrakcií.</p>",
+      "text": "<p>Náučný chodník ku prameňu rieky Kysuca – 400 rokov – 4000 krokov  vznikol pri príležitosti 400-tého výročia prvej písomnej zmienky o obci Makov ležiacej medzi Turzovskou vrchovinou a Javorníkmi v CHKO Kysuce. Náučný chodník je dĺžkou nenáročný cca 2 km avšak s prudším stúpaním, ktoré nám spríjemňujú oddychové lavičky s vyrezávanými zvieratami z dreva.</p>\n<h2>Top zajímavost:</h2>\n<h3>Brest u Papaji</h3>\n<p>Najstarší a najmohutnejší brest hrabolistý v strednej Európe, ktorý má takmer 500 rokov, Unikátny exemplár brestu hrabolistého Ulmus carpinifolia sa vyznačuje nielen vekom, ale aj neobvyklou mohutnosťou. Obvod kmeňa vo výške 130 cm je 625 cm a pri koreni viac ako 11 metrov. Výška je asi 30 m. Nachádza sa v časti Makov – Kopanice , z hlavne cesty pri Chate Makov odbočíme vľavo cez most, na prvej križovatke za obchodom odbočíme vľavo a pokračujeme cca 1,5 km.</p>\n<h3>Rozhľadňa Stratenec</h3>\n<p>Drevená rozhľadňa bola vybudovaná na vrchu Stratenec, v nadmorskej výške 1055 m n.m., ešte v roku 2008**.** Vyhliadka má výšku 8 metrov a 22 schodov. Nachádza sa tu tiež kamenný pamätník Tri kríže. Venovaný je trom vojakom, ktorí padli počas 2. svetovej vojny, v čase oslobodenia Veľkých Karlovíc. Rozhľadňa na vrchu Stratenec má významné prvenstvo. Je najvyššia v celých Javorníkoch a nachádza sa na najzápadnejšom vrchu tohto pohoria.</p>\n<h3>Obec Makov</h3>\n<p>Ponúka  množstvo turistických a cyklistických atrakcií.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/Makov-gregu%C5%A1e.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/Makov-Kr%C5%A1lisko.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/ku-pramenu-rieky-kysuca-400-rokov-4000-krokov/",
         "en": "https://www.qrlink.sk/new/en/castles/ku-pramenu-rieky-kysuca-400-rokov-4000-krokov/",
@@ -4948,12 +5223,13 @@ const DB = {
       "cover": "assets/images/migrated/dom-jozefa-kronera-zaciatok-nch.jpg",
       "audio": [],
       "galeria": [
+        "assets/images/migrated/dom-jozefa-kronera-zaciatok-nch.jpg",
         "assets/images/migrated/5-na-michalke-2.jpg",
         "assets/images/migrated/velky-polom.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2595.227160405695!2d18.686675875425863!3d49.42351926077234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDI1JzI0LjciTiAxOMKwNDEnMjEuMyJF!5e0!3m2!1ssk!2ssk!4v1693318141031!5m2!1ssk!2ssk",
-      "text": "<p>Jozef Kroner počas svojho života stvárnil niekoľko desiatok postáv, z ktorých si väčšina ľudí vybaví napr. Pacha, Svága Ragana, Kuba, Tóna Brtka, či Martina Pichanku z Tisícročnej včely. Aj tieto postavy, resp. filmy sú stvárnené do podoby 12 umeleckých diel Chodníka Jozefa Kronera.</p>\n<h3><strong>Názvy sochárskych diel na chodníku</strong>:</h3>\n<h2>Top zajímavost:</h2>\n<h3><strong>Rodný dom Jozefa Kronera</strong></h3>\n<p>Domček, v ktorom sa v roku 1924 narodil významný slovenský herec Jozef Kroner.  Múzeum je prístupné každý deň. V múzeu nájdete v strede stôl, hercovo kreslo a vitrínu, v ktorej je množstvo predmetov zo života umelca, napr. osobné listy, rôzne ocenenia, rybárske čižmy, okuliare, šálka, dokonca aj soška Oscara za film Obchod na Korze, v ktorom Jozef Kroner stvárnil hlavnú postavu.</p>",
+      "text": "<p>Jozef Kroner počas svojho života stvárnil niekoľko desiatok postáv, z ktorých si väčšina ľudí vybaví napr. Pacha, Svága Ragana, Kuba, Tóna Brtka, či Martina Pichanku z Tisícročnej včely. Aj tieto postavy, resp. filmy sú stvárnené do podoby 12 umeleckých diel Chodníka Jozefa Kronera.</p>\n<h3><strong>Názvy sochárskych diel na chodníku</strong>:</h3>\n<h2>Top zajímavost:</h2>\n<h3><strong>Rodný dom Jozefa Kronera</strong></h3>\n<p>Domček, v ktorom sa v roku 1924 narodil významný slovenský herec Jozef Kroner.  Múzeum je prístupné každý deň. V múzeu nájdete v strede stôl, hercovo kreslo a vitrínu, v ktorej je množstvo predmetov zo života umelca, napr. osobné listy, rôzne ocenenia, rybárske čižmy, okuliare, šálka, dokonca aj soška Oscara za film Obchod na Korze, v ktorom Jozef Kroner stvárnil hlavnú postavu.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/5.-Na-Michalke-2.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/Ve%C4%BEk%C3%BD-Polom.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/chodnik-jozefa-kronera/",
         "en": "https://www.qrlink.sk/new/en/castles/chodnik-jozefa-kronera/",
@@ -4972,11 +5248,12 @@ const DB = {
       "cover": "assets/images/migrated/moravka-1.jpg",
       "audio": [],
       "galeria": [
+        "assets/images/migrated/moravka-1.jpg",
         "assets/images/migrated/moravka-2.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2586.1742785178662!2d18.521811775438422!3d49.59446284862748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDM1JzQwLjEiTiAxOMKwMzEnMjcuOCJF!5e0!3m2!1ssk!2ssk!4v1693318475745!5m2!1ssk!2ssk",
-      "text": "<p>Naučná stezka vychází od parkoviště v části Lipové a stoupá po silnici údolím řeky Morávky až k jejímu prameni. Cestou potkáte devět naučných tabulí věnovaných povodí Morávky – řece i lesům, výstavbě přehrady, historii obce Morávka a turistice. Dozvíte se například, že voda z řeky Morávky je základní surovinou pro výrobu nošovického piva.</p>\n<h2>Top zaujímavosť:</h2>\n<h3>Přehrada Morávka</h3>\n<p>Údolní vodní nádrž byla vybudována v letech 1961 – 1967 hlavně jako zdroj pitné vody a ochrana před povodněmi.</p>\n<h3>Památník partyzánského hnutí „Noční přechod“</h3>\n<p>Památník partyzánského hnutí Noční přechod je památník obětem Nočního přechodu v obci Morávka v okrese Frýdek-Místek. Památkově chráněn je od roku 1958 a 6. října 1978 byl prohlášen za národní kulturní památku.</p>\n<h3>Bílý Kříž</h3>\n<p>Původně zde byla osada, která se jmenovala Karlovice. Na Bílý kříž byla přejmenována po roce 1830. Pašerákům tabáku z uherského Slovenska zastoupil cestu financ (tehdejší pohraniční policie). Pašeráci se báli bití a pokut víc než vraždy, a tak pohraničníka ubili a pochovali. Na mohyle nad hrobem byl postaven dřevěný kříž z čerstvě ostrouhaných smrkových žerdí. Celý hřeben byl tehdy odlesněn, a tak kříž svítil bíle dodaleka. Dnešní kříž už je po několikáté obnovený, a aby dostál svému jménu, je na bílo natřený.</p>\n<h3>Dřevěný kostelík Panny Marie na Gruni, Lysá hora</h3>",
+      "text": "<p>Naučná stezka vychází od parkoviště v části Lipové a stoupá po silnici údolím řeky Morávky až k jejímu prameni. Cestou potkáte devět naučných tabulí věnovaných povodí Morávky – řece i lesům, výstavbě přehrady, historii obce Morávka a turistice. Dozvíte se například, že voda z řeky Morávky je základní surovinou pro výrobu nošovického piva.</p>\n<h2>Top zaujímavosť:</h2>\n<h3>Přehrada Morávka</h3>\n<p>Údolní vodní nádrž byla vybudována v letech 1961 – 1967 hlavně jako zdroj pitné vody a ochrana před povodněmi.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/moravka-2.jpg\" alt=\"\"></p>\n<h3>Památník partyzánského hnutí „Noční přechod“</h3>\n<p>Památník partyzánského hnutí Noční přechod je památník obětem Nočního přechodu v obci Morávka v okrese Frýdek-Místek. Památkově chráněn je od roku 1958 a 6. října 1978 byl prohlášen za národní kulturní památku.</p>\n<h3>Bílý Kříž</h3>\n<p>Původně zde byla osada, která se jmenovala Karlovice. Na Bílý kříž byla přejmenována po roce 1830. Pašerákům tabáku z uherského Slovenska zastoupil cestu financ (tehdejší pohraniční policie). Pašeráci se báli bití a pokut víc než vraždy, a tak pohraničníka ubili a pochovali. Na mohyle nad hrobem byl postaven dřevěný kříž z čerstvě ostrouhaných smrkových žerdí. Celý hřeben byl tehdy odlesněn, a tak kříž svítil bíle dodaleka. Dnešní kříž už je po několikáté obnovený, a aby dostál svému jménu, je na bílo natřený.</p>\n<h3>Dřevěný kostelík Panny Marie na Gruni, Lysá hora</h3>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/prameny-moravky/",
         "en": "https://www.qrlink.sk/new/en/castles/prameny-moravky/",
@@ -4995,11 +5272,12 @@ const DB = {
       "cover": "assets/images/migrated/fr2.jpg",
       "audio": [],
       "galeria": [
+        "assets/images/migrated/fr2.jpg",
         "assets/images/migrated/fridecky-1.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2580.605452484018!2d18.35841647544615!3d49.69940234115713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDQxJzU3LjgiTiAxOMKwMjEnMzkuNiJF!5e0!3m2!1ssk!2ssk!4v1693384634344!5m2!1ssk!2ssk",
-      "text": "<p>Naučná stezka ukazuje, že les má mnoho funkcí a neslouží jen pro pěstování a těžbu dřeva. Les je také domovem mnoha druhů rostlin a živočichů – od hmyzu až po velkou zvěř. Naučná stezka je vhodná zejména pro školní mládež. Přes zamokřená místa již byly položeny jednoduché lávky a přes rokli s potůčkem byl postaven mostek.</p>\n<h2>Top zajímavost:</h2>\n<h3>Bludné balvany ve Frýdeckém lese</h3>\n<p>S bludnými neboli eratickými balvany se na severu Moravy a ve Slezsku můžeme setkat na mnoha místech. Nález balvanů ve Frýdeckém lese byl poprvé zveřejněn v roce 2006. Větší skupina balvanů je v levém přítoku potůčku Podšajarky, v rokli zhruba 200 metrů severně od Zátiší, další leží přímo v řečišti Podšajarky.</p>",
+      "text": "<p>Naučná stezka ukazuje, že les má mnoho funkcí a neslouží jen pro pěstování a těžbu dřeva. Les je také domovem mnoha druhů rostlin a živočichů – od hmyzu až po velkou zvěř. Naučná stezka je vhodná zejména pro školní mládež. Přes zamokřená místa již byly položeny jednoduché lávky a přes rokli s potůčkem byl postaven mostek.</p>\n<h2>Top zajímavost:</h2>\n<h3>Bludné balvany ve Frýdeckém lese</h3>\n<p>S bludnými neboli eratickými balvany se na severu Moravy a ve Slezsku můžeme setkat na mnoha místech. Nález balvanů ve Frýdeckém lese byl poprvé zveřejněn v roce 2006. Větší skupina balvanů je v levém přítoku potůčku Podšajarky, v rokli zhruba 200 metrů severně od Zátiší, další leží přímo v řečišti Podšajarky.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/fr%C3%ADdeck%C3%BD-1.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/frydecky-les/",
         "en": "https://www.qrlink.sk/new/en/castles/frydecky-les/",
@@ -5018,11 +5296,12 @@ const DB = {
       "cover": "assets/images/migrated/grun-1.jpg",
       "audio": [],
       "galeria": [
+        "assets/images/migrated/grun-1.jpg",
         "assets/images/migrated/gr2.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2592.659645413536!2d18.4393050754294!3d49.47204535732784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDI4JzE5LjQiTiAxOMKwMjYnMzAuOCJF!5e0!3m2!1ssk!2ssk!4v1693384789384!5m2!1ssk!2ssk",
-      "text": "<p>Místo je ideální zejména pro rodiny s dětmi, seniory a pro všechny, kdo nemají ambice zdolávat vysoké hory, ale spíše si chtějí užít procházku, mají chuť se něco dozvědět a rádi se kochají horskou krajinou. Délku si zvolte sami. Můžete ujít třeba jen 4 km ke Švarné Hance nebo 11 km, pokud se rozhodnete pokračovat až na vyhlášený Bílý Kříž. Zpět se vrátíte po stejné trase. Část hřebenové trasy ke Švarné Hance (2 km) je díky asfaltovému povrchu vhodná pro kočárky.</p>\n<h2>Top zajímavost:</h2>\n<p>Za hezkého počasí výhled na Slovenské Tatry. Kostel sv. Jindřicha, pomník Maryčky Magdonové a starodávný hřbitov s litinovými kříži ve Starých Hamrech, bývalá Bezručova škola, dřevěný kostel Panny Marie Pomocné na Gruni, ovce Valaška.</p>",
+      "text": "<p>Místo je ideální zejména pro rodiny s dětmi, seniory a pro všechny, kdo nemají ambice zdolávat vysoké hory, ale spíše si chtějí užít procházku, mají chuť se něco dozvědět a rádi se kochají horskou krajinou. Délku si zvolte sami. Můžete ujít třeba jen 4 km ke Švarné Hance nebo 11 km, pokud se rozhodnete pokračovat až na vyhlášený Bílý Kříž. Zpět se vrátíte po stejné trase. Část hřebenové trasy ke Švarné Hance (2 km) je díky asfaltovému povrchu vhodná pro kočárky.</p>\n<h2>Top zajímavost:</h2>\n<p>Za hezkého počasí výhled na Slovenské Tatry. Kostel sv. Jindřicha, pomník Maryčky Magdonové a starodávný hřbitov s litinovými kříži ve Starých Hamrech, bývalá Bezručova škola, dřevěný kostel Panny Marie Pomocné na Gruni, ovce Valaška.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/gr2.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/grun-bily-kriz/",
         "en": "https://www.qrlink.sk/new/en/castles/grun-bily-kriz/",
@@ -5041,11 +5320,12 @@ const DB = {
       "cover": "assets/images/migrated/cert2.jpg",
       "audio": [],
       "galeria": [
+        "assets/images/migrated/cert2.jpg",
         "assets/images/migrated/cert1.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2591.726688868354!2d18.26245507543072!3d49.489669556076244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDI5JzIyLjgiTiAxOMKwMTUnNTQuMSJF!5e0!3m2!1ssk!2ssk!4v1693385924368!5m2!1ssk!2ssk",
-      "text": "<p>Stezka vede z Pusteven kolem jezírka Mořské oko úbočím Čertova mlýna (1205 m) k horskému hotelu na Martiňáku. Na naučné stezce je 9 zastavení s informacemi o místních zajímavých rostlinách a živočiších, dozvíte se, čím jsou vzácné lesy v okolí, kde se ukrývali partyzáni nebo pověst o čertovi. Stezka má ve znaku Čertův stůl – unikátní skalní útvar na hřebeni Čertova mlýna.</p>\n<h2>Top zajímavost:</h2>\n<h3>Pustevny</h3>\n<p>Pustevny je sedlo v Moravskoslezských Beskydech nedaleko Radhoště, které patří k obci Prostřední Bečva. Bylo pojmenováno po poustevnících, kteří zde žili do roku 1874. Pro Pustevny jsou typické dřevěné stavby postavené v lidovém slohu koncem 19. století na návrh architekta Dušana Jurkoviče. Nachází se zde lyžařské středisko a vede sem sedačková lanovka.</p>\n<h3>Mořské oko</h3>\n<p>Jezírko Mořské oko je uměle vytvořené podnikavými turisty na konci 19. století z původního mokřadu. Turistům bylo líto, že na Pustevnách chybí nějaké to pleso jako třeba v Tatrách, a tak si je sami vytvořili a stalo se oblíbenou atrakcí. Nyní je významnou lokalitou pro rozmnožování různých druhů obojživelníků, zejména tří druhů čolků.</p>",
+      "text": "<p>Stezka vede z Pusteven kolem jezírka Mořské oko úbočím Čertova mlýna (1205 m) k horskému hotelu na Martiňáku. Na naučné stezce je 9 zastavení s informacemi o místních zajímavých rostlinách a živočiších, dozvíte se, čím jsou vzácné lesy v okolí, kde se ukrývali partyzáni nebo pověst o čertovi. Stezka má ve znaku Čertův stůl – unikátní skalní útvar na hřebeni Čertova mlýna.</p>\n<h2>Top zajímavost:</h2>\n<h3>Pustevny</h3>\n<p>Pustevny je sedlo v Moravskoslezských Beskydech nedaleko Radhoště, které patří k obci Prostřední Bečva. Bylo pojmenováno po poustevnících, kteří zde žili do roku 1874. Pro Pustevny jsou typické dřevěné stavby postavené v lidovém slohu koncem 19. století na návrh architekta Dušana Jurkoviče. Nachází se zde lyžařské středisko a vede sem sedačková lanovka.</p>\n<h3>Mořské oko</h3>\n<p>Jezírko Mořské oko je uměle vytvořené podnikavými turisty na konci 19. století z původního mokřadu. Turistům bylo líto, že na Pustevnách chybí nějaké to pleso jako třeba v Tatrách, a tak si je sami vytvořili a stalo se oblíbenou atrakcí. Nyní je významnou lokalitou pro rozmnožování různých druhů obojživelníků, zejména tří druhů čolků.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/cert1.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/certuv-mlyn/",
         "en": "https://www.qrlink.sk/new/en/castles/certuv-mlyn/",
@@ -5064,12 +5344,13 @@ const DB = {
       "cover": "assets/images/migrated/vcela-2.jpg",
       "audio": [],
       "galeria": [
+        "assets/images/migrated/vcela-2.jpg",
         "assets/images/migrated/vcela3.jpg",
         "assets/images/migrated/vcela1.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2583.557827388851!2d18.364425075442078!3d49.64378784511767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDM4JzM3LjYiTiAxOMKwMjInMDEuMiJF!5e0!3m2!1ssk!2ssk!4v1693406215876!5m2!1ssk!2ssk",
-      "text": "<p>Naučná stezka se skládá z odpočinkového stanoviště, což je velký dřevěný altán, v jehož okolí jsou umístěny informační panely, na kterých se návštěvníci dočtou řadu zajímavostí z historie včelařství a základní informace o včele medonosné. Včelstvo je v podstatě takový super organismus, který přežívá v nezměněné podobě na naší planetě už milióny let a každá včela v něm hraje svou důležitou roli. Kterými členy je takové včelstvo tvořeno a jak společně fungují – o tom všem se také návštěvníci z informačních cedulí mohou něco dozvědět.</p>\n<h2>Top zajímavost:</h2>\n<p>Podél stezky protéká řeka Ostravice, ke které je krásný přístup s výhledem na řeku. Vedle stezky je taky výukový včelí úl, kde se návštěvníci můžou podívat na to, jak včelky pracují.</p>",
+      "text": "<p>Naučná stezka se skládá z odpočinkového stanoviště, což je velký dřevěný altán, v jehož okolí jsou umístěny informační panely, na kterých se návštěvníci dočtou řadu zajímavostí z historie včelařství a základní informace o včele medonosné. Včelstvo je v podstatě takový super organismus, který přežívá v nezměněné podobě na naší planetě už milióny let a každá včela v něm hraje svou důležitou roli. Kterými členy je takové včelstvo tvořeno a jak společně fungují – o tom všem se také návštěvníci z informačních cedulí mohou něco dozvědět.</p>\n<h2>Top zajímavost:</h2>\n<p>Podél stezky protéká řeka Ostravice, ke které je krásný přístup s výhledem na řeku. Vedle stezky je taky výukový včelí úl, kde se návštěvníci můžou podívat na to, jak včelky pracují.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/v%C4%8Dela3.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/v%C4%8Dela1.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/vcelarska-naucna-stezka/",
         "en": "https://www.qrlink.sk/new/en/castles/vcelarska-naucna-stezka/",
@@ -5088,11 +5369,12 @@ const DB = {
       "cover": "assets/images/migrated/mc1.jpg",
       "audio": [],
       "galeria": [
+        "assets/images/migrated/mc1.jpg",
         "assets/images/migrated/bez-nazvuc2.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2582.8343518192314!2d18.275270075443068!3d49.65742034414708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDM5JzI2LjciTiAxOMKwMTYnNDAuMiJF!5e0!3m2!1ssk!2ssk!4v1693406767616!5m2!1ssk!2ssk",
-      "text": "<p>Stezka navazuje na Včelařský naučný areál Chlebovice a umožňuje návštěvníkům naučného areálu i běžným turistům seznámit se zábavnou formou s včelařstvím i zajímavými místy v Chlebovicích. Medovou stezkou provede včelka Medulinka, která na celkem pěti stanovištích seznámí návštěvníky s 12 včelařskými tématy a 12 zajímavými místy Chlebovic. Díky hrací kartě „Medovka“ si mohou malí i velcí ověřit své nové znalosti v „Medulinčině kvízu“. Stezka vás zavede až k rozhledně Kabátice, ze které je krásný výhled východním směrem na vodní nádrž Olešná a město Frýdek-Místek.</p>\n<h2>Top zajímavost:</h2>\n<h3>Včelařské muzeum</h3>\n<p>Ojedinělá sbírka medometů, dýmáků, úlů a včelařských potřeb.</p>\n<h3>Rozhledna Kabátice, přehrada Olešná, hrad Hukvaldy, rodný dům Leoše Janáčka, obora Hukvaldy, Štramberk, Štramberská Trúba.</h3>",
+      "text": "<p>Stezka navazuje na Včelařský naučný areál Chlebovice a umožňuje návštěvníkům naučného areálu i běžným turistům seznámit se zábavnou formou s včelařstvím i zajímavými místy v Chlebovicích. Medovou stezkou provede včelka Medulinka, která na celkem pěti stanovištích seznámí návštěvníky s 12 včelařskými tématy a 12 zajímavými místy Chlebovic. Díky hrací kartě „Medovka“ si mohou malí i velcí ověřit své nové znalosti v „Medulinčině kvízu“. Stezka vás zavede až k rozhledně Kabátice, ze které je krásný výhled východním směrem na vodní nádrž Olešná a město Frýdek-Místek.</p>\n<h2>Top zajímavost:</h2>\n<h3>Včelařské muzeum</h3>\n<p>Ojedinělá sbírka medometů, dýmáků, úlů a včelařských potřeb.</p>\n<h3>Rozhledna Kabátice, přehrada Olešná, hrad Hukvaldy, rodný dům Leoše Janáčka, obora Hukvaldy, Štramberk, Štramberská Trúba.</h3>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/Bez-n%C3%A1zvuc2.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/chlebovicka-medova-stopa/",
         "en": "https://www.qrlink.sk/new/en/castles/chlebovicka-medova-stopa/",
@@ -5111,11 +5393,12 @@ const DB = {
       "cover": "assets/images/migrated/vyhliadka1.jpg",
       "audio": [],
       "galeria": [
+        "assets/images/migrated/vyhliadka1.jpg",
         "assets/images/migrated/vyhliadka2.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2586.4788239879226!2d18.34265947543805!3d49.588719249036146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDM1JzE5LjQiTiAxOMKwMjAnNDIuOCJF!5e0!3m2!1ssk!2ssk!4v1693407597189!5m2!1ssk!2ssk",
-      "text": "<p>Jde o moderní venkovní hřiště s atrakcemi v dřevěném provedení. Cestičky jsou z jemné šotoliny, které zvládne i městský kočárek. Originální jsou dvě ptačí hnízda zavěšená na stromech, na která se dá vyšplhat po pavoučí síti. V jejich okolí jsou v korunách stromů umístěny dřevěné sochy ptáků, které lze přímo z kukaní pozorovat. Vše je doplněno otočnými naučnými cedulemi s pěknými obrázky. Na dalších zastaveních se děti vyřádí na skluzavce, prolézačkách nebo dřevěných špalcích. Milé jsou dvě houpací sítě, určené k pozorování mraků. Cestu také lemují zastavení se zvětšenými dřevěnými maketami hmyzu a lesních hub. Pro větší děti i dospělé je tu umístěno workoutové hřiště s kruhy, hrazdou, lanem apod.</p>\n<h2>Top zajímavost:</h2>\n<p>Z této stezky se dá pokračovat na turisty hojně navštěvovaný Ondřejník.</p>",
+      "text": "<p>Jde o moderní venkovní hřiště s atrakcemi v dřevěném provedení. Cestičky jsou z jemné šotoliny, které zvládne i městský kočárek. Originální jsou dvě ptačí hnízda zavěšená na stromech, na která se dá vyšplhat po pavoučí síti. V jejich okolí jsou v korunách stromů umístěny dřevěné sochy ptáků, které lze přímo z kukaní pozorovat. Vše je doplněno otočnými naučnými cedulemi s pěknými obrázky. Na dalších zastaveních se děti vyřádí na skluzavce, prolézačkách nebo dřevěných špalcích. Milé jsou dvě houpací sítě, určené k pozorování mraků. Cestu také lemují zastavení se zvětšenými dřevěnými maketami hmyzu a lesních hub. Pro větší děti i dospělé je tu umístěno workoutové hřiště s kruhy, hrazdou, lanem apod.</p>\n<h2>Top zajímavost:</h2>\n<p>Z této stezky se dá pokračovat na turisty hojně navštěvovaný Ondřejník.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/vyhliadka2.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/lesni-stezka-vyhlidka/",
         "en": "https://www.qrlink.sk/new/en/castles/lesni-stezka-vyhlidka/",
@@ -5136,6 +5419,7 @@ const DB = {
         "assets/audio/migrated/01-najstarsie-zmienky-o-zivcakovej.mp3"
       ],
       "galeria": [
+        "assets/images/migrated/zivcakova_mapa.jpg",
         "assets/images/migrated/obalka-03.png"
       ],
       "gps": {
@@ -5143,7 +5427,7 @@ const DB = {
         "lng": 18.569917576091964
       },
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2011.6759220261013!2d18.56734267542398!3d49.39787256259185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDIzJzUyLjMiTiAxOMKwMzQnMTEuNyJF!5e1!3m2!1ssk!2ssk!4v1692690296474!5m2!1ssk!2ssk",
-      "text": "<p>Vrch Živčákova sa nachádza na pomedzí troch kysuckých obcí – Turzovka, Korňa a Vysoká nad Kysucou. Prvýkrát sa písomne spomína v listine, ktorú vydal zakladateľ Turzovky Juraj Turzo 26. mája 1616. Medzi vymenovanými pasienkami a horami, ktoré mali užívať turzovskí valasi sa spomína lokalita <em>na Zivčzakoweg</em>. Ďalší známy dokument spomínajúci túto lokalitu je obhliadka chotára Vysokej a susediacich obcí Turzovka a (Veľké) Rovné z roku 1690. Stoličná komisia začínala obhliadku práve na vrchu Živčákova (<em>ad montem Ziwczakova</em>). Hora nebola v minulosti ničím zvláštna, o jej význame možno hovoriť až od roku 1954, keď bola z Turzovky vyčlenená samostatná obec Korňa a Živčákova sa stala hraničným územím, priamym hraničným bodom oboch katastrov. Ako vyplýva aj zo starších písomných zmienok, vrch sa vždy označoval ako Živčákova. Názov bol motivovaný osobným menom niektorého valacha, ktorý mal v tejto lokalite svoje pastviská. Osobné meno Živčák bolo odvodené z pomenovania obyvateľa Živiecka, podobne Slezák, Polák, Rusnák a pod. Nezodpovedanou otázkou ostane, či išlo v tomto prípade priamo o valacha z poľského územia, alebo už o človeka, ktorý na územie Turzovky prišiel sprostredkovane cez Oravu, kde bolo meno Živčák pomerne rozšírené. Vieme totiž, že Juraj Turzo si na svoje bytčianske majetky pozýval aj valachov z Oravy. Keďže sa Živčákova spomína už v roku 1616 je pravdepodobné, že sa spomínaný valach dostal do tejto oblasti ešte pre samotným založením Turzovky, prípadne v čase jej kreovania. Lokalita sa teda správne nazýva Živčákova, nie Živčák, ako sa to približne od polovice 20. storočia niekedy uvádza. Živčák je osobné meno, Živčákova hora, skrátene Živčákova je označenie vrchu – oronymum.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
+      "text": "<p>Vrch Živčákova sa nachádza na pomedzí troch kysuckých obcí – Turzovka, Korňa a Vysoká nad Kysucou. Prvýkrát sa písomne spomína v listine, ktorú vydal zakladateľ Turzovky Juraj Turzo 26. mája 1616. Medzi vymenovanými pasienkami a horami, ktoré mali užívať turzovskí valasi sa spomína lokalita <em>na Zivčzakoweg</em>. Ďalší známy dokument spomínajúci túto lokalitu je obhliadka chotára Vysokej a susediacich obcí Turzovka a (Veľké) Rovné z roku 1690. Stoličná komisia začínala obhliadku práve na vrchu Živčákova (<em>ad montem Ziwczakova</em>). Hora nebola v minulosti ničím zvláštna, o jej význame možno hovoriť až od roku 1954, keď bola z Turzovky vyčlenená samostatná obec Korňa a Živčákova sa stala hraničným územím, priamym hraničným bodom oboch katastrov. Ako vyplýva aj zo starších písomných zmienok, vrch sa vždy označoval ako Živčákova. Názov bol motivovaný osobným menom niektorého valacha, ktorý mal v tejto lokalite svoje pastviská. Osobné meno Živčák bolo odvodené z pomenovania obyvateľa Živiecka, podobne Slezák, Polák, Rusnák a pod. Nezodpovedanou otázkou ostane, či išlo v tomto prípade priamo o valacha z poľského územia, alebo už o človeka, ktorý na územie Turzovky prišiel sprostredkovane cez Oravu, kde bolo meno Živčák pomerne rozšírené. Vieme totiž, že Juraj Turzo si na svoje bytčianske majetky pozýval aj valachov z Oravy. Keďže sa Živčákova spomína už v roku 1616 je pravdepodobné, že sa spomínaný valach dostal do tejto oblasti ešte pre samotným založením Turzovky, prípadne v čase jej kreovania. Lokalita sa teda správne nazýva Živčákova, nie Živčák, ako sa to približne od polovice 20. storočia niekedy uvádza. Živčák je osobné meno, Živčákova hora, skrátene Živčákova je označenie vrchu – oronymum.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/najstarsie-zmienky-o-zivcakovej/",
         "en": "https://www.qrlink.sk/new/en/castles/najstarsie-zmienky-o-zivcakovej/",
@@ -5168,7 +5452,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>V mestskej časti Vyšný Koniec vlastnil na prelome 20. a 30. rokov minulého storočia vodnú pílu Ján Cvek. V roku 1932 podal žiadosť o povolenie vodného používania pre mlyn a pílu tesársky majster Vincent Hrtús. O rok neskôr sa konalo v tejto veci pojednávanie, na základe ktorého mu začiatkom roka 1944 vydal Župný úrad v Trenčíne vodoprávne povolenie na používanie pre mlyn a pílu. Píla po predošlom majiteľovi bola zanedbaná, nový vlastník musel veľa renovovať. Píla pracovala na vodný pohon iba pri vyšších vodných stavoch. V. Hrtús pílil drevo súkromníkom, ale najmä pre stáleho obchodíka s drevom a rezivom Kováčika z Turzovky. Ak nebolo možné pre nedostatok vody pracovať, pílu a jej zariadenie prebudovával a všetko zariadenie prispôsoboval na vodný pohon. Činnosť píly i sklady s drevom ohrozovali povodne. Povodne ničili i hať na vodný náhon. Veľká povodeň bola napr. 31. mája 1940, keď voda brala mosty, lávky i pozemky. Vtedy spôsobila veľkú škodu i V. Hrtúsovi, keď odplavila drevo z jeho skladu na Vyšnom Konci. Napriek problémom prevádzkoval pílu do roku 1949, keď mu stroje zaplombovali a zakázali prevádzku píly. Vtedajšiemu vedeniu obce V. Hrtús navrhol, že na tom mieste postaví „valašskú pílu“, ako technickú pamiatku a spomienku na obdobie, keď sa v tunajšej oblasti pracovalo primitívne len s jedinou pílou v gátri. Jeho návrh bol zamietnutý. Vrátil sa k tesárskemu remeslu, dožil sa 94 rokov. Pochovaný je v Lendaku, v mieste, kde pôsobil ako kňaz jeho syn Anton. Z niekdajšej píly zostalo v týchto miestach už len opustené koleso.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
+      "text": "<p>V mestskej časti Vyšný Koniec vlastnil na prelome 20. a 30. rokov minulého storočia vodnú pílu Ján Cvek. V roku 1932 podal žiadosť o povolenie vodného používania pre mlyn a pílu tesársky majster Vincent Hrtús. O rok neskôr sa konalo v tejto veci pojednávanie, na základe ktorého mu začiatkom roka 1944 vydal Župný úrad v Trenčíne vodoprávne povolenie na používanie pre mlyn a pílu. Píla po predošlom majiteľovi bola zanedbaná, nový vlastník musel veľa renovovať. Píla pracovala na vodný pohon iba pri vyšších vodných stavoch. V. Hrtús pílil drevo súkromníkom, ale najmä pre stáleho obchodíka s drevom a rezivom Kováčika z Turzovky. Ak nebolo možné pre nedostatok vody pracovať, pílu a jej zariadenie prebudovával a všetko zariadenie prispôsoboval na vodný pohon. Činnosť píly i sklady s drevom ohrozovali povodne. Povodne ničili i hať na vodný náhon. Veľká povodeň bola napr. 31. mája 1940, keď voda brala mosty, lávky i pozemky. Vtedy spôsobila veľkú škodu i V. Hrtúsovi, keď odplavila drevo z jeho skladu na Vyšnom Konci. Napriek problémom prevádzkoval pílu do roku 1949, keď mu stroje zaplombovali a zakázali prevádzku píly. Vtedajšiemu vedeniu obce V. Hrtús navrhol, že na tom mieste postaví „valašskú pílu“, ako technickú pamiatku a spomienku na obdobie, keď sa v tunajšej oblasti pracovalo primitívne len s jedinou pílou v gátri. Jeho návrh bol zamietnutý. Vrátil sa k tesárskemu remeslu, dožil sa 94 rokov. Pochovaný je v Lendaku, v mieste, kde pôsobil ako kňaz jeho syn Anton. Z niekdajšej píly zostalo v týchto miestach už len opustené koleso.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/vodna-pila-vincenta-hrtusa/",
         "en": "https://www.qrlink.sk/new/en/castles/vodna-pila-vincenta-hrtusa/",
@@ -5189,11 +5473,12 @@ const DB = {
         "assets/audio/migrated/03-mimoriadne-udalosti.mp3"
       ],
       "galeria": [
+        "assets/images/migrated/20230823_134552.jpg",
         "assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Z historického hľadiska turzovská farnosť v roku 1958 nezažila úplne novú, dovtedy nepoznanú situáciu, pretože máme zdokumentované dve udalosti podobného charakteru. Prvýkrát sa s údajným zjavením obyvatelia stretli ešte v roku 1764. Pri akejsi studničke na území obce Vysoká (v tom čase ešte filiálka farnosti Turzovka) sa mala akémusi 12-ročnému dievčaťu zjaviť sv. Anna. Udalosť sa riešila na kongregácii Bytčianskeho dekanátu 18. septembra 1764 v Predmieri. V zápisnici sa uvádza, že zvesť o tomto prípade sa rýchlo rozšírila a rozrušila celé okolie. Aj tu začali ľudia masívne navštevovať toto miesto, veľa pútnikov prichádzalo z Moravy. Napokon sa zistilo, že v tomto prípade išlo o podvod a dievča po napomenutí farára svoje tvrdenia odvolalo. Kňazi mali za úlohu vysvetliť veriacim, že išlo o výmysel a zadržať ich, aby nenavštevovali toto miesto. Napriek tomu tradícia v obci pretrvala a v roku 1911 bola na tomto mieste postavená kaplnka, kde sa v modernom období každoročne koná púť.</p>\n<p>Ďalšie mimoriadne úkazy boli zdokumentované v druhej polovice 19. storočia. V dnešnej mestskej časti Turzovky Hlinené bol na stĺpiku pribitý obrázok Panny Márie a toto miesto bolo pre tunajších obyvateľov posvätným. Schádzali sa tu, modlili a konali procesie, navštevovali toto miesto v čase sucha či šíriacich sa nemocí. Tu sa síce priamo nehovorí o zjavení Panny Márie, ale je písomne doložených niekoľko údajne zázračných uzdravení, ktoré boli zapísané v obecnom protokole (nezachoval sa) a poznáme ich len vďaka opisu vtedajšieho turzovského farára Františka Tagániho, ktorým zdôvodňoval nitrianskemu biskupovi žiadosť svojich veriacich, postaviť na tomto mieste kaplnku. Od roku 1872 stojí na tomto mieste kaplnka Najsvätejšieho Srdca Panny Márie. Časom však táto tradícia upadla do zabudnutia.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
+      "text": "<p>Z historického hľadiska turzovská farnosť v roku 1958 nezažila úplne novú, dovtedy nepoznanú situáciu, pretože máme zdokumentované dve udalosti podobného charakteru. Prvýkrát sa s údajným zjavením obyvatelia stretli ešte v roku 1764. Pri akejsi studničke na území obce Vysoká (v tom čase ešte filiálka farnosti Turzovka) sa mala akémusi 12-ročnému dievčaťu zjaviť sv. Anna. Udalosť sa riešila na kongregácii Bytčianskeho dekanátu 18. septembra 1764 v Predmieri. V zápisnici sa uvádza, že zvesť o tomto prípade sa rýchlo rozšírila a rozrušila celé okolie. Aj tu začali ľudia masívne navštevovať toto miesto, veľa pútnikov prichádzalo z Moravy. Napokon sa zistilo, že v tomto prípade išlo o podvod a dievča po napomenutí farára svoje tvrdenia odvolalo. Kňazi mali za úlohu vysvetliť veriacim, že išlo o výmysel a zadržať ich, aby nenavštevovali toto miesto. Napriek tomu tradícia v obci pretrvala a v roku 1911 bola na tomto mieste postavená kaplnka, kde sa v modernom období každoročne koná púť.</p>\n<p>Ďalšie mimoriadne úkazy boli zdokumentované v druhej polovice 19. storočia. V dnešnej mestskej časti Turzovky Hlinené bol na stĺpiku pribitý obrázok Panny Márie a toto miesto bolo pre tunajších obyvateľov posvätným. Schádzali sa tu, modlili a konali procesie, navštevovali toto miesto v čase sucha či šíriacich sa nemocí. Tu sa síce priamo nehovorí o zjavení Panny Márie, ale je písomne doložených niekoľko údajne zázračných uzdravení, ktoré boli zapísané v obecnom protokole (nezachoval sa) a poznáme ich len vďaka opisu vtedajšieho turzovského farára Františka Tagániho, ktorým zdôvodňoval nitrianskemu biskupovi žiadosť svojich veriacich, postaviť na tomto mieste kaplnku. Od roku 1872 stojí na tomto mieste kaplnka Najsvätejšieho Srdca Panny Márie. Časom však táto tradícia upadla do zabudnutia.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/mimoriadne-udalosti-na-uzemi-turzovky/",
         "en": "https://www.qrlink.sk/new/en/castles/mimoriadne-udalosti-na-uzemi-turzovky/",
@@ -5214,11 +5499,12 @@ const DB = {
         "assets/audio/migrated/04-udajne-zjavenia.mp3"
       ],
       "galeria": [
+        "assets/images/migrated/zivcakova_ii.jpg",
         "assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Prípad z roku 1958 na rozdiel od predošlých nielenže neskončil v zabudnutí ani počas tvrdého odporu minulého režimu, ale po jeho páde sa zo Živčákovej stalo oficiálne uznané mariánske pútnické miesto. Údajné zjavenia Panny Márie lesníkovi Matúšovi Lašútovi vyvolali medzi veriacimi postupne celosvetový ohlas. Vtedajší turzovský farár a dekan K. Točík do farskej kroniky poznamenal: „<em>Na Vyšnom Konci v Turzovke náš farník Matúš Lašút sa chválil, že sa P. Mária zjavila. K tomu primerano začal chodiť horlivo na sv. omšu. Denne od 6 h ráno už bol v kostole a na všetkých omšách bol prítomný. &#8230; Ničím nie je posiaľ potvrdené údajne zjavenie menovaného Lašúta. Toto sa malo stať v mesiaci júni, júli, august, sept., oktob., november 1958</em>.“ Farár o prípade 18. decembra 1958 informoval svojho biskupa v Nitre. Ten jeho postoj odobril s tým, aby dal svojim veriacim na vedomie, že cirkevná hierarchia po preskúmaní prípadu nadobudla presvedčenie, že v danom prípade nešlo o nadprirodzené zjavenie. Biskup Nécsey zároveň vydal zákaz navštevovať Živčákovu. Už na druhý deň po zverejnení zjavení (8. septembra – sviatok Narodenia Panny Márie) sa na horu zišlo asi tisíc ľudí. Prítomný bol aj M. Lašút, ktorý bol vyzvaný, aby sa dostavil na vyšetrovanie do Čadce. Podľa jeho výpovede ho vozili v rámci okresu z miesta na miesto, aby ho zmiatli a vyčerpali. V piatok 12. septembra ho previezli do psychiatrickej liečebne v Bytčici, kde skončil na tzv. ochrannom liečení. Od 18. novembra ho vyšetrovala odborná komisia lekárov na psychiatrickom oddelení Krajského ústavu národného zdravia v Žiline. V júni 1959 bol z ochranného liečenia prepustený, ale v septembri ho opätovne zaistili a odviezli do Bytčice, kde zotrval do novembra 1960. V septembri 1961 bol znova zaistený, v dome mu bola vykonaná domová prehliadka. Odviezli ho do Bytčice a po dvoch týždňoch do psychiatrickej liečebne v Kosmonosoch v Čechách. Stadiaľ ho 12. decembra 1961 prepustili s tým, že je zdravý, ale zaťažený vidinou Matky Božej. Boli proti nemu vedené i súdne vyšetrovania a konania. Po návrate z Kosmonosov ho už lekársky nevyšetrovali. Jeho život bol ale negatívne ovplyvňovaný rôznymi opatreniami. Sociálne vylúčenie výrazne pociťovala aj jeho rodina.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
+      "text": "<p>Prípad z roku 1958 na rozdiel od predošlých nielenže neskončil v zabudnutí ani počas tvrdého odporu minulého režimu, ale po jeho páde sa zo Živčákovej stalo oficiálne uznané mariánske pútnické miesto. Údajné zjavenia Panny Márie lesníkovi Matúšovi Lašútovi vyvolali medzi veriacimi postupne celosvetový ohlas. Vtedajší turzovský farár a dekan K. Točík do farskej kroniky poznamenal: „<em>Na Vyšnom Konci v Turzovke náš farník Matúš Lašút sa chválil, že sa P. Mária zjavila. K tomu primerano začal chodiť horlivo na sv. omšu. Denne od 6 h ráno už bol v kostole a na všetkých omšách bol prítomný. &#8230; Ničím nie je posiaľ potvrdené údajne zjavenie menovaného Lašúta. Toto sa malo stať v mesiaci júni, júli, august, sept., oktob., november 1958</em>.“ Farár o prípade 18. decembra 1958 informoval svojho biskupa v Nitre. Ten jeho postoj odobril s tým, aby dal svojim veriacim na vedomie, že cirkevná hierarchia po preskúmaní prípadu nadobudla presvedčenie, že v danom prípade nešlo o nadprirodzené zjavenie. Biskup Nécsey zároveň vydal zákaz navštevovať Živčákovu. Už na druhý deň po zverejnení zjavení (8. septembra – sviatok Narodenia Panny Márie) sa na horu zišlo asi tisíc ľudí. Prítomný bol aj M. Lašút, ktorý bol vyzvaný, aby sa dostavil na vyšetrovanie do Čadce. Podľa jeho výpovede ho vozili v rámci okresu z miesta na miesto, aby ho zmiatli a vyčerpali. V piatok 12. septembra ho previezli do psychiatrickej liečebne v Bytčici, kde skončil na tzv. ochrannom liečení. Od 18. novembra ho vyšetrovala odborná komisia lekárov na psychiatrickom oddelení Krajského ústavu národného zdravia v Žiline. V júni 1959 bol z ochranného liečenia prepustený, ale v septembri ho opätovne zaistili a odviezli do Bytčice, kde zotrval do novembra 1960. V septembri 1961 bol znova zaistený, v dome mu bola vykonaná domová prehliadka. Odviezli ho do Bytčice a po dvoch týždňoch do psychiatrickej liečebne v Kosmonosoch v Čechách. Stadiaľ ho 12. decembra 1961 prepustili s tým, že je zdravý, ale zaťažený vidinou Matky Božej. Boli proti nemu vedené i súdne vyšetrovania a konania. Po návrate z Kosmonosov ho už lekársky nevyšetrovali. Jeho život bol ale negatívne ovplyvňovaný rôznymi opatreniami. Sociálne vylúčenie výrazne pociťovala aj jeho rodina.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/udajne-zjavenia-na-zivcakovej-matusovi-lasutovi/",
         "en": "https://www.qrlink.sk/new/en/castles/udajne-zjavenia-na-zivcakovej-matusovi-lasutovi/",
@@ -5239,11 +5525,12 @@ const DB = {
         "assets/audio/migrated/05-vyvoj-do-roku-1989.mp3"
       ],
       "galeria": [
+        "assets/images/migrated/zivcakova-chram-matky-cirkvi-1.jpg",
         "assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Kým Lašúta vyšetrovali lekári, na Živčákovu chodievali pútnici, postavili tam oltáriky, na stromy povešali kríže, sv. obrázky a konali sa tam rôzne pobožnosti. Zvýšená účasť bývala obyčajne v nedele a na mariánske sviatky. Z tohto dôvodu biskup E. Nécsey vydal 22. augusta 1961 nariadenie, ktorým sprísnil svoj pôvodný zákaz Ale ani tento závažný dokument nepomohol a veriaci ho nerešpektovali. Najmä nie veriaci zo vzdialenejších slovenských lokalít, Moravy, Čiech a zahraničia. Existujú správy, že veriaci tento zákaz spočiatku nerešpektovali, pretože ho považovali za vynútený zo strany štátnej správy. Je otázne nakoľko biskup Nécsey konal z vlastného rozhodnutia a nakoľko jednoducho konať musel. Z mnohých materiálov, ktoré sa zachovali a kde sa prijímajú opatrenia na likvidáciu pútnického miesta Živčákova totiž vyplýva, že štátna moc ho nútila k vydávaniu neustále sa opakujúcich výziev a nariadení. Porada na OV KSS v Čadci 9. septembra 1967 konštatovala, že aktivizácia na Živčákovej dosahuje širokých rozmerov a dovtedy vydané úpravy sa nerešpektujú. Začiatkom roka 1968 rozposlal nitriansky biskup farnostiam obežník, v ktorom ich informoval o zrušení svojich predchádzajúcich zákazov. Pre veriacich bol tiež zrušený zákaz navštevovať toto miesto. Možno len diskutovať o tom, nakoľko sa na tomto rozhodnutí biskupa podpísal aj celospoločenský vývoj, ktorý vyústil do Pražskej jari a obrodného procesu, zastaveného udalosťami 21. augusta 1968. Toho sa však už nitriansky biskup nedožil, zomrel v Nitre 19. júna 1968.</p>\n<p>Zrejme s nastupujúcou normalizáciou sa počty pútnikov začiatkom 70. rokov značne znížili, pretože informatívna správa  ŠtB z roku 1973 konštatuje, že od roku 1971 má účasť na hore klesajúcu tendenciu. Avšak ľudia na Živčákovu neustále navštevovali. Nešlo len o domácich či veriacich z Čiech a Slovenska, ale aj cudzincov, najmä z Rakúska a Nemecka. Miesto bolo zo strany štátnych orgánov i ŠtB neustále monitorované aj v 70. a 80. rokoch.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
+      "text": "<p>Kým Lašúta vyšetrovali lekári, na Živčákovu chodievali pútnici, postavili tam oltáriky, na stromy povešali kríže, sv. obrázky a konali sa tam rôzne pobožnosti. Zvýšená účasť bývala obyčajne v nedele a na mariánske sviatky. Z tohto dôvodu biskup E. Nécsey vydal 22. augusta 1961 nariadenie, ktorým sprísnil svoj pôvodný zákaz Ale ani tento závažný dokument nepomohol a veriaci ho nerešpektovali. Najmä nie veriaci zo vzdialenejších slovenských lokalít, Moravy, Čiech a zahraničia. Existujú správy, že veriaci tento zákaz spočiatku nerešpektovali, pretože ho považovali za vynútený zo strany štátnej správy. Je otázne nakoľko biskup Nécsey konal z vlastného rozhodnutia a nakoľko jednoducho konať musel. Z mnohých materiálov, ktoré sa zachovali a kde sa prijímajú opatrenia na likvidáciu pútnického miesta Živčákova totiž vyplýva, že štátna moc ho nútila k vydávaniu neustále sa opakujúcich výziev a nariadení. Porada na OV KSS v Čadci 9. septembra 1967 konštatovala, že aktivizácia na Živčákovej dosahuje širokých rozmerov a dovtedy vydané úpravy sa nerešpektujú. Začiatkom roka 1968 rozposlal nitriansky biskup farnostiam obežník, v ktorom ich informoval o zrušení svojich predchádzajúcich zákazov. Pre veriacich bol tiež zrušený zákaz navštevovať toto miesto. Možno len diskutovať o tom, nakoľko sa na tomto rozhodnutí biskupa podpísal aj celospoločenský vývoj, ktorý vyústil do Pražskej jari a obrodného procesu, zastaveného udalosťami 21. augusta 1968. Toho sa však už nitriansky biskup nedožil, zomrel v Nitre 19. júna 1968.</p>\n<p>Zrejme s nastupujúcou normalizáciou sa počty pútnikov začiatkom 70. rokov značne znížili, pretože informatívna správa  ŠtB z roku 1973 konštatuje, že od roku 1971 má účasť na hore klesajúcu tendenciu. Avšak ľudia na Živčákovu neustále navštevovali. Nešlo len o domácich či veriacich z Čiech a Slovenska, ale aj cudzincov, najmä z Rakúska a Nemecka. Miesto bolo zo strany štátnych orgánov i ŠtB neustále monitorované aj v 70. a 80. rokoch.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/vyvoj-do-roku-1989/",
         "en": "https://www.qrlink.sk/new/en/castles/vyvoj-do-roku-1989/",
@@ -5264,11 +5551,12 @@ const DB = {
         "assets/audio/migrated/06-stavba-kaplnky-a-putnicke-miesto.mp3"
       ],
       "galeria": [
+        "assets/images/migrated/zivcakova_v.jpg",
         "assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Už v septembri 1989 sa na jednom oltáriku objavil zošit s textom žiadosti o postavenie kaplnky, ktorý obsahoval asi 600 podpisov. V novembri toho istého roka sa zrútil režim pod vládou KSČ a nasledoval prechod k slobodnej demokratickej spoločnosti. Veriacich povzbudila i návšteva pápeža Jána Pavla II. v apríli 1990, keď zavítal aj do Bratislavy. Keďže na Biskupský úrad v Nitre prichádzalo množstvo listov, v ktorých veriaci žiadali postavenie kaplnky na hore Živčákova, v roku 1992 vydal biskup predbežný súhlas na stavbu. Projekt kaplnky vypracoval Ing. arch. Marián Goč. V priebehu roka 1993 bola kaplnka Panny Márie, Kráľovnej pokoja postavená. Prvú sv. omšu tu na turzovské hody 15. augusta 1993 slúžil vtedajší turzovský farár Ivan Mahrík, ktorý sa veľmi pričinil o stavbu kaplnky i o rozvoj samotného pútnického miesta. V nedeľu 17. 10. 1993 bola kaplnka slávnostne posvätená, sv. omšu celebroval z poverenia kardinála Jána Korca vtedajší čadčiansky dekan Milan Kavor.</p>\n<p>Aj po zmene režimu Cirkev podporovala toto miesto len ako miesto mariánskej úcty a miesto modlitby. V tomto duchu v roku 2008 bola hora Živčákova vyhlásená žilinským diecéznym biskupom oficiálne za Mariánske pútnické miesto a miesto modlitby. O rok neskôr sa začala výstavba pútnického chrámu Panny Márie Matky Cirkvi. Práce na tejto veľkolepej stavbe boli ukončené v roku 2015 a slávnostná konsekrácia sa konala za účasti mnohých hostí a veľkého množstva pútnikov 4. októbra. Vedľa kostola prebieha výstavba exercično-pastoračného domu Marta, kde časť bude vyhradený pre rehoľníkov, ktorí majú v duchovnej správe pútnické miesto a časť bude slúžiť pre potreby veriacich, pre ubytovanie pútnikov a pod.</p>\n<p>Duchovná správa na hore Živčákova bola zriadená v roku 2012 a jej vedením sú poverení členovia rehole Misionárov Najsvätejších sŕdc Pána Ježiša a Panny Márie. Duchovná správa je od roku 2018 súčasťou Turzovského dekanátu Žilinskej diecézy.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
+      "text": "<p>Už v septembri 1989 sa na jednom oltáriku objavil zošit s textom žiadosti o postavenie kaplnky, ktorý obsahoval asi 600 podpisov. V novembri toho istého roka sa zrútil režim pod vládou KSČ a nasledoval prechod k slobodnej demokratickej spoločnosti. Veriacich povzbudila i návšteva pápeža Jána Pavla II. v apríli 1990, keď zavítal aj do Bratislavy. Keďže na Biskupský úrad v Nitre prichádzalo množstvo listov, v ktorých veriaci žiadali postavenie kaplnky na hore Živčákova, v roku 1992 vydal biskup predbežný súhlas na stavbu. Projekt kaplnky vypracoval Ing. arch. Marián Goč. V priebehu roka 1993 bola kaplnka Panny Márie, Kráľovnej pokoja postavená. Prvú sv. omšu tu na turzovské hody 15. augusta 1993 slúžil vtedajší turzovský farár Ivan Mahrík, ktorý sa veľmi pričinil o stavbu kaplnky i o rozvoj samotného pútnického miesta. V nedeľu 17. 10. 1993 bola kaplnka slávnostne posvätená, sv. omšu celebroval z poverenia kardinála Jána Korca vtedajší čadčiansky dekan Milan Kavor.</p>\n<p>Aj po zmene režimu Cirkev podporovala toto miesto len ako miesto mariánskej úcty a miesto modlitby. V tomto duchu v roku 2008 bola hora Živčákova vyhlásená žilinským diecéznym biskupom oficiálne za Mariánske pútnické miesto a miesto modlitby. O rok neskôr sa začala výstavba pútnického chrámu Panny Márie Matky Cirkvi. Práce na tejto veľkolepej stavbe boli ukončené v roku 2015 a slávnostná konsekrácia sa konala za účasti mnohých hostí a veľkého množstva pútnikov 4. októbra. Vedľa kostola prebieha výstavba exercično-pastoračného domu Marta, kde časť bude vyhradený pre rehoľníkov, ktorí majú v duchovnej správe pútnické miesto a časť bude slúžiť pre potreby veriacich, pre ubytovanie pútnikov a pod.</p>\n<p>Duchovná správa na hore Živčákova bola zriadená v roku 2012 a jej vedením sú poverení členovia rehole Misionárov Najsvätejších sŕdc Pána Ježiša a Panny Márie. Duchovná správa je od roku 2018 súčasťou Turzovského dekanátu Žilinskej diecézy.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/stavba-kaplnky-a-putnicke-miesto/",
         "en": "https://www.qrlink.sk/new/en/castles/stavba-kaplnky-a-putnicke-miesto/",
@@ -5288,7 +5576,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/text-to-speech_frank_kovy-mozu-byt-nek-_2025-07-16.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/zs-banova-info-pexeso-02-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Kovy môžu byť nekonečne recyklované a patria do červených kontajnerov. Niekde sa zbierajú v kombinácii s plastami, či s viacvrstvovými kombinovanými materiálmi (VKM).</p>\n<p><strong>Sem patria</strong> kovové obaly, konzervy, kovové výrobky a súčiastky, alobal, hliníkové plechovky od nápojov, železné a neželezné kovové súčiastky a všetky kovy so symbolom FE 40 a ALU 41.</p>\n<p><strong>Do tohto kontajnera nepatria</strong> kovové obaly kombinované s iným obalom, napr. obaly zo zubnej pasty, kovy hrubo znečistené zvyškami jedla, farbami a rôznymi chemickými a toxickými látkami.</p>\n<p><em>Zdroj: <a href=\"https://sk.wikipedia.org/wiki/Kov\">Wikipedia</a></em></p>",
@@ -5311,7 +5601,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/text-to-speech_frank_sklo-je-mozne-rec-_2025-07-16.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/zs-banova-info-pexeso-03-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Sklo je možné recyklovať prakticky donekonečna. Odpad zo skla patrí do zeleného kontajnera a pred vyhodením je potrebné obal zbaviť zvyškov jedla resp. tekutín.</p>\n<p><strong>Do zelených zberných nádob patria</strong> sklenené obaly od nápojov či potravín, poháre, predmety zo skla, fľaštičky od kozmetiky, okenné sklo, sklenené črepy, obaly s recyklačným symbolom a kódom GL 70, 71 a 72.</p>\n<p><strong>Sem nepatrí</strong>: porcelán, keramika, autosklo, zrkadlá, TV obrazovky, fľaše od chemikálií, veľmi znečistené fľaše a sklenené obaly (najmä pieskom), fľaštičky od liečiv, žiarovky a žiarivky, sklo kombinované s iným materiálom (drôtené sklo).</p>\n<p>Čím ďalej, tým viac je praktizovaný oddelený zber číreho a farebného skla. Najčastejšie sa používa delený kontajner, kde je jedna polovica pre číre a druhá pre farebné sklo. Niekde sa môžu nachádzať dva samostatné kontajnery pre číre a farebné sklo, namiesto deleného kontajnera.</p>\n<p><strong>Číre sklo:</strong> iba číre fľaše, poháre a iné číre sklo bez sfarbenia.</p>\n<p><strong>Farebné (zmesné) sklo:</strong> hnedé, zelené, šedé, modré fľaše, fľaštičky od liekov, tabuľové sklo (aj číre kvôli jeho chemickému zloženiu), biele (mliečne) sklo.</p>\n<p>Pokiaľ je iba jeden kontajner na sklo, tak sa nerozlišuje na číre a farebné sklo, ale všetko sa separuje do jedného kontajnera.</p>\n<p><em>Zdroj: <a href=\"https://sk.wikipedia.org/wiki/Sklo\">Wikipedia</a></em></p>",
@@ -5334,7 +5626,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/text-to-speech_frank_bioodpad-nadoba-_2025-07-16.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/zs-banova-info-pexeso-04.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<h2>Bioodpad</h2>\n<p>Nádoba na bioodpad má hnedú farbu a je označená ako biologicky rozložiteľný odpad.</p>\n<p><strong>Do hnedého kontajnera patrí</strong> biologicky rozložiteľný odpad, ako sú zvyšky ovocia, zeleniny, šupky, zvyšky kávy a čaju, tráva, malé konáre zo stromov, kvety, lístie.</p>\n<p><strong>Nepatria sem</strong> vlasy, popol, zvyšky jedla a mäsa, kosti, plastové sáčky, kamene, škrupiny z vajec a ostatný nerozložiteľný odpad.</p>\n<p><em>Zdroj: <a href=\"https://sk.wikipedia.org/\">Wikipedia</a></em></p>",
@@ -5357,7 +5651,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/text-to-speech_frank_plasty-sa-vyrabaj-_2025-07-16-1.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/zs-banova-info-pexeso-05.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<h2>Plasty</h2>\n<p>Plasty sa vyrábajú z ropy a sú najčastejšie vyskytujúci sa odpad v domácností. Plasty tvoria asi najväčší podiel triedeného odpadu. Spätne spracovať sa dajú najmä termoplasty, z ktorých je väčšina obalových systémov. Plasty sú rovnako ďalej dotrieďované.</p>\n<p><strong>Do žltého kontajnera patria</strong> PET fľaše od nápojov (ich objem je potrebné najskôr znížiť napríklad zošliapnutím, stlačením), tégliky, obaly od sladkostí, igelitové vrecká (aj mikroténové), číre a farebné fólie, polystyrén, poháriky z automatov a iné plastové nádobky a obaly s recyklačným symbolom a kódom PET (1), LDPE (2), HDPE (4), PP (5), PS (6).</p>\n<p><strong>Sem nepatria</strong> PET fľaše od potravinárskych olejov, novodurové rúrky obaly od nebezpečných látok (motorový olej, chemikálie, farby a pod.), nádobky od liečiv, textil z umelých vlákien, podlahové krytiny, linoleá, guma, molitan, pneumatiky, vrstvené obaly.</p>\n<p>V niektorých mestách je do kontajnerov na plasty možné hádzať aj nápojové kartóny, čo je na smetiaku napísané.</p>\n<p><em>Zdroj: <a href=\"https://sk.wikipedia.org/wiki/Plast\">Wikipedia</a></em></p>",
@@ -5380,7 +5676,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/text-to-speech_frank_papier-sa-moze-re-_2025-07-16.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/zs-banova-info-pexeso-06-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Papier sa môže recyklovať v závislosti od jeho kvality 6-krát niekedy až 7-krát. Tenké vlákna, z ktorých pozostáva papier, sa skracujú pri každej recyklácii, čím sa znižuje ich kvalita a možnosť opakovanej recyklácie. Škatule pred vyhodením je potrebné stlačiť na plocho, aby nezaberali veľký priestor v kontajneri.</p>\n<p><strong>Do modrého kontajnera patria</strong> noviny, časopisy, kancelársky papier, reklamné letáky, krabice (ak nie sú kombinované s iným materiálom napr. hliník, celofán), kartóny, papierové vrecúška, obálky, papierová lepenka, knihy bez väzby, obaly s recyklačným symbolom a kódom PAP 20, 21 a 22.</p>\n<p><strong>Do kontajnera na papier nepatrí</strong> mokrý, mastný a znečistený papier, uhlový a voskovaný papier, knihy v tvrdej väzbe, nápojové kartóny, asfaltový a dechtovaný papier, použité plienky a hygienické potreby, kopírovací a samoprepisovací celofán.</p>\n<p><em>Zdroj: <a href=\"https://sk.wikipedia.org/wiki/Papier\">Wikipedia</a></em></p>",
@@ -5403,7 +5701,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/1-the-water-reservoir-in-porabka.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/1-zapora-wodna-w-porabce.jpg"
+      ],
       "gps": {
         "lat": 49.807201,
         "lng": 19.201918
@@ -5429,7 +5729,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/2-the-settlement-kolonia-in-the-witkiewicz-style.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/2-budynek-na-osiedlu-kolonia-w-stylu-witkiewiczowskim.jpg"
+      ],
       "gps": {
         "lat": 49.814007,
         "lng": 19.215975
@@ -5455,7 +5757,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/3-the-municipal-culture-centre-in-porabka.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/untitled.jpg"
+      ],
       "gps": {
         "lat": 49.820541,
         "lng": 19.218326
@@ -5481,7 +5785,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/4-the-regional-room-in-porabka.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/4-izba-regionalna-w-porabce.jpg"
+      ],
       "gps": {
         "lat": 49.820154,
         "lng": 19.217641
@@ -5507,7 +5813,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/5-the-chapel-of-saint-urban-krakowska-street.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/5-kaplica-sw-urbana.jpg"
+      ],
       "gps": {
         "lat": 49.821086,
         "lng": 19.218623
@@ -5533,7 +5841,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/6-the-chapel-on-tronca.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/6-kapliczka-na-trzonce.jpg"
+      ],
       "gps": {
         "lat": 49.814098,
         "lng": 19.279333
@@ -5559,7 +5869,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/7-the-reservoir-czaniecka.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/7-zbiornik-czaniecki.jpg"
+      ],
       "gps": {
         "lat": 49.828962,
         "lng": 19.220428
@@ -5585,7 +5897,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/8-the-forest-reservation-zasolnica.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/8-porabka-zasolnica1.jpg"
+      ],
       "gps": {
         "lat": 49.817509,
         "lng": 19.202544
@@ -5611,7 +5925,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/9-the-church-in-czanc.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/9-1.jpg"
+      ],
       "gps": {
         "lat": 49.850158,
         "lng": 19.243509
@@ -5637,7 +5953,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/10-the-chapel-in-the-bujakow-forest.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/10-kapliczka-w-bujakowskim-lesie.jpg"
+      ],
       "gps": {
         "lat": 49.841205,
         "lng": 19.19673
@@ -5663,7 +5981,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/11-the-villa-in-kobiernice-and-the-remember-park.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/11-dworek-w-kobiernicach.jpg"
+      ],
       "gps": {
         "lat": 49.855608,
         "lng": 19.217363
@@ -5689,7 +6009,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/12-the-ruin-of-the-castle-on-wolk-and-the-historical-route.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/12-ruiny-zamku-na-wo-ku.jpg"
+      ],
       "gps": {
         "lat": 49.831074,
         "lng": 19.203092
@@ -5715,7 +6037,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/18-sarisska-galeria.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/sarisska-galeria.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d654.4368803374607!2d21.2402468292687!3d48.9963619987063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzQ2LjkiTiAyMcKwMTQnMjYuOSJF!5e0!3m2!1ssk!2ssk!4v1524205053767",
       "text": "<p>Šarišská galéria patrí medzi najstaršie regionálne galérie na Slovensku. Bola založená v roku 1956, v meste bohatom na históriu a kultúrne tradície a sústreďuje sa v nej predovšetkým výtvarné umenie. Pôvodný názov „Krajská galéria“ sa neskôr zmenil na „Galéria výtvarného umenia“ a od roku 1991 používa názov „Šarišská galéria“. </p>\n<p>V roku 1957 bola galéria otvorená pre verejnosť a v tomto čase sídlila v budove bývalého evanjelického kolégia, ktoré je dnes národnou kultúrnou pamiatkou. V roku 1981 začala galéria užívať aj dva bývalé meštianske domy, pôvodne gotické s renesančnými a barokovými prestavbami, ktoré boli účelovo rekonštruované pre jej potreby. Dom na Hlavnej 53 patrí k najzaujímavejším gotickým domom v meste. Jeho priečelie je zakončené trojuholníkovým štítom. Na jeho vrchole sa nachádza plastika muža v kuruckom oblečení, ktorý drží v pravej ruke šabľu a v ľavej odťatú hlavu nepriateľa. </p>\n<p>Celý zbierkový fond, ktorý dnes tvorí okolo 3500 diel maliarstva, sochárstva, grafiky a kresby 15. – 20. storočia, galéria budovala od počiatku vlastným výskumom, zberom, vyhľadávaním a nákupmi. Vo svojej zbierkovej činnosti sa galéria zameriava na mapovanie histórie a súčasnosti výtvarného umenia regiónu Šariš, avšak vyhľadáva, získava a odborne spravuje i diela predstaviteľov umenia Slovenska a osobností umenia východného Slovenska. </p>\n<p>Šarišská galéria v Prešove kvalitou a bohatstvom svojich zbierkových fondov, svojou výstavnou, kultúrno-výchovnou a edičnou činnosťou patrí v súčasnosti k popredným galerijným zariadeniam na Slovensku a reprezentuje vzorový typ zbierkotvornej inštitúcie pôsobiacej v regióne.</p>\n<p>Otváracie hodiny: </p>\n<p>Pondelok: zatvorené </p>\n<p>Utorok: 9.00 – 18.00 </p>\n<p>Streda: 9.00 – 18.00 </p>\n<p>Štvrtok: 9.00 – 18.00 </p>\n<p>Piatok: 9.00 – 18.00 </p>\n<p>Sobota: 14.00 – 18.00 </p>\n<p>Nedeľa: 14.00 – 18.00</p>\n<p>Adresa: </p>\n<p>Šarišská galéria </p>\n<p>Hlavná 51 </p>\n<p>080 01 Prešov</p>\n<p>Tel.: 051/ 772 54 23</p>\n<p><a href=\"http://www.sgpresov.sk\">www.sgpresov.sk</a></p>",
@@ -5738,7 +6062,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/04-frantiskansky-kostol.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/frantiskansky-kostol.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.7549846962456!2d21.24166831622513!3d48.99621997930127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzQ2LjQiTiAyMcKwMTQnMzcuOSJF!5e0!3m2!1ssk!2ssk!4v1524205536953",
       "text": "<p>Barokový jednoloďový rímskokatolícky kostol s dvojvežovým priečelím, spojený na severnej strane s kláštorom. Zasvätený bol sv. Jozefovi. Svojimi rozmermi sa zaraďuje k veľkým chrámom Slovenska. </p>\n<p>Okolo r. 1380 postavila rehoľa karmelitánov nový kostol spolu s neveľkým kláštorom priamo na mieste pôvodného kostola z 11. storočia. Po odchode rehoľníkov z mesta r. 1559 obidve stavby pripadli pod mestskú správu, ktorá kláštor počas reformácie využívala na hospodársko-obranné účely. </p>\n<p>Rozhodnutím panovníka Leopolda I. z r. 1661 kostol s kláštorom pripadli františkánskej reholi z neďalekej Nižnej Šebastovej. Vďaka finančnej pomoci baróna Františka Klobušického z Prešova a barónky Šóšovej zo Solivaru čoskoro začala prestavba pôvodne gotického kostola, a to presbytéria a lode kostola, ku ktorej boli medzi piliermi pribudované bočné kaplnky. </p>\n<p>Podľa vzoru jezuitského kostola v Ríme bolo upravené celé priečelie s dvoma bočnými vežami. V r. 1708-1718 sa realizovala rozsiahlejšia rekonštrukcia kostola a kláštora, ktorú viedol košický staviteľ Ján Tornyossi a ktorú finančne podporovala rodina Klobušickovcov. Chrám má štyri oltáre a kazateľnicu. </p>\n<p>V stavebných prácach sa pokračovalo aj v neskoršom období, keď v r. 1732-1735 bolo priečelie chrámu doplnené štukovou ornamentikou a štyrmi pieskovcovými plastikami. Plastiky predstavovali sv. Róchusa, Floriána, Františka a Antona. Ich autorom bol Šimon Griming. </p>\n<p>Nádherne upravený bol aj interiér kostola. Novovytvorený hlavný oltár sv. Rodiny (1732) získal bohatú sochársku výzdobu. Jeho autor František Strecius na ňom umiestnil vyše 40 rozličných plastík, uprostred ktorých bol 12-ročný Ježiš, Panna Mária a sv. Jozef, ktorému bol kostol zasvätený. Obnovený chrám bol slávnostne vysvätený r. 1735 a stal sa ďalším prejavom sakrálneho umenia v Prešove. </p>\n<p>Nové rozsiahlejšie stavebné práce boli na kostole urobené o poldruha storočia neskôr, po veľkom požiari v decembri 1870, ktorý zničil interiér kostola, vrátane hlavného oltára. Po nákladných rekonštrukčných prácach vypukol 3. decembra 1888 nový požiar, pri ktorom zhoreli obe štíhle kostolné veže a zostalo z nich len torzo, ktoré výraznejšie nezmenilo svoju podobu do súčasnej doby. </p>\n<p>Kostol sv. Jozefa bol v r. 1984-1991 podrobený nevyhnutnej generálnej oprave, počas ktorej boli vymenené oba pieskovcové portály, takmer všetky okná a rímsy, strecha kostola a veží, ba i staré vežové hodiny. Úprava budovy kláštora bola ukončená r. 1993.</p>",
@@ -5761,7 +6087,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/09-evanjelicke-kolegium.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/evanjelicke-kolegium.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.609886856688!2d21.237173316225192!3d48.998980979301535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzU2LjMiTiAyMcKwMTQnMjEuNyJF!5e0!3m2!1ssk!2ssk!4v1524230228595",
       "text": "<p>Neďaleko chrámu sv. Trojice stojí budova jedného z najvýznamnejších školských ústavov a rozhodne najvýznamnejšia pamiatka na protestantské školstvo v našich kultúrnych dejinách. </p>\n<p>O založení prešovského evanjelického kolégia rozhodli delegáti hornouhorských protestantských stavov 18. novembra 1665. V nasledujúcom roku bol položený jej základný kameň a o ďalší rok na jeseň sa začala výučba v novej škole. Kolégium nadviazalo na bohaté tradície mestskej humanistickej školy, kde popri viacerých významných osobnostiach krátky čas pôsobil i J. A. Komenský. Podľa vzoru podobných evanjelických škôl v Nemecku bolo zriadené desaťtriedne gymnázium s kurzom teológie a filozofie v najvyšších ročníkoch. </p>\n<p>Náhlym zvratom politického vývinu v krajine po Vešeléniho sprisahaní došlo však r. 1671 k násilnému prerušeniu tohto sľubného vývinu. Budovu obsadilo vojsko, o dva roky nato ju dostali jezuiti a zriadili si v nej svoju rezidenciu. Evanjelické kolégium bolo zrušené a profesori museli opustiť mesto. Tento stav trval do roku 1682, keď Imrich Tököli ako jeho bývalý žiak obnovil činnosť kolégia. Po porážke odboja sa doňho opäť nasťahovali jezuiti. Posledné obdobie rozkvetu prežívalo staré kolégium počas povstania Františka II. Rákociho. </p>\n<p>Po obsadení Prešova cisárskym vojskom v decembri 1710 kapitulačné podmienky garantovali síce zachovanie kolégia, avšak kráľovná Eleonóra v nasledujúcom roku prikázala evanjelikom odísť a odovzdať budovu opäť jezuitom. Počas ďalších šesťdesiatich rokov slúžila kolegiálna budova ako jezuitská rezidencia, až do zrušenia rádu r. 1773, keď sa spolu so susedným kostolom stala majetkom eráru. </p>\n<p>Od roku 1785 prebiehala výučba v pôvodnej budove kolégia. Dôležitým medzníkom vo vývine kolégia bol rok 1804, keď získalo status dištriktuálneho kolégia, s pôsobnosťou pre územie celého Potiského dištriktu evanjelickej a. v. cirkvi. </p>\n<p>Po páde absolutizmu a po rakúsko-maďarskom vyrovnaní (1867) nastal v 70. rokoch dynamický rozvoj školy. Kolégium sa stalo mohutným školským ústavom, združujúcim plnotriedne gymnázium, právnickú a teologickú akadémiu a učiteľský ústav. </p>\n<p>Po vzniku Československa prestalo kolégium v predvojnovej podobe existovať. Ostalo iba osemtriedne gymnázium, ktoré si udržalo tradične vysokú úroveň. Vyučovanie bolo spočiatku dvojjazyčné, od druhej polovice 20. rokov však slovenčina úplne nahradila maďarský vyučovací jazyk. </p>\n<p>Budova starého kolégia sa r. 1950 stala majetkom štátu. Odvtedy ju používali viaceré inštitúcie a pri nedostatočnej starostlivosti mesta a štátu postupne schátrala. V roku 1992 sa stala v zmysle reštitúcií opäť majetkom evanjelickej cirkvi augsburského vyznania. </p>\n<p>Pôvodná budova bola trojkrídlovou renesančnou stavbou s dvorom uprostred, uzavretá na južnej strane múrom so vstupnou bránou. Nad poschodím s radom renesančných okien sa týčil vysoký atikový múr s typickou štítkovou atikou. V roku 1716 spojili jezuiti už skôr nadstavané južné krídlo na poschodí so severnou emporou susedného (evanjelického) kostola. V r. 1724 celú budovu barokovo upravili. Radikálna prestavba kolégia prebiehala v r. 1867-1887 pod vedením architekta K. Benkóa. Počas nej bola zbúraná spojovacia chodba, nadstavané druhé poschodie a celá budova upravená v novorenesančnom duchu. Najkrajšou miestnosťou spomedzi interiérov je aula, kde sú umiestnené historické fondy kolegiálnej knižnice. </p>\n<p>V roku 1908 bol na severozápadnom nároží postavený pomník obetiam Caraffovho krvavého súdu z r. 1687 spolu s pamätnou tabuľou s menami popravených.</p>",
@@ -5784,7 +6112,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/03-chram-sv-jana-krstitela.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/chram-sv-jana-krstitela.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.8637646743155!2d21.24080931622513!3d48.994149979301085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzM4LjkiTiAyMcKwMTQnMzQuOCJF!5e0!3m2!1ssk!2ssk!4v1524657054426",
       "text": "<p>Pôvodne gotický jednoloďový kostol. V 17. storočí bol spojený s minoritským kláštorom a v 18. storočí barokovo prestavaný do súčasnej podoby. </p>\n<p>V 1. polovici 14. storočia bola postavená na južnom okraji Prešova budova mestského špitála, ku ktorej bola ešte v tom istom storočí pristavená menšia kaplnka. Na jej mieste začali stavať r. 1429 nový špitálsky kostol. V tom čase sa tento kostol nachádzal mimo prvých mestských hradieb a až neskôr po ich presunutí sa dostal do vnútorného areálu mesta. </p>\n<p>Po nástupe reformácie sa špitálsky kostol stal kostolom evanjelického slovenského obyvateľstva Prešova. </p>\n<p>Po nariadení panovníka Leopolda I. bol v r. 1673 kostol odovzdaný reholi minoritov, ktorí prišli do Prešova v tom istom roku. Okrem kostola dostali do vlastníctva aj nemocnicu – špitál. Minoritský kostol sa dočkal rozsiahlejšej prestavby až v polovici 18. storočia. Prestavbu viedol prešovský staviteľ Gašpar Urlespacher v r. 1753-1754. Sanktuárium orientovali na západ, hlavný vstupný portál bol premiestnený na východnú stranu do ulice. Novovybudované hlavné priečelie bolo ešte väčšmi zvýraznené bohatou barokovou výzdobou. V priestore chrámovej lode boli vstavané dve bočné kaplnky. Tretia kaplnka vznikla v priestore pod vežou na severnej strane. Nad novovybudovaným chórom bola zachovaná cenná gotická sieťová klenba, pričom z pôvodného špitálskeho kostola sa ešte zachovala časť múru s opornými piliermi a kostolnou vežou. </p>\n<p>Pravdepodobne v závere tejto barokovej prestavby minoritského chrámu bolo postavené dnes už neexistujúce súsošie sv. Jána Nepomuckého, ktoré bolo umiestnené pred kláštorom, na kraji Hlavnej ulice. </p>\n<p>Práce v interiéri kostola pokračovali ďalej a v r. 1757 vznikli štyri väčšie fresky zo života sv. Jána Krstiteľa. Ich autorom bol dnes neznámy košický maliar. Dodnes sú zachované na strope chrámovej lode. </p>\n<p>Ďalšia úprava kostola sa realizovala až v r. 1835, keď už kostol patril od r. 1818 gréckokatolíckemu biskupstvu. V r. 1846 bol chrám upravovaný pre potreby východného rítu. Bol upravený oltár, vytvorený ikonostas, biskupský trón, kazateľnica a kanonické lavice. </p>\n<p>Pod chrámom je rozsiahla krypta. V nej sú pochovaní piati biskupi, kanonici, členovia rádu minoritov a jezuiti. </p>\n<p>V 50. rokoch bol chrám daný do užívania pravoslávnej cirkvi, keď bola v Československu zrušená gréckokatolícka cirkev. Naspäť sa jej vrátil v roku 1968, po znovuobnovení gréckokatolíckej cirkvi. V rokoch 1977-1980 sa pristúpilo k jeho generálnej renovácii, ale k rozsiahlejšej rekonštrukcii celého komplexu došlo až v r. 1994-1995.</p>",
@@ -5807,7 +6137,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/10-susosie-immaculaty.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/susosie-imacculata.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.568039908227!2d21.238498961312196!3d48.99977724413268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzU3LjgiTiAyMcKwMTQnMjIuMCJF!5e0!3m2!1ssk!2ssk!4v1524657169917",
       "text": "<p>Dominantou severnej časti námestia je obnovené barokové súsošie Immaculaty, obklopené parčíkom, Prešovčanmi nesprávne nazývané Trojica. </p>\n<p>V roku 1751 dali postaviť toto súsošie jezuiti ako pamiatku na mor. Stojí na mieste, kde bolo od marca do septembra 1687 popravisko Prešovského krvavého súdu. </p>\n<p>Pieskovcové súsošie v podobe trojdielneho podstavca so sochami štyroch svätcov – sv. Mikuláša, biskupa sv. Jána Nepomuckého, sv. Štefana a sv. Františka Xaverského – je dielom košického sochára Jozefa Hartmanna, ktorý patril medzi najznámejších sakrálnych umelcov svojej doby na východnom Slovensku. Dominantu diela tvorí pozlátená socha Madony s dieťaťom, korunou a žezlom. Z pôvodných sôch na podstavci sa dodnes zachovali iba plastiky sv. Mikuláša a sv. Jána Nepomuckého. </p>\n<p>Silne poškodené a zvetrané súsošie bolo reštaurované v r. 1967 a najnovšie v rokoch 1995-1997.</p>",
@@ -5830,7 +6162,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/16-mestske-hradby.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/mestske-hradby-florianova-brana.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.7372747821905!2d21.235212316225226!3d48.99655697930139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzQ3LjYiTiAyMcKwMTQnMTQuNiJF!5e0!3m2!1ssk!2ssk!4v1524657312693",
       "text": "<p>Mestské hradby boli jednou z najdôležitejších mestských výsad v stredoveku. Začiatok ich stavby sa datuje od roku 1374 a právo na ich stavbu dostal Prešov od panovníka Ľudovíta I. </p>\n<p>Hradby mali elipsovitý pôdorys, mali jedenásť veží, boli dvojité a medzi nimi sa nachádzala priekopa, do ktorej sa v čase nebezpečenstva vypúšťala voda z mlynského potoka. </p>\n<p>V 18. storočí sa stala vojenská funkcia mesta neaktuálna, preto cisárovná Mária Terézia vydala v roku 1751 príkaz na zrušenie mestských hradieb. </p>\n<p>Hradobný systém bol zachytený na mape, ktorú zhotovil prešovský geometer Gaspar v r. 1768, tesne pred ich zlikvidovaním. </p>\n<p>Do dnešnej doby sa z hradieb zachovala iba malá časť. Najväčším objektom zo zachovaných častí mestského opevnenia je Floriánova brána na rovnomennej ulici. Slúžila na vstup do mesta pre peších prichodiacich a na vyústenie mestského kanálu. Do dnešnej podoby bola upravená na konci 18. storočia. S priľahlou budovou dnes patrí Hotelovej akadémii v Prešove. </p>\n<p>Jedinou zachovanou delovou baštou je polygonálny bastión, stojaci východne od františkánskeho kostola. V jeho susedstve pod Kmeťovým stromoradím sa tiahne časť zachovanej priekopy s hradobným múrom. Na južnej strane sa v nej rozprestiera Záhrada umenia. </p>\n<p>Na Kováčskej ulici sa zachovala pôvodná bašta zo staršieho obdobia výstavby hradieb, v ktorej sa dnes nachádza kaviareň a reštaurácia.</p>",
@@ -5853,7 +6187,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/01-kostol-sv-mikulasa.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/kostol-sv-mikulasa.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.663596363539!2d21.23751631622515!3d48.997958979301515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzUyLjciTiAyMcKwMTQnMjIuOSJF!5e0!3m2!1ssk!2ssk!4v1524657362805",
       "text": "<p>Najvýznamnejšou historickou dominantou Prešova je nesporne konkatedrála sv. Mikuláša, ktorá je zároveň najstaršou budovou a jedinou dochovanou gotickou sakrálnou stavbou v meste. Chrám je gotickým trojlodím, tzv. sieňovým kostolom, ktoré boli rozšírené predovšetkým v nemeckých oblastiach. </p>\n<p>V minulosti ho považovali za jeden z najdokonalejších sieňových kostolov v bývalom Uhorsku a spomedzi stavieb rovnakého typu na Slovensku sa svojimi rozmermi (dĺžka 54,70 m, šírka 34,45 m a výška vnútorného priestoru 16 m) patrí konkatedrála sv. Mikuláša v Prešove k najkrajším monumentálnym stavbám neskorej gotiky na Slovensku. </p>\n<p>Jeho pôvod siaha ešte do predmestského obdobia a pravdepodobne už od 13. storočia stál na jeho mieste kostol nemeckej osady. Azda v tých časoch má svoj pôvod i patrocínium sv. Mikuláša, ktoré so sebou priniesli nemeckí kolonisti. Vlastný farský kostol si mesto postavilo koncom 40. rokov 14. storočia. Dokladá to listina kráľovnej Alžbety z r. 1347, dovoľujúca Prešovčanom kdekoľvek v Šarišskej stolici lámať kameň, určený na jeho výstavbu. Možno predpokladať, že táto prvá stavba bola vrcholne gotickým trojlodím s pôdorysom v podstate zhodným s dnešným kostolom. Zachovali sa z nej hlavice stĺpov a konzoly v severnej stene a triumfálnom oblúku, ktoré zároveň poukazujú na výšku pôvodného chrámu. Jeho staviteľov pripomína reliéf bradatej hlavy v severnej stene, pravdepodobne podobizeň kamenárskeho majstra. V priebehu 15. storočia boli potom vykonané viaceré stavebné úpravy a prístavby. Najradikálnejším zásahom bola však prestavba v rokoch 1502-1511, ktorú viedol prešovský kamenársky majster Ján Brengyszeyn. V jej priebehu prebudovali celé trojlodie, o niekoľko metrov zvýšili všetky steny a po pristavaní niektorých ďalších častí (južná predsieň) dali celému chrámu dnešnú neskorogotickú podobu. Lode a presbytérium vtedy zaklenuli krásnymi sieťovými a hviezdovými klenbami, predsieň pod vežou u nás pomerne vzácnou kruhovou klenbou. Veža kostola bola dokončená r. 1515. Dnešná podoba jej vrcholu je však z r. 1904. </p>\n<p>Ďalšie storočia priniesli iba niektoré menšie úpravy a prístavby, ako južný barokový portál z 18. storočia a severný empírový portikus z r. 1828. Oveľa väčšie zmeny prekonalo iba vnútorné zariadenie. </p>\n<p>Kostol viackrát vyhorel, a to v r. 1685, 1711, 1780, 1788, 1886 a naposledy r. 1887. Po tomto požiari zastrešili vežu iba provizórnou strieškou a v r. 1903-1904 pseudogotickou strechou podľa projektu staviteľa F. Schuleka. </p>\n<p>V päťdesiatych rokoch minulého storočia kostol prešiel generálnou opravou, výsledkom ktorej bola nová travertínová dlažba, omietka, maľba, farebné okná, rozhlas, či Krížová cesta. V interiéroch sa nachádzajú plastiky z diela Majstra Pavla z Levoče, ale aj ďalšie hodnotné fragmenty v gotickom slohu. K najpozoruhodnejšími pamiatkami konkatedrály patrí hlavný oltár sv. Mikuláša, ktorý je symbiózou gotického a barokového umenia.</p>",
@@ -5876,7 +6212,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/02-evanjelicky-chram-svetej-trojice.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/evanjelicky-kostol-sv-trojice.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.636794267558!2d21.23776931622521!3d48.99846897930142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzU0LjUiTiAyMcKwMTQnMjMuOSJF!5e0!3m2!1ssk!2ssk!4v1524657402832",
       "text": "<p>Tento u nás pomerne ojedinelý renesančný chrám je jedným z malého počtu protestantských kostolov na Slovensku, postavených v období reformácie. Dĺžka stavby je 36 m, šírka 12 m, vnútorná výška je 13m. </p>\n<p>Evanjelici i kalvíni používali poväčšine staršie gotické, predtým katolícke chrámy a iba výnimočne si budovali nové. V Prešove nastala takáto situácia v prvej polovici 17. storočia, keď natoľko vzrástol počet maďarských mešťanov, že im prestal postačovať kostolík na Slovenskej ulici, slúžiaci dovtedy ako maďarský evanjelický chrám. Nový kostol rozhodla mestská rada postaviť na námestí vedľa nemeckého, na mieste už zaniknutého stredovekého kostola sv. Ladislava. Základný kameň bol slávnostne položený 25. júla 1642. </p>\n<p>Stavba chrámu trvala päť rokov a ukončená bola slávnostným vysvätením 16. júna 1647. Pamiatkou na ňu je kamenná tabuľa s latinským nápisom, umiestnená nad hlavným portálom. Kostol bol riešený ako typické renesančné jednolodie s trojbokým zakončením, speváckymi tribúnami na poschodí po oboch stranách lode a organovou emporou na severnej strane. Samotné architektonické i výtvarné poňatie stavby, jej strohá výzdoba a vnútorné zariadenie prísne zodpovedali potrebám evanjelickej cirkvi. </p>\n<p>Ďalšie osudy chrámu spolu so susedným kolégiom sú potom vlastne kronikou dejín reformácie a protireformácie v meste. Po prvý raz skonfiškovali úrady kostol r. 1670, po potlačení Vešeléniho sprisahania. O tri roky, po krátkom obsadení mesta kurucmi, dostali chrám jezuiti, ktorí sa vtedy usadili v rovnako zhabanej budove kolégia. Vlastnili ho 89 rokov. Ešte dvakrát sa dostal do rúk právoplatných majiteľov: počas povstania Imricha Tököliho a povstania Františka Rákociho. </p>\n<p>Po porážke odboja, napriek podmienkam kapitulácie, prikázala r. 1711 kráľovná Eleonóra evanjelikom opustiť všetky kostoly na území mesta. Do chrámu sa opäť nasťahovali jezuiti a zotrvali v ňom až do zrušenia rádu r. 1773. Počas tohto obdobia došlo k niektorým neskôr odstráneným stavebným úpravám. Najvýznamnejšou z nich bolo prepojenie severnej empory klenutou zastrešenou chodbou, spájajúcou chrám s južným traktom budovy kolégia. R. 1673 postavili jezuiti hlavný oltár Panny Márie a bočné oltáre sv. Ignáca a Františka Xaverského, v r. 1696 ešte oltár Ukrižovaného Krista a Bolestnej Panny Márie. V roku 1731 postavili ešte ďalšie štyri oltáre. </p>\n<p>Po rozpustení Spoločnosti Ježišovej pápežom Klementom XIV. r. 1773 sa dostal kostol do majetku komory a r. 1783 sa spolu s kolégiom stal predmetom verejnej dražby. O kúpu mal záujem magistrát i niektorí obchodníci. Evanjelikom sa ho podarilo získať za 6000 zlatých s pomocou cisára a kráľa Jozefa II., ktorý ich navštívil už r. 1770 a dobre poznal ich problémy. Vtedy získali i budovu kolégia. </p>\n<p>Od roku 1783 sa stal chrám opäť majetkom evanjelickej a. v. cirkvi. Od začiatku, až do roku 1945, ho spoločne používali oba zbory, slovenský a nemecký (neskôr maďarsko – nemecký) a oba sa podieľali na jeho udržiavaní a opravách. Naposledy vyhorel r. 1913. Požiar vtedy úplne zničil oltárny obraz a silne poškodil organ i oltár. Posledná dôkladná obnova kostola prebehla v r. 1980-1981. </p>\n<p>Organ bol viackrát renovovaný, naposledy v roku 1997. Patrí medzi najkrajšie barokové pamiatky Prešova.</p>",
@@ -5899,7 +6237,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/14-neptunova-fontana.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/neptunova-fontana.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.700961292418!2d21.23841231622518!3d48.99724797930143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzUwLjEiTiAyMcKwMTQnMjYuMiJF!5e0!3m2!1ssk!2ssk!4v1524657454837",
       "text": "<p>Neptúnova fontána je jedinou zachovanou pôvodnou mestskou cisternou. Pred postavením vodovodu slúžilo občanom ako rezervoár úžitkovej vody desať podobných cisterien. </p>\n<p>Súsošie Neptúna dal postaviť na začiatku 19. storočia židovský obchodník Marek Holländer ako výraz vďaky za to, že mu mestská rada dovolila usadiť sa a podnikať v Prešove. Až do čias Jozefa II. nesmeli okrem času trhov bývať v Prešove žiadni Židia. Ako prvý úspešne porušil tento zákaz v druhej polovici 80. rokov 18. storočia bohatý haličský obchodník M. Holländer. Napriek vtedy už platným zákonom (zvláštny dekrét Jozefa II. dovoľoval židom usádzať sa v kráľovských mestách s výnimkou banských) proti jeho prítomnosti vystúpila tak mestská rada, ako i obchodnícky cech. Vďaka dobrým vzťahom s panovníkom sa mu však podarilo v meste ostať, zakúpiť si dom, obchod, a dokonca získať aj meštianske práva. Z vďačnosti dal potom postaviť v jednej z cisterien túto fontánu. </p>\n<p>Autorom sochy Neptúna s trojzubcom, obklopeného morskými živočíchmi (rybou, žabou, hadom, korytnačkou a krokodílom), je košický kamenár a sochár Vincent Staviarsky, ktorý súsošie ukončil v r. 1826. </p>\n<p>Súsošie Neptúna bolo reštaurované začiatkom 90. rokov 20. storočia.</p>",
@@ -5922,7 +6262,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/15-hlavna-ulica.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/hlavna-ulica.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.6785213623825!2d21.238496316225312!3d48.99767497930148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzUxLjYiTiAyMcKwMTQnMjYuNSJF!5e0!3m2!1ssk!2ssk!4v1524657540789",
       "text": "<p>Hlavná ulica s charakteristickým šošovkovitým námestím je jednou z najstarších častí mesta, v pôdoryse existovala už v predmestskom období. Z pôvodnej dediny nemeckých kolonistov z 13. storočia vznikla trhová osada, ktorá sa stala v ďalšom období jadrom mesta. Väčšina domov má pôvod v stredoveku. Hlavným stavebným materiálom bolo drevo, kamenné budovy vznikali v 14. storočí – farský kostol sv. Mikuláša, radnica, fara, špitál, škola a niektoré domy zámožných mešťanov. </p>\n<p>V priebehu 15. – 16. storočia bol už prevládajúcim stavebným materiálom kameň. Z tých čias pochádzajú pôvodne gotické domy priechodového typu. Najväčší stavebný rozvoj mesta a námestia bol v období renesancie v 16. a 17. storočí. Postupne boli zastavané všetky nové parcely a námestie sa predĺžilo smerom na juh. Väčšina domov dostala vtedy nové renesančné priečelia, typické prešovské atiky, schodištia, portály a ostenia. Najvýstavnejšie boli verejné mestské objekty,, najvýznamnejšou renesančnou pamiatkou v meste je Rákociho palác. </p>\n<p>Z barokového obdobia bola najrozsiahlejšou stavbou prestavba kláštora s chrámom sv. Jána Krstiteľa, pôvodnú barokovú fasádu má zachovanú palác Klobušickovcov. Z obdobia klasicizmu je významnou budovou gréckokatolícky biskupský palác, ďalšie stavby predstavujú napr. budova reduty s Čiernym orlom a Neptúnova fontána. </p>\n<p>Jedným z najrozsiahlejších zásahov do architektonického vývinu ulice boli prestavby po veľkom požiari v roku 1887. Niektoré objekty boli zbúrané a postavené nové, staré renesančné a klasicistické priečelia nahradili nové, väčšinou v duchu historizujúcich slohov. Bola ukončená prestavba evanjelického kolégia, prestavaná bola radnica, divadlo, Čierny orol a ďalšie objekty. </p>\n<p>Výrazným zásahom do podoby námestia bolo zriadenie parku južne od kostola sv. Mikuláša. </p>\n<p>Najvýznamnejšie historické a architektonické pamiatky mesta Prešov sú sústredené v jadre jeho námestia. V roku 1955 sa stalo historické jadro Prešova mestskou pamiatkovou rezerváciou a odvtedy bolo postupne reštaurované, najvýraznejšie v 90. rokoch 20. storočia.</p>",
@@ -5945,7 +6287,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/05-ortodoxna-synagoga.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/ortodoxna-synagoga.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.5566495079597!2d21.235676316225227!3d48.9999939793017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzYwLjAiTiAyMcKwMTQnMTYuMyJF!5e0!3m2!1ssk!2ssk!4v1524657588771",
       "text": "<p>Komplex objektov prešovskej ortodoxnej židovskej náboženskej obce vznikal postupne od 80. rokov 19. storočia do polovice 30. rokov 20. storočia. Vznikla tak samostatná uzavretá štvrť v priestore za bývalými mestskými hradbami. </p>\n<p>V strede nádvoria medzi rabinátom a školou stojí stará ortodoxná synagóga, dnes jediná funkčná synagóga v meste. Postavená bola v roku 1898 podľa projektu synagógy v meste Tokaj ako výstavná sakrálna dvojpodlažná budova v maurskom štýle s viacerými orientalizujúcimi prvkami. </p>\n<p>Pomerne strohé neorománsko-maurské fasády skrývajú doslova poklad synagogálnej architektúry. Bohato zdobené interiéry s plne zachovaným inventárom patria k najatraktívnejším židovským pamiatkam na Slovensku. Z vnútorného zariadenia je okrem almemoru cenný predovšetkým umelecky zhotovený svätostánok (aron hakodeš) od košického sochára Bacsóa. Celý interiér zdobia nádherné ornamentálne maľby od Andreja Grazla, ktoré si napriek značnému poškodeniu objektu a bez dôkladnejšej rekonštrukcie doteraz uchovali pôvodnú sýtosť, výraznosť a tvar. </p>\n<p>Svojmu účelu synagóga slúžila do roku 1942. Na jar a v lete toho roku sa stala spolu s priľahlým priestranstvom miestom zhromaždenia prešovských židov bezprostredne pred deportáciami. Odtiaľto gardisti odvliekli niekoľko tisíc občanov mesta do transportov, smerujúcich do koncentračných táborov. Počas okupácie Prešova si nemecká armáda zriadila v synagóge maštale a garáže. </p>\n<p>Po oslobodení v nej bola zariadená kuchyňa pre navrátilcov. Po nutných opravách a doplnení vnútorného zariadenia bola v októbri 1948 slávnostne vysvätená. Odvtedy slúži ako jediná synagóga jedinej židovskej náboženskej obce v Prešove. </p>\n<p>Ako najkrajšiu funkčnú synagógu na Slovensku sa ju v r. 1989-90 neúspešne snažili získať a previezť do USA židia z Los Angeles. V auguste 1991 bol na nádvorí pred vchodom do synagógy v prítomnosti najvyšších slovenských štátnych predstaviteľov odhalený pomník viac ako šiestim tisícom obetí holocaustu z Prešova a okolia. </p>\n<p>V novembri 1993 inštalovalo Slovenské národné múzeum na poschodí synagógy (v ženskej galérii) časť nedávno z Prahy navrátených zbierok predvojnového prešovského židovského múzea. Stála expozícia Bárkányovej zbierky judaík (Eugen Bárkány – zakladateľ múzea r. 1928), ktorá takto vznikla, je ojedinelým spojením a zosúladením zbierok múzea s interiérom jednej z najkrajších synagóg u nás.</p>\n<p>Otváracie hodiny: </p>\n<p>Pondelok: zatvorené </p>\n<p>Utorok: 11.00 – 15.00 </p>\n<p>Streda: 11.00 – 15.00 </p>\n<p>Štvrtok: 09.00 – 13.00 </p>\n<p>Piatok: 09.00 – 13.00 </p>\n<p>Sobota: zatvorené </p>\n<p>Nedeľa: 14.00 – 16.00</p>\n<p>Adresa: </p>\n<p>Ortodoxná synagóga </p>\n<p>Okružná 32 </p>\n<p>080 01 Prešov</p>\n<p>Tel.: 051/ 773 16 38</p>\n<p><a href=\"http://www.snm.sk\">www.snm.sk</a></p>",
@@ -5968,7 +6312,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/17-greckokatolicky-biskupsky-palac.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/greckokatolicky-biskupsky-palac.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.882472384162!2d21.24070831622515!3d48.993793979300996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzM3LjciTiAyMcKwMTQnMzQuNCJF!5e0!3m2!1ssk!2ssk!4v1524657637421",
       "text": "<p>Organickú súčasť komplexu gréckokatolíckeho kostola a ďalších budov tvorí biskupský palác, ktorý vznikol z bývalého kláštora minoritov. </p>\n<p>Jeho história sa začala písať prestavbou budovy mestského špitálu a chudobinca, ktoré získali minoriti r. 1671, na nový kláštor. R. 1698 prikročili k výstavbe novej budovy svojho kláštora, a to pri Dolnej mestskej bráne, na mieste, kde sa predtým nachádzali štyri menšie remeselnícke domy. </p>\n<p>Pôsobenie minoritov v Prešove ukončilo nariadenie cisára Jozefa II. z 12. júla 1787, ktorým bol kláštor zrušený. Krátko po odchode posledných rehoľníkov (1788) vypukol v Prešove veľký požiar, ktorý zachvátil aj budovu zrušeného kláštora minoritov. Jeho opravu už zabezpečovalo mesto, ktoré v opravenej budove umiestnilo stálu vojenskú posádku. </p>\n<p>R. 1791 bolo z Košíc do Prešova premiestnené sídlo gréckokatolíckeho vikariátu, a to do priestorov bývalého minoritského kláštora. 22. septembra 1818 pápež Pius VII. vydal bulu Relata semper, ktorou zriaďoval gréckokatolícke biskupstvo v Prešove. Celý komplex bývalého kláštora bol potom v r. 1821 pridelený prvému biskupovi novozriadenej prešovskej gréckokatolíckej diecézy Gregorovi Tarkovičovi (1754-1841). Vtedy sa začalo s postupnou renováciou komplexu a úpravou novovzniknutého biskupského sídla. </p>\n<p>Jozef Gaganec, v poradí druhý prešovský biskup, dal v r. 1848 urobiť rozsiahlu prestavbu sídla, pri ktorej vznikla dnešná dvojpodlažná palácová budova s klasicisticky upraveným priečelím. Nad hlavným vchodom bol umiestnený veľký trojuholníkový štít (tympanón), dominantou strednej časti budovy sa stala veľká kupola. </p>\n<p>Biskupský palác bol spolu s chrámom poškodený 20. decembra 1944 pri bombardovaní Prešova sovietskymi lietadlami. Rekonštrukcia oboch stavieb sa začala hneď po skončení vojny. </p>\n<p>V r. 1950, kedy bola rozhodnutím najvyšších štátnych orgánov zrušená gréckokatolícka cirkev v Československu, prešli obe stavby – kostol i biskupský palác do vlastníctva pravoslávnej cirkvi. Biskupský palác sa stal na štyri desaťročia sídlom prešovského pravoslávneho arcibiskupa. Od r. 1990 je sídlom biskupa Gréckokatolíckej cirkvi na Slovensku a v Česku.</p>",
@@ -5991,7 +6337,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/06-kalvaria.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/kalvaria.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2618.184461793334!2d21.22368731622495!3d48.988046979300485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzE3LjAiTiAyMcKwMTMnMzMuMiJF!5e0!3m2!1ssk!2ssk!4v1524657745373",
       "text": "<p>Na nevysokom kopci na západnom okraji Prešova dominuje nad mestom barokový komplex Kalvárie. V minulosti ju považovali za druhú najkrajšiu kalváriu na území Uhorska (po banskoštiavnickej kalvárii). </p>\n<p>Vznik prešovskej Kalvárie, podobne ako v iných mestách, je úzko spätý s rekatolizáciou a pôsobením jezuitov. Iniciatíva na založenie Kalvárie vzišla z radov Spolku umierajúceho Krista, ktorý založili jezuitskí kňazi začiatkom 18. storočia. Stavba prvých sakrálnych objektov sa začala r. 1720 a pokračovala do roku 1769. Niektoré kaplnky krížovej cesty vznikali ešte aj v 19. storočí, a to až do r. 1893. Ako prvé posvätil jezuitský superior kaplnku Krista na Olivovej hore a kríž v jeseni 1721. Stavbu realizovali postupne v priebehu viacerých desaťročí z prostriedkov mesta a darcov spomedzi mešťanov a okolitej šľachty. </p>\n<p>Celý komplex Kalvárie tvorí kostolík sv. Kríža, štrnásť kaplniek krížovej cesty s kaplnkou Svätých schodov, katakomby a cintorín. </p>\n<p>Kaplnky krížovej cesty vznikali postupne od r. 1721 do r. 1893. Všetky majú podobný tvar so štítovým priečelím, zdobeným ornamentmi a erbom donátora a polkruhovo zaklenutým vstupným portálom s bohato zdobenou mrežou. Z popísaného tvaru vybočuje druhá dominanta Kalvárie, kaplnka Svätých schodov. Bola postavená r. 1765 podľa vzoru kaplnky Sancta Scala pri Lateránskom kostole v Ríme. Stavbu financoval knieža Radziwill, ktorý dal kaplnku postaviť z vďačnosti mestu za poskytnutie azylu po nútenom úteku z Poľska. V priečelí nad vchodom je umiestnený jeho erb, vnútrajšok vypĺňa 28 schodov s miestom pre relikvie svätých, oltár s kamennou plastikou Piety a nástenné maľby od O. Trtinu. </p>\n<p>Celý cyklus krížovej cesty pozostáva z nasledujúcich kaplniek: 1. Posledná večera, 2. Ježiš na Olivovej hore, 3. Ježiš udretý pred veľkňazom Annášom, 4. Sväté schody, 5. Bičovanie, 6. Neznámy fundátor, 7. Ježišovo stretnutia s plačúcimi ženami, 8. Ukrižovanie, 9. Kristus na kríži, 10. Sňatie z kríža, 11. Uloženie do hrobu, 12. Zmŕtvychvstanie, 13. Neveriaci Tomáš, 14. Nanebovstúpenie. </p>\n<p>Zároveň s kostolom a kaplnkami bol založený i cintorín, ktorý pôvodne slúžil na pochovávanie donátorov Kalvárie, neskôr aj pre ľudí z blízkych mestských štvrtí (Pod Kalváriou, Za Kalváriou), ako aj iných osôb. Na cintoríne je niekoľko zaujímavých, umelecky cenných šľachtických a meštianskych krýpt v empírovom a historizujúcom slohu. V roku 1836 boli pod kostolom postavené katakomby, slúžiace ako hrobka pre kňazov. Ich múr so vstupným portálom vytvára pri pohľade z mesta ilúziu hradbového múru. </p>\n<p>Celý komplex Kalvárie bol dôkladne reštaurovaný a následne upravený v rokoch 1972 – 1983.</p>",
@@ -6014,7 +6362,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/13-zupny-dom.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/zupny-dom.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.645301414838!2d21.240000601031507!3d48.99830710264607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzUzLjkiTiAyMcKwMTQnMzEuOSJF!5e0!3m2!1ssk!2ssk!4v1524657926453",
       "text": "<p>Je to rokokovo-klasická budova palácového typu určená na administratívne účely bývalej Šarišskej stolice. </p>\n<p>Na konci stredoveku sa Prešov stal definitívne najvýznamnejším politickým, kultúrnym, hospodársko-správnym a tiež náboženským centrom Šarišskej stolice. Túto pozíciu si udržal aj v nasledujúcich storočiach. Význam mesta ešte vzrástol, keď sa v r. 1723 stalo sídlom jednej zo štyroch novozriadených právnych inštitúcii v Uhorsku, a to dištriktuálnej súdnej tabule, určenej na celú oblasť Potisia. </p>\n<p>Otázky týkajúce sa Šarišskej stolice patrili do právomoci šarišského župana, ktorého do funkcie menoval panovník. Župan bol veliteľom všetkých kráľovských vojakov, ktorí boli na území župy (stolice), ale súdil aj obyvateľov, okrem šľachty a duchovných, a staral sa o správu štátnych príjmov. Najstarším známym županom bol Peter, spomínaný r. 1217. Vtedy bolo územie Šariša ešte súčasťou veľkého pohraničného komitátu Novum Castrum, z ktorého sa vyčlenilo až ku koncu prvej polovice 13. storočia. Pôvodným sídlom šarišského župana bol Šarišský hrad, neskôr sa sídlo menilo v závislosti od jeho osoby. </p>\n<p>Po nariadení Márie Terézie, podľa ktorého bola každá stolica povinná postaviť si v mieste svojho sídla novú administratívnu budovu, bola v r. 1769 – 1770 postavená skutočne reprezentatívna budova župného domu. Rozsiahlou prestavbou došlo k spojeniu dvoch poschodových renesančných domov, patriacich v tom čase rodine Medňanských, s nárožným poschodovým domom prešovského kníhtlačiara F. Paracelsa. Vznikla tak monumentálna budova palácového typu s priestrannou sálou na poschodí, spojená sieťou chodieb s ďalšími miestnosťami. Bohato členené priečelie s dvoma vstupnými portálmi bolo na vrchole zakončené trojuholníkovým štítom (tympanónom) s reliéfom súdu kráľa Šalamúna, ktorý je dodnes ozdobou tejto stavby. Zaujímavé je široké schodisko s balustrádou, ktoré vedie do priestrannej sály s korýtkovou klenbou. Ostatné miestnosti sú zaklenuté lunetovými a pruskými klenbami, resp. zakryté rovnými stropmi so štukovými zrkadlami. </p>\n<p>Župný dom slúžil svojmu pôvodnému účelu viac ako poldruha storočia, a to až do konca r. 1944. V období prvej Slovenskej republiky (1939-1945) bol sídlom Šarišsko-zemplínskej župy. </p>\n<p>Počas svojej existencie musela budova župného domu prejsť niekoľkokrát rôznymi adaptačnými prácami. Značne poškodená bola najmä po veľkom požiari 6. mája 1887, keď oheň zničil aj značnú časť mestského jadra. Za krátky čas bola budova obnovená a ďalej slúžila svojmu účelu. </p>\n<p>K vážnejšiemu poškodeniu budovy došlo v decembri 1944 počas náletu sovietskych lietadiel. Po vojne bol župný dom postupne rekonštruovaný, aby poskytol priestor viacerým inštitúciám.</p>",
@@ -6037,7 +6387,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/11-palac-klobusickych.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/palac-klobusickych.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.8283458681994!2d21.24078031622518!3d48.99482397930123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzQxLjQiTiAyMcKwMTQnMzQuNyJF!5e0!3m2!1ssk!2ssk!4v1524657972212",
       "text": "<p>Pozoruhodnou, avšak oveľa mladšou palácovou stavbou ako Rákociho palác, je honosné sídlo barónov Klobušickovcov, situované v južnej časti námestia na východnej strane Hlavnej ulice (dom č. 22). </p>\n<p>Palác vznikol v polovici 18. storočia na piatich stredovekých parcelách na námestí a bývalej Maďarskej ulici, ktoré koncom predchádzajúceho storočia kúpil barón František Klobušický. </p>\n<p>Na zakúpených parcelách sa mali ešte okolo r. 1684 nachádzať dva majere a tri malé remeselnícke domy, ktoré boli do konca 17. storočia postupne prebudovávané. Výsledkom rozsiahlej prestavby bol reprezentačný dvojpodlažný palác v neskorobarokovom štýle (tzv. štýl Ľudovíta XVI. ) so štvorkrídlovou dispozíciou a pravouhlým nádvorím v strede. Za hlavného iniciátora prestavby a výstavby paláca je možné s najväčšou pravdepodobnosťou označiť Františka Klobušického, bývalého kráľovského tabulárneho radcu, neskôr aj stúpenca generála Caraffu. F. Klobušický bol v r. 1701-1708 administrátorom úradu šarišského hlavného župana, r. 1704 sa zasa pridal k stavovskému protihabsburskému povstaniu Františka II. Rákociho. Po skončení povstania r. 1711 bol panovníkom omilostený a majetok mu bol ponechaný. </p>\n<p>Palác Klobušickovcov bol dokončený r. 1756. Cenné je predovšetkým poschodie uličného priečelia, bohato zdobené krásnymi štukovými výjavmi a ornamentami s erbom rodiny Klobušickovcov nad hlavným portálom. Na východnej strane priliehal k palácu rozsiahly park, siahajúci až ku hradbám. Ako samostatnú, vtedy módnu stavbu, doňho zasadili vežičku (letohrádok), pri stavbe ktorej sekundárne použili pôvodné gotické ostenia z františkánskeho kostola. Táto romantická stavba stojí dodnes a v súčasnosti dotvára scenériu evanjelickej farskej záhrady. </p>\n<p>V 19. storočí patril palác viacerým novým majiteľom. Začiatkom 19. storočia sídlilo v budove prvé prešovské (nemecké) divadlo. V priebehu 19. a 20. storočia slúžil palác na viaceré účely. Poskytnutý bol stálej vojenskej posádke v Prešove, takže v priestoroch paláca boli zriadené kasárne. Po ich zrušení bolo na prízemí hlavného krídla zriadených niekoľko pracovísk súkromných podnikateľov, ako aj jedna z najstarších prešovských lekárni „Salvator“. V budove bolo aj niekoľko tried katolíckeho gymnázia, za prvej Česko-Slovenskej republiky daňový úrad, a po vzniku Univerzity Pavla Jozefa Šafárika (1959) aj jej Filozofická fakulta, ktorá tu sídlila do r. 1986. Po nej budova poskytovala priestory študentskému domovu a strednému odbornému učilišťu služieb. V súčasnosti je budova sídlom Krajského súdu v Prešove.</p>",
@@ -6060,7 +6412,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/07-radnica.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/radnica.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1308.8497706934093!2d21.239106300656058!3d48.99727499817046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzUwLjIiTiAyMcKwMTQnMjMuMSJF!5e0!3m2!1ssk!2ssk!4v1524212848807",
       "text": "<p>Na východnej strane námestia, oproti Neptúnovej fontáne, sa nachádza historická budova prešovskej radnice. </p>\n<p>Radnica stredovekého Prešova stála pôvodne na inom mieste. Bola to samostatne stojaca dvojpodlažná kamenná budova, postavená južne od farského kostola, niekde na mieste dnešného parku s pomníkom Červenej armády. V priebehu 17. storočia ju však magistrát z neznámych dôvodov (pravdepodobne poškodenie počas požiarov) opustil a presťahoval sa do objektu, ktorý slúži tomuto účelu dodnes. Presná podoba pôvodnej radnice nie je známa, zachoval sa z nej iba kamenný mestský erb z prvej polovice 16. storočia, sekundárne umiestnený v portále neskoršej radnice. </p>\n<p>Nová budova bola v stredoveku honosným meštianskym domom. Začiatkom 16. storočia ju pod vedením kamenárskeho majstra Jána Brengyszeyna prebudovali na mestskú vináreň a na tento účel slúžila takmer po dve storočia. Z gotického obdobia sa zachovali iba niektoré fragmenty v interiéroch, portál a neskorogotické ostenie na prízemí. V druhej polovici 16. storočia bola vináreň rozšírená o prístavbu nad uličným priechodom, spájajúcu dve štvrte námestia a renesančne upravená. Interiéry vtedy zaklenuli renesančnými klenbami a stavbu ukončili bohatou štítkovou atikou. </p>\n<p>Po neskorších prestavbách sa z tejto podoby dodnes zachovali klenby a viaceré renesančné ostenia. Dôkladná prestavba nasledovala po požiari r. 1768. Ukončená bola r. 1788, keď dostala neskorobarokovú podobu s typickým priečelím s vysokými oknami a balkónom. Posledná prestavba prebehla po veľkom požiari r. 1887. Vtedy nadstavali druhé poschodie a v novobarokovom duchu upravili strechu budovy. </p>\n<p>Do novších slovenských i stredoeurópskych dejín sa radnica zapísala r. 1919. Po obsadení mesta a veľkej časti východného Slovenska maďarskou Červenou armádou bola 16. júna 1919 z jej balkóna vyhlásená Slovenská republika rád. Od r. 1945 sídlil v budove mestský národný výbor, po r. 1990 mestský úrad. V roku 1961 bola radnica zapísaná do zoznamu národných kultúrnych pamiatok. </p>\n<p>Súčasťou radnice je mohutná kamenná stavba, priliehajúca k nej z Jarkovej ulice, nazývaná Caraffova väznica.</p>",
@@ -6083,7 +6437,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/12-rakociho-palac.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/rakocziho-palac.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.653611020337!2d21.238780614271658!3d48.99814898449359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzUzLjMiTiAyMcKwMTQnMjYuNCJF!5e0!3m2!1ssk!2ssk!4v1524214125661",
       "text": "<p>Osudy Prešova v 17. – 18. storočí boli viac ako v ktoromkoľvek inom východoslovenskom meste späté s mocnou rodinou Rákociovcov a jej významnými osobnosťami. Rákociovska rezidencia, ako pamiatka na tieto búrlivé časy, sa dodnes vyníma na východnej strane Hlavnej ulice (dom č. 86) oproti rímskokatolíckemu farskému kostolu. </p>\n<p>Na jej mieste stáli pôvodne dva stredoveké meštianske domy. Na konci 16. storočia zakúpil obidve parcely sedmohradské knieža Žigmund Rákoci, ktorý ich dal prebudovať na honosný mestský palác v renesančnom slohu. Na túto prestavbu nadväzovala ďalšia, neskororenesančná úprava celého objektu na začiatku 17. storočia. Počas nej bola dotvorená charakteristická fasáda s oknami v arkieroch, zakončená krásnou atikou, zloženou z kombinácií štítkov, oblúčikov a slepých arkád. </p>\n<p>Celé priečelie i s atikou je bohato zdobené grafitom. Rákociovcom sa tak podarilo vytvoriť skutočný skvost mestskej renesančnej architektúry, považovaný za najkrajší mestský renesančný palác na území bývalého Horného Uhorska. </p>\n<p>História paláca bola od jeho založenia úzko spätá s dejinami rákociovskeho rodu. V roku 1633 v ňom prebiehali rokovania medzi zástupcami sedmohradského kniežaťa Juraja I. Rákociho a cisára Ferdinanda II., ukončené podpísaním prešovského mieru. V apríli 1701, po vyzradení plánov na nové protihabsburské povstanie, väznili habsburské úrady v paláci Františka II. Rákociho, ktorého predtým zajali v jeho kaštieli vo Veľkom Šariši. Po roku 1711 bol skonfiškovaný a vystriedal viacerých majiteľov. </p>\n<p>V priebehu 18. storočia došlo k prestavbe dvorového krídla v barokovom slohu. V 19. storočí mala budova viacero vlastníkov, či nájomcov, ktorí si ju adaptovali na obchodné a dielenské priestory. </p>\n<p>Dôkladná rekonštrukcia paláca do pôvodnej renesančnej podoby, ukončená obnovou grafitovej výzdoby v priečelí, sa uskutočnila v r. 1950 – 1956. V súčasnosti je v budove umiestnené Krajské múzeum.</p>\n<p>Otváracie hodiny </p>\n<p>LETNÁ SEZÓNA / MÁJ – SEPTEMBER</p>\n<p>Pondelok – Piatok 9:00 – 18:00 </p>\n<p>Sobota 14:00 – 18:00 </p>\n<p>Nedeľa 14:00 – 18:00</p>\n<p>Otvorené aj počas štátnych sviatkov: 14:00 – 18:00 </p>\n<p>(platí len počas letnej sezóny)</p>\n<p>MIMO SEZÓNY / OKTÓBER- APRÍL</p>\n<p>Pondelok – Piatok 9:00 – 17:00 </p>\n<p>Sobota zatvorené </p>\n<p>Nedeľa 14:00 – 18:00</p>\n<p>Tel.: +421 51 773 4708</p>\n<p>Adresa: </p>\n<p>Rakociho palác </p>\n<p>Hlavná 86 </p>\n<p>080 01 Prešov</p>\n<p><a href=\"http://www.tripolitana.sk\">www.tripolitana.sk</a></p>",
@@ -6106,7 +6462,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/08-caraffova-vaznica.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/carrafova-vaznica.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.713100866098!2d21.236728316225136!3d48.9970169793014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzQ5LjMiTiAyMcKwMTQnMjAuMSJF!5e0!3m2!1ssk!2ssk!4v1524658024541",
       "text": "<p>Caraffova väznica je neskorogotická stavba zo začiatku 16. storočia, zakončujúca budovu dnešnej mestskej radnice. Ide o jednu z mála zachovaných gotických pamiatok v Prešove. </p>\n<p>Budova bola postavená v r. 1504 – 1509 na pozemku člena mestskej rady maliara Petra Molera, ktorého dom na Hlavnej ulici mesto odkúpilo a adaptovalo na mestskú vináreň. Budova slúžila vinárni ako skladisko sudov a iného príslušenstva pravdepodobne až do konca 17. storočia, no v archívnych záznamoch z r. 1530 sa spomína aj ako jedna z prešovských väzníc, a to vďaka svojej blízkosti pri mestskej radnici. </p>\n<p>Budova dostala pomenovanie počas Prešovských krvavých jatiek r. 1687, kedy na základe nespravodlivého súdu cisárskeho generála Antónia Caraffu z Neapola bolo na námestí pri evanjelickom kolégiu potupne popravených 24 uhorských zemanov a mešťanov. </p>\n<p>Jedna z prešovských mučiarní, ktoré dal Caraffa zriadiť kvôli výsluchom obvinených, sa nachádzala aj v podzemných priestoroch dnešnej radnice, ktorá vtedy tvorila s budovou jeden architektonický celok. Obete Caraffovho súdu v nej však nikdy väznené neboli. Svoje meno dostala budova asi až neskôr, azda podľa jej charakteristického tvaru. Podľa niektorých písomných zmienok boli v budove uschovávané kontrolné mestské miery a váhy, ba dokonca sa tu istý čas nachádzala aj mestská zbrojnica. V druhej polovici 19. storočia v nej bola mestská väznica. </p>\n<p>Od začiatku 20. storočia sa budova začala využívať na archivovanie mestských písomností. V r. 1955 – 1956 sa uskutočnili adaptačné práce a celková úprava vnútorných priestorov, aby mohli slúžiť archívnemu uloženiu písomností mesta a pre Mestský archív v Prešove.</p>",
@@ -6129,7 +6487,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/19-muzeum-vin.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/muzeum-vin.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.6949177658466!2d21.23765231622518!3d48.99736297930145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzUwLjUiTiAyMcKwMTQnMjMuNCJF!5e0!3m2!1ssk!2ssk!4v1524658064030",
       "text": "<p>Múzeum vín sa nachádza v centre mesta Prešov, v podzemných priestoroch, ktoré boli vybudované začiatkom 16. storočia ako mestská vináreň a sklady vína pod mestskou radnicou. V čase stavovských a roľníckych povstaní mesto v podzemných priestoroch zriadilo väzenie. V roku 1993 boli priestory rekonštruované pre potreby Múzea vín. </p>\n<p>Expozícia múzea približuje históriu pestovania viniča na Slovensku, Morave a v Čechách podľa jednotlivých vinohradníckych oblastí. Jedna časť expozície sa venuje histórii a technológii tokajského vína. V centre pozornosti sú však vína z mnohých krajín sveta, ako aj mnohých svetových odrôd. Nájdete tu temer 2000 druhov vín, ktoré je možné ochutnať alebo kúpiť. Popri vzorkách vín sa tu nachádzajú aj exponáty používané pri výrobe vína a na ošetrovanie viniča – lisy, sudy, ručné čerpadlá, uzatváračky fliaš, staré odmerné nádoby z medi, skla, fľaše na víno najrozmanitejších tvarov, farieb a veľkosti. </p>\n<p>V priestoroch múzea je možnosť degustácie vystavených druhov vína spojená s odborným výkladom o predvádzaných vzorkách, správnom stolovaní, výrobe vína a pod. </p>\n<p>Jednou z prestížnych aktivít múzea je každoročné organizovanie súťažnej prehliadky vín Muvina, ktorá sa stala pre výrobcov vína jednou z najdôveryhodnejších prehliadok. Prichádzajú vína z celého sveta, pozývajú sa odborníci – enológovia z rôznych štátov sveta, aby degustovali vína a ocenili ich medailami.</p>\n<p>Otváracie hodiny: </p>\n<p>pondelok – piatok: 9:00 – 18:00 </p>\n<p>sobota: 9:00 – 12:00 </p>\n<p>nedeľa: zatvorené </p>\n<p>obedňajšia prestávka: 12:30 – 13:00</p>\n<p>Adresa: </p>\n<p>Múzeum vín </p>\n<p>Floriánova ulica </p>\n<p>080 01 Prešov</p>\n<p>Tel.: 051/ 7733 108</p>\n<p><a href=\"http://www.muzeumvin.sk\">www.muzeumvin.sk</a></p>",
@@ -6152,7 +6512,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/jurkovicova-rozhladna.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/jurkovicova-rozhladna.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2593.171130572713!2d18.156546615636238!3d49.46238107935133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x94fb5db20fc6038b!2zNDnCsDI3JzQ0LjYiTiAxOMKwMDknMzEuNSJF!5e0!3m2!1ssk!2ssk!4v1662653676799!5m2!1ssk!2ssk",
       "text": "<p>Jméno rozhledna získala podle slovenského architekta Dušana Sámo Jurkoviče, který v této oblasti zanechal výraznou stopu. Ačkoliv původní myšlenka, vybudovat rozhlednu, pochází ze 60. let 20. století, k její realizaci došlo až v letech 2010-11. Otevřena 28. 04. 2012. Stavba je vysoká 31 metrů. Vyhlídková plošina ve výšce 18,8 m, rozhledna má 102 schodů. Základnu rozhledny tvoří kamenná podezdívka a na ní je posazená dřevěná konstrukce zakončená věžovitou osmistěnnou nástavbou. Z vyhlídkového ochozu se vám naskytne výhled nejen na okolní obce, ale jako na dlani na dlani budete mít město Rožnov pod Radhoštěm.</p>",
@@ -6175,7 +6537,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/hradisko.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/zdrucanina-hradu-hradisko.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2593.649815731038!2d18.11908551563592!3d49.4533352793502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x367111fea396b9fd!2zNDnCsDI3JzEyLjAiTiAxOMKwMDcnMTYuNiJF!5e0!3m2!1ssk!2ssk!4v1662654800821!5m2!1ssk!2ssk",
       "text": "<p>Hrad Rožnov byl postaven v 2. polovině 14. století. Pro jeho stavbu bylo vybráno vhodné místo na vrchu Hradisko (522 m n. m.). Jeho funkcí byla ochrana hranic s Uhry. Hrad byl od 14. do 17. století několikrát rozšiřován. První zmínka o hradu byla objevena v listině Voka z Kravař, později byl v majetku pánů z Cimburka a na konci 15. století pánů z Pezinku. V roce 1505 jej získali Kunštátové a roku 1526 Jaroslav ze Šelenberka. V roce 1535 získal hrad Jan z Pernštejna, ale již v roce 1539 byl z příkazu krále Ferdinanda I. obsazen a pobořen, neboť se na něm usídlila loupeživá tlupa. Později byl hrad provizorně opraven a ještě v roce 1660 sloužil panským úředníkům. Na konci 17. století byl opuštěn úplně. Zkázu hradu dokonali sami obyvatelé Rožnova. Ve druhé polovině 19. století dostali povolení obecního úřadu zbytky hradu rozebrat pro stavby svých obydlí ”aby také nějak té památky oučastní byli“.</p>\n<p>Od roku 1964 jsou chráněny jako kulturní památka. Dochovaly se zbytky zdí, brána, příkop s valem a část podzemí.</p>",
@@ -6198,7 +6562,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/valasske-muzeum-v-prirode.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/valasske-muzeum-v-prirode-3.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2593.2222735600412!2d18.14718161563622!3d49.46141467935108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdf883058aafe0ade!2zNDnCsDI3JzQxLjEiTiAxOMKwMDgnNTcuNyJF!5e0!3m2!1ssk!2ssk!4v1662655042321!5m2!1ssk!2ssk",
       "text": "<p>Valašské muzeum v přírodě je nejstarším a největším skanzenem ve střední Evropě. Skládá se ze tří samostatných areálů – Valašské dědiny, Dřevěného městečka a Mlýnské doliny. Najdete zde původní domy a předměty ze všech koutů Beskyd nebo jejich precizní kopie. V areálu se natáčelo mnoho filmů a pohádek a pravidelně se zde konají různé tématické kulturní akce. </p>\n<p>Od 11. 12. 2018 je areál součástí Národního muzea v přírodě.</p>\n<p>V podhorském městě Rožnově pod Radhoštěm rozprostírajícím se na úpatí Beskyd stojí Valašské muzeum v přírodě, první a až do 70. let 20. století jediné muzeum svého typu v naší zemi. O jeho vznik se zasloužili členové rožnovského muzejního spolku, zejména sourozenci Alois a Bohumír Jaroňkovi. Již před první světovou válkou předložili plány na přenesení několika roubených staveb do městského parku. Uskutečnit své cíle se jim však podařilo až při přípravách národopisné slavnosti v roce 1925. Na mýtinku lázeňského parku byly tehdy <strong>přestěhovány dva roubené domy z rožnovského náměstí</strong> spolu s dalšími menšími stavbami a v prostorách mezi nimi se odehrála velkolepá folklorní slavnost zvaná <strong>Valašský rok</strong>. Vznikl tak <strong>základ areálu Dřevěné městečko</strong>, který byl postupně rozšiřován o další dřevěné stavby a zároveň takto bylo založeno jedinečné nové muzeum – Valašské muzeum v přírodě.</p>\n<p>Již samotní zakladatelé si uvědomovali, že městská část muzea dostatečně nevypovídá o způsobech života na celém Valašsku, a proto usilovali o realizaci <strong>vesnického areálu</strong>. Záměr na <strong>vybudování Valašské dědiny</strong> vznikl na počátku 50. let a o desetiletí později byla zahájena na rožnovské pasece zvané Stráň výstavba prvních roubených chalup a hospodářských staveb. Cílem bylo vytvořit co nepravdivější obraz valašské dědiny zasazené do rázovité valašské kulturní krajiny.</p>\n<p>Dřevěné městečko a Valašská dědina byly na počátku 80. let doplněny o třetí, <strong>technický, areál</strong> zvaný <strong>Mlýnská dolina s funkčními historickými stavbami poháněnými vodou</strong>.</p>\n<p>Dosud posledním, čtvrtým, areálem muzea se v roce 1995 staly <strong>Pustevny se zvoničkou a s objekty Maměnka a Libušín</strong>, které byly na konci 19. století vystavěny podle návrhů architekta Dušana Samo Jurkoviče a jež se staly národní kulturní památkou.</p>\n<p>Do dnešních dnů se areály průběžně rozrůstají o další historické stavby, které dokreslují malebný obraz tradičního Valašska. Podoba by však nebyla celistvá bez života v muzeu.  Nejvýraznějším rysem současného dění v  areálech je cílevědomé úsilí o jejich <strong>oživení</strong> prostřednictvím interiérových i exteriérových expozic, <strong>prezentace</strong> <strong>tradičních technologií řemeslných, zemědělských i podomáckých, lidového umění, obyčejů a folkloru</strong>. Valašské muzeum tak plní odkaz svých zakladatelů, kteří usilovali o to, aby bylo živým muzeem.</p>",
@@ -6221,7 +6587,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/kaple.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/kaple-sv-cyrila-a-metodeja.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2591.608691457133!2d18.220549615637314!3d49.49189827935453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd46fa24cb003ee73!2zNDnCsDI5JzMwLjgiTiAxOMKwMTMnMjEuOSJF!5e0!3m2!1ssk!2ssk!4v1662655222086!5m2!1ssk!2ssk",
       "text": "<p>Kaple se sousoším věrozvěstů Cyrila a Metoděje postavená v roce 1898 v byzantském slohu, kteří toto místo podle staré pověsti navštívili. Před kaplí stojí bronzové sousoší sv. Cyrila a Metoděje od Albína Poláška z roku 1931. Hlavní pouť se koná 5. 7. Zvonice kaple slouží jako rozhledna.</p>",
@@ -6244,7 +6612,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/socha.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/socha-radegasta.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2592.102187670639!2d18.250703015636972!3d49.48257667935352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa7f8594118c5d672!2zNDnCsDI4JzU3LjMiTiAxOMKwMTUnMTAuNCJF!5e0!3m2!1ssk!2ssk!4v1662655306416!5m2!1ssk!2ssk",
       "text": "<p>Původní sochu Radegasta vytvořil sochař Albín Polášek z betonu a kameninové drti. Na horský hřbet mezi Pustevnami a Radhoštěm byla umístěna v roce 1931. Horské podnebí sochu narušovalo, a proto byla v roce 1996 přesunuta do haly radnice ve Frenštátu pod Radhoštěm a na jejím místě stojí od roku 1998 kopie z odolnější žuly.</p>\n<p>Radegasta uctívali pohané jako boha slunce, hojnosti a úrody. Albín Polášek jej ztvárnil jako postavu s mužským tělem a lví hlavou, na které má nasazenou přilbu s býčími rohy. V pravé ruce svírá roh hojnosti, levou se opírá o sekyru.</p>",
@@ -6267,7 +6637,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/chata.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/chata-libusin.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2591.735799126436!2d18.26362851563728!3d49.48949747935442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeca8d0d023eb66b5!2zNDnCsDI5JzIyLjIiTiAxOMKwMTUnNTYuOSJF!5e0!3m2!1ssk!2ssk!4v1662655426017!5m2!1ssk!2ssk",
       "text": "<p>Chata Maměnka byla vystavěna, stejně jako sousední chata Libušín, podle návrhů architekta Dušana Jurkoviče v roce 1898. Výrazně zdobená lidově secesní budova s prvky valašské architektury dnes slouží jako hotel. Stavba je národní kulturní památkou.</p>\n<p>Chata Libušín, jedna z dominant horského sedla Pustevny, byla vystavěna podle návrhů architekta Dušana Jurkoviče v roce 1898. Chata je vystavěna ve stylu tzv. lidové secese s prvky valašské architektury. Obzvláště vzácnou byla jídelna zdobená freskami a grafity s motivy moravských a slovenských pověstí, kterou však v roce 2014 velmi poškodil požár celé budovy. </p>\n<p>V roce 1995 byla vyhlášena národní kulturní památkou. V srpnu 2020 byla znovuotevřena.</p>\n<p>Zemepisné súradnice: 49.4894975N, 18.2658172E; nadmorská výška 1 018 m. n. m.</p>\n<p>Zemepisné súradnice: 49.4896744N, 18.2654061E; nadmorská výška 1 018 m. n. m.</p>",
@@ -6290,7 +6662,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/01-zvonica-4.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/24-vlkolinec_-zvonica.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924.716369944262!2d19.2784346!3d49.0392517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47150817f0eecd49%3A0xab8088b80787ee0a!2sZvoni%C4%8Dka+na+Vlkol%C3%ADnci!5e0!3m2!1ssk!2ssk!4v1522840498823",
       "text": "<p>Drevená zvonica, postavená v roku 1770, patrí medzi sídelné dominanty obce. Predstavuje jednu z jej najstarších stavieb v obci, pre ktorú je charakteristická zrubová stavba s drevenou šindľovou krytinou strechy a obvodovým plášťom. Jej pôvodná funkcia spočívala v ohlasovaní času modlitieb, požiaru a iných nebezpečenstiev v obci, čomu zodpovedá i jej poloha v rámci sídla. Situovanie zvonice v minulosti tvorilo hranicu medzi horným a dolným koncom Vlkolínca. Zvonica patrí typologicky medzi výnimočné solitérne stavby, slúžiace na zavesenie zvonov.</p>",
@@ -6313,7 +6687,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/03-rimskokatolicky-kostol-navstivenia-panny-marie-1.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/23-vlkolinec_-kostol.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924.7121167087856!2d19.279337385495104!3d49.03948046778337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715083d53f4bc53%3A0x80521eb8e47303e7!2zS29zdG9sw61rIE5hdsWhdMOtdmVuaWEgUGFubnkgTcOhcmll!5e0!3m2!1ssk!2ssk!4v1522842380436",
       "text": "<p>Jednoloďová novoklasicistická stavba s vežou a pristavanou sakristiou, postavená v roku 1875. Pôvodne na tomto mieste stála kaplnka patriaca k cintorínu. Sakrálna stavba, využívaná pre liturgické účely, vyjadruje tradície a príslušnosť ku kresťanskej kultúre Európy. Funkcia kostola vo Vlkolínci, vrchárskej obci s drsnými podmienkami pre život stálych obyvateľov, bola v minulosti jediným miestom spoločenského kontaktu, zdrojom sily a prameňom motivácie. Významnejšie obnovy boli uskutočnené v rokoch 1941, 1950 a 2008.</p>",
@@ -6336,7 +6712,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/07-pamatnik-obetiam-cernovskej-tragedie.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/22-pomnik-obetiam-_-cernova.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2612.768306715829!2d19.255600601097512!3d49.09104299268536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDA1JzI3LjgiTiAxOcKwMTUnMjQuOSJF!5e0!3m2!1ssk!2ssk!4v1522994773495",
       "text": "<p>Symbol a trvalý svedok tragického momentu v histórii Slovenska a Černovej. Postavenie pomníka objednala Slovenská liga a finančné prostriedky získala zo zbierok amerických Slovákov pri príležitosti 25. výročia černovskej tragédie. Pripomína pamiatku 15 obetí, ktorých životy vyhasli počas streľby uhorských žandárov pred posviackou novostavby Kostola Ružencovej Panny Márie. Obetovali svoje životy, lebo chceli, aby sa posviacky zúčastnil ich rodák a organizátor stavby Andrej Hlinka. Tragédia v Černovej vyvolala reťazovú reakciu protestov na Slovensku i v zahraničí. Upozornila na národný útlak Slovákov v Uhorsku a politicky zmanipulované súdne procesy, v ktorých bolo neoprávnene odsúdených 59 obyvateľov Černovej. Pomník bol odhalený 28. októbra 1932 za účasti širokej verejnosti (6000 ľudí), ružomberského farára Andreja Hlinku, zástupcov Slovenskej ligy a Matice Slovenskej. Autorom národnej kultúrnej pamiatky je sochár Miroslav (Frico) Motoška a architektonicky ju dotvoril Juraj Sládek. Stavbu realizovala v roku 1932 firma Jaroslava Vindušku z Prahy. Monument je 14 m široký a 6,8 m vysoký. Na jeho stavbu sa spotrebovalo 46,8 t travertínu. Má tvar obráteného písmena T osadeného na nízkej kamennej mohyle a tvorí ho kríž, na ktorom je umiestnený reliéf Kristovej hlavy v staroslovanskom štýle. Pod krížom je vavrínový veniec a znak Slovenska. Na čelnej strane pod krížom je vyrytý nápis Žehnaj Pane náš národ, za ktorý títo zomierali s dátumom tragickej posviacky. Po oboch stranách sú uvedené mená všetkých obetí, zoradené od najstaršieho až po najmladšiu, žiaľ aj s chybami v menách a veku. Materiálna hodnota pomníka v Černovej bola pri odhalení vyčíslena na 65 000 korún československých.</p>",
@@ -6359,7 +6737,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/06-kostol-ruzencovej-panny-marie.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/20-kostol-ruzencovej-panny-marie_-cernova.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d653.1915555993178!2d19.25713762204226!3d49.09108259811127!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715a860c4f7a459%3A0x3c9b352a9a6de0d4!2sKostol+Panny+M%C3%A1rie+Ru%C5%BEencovej!5e0!3m2!1ssk!2ssk!4v1522844494474",
       "text": "<p>Základný kameň kostola v Černovej bol požehnaný vo Veľkom týždni, na Zelený štvrtok, 20. apríla 1906. Na 27. októbra 1907 bola stanovená posviacka novopostaveného kostola, došlo však k tragickej udalosti, pri ktorej bolo zabitých 15 veriacich a desiatky ďalších boli zranení. Kostol nebol požehnaný a na dlhú dobu zostal zatvorený. Požehnanie kostola sa uskutočnilo až 29. júna 1910, na sviatok apoštolov sv. Petra a Pavla. Kostol slávnostne požehnal,černovský rodák, ružomberský farár Andrej Hlinka, ktorý sa najväčšou mierou zaslúžil o jeho postavenie. V roku 1911 bol do kostola nainštalovaný organ, ktorý zhotovila firma Bratři Paštikové z Prahy. V roku 1941 bol pôvodný organ prestavaný firmou Rieger. V roku 1912 boli do kostola nainštalované oltáre, ktoré zhotovila rakúska firma Ferdinand Stuflesser. V roku 1913 kostol vymaľoval akademický maliar Jozef Hanula. Na sviatok Zjavenia Pána, 6. januára 1925, Andrej Hlinka požehnal dva nové zvony, ktoré sú umiestnené vo veži, pri pôvodnom zvone z roku 1911. V roku 1929 sa kostol stal farským kostolom a z Černovej bola vytvorená samostatná farnosť. V roku 1948, z podnetu Ladislava Hatalu, bola vytvorená do kostola nová krížová cesta. V roku 1957, pri príležitosti 50. výročia černovskej tragédie, boli namontované do veže elektrické hodiny, ktoré zhotovila firma z Vyškova u Brna.</p>",
@@ -6382,7 +6762,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/05-rodny-dom-andreja-hlinku.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/19-dom-a-hlinku_cernova.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d923.733212889786!2d19.256773089400987!3d49.092111471014654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715a86094b525f7%3A0xf485632b2a61530e!2sRodn%C3%BD+dom+Andreja+Hlinku!5e0!3m2!1ssk!2ssk!4v1522845126231",
       "text": "<ol start=\"27\">\n<li>septembra 1864 sa v tomto dome v Černovej narodil Andrej Hlinka, kňaz,národovec a politik, ktorý sa celý život riadil krédom :“Všetko pre Boha a pre národ“. Expozícia v troch miestnostiach jeho rodného domu zahŕňa nielen nábytok, uprostred ktorého žil, kňazské rúcho, osobné predmety, ale aj infopanely s fotografiami z Hlinkovho života ,listinami a rukopisom. Vosková figurína a posmrtná maska, ktorú vyhotovil sochár Fraňo Štefunko z Martina, sprítomnia osobnosť a veľkú charizmu muža, ktorého meno sa nesmelo spomenúť viac ako štyridsať rokov ani v jeho rodnej obci. Všetky vystavené predmety pomáhajú sa vcítiť do doby, v ktorej žil. Prostredníctvom platne, na ktorej počuť jeho dokonalú slovenčinu a rozhodnosť v hlase dáva tušiť prečo požíval takú dôveru v slovenskom národe,na ktorom mu vždy záležalo. Slováci sa vždy cítili národom a Andrej Hlinka bol ich skutočným vodcom a otcom národa. V svojej dobe bol prirodzenou autoritou pre utláčaný slovenský národ, a jeho túžbou bolo ho stmeliť a zjednotiť.</li>\n</ol>",
@@ -6405,7 +6787,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/12-kalvaria.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/17-kalvaria.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2690.203613819212!2d19.2862949710302!3d49.07488108017792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715a7dc9be8516d%3A0xc8bca86aa34bab08!2zS29zdG9sIFBvdsO9xaFlbmlhIHN2w6R0w6lobyBLcsOtxb5h!5e0!3m2!1ssk!2ssk!4v1522845662785",
       "text": "<p>Kalvária s Kostol Povýšenia svätého Kríža a 14 kaplnkami zastavení krížovej cesty bola vybudovaná v období rokov 1858 – 1860. Exteriérová realizácia krížovej cesty je výrazná krajinná dominanta, ktorá vznikla z iniciatívy miestnych rímskokatolíckych kňazov Jána Nepomuka Záhoru, Andreja Kučmu a veriacich ružomberskej farnosti. Klasicistický kostolík bol obnovovaný v rokoch 1902 – 1903 a 1947 – 1948. Vnútorné zariadenie navrhol Valér Aurel Zavarský, reliéfne plastiky sú dielom Františka Gibalu. Interiér v roku 1959 obohatili nástenné maľby Mikuláša Klimčáka. Autentický areál jednoduchých sakrálnych stavieb koncipovaných v klasicistickom duchu je pútnickým miestom a súčasťou duchovnej histórie mesta Ružomberok.</p>",
@@ -6428,7 +6812,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/17-mestsky-cintorin.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/16-mestsky-cintorin.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4793.05604832705!2d19.288033959838405!3d49.078425067593365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe17e4f8980aea4bf!2zQ2ludG9yw61u!5e0!3m2!1ssk!2ssk!4v1522845979672",
       "text": "<p>Mestský cintorín z roku 1913, osadený vo svažitom teréne, ktorého pietny charakter je umocnený kulisou zelene, je miestom odpočinku významných osobností mesta, regiónu i historických osobností celoslovenského významu. Pôsobivé hrobky a hroby, situované v kompozičnom usporiadaní lemujúcom hlavnú os areálu s ústredným cintorínskym krížom, vytvárajú charakteristický obraz jedného z najkrajších novodobých cintorínov na Slovensku. Na cintoríne sa nachádzajú národné kultúrne pamiatky – hrobka rodiny Makovických, dielo Dušana Jurkoviča, hrobka Ľudovíta Fullu a jeho prvej manželky Juliany Kláry, realizovaná podľa návrhu Martina Kusého st. a Ľudovíta Fullu.</p>",
@@ -6451,7 +6837,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/24-galeria-ludovita-fullu.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/15-fulova-galeria.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2613.220348592986!2d19.297411545725314!3d49.082452904872625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715a7ce5400a33f%3A0x5fdcd5cc3b8fa79b!2zU05HIC0gR2Fsw6lyaWEgxL11ZG92w610YSBGdWxsdQ!5e0!3m2!1ssk!2ssk!4v1522846352554",
       "text": "<p>Prvá významná galéria na Slovensku, postavená po roku 1945. Autormi diela, dokončeného v roku 1969, sú architekti Štefan Hatala a Martin Kusý, ktorému prináleží autorstvo koncepcie objektu z roku 1964. Výnimočná stavba reprezentuje nový prúd modernej architektúry a patrí medzi jej najlepšie realizácie na Slovensku. Strohé geometrické formy pravdivo vyjadrujú lineárnu náväznosť vnútorných priestorov. Nachádza sa tu reprezentatívna stála expozícia výtvarných diel majstra Ľudovíta Fullu a byt umelca s pôvodným zariadením.</p>",
@@ -6474,7 +6862,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/23-liptovske-muzeum.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/14-lipt-muzeum.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3107.687211617832!2d19.29790436889494!3d49.082021750265724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715a7cef95a2dcb%3A0xb4e1b9c231300298!2zTGlwdG92c2vDqSBtw7p6ZXVtIHYgUnXFvm9tYmVya3U!5e0!3m2!1ssk!2ssk!4v1522846899592",
       "text": "<p>Liptovské múzeum založili bratia Artúr a Július Kűrtiovci v roku 1912. Z pôvodných priestorov stredovekej fary bola kultúrna inštitúcia premiestnená do terajšej budovy, ktorú dalo mesto Ružomberok postaviť v roku 1934. Autorom projektu je miestny architekt Vojtech Donner, stavbu realizoval v rokoch 1935 – 1937 Július Záchenský. Reprezentatívna stavba, uzatvárajúca námestie Š. N. Hýroša, predstavuje tradicionalisticky koncipovanú budovu s nadčasovým riešením expozičných a prevádzkových priestorov.</p>",
@@ -6497,7 +6887,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/15-evanjelicky-kostol.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/12-evanjelicky-kostol.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5226.187352661069!2d19.297683552836002!3d49.084859126712765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715a7cc36bf22d3%3A0xbd133b27c8e6d4a8!2sEvanjelick%C3%BD+kostol!5e0!3m2!1ssk!2ssk!4v1522847265186",
       "text": "<p>Architektonická dominanta mesta. Kostol bol postavený v rokoch 1925 – 1926 v duchu moderny s prvkami rondokubizmu podľa projektu architekta Jána Burjana, ružomberského rodáka, s použitím pôvodného konceptu architekta Dušana Jurkoviča z roku 1914. Objekt má obdĺžnikovú dispozíciu s pseudobazilikálnym priestorom medzi dvomi transeptami a vstavanou hranolovou vežou v osi budovy. Obnova exteriéru bola uskutočnená v rokoch 1997 – 1998, interiér bol renovovaný v roku 2004. K sakrálnej stavbe patrí aj budova evanjelickej fary a ľudovej školy z rokov 1923 – 1924, postavená podľa projektu Dušana Jurkoviča. Spolu s kostolom tvoria ucelený areál.</p>",
@@ -6520,7 +6912,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/16-kulturny-dom-andreja-hlinku.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/11-kult-dom-a-hlinku.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2613.1657511987582!2d19.301698612800127!3d49.08349047069304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715a7c940d8edad%3A0x5f322c1bc79331fb!2sKULT%C3%9ARNY+DOM+ANDREJA+HLINKU+a.s.!5e0!3m2!1ssk!2ssk!4v1522847520919",
       "text": "<p>Impozantná, nadčasová stavba, postavená v rokoch 1927 – 1928. Autorom projektu je ružomberský architekt Ján Burjan, stavbu realizovali Ondrej Janček a Jozef Pešek. Jej iniciátorom bol Andrej Hlinka, výstavbu monumentálnej multifunkčnej budovy – centra kultúrneho, spoločenského a športového života – financoval Katolícky kruh, Andrej Hlinka a prostredníctvom verejnej zbierky americkí a miestni Slováci. V roku 1941, v súlade s projektom Vojtecha Donnera (1938), budova dostala konečnú podobu, ktorá vo svojom výraze nesie známky dobového rondokubizmu. Stavebné práce realizovala firma Júliusa Záchenského. Komplexná obnova bola s prestávkami uskutočnená v rokoch 1997 – 2004 podľa projektu Igora Maťaťu.</p>",
@@ -6543,7 +6937,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/18-radnica.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/8-radnica.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1646.250561441237!2d19.30293992072767!3d49.08170314231109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc37a06a0bcd57466!2sTown+Hall!5e0!3m2!1ssk!2ssk!4v1522847921790",
       "text": "<p>Reprezentačná budova v novorenesančnom slohu bola postavená v roku 1897 podľa projektu staviteľa Štefana Michalíka na mieste šustríkovskej kúrie zo 17. storočia. Adaptácia a prestavba interiéru v roku 1937 sa uskutočnila podľa projektu Jozefa Uhlára a Štefana Martoníka. V roku 1968 boli v oknách ústredného schodiska osadené vitráže podľa umeleckého návrhu Róberta Dúbravca. Od svojho vzniku slúži ako radnica – sídlo mestského úradu. Budova radnice je úzko spätá s osobnosťou Andreja Hlinku, južnom krídle budovy bol v rokoch 1898 – 1985 umiestnený rímskokatolícky farský úrad. Dominantná architektúra objektu bola komplexne obnovená v období rokov 2001 – 2010.</p>",
@@ -6566,7 +6962,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/11-rimskokatolicky-kostol-sv-ondreja-1.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/6-kostol-sv-ondreja.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1306.634782589815!2d19.303501864980923!3d49.08151758166057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715a7c96c8fbcdb%3A0x5561f6883f39adcc!2sKostol+sv.+Ondreja!5e0!3m2!1ssk!2ssk!4v1522848091563",
       "text": "<p>Najstaršia zachovaná sakrálna stavba na území mesta Ružomberok. Pôvodne ranogotický objekt z prelomu 13. a 14. storočia, s renesančnou prestavbou z konca 16. storočia a barokovými úpravami realizovanými v 17. a 18. storočí. Kostol sa od r. 1445 nachádzal v centre opevneného sakrálneho areálu, na ktorého južnej strane stála budova fary a cirkevnej školy, postavenej v 17. storočí. V r. 1903 bola dokončená komplexná prestavba s aplikáciou prvkov historizujúceho novorománskeho slohu. Výrazné dekoratívne úpravy interiéru boli uskutočnené v r. 1939 – 1940. Maliarska výzdoba kostola je dielom Eduarda Massányiho, vrcholným prejavom vitrážovéj tvorby v celoslovenskom meradle sú výplne okien podľa návrhov Ľudovíta Fullu z 30. – 70. rokov 20. storočia.</p>",
@@ -6589,7 +6987,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/21-mauzoleum-andreja-hlinku.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/7-mauzoleum-a-hlinku.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1098.7473294688261!2d19.304124785920333!3d49.081389902450915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715a7c912e38e27%3A0x9d74268e61b8848b!2sMauz%C3%B3leum+Andreja+Hlinku!5e0!3m2!1ssk!2ssk!4v1522848397415",
       "text": "<p>Mauzóleum Msgr. Andreja Hlinku bolo postavené v roku 1939 na podnet mesta Ružomberok a v zmysle zákona o zásluhách Andreja Hlinku a rezolúcie Slovenského snemu o postavení jeho pamätníka. Je situované v priestore pod niekdajšími budovami historickej fary a Illesházyovskej školy. Autormi architektonickej koncepcie sú Kazimír Olejník, Jozef Švidroň a Jozef Glončák, ktorí transformovali pôvodnú ideu pamätnej siene padlým z I. svetovej vojny. Na mauzóleum nadväzuje priestor kompozične rozvinutej architektúry slávnostných nástupov s dvojramenným schodiskom Školských schodov, lemovaných balustrádovým zábradlím od Jozefa Uhlára a Štefana Martoníka. Komplexná obnova mauzólea bola uskutočnená v rokoch 1990 – 1991, v súčasnosti je pietnym miestom a expozíciou miesta posledného odpočinku Andreja Hlinku.</p>",
@@ -6612,7 +7012,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/22-piaristicke-gymnazium.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/5-piaristicke-gymnazium.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2613.388777634208!2d19.297474938034664!3d49.07925198619092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDA0JzQ1LjMiTiAxOcKwMTcnNTcuNCJF!5e0!3m2!1ssk!2ssk!4v1522995650402",
       "text": "<p>Solitérna stavba z rokov 1888 – 1889 je súčasťou komplexu piaristického kolégia. Nový objekt osemročného gymnázia s klasicistickou architektúrou, postavený na náklady mesta, nahradil staršiu budovu piaristickej školy z roku 1790. Ide o dvojpodlažnú budovu s trojtraktovou dispozíciou, so strednou chodbou a centrálnym dvojramenným schodiskom. V dobe svojho založenia (1729) bolo nižšie piaristické gymnázium v Ružomberku jedinou školou svojho druhu pre Liptov, Oravu, Turiec a hornú časť Trenčianskej stolice. Počas jej existencie školu navštevovali viaceré osobnosti celoslovenského významu Slovenska. Komplexná obnova bola uskutočnená v rokoch 1984 – 1985, obnova fasád a interiéru v roku 2004. Budova je od roku 2005 sídlom Rektorátu Katolíckej univerzity v Ružomberku.</p>",
@@ -6635,7 +7037,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/26-namestie-andreja-hlinku.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/1-2-namestie-a-hlinku.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2613.2747009625805!2d19.300603316227246!3d49.08141997931013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDA0JzUzLjEiTiAxOcKwMTgnMTAuMSJF!5e0!3m2!1ssk!2ssk!4v1522929486027",
       "text": "<p>Historické námestie s pôvodnou úzkou parceláciou obdobia stredoveku, sformované vo svojej základnej podobe na prelome 13. a 14. storočia, s čiastočne zachovaným charakterom neskorších prestavieb a stavebných úprav 18. a 19. storočia. Tento historický priestor s obdĺžnikovým pôdorysom je sprístupnený sieťou stúpajúcich kľukatých ulíc a typickým systémom schodísk, ktoré ho spájajú s dolným mestom. Na námestí sa nachádzajú národné kultúrne pamiatky, pilier so sochou Immaculaty a významné stavby zaradené medzi pamätihodnosti mesta.</p>",
@@ -6658,7 +7062,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/20-mariansky-stlp-socha-imacculata.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/1-2-namestie-a-hlinku.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2613.2747009625805!2d19.300603316227246!3d49.08141997931013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDA0JzUzLjEiTiAxOcKwMTgnMTAuMSJF!5e0!3m2!1ssk!2ssk!4v1522929569592",
       "text": "<p>Novobarokový mariánsky stĺp z roku 1858 je situovaný na Námestí Andreja Hlinku. Sochu pravdepodobne vytvoril Alexander Belopotocký. Pódium so štyrmi schodíkmi je oplotené železným tyčovým kovaným plotom. Na vrchole piliera je kamenná pozlátená socha Panny Márie Immaculaty z konca 18. storočia, ktorá stojí na zemeguli ovinutej pozláteným hadom. Okolo hlavy má socha gloriolu s dvanástimi hviezdičkami. Mariánsky stĺp s umelecky kvalitnou sochou je jediným monumentálnym exteriérovým sochárskym dielom z 18. a 19. storočia v regióne.</p>",
@@ -6681,7 +7087,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/13-rimskokatolicky-kostol-povysenia-sv-kriza.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/3-4-kostol-pov-sv-kriza_-kolegium-piaristov.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4148.359531601819!2d19.295661363556967!3d49.080888666450626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715a7cf4710be8d%3A0x43ea9a128da11d9d!2zS29zdG9sIHBvdsO9xaFlbmlhIFN2w6R0w6lobyBrcsOtxb5h!5e0!3m2!1ssk!2ssk!4v1522923064616",
       "text": "<p>Kostol Povýšenia svätého Kríža vznikol v roku 1806 ako prístavba rehoľnej rezidencie piaristov s finančnou podporou Andreja Zvadu – Paračku, ružomberského mešťana a podnikateľa. Sakrálna stavba v empírovom slohu urbanisticky dotvára priestor Námestia Andreja Hlinku. Kostol má zachovanú pôvodnú dispozíciu jednolodia so vstavanou vežou a polkruhovou svätyňou, v nikách čelnej fasády sa nachádzajú kamenné sochy sv. Jána Nepomuckého a sv. Jozefa Kalazanského z dielne Alexandra Belopotockého. Vnútorné zariadenie z 19. a 20. storočia je dielom Alexandra Belopotockého a Valéra Aurela Zavarského, interiérové klenby sú zdobené výmaľbou od Jozefa Hanulu. Aj keď patria k ranným prácam autora, vyznačujú sa jeho charakteristickým výrazom a autorským prejavom.</p>",
@@ -6704,7 +7112,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/19-kolegium-piaristov.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/3-4-kostol-pov-sv-kriza_-kolegium-piaristov.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2613.369677720535!2d19.296473316227193!3d49.07961497930974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDA0JzQ2LjYiTiAxOcKwMTcnNTUuMiJF!5e0!3m2!1ssk!2ssk!4v1522929332776",
       "text": "<p>Najstaršou časťou v architektonickej skladbe objektu je neskorobaroková stavba z rokov 1730-1735. Donátorom stavby bol gróf Ján Jakub Löwenburg. Pôvodne dvojpodlažná budova bola stavebne upravená počas dostavieb v 18. a 19. storočí. V 30. rokoch 20. storočia jezuiti dobudovali moderný severozápadný trakt kláštorného komplexu. Rezidencia piaristov predstavuje jednu z hlavných dominánt mesta, je reprezentantom kláštorných budov školského typu. V západnej časti areálu, za budovou rezidencie, sa rozprestiera plocha kláštornej záhrady.</p>",
@@ -6727,7 +7137,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/14-sinagoga.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/9-synagoga.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2466.5827710962817!2d19.302772926872493!3d49.08182415981736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715a7c99cc77e37%3A0x3900a53ec16d86ed!2zU3luYWfDs2dh!5e0!3m2!1ssk!2ssk!4v1522923931575",
       "text": "<p>Novorománska synagóga z rokov 1879 – 1880 predstavuje konvenčný typ židovskej sakrálnej architektúry druhej polovice 19. storočia. Od doby svojho vzniku slúžila ako modlitebňa pre židovskú náboženskú obec. Trojloďová sieň pozdĺžneho pôdorysu s emporami v interiéri má fasády s novorománskym tvaroslovím. Stavbu podľa vzoru synagógy v Miškolci viedol Juraj Lukáč. Objekt bol prvý krát zrekonštruovaný v roku 1929 a jeho dobový architektonický výraz, vrátane detailov tvaroslovia a výplní otvorov bol zachovaný v originálnej podobe. V roku 2014 bola synagóga komplexne zrekonštruovaná z prostriedkov mesta Ružomberok. Architektonická pamiatka nadobudla nový primárny účel svojho spoločenského využitia ako polyfunkčná výstavná a koncertná sieň mesta.</p>",
@@ -6750,7 +7162,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/25-slovenska-banka.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/10-kniznica.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d923.9271082262688!2d19.304588987097024!3d49.08168996970218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715a7c97a679e05%3A0xf2f2cb9f73ec4133!2sPodhora+1297%2F33%2C+034+01+Ru%C5%BEomberok!5e0!3m2!1ssk!2ssk!4v1522924950665",
       "text": "<p>Solitérna dvojpodlažná stavba mestského charakteru sídlo, Ružomberského úverného spolku, účastinnej spoločnosti, neskoršej Úverovej a od r. 1919 Slovenskej banky. Novobaroková budova so secesnými prvkami na čelnej fasáde bola postavená v rokoch 1902 – 1903 podľa projektu Milana Michala Harminca, neskoršie dispozičné úpravy sa realizovali v roku 1936. Dom patril k významným strediskám slovenského bankovníctva a slovenského národného života. Jeho história je spojená s rodinami Makovickovcov, Beniačovcov a Houdekovcov, ktorých príslušníci patrili k významným osobnostiam hospodárskeho, politického a kultúrneho života.</p>",
@@ -6773,7 +7187,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/02-studna.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/25-vlkolinec_studna.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d653.8731462025606!2d19.27784482928482!3d49.039256998706605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDAyJzIxLjMiTiAxOcKwMTYnNDIuMiJF!5e0!3m2!1ssk!2ssk!4v1522925848331",
       "text": "<p>Drevená rumpáľová studňa, hlboká 12 metrov, slúžila v minulosti ako jediný zdroj pitnej vody. Vrchnú stavbu tvorí drevená konštrukcia na kamennej podmurovke, sedlová strieška je pokrytá drevenou šindľovou krytinou a vnútorná konštrukcia studne je z kameňa. Verejná studňa z roku 1860 reprezentuje jednoduchú ľudovú technickú stavbu s charakteristickými typologickými znakmi a dobovým konštrukčným riešením. Architektonický vzhľad a konštrukčné riešenie s neopakovateľným výrazom sú jedinečným prvkom identity prostredia pamiatkového územia.</p>",
@@ -6796,7 +7212,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/04-rolnicky-dom.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/26-vlkolinec_rolnicky-dom.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d653.8807842626173!2d19.276792829284837!3d49.038675998706616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDAyJzE5LjIiTiAxOcKwMTYnMzguNCJF!5e0!3m2!1ssk!2ssk!4v1522926352359",
       "text": "<p>Zrubový ľudový dvojdom s dvojpriestorovou stodolou, maštaľou a murovanou sýpkou je charakteristickým urbanistickým zoskupením sídla Vlkolínec. Drevo ako základný stavebný materiál je uplatnený pri obytnej a hospodárskej stavbe, kameň sa používal len na stavbu komôr a sýpok. Súbor stavieb dokumentuje tradičné bývanie a spôsob hospodárenia vo Vlkolínci a v regióne dolného Liptova. Intaktne zachovaná ľudová architektúra je využívaná ako expozícia in situ.</p>",
@@ -6819,7 +7237,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/10-pomnik-sloboda-slovenskeho-naroda.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/13-socha-slobody_-obetiam-ii-sv-vojny.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2613.1954552119746!2d19.29623531622733!3d49.082925979310126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDA0JzU4LjUiTiAxOcKwMTcnNTQuMyJF!5e0!3m2!1ssk!2ssk!4v1522927639699",
       "text": "<p>Pomník bol postavený pri príležitosti 10. výročia konca prvej svetovej vojny a vzniku ČSR. Autorom sôch je Ladislav Majerský. Na podstavci sú umiestnené dve pieskovcové súsošia v približne životnej veľkosti – Poroba a Odboj, na najvyššom hranolovom pilieri je solitérna socha Víťazstvo. Porobu slovenského národa charakterizuje sediaca ženská a kľačiaca mužská postava a dvojkríž. Postavy sú v pózach vyčerpania a skľúčenosti, so sklonenými hlavami a ochabnutými telami. Odboj tvorí kompozícia dvoch postáv v talianskej a ruskej legionárskej uniforme podmaňujúcich vlasť, ktorú predstavuje muž s ratolesťou za nimi. Víťazstvo situované na najvyššom štíhlom pilieri symbolizuje mladá žena zahalená do pruhu drapérie s hlavou obrátenou nahor. Pomník Sloboda slovenského národa je ideovým vyjadrením dobového trendu vyzdvihovania dejín národa, s výtvarným výrazom určitého schematizmu a popisného realizmu.</p>",
@@ -6842,7 +7262,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/08-miesto-tragickych-udalosti.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/21-miesto-strelby_-cernova.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2612.6643147547416!2d19.256459316227456!3d49.0930189793111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDA1JzM0LjkiTiAxOcKwMTUnMzEuMSJF!5e0!3m2!1ssk!2ssk!4v1522929184981",
       "text": "<p>Na nedeľu 27.októbra 1907 bol stanovený termín požehnania nového kostola, ale bez účasti svojho rodáka Andreja Hlinku, ktorý bol pozbavený kňazského úradu za poburovanie proti maďarskej národnosti. Černovčania si nevedeli predstaviť tento slávnostný akt bez toho, ktorý sa veľkou mierou zaslúžil o postavenie kostola. Boli rozhodnutí požehnanie prekaziť. Veľká časť obyvateľov Černovej očakávala od rána nevítaných hostí na začiatku dediny pri dolnej škole. Dav Černovčanov tvoril v úzkom vstupe do dediny bariéru ľudských tiel v snahe zabrániť posväteniu kostola. Koče s prichádzajúcimi kňazmi sa dostali do obkľúčenia ľudí bojovne naladených, vedomých si svojej spolupatričnosti. Výkriky Černovčanov ako aj snahy žandárov utvoriť koridor pre koče, spôsobili, že kone sa splašili a nastal chaos. Slovné aj fyzické útoky na oboch stranách ukončil strážmajstra vydaním rozkazu k streľbe. Už po prvých výstreloch boli zranení aj umierajúci. Streľba však pokračovala ďalej. Zásah žandárov si vyžiadal 15 mŕtvych, 12 ťažko a 40 ľahko zranených. V januári 1908 čakal 59 obžalovaných černovský proces, v ktorom obvinení dostali v súhrne 37 rokov odňatia slobody. Tragédia v Černovej bola jednou z najkrvavejších udalostí posledných rokov Rakúsko-Uhorska ako dôsledok národnostného útlaku. Vyvolala veľké protesty na Slovensku aj po celej monarchii. Protestovali viaceré významné zahraničné osobnosti. Černovská tragédia aj vďaka nim prešla do politických dejín slovenského národa. Národ slovenský je stvorený k životu aj cez černovských mučeníkov.</p>",
@@ -6865,7 +7287,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/09-zeleznicna-stanica.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/18-vlacik-korytko-na-zs.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d653.3019813139591!2d19.308157829284912!3d49.082688998706864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDA0JzU3LjciTiAxOcKwMTgnMzEuMyJF!5e0!3m2!1ssk!2ssk!4v1522930009791",
       "text": "<p>Výrazná stavba ružomberskej stanice je postavená podľa vzoru kúpeľných domov s hrazdeným murivom. Postavená bola v roku 1871, keď cez Liptov prešiel po novej trati prvý vlak. Neskôr, v roku 1912, bola zväčšená a prestavaná, upravené tiež boli nástupiská a odbavovacia hala. Parné rušne radu U37 premávali na trase úzkorozchodnej železnice Ružomberok – Korytnica od jej vzniku v roku 1905 do roku 1959, kedy boli nahradené dieselelektrickými rušňami . Slúžili na prepravu drevnej hmoty do papierenských tovární, spoločne s prepravou osôb a pacientov do kúpeľov v Korytnici. Parný rušeň U37.006 bol v roku 1969 slávnostne umiestnený na podstavec, ako pamätník pred hlavnú budovu železničnej stanice Ružomberok. Stal sa ikonou trate a miestni ľudia mu nehovorili inak ako „Korýtko“.</p>",
@@ -6886,7 +7310,9 @@ const DB = {
       "popis": "",
       "cover": "assets/images/migrated/kastiel-sokolovce.jpg",
       "audio": [],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/kastiel-sokolovce.jpg"
+      ],
       "gps": {
         "lat": 48.5358319,
         "lng": 17.8419151
@@ -6912,7 +7338,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/09-mestsky-park.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/009.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7459.473524814148!2d21.722607129581974!3d48.622816980895905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47392ac65b16dfa9%3A0x90b571ca34957336!2sMestsk%C3%BD+park+Trebi%C5%A1ov!5e0!3m2!1ssk!2ssk!4v1528872271380",
       "text": "<p>Historický park v Trebišove je jedným z najvýznamnejších stavieb spoločenskej a kultúrnej atmosféry minulých storočí. Súčasne je dokumentom etického vzťahu generácií minulých, súčasných i budúcich. Park vznikol z pôvodného zátopového lužného lesa a rozšíril sa na plochu 62 ha. Nachádza sa v ňom historická i náletová zeleň, ktorú tvoria ihličnaté, listnaté stromy, kroviny a rastliny. Veľmi cenný je najmä tis obyčajný, rozšírené sú tuja východná, tuja západná, borovica čierna, borovica sosna, smrek obyčajný, smrek pichľavý a iné. Z listnatých stromov je najvýznamnejší platan javorolistý, pagaštan konsky, čremcha strapcovitá, jaseň štíhly, dub letný, dub zimný, buk lesný, hrab obyčajný, brest hrabolistý, lipa malolistá, jelša lepkavá, agát biely, rôzne druhy javorov, topoľov a iné.</p>\n<p>Počiatky parkových úprav siahajú do poslednej tretiny 18. storočia a súvisia s výstavbou trebišovského kaštieľa. V areáli historického parku a v jeho bezprostrednom okolí sa nachádzajú aj ďalšie kultúrne pamiatky: hrad Parič, základy stredovekého kostola sv. Ducha, rímskokatolícky kostol Návštevy Panny Márie, gréckokatolícky chrám Zosnutia presvätej Bohorodičky, Pavlínsky kláštor, kaštieľ s hospodárskymi budovami, mauzóleum grófa Júliusa Andrássyho, súsošie Immaculaty a archeologické lokality z praveku a stredoveku. Trebišovský park prospel mestu najmä tým, že v ostatných dvoch storočiach priestorovo izoloval a chránil historicky hodnotné objekty a časti mesta pred živelnou zástavbou, ale tiež vytvoril hodnotné životné prostredie v strede mesta so vzácnym stromovým porastom. V strede historického parku rozprestiera sa nížinný vodný hrad Parič (Arx Paris, Castrum Paris).</p>",
@@ -6935,7 +7363,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/08-mauzoleum-grofa-juliusa-andrassyho.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/003.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4978.60491320314!2d21.722810662353595!3d48.622779760038576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47392ac66d639cc7%3A0x69c48216952b413f!2zTWF1esOzbGV1bSByb2RpbnkgZ3LDs2ZhIErDumxpdXNhIEFuZHLDoXNzeWhv!5e0!3m2!1ssk!2ssk!4v1528872419269",
       "text": "<p>Medzi najcennejšie chránené kultúrne pamiatky v Trebišove patrí Mauzóleum Grófa Júliusa Andrássyho. Bolo postavené v roku 1893, podľa projektu nemeckého architekta Arthura Meininga v neogotickom slohu.</p>\n<p>V mauzóleu sa nachádza mramorový sarkofág Júliusa Andrássyho, Katalin Kendeffy a smútiacej dcéry Heleny, ktorý je dielom budapeštianskeho sochára Juraja Zalu z rokov 1893 – 1895. Štyri rohy sarkofágu držia levice. Na jeho poklope je bronzova socha anjela s roztiahnutými krídlami, ktorý drží v rukách stuhu s latinským nápisom: Beati mortui qui in Domino moriuntur. Opera enim illorum sequuntur. Illos – „Blaženi mŕtvi, ktorí zomierajú v Pánovi. Lebo ich skutky ich nasledujú“. </p>\n<p>Bronzové kartuše umiestnené pred anjelom zdobia rodové erby Júliusa Andrássyho a jeho manželky grófky Katalin Kendeffy (1830-1896). Na schodoch vedúcich k sarkofágu kľačí na poduške bronzova postava ich dcéry Ilony (1858-1952). V mauzóleu je pochovaný aj gróf Július Andrássy (zomrel 1890 a bol pochovaný v krypte rímskokatolického kostola). </p>\n<p>Jeho rakva bola premiestnená v roku 1894 z krypty rímskokatolického kostola do mauzólea. Podľa legendy v roku 1895 navštívila jeho hrob v Trebišove aj samotná cisárovná Alžbeta (Sissi), ktorá mu tu nechala krásnu striebornú kyticu. Súčasťou interiéru je tiež cínová rakva syna Tivadara a drevený neogoticky obetný stôl. Na výtvarnej realizácii sa podieľal aj spomínaný Tivadar Andrassy. Stavbu zrealizovali so štvorcovým pôdorysom, v rohoch s opornými piliermi, ktoré sú ukončene fialami a štítovými helmicami. Hlavná rímsa, ktorú zdobí atikové zábradlie, je doplnená o okrídlene anjelské hlavičky, takže väčšina ľudí si ich spája skôr s barokom. Nechýbajú však ani kamenne chŕliče spodobujúce bájne zvieratá typické pre gotiku. Tieto odvádzajú vodu zo strešnej kupoly, ktorej dominuje kovaný latinsky kríž. Na severnej strane mauzólea bola pôvodne maľba s názvom „Tri plačky pod krížom“, ktorej autorom je Mihaly Munkacsy. Maľbu neskôr Katalin Kendeffy darovala Maďarskej národnej galérii v Budapešti. V súčasnosti sa v mauzóleu nachádza replika tohto originálu. Mauzóleum je jedno z najkrajších neogotických stavieb na Slovensku.</p>",
@@ -6958,7 +7388,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/07-paulinsky-klastor.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/001.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2637.350605879921!2d21.71876131572889!3d48.6222725252566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDM3JzIwLjIiTiAyMcKwNDMnMTUuNCJF!5e0!3m2!1ssk!2ssk!4v1528874561240",
       "text": "<p>Keď kanonik ostrihomskej kapituly Eusébius na základe príkladu svätého Pavla Pustovníka zjednotil v roku 1225 jednotlivo žijúcich pustovníkov, ešte netušil, že položil základy jediného pôvodne uhorského mužského rádu – pavlínov. Rád sa konštituoval v ostrihomskej arcidiecéze v roku 1256 a jeho existenciu potvrdil pápež Klement V. keď roku 1308 schválil jeho rehoľné pravidlá. Tak vznikal jediná pôvodne uhorská rehoľa pavlínov, ktorá malá svoj kláštor aj v Trebišove. Trebišov však vstúpil do dejín pavlínskeho rádu až po uplynutí takmer dvoch storočí od jeho vzniku. Jeden z najvplyvnejších Peréniyovcov Palatín Imrich dal roku 1502 postaviť v Trebišove dvojpodlažný kláštor. V roku 1504 doň pozval pavlínov, ktorým daroval so súhlasom panovníka aj dediny Sáros, Olaszi a vodný mlyn na Bodrogu.</p>\n<p>Objekt renesančného kláštora v tvare písmena I bol južným krídlom priamo pričlenený ku kostolu. V niektorých jeho miestnostiach sa zachovali hrebienkové klenby. Mária Spoločníková objavila pod omietkami zaujímavé fragmenty. Pozoruhodné sú aj kamenné ostenia spojovacích dverí. Prostredie kláštora dotváral dvor so studňou a záhradou, ktorý bol súčasťou jeho života.</p>\n<p>Kláštor bol v minulosti niekoľko krát obnovovaný. Priečelie obnovovali v rokoch 1678, 1720 pričom jeho členenie sa realizovalo roku 1876. Pôvodný kláštor mal na vonkajších múroch renesančné sgrafitá. Zrušením pavlínskeho rádu Jozefom II. Roku 1786 kláštor stratil svoje pôvodné určenie a bol využívaný na rôzne účely. V čase zániku kláštora predstavoval majetok siedmich mníchov žijúcich v kláštore 94 261 zlatých.</p>\n<p>V súčasnosti sa v objekte kláštora nachádza základná umelecká škola a rímskokatolícky farský úrad. Objekt nie je pamiatkovo označený.</p>",
@@ -6981,7 +7413,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/06-barokovo-klasicisticky-kastiel-1.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/003-1.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1864.9911956602461!2d21.720026678587917!3d48.619492934243134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDM3JzEwLjYiTiAyMcKwNDMnMTYuMCJF!5e0!3m2!1ssk!2ssk!4v1528875321061",
       "text": "<p>Neskorobarokový, neskôr klasicisticky upravený kaštieľ dal postaviť v roku 1786 gróf Imrich Csáky. Je dvojpodlažnou stavbou, ktorá bola postavená 100 rokov po zničení hradu Parič. Časť materiálu z tohto hradu bola použitá pri jeho výstavbe.</p>\n<p>Kaštieľ má na priečelí dve postranné barokové veže, ktoré boli pristavené v poslednej tretine 19. storočia. Fasáda objektu je členená lizenami, pričom jej dominantné prvky tvoria barokový štít a reprezentačný balkón, ktorý podopiera osem klasicistických stĺpov. V Barokovom štíte stredného rizalitu je plastický erb rodiny Csákyovcov. Paralelne s ním sa nachádza plastický znak, ktorý je symbolom lovu. Z tohto hľadiska sa pravdepodobne jednalo o lovecký kaštieľ. Túto skutočnosť potvrdzuje K. Károlyiová-Andrássyová v knihe Červená grófka spomína. Z jej spomienok vplýva, že každoročne 3. novembra na Huberta, sa začínali v Trebišove a jeho okolí veľkolepé hony na líšku.</p>\n<p>Zadná časť kaštieľa, ktorú tvoria dve bočné krídla so štítovými fasádami, má charakter čestného dvora. V interiéroch kaštieľa boli pôvodne mozaikové parkety, intarzovaný dobový nábytok, cenné umelecké diela, plastiky, drahé umelecké výrobky, tkané závesy, cenné koberce, porcelán, striebro, cín a iné luxusné výrobky. Nechýbali ani umelecky kované mreže, plot okolo kaštieľa, balustráda, fontány a iné architektonické v exteriéroch.</p>\n<p>Najcennejšie časti interiéru boli v roku 1914 odvezené do Budapešti a časť do Tiszadobu v Sabolčskej župe. O areál s kaštieľom dbal do rozpadu Rakúsko – Uhorska a aj po vzniku medzivojnovej ČSR správca andrássyovského majetku František Malonay.</p>\n<p>V rokoch 1949 – 1978 slúžil kaštieľ s areálom Nemocnici s poliklinikou v Trebišove. Jeho pôvodný interiér bol značne narušený a prispôsobený potrebám zdravotníctva. Po vysťahovaní nemocnice s poliklinikou kaštieľ niekoľko rokov chátral.</p>\n<p>V roku 1982 začal Pamiatkostav š.p. Žilina rekonštrukciu objektu na základe projektovej dokumentácie spracovanej Projektovým ústavom kultúry v Prešove. Projektovú dokumentáciu schválil a rekonštrukciu financoval Krajský ústav štátnej pamiatkovej starostlivosti a ochrany prírody v Prešove. Prvá etapa rekonštrukcie bola ukončená k 1. 12. 1987, keď bola v kaštieli slávnostne otvorená expozícia Cestami práce a bojov za chlieb, korá dokumentovala dejiny poľnohospodárstva na Východnom Slovensku od Neolitu po súčasnosť.</p>\n<p>V súčasnosti je kaštieľ sídlom Vlastivedného múzea, ktoré má v ňom a v priľahlých pamiatkovo – chránených objektoch svoje expozície.</p>\n<p>Súčasťou areálu kaštieľa sú aj prízemné pôvodne barokové budovy so štítovými fasádami, ktoré boli neskôr upravované. Patrí medzi ne jazdiareň, maštaľ ( koniareň ), čeľadinec, hospodárska budova, kuchyňa, ktoré si až na maštaľ ( koniareň ) zachovali svoje barokové slohové prvky a sú prirodzenou súčasťou tohto šľachtického sídla.</p>\n<p>Koncom 18. storočia sa súčasne s výstavbou kaštieľa začal z lužného lesa vytvárať historický park. Postupne vznikol anglický prírodno – krajinársky park, ktorého vývoj vyvrcholil v rokoch 1890 – 1905, keď došlo k úprave čestného dvora a francúzskej záhrady. V niektorých častiach parku boli postavené altánky, fontány, akváriá, koncertné terasy, antické plastiky, ktoré mu dodávali kultivovanejší charakter.</p>\n<p>Súčasne s rekonštrukciou a prestavbou kaštieľa na muzeálne účely zabezpečoval Krajský ústav štátnej pamiatkovej starostlivosti a ochrany prírody v Prešove biologickú rekonštrukciu muzeálnej časti mestského parku. Park vznikol z pôvodného zátopového lužného lesa a rozšíril sa na ploche 62 ha. Nachádza sa v ňom historická i náletová zeleň, ktorú tvoria ihličnaté, listnaté stromy, kroviny a rastliny. Veľmi cenný je najmä tis obyčajný, rozšírené sú tuja východná, tuja západná, borovica čierna, borovica sosna, smrek obyčajný, smrek pichľavý a iné. Z listnatých stromov je najvýznamnejší platan javorolistý, pagaštan konsky, čremcha strapcovitá, jaseň štíhly, dub letný, dub zimný, buk lesný, hrab obyčajný, brest hrabolistý, lipa malolistá, jelša lepkavá, agát biely, rôzne druhy javorov, topoľov a iné.</p>\n<p>V súčasnosti má kultivovaný charakter muzeálna časť parku a jeho časti, ktoré udržiavajú Technické služby mesta Trebišov. Ostatné časti mestského parku majú charakter lesoparku. Súčasťou lesoparku je aj areál zdravia Bučov les, ktorý slúži občanom i návštevníkom Trebišova v rámci cykloturistiky.</p>",
@@ -7004,7 +7438,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/05-marianske-susosie.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/002.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1318.6608332841422!2d21.719223882297673!3d48.62282636167004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47392ac9232a0a09%3A0xbcd6287459f481c2!2zTWFyacOhbnNrZSBzw7pzb8WhaWU!5e0!3m2!1ssk!2ssk!4v1528875920057",
       "text": "<p>Mariánske súsošie je dielom neznámeho kameno-sochára datovaným okolo roku 1800. Slohovo ho možno zaradiť k dielam doznievajúceho rokoka s niektorými znakmi klasicistického slohu. Dominantné miesto na súsoší má plastika Madony šliapajúcej na hada. Po jej pravici je kamenná plastika sv. Jána Nepomuckého a po ľavici socha patróna a ochrancu pred požiarmi sv. Floriána. Súsošie je v súčasnosti umiestnené už na treťom mieste. Pôvodne stálo pred kaštieľom. Neskôr roku 1907 bolo prenesené do priestoru južne od kostola na okraj parku smerom k hlavnej ulici. V tom čase bolo obklopené dekoratívnou reťazou umiestnenou na ôsmich stĺpoch. Bol to dar mestu od vdovy po grófovi Teodorovi Andrássym.</p>\n<p>Poškodené a značne narušené súsošie bolo v polovici 80-tych rokov komplexne obnovené v ŠRA vysekaním kópií pôvodných plastík a reštaurovaním menej narušených častí. Bolo tiež prenesené na vhodnejšie miesto, do priestoru medzi rímskokatolíckym a gréckokatolíckym kostolom. Súsošie nie je pamiatkovo označené.</p>",
@@ -7027,7 +7463,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/04-nizinny-vodny-hrad-paric.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/hir_2186-hdr.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1438.0550752730958!2d21.72638311986476!3d48.62123743481565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47392ac65d69fbe3%3A0x9e2c7cf3135f0062!2sHrad+Pari%C4%8D!5e0!3m2!1ssk!2ssk!4v1528876104940",
       "text": "<p>Výstavbu prvej etapy ranogotického nížinného vodného hradu (pravdepodobne obytná veža s opevnením) možno podľa výsledkov archeologických výskumov M. Slivku datovať do 12 . až 13. stor. Potvrdzujú to preskúmané zlomky úžitkovej keramiky, malá lampa s výlevkou a štyri ohniská vyvýšené asi 30 cm, nad úroveň podlahy. Plášťová polygonálna konštrukcia z kamenného základového muriva bola postavená v druhej etape výstavby hradu, začiatkom 14. storočia. Archeologický výskum potvrdil, že súčasne s opevnením bol na západnej strane vybudovaný aj ranogotický palác. Podľa úrovne podlahy hornej klenby možno predpokladať, že objekt mal tri podlažia. Na východnej strane hradného areálu bola vystavaná štvoruholníková vstupná veža a na nádvorí studňa obmurovaná kameňom s vnútorným priemerom 160 cm. Hrad mal vysoké a hrubé opevnenie ukončené cimburím s hradobnou ochodzou. Táto druhá etapa výstavby hradu bola realizovaná Filipom a Viliamom Drugethom v prvej polovici 14. storočia.</p>\n<p>Ďalšou výstavbou nových predsunutých opevnení, vodných priekop a iných obranných prvkov hrad nadobudol za Peréniyovcov v 15. storočí podobu rozsiahlejšieho panského sídla.</p>\n<p>Hrad Parič mal zložitú históriu, plnú násilných zmien vlastníckych vzťahov. Hektická doba protihabsburských povstaní vniesla do architektonického vývoja hradu podstatne zmeny, zakončene jeho úmyselným vyhodením do vzduchu Imrichom Tӧkӧlim v roku 1686. V poslednej štvrtine 18. storočia bol stavebný materiál z hradu použitý pri výstavbe neďalekého kaštieľa, jeho pozostatky sa v neskoršom období stali dokonca terčom aj armádnych cvičení. Všetky uvedené skutočnosti sa v minulosti podpísali na jeho stave, kedy z hradu – okrem archeologicky zistených objektov pod úrovňou terénu – ostalo len neveľké torzo tehlovej hradby.</p>\n<p>Torzo hradu Parič sa nachádza v krásnom mestskom parku, ktorý je najväčším mestským parkom v strednej Európe, v jeho blízkosti stojí barokovo-klasicisticky kaštieľ aj neogotické Mauzóleum grófa Júliusa Andrássyho. </p>\n<p>Lokalizácia pamiatky v autentickom kultúrno-historickom prostredí s pomerne intímnou atmosférou pokoja v urbanizovanej oblasti okresného mesta je benefitom, ktorým pravdepodobne nedisponuje žiadna iná pamiatka podobného druhu.</p>\n<p>Z archeologických pamiatok získaných výskumom je cenný najmä súbor kachliarskej keramiky, ktorý tvoria komorové, miskovité, nárožné, korýtkové a cibuľovité kachlice z 15. a 16. storočia. Sú to svojrázne umelecké diela s rastlinnými zvieracími, heraldickými, architektonickými a svetskými motívmi. Časť z týchto kachlíc je v zbierkovom fonde Vlastivedného múzea v Trebišove.</p>",
@@ -7050,7 +7488,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/03-greckokatolicky-chram-zosnutia-presvatej-bohorodicky.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/003-2.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2637.3041533320074!2d21.71836131572896!3d48.6231615251944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDM3JzIzLjQiTiAyMcKwNDMnMTQuMCJF!5e0!3m2!1ssk!2ssk!4v1528876438833",
       "text": "<p>Výstavba gréckokatolíckej cerkvi v Trebišove bezprostredne súvisela s vrcholiacou migráciou obyvateľstva zo severovýchodu horného Uhorska do úrodnejších častí Zemplína počas ruthénskej kolonizácie v 18. a prvej tretine 19. storočia. V roku 1720 tvorilo Trebišov iba 36 meštianskych domácností. Neobývané domy chátrali a polia zarastali burinou.</p>\n<p>V matrike gréckokatolíckej cirkvi, vedenej od roku 1776, je správa o starej fare, ktorá naznačuje existenciu staršej cerkvi tejto východnej cirkvi v Trebišove. Môžeme len predpokladať, že pôvodná cerkev bola drevená so slamenou strechou a nepostačovala vzrastajúcemu počtu veriacich po jednotlivých migračných vlnách.</p>\n<p>Preto bol v čase vrcholiacej migrácie 28. augusta 1817 položený základný kameň nového kamenného chrámu pre veriacich východného obradu. Projektantom novej gréckokatolíckej cerkvi bol staviteľ Jozef Turčáni. Navrhol chrám, ktorého interiér postačoval potrebám duchovného života vzrastajúceho počtu veriacich gréckokatolíckej cirkvi. Výstavba chrámu bola realizovaná v rokoch 1818 – 1825. Jeho slávnostná vysviacka sa uskutočnila 28. augusta 1825 na sviatok nanebovzatia Presvätej Bohorodičky. Bol to dôkaz toho, že v meste bolo veľmi silné patrocínium Panny Márie.</p>\n<p>Tragické udalosti neobišli ani tento chrám. Živelná pohroma 3. júla 1844 spôsobila zrútenie kostolnej veže, ktorú znovu postavili v roku 1855. Po silnom požiari v roku 1876 boli zničené zvony vo veži, na ktoré prispel kráľ i ministerstvo kultúry. Obnova interiéru chrámu bola ukončená v roku 1886, keď bol rezbárom Petrom Kovaliczkým postavený ikonostas a kazateľnica.</p>\n<p>Dominantnou ikonou na ikonostase je Smrť Panny Márie. Spolu s ňou sú tam umiestnené aj ikony Ježiša Krista, Matky Božej, Sv. Mikuláša. V ďalšom rade menších ikon je v centre Posledná večera a po jej obidvoch stranách je dvanásť hlavných cirkevných sviatkov kresťanského roka. Ikony dvanástich apoštolov, prorokov a patriarchov, nad nimi dominujúca Golgota s Bolestnou Matkou a Sv. Jánom Krstiteľom, dotvárajú kompozíciu celého ikonostasu. Prístavbou sachristie roku 1901, zakúpením umelecky hodnotného lustra, vydláždením interiéru keramickou dlažbou a osadením okenných vitráží (1907) bola dostavba chrámu prakticky ukončená. Namiesto troch zrekvírovaných zvonov z rokov prvej svetovej vojny bol v 20-tych rokoch 20. storočia zakúpený veľký zvon pomenovaný menom Georgij. Oplotenie s vykovanou ozdobnou vežou bolo ukončené a osadené roku 1903.</p>",
@@ -7073,7 +7513,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/02-rimskokatolicky-kostol-navstevy-panny-marie.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/002-1.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1318.6788048289857!2d21.719758772011975!3d48.62213848724366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDM3JzE5LjciTiAyMcKwNDMnMTQuNCJF!5e0!3m2!1ssk!2ssk!4v1528876606436",
       "text": "<p>Pôvodný kostol je datovaný ešte pred rokom 1404. Napriek tomu, že súčasný rímskokatolícky chrám čiastočne ovplyvnili neskoršie umelecké a filozofické prúdy, patrí medzi skvostné pamiatky gotickej architektúry. Kostol má hlavnú loď a neskôr pristavené bočné kaplnky. Sieťovú rebrovú klenbu tvorí 63 polí v tvare kosoštvorcov rôznych veľkostí, s figurálnymi a dekoratívnymi motívmi. Interiér chrámu dotvárajú viaceré oltáre, nástenné maľby a triumfálny oblúk, pri ktorom sú plastické maskarony a konzoly. Na strope svätyne zobrazené scény zo života Panny Márie. Keďže správa o pôsobení kňaza Petra v Trebišove je z roku 1326, možno predpokladať, že na mieste staršieho kostola postavili pred rokom 1404 v gotickom slohu nový kostol. Tento bol do roku 1504 farským kostolom. Keď však Imrich Perényi pozval do Trebišova pavlínov (1504) začal kostol patriť v rokoch 1504 – 1530 a 1650 – 1786 mníchom z tohto rádu. Počas ich pôsobenia v Trebišove bol roku 1696 kláštorný kostol obnovený a neskôr (1770) interiérovo dotvorený.</p>\n<p>Na pôvodných neskoro gotických klenbách interiéru je kvalitne stvárnený nebeský priestor s dekoráciami iluzívnej maľby z poslednej štvrtiny 18. storočia. Strop svätyne tvorí osem kompozícií zo života Panny Márie, ktorej je kostol zasvätený. Dvanásť obrazov z legendárneho života sv. Pavla Pustovníka tvorí strop lode. Bočné steny lode skrášľujú dva monumentálne obrazy: Videnie Sobieskeho pri obliehaní Viedne a Hold pred Máriou Teréziou, ktoré sú z roku 1777 a patria do obdobia rokoka. Povrchná, hrubá obnova malieb po požiari kostola a časti obce v roku 1876, reštaurátorské práce z donácie grófa Teodora (Tivadara) Andrássyho, obnova fresiek na vnútornej klenbe kostola v roku 1933 maliarom Júliusom Kernom, miestne premaľby poškodených častí v kartušiach, ornamentoch a kamenných článkoch spôsobili, že figurálne kompozície na viacerých miestach stratili svoj pôvodný kolorit spráškovatením horných vrstiev a hrubými nánosmi tmelov a miestnych premalieb v neskoršom období.</p>\n<p>Podľa správy reštaurátorky Márie Spoločníkovej opravy uskutočnené v roku 1968 Umeleckými remeslami z Bratislavy a Chrámovým družstvom z Červeného Kostelca spôsobili, že ťažko rozpustné dvojzložkové spevňovacie látky môžu pri ďalšom reštaurovaní spôsobiť porušenie pôvodných omietkových vrstiev. Reštaurátorka usudzuje, že pod vyrovnávacími omietkami z roku 1777 existuje spodná vrstva neznámej nástennej maľby, ktorá bola realizovaná na pôvodný gotický strop.</p>\n<p>Po prvej svetovej vojne bolo nutné nahradiť zrekvírované zvony a poškodené vežové krytiny. V rímskokatolíckom kostole zostal len najväčší zvon, ku ktorému v roku 1924 umiestnili dva menšie zvony zvonolejára E. Ferencza z Kisgejocso. V roku 1926 bol opravený aj posun oporného piliera na južnej strane gotického kostola. V tom čase bola nanovo pokrytá strecha veže a osadený nový kríž na jej vrcholci.</p>\n<p>Pri vchode do sakristie sú umiestnené dva mramorové epitafy Jána a Imricha Perényiovcov. Ján Perényi má epitaf z hnedo-ružového mramoru so symbolikou, ktorú tvoria dve orlie krídla, hlava muža, rytierske brnenie, kukla s korunou a latinský nápis na stuhe náhrobku. Náhrobný kameň Imricha Perényiho, ktorý zomrel roku 1519, zobrazuje zakladateľa Trebišovského kláštora stojaceho v brnení na chrbte leva, opierajúc sa o meč a podporu štyroch anjelov. V ďalších kryptách pod podlahou kostola sú okrem Perényiovcov pochovaní aj Peter Szapáry, Etela Szapáryová a Júlia Csákyová.</p>\n<p>V interiéri kostola sú aj ďalšie cenné umelecko-historické pamiatky: Závesné obrazy Navštívenie Panny Márie (1780), Svätý Pavol Pustovník (Koniec 18. storočia), Svätý Justín Mučeník (1835), Kamenná krstiteľnica (koniec 18. storočia) a pseudo-rokokové kreslo. Podľa zápisu v kronike mesta boli v okolí Trebišova v roku 1887 veľké manévre, na ktorých sa zúčastnil cisár František Jozef I. Gróf Július Andrássy dal na počesť cisára bývajúceho v trebišovskom kaštieli vyrobiť vyrezávané drevené kreslo s bohatou mušľovou i rozviliovou výzdobou a postavami anjelov. Tento „cisársky trón“ je skutočne pozlátený plátkovým zlatom a čalúnený purpurovým plyšom v štýle pseudorokoka (druhého rokoka) druhej polovice 19. storočia. Gróf Teodor Andrássy ho neskôr daroval rímskokatolíckemu kostolu.</p>\n<p>Stiahnutím stropu a múrov kostola železnými tiahlami, osadením malého zvona namiesto prasknutého do veže kostola majstrom zo Sopronu, položením vzorovanej keramickej dlažby (1901 – 1903), chrámových okien zo sklomaľbami Waltera Gidu a výstavbou kazateľnice Sopronským sochárom Leopoldom Hildom (1907) bol kostol staticky zabezpečený a interiérovo ukončený.</p>",
@@ -7119,7 +7561,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/1-the-church-of-the-assumption-of-the-virgin-mary-the-memorial-of-the-fallen-in-the-1st-world-war-12.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/1-1.jpg"
+      ],
       "gps": {
         "lat": 49.405817,
         "lng": 18.626376
@@ -7145,7 +7589,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/2-the-town-museum-of-karol-tocik.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/2.jpg"
+      ],
       "gps": {
         "lat": 49.404162,
         "lng": 18.62477
@@ -7171,7 +7617,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/12-ponds.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/12.jpg"
+      ],
       "gps": {
         "lat": 49.419162,
         "lng": 18.59347
@@ -7197,7 +7645,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/11-natural-amphitheater-history-of-beskydy-festival-2.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/11.jpg"
+      ],
       "gps": {
         "lat": 49.401528,
         "lng": 18.627594
@@ -7223,7 +7673,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/10-the-ski-areal-bukovina.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/bukovina-2.jpg"
+      ],
       "gps": {
         "lat": 49.398615,
         "lng": 18.639535
@@ -7249,7 +7701,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/9-the-stone-sphere-in-front-of-the-town-hall-on-the-occasion-of-the-1st-world-meeting-of-turzovka-people-2.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/9.jpg"
+      ],
       "gps": {
         "lat": 49.403882,
         "lng": 18.624877
@@ -7275,7 +7729,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/7-the-square-of-juraj-thurza.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/7.jpg"
+      ],
       "gps": {
         "lat": 49.403598,
         "lng": 18.62358
@@ -7301,7 +7757,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/5-the-sport-and-recreation-centre-the-skatepark.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/5.jpg"
+      ],
       "gps": {
         "lat": 49.401766,
         "lng": 18.619574
@@ -7327,7 +7785,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/4-the-park-of-tinker-and-young-tinker-drotar-and-dzrek-the-pillar-of-jan-nepomuk-the-sculpture-of-tinker-and-young-tinker.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/4-2.jpg"
+      ],
       "gps": {
         "lat": 49.403284,
         "lng": 18.624934
@@ -7353,7 +7813,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/3-the-firemen-s-hobby-museum.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/hasicske-hobby-muzeum.jpg"
+      ],
       "gps": {
         "lat": 49.39586,
         "lng": 18.62414
@@ -7379,7 +7841,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/8-1-the-memorial-table-and-the-room-of-rudolf-jasik.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/jasik.jpg"
+      ],
       "gps": {
         "lat": 49.404348,
         "lng": 18.624741
@@ -7405,7 +7869,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/8-2-the-monument-of-m-r-stefanika-4.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/8.jpg"
+      ],
       "gps": {
         "lat": 49.402188,
         "lng": 18.623988
@@ -7431,7 +7897,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/8-3-the-monument-of-tomas-uhorcik.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/uhorcik.jpg"
+      ],
       "gps": {
         "lat": 49.404743,
         "lng": 18.624902
@@ -7483,7 +7951,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/6-1-the-chapel-of-virgin-mary-s-perpetual-help-in-settlement-u-okruhliakov.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/u-koliarov.jpg"
+      ],
       "gps": {
         "lat": 49.406749,
         "lng": 18.628815
@@ -7509,7 +7979,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/6-2-the-chapel-of-the-virgin-mary-lourdes.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/u-mravca.jpg"
+      ],
       "gps": {
         "lat": 49.405104,
         "lng": 18.63602
@@ -7535,7 +8007,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/6-3-the-chapel-on-the-javorova-street.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/javorova.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Ide o menšiu sakrálnu stavbu, ktorá stojí na Javorovej ulici. Jej iniciátorom bol Jakub Štefanka, ktorý pri kopaní základov pre hospodársku budovu našiel v zemi sochu Panny Márie Hostýnskej. To bol impulz pre postavenie malej kaplnky, v ktorej sa aj v súčasnosti nachádza socha Panny Márie Hostýnskej (už nie pôvodná). Na dverách kaplnky je umiestnený Máriin monogram.</p>",
@@ -7558,7 +8032,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/6-4-the-chapel-of-the-virgin-mary-skapuliarskej.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/skapuliarska.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Kaplnku v roku 1820 postavil panský hájnik Valentín Vanko spolu s manželkou. V roku 1937 zložil turzovský farník Jozef Zimka na kaplnku v Predmieri fundáciu vo výške 50 zlatých. V rokoch 1849, 1852 či 1863 sa konali menšie renovačné práce. Generálna oprava kaplnky bola vykonaná v roku 1934, kedy na ňu zložil J. Planetzer fundáciu 200 korún. Posviacka vynovenej kaplnky sa konala 12. augusta 1934. Vo vežičke kaplnky sa nachádza malý zvon s nápisom „Venované Heinrich Pirnetorz roku 1934“.</p>",
@@ -7581,7 +8057,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/6-5-the-chapel-of-senven-sorrows-viring-mary-in-u-blazkov.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/u-blazkov.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Stavba kaplnky sa začala v roku 1845, iniciátorom jej výstavby bol Jozef Bobek. Dodnes sa zachovala jeho žiadosť nitrianskemu biskupovi z 25. júla 1845, v ktorej J. Bobek prosí biskupa o povolenie postaviť kaplnku a informuje ho o tom, že už má vykopané základy a vymurovanú časť múrov. V roku 1849 zložil na túto kaplnku fundáciu Martin Gajdoš z Olešnej. V roku 1949 bola kaplnka prebudovaná a zrekonštruovaná. Takto obnovená bola 24. septembra 1950 posvätená. Vo vežičke je umiestnený zvon na jednej strane s krížom a nápisom: „Mich hat gestiftet Ortschaft Ruhstein im Jahre Heiles 1922“ a na druhej strane zvona je text: „Oktav Winter, Braunau, guss mich 1922, nr. 1206“ (nem. V roku spásy 1922 ma darovala obec Ruštejn; v roku 1922 ma ulial Oktav Winter z Broumova, č. 1206).</p>",
@@ -7604,7 +8082,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/6-6-the-chapel-of-the-most-holy-heart-of-virgin-mary-8.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/kaplnka-hlinene-najsv-srdca-p-marie.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>V Hlinenom sa ešte pred postavením tejto kaplnky nachádzal drevený stĺpik, na ktorom bol pribitý obrázok Panny Márie. Ľudia sa tam často schádzali a konali rôzne pobožnosti. Do pokladničky vkladali milodary a neskôr sa obrátili na svojho farára Františka Tagániho so žiadosťou postaviť na tomto mieste kaplnku zasvätenú Panne Márii. Tagáni sa so žiadosťou o povolenie obrátil na diecézneho biskupa a požiadal ho, aby sa v kaplnke mohli niekoľkokrát za rok slúžiť sv. omše. </p>\n<p>Turzovský ľud považoval toto miesto za zázračné. Veriaci sa tam utiekali v čase sucha, šíriacich sa nemocí a konali tam procesie. Miesto bolo tradíciou označované ako nezvyčajné, kde sa mali udiať aj zázračné uzdravenia. F. Tagáni v liste biskupovi opísali prípad 50-ročného Jána Muroňa, ktorý mal problémy so zrakom a nerozoznával postavy ľudí ani na blízku vzdialenosť. Sused ho zaviedol na toto miesto, kde sa modlil, namočil si oči v prameni a po návrate domov sa cítil lepšie. Zopakoval to druhý i tretí raz a uzdravenie pripisoval tomuto miestu. Adam Učník trpel bolestivými kŕčmi a bolesťou zubov, modlil sa, umyl sa v prameni a necítil viac nijakú bolesť, čo potvrdil aj prísahou. </p>\n<p>Biskup udelil súhlas na výstavbu kaplnky 30. októbra 1870. Približne o rok a pol bola stavba hotová. Kaplnka má rozmery 9,48 m dĺžky a 6,6 m šírky. Manuálnu prácu a prácu so záprahom poskytli farníci zdarma v hodnote viac ako 900 zlatých. Okrem finančného zabezpečenia sa farár postaral aj o dôstojné umelecké vybavenie kaplnky. Obraz Prečistého Srdca Panny Márie do kaplnky v roku 1871 namaľoval Jozef Božetech Klemens a do vežičky na kaplnke bol umiestnený zvon uliaty u zvonolejára Cyrila Krausa v Banskej Bystrici v roku 1873. Kaplnka bola farárom Tagánim slávnostne posvätená 9. júna 1872. V priebehu roka 1878 bolo k novopostavenej kaplnke vybudované schodisko, ako o tom svedčí nápis priamo na schodiskovom múre: „Za duchovnej správy Fra. Tagányi Roku Pána 1878“.</p>",
@@ -7627,7 +8107,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/6-7-the-church-of-the-virgin-mary-of-fatima.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/kostol-turkov.jpg"
+      ],
       "gps": {
         "lat": 49.371677,
         "lng": 18.609308
@@ -7653,7 +8135,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/6-8-the-chapel-of-the-seven-sorrow-virgin-mary.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/kaplnka-sedembolestnej-panny.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Kaplnka bola postavená v roku 1944 nad cestou vedúcou z Turzovky cez horské sedlo Semeteš na Považie. Vo vežičke je umiestnený zvon s nápisom: „Ulil R. Manoušek a spol. v Brne 1943.“</p>",
@@ -7676,7 +8160,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/6-9-zivcakova-marian-pilgrimage-place-3.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/zivcakova.jpg"
+      ],
       "gps": {
         "lat": 49.394379,
         "lng": 18.576926
@@ -7702,7 +8188,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/6-10-the-chapel-of-the-virgin-mary-queen-of-peace.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/zivcakova-kaplnka.jpg"
+      ],
       "gps": {
         "lat": 49.394385,
         "lng": 18.576529
@@ -7728,7 +8216,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/6-11-the-church-of-the-virgin-mary-mother-of-the-church-in-zivcakova.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/kostol-zivcakova.jpg"
+      ],
       "gps": {
         "lat": 49.397869,
         "lng": 18.56986
@@ -7754,7 +8244,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/6-12-the-chapel-in-bukovina.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/bukovina.jpg"
+      ],
       "gps": {
         "lat": 49.395664,
         "lng": 18.639454
@@ -7781,11 +8273,12 @@ const DB = {
         "assets/audio/migrated/01-kaplnka-a-vojensky-cintorin-1.mp3"
       ],
       "galeria": [
+        "assets/images/migrated/webp-net-resizeimage9.jpg",
         "assets/images/migrated/webp-net-resizeimage10.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.0284020819972!2d21.673188115964297!3d48.8957958792911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzQ0LjkiTiAyMcKwNDAnMzEuNCJF!5e0!3m2!1ssk!2ssk!4v1629985649847!5m2!1ssk!2ssk",
-      "text": "<p>Po udalostiach, ku ktorým došlo v lete 1914 v Sarajeve, kedy bol spáchaný atentát na následníka trónu Františka Ferdinanda d’Este, sa spustili v monarchii vážne vnútorné aj medzinárodné politické pohyby, ktoré vyústili do vyhlásenia I. svetovej vojny.</p>\n<p>Obyvatelia Vranova vnímali prípravy na vojnový konflikt ako „oživenie“ stereotypne prebiehajúcich dní, týždňov, mesiacov a nie ako hrozivú katastrofu. Keď bola 31. júla 1914 vyhlásená všeobecná mobilizácia, to už nebolo len „hranie sa na vojnu“, ale reálny vojenský konflikt so všetkými hrôzami a obeťami. Cintoríny pre padlých v bojoch medzi Rakúsko -Uhorskými a Ruskými armádami vznikali na frontovej línii aj v zázemí pri poľných lazaretoch. V lesoch Východných Karpát sa nachádzajú desiatky cintorínov, na ktorých sú pochované tisíce padlých.</p>\n<p>Vo Vranove bol v tej dobe zriadený vojenský lazaret a zhromaždisko vojnových ruských zajatcov. Cintorín, ktorý tu vznikol, slúžil pre potreby tohto lazaretu. Je na ňom pochovaných 250 obetí vojny. V období prvej Československej republiky bol cintorín upravený a v roku 1935 zorganizoval Okresný výbor brannosti vo Vranove pietnu oslavu, pri príležitosti ktorej bol odhalený pamätník Padlým spoluobčanom vranovským v rokoch 1914 – 1918. Ich mená sú zvečnené na mramorovej tabuli.</p>",
+      "text": "<p>Po udalostiach, ku ktorým došlo v lete 1914 v Sarajeve, kedy bol spáchaný atentát na následníka trónu Františka Ferdinanda d’Este, sa spustili v monarchii vážne vnútorné aj medzinárodné politické pohyby, ktoré vyústili do vyhlásenia I. svetovej vojny.</p>\n<p>Obyvatelia Vranova vnímali prípravy na vojnový konflikt ako „oživenie“ stereotypne prebiehajúcich dní, týždňov, mesiacov a nie ako hrozivú katastrofu. Keď bola 31. júla 1914 vyhlásená všeobecná mobilizácia, to už nebolo len „hranie sa na vojnu“, ale reálny vojenský konflikt so všetkými hrôzami a obeťami. Cintoríny pre padlých v bojoch medzi Rakúsko -Uhorskými a Ruskými armádami vznikali na frontovej línii aj v zázemí pri poľných lazaretoch. V lesoch Východných Karpát sa nachádzajú desiatky cintorínov, na ktorých sú pochované tisíce padlých.</p>\n<p>Vo Vranove bol v tej dobe zriadený vojenský lazaret a zhromaždisko vojnových ruských zajatcov. Cintorín, ktorý tu vznikol, slúžil pre potreby tohto lazaretu. Je na ňom pochovaných 250 obetí vojny. V období prvej Československej republiky bol cintorín upravený a v roku 1935 zorganizoval Okresný výbor brannosti vo Vranove pietnu oslavu, pri príležitosti ktorej bol odhalený pamätník Padlým spoluobčanom vranovským v rokoch 1914 – 1918. Ich mená sú zvečnené na mramorovej tabuli.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage10.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/kaplnka-a-vojensky-cintorin-z-1-sv-vojny/",
         "en": "https://www.qrlink.sk/new/en/kaplnka-a-vojensky-cintorin-z-1-sv-vojny/",
@@ -7805,7 +8298,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/02-pieskovcovy-kriz-1.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/webp-net-resizeimage6.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.0284020819972!2d21.673188115964297!3d48.8957958792911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzQ0LjkiTiAyMcKwNDAnMzEuNCJF!5e0!3m2!1ssk!2ssk!4v1629985649847!5m2!1ssk!2ssk",
       "text": "<p>Pieskovcový kríž z  roku 1864 bol pôvodne umiestnený pri zaniknutom kostole sv. Štefana, ktorý sa nachádzal pravdepodobne v centre mesta. Kríž je zachovaný v pomerne pôvodnej podobe. V okolí kostolov sa v minulosti nachádzali cintoríny a aj pri spomínanom kostole sv. Štefana sa pri archeologickom prieskume našli hrobové miesta. Historici predpokladajú, že kríž bol súčasťou cintorína. Druhou možnosťou je, že to bol prícestný kríž, pretože popri kostole viedla obchodná cesta.</p>\n<p>Umiestnenie objektu teda nebolo náhodné.</p>",
@@ -7829,13 +8324,14 @@ const DB = {
         "assets/audio/migrated/03-bazilika-minor-narodenia-panny-marie.mp3"
       ],
       "galeria": [
+        "assets/images/migrated/bazilika-minor-narodenia-panny-marie-a-klastor-paulinov.jpg",
         "assets/images/migrated/5-bazilika-minor-1024x773.jpg",
         "assets/images/migrated/6-klastor-paulinov.jpg",
         "assets/images/migrated/webp-net-resizeimage1-1024x768.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.222210164304!2d21.6782549159643!3d48.89210217929072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzMxLjYiTiAyMcKwNDAnNDkuNiJF!5e0!3m2!1ssk!2ssk!4v1629985933748!5m2!1ssk!2ssk",
-      "text": "<p>K najvýznamnejším pamiatkam na území mesta patrí neskorogotická Bazilika minor Narodenia Panny Márie a k nej prislúchajúci kláštor pavlínov z obdobia baroka. (Tento titul získal kostol v roku 2008) Obe stavby sú zapísané do registra národných kultúrnych pamiatok od roku 1963.</p>\n<p>Kostol nechala v roku 1580 postaviť svatka Alžbety Bátoriovej – Eufrozína Drugeth pre potreby kalvínskych veriacich. Počas povstania Imricha Tököliho nastal útlm ich činnosti. Toto obdobie naopak znamenalo rozkvet protestantizmu. Následné obdobie rekatolizácie posilnilo postavenie rehole, čo znamenalo intenzívny vývoj kláštora a kostola. Požiar na začiatku 17. storočia poznačil obidva objekty. V priebehu 18. storočia realizovali pavlíni mohutnú barokovú prestavbu kostola.</p>\n<p>Výzdoba v interiéroch pochádza od viedenského maliara Johanna Lucasa Krackera, ktorý vytvoril sériu barokových iluzívnych malieb. Z freskových malieb, ktoré sa zachovali, je najvýznamnejšia tá, ktorá sa nachádza medzi hlavným oltárom a kazateľnicou. Znázorňuje narodenie Panny Márie. V priestoroch kláštora prezentuje majstra jedno dielo. Nachádza sa na klenbe kláštorného schodišťa.</p>\n<p>Autorom drevenej výzdoby hlavného oltára, ale aj bočných oltárov a kazateľnice, je košický sochársky majster Jozef Hartman. Výzdoba vranovskej baziliky patrí k jeho vrcholným dielam. Do rannej fázy jeho tvorby patrí aj Oltár sv. Jána Nepomuckého. Z jeho dielne pochádza zrejme aj kazateľnica, bočné oltáre a snáď aj výzdoba portálov. Hartmann sa tu prezentuje už ako vyzretý neskorobarokový umelec s charakteristickými postavami štíhlych foriem s malou hlavou, veľkými nosmi a výraznými očami, s takmer až plocho modelovanými viečkami. Celý mobiliár vznikol v roku 1745. Výzdoba baziliky aj kláštora, v ktorej je kombinovaná maľba Johanna Lucasa Krackera a sochárska a rezbárska výzdoba Jozefa Hartmana vytvorili jedinečné dielo. Národnou kultúrnou pamiatkou je aj chrámový poklad od levočského zlatníckeho majstra Jána Szilassyho, ktorý je kľúčovou postavou hornouhroského barokového zlatníctva. Szilassy pre vranovskú baziliku vytvoril kolekciu pozostávajúcu z monštrancie, pacifikálneho kríža, cibória a kalicha.</p>\n<p><strong>Pôvodný kláštor</strong> postavili františkáni v prvej polovici 15. storočia. Počas reformácie však mesto opustili. Františkánsky kláštor počas protihabsburských povstaní zanikol. V roku 1672 prišli na pozvanie Márie Esterháziovej do Vranova pavlíni. Vybudovali si kláštor na základoch starého františkánskeho kláštora a obnovili jeho činnosť. Dnes je kláštor využívaný pre potreby cirkvi.</p>\n<p><strong>Náhrobné kamene</strong></p>\n<p>Vedľa Baziliky pri bočnom vchode sa nachádzajú dva pôvodné náhrobné kamene. Romantizujúci kamenný náhrobok patrí Ferencné Almássy (1783-1848). Na druhom náhrobku je erb patriaci rodine Forgáčovcov.</p>",
+      "text": "<p>K najvýznamnejším pamiatkam na území mesta patrí neskorogotická Bazilika minor Narodenia Panny Márie a k nej prislúchajúci kláštor pavlínov z obdobia baroka. (Tento titul získal kostol v roku 2008) Obe stavby sú zapísané do registra národných kultúrnych pamiatok od roku 1963.</p>\n<p>Kostol nechala v roku 1580 postaviť svatka Alžbety Bátoriovej – Eufrozína Drugeth pre potreby kalvínskych veriacich. Počas povstania Imricha Tököliho nastal útlm ich činnosti. Toto obdobie naopak znamenalo rozkvet protestantizmu. Následné obdobie rekatolizácie posilnilo postavenie rehole, čo znamenalo intenzívny vývoj kláštora a kostola. Požiar na začiatku 17. storočia poznačil obidva objekty. V priebehu 18. storočia realizovali pavlíni mohutnú barokovú prestavbu kostola.</p>\n<p>Výzdoba v interiéroch pochádza od viedenského maliara Johanna Lucasa Krackera, ktorý vytvoril sériu barokových iluzívnych malieb. Z freskových malieb, ktoré sa zachovali, je najvýznamnejšia tá, ktorá sa nachádza medzi hlavným oltárom a kazateľnicou. Znázorňuje narodenie Panny Márie. V priestoroch kláštora prezentuje majstra jedno dielo. Nachádza sa na klenbe kláštorného schodišťa.</p>\n<p>Autorom drevenej výzdoby hlavného oltára, ale aj bočných oltárov a kazateľnice, je košický sochársky majster Jozef Hartman. Výzdoba vranovskej baziliky patrí k jeho vrcholným dielam. Do rannej fázy jeho tvorby patrí aj Oltár sv. Jána Nepomuckého. Z jeho dielne pochádza zrejme aj kazateľnica, bočné oltáre a snáď aj výzdoba portálov. Hartmann sa tu prezentuje už ako vyzretý neskorobarokový umelec s charakteristickými postavami štíhlych foriem s malou hlavou, veľkými nosmi a výraznými očami, s takmer až plocho modelovanými viečkami. Celý mobiliár vznikol v roku 1745. Výzdoba baziliky aj kláštora, v ktorej je kombinovaná maľba Johanna Lucasa Krackera a sochárska a rezbárska výzdoba Jozefa Hartmana vytvorili jedinečné dielo. Národnou kultúrnou pamiatkou je aj chrámový poklad od levočského zlatníckeho majstra Jána Szilassyho, ktorý je kľúčovou postavou hornouhroského barokového zlatníctva. Szilassy pre vranovskú baziliku vytvoril kolekciu pozostávajúcu z monštrancie, pacifikálneho kríža, cibória a kalicha.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2021/08/5-bazilika-minor-1024x773.jpg\" alt=\"\"></p>\n<p><strong>Pôvodný kláštor</strong> postavili františkáni v prvej polovici 15. storočia. Počas reformácie však mesto opustili. Františkánsky kláštor počas protihabsburských povstaní zanikol. V roku 1672 prišli na pozvanie Márie Esterháziovej do Vranova pavlíni. Vybudovali si kláštor na základoch starého františkánskeho kláštora a obnovili jeho činnosť. Dnes je kláštor využívaný pre potreby cirkvi.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2021/08/6-kla%C5%A1tor-paulinov.jpg\" alt=\"\"></p>\n<p><strong>Náhrobné kamene</strong></p>\n<p>Vedľa Baziliky pri bočnom vchode sa nachádzajú dva pôvodné náhrobné kamene. Romantizujúci kamenný náhrobok patrí Ferencné Almássy (1783-1848). Na druhom náhrobku je erb patriaci rodine Forgáčovcov.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage1-1024x768.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/bazilika-minor-narodenia-panny-marie-a-klastor-paulinov/",
         "en": "https://www.qrlink.sk/new/en/bazilika-minor-narodenia-panny-marie-a-klastor-paulinov/",
@@ -7856,11 +8352,12 @@ const DB = {
         "assets/audio/migrated/04-schwartsov-dom.mp3"
       ],
       "galeria": [
+        "assets/images/migrated/schwartzov-dom.jpg",
         "assets/images/migrated/schwartzov-dom-1.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.324815893478!2d21.679354615964247!3d48.89014657929066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzI0LjUiTiAyMcKwNDAnNTMuNiJF!5e0!3m2!1ssk!2ssk!4v1629986095509!5m2!1ssk!2ssk",
-      "text": "<p>Schwartzov dom je jedna z najreprezentatívnejších zachovaných profánnych budov vo Vranove nad Topľou. Jej staviteľom bol významný vranovský obchodník Hugo Schwartz v roku 1911. Hugo Schwartz s manželkou Lujzou rodenou Bergerovou, s bratmi Ignácom a Izidorom boli aj vlastníkmi najväčšieho vranovského podniku – obchodu s priemyselným tovarom, ktorý sa nachádzal v budove. Bohato zdobené neskorosecesné priečelie budovy dopĺňa bohatá štuková výzdoba interiéru. Nad vchodom je korunná rímsa podopretá ozdobnými prvkami na fasáde. Tieto prvky sú zachované na budove dodnes. V medzivojnovom období stála pred obchodom benzínová pumpa. Majitelia obchodu zabezpečili tiež elektrické osvetlenie priľahlej križovatky. Rodina bola známa svojimi filantropickými darmi, najznámejší bol „amerikanec“ Mikulaš Schwartz, ktorý zo Spojených štátov amerických svojimi finančnými darmi podporil nielen židovskú obec, ale aj katolícke zbory. Daroval rímskokatolíckej cirkvi 50 tisíc korún na zakúpenie zvona a 10 tisíc dolárov na výstavbu vranovskej synagógy. Keď Izidor Schwartz – brat Ignáca a Huga zomrel (pôsobil ako obchodný splnomocnenec Slovenskej všeobecnej úverovej banky), ich rodina darovala rímskokatolíckej cirkvi na opravy kostola 100 tisíc korún. Členovia tejto, pre Vranov významnej židovskej rodiny, sú pochovaní na miestnom židovskom cintoríne.</p>",
+      "text": "<p>Schwartzov dom je jedna z najreprezentatívnejších zachovaných profánnych budov vo Vranove nad Topľou. Jej staviteľom bol významný vranovský obchodník Hugo Schwartz v roku 1911. Hugo Schwartz s manželkou Lujzou rodenou Bergerovou, s bratmi Ignácom a Izidorom boli aj vlastníkmi najväčšieho vranovského podniku – obchodu s priemyselným tovarom, ktorý sa nachádzal v budove. Bohato zdobené neskorosecesné priečelie budovy dopĺňa bohatá štuková výzdoba interiéru. Nad vchodom je korunná rímsa podopretá ozdobnými prvkami na fasáde. Tieto prvky sú zachované na budove dodnes. V medzivojnovom období stála pred obchodom benzínová pumpa. Majitelia obchodu zabezpečili tiež elektrické osvetlenie priľahlej križovatky. Rodina bola známa svojimi filantropickými darmi, najznámejší bol „amerikanec“ Mikulaš Schwartz, ktorý zo Spojených štátov amerických svojimi finančnými darmi podporil nielen židovskú obec, ale aj katolícke zbory. Daroval rímskokatolíckej cirkvi 50 tisíc korún na zakúpenie zvona a 10 tisíc dolárov na výstavbu vranovskej synagógy. Keď Izidor Schwartz – brat Ignáca a Huga zomrel (pôsobil ako obchodný splnomocnenec Slovenskej všeobecnej úverovej banky), ich rodina darovala rímskokatolíckej cirkvi na opravy kostola 100 tisíc korún. Členovia tejto, pre Vranov významnej židovskej rodiny, sú pochovaní na miestnom židovskom cintoríne.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2021/08/Schwartzov-dom-1.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/schwartzov-dom/",
         "en": "https://www.qrlink.sk/new/en/schwartzov-dom/",
@@ -7881,11 +8378,12 @@ const DB = {
         "assets/audio/migrated/05-socha.mp3"
       ],
       "galeria": [
+        "assets/images/migrated/webp-net-resizeimage4.jpg",
         "assets/images/migrated/webp-net-resizeimage5.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.3604879302734!2d21.68146001596417!3d48.88946667929064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzIyLjEiTiAyMcKwNDEnMDEuMSJF!5e0!3m2!1ssk!2ssk!4v1629986212712!5m2!1ssk!2ssk",
-      "text": "<p>Sochu ženskej postavy z názvom „Mladosti a kráse patrí budúcnosť“ vytvoril významný český sochár národný umelec Břetislav Benda v roku 1955, ako dar vedúcemu výstavby závodu Drevospracujúceho podniku v Hencovciach, ktorý sa neskôr premenoval na Bukózu. Prvotne bola umiestnená priamo v areáli závodu pred výrobným objektom  celulózky. Okrem nej Benda vytvoril aj plastiku zobrazujúcu technológiu spracovania dreva v závode, ktorá bola umiestnená na priečelí vstupnej budovy. Keďže podľa  vlastných slov umelec „nepozná motív vzácnejší, ako je ľudské telo a predovšetkým ženské“, bola predmetom sochy ženská postava vo svojej prirodzenej forme. Po inštalácii sochy sa začali problémy. Výpary a lúh, ktorý sa používal vo varni začali poškodzovať a znečisťovať sochu. Chlapi zamestnaní v závode preto sochu obliekali do ženskej bielizne. To vzbudilo pozornosť politických predstaviteľov a zaslúžili sa o jej odstránenie z areálu závodu. Sochu kúpilo mesto Vranov nad Topľou za 70 tisíc korún a umiestnilo ju do parkovej fontány  v centrálnom parku. Traduje sa, že sochu z mesta chcel odstrániť aj tajomník ÚV KSČ Vasiľ Biľak. V 90-tych rokoch ju poškodili nekultúrni občania. Po opravách a reštaurovaní bola umiestnená v depozitári mesta a v roku 2012 po revitalizácii mestského parku sa znova vrátila na námestie.</p>\n<p>Bretislav Benda sa narodil 28.marca 1897 v Milevsku. Študoval na Akadémii výtvarných umení, kde bol žiakom  Josefa Václava Myslbeka. Jeho štúdiá prerušila prvá  svetová vojna a v roku 1916 musel narukovať.  Na talianskom fronte utrpel pri guľometnej paľbe vážny priestrel obidvoch dlaní. Po návrate z frontu dokončil štúdia v ateliéri ďalšieho významného sochára Jána Štursu. Významným krokom v jeho kariére bolo členstvo v prestížnom spolku Mánes kam vstúpil v roku 1923. V jeho sochárskych výtvoroch sa objavujú politici ako T.G Masaryk či E.Beneš,  aj vojaci či motívy ženskej postavy. Na medzinárodnej výstave dekoratívneho umenia v Paríži v roku 1925 získal za nádhernú plastiku Démétér a Božena zlatú medailu. Benda zomiera v roku 1983 v Prahe a je pochovaný na vyšehradskom cintoríne.   Patrí medzi najvýznamnejších sochárov 20. storočia.</p>",
+      "text": "<p>Sochu ženskej postavy z názvom „Mladosti a kráse patrí budúcnosť“ vytvoril významný český sochár národný umelec Břetislav Benda v roku 1955, ako dar vedúcemu výstavby závodu Drevospracujúceho podniku v Hencovciach, ktorý sa neskôr premenoval na Bukózu. Prvotne bola umiestnená priamo v areáli závodu pred výrobným objektom  celulózky. Okrem nej Benda vytvoril aj plastiku zobrazujúcu technológiu spracovania dreva v závode, ktorá bola umiestnená na priečelí vstupnej budovy. Keďže podľa  vlastných slov umelec „nepozná motív vzácnejší, ako je ľudské telo a predovšetkým ženské“, bola predmetom sochy ženská postava vo svojej prirodzenej forme. Po inštalácii sochy sa začali problémy. Výpary a lúh, ktorý sa používal vo varni začali poškodzovať a znečisťovať sochu. Chlapi zamestnaní v závode preto sochu obliekali do ženskej bielizne. To vzbudilo pozornosť politických predstaviteľov a zaslúžili sa o jej odstránenie z areálu závodu. Sochu kúpilo mesto Vranov nad Topľou za 70 tisíc korún a umiestnilo ju do parkovej fontány  v centrálnom parku. Traduje sa, že sochu z mesta chcel odstrániť aj tajomník ÚV KSČ Vasiľ Biľak. V 90-tych rokoch ju poškodili nekultúrni občania. Po opravách a reštaurovaní bola umiestnená v depozitári mesta a v roku 2012 po revitalizácii mestského parku sa znova vrátila na námestie.</p>\n<p>Bretislav Benda sa narodil 28.marca 1897 v Milevsku. Študoval na Akadémii výtvarných umení, kde bol žiakom  Josefa Václava Myslbeka. Jeho štúdiá prerušila prvá  svetová vojna a v roku 1916 musel narukovať.  Na talianskom fronte utrpel pri guľometnej paľbe vážny priestrel obidvoch dlaní. Po návrate z frontu dokončil štúdia v ateliéri ďalšieho významného sochára Jána Štursu. Významným krokom v jeho kariére bolo členstvo v prestížnom spolku Mánes kam vstúpil v roku 1923. V jeho sochárskych výtvoroch sa objavujú politici ako T.G Masaryk či E.Beneš,  aj vojaci či motívy ženskej postavy. Na medzinárodnej výstave dekoratívneho umenia v Paríži v roku 1925 získal za nádhernú plastiku Démétér a Božena zlatú medailu. Benda zomiera v roku 1983 v Prahe a je pochovaný na vyšehradskom cintoríne.   Patrí medzi najvýznamnejších sochárov 20. storočia.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage5.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/socha-bretislav-benda-mladosti-a-krase-patri-buducnost/",
         "en": "https://www.qrlink.sk/new/en/socha-bretislav-benda-mladosti-a-krase-patri-buducnost/",
@@ -7905,7 +8403,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/06-kostol-sv-stefana.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/kostol-sv-stefana.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.448451841999!2d21.68342771596407!3d48.88779007929042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzE2LjAiTiAyMcKwNDEnMDguMiJF!5e0!3m2!1ssk!2ssk!4v1629986389082!5m2!1ssk!2ssk",
       "text": "<p>Zaniknutý stredoveký kostol sa nachádzal v centrálnej časti mestečka Vranov, juhozápadne od areálu vodného hradu. Tento farský kostol bol zasvätený sv. Štefanovi, kráľovi, ktorý bol svätorečený v roku 1803, preto výstavbu kostola možno predpokladať v rozmedzí od konca 11. do začiatku 13. storočia. Na základe registrov pápežského desiatku z rokov 1332 a 1337 vieme, že v tom čase vo vranovskom rímskokatolíckom kostole pôsobil farár Štefan. Do kostola bol okolo roku 1490 umiestnený bočný oltár zasvätený Sv. Anne. Od polovice 16. storočia v kostole vysluhovali bohoslužby súčasne kalvínski i luteránski kazatelia. Evanjelickí kazatelia pôsobili vo Vranove ešte v poslednej tretine 17. storočia. Počas rekatolizácie evanjelikom kostoly odobrali a zemepáni pozvali do Vranova mníchov pavlínov, takže koncom 17. storočia oba vranovské kostoly patrili rímskokatolíckej cirkvi. V kanonickej vizitácii z 3. júna 1773 je kostol zaznamenaný ako opustený bez strechy. Uvádza sa v nej tiež neohradený cintorín a rumy farskej budovy. Nadzemné stropy kostola boli viditeľné ešte začiatkom 20. storočia. V Pamätnej knihe storočnice košického biskupstva z roku 1904 sa píše, že „časť oltárnej menzy ešte vyčnieva zo zeme a označuje, kde slovenský kostol stál“.</p>\n<p>Na základe archeologického výskumu realizovaného pracovníkmi Vlastivedného múzea v Hanušovciach nad Topľou v roku 2008 môžeme konštatovať, že kostol bol orientovaný v smere východ – západ, so vstupom na západnej a pravdepodobne aj na južnej strane, so svätyňou na východnej strane. Stavba mala neskororománske, resp. ranogotické slohové prvky. Pri neskoršej prestavbe, pravdepodobne koncom 15. storočia, bola opatrená opornými múrmi. Vnútorná šírka svätyne pri jej základe bola 6,5 m, šírka lode 13,5 m a jej dĺžka bola odhadovaná približne na 33 m. V priebehu archeologického výskumu bolo odhalených viacero hrobov s kostrovými pozostatkami v interiéri kostola, a aj vedľa neho, čo dokladá existenciu cintorína v areáli kostola. Kvôli prezentácii objektu zaniknutého kostola mesto Vranov nad Topľou v roku 2019 pristúpilo k rekonštrukcii jeho pôdorysu formou nadzemnej kamennej výmurovky.</p>",
@@ -7928,7 +8428,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/07-lipa-slobody.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/65a5690.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.448451841999!2d21.68342771596407!3d48.88779007929042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzE2LjAiTiAyMcKwNDEnMDguMiJF!5e0!3m2!1ssk!2ssk!4v1629986591571!5m2!1ssk!2ssk",
       "text": "<p>Lipa bola vysadená v roku 1918 a dnes stojí pred strednou odbornou školou v centre mesta. Vysadili ju vranovskí lokalpatrioti a zástancovia samostatnosti nášho národa na počesť vzniku samostatného Československa 28. októbra 1918 po skončení prvej svetovej vojny a rozpade Rakúsko-Uhorska. Nadšenie bolo spoločné, lebo v tom čase žilo vo Vranove aj viac českých rodín. Keď to bol ešte malý strom, tak ho polievali a starali sa o neho aby zostal pre budúce generácie ako symbol prvého spoločného štátu Čechov a Slovákov.</p>\n<p>O pôvode stromu sa traduje aj iný príbeh. Hovorí sa v ňom, že tento strom vysadili francúzski vojaci, ktorí sa zo zranení počas prvej svetovej vojny liečili v nemocnici vo Vranove, ktorá bola zriadená v budove školy. Aj keď frontová línia nikdy nedorazila do nášho mesta a prechádzala cez svidnický, stropkovský a humenský okres, ranení vojaci boli z frontovej línie prevážaní do Vranova, kde sa liečili. Mnohí z nich tu aj zraneniam podľahli, a boli pochovaní na miestnom cintoríne. Spomínaní vojaci zranenia prežili a lipu zasadili na pamiatku pred poľnou nemocnicou.</p>",
@@ -7951,7 +8453,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/08-rolnicke-povstanie.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/webp-net-resizeimage2.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.4946417022916!2d21.684697415964084!3d48.8869096792903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzEyLjkiTiAyMcKwNDEnMTIuOCJF!5e0!3m2!1ssk!2ssk!4v1629986771802!5m2!1ssk!2ssk",
       "text": "<p>V roku 1831 na východnom Slovensku vypuklo veľké povstanie, ktoré sa do histórie zapísalo ako roľnícke. Jeho príčinou bola nespokojnosť obyvateľstva, hlavne pre ich ekonomické pomery a postavenie poddaných na jednotlivých panstvách. Miestni mocipáni zneužívali na konci 18. storočia pozemkové úpravy na vlastné obohacovanie. Sú zdokumentované prípady, keď miestne šľachtické rody v rámci komasácie oberali o pôdu miestnych sedliakov. Postupným zaberaním polí, lúk aj kopaničiarskych pozemkov zhoršovali sociálno-ekonomické postavenie poddaných. Spúšťačom nepokojov bola epidémia cholery a karanténne opatrenia na potlačenie šírenia choroby. Podobne ako v súčasnosti významnú úlohu zohrali konšpirácie, ktoré sa šírili medzi pospolitým ľudom o tom, že príčinou cholery je otrava studní. Zachoval sa napríklad priznanie získané pri výsluchu istého Jána Škvorelu, ktorý pri mučení priznal, že otravoval studne vo Vranove Hlinnom, Zámutove aj Soli.</p>\n<p>Nepokoje sa začali v okolí Trebišova a rýchlo sa rozšírili aj do obcí pri Vranove. O pravých príčinách ozbrojeného povstania svedčia výroky vodcov vzbury ktorí hlásali pri rabovačkách zemianskych usadlosti: „ Obrátil sa svet, dosť ste už panovali, teraz my budeme pánmi.“</p>\n<p>Vodcovia vzbury zo Zámutova mali snahu koordinovať ohniská nepokojov v susedných obciach, a to v Rudľove, Hlinnom, Soli, Komáranoch, Vechci, Čaklove, Jastrabom, či vo Vranove. 5. augusta sa stretli richtári spomínaných usadlostí a dohodli sa na spoločnom postupe pri ničení pánov a ich majetkov. Svoj hnev namierili aj proti Židom , ktorých pozatvárali. Po úspešných rabovačkách na miestnych panstvách povstalci pod vedením Adama a Michala Ostruhu zo Zámutova chceli pochodovať na Nové mesto pod Šiatorom. Druhá skupina povstalcov smerovala na kúrie v Čaklove, Čemernom či Majerovciach a hlavné sily smerovali na Vranov. Vzbura mala známky koordinovaného postupu, no bola zastavená príchodom vládnych vojsk z Košíc a Prešova. Ani pokusy povstalcov o spojenie sa so vzbúrencami na území Šariša neboli úspešné. Vojská boli v presile a postupne zlikvidovali jednotlivé ohniská povstania. Pred súdy bolo postavených 73 obžalovaných a 41 vodcov bolo odsúdených na smrť obesením.</p>\n<p>Roľnícke povstanie v roku 1831 dokazuje, že konšpirácie nie sú výmyslom modernej doby, ale boli aj v histórii príčinou nejedného ozbrojeného konfliktu.</p>",
@@ -7975,12 +8479,13 @@ const DB = {
         "assets/audio/migrated/09-slnecne-hodiny-kalvinsky-kostol-3.mp3"
       ],
       "galeria": [
+        "assets/images/migrated/webp-net-resizeimage3.jpg",
         "assets/images/migrated/webp-net-resizeimage8.jpg",
         "assets/images/migrated/webp-net-resizeimage7.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.5260361833125!2d21.687261515964014!3d48.88631127929029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzEwLjciTiAyMcKwNDEnMjIuMCJF!5e0!3m2!1ssk!2ssk!4v1629986980289!5m2!1ssk!2ssk",
-      "text": "<p>Sándor Böszörményi – kalvínsky kňaz z Humenného opisuje vo svojej práci z roku 1938 s názvom „Kostoly reformovaných cirkví v Topľanskej kotline “ Vranov v 16. storočí a začiatkom 17. storočia ako mesto so silnými reformačnými koreňmi. Rekatolizáciou sa situácia zmenila.</p>\n<p>Medzi vranovskými protestantmi vyvrcholila túžba po vlastnom kostole koncom 19. storočia. Príkladom im boli humenskí kalvíni a evanjelici, ktorí sa s týmto problémom už vysporiadali a postavili si spoločný kostol.</p>\n<p>To bol zámer veriacich aj vo Vranove. Pri absencii odvahy a organizačných schopností neexistovala záruka, že sa tak stane. Našťastie v roku 1892 sa do Vranova prisťahoval čerstvý absolvent Banskej a lesníckej akadémie v Banskej Štiavnici, rodák zo Sedmohradska Gábor Bodor (*1867, Gelence – †1936, Vranov). Popri lesníckej práci sa zaujímal aj o veci verejné. Myšlienka postavenia kostola ho zaujala. Rozhodol sa pomôcť. Organizoval zbierky, kultúrne a náboženské akcie. A nebol sám, pridávali sa ochotní spolupracovníci oddaní myšlienke postavenia bohostánku.</p>\n<p>Do roku 1910 sa na výstavbu spoločného protestantského kostola vyzbieralo 20 000 korún, čo bolo dosť na jeho postavenie. Lenže veriaci sa nevedeli dohodnúť na symboloch v interiéri a na veži kostola. Vypukla 1. svetová vojna. Dovtedy vyzbierané peniaze boli povinní odovzdať maďarskej vláde na vojenské účely. Po rozpade Rakúsko-Uhorska a vzniku ČSR sa luteráni a reformovaní rozhodli postaviť každý svoj vlastný kostol. Po slovensky hovoriaci luteráni si postavili svoj kostol na Rázusovej ulici.</p>\n<p>Veriacim hovoriacim po maďarsky Gábor Bodor postavil kalvínsky kostol na svojich pozemkoch na Hviezdoslavovej ulici. Spolu s manželkou Etelkou rod.Keler potomkom holandských a nemeckých predkov, a deťmi, prevzali všetku zodpovednosť za stavbu kostola vrátane materiálu a dopravy. Nemalou mierou výstavbu kostola podporili aj veriaci svojimi darmi.</p>\n<p>Kostol projektoval a realizoval vranovský staviteľ Pavol Nagy. Malý kostol so 40 sedadlami vysvätil v roku 1931 reformovaný biskup Péter Mihály. Bohoslužby reformovanej cirkvi sa konali v menšinovom maďarskom jazyku. To bol dôvod, prečo kostol navštevovali aj maďari iných náboženstiev.</p>\n<p>Zaujímavosťou kostola sú slnečné hodiny. Vo vlasti Gábora Bodora a v rodisku predkov manželky Etelky rod.Keler boli takéto hodiny bežné a to bol asi dôvod, prečo sú na kostole slnečné hodiny. Kostol je zapísaný ako kultúrna národná pamiatka.</p>\n<p>Aj keď po druhej svetovej vojne, v období socializmu, došlo ku konfiškácii kostola a k nemu patriacich parciel, bohoslužby pokračovali v maďarčine až do smrti Juraja Gazdoviča (†1985) farára Michalovského seniorátu. Odvtedy sú bohoslužby konané v slovenčine.</p>\n<p>Po páde komunistickej vlády požiadali potomkovia vlastníkov Gábora Bodora a Etelky o vrátenie kostola a k nemu patriacich nehnuteľností. Kostol spadajúci pod správu mesta bol vrátený v roku 1994. Okolité parcely, tiež patriace ku kostolu, spravoval OÚNZ-Nemocnica Vranov nad Topľou. Tie boli vrátené po súdnych ťahaniciach v roku 2013.</p>\n<p>V roku 2020 bola z Fondu opráv MK SR opravená strecha a veža kostola. Bol to dôležitý krok pre jeho záchranu. Bohužiaľ, dnes je vstup do kostola kvôli okolitým stavebným úpravám 70 cm pod úrovňou priľahlých komunikácii. To spôsobuje nedostatočný odvod povrchovej vody, ktorá nepriaznivo pôsobí na stavbu. Každú druhú nedeľu je v kostole bohoslužba v slovenčine.</p>",
+      "text": "<p>Sándor Böszörményi – kalvínsky kňaz z Humenného opisuje vo svojej práci z roku 1938 s názvom „Kostoly reformovaných cirkví v Topľanskej kotline “ Vranov v 16. storočí a začiatkom 17. storočia ako mesto so silnými reformačnými koreňmi. Rekatolizáciou sa situácia zmenila.</p>\n<p>Medzi vranovskými protestantmi vyvrcholila túžba po vlastnom kostole koncom 19. storočia. Príkladom im boli humenskí kalvíni a evanjelici, ktorí sa s týmto problémom už vysporiadali a postavili si spoločný kostol.</p>\n<p>To bol zámer veriacich aj vo Vranove. Pri absencii odvahy a organizačných schopností neexistovala záruka, že sa tak stane. Našťastie v roku 1892 sa do Vranova prisťahoval čerstvý absolvent Banskej a lesníckej akadémie v Banskej Štiavnici, rodák zo Sedmohradska Gábor Bodor (*1867, Gelence – †1936, Vranov). Popri lesníckej práci sa zaujímal aj o veci verejné. Myšlienka postavenia kostola ho zaujala. Rozhodol sa pomôcť. Organizoval zbierky, kultúrne a náboženské akcie. A nebol sám, pridávali sa ochotní spolupracovníci oddaní myšlienke postavenia bohostánku.</p>\n<p>Do roku 1910 sa na výstavbu spoločného protestantského kostola vyzbieralo 20 000 korún, čo bolo dosť na jeho postavenie. Lenže veriaci sa nevedeli dohodnúť na symboloch v interiéri a na veži kostola. Vypukla 1. svetová vojna. Dovtedy vyzbierané peniaze boli povinní odovzdať maďarskej vláde na vojenské účely. Po rozpade Rakúsko-Uhorska a vzniku ČSR sa luteráni a reformovaní rozhodli postaviť každý svoj vlastný kostol. Po slovensky hovoriaci luteráni si postavili svoj kostol na Rázusovej ulici.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage8.jpg\" alt=\"\"></p>\n<p>Veriacim hovoriacim po maďarsky Gábor Bodor postavil kalvínsky kostol na svojich pozemkoch na Hviezdoslavovej ulici. Spolu s manželkou Etelkou rod.Keler potomkom holandských a nemeckých predkov, a deťmi, prevzali všetku zodpovednosť za stavbu kostola vrátane materiálu a dopravy. Nemalou mierou výstavbu kostola podporili aj veriaci svojimi darmi.</p>\n<p>Kostol projektoval a realizoval vranovský staviteľ Pavol Nagy. Malý kostol so 40 sedadlami vysvätil v roku 1931 reformovaný biskup Péter Mihály. Bohoslužby reformovanej cirkvi sa konali v menšinovom maďarskom jazyku. To bol dôvod, prečo kostol navštevovali aj maďari iných náboženstiev.</p>\n<p>Zaujímavosťou kostola sú slnečné hodiny. Vo vlasti Gábora Bodora a v rodisku predkov manželky Etelky rod.Keler boli takéto hodiny bežné a to bol asi dôvod, prečo sú na kostole slnečné hodiny. Kostol je zapísaný ako kultúrna národná pamiatka.</p>\n<p>Aj keď po druhej svetovej vojne, v období socializmu, došlo ku konfiškácii kostola a k nemu patriacich parciel, bohoslužby pokračovali v maďarčine až do smrti Juraja Gazdoviča (†1985) farára Michalovského seniorátu. Odvtedy sú bohoslužby konané v slovenčine.</p>\n<p>Po páde komunistickej vlády požiadali potomkovia vlastníkov Gábora Bodora a Etelky o vrátenie kostola a k nemu patriacich nehnuteľností. Kostol spadajúci pod správu mesta bol vrátený v roku 1994. Okolité parcely, tiež patriace ku kostolu, spravoval OÚNZ-Nemocnica Vranov nad Topľou. Tie boli vrátené po súdnych ťahaniciach v roku 2013.</p>\n<p>V roku 2020 bola z Fondu opráv MK SR opravená strecha a veža kostola. Bol to dôležitý krok pre jeho záchranu. Bohužiaľ, dnes je vstup do kostola kvôli okolitým stavebným úpravám 70 cm pod úrovňou priľahlých komunikácii. To spôsobuje nedostatočný odvod povrchovej vody, ktorá nepriaznivo pôsobí na stavbu. Každú druhú nedeľu je v kostole bohoslužba v slovenčine.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage7.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/slnecne-hodiny-kalvinsky-kostol-na-hviezdoslavovej-ulici/",
         "en": "https://www.qrlink.sk/new/en/slnecne-hodiny-kalvinsky-kostol-na-hviezdoslavovej-ulici/",
@@ -8023,7 +8528,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/historia-vranovskej-sinagogiy.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/ortodoxn_zidovsk-synag-ga-patrila-k-dominant-m_vranov-enhanced-colorized-2x.jpg"
+      ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d347.4053338536094!2d21.68392637320189!3d48.89146608114608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4025a83ad902c860!2zNDjCsDUzJzI5LjciTiAyMcKwNDEnMDIuNSJF!5e0!3m2!1ssk!2ssk!4v1649056365899!5m2!1ssk!2ssk",
       "text": "<p>Židovskú synagógu vo Vranove začali stavať v roku 1921. Pozemok síce vranovská ortodoxná židovská náboženská obec zakúpila ešte v roku 1897, no s jej výstavbou začali až podstatne neskôr, z dôvodu nedostatku peňazí na výstavbu dôstojného objektu. Ten sa začal stavať za finančnej pomoci vranovského rodáka a neskôr amerického štátneho občana Mikuláša Schwartza, ktorý naše mesto navštívil po prvej svetovej vojne. Keď videl v akom stave sa nachádzala pôvodná synagóga, rozhodol sa darovať na výstavbu novej 10 tisíc dolárov. Bol to tak veľký obnos peňazí, že okrem novej synagógy postavila vranovská židovská obec aj novú mikvu. V tom čase žilo v našom meste podľa sčítania obyvateľstva 649 židov, ktorí tvorili 28,3 % z celkového počtu 2 282 Vranovčanov.</p>\n<p>Projekt stavby vypracoval architekt Vojtech Šípoš a samotnou realizáciou stavby bola poverená stavebná spoločnosť Huga Kaboša. Na dokončovacích prácach samotnej synagógy a aj pri stavbe kúpeľov v roku 1924 sa podieľala firma Bratia Barkányiovci. K synagóge, ktorá stála na miernom vyvýšení viedli široké schody a celý areál bol oplotený betónovým plotom. Do predsiene synagógy viedli z vonku tri vchody. Z predsiene vpravo aj vľavo viedli schodištia na balkón, kde bolo miesto pre ženy. Archa úmluvy bola umiestnená na východnej strane stavby s vnútornými rozmermi 16 x 16 metrov.</p>\n<p>Z odborného architektonického hľadiska sa táto stavba nedala zaradiť k žiadnemu štýlu tohto obdobia, no svojou majestátnosťou sa vynímala spomedzi okolitých nízkych stavieb. Svojimi vežami, prevyšujúcimi strechu kopuly sa budova majestátne týčila na svahu a bola dobre viditeľná z pohľadu prichádzajúcich od Čemerného do Vranova. Stavba vizuálne priťahovala aj svojimi orientálnymi architektonickými prvkami, ktoré zdobili fasádu stien zvonku aj v interiéri. Konštrukčne pôsobivú kopulu staticky držali štyri zväzkovité stĺpy. Členený priestor pôsobil ako trojlodie so strednou loďou ukončenou veľkým kruhovým oknom so šesťcípou hviezdou. Taký istý motív bol aj na priečelí budovy, ktorej vonkajšie rozmery boli atypické. Vonkajšia šírka stavby v zadnej časti bol 19 metrov, v prednej časti 21 metrov, dĺžka objektu bola 24 metrov a maximálna výška 11 metrov. K synagóge patril aj obradný židovský kúpeľ – mikva a byt kúpeľníka, ktorým v roku 1941 bol Eizig Bornstein. Neďaleko stavby synagógy bola aj židovská škola ortodoxnej náboženskej obce vo Vranove. V spomínanom roku 1941 v nej vyučovali náboženstvo Herman a Sálomon Sternovci. Za školou bol byt rabína a židovské jatky. Po dokončení sa synagóga stala centrom náboženského a kultúrneho života vranovských židov. Posledným rabínom ortodoxných židov bol Lazár Ehrengruber a chasidských Eduard Halberstam. Kostolníkom bol Mór Rosenwasser. Bohoslužby sa konali každý deň večer a v sobotu ráno. Muselo však na nich byť prítomných minimálne desať dospelých mužov. Objekt slúžil svojmu účelu ešte krátko po druhej svetovej vojne, no neskôr sa využíval iba ako sklad tovaru a nakoniec nebol žiaden záujemca, ktorý by využíval tieto priestory, preto stavba začala chátrať. Poškodzovali ju aj hrajúce sa deti a mládež. Keď sa v roku 1975 začalo projektovať na tomto mieste nové Sídlisko Okulka, naplánovalo sa aj zbúranie synagógy, čo z dnešného pohľadu vidíme ako veľkú chybu. Objekt, ktorý sa ešte dal zrekonštruovať, mohol slúžiť dnešnej aj budúcim generáciám ako multifunkčné kultúrne zariadenie s vynikajúcou akustikou. Žiaľ riadeným odstrelom bola stavba zbúraná v septembri 1982.</p>",
@@ -8046,7 +8553,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/01-susosie.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/socha-nepomuckeho.jpeg"
+      ],
       "gps": {
         "lat": 49.02074150738056,
         "lng": 21.2813050192186
@@ -8072,7 +8581,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/02-daxner.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/daxner1.jpg"
+      ],
       "gps": {
         "lat": 48.88860140720319,
         "lng": 21.685508182597058
@@ -8098,7 +8609,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/03-pamatnik.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/pamatnik.jpg"
+      ],
       "gps": {
         "lat": 49.02071946389593,
         "lng": 21.281277196100014
@@ -8124,7 +8637,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/sykorka-belasa-spev-psitsi-sirrrrrrr.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/sykorka-belasa-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Zvuková nahrávka – Spev „psitsi-sirrrrrrr“</p>\n<p>Zdroj: Vladimír Yu. Arkhipov, <a href=\"https://sk.wikipedia.org/wiki/S%C3%BAbor:Cyanistes_caeruleus.ogg\">Arkhivov, Vlastné dielo, CC BY-SA 3.0,</a></p>",
@@ -8147,7 +8662,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/cervienka-obycajna-spev.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/cervienka-obycajna-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Zvuková nahrávka – Spev</p>\n<p>Zdroj: <a href=\"http://www.xeno-canto.org/249306\">Zdeněk Vermouzek</a>, <a href=\"https://sk.wikipedia.org/wiki/S%C3%BAbor:XC249306-2015-05-31_05-47_ERI_RUB_a.ogg\">CC BY-SA 4.0</a>,</p>",
@@ -8170,7 +8687,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/oriesok-obycajny-hlas.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/oriesok-obycajny-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Zvuková nahrávka – Hlas</p>\n<p>Zdroj: Ľuboš Rendek, Vlastné dielo, <a href=\"https://sk.wikipedia.org/wiki/S%C3%BAbor:Orie%C5%A1ok_oby%C4%8Dajn%C3%BD_Hlas.ogg\">CC BY-SA 4.0</a>,</p>",
@@ -8193,7 +8712,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/pinka-obycajna-spev.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/pinka-obycajna-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Zvuková nahrávka 1 – Spev</p>\n<p>Zdroj: <a href=\"https://sk.wikipedia.org/wiki/S%C3%BAbor:FringillaCoelebsSongSlovakiaOlympusLS11file0212.ogg\">SanoAK: Alexander Kürthy, Vlastné dielo, CC BY-SA 4.0,</a></p>",
@@ -8216,7 +8737,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/stehlik-cecetka-vabenie-djuii-a-ce-cet.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/stehlik-cecetka-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Zvuková nahrávka 1 – Vábenie „djüii“ a „če-čet“.</p>\n<p>Zdroj: <a href=\"https://xeno-canto.org/118265\">Jonathon Jongsma</a> ,<a href=\"https://sk.wikipedia.org/wiki/S%C3%BAbor:Carduelis_flammea_-_Common_Redpoll_-_XC118265.ogg\">CC BY-SA 3.0,</a></p>",
@@ -8239,7 +8762,9 @@ const DB = {
       "audio": [
         "assets/audio/migrated/drozd-cierny-hlas-vzrusenia-tix-tix-1.mp3"
       ],
-      "galeria": [],
+      "galeria": [
+        "assets/images/migrated/drozd-cierny-min.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
       "text": "<p>Zvuková nahrávka – Hlas vzrušenia tix tix..</p>\n<p>Zdroj: <a href=\"https://commons.wikimedia.org/wiki/User:SanoAK\">Alexander Kürthy</a>, Vlastné dielo,<a href=\"https://sk.wikipedia.org/wiki/S%C3%BAbor:TurdusMerulaCallEvening.ogg\">CC BY-SA 4.0</a>,</p>",
@@ -8263,6 +8788,7 @@ const DB = {
         "assets/audio/migrated/zvonica-hrusove.mp3"
       ],
       "galeria": [
+        "assets/images/migrated/zvonica-hrusove.jpeg",
         "assets/images/migrated/2025-08-18_13h09_48.jpg",
         "assets/images/migrated/hrusovska-zvonica_hodiny-min.jpg",
         "assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-2-min.jpg",
@@ -8285,7 +8811,7 @@ const DB = {
         "lng": 17.753408298101814
       },
       "mapEmbed": "https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1s48.775257658652436,17.753408298101814!6i16!3m1!1ssk!5m1!1ssk",
-      "text": "<p>Príbeh historickej dominanty a slovenského unikátu</p>\n<h2>História hrušovského kostolíka a zvonice</h2>\n<p>Kostolík v Hrušovom, ktorý sa podľa Jozefa Ľudovíta Holubyho mohol stavať v rovnakom období ako haluzický kostolík (okolo roku 1240), bol v skutočnosti podľa archeologického prieskumu z roku 1997 postavený v gotickom štýle až v 14. storočí. Odmietnutý bol aj husitský pôvod stavby: v listine z roku 1436 sa hrušovský kostol nespomína, rovnako ani v zápise z cirkevnej vizitácie z roku 1560. Prvá konkrétna zmienka pochádza až z roku 1692, keď evanjelický farár Peták pokrstil dieťa práve v tomto kostolíku. V roku 1705 bol kostol používaný evanjelikmi a ponechaný im, no podľa Ladislava Vargu ho v roku 1708 zničili Rákócziho povstalci a už nebol nikdy opravený.</p>\n<p>Napriek tomu sa kostolík ešte objavuje ako funkčný v neskoršom období — pod ním sa nachádzala krypta šľachtickej rodiny Beňovských. Od roku 1733 už patril katolíckej cirkvi. V roku 1788 sa tu konali katolícke omše každú tretiu nedeľu. Kostolík bol skromne zariadený, mal dva drevené chóry. Okolo roku 1790 bohoslužby zanikli a budova chátrala až do úplných ruín. V roku 1859 sa už podľa Jozefa Beneša nachádzal 70 rokov v ruinách. V roku 1879 bol rozobraný, jeho materiál poslúžil na výstavbu katolíckej školy v Dolných Bzinciach. Z kostolíka bol zvon prenesený na novú obecnú zvonicu.</p>\n<p>Zvonica v Hrušovom tak existuje od roku 1879.</p>\n<h2>Zvonárstvo a modernizácia zvonenia</h2>\n<p>Zvony majú v každej farnosti a cirkevnom zbore dôležitú úlohu: zvolávajú ľudí na bohoslužby, oznamujú významné udalosti i smútok. Zvonári v minulosti zvonili ručne každé ráno, na obed, večer a počas sviatkov či pohrebov. Zvonárstvo bolo zodpovedné a platené remeslo, no novú generáciu už nelákalo a vyžadovalo modernizáciu.</p>\n<p>Bzinský evanjelický farár ThDr. Igor Kišš sa rozhodol posunúť zvonenie na vyššiu úroveň a obrátil sa na Pavla Mrázika, strojného zámočníka. Spolu navštívili cirkevný zbor vo Vrútkach, kde už mali zvonenie elektrifikované. Inšpirovaný tamojším systémom, Mrázik navrhol a zrealizoval ešte vylepšenú konštrukciu elektrického pohonu zvonov.</p>\n<p>Otec Pavla Mrázika, Martin Mrázik, po prvej svetovej vojne zorganizoval nadstavbu zvonice o jedno poschodie. Vďaka spoločnému úsiliu obce a finančným príspevkom od obyvateľov sa podarilo zakúpiť nový veľký zvon, keďže pôvodný bol za vojny skonfiškovaný a pretavený na náboje.</p>\n<p>Po štyridsiatich rokoch kurátor Pavel Mrázik so svojimi pomocníkmi zhotovil na všetkých poschodiach zvonice nové drevené podlahy a schody. Práve v tomto období začal pripravovať elektrifikované ovládanie zvonov. V roku 1990 sa v jeho dielni začali montovať prvé elektrické pohony. Na projekte sa finančne podieľala celá obec.</p>\n<p>Prvé elektrické zvonenie bolo úspešne inštalované na veži evanjelického kostola v Bzinciach, nasledovala Lubina a ďalšie obce – Miškech Dedinka, Cetuna, Bošáca a ďalšie. Majster Mrázik elektrifikoval v regióne až 39 zvoníc, pričom mu pomáhal syn Ivan a ďalší odborníci.</p>\n<h2>Unikátne zvonicové hodiny</h2>\n<p>S rodinou Mrázikovcov je zvonica v Hrušovom spätá už viac než sto rokov – nadstavba z roku 1918, zakúpený zvon a neskôr unikátne hodiny s 24-hodinovým ciferníkom, ktoré sú slovenskou raritou. Pavel Mrázik, vyučený strojár, zostrojil mnoho zaujímavých prístrojov, medzi nimi aj „stolný vesmír“. Hodiny s netradičným ciferníkom začal konštruovať po tom, ako ho zmiatlo hlásenie času v rádiu. Chcel, aby ciferník zobrazoval 24 hodín – tak ako má deň.</p>\n<p>V roku 1992 sa rozbehli dve veľké hodinové ručičky na zvonici, pričom ciferník má priemer jeden meter a čísla od 1 po 24. Hodinový mechanizmus konštruoval viac než desať rokov a všetko dôsledne vypočítal a navrhol. Hodiny fungovali bez väčších problémov až do smrti majstra Mrázika v roku 2007. Potom sa na dlhých osemnásť rokov zastavili. Po opravách u niekoľkých hodinárov a dôkladnom premazaní sa však opäť vrátili na svoje miesto a dnes zdobia zvonicu v Hrušovom.</p>\n<h2>Najvýznamnejšie medzníky zvonice v Hrušovom</h2>\n<h2>Posolstvo a význam</h2>\n<p>Zvonica v Hrušovom je pamätníkom tvorivej remeselnej práce, občianskej solidarity a technickej inovácie. Je zároveň symbolom premeny – od ručne ovládanej zvonice až po unikát s elektrickým pohonom a netradičnými hodinami. Svojou históriou, príbehmi a nezameniteľnou siluetou zostáva dôležitou dominantou krajiny a svedkom premien doby.</p>\n<h3>Mapa – GPS (48.775257658652436, 17.753408298101814)</h3>\n<p>Pre spustenie navigácie otvorte mapu v samostatnom okne.</p>",
+      "text": "<p>Príbeh historickej dominanty a slovenského unikátu</p>\n<h2>História hrušovského kostolíka a zvonice</h2>\n<p>Kostolík v Hrušovom, ktorý sa podľa Jozefa Ľudovíta Holubyho mohol stavať v rovnakom období ako haluzický kostolík (okolo roku 1240), bol v skutočnosti podľa archeologického prieskumu z roku 1997 postavený v gotickom štýle až v 14. storočí. Odmietnutý bol aj husitský pôvod stavby: v listine z roku 1436 sa hrušovský kostol nespomína, rovnako ani v zápise z cirkevnej vizitácie z roku 1560. Prvá konkrétna zmienka pochádza až z roku 1692, keď evanjelický farár Peták pokrstil dieťa práve v tomto kostolíku. V roku 1705 bol kostol používaný evanjelikmi a ponechaný im, no podľa Ladislava Vargu ho v roku 1708 zničili Rákócziho povstalci a už nebol nikdy opravený.</p>\n<p>Napriek tomu sa kostolík ešte objavuje ako funkčný v neskoršom období — pod ním sa nachádzala krypta šľachtickej rodiny Beňovských. Od roku 1733 už patril katolíckej cirkvi. V roku 1788 sa tu konali katolícke omše každú tretiu nedeľu. Kostolík bol skromne zariadený, mal dva drevené chóry. Okolo roku 1790 bohoslužby zanikli a budova chátrala až do úplných ruín. V roku 1859 sa už podľa Jozefa Beneša nachádzal 70 rokov v ruinách. V roku 1879 bol rozobraný, jeho materiál poslúžil na výstavbu katolíckej školy v Dolných Bzinciach. Z kostolíka bol zvon prenesený na novú obecnú zvonicu.</p>\n<p>Zvonica v Hrušovom tak existuje od roku 1879.</p>\n<h2>Zvonárstvo a modernizácia zvonenia</h2>\n<p>Zvony majú v každej farnosti a cirkevnom zbore dôležitú úlohu: zvolávajú ľudí na bohoslužby, oznamujú významné udalosti i smútok. Zvonári v minulosti zvonili ručne každé ráno, na obed, večer a počas sviatkov či pohrebov. Zvonárstvo bolo zodpovedné a platené remeslo, no novú generáciu už nelákalo a vyžadovalo modernizáciu.</p>\n<p>Bzinský evanjelický farár ThDr. Igor Kišš sa rozhodol posunúť zvonenie na vyššiu úroveň a obrátil sa na Pavla Mrázika, strojného zámočníka. Spolu navštívili cirkevný zbor vo Vrútkach, kde už mali zvonenie elektrifikované. Inšpirovaný tamojším systémom, Mrázik navrhol a zrealizoval ešte vylepšenú konštrukciu elektrického pohonu zvonov.</p>\n<p>Otec Pavla Mrázika, Martin Mrázik, po prvej svetovej vojne zorganizoval nadstavbu zvonice o jedno poschodie. Vďaka spoločnému úsiliu obce a finančným príspevkom od obyvateľov sa podarilo zakúpiť nový veľký zvon, keďže pôvodný bol za vojny skonfiškovaný a pretavený na náboje.</p>\n<p>Po štyridsiatich rokoch kurátor Pavel Mrázik so svojimi pomocníkmi zhotovil na všetkých poschodiach zvonice nové drevené podlahy a schody. Práve v tomto období začal pripravovať elektrifikované ovládanie zvonov. V roku 1990 sa v jeho dielni začali montovať prvé elektrické pohony. Na projekte sa finančne podieľala celá obec.</p>\n<p>Prvé elektrické zvonenie bolo úspešne inštalované na veži evanjelického kostola v Bzinciach, nasledovala Lubina a ďalšie obce – Miškech Dedinka, Cetuna, Bošáca a ďalšie. Majster Mrázik elektrifikoval v regióne až 39 zvoníc, pričom mu pomáhal syn Ivan a ďalší odborníci.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/2025-08-18_13h09_48.png\" alt=\"\"></p>\n<h2>Unikátne zvonicové hodiny</h2>\n<p>S rodinou Mrázikovcov je zvonica v Hrušovom spätá už viac než sto rokov – nadstavba z roku 1918, zakúpený zvon a neskôr unikátne hodiny s 24-hodinovým ciferníkom, ktoré sú slovenskou raritou. Pavel Mrázik, vyučený strojár, zostrojil mnoho zaujímavých prístrojov, medzi nimi aj „stolný vesmír“. Hodiny s netradičným ciferníkom začal konštruovať po tom, ako ho zmiatlo hlásenie času v rádiu. Chcel, aby ciferník zobrazoval 24 hodín – tak ako má deň.</p>\n<p>V roku 1992 sa rozbehli dve veľké hodinové ručičky na zvonici, pričom ciferník má priemer jeden meter a čísla od 1 po 24. Hodinový mechanizmus konštruoval viac než desať rokov a všetko dôsledne vypočítal a navrhol. Hodiny fungovali bez väčších problémov až do smrti majstra Mrázika v roku 2007. Potom sa na dlhých osemnásť rokov zastavili. Po opravách u niekoľkých hodinárov a dôkladnom premazaní sa však opäť vrátili na svoje miesto a dnes zdobia zvonicu v Hrušovom.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_hodiny-min.jpg\" alt=\"\"></p>\n<h2>Najvýznamnejšie medzníky zvonice v Hrušovom</h2>\n<h2>Posolstvo a význam</h2>\n<p>Zvonica v Hrušovom je pamätníkom tvorivej remeselnej práce, občianskej solidarity a technickej inovácie. Je zároveň symbolom premeny – od ručne ovládanej zvonice až po unikát s elektrickým pohonom a netradičnými hodinami. Svojou históriou, príbehmi a nezameniteľnou siluetou zostáva dôležitou dominantou krajiny a svedkom premien doby. </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_rekon%C5%A1truk%C4%8Dn%C3%A9-pr%C3%A1ce_2025-2-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_rekon%C5%A1truk%C4%8Dn%C3%A9-pr%C3%A1ce_2025-3-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_rekon%C5%A1truk%C4%8Dn%C3%A9-pr%C3%A1ce_2025-4-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_rekon%C5%A1truk%C4%8Dn%C3%A9-pr%C3%A1ce_2025-5-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_rekon%C5%A1truk%C4%8Dn%C3%A9-pr%C3%A1ce_2025-6-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_rekon%C5%A1truk%C4%8Dn%C3%A9-pr%C3%A1ce_2025-7-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_strecha-1-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_strecha-2-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/2_Hru%C5%A1ovsk%C3%A1-zvonica-hodiny-s-24-hodinov%C3%BDm-cifern%C3%ADkom_3-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/3_Hru%C5%A1ovsk%C3%A1-zvonica-hodiny-s-24-hodinov%C3%BDm-cifern%C3%ADkom-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_n%C3%A1pis-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_rekon%C5%A1trukcia-2025-1-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_rekon%C5%A1trukcia-2025-2-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_rekon%C5%A1truk%C4%8Dn%C3%A9-pr%C3%A1ce_2025-1-min.jpg\" alt=\"\"></p>\n<h3>Mapa – GPS (48.775257658652436, 17.753408298101814)</h3>\n<p>Pre spustenie navigácie otvorte mapu v samostatnom okne.</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/qr-sprievodca-zvonica-hrusove/",
         "en": "https://www.qrlink.sk/new/en/castles/qr-sprievodca-zvonica-hrusove/",

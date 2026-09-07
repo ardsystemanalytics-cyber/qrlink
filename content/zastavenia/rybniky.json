@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/12-ponds.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/12.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.419162,
     "lng": 18.59347

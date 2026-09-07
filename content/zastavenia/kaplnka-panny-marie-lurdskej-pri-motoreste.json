@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/6-2-the-chapel-of-the-virgin-mary-lourdes.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/u-mravca.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.405104,
     "lng": 18.63602

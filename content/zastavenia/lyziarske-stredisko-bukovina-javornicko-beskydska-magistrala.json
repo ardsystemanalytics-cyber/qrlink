@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/10-the-ski-areal-bukovina.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/bukovina-2.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.398615,
     "lng": 18.639535

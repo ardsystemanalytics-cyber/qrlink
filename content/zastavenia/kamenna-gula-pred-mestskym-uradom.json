@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/9-the-stone-sphere-in-front-of-the-town-hall-on-the-occasion-of-the-1st-world-meeting-of-turzovka-people-2.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/9.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.403882,
     "lng": 18.624877

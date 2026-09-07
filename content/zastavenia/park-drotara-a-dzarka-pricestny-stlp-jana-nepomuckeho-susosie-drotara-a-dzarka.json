@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/4-the-park-of-tinker-and-young-tinker-drotar-and-dzrek-the-pillar-of-jan-nepomuk-the-sculpture-of-tinker-and-young-tinker.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/4-2.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.403284,
     "lng": 18.624934

@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/6-1.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/6-juzne-nadvorie.jpg"
+    }
+  ],
   "gps": null,
   "mapEmbed": "",
   "text": "Na mieste dnešného južného nádvoria sa pôvodne nachádzala priekopa, ktorá chránila prístup do veže. Neskôr na jej mieste vzniklo nádvorie, ktoré malo ďalšie podlažie a takisto strechu.",

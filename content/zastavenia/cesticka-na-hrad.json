@@ -11,10 +11,9 @@
     }
   ],
   "galeria": [
-    "assets/images/migrated/1-paseka-e1592570206493.jpg",
-    "assets/images/migrated/1-paseka-e1592570206493.jpg",
-    "assets/images/migrated/1-paseka-e1592570206493.jpg",
-    "assets/images/migrated/1-paseka-e1592570206493.jpg"
+    {
+      "url": "assets/images/migrated/1-paseka-e1592570206493.jpg"
+    }
   ],
   "gps": {
     "lat": 49.177151,

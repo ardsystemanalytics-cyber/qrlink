@@ -10,7 +10,11 @@
       "url": "assets/audio/migrated/6-the-chapel-on-tronca.mp3"
     }
   ],
-  "galeria": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/6-kapliczka-na-trzonce.jpg"
+    }
+  ],
   "gps": {
     "lat": 49.814098,
     "lng": 19.279333
