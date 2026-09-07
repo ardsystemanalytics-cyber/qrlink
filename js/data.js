@@ -32,7 +32,8 @@ const PLACE_PHOTOS = {
   "nch-hlinene": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
   "nch-zivcakova": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
   "gabcikovo": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-  "zvonica-hrusove": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80"
+  "zvonica-hrusove": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80",
+  "zs-a-ms-banova": "assets/images/migrated/zs-banova-bludisko-22-min.jpg"
 };
 
 // SVG ikonky kategórií (systémové dáta, spravuje sa mimo CMS)
@@ -132,7 +133,7 @@ const DB = {
       "id": "bludisko",
       "rodic": "zs-a-ms-banova",
       "nazov": "Bludisko",
-      "foto": "",
+      "foto": "assets/images/migrated/zs-banova-bludisko-22-min.jpg",
       "popis": ""
     },
     {
@@ -209,7 +210,7 @@ const DB = {
       "id": "dendrolog-1",
       "rodic": "zs-a-ms-banova",
       "nazov": "Dendrológ 1",
-      "foto": "",
+      "foto": "assets/images/migrated/javor-mliecny-min.jpg",
       "popis": ""
     },
     {
@@ -258,7 +259,7 @@ const DB = {
       "id": "dendrolog-2",
       "rodic": "zs-a-ms-banova",
       "nazov": "Dendrológ 2",
-      "foto": "",
+      "foto": "assets/images/migrated/zs-banova-dendrofon-01-min.jpg",
       "popis": ""
     },
     {
@@ -285,7 +286,7 @@ const DB = {
       "id": "hmyzi-domcek",
       "rodic": "zs-a-ms-banova",
       "nazov": "Hmyzí domček",
-      "foto": "",
+      "foto": "assets/images/migrated/zs-banova-hmyzi-domcek-09-min.jpg",
       "popis": ""
     },
     {
@@ -304,7 +305,7 @@ const DB = {
       "id": "pexeso",
       "rodic": "zs-a-ms-banova",
       "nazov": "Pexeso",
-      "foto": "",
+      "foto": "assets/images/migrated/zs-banova-info-pexeso-02-min.jpg",
       "popis": ""
     },
     {
@@ -317,7 +318,7 @@ const DB = {
       "id": "vtacia-budka",
       "rodic": "zs-a-ms-banova",
       "nazov": "Vtáčia búdka",
-      "foto": "",
+      "foto": "assets/images/migrated/sykorka-belasa-min.jpg",
       "popis": ""
     },
     {
@@ -347,7 +348,7 @@ const DB = {
       "id": "vtacie-krmitko",
       "rodic": "zs-a-ms-banova",
       "nazov": "Vtáčie kŕmitko",
-      "foto": "",
+      "foto": "assets/images/migrated/pinka-obycajna-min.jpg",
       "popis": ""
     },
     {
@@ -913,7 +914,7 @@ const DB = {
       "lat": 49.19,
       "mapX": 356,
       "mapY": 128,
-      "cover": "assets/images/migrated/zs-banova-bludisko-22-min.jpg",
+      "cover": "",
       "popis": "Areál základnej a materskej školy v Žiline-Bánovej s náučnými zastaveniami pre environmentálnu výchovu."
     }
   ],
