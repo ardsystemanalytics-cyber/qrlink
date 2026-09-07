@@ -72,6 +72,7 @@ function htmlToText(html) {
     .replace(/&#8211;/g, "–")
     .replace(/&#8220;/g, "“")
     .replace(/&#8221;/g, "”")
+    .replace(/&#8222;/g, "„") // slovenská otváracia úvodzovka („text“)
     .replace(/&quot;/g, '"')
     .replace(/&#039;/g, "'");
   s = s.replace(/[ \t]+\n/g, "\n").replace(/\n{3,}/g, "\n\n").trim();
@@ -156,6 +157,9 @@ function decodeEntities(s) {
     .replace(/&#8211;/g, "–")
     .replace(/&#8216;/g, "‘")
     .replace(/&#8217;/g, "’")
+    .replace(/&#8220;/g, "“")
+    .replace(/&#8221;/g, "”")
+    .replace(/&#8222;/g, "„") // slovenská otváracia úvodzovka („text“)
     .replace(/&amp;/g, "&")
     .replace(/&quot;/g, '"');
 }
