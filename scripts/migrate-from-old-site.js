@@ -56,27 +56,88 @@ async function fetchText(url) {
   return res.text();
 }
 
-// Veľmi jednoduchý HTML→text prevod: dosť na jednotný WP obsah (p/h2-4/img/a).
-function htmlToText(html) {
-  if (!html) return "";
-  let s = html;
-  s = s.replace(/<h([2-4])[^>]*>/gi, "\n\n").replace(/<\/h[2-4]>/gi, "\n");
-  s = s.replace(/<\/p>/gi, "\n\n");
-  s = s.replace(/<br\s*\/?>/gi, "\n");
-  s = s.replace(/<[^>]+>/g, ""); // zvyšné tagy (img, a, span...)
-  s = s
+function decodeEntitiesInline(s) {
+  return s
     .replace(/&nbsp;/g, " ")
-    .replace(/&amp;/g, "&")
     .replace(/&#8216;/g, "‘")
     .replace(/&#8217;/g, "’")
     .replace(/&#8211;/g, "–")
     .replace(/&#8220;/g, "“")
     .replace(/&#8221;/g, "”")
-    .replace(/&#8222;/g, "„") // slovenská otváracia úvodzovka („text“)
+    .replace(/&#8222;/g, "„")
     .replace(/&quot;/g, '"')
-    .replace(/&#039;/g, "'");
-  s = s.replace(/[ \t]+\n/g, "\n").replace(/\n{3,}/g, "\n\n").trim();
-  return s;
+    .replace(/&#039;/g, "'")
+    .replace(/&amp;/g, "&");
+}
+
+// Prevedie jeden úsek "inline" HTML (vnútro <p>/<td>/nadpisu a pod.) na
+// Markdown: tučné/kurzíva/odkazy zachová formátovaním, zvyšné tagy odstráni.
+function inlineToMarkdown(html) {
+  let s = html;
+  // Medzera na okraji vnútra (napr. "text.<strong> Ďalšia veta</strong>") sa
+  // musí presunúť MIMO ** značky (Markdown nedovolí "** text**" ako tučné -
+  // otvárajúca značka nesmie mať za sebou medzeru), inak by sa "**" zobrazilo
+  // doslovne namiesto tučného písma.
+  const wrap = (mark) => (_, __, inner) => {
+    const lead = inner.match(/^\s+/)?.[0] ?? "";
+    const trail = inner.match(/\s+$/)?.[0] ?? "";
+    const core = inner.trim();
+    return core ? `${lead}${mark}${core}${mark}${trail}` : inner;
+  };
+  s = s.replace(/<(strong|b)[^>]*>([\s\S]*?)<\/\1>/gi, wrap("**"));
+  s = s.replace(/<(em|i)[^>]*>([\s\S]*?)<\/\1>/gi, wrap("*"));
+  s = s.replace(/<a[^>]+href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi, (_, href, inner) => `[${inner.trim()}](${href})`);
+  s = s.replace(/<br\s*\/?>/gi, "  \n");
+  s = s.replace(/<[^>]+>/g, ""); // zvyšné tagy (span a pod.)
+  return decodeEntitiesInline(s).replace(/[ \t]+/g, " ").trim();
+}
+
+// Prevedie <table> na Markdown tabuľku (predpokladá jednoduchú WP tabuľku
+// bez zlúčených buniek - presne taká je vo všetkom doteraz videnom obsahu).
+function tableToMarkdown(tableHtml) {
+  const rows = [...tableHtml.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/gi)].map((m) =>
+    [...m[1].matchAll(/<t[dh][^>]*>([\s\S]*?)<\/t[dh]>/gi)].map((c) => inlineToMarkdown(c[1]) || " ")
+  );
+  if (!rows.length) return "";
+  const cols = Math.max(...rows.map((r) => r.length));
+  const pad = (r) => { while (r.length < cols) r.push(""); return r; };
+  const line = (r) => `| ${pad(r).join(" | ")} |`;
+  const out = [line(rows[0]), `| ${Array(cols).fill("---").join(" | ")} |`];
+  rows.slice(1).forEach((r) => out.push(line(r)));
+  return out.join("\n");
+}
+
+// Prevedie plný WP HTML obsah zastavenia na Markdown - zachováva nadpisy
+// (h2-h4 -> ##/###/####), tučné/kurzíva/odkazy a jednoduché tabuľky, presne
+// v tvare, aký admin/config.yml očakáva od rich-text editora pre "text".
+// "vlastnyNazov" (ak zadaný) - úvodný <h1> zhodný s názvom zastavenia sa
+// vynechá (naša šablóna ho už zobrazuje sama ako nadpis stránky).
+function htmlToMarkdown(html, vlastnyNazov) {
+  if (!html) return "";
+
+  const blocks = [];
+  const re = /<h([1-4])[^>]*>([\s\S]*?)<\/h\1>|<table[^>]*>([\s\S]*?)<\/table>|<p[^>]*>([\s\S]*?)<\/p>/gi;
+  let m;
+  while ((m = re.exec(html))) {
+    if (m[1] !== undefined) {
+      const level = parseInt(m[1], 10);
+      const text = inlineToMarkdown(m[2]);
+      if (!text) continue; // prázdne nadpisy (staré webové "preklepy") preskočiť
+      if (level === 1 && vlastnyNazov && text.toLowerCase() === vlastnyNazov.trim().toLowerCase()) continue;
+      // h1 (keď nie je zhodný s názvom) aj h2 mapujeme na "##" - to je náš
+      // najvyšší nadpis v tele textu (rovnaká konvencia ako v existujúcom
+      // obsahu); h3/h4 mapujeme priamo.
+      const mdLevel = level <= 2 ? 2 : level;
+      blocks.push(`${"#".repeat(mdLevel)} ${text}`);
+    } else if (m[3] !== undefined) {
+      const table = tableToMarkdown(m[3]);
+      if (table) blocks.push(table);
+    } else if (m[4] !== undefined) {
+      const text = inlineToMarkdown(m[4]);
+      if (text) blocks.push(text);
+    }
+  }
+  return blocks.join("\n\n").trim();
 }
 
 function extractImages(html) {
@@ -188,7 +249,7 @@ async function main() {
     const existing = fs.existsSync(zPath) ? JSON.parse(fs.readFileSync(zPath, "utf8")) : null;
 
     const nazov = decodeEntities(item.title.rendered);
-    const text = htmlToText(item.content.rendered);
+    const text = htmlToMarkdown(item.content.rendered, nazov);
     const galeria = extractImages(item.content.rendered).map((url) => ({ url }));
     const cover = await fetchFeaturedImage(item.featured_media);
     const { audio: audioUrls, gps: scrapedGps, mapEmbed: scrapedMapEmbed } = await extractAudioAndGps(item.link);
