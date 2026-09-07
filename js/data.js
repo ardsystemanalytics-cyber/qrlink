@@ -33,7 +33,7 @@ const PLACE_PHOTOS = {
   "nch-zivcakova": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
   "gabcikovo": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
   "zvonica-hrusove": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80",
-  "zs-a-ms-banova": "assets/images/migrated/zs-banova-bludisko-22-min.jpg"
+  "zs-a-ms-banova": "assets/images/migrated/zs-banova-logo.jpg"
 };
 
 // SVG ikonky kategórií (systémové dáta, spravuje sa mimo CMS)
@@ -133,7 +133,7 @@ const DB = {
       "id": "bludisko",
       "rodic": "zs-a-ms-banova",
       "nazov": "Bludisko",
-      "foto": "assets/images/migrated/zs-banova-bludisko-22-min.jpg",
+      "foto": "assets/images/migrated/zs-banova-bludisko-icon.jpg",
       "popis": ""
     },
     {
@@ -210,7 +210,7 @@ const DB = {
       "id": "dendrolog-1",
       "rodic": "zs-a-ms-banova",
       "nazov": "Dendrológ 1",
-      "foto": "assets/images/migrated/javor-mliecny-min.jpg",
+      "foto": "assets/images/migrated/zs-banova-dendrolog-1-icon.jpg",
       "popis": ""
     },
     {
@@ -259,7 +259,7 @@ const DB = {
       "id": "dendrolog-2",
       "rodic": "zs-a-ms-banova",
       "nazov": "Dendrológ 2",
-      "foto": "assets/images/migrated/zs-banova-dendrofon-01-min.jpg",
+      "foto": "assets/images/migrated/zs-banova-dendrolog-2-icon.jpg",
       "popis": ""
     },
     {
@@ -286,7 +286,7 @@ const DB = {
       "id": "hmyzi-domcek",
       "rodic": "zs-a-ms-banova",
       "nazov": "Hmyzí domček",
-      "foto": "assets/images/migrated/zs-banova-hmyzi-domcek-09-min.jpg",
+      "foto": "assets/images/migrated/zs-banova-hmyzi-domcek-icon.jpg",
       "popis": ""
     },
     {
@@ -305,7 +305,7 @@ const DB = {
       "id": "pexeso",
       "rodic": "zs-a-ms-banova",
       "nazov": "Pexeso",
-      "foto": "assets/images/migrated/zs-banova-info-pexeso-02-min.jpg",
+      "foto": "assets/images/migrated/zs-banova-pexeso-icon.jpg",
       "popis": ""
     },
     {
@@ -318,7 +318,7 @@ const DB = {
       "id": "vtacia-budka",
       "rodic": "zs-a-ms-banova",
       "nazov": "Vtáčia búdka",
-      "foto": "assets/images/migrated/sykorka-belasa-min.jpg",
+      "foto": "assets/images/migrated/zs-banova-vtacia-budka-icon.jpg",
       "popis": ""
     },
     {
@@ -348,7 +348,7 @@ const DB = {
       "id": "vtacie-krmitko",
       "rodic": "zs-a-ms-banova",
       "nazov": "Vtáčie kŕmitko",
-      "foto": "assets/images/migrated/pinka-obycajna-min.jpg",
+      "foto": "assets/images/migrated/zs-banova-vtacie-krmitko-icon.jpg",
       "popis": ""
     },
     {
