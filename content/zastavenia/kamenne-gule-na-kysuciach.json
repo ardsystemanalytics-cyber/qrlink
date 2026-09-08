@@ -1,0 +1,32 @@
+{
+  "id": "kamenne-gule-na-kysuciach",
+  "miesto": "euroregion-beskydy",
+  "poradie": 18,
+  "nazov": "Kamenné gule na Kysuciach",
+  "popis": "",
+  "cover": "assets/images/migrated/13-kamenne-gule-v-megonkach.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/13-kamenne-gule-na-kysuciach.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/13-kamenne-gule-v-megonkach.jpg"
+    }
+  ],
+  "gps": null,
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2591.347144961259!2d18.72031601563756!3d49.49683807935525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x46f390f487682b10!2zNDnCsDI5JzQ4LjYiTiAxOMKwNDMnMjEuMCJF!5e0!3m2!1ssk!2ssk!4v1673720415142!5m2!1ssk!2ssk",
+  "text": "Kamenné gule sa nachádzajú v mestskej časti Čadca – Milošová, v blízkosti hranice s obcou Mosty u Jablunkova. V 80. rokoch 20. storočia sa po odstrele horniny v kameňolome, v ktorom sa ťažil kameň na úpravu horských bystrín, vykotúľali pravidelné okrúhle gule s priemerom od 10 až po 260 cm. V roku 2003 bol nálezisko vyhlásené za prírodnú pamiatku**.**",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Euroregión Beskydy",
+  "miestoNazov": "Euroregión Beskydy",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/kamenne-gule-na-kysuciach/",
+    "en": "https://www.qrlink.sk/new/en/kamenne-gule-na-kysuciach/",
+    "de": "https://www.qrlink.sk/new/de/kamenne-gule-na-kysuciach/",
+    "ru": "https://www.qrlink.sk/new/ru/kamenne-gule-na-kysuciach/",
+    "pl": "https://www.qrlink.sk/new/pl/kamenne-gule-na-kysuciach/",
+    "hu": "https://www.qrlink.sk/new/hu/kamenne-gule-na-kysuciach/"
+  }
+}

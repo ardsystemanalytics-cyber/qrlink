@@ -1,0 +1,35 @@
+{
+  "id": "slovensky-severny-pol-oravska-polhora",
+  "miesto": "euroregion-beskydy",
+  "poradie": 3,
+  "nazov": "Slovenský Severný pól, Oravská Polhora",
+  "popis": "",
+  "cover": "assets/images/migrated/slovensky_severny_pol.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/02-slovensky-severny-pol-oravska-polhora.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/slovensky_severny_pol.jpg"
+    }
+  ],
+  "gps": {
+    "lat": 49.6138882113942,
+    "lng": 19.467372469306937
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2585.151460579261!2d19.46519451570126!3d49.61374917936874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715d48741920ecb%3A0xcd278fae4d30294a!2sNajsevernej%C5%A1%C3%AD%20bod%20Slovenska!5e0!3m2!1ssk!2ssk!4v1675096039238!5m2!1ssk!2ssk",
+  "text": "Najsevernejší bod Slovenska   sa nachádza v blízkosti hraničného kameňa 91/10 v nadmorskej výške 1 086 m pod vrcholom  Modralová, uvádzaná aj ako Beskydok (1 168 m). Východiskovým miestom je obec  Oravská Polhora, časť Píla. Trasou k tzv. Severnému pólu Slovenska – vrchol Modralová, neváhajte navštíviť technické pamiatky skryté v lesoch Oravskej Polhory. Tzv. Tajchy sú umelo vytvorené zrubovité\n\nhrádze, ktoré boli budované v hornej časti vodných tokov za účelom zachytávania vody.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Euroregión Beskydy",
+  "miestoNazov": "Euroregión Beskydy",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/slovensky-severny-pol-oravska-polhora/",
+    "en": "https://www.qrlink.sk/new/en/slovensky-severny-pol-oravska-polhora/",
+    "de": "https://www.qrlink.sk/new/de/slovensky-severny-pol-oravska-polhora/",
+    "ru": "https://www.qrlink.sk/new/ru/slovensky-severny-pol-oravska-polhora/",
+    "pl": "https://www.qrlink.sk/new/pl/slovensky-severny-pol-oravska-polhora/",
+    "hu": "https://www.qrlink.sk/new/hu/slovensky-severny-pol-oravska-polhora/"
+  }
+}

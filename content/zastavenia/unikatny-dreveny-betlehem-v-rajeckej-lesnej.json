@@ -1,0 +1,32 @@
+{
+  "id": "unikatny-dreveny-betlehem-v-rajeckej-lesnej",
+  "miesto": "euroregion-beskydy",
+  "poradie": 20,
+  "nazov": "Unikátny drevený betlehem v Rajeckej Lesnej",
+  "popis": "",
+  "cover": "assets/images/migrated/03-slovensky-betlehem.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/03-unikatny-dreveny-betlehem-v-rajeckej-lesnej.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/03-slovensky-betlehem.jpg"
+    }
+  ],
+  "gps": null,
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2615.247400937453!2d18.632648515620854!3d49.04391937930607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8fcc4cbd4e4d10b5!2zNDnCsDAyJzM4LjEiTiAxOMKwMzgnMDUuNCJF!5e0!3m2!1ssk!2ssk!4v1673721119689!5m2!1ssk!2ssk",
+  "text": "Toto monumentálne rezbárske dielo o rozmeroch 8,5 m x 2,5 m x 3 m nájdete v Dome Božieho narodenia. Autorom je majster Jozef Pekara, ktorý tvoril dielo dlhých 15 rokov, a znázorňuje nielen Kristovo narodenie, ale takmer 300 figúrok predstavuje dejiny slovenského národa a obrazy zo života slovenského ľudu.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Euroregión Beskydy",
+  "miestoNazov": "Euroregión Beskydy",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/unikatny-dreveny-betlehem-v-rajeckej-lesnej/",
+    "en": "https://www.qrlink.sk/new/en/unikatny-dreveny-betlehem-v-rajeckej-lesnej/",
+    "de": "https://www.qrlink.sk/new/de/unikatny-dreveny-betlehem-v-rajeckej-lesnej/",
+    "ru": "https://www.qrlink.sk/new/ru/unikatny-dreveny-betlehem-v-rajeckej-lesnej/",
+    "pl": "https://www.qrlink.sk/new/pl/unikatny-dreveny-betlehem-v-rajeckej-lesnej/",
+    "hu": "https://www.qrlink.sk/new/hu/unikatny-dreveny-betlehem-v-rajeckej-lesnej/"
+  }
+}

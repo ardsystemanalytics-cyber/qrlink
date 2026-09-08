@@ -1,0 +1,32 @@
+{
+  "id": "plte-na-vahu",
+  "miesto": "euroregion-beskydy",
+  "poradie": 10,
+  "nazov": "Plte na Váhu",
+  "popis": "",
+  "cover": "assets/images/migrated/08-plte-na-vahu.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/08-plte-na-orave-a-vahu.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/08-plte-na-vahu.jpg"
+    }
+  ],
+  "gps": null,
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2607.9645033650504!2d18.860359315625924!3d49.18226017932051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47145765ef4b5da9%3A0x7f8ddbb619c1dc1!2sPlte%20na%20V%C3%A1hu!5e0!3m2!1ssk!2ssk!4v1669999836498!5m2!1ssk!2ssk",
+  "text": "Plavba na plti strečnianskou úžinou – ponúka jedinečnú a bezpečnú možnosť spoznať históriu, prírodné, kultúrne a technické zaujímavosti na tradičnom dopravnom prostriedku popod starobylé hrady Strečno a Starhrad, okolo najznámejších pltníckych prekážok – skál Margita a Besná v priesmyku Váhu pohorím Malej Fatry.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Euroregión Beskydy",
+  "miestoNazov": "Euroregión Beskydy",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/plte-na-vahu/",
+    "en": "https://www.qrlink.sk/new/en/plte-na-vahu/",
+    "de": "https://www.qrlink.sk/new/de/plte-na-vahu/",
+    "ru": "https://www.qrlink.sk/new/ru/plte-na-vahu/",
+    "pl": "https://www.qrlink.sk/new/pl/plte-na-vahu/",
+    "hu": "https://www.qrlink.sk/new/hu/plte-na-vahu/"
+  }
+}

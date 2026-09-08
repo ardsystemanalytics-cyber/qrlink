@@ -1,0 +1,32 @@
+{
+  "id": "oravsky-hrad",
+  "miesto": "euroregion-beskydy",
+  "poradie": 1,
+  "nazov": "Oravský hrad",
+  "popis": "",
+  "cover": "assets/images/migrated/16-oravsky-hrad.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/16-oravsky-hrad.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/16-oravsky-hrad.jpg"
+    }
+  ],
+  "gps": null,
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.7531270722616!2d19.35674441562891!3d49.26212497932919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x34a8f73c010c6d1b!2zNDnCsDE1JzQzLjciTiAxOcKwMjEnMzIuMiJF!5e0!3m2!1ssk!2ssk!4v1669998518237!5m2!1ssk!2ssk",
+  "text": "Jednou z najväčších turistických atrakcií regiónu Orava je Oravský hrad, ktorý je vybudovaný na skale nad riekou Orava, v Oravskom Podzámku. Patrí medzi najkrajšie a najnavštevovanejšie hrady na Slovensku. Môžete tu vidieť expozície, ktoré sú rozdelené na historickú, etnografickú a prírodovednú časť. Hrad je vďačným objektom pre filmárov. Natočených tu bolo niekoľko rozprávok, dobrodružný seriál, ba aj horor.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Euroregión Beskydy",
+  "miestoNazov": "Euroregión Beskydy",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/oravsky-hrad/",
+    "en": "https://www.qrlink.sk/new/en/oravsky-hrad/",
+    "de": "https://www.qrlink.sk/new/de/oravsky-hrad/",
+    "ru": "https://www.qrlink.sk/new/ru/oravsky-hrad/",
+    "pl": "https://www.qrlink.sk/new/pl/oravsky-hrad/",
+    "hu": "https://www.qrlink.sk/new/hu/oravsky-hrad/"
+  }
+}

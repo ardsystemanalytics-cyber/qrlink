@@ -1,0 +1,32 @@
+{
+  "id": "babia-hora",
+  "miesto": "euroregion-beskydy",
+  "poradie": 2,
+  "nazov": "Babia hora",
+  "popis": "",
+  "cover": "assets/images/migrated/17-babia-hora.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/17-babia-hora.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/17-babia-hora.jpg"
+    }
+  ],
+  "gps": null,
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2587.3110200983883!2d19.527141915640318!3d49.57302187936395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbec06f7e38d3cd78!2zNDnCsDM0JzIyLjkiTiAxOcKwMzEnNDUuNiJF!5e0!3m2!1ssk!2ssk!4v1669998634342!5m2!1ssk!2ssk",
+  "text": "Nádherný kraj severného Slovenska ohraničuje pohorie nazývané Babia hora. Pochváliť sa môže aj niekoľkými výnimočnými prívlastkami. Babia hora je totiž najsevernejší vyhliadkový bod Slovenska a najvyšší vrch Oravských Beskýd. Týči sa do výšky 1724 m a výstup sem je považovaný za jeden z najkrajších a najzaujímavejších v tejto lokalite. Z južnej trasy vyzerá Babia hora veľmi oblo a mierne, avšak vzhľadom na okolitý krajinný reliéf je nutné zdolať až 1000 výškových metrov.\n\nVýchodiskovým bodom pre nádhernú oravskú turistiku smerom na Babiu horu je väčšinou dedinka Oravská Polhora, presnejšie chata Slaná voda.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Euroregión Beskydy",
+  "miestoNazov": "Euroregión Beskydy",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/babia-hora/",
+    "en": "https://www.qrlink.sk/new/en/babia-hora/",
+    "de": "https://www.qrlink.sk/new/de/babia-hora/",
+    "ru": "https://www.qrlink.sk/new/ru/babia-hora/",
+    "pl": "https://www.qrlink.sk/new/pl/babia-hora/",
+    "hu": "https://www.qrlink.sk/new/hu/babia-hora/"
+  }
+}

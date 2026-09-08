@@ -1,0 +1,32 @@
+{
+  "id": "stala-expozicia-ludoveho-rezbarstva",
+  "miesto": "euroregion-beskydy",
+  "poradie": 7,
+  "nazov": "Stála expozícia ľudového rezbárstva",
+  "popis": "",
+  "cover": "assets/images/migrated/22-stala-expozicia-ludoveho-rezbarstva.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/22-stala-expozicia-ludoveho-rezbarstva.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/22-stala-expozicia-ludoveho-rezbarstva.jpg"
+    }
+  ],
+  "gps": null,
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2600.0875425227605!2d19.37880671563142!3d49.33156137933669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd2ce8f6eb16f04b0!2zNDnCsDE5JzUzLjYiTiAxOcKwMjInNTEuNiJF!5e0!3m2!1ssk!2ssk!4v1669999522047!5m2!1ssk!2ssk",
+  "text": "Návštevníka pravdepodobne zaujme aj Galéria ľudového rezbárstva. V súčasnosti má obec zriadenú stálu expozíciu ľudového rezbárstva s počtom cez 150 drevených plastík od viac ako päťdesiatich ľudových tvorcov zo Slovenska, Česka a Poľska.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Euroregión Beskydy",
+  "miestoNazov": "Euroregión Beskydy",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/stala-expozicia-ludoveho-rezbarstva/",
+    "en": "https://www.qrlink.sk/new/en/stala-expozicia-ludoveho-rezbarstva/",
+    "de": "https://www.qrlink.sk/new/de/stala-expozicia-ludoveho-rezbarstva/",
+    "ru": "https://www.qrlink.sk/new/ru/stala-expozicia-ludoveho-rezbarstva/",
+    "pl": "https://www.qrlink.sk/new/pl/stala-expozicia-ludoveho-rezbarstva/",
+    "hu": "https://www.qrlink.sk/new/hu/stala-expozicia-ludoveho-rezbarstva/"
+  }
+}

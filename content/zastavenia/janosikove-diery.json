@@ -1,0 +1,32 @@
+{
+  "id": "janosikove-diery",
+  "miesto": "euroregion-beskydy",
+  "poradie": 13,
+  "nazov": "Jánošíkové diery",
+  "popis": "",
+  "cover": "assets/images/migrated/10-janosikove-diery.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/10-janosikove-diery.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/10-janosikove-diery.jpg"
+    }
+  ],
+  "gps": null,
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2604.374588629687!2d19.07106211562841!3d49.25034557932786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x635b6fac453705a4!2zNDnCsDE1JzAxLjIiTiAxOcKwMDQnMjMuNyJF!5e0!3m2!1ssk!2ssk!4v1673718427616!5m2!1ssk!2ssk",
+  "text": "Najkrajšia a najobľúbenejšia časť Malej Fatry sú Jánošíkove diery. Nachádzajú sa v prírodnej rezervácii Rozsutce a skladajú sa z troch častí: z Dolných dier, Horných dier a Nových dier. O ich vyformovanie sa zaslúžil tzv. Dierový potok, ktorý nimi preteká.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Euroregión Beskydy",
+  "miestoNazov": "Euroregión Beskydy",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/janosikove-diery/",
+    "en": "https://www.qrlink.sk/new/en/janosikove-diery/",
+    "de": "https://www.qrlink.sk/new/de/janosikove-diery/",
+    "ru": "https://www.qrlink.sk/new/ru/janosikove-diery/",
+    "pl": "https://www.qrlink.sk/new/pl/janosikove-diery/",
+    "hu": "https://www.qrlink.sk/new/hu/janosikove-diery/"
+  }
+}

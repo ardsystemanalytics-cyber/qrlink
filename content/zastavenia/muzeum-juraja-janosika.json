@@ -1,0 +1,32 @@
+{
+  "id": "muzeum-juraja-janosika",
+  "miesto": "euroregion-beskydy",
+  "poradie": 12,
+  "nazov": "Múzeum Juraja Jánošíka",
+  "popis": "",
+  "cover": "assets/images/migrated/09-muzeum-juraja-janosika.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/09-muzeum-juraja-janosika.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/09-muzeum-juraja-janosika.jpg"
+    }
+  ],
+  "gps": null,
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.996588256588!2d19.027763815628678!3d49.25751057932853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5d2fbe1bb44d902f!2zNDnCsDE1JzI3LjAiTiAxOcKwMDEnNDcuOCJF!5e0!3m2!1ssk!2ssk!4v1669999984748!5m2!1ssk!2ssk",
+  "text": "Stála expozícia venovaná národnému hrdinovi Jánošíkovi a dávnemu životu v obci Terchová je sprístupnená od roku 2008. Expozícia je rozdelená do niekoľkých tematických celkov: tradičné terchovské obydlie, história obce, Jánošík ako ľudový hrdina.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Euroregión Beskydy",
+  "miestoNazov": "Euroregión Beskydy",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/muzeum-juraja-janosika/",
+    "en": "https://www.qrlink.sk/new/en/muzeum-juraja-janosika/",
+    "de": "https://www.qrlink.sk/new/de/muzeum-juraja-janosika/",
+    "ru": "https://www.qrlink.sk/new/ru/muzeum-juraja-janosika/",
+    "pl": "https://www.qrlink.sk/new/pl/muzeum-juraja-janosika/",
+    "hu": "https://www.qrlink.sk/new/hu/muzeum-juraja-janosika/"
+  }
+}

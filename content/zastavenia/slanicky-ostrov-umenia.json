@@ -1,0 +1,32 @@
+{
+  "id": "slanicky-ostrov-umenia",
+  "miesto": "euroregion-beskydy",
+  "poradie": 4,
+  "nazov": "Slanický ostrov umenia",
+  "popis": "",
+  "cover": "assets/images/migrated/19-slanicky-ostrov-umenia.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/19-slanicky-ostrov-umenia-na-oravskej-priehrade.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/19-slanicky-ostrov-umenia.jpg"
+    }
+  ],
+  "gps": null,
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2596.089856705175!2d19.514748215634217!3d49.407206379345084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc8899d1238dd7506!2zNDnCsDI0JzI1LjkiTiAxOcKwMzEnMDEuMCJF!5e0!3m2!1ssk!2ssk!4v1669998930517!5m2!1ssk!2ssk",
+  "text": "V prekrásnej prírodnej scenérii Slanického ostrova umenia uprostred Oravskej priehrady sú lokalizované stále expozície tradičného ľudového umenia zo zbierok Oravskej galérie. Z piatich osád, ktoré navždy zmizli pod vodou priehrady v r. 1953 sa ako ostrov zachovalo iba návršie s barokovým kostolom a kalváriou, ktoré kedysi tvorilo dominantu obce Slanica. O niekoľko rokov vznikla myšlienka vytvoriť trvalé expozície Oravskej galérie, ktoré boli otvorené v rokoch 1971 – 1973. V interiéri kostola s fasádou z obdobia klasicizmu je nainštalovaná expozícia „Tradičná ľudová plastika a maľba“ a v exteriéri ostrova vzniklo lapidárium „Oravskej kamenárskej tvorby 18. a 19. storočia“. V bývalej hrobke sa nachádza expozícia histórie zatopených obcí a budovania Oravskej priehrady. Expozície sa svojou jedinečnosťou zaradili medzi najnavštevovanejšie kultúrne miesta Oravy aj vďaka atraktívnej plavbe osobnou motorovou loďou „SLANICA“, ktorá premáva na ostrov z prístavu na Slanickej Osade počas sezóny /od 15. mája – do 15. septembra/. V chrámovom priestore kostola organizuje Dom kultúry v Námestove každoročne v mesiacoch jún a júl v rámci festivalu „Hudobné leto“ koncerty vážnej hudby.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Euroregión Beskydy",
+  "miestoNazov": "Euroregión Beskydy",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/slanicky-ostrov-umenia/",
+    "en": "https://www.qrlink.sk/new/en/slanicky-ostrov-umenia/",
+    "de": "https://www.qrlink.sk/new/de/slanicky-ostrov-umenia/",
+    "ru": "https://www.qrlink.sk/new/ru/slanicky-ostrov-umenia/",
+    "pl": "https://www.qrlink.sk/new/pl/slanicky-ostrov-umenia/",
+    "hu": "https://www.qrlink.sk/new/hu/slanicky-ostrov-umenia/"
+  }
+}

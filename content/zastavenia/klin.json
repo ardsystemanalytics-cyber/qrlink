@@ -1,0 +1,32 @@
+{
+  "id": "klin",
+  "miesto": "euroregion-beskydy",
+  "poradie": 6,
+  "nazov": "Klin",
+  "popis": "",
+  "cover": "assets/images/migrated/21-klin.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/21-klin.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/21-klin.jpg"
+    }
+  ],
+  "gps": null,
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29354.307444167625!2d19.465751366638496!3d49.43577385322474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715cf20f98ddf15%3A0xdd6ed98aa67936fb!2zU29jaGEgSmXFvmnFoWEgS3Jpc3Rh!5e0!3m2!1ssk!2ssk!4v1669999319183!5m2!1ssk!2ssk",
+  "text": "Názov obce Klin pochádza z pôvodného označenia pre výbežok hory medzi dvoma potokmi. Obec ponúka množstvo atraktivít ako sú: bežecké trate, turistická trasa na Vahanov a Socha Krista na Grape, cyklocesta z Klina do Námestova (stará Kliňanská cesta), či Náučný chodník Premeny lesa.\n\nMalá obec blízko okresného Námestova, Klin, na prvý pohľad pôsobí nenápadne. Kto by povedal, že sa nad ňou nachádza doslova svetový skvost. Už od roku 2008 sa totiž na kopci Grapa nad dedinou, vo výške 686 m. n. m., nachádza socha Ježiša Krista. Je vysoká 9,5 metra, rozpätie jej rúk má sedem metrov a váži 23 ton. Jej autorom je miestny ľudový rezbár, Peter Ganobjak.\n\nVo svete sa nachádzajú len tri podobné sochy. Najznámejšia je nad mestom Rio de Janeiro, druhá v portugalskom Lisabone a tretia práve tu.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Euroregión Beskydy",
+  "miestoNazov": "Euroregión Beskydy",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/klin/",
+    "en": "https://www.qrlink.sk/new/en/klin/",
+    "de": "https://www.qrlink.sk/new/de/klin/",
+    "ru": "https://www.qrlink.sk/new/ru/klin/",
+    "pl": "https://www.qrlink.sk/new/pl/klin/",
+    "hu": "https://www.qrlink.sk/new/hu/klin/"
+  }
+}

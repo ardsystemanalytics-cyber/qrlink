@@ -1,0 +1,35 @@
+{
+  "id": "tri-krize-na-stratenci-a-kriz-na-velkom-javorniku",
+  "miesto": "euroregion-beskydy",
+  "poradie": 19,
+  "nazov": "Tri Kríže na Stratenci a kríž na veľkom Javorníku",
+  "popis": "",
+  "cover": "assets/images/migrated/01-kriz-na-velkom-javorniku.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/01-tri-krize-na-stratenci-a-kriz-na-velkom-javorniku.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/01-kriz-na-velkom-javorniku.jpg"
+    },
+    {
+      "url": "assets/images/migrated/02-tri-krize-na-stratenci.jpg"
+    }
+  ],
+  "gps": null,
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2600.9587581586443!2d18.332809915630804!3d49.31506467933492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc11c98ee5119d30d!2zNDnCsDE4JzU0LjIiTiAxOMKwMjAnMDYuMCJF!5e0!3m2!1ssk!2ssk!4v1673720689668!5m2!1ssk!2ssk",
+  "text": "V blízkosti slovensko-českých hraníc sa rozprestiera obľúbené pohorie Javorníky. Jeho najvyšším vrcholom je Veľký Javorník, ktorý je ako stvorený na turistiku s rodinou a priateľmi. Očarí vás malebnými zákutiami, krásnou prírodou, ako aj nenáročnosťou výstupových trás.\n\nCestou sa vám naskytujú panoramatické výhľady najmä na Moravsko-sliezske Beskydy. Na hrebeni okrem prírodných krás nájdete aj diela ľudských rúk, a to v podobe kamenných objektov – jedinečnú kamennú galériu v prírode. Ich autormi sú umelci spätí s regiónmi Kysuce a Horné Považie (medzi nimi Ondrej Zimka, Gustáv Švábik-Macvejda, Milan Greguš, Pavol Muška, Ondrej 4. a ateliér Tri kamene a iní).\n\nBola vybudovaná v roku 2008, v nadmorskej výške 1055 m n. m. Nachádza sa tu tiež kamenný pamätník Tri kríže. Venovaný je trom vojakom, ktorí padli počas 2. svetovej vojny, v čase oslobodenia Veľkých Karlovíc. Rozhľadňa má výšku 8 m a vedie na ňu 22 schodov.\n\n![](https://www.qrlink.sk/new/wp-content/uploads/2023/01/02-tri-krize-na-stratenci.jpg)",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Euroregión Beskydy",
+  "miestoNazov": "Euroregión Beskydy",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/tri-krize-na-stratenci-a-kriz-na-velkom-javorniku/",
+    "en": "https://www.qrlink.sk/new/en/tri-krize-na-stratenci-a-kriz-na-velkom-javorniku/",
+    "de": "https://www.qrlink.sk/new/de/tri-krize-na-stratenci-a-kriz-na-velkom-javorniku/",
+    "ru": "https://www.qrlink.sk/new/ru/tri-krize-na-stratenci-a-kriz-na-velkom-javorniku/",
+    "pl": "https://www.qrlink.sk/new/pl/tri-krize-na-stratenci-a-kriz-na-velkom-javorniku/",
+    "hu": "https://www.qrlink.sk/new/hu/tri-krize-na-stratenci-a-kriz-na-velkom-javorniku/"
+  }
+}

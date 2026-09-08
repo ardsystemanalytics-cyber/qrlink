@@ -1,0 +1,32 @@
+{
+  "id": "rimsko-katolicky-kostol-sv-michala-archanjela-velicna",
+  "miesto": "euroregion-beskydy",
+  "poradie": 5,
+  "nazov": "Rímsko-katolícky kostol sv. Michala archanjela – Veličná",
+  "popis": "",
+  "cover": "assets/images/migrated/20-velicna-rim-kat-kostol-sv-michala-archanjela.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/20-velicna-rimsko-katolicky-kostol-sv-michala-archanjela.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/20-velicna-rim-kat-kostol-sv-michala-archanjela.jpg"
+    }
+  ],
+  "gps": null,
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2606.720349880515!2d19.241142915626877!3d49.20586437932307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x747fd1364c8d3d40!2zNDnCsDEyJzIxLjEiTiAxOcKwMTQnMzYuMCJF!5e0!3m2!1ssk!2ssk!4v1669999145589!5m2!1ssk!2ssk",
+  "text": "Pôvodne gotický kostol postavený v 14. storočí bol v roku 1683 zničený požiarom spoločne s väčšou časťou obce. Počas opráv v 17. storočí získal kostol dnešnú podobu. Areál kostola obkolesuje obranný múr, pred kostolom sa nachádza kalvária z roku 1777 a zvyšok niekdajšieho cintorína. V interiéri sa nachádza ľudový vyrezávaný betlehem. Kostol bol v roku 1963 vyhlásený za národnú kultúrnu pamiatku.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Euroregión Beskydy",
+  "miestoNazov": "Euroregión Beskydy",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/rimsko-katolicky-kostol-sv-michala-archanjela-velicna/",
+    "en": "https://www.qrlink.sk/new/en/rimsko-katolicky-kostol-sv-michala-archanjela-velicna/",
+    "de": "https://www.qrlink.sk/new/de/rimsko-katolicky-kostol-sv-michala-archanjela-velicna/",
+    "ru": "https://www.qrlink.sk/new/ru/rimsko-katolicky-kostol-sv-michala-archanjela-velicna/",
+    "pl": "https://www.qrlink.sk/new/pl/rimsko-katolicky-kostol-sv-michala-archanjela-velicna/",
+    "hu": "https://www.qrlink.sk/new/hu/rimsko-katolicky-kostol-sv-michala-archanjela-velicna/"
+  }
+}

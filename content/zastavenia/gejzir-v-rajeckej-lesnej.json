@@ -1,0 +1,32 @@
+{
+  "id": "gejzir-v-rajeckej-lesnej",
+  "miesto": "euroregion-beskydy",
+  "poradie": 21,
+  "nazov": "Gejzír v Rajeckej Lesnej",
+  "popis": "",
+  "cover": "assets/images/migrated/04-gejzir-v-rajeckej-lesnej.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/04-gejzir-v-rajeckej-lesnej.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/04-gejzir-v-rajeckej-lesnej.jpg"
+    }
+  ],
+  "gps": null,
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2616.495899583545!2d18.68767321561994!3d49.02017467930354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbc88f8aa4300dc94!2zNDnCsDAxJzEyLjYiTiAxOMKwNDEnMjMuNSJF!5e0!3m2!1ssk!2ssk!4v1673721236255!5m2!1ssk!2ssk",
+  "text": "je lákadlom pre mnohých turistov. Je vysoký približne 10 m a najzaujímavejší je v zimnom období, kedy vytvára obrovský ľadový kužeľ.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Euroregión Beskydy",
+  "miestoNazov": "Euroregión Beskydy",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/gejzir-v-rajeckej-lesnej/",
+    "en": "https://www.qrlink.sk/new/en/gejzir-v-rajeckej-lesnej/",
+    "de": "https://www.qrlink.sk/new/de/gejzir-v-rajeckej-lesnej/",
+    "ru": "https://www.qrlink.sk/new/ru/gejzir-v-rajeckej-lesnej/",
+    "pl": "https://www.qrlink.sk/new/pl/gejzir-v-rajeckej-lesnej/",
+    "hu": "https://www.qrlink.sk/new/hu/gejzir-v-rajeckej-lesnej/"
+  }
+}

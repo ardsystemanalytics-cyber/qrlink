@@ -1,0 +1,32 @@
+{
+  "id": "hrad-strecno",
+  "miesto": "euroregion-beskydy",
+  "poradie": 9,
+  "nazov": "Hrad Strečno",
+  "popis": "",
+  "cover": "assets/images/migrated/07-hrad-strecno.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/07-hrad-strecno.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/07-hrad-strecno.jpg"
+    }
+  ],
+  "gps": null,
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2608.371257471408!2d18.859973015625634!3d49.17454137931978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd67d3ca33c4a9cd0!2zNDnCsDEwJzI4LjQiTiAxOMKwNTEnNDMuOCJF!5e0!3m2!1ssk!2ssk!4v1669999746033!5m2!1ssk!2ssk",
+  "text": "Na ľavom brehu rieky Váh sa nad obcou Strečno vypína hrad, ktorý v minulosti predstavoval najbezpečnejšiu pevnosť Považia a dnes žije zaujímavými kultúrnymi podujatiami počas celého roka. Jedným z majiteľov hradu bol gróf František Vešeléni a jeho prvou manželkou bola známa Žofia Bosniaková. V interiéri môžete obdivovať expozíciu Považského múzea v Žiline. Vystavené exponáty prezentujú archeologické nálezy z okolia Žiliny, a tiež celkovú históriu hradu.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Euroregión Beskydy",
+  "miestoNazov": "Euroregión Beskydy",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/hrad-strecno/",
+    "en": "https://www.qrlink.sk/new/en/hrad-strecno/",
+    "de": "https://www.qrlink.sk/new/de/hrad-strecno/",
+    "ru": "https://www.qrlink.sk/new/ru/hrad-strecno/",
+    "pl": "https://www.qrlink.sk/new/pl/hrad-strecno/",
+    "hu": "https://www.qrlink.sk/new/hu/hrad-strecno/"
+  }
+}

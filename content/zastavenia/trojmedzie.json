@@ -1,0 +1,32 @@
+{
+  "id": "trojmedzie",
+  "miesto": "euroregion-beskydy",
+  "poradie": 16,
+  "nazov": "Trojmedzie",
+  "popis": "",
+  "cover": "assets/images/migrated/12-trojmedzie.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/12-trojmedzie.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/12-trojmedzie.jpg"
+    }
+  ],
+  "gps": null,
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2590.2942358713362!2d18.848682715638308!3d49.516720579357475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1d22e40fd3ccadb5!2zNDnCsDMxJzAwLjIiTiAxOMKwNTEnMDMuMSJF!5e0!3m2!1ssk!2ssk!4v1673720034203!5m2!1ssk!2ssk",
+  "text": "Trojmedzie je miesto, kde sa stretávajú hranice Slovenska, Česka a Poľska. Z tohto bodu pokračuje 541 km slovensko-poľskej a 251 km slovensko-českej hranice. Na Trojmedzí môžete tak zažiť aj ojedinelý zážitok – stáť naraz v troch štátoch.\n\nTrojmedzný bod sa nachádza v strži koryta potoka hlbokom 8 m a širokom 34 m a je stredom kružnice opísanej vrcholmi rovnoramenného trojuholníka. Vrcholy trojuholníka tvoria 240 cm vysoké žulové monolity. Trojmedzný bod tvorený menším monolitom je v koryte potôčika.\n\nPri ich stavbe 22. 6. 1995 boli do podstavcov uložené v kovových obaloch pamätné dokumenty doby – rôzne listiny, noviny a mince.\n\nNa Trojmedzí sa pravidelne uskutočňujú stretnutia priateľov a rôzne podujatia, napr. Silvester na Trojmedzí, turistický pochod Cez tri štáty Európy, Slávenie Eucharistie na Trojmedzí, Goralský maratón a iné.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Euroregión Beskydy",
+  "miestoNazov": "Euroregión Beskydy",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/trojmedzie/",
+    "en": "https://www.qrlink.sk/new/en/trojmedzie/",
+    "de": "https://www.qrlink.sk/new/de/trojmedzie/",
+    "ru": "https://www.qrlink.sk/new/ru/trojmedzie/",
+    "pl": "https://www.qrlink.sk/new/pl/trojmedzie/",
+    "hu": "https://www.qrlink.sk/new/hu/trojmedzie/"
+  }
+}

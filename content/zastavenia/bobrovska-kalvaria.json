@@ -1,0 +1,32 @@
+{
+  "id": "bobrovska-kalvaria",
+  "miesto": "euroregion-beskydy",
+  "poradie": 8,
+  "nazov": "Bobrovská kalvária",
+  "popis": "",
+  "cover": "assets/images/migrated/18-bobrovska-kalvaria.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/18-bobrovska-kalvaria.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/18-bobrovska-kalvaria.jpg"
+    }
+  ],
+  "gps": null,
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2595.1992647005786!2d19.54717301563486!3d49.42404667934694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8152eaf3721792f!2zNDnCsDI1JzI2LjYiTiAxOcKwMzInNTcuNyJF!5e0!3m2!1ssk!2ssk!4v1669999671050!5m2!1ssk!2ssk",
+  "text": "V srdci Bobrova sa nachádza miesto, kde ľudia prichádzajú načerpať pokoj, oddýchnuť si alebo sa len tak pokochať výhľadom.\n\nKalvária sa nachádza v centre obce, hneď vedľa kostola. Na vŕšok je možné dostať sa aj autom. Cesta vedie poza kostol k cintorínu, kde sa dá napojiť na panelovú cestu, ktorá ústi neďaleko Kaplnky Nanebovzatia Panny Márie. Ak však chcete vidieť všetky časti našej trasy, odporúčame auto nechať zaparkované na parkovisku za kostolom a vydať sa na cestu pešo.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Euroregión Beskydy",
+  "miestoNazov": "Euroregión Beskydy",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/bobrovska-kalvaria/",
+    "en": "https://www.qrlink.sk/new/en/bobrovska-kalvaria/",
+    "de": "https://www.qrlink.sk/new/de/bobrovska-kalvaria/",
+    "ru": "https://www.qrlink.sk/new/ru/bobrovska-kalvaria/",
+    "pl": "https://www.qrlink.sk/new/pl/bobrovska-kalvaria/",
+    "hu": "https://www.qrlink.sk/new/hu/bobrovska-kalvaria/"
+  }
+}

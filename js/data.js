@@ -400,85 +400,6 @@ const DB = {
       }
     },
     {
-      "id": "eb-oravsky-hrad",
-      "rodic": "euroregion-beskydy",
-      "nazov": "Oravský hrad",
-      "foto": "assets/images/places/oravsky-hrad-hero.jpg",
-      "popis": "Majestátny hrad týčiaci sa na brale nad riekou Orava patrí k najkrajším hradom Slovenska.",
-      "heroOverlay": {
-        "icon": "hrad",
-        "text": "Zaujímavosť",
-        "popis": "Hrad stoji na brale vysokom 112 m nad riekou Orava.",
-        "i18n": {
-          "en": {
-            "text": "Did you know?",
-            "popis": "The castle stands on a cliff 112 m above the Orava river."
-          },
-          "cs": {
-            "text": "Zajímavost",
-            "popis": "Hrad stojí na skále vysoké 112 m nad řekou Orava."
-          },
-          "hu": {
-            "text": "Érdekesség",
-            "popis": "A vár egy 112 méter magas sziklán áll az Orava folyó felett."
-          }
-        }
-      },
-      "i18n": {
-        "en": {
-          "nazov": "Orava Castle",
-          "popis": "A majestic castle towering on a cliff above the Orava river ranks among the most beautiful castles in Slovakia."
-        },
-        "cs": {
-          "nazov": "Oravský hrad",
-          "popis": "Majestátní hrad tyčící se na skále nad řekou Orava patří k nejkrásnějším hradům Slovenska."
-        },
-        "hu": {
-          "nazov": "Árva vára",
-          "popis": "Az Orava folyó fölötti sziklán magasodó fenséges vár Szlovákia egyik legszebb vára."
-        }
-      }
-    },
-    {
-      "id": "eb-klin",
-      "rodic": "euroregion-beskydy",
-      "nazov": "Klin",
-      "popis": "Podhorská obec pod Veľkou Račou, brána do Kysuckých Beskýd."
-    },
-    {
-      "id": "eb-hrad-strecno",
-      "rodic": "euroregion-beskydy",
-      "nazov": "Hrad Strečno",
-      "foto": "assets/images/migrated/1-paseka-e1592570206493.jpg",
-      "popis": "Stredoveký hrad nad Váhom – samostatná podkapitola v rámci Euroregiónu Beskydy."
-    },
-    {
-      "id": "eb-plte-na-vahu",
-      "rodic": "euroregion-beskydy",
-      "nazov": "Plte na Váhu",
-      "popis": "Tradičné pltníctvo – plavba na drevených pltiach po rieke Váh."
-    },
-    {
-      "id": "eb-cadca",
-      "rodic": "euroregion-beskydy",
-      "nazov": "Čadca",
-      "foto": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80",
-      "popis": "Srdce Kysúc a brána do Beskýd."
-    },
-    {
-      "id": "eb-velka-raca",
-      "rodic": "euroregion-beskydy",
-      "nazov": "Veľká Rača",
-      "foto": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=800&q=80",
-      "popis": "Najvyšší vrch Kysuckých Beskýd s panoramatickými výhľadmi."
-    },
-    {
-      "id": "eb-rozhliadka-dedovka",
-      "rodic": "euroregion-beskydy",
-      "nazov": "Rozhliadňa Dedovka",
-      "popis": "Vyhliadková veža s výhľadom na Kysuce, Beskydy aj Poľsko."
-    },
-    {
       "id": "frydlant",
       "nazov": "Frýdlant",
       "primarna": "mesta",
@@ -3348,262 +3269,534 @@ const DB = {
       }
     },
     {
-      "id": "eb-cadca-namestie",
-      "miesto": "eb-cadca",
+      "id": "oravsky-hrad",
+      "miesto": "euroregion-beskydy",
       "poradie": 1,
-      "nazov": "Námestie slobody",
-      "popis": "Centrum mesta Čadca.",
-      "cover": "",
-      "audio": [],
-      "galeria": [],
-      "gps": null,
-      "mapEmbed": "",
-      "text": "<p>Námestie slobody je prirodzeným centrom Čadce – mesta, ktoré je bránou do Kysuckých\n      Beskýd.</p>"
-    },
-    {
-      "id": "eb-hs-brana",
-      "miesto": "eb-hrad-strecno",
-      "poradie": 1,
-      "nazov": "Vstupná brána",
-      "popis": "Prvý pohľad na hrad nad Váhom.",
-      "cover": "",
-      "audio": [],
-      "galeria": [],
-      "gps": null,
-      "mapEmbed": "",
-      "text": "<p>Hrad Strečno strážil odjakživa dôležitú obchodnú cestu popri Váhu – vstupná brána\n      vás víta rovnako, ako vítala pocestných pred stáročiami.</p>"
-    },
-    {
-      "id": "eb-hs-nadvorie",
-      "miesto": "eb-hrad-strecno",
-      "poradie": 2,
-      "nazov": "Hradné nádvorie",
-      "popis": "Centrálny priestor hradného areálu.",
-      "cover": "",
-      "audio": [],
-      "galeria": [],
-      "gps": null,
-      "mapEmbed": "",
-      "text": "<p>Nádvorie bolo srdcom každodenného života na hrade – remeselníci, čeľaď aj panstvo sa\n      tu stretávali pri svojich každodenných povinnostiach.</p>"
-    },
-    {
-      "id": "eb-klin-centrum",
-      "miesto": "eb-klin",
-      "poradie": 1,
-      "nazov": "Centrum obce",
-      "popis": "Srdce obce pod Veľkou Račou.",
-      "cover": "",
-      "audio": [],
-      "galeria": [],
-      "gps": null,
-      "mapEmbed": "",
-      "text": "<p>Obec Klin leží v malebnom údolí pod najvyšším vrchom Kysuckých Beskýd – Veľkou Račou.</p>"
-    },
-    {
-      "id": "eb-klin-kostol",
-      "miesto": "eb-klin",
-      "poradie": 2,
-      "nazov": "Drevený kostolík",
-      "popis": "Ľudová sakrálna architektúra Kysúc.",
-      "cover": "",
-      "audio": [],
-      "galeria": [],
-      "gps": null,
-      "mapEmbed": "",
-      "text": "<p>Drevený kostolík je ukážkou tradičnej ľudovej architektúry, akú nájdete len na\n      niekoľkých miestach Kysúc.</p>"
-    },
-    {
-      "id": "eb-oh-brana-do-hradu",
-      "miesto": "eb-oravsky-hrad",
-      "poradie": 1,
-      "nazov": "Brána do hradu",
-      "popis": "Hlavný vstup do hradného areálu, ktorý vás vtiahne do histórie.",
-      "cover": "assets/images/places/oravsky-hrad-brana.jpg",
+      "nazov": "Oravský hrad",
+      "popis": "",
+      "cover": "assets/images/migrated/16-oravsky-hrad.jpg",
       "audio": [
-        "assets/audio/migrated/1-1.mp3"
+        "assets/audio/migrated/16-oravsky-hrad.mp3"
       ],
       "galeria": [
-        "assets/images/places/oravsky-hrad-brana.jpg",
-        "assets/images/places/oravsky-hrad-kaplnka.jpg",
-        "assets/images/places/oravsky-hrad-studna.jpg",
-        "assets/images/places/oravsky-hrad-vyhliadka.jpg"
+        "assets/images/migrated/16-oravsky-hrad.jpg"
+      ],
+      "gps": null,
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.7531270722616!2d19.35674441562891!3d49.26212497932919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x34a8f73c010c6d1b!2zNDnCsDE1JzQzLjciTiAxOcKwMjEnMzIuMiJF!5e0!3m2!1ssk!2ssk!4v1669998518237!5m2!1ssk!2ssk",
+      "text": "<p>Jednou z najväčších turistických atrakcií regiónu Orava je Oravský hrad, ktorý je vybudovaný na skale nad riekou Orava, v Oravskom Podzámku. Patrí medzi najkrajšie a najnavštevovanejšie hrady na Slovensku. Môžete tu vidieť expozície, ktoré sú rozdelené na historickú, etnografickú a prírodovednú časť. Hrad je vďačným objektom pre filmárov. Natočených tu bolo niekoľko rozprávok, dobrodružný seriál, ba aj horor.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/oravsky-hrad/",
+        "en": "https://www.qrlink.sk/new/en/oravsky-hrad/",
+        "de": "https://www.qrlink.sk/new/de/oravsky-hrad/",
+        "ru": "https://www.qrlink.sk/new/ru/oravsky-hrad/",
+        "pl": "https://www.qrlink.sk/new/pl/oravsky-hrad/",
+        "hu": "https://www.qrlink.sk/new/hu/oravsky-hrad/"
+      }
+    },
+    {
+      "id": "babia-hora",
+      "miesto": "euroregion-beskydy",
+      "poradie": 2,
+      "nazov": "Babia hora",
+      "popis": "",
+      "cover": "assets/images/migrated/17-babia-hora.jpg",
+      "audio": [
+        "assets/audio/migrated/17-babia-hora.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/17-babia-hora.jpg"
+      ],
+      "gps": null,
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2587.3110200983883!2d19.527141915640318!3d49.57302187936395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbec06f7e38d3cd78!2zNDnCsDM0JzIyLjkiTiAxOcKwMzEnNDUuNiJF!5e0!3m2!1ssk!2ssk!4v1669998634342!5m2!1ssk!2ssk",
+      "text": "<p>Nádherný kraj severného Slovenska ohraničuje pohorie nazývané Babia hora. Pochváliť sa môže aj niekoľkými výnimočnými prívlastkami. Babia hora je totiž najsevernejší vyhliadkový bod Slovenska a najvyšší vrch Oravských Beskýd. Týči sa do výšky 1724 m a výstup sem je považovaný za jeden z najkrajších a najzaujímavejších v tejto lokalite. Z južnej trasy vyzerá Babia hora veľmi oblo a mierne, avšak vzhľadom na okolitý krajinný reliéf je nutné zdolať až 1000 výškových metrov.</p>\n<p>Východiskovým bodom pre nádhernú oravskú turistiku smerom na Babiu horu je väčšinou dedinka Oravská Polhora, presnejšie chata Slaná voda.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/babia-hora/",
+        "en": "https://www.qrlink.sk/new/en/babia-hora/",
+        "de": "https://www.qrlink.sk/new/de/babia-hora/",
+        "ru": "https://www.qrlink.sk/new/ru/babia-hora/",
+        "pl": "https://www.qrlink.sk/new/pl/babia-hora/",
+        "hu": "https://www.qrlink.sk/new/hu/babia-hora/"
+      }
+    },
+    {
+      "id": "slovensky-severny-pol-oravska-polhora",
+      "miesto": "euroregion-beskydy",
+      "poradie": 3,
+      "nazov": "Slovenský Severný pól, Oravská Polhora",
+      "popis": "",
+      "cover": "assets/images/migrated/slovensky_severny_pol.jpg",
+      "audio": [
+        "assets/audio/migrated/02-slovensky-severny-pol-oravska-polhora.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/slovensky_severny_pol.jpg"
       ],
       "gps": {
-        "lat": 49.262125,
-        "lng": 19.3589331
+        "lat": 49.6138882113942,
+        "lng": 19.467372469306937
       },
-      "mapEmbed": "https://www.google.com/maps?q=49.2621250,19.3589331&z=16&output=embed",
-      "text": "<p>Jednou z najväčších turistických atrakcií severného Slovenska je Oravský hrad, vybudovaný na skale nad riekou Orava v Oravskom Podzámku ako „orlie hniezdo“.</p>\n<p>Hrad začali budovať na mieste starého dreveného hrádku po tatárskom vpáde v roku 1241. Z pôvodne malej pevnosti z 13. storočia vznikol v priebehu nasledujúcich storočí rozsiahly hradný areál, ktorý má dnes 154 miestností.</p>\n<p>V minulosti bol župným hradom a sídlom Oravského hradného panstva. Patrila mu takmer celá Orava.</p>\n<p>Budovy a interiér hradu nesú črty románskeho slohu, gotiky, renesancie, baroka i moderných slohov. Hrad je totiž stále živý komplex, ktorého vývoj sa dodnes nezastavil.</p>",
-      "i18n": {
-        "en": {
-          "nazov": "The Castle Gate",
-          "popis": "The main entrance to the castle grounds that draws you into history.",
-          "text": "<p>One of the greatest tourist attractions of northern Slovakia is Orava Castle, built on a rock above the Orava river in Oravský Podzámok as an &quot;eagle&#39;s nest&quot;.</p>\n<p>The castle began as a small wooden fort built after the Tatar invasion of 1241. From a small 13th-century fortress it grew over the following centuries into an extensive castle complex that has 154 rooms today.</p>\n<p>In the past it was a county castle and the seat of the Orava castle estate. Almost all of Orava belonged to it.</p>\n<p>The castle&#39;s buildings and interiors bear the marks of Romanesque, Gothic, Renaissance, Baroque and modern styles. The castle is in fact still a living complex whose development continues to this day.</p>"
-        },
-        "cs": {
-          "nazov": "Brána do hradu",
-          "popis": "Hlavní vstup do hradního areálu, který vás vtáhne do historie.",
-          "text": "<p>Jednou z největších turistických atrakcí severního Slovenska je Oravský hrad, vybudovaný na skále nad řekou Orava v Oravském Podzámku jako „orlí hnízdo“.</p>\n<p>Hrad začali stavět na místě starého dřevěného hrádku po tatarském vpádu v roce 1241. Z původně malé pevnosti ze 13. století vznikl v průběhu následujících staletí rozsáhlý hradní areál, který má dnes 154 místností.</p>\n<p>V minulosti byl župním hradem a sídlem Oravského hradního panství. Patřila mu téměř celá Orava.</p>\n<p>Budovy a interiér hradu nesou rysy románského slohu, gotiky, renesance, baroka i moderních slohů. Hrad je totiž stále živý komplex, jehož vývoj se dodnes nezastavil.</p>"
-        },
-        "hu": {
-          "nazov": "A vár kapuja",
-          "popis": "A várudvar fő bejárata, amely magával ragadja a történelembe.",
-          "text": "<p>Észak-Szlovákia egyik legnagyobb turisztikai látványossága az Árva vára, amely az Orava folyó fölötti sziklán, Árvaváralján épült, mint egy „sasfészek&quot;.</p>\n<p>A várat egy régi faerődítmény helyén kezdték építeni az 1241-es tatárjárás után. Az eredetileg kicsi, 13. századi erődítményből a következő évszázadok során kiterjedt váregyüttes lett, amelynek ma 154 helyisége van.</p>\n<p>Egykor megyei vár és az Árvai váruradalom székhelye volt. Szinte egész Árva vidéke hozzá tartozott.</p>\n<p>A vár épületei és belső terei a román, gótikus, reneszánsz, barokk és modern stílusok jegyeit hordozzák. A vár ugyanis ma is élő együttes, amelynek fejlődése a mai napig nem állt meg.</p>"
-        }
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2585.151460579261!2d19.46519451570126!3d49.61374917936874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715d48741920ecb%3A0xcd278fae4d30294a!2sNajsevernej%C5%A1%C3%AD%20bod%20Slovenska!5e0!3m2!1ssk!2ssk!4v1675096039238!5m2!1ssk!2ssk",
+      "text": "<p>Najsevernejší bod Slovenska   sa nachádza v blízkosti hraničného kameňa 91/10 v nadmorskej výške 1 086 m pod vrcholom  Modralová, uvádzaná aj ako Beskydok (1 168 m). Východiskovým miestom je obec  Oravská Polhora, časť Píla. Trasou k tzv. Severnému pólu Slovenska – vrchol Modralová, neváhajte navštíviť technické pamiatky skryté v lesoch Oravskej Polhory. Tzv. Tajchy sú umelo vytvorené zrubovité</p>\n<p>hrádze, ktoré boli budované v hornej časti vodných tokov za účelom zachytávania vody.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/slovensky-severny-pol-oravska-polhora/",
+        "en": "https://www.qrlink.sk/new/en/slovensky-severny-pol-oravska-polhora/",
+        "de": "https://www.qrlink.sk/new/de/slovensky-severny-pol-oravska-polhora/",
+        "ru": "https://www.qrlink.sk/new/ru/slovensky-severny-pol-oravska-polhora/",
+        "pl": "https://www.qrlink.sk/new/pl/slovensky-severny-pol-oravska-polhora/",
+        "hu": "https://www.qrlink.sk/new/hu/slovensky-severny-pol-oravska-polhora/"
       }
     },
     {
-      "id": "eb-oh-kaplnka",
-      "miesto": "eb-oravsky-hrad",
-      "poradie": 2,
-      "nazov": "Kaplnka",
-      "popis": "Renesančná kaplnka sv. Michala s unikátnou výzdobou.",
-      "cover": "assets/images/places/oravsky-hrad-kaplnka.jpg",
-      "audio": [],
-      "galeria": [],
-      "gps": null,
-      "mapEmbed": "",
-      "text": "<p>Malá renesančná kaplnka zasvätená sv. Michalovi slúžila hradnej posádke aj panstvu\n      na súkromné bohoslužby. Zachovala sa v nej pôvodná výmaľba zo 17. storočia.</p>",
-      "i18n": {
-        "en": {
-          "nazov": "The Chapel",
-          "popis": "A Renaissance chapel of St. Michael with unique decoration.",
-          "text": "<p>The small Renaissance chapel dedicated to St. Michael served the castle garrison and the nobility for private worship. It still preserves its original 17th-century wall paintings.</p>"
-        },
-        "cs": {
-          "nazov": "Kaple",
-          "popis": "Renesanční kaple sv. Michala s unikátní výzdobou.",
-          "text": "<p>Malá renesanční kaple zasvěcená sv. Michalovi sloužila hradní posádce i panstvu k soukromým bohoslužbám. Zachovala se v ní původní malba ze 17. století.</p>"
-        },
-        "hu": {
-          "nazov": "A kápolna",
-          "popis": "Szent Mihály-kápolna, reneszánsz stílusban, egyedülálló díszítéssel.",
-          "text": "<p>A Szent Mihálynak szentelt kis reneszánsz kápolna a vár őrségének és az uraságnak szolgált magánájtatosságra. Benne máig megmaradt a 17. századi eredeti falfestés.</p>"
-        }
-      }
-    },
-    {
-      "id": "eb-oh-hradna-studna",
-      "miesto": "eb-oravsky-hrad",
-      "poradie": 3,
-      "nazov": "Hradná studňa",
-      "popis": "Hlboká studňa vytesaná do skaly, ktorá slúžila po stáročia.",
-      "cover": "assets/images/places/oravsky-hrad-studna.jpg",
-      "audio": [],
-      "galeria": [],
-      "gps": null,
-      "mapEmbed": "",
-      "text": "<p>Studňa vytesaná priamo do skalného brala zásobovala hrad vodou aj počas najdlhších\n      obliehaní. Jej hĺbka dodnes vyráža návštevníkom dych.</p>",
-      "i18n": {
-        "en": {
-          "nazov": "The Castle Well",
-          "popis": "A deep well carved into the rock that served for centuries.",
-          "text": "<p>The well, carved directly into the rocky cliff, supplied the castle with water even during the longest sieges. Its depth still takes visitors&#39; breath away today.</p>"
-        },
-        "cs": {
-          "nazov": "Hradní studna",
-          "popis": "Hluboká studna vytesaná do skály, která sloužila po staletí.",
-          "text": "<p>Studna vytesaná přímo do skalního bradla zásobovala hrad vodou i během nejdelších obléhání. Její hloubka dodnes bere návštěvníkům dech.</p>"
-        },
-        "hu": {
-          "nazov": "A vár kútja",
-          "popis": "A sziklába vájt mély kút, amely évszázadokon át szolgálta a várat.",
-          "text": "<p>A közvetlenül a sziklába vájt kút a leghosszabb ostromok idején is vízzel látta el a várat. Mélysége a mai látogatóknak is eláll a lélegzete.</p>"
-        }
-      }
-    },
-    {
-      "id": "eb-oh-vyhliadka",
-      "miesto": "eb-oravsky-hrad",
+      "id": "slanicky-ostrov-umenia",
+      "miesto": "euroregion-beskydy",
       "poradie": 4,
-      "nazov": "Vyhliadka",
-      "popis": "Nádherný panoramatický výhľad na rieku Oravu a okolitú krajinu.",
-      "cover": "assets/images/places/oravsky-hrad-vyhliadka.jpg",
-      "audio": [],
-      "galeria": [],
+      "nazov": "Slanický ostrov umenia",
+      "popis": "",
+      "cover": "assets/images/migrated/19-slanicky-ostrov-umenia.jpg",
+      "audio": [
+        "assets/audio/migrated/19-slanicky-ostrov-umenia-na-oravskej-priehrade.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/19-slanicky-ostrov-umenia.jpg"
+      ],
       "gps": null,
-      "mapEmbed": "",
-      "text": "<p>Z najvyššieho nádvoria sa otvára jeden z najkrajších pohľadov na rieku Oravu a okolité\n      hrebene – odmena za výstup po hradných schodoch.</p>",
-      "i18n": {
-        "en": {
-          "nazov": "The Lookout",
-          "popis": "A magnificent panoramic view of the Orava river and surrounding countryside.",
-          "text": "<p>From the highest courtyard opens one of the most beautiful views of the Orava river and the surrounding ridges – a reward for climbing the castle stairs.</p>"
-        },
-        "cs": {
-          "nazov": "Vyhlídka",
-          "popis": "Nádherný panoramatický výhled na řeku Oravu a okolní krajinu.",
-          "text": "<p>Z nejvyššího nádvoří se otevírá jeden z nejkrásnějších pohledů na řeku Oravu a okolní hřebeny – odměna za výstup po hradních schodech.</p>"
-        },
-        "hu": {
-          "nazov": "A kilátó",
-          "popis": "Csodálatos panoráma az Orava folyóra és a környező tájra.",
-          "text": "<p>A legfelső várudvarról nyílik az egyik legszebb kilátás az Orava folyóra és a környező hegygerincekre – ez a jutalom a vár lépcsőinek megmászásáért.</p>"
-        }
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2596.089856705175!2d19.514748215634217!3d49.407206379345084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc8899d1238dd7506!2zNDnCsDI0JzI1LjkiTiAxOcKwMzEnMDEuMCJF!5e0!3m2!1ssk!2ssk!4v1669998930517!5m2!1ssk!2ssk",
+      "text": "<p>V prekrásnej prírodnej scenérii Slanického ostrova umenia uprostred Oravskej priehrady sú lokalizované stále expozície tradičného ľudového umenia zo zbierok Oravskej galérie. Z piatich osád, ktoré navždy zmizli pod vodou priehrady v r. 1953 sa ako ostrov zachovalo iba návršie s barokovým kostolom a kalváriou, ktoré kedysi tvorilo dominantu obce Slanica. O niekoľko rokov vznikla myšlienka vytvoriť trvalé expozície Oravskej galérie, ktoré boli otvorené v rokoch 1971 – 1973. V interiéri kostola s fasádou z obdobia klasicizmu je nainštalovaná expozícia „Tradičná ľudová plastika a maľba“ a v exteriéri ostrova vzniklo lapidárium „Oravskej kamenárskej tvorby 18. a 19. storočia“. V bývalej hrobke sa nachádza expozícia histórie zatopených obcí a budovania Oravskej priehrady. Expozície sa svojou jedinečnosťou zaradili medzi najnavštevovanejšie kultúrne miesta Oravy aj vďaka atraktívnej plavbe osobnou motorovou loďou „SLANICA“, ktorá premáva na ostrov z prístavu na Slanickej Osade počas sezóny /od 15. mája – do 15. septembra/. V chrámovom priestore kostola organizuje Dom kultúry v Námestove každoročne v mesiacoch jún a júl v rámci festivalu „Hudobné leto“ koncerty vážnej hudby.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/slanicky-ostrov-umenia/",
+        "en": "https://www.qrlink.sk/new/en/slanicky-ostrov-umenia/",
+        "de": "https://www.qrlink.sk/new/de/slanicky-ostrov-umenia/",
+        "ru": "https://www.qrlink.sk/new/ru/slanicky-ostrov-umenia/",
+        "pl": "https://www.qrlink.sk/new/pl/slanicky-ostrov-umenia/",
+        "hu": "https://www.qrlink.sk/new/hu/slanicky-ostrov-umenia/"
       }
     },
     {
-      "id": "eb-oh-nadvorie",
-      "miesto": "eb-oravsky-hrad",
+      "id": "rimsko-katolicky-kostol-sv-michala-archanjela-velicna",
+      "miesto": "euroregion-beskydy",
       "poradie": 5,
-      "nazov": "Nádvorie",
-      "cover": "",
-      "audio": [],
-      "text": "<p>[DOPLNIŤ – text zastavenia]</p>",
-      "galeria": [],
+      "nazov": "Rímsko-katolícky kostol sv. Michala archanjela – Veličná",
+      "popis": "",
+      "cover": "assets/images/migrated/20-velicna-rim-kat-kostol-sv-michala-archanjela.jpg",
+      "audio": [
+        "assets/audio/migrated/20-velicna-rimsko-katolicky-kostol-sv-michala-archanjela.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/20-velicna-rim-kat-kostol-sv-michala-archanjela.jpg"
+      ],
       "gps": null,
-      "mapEmbed": ""
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2606.720349880515!2d19.241142915626877!3d49.20586437932307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x747fd1364c8d3d40!2zNDnCsDEyJzIxLjEiTiAxOcKwMTQnMzYuMCJF!5e0!3m2!1ssk!2ssk!4v1669999145589!5m2!1ssk!2ssk",
+      "text": "<p>Pôvodne gotický kostol postavený v 14. storočí bol v roku 1683 zničený požiarom spoločne s väčšou časťou obce. Počas opráv v 17. storočí získal kostol dnešnú podobu. Areál kostola obkolesuje obranný múr, pred kostolom sa nachádza kalvária z roku 1777 a zvyšok niekdajšieho cintorína. V interiéri sa nachádza ľudový vyrezávaný betlehem. Kostol bol v roku 1963 vyhlásený za národnú kultúrnu pamiatku.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/rimsko-katolicky-kostol-sv-michala-archanjela-velicna/",
+        "en": "https://www.qrlink.sk/new/en/rimsko-katolicky-kostol-sv-michala-archanjela-velicna/",
+        "de": "https://www.qrlink.sk/new/de/rimsko-katolicky-kostol-sv-michala-archanjela-velicna/",
+        "ru": "https://www.qrlink.sk/new/ru/rimsko-katolicky-kostol-sv-michala-archanjela-velicna/",
+        "pl": "https://www.qrlink.sk/new/pl/rimsko-katolicky-kostol-sv-michala-archanjela-velicna/",
+        "hu": "https://www.qrlink.sk/new/hu/rimsko-katolicky-kostol-sv-michala-archanjela-velicna/"
+      }
     },
     {
-      "id": "eb-oh-veza",
-      "miesto": "eb-oravsky-hrad",
+      "id": "klin",
+      "miesto": "euroregion-beskydy",
       "poradie": 6,
-      "nazov": "Veža",
-      "cover": "",
-      "audio": [],
-      "text": "<p>[DOPLNIŤ – text zastavenia]</p>",
-      "galeria": [],
+      "nazov": "Klin",
+      "popis": "",
+      "cover": "assets/images/migrated/21-klin.jpg",
+      "audio": [
+        "assets/audio/migrated/21-klin.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/21-klin.jpg"
+      ],
       "gps": null,
-      "mapEmbed": ""
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29354.307444167625!2d19.465751366638496!3d49.43577385322474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715cf20f98ddf15%3A0xdd6ed98aa67936fb!2zU29jaGEgSmXFvmnFoWEgS3Jpc3Rh!5e0!3m2!1ssk!2ssk!4v1669999319183!5m2!1ssk!2ssk",
+      "text": "<p>Názov obce Klin pochádza z pôvodného označenia pre výbežok hory medzi dvoma potokmi. Obec ponúka množstvo atraktivít ako sú: bežecké trate, turistická trasa na Vahanov a Socha Krista na Grape, cyklocesta z Klina do Námestova (stará Kliňanská cesta), či Náučný chodník Premeny lesa.</p>\n<p>Malá obec blízko okresného Námestova, Klin, na prvý pohľad pôsobí nenápadne. Kto by povedal, že sa nad ňou nachádza doslova svetový skvost. Už od roku 2008 sa totiž na kopci Grapa nad dedinou, vo výške 686 m. n. m., nachádza socha Ježiša Krista. Je vysoká 9,5 metra, rozpätie jej rúk má sedem metrov a váži 23 ton. Jej autorom je miestny ľudový rezbár, Peter Ganobjak.</p>\n<p>Vo svete sa nachádzajú len tri podobné sochy. Najznámejšia je nad mestom Rio de Janeiro, druhá v portugalskom Lisabone a tretia práve tu.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/klin/",
+        "en": "https://www.qrlink.sk/new/en/klin/",
+        "de": "https://www.qrlink.sk/new/de/klin/",
+        "ru": "https://www.qrlink.sk/new/ru/klin/",
+        "pl": "https://www.qrlink.sk/new/pl/klin/",
+        "hu": "https://www.qrlink.sk/new/hu/klin/"
+      }
     },
     {
-      "id": "eb-plte-nastupiste",
-      "miesto": "eb-plte-na-vahu",
-      "poradie": 1,
-      "nazov": "Nástupište pltí",
-      "popis": "Miesto, kde sa nalodíte na tradičnú pltnícku plavbu.",
-      "cover": "",
-      "audio": [],
-      "galeria": [],
+      "id": "stala-expozicia-ludoveho-rezbarstva",
+      "miesto": "euroregion-beskydy",
+      "poradie": 7,
+      "nazov": "Stála expozícia ľudového rezbárstva",
+      "popis": "",
+      "cover": "assets/images/migrated/22-stala-expozicia-ludoveho-rezbarstva.jpg",
+      "audio": [
+        "assets/audio/migrated/22-stala-expozicia-ludoveho-rezbarstva.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/22-stala-expozicia-ludoveho-rezbarstva.jpg"
+      ],
       "gps": null,
-      "mapEmbed": "",
-      "text": "<p>Tradičné pltníctvo na Váhu ožíva aj dnes – z tohto nástupišťa sa vydávajú drevené\n      plte na plavbu, akou kedysi putovalo drevo z hôr až do údolia.</p>"
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2600.0875425227605!2d19.37880671563142!3d49.33156137933669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd2ce8f6eb16f04b0!2zNDnCsDE5JzUzLjYiTiAxOcKwMjInNTEuNiJF!5e0!3m2!1ssk!2ssk!4v1669999522047!5m2!1ssk!2ssk",
+      "text": "<p>Návštevníka pravdepodobne zaujme aj Galéria ľudového rezbárstva. V súčasnosti má obec zriadenú stálu expozíciu ľudového rezbárstva s počtom cez 150 drevených plastík od viac ako päťdesiatich ľudových tvorcov zo Slovenska, Česka a Poľska.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/stala-expozicia-ludoveho-rezbarstva/",
+        "en": "https://www.qrlink.sk/new/en/stala-expozicia-ludoveho-rezbarstva/",
+        "de": "https://www.qrlink.sk/new/de/stala-expozicia-ludoveho-rezbarstva/",
+        "ru": "https://www.qrlink.sk/new/ru/stala-expozicia-ludoveho-rezbarstva/",
+        "pl": "https://www.qrlink.sk/new/pl/stala-expozicia-ludoveho-rezbarstva/",
+        "hu": "https://www.qrlink.sk/new/hu/stala-expozicia-ludoveho-rezbarstva/"
+      }
     },
     {
-      "id": "eb-dedovka-vyhliadka",
-      "miesto": "eb-rozhliadka-dedovka",
-      "poradie": 1,
-      "nazov": "Vyhliadková plošina",
-      "popis": "360° výhľad na Kysuce, Beskydy aj Poľsko.",
-      "cover": "",
-      "audio": [],
-      "galeria": [],
+      "id": "bobrovska-kalvaria",
+      "miesto": "euroregion-beskydy",
+      "poradie": 8,
+      "nazov": "Bobrovská kalvária",
+      "popis": "",
+      "cover": "assets/images/migrated/18-bobrovska-kalvaria.jpg",
+      "audio": [
+        "assets/audio/migrated/18-bobrovska-kalvaria.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/18-bobrovska-kalvaria.jpg"
+      ],
       "gps": null,
-      "mapEmbed": "",
-      "text": "<p>Rozhliadňa Dedovka ponúka výhľad na tri krajiny naraz – ideálny cieľ nenáročnej\n      turistiky pre celú rodinu.</p>"
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2595.1992647005786!2d19.54717301563486!3d49.42404667934694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8152eaf3721792f!2zNDnCsDI1JzI2LjYiTiAxOcKwMzInNTcuNyJF!5e0!3m2!1ssk!2ssk!4v1669999671050!5m2!1ssk!2ssk",
+      "text": "<p>V srdci Bobrova sa nachádza miesto, kde ľudia prichádzajú načerpať pokoj, oddýchnuť si alebo sa len tak pokochať výhľadom.</p>\n<p>Kalvária sa nachádza v centre obce, hneď vedľa kostola. Na vŕšok je možné dostať sa aj autom. Cesta vedie poza kostol k cintorínu, kde sa dá napojiť na panelovú cestu, ktorá ústi neďaleko Kaplnky Nanebovzatia Panny Márie. Ak však chcete vidieť všetky časti našej trasy, odporúčame auto nechať zaparkované na parkovisku za kostolom a vydať sa na cestu pešo.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/bobrovska-kalvaria/",
+        "en": "https://www.qrlink.sk/new/en/bobrovska-kalvaria/",
+        "de": "https://www.qrlink.sk/new/de/bobrovska-kalvaria/",
+        "ru": "https://www.qrlink.sk/new/ru/bobrovska-kalvaria/",
+        "pl": "https://www.qrlink.sk/new/pl/bobrovska-kalvaria/",
+        "hu": "https://www.qrlink.sk/new/hu/bobrovska-kalvaria/"
+      }
     },
     {
-      "id": "eb-vr-vrchol",
-      "miesto": "eb-velka-raca",
-      "poradie": 1,
-      "nazov": "Vrchol Veľkej Rače",
-      "popis": "Najvyšší bod Kysuckých Beskýd (1 236 m n. m.).",
-      "cover": "",
-      "audio": [],
-      "galeria": [],
+      "id": "hrad-strecno",
+      "miesto": "euroregion-beskydy",
+      "poradie": 9,
+      "nazov": "Hrad Strečno",
+      "popis": "",
+      "cover": "assets/images/migrated/07-hrad-strecno.jpg",
+      "audio": [
+        "assets/audio/migrated/07-hrad-strecno.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/07-hrad-strecno.jpg"
+      ],
       "gps": null,
-      "mapEmbed": "",
-      "text": "<p>Z vrcholu Veľkej Rače sa za jasného počasia vidí až do Poľska a Českej republiky –\n      symbolické miesto, kde sa stretávajú tri krajiny.</p>"
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2608.371257471408!2d18.859973015625634!3d49.17454137931978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd67d3ca33c4a9cd0!2zNDnCsDEwJzI4LjQiTiAxOMKwNTEnNDMuOCJF!5e0!3m2!1ssk!2ssk!4v1669999746033!5m2!1ssk!2ssk",
+      "text": "<p>Na ľavom brehu rieky Váh sa nad obcou Strečno vypína hrad, ktorý v minulosti predstavoval najbezpečnejšiu pevnosť Považia a dnes žije zaujímavými kultúrnymi podujatiami počas celého roka. Jedným z majiteľov hradu bol gróf František Vešeléni a jeho prvou manželkou bola známa Žofia Bosniaková. V interiéri môžete obdivovať expozíciu Považského múzea v Žiline. Vystavené exponáty prezentujú archeologické nálezy z okolia Žiliny, a tiež celkovú históriu hradu.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/hrad-strecno/",
+        "en": "https://www.qrlink.sk/new/en/hrad-strecno/",
+        "de": "https://www.qrlink.sk/new/de/hrad-strecno/",
+        "ru": "https://www.qrlink.sk/new/ru/hrad-strecno/",
+        "pl": "https://www.qrlink.sk/new/pl/hrad-strecno/",
+        "hu": "https://www.qrlink.sk/new/hu/hrad-strecno/"
+      }
+    },
+    {
+      "id": "plte-na-vahu",
+      "miesto": "euroregion-beskydy",
+      "poradie": 10,
+      "nazov": "Plte na Váhu",
+      "popis": "",
+      "cover": "assets/images/migrated/08-plte-na-vahu.jpg",
+      "audio": [
+        "assets/audio/migrated/08-plte-na-orave-a-vahu.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/08-plte-na-vahu.jpg"
+      ],
+      "gps": null,
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2607.9645033650504!2d18.860359315625924!3d49.18226017932051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47145765ef4b5da9%3A0x7f8ddbb619c1dc1!2sPlte%20na%20V%C3%A1hu!5e0!3m2!1ssk!2ssk!4v1669999836498!5m2!1ssk!2ssk",
+      "text": "<p>Plavba na plti strečnianskou úžinou – ponúka jedinečnú a bezpečnú možnosť spoznať históriu, prírodné, kultúrne a technické zaujímavosti na tradičnom dopravnom prostriedku popod starobylé hrady Strečno a Starhrad, okolo najznámejších pltníckych prekážok – skál Margita a Besná v priesmyku Váhu pohorím Malej Fatry.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/plte-na-vahu/",
+        "en": "https://www.qrlink.sk/new/en/plte-na-vahu/",
+        "de": "https://www.qrlink.sk/new/de/plte-na-vahu/",
+        "ru": "https://www.qrlink.sk/new/ru/plte-na-vahu/",
+        "pl": "https://www.qrlink.sk/new/pl/plte-na-vahu/",
+        "hu": "https://www.qrlink.sk/new/hu/plte-na-vahu/"
+      }
+    },
+    {
+      "id": "hrad-lietava",
+      "miesto": "euroregion-beskydy",
+      "poradie": 11,
+      "nazov": "Hrad Lietava",
+      "popis": "",
+      "cover": "assets/images/migrated/06-hrad-lietava.jpg",
+      "audio": [
+        "assets/audio/migrated/06-hrad-lietava.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/06-hrad-lietava.jpg"
+      ],
+      "gps": null,
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2609.098409789481!2d18.68284661562514!3d49.160740279318254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x753960f16cb85276!2zNDnCsDA5JzM4LjciTiAxOMKwNDEnMDYuMSJF!5e0!3m2!1ssk!2ssk!4v1669999921336!5m2!1ssk!2ssk",
+      "text": "<p>Je postavený na vrchu Cibulník – 635 m n. m. so strmými svahmi z viacerých strán. Vďaka svojej polohe bol v minulosti takmer nedobytný a radí sa na 2. miesto na Slovensku, hneď za Spišským hradom. Návštevníkom ponúka nádherné výhľady na Súľovské skaly, masív Skaliek, Kysuckú vrchovinu, Malú Fatru či Javorníky. Prístup je možný buď z obce Lietava, alebo Lietavská Svinná.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/hrad-lietava/",
+        "en": "https://www.qrlink.sk/new/en/hrad-lietava/",
+        "de": "https://www.qrlink.sk/new/de/hrad-lietava/",
+        "ru": "https://www.qrlink.sk/new/ru/hrad-lietava/",
+        "pl": "https://www.qrlink.sk/new/pl/hrad-lietava/",
+        "hu": "https://www.qrlink.sk/new/hu/hrad-lietava/"
+      }
+    },
+    {
+      "id": "muzeum-juraja-janosika",
+      "miesto": "euroregion-beskydy",
+      "poradie": 12,
+      "nazov": "Múzeum Juraja Jánošíka",
+      "popis": "",
+      "cover": "assets/images/migrated/09-muzeum-juraja-janosika.jpg",
+      "audio": [
+        "assets/audio/migrated/09-muzeum-juraja-janosika.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/09-muzeum-juraja-janosika.jpg"
+      ],
+      "gps": null,
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.996588256588!2d19.027763815628678!3d49.25751057932853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5d2fbe1bb44d902f!2zNDnCsDE1JzI3LjAiTiAxOcKwMDEnNDcuOCJF!5e0!3m2!1ssk!2ssk!4v1669999984748!5m2!1ssk!2ssk",
+      "text": "<p>Stála expozícia venovaná národnému hrdinovi Jánošíkovi a dávnemu životu v obci Terchová je sprístupnená od roku 2008. Expozícia je rozdelená do niekoľkých tematických celkov: tradičné terchovské obydlie, história obce, Jánošík ako ľudový hrdina.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/muzeum-juraja-janosika/",
+        "en": "https://www.qrlink.sk/new/en/muzeum-juraja-janosika/",
+        "de": "https://www.qrlink.sk/new/de/muzeum-juraja-janosika/",
+        "ru": "https://www.qrlink.sk/new/ru/muzeum-juraja-janosika/",
+        "pl": "https://www.qrlink.sk/new/pl/muzeum-juraja-janosika/",
+        "hu": "https://www.qrlink.sk/new/hu/muzeum-juraja-janosika/"
+      }
+    },
+    {
+      "id": "janosikove-diery",
+      "miesto": "euroregion-beskydy",
+      "poradie": 13,
+      "nazov": "Jánošíkové diery",
+      "popis": "",
+      "cover": "assets/images/migrated/10-janosikove-diery.jpg",
+      "audio": [
+        "assets/audio/migrated/10-janosikove-diery.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/10-janosikove-diery.jpg"
+      ],
+      "gps": null,
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2604.374588629687!2d19.07106211562841!3d49.25034557932786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x635b6fac453705a4!2zNDnCsDE1JzAxLjIiTiAxOcKwMDQnMjMuNyJF!5e0!3m2!1ssk!2ssk!4v1673718427616!5m2!1ssk!2ssk",
+      "text": "<p>Najkrajšia a najobľúbenejšia časť Malej Fatry sú Jánošíkove diery. Nachádzajú sa v prírodnej rezervácii Rozsutce a skladajú sa z troch častí: z Dolných dier, Horných dier a Nových dier. O ich vyformovanie sa zaslúžil tzv. Dierový potok, ktorý nimi preteká.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/janosikove-diery/",
+        "en": "https://www.qrlink.sk/new/en/janosikove-diery/",
+        "de": "https://www.qrlink.sk/new/de/janosikove-diery/",
+        "ru": "https://www.qrlink.sk/new/ru/janosikove-diery/",
+        "pl": "https://www.qrlink.sk/new/pl/janosikove-diery/",
+        "hu": "https://www.qrlink.sk/new/hu/janosikove-diery/"
+      }
+    },
+    {
+      "id": "sulovsky-hrad",
+      "miesto": "euroregion-beskydy",
+      "poradie": 14,
+      "nazov": "Súľovský hrad",
+      "popis": "",
+      "cover": "assets/images/migrated/05-sulovsky-hrad.jpg",
+      "audio": [
+        "assets/audio/migrated/05-sulovsky-hrad.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/05-sulovsky-hrad.jpg"
+      ],
+      "gps": null,
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4783.777667273124!2d18.57905918803144!3d49.174502187227404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe9f96e36f7422be0!2zNDnCsDEwJzI4LjkiTiAxOMKwMzUnMDAuNiJF!5e0!3m2!1ssk!2ssk!4v1673719216891!5m2!1ssk!2ssk",
+      "text": "<p>Na mohutnom skalnom bradle Súľovských skál, v nadmorskej výške 660 metrov sa nachádzajú zbytky Súľovského hradu. Hrad pochádza z prvej tretiny 15. storočia a do dnešného dňa sa, žiaľ, zachovalo len minimum obvodových múrov. Podľa povesti žil v okolí hradu drak, ktorý rozzúrený lietal okolo hradu a narážal do skál. Zanechal tak otvor – Gotickú bránu a Šarkaniu dieru. Odvážny mladík Suľo sa ho vybral zabiť, lebo znepríjemňoval život v okolí. To sa mu podarilo a dedinčania mu za to postavili malý hrad v nedobytných skalách.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/sulovsky-hrad/",
+        "en": "https://www.qrlink.sk/new/en/sulovsky-hrad/",
+        "de": "https://www.qrlink.sk/new/de/sulovsky-hrad/",
+        "ru": "https://www.qrlink.sk/new/ru/sulovsky-hrad/",
+        "pl": "https://www.qrlink.sk/new/pl/sulovsky-hrad/",
+        "hu": "https://www.qrlink.sk/new/hu/sulovsky-hrad/"
+      }
+    },
+    {
+      "id": "historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny",
+      "miesto": "euroregion-beskydy",
+      "poradie": 15,
+      "nazov": "Historická lesná úvraťová železnica, Múzeum Kysuckej dediny",
+      "popis": "",
+      "cover": "assets/images/migrated/14-historicka-uvratova-zeleznica.jpg",
+      "audio": [
+        "assets/audio/migrated/14-historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny-1.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/14-historicka-uvratova-zeleznica.jpg",
+        "assets/images/migrated/15-muzeum-kysuckej-dediny.jpg"
+      ],
+      "gps": null,
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2597.388960379223!2d19.093981615633314!3d49.38263387934232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a01aab07ba1a8d2!2zNDnCsDIyJzU3LjUiTiAxOcKwMDUnNDYuMiJF!5e0!3m2!1ssk!2ssk!4v1673719549886!5m2!1ssk!2ssk",
+      "text": "<p>Historická lesná úvraťová železnica je zachovanou a funkčnou časťou bývalej Kysucko-oravskej lesnej železnice (KOLŽ), ktorá vznikla v roku 1926 spojením lesných železníc vybudovaných v roku 1915 – 1918, a to kysuckej – z Oščadnice do Chmúry (Nová Bystrica, časť Vychylovka) a oravskej – z Lokce do Erdútky (terajšej Oravskej Lesnej). Prevádzka na KOLŽ bola ukončená na konci roku 1971 a okrem 8 km dlhého úseku Chmúra – Tanečník, v ktorom sa nachádzal cenný úvraťový systém, bola ostatná trať demontovaná. V roku 1974 zachovanú časť zrušenej KOLŽ prevzalo do správy Kysucké múzeum v Čadci. Úsek bývalej KOLŽ o dĺžke 8 km medzi Chmúrou (Vychylovka) a Tanečníkom (Oravská Lesná) s unikátnym úvraťovým systémom, bol ako technická pamiatka vyhlásený v roku 1991 za národnú kultúrnu pamiatku SR. Súčasťou inventára HLÚŽ sú historické parné a motorové rušne, vozne a pod. Železnica premáva počas sezónnej prevádzky v mesiacoch máj – október.</p>\n<p>Múzeum Kysuckej dediny je skanzen nachádzajúci sa neďaleko obce Nová Bystrica, časti Vychylovka, v doline Chmúra, ktorá je súčasťou CHKO Kysuce. Skanzen vznikol 11. októbra 1974, pričom jeden z hlavných dôvodov pre jeho vznik bola záchrana najcennejších pamiatok ľudovej architektúry z obcí Riečnica a Harvelka, ktoré mali zaniknúť z dôvodu výstavby vodnej nádrže Nová Bystrica. </p>\n<p>Do roku 1981, kedy bola sprístupnená prvá časť expozície, sa vybudovalo 22 z celkovo plánovaných 69 objektov expozície múzea v prírode. Národopisná expozícia sa usiluje o rekonštrukciu sídelnej krajiny a životného prostredia, s prezentáciou ľudovej architektúry a spôsobu života i kultúry ľudu na Kysuciach v druhej polovici 19. storočia a prvej polovici 20. storočia. Technické stavby prezentuje vodný mlyn a píla s hrázdenou konštrukciou z obce Klubina. Zo sakrálnych stavieb sa tu nachádza murovaná kaplnka z prvej štvrtiny 19. storočia zo Zborova nad Bystricou a cintorín s kovovými krížmi, predstavujúci cintoríny na Kysuciach začiatkom tohto storočia.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/01/15-muzeum-kysuckej-dediny.jpg\" alt=\"\"></p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny/",
+        "en": "https://www.qrlink.sk/new/en/historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny/",
+        "de": "https://www.qrlink.sk/new/de/historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny/",
+        "ru": "https://www.qrlink.sk/new/ru/historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny/",
+        "pl": "https://www.qrlink.sk/new/pl/historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny/",
+        "hu": "https://www.qrlink.sk/new/hu/historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny/"
+      }
+    },
+    {
+      "id": "trojmedzie",
+      "miesto": "euroregion-beskydy",
+      "poradie": 16,
+      "nazov": "Trojmedzie",
+      "popis": "",
+      "cover": "assets/images/migrated/12-trojmedzie.jpg",
+      "audio": [
+        "assets/audio/migrated/12-trojmedzie.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/12-trojmedzie.jpg"
+      ],
+      "gps": null,
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2590.2942358713362!2d18.848682715638308!3d49.516720579357475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1d22e40fd3ccadb5!2zNDnCsDMxJzAwLjIiTiAxOMKwNTEnMDMuMSJF!5e0!3m2!1ssk!2ssk!4v1673720034203!5m2!1ssk!2ssk",
+      "text": "<p>Trojmedzie je miesto, kde sa stretávajú hranice Slovenska, Česka a Poľska. Z tohto bodu pokračuje 541 km slovensko-poľskej a 251 km slovensko-českej hranice. Na Trojmedzí môžete tak zažiť aj ojedinelý zážitok – stáť naraz v troch štátoch.</p>\n<p>Trojmedzný bod sa nachádza v strži koryta potoka hlbokom 8 m a širokom 34 m a je stredom kružnice opísanej vrcholmi rovnoramenného trojuholníka. Vrcholy trojuholníka tvoria 240 cm vysoké žulové monolity. Trojmedzný bod tvorený menším monolitom je v koryte potôčika.</p>\n<p>Pri ich stavbe 22. 6. 1995 boli do podstavcov uložené v kovových obaloch pamätné dokumenty doby – rôzne listiny, noviny a mince.</p>\n<p>Na Trojmedzí sa pravidelne uskutočňujú stretnutia priateľov a rôzne podujatia, napr. Silvester na Trojmedzí, turistický pochod Cez tri štáty Európy, Slávenie Eucharistie na Trojmedzí, Goralský maratón a iné.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/trojmedzie/",
+        "en": "https://www.qrlink.sk/new/en/trojmedzie/",
+        "de": "https://www.qrlink.sk/new/de/trojmedzie/",
+        "ru": "https://www.qrlink.sk/new/ru/trojmedzie/",
+        "pl": "https://www.qrlink.sk/new/pl/trojmedzie/",
+        "hu": "https://www.qrlink.sk/new/hu/trojmedzie/"
+      }
+    },
+    {
+      "id": "marianske-putnicke-miesto-zivcakova",
+      "miesto": "euroregion-beskydy",
+      "poradie": 17,
+      "nazov": "Mariánske pútnické miesto Živčáková",
+      "popis": "",
+      "cover": "assets/images/migrated/11-marianske-putnicke-miesto-zivcakova.jpg",
+      "audio": [
+        "assets/audio/migrated/11-marianske-putnicke-miesto-zivcakova.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/11-marianske-putnicke-miesto-zivcakova.jpg"
+      ],
+      "gps": null,
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2596.6236929345378!2d18.56830211563385!3d49.39710997934393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8092b800ac138241!2zNDnCsDIzJzQ5LjYiTiAxOMKwMzQnMTMuOCJF!5e0!3m2!1ssk!2ssk!4v1673720163611!5m2!1ssk!2ssk",
+      "text": "<p>V júni v roku 1958 sa na vrchu Živčáková mala lesnému robotníkovi Matúšovi Lašutovi zjaviť Panna Mária. Správa sa rýchlo rozšírila a miesto údajného zjavenia začali navštevovať veriaci, ktorí putovali na horu. V roku 1992 BÚ v Nitre súhlasil a v nasledujúcom roku bola na hore Živčáková postavená kaplnka Panny Márie Kráľovnej pokoja. Jej projekt vypracoval Ing. arch. Marián Goč. V areáli zjavenia sa nachádza niekoľko prameňov s liečivou vodou. Žilinský biskup Tomáš Galis dňa 19. októbra 2008 vyhlásil horu Živčáková za oficiálne mariánske pútnické miesto a vysvätil základný kameň budúceho chrámu Panny Márie Matky Cirkvi. 4. októbra 2015 bol chrám slávnostne vysvätený žilinským diecéznym biskupom Mons. Tomášom Galisom. Vo veži kostola sú umiestnené štyri zvony, ktoré sú dielom Josefa Tkadleca z Halenkova.</p>\n<p>Veža slúži aj ako vyhliadková a je sprístupnená pre pútnikov i turistov, z jej otvorenej terasy je kruhový výhľad na okolitú prírodu. Ak si chcete pozrieť tento výhľad, musíte vyšľapať približne 140 schodov. Vstup do veže je zdarma, vstupné je dobrovoľné. Vyhliadková veža je sprístupnená len za priaznivého počasia.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/marianske-putnicke-miesto-zivcakova/",
+        "en": "https://www.qrlink.sk/new/en/marianske-putnicke-miesto-zivcakova/",
+        "de": "https://www.qrlink.sk/new/de/marianske-putnicke-miesto-zivcakova/",
+        "ru": "https://www.qrlink.sk/new/ru/marianske-putnicke-miesto-zivcakova/",
+        "pl": "https://www.qrlink.sk/new/pl/marianske-putnicke-miesto-zivcakova/",
+        "hu": "https://www.qrlink.sk/new/hu/marianske-putnicke-miesto-zivcakova/"
+      }
+    },
+    {
+      "id": "kamenne-gule-na-kysuciach",
+      "miesto": "euroregion-beskydy",
+      "poradie": 18,
+      "nazov": "Kamenné gule na Kysuciach",
+      "popis": "",
+      "cover": "assets/images/migrated/13-kamenne-gule-v-megonkach.jpg",
+      "audio": [
+        "assets/audio/migrated/13-kamenne-gule-na-kysuciach.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/13-kamenne-gule-v-megonkach.jpg"
+      ],
+      "gps": null,
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2591.347144961259!2d18.72031601563756!3d49.49683807935525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x46f390f487682b10!2zNDnCsDI5JzQ4LjYiTiAxOMKwNDMnMjEuMCJF!5e0!3m2!1ssk!2ssk!4v1673720415142!5m2!1ssk!2ssk",
+      "text": "<p>Kamenné gule sa nachádzajú v mestskej časti Čadca – Milošová, v blízkosti hranice s obcou Mosty u Jablunkova. V 80. rokoch 20. storočia sa po odstrele horniny v kameňolome, v ktorom sa ťažil kameň na úpravu horských bystrín, vykotúľali pravidelné okrúhle gule s priemerom od 10 až po 260 cm. V roku 2003 bol nálezisko vyhlásené za prírodnú pamiatku**.**</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/kamenne-gule-na-kysuciach/",
+        "en": "https://www.qrlink.sk/new/en/kamenne-gule-na-kysuciach/",
+        "de": "https://www.qrlink.sk/new/de/kamenne-gule-na-kysuciach/",
+        "ru": "https://www.qrlink.sk/new/ru/kamenne-gule-na-kysuciach/",
+        "pl": "https://www.qrlink.sk/new/pl/kamenne-gule-na-kysuciach/",
+        "hu": "https://www.qrlink.sk/new/hu/kamenne-gule-na-kysuciach/"
+      }
+    },
+    {
+      "id": "tri-krize-na-stratenci-a-kriz-na-velkom-javorniku",
+      "miesto": "euroregion-beskydy",
+      "poradie": 19,
+      "nazov": "Tri Kríže na Stratenci a kríž na veľkom Javorníku",
+      "popis": "",
+      "cover": "assets/images/migrated/01-kriz-na-velkom-javorniku.jpg",
+      "audio": [
+        "assets/audio/migrated/01-tri-krize-na-stratenci-a-kriz-na-velkom-javorniku.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/01-kriz-na-velkom-javorniku.jpg",
+        "assets/images/migrated/02-tri-krize-na-stratenci.jpg"
+      ],
+      "gps": null,
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2600.9587581586443!2d18.332809915630804!3d49.31506467933492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc11c98ee5119d30d!2zNDnCsDE4JzU0LjIiTiAxOMKwMjAnMDYuMCJF!5e0!3m2!1ssk!2ssk!4v1673720689668!5m2!1ssk!2ssk",
+      "text": "<p>V blízkosti slovensko-českých hraníc sa rozprestiera obľúbené pohorie Javorníky. Jeho najvyšším vrcholom je Veľký Javorník, ktorý je ako stvorený na turistiku s rodinou a priateľmi. Očarí vás malebnými zákutiami, krásnou prírodou, ako aj nenáročnosťou výstupových trás.</p>\n<p>Cestou sa vám naskytujú panoramatické výhľady najmä na Moravsko-sliezske Beskydy. Na hrebeni okrem prírodných krás nájdete aj diela ľudských rúk, a to v podobe kamenných objektov – jedinečnú kamennú galériu v prírode. Ich autormi sú umelci spätí s regiónmi Kysuce a Horné Považie (medzi nimi Ondrej Zimka, Gustáv Švábik-Macvejda, Milan Greguš, Pavol Muška, Ondrej 4. a ateliér Tri kamene a iní).</p>\n<p>Bola vybudovaná v roku 2008, v nadmorskej výške 1055 m n. m. Nachádza sa tu tiež kamenný pamätník Tri kríže. Venovaný je trom vojakom, ktorí padli počas 2. svetovej vojny, v čase oslobodenia Veľkých Karlovíc. Rozhľadňa má výšku 8 m a vedie na ňu 22 schodov.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/01/02-tri-krize-na-stratenci.jpg\" alt=\"\"></p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/tri-krize-na-stratenci-a-kriz-na-velkom-javorniku/",
+        "en": "https://www.qrlink.sk/new/en/tri-krize-na-stratenci-a-kriz-na-velkom-javorniku/",
+        "de": "https://www.qrlink.sk/new/de/tri-krize-na-stratenci-a-kriz-na-velkom-javorniku/",
+        "ru": "https://www.qrlink.sk/new/ru/tri-krize-na-stratenci-a-kriz-na-velkom-javorniku/",
+        "pl": "https://www.qrlink.sk/new/pl/tri-krize-na-stratenci-a-kriz-na-velkom-javorniku/",
+        "hu": "https://www.qrlink.sk/new/hu/tri-krize-na-stratenci-a-kriz-na-velkom-javorniku/"
+      }
+    },
+    {
+      "id": "unikatny-dreveny-betlehem-v-rajeckej-lesnej",
+      "miesto": "euroregion-beskydy",
+      "poradie": 20,
+      "nazov": "Unikátny drevený betlehem v Rajeckej Lesnej",
+      "popis": "",
+      "cover": "assets/images/migrated/03-slovensky-betlehem.jpg",
+      "audio": [
+        "assets/audio/migrated/03-unikatny-dreveny-betlehem-v-rajeckej-lesnej.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/03-slovensky-betlehem.jpg"
+      ],
+      "gps": null,
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2615.247400937453!2d18.632648515620854!3d49.04391937930607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8fcc4cbd4e4d10b5!2zNDnCsDAyJzM4LjEiTiAxOMKwMzgnMDUuNCJF!5e0!3m2!1ssk!2ssk!4v1673721119689!5m2!1ssk!2ssk",
+      "text": "<p>Toto monumentálne rezbárske dielo o rozmeroch 8,5 m x 2,5 m x 3 m nájdete v Dome Božieho narodenia. Autorom je majster Jozef Pekara, ktorý tvoril dielo dlhých 15 rokov, a znázorňuje nielen Kristovo narodenie, ale takmer 300 figúrok predstavuje dejiny slovenského národa a obrazy zo života slovenského ľudu.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/unikatny-dreveny-betlehem-v-rajeckej-lesnej/",
+        "en": "https://www.qrlink.sk/new/en/unikatny-dreveny-betlehem-v-rajeckej-lesnej/",
+        "de": "https://www.qrlink.sk/new/de/unikatny-dreveny-betlehem-v-rajeckej-lesnej/",
+        "ru": "https://www.qrlink.sk/new/ru/unikatny-dreveny-betlehem-v-rajeckej-lesnej/",
+        "pl": "https://www.qrlink.sk/new/pl/unikatny-dreveny-betlehem-v-rajeckej-lesnej/",
+        "hu": "https://www.qrlink.sk/new/hu/unikatny-dreveny-betlehem-v-rajeckej-lesnej/"
+      }
+    },
+    {
+      "id": "gejzir-v-rajeckej-lesnej",
+      "miesto": "euroregion-beskydy",
+      "poradie": 21,
+      "nazov": "Gejzír v Rajeckej Lesnej",
+      "popis": "",
+      "cover": "assets/images/migrated/04-gejzir-v-rajeckej-lesnej.jpg",
+      "audio": [
+        "assets/audio/migrated/04-gejzir-v-rajeckej-lesnej.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/04-gejzir-v-rajeckej-lesnej.jpg"
+      ],
+      "gps": null,
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2616.495899583545!2d18.68767321561994!3d49.02017467930354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbc88f8aa4300dc94!2zNDnCsDAxJzEyLjYiTiAxOMKwNDEnMjMuNSJF!5e0!3m2!1ssk!2ssk!4v1673721236255!5m2!1ssk!2ssk",
+      "text": "<p>je lákadlom pre mnohých turistov. Je vysoký približne 10 m a najzaujímavejší je v zimnom období, kedy vytvára obrovský ľadový kužeľ.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/gejzir-v-rajeckej-lesnej/",
+        "en": "https://www.qrlink.sk/new/en/gejzir-v-rajeckej-lesnej/",
+        "de": "https://www.qrlink.sk/new/de/gejzir-v-rajeckej-lesnej/",
+        "ru": "https://www.qrlink.sk/new/ru/gejzir-v-rajeckej-lesnej/",
+        "pl": "https://www.qrlink.sk/new/pl/gejzir-v-rajeckej-lesnej/",
+        "hu": "https://www.qrlink.sk/new/hu/gejzir-v-rajeckej-lesnej/"
+      }
     },
     {
       "id": "mestsky-urad-frydlant-nad-ostravici",

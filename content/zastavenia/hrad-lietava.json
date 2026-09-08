@@ -1,0 +1,32 @@
+{
+  "id": "hrad-lietava",
+  "miesto": "euroregion-beskydy",
+  "poradie": 11,
+  "nazov": "Hrad Lietava",
+  "popis": "",
+  "cover": "assets/images/migrated/06-hrad-lietava.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/06-hrad-lietava.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/06-hrad-lietava.jpg"
+    }
+  ],
+  "gps": null,
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2609.098409789481!2d18.68284661562514!3d49.160740279318254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x753960f16cb85276!2zNDnCsDA5JzM4LjciTiAxOMKwNDEnMDYuMSJF!5e0!3m2!1ssk!2ssk!4v1669999921336!5m2!1ssk!2ssk",
+  "text": "Je postavený na vrchu Cibulník – 635 m n. m. so strmými svahmi z viacerých strán. Vďaka svojej polohe bol v minulosti takmer nedobytný a radí sa na 2. miesto na Slovensku, hneď za Spišským hradom. Návštevníkom ponúka nádherné výhľady na Súľovské skaly, masív Skaliek, Kysuckú vrchovinu, Malú Fatru či Javorníky. Prístup je možný buď z obce Lietava, alebo Lietavská Svinná.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Euroregión Beskydy",
+  "miestoNazov": "Euroregión Beskydy",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/hrad-lietava/",
+    "en": "https://www.qrlink.sk/new/en/hrad-lietava/",
+    "de": "https://www.qrlink.sk/new/de/hrad-lietava/",
+    "ru": "https://www.qrlink.sk/new/ru/hrad-lietava/",
+    "pl": "https://www.qrlink.sk/new/pl/hrad-lietava/",
+    "hu": "https://www.qrlink.sk/new/hu/hrad-lietava/"
+  }
+}
