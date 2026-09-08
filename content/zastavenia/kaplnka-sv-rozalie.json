@@ -1,0 +1,35 @@
+{
+  "id": "kaplnka-sv-rozalie",
+  "miesto": "bratislava-ivanka",
+  "poradie": 7,
+  "nazov": "Kaplnka sv. Rozálie",
+  "popis": "",
+  "cover": "assets/images/migrated/5_kaplnka-sv-rozalie_11.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/06-kaplnka-sv-rozalie.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/5_kaplnka-sv-rozalie_11.jpg"
+    }
+  ],
+  "gps": {
+    "lat": 48.18895029245457,
+    "lng": 17.255950725997927
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.917019787492!2d17.253762015943547!3d48.18895027922756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDExJzIwLjIiTiAxN8KwMTUnMjEuNCJF!5e0!3m2!1ssk!2ssk!4v1629902986570!5m2!1ssk!2ssk",
+  "text": "Kaplnka sv. Rozálie je rotunda s novoklasicistickým priečelím, kupolovitou strechou a malou vežičkou, v ktorej je umiestnený zvon. Vybavenie kaplnky tvorí klasicistický oltár so sadou svietnikov a dvoma relikviármi trojuholníkového tvaru, v jednom z nich sa nachádza čierna (morová) ruka Dal ju postaviť Anton III. Grasalkovič v roku 1832 s pomocou obyvateľov obcí Ivanka a Farná, ktorí takto prejavili svoju vďaku sv. Rozálii – ochrankyni postihnutých morom, za ukončenie epidémie infekčnej žltačky, ktorá sa v tomto období šírila v celej Bratislavskej župe a vyžiadala si množstvo životov. Epidémia ustala, posledný postihnutý zomrel práve na sviatok sv. Rozálie – 4. septembra. Kaplnka sa dnes nachádza v strede obce. Pôvodne toto miesto tvorilo západný okraj intravilánu obce, v tesnej blízkosti katastra obce Farná. Od prvej polovice 19. storočia sa tu rozširovala zástavba v centre s kaplnkou, okolo ktorej bola vysádzaná stromová zeleň postupne vytvárajúca park. V roku 2009 bola Kaplnka sv. Rozálie spolu s hodnotnými rokokovými relikviármi a rokokovým strieborným večným svetlom a oltárnym obrazom svätice, s ojedinele sa vyskytujúcou vedutou miestnej dediny, vyhlásená za národnú kultúrnu pamiatku.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Ivanka pri Dunaji",
+  "miestoNazov": "Ivanka pri Dunaji",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/kaplnka-sv-rozalie/",
+    "en": "https://www.qrlink.sk/new/en/kaplnka-sv-rozalie/",
+    "de": "https://www.qrlink.sk/new/de/kaplnka-sv-rozalie/",
+    "ru": "https://www.qrlink.sk/new/ru/kaplnka-sv-rozalie/",
+    "pl": "https://www.qrlink.sk/new/pl/kaplnka-sv-rozalie/",
+    "hu": "https://www.qrlink.sk/new/hu/kaplnka-sv-rozalie/"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "pomnik-padlym-v-i-a-ii-svetovej-vojne",
+  "miesto": "bratislava-ivanka",
+  "poradie": 5,
+  "nazov": "Pomník padlým v I. a II. svetovej vojne",
+  "popis": "",
+  "cover": "assets/images/migrated/8_-pamatnik-padlym-hrdinom_.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/04-pomnik-padlym-i-ii-sv-vojny.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/8_-pamatnik-padlym-hrdinom_.jpg"
+    }
+  ],
+  "gps": {
+    "lat": 48.19030033923483,
+    "lng": 17.25920692775595
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.8469505166436!2d17.25701821594358!3d48.19030027922778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDExJzI1LjEiTiAxN8KwMTUnMzMuMSJF!5e0!3m2!1ssk!2ssk!4v1629902841881!5m2!1ssk!2ssk",
+  "text": "Pomník vytvoril na objednávku obce ako prejav úcty a vďaky spoluobčanom akademický sochár Vojtech Ihriský, ktorý na ňom začal pracovať v polovici tridsiatych rokov 20. storočia. Definitívnu podobu nadobudol až po II. svetovej vojne. Je umiestnený v centrálnom priestore na Námestí padlých hrdinov. Pamätník s kamenným reliéfom znázorňuje tri stojace postavy v životnej veľkosti – vojaka v uniforme s helmou a puškou, ženu v dedinskom šate a malého chlapca. Po bokoch reliéfu sú platne s menami občanov obce, ktorí položili životy v I. a II. svetovej vojne. Horizontálnu časť náhrobku tvorí dvojstupňový kamenný obrubník v tvare elipsy. V jej strede pod reliéfom sa nachádza kamenná náhrobná doska s celoplošne vystupujúcim latinským krížom. Pamätník ako dielo reprezentujúce oblasť monumentálnej pamätníkovej tvorby na Slovensku bol vyhlásený za národnú kultúrnu pamiatku.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Ivanka pri Dunaji",
+  "miestoNazov": "Ivanka pri Dunaji",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/pomnik-padlym-v-i-a-ii-svetovej-vojne/",
+    "en": "https://www.qrlink.sk/new/en/pomnik-padlym-v-i-a-ii-svetovej-vojne/",
+    "de": "https://www.qrlink.sk/new/de/pomnik-padlym-v-i-a-ii-svetovej-vojne/",
+    "ru": "https://www.qrlink.sk/new/ru/pomnik-padlym-v-i-a-ii-svetovej-vojne/",
+    "pl": "https://www.qrlink.sk/new/pl/pomnik-padlym-v-i-a-ii-svetovej-vojne/",
+    "hu": "https://www.qrlink.sk/new/hu/pomnik-padlym-v-i-a-ii-svetovej-vojne/"
+  }
+}

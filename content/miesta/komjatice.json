@@ -1,0 +1,17 @@
+{
+  "poradie": 35,
+  "id": "komjatice",
+  "nazov": "Komjatice",
+  "primarna": "pamiatky",
+  "kategorie": [
+    "pamiatky"
+  ],
+  "lon": 18.08,
+  "lat": 48.2,
+  "mapX": 155,
+  "mapY": 349,
+  "cover": "",
+  "popis": "Obec s kaštieľom, ktorý bol kedysi honosnou dominantou.",
+  "hlavnaKategoria": "Pamiatky",
+  "korenoveMiesto": "Komjatice"
+}

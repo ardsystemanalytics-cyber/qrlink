@@ -1,0 +1,35 @@
+{
+  "id": "mohyla-m-r-stefanika",
+  "miesto": "bratislava-ivanka",
+  "poradie": 4,
+  "nazov": "Mohyla M. R. Štefánika",
+  "popis": "",
+  "cover": "assets/images/migrated/3_mohyla1.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/03-mohila-m-r-stefanika.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/3_mohyla1.jpg"
+    }
+  ],
+  "gps": {
+    "lat": 48.172126390056704,
+    "lng": 17.230581023190418
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2660.790109538474!2d17.228392315943044!3d48.17212637922619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDEwJzE5LjciTiAxN8KwMTMnNTAuMSJF!5e0!3m2!1ssk!2ssk!4v1629902747434!5m2!1ssk!2ssk",
+  "text": "Areál pamätníka sa nachádza mimo katastrálneho územia obce, napriek tomu je s Ivankou pri Dunaji bezprostredne zviazaný. Od jeho vybudovania až po súčasnosť zabezpečuje obec jeho správu a údržbu. Pamätník sa nachádza v priestore dopadu lietadla, v ktorom v roku 1919 zahynul M. R. Štefánik spolu s talianskou posádkou. Je dielom významného slovenského architekta Dušana Jurkoviča. Slávnostné odhalenie pamätníka sa uskutočnilo v roku 1923, vybudovanie do súčasnej podoby bolo realizované postupne až do roku 1935.\n\nPamätník je celkovo tvorený nástupnou cestou s lipovou alejou, priekopou a násypom, ktoré vymedzujú vnútornú obdĺžnikovú plochu. Tá je predelená cestou, lemovanou travertínovými stĺpikmi s kovovými reťazami. V strede plochy sa nachádza hlinená pyramída s kamenným obložením, pred ktorou je žulová stéla s nápisom. Pendantom k ním na druhej strane cesty je dvakrát zalomená kamenná lavica obklopená tismi. Na vrchole násypov, ako aj v okolí pamätníka sa nachádzajú lipy, niektoré ešte z čias jeho vzniku.\n\nMohyla M. R. Štefánika je významným dielom monumentálnej memoriálnej tvorby na Slovensku a súčasne ako architektonicko-krajinné dielo s vysokou mierou autenticity a významnou historickou pamiatkou je vyhlásená za národnú kultúrnu pamiatku.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Ivanka pri Dunaji",
+  "miestoNazov": "Ivanka pri Dunaji",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/mohyla-m-r-stefanika/",
+    "en": "https://www.qrlink.sk/new/en/mohyla-m-r-stefanika/",
+    "de": "https://www.qrlink.sk/new/de/mohyla-m-r-stefanika/",
+    "ru": "https://www.qrlink.sk/new/ru/mohyla-m-r-stefanika/",
+    "pl": "https://www.qrlink.sk/new/pl/mohyla-m-r-stefanika/",
+    "hu": "https://www.qrlink.sk/new/hu/mohyla-m-r-stefanika/"
+  }
+}

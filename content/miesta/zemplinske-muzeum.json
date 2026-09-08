@@ -1,0 +1,17 @@
+{
+  "poradie": 36,
+  "id": "zemplinske-muzeum",
+  "nazov": "Zemplínske múzeum",
+  "primarna": "pamiatky",
+  "kategorie": [
+    "pamiatky"
+  ],
+  "lon": 21.917,
+  "lat": 48.755,
+  "mapX": 793,
+  "mapY": 176,
+  "cover": "",
+  "popis": "Múzeum v Michalovciach s archeologickými nálezmi regiónu.",
+  "hlavnaKategoria": "Pamiatky",
+  "korenoveMiesto": "Zemplínske múzeum"
+}

@@ -23,7 +23,9 @@
     "nch-zivcakova": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
     "gabcikovo": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
     "zvonica-hrusove": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80",
-    "zs-a-ms-banova": "assets/images/migrated/zs-banova-logo.jpg"
+    "zs-a-ms-banova": "assets/images/migrated/zs-banova-logo.jpg",
+    "komjatice": "assets/images/migrated/16.jpg",
+    "zemplinske-muzeum": "assets/images/migrated/rotunda.jpg"
   },
   "KAT_ICONS": {
     "mesta": "<rect x=\"3\" y=\"10\" width=\"18\" height=\"11\" rx=\"1\"/><path d=\"M7 10V7a5 5 0 0 1 10 0v3\"/><line x1=\"12\" y1=\"14\" x2=\"12\" y2=\"17\"/><rect x=\"9\" y=\"14\" width=\"6\" height=\"7\" rx=\"1\"/>",

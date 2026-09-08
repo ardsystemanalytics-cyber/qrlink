@@ -1,0 +1,35 @@
+{
+  "id": "kostol-sv-jana-krstitela",
+  "miesto": "bratislava-ivanka",
+  "poradie": 3,
+  "nazov": "Kostol sv. Jána Krstiteľa",
+  "popis": "",
+  "cover": "assets/images/migrated/6_kostol-sv-jana-krstitela.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/02-kostol-sv-jana-krstitela.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/6_kostol-sv-jana-krstitela.jpg"
+    }
+  ],
+  "gps": {
+    "lat": 48.189869401009574,
+    "lng": 17.258423722725052
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.869315750288!2d17.256235015943503!3d48.18986937922755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDExJzIzLjUiTiAxN8KwMTUnMzAuMyJF!5e0!3m2!1ssk!2ssk!4v1629902642731!5m2!1ssk!2ssk",
+  "text": "Dominantnou a jednou z najstarších stavieb v obci je kostol sv. Jána Krstiteľa, ktorý ako stredoveká stavba vznikol pravdepodobne už v 12. storočí. Na jeho mieste začal stavať v roku 1770 Anton I. Grasalkovič nový kostol, ktorý v roku 1772 dokončil jeho syn Anton II.\n\nZa svoj terajší výzor kostol vďačí kniežaťu Michalovi Obrenovičovi, ktorý v 2. polovici 19. storočia po veľkom požiari v obci dal na kostole nadstaviť vežu a upravil ho do súčasnej barokovo-klasicistickej podoby. Priečeliu kostola dominuje dvojetážová veža s hodinami a vysokou ihlanovou strechou ukončenou krížom. Vo vnútri kostola sú hlavné priestory lode a svätyne oddelené triumfálnym oblúkom. V severnej časti lode je na stĺpoch umiestnená organová empora, ktorá bola v roku 1948 rozšírená do jej priestoru. Na klenbách lode a svätyne sa nachádzajú pôvodné iluzívne barokové maľby s výjavom Nanebovzatia P. Márie a Nanebovstúpenia Pána, ktoré v 20. storočí boli vo figurálnych kompozíciách silne premaľované. Pod svätyňou sa nachádza krypta, v ktorej sú uložení niektorí z vlastníkov ivanského panstva.\n\nPred kostolom stoja voľne stojace barokovo-klasicistické sochy sv. Donáta – mučeníka a sv. Floriána – patróna požiarnikov. Pochádzajú pravdepodobne z obdobia, keď sa staval terajší kostol. Pôvodne stáli na inom mieste, ku kostolu boli prenesené v neskoršom období. Kostol sv. Jána Krstiteľa je vyhlásený za národnú kultúrnu pamiatku.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Ivanka pri Dunaji",
+  "miestoNazov": "Ivanka pri Dunaji",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/kostol-sv-jana-krstitela/",
+    "en": "https://www.qrlink.sk/new/en/kostol-sv-jana-krstitela/",
+    "de": "https://www.qrlink.sk/new/de/kostol-sv-jana-krstitela/",
+    "ru": "https://www.qrlink.sk/new/ru/kostol-sv-jana-krstitela/",
+    "pl": "https://www.qrlink.sk/new/pl/kostol-sv-jana-krstitela/",
+    "hu": "https://www.qrlink.sk/new/hu/kostol-sv-jana-krstitela/"
+  }
+}

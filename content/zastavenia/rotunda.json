@@ -1,0 +1,34 @@
+{
+  "id": "rotunda",
+  "miesto": "zemplinske-muzeum",
+  "poradie": 1,
+  "nazov": "Rotunda",
+  "popis": "",
+  "cover": "assets/images/migrated/rotunda.jpg",
+  "audio": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/rotunda.jpg"
+    },
+    {
+      "url": "assets/images/migrated/2026-08-03_13h20_33.jpg"
+    }
+  ],
+  "gps": {
+    "lat": 48.75793395666114,
+    "lng": 21.924997033374385
+  },
+  "mapEmbed": "https://www.google.com/maps?q=48.75793395666114,21.924997033374385&z=18&output=embed",
+  "text": "Rotunda bola murovaná sakrálna stavba kru­hového pôdorysu s apsidou. V areáli múzea sú dnes viditeľné len jej základy, ktoré boli obja­vené v druhej polovici 20. storočia zakladate­ľom a prvým riaditeľom Zemplínskeho múzea v Michalovciach Jaroslavom Vizdalom. Táto pamiatka dnes reprezentuje najvýchodnejšiu stavbu tohto typu na Slovensku. \n\n \n\nObdobie vzniku michalovskej rotundy nepozná­me. Chýbajúce písomné pramene o jej vzniku a ani jej doterajšie výskumy nepriniesli posun pri objasnení jej datovania. Tieto okolnosti nám nedovoľujú datovať jej výstavbu skôr než do 13. storočia. \n\n \n\nPôvodne rotunda zrejme slúžila ako spoločný farský kostol pre obyvateľov z okolitých de­dín. Vďaka archeologickým výskumom bolo do dnešných dní v jej okolí preskúmaných viac ako 120 hrobov, ktoré obsahovali najmä osob­né predmety zosnulých. V súčasnosti sú nále­zy z okolia rotundy vystavené v archeologickej expozícii Zemplínskeho múzea, kde ich môžu návštevníci vidieť. Je tam umiestnená aj ka­menná platňa s vyrytým nápisom, ktorá sa na­šla v interiéri objektu. Dodnes sa však nepo­darilo spoľahlivo rozlúštiť text, ktorý sa na nej nachádza. Nezodpovedaná ostáva aj otáz­ka, či ide o podstavec oltárneho stola, prí­padne náhrobný kameň a vôbec v akom vzťahu k rotunde bola táto platňa.\n\nProjekt obnovy základov rotundy bol realizovaný s finančnou podporou \n\nKošického samosprávneho kraja v rámci výzvy “Tradície inšpirujú inovácie.”\n\n![](https://www.qrlink.sk/new/wp-content/uploads/2026/08/2026-08-03_13h20_33.jpg)",
+  "hlavnaKategoria": "Pamiatky",
+  "projekt": "Zemplínske múzeum",
+  "miestoNazov": "Zemplínske múzeum",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/rotunda/",
+    "en": "https://www.qrlink.sk/new/en/rotunda/",
+    "de": "https://www.qrlink.sk/new/de/rotunda/",
+    "ru": "https://www.qrlink.sk/new/ru/rotunda/",
+    "pl": "https://www.qrlink.sk/new/pl/rotunda/",
+    "hu": "https://www.qrlink.sk/new/hu/rotunda/"
+  }
+}

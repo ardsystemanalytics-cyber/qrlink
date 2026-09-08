@@ -1,0 +1,35 @@
+{
+  "id": "kastiel-a-park-v-ivanke-pri-dunaji",
+  "miesto": "bratislava-ivanka",
+  "poradie": 2,
+  "nazov": "Kaštieľ a park v Ivanke pri Dunaji",
+  "popis": "",
+  "cover": "assets/images/migrated/2_kastiel.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/01-kastiel-a-park-v-ivanke-pri-dunaji.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/2_kastiel.jpg"
+    }
+  ],
+  "gps": {
+    "lat": 48.19058822539862,
+    "lng": 17.25870535465822
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.83200740482!2d17.25651671594357!3d48.19058817922764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDExJzI2LjEiTiAxN8KwMTUnMzEuMyJF!5e0!3m2!1ssk!2ssk!4v1629902356024!5m2!1ssk!2ssk",
+  "text": "Centru obce dominuje historicky najvýznamnejšia svetská stavba – ivanský kaštieľ, ktorého súčasná podoba nezodpovedá jeho pôvodnému výzoru z čias vzniku.\n\nKaštieľ začal stavať predseda Uhorskej komory Anton I. Grasalkovič po roku 1763. V tomto čase dokončieval aj svoj bratislavský palác, možno teda predpokladať, že aj projektantom ivanského vidieckeho sídla bol staviteľ Mayerhoffer.\n\nRodina Grasalkovičovcov kaštieľ vlastnila až do roku 1841, keď jeho mužská vetva Antonom III. vymrela a ich ivanský majetok bol vydražený.\n\nKaštieľ a majetok kúpil [Michal Obrenovič](https://sk.wikipedia.org/w/index.php?title=Michal_Obrenovi%C4%8D&action=edit&redlink=1), [srbské](https://sk.wikipedia.org/wiki/Srbsko) knieža a istý čas srbský panovník, ktorý v rokoch [1842](https://sk.wikipedia.org/wiki/1842) – [1858](https://sk.wikipedia.org/wiki/1858) žil v exile v Rakúsku. V Ivanke si zriadil vidiecke sídlo. Obrenovič sa v roku [1853](https://sk.wikipedia.org/wiki/1853)  oženil s uhorskou šľachtičnou grófkou Júliou Hunyadyovou. V roku [1855](https://sk.wikipedia.org/wiki/1855) v kaštieli Obrenoviča tajne navštívil [Ľudovít Štúr](https://sk.wikipedia.org/wiki/%C4%BDudov%C3%ADt_%C5%A0t%C3%BAr), ktorý žil pod policajným dozorom v Modre. Túto udalosť pripomína aj pamätná tabuľa. Keď v roku [1856](https://sk.wikipedia.org/wiki/1856) postihol Ivanku požiar, dal kaštieľ upraviť. Odstránil juhozápadnú časť existujúcej budovy a na jej mieste dal vybudovať vežu, ktorá slúžila ako vodojem.\n\nZačiatkom 20. storočia noví vlastníci Hunyadyovci dali kaštieľ neogoticko-secesne upraviť. Dnes predstavuje poschodovú budovu s architektonickým riešením vychádzajúcim zo vzorov stredovekej architektúry, z kombinácie románskych a gotických prvkov na fasádach. Reprezentačný kaštieľ bol pôvodne obklopený rozsiahlym francúzskym parkom.\n\nV roku 1943 sa do ivanského kaštieľa prisťahovali jezuiti, ktorí ho odkúpili od grófa Hunyadyho. Zriadili tu internát pre mládež študujúcu na ich gymnáziu v Bratislave. V roku 1948 bol komunistami majetok jezuitom vyvlastnený, prešiel do rúk Povereníctva poľnohospodárstva. \n\nPo roku 1989 sa reštitúciou opäť vrátil do správy Spoločnosti Ježišovej – jezuitov. Budova kaštieľa bola zrekonštruovaná, v súčasnosti v nej sídli Kolégium Antona Neuwirtha. Ide o študentské kolégium založené podľa vzoru tradičných oxfordských kolégií. Poskytuje dvojročný internátny program pre študentov vysokých škôl so zameraním na štúdium filozofie, vzťahu kresťanstva a kultúry a osobnostný rozvoj.\n\nAko pamiatka s vysokou architektonicko-urbanistickou a historickou hodnotou bol kaštieľ s parkom vyhlásený za národnú kultúrnu pamiatku.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Ivanka pri Dunaji",
+  "miestoNazov": "Ivanka pri Dunaji",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/kastiel-a-park-v-ivanke-pri-dunaji/",
+    "en": "https://www.qrlink.sk/new/en/kastiel-a-park-v-ivanke-pri-dunaji/",
+    "de": "https://www.qrlink.sk/new/de/kastiel-a-park-v-ivanke-pri-dunaji/",
+    "ru": "https://www.qrlink.sk/new/ru/kastiel-a-park-v-ivanke-pri-dunaji/",
+    "pl": "https://www.qrlink.sk/new/pl/kastiel-a-park-v-ivanke-pri-dunaji/",
+    "hu": "https://www.qrlink.sk/new/hu/kastiel-a-park-v-ivanke-pri-dunaji/"
+  }
+}

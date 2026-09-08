@@ -33,7 +33,9 @@ const PLACE_PHOTOS = {
   "nch-zivcakova": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
   "gabcikovo": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
   "zvonica-hrusove": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80",
-  "zs-a-ms-banova": "assets/images/migrated/zs-banova-logo.jpg"
+  "zs-a-ms-banova": "assets/images/migrated/zs-banova-logo.jpg",
+  "komjatice": "assets/images/migrated/16.jpg",
+  "zemplinske-muzeum": "assets/images/migrated/rotunda.jpg"
 };
 
 // SVG ikonky kategórií (systémové dáta, spravuje sa mimo CMS)
@@ -263,12 +265,6 @@ const DB = {
       "popis": ""
     },
     {
-      "id": "ivanka-uroven-1",
-      "rodic": "bratislava-ivanka",
-      "nazov": "Úroveň 1 – testovacia podkategória",
-      "popis": "Testovacia podkategória bez zastavení, 1. úroveň vnorenia."
-    },
-    {
       "id": "turzovka-sakralne-pamiatky",
       "rodic": "turzovka",
       "nazov": "Sakrálne pamiatky",
@@ -290,29 +286,11 @@ const DB = {
       "popis": ""
     },
     {
-      "id": "ivanka-uroven-2",
-      "rodic": "ivanka-uroven-1",
-      "nazov": "Úroveň 2 – testovacia podkategória",
-      "popis": "Testovacia podkategória bez zastavení, 2. úroveň vnorenia."
-    },
-    {
-      "id": "ivanka-uroven-3",
-      "rodic": "ivanka-uroven-2",
-      "nazov": "Úroveň 3 – testovacia podkategória",
-      "popis": "Testovacia podkategória bez zastavení, 3. úroveň vnorenia."
-    },
-    {
       "id": "pexeso",
       "rodic": "zs-a-ms-banova",
       "nazov": "Pexeso",
       "foto": "assets/images/migrated/zs-banova-pexeso-icon.jpg",
       "popis": ""
-    },
-    {
-      "id": "ivanka-uroven-4",
-      "rodic": "ivanka-uroven-3",
-      "nazov": "Úroveň 4 – so zastaveniami",
-      "popis": "Testovacia podkategória, ktorá už obsahuje priamo zastavenia (posledná/listová úroveň)."
     },
     {
       "id": "vtacia-budka",
@@ -837,6 +815,34 @@ const DB = {
       "mapY": 128,
       "cover": "",
       "popis": "Areál základnej a materskej školy v Žiline-Bánovej s náučnými zastaveniami pre environmentálnu výchovu."
+    },
+    {
+      "id": "komjatice",
+      "nazov": "Komjatice",
+      "primarna": "pamiatky",
+      "kategorie": [
+        "pamiatky"
+      ],
+      "lon": 18.08,
+      "lat": 48.2,
+      "mapX": 155,
+      "mapY": 349,
+      "cover": "",
+      "popis": "Obec s kaštieľom, ktorý bol kedysi honosnou dominantou."
+    },
+    {
+      "id": "zemplinske-muzeum",
+      "nazov": "Zemplínske múzeum",
+      "primarna": "pamiatky",
+      "kategorie": [
+        "pamiatky"
+      ],
+      "lon": 21.917,
+      "lat": 48.755,
+      "mapX": 793,
+      "mapY": 176,
+      "cover": "",
+      "popis": "Múzeum v Michalovciach s archeologickými nálezmi regiónu."
     }
   ],
   "zastavenia": [
@@ -858,7 +864,7 @@ const DB = {
         "lng": 20.507952
       },
       "mapEmbed": "https://www.google.com/maps?q=48.705270,20.507952&z=15&output=embed",
-      "text": "<p>Kultúrny dom bol postavený v 80. rokoch. Vybavený je sálou s javiskom, klubom dôchodcov, knižnicou a zasadačkou. V objekte kultúrneho domu sa uskutočňujú aj verejné kultúrne podujatia a prezentácie súkromných spoločností.</p>",
+      "text": "<p>Kultúrny dom bol postavený v 80. rokoch a odohráva sa v ňom pestrý kultúrny život obce. V budove sa nachádza veľká sálou s javiskom a výsuvným hľadiskom, dve klubové miestnosti, knižnica a výstavná miestnosť. V kultúrnom dome našlo svoje sídlo obnovené kino Úsvit, ktoré pravidelne premieta dvakrát týždenne. Je domovskou scénou ochotníckeho M-divadla. V klubových priestoroch sa pravidelne stretávajú seniori i Mama klub, ktorý dáva priestor pre našich najmladších a ich rodičov. Pod svojou strechou dáva priestor i výstavám, plesom, súťažiam a iným spoločenským podujatiam v obci.</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/betliar-info-pointy-qr1/",
         "en": "https://www.qrlink.sk/new/en/betliar-info-pointy-qr1/",
@@ -1342,6 +1348,27 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr18/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr18/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr18/"
+      }
+    },
+    {
+      "id": "zvonicka",
+      "miesto": "betliar-info-pointy",
+      "poradie": 19,
+      "nazov": "Zvonička",
+      "popis": "",
+      "cover": "",
+      "audio": [],
+      "galeria": [],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>V lesoch nad obcou Betliar stáli v 18. storočí dve pútnické sakrálne stavby – Kaplnka sv. Anny a Kaplnka Navštívenia Panny Márie, ktoré dnes už neexistujú. Nachádzali sa v tesnom susedstve pri cestách vedúcich na Spiš. Obe kaplnky vznikli pravdepodobne začiatkom 18. storočia z iniciatívy baróna Pavla Andrášiho a jeho manželky Kristíny Balašovej. Tieto sakrálne stavby dlhé roky slúžili ako pútnické miesta pre obyvateľov Betliara a širšieho okolia. Každoročná tradícia púti vo sviatky patrónov kaplniek bola úzko spätá s participáciou členov Spoločnosti Ježišovej z neďalekej Rožňavy. Kaplnka Navštívenia Panny Márie predstavovala rozmerovo väčší a možno konštatovať, že aj reprezentatívnejší sakrálny objekt, o čom svedčia aj neskôr pre ňu pridelené odpustkové výsady. Úpadok kaplniek nastal po zrušení jezuitskej rehole v roku 1773. Kaplnka sv. Anny bola už v roku 1782 označená za opustenú, zatiaľ čo Kaplnka Navštívenia Panny Márie si ešte isté obdobie zachovala úlohu pútnického miesta. Konštrukčný zánik oboch objektov nastal pravdepodobne koncom 18. alebo začiatkom 19. storočia. Príčiny tohto vývoja je potrebné hľadať v nedostatočných finančných prostriedkoch a neprejavenej vôli o ich zachovanie, či už zo strany farnosti alebo predstaviteľov šľachtickej rodiny Andrášiovcov. Zvyšky muriva stavieb sme v predpokladanom priestore ich existencie nenašli, čo môže evokovať, že materiál z nich bol rozobratý a odvezený a zánik tak bol koordinovaný a náhly. Zaniknuté kaplnky nad obcou Betliar dnes predstavujú zabudnutú, ale dôležitú kapitolu náboženských dejín obce ale aj širšieho okolia, ktorá dokresľuje význam pútnickej tradície na Gemeri.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/zvonicka/",
+        "en": "https://www.qrlink.sk/new/en/zvonicka/",
+        "de": "https://www.qrlink.sk/new/de/zvonicka/",
+        "ru": "https://www.qrlink.sk/new/ru/zvonicka/",
+        "pl": "https://www.qrlink.sk/new/pl/zvonicka/",
+        "hu": "https://www.qrlink.sk/new/hu/zvonicka/"
       }
     },
     {
@@ -2472,6 +2499,227 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/bobor/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/bobor/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/bobor/"
+      }
+    },
+    {
+      "id": "obec-ivanka-pri-dunaji",
+      "miesto": "bratislava-ivanka",
+      "poradie": 1,
+      "nazov": "Obec Ivanka pri Dunaji",
+      "popis": "",
+      "cover": "assets/images/migrated/logo-0021.jpg",
+      "audio": [
+        "assets/audio/migrated/ivanka-sk-1.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/logo-0021.jpg"
+      ],
+      "gps": null,
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21279.21520777018!2d17.242924121042183!3d48.18924157054997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c851bd13a4ddd%3A0xb49f9fed3bf4cebd!2s900%2028%20Ivanka%20pri%20Dunaji!5e0!3m2!1ssk!2ssk!4v1638974717753!5m2!1ssk!2ssk",
+      "text": "<p>Ivanka pri Dunaji je obec situovaná v okrese Senec v juhozápadnej časti Slovenska, za hranicou hlavného mesta Bratislavy. Zvyšujúci sa počet obyvateľov je okrem prirodzeného rastu ovplyvňovaný najmä prisťahovalectvom, ktoré podmieňuje výhodná poloha obce. Rozloha Ivanky pri Dunaji je 1425 ha. Najbližšou susediacou obcou je na východe Bernolákovo, na juhu Zálesie a Most pri Bratislave, na severe Chorvátsky Grob a mesto Svätý Jur. Na západe susedí Ivanka s hlavným mestom SR, s jeho mestskými časťami Vajnory a Ružinov, pričom centrum Bratislavy je od Ivanky vzdialené iba 12 km. Do katastra obce zasahuje aj časť pristávacej dráhy Letiska M. R. Štefánika. Ivanka pri Dunaji leží v rovinatej oblasti Podunajskej nížiny vo výške 133 m n. m. Najbližším pohorím, rozprestierajúcim sa približne 15 km severne od obce, sú Malé Karpaty. Obec je členom Združenia miest a obcí Slovenska a spolupracuje s okolitými samosprávami v rámci Regionálneho združenia Podunajsko.</p>\n<p>Hlavnými dopravnými ťahmi, na ktoré je obec napojená, sú západná výpadovka z Bratislavy do Senca, cesta 1. triedy č. 61, a železničná trať č. 130 z Bratislavy do Nových Zámkov. Severnú časť katastra obce pretína diaľnica D1 Bratislava – Trnava, na ktorú sú privádzače vo Vajnoroch a v Senci. Územie Ivanky pri Dunaji je tiež súčasťou diaľnice D4 ako tzv. nultého obchvatu Bratislavy. Obec je tiež obľúbeným turistickým miestom pre značené cykloturistické trasy i novovybudované mieste cyklotrasy.</p>\n<p>Z hľadiska klimatických pomerov sa obec nachádza v miernom podnebnom pásme kontinentálneho charakteru, v teplej suchej oblasti s miernejšou zimou. Dnešné tečúce vody Ivanky reprezentuje najmä Šúrsky kanál, ktorý začali budovať v roku 1941 ako umelý tok na odvodnenie a vysušenie Svätojurského šúru. Kanál, ktorého celková dĺžka je 15,62 km, zbiera vody z potokov Malých Karpát, ale i z čističiek odpadových vôd a odvádza ich do Malého Dunaja. Ivanské lesné porasty sa radia medzi lužné, nížinné lesy a zaberajú 135 ha územia obce.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/obec-ivanka-pri-dunaji/",
+        "en": "https://www.qrlink.sk/new/en/obec-ivanka-pri-dunaji/",
+        "de": "https://www.qrlink.sk/new/de/obec-ivanka-pri-dunaji/",
+        "ru": "https://www.qrlink.sk/new/ru/obec-ivanka-pri-dunaji/",
+        "pl": "https://www.qrlink.sk/new/pl/obec-ivanka-pri-dunaji/",
+        "hu": "https://www.qrlink.sk/new/hu/obec-ivanka-pri-dunaji/"
+      }
+    },
+    {
+      "id": "kastiel-a-park-v-ivanke-pri-dunaji",
+      "miesto": "bratislava-ivanka",
+      "poradie": 2,
+      "nazov": "Kaštieľ a park v Ivanke pri Dunaji",
+      "popis": "",
+      "cover": "assets/images/migrated/2_kastiel.jpg",
+      "audio": [
+        "assets/audio/migrated/01-kastiel-a-park-v-ivanke-pri-dunaji.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/2_kastiel.jpg"
+      ],
+      "gps": {
+        "lat": 48.19058822539862,
+        "lng": 17.25870535465822
+      },
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.83200740482!2d17.25651671594357!3d48.19058817922764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDExJzI2LjEiTiAxN8KwMTUnMzEuMyJF!5e0!3m2!1ssk!2ssk!4v1629902356024!5m2!1ssk!2ssk",
+      "text": "<p>Centru obce dominuje historicky najvýznamnejšia svetská stavba – ivanský kaštieľ, ktorého súčasná podoba nezodpovedá jeho pôvodnému výzoru z čias vzniku.</p>\n<p>Kaštieľ začal stavať predseda Uhorskej komory Anton I. Grasalkovič po roku 1763. V tomto čase dokončieval aj svoj bratislavský palác, možno teda predpokladať, že aj projektantom ivanského vidieckeho sídla bol staviteľ Mayerhoffer.</p>\n<p>Rodina Grasalkovičovcov kaštieľ vlastnila až do roku 1841, keď jeho mužská vetva Antonom III. vymrela a ich ivanský majetok bol vydražený.</p>\n<p>Kaštieľ a majetok kúpil <a href=\"https://sk.wikipedia.org/w/index.php?title=Michal_Obrenovi%C4%8D&action=edit&redlink=1\">Michal Obrenovič</a>, <a href=\"https://sk.wikipedia.org/wiki/Srbsko\">srbské</a> knieža a istý čas srbský panovník, ktorý v rokoch <a href=\"https://sk.wikipedia.org/wiki/1842\">1842</a> – <a href=\"https://sk.wikipedia.org/wiki/1858\">1858</a> žil v exile v Rakúsku. V Ivanke si zriadil vidiecke sídlo. Obrenovič sa v roku <a href=\"https://sk.wikipedia.org/wiki/1853\">1853</a>  oženil s uhorskou šľachtičnou grófkou Júliou Hunyadyovou. V roku <a href=\"https://sk.wikipedia.org/wiki/1855\">1855</a> v kaštieli Obrenoviča tajne navštívil <a href=\"https://sk.wikipedia.org/wiki/%C4%BDudov%C3%ADt_%C5%A0t%C3%BAr\">Ľudovít Štúr</a>, ktorý žil pod policajným dozorom v Modre. Túto udalosť pripomína aj pamätná tabuľa. Keď v roku <a href=\"https://sk.wikipedia.org/wiki/1856\">1856</a> postihol Ivanku požiar, dal kaštieľ upraviť. Odstránil juhozápadnú časť existujúcej budovy a na jej mieste dal vybudovať vežu, ktorá slúžila ako vodojem.</p>\n<p>Začiatkom 20. storočia noví vlastníci Hunyadyovci dali kaštieľ neogoticko-secesne upraviť. Dnes predstavuje poschodovú budovu s architektonickým riešením vychádzajúcim zo vzorov stredovekej architektúry, z kombinácie románskych a gotických prvkov na fasádach. Reprezentačný kaštieľ bol pôvodne obklopený rozsiahlym francúzskym parkom.</p>\n<p>V roku 1943 sa do ivanského kaštieľa prisťahovali jezuiti, ktorí ho odkúpili od grófa Hunyadyho. Zriadili tu internát pre mládež študujúcu na ich gymnáziu v Bratislave. V roku 1948 bol komunistami majetok jezuitom vyvlastnený, prešiel do rúk Povereníctva poľnohospodárstva. </p>\n<p>Po roku 1989 sa reštitúciou opäť vrátil do správy Spoločnosti Ježišovej – jezuitov. Budova kaštieľa bola zrekonštruovaná, v súčasnosti v nej sídli Kolégium Antona Neuwirtha. Ide o študentské kolégium založené podľa vzoru tradičných oxfordských kolégií. Poskytuje dvojročný internátny program pre študentov vysokých škôl so zameraním na štúdium filozofie, vzťahu kresťanstva a kultúry a osobnostný rozvoj.</p>\n<p>Ako pamiatka s vysokou architektonicko-urbanistickou a historickou hodnotou bol kaštieľ s parkom vyhlásený za národnú kultúrnu pamiatku.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/kastiel-a-park-v-ivanke-pri-dunaji/",
+        "en": "https://www.qrlink.sk/new/en/kastiel-a-park-v-ivanke-pri-dunaji/",
+        "de": "https://www.qrlink.sk/new/de/kastiel-a-park-v-ivanke-pri-dunaji/",
+        "ru": "https://www.qrlink.sk/new/ru/kastiel-a-park-v-ivanke-pri-dunaji/",
+        "pl": "https://www.qrlink.sk/new/pl/kastiel-a-park-v-ivanke-pri-dunaji/",
+        "hu": "https://www.qrlink.sk/new/hu/kastiel-a-park-v-ivanke-pri-dunaji/"
+      }
+    },
+    {
+      "id": "kostol-sv-jana-krstitela",
+      "miesto": "bratislava-ivanka",
+      "poradie": 3,
+      "nazov": "Kostol sv. Jána Krstiteľa",
+      "popis": "",
+      "cover": "assets/images/migrated/6_kostol-sv-jana-krstitela.jpg",
+      "audio": [
+        "assets/audio/migrated/02-kostol-sv-jana-krstitela.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/6_kostol-sv-jana-krstitela.jpg"
+      ],
+      "gps": {
+        "lat": 48.189869401009574,
+        "lng": 17.258423722725052
+      },
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.869315750288!2d17.256235015943503!3d48.18986937922755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDExJzIzLjUiTiAxN8KwMTUnMzAuMyJF!5e0!3m2!1ssk!2ssk!4v1629902642731!5m2!1ssk!2ssk",
+      "text": "<p>Dominantnou a jednou z najstarších stavieb v obci je kostol sv. Jána Krstiteľa, ktorý ako stredoveká stavba vznikol pravdepodobne už v 12. storočí. Na jeho mieste začal stavať v roku 1770 Anton I. Grasalkovič nový kostol, ktorý v roku 1772 dokončil jeho syn Anton II.</p>\n<p>Za svoj terajší výzor kostol vďačí kniežaťu Michalovi Obrenovičovi, ktorý v 2. polovici 19. storočia po veľkom požiari v obci dal na kostole nadstaviť vežu a upravil ho do súčasnej barokovo-klasicistickej podoby. Priečeliu kostola dominuje dvojetážová veža s hodinami a vysokou ihlanovou strechou ukončenou krížom. Vo vnútri kostola sú hlavné priestory lode a svätyne oddelené triumfálnym oblúkom. V severnej časti lode je na stĺpoch umiestnená organová empora, ktorá bola v roku 1948 rozšírená do jej priestoru. Na klenbách lode a svätyne sa nachádzajú pôvodné iluzívne barokové maľby s výjavom Nanebovzatia P. Márie a Nanebovstúpenia Pána, ktoré v 20. storočí boli vo figurálnych kompozíciách silne premaľované. Pod svätyňou sa nachádza krypta, v ktorej sú uložení niektorí z vlastníkov ivanského panstva.</p>\n<p>Pred kostolom stoja voľne stojace barokovo-klasicistické sochy sv. Donáta – mučeníka a sv. Floriána – patróna požiarnikov. Pochádzajú pravdepodobne z obdobia, keď sa staval terajší kostol. Pôvodne stáli na inom mieste, ku kostolu boli prenesené v neskoršom období. Kostol sv. Jána Krstiteľa je vyhlásený za národnú kultúrnu pamiatku.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/kostol-sv-jana-krstitela/",
+        "en": "https://www.qrlink.sk/new/en/kostol-sv-jana-krstitela/",
+        "de": "https://www.qrlink.sk/new/de/kostol-sv-jana-krstitela/",
+        "ru": "https://www.qrlink.sk/new/ru/kostol-sv-jana-krstitela/",
+        "pl": "https://www.qrlink.sk/new/pl/kostol-sv-jana-krstitela/",
+        "hu": "https://www.qrlink.sk/new/hu/kostol-sv-jana-krstitela/"
+      }
+    },
+    {
+      "id": "mohyla-m-r-stefanika",
+      "miesto": "bratislava-ivanka",
+      "poradie": 4,
+      "nazov": "Mohyla M. R. Štefánika",
+      "popis": "",
+      "cover": "assets/images/migrated/3_mohyla1.jpg",
+      "audio": [
+        "assets/audio/migrated/03-mohila-m-r-stefanika.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/3_mohyla1.jpg"
+      ],
+      "gps": {
+        "lat": 48.172126390056704,
+        "lng": 17.230581023190418
+      },
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2660.790109538474!2d17.228392315943044!3d48.17212637922619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDEwJzE5LjciTiAxN8KwMTMnNTAuMSJF!5e0!3m2!1ssk!2ssk!4v1629902747434!5m2!1ssk!2ssk",
+      "text": "<p>Areál pamätníka sa nachádza mimo katastrálneho územia obce, napriek tomu je s Ivankou pri Dunaji bezprostredne zviazaný. Od jeho vybudovania až po súčasnosť zabezpečuje obec jeho správu a údržbu. Pamätník sa nachádza v priestore dopadu lietadla, v ktorom v roku 1919 zahynul M. R. Štefánik spolu s talianskou posádkou. Je dielom významného slovenského architekta Dušana Jurkoviča. Slávnostné odhalenie pamätníka sa uskutočnilo v roku 1923, vybudovanie do súčasnej podoby bolo realizované postupne až do roku 1935.</p>\n<p>Pamätník je celkovo tvorený nástupnou cestou s lipovou alejou, priekopou a násypom, ktoré vymedzujú vnútornú obdĺžnikovú plochu. Tá je predelená cestou, lemovanou travertínovými stĺpikmi s kovovými reťazami. V strede plochy sa nachádza hlinená pyramída s kamenným obložením, pred ktorou je žulová stéla s nápisom. Pendantom k ním na druhej strane cesty je dvakrát zalomená kamenná lavica obklopená tismi. Na vrchole násypov, ako aj v okolí pamätníka sa nachádzajú lipy, niektoré ešte z čias jeho vzniku.</p>\n<p>Mohyla M. R. Štefánika je významným dielom monumentálnej memoriálnej tvorby na Slovensku a súčasne ako architektonicko-krajinné dielo s vysokou mierou autenticity a významnou historickou pamiatkou je vyhlásená za národnú kultúrnu pamiatku.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/mohyla-m-r-stefanika/",
+        "en": "https://www.qrlink.sk/new/en/mohyla-m-r-stefanika/",
+        "de": "https://www.qrlink.sk/new/de/mohyla-m-r-stefanika/",
+        "ru": "https://www.qrlink.sk/new/ru/mohyla-m-r-stefanika/",
+        "pl": "https://www.qrlink.sk/new/pl/mohyla-m-r-stefanika/",
+        "hu": "https://www.qrlink.sk/new/hu/mohyla-m-r-stefanika/"
+      }
+    },
+    {
+      "id": "pomnik-padlym-v-i-a-ii-svetovej-vojne",
+      "miesto": "bratislava-ivanka",
+      "poradie": 5,
+      "nazov": "Pomník padlým v I. a II. svetovej vojne",
+      "popis": "",
+      "cover": "assets/images/migrated/8_-pamatnik-padlym-hrdinom_.jpg",
+      "audio": [
+        "assets/audio/migrated/04-pomnik-padlym-i-ii-sv-vojny.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/8_-pamatnik-padlym-hrdinom_.jpg"
+      ],
+      "gps": {
+        "lat": 48.19030033923483,
+        "lng": 17.25920692775595
+      },
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.8469505166436!2d17.25701821594358!3d48.19030027922778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDExJzI1LjEiTiAxN8KwMTUnMzMuMSJF!5e0!3m2!1ssk!2ssk!4v1629902841881!5m2!1ssk!2ssk",
+      "text": "<p>Pomník vytvoril na objednávku obce ako prejav úcty a vďaky spoluobčanom akademický sochár Vojtech Ihriský, ktorý na ňom začal pracovať v polovici tridsiatych rokov 20. storočia. Definitívnu podobu nadobudol až po II. svetovej vojne. Je umiestnený v centrálnom priestore na Námestí padlých hrdinov. Pamätník s kamenným reliéfom znázorňuje tri stojace postavy v životnej veľkosti – vojaka v uniforme s helmou a puškou, ženu v dedinskom šate a malého chlapca. Po bokoch reliéfu sú platne s menami občanov obce, ktorí položili životy v I. a II. svetovej vojne. Horizontálnu časť náhrobku tvorí dvojstupňový kamenný obrubník v tvare elipsy. V jej strede pod reliéfom sa nachádza kamenná náhrobná doska s celoplošne vystupujúcim latinským krížom. Pamätník ako dielo reprezentujúce oblasť monumentálnej pamätníkovej tvorby na Slovensku bol vyhlásený za národnú kultúrnu pamiatku.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/pomnik-padlym-v-i-a-ii-svetovej-vojne/",
+        "en": "https://www.qrlink.sk/new/en/pomnik-padlym-v-i-a-ii-svetovej-vojne/",
+        "de": "https://www.qrlink.sk/new/de/pomnik-padlym-v-i-a-ii-svetovej-vojne/",
+        "ru": "https://www.qrlink.sk/new/ru/pomnik-padlym-v-i-a-ii-svetovej-vojne/",
+        "pl": "https://www.qrlink.sk/new/pl/pomnik-padlym-v-i-a-ii-svetovej-vojne/",
+        "hu": "https://www.qrlink.sk/new/hu/pomnik-padlym-v-i-a-ii-svetovej-vojne/"
+      }
+    },
+    {
+      "id": "susosie-sv-jana-nepomuckeho",
+      "miesto": "bratislava-ivanka",
+      "poradie": 6,
+      "nazov": "Súsošie sv. Jána Nepomuckého",
+      "popis": "",
+      "cover": "assets/images/migrated/7_-susosie-sv-jana-nepomuckeho.jpg",
+      "audio": [
+        "assets/audio/migrated/05-susosie-sv-jana-nepomuckeho.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/7_-susosie-sv-jana-nepomuckeho.jpg"
+      ],
+      "gps": {
+        "lat": 48.18921672833922,
+        "lng": 17.25587025972556
+      },
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.9031929016596!2d17.253681615943545!3d48.18921667922759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDExJzIxLjIiTiAxN8KwMTUnMjEuMSJF!5e0!3m2!1ssk!2ssk!4v1629902915219!5m2!1ssk!2ssk",
+      "text": "<p>Monumentálne pôsobiace sochárske dielo sa skladá z architektúry tvoriacej podstavec, stĺp, a balustrádu a zo samotného súsošia. Vzniklo v poslednej tretine 18. storočia v neskorobarokovej podobe s prvkami luisézu , v štýle Ľudovíta XVI. a empíru. Súsošie stojí na podstavci v tvare oblakov s anjelskými hlavičkami, po stranách s postavičkami puttov nahých detí, z ktorých pravý je pôvodný a ľavý pendant bol vytvorený v rámci obnovy ako analógia. Dielu výrazovo dominuje socha sv. Jána Nepomuckého. Jej stvárnenie je klasické, predstavuje kňaza v obradom rúchu na ktorom má prehodený kožušinový plášť, v pravej ruke s biretom, liturgickou pokrývkou hlavy a v ľavej s krížom, ku ktorému upiera svoj pohľad. Súsošie bolo v roku 2008 reštaurované a prenesené zo záhrady na Záleskej ceste na Námestie sv. Rozálie. K vzniku súsošia sa viaže legenda, prameniaca z listiny uloženej na miestnej fare, podľa ktorej ho dali postaviť hostia Antona II. Grasalkovičova ako prejav za záchranu svojich životov. Keď sa vracali loďkou po úspešnej poľovačke cez rozvodnené rameno Malého Dunaja, táto sa s nimi prevrhla a oni sa začali topiť. V smrteľnej úzkosti sľúbili, že ak sa zachránia, dajú na mieste záchrany postaviť sochu svätému Jánovi Nepomuckému. V harmonickej jednote architektonických a výtvarných prvkov vytvorené súsošie bolo vyhlásené za národnú kultúrnu pamiatku.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/susosie-sv-jana-nepomuckeho/",
+        "en": "https://www.qrlink.sk/new/en/susosie-sv-jana-nepomuckeho/",
+        "de": "https://www.qrlink.sk/new/de/susosie-sv-jana-nepomuckeho/",
+        "ru": "https://www.qrlink.sk/new/ru/susosie-sv-jana-nepomuckeho/",
+        "pl": "https://www.qrlink.sk/new/pl/susosie-sv-jana-nepomuckeho/",
+        "hu": "https://www.qrlink.sk/new/hu/susosie-sv-jana-nepomuckeho/"
+      }
+    },
+    {
+      "id": "kaplnka-sv-rozalie",
+      "miesto": "bratislava-ivanka",
+      "poradie": 7,
+      "nazov": "Kaplnka sv. Rozálie",
+      "popis": "",
+      "cover": "assets/images/migrated/5_kaplnka-sv-rozalie_11.jpg",
+      "audio": [
+        "assets/audio/migrated/06-kaplnka-sv-rozalie.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/5_kaplnka-sv-rozalie_11.jpg"
+      ],
+      "gps": {
+        "lat": 48.18895029245457,
+        "lng": 17.255950725997927
+      },
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.917019787492!2d17.253762015943547!3d48.18895027922756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDExJzIwLjIiTiAxN8KwMTUnMjEuNCJF!5e0!3m2!1ssk!2ssk!4v1629902986570!5m2!1ssk!2ssk",
+      "text": "<p>Kaplnka sv. Rozálie je rotunda s novoklasicistickým priečelím, kupolovitou strechou a malou vežičkou, v ktorej je umiestnený zvon. Vybavenie kaplnky tvorí klasicistický oltár so sadou svietnikov a dvoma relikviármi trojuholníkového tvaru, v jednom z nich sa nachádza čierna (morová) ruka Dal ju postaviť Anton III. Grasalkovič v roku 1832 s pomocou obyvateľov obcí Ivanka a Farná, ktorí takto prejavili svoju vďaku sv. Rozálii – ochrankyni postihnutých morom, za ukončenie epidémie infekčnej žltačky, ktorá sa v tomto období šírila v celej Bratislavskej župe a vyžiadala si množstvo životov. Epidémia ustala, posledný postihnutý zomrel práve na sviatok sv. Rozálie – 4. septembra. Kaplnka sa dnes nachádza v strede obce. Pôvodne toto miesto tvorilo západný okraj intravilánu obce, v tesnej blízkosti katastra obce Farná. Od prvej polovice 19. storočia sa tu rozširovala zástavba v centre s kaplnkou, okolo ktorej bola vysádzaná stromová zeleň postupne vytvárajúca park. V roku 2009 bola Kaplnka sv. Rozálie spolu s hodnotnými rokokovými relikviármi a rokokovým strieborným večným svetlom a oltárnym obrazom svätice, s ojedinele sa vyskytujúcou vedutou miestnej dediny, vyhlásená za národnú kultúrnu pamiatku.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/kaplnka-sv-rozalie/",
+        "en": "https://www.qrlink.sk/new/en/kaplnka-sv-rozalie/",
+        "de": "https://www.qrlink.sk/new/de/kaplnka-sv-rozalie/",
+        "ru": "https://www.qrlink.sk/new/ru/kaplnka-sv-rozalie/",
+        "pl": "https://www.qrlink.sk/new/pl/kaplnka-sv-rozalie/",
+        "hu": "https://www.qrlink.sk/new/hu/kaplnka-sv-rozalie/"
+      }
+    },
+    {
+      "id": "sursky-kanal",
+      "miesto": "bratislava-ivanka",
+      "poradie": 8,
+      "nazov": "Pútač výstavby šúrskeho kanála",
+      "popis": "",
+      "cover": "assets/images/migrated/cccc_optimized.jpg",
+      "audio": [
+        "assets/audio/migrated/07-sursky-kanal-2.mp3"
+      ],
+      "galeria": [
+        "assets/images/migrated/cccc_optimized.jpg"
+      ],
+      "gps": {
+        "lat": 48.180995231122786,
+        "lng": 17.241790098501248
+      },
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2660.3298846540297!2d17.23960141594327!3d48.18099517922687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDEwJzUxLjYiTiAxN8KwMTQnMzAuNCJF!5e0!3m2!1ssk!2ssk!4v1629903058618!5m2!1ssk!2ssk",
+      "text": "<p>Šúrsky kanál v minulosti nazývaný aj ako Hlavný alebo Obtočný kanál, Moravod, Nový Sajloch alebo Židovský kanál je umelé odvodňovacie vodné dielo, v juhozápadnej časti Slovenska. V približnej dĺžke 17 km obteká okolo katastrov Pezinka, Svätého Jura, Vajnôr, Ivanky pri Dunaji a Zálesia, kde ústi do Malého Dunaja**.** Jeho koryto odvádza vody potokov stekajúcich zo svahov Malých Karpát do priestoru národnej prírodnej rezervácie Šúr. Šúr je ojedinelým prírodným úkazom so zvláštnym spôsobom vzniku zhruba pred desaťtisíc rokmi, v <a href=\"https://sk.wikipedia.org/wiki/Holoc%C3%A9n\">mladších štvrtohorách</a>, v priehlbni pozdĺž východných svahov <a href=\"https://sk.wikipedia.org/wiki/Mal%C3%A9_Karpaty\">Malých Karpát</a>. Vzniklo tu tak veľké a veľmi plytké jazero, ktoré sa napĺňalo vodou a postupne sa zanášalo štrkovo-pieskovými sedimentami. V jeho plytkej vode sa darilo rastlinám, z ktorých sa vytvárala <a href=\"https://sk.wikipedia.org/wiki/Ra%C5%A1elina\">rašelina</a>. Tak postupne vznikol Šúr, nepriechodný <a href=\"https://sk.wikipedia.org/wiki/Mo%C4%8Diar\">močiar</a> pokrytý stromami a iným rastlinstvom, v priebehu roka často zaliaty vodou, siahajúci od <a href=\"https://sk.wikipedia.org/wiki/Modra\">Modr</a>y až po  Ivanku. Močariny tvorili prirodzenú zásobáreň zveriny a vtáctva pre obyvateľov z okolia, ako aj rezervoár <a href=\"https://sk.wikipedia.org/wiki/Pitn%C3%A1_voda\">pitnej vody</a>, ale zároveň boli prekážkou pre rozširovanie poľnohospodárskych plôch a preto už v <a href=\"https://sk.wikipedia.org/wiki/Stredovek\">stredoveku</a> sa usilovali o ich čiastočné vysušovanie. V roku <a href=\"https://sk.wikipedia.org/wiki/1896\">1896</a> prekopali cez Šúr kanál, ktorý prispel k podstatnému zníženiu hladiny jeho vôd. Kanál sa však po čase zaniesol a voda stúpla na pôvodnú výšku. Už vtedy prírodovedci upozorňovali na mimoriadnu hodnotu jeho fauny i flóry. Napriek úsiliu o jeho záchranu vznikol v roku <a href=\"https://sk.wikipedia.org/wiki/1929\">1929</a> vládny projekt na úplnú likvidáciu Jurského šúra, ktorý bol však kvôli hospodárskej kríze pozastavený Riešenie problému tzv. Bahnot dostal reálny základ po vzniku Slovenskej republiky, čo popisuje aj spisovateľ František Hečko vo svojom  románe „Svätá tma“. Od roku 1938 bol vyvíjaný tlak najmä z pozície vládneho komisára mesta Svätý Jur, ktorého obyvatelia mali v Bahnotách cez 3000 ha pozemkov, ktoré chceli po meliorácii poľnohospodársky využívať. Na rozsiahle zemné práce boli nasadení príslušníci z Pracovného zboru národnej obrany, ktorý ako rozporuplná súčasť slovenskej armády z rokov 1939-1945 predstavoval nástroj riešenia židovskej a cigánskej otázky v armáde počas 2. sv. vojny. Pracovný zbor prevažne tvorili osoby slovenskej národnosti zaraďované doň zo zdravotných alebo disciplinárnych dôvodov, ale zároveň aj židia a cigáni (dobový pojem) zaraďovaní na základe ich rasy do útvarov VI. pracovného (robotného) práporu tohto zboru. Práve príslušníci tohto práporu vybudovali rozsiahly odvodňovací kanál od Pezinka až po ústie do Malého Dunaja pri Zálesí. Na práce bola využívaná tiež židovská nútená pracovná sila z koncentračných táborov a neskôr aj rómovia a politickí väzni. Prác na kanále sa tiež zúčastňovali obyvatelia okolitých obcí. Výstavba Šúrskeho kanála bola ukončená v roku 1943 a po dokončení mala pokračovať ďalšou etapou – výstavbou rekreačnej osady Háj na území Panónskeho hája, ktorá sa však v dôsledku konca vojny nenaplnila. Šúrsky kanál dodnes slúži ako významné vodné melioračné dielo a jeho prietočnosť je regulovaná v spolupráci s ochranou prírody tak, aby bola zabezpečená ochrana medzinárodne významnej mokrade národnej prírodnej rezervácie Šúr.</p>\n<p>V roku 2021 bol z iniciatívy Historickej spoločnosti Ivanky vybudovaný na pravom brehu kanála pútač na pamiatku tohto významného melioračného diela a ľudí, ktorí ho budovali v ťažkých rokoch 2. svetovej vojny.</p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/sursky-kanal/",
+        "en": "https://www.qrlink.sk/new/en/sursky-kanal/",
+        "de": "https://www.qrlink.sk/new/de/sursky-kanal/",
+        "ru": "https://www.qrlink.sk/new/ru/sursky-kanal/",
+        "pl": "https://www.qrlink.sk/new/pl/sursky-kanal/",
+        "hu": "https://www.qrlink.sk/new/hu/sursky-kanal/"
       }
     },
     {
@@ -4668,32 +4916,6 @@ const DB = {
       }
     },
     {
-      "id": "ivanka-u4-z1",
-      "miesto": "ivanka-uroven-4",
-      "poradie": 1,
-      "nazov": "Testovacie zastavenie A",
-      "popis": "Prvé testovacie zastavenie na 4. úrovni vnorenia.",
-      "cover": "",
-      "audio": [],
-      "galeria": [],
-      "gps": null,
-      "mapEmbed": "",
-      "text": "<p>Toto je testovacie zastavenie, ktoré overuje, že &quot;Kategória so zastaveniami&quot; sa správne\n      zobrazí až na poslednej (listovej) úrovni, bez ohľadu na to, koľko úrovní podkategórií je nad ňou.</p>"
-    },
-    {
-      "id": "ivanka-u4-z2",
-      "miesto": "ivanka-uroven-4",
-      "poradie": 2,
-      "nazov": "Testovacie zastavenie B",
-      "popis": "Druhé testovacie zastavenie na 4. úrovni vnorenia.",
-      "cover": "",
-      "audio": [],
-      "galeria": [],
-      "gps": null,
-      "mapEmbed": "",
-      "text": "<p>Druhé testovacie zastavenie – slúži na overenie gridu/zoznamu s viac ako jednou kartičkou.</p>"
-    },
-    {
       "id": "bytcianski-turzovci-povod-dejiny-rodu-erb",
       "miesto": "klenoty-pohranicie",
       "poradie": 1,
@@ -5094,6 +5316,45 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/chranena-lipa/",
         "pl": "https://www.qrlink.sk/new/pl/chranena-lipa/",
         "hu": "https://www.qrlink.sk/new/hu/chranena-lipa/"
+      }
+    },
+    {
+      "id": "kastiel-komjatice",
+      "miesto": "komjatice",
+      "poradie": 1,
+      "nazov": "Kaštieľ v Komjaticiach – stratená dominanta obce",
+      "popis": "",
+      "cover": "assets/images/migrated/16.jpg",
+      "audio": [],
+      "galeria": [
+        "assets/images/migrated/16.jpg",
+        "assets/images/migrated/15.jpg",
+        "assets/images/migrated/17.jpg",
+        "assets/images/migrated/28.jpg",
+        "assets/images/migrated/obr12.jpg",
+        "assets/images/migrated/29.jpg",
+        "assets/images/migrated/30.jpg",
+        "assets/images/migrated/000479.jpg",
+        "assets/images/migrated/image0049.jpg",
+        "assets/images/migrated/image0974.jpg",
+        "assets/images/migrated/image1380.jpg",
+        "assets/images/migrated/img_5038.jpg",
+        "assets/images/migrated/novy-u-4.jpg",
+        "assets/images/migrated/novy-u-13.jpg",
+        "assets/images/migrated/obr3.jpg",
+        "assets/images/migrated/obr5.jpg",
+        "assets/images/migrated/obr7.jpg"
+      ],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<p>Len málokto si dnes pri prechádzke Komjaticami uvedomí, že na mieste, kde sa dnes rozprestiera pokojná časť obce, kedysi stál honosný kaštieľ obklopený rozľahlým parkom, vodnými ramenami rieky Nitry a vzácnymi drevinami. Po celé storočia patril k najvýznamnejším šľachtickým sídlam dolného Ponitria. Dnes z neho zostali iba historické fotografie, archívne dokumenty, spomienky pamätníkov a jedinečný park, ktorý dodnes rozpráva jeho dávny príbeh. </p>\n<p>Kaštieľ stál v časti obce Majír, v ohybe rieky Nitry, neďaleko dnešného Kostola svätej Alžbety. </p>\n<p>Už v rokoch 1408 – 1418 si bratia Peter I. a Mikuláš V. Forgáčovci postavili v Komjaticiach svoje opevnené hrádky. Jeden z nich stál na mieste neskoršieho kaštieľa a postupnými prestavbami sa z pôvodného stredovekého sídla stal šľachtický kaštieľ rodu Forgáčovcov. Ten naposledy upravil gróf František IX. Forgáč. Po jeho smrti sa jeho vdova Terézia Klobušická vydala za Antona I. Grasalkoviča, významného uhorského šľachtica, štátnika a blízkeho spolupracovníka cisárovnej Márie Terézie. Práve tým sa začala nová etapa dejín komjatického panstva. </p>\n<p>Anton I. Grasalkovič prestaval a rozšíril forgáčovský kaštieľ na reprezentatívne sídlo s praktickým hospodárskym zázemím. Išlo o prízemnú neskorobarokovú stavbu s pôdorysom v tvare písmena U. Súčasťou budovy bola aj súkromná kaplnka zasvätená Panne Márii. Práve v nej sa v roku 1752 zosobášil Anton I. Grasalkovič s Teréziou Klobušickou, vdovou po grófovi Františkovi Forgáčovi. Kaplnka slúžila výhradne rodine majiteľov panstva a bohoslužby sa v nej konali len pri výnimočných príležitostiach. Po smrti posledného Grasalkoviča rod vymrel po meči a komjatické panstvo prešlo do rúk ďalších vlastníkov. </p>\n<p>Po Grasalkovičovcoch sa vlastníci komjatického panstva určitý čas menili. Panstvo spravoval gróf Pavol Motešický a neskôr sa dostalo do rúk grófovi Viczayovi. Toto obdobie netrvalo dlho, no predstavovalo dôležitý medzník medzi érou Grasalkovičovcov a príchodom baróna Mórica Wodianera, ktorý v roku 1858 odkúpil panstvo a rozhodol sa vybudovať reprezentačné sídlo hodné významného šľachtického rodu. V roku 1872 prešiel kaštieľ najväčšou prestavbou vo svojej histórii. Pôvodná baroková budova bola zvýšená o jedno poschodie a získala podobu francúzskeho zámku v historizujúcom slohu. Elegantná fasáda, vstupný portikus – kryté stĺpové vstupné priečelie pred vchodom do budovy, vežičky, bohato riešené interiéry i honosné schodisko dodali stavbe výnimočný vzhľad. Zo staršieho kaštieľa sa pritom zachovali niektoré barokové časti vrátane vstupnej predsiene s historickými klenbami. </p>\n<p>Kaštieľ nebol len domovom šľachtickej rodiny. Predstavoval centrum rozsiahleho hospodárstva. Na prízemí sa nachádzali kuchyne, sklady, miestnosti pre služobníctvo i hospodárske priestory. Poschodie patrilo reprezentačným sálam, salónom, jedálni, zrkadlovej sále, súkromným apartmánom grófa a grófky, hosťovským izbám, detským izbám či poľovníckej miestnosti. Súčasťou objektu bola aj kaplnka a priestory v manzardovej streche. </p>\n<p>Okolie kaštieľa tvoril starostlivo navrhnutý areál. Cez rieku Nitru viedli drevené mosty spájajúce sídlo s parkom, ďalší most slúžil kočom a neskôr aj prvým automobilom. Popri kaštieli sa nachádzal vodný mlyn, rozsiahly hospodársky dvor, pálenica s vysokým komínom, maštale, </p>\n<p>dom záhradníka i monumentálny skleník. Práve v ňom sa pestovali exotické rastliny, ktoré počas letných mesiacov zdobili nádvorie a park. </p>\n<p>Po smrti Mórica Wodianera prešlo panstvo na rod Nemešovcov. Posledným majiteľom bol gróf Ladislav Nemeš, za ktorého sa konala posledná rekonštrukcia, kedy boli odstránené skoro všetky dekoratívne prvky fasády i sochy. Premenami prešla aj plocha parku, ktorá bola pravidelne udržiavaná. Pokojný život šľachtického sídla ukončila druhá svetová vojna. </p>\n<p>Na prelome rokov 1944 a 1945, počas prechodu frontu cez Komjatice, bol kaštieľ zapálený ustupujúcou nemeckou armádou. Oheň zničil strechu aj väčšinu interiérov a budova zostala ťažko poškodená. Napriek tomu ešte niekoľko rokov stála ako tichá pripomienka svojej niekdajšej krásy. Rozhodnutie o jej záchrane však nikdy neprišlo. V prvej polovici päťdesiatych rokov 20. storočia bola postupne rozobratá a po roku 1954 definitívne zbúraná. Zanikol tak jeden z najkrajších kaštieľov regiónu. </p>\n<p>Najcennejším dedičstvom komjatického panstva zostal historický kaštieľsky park. Jeho základy položili už pravdepodobne Forgáčovci a neskôr Grasalkovičovci, no dnešnú podobu získal vďaka Wodianerovcom počas prestavby v roku 1872, keď bol upravený na anglický krajinársky park. Rozprestieral sa na oboch stranách rieky Nitry, pretínali ho romantické cestičky, mosty a lúčne priestranstvá. Rástli tu vzácne dreviny z rôznych častí sveta – ginko dvojlaločné, sofory, tisy, katalpy, platany či jedľa grécka. Najväčšou pýchou parku je dnes Komjatický platan, ktorého obvod kmeňa presahuje deväť metrov. Patrí medzi najväčšie platany v Európe a v roku 2012 získal titul Strom roka. Park bol obnovený v roku 2009 a dnes je obľúbeným miestom oddychu i živou pripomienkou slávnej minulosti Komjatíc. </p>\n<p>Kaštieľ síce z krajiny navždy zmizol, jeho príbeh však zostáva súčasťou pamäti obce. Každý strom v parku, každá historická fotografia či zachovaný dokument pripomínajú obdobie, keď boli Komjatice sídlom významného panstva. Aj preto stojí za to na chvíľu sa zastaviť, zapojiť predstavivosť a pokúsiť sa uvidieť to, čo dnes zostáva ukryté iba v dejinách. </p>\n<p><strong>Text a výber fotografií:</strong> PaedDr. Lucia Repková/Ing. Michal Repka </p>\n<p><strong>Použitá literatúra:</strong> </p>\n<p>CIFRA, Štefan – VRABCOVÁ, Viera, zost. Komjatice 1256 – 2006: vedecko-popularizačná monografia obce. 1. doplnené vydanie. Komjatice – Bratislava: Združenie priateľov obce Komjatice; Obec Komjatice; Q-SOLID, spol. s r. o., 2008. 792 s. ISBN 80-969550-2-0. </p>\n<p>JAHNÁTEK, Július. Kaštieľ Komjatice a iné historické zmienky. Komjatice, 2020. 331 s. ISBN 978-80-968398-7-2. </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/15.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/17.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/28.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/Obr12.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/29.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/30.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/000479.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/Image0049.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/Image0974.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/Image1380.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/IMG_5038.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/novy%E2%95%A0%C3%BC-4.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/novy%E2%95%A0%C3%BC-13.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/Obr3.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/Obr5.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/Obr7.jpg\" alt=\"\"></p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/kastiel-komjatice/",
+        "en": "https://www.qrlink.sk/new/en/kastiel-komjatice/",
+        "de": "https://www.qrlink.sk/new/de/kastiel-komjatice/",
+        "ru": "https://www.qrlink.sk/new/ru/kastiel-komjatice/",
+        "pl": "https://www.qrlink.sk/new/pl/kastiel-komjatice/",
+        "hu": "https://www.qrlink.sk/new/hu/kastiel-komjatice/"
       }
     },
     {
@@ -8968,6 +9229,33 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/drozd-cierny/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/drozd-cierny/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/drozd-cierny/"
+      }
+    },
+    {
+      "id": "rotunda",
+      "miesto": "zemplinske-muzeum",
+      "poradie": 1,
+      "nazov": "Rotunda",
+      "popis": "",
+      "cover": "assets/images/migrated/rotunda.jpg",
+      "audio": [],
+      "galeria": [
+        "assets/images/migrated/rotunda.jpg",
+        "assets/images/migrated/2026-08-03_13h20_33.jpg"
+      ],
+      "gps": {
+        "lat": 48.75793395666114,
+        "lng": 21.924997033374385
+      },
+      "mapEmbed": "https://www.google.com/maps?q=48.75793395666114,21.924997033374385&z=18&output=embed",
+      "text": "<p>Rotunda bola murovaná sakrálna stavba kru­hového pôdorysu s apsidou. V areáli múzea sú dnes viditeľné len jej základy, ktoré boli obja­vené v druhej polovici 20. storočia zakladate­ľom a prvým riaditeľom Zemplínskeho múzea v Michalovciach Jaroslavom Vizdalom. Táto pamiatka dnes reprezentuje najvýchodnejšiu stavbu tohto typu na Slovensku. </p>\n<p>Obdobie vzniku michalovskej rotundy nepozná­me. Chýbajúce písomné pramene o jej vzniku a ani jej doterajšie výskumy nepriniesli posun pri objasnení jej datovania. Tieto okolnosti nám nedovoľujú datovať jej výstavbu skôr než do 13. storočia. </p>\n<p>Pôvodne rotunda zrejme slúžila ako spoločný farský kostol pre obyvateľov z okolitých de­dín. Vďaka archeologickým výskumom bolo do dnešných dní v jej okolí preskúmaných viac ako 120 hrobov, ktoré obsahovali najmä osob­né predmety zosnulých. V súčasnosti sú nále­zy z okolia rotundy vystavené v archeologickej expozícii Zemplínskeho múzea, kde ich môžu návštevníci vidieť. Je tam umiestnená aj ka­menná platňa s vyrytým nápisom, ktorá sa na­šla v interiéri objektu. Dodnes sa však nepo­darilo spoľahlivo rozlúštiť text, ktorý sa na nej nachádza. Nezodpovedaná ostáva aj otáz­ka, či ide o podstavec oltárneho stola, prí­padne náhrobný kameň a vôbec v akom vzťahu k rotunde bola táto platňa.</p>\n<p>Projekt obnovy základov rotundy bol realizovaný s finančnou podporou </p>\n<p>Košického samosprávneho kraja v rámci výzvy “Tradície inšpirujú inovácie.”</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/08/2026-08-03_13h20_33.jpg\" alt=\"\"></p>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/rotunda/",
+        "en": "https://www.qrlink.sk/new/en/rotunda/",
+        "de": "https://www.qrlink.sk/new/de/rotunda/",
+        "ru": "https://www.qrlink.sk/new/ru/rotunda/",
+        "pl": "https://www.qrlink.sk/new/pl/rotunda/",
+        "hu": "https://www.qrlink.sk/new/hu/rotunda/"
       }
     },
     {

@@ -1,0 +1,35 @@
+{
+  "id": "susosie-sv-jana-nepomuckeho",
+  "miesto": "bratislava-ivanka",
+  "poradie": 6,
+  "nazov": "Súsošie sv. Jána Nepomuckého",
+  "popis": "",
+  "cover": "assets/images/migrated/7_-susosie-sv-jana-nepomuckeho.jpg",
+  "audio": [
+    {
+      "url": "assets/audio/migrated/05-susosie-sv-jana-nepomuckeho.mp3"
+    }
+  ],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/7_-susosie-sv-jana-nepomuckeho.jpg"
+    }
+  ],
+  "gps": {
+    "lat": 48.18921672833922,
+    "lng": 17.25587025972556
+  },
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.9031929016596!2d17.253681615943545!3d48.18921667922759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDExJzIxLjIiTiAxN8KwMTUnMjEuMSJF!5e0!3m2!1ssk!2ssk!4v1629902915219!5m2!1ssk!2ssk",
+  "text": "Monumentálne pôsobiace sochárske dielo sa skladá z architektúry tvoriacej podstavec, stĺp, a balustrádu a zo samotného súsošia. Vzniklo v poslednej tretine 18. storočia v neskorobarokovej podobe s prvkami luisézu , v štýle Ľudovíta XVI. a empíru. Súsošie stojí na podstavci v tvare oblakov s anjelskými hlavičkami, po stranách s postavičkami puttov nahých detí, z ktorých pravý je pôvodný a ľavý pendant bol vytvorený v rámci obnovy ako analógia. Dielu výrazovo dominuje socha sv. Jána Nepomuckého. Jej stvárnenie je klasické, predstavuje kňaza v obradom rúchu na ktorom má prehodený kožušinový plášť, v pravej ruke s biretom, liturgickou pokrývkou hlavy a v ľavej s krížom, ku ktorému upiera svoj pohľad. Súsošie bolo v roku 2008 reštaurované a prenesené zo záhrady na Záleskej ceste na Námestie sv. Rozálie. K vzniku súsošia sa viaže legenda, prameniaca z listiny uloženej na miestnej fare, podľa ktorej ho dali postaviť hostia Antona II. Grasalkovičova ako prejav za záchranu svojich životov. Keď sa vracali loďkou po úspešnej poľovačke cez rozvodnené rameno Malého Dunaja, táto sa s nimi prevrhla a oni sa začali topiť. V smrteľnej úzkosti sľúbili, že ak sa zachránia, dajú na mieste záchrany postaviť sochu svätému Jánovi Nepomuckému. V harmonickej jednote architektonických a výtvarných prvkov vytvorené súsošie bolo vyhlásené za národnú kultúrnu pamiatku.",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Ivanka pri Dunaji",
+  "miestoNazov": "Ivanka pri Dunaji",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/susosie-sv-jana-nepomuckeho/",
+    "en": "https://www.qrlink.sk/new/en/susosie-sv-jana-nepomuckeho/",
+    "de": "https://www.qrlink.sk/new/de/susosie-sv-jana-nepomuckeho/",
+    "ru": "https://www.qrlink.sk/new/ru/susosie-sv-jana-nepomuckeho/",
+    "pl": "https://www.qrlink.sk/new/pl/susosie-sv-jana-nepomuckeho/",
+    "hu": "https://www.qrlink.sk/new/hu/susosie-sv-jana-nepomuckeho/"
+  }
+}
