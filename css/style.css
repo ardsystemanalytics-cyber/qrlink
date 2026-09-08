@@ -783,19 +783,21 @@ a { color: var(--pine); }
   display: flex; align-items: center; justify-content: center; color: var(--pine);
 }
 .gallery .g-strip {
-  display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px;
-  flex: 1; padding: 4px;
+  display: flex; gap: 14px; flex: 1; padding: 4px;
+  overflow-x: auto; scroll-behavior: smooth; scrollbar-width: none;
 }
+.gallery .g-strip::-webkit-scrollbar { display: none; }
 @media (max-width: 700px) {
-  .gallery .g-strip { grid-template-columns: repeat(2, 1fr); }
-  /* šípky posúvali vodorovný pás, na mobile je to statická mriežka bez scrollu – zbytočné */
+  /* na mobile sa dá pás posúvať aj priamo prstom, šípky netreba */
   .gallery .g-arrow { display: none; }
   .gallery { gap: 0; }
 }
 .gallery .g-strip img {
-  width: 100%; height: 170px; object-fit: cover; border-radius: 12px;
+  flex: 0 0 auto; width: 130px; height: 130px; object-fit: cover; border-radius: 12px;
   cursor: pointer; border: 2px solid transparent; transition: border-color .15s;
+  scroll-snap-align: start;
 }
+.gallery .g-strip { scroll-snap-type: x proximity; }
 .gallery .g-strip img:hover { border-color: var(--pine); }
 /* aktívna miniatúra = fotka práve zobrazená hore v #dCover */
 .gallery .g-strip img.active { border-color: var(--pine); box-shadow: 0 0 0 2px var(--pine-tint); }
