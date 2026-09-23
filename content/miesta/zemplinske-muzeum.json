@@ -13,5 +13,13 @@
   "cover": "",
   "popis": "Múzeum v Michalovciach s archeologickými nálezmi regiónu.",
   "hlavnaKategoria": "Pamiatky",
-  "korenoveMiesto": "Zemplínske múzeum"
+  "korenoveMiesto": "Zemplínske múzeum",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/zemplinske-muzeum/",
+    "en": "https://www.qrlink.sk/new/en/category/zemplinske-muzeum/",
+    "de": "https://www.qrlink.sk/new/de/category/zemplinske-muzeum/",
+    "ru": "https://www.qrlink.sk/new/ru/category/zemplinske-muzeum/",
+    "pl": "https://www.qrlink.sk/new/pl/category/zemplinske-muzeum/",
+    "hu": "https://www.qrlink.sk/new/hu/category/zemplinske-muzeum/"
+  }
 }

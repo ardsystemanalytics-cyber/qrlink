@@ -47,5 +47,13 @@
     }
   },
   "hlavnaKategoria": "Mestá",
-  "korenoveMiesto": "Euroregión Beskydy"
+  "korenoveMiesto": "Euroregión Beskydy",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/euroregion-beskydy/",
+    "en": "https://www.qrlink.sk/new/en/category/euroregion-beskydy/",
+    "de": "https://www.qrlink.sk/new/de/category/euroregion-beskydy/",
+    "ru": "https://www.qrlink.sk/new/ru/category/euroregion-beskydy/",
+    "pl": "https://www.qrlink.sk/new/pl/category/euroregion-beskydy/",
+    "hu": "https://www.qrlink.sk/new/hu/category/euroregion-beskydy/"
+  }
 }

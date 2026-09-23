@@ -13,5 +13,13 @@
   "cover": "",
   "popis": "Obec s kaštieľom, ktorý bol kedysi honosnou dominantou.",
   "hlavnaKategoria": "Pamiatky",
-  "korenoveMiesto": "Komjatice"
+  "korenoveMiesto": "Komjatice",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/komjatice/",
+    "en": "https://www.qrlink.sk/new/en/category/komjatice/",
+    "de": "https://www.qrlink.sk/new/de/category/komjatice/",
+    "ru": "https://www.qrlink.sk/new/ru/category/komjatice/",
+    "pl": "https://www.qrlink.sk/new/pl/category/komjatice/",
+    "hu": "https://www.qrlink.sk/new/hu/category/komjatice/"
+  }
 }

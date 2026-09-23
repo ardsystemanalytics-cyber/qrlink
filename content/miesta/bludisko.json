@@ -6,5 +6,13 @@
   "foto": "assets/images/migrated/zs-banova-bludisko-icon.jpg",
   "popis": "",
   "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
-  "korenoveMiesto": "ZŠ a MŠ Bánová"
+  "korenoveMiesto": "ZŠ a MŠ Bánová",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
+    "en": "https://www.qrlink.sk/new/en/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
+    "de": "https://www.qrlink.sk/new/de/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
+    "ru": "https://www.qrlink.sk/new/ru/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
+    "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
+    "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/"
+  }
 }

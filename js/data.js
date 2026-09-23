@@ -136,7 +136,15 @@ const DB = {
       "rodic": "zs-a-ms-banova",
       "nazov": "Bludisko",
       "foto": "assets/images/migrated/zs-banova-bludisko-icon.jpg",
-      "popis": ""
+      "popis": "",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
+        "en": "https://www.qrlink.sk/new/en/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
+        "de": "https://www.qrlink.sk/new/de/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
+        "ru": "https://www.qrlink.sk/new/ru/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
+        "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
+        "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/"
+      }
     },
     {
       "id": "hrad-strecno",
@@ -164,7 +172,15 @@ const DB = {
       "id": "turzovka-mesto",
       "rodic": "turzovka",
       "nazov": "Turzovka – mestské pamiatky a zaujímavosti",
-      "popis": "Ostatné pamätihodnosti a zaujímavosti priamo v meste Turzovka."
+      "popis": "Ostatné pamätihodnosti a zaujímavosti priamo v meste Turzovka.",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/category/turzovka/",
+        "en": "https://www.qrlink.sk/new/en/category/turzovka/",
+        "de": "https://www.qrlink.sk/new/de/category/turzovka/",
+        "ru": "https://www.qrlink.sk/new/ru/category/turzovka/",
+        "pl": "https://www.qrlink.sk/new/pl/category/turzovka/",
+        "hu": "https://www.qrlink.sk/new/hu/category/turzovka/"
+      }
     },
     {
       "id": "betliar-info-pointy",
@@ -206,14 +222,30 @@ const DB = {
       "mapX": 73,
       "mapY": 393,
       "cover": "",
-      "popis": "Obec pri Bratislave s bohatou históriou."
+      "popis": "Obec pri Bratislave s bohatou históriou.",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/category/ivanka-pri-dunaji/",
+        "en": "https://www.qrlink.sk/new/en/category/ivanka-pri-dunaji/",
+        "de": "https://www.qrlink.sk/new/de/category/ivanka-pri-dunaji/",
+        "ru": "https://www.qrlink.sk/new/ru/category/ivanka-pri-dunaji/",
+        "pl": "https://www.qrlink.sk/new/pl/category/ivanka-pri-dunaji/",
+        "hu": "https://www.qrlink.sk/new/hu/category/ivanka-pri-dunaji/"
+      }
     },
     {
       "id": "dendrolog-1",
       "rodic": "zs-a-ms-banova",
       "nazov": "Dendrológ 1",
       "foto": "assets/images/migrated/zs-banova-dendrolog-1-icon.jpg",
-      "popis": ""
+      "popis": "",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-1/",
+        "en": "https://www.qrlink.sk/new/en/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-1/",
+        "de": "https://www.qrlink.sk/new/de/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-1/",
+        "ru": "https://www.qrlink.sk/new/ru/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-1/",
+        "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-1/",
+        "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-1/"
+      }
     },
     {
       "id": "turzovka-pamatniky",
@@ -262,7 +294,15 @@ const DB = {
       "rodic": "zs-a-ms-banova",
       "nazov": "Dendrológ 2",
       "foto": "assets/images/migrated/zs-banova-dendrolog-2-icon.jpg",
-      "popis": ""
+      "popis": "",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-2/",
+        "en": "https://www.qrlink.sk/new/en/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-2/",
+        "de": "https://www.qrlink.sk/new/de/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-2/",
+        "ru": "https://www.qrlink.sk/new/ru/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-2/",
+        "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-2/",
+        "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-2/"
+      }
     },
     {
       "id": "turzovka-sakralne-pamiatky",
@@ -283,21 +323,45 @@ const DB = {
       "rodic": "zs-a-ms-banova",
       "nazov": "Hmyzí domček",
       "foto": "assets/images/migrated/zs-banova-hmyzi-domcek-icon.jpg",
-      "popis": ""
+      "popis": "",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/hmyzi-domcek/",
+        "en": "https://www.qrlink.sk/new/en/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/hmyzi-domcek/",
+        "de": "https://www.qrlink.sk/new/de/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/hmyzi-domcek/",
+        "ru": "https://www.qrlink.sk/new/ru/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/hmyzi-domcek/",
+        "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/hmyzi-domcek/",
+        "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/hmyzi-domcek/"
+      }
     },
     {
       "id": "pexeso",
       "rodic": "zs-a-ms-banova",
       "nazov": "Pexeso",
       "foto": "assets/images/migrated/zs-banova-pexeso-icon.jpg",
-      "popis": ""
+      "popis": "",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/pexeso/",
+        "en": "https://www.qrlink.sk/new/en/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/pexeso/",
+        "de": "https://www.qrlink.sk/new/de/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/pexeso/",
+        "ru": "https://www.qrlink.sk/new/ru/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/pexeso/",
+        "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/pexeso/",
+        "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/pexeso/"
+      }
     },
     {
       "id": "vtacia-budka",
       "rodic": "zs-a-ms-banova",
       "nazov": "Vtáčia búdka",
       "foto": "assets/images/migrated/zs-banova-vtacia-budka-icon.jpg",
-      "popis": ""
+      "popis": "",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacia-budka/",
+        "en": "https://www.qrlink.sk/new/en/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacia-budka/",
+        "de": "https://www.qrlink.sk/new/de/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacia-budka/",
+        "ru": "https://www.qrlink.sk/new/ru/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacia-budka/",
+        "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacia-budka/",
+        "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacia-budka/"
+      }
     },
     {
       "id": "betliar",
@@ -327,7 +391,15 @@ const DB = {
       "rodic": "zs-a-ms-banova",
       "nazov": "Vtáčie kŕmitko",
       "foto": "assets/images/migrated/zs-banova-vtacie-krmitko-icon.jpg",
-      "popis": ""
+      "popis": "",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/",
+        "en": "https://www.qrlink.sk/new/en/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/",
+        "de": "https://www.qrlink.sk/new/de/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/",
+        "ru": "https://www.qrlink.sk/new/ru/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/",
+        "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/",
+        "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/"
+      }
     },
     {
       "id": "euroregion-beskydy",
@@ -375,6 +447,14 @@ const DB = {
           "nazov": "Beszkidek Eurorégió",
           "popis": "Fedezze fel a szlovák–cseh határvidék kivételes helyszíneit – városokat, várakat, természeti szépségeket és a két nemzetet összekötő kulturális örökséget."
         }
+      },
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/category/euroregion-beskydy/",
+        "en": "https://www.qrlink.sk/new/en/category/euroregion-beskydy/",
+        "de": "https://www.qrlink.sk/new/de/category/euroregion-beskydy/",
+        "ru": "https://www.qrlink.sk/new/ru/category/euroregion-beskydy/",
+        "pl": "https://www.qrlink.sk/new/pl/category/euroregion-beskydy/",
+        "hu": "https://www.qrlink.sk/new/hu/category/euroregion-beskydy/"
       }
     },
     {
@@ -814,7 +894,15 @@ const DB = {
       "mapX": 356,
       "mapY": 128,
       "cover": "",
-      "popis": "Areál základnej a materskej školy v Žiline-Bánovej s náučnými zastaveniami pre environmentálnu výchovu."
+      "popis": "Areál základnej a materskej školy v Žiline-Bánovej s náučnými zastaveniami pre environmentálnu výchovu.",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/",
+        "en": "https://www.qrlink.sk/new/en/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/",
+        "de": "https://www.qrlink.sk/new/de/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/",
+        "ru": "https://www.qrlink.sk/new/ru/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/",
+        "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/",
+        "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/"
+      }
     },
     {
       "id": "komjatice",
@@ -828,7 +916,15 @@ const DB = {
       "mapX": 155,
       "mapY": 349,
       "cover": "",
-      "popis": "Obec s kaštieľom, ktorý bol kedysi honosnou dominantou."
+      "popis": "Obec s kaštieľom, ktorý bol kedysi honosnou dominantou.",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/category/komjatice/",
+        "en": "https://www.qrlink.sk/new/en/category/komjatice/",
+        "de": "https://www.qrlink.sk/new/de/category/komjatice/",
+        "ru": "https://www.qrlink.sk/new/ru/category/komjatice/",
+        "pl": "https://www.qrlink.sk/new/pl/category/komjatice/",
+        "hu": "https://www.qrlink.sk/new/hu/category/komjatice/"
+      }
     },
     {
       "id": "zemplinske-muzeum",
@@ -842,7 +938,15 @@ const DB = {
       "mapX": 793,
       "mapY": 176,
       "cover": "",
-      "popis": "Múzeum v Michalovciach s archeologickými nálezmi regiónu."
+      "popis": "Múzeum v Michalovciach s archeologickými nálezmi regiónu.",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/category/zemplinske-muzeum/",
+        "en": "https://www.qrlink.sk/new/en/category/zemplinske-muzeum/",
+        "de": "https://www.qrlink.sk/new/de/category/zemplinske-muzeum/",
+        "ru": "https://www.qrlink.sk/new/ru/category/zemplinske-muzeum/",
+        "pl": "https://www.qrlink.sk/new/pl/category/zemplinske-muzeum/",
+        "hu": "https://www.qrlink.sk/new/hu/category/zemplinske-muzeum/"
+      }
     }
   ],
   "zastavenia": [

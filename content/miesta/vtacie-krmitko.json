@@ -6,5 +6,13 @@
   "foto": "assets/images/migrated/zs-banova-vtacie-krmitko-icon.jpg",
   "popis": "",
   "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
-  "korenoveMiesto": "ZŠ a MŠ Bánová"
+  "korenoveMiesto": "ZŠ a MŠ Bánová",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/",
+    "en": "https://www.qrlink.sk/new/en/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/",
+    "de": "https://www.qrlink.sk/new/de/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/",
+    "ru": "https://www.qrlink.sk/new/ru/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/",
+    "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/",
+    "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/"
+  }
 }

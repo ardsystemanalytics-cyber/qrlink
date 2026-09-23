@@ -13,5 +13,13 @@
   "cover": "",
   "popis": "Obec pri Bratislave s bohatou históriou.",
   "hlavnaKategoria": "Mestá",
-  "korenoveMiesto": "Ivanka pri Dunaji"
+  "korenoveMiesto": "Ivanka pri Dunaji",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/ivanka-pri-dunaji/",
+    "en": "https://www.qrlink.sk/new/en/category/ivanka-pri-dunaji/",
+    "de": "https://www.qrlink.sk/new/de/category/ivanka-pri-dunaji/",
+    "ru": "https://www.qrlink.sk/new/ru/category/ivanka-pri-dunaji/",
+    "pl": "https://www.qrlink.sk/new/pl/category/ivanka-pri-dunaji/",
+    "hu": "https://www.qrlink.sk/new/hu/category/ivanka-pri-dunaji/"
+  }
 }
