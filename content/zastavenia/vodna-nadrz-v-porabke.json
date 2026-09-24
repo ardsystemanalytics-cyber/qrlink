@@ -31,5 +31,11 @@
     "ru": "https://www.qrlink.sk/new/ru/vodna-nadrz-v-porabke/",
     "pl": "https://www.qrlink.sk/new/pl/vodna-nadrz-v-porabke/",
     "hu": "https://www.qrlink.sk/new/hu/vodna-nadrz-v-porabke/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The Water Reservoir In Porabka",
+      "text": "The water reservoir in Porabka and the water catcher, today called as Miedzybrodzkie lake, have been built from 1928 to 1937 in narrow pass between Zasolnica and Kozubnik. This was the firt investition of this kind in Poland. The autor of the project was Ing. Gabriel Narutowicz (later the president of Poland). The dam is made of concrete, it is 37,3m high. With the dams in Tresno and Czańc it creates the cascade of the Sola river."
+    }
   }
 }

@@ -31,5 +31,11 @@
     "ru": "https://www.qrlink.sk/new/ru/areal-sportu-a-oddychu-skatepark/",
     "pl": "https://www.qrlink.sk/new/pl/areal-sportu-a-oddychu-skatepark/",
     "hu": "https://www.qrlink.sk/new/hu/areal-sportu-a-oddychu-skatepark/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The Sport and Recreation centre, the skatepark.",
+      "text": "The town offers to the sports enthusiasts visit the Sport and Recreation centre in Turzovka – Zavodie. There are multyfunctional playground with a 42m x 22x play area for handball, volleyball, football, outdoor hockey court in standard international dimensions of 46m x 22m. In the summer months you can play petanque, tennis on two clay courts or ride a bicycle, scooter or quadrupeds. Of course there is an external and internal social background – relaxing terrace, benches, a building with a closets, hygienic and sports service and a social room. There are also an external arbor with the possibility of a toaster and children’s attractions for the youngest. Nearby there is skatepark for enthusiasts of adrenalin sport with seven obstacles."
+    }
   }
 }

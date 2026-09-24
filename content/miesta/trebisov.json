@@ -21,5 +21,10 @@
     "ru": "https://www.qrlink.sk/new/ru/category/trebisov/",
     "pl": "https://www.qrlink.sk/new/pl/category/trebisov/",
     "hu": "https://www.qrlink.sk/new/hu/category/trebisov/"
+  },
+  "i18n": {
+    "hu": {
+      "nazov": "Trebišov"
+    }
   }
 }

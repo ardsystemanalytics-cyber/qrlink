@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/rolnicke-povstanie-na-vychodnom-slovensku-1831/",
     "pl": "https://www.qrlink.sk/new/pl/rolnicke-povstanie-na-vychodnom-slovensku-1831/",
     "hu": "https://www.qrlink.sk/new/hu/rolnicke-povstanie-na-vychodnom-slovensku-1831/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The Revolt of Peasants in Eastern Slovakia in 1831",
+      "text": "In 1831 a great revolt broke out in Easter Slovakia and made history as The Revolt of Peasants. Its cause was the discontent of the population, mostly due to their economic conditions and their position as subjects on the individual dominions. At the end of the 18th century, local landlords were confiscating the lands for their own enrichment. There are documented cases of aristocratic families usurping the land at the expense of peasants. By the gradual occupation of the fields and meadows, the socio-economic situation of the peasants had worsened. The trigger for the turmoil was the cholera epidemic and quarantine measures to suppress the spread of the disease. Similar to the present, the conspiracies had spread among the common people that the cause of cholera was poisoned water in wells. For example, the confession of certain Ján Škvorel was preserved. While being tortured, he admitted he was poisoning water in wells of Vranov, Hlinné, Zámutov, and Soľ.\n\nThe revolt began near the town of Trebišov and quickly spread to the villages near Vranov. The statements of the revolt leaders are the real evidence of the cause of the revolt. “The world has turned around, you have ruled enough, now it’s our time!” proclaimed the leaders while robbing the settlements. The leaders of the uprising from Zámutov also tried to coordinate revolts in neighboring villages, namely in Rudľov, Hlinné, Soľ, Komárany, Vechec, Čaklov, Jastrabie or Vranov. On August 5, the mayors of these villages met and agreed on a common approach to the destruction of the lords and their property. They also turned their anger against the Jews and they imprisoned them. After successful lootings on local lands, the revolters led by Adam and Michal Ostruha from Zámutov wanted to march on Nové Mesto pod Šiatrom town. The second group of revolters headed to mansions in Čaklov, Čemerné, and Majerovce, and the main forces headed to Vranov. The uprising had signs of a coordinated approach but it was stopped by the arrival of government troops from Košice and Prešov. Even the attempts of the revolters to unite with others on the territory of Šariš were not successful. They were outnumbered by the troops who gradually eliminated the individual locations of the uprising. 73 were indicted and 41 leaders were sentenced to death by hanging.\n\nThe Revolt of Peasants in 1831 proves that conspiracy theories are not the invention of the modern age, but have also been the cause of many armed conflicts throughout the history.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/therevolt.mp3"
+        }
+      ]
+    }
   }
 }

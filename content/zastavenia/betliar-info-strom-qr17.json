@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr17/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr17/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr17/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Douglas fir",
+      "text": "It originates from western North America, where it forms continuous stands in some mountain ranges. It reaches a height of up to 80 m and grows rapidly. \n\n \n\nThere are several Douglas firs growing in the park, the most beautiful and probably the oldest specimen being a solitary Douglas fir in a forest clearing west of the castle. It is over 30 meters tall. We estimate that it may be over 200 years old. It was probably planted in the early 19th century, is nicely grown, and has a wide conical crown. It blooms regularly and produces cones."
+    },
+    "hu": {
+      "nazov": "Amerikai duglászfenyő",
+      "text": "Észak-Amerika nyugati részéről származik, ahol egyes hegyvidékeken összefüggő erdőket alkot. Magassága elérheti a 80 métert – gyorsan nő. \n\n \n\nA parkban több douglasfenyő is nő, a legszebb és valószínűleg a legidősebb példány egy magányos douglasfenyő a kastélytól nyugatra fekvő erdei tisztáson. Magassága több mint 30 m. Becslésünk szerint több mint 200 éves lehet. Valószínűleg a 19. század első éveiben ültették, szép nagyra nőtt, koronája széles, kúpos. Rendszeresen virágzik, és tobozokat terem."
+    }
   }
 }

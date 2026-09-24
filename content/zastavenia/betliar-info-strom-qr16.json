@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr16/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr16/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr16/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Black pine",
+      "text": "In the park south of the manor house, about 7 m from the farm building, it is about 25 m high and we estimate that it is more than 200 years old (approx. 220). A tall and sturdy tree, very widespread in Central Europe, the Balkans, and the Mediterranean."
+    },
+    "hu": {
+      "nazov": "Feketefenyő",
+      "text": "A kastélytól délre fekvő parkban, körülbelül 7 méterre a gazdasági épülettől, magassága körülbelül 25 méter, és feltételezzük, hogy több mint 200 éves (nagyjából 220). Magas és erőteljes fa, nagyon elterjedt Közép-Európában, a Balkánon és a Földközi-tengeren."
+    }
   }
 }

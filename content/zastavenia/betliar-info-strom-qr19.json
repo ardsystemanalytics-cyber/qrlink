@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr19/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr19/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr19/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "London plane",
+      "text": "London plane trees are widespread in southeastern Europe, North America, and Mexico. Plane trees are massive trees with broad, spreading crowns. There is one London plane tree in the park of Betliar, but it is surrounded by a chestnut tree, a blue spruce, and a continuous forest on two sides. Under such conditions, it is not surprising that the plane tree lags behind in growth and its crown does not resemble that of other plane trees at all."
+    },
+    "hu": {
+      "nazov": "Közönséges platánfa",
+      "text": "A közönséges platánfák Délkelet-Európában, Észak-Amerikában és Mexikóban is elterjedtek. A platánfák hatalmas fák, széles, lombos koronával. A betléri parkban egy darab közönséges platán található, de a közelében szelídgesztenyegesztenyefa és szúrós luc is nő, és két oldalról összefüggő erdő veszi körül. Ilyen körülmények között nem meglepő, hogy a platán növekedésben lemarad, és lombkoronája egyáltalán nem hasonlít a platánokéra."
+    }
   }
 }

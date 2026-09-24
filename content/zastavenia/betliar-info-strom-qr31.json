@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr31/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr31/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr31/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Japanese zelkova",
+      "text": "It originates from Japan and was imported to Europe around 1860. It grows to a height of 30 m. It has a short trunk and a spreading crown with slightly drooping branches.&lt; \n\n \n\nIt is a rare tree in local parks (another one can be found in the botanical garden in Banská Štiavnica)."
+    },
+    "hu": {
+      "nazov": "Japán gyertyánszil",
+      "text": "Japánból származik, Európába körülbelül 1860-ban hozták be. 30 méter magasra is megnőhet. Rövid törzse, széles lombkoronája és enyhén lelógó ágai vannak. \n\n \n\nA helyi parkokban ritkán találhatjuk (egy másik példány a Banská Štiavnica-i – selmecbányai botanikus kertben található)."
+    }
   }
 }

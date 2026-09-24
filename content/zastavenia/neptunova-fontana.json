@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/neptunova-fontana/",
     "pl": "https://www.qrlink.sk/new/pl/neptunova-fontana/",
     "hu": "https://www.qrlink.sk/new/hu/neptunova-fontana/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Neptune´s Fountain",
+      "text": "Neptune´s Fountain is the only original preserved town water tank. Ten similar water tanks supplied the town with water before the water-supply system was built.\n\nAt the beginning of the 19th century, Jewish tradesman Mark Holländer had the sculptural group of Neptune built as an expression of gratitude for the city council to allow him to live and establish a business in Prešov. No Jews were allowed to live in Prešov except the time of markets up to the time of Joseph II. A rich Galician trader M. Holländer as the first successfully broke that prohibition in the second half of the 80s of the 18th century. Despite existing laws (a special decree of Joseph II. permit Jews to settle in the royal city, with the exception of mine) both the city council, as well as mercantile guild lobbied against its presence. Thanks good relations with the monarch he managed to stay in town, buy a house, shop and even get the burgher rights. In gratitude, he then had in one of the tanks this fountain built.\n\nThe author of the statue of Neptune with trident, surrounded by seafood (fish, frog, snake, turtle and crocodile), a Košice stonemason and sculptor Vincent Staviarsky, who completed the sculpture in 1826. \n\nNeptune statue was reconstructed at the beginning of 90s of the 20th century.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/14-neptunes-fountain.mp3"
+        }
+      ]
+    }
   }
 }

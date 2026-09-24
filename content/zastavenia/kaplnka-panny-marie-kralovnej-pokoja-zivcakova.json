@@ -31,5 +31,16 @@
     "ru": "https://www.qrlink.sk/new/ru/kaplnka-panny-marie-kralovnej-pokoja-zivcakova/",
     "pl": "https://www.qrlink.sk/new/pl/kaplnka-panny-marie-kralovnej-pokoja-zivcakova/",
     "hu": "https://www.qrlink.sk/new/hu/kaplnka-panny-marie-kralovnej-pokoja-zivcakova/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The chapel of the Virgin Mary Queen of peace",
+      "text": "Zivcakova even as the locality where the valachian cattle were bred is mentioned in writing for the first time in 1616. The name is derived from the personal name Zivcak (the inhabitant of Zyviec). \n\nOn the June 1st 1958 the Virgin Mary was supposed to appear to the forester Matus Lasut. The appears should continue also in July and August. The events instantly swirled the social atmosphere and the believers have begun to visit this place. The place and the believers were watched by State Security. Its members many times confiscated various objects and images with religious themes, destroyed and burned small altars built by believers with the aim not to come to Zivcakova. However, the repression cause exactly opposite effect. M. Lasut was several times investigated and interrogated. He died in 2010 and he is buried near the church of Turzovka parish. Zivcakova was declared as a pilgrimage place in 1994 by Bishopric in Nitra although the revelations are still not considered as true. Diocesan bishop from Zilina proclaimed Zivcakova as Marian pilgrimage place and place of pray. In 1992 in cause of many request to build a chapel, The Bishopric office in Nitra give a preliminary approval to build a chapel. Project of the construction was done by Marian Goc. The chapel has been built in 1993 and in October 17th it was sanctified. From the year 2000 the chapel belongs to the parish of Korna.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/6-10-the-chapel-of-the-virgin-mary-queen-of-peace-1.mp3"
+        }
+      ]
+    }
   }
 }

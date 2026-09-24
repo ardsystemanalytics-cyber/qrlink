@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr7/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr7/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr7/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The Great Waterfall",
+      "text": "The Roman Waterfall was designed by Josef Bergmann as part of a unique water system during the second major renovation of the park in the 1820s. The waterfall, which resembles the ruins of an ancient Roman aqueduct, was built in 1823. It is also unique in that it is the highest artificial waterfall in Slovakia, approximately nine meters high. \n\n \n\nThe construction of the waterfall is very interesting – water is fed to the drop through a trough over a stone arch bridge (hence the local name “drop bridge”) and falls from a height of 9 m into a small lake. Below the waterfall is a cave (grotto), which was converted into a menagerie at the beginning of the 20th century. Between 1908 and 1914, the Andrássy family kept polar bears here. (This was unique for the region, as it was the first time polar bears had been kept in Central Europe.) \n\n \n\nThe cave, together with a smaller lake below the waterfall, was enclosed by a strong mesh fence.The pond below the large waterfall was built around 1830 and was probably intended for breeding waterfowl, as architect Bergmann had already drawn swans on the pond in his project."
+    },
+    "hu": {
+      "nazov": "Nagy vízesés",
+      "text": "A római vízesést Bergmann József tervezte egy egyedi vízrendszer részeként a park második nagy átalakítása során a 19. század 20-as éveiben. A római antik akvadukt (csatornahíd) romjait utánzó vízesést 1823-ban építették. Azáltal is egyedülálló, hogy ez a legmagasabb mesterséges vízesés Szlovákiában, magassága körülbelül kilenc méter. \n\n \n\nA vízesés felépítése nagyon érdekes – a víz egy kőboltozatos hídon keresztül érkezik a zuhataghoz (innen ered a helyi elnevezés is: „zuhanó híd“), és 9 méteres magasságból hullik alá a tóba. A vízesés alatt található egy barlang (grotta), amelyet a 20. század elején állatkertré alakítottak át. 1908 és 1914 között az Andrássy család jegesmedvéket tartott itt. (Ez a régióban egyedülálló volt- ez volt az első jegesmedve-tenyésztés Közép-Európában.) \n\n \n\nA barlangot és a vízesés alatti kisebb tavat erős rácsos kerítéssel vették körül. A nagy vízesés alatt található halastó 1830 körül épült, és valószínűleg vízimadarak tenyésztésére szánták, mivel Bergmann építész már a halastó tervrajzában is hattyúkat rajzolt a tóra."
+    }
   }
 }

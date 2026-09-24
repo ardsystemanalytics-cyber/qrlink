@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr13/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr13/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr13/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Railway station building",
+      "text": "The railway station building stands on the Rožňava – Dobšiná line. It was built in 1874 at the same time as the construction of this line, which formed the main route from Gemer and Bánréve to Dobšiná. The station building housed the transport company’s office and apartments for employees. It served its purpose until passenger transport on this line was discontinued in 2003."
+    },
+    "hu": {
+      "nazov": "Vasútállomás épülete",
+      "text": "A vasútállomás épülete a Rožňava / Rozsnyó – Dobšiná / Dobsina vasútvonal mellett áll. 1874-ben épült, a vasútvonal építésével egy időben. Ez alkotta a Gömör és Bánréve közötti fő közlekedési útvonalat egészen Dobsináig. Az állomás épületében a közlekedési társaság irodája és az alkalmazottak lakásai voltak. Funkcióját 2003-ig, a személyszállítás megszűnéséig töltötte be."
+    }
   }
 }

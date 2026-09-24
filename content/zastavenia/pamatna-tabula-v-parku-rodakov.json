@@ -27,5 +27,11 @@
     "ru": "https://www.qrlink.sk/new/ru/pamatna-tabula-v-parku-rodakov/",
     "pl": "https://www.qrlink.sk/new/pl/pamatna-tabula-v-parku-rodakov/",
     "hu": "https://www.qrlink.sk/new/hu/pamatna-tabula-v-parku-rodakov/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The Memorial table in the Park of Natives",
+      "text": "The table is installed where the water mill with turbine for electricity generation from 1924 and lindes for the third milenium were. In 1998 there were installed another memorial tables dedicated to the poet P. H. Jurin and writer J. Harant which are located on the building of Grammar school in Turzovka and to priest F. Tagany which is located in the building of the Parish office in Turzovka. The memorial table – the first bricked school in Turzovka – comes from 1873 and it is standing even nowadays near the church, although it serves to another purpose. From 1879 to 1924 in this school there taught organist and teacher Alexander Pritz. With his leaving from the school service in 1924 the church school ended too."
+    }
   }
 }

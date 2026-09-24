@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr10/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr10/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr10/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Family house on Polomská Street",
+      "text": "The family house at 113 Polomska Street was built at the beginning of the 20th century on the left side of the main road leading to Dobšiná. It bears the hallmarks of the architectural style of houses from the period in which it was built. It is well preserved, and the owners maintain it to the required standard. It is still inhabited today and is one of the few preserved houses from this period."
+    },
+    "hu": {
+      "nazov": "Családi ház a (Veszverési) Polomská utcában",
+      "text": "A Polomska (Veszverési) utca 113. szám alatti családi ház a 20. század elején épült, a Dobšiná (Dobsina) felé vezető főút bal oldalán. Láthatóak rajta az építési munkálatok nyomai. Jó állapotban van, a tulajdonosok az elvárt szinten gondját viselik. A mai napig lakott, és ez azon kevés házak egyike, amelyek ebből a korszakból fennmaradtak."
+    }
   }
 }

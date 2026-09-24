@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/miesto-tragickych-udalosti/",
     "pl": "https://www.qrlink.sk/new/pl/miesto-tragickych-udalosti/",
     "hu": "https://www.qrlink.sk/new/hu/miesto-tragickych-udalosti/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "PLACE OF THE TRAGIC EVENT",
+      "text": "Sunday 27 October 1907 was a set date of the consecration of a new church. However, this was to be done without the participation of Andrej Hlinka, a native of Černová, who had been suspended from the priesthood for incitement against the Hungarian nationality. The people of Černová could not imagine this ceremony without the one who had greatly contributed to the building of the church. They were determined to prevent the consecration. From early morning a large part of the local people expected the unwelcome guests at the entrance of the village by the school in the lower part. The crowd formed a barrier of human bodies in the narrow entrance of the village in order to prevent the consecration of the church. A carriage with incoming priests got besieged by embattled people being aware of their belonging. The shouts of the Černová people as well as gendarmes‘ efforts to form a corridor for the carriages caused the horses to get stampeded and the chaos began. Verbal and physical attacks on both sides were ended by a sergeant who ordered to fire. Already after the first shots there were wounded and dying. Shooting, however, continued. The intervention of the gendarmes claimed 15 dead, 12 severely and 40 slightly injured. Afterwards, 59 defendants went through a trial in January 1908 in which the accused were sentenced to 37 years of imprisonment in total. As a result of national oppression, the Černová tragedy was one of the bloodiest events of last years of Austria-Hungary. It sparked large protests in Slovakia and throughout the monarchy. Several distinguished foreign personalities protested as well. It was also thanks to them that the Černová tragedy has entered the political history of the Slovak nation. The Slovak nation has also been made for life through the martyrs of Černová.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/08-place-of-the-tragic-event-of-27-october-1907.mp3"
+        }
+      ]
+    }
   }
 }

@@ -31,5 +31,16 @@
     "ru": "https://www.qrlink.sk/new/ru/mestsky-urad-frydlant-nad-ostravici/",
     "pl": "https://www.qrlink.sk/new/pl/mestsky-urad-frydlant-nad-ostravici/",
     "hu": "https://www.qrlink.sk/new/hu/mestsky-urad-frydlant-nad-ostravici/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Building of the Municipality office Frýdlant nad Ostravicí",
+      "text": "The neo-renaissance building of the Municipality office dominates the southern side of the town square in Frýdlant nad Ostravicí. It was built in 1894 as a building of the National House thank to the Catholic association. The builder of the Municipality office was B. Židlický from Ostrava. \n\nThe National House was solemnly opened in 1895. There were rooms for Frýdlant pawnshop from 1871 and a hall for the Catholic association which was renamed into the Janacek Hall. Wedding ceremonies, concerts and other cultural and social events are held there today. The ground floor of the building was rented as a pub, on the first floor there were rooms owned by the town. The town hall has been rebuilt and remodelled several times. The latest reconstruction in the years 1989-1999 was led by Ing. Arch. Tomáš Šimonovský from Ostrava returned to the building its original Neo-Renaissance look. The building is currently used as the administrative building for city authorities of Frýdlant nad Ostravicí and the Department of the Environment.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/1-building-of-the-municipality-office-frydlant-nad-ostravici-1.mp3"
+        }
+      ]
+    }
   }
 }

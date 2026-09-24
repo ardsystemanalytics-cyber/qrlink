@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/the-museum-of-wines/",
     "pl": "https://www.qrlink.sk/new/pl/the-museum-of-wines/",
     "hu": "https://www.qrlink.sk/new/hu/the-museum-of-wines/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The Museum of Wines",
+      "text": "Wines is situated in the centre of Prešov, in the underground cellars, which were built at the beginning of 16th century as a town tavern and storage of wine under the Town Hall. During the corporative and agricultural uprisings the place was used as a jail. In 1993 it was reconstructed and is now used for the needs of The Museum of Wines. \n\nThe exhibit shows the history of vine growing in Slovakia, Morava and Bohemia according to individual vineyard localities. But the main attention belongs to the wine producers, especially the producers of the branded species. One part of the exhibition is devoted to history and technology of Tokai wine. There are more than 2,000 types of wines, which can be tested or bought. Except the wines visitors can see the machines used for wine producing – press machines, barrels, hand pumps, machines for bottle closing, the old measuring jars made of copper, glass, the wine bottles of the various shapes, colours and size. \n\nThere is a possibility to drink the exhibited types of wines in the museum. During the presentation you can listen to an expert commentary about the samples, appropriate serving, producing of wine etc. \n\nOne of the prestigious annual activities of the museum is organizing competitive show of wines Muvina, which became one of the most credible shows for wine producers. Wines from the whole world come, experts – oenologists from different countries in the world are ivited to degust and evaluate wine. \n\nOpening hours: \n\nMonday – Friday: 9 am – 6 pm \n\nSaturday: 9 am – 12 pm \n\nSunday: Closed \n\nlunch break – 12.30 pm – 13 pm\n\nAddress: \n\nMuseum of Wine \n\nFloriánova Street \n\n080 01 Prešov\n\nTel.: 051/ 7733 108\n\nwww.muzeumvin.sk",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/19-the-museum-of-wines.mp3"
+        }
+      ]
+    }
   }
 }

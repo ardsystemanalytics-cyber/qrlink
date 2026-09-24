@@ -31,5 +31,16 @@
     "ru": "https://www.qrlink.sk/new/ru/letisko-frydlant-nad-ostravici/",
     "pl": "https://www.qrlink.sk/new/pl/letisko-frydlant-nad-ostravici/",
     "hu": "https://www.qrlink.sk/new/hu/letisko-frydlant-nad-ostravici/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Airport Frýdlant nad Ostravicí",
+      "text": "Sport airport close to Frýdland nad Ostravicí and mountain Lysá hora is mainly for powered and unpowered aircrafts. The highest point of Ondrejník hill called Skalka is suitable for many adrenalin activities. \n\nAirport Frýdlant nad Ostravicí is the easternmost airport of the Czech Republic. The owner and operator of the national airport is Aeroklub Frýdlant nad Ostravicí. They hold licenses for flying work, flying school and skydiving school. At the present, the Aeroclub has about 100 members but over the entire history of its existence a great number of pilots, parachutists and modellers have been educated there. The members aren’t only occupied with their own powered or unpowered aircraft and parachuting, but they also take care of the organization and provision of flight operations, basic and advanced training, maintenance of aviation equipment, repairs and construction of the airport complex, maintenance of the airport runways, organization of sport, aerial and social events, work with youth and they also prepare services for other organizations, visitors, tourists and airport guests. Aeroclub owns airplanes, helicopters, gliders, ultralight airplanes and free balloons.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/7-airport-frydlant-nad-ostravici-1.mp3"
+        }
+      ]
+    }
   }
 }

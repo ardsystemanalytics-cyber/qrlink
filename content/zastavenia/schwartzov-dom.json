@@ -31,5 +31,16 @@
     "ru": "https://www.qrlink.sk/new/ru/schwartzov-dom/",
     "pl": "https://www.qrlink.sk/new/pl/schwartzov-dom/",
     "hu": "https://www.qrlink.sk/new/hu/schwartzov-dom/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Schwartz’s House",
+      "text": "Schwartz’s House is one of the most representative profane buildings preserved in Vranov nad Topľou. It was built by an important merchant from Vranov, Hugo Schwartz. Hugo Schwartz and his wife Lujza (born Berger), and brothers Ignatius and Izidor were also the owners of the largest company in Vranov – the industrial goods trade, which was located in the building. The richly decorated late Art Nouveau facade of the building complements the opulent stucco interior decoration. There’s a crown ledge above the entrance, supported by decorative elements on the facade. These elements are preserved in the building to this day. During the mid-war period, a gas station was located in front of the store. The owners of the shop also provided electric lighting for the adjacent crossroads. The family was also known for their philanthropic gifts, the most famous was the “American” Mikulaš Schwartz, who supported not only the Jewish community but also Catholic churches from the United States with his financial gifts. He donated 50,000 crowns to the Roman Catholic Church to buy a bell and 10,000 dollars for the construction of the Vranov synagogue. When Izidor Schwartz – the brother of Ignatius and Hugo – died (he worked as a commercial agent for the Slovak General Credit Bank), their family donated 100,000 crowns to the Roman Catholic Church for reconstruction. Members of this Jewish family, important to Vranov, are buried in the local Jewish cemetery.\n\n![](/assets/images/migrated/schwartzov-dom-1.jpg)",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/schwartzs.mp3"
+        }
+      ]
+    }
   }
 }

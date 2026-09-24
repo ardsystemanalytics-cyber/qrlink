@@ -16,5 +16,13 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/info-pointy/"
-  ]
+  ],
+  "i18n": {
+    "en": {
+      "nazov": "Sights of the village Betliar"
+    },
+    "hu": {
+      "nazov": "A község  nevezetességei Betliar"
+    }
+  }
 }

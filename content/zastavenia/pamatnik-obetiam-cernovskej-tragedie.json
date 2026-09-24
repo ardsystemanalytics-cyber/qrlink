@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/pamatnik-obetiam-cernovskej-tragedie/",
     "pl": "https://www.qrlink.sk/new/pl/pamatnik-obetiam-cernovskej-tragedie/",
     "hu": "https://www.qrlink.sk/new/hu/pamatnik-obetiam-cernovskej-tragedie/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "MEMORIAL TO THE VICTIMS OF THE ČERNOVÁ TRAGEDY",
+      "text": "The symbol and the everlasting witness of a tragic moment in the history of Slovakia and the Černová village. The memorial was ordered by Slovenská liga and it was funded by the money raised by American Slovaks on the occasion of the 25th anniversary of the Černová Tragedy. The memorial is a reminder of the 15 victims who were shot dead by Hungarian gendarmes when the newly-built Our Lady of the Rosary Church was about to be consecrated. They died because they wanted Andrej Hlinka, who was born in Černová and took care of the church construction, to take part in the above consecration. The Černová Tragedy triggered many protests in and outside Slovakia. It drew attention to the oppression of Slovaks in the Hungarian Empire and to the politically manipulated court trials that resulted in the wrongul conviction of 59 people from Černová. The memorial was publicly unveiled on the 28th October 1932 in front of Andrej Hlinka, a priest from Ružomberok, and representatives of Slovenská liga and Matica slovenská and 6000 other people. The author of this national cultural monument is the sculptor Miroslav (Frico) Motoška and its architectural side was taken care of by Juraj Sládek. The memorial was built in 1932 by Jaroslav Vinduška’s company headquartered in Prague. The monument is 14 m wide and 6,8 m high. There were 46,8 t of travertine used to construct this memorial. Its shape recalls the T letter turned upside down and tis stands on a small cairn. The monument shows a cross with an Old-Slavic-style relief of Christ’s head. Under the cross, there is a lurel wreath and the Slovak nation sign. The front side of the memorial shows the sign Lord, bless our nation, for which these died and the gragedy date engraved under the cross. The names of all the victims are stade on the both sides of the memorial starting with the oldest and ending with the youngest of them. Unfortunately, not all the names and age details are correct. The vaule of the memorial on the day of its unveiling was 65 000 Czechoslovak crowns.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/07-memorial-to-the-victims-of-the-chernova-tragedy.mp3"
+        }
+      ]
+    }
   }
 }

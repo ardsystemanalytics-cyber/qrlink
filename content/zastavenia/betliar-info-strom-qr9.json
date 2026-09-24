@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr9/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr9/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr9/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Olympic flame",
+      "text": "Next to the sidewalk, we can see a 3.10 m high column made of calcareous tuff (foamstone). Its current name is Olympic Flame – the column allegedly once had *a bowl-shaped container for fire at its top*, which is where its current name comes from. However, we cannot say with certainty whether the column was actually built for this purpose. It is possible that the architect had the column built only to complement and diversify the (sparse) group of trees in front of the waterfall."
+    },
+    "hu": {
+      "nazov": "Olimpiai láng",
+      "text": "A járda mellett látható egy 3,10 m magas, mészkőből (tajtékkő) készült oszlop. Mai neve Olimpiai tűz – az oszlop tetején állítólag egykor egy tálszerű edény volt a tűz számára, innen ered mai neve. Nem tudjuk azonban biztosan, hogy az oszlop valóban ilyen célra épült-e. Lehetséges, hogy az építész csak azért építtette az oszlopot, hogy kiegészítse és színesítse a vízesés előtti (ritka) facsoportot."
+    }
   }
 }

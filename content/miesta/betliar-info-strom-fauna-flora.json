@@ -16,5 +16,13 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/flora/"
-  ]
+  ],
+  "i18n": {
+    "en": {
+      "nazov": "Flora"
+    },
+    "hu": {
+      "nazov": "Flóra"
+    }
+  }
 }

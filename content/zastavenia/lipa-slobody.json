@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/lipa-slobody/",
     "pl": "https://www.qrlink.sk/new/pl/lipa-slobody/",
     "hu": "https://www.qrlink.sk/new/hu/lipa-slobody/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Linden of Freedom",
+      "text": "This linden was planted in 1918 and today it stands in front of the secondary vocational school in the town center. It was planted by Vranov local patriots and supporters of the independence of our nation in honor of the establishment of an independent Czechoslovakia on October 28, 1918, after the end of World War I and the disintegration of Austria-Hungary. The enthusiasm was shared because more Czech families lived in Vranov at that time. When the tree was still small, they watered it and took care of it so future generations would have a symbol of the first common state of the Czechs and Slovaks. Yet another story about the origin of the tree keeps being told. It says that this tree was planted by French soldiers during World War I, who were treated for injuries in a hospital in Vranov, which was set up in the school building. Even though the front line had never reached our town and passed only through the districts of Svidník, Stropkov, and Humenné, the wounded soldiers were transported from the front line to Vranov, where they were treated. Many of them also succumbed to their injuries here and were buried in the local cemetery. However, the above-mentioned soldiers survived and planted this linden tree as a memorial in front of the field hospital.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/linden.mp3"
+        }
+      ]
+    }
   }
 }

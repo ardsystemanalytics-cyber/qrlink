@@ -34,5 +34,11 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/castles/kostol-sv-jana-krstitela/"
-  ]
+  ],
+  "i18n": {
+    "en": {
+      "nazov": "The Church of St. John the Baptist",
+      "text": "One of the most prominent, and oldest, buildings in the village is the Church of St. John the Baptist. A church stood on this site as far back as the Middle Ages, probably in the 12th century. But in 1770 Antal Grassalkovich I began construction of a new church, which was completed two years later by his son Antal II. It owes its current appearance to Mihailo Obrenović, who in the second half of the 19th century, following a great fire in the village, had its tower raised and renovated the building, giving it its current Baroque-Classical style. The front of the church is dominated by a tower with a clock, which is topped by a tall pyramidal spire with a cross. Inside the church the nave is separated from the sanctuary by a triumphal arch. The pillars of the northern section of the nave hold the organ gallery, which was expanded into the nave in 1948. Original illusionistic Baroque paintings of the Assumption of the Blessed Virgin Mary and the Ascension of Jesus Christ, which had been painted over during the 20th century, adorn the vaults of the nave and the sanctuary. Beneath the sanctuary is a crypt containing the remains of some of the owners of the Ivanka manor.\n\nIn front of the church are free-standing Baroque-Classical statues of St. Donatus the Martyr, and of St. Florian, the patron saint of firefighters. They presumably date back to the time of the current church’s construction. They originally stood elsewhere, but were relocated to the church. The Church of St. John the Baptist has been declared a National Heritage Site."
+    }
+  }
 }

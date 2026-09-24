@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr8/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr8/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr8/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Irrigation system",
+      "text": "An important feature of the park’s architecture is its artificial water system. The artificial water system was completed in the second half of the 19th century. The largest structure was the pond in the northern part of the park. Its construction ensured a constant and even supply of water to the large waterfall, all three fountains, and the small upper crab pond. \n\n \n\nCarp farming was introduced in the large pond, and swans were also bred here in the past. There are currently three ponds in the park. A large one, a crayfish pond (crayfish were bred there in the past), and a third one below the large waterfall. \n\n \n\nAmong the water structures, the relatively long artificial water channels are also noteworthy. At the beginning of the 20th century, the network of artificial channels was considerably longer, but due to insufficient maintenance and the fact that they lost their significance, some watercourses disappeared completely. \n\n \n\nWater primarily serves an aesthetic (visual) function, but its biological significance is no less important. An optimal amount of water in all parts of the park (in every season) creates the conditions for undisturbed tree growth, and the meadows in the park also owe their greenery to a good water supply."
+    },
+    "hu": {
+      "nazov": "Öntözőrendszer",
+      "text": "A park építészetének fontos eleme a mesterséges vízrendszer. A mesterséges vízrendszer a parkban a 19. század második felében készült el. A legnagyobb építmény a park északi részén található halastó volt. Építésével biztosították a nagy vízesés, mindhárom szökőkút és a kis felső rákos halastó állandó és egyenletes vízellátását. \n\n \n\nA nagy tóban pontyokat tenyésztettek, és a múltban hattyúkat is tartottak itt. Jelenleg a park területén 3 halastó található. A nagy, a rákos (a múltban rákokat tenyésztettek itt) és a harmadik a nagy vízesés alatt. \n\n \n\nA vízi építmények közül figyelemre méltóak a viszonylag hosszú mesterséges vízmedencék is. A mesterséges medencék hálózata a 20. század elején még lényegesen hosszabb volt, de a nem megfelelő karbantartás, valamint az, hogy elvesztették jelentőségüket, miatt egyes vízfolyások teljesen megszűntek. \n\n \n\nA víz elsősorban esztétikai (optikai) funkciót tölt be, de biológiai jelentősége sem kevésbé fontos. Az optimális vízmennyiség a park minden részén (minden évszakban) megteremti a fák zavartalan növekedésének feltételeit, és a park rétjtei is a jó vízellátásnak köszönhetik zöldellő növényzetüket."
+    }
   }
 }

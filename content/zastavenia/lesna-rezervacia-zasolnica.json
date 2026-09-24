@@ -31,5 +31,11 @@
     "ru": "https://www.qrlink.sk/new/ru/lesna-rezervacia-zasolnica/",
     "pl": "https://www.qrlink.sk/new/pl/lesna-rezervacia-zasolnica/",
     "hu": "https://www.qrlink.sk/new/hu/lesna-rezervacia-zasolnica/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The forest reservation Zasolnica",
+      "text": "The forest reservation Zasolnica has been created in 1973 to protect the old carpathian oak forest. It is one of few natural reservations in the Small Beskid. Its whole area is 16 hectares. It includes zone of the Wilkowicka Magura, the area of Meadow Chrobacka and slopes of Zasolnicka Mountains."
+    }
   }
 }

@@ -146,6 +146,14 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Test 2. podkategoria enviro"
+        },
+        "hu": {
+          "nazov": "Test 2. podkategoria enviro"
+        }
+      },
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
       "urlAliasy": [
         "/category/bludisko/"
@@ -198,6 +206,14 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/betliar/info-pointy/",
         "hu": "https://www.qrlink.sk/new/hu/category/betliar/info-pointy/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Sights of the village Betliar"
+        },
+        "hu": {
+          "nazov": "A község  nevezetességei Betliar"
+        }
+      },
       "url": "/category/betliar/info-pointy/",
       "urlAliasy": [
         "/category/info-pointy/"
@@ -215,6 +231,14 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/betliar/info-strom/architektura/",
         "pl": "https://www.qrlink.sk/new/pl/category/betliar/info-strom/architektura/",
         "hu": "https://www.qrlink.sk/new/hu/category/betliar/info-strom/architektura/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Architecture"
+        },
+        "hu": {
+          "nazov": "Építészet"
+        }
       },
       "url": "/category/betliar/info-strom/architektura/",
       "urlAliasy": [
@@ -241,6 +265,14 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/ivanka-pri-dunaji/",
         "pl": "https://www.qrlink.sk/new/pl/category/ivanka-pri-dunaji/",
         "hu": "https://www.qrlink.sk/new/hu/category/ivanka-pri-dunaji/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Ivanka pri Dunaji"
+        },
+        "hu": {
+          "nazov": "Ivanka pri Dunaji"
+        }
       },
       "url": "/category/ivanka-pri-dunaji/",
       "urlAliasy": []
@@ -277,6 +309,14 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/turzovka/pamatniky-v-turzovke/",
         "hu": "https://www.qrlink.sk/new/hu/category/turzovka/pamatniky-v-turzovke/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The monuments in Turzovka"
+        },
+        "hu": {
+          "nazov": "Pamätníky v Turzovke"
+        }
+      },
       "url": "/category/turzovka/pamatniky-v-turzovke/",
       "urlAliasy": [
         "/category/pamatniky-v-turzovke/"
@@ -295,6 +335,14 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/betliar/info-strom/flora/",
         "hu": "https://www.qrlink.sk/new/hu/category/betliar/info-strom/flora/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Flora"
+        },
+        "hu": {
+          "nazov": "Flóra"
+        }
+      },
       "url": "/category/betliar/info-strom/flora/",
       "urlAliasy": [
         "/category/flora/"
@@ -312,6 +360,14 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/betliar/info-strom/",
         "pl": "https://www.qrlink.sk/new/pl/category/betliar/info-strom/",
         "hu": "https://www.qrlink.sk/new/hu/category/betliar/info-strom/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "English Park at the Andrássy Mansion in Betliar"
+        },
+        "hu": {
+          "nazov": "Angol park az Andrássy-kastélynál Betliáron"
+        }
       },
       "url": "/category/betliar/info-strom/",
       "urlAliasy": [
@@ -349,6 +405,14 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/turzovka/sakralne-pamiatky/",
         "pl": "https://www.qrlink.sk/new/pl/category/turzovka/sakralne-pamiatky/",
         "hu": "https://www.qrlink.sk/new/hu/category/turzovka/sakralne-pamiatky/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The sacral monuments in the town"
+        },
+        "hu": {
+          "nazov": "Sakrálne pamiatky"
+        }
       },
       "url": "/category/turzovka/sakralne-pamiatky/",
       "urlAliasy": [
@@ -435,6 +499,14 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/betliar/",
         "hu": "https://www.qrlink.sk/new/hu/category/betliar/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Betliar"
+        },
+        "hu": {
+          "nazov": "Betliar"
+        }
+      },
       "url": "/category/betliar/",
       "urlAliasy": []
     },
@@ -492,7 +564,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "Beskydy Euroregion",
+          "nazov": "Euroregión Beskydy",
           "popis": "Discover exceptional places on the Slovak-Czech border – towns, castles, natural beauty and cultural heritage that connects two nations."
         },
         "cs": {
@@ -500,7 +572,7 @@ const DB = {
           "popis": "Objevujte výjimečná místa na slovensko-českém pohraničí – města, hrady, přírodní krásy i kulturní dědictví, které spojuje dva národy."
         },
         "hu": {
-          "nazov": "Beszkidek Eurorégió",
+          "nazov": "Euroregión Beskydy",
           "popis": "Fedezze fel a szlovák–cseh határvidék kivételes helyszíneit – városokat, várakat, természeti szépségeket és a két nemzetet összekötő kulturális örökséget."
         }
       },
@@ -536,6 +608,14 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/frydlant/",
         "pl": "https://www.qrlink.sk/new/pl/category/frydlant/",
         "hu": "https://www.qrlink.sk/new/hu/category/frydlant/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Frýdlant"
+        },
+        "hu": {
+          "nazov": "Frýdlant"
+        }
       },
       "url": "/category/frydlant/",
       "urlAliasy": [
@@ -612,6 +692,14 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/porabka/",
         "hu": "https://www.qrlink.sk/new/hu/category/porabka/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Porąbka"
+        },
+        "hu": {
+          "nazov": "Porąbka"
+        }
+      },
       "url": "/category/porabka/",
       "urlAliasy": [
         "/porabka/"
@@ -637,6 +725,14 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/presov/",
         "pl": "https://www.qrlink.sk/new/pl/category/presov/",
         "hu": "https://www.qrlink.sk/new/hu/category/presov/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Prešov"
+        },
+        "hu": {
+          "nazov": "Prešov"
+        }
       },
       "url": "/category/presov/",
       "urlAliasy": []
@@ -687,6 +783,14 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/ruzomberok/",
         "hu": "https://www.qrlink.sk/new/hu/category/ruzomberok/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Ružomberok"
+        },
+        "hu": {
+          "nazov": "Ružomberok"
+        }
+      },
       "url": "/category/ruzomberok/",
       "urlAliasy": []
     },
@@ -710,6 +814,14 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/sokolovce/",
         "pl": "https://www.qrlink.sk/new/pl/category/sokolovce/",
         "hu": "https://www.qrlink.sk/new/hu/category/sokolovce/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Sokolovce"
+        },
+        "hu": {
+          "nazov": "Sokolovce"
+        }
       },
       "url": "/category/sokolovce/",
       "urlAliasy": []
@@ -735,6 +847,11 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/trebisov/",
         "hu": "https://www.qrlink.sk/new/hu/category/trebisov/"
       },
+      "i18n": {
+        "hu": {
+          "nazov": "Trebišov"
+        }
+      },
       "url": "/category/trebisov/",
       "urlAliasy": []
     },
@@ -758,6 +875,14 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/turzovka/",
         "pl": "https://www.qrlink.sk/new/pl/category/turzovka/",
         "hu": "https://www.qrlink.sk/new/hu/category/turzovka/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Turzovka"
+        },
+        "hu": {
+          "nazov": "Turzovka"
+        }
       },
       "url": "/category/turzovka/",
       "urlAliasy": [
@@ -785,6 +910,14 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/vranov-nad-toplou/",
         "hu": "https://www.qrlink.sk/new/hu/category/vranov-nad-toplou/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Vranov nad Topľou"
+        },
+        "hu": {
+          "nazov": "Vranov nad Topľou"
+        }
+      },
       "url": "/category/vranov-nad-toplou/",
       "urlAliasy": []
     },
@@ -808,6 +941,11 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/cierne-klacany/",
         "pl": "https://www.qrlink.sk/new/pl/category/cierne-klacany/",
         "hu": "https://www.qrlink.sk/new/hu/category/cierne-klacany/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The Čierne Kľačany’s Pyxida"
+        }
       },
       "url": "/category/cierne-klacany/",
       "urlAliasy": [
@@ -863,6 +1001,14 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/",
         "hu": "https://www.qrlink.sk/new/hu/category/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Cestovateľský denník - Klenoty v česko- slovenskom pohraničí"
+        },
+        "hu": {
+          "nazov": "Cestovateľský denník - Klenoty v česko- slovenskom pohraničí"
+        }
+      },
       "url": "/category/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/",
       "urlAliasy": [
         "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/"
@@ -915,6 +1061,14 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/naucny-chodnik-hlinene/",
         "pl": "https://www.qrlink.sk/new/pl/category/naucny-chodnik-hlinene/",
         "hu": "https://www.qrlink.sk/new/hu/category/naucny-chodnik-hlinene/"
+      },
+      "i18n": {
+        "en": {
+          "popis": "[:sk]Po stopách kulturně -přírodního dědictví česko-slovenskeho regionu[:]"
+        },
+        "hu": {
+          "popis": "[:sk]Po stopách kulturně -přírodního dědictví česko-slovenskeho regionu[:]"
+        }
       },
       "url": "/category/naucny-chodnik-hlinene/",
       "urlAliasy": [
@@ -1020,6 +1174,14 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/",
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Test 1 podkategoria enviro"
+        },
+        "hu": {
+          "nazov": "Test 1 podkategoria enviro"
+        }
       },
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/",
       "urlAliasy": [
@@ -1129,6 +1291,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr1/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr1/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Community Centre",
+          "text": "<p>The Cultural Centre was built in the 1980s and serves as a vibrant hub of cultural life in the village. The building houses a large hall with a stage and retractable seating, two club rooms, a library, and an exhibition room.</p>\n<p>The Cultural Centre is also home to the newly renovated Úsvit Cinema, which regularly screens films twice a week. It is the home stage of the amateur M-Theatre.</p>\n<p>The club rooms are regularly used by senior citizens as well as the Mama Club, which provides a space for the youngest residents and their parents. The Cultural Centre also hosts exhibitions, balls, competitions, and other social events in the village.</p>"
+        },
+        "hu": {
+          "nazov": "Kultúrház / Művelődési ház",
+          "text": "<p>A kultúrház / művelődési ház az 1980-as években épült. Színpaddal ellátott színházteremmel, nyugdíjasklubbal, könyvtárral és tárgyalóteremmel rendelkezik. A kultúrházban / művelődési házban nyilvános kulturális rendezvényeket, valamint magáncégek bemutatóit is tartják.</p>"
+        }
+      },
       "url": "/betliar-info-pointy-qr1/",
       "urlAliasy": []
     },
@@ -1158,6 +1330,16 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr2/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr2/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr2/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Roman Catholic Church of St. Elizabeth the Widow",
+          "text": "<p>A medieval building from the first half of the 14th century, renovated in the 17th and 19th centuries, the oldest monument of the village. According to available sources, a chapel stood on the site of the church as early as the 14th century, which was rebuilt into its present form over the course of history. The Gothic origin of the church is evident in its floor plan with a rectangular sanctuary vaulted with a barrel vault and a sacristy accessed through a pointed portal. The tower was added in the 17th century. The nave of the church is vaulted with Baroque vaults. Only the wooden pulpit from the early 18th century with statues of the Evangelists and a wooden statue of the Virgin Mary Queen from the second half of the 18th century have been preserved from the Baroque furnishings of the church. The main altar from the late 19th century features a painting of St. Elizabeth the Widow, while the side altar features a painting of St. Elizabeth of Hungary.</p>"
+        },
+        "hu": {
+          "nazov": "Özvegy Szent Erzsébet római katolikus templom",
+          "text": "<p>Középkori épület a 14. század első feléből, a 17. és 19. században átalakítva, a település legrégebbi műemléke. A rendelkezésre álló források szerint a templom helyén már a 14. században egy kápolna állt, amelyet a történelem során mai formájára átalakítottak. A templom gótikus eredetére utal a négyszögletes alaprajzú szentély boltívvel és szentségtartóval, amelybe egy tört bejárat vezet. A torony a 17. században épült hozzá. A templom hajója barokk boltívekkel van fedve. A templom barokk berendezéséből csak a 18. század elejéről származó fa szószék maradt fenn, amelyen az evangélisták szobrai láthatók, valamint egy fa Szűz Mária királynő szobor a 18. század második feléből. A főoltáron, amely a 19. század végéről származik, özvegy Szent Erzsébet képe látható, az oldalsó oltáron pedig Árpád-házi Szent Erzsébet magyar királyné képe.</p>"
+        }
       },
       "url": "/betliar-info-pointy-qr2/",
       "urlAliasy": []
@@ -1189,6 +1371,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr3/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr3/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Evangelical Church of the Augsburg Confession",
+          "text": "<p>The Evangelical Church of the Augsburg Confession was built in 1786 after Emperor Joseph II issued his Patent of Toleration, in accordance with the regulations of the time, without a tower or bells. The Classicist tower was added in 1826, and a new entrance to the church was opened underneath it. The original southern entrance with a brick vestibule has been preserved. The longitudinal hall of the church, vaulted with late Baroque vaults, has an interesting acute-angled closure. Here is a brick column altar with a painting of Christ and the Samaritan Woman at the Well from 1838, which is one of the best works by the important Levoča painter Jozef Czauczik. </p>\n<p>The church building and tower were damaged by fire and burned to the ground in 1856. However, it was immediately rebuilt and remained intact until 1911, when the roof of the church was covered with eternit and the tower with sheet metal. The church was renovated in 1937. The last interior renovations took place in the 1990s. In 2006, the church tower was given new copper roofing, and in 2008, the roof of the nave was replaced.</p>"
+        },
+        "hu": {
+          "nazov": "Ágostai hitvallású evangélikus templom",
+          "text": "<p>Az ágostai hitvallású evangélikus templomot 1786-ban építették II. József császár türelmi rendelete nyomán, az akkori előírásoknak megfelelően torony és harangok nélkül. A klasszicista tornyot csak 1826-ban építették hozzá, alatta a templomba új bejáratot nyitottak. Az eredeti déli bejárat a tégla előcsarnokával együtt fennmaradt. A késő barokk boltívekkel fedett, hosszúkás templomterem érdekes, éles szögben zárul. Itt található a téglából készült oszlopos oltár, amelyen Krisztus és a szamaritánus asszony a kútnál című, 1838-ból származó festmény látható, amely a jelentős levočai (lőcsi) festő, Czauczik Jozef egyik legkiemelkedőbb alkotása. </p>\n<p>A templom épületét és tornyát tűzvész sújtotta és 1856-ban porig égett. Azonban hamarosan újjáépítették, és 1911-ig sértetlenül állt, amikor a templom tetőjét palával, a tornyot pedig fémlemezzel borították. 1937-ben a templomot felújították. Az utolsó belső átalakítások a templomban a múlt század 90-es éveiben történtek, 2006-ban a templom tornya új rézborítást kapott, 2008-ban pedig a templom hajójának tetőborítását cserélték ki.</p>"
+        }
+      },
       "url": "/betliar-info-pointy-qr3/",
       "urlAliasy": []
     },
@@ -1218,6 +1410,16 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr4/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr4/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr4/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Evangelical parish",
+          "text": "<p>The Evangelical rectory is located in close proximity to the Evangelical church. It houses an apartment for the clergy and the parish office. The rectory was also the seat of the Seniorský úrad Gemerského seniorátu (Seniorate Office of Gemer). In 1998, a memorial plaque was unveiled on the front of the rectory in memory of ThDr. Július Madarás, Doctor of Theology, who worked in the village.</p>"
+        },
+        "hu": {
+          "nazov": "Evangélikus parókia",
+          "text": "<p>Az evangélikus plébánia az evangélikus templom közvetlen közelében épült. Itt található a lelkész lakása és a plébánia hivatal is. A plébánia a Seniorský úrad Gemerského seniorátu (Gömör-vidéki Szeniorátus) székhelye is volt. A parókia homlokzatán 1998-ban emléktáblát avattak ThDr. Madarás Július, a településen működő teológus doktor emlékére.</p>"
+        }
       },
       "url": "/betliar-info-pointy-qr4/",
       "urlAliasy": []
@@ -1249,6 +1451,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr5/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr5/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Fire Station",
+          "text": "<p>It is located in the center of the village on the site of a former fire station. As early as 1884, Count Andrássy Emmanuel founded a volunteer fire brigade in the village. The founder of the brigade also purchased the first firefighting equipment and gear. In 1932, a new fire station was built, which is interesting in that it stands on reinforced concrete pedestals across the entire width of the stream. It has a meeting room, garages, and space for firefighting equipment. On the occasion of the 50th anniversary of the founding of the Volunteer Fire Department in the village, the village also purchased a firefighting flag. On the front of the building, a commemorative plaque was unveiled on the occasion of the 120th anniversary of the founding of the Volunteer Fire Department in memory of its distinguished members. In a niche on the other side of the building is a statue of the patron saint of firefighters, St. Florian.</p>"
+        },
+        "hu": {
+          "nazov": "Tűzoltóállomás",
+          "text": "<p>A központban, a volt tűzoltó-raktár helyén épült. Már 1884-ben Andrássy Manó gróf önkéntes tűzoltócsapatot alapított a településen. A testület alapítója megvásárolta az első tűzoltó felszerelést és a tűzoltáshoz szükséges eszközöket is. 1932-ben új tűzoltóállomást építettek, amely azért érdekes, mert ez a patak teljes szélességében vasbeton alapokon áll. Van benne tárgyalóterem, garázsok és tűzoltó technika tárolására szolgáló helység is. A önkéntes tűzoltóság alapításának 50. évfordulója alkalmából a település tűzoltósági zászlót is szerzett. Az épület homlokzatán a 120. évforduló alkalmából emléktáblát helyeztek el a Dobrovoľný hasičský zbor (Önkéntes Tűzoltószolgálat) érdemes tagjainak emlékére. Az épület másik oldalán, egy niche-ben található a Szent Florián, tűzoltók védőszentjének szobrocskája.</p>"
+        }
+      },
       "url": "/betliar-info-pointy-qr5/",
       "urlAliasy": []
     },
@@ -1278,6 +1490,16 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr6/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr6/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr6/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Forest Administration Building",
+          "text": "<p>The Forest Administration building was originally the seat of the Andrássy family estate administrator and was built in 1900. Later, it also housed the headquarters of the 261st Artillery Unit, and since October 1934, it has been home to the State Forest and Estate Administration, which took over a large part of the Andrássy family’s property in the same year. To this day, the building houses the Forest Administration of the Slovak Republic.</p>"
+        },
+        "hu": {
+          "nazov": "Erdőigazgatási épület",
+          "text": "<p>A Správa lesov (Erdőigazgatási Épülete) eredetileg 1900-ban épült, amikor az Andrássy család vagyonkezelőjének székhelye volt. Később itt működött a 261. tüzérségi egység parancsnoksága és 1934 októberétől pedig a Správa štátnych lesov a statkov (Állami Erdő- és Birtokgazdálkodási Igazgatóság) székhelye volt, amely ugyanebben az évben átvette az Andrássy család vagyonának jelentős részét. A mai napig ebben az épületben működik a Správa lesov SR (Szlovák Köztársaság Erdőgazdálkodási Igazgatósága).</p>"
+        }
       },
       "url": "/betliar-info-pointy-qr6/",
       "urlAliasy": []
@@ -1309,6 +1531,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr7/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr7/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Municipal Office Building",
+          "text": "<p>The municipal office building is located in the center of the village and stands on the original site of the former municipal office. In the 1930s, it housed a notary’s office and a registry office. In 1943, the village decided to build a new municipal building on this site. The building acquired its present appearance after reconstruction in 1953. It houses the municipal council. On the front of the building is a commemorative plaque marking the anniversary of the liberation of the village on January 23, 1945. On February 28, 1992, on the occasion of the 110th anniversary of his birth, a memorial plaque to violin virtuoso and composer Juraj Kazamek was unveiled on this building.</p>"
+        },
+        "hu": {
+          "nazov": "Községháza",
+          "text": "<p>A községháza az egykori községháza helyén a település központjában található. A múlt század 30-as éveiben itt működött a közjegyzői hivatal és az anyakönyvi hivatal. 1943-ban a falu úgy döntött, hogy ezen a helyen új községházát épít. A mai formáját az épület az 1953-as rekonstrukciója után nyerte el. Itt székel a községi önkormányzat. Az épület homlokzatán a falu 1945. január 23-i felszabadításának évfordulójáról megemlékező emléktábla található. 1992. február 28-án, a hegedűvirtuóz és zeneszerző Kazamek Juraj születésének 110. évfordulója alkalmából az épületen emléktáblát avattak fel.</p>"
+        }
+      },
       "url": "/betliar-info-pointy-qr7/",
       "urlAliasy": []
     },
@@ -1338,6 +1570,16 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr8/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr8/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr8/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Small park",
+          "text": "<p>The small park was established after the regulation of the Krivý potok (Curved stream) at the beginning of the 20th century. It occupies the area on the right side of the stream and forms part of the village center. The park is based on a linden tree alley, complemented by majestic poplars on the stream side. Next to the alley is a park planting with a row of linden trees, conifers, and rose beds. In the central flower bed is a monument to the 675th anniversary of the village’s founding – a boulder from Volovec Hill (1263 m above sea level), which towers above the village, complemented by a commemorative plaque.</p>"
+        },
+        "hu": {
+          "nazov": "Kispark",
+          "text": "<p>A kis parkot a Krivý potok (Görbe patak) szabályozása után hozták létre a 20. század elején. A park a patak jobb oldalán helyezkedik el, és a település központjának részéhez tartozik. A park alapját egy hársfa-sétány alkotja, amelyet a patak oldalán fenséges nyárfák egészítenek ki. Az allé mellett parkosított terület található, hársfasorral, tűlevelű fákkal és rózsaágyásokkal. A központi ágyásban található a falu megalapításának 675. évfordulójára emelt emlékmű – egy szikla a Volovec-hegyről (1263 m tengerszint feletti magasság), amely a falu fölé magasodik és emléktáblával van kiegészítve.</p>"
+        }
       },
       "url": "/betliar-info-pointy-qr8/",
       "urlAliasy": []
@@ -1369,6 +1611,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr9/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr9/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Statue of St. John of Nepomuk",
+          "text": "<p>The installation of the statue of St. John of Nepomuk in this location is not mentioned in historical records. It stands in the middle of a linden tree alley in a small park, at the edge of the sidewalk. It is made of stone material – earth-colored sandstone – and stands on a concrete pillar. Due to weather and time, the surface of this monument was damaged, and the Municipal Council decided to repair it. Due to weather and age, the surface of this monument was damaged, and the municipal council decided to repair it. In 2003, they decided to entrust its restoration to academic painter Pavol Bradovka and Master of Arts Jozef Kužidlo. The missing parts of the statue’s pedestal and, in particular, the column were remodelled. The statue was ceremoniously unveiled on 7 June 2004. The reconstruction was financed by the Pro Slovakia fund and the municipality. </p>\n<p>John of Nepomuk – from Wikipedia, the free encyclopedia <a href=\"http://sk.wikipedia.org/wiki/J%C3%A1n_Nepomuck%C3%BD\">http://sk.wikipedia.org/wiki/Ján_Nepomucký</a></p>"
+        },
+        "hu": {
+          "nazov": "Nepomuki Szent János szobor",
+          "text": "<p>Az itt található Nepomuki Szent János-szobra nem szerepel a történelmi forrásokban. A szobor egy kis park lombos fasorának közepén, a járda szélén áll. Kőből, földszínű homokkőből készült, és beton oszlopon áll. Az időjárás viszontagságai és az idő múlása miatt a műemlék felülete megrongálódott, ezért a községi tanács határozatot hozott a javításáról. A restaurálási munkákat 2003-ban Bradovka Pavol akadémikus festőművészre és Kužidlo Jozefre, a művészetek mesterére bízták. A szobor talapzatát és az oszlop hiányzó részeit pótolták. A szobor ünnepélyes átadására 2004. június 7-én került sor. A felújítást a Pro Slovakia alapkezelő társaság valamint a település forrásaiból biztosították. </p>\n<p>Ján Nepomucký – a Wikipédiából, a szabad enciklopédiából <a href=\"http://sk.wikipedia.org/wiki/J%C3%A1n_Nepomuck%C3%BD\">http://sk.wikipedia.org/wiki/Ján_Nepomucký</a></p>"
+        }
+      },
       "url": "/betliar-info-pointy-qr9/",
       "urlAliasy": []
     },
@@ -1398,6 +1650,16 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr10/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr10/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr10/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Family house on Polomská Street",
+          "text": "<p>The family house at 113 Polomska Street was built at the beginning of the 20th century on the left side of the main road leading to Dobšiná. It bears the hallmarks of the architectural style of houses from the period in which it was built. It is well preserved, and the owners maintain it to the required standard. It is still inhabited today and is one of the few preserved houses from this period.</p>"
+        },
+        "hu": {
+          "nazov": "Családi ház a (Veszverési) Polomská utcában",
+          "text": "<p>A Polomska (Veszverési) utca 113. szám alatti családi ház a 20. század elején épült, a Dobšiná (Dobsina) felé vezető főút bal oldalán. Láthatóak rajta az építési munkálatok nyomai. Jó állapotban van, a tulajdonosok az elvárt szinten gondját viselik. A mai napig lakott, és ez azon kevés házak egyike, amelyek ebből a korszakból fennmaradtak.</p>"
+        }
       },
       "url": "/betliar-info-pointy-qr10/",
       "urlAliasy": []
@@ -1429,6 +1691,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr11/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr11/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Apartment building in the “Píla” (Sawmill) area",
+          "text": "<p>This original apartment building stands on the site of Count Andrássy’s sawmill, which no longer exists, on the Rožňava – Dobšiná state road. It is a single-story apartment building made of red unplastered bricks built into a wooden truss structure. It is unique and now the only completely preserved example of employee housing on the former forest estate of the Andrássy estate in the village. There were three apartment buildings in it. To this day, it is partially inhabited and continuously maintained in a habitable condition.</p>"
+        },
+        "hu": {
+          "nazov": "„Píla“ lakóház (a „Fűrésztelepen“)",
+          "text": "<p>Ez az eredeti lakóház Andrássy gróf ma már nem létező fűrésztelepének helyén áll a Rožňava / Rozsnyó – Dobšiná / Dobsina főút mellett. Ez egy vörös, vakolatlan téglából épült, fagerendás szerkezetbe falazott földszintes lakóház. Érdekes épület, és ma már ez az egyetlen teljesen megőrzött példánya a volt Andrássy-birtok erdőgazdálkodási vállalat alkalmazottai számára fenntartott lakásnak. Ebben három lakás volt. Az épület egy részét a mai napig lakják, folyamatosan karbantartott, lakható állapotban van.</p>"
+        }
+      },
       "url": "/betliar-info-pointy-qr11/",
       "urlAliasy": []
     },
@@ -1458,6 +1730,16 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr12/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr12/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr12/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Primary school building",
+          "text": "<p>The elementary school building was constructed on the street leading to the railway station in 1911 as a public school. It contained an apartment for the teacher and three large classrooms. The school grounds included utility and sanitary facilities and a large garden. In 2001, the village celebrated the 90th anniversary of its founding, and it remains in operation to this day.</p>"
+        },
+        "hu": {
+          "nazov": "Általános iskola épülete",
+          "text": "<p>Az általános iskola épülete 1911-ben épült a vasútállomás felé vezető utcán mint népiskola. Az épületben egy tanári lakás és három nagy tanterem volt. Az iskola területén gazdasági és szociális létesítmények, valamint egy nagy kert is volt. 2001-ben a település a létesítmény 90. évfordulóját ünnepelte és a mai napig működik.</p>"
+        }
       },
       "url": "/betliar-info-pointy-qr12/",
       "urlAliasy": []
@@ -1489,6 +1771,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr13/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr13/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Railway station building",
+          "text": "<p>The railway station building stands on the Rožňava – Dobšiná line. It was built in 1874 at the same time as the construction of this line, which formed the main route from Gemer and Bánréve to Dobšiná. The station building housed the transport company’s office and apartments for employees. It served its purpose until passenger transport on this line was discontinued in 2003.</p>"
+        },
+        "hu": {
+          "nazov": "Vasútállomás épülete",
+          "text": "<p>A vasútállomás épülete a Rožňava / Rozsnyó – Dobšiná / Dobsina vasútvonal mellett áll. 1874-ben épült, a vasútvonal építésével egy időben. Ez alkotta a Gömör és Bánréve közötti fő közlekedési útvonalat egészen Dobsináig. Az állomás épületében a közlekedési társaság irodája és az alkalmazottak lakásai voltak. Funkcióját 2003-ig, a személyszállítás megszűnéséig töltötte be.</p>"
+        }
+      },
       "url": "/betliar-info-pointy-qr13/",
       "urlAliasy": []
     },
@@ -1518,6 +1810,16 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr14/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr14/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr14/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Apartment buildings in Nižná Maša",
+          "text": "<p>Two-story apartment buildings from the 19th century built for employees of the former Andrássy and Nádasdy ironworks. The buildings later served as apartments for retirees of the Rimamuránska železiarska spoločnosť (Rimamuránska Ironworks). Today, they are mainly used as recreational dwellings. </p>\n<p>At the beginning of the 20th century, blast furnaces for smelting iron ore were still in operation in the area, and the remains of stone walls can still be seen nearby. Water from the Slaná River, diverted by an artificial canal that still exists today, powered the turbine of a small hydroelectric power plant until the 1950s.</p>"
+        },
+        "hu": {
+          "nazov": "Lakóházak Nižná Mašán",
+          "text": "<p>Kétemeletes lakóházak a 19. századból, amelyeket az Andrássy és Nádasdy családok egykori vasipari vállalkozásának alkalmazottai számára építettek. A házak később a Rimamuránska železiarska spoločnosť (Rimamurányaljai Vasipari Vállalat) nyugdíjasainak lakóhelyéül szolgáltak. Ma elsősorban üdülőhelyként használják őket. </p>\n<p>A 20. század elején a településen még működtek a vasérc olvasztó kemecék, amelyek kőfalai a közeli területen fennmaradtak. A Slaná (Sajó) folyóból egy mesterséges csatornán keresztül elvezetett víz még az 1950-es években is egy kis vízerőmű turbináját hajtotta.</p>"
+        }
       },
       "url": "/betliar-info-pointy-qr14/",
       "urlAliasy": []
@@ -1549,6 +1851,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr15/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr15/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Alois Šébl House",
+          "text": "<p>Alois Šébl’s house stood on the corner of the street leading from the main road to the castle. It housed a shop and the owner’s apartment. Its original appearance was lost with the construction of a new multi-storey building in 1934, which housed a shop, restaurant, and social room. The building served the citizens as a commercial and cultural center for a very long time. Today, the building has been renovated and houses the private guesthouse “Barónka.”(Baroness).</p>"
+        },
+        "hu": {
+          "nazov": "Alois Šébl háza",
+          "text": "<p>Šébl Alois háza a főútról a kastély felé vezető utca sarkán állt. Ebben volt a bolt és a tulajdonos lakása. Eredeti formáját 1934-ben elvesztette. Ekkor itt egy új emeletes épületet emeltek bolttal, étteremmel és társasági helyiséggel. Az épület nagyon sokáig a polgárok kereskedelmi és kulturális központjaként szolgált. Ma ebben a felújított épületben a „Barónka” (Bárónő) nevű magánpanzió működik.</p>"
+        }
+      },
       "url": "/betliar-info-pointy-qr15/",
       "urlAliasy": []
     },
@@ -1578,6 +1890,16 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr16/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr16/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr16/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Birthplace of Július Koššuth",
+          "text": "<p>The family home of the founder of the Pohrebné podporné združenie na Slovensku (Funeral Support Association in Slovakia) was built in the second half of the 19th century. It stands on Okružná Street, and on February 28, 1882, Július Koššuth, founder of the Pohrebné podporné združenie na Slovensku (Funeral Support Association in Slovakia), was born there. He played a major role in the development of the village and lived there his entire life. His house has undergone several renovations and its current appearance is maintained by his heirs, even though it is uninhabited.</p>"
+        },
+        "hu": {
+          "nazov": "Koššuth Július szülőháza",
+          "text": "<p>A Pohrebné podporné združenie na Slovensku (Szlovákiai Temetkezést Támogató Egyesület) alapítójának családi háza a 19. század második felében épült. Az Okružná utcában áll, és 1882. február 28-án itt született Koššuth Július, a Pohrebné podporné združenie na Slovensku (Szlovákiai Temetkezést Támogató Egyesület) egyesület alapítója, aki nagy szerepet játszott a település fejlődésében és az egész életét itt élte le. Házát többször átalakították, mai formáját az örökösei fenntartják annak ellenére, hogy a ház már lakatlan.</p>"
+        }
       },
       "url": "/betliar-info-pointy-qr16/",
       "urlAliasy": []
@@ -1609,6 +1931,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr17/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr17/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Memorial to the fallen at the local cemetery",
+          "text": "<p>The memorial to those who fell in World War I and World War II is located in the local cemetery. The new cemetery was established in 1931. So-called streets were created in it, lined with 160 planted lime trees. In the center of the cemetery, a monument in the shape of a massive cross with a marble plaque engraved with the names of citizens who died in World War I was unveiled during its consecration. A second plaque was placed on the monument after the end of World War II, engraved with the names of those who died in that war. To this day, municipal memorial ceremonies are held at the monument on important anniversaries.</p>"
+        },
+        "hu": {
+          "nazov": "Elesettek emlékműve a helyi temetőben",
+          "text": "<p>Az első és második világháborúban elesettek emlékműve a helyi temetőben található. Az új temetőt 1931-ben alapították. A temetőben úgynevezett utcákat alakítottak ki, amelyeket 160 kiültetett hársfa szegélyez. A közepén a temető felszentelésekor egy hatalmas kereszt alakú márványtáblás emlékművet avattak fel, amire az első világháborúban elesett polgárok neveit vésték. A második táblát az emlékművön a második világháború után helyezték el, és ide a második világháborúban elesettek neveit vésték. Az emlékműnél a fontos évfordulók alkalmával még ma is tartanak megemlékezéseket.</p>"
+        }
+      },
       "url": "/betliar-info-pointy-qr17/",
       "urlAliasy": []
     },
@@ -1639,6 +1971,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr18/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr18/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The farm building of Betliar Manor House",
+          "text": "<p>The building belongs to a complex of buildings from a former 19th-century farmstead, which consisted of two horse stables, an adjacent farmyard, a barn, a coachman’s house, and a separate coach house. The gables of the buildings are decorated with reliefs of horse heads. Two adjacent buildings, which are currently used as a restaurant and guesthouse, served the same purpose in the past.</p>"
+        },
+        "hu": {
+          "nazov": "A betliari (betléri) kastély gazdasági épülete",
+          "text": "<p>Az épület egy 19. századi egykori gazdaság épületegyütteséhez tartozik, amely két lóistállóból, egy szomszédos udvarból, egy pajtaépületből, a kocsis házából és egy különálló kocsiszínből állt. Az épületek oromzatát lófejek dombornyomata díszíti. A két szomszédos épület a múltban ugyanezt a célt szolgálta, amelyek jelenleg étteremként és panzióként működnek.</p>"
+        }
+      },
       "url": "/betliar-info-pointy-qr18/",
       "urlAliasy": []
     },
@@ -1661,6 +2003,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/zvonicka/",
         "pl": "https://www.qrlink.sk/new/pl/zvonicka/",
         "hu": "https://www.qrlink.sk/new/hu/zvonicka/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Bell tower",
+          "text": "<p>In the forests above the village of Betliar, there were two pilgrimage chapels in the 18th century – the Chapel of St. Anne and the Chapel of the Visitation of the Virgin Mary. Neither exists today. They stood in close proximity to one another, near the roads leading to Spiš.</p>\n<p>Both chapels were probably built at the beginning of the 18th century on the initiative of Baron Pavel Andráši and his wife, Kristína Balašová. For many years, these sacred buildings served as pilgrimage sites for the inhabitants of Betliar and the surrounding area. The annual tradition of pilgrimages held on the feast days of the chapels’ patrons was closely associated with the participation of members of the Society of Jesus from nearby Rožňava.</p>\n<p>The Chapel of the Visitation of the Virgin Mary was a larger and, arguably, more representative sacred building, as evidenced by the indulgences and privileges later granted to it.</p>\n<p>The decline of the chapels began after the Jesuit order was dissolved in 1773. The Chapel of St. Anne was already described as abandoned in 1782, while the Chapel of the Visitation of the Virgin Mary retained its role as a pilgrimage site for some time longer.</p>\n<p>The physical disappearance of both buildings probably occurred in the late 18th or early 19th century. The reasons for their decline can be attributed to insufficient financial resources and a lack of willingness to preserve them, either on the part of the parish or the members of the Andráši noble family.</p>\n<p>No remains of the masonry were found in the presumed locations of the chapels, suggesting that the building material may have been dismantled and removed, meaning that their disappearance was likely deliberate and sudden.</p>\n<p>The lost chapels above Betliar today represent a forgotten yet important chapter in the religious history of the village and the wider surrounding area, illustrating the significance of the pilgrimage tradition in the Gemer region.</p>"
+        }
       },
       "url": "/zvonicka/",
       "urlAliasy": []
@@ -1692,6 +2040,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr1/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr1/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "English Park at the Mansion",
+          "text": "<p>Thanks to its uniqueness, the English park at the Andrássy castle in Betliar was added to UNESCO’s list of artistically and culturally valuable parks in <strong>1978</strong>, and in <strong>1985</strong> it was declared a national cultural monument as a rare cultural and historical heritage site spanning several centuries.\n** </p>\n<p>It covers an area of 57 hectares, making it one of the largest maintained parks of its kind in Slovakia, with rare exotic trees, including the largest magnolia in Central Europe. Exotic trees are planted mainly around the castle and were planted in the late 19th and early 20th centuries. The current composition of trees in the park is the result <em>of long-term climatic and soil influences</em>, but <em>was mainly shaped human influence.</em> The most widespread trees are deciduous trees and shrubs. There are fewer coniferous trees planted here by humans. The oldest trees in the park are 250-300 years old. </p>\n<p>We owe the park to Count Leopold Andrássy,** who invited the renowned Empire-era landscape architect <strong>Heinrich Nebbien</strong> to his estate, where he laid the foundations for the park. (Among other things, H.N. was involved in the construction/planting of the largest city park in Budapest – Városliget.) </p>\n<p>At the main gate of the park, next to the former apartment of Director Klinck, two stone statues depicting the Greek gods Apollo and Venus stand on the pillars of the gate. These are copies, the originals have been restored and are stored in the museum’s depository.</p>"
+        },
+        "hu": {
+          "nazov": "Angol park a kastélynál",
+          "text": "<p>Az Andrássy-kastély melletti angol park Betliarban (Betlérben) egyediségének köszönhetően <strong>1978-ban</strong> felkerült az UNESCO által nyilvántartott, művészeti és kulturális értékű parkok listájára, <strong>1985-ben</strong> pedig nemzeti kulturális emlékművé nyilvánították, mint több évszázad ritka kulturális és történelmi örökségét. </p>\n<p>Területe 57 hektár, ezzel Szlovákia legnagyobb karbantartott parkja, amelyben ritka egzotikus fafajok találhatók, többek között Közép-Európa legnagyobb magnóliafája is. Az egzotikus fafajok főként a kastély környékén találhatók, és a 19. század végén és a 20. század elején ültették őket. A parkban található fák mai összetétele főként az emberi tevékenység eredménye, de szerepet játszottak a hosszú távú éghajlati hatások és a talaj összetételének változása is. A legelterjedtebb fafajok a lombhullató fák és a cserjék. Az emberek által ültetett tűlevelű fákból kevesebb van. A park legrégebbi fái 250-300 évesek. </p>\n<p>A parkot <strong>Andrássy Lipót</strong> grófnak köszönhetjük, aki annak idején meghívta birtokára az empirista korszak jelentős kertépítészét, <strong>Nebbien Henriket</strong> aki lefektette alapjait. (N.H. többek között részt vett Budapest legnagyobb városi parkjának, a Városligetnek a kiépítésében / beültetésében is.) </p>\n<p>A park főkapujánál, Klinck igazgató úr egykori lakása mellett, a kapu oszlopain két kőszobor áll, amelyek Apollónt és Vénuszt, a görög isteneket ábrázolják. Ezek másolatok, az eredeti példányok restaurálták, azóta a múzeum raktárában vannak.</p>"
+        }
+      },
       "url": "/betliar-info-strom-qr1/",
       "urlAliasy": []
     },
@@ -1721,6 +2079,16 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr2/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr2/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr2/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Rotunda",
+          "text": "<p>Immediately after entering the park, we are struck by a group of buildings on the left bank of the stream. The first is the rotunda-shaped building of the former library, which was built in 1816 by Leopold Andrássy to house the family library. In addition to family members, it was also used by members of the Malohont Learned Society. At the end of the 19th century, under Count Emanuel Andrássy, the books were moved to the manor house, to the former picture gallery. However, all the original wooden library shelves, balconies with railings, and spiral staircases remained in the rotunda, but unfortunately, they were removed and destroyed in the 1980s. Currently, this space is not in use. </p>\n<p>The library was gradually expanded by several generations of the Andrássy family, and today it contains more than 15,000 books (the most valuable of which are incunabula – first editions from before 1500). </p>\n<p>The second, undoubtedly interesting building is the gardener’s house, built in Tyrolean style, part of which is constructed with a beam frame and infill walls. The count’s laundry room was located in the basement of the house, which also included a drying room under a high roof. Today, this house provides accommodation for museum visitors and researchers. </p>\n<p>The adjacent single-story cottage, which was originally occupied by the count’s coachman, has a similar use. </p>\n<p>The path beneath these three buildings leads to a wooden footbridge over the stream and continues to an old staircase leading to a beautiful wooden well, restored to its original colors, and to the former servants’ quarters, a long building with a wooden gallery, where Dr. Günther and her relatives lived for almost four years. Today, the building is used as a museum depository, ticket office, and museum gift shop.</p>"
+        },
+        "hu": {
+          "nazov": "Rotunda",
+          "text": "<p>Mindjárt a park bejáratánál megragadja figyelmünket a patak bal partján álló épületcsoport. Az első egy rotunda alakú épület, a volt könyvtár, amelyet 1816-ban Andrássy Lipót építtetett a családi könyvtár könyveinek tárolására. A családtagokon kívül a Kishonti Tudományos Társaság tagjai is használták. A 19. század végén, Andrássy Manó gróf idején a könyveket a kastélyba, a volt képtár helyiségébe költöztették. A rotundában azonban megmaradtak az eredeti fa könyvespolcok, a korlátos tornácok és a csigalépcsők, amelyeket sajnos a 20. század 80-as éveiben eltávolítottak és megsemmisítettek. Jelenleg ez a helyiség nincs használatban. </p>\n<p>A könyvtárat az Andrássy család több generációja fokozatosan bővítette, és ma több mint 15 000 könyv található benne (a legértékesebbek közülük az inkunábulák, azaz az 1500 előtti első nyomtatványok). </p>\n<p>A második, kétségkívül érdekes épület a kertész háza, amely tiroli stílusban épült, melynek egy része gerendavázas-kitöltőfalas építésű. A ház alagsorában volt a gróf mosókonyhája, amelyhez egy magas tető alatt lévő szárító is tartozott. Ez a ház ma a múzeum látogatóinak és kutatóknak nyújt szállást. </p>\n<p>Hasonló feladatot lát el a szomszédos földszintes házikó is, amelyben eredetileg a gróf kocsisa lakott. </p>\n<p>A három épület alatt húzódó járda egy fából készült hídnál torkollik a patakba, és egy régi lépcsőhöz vezet, amely egy szép, eredeti színeiben felújított, fából készült csörlős kúthoz és a volt cselédházhoz, egy hosszú épülethez vezet, amelynek fa erkélye van, és amelyben Günther doktornő is rokonával együtt közel négy évig lakott. Ma az épületet múzeumi raktárként, pénztárként és múzeumi ajándékboltként is használják.</p>"
+        }
       },
       "url": "/betliar-info-strom-qr2/",
       "urlAliasy": []
@@ -1752,6 +2120,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr3/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr3/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Fountain",
+          "text": "<p>There are currently three fountains in the park, the most impressive of which is located directly in front of the manor house. The castle’s ceremonial courtyard (from French: “cour d’honneur”) is the area in front of the main entrance, which in Betliar Park is filled with a large fountain with a four-leaf clover shaped basin and a water jet. The fountain is surrounded by ornamental boxwood hedges. It is dominated by a female figure with wings, made of cast iron, which is washed by water from a centrally located jet, except during the winter months. It is shaped like a four-leaf clover and its central motif is a bronze statue of a sea nymph – a Nereid, daughter of the sea god Nereus (previously known as “Psyche”), created by French academic sculptor Mathurin Moreau (1822-1912).</p>\n<p>The ceremonial courtyard in front of the manor house is enclosed on the north side by three buildings of the former farmstead, two of which are now used as museum storage facilities and one of which has been converted into a private guesthouse. The fact that the Andrássy family originally bred noble horse breeds is evidenced by the stone statues of horse heads located on the gables of all three buildings. </p>\n<p>The main park road, which leads from the entrance gate directly to the castle, is marked at the entrance to the ceremonial courtyard by a pair of fluted cast iron columns, which were brought here from the former Andrássy park in Vlachovo and are used as planters with flowers. A beautiful wrought-iron gate with Renaissance ornamentation, enclosing the courtyard next to the servants’ quarters, was also brought to Betliar from Vlachovo.</p>"
+        },
+        "hu": {
+          "nazov": "Szökőkút",
+          "text": "<p>A park területén ma három szökőkút található, amelyek közül a legimpozánsabb közvetlenül a kastély előtt áll. A kastély ünnepi udvara (franciául: „cour d’honneur”) a főbejárat előtti tér, amelyet a betléri parkban egy nagy szökőkút tölt ki, négylevelű medencével és vízköpővel. A szökőkutat nyírt bukszusból kialakított díszítés keretezi. Domináns eleme egy szárnyas női alak, amely öntöttvasból készült, és a téli hónapok kivételével a központi fúvókából folyó víz mossa. Négylevelű lóhere alakú, központi motívuma egy bronz szobor, amely egy tengeri nimfát (néreiszt), Nereus tengeri isten lányát ábrázolja (korábban „Psyché” néven ismert), és amelynek szerzője a francia akadémikus szobrász Mathurin Moreau (1822-1912). </p>\n<p>A kastély előtti ünnepi udvart észak felől a régi uradalom három épülete zárja le, amelyek közül kettő ma múzeumi raktárként szolgál, egyet pedig magánpanzióvá alakították át. Az Andrássy család eredetileg nemes fajtájú lovakat tartott bennük, amit a három épület oromzatán elhelyezett kőből faragott lófejek bizonyítanak. </p>\n<p>A fő parkút, amely a bejárati kaputól közvetlenül a kastélyhoz vezet, a ünnepi udvar bejáratánál két csiszolt vasoszlop választja el, amelyeket a korábbi Andrássy-parkból hoztak ide Oláhpatakról (Vlachovo), és virágosládaként használják. Szintén Oláhpatakról hozták Betlérbe (Betliarba) a gyönyörű, reneszánsz díszítésű kovácsoltvas kaput, amely a cselédszállás épületének udvarát zárja le.</p>"
+        }
+      },
       "url": "/betliar-info-strom-qr3/",
       "urlAliasy": []
     },
@@ -1781,6 +2159,16 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr4/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr4/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr4/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Castle",
+          "text": "<p>The castle, seat of the noble Andrassy family. It was rebuilt into its present form between 1881 and 1886 and was already part of a complex of buildings at that time:</p>"
+        },
+        "hu": {
+          "nazov": "Kastély",
+          "text": "<p>A kastély az Andrássy nemesi család székhelye. Jelenlegi formájára 1881 és 1886 között épült át, és már akkor is egy épületkomplexum része volt:</p>"
+        }
       },
       "url": "/betliar-info-strom-qr4/",
       "urlAliasy": []
@@ -1812,6 +2200,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr5/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr5/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Hermes’ Well",
+          "text": "<p>This small round stone structure with a dome was built as a place to rest, relax, and refresh oneself after long walks through the park. It is designed as a cave with lighting through an opening in the dome. The appearance of the well is inspired by ancient baths with a pool and statues. The center of the composition was dominated by the slender figure of a naked young man leaning against a tree trunk entwined with vines, flanked by two amorettos sitting on dolphins and blowing conch shells. The entire scene was illuminated by a circular opening in the dome filled with colored glass. These have long since disappeared, and the stone dome has also collapsed and been replaced by a concrete one. In the early 1990s, one of the amoretto sculptures on the dolphin disappeared, and soon after, the two remaining sculptures were violently broken and are now stored in pieces in the museum’s depository. This small structure is known as Hermes’ Well; it is not known who gave it this name, because the young man in the cave was not Hermes, the god of trade and messenger of the gods, but Bacchus, the god of good wine and unrestrained celebrations – bacchanalia. <strong>Hermes’ Well is a small piece of park architecture from the 1790s.</strong></p>"
+        },
+        "hu": {
+          "nazov": "Hermész-kút",
+          "text": "<p>Ez a kis, kerek, kupolás kőépület <em>pihenőhelyként, kikapcsolódásra és felfrissülésre szolgál</em> a parkban tett hosszú séták után. Barlangként van kialakítva, a kupola nyílásán keresztül fény világlik be. A kút kinézete az ókori fürdőket idézi, medencével és szobrokkal. A kompozíció közepét egy szőlővel befuttatott fa törzsének dőlő, karcsú, mezítelen fiatal férfi alakja határozta meg, oldalán két amorett delfineken ült és kagylót fújt. Az egész jelenetet a színes üvegekkel kitöltött kupola kör alakú nyílásán át beáramló fény világította meg. Ezek már régen eltűntek, a kőkupola is leomlott, és betonnal helyettesítették. Az 1990-es évek elején először az egyik delfinen ülő amorett szobor tűnt el, majd nem sokkal később a két megmaradt szobrot is erőszakkal összetörték – darabjait a múzeum raktárában őrzik. Ez a kis építmény Hermész kútjaként ismert; nem tudni, ki adta neki ezt a nevet, mert a barlangban nem Hermész a kereskedelem istene és az istenek hírvivője volt ábrázolva,  hanem Bacchus, a jó bor és a féktelen ünnepségek – a bacchanáliák – istene. Hermész kútja egy kis parképület a <strong>18. század 90-es éveiből.</strong></p>"
+        }
+      },
       "url": "/betliar-info-strom-qr5/",
       "urlAliasy": []
     },
@@ -1841,6 +2239,16 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr6/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr6/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr6/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Freemason Pavilion",
+          "text": "<p>Above, on an island washed by two branches of a stream, stands an octagonal pavilion with windows in the shape of geometric Masonic symbols. The building was constructed at the end of the 18th century and has been rebuilt several times. It was built by Count <strong>Leopold Andrássy</strong>, who was the founder of the Masonic movement in Gemer. </p>\n<p><em>The Freemasonry movement</em> originated in England in the early 18th century and spread from there to other parts of Europe. Originally, membership in the organization was secret, but later members formed a closed society. The movement’s goals were <em>moral improvement, freedom of thought, religious tolerance, the promotion of public welfare, morality, and humanity, and, to some extent, charity.</em> </p>\n<p>The walls of the interior of the Masonic pavilion are decorated with paintings of ancient temple columns, evoking the interior of a temple. The interior once housed a white marble statue – a female torso covered with a stylized fishing net – but today, for security reasons, the statue is located in the castle. Instead, two damaged Baroque epitaphs (tombstones) are placed on the floor, which were removed from the hunting pavilion in a nearby forest (Bosniak) in the 1970s. Originally, there were five of them, all of which were restored at that time. </p>\n<p>There are quite a few trees with three and five trunks around the pavilion, which, according to some historians/experts, were planted deliberately to grow together, in order to emphasize Masonic symbolism in nature.</p>"
+        },
+        "hu": {
+          "nazov": "Szabadkőműves pavilon",
+          "text": "<p>A két patak által körülvett kis szigeten egy nyolcszögletű pavilon áll, amelynek ablakai a szabadkőművesség geometriai szimbólumait formázzák. Az épületet a 18. század végén építették, és többször átalakították. Andrássy Lipót gróf építtette, aki a gömöri  szabadkőműves mozgalom alapítója volt. </p>\n<p>A szabadkőműves mozgalom a 18. század elején alakult Angliában, majd onnan terjedt el Európa többi részére. Eredetileg a szervezet tagsága titkos volt, később a tagok zárt társaságot alkottak. A mozgalom célja az erkölcsi tökéletesedés, a gondolatszabadság, a vallási tolerancia, a közjó, <em>az erkölcs és az emberségesség emelése, valamint részben a jótékonyság</em> volt. </p>\n<p>A szabadkőműves pavilon belső falait antik templomi oszlopok festménye díszíti, amelyek egy templom belső terét idézik. A belső térben egykor fehér márványszobor állt – egy női torzó, amelyet stilizált halászháló borított –, ma azonban a szobor biztonsági okokból a kastélyban található. Helyette a padlón két sérült barokk epitáfium (sírkő) található, amelyeket a múlt század 70-es éveiben a közeli erdőben (Bosniak) álló vadászpavilon épületéből vittek el. Eredetileg öt epitáfium volt, mindet akkor restaurálták. </p>\n<p>A pavilon környékén viszonylag gyakoriak a 3- és 5-törzsű fák, amelyeket egyes történészek/szakértők szerint szándékosan azért ültettek úgy, hogy összenőjenek, ezáltal a szabadkőműves szimbolika a természetben is hangsúlyossá váljon.</p>"
+        }
       },
       "url": "/betliar-info-strom-qr6/",
       "urlAliasy": []
@@ -1872,6 +2280,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr7/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr7/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The Great Waterfall",
+          "text": "<p>The Roman Waterfall was designed by Josef Bergmann as part of a unique water system during the second major renovation of the park in the 1820s. The waterfall, which resembles the ruins of an ancient Roman aqueduct, was built in 1823. It is also unique in that it is the highest artificial waterfall in Slovakia, approximately nine meters high. </p>\n<p>The construction of the waterfall is very interesting – water is fed to the drop through a trough over a stone arch bridge (hence the local name “drop bridge”) and falls from a height of 9 m into a small lake. Below the waterfall is a cave (grotto), which was converted into a menagerie at the beginning of the 20th century. Between 1908 and 1914, the Andrássy family kept polar bears here. (This was unique for the region, as it was the first time polar bears had been kept in Central Europe.) </p>\n<p>The cave, together with a smaller lake below the waterfall, was enclosed by a strong mesh fence.The pond below the large waterfall was built around 1830 and was probably intended for breeding waterfowl, as architect Bergmann had already drawn swans on the pond in his project.</p>"
+        },
+        "hu": {
+          "nazov": "Nagy vízesés",
+          "text": "<p>A római vízesést Bergmann József tervezte egy egyedi vízrendszer részeként a park második nagy átalakítása során a 19. század 20-as éveiben. A római antik akvadukt (csatornahíd) romjait utánzó vízesést 1823-ban építették. Azáltal is egyedülálló, hogy ez a legmagasabb mesterséges vízesés Szlovákiában, magassága körülbelül kilenc méter. </p>\n<p>A vízesés felépítése nagyon érdekes – a víz egy kőboltozatos hídon keresztül érkezik a zuhataghoz (innen ered a helyi elnevezés is: „zuhanó híd“), és 9 méteres magasságból hullik alá a tóba. A vízesés alatt található egy barlang (grotta), amelyet a 20. század elején állatkertré alakítottak át. 1908 és 1914 között az Andrássy család jegesmedvéket tartott itt. (Ez a régióban egyedülálló volt- ez volt az első jegesmedve-tenyésztés Közép-Európában.) </p>\n<p>A barlangot és a vízesés alatti kisebb tavat erős rácsos kerítéssel vették körül. A nagy vízesés alatt található halastó 1830 körül épült, és valószínűleg vízimadarak tenyésztésére szánták, mivel Bergmann építész már a halastó tervrajzában is hattyúkat rajzolt a tóra.</p>"
+        }
+      },
       "url": "/betliar-info-strom-qr7/",
       "urlAliasy": []
     },
@@ -1901,6 +2319,16 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr8/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr8/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr8/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Irrigation system",
+          "text": "<p>An important feature of the park’s architecture is its artificial water system. The artificial water system was completed in the second half of the 19th century. The largest structure was the pond in the northern part of the park. Its construction ensured a constant and even supply of water to the large waterfall, all three fountains, and the small upper crab pond. </p>\n<p>Carp farming was introduced in the large pond, and swans were also bred here in the past. There are currently three ponds in the park. A large one, a crayfish pond (crayfish were bred there in the past), and a third one below the large waterfall. </p>\n<p>Among the water structures, the relatively long artificial water channels are also noteworthy. At the beginning of the 20th century, the network of artificial channels was considerably longer, but due to insufficient maintenance and the fact that they lost their significance, some watercourses disappeared completely. </p>\n<p>Water primarily serves an aesthetic (visual) function, but its biological significance is no less important. An optimal amount of water in all parts of the park (in every season) creates the conditions for undisturbed tree growth, and the meadows in the park also owe their greenery to a good water supply.</p>"
+        },
+        "hu": {
+          "nazov": "Öntözőrendszer",
+          "text": "<p>A park építészetének fontos eleme a mesterséges vízrendszer. A mesterséges vízrendszer a parkban a 19. század második felében készült el. A legnagyobb építmény a park északi részén található halastó volt. Építésével biztosították a nagy vízesés, mindhárom szökőkút és a kis felső rákos halastó állandó és egyenletes vízellátását. </p>\n<p>A nagy tóban pontyokat tenyésztettek, és a múltban hattyúkat is tartottak itt. Jelenleg a park területén 3 halastó található. A nagy, a rákos (a múltban rákokat tenyésztettek itt) és a harmadik a nagy vízesés alatt. </p>\n<p>A vízi építmények közül figyelemre méltóak a viszonylag hosszú mesterséges vízmedencék is. A mesterséges medencék hálózata a 20. század elején még lényegesen hosszabb volt, de a nem megfelelő karbantartás, valamint az, hogy elvesztették jelentőségüket, miatt egyes vízfolyások teljesen megszűntek. </p>\n<p>A víz elsősorban esztétikai (optikai) funkciót tölt be, de biológiai jelentősége sem kevésbé fontos. Az optimális vízmennyiség a park minden részén (minden évszakban) megteremti a fák zavartalan növekedésének feltételeit, és a park rétjtei is a jó vízellátásnak köszönhetik zöldellő növényzetüket.</p>"
+        }
       },
       "url": "/betliar-info-strom-qr8/",
       "urlAliasy": []
@@ -1932,6 +2360,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr9/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr9/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Olympic flame",
+          "text": "<p>Next to the sidewalk, we can see a 3.10 m high column made of calcareous tuff (foamstone). Its current name is Olympic Flame – the column allegedly once had <em>a bowl-shaped container for fire at its top</em>, which is where its current name comes from. However, we cannot say with certainty whether the column was actually built for this purpose. It is possible that the architect had the column built only to complement and diversify the (sparse) group of trees in front of the waterfall.</p>"
+        },
+        "hu": {
+          "nazov": "Olimpiai láng",
+          "text": "<p>A járda mellett látható egy 3,10 m magas, mészkőből (tajtékkő) készült oszlop. Mai neve Olimpiai tűz – az oszlop tetején állítólag egykor egy tálszerű edény volt a tűz számára, innen ered mai neve. Nem tudjuk azonban biztosan, hogy az oszlop valóban ilyen célra épült-e. Lehetséges, hogy az építész csak azért építtette az oszlopot, hogy kiegészítse és színesítse a vízesés előtti (ritka) facsoportot.</p>"
+        }
+      },
       "url": "/betliar-info-strom-qr9/",
       "urlAliasy": []
     },
@@ -1961,6 +2399,16 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr10/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr10/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr10/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Japanese Bridge",
+          "text": "<p>Also known locally as the “Kalapový most“ („Hut Bridge”), it was built during the second half of the 1880s, when East Asian elements were beginning to influence our culture. The wooden structure has a hat-shaped tin roof with raised edges, typical of Japanese gazebos. </p>\n<p>The original bridge was destroyed by a flood in 1971, and a faithful replica was built in 1979. (According to some sources, there was a Japanese garden on the left bank of the stream).</p>"
+        },
+        "hu": {
+          "nazov": "Japán híd",
+          "text": "<p>A helyiek által „Kalapos híd” néven emlegetett híd a kelet-ázsiai elemek kultúránkra való ráhatásának idején, a 19. század második felében épült. A fa szerkezeten kalap alakú fémtető található, emelt szélekkel, amelyek a japán pavilonokra jellemzőek. </p>\n<p>Az eredeti hidat 1971-ben elsodorta a víz, majd 1979-ben építették meg a híd pontos mását. (Egyes adatok szerint a patak bal partján japán kert volt.)</p>"
+        }
       },
       "url": "/betliar-info-strom-qr10/",
       "urlAliasy": []
@@ -1992,6 +2440,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr11/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr11/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Chinese Pavilion",
+          "text": "<p>It has an <em>octagonal floor plan</em> with a domed roof, is made of sheet metal, and was used for storing sports equipment and for relaxation. It was built in the first half of the 1880s.</p>"
+        },
+        "hu": {
+          "nazov": "Kínai pavilon",
+          "text": "<p>Alaprajza nyolcszög alakú, kupolás tetővel, fémlemezből készült, sporteszközök tárolására és pihenésre szolgált. Az 19. század 80-as évek első felében épült.</p>"
+        }
+      },
       "url": "/betliar-info-strom-qr11/",
       "urlAliasy": []
     },
@@ -2021,6 +2479,16 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr12/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr12/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr12/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Sculptures",
+          "text": "<p>In the past, there were several sculptures in the park, some of which were made according to designs by 19th-century French sculptors. In 2005, three rare sculptures were stolen: a statue of Knight Árpád (very beautiful), a rare Buddha statue that disappeared from in front of the ticket office (located near the fountain), and a statue of a black man that was cast in the ironworks in Drnava.</p>"
+        },
+        "hu": {
+          "nazov": "Szobrászat",
+          "text": "<p>A múltban a parkban több szobor is állt, melyek közül néhányat 19. századi francia szobrászok tervei alapján készítettek. 2005-ben három értékes szobrot tulajdonítottak el: Árpád lovag szobrát (nagyon szép), egy értékes Buddha-szobrot, amely a pénztár előtt (a szökőkút közelében) állt, valamint egy néger ember szobrát, amelyet a dernői vasműben öntöttek.</p>"
+        }
       },
       "url": "/betliar-info-strom-qr12/",
       "urlAliasy": []
@@ -2052,6 +2520,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr13/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr13/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Large pond",
+          "text": "<p>It was built in the 1880s and covers an area of 4750 m2. There is a landing stage on the pond, and a wooden bridge leads from the shore to a small gazebo.</p>"
+        },
+        "hu": {
+          "nazov": "Nagy halastó",
+          "text": "<p>A 19. század 80-as éveiben épült, területe 4750 m2. A tó partján kikötő található, a partról egy fahíd vezet a kis pavilonhoz.</p>"
+        }
+      },
       "url": "/betliar-info-strom-qr13/",
       "urlAliasy": []
     },
@@ -2081,6 +2559,16 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr14/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr14/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr14/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Animal Farm",
+          "text": "<p>Next to a large pond (about 20 meters north), you can find a game reserve built at the end of the 19th century, reminiscent of a medieval castle. The Andrássy family kept brown bears, lynxes, otters, martens, badgers, and mouflons in the enclosure. </p>\n<p>Today, the game reserve is abandoned – the animals were released into the wild. (During World War II)</p>"
+        },
+        "hu": {
+          "nazov": "Állatkert",
+          "text": "<p>A nagy halastó mellett (kb. 20 m-re északra) található egy vadászterület, amelyet a 19. század végén építettek, és amely egy középkori várat idéz. Az Andrássy család barna medvéket, hiúzokat, vidrákat, nyesteket, borzokat és a karámban muflonokat is tartott itt. </p>\n<p>Ma a vadászterület elhagyatott – az állatokat szabadon engedték (a második világháború idején).</p>"
+        }
       },
       "url": "/betliar-info-strom-qr14/",
       "urlAliasy": []
@@ -2112,6 +2600,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr15/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr15/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Bosniak / Bosnia bar",
+          "text": "<p>It consists of two towers and a ground floor structure between them. The building is now in ruins after a fire. </p>\n<p>According to legends and expert opinion, some parts of it are very old, but the structure is not marked on any older maps. Research suggests that the building was constructed in several stages, as evidenced by the different types of mortar, stone, and varying brick sizes. The individual parts of the building were therefore created in different time periods (and also in different artistic styles). Based on the different floor plans of the towers, it can be concluded that one (southeast) played role in observation and the other (northwest) in defense. </p>\n<p>In the 19th century, the building served Count Emanuel I Andrássy as a space for displaying his exotic trophies.</p>"
+        },
+        "hu": {
+          "nazov": "Bosniak / Bosznia bar",
+          "text": "<p>Két toronyból és a közöttük lévő földszinti épületből áll. Az épület ma már a tűzvész után csak romjaiban lelhető fel. </p>\n<p>A mondák és a szakértők véleménye szerint egyes részei nagyon régiek, de az építmény egyetlen régebbi térképen sem szerepel. A kutatások szerint az épület több építési szakaszban épült, amit a különböző típusú habarcs, kövek és a téglák eltérő méretei is bizonyítanak. Az épület egyes részei tehát időileg (és művészileg is) különböző korszakokban készültek. A tornyok eltérő alaprajza alapján feltételezhető, hogy az egyik (a délkeleti) a felderítést, a másik (az északnyugati) pedig a védekezést szolgálta. </p>\n<p>A 19. században az épület I. Andrássy Manó gróf egzotikus trófeáinak kiállítótermeként szolgált.</p>"
+        }
+      },
       "url": "/betliar-info-strom-qr15/",
       "urlAliasy": []
     },
@@ -2141,6 +2639,16 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr16/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr16/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr16/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Black pine",
+          "text": "<p>In the park south of the manor house, about 7 m from the farm building, it is about 25 m high and we estimate that it is more than 200 years old (approx. 220). A tall and sturdy tree, very widespread in Central Europe, the Balkans, and the Mediterranean.</p>"
+        },
+        "hu": {
+          "nazov": "Feketefenyő",
+          "text": "<p>A kastélytól délre fekvő parkban, körülbelül 7 méterre a gazdasági épülettől, magassága körülbelül 25 méter, és feltételezzük, hogy több mint 200 éves (nagyjából 220). Magas és erőteljes fa, nagyon elterjedt Közép-Európában, a Balkánon és a Földközi-tengeren.</p>"
+        }
       },
       "url": "/betliar-info-strom-qr16/",
       "urlAliasy": []
@@ -2172,6 +2680,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr17/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr17/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Douglas fir",
+          "text": "<p>It originates from western North America, where it forms continuous stands in some mountain ranges. It reaches a height of up to 80 m and grows rapidly. </p>\n<p>There are several Douglas firs growing in the park, the most beautiful and probably the oldest specimen being a solitary Douglas fir in a forest clearing west of the castle. It is over 30 meters tall. We estimate that it may be over 200 years old. It was probably planted in the early 19th century, is nicely grown, and has a wide conical crown. It blooms regularly and produces cones.</p>"
+        },
+        "hu": {
+          "nazov": "Amerikai duglászfenyő",
+          "text": "<p>Észak-Amerika nyugati részéről származik, ahol egyes hegyvidékeken összefüggő erdőket alkot. Magassága elérheti a 80 métert – gyorsan nő. </p>\n<p>A parkban több douglasfenyő is nő, a legszebb és valószínűleg a legidősebb példány egy magányos douglasfenyő a kastélytól nyugatra fekvő erdei tisztáson. Magassága több mint 30 m. Becslésünk szerint több mint 200 éves lehet. Valószínűleg a 19. század első éveiben ültették, szép nagyra nőtt, koronája széles, kúpos. Rendszeresen virágzik, és tobozokat terem.</p>"
+        }
+      },
       "url": "/betliar-info-strom-qr17/",
       "urlAliasy": []
     },
@@ -2201,6 +2719,16 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr18/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr18/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr18/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Canadian hemlock",
+          "text": "<p>It originates from the colder parts of North America and is a broad conical tree with a beautiful branching pattern, fine texture, and dark green color. The first seeds arrived in Europe around 1736 and since then it has been cultivated as a decorative, frost-resistant tree. In our park, mixed forest trees grow in close proximity to the Canadian hemlock, which significantly limits its space.</p>"
+        },
+        "hu": {
+          "nazov": "Kanadai hemlokfenyő",
+          "text": "<p>Észak-Amerika hidegebb részeiről származik, széles kúpos koronájú, szépen szerteágazó fa, finom textúrájú és sötétzöld színű. Az első magok körülbelül 1736-ban kerültek Európába, és azóta fagyálló díszfaként termesztik. Parkunkban a kanadai hemlokfenyő közelében vegyes erdő található, amely jelentősen korlátozza a terét.</p>"
+        }
       },
       "url": "/betliar-info-strom-qr18/",
       "urlAliasy": []
@@ -2232,6 +2760,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr19/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr19/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "London plane",
+          "text": "<p>London plane trees are widespread in southeastern Europe, North America, and Mexico. Plane trees are massive trees with broad, spreading crowns. There is one London plane tree in the park of Betliar, but it is surrounded by a chestnut tree, a blue spruce, and a continuous forest on two sides. Under such conditions, it is not surprising that the plane tree lags behind in growth and its crown does not resemble that of other plane trees at all.</p>"
+        },
+        "hu": {
+          "nazov": "Közönséges platánfa",
+          "text": "<p>A közönséges platánfák Délkelet-Európában, Észak-Amerikában és Mexikóban is elterjedtek. A platánfák hatalmas fák, széles, lombos koronával. A betléri parkban egy darab közönséges platán található, de a közelében szelídgesztenyegesztenyefa és szúrós luc is nő, és két oldalról összefüggő erdő veszi körül. Ilyen körülmények között nem meglepő, hogy a platán növekedésben lemarad, és lombkoronája egyáltalán nem hasonlít a platánokéra.</p>"
+        }
+      },
       "url": "/betliar-info-strom-qr19/",
       "urlAliasy": []
     },
@@ -2261,6 +2799,16 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr20/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr20/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr20/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Japanese cherry (sakura)",
+          "text": "<p>It is a tree similar to cherry and originates from East Asia (China, Japan). It grows up to 20 meters high. </p>\n<p>There are four trees of this species growing in the park, two near the northeast tower of the manor house, in the backdrop of the northeast view, and another two on the clearing north of the manor house.</p>"
+        },
+        "hu": {
+          "nazov": "Japáncseresznye (sakura)",
+          "text": "<p>Ez egy cseresznyéhez hasonló fa, amely Kelet-Ázsiából (Kína, Japán) származik. Magassága elérheti a 20 métert. </p>\n<p>A parkban 4 fa nő ebből a fafajból, kettő a kastély északkeleti tornya mellett, a keleti kilátó mögött, a másik kettő pedig a kastélytól északra fekvő tisztáson.</p>"
+        }
       },
       "url": "/betliar-info-strom-qr20/",
       "urlAliasy": []
@@ -2292,6 +2840,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr21/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr21/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Pedunculate oak",
+          "text": "<p>It has a dense columnar to broom-like crown. It is planted in three locations in the park: near the Masonic pavilion, in the northeast view, and on the meadow east of the manor house. The trees were planted in the middle of the last century (around 1960).</p>"
+        },
+        "hu": {
+          "nazov": "Kocsányos tölgy",
+          "text": "<p>Sűrű, oszlopos, seprűalakú lombkoronája van. A parkban három helyen ültették: a szabadkőműves pavilonnál, az északkeleti kilátónál és a kastélytól keletre fekvő réten. A fákat a múlt század közepén (1960 körül) ültették.</p>"
+        }
+      },
       "url": "/betliar-info-strom-qr21/",
       "urlAliasy": []
     },
@@ -2321,6 +2879,16 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr22/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr22/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr22/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "American linden",
+          "text": "<p>It originates from North America and grows to a height of 30-40 m. It is a massive tree with a broad conical crown. There are several American lindens in the park. The most beautiful ones are located on the left bank of the Betliarský stream in a meadow with white pines. Others are to the right of the second fountain and near the large waterfall.</p>"
+        },
+        "hu": {
+          "nazov": "Amerikai hárs",
+          "text": "<p>Észak-Amerikából származik, 30-40 m magasra nő. Hatalmas fa, széles kúpos koronával. A parkban több amerikai hársfa is található. A legszebbek a Betlér-patak bal partján, a simafenyőkkel borított réten találhatók. Továbbiak a második szökőkút jobb oldalán és a nagy vízesésnél találhatók.</p>"
+        }
       },
       "url": "/betliar-info-strom-qr22/",
       "urlAliasy": []
@@ -2352,6 +2920,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr23/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr23/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "American tulip tree",
+          "text": "<p>Relatively young trees, the lily tree has very rare wood, which is used, for example, to make musical instruments. The flowers resemble small tulips, hence the name.</p>"
+        },
+        "hu": {
+          "nazov": "Amerikai tulipánfa",
+          "text": "<p>Ezek viszonylag fiatal fák, amelyek nagyon értékes faanyaggal rendelkezik, amelyből például hangszereket is gyártanak. Virágai kis tulipánokra emlékeztetnek, ezért kapta ezt a nevet.</p>"
+        }
+      },
       "url": "/betliar-info-strom-qr23/",
       "urlAliasy": []
     },
@@ -2381,6 +2959,16 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr24/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr24/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr24/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Ginkgo biloba",
+          "text": "<p>This tree is probably native to eastern China and has been cultivated in East Asia since ancient times, mainly <em>around Buddhist temples</em> <em>(it was a sacred tree of the ancient Chinese),</em> where trees over 1,000 years old can be found. Ginkgo was imported to Europe around 1730. It grows to a height of 30 meters and can live up to 2,000 years. Its leaves have beneficial and healing properties.</p>"
+        },
+        "hu": {
+          "nazov": "Páfrányfenyő",
+          "text": "<p>Ez a fa valószínűleg Kelet-Kínából származik, ősidők óta termesztik Kelet-Ázsiában, <em>főleg buddhista templomok körül (az ókori kínaiak szent fája volt),</em> ahol több mint ezeréves fák is megtalálhatók. Európába a ginkót 1730 körül hozták be. Magassága eléri a 30 métert, és akár  2000 évet is megérhet. Levelei jótékony és gyógyító hatással bírnak.</p>"
+        }
       },
       "url": "/betliar-info-strom-qr24/",
       "urlAliasy": []
@@ -2412,6 +3000,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr25/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr25/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Norway spruce",
+          "text": "<p>It is remarkable mainly because its branches are conically thickened up to a height of about 4 m. At a height of 4 m, the warty thickenings gradually decrease in size until they disappear completely. (There are two other spruce trees growing in the park that have warty thickened branch bases, but less so than the spruce described above).</p>"
+        },
+        "hu": {
+          "nazov": "Közönséges lucfenyő",
+          "text": "<p>Különösen azért figyelemre méltó, mert körülbelül 4 méteres magasságig a ágak kúposan megvastagodtak. A négy méteres magasságban a törzsön a szemölcsszerű megvastagodások fokozatosan csökkennek, majd teljesen eltűnnek. (A parkban további két, azonos fajtájú lucfenyő nő, amelyeknél az ágak tövénél is fellelhetőek a szemölcsszerű megvastagodások, de kevésbé, mint a leírt fenyőnél).</p>"
+        }
+      },
       "url": "/betliar-info-strom-qr25/",
       "urlAliasy": []
     },
@@ -2441,6 +3039,16 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr26/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr26/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr26/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Dahurian larch",
+          "text": "<p>One of the oldest and largest Dahurian spruce trees in Slovakia.</p>"
+        },
+        "hu": {
+          "nazov": "Dahúr-féle vörösfenyő",
+          "text": "<p>Az egyik legrégebb és legnagyobb Dahúr-féle vörösfenyő Szlovákia területén.</p>"
+        }
       },
       "url": "/betliar-info-strom-qr26/",
       "urlAliasy": []
@@ -2472,6 +3080,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr27/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr27/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Norway maple",
+          "text": "<p>A tree belonging to the maple family, which has about 120 species. The Norway maple is a 20-30 m tall tree and its leaves shed milk when broken. In the past, sugar was produced from maple sap, and today it is used to make syrups. <em>It is often planted in city parks.</em> </p>\n<p>The most beautiful maples stand in the meadow in front of the castle and in the meadow behind the castle.</p>"
+        },
+        "hu": {
+          "nazov": "Platánlevelű juhar",
+          "text": "<p>A juharfélék családjába tartozó fa, amelynek körülbelül 120 faja létezik. A platánlevelű juhar 20-30 m magas fa, levelei töréskor tejet bocsátanak ki. Régen a juharfa nedvéből cukrot állítottak elő, ma pedig szirupokat készítenek belőle. Gyakran ültetik városi parkokba. </p>\n<p>A legszebb juharfák a kastély előtti és mögötti réten állnak.</p>"
+        }
+      },
       "url": "/betliar-info-strom-qr27/",
       "urlAliasy": []
     },
@@ -2501,6 +3119,16 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr28/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr28/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr28/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Southern catalpa",
+          "text": "<p>It grows to a height of about 15 m and has a conical, irregular crown. It blooms in summer (June-July). There are several catalpa trees growing in the park, the most beautiful of which can be found in the left background of the northwestern view, with massive spruce trees in the background. During flowering, it has very pretty flowers, and brides often come to the park to take pictures beneath this tree.</p>"
+        },
+        "hu": {
+          "nazov": "Szívlevelű szivarfa",
+          "text": "<p>Körülbelül 15 méter magasra nő, koronája kúpos és szabálytalan. Nyáron (június-július) virágzik. A parkban több szívlevelű szivarfa is nő, a legszebbek a bal oldali északnyugati kilátóból láthatóak, a háttérben hatalmas lucfenyőkkel. Virágzáskor nagyon szép virágai vannak, és gyakran fényképezkednek alatta a menyasszonyok.</p>"
+        }
       },
       "url": "/betliar-info-strom-qr28/",
       "urlAliasy": []
@@ -2532,6 +3160,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr29/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr29/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Horse chestnut",
+          "text": "<p>The horse chestnut tree is very common in the park of Betliar. They were planted not only for aesthetic reasons, but also because their crops served as food for big game. </p>\n<p>The chestnut alley is about 1600 m long and has more than 600 trees (approx. 650). The trees were planted before the end of the 19th century. (1895)</p>"
+        },
+        "hu": {
+          "nazov": "Közönséges vadgesztenye",
+          "text": "<p>A betléri parkban a vadgesztenyefa nagyon elterjedt- nemcsak esztétikai okokból ültették, hanem azért is, mert termése a nagyvadak táplálékául szolgált. </p>\n<p>A vadgesztenyefasor körülbelül 1600 m hosszú, és több mint 600 fa (nagyjából 650) található benne. A fákat a 19. század vége előtt ültették. (1895)</p>"
+        }
+      },
       "url": "/betliar-info-strom-qr29/",
       "urlAliasy": []
     },
@@ -2561,6 +3199,16 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr30/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr30/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr30/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Red-leaved beech",
+          "text": "<p>It is a cultivar (variety) of European beech, with red leaves after sprouting, which later darken. Red-leaved beeches grow in several places in the park, either individually or in groups. Beautiful specimens grow in the meadow in front of the manor house. <em>We estimate all red-leaved beeches to be between 140 and 150 years old.</em></p>"
+        },
+        "hu": {
+          "nazov": "Vérbükk (Fagus sylvatica f. Purpurea)",
+          "text": "<p><em>Ez a hegyi bükk egyik fajtája, rügyezés (hajtás) után vörös levelei vannak, később sötétednek. A parkban több helyen nőnek vöröslevelű bükkök, akár egyedül, akár csoportokban. Gyönyörű példányok nőnek a kastély előtti réten. Az összes vöröslevelű bükk korát 140-150 évre becsüljük.</em></p>"
+        }
       },
       "url": "/betliar-info-strom-qr30/",
       "urlAliasy": []
@@ -2592,6 +3240,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr31/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr31/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Japanese zelkova",
+          "text": "<p>It originates from Japan and was imported to Europe around 1860. It grows to a height of 30 m. It has a short trunk and a spreading crown with slightly drooping branches.&lt; </p>\n<p>It is a rare tree in local parks (another one can be found in the botanical garden in Banská Štiavnica).</p>"
+        },
+        "hu": {
+          "nazov": "Japán gyertyánszil",
+          "text": "<p>Japánból származik, Európába körülbelül 1860-ban hozták be. 30 méter magasra is megnőhet. Rövid törzse, széles lombkoronája és enyhén lelógó ágai vannak. </p>\n<p>A helyi parkokban ritkán találhatjuk (egy másik példány a Banská Štiavnica-i – selmecbányai botanikus kertben található).</p>"
+        }
+      },
       "url": "/betliar-info-strom-qr31/",
       "urlAliasy": []
     },
@@ -2621,6 +3279,16 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr32/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr32/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr32/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Cucumber tree (Blue magnolia)",
+          "text": "<p>It originates <em>from North America and East Asia</em>, where about 30 species grow. The tree is 20 to 30 m tall, with a conical crown and elongated leaves. </p>\n<p>There is one specimen growing in the park, which has favorable conditions for growth (not very demanding on the soil and with sufficient moisture) and has therefore grown to remarkable dimensions – one of the largest magnolias of its kind in Central Europe. </p>\n<p>The magnolia was planted in our park at the beginning of the 20th century (1900s), and the seedling was brought to Betliar from Moravia. The gardener at the time tried to propagate it vegetatively, which is why it has branches that grow straight up. In 2018, the tree participated in the Tree of the Year competition, in which it took a respectable third place.</p>"
+        },
+        "hu": {
+          "nazov": "Hegyeslevelű liliomfa",
+          "text": "<p>Észak-Amerikából és Kelet-Ázsiából származik, ahol körülbelül 30 fajtája nő. A fa 20-30 m magas, kúpos koronával és hosszúkás levelekkel rendelkezik. </p>\n<p>A parkban egy példány található, amely kedvező növekedési feltételekkel rendelkezik (nem igényel különleges talajt, továbbá elegendő nedvességre van szüksége), ezért figyelemre méltó méretűre nőtt – Közép-Európában ez az egyik legnagyobb magnólia a fajtájából. </p>\n<p>A magnólia a 20. század elején (1900-as évek) került a parkba, a palántát Morvaországból hozták Betliarba (Betlérbe). Az akkori kertész vegetatív úton próbálta szaporítani, ezért ágai egyenesen felfelé nőnek. 2018-ban a fa részt vett az Év fája versenyen, ahol a szép harmadik helyet szerezte meg.</p>"
+        }
       },
       "url": "/betliar-info-strom-qr32/",
       "urlAliasy": []
@@ -2652,6 +3320,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr33/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr33/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Common yew",
+          "text": "<p>Yews are among our darkest coniferous trees. All parts of the fruit except the pulp are poisonous. They grow even in dark places and are undemanding in terms of soil. </p>\n<p>Yew is a European tree, popularly grown in parks and gardens, and is suitable not only for natural parks but also for architectural parks, as it tolerates pruning well and can be shaped. </p>\n<p>In our park, on the road to Hermes’ Well, there are nine yews, said to be very old. Their <em>exact age is difficult to determine</em> because after 200 to 250 years, their branches begin to grow into a single thicker trunk. Although the thickness of the trunks varies, all nine yews were planted at the same time and we estimate that they are over 300 years old.</p>"
+        },
+        "hu": {
+          "nazov": "Közönséges tiszafa",
+          "text": "<p>A tiszafa az egyik legsötétebb tűlevelű fafajunk. Termésének minden része, kivéve a húsát, mérgező. Sötét helyeken is nő, talajigénye alacsony. </p>\n<p>A tiszafa európai fafaj, előszeretettel termesztik parkokban és kertekben. Nemcsak természetes, hanem építészeti parkokba is alkalmas, mert jól viseli a metszést és formálható. </p>\n<p>Parkunkban, a Hermész-kút felé vezető út mellett 9 tiszafa nő, állítólag nagyon öregek. Pontos korukat nehéz meghatározni, mert ágai 200-250 év után egy vastagabb törzsbe nőnek össze. Bár a törzsek vastagsága eltérő, mind a 9 tiszafa egyidejűleg volt ültetve, és becslésünk szerint több mint 300 évesek.</p>"
+        }
+      },
       "url": "/betliar-info-strom-qr33/",
       "urlAliasy": []
     },
@@ -2681,6 +3359,16 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr34/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr34/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr34/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "White pine",
+          "text": "<p>A tall tree native to North America, where it grows to a height of 50 m, and in some cases even 80 m. It has been cultivated in Europe since 1705. Today, it is a very common tree (species) in our parks because it grows quickly and mature specimens have beautiful crowns. According to experts, the white oaks in Betliar Park have very good conditions for growth and development.</p>"
+        },
+        "hu": {
+          "nazov": "Simafenyő",
+          "text": "<p>Magas fa, Észak-Amerikából származik, ahol 50 m magasra nő, egyes esetekben mérete akár a 80 m-t is elérheti. Európában 1705 óta termesztik. Manapság parkjainkban nagyon elterjedt fa (faj), mert gyorsan nő, és a kifejlett példányok gyönyörű koronával rendelkeznek. Szakértők véleménye szerint a betléri park fehérfenyői nagyon jó feltételekkel rendelkeznek a növekedéshez és fejlődéshez.</p>"
+        }
       },
       "url": "/betliar-info-strom-qr34/",
       "urlAliasy": []
@@ -2901,6 +3589,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/obec-ivanka-pri-dunaji/",
         "hu": "https://www.qrlink.sk/new/hu/obec-ivanka-pri-dunaji/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Ivanka pri Dunaji",
+          "text": "<p>Ivanka pri Dunaji lies in the district of Senec in the southwest of Slovakia, bordering the capital, Bratislava. It has a growing population, which is largely due to an influx of newcomers drawn to the town because of its attractive location. The town covers a total area of 1,425 ha, and its nearest neighbours are Bernolákovo to the east, Zálesie and Most pri Bratislave to the south, and Chorvátsky Grob and Svätý Jur to the north. It borders Bratislava to the west, specifically the boroughs of Vajnory and Ružinov, while it is only 12 km from Ivanka to the centre of Bratislava. Part of the landing runway at M.R. Štefánik airport falls within the cadastral boundaries of the town. Ivanka pri Dunaji is located within the plains of the Podunajská nížina lowlands at 133 metres above sea level. The nearest mountains, roughly 15 km north of the town, are the Small Carpathians. Ivanka pri Dunaji is a member of the Slovak Association of Towns and Villages and co-operates with neighbouring local governments within the Podunajsko Regional Association.</p>\n<p>The town’s main transport connections are the Route I-61 from Bratislava to Senec, and the 130 train line from Bratislava to the town of Nové Zámky. The Bratislava – Trnava D1 motorway, which can be joined in Vajnory and Senec, cuts through the northern part of the town’s territory. A section of the D4 motorway, which is part of the Bratislava bypass, also lies within Ivanka’s boundaries. The town is a favourite site for cyclists because of its many marked cycling trails and newly-built local bike paths.</p>\n<p>Ivanka has a temperate continental climate, being located in a warm, dry climate zone with mild winters. The main waterway in Ivanka is the Šúrsky kanál. Construction of the canal, which was designed as an artificial waterway to divert and drain the moorlands near Svätý Jur, began in 1941. The 15.62-kilometre-long canal is fed by streams flowing from the Small Carpathians, as well as water from wastewater treatment plants, before it flows into the Small Danube. Forests, mainly riparian lowland, cover 135 ha of the town’s area.</p>",
+          "audio": [
+            "/assets/audio/migrated/ivanka-aj.mp3"
+          ]
+        }
+      },
       "url": "/obec-ivanka-pri-dunaji/",
       "urlAliasy": []
     },
@@ -2930,6 +3627,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kastiel-a-park-v-ivanke-pri-dunaji/",
         "pl": "https://www.qrlink.sk/new/pl/kastiel-a-park-v-ivanke-pri-dunaji/",
         "hu": "https://www.qrlink.sk/new/hu/kastiel-a-park-v-ivanke-pri-dunaji/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The Chateau and Park in Ivanka pri Dunaji",
+          "text": "<p>At the centre of the village lies its historically most significant secular building – the Ivanka chateau. The building is today much altered in appearance from the time of its original construction.</p>\n<p>Construction of the chateau was begun by Antal Grassalkovich I, the president of the Hungarian Royal Chamber, after 1763. Because his palace in Bratislava was being finished at the same time, it is thought that the same architect, Mayerhoffer, was involved in the construction of his countryside residence in Ivanka.</p>\n<p>The chateau was in the hands of the Grassalkovich family until 1841 when, after its male line died out upon the death of Antal III, it was put up for auction.</p>\n<p>The chateau and its property were bought by Mihailo Obrenović, a Serb Count – and for a short time the reigning Prince of Serbia – who lived in exile in Austria in 1842-1858. He set up his countryside residence in Ivanka. In 1853, Obrenović married a Hungarian aristocrat, Countess Julia Hunyady. In 1855, Ľudovít Štúr, who was living under police guard in Modra, visited Obrenović in secret at the chateau – a meeting marked by a plaque in front of the chateau. The chateau was renovated by Obrenović in 1856 following the great fire of Ivanka. The southwest wing of the building was pulled down and replaced with a tower which served as a water tower. At the start of the 20th century the new owners, the Hunyady family, renovated the chateau in a mixture of Neogothic and Art Nouveau styles. In its current form, the building is modelled on medieval architecture with its façade displaying a combination of Romanesque and Gothic features. The chateau was originally surrounded by an extensive French formal park.</p>\n<p>In 1943, Jesuits moved into the property, having bought it from Count Hunyady, and turned it into a dormitory for young students from their secondary school in Bratislava. In 1948, the building was expropriated by the communists, passing into the hands of the Department of Agriculture. After 1989, it was returned to the Jesuits. The building was renovated and is currently home to the Anton Neuwirth Collegium, an educational institution founded along the lines of traditional Oxford colleges. The collegium offers a two-year programme for university students focused on philosophy, the relationship between Christianity and culture, and personal growth.</p>\n<p>Because of its great architectural and historical value, the chateau and park have been declared a National Heritage Site.</p>"
+        }
       },
       "url": "/kastiel-a-park-v-ivanke-pri-dunaji/",
       "urlAliasy": [
@@ -2963,6 +3666,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kostol-sv-jana-krstitela/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-sv-jana-krstitela/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The Church of St. John the Baptist",
+          "text": "<p>One of the most prominent, and oldest, buildings in the village is the Church of St. John the Baptist. A church stood on this site as far back as the Middle Ages, probably in the 12th century. But in 1770 Antal Grassalkovich I began construction of a new church, which was completed two years later by his son Antal II. It owes its current appearance to Mihailo Obrenović, who in the second half of the 19th century, following a great fire in the village, had its tower raised and renovated the building, giving it its current Baroque-Classical style. The front of the church is dominated by a tower with a clock, which is topped by a tall pyramidal spire with a cross. Inside the church the nave is separated from the sanctuary by a triumphal arch. The pillars of the northern section of the nave hold the organ gallery, which was expanded into the nave in 1948. Original illusionistic Baroque paintings of the Assumption of the Blessed Virgin Mary and the Ascension of Jesus Christ, which had been painted over during the 20th century, adorn the vaults of the nave and the sanctuary. Beneath the sanctuary is a crypt containing the remains of some of the owners of the Ivanka manor.</p>\n<p>In front of the church are free-standing Baroque-Classical statues of St. Donatus the Martyr, and of St. Florian, the patron saint of firefighters. They presumably date back to the time of the current church’s construction. They originally stood elsewhere, but were relocated to the church. The Church of St. John the Baptist has been declared a National Heritage Site.</p>"
+        }
+      },
       "url": "/kostol-sv-jana-krstitela/",
       "urlAliasy": [
         "/castles/kostol-sv-jana-krstitela/"
@@ -2995,6 +3704,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/mohyla-m-r-stefanika/",
         "hu": "https://www.qrlink.sk/new/hu/mohyla-m-r-stefanika/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The Milan Rastislav Štefánik Monument",
+          "text": "<p>Although the memorial site actually lies outside the official boundaries of Ivanka pri Dunaji, it has always been closely linked with the village, which has been responsible for its management and maintenance since it was built. The work of the renowned Slovak architect Dušan Jurkovič, the memorial stands in the area where the plane carrying Milan Rastislav Štefánik crashed in 1919, killing him and its Italian crew. It was officially opened in 1923, with construction continuing until 1935 when the site gained its present-day appearance.</p>\n<p>The memorial consists of an entrance path running through an alley of lime trees, a moat and earth banks which outline the boundaries of the interior rectangular area. This area is crossed by a path lined with travertine posts joined by metal chains, and at its centre stands an earth pyramid, clad in stone, and a large granite stele with an inscription. On the other side of the path is a semi-circular stone bench, lined by yew trees. Lime trees, some of them dating back to the time the memorial was built, adorn the earth banks and the surroundings of the memorial site.</p>\n<p>The M. R. Štefánik Monument is one of Slovakia’s most significant works of monumental memorial art in Slovakia. As a highly authentic example of landscape architecture with a historical value, it has been declared a National Heritage Site.</p>"
+        }
+      },
       "url": "/mohyla-m-r-stefanika/",
       "urlAliasy": []
     },
@@ -3024,6 +3739,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/pomnik-padlym-v-i-a-ii-svetovej-vojne/",
         "pl": "https://www.qrlink.sk/new/pl/pomnik-padlym-v-i-a-ii-svetovej-vojne/",
         "hu": "https://www.qrlink.sk/new/hu/pomnik-padlym-v-i-a-ii-svetovej-vojne/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The War Memorial",
+          "text": "<p>The memorial, which was commissioned by the village in honour of its fellow citizens, was created by the sculptor Vojtech Ihriský. He started working on it during the middle of the 1930s, but the memorial only took its final, current shape after WWII. Standing in the central area of the Square of Fallen Heroes (Námestie padlých hrdinov), the memorial and its stone relief depict three life-size standing figures – a soldier in uniform wearing a helmet and holding a rifle, and a woman in village dress and a small boy saying goodbye to the soldier. On each side of the relief is a stone tablet bearing the names of residents of the village who gave their lives in WWI and WWII. The memorial is situated on an elliptical base enclosed by a two-step curb. In the centre of the base, below the relief, is a grave ledger with a raised Latin cross. As a monumental memorial work, it has been declared a National Heritage Site.</p>"
+        }
       },
       "url": "/pomnik-padlym-v-i-a-ii-svetovej-vojne/",
       "urlAliasy": []
@@ -3055,6 +3776,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/susosie-sv-jana-nepomuckeho/",
         "hu": "https://www.qrlink.sk/new/hu/susosie-sv-jana-nepomuckeho/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The Statue of St. John of Nepomuk",
+          "text": "<p>This monumental sculpture consists of a pedestal, column, balustrade, and the statue itself. This Rococo work with elements of Louis XVI and Empire styles dates back to the last third of the 18th century. It stands on a pedestal shaped like clouds from which the heads of angels look out. At its sides are Putti figures – the one on the right side is an original, but the one on the left was added during reconstruction work. The dominant part of the sculpture is the statue of St. John of Nepomuk, a standard depiction of a priest in a rochet underneath a cope, holding a biretta in his right hand. He is looking at the cross in his left hand. The sculpture underwent restoration work in 2008 and was relocated from a garden on Záleská Street to the Square of St. Rosalia (Námestie sv. Rozálie). According to legend, born out of a document kept at the local rectory, the sculpture was put up by guests of Antal Grassalkovich II. When they were returning from a successful hunt, their boat overturned on the swollen Small Danube, and they began to drown. As death closed in upon them, they promised that if they survived, they would erect a statue to St. John of Nepomuk at the site where they were saved. The harmonious union of architectural and artistic features has earnt the sculpture recognition as a National Heritage Site.</p>"
+        }
+      },
       "url": "/susosie-sv-jana-nepomuckeho/",
       "urlAliasy": []
     },
@@ -3085,6 +3812,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-sv-rozalie/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-sv-rozalie/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The Chapel of St. Rosalia",
+          "text": "<p>The Chapel of St. Rosalia is a rotunda with a Neoclassical façade, a domed roof, and a small tower with a bell. Its interior consists of a Classical altar with candleholders and two triangular-shaped reliquaries, one of which contains a black (plague) hand. The chapel was built by Antal Grassalkovich III in 1832 with the help of the inhabitants of the villages Ivanka and Farná in gratitude to St. Rosalia – the patron saint of the plague-stricken – for ending an epidemic of hepatitis, which at the time had spread across the entire Bratislava region, claiming many lives. The epidemic faded away and the last infected person died on St. Rosalia’s Day, September 4th. The chapel stands at what is today the centre of the village, but it originally marked the western edge of the residential area of the village, right on the boundary with Farná. From the first half of the 19th century the built-up area around the centre expanded. Trees and greenery were planted in the vicinity of the chapel, eventually growing into a park. In 2009, the chapel, along with its valuable Rococo reliquaries, a Rococo silver eternal flame, and the St. Rosalia altarpiece containing a rarely found view of the village, was declared a National Heritage Site.</p>"
+        }
+      },
       "url": "/kaplnka-sv-rozalie/",
       "urlAliasy": []
     },
@@ -3114,6 +3847,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/sursky-kanal/",
         "pl": "https://www.qrlink.sk/new/pl/sursky-kanal/",
         "hu": "https://www.qrlink.sk/new/hu/sursky-kanal/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Memorial to Those Who Built the Šúr Canal",
+          "text": "<p>The Šúr Canal, which in the past had been known as the Main or Bypass Canal, Moravod, New Sajloch, or Jewish Canal, is an artificial drainage waterway in the southwest of Slovakia. Approximately 17 km long, it runs round the towns of Pezinok, Svätý Jur, Vajnory, Ivanka pri Dunaji, and Zálesie, where it flows into the Small Danube. Its course carries water from streams running down from the slopes of the Small Carpathian mountains into the Šúr national nature reserve. The Šúr is a unique natural phenomenon, created in the shallow depression along the eastern slopes of the Small Carpathians around 10,000 years ago. A large and very shallow lake developed, which gradually filled with water and gravel and sand sediments. Peat was formed from the plants which grew in its shallow waters. Over time these processes created Šúr – wetlands impossible to walk through, covered with trees and other greenery, and often waterlogged during the year. It stretched from Modra all the way to Ivanka pri Dunaji. The wetlands provided a natural stock of animals and birds for the local population, as well as a reservoir of drinking water, but at the same time it was a barrier to expanding land for agricultural use and so, in the Middle Ages, efforts were made to partially drain it. In 1896 a canal was dug through Šúr. This helped to significantly lower the water level. But after a while the canal became clogged, and the water rose again to its original level. At the time, naturalists drew attention to the exceptional importance of the area’s flora and fauna. But despite efforts to save it, in 1929 the government launched a project to completely destroy Šúr. However, the plan was soon put on hold because of the Great Depression, and it was not until the Slovak Republic came into being that a solution to the so-called ‘Mudland’ problem took shape, as also recorded in Slovak writer František Hečko’s book “Svätá tma” (Sacred darkness). From 1938 there was pressure to resolve the problem, largely from the government commissioner for the town of Svätý Jur, whose inhabitants owned more than 3,000 hectares of land in the Mudland which they wished to reclaim and use for agricultural purposes. Members of the Labour Corps of the National Defence, which was a controversial part of the Slovak military forces in 1939-1945 used as a tool to solve the Jewish and Roma ‘question’ in the army during WWII, were sent in to work on the land. The corps was made up largely of Slovak nationals assigned to it for health or disciplinary reasons, as well as Jews and Roma, who on the basis of their race were assigned to the VI Labour Battalion of the Labour Corps. It was the members of this specific battalion who built the extensive drainage canal from Pezinok to Zálesie, where it flows into the Small Danube river. Forced Jewish labour from concentration camps was also used, as later were Roma and political prisoners. Inhabitants from local villages also took part in the construction. The canal was completed in 1943, after which a further stage was planned – construction of the Háj recreational area in the Panónsky háj grove. However, with the end of the war, this did not take place. To this day, the Šúr canal is a significant drainage waterway, and its discharge is regulated so as to ensure protection of the internationally significant wetlands of the Šúr national nature reserve.</p>\n<p>In 2021, on the initiative of the Ivanka Historical Society, on its right bank a memorial was erected to the people who built the canal during the difficult times of WWII.</p>"
+        }
       },
       "url": "/sursky-kanal/",
       "urlAliasy": []
@@ -3649,6 +4388,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/ciernoklacianska-pyxida/",
         "pl": "https://www.qrlink.sk/new/pl/ciernoklacianska-pyxida/",
         "hu": "https://www.qrlink.sk/new/hu/ciernoklacianska-pyxida/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "THE ČIERNE KĽAČANY’S PYXIDA",
+          "text": "<p><img src=\"/assets/images/migrated/2025-10-09_12h27_54.jpg\" alt=\"\"></p>\n<p><strong>Introduction</strong></p>\n<p>Čierne Kľačany’s Pyxida is a world-unique artifact that will forever represent Čierne Kľačany, Nitra, Slovakia. The discoverers and promoters of this distinctive archaeological find deserve our respect because they piece together a mosaic of uncovering history.</p>\n<p><strong>The Čierne Kľačany’s Pyxida</strong></p>\n<p>The Čierne Kľačany’s pyxida was discovered in 1974 in a site near the mill. During the construction of water pipes in the village, the digging mechanism carving a trench for the water supply disrupted archaeological objects with remnants of human bones, fragments of vessels, and animal bones. The most significant object was a disturbed skeletal grave in which fragments of an ivory pyx were found.</p>\n<p><strong>Discovery and Preservation</strong></p>\n<p>The pyxida was saved by the youth. Then students of elementary school – Milan Švec, Stanislav Lukáč, Milan Tonka, Dušan Filipčík found fragments, and students of Janko Kráľ Gymnasium – Július Horný jr. and Ivan Lukáč subsequently sought connections between the fragments. Reporting the find of the pyxida and the prompting was submitted by Július Horný sr. to the Archaeological Institute in Nitra. Thanks to all, the pyxida belongs among the rarities and novelties of the village, Slovakia and Europe. During the survey of the site, the collection of finds from various prehistoric and early historic periods was saved, among which fragments of the ivory pyx drew particular attention.</p>\n<p><strong>Location of the Find</strong></p>\n<p>The discovery site is located about 500 meters south of the village near the mill on the top of a hill and the southern slope of a gentle elevation. From the south and west, streams Širočina and Bočovka flow nearby. The water pipe trench, dug from the waterworks to the edge of the village on the left side of the road, disturbed several predominantly residential objects. Their remnants clearly extended over a length of about 200 meters. Undoubtedly the most significant object was the disturbed skeletal grave in which fragments of the ivory pyxida were found.</p>\n<p><strong>Motifs of the Pyxida</strong></p>\n<p>The pyxida was assembled into the shape of a cylindrical cloak. Its decoration, realized in low relief, depicts a ploughman with a draught team and a walking woman with a basket of grain. In the bucolic scene, among a resting flock of sheep and goats, the figures of a seated young shepherd and an approaching old shepherd predominate.</p>\n<p><strong>From History</strong></p>\n<p>The maximum flowering of ivory carving begins in the mid-4th century. Ivory was used to make various objects, but also chests. The decoration, of course, reflected its use or ownership. An important place among ivory works is held by pyxes – small vessels with circular or oval shape, with a base and a lid. The church contributed significantly to the development of pyxida production. Christian liturgy adopted the use of pyxidas not only as reliquary chests for incense but primarily for storing relics and hosts or the Eucharist. This was determined by the Council of Narbonne in 589. In the 9th century, pyxidas were placed above the altar and served as reliquaries. Thanks to this, remarkable specimens have survived in important Christian churches of Western Europe.</p>\n<p><strong>A Commemorative Plaque</strong></p>\n<p>In 1991, a commemorative plaque was unveiled on the cultural house with the text: “From this village comes an extraordinary ancient work, vibrant even in the times of Great Moravia, a ivory pyxida decorated with relief. In honor of history and in memory of St. Cyril and Methodius, grateful Slovaks dedicate this.” The plaque was unveiled by Prof. ThDr. Alojz Martinec, village mayor Peter Horný and the first vice-president of the Slovak Matica PhDr. Stanislav Bajaník – our fellow townsman and honorary citizen, with a large attendance of notable guests.</p>\n<p><strong>Unveiling of the Monument</strong></p>\n<p>In 1993, on the occasion of a nationwide meeting of Kľačanys in Slovakia, at the mill, the site of the Čierne Kľačany’s pyxida was unveiled with a bronze plaque in the presence of prominent locals, guests from Matica Slovenská, nearby villages and towns. The stone was donated by the village, the bronze plaque by Matica Slovenská.</p>\n<p><strong>Unveiling and Consecration of the Cyril and Methodius Sculpture</strong></p>\n<p>In 1997, the village saw the unveiling and consecration of the statue of St. Cyril and Methodius as the first Cyril and Methodius sculpture in Slovakia in the post-communist era.  Authors: Acad. sculptor Ľudmila Cvengrošová, Ing. architect Viola Bajaníková – as a voluntary gift to the village. Implementation by Koňuš – Gubáň, Kremnica. The sculpture, together with the Čierne Kľačany’s pyxida, is also located in Nitra, in Devín, Zalavár (Blatno Castle) – Hungary. The initiators and patrons of the project were the first vice-president of Matica Slovenská PhDr. Stanislav Bajaník, the village mayor Peter Horný, the chairman of the MS Local Organization Ing. Jozef Švec and members of the village council. It was consecrated by our fellow citizen Mons. Vincent Malý, Dr.h.c.</p>\n<p><strong>Gift to Pope John Paul II</strong></p>\n<p>In 2003, a copy of the Čierne Kľačany’s pyxida was presented to the papal nuncio in Bratislava as a gift to Pope John Paul II and to the Vatican on his last visit to Slovakia. The nuncio and the Holy See sent a formal written thank-you note. The presentation was carried out by: Imrich Dočolomanský, local Roman Catholic parish priest, Valéria Kršáková, deputy mayor of the village, Ing. Jozef Švec, chairman of the MS local branch, PhDr. Stanislav Bajaník for Matica Slovenská.</p>\n<p><img src=\"/assets/images/migrated/2025-09-25_11h43_44.jpg\" alt=\"\"></p>\n<p><em><strong>Pyxida Relief</strong></em></p>\n<p><img src=\"/assets/images/migrated/foto-030znew.jpg\" alt=\"\"></p>\n<p><em><strong>Stanislav Lukáč, in the course of the water pipe excavation, 1974</strong></em></p>\n<p><img src=\"/assets/images/migrated/kolnik_fotoz-min.jpg\" alt=\"\"></p>\n<p><em><strong>Disassembled reconstruction of the pyxida motifs</strong></em></p>\n<p><img src=\"/assets/images/migrated/foto-054-min.jpg\" alt=\"\"></p>\n<p><em><strong>Unveiling of the commemorative plaque on the building of the cultural house, 1991</strong></em></p>\n<p><img src=\"/assets/images/migrated/image0011-min.jpg\" alt=\"\"></p>\n<p><em><strong>Location of the find – the Pyxida monument Prof. ThDr. Alojz Martinec and Mons. Vincent Malý, Dr.h.c.</strong></em></p>\n<p><img src=\"/assets/images/migrated/foto-036_1993-min.jpg\" alt=\"\"></p>\n<p><em><strong>Location of the find – the Pyxida monument PhDr. Stanislav Bajaník</strong></em></p>\n<p><img src=\"/assets/images/migrated/2025-09-25_11h40_55-min.jpg\" alt=\"\"></p>\n<p><em><strong>For many activities organized in connection with the Pyxida, there was a unique exhibition at the Vatican from 12 November 2013 to 26 January 2014, “The oldest documents of the beginnings of Christianity in Slovakia – St. Cyril and Methodius, Patrons of Europe,” where the Pyxida held the first place. The event was organized by the Slovak National Museum, the Archaeological Institute of the Slovak Academy of Sciences, and the Slovak Embassy to the Holy See, with the government’s backing by Prime Minister Robert Fico and the Bishop of Nitra, Mons. prof. Viliam Judák. Photo: archive of PhDr. Peter Bednár, CSc.</strong></em></p>"
+        }
       },
       "url": "/ciernoklacianska-pyxida/",
       "urlAliasy": []
@@ -4577,6 +5322,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/mestsky-urad-frydlant-nad-ostravici/",
         "hu": "https://www.qrlink.sk/new/hu/mestsky-urad-frydlant-nad-ostravici/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Building of the Municipality office Frýdlant nad Ostravicí",
+          "text": "<p>The neo-renaissance building of the Municipality office dominates the southern side of the town square in Frýdlant nad Ostravicí. It was built in 1894 as a building of the National House thank to the Catholic association. The builder of the Municipality office was B. Židlický from Ostrava. </p>\n<p>The National House was solemnly opened in 1895. There were rooms for Frýdlant pawnshop from 1871 and a hall for the Catholic association which was renamed into the Janacek Hall. Wedding ceremonies, concerts and other cultural and social events are held there today. The ground floor of the building was rented as a pub, on the first floor there were rooms owned by the town. The town hall has been rebuilt and remodelled several times. The latest reconstruction in the years 1989-1999 was led by Ing. Arch. Tomáš Šimonovský from Ostrava returned to the building its original Neo-Renaissance look. The building is currently used as the administrative building for city authorities of Frýdlant nad Ostravicí and the Department of the Environment.</p>",
+          "audio": [
+            "/assets/audio/migrated/1-building-of-the-municipality-office-frydlant-nad-ostravici-1.mp3"
+          ]
+        }
+      },
       "url": "/mestsky-urad-frydlant-nad-ostravici/",
       "urlAliasy": []
     },
@@ -4606,6 +5360,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kostol-sv-bartolomeja/",
         "pl": "https://www.qrlink.sk/new/pl/kostol-sv-bartolomeja/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-sv-bartolomeja/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Church of St. Bartolomej",
+          "text": "<p>Church of St. Bartolomej was built between 1672-1690 and it replaced the older wooden church of St. Matthew (Mateja) that was probably standing on the sites of today’s chapel on Kamenec. In the first half of the 18th century it was enlarged by the addition of the aisles and the presbytery to the present form. The most important repairs were made after the city’s big fires in the years 1886 and 1890. The new shape of the pyramid roof of the tower comes from this period. Formerly it was baroque onion-shaped. On the church’s wall there is the tombstone of tenants of the Homoláč’s iron mills, close by a cast iron cross from the local foundry and the statue of St. Florian.</p>\n<p>Among the important days of the Church of St. Bartolomej is Friday 13 August 2010 when the four new bells rang for the first time and had been solemnly hanged in the tower on that day. The bells were consecrated by the Bishop of the Ostrava-Opava diocese of Monsignor Frantisek Lobkowicz. All four bells were cast in the workshop Tomášková-Dytrychová in Brodka near Přerov. They are made of special alloy intended for the production of bells, so-called bell-metal. The largest of the four is the bell of the Most Holy Trinity which has a diameter of 1040 millimetres, weighs 850 kilograms and emits a Fis1 tone. The second largest is the bell of the Virgin Mary of Carmel which measures one meter in diameter, weighs 620 kilograms and is tuned into the tone Gis 1. The bell of St. Anthony, the third in size with the diameter of 890 millimetres and weight of 362 kilograms, rings in tone H1. The smallest of these four is the bell of St. Bartolomej with the diameter of 770 millimetres and weight of 282 kilograms. It emits the tone Cis 2.</p>\n<p>The original Frýdlant bells which were called St. Cyril, Bartholomew, Joseph, Paul, and Mary were confiscated during the war and taken to Germany by the Nazis. According to the witnesses, these bells did not end up recast into weapons. After the war the representatives of Frýdlant were asked to pick them up in Hamburg but no one send. Perhaps because in that time Communists were gaining ground and the bells were definitely not the priority for them.</p>\n<p>Since 3 May 1958 the church has been a cultural monument.</p>",
+          "audio": [
+            "/assets/audio/migrated/2-church-of-st-bartolomej-3.mp3"
+          ]
+        }
       },
       "url": "/kostol-sv-bartolomeja/",
       "urlAliasy": []
@@ -4637,6 +5400,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/centrum-socialnych-sluzieb/",
         "hu": "https://www.qrlink.sk/new/hu/centrum-socialnych-sluzieb/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Social Service Centrum",
+          "text": "<p>The building of the former monastery and today the Social Services Centre is one of the most extensive architectural monuments in Frýdlant nad Ostravicí. It was built by the Archbishop of Olomouc Bedrich of Furstenberg. In the front of the building there is a neo-romanian religious chapel which is the copy of the St. Paul Basilica in Rome. It is divided into three aisles and has four narrow Romanesque windows. The ceiling above the main aisle is a wooden and coffered and the vaults of the aisles depict a starry sky. The walls and columns are richly decorated with paintings. On the walls there are paintings of St. Cyril and Method, St. Charles and St. Bedrich who supposed to represent the founder of Friedrich’s institution Bedrich of Fürstenberg and who holds the model of the chapel in his left hand. Bedrich of Furstenberg personally consecrated the chapel on 5 November 1876. The concerts are acted in the chapel several times a year.</p>\n<p>The foundation stone for the construction of the Monastery of the Merciful Sisters of St. Karel Boromejski was placed on 28 August 1871. Large beautiful house with wide arched corridors and spacious airy rooms and beautiful chapel in particular show the greatness of the founder – Archbishop of Olomouc Bedrich of Furstenberg. </p>\n<p>The monastery functioned for a long time as a school, it was spoken of as a school in the healthy forest region which provided the youth with all that was needed to strengthen the body and educate the spirit. Results of teaching in constitutional school gained the trust of school inspectors. One of them said:” I entered the house with prejudices against monastic schools but I left looking at it differently, even with enthusiasm!” On 30 October 1877, the school was granted permission to teach. Thanks to the same inspector, the school received on 9 July 1881 the public right. In the last year of the WWII, education was interrupted in order to establish military hospital in the monastery. After the liberation in 1945, the school operated again until the nationalisation of schools in 1948. Between 1963 and 1983, a secondary general education school, later a grammar school, was located in the south wing of the building.</p>\n<p>Decree of the Regional National Committee from April 19, 1950 made from the monastery a retirement home. Nursing and some service work were still performed by nuns. Gradually, their number decreased. They have been replaced by civil servants. The last nurses left the monastery after a century of work in Frýdlant at the end of July 1971. The buildings of the Social Services Centre have undergone extensive reconstruction in recent years and have become the dominant of the city.</p>",
+          "audio": [
+            "/assets/audio/migrated/3-social-service-centrum-5.mp3"
+          ]
+        }
+      },
       "url": "/centrum-socialnych-sluzieb/",
       "urlAliasy": []
     },
@@ -4666,6 +5438,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kulturne-centrum-frydlant-nad-ostravici/",
         "pl": "https://www.qrlink.sk/new/pl/kulturne-centrum-frydlant-nad-ostravici/",
         "hu": "https://www.qrlink.sk/new/hu/kulturne-centrum-frydlant-nad-ostravici/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Culture Centrum of  Frýdlant nad Ostravicí",
+          "text": "<p>The Frýdlant nad Ostravicí Cultural Centre is a contributory organization of Frýdlant nad Ostravicí with own legal subjectivity. It was established to organize cultural and social events </p>\n<p>in and around the city. The events are organized in the Cultural Centre which offers to those interested a large social hall with a capacity of 500 seats, a cinema and a conference centre, common rooms intended for the use of local associations, courses and clubs, Gallery of artistic enamel and cast iron, Ferdiš Duša Gallery, a municipal library and a terminal of the Beskydy Information Centre. On the ground floor of the Cultural Centre there is a permanent exhibition of cast iron which includes the period from the first third of 19th century until the Secession. It shows copies of art pieces of the Renaissance, Baroque, Armor samples, individual art designs and stylish cast iron stoves. Gallery of artistic enamel shows the use of old technologies for modern artistic creation. Since 1999, there have been more than twenty artists from all over Europe participating in international symposium “Frýdlant’s art enamel”. It is a unique European collection of enamel of its kind. Ferdiš Duša’s Gallery is dedicated to Frýdlant’s native painter and graphic artist Ferdiš Duša (1888 – 1958). Collection in attractive design offers not only paintings but also things less well known such as ceramics. A part of the Cultural Centre complex is also the city library with approximately 38,000 library units. The library naturally completes the Cultural Centre as it annually organizes many educational and entertaining events for children and the general public.</p>"
+        }
       },
       "url": "/kulturne-centrum-frydlant-nad-ostravici/",
       "urlAliasy": []
@@ -4697,6 +5475,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/zakladna-skola-frydlant-nad-ostravici-namestie-t-g-masaryka-1260-prispevkova-organizacia/",
         "hu": "https://www.qrlink.sk/new/hu/zakladna-skola-frydlant-nad-ostravici-namestie-t-g-masaryka-1260-prispevkova-organizacia/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Elementary School Frýdlant nad Ostravicí, Námestie T.G. Masaryka 1260, Contributing organization",
+          "text": "<p>The 70’s of the 20th century brought the idea of building a new educational complex and so the construction of a new campus on Janáček Street began. It lasted for almost 10 years and cost 46 million CSK of the municipality budget. A elementary school located originally on the Fallen Heroes Street and a Grammar School were established in the new building. </p>\n<p>A small square created before the new urban unit was named after Gustav Kliment. On the solemn opening, which took place on 1 September 1983, many local and regional parties and city officials were present. After November 1989 and after the first free elections in 1990, the sculpture of T.G.Masaryk was revealed in front of the school and it gave the elementary school the basis for a new, more dignified name which it carries until today.</p>\n<p>More than 600 pupils attend this elementary school and it also provides children with school club and dining services. The founder of the school is the town of Frýdlant nad Ostravicí. The whole complex is complemented by the building of the grammar school that is connected with the building of the elementary school. More than 300 students attend the grammar school six-year programme. The founder of the Frýdlant gymnasium is the Moravian-Silesian Region. An integral part of the complex is also a newly refurbished multipurpose sport field which serves not only pupils and students but in the afternoon also the general public.</p>"
+        }
+      },
       "url": "/zakladna-skola-frydlant-nad-ostravici-namestie-t-g-masaryka-1260-prispevkova-organizacia/",
       "urlAliasy": []
     },
@@ -4726,6 +5510,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/zakladna-skola-frydlant-nad-ostravici-komenskeho-420-prispevkova-organizacia/",
         "pl": "https://www.qrlink.sk/new/pl/zakladna-skola-frydlant-nad-ostravici-komenskeho-420-prispevkova-organizacia/",
         "hu": "https://www.qrlink.sk/new/hu/zakladna-skola-frydlant-nad-ostravici-komenskeho-420-prispevkova-organizacia/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Elementary school Frýdlant nad Ostravicí, Komenského Street 420,  Contributing organization",
+          "text": "<p>The history of the school dates back to 1925 when the building was built on Komenského Street and it was long the tallest building in the city. The teaching began in the school year 1926/1927. In May 1994, the school premises were enlarged by an addition of the new secondary school building. The historic part of the building was after many years renovated in 2004 and the campus area was enlarged by the primary school building where the school dining room and classrooms are now. The campus is complemented by a modern equipped sport playground. The elementary school has a capacity of 560 pupils. Its founder is Frýdlant nad Ostravicí. The school has its separated workplace which is located in the town of Nová Ves.</p>"
+        }
       },
       "url": "/zakladna-skola-frydlant-nad-ostravici-komenskeho-420-prispevkova-organizacia/",
       "urlAliasy": []
@@ -4757,6 +5547,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/letisko-frydlant-nad-ostravici/",
         "hu": "https://www.qrlink.sk/new/hu/letisko-frydlant-nad-ostravici/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Airport Frýdlant nad Ostravicí",
+          "text": "<p>Sport airport close to Frýdland nad Ostravicí and mountain Lysá hora is mainly for powered and unpowered aircrafts. The highest point of Ondrejník hill called Skalka is suitable for many adrenalin activities. </p>\n<p>Airport Frýdlant nad Ostravicí is the easternmost airport of the Czech Republic. The owner and operator of the national airport is Aeroklub Frýdlant nad Ostravicí. They hold licenses for flying work, flying school and skydiving school. At the present, the Aeroclub has about 100 members but over the entire history of its existence a great number of pilots, parachutists and modellers have been educated there. The members aren’t only occupied with their own powered or unpowered aircraft and parachuting, but they also take care of the organization and provision of flight operations, basic and advanced training, maintenance of aviation equipment, repairs and construction of the airport complex, maintenance of the airport runways, organization of sport, aerial and social events, work with youth and they also prepare services for other organizations, visitors, tourists and airport guests. Aeroclub owns airplanes, helicopters, gliders, ultralight airplanes and free balloons.</p>",
+          "audio": [
+            "/assets/audio/migrated/7-airport-frydlant-nad-ostravici-1.mp3"
+          ]
+        }
+      },
       "url": "/letisko-frydlant-nad-ostravici/",
       "urlAliasy": []
     },
@@ -4786,6 +5585,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/futbalove-ihrisko-a-hala-sport-frydlant-nad-ostravici/",
         "pl": "https://www.qrlink.sk/new/pl/futbalove-ihrisko-a-hala-sport-frydlant-nad-ostravici/",
         "hu": "https://www.qrlink.sk/new/hu/futbalove-ihrisko-a-hala-sport-frydlant-nad-ostravici/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Football playground and Sport Hall in Frýdlant nad Ostravicí",
+          "text": "<p>Football has very deep roots in Frýdlant. The beginning of the sport in our town dates back to 1921. Several sport enthusiasts become pioneers of football in the city under the guidance of SC Frýdlant. By the end of the 1920s, there was a great expansion of football in town. Many small amateur clubs were being formed, for example CZ Vincek Hamer Cukor, SK Odeon Papiereň, Viktoria, Kamenec, Kopec I, Kopec II, Paseky, Nová Dědina, Obecný a Argentína. These clubs were fighting between each other for the championship of Frýdlant and many great players have begun in these teams who spread the glory of the town. </p>\n<p>In 1931, SSF – Sport Society Frýdlant was officially founded with its own football section. In 1932, Postelberg, the owner of the NORMA factory, began to build the sports complex. The complex was opened in 1933 by a championship match against SC Meteor Vratimor in which home players crushed their enemies with the result 5:0. Football had expanded even more. In May 2012, the first Beskydy football club Frýdlant nad Ostravicí made its biggest success in the history of the club when they won the silver medal from the European Championship of the unprofessional teams in Austria and thus became the vice-champion of Europe “Mountain Village European Championship”. </p>\n<p>The football stadium has three different football pitches, one of them is with artificial grass of the third generation and with the possibility of lighting. The total capacity of the stadium is 2600, the seating capacity is 530 of it. </p>\n<p>In the complex, there is also a Sport Hall. It is a multipurpose sports facility for indoor sports. The main part of the hall is a large gym with dimensions of 15x30m which is suitable for playing badminton (2 courts), football tennis, floorball, handball, indoor football and volleyball. The Sport Hall has also a table tennis room. There is also a gym and a non-smoking bar with a capacity of 30.</p>"
+        }
       },
       "url": "/futbalove-ihrisko-a-hala-sport-frydlant-nad-ostravici/",
       "urlAliasy": []
@@ -4817,6 +5622,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kupalisko-a-tenisove-kurty-edimex/",
         "hu": "https://www.qrlink.sk/new/hu/kupalisko-a-tenisove-kurty-edimex/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Swimming pool and tennis courts Edimex",
+          "text": "<p>Swimming pool in Frýdlant nad Ostravicí offers to visitors a heated outdoor swimming pool with dimensions of 50x22m. For children, there is prepared small swimming pool with dimensions of 12x12m. The visitors of the swimming pool can use 60m long water slide and volleyball or football tennis fields. In the area, there are changing rooms, small buffet area, tennis court and parking lot. </p>\n<p>Swimming pool in Frýdlant is located on the outside area of the town and thanks to its location among tall trees it offers calmness, privacy and relaxing atmosphere without disturbances caused by road traffic. </p>\n<p>Edimex tennis hall, which is the largest covered tennis centre in Moravia, is in very small distance from the swimming pool. It offers central court with the tribune for 300 spectators, 3 other courts without tribunes, a gym, a regeneration studio, a shop with tennis merchandise and a tennis bar. Halls can be rented for various sport or cultural events.</p>"
+        }
+      },
       "url": "/kupalisko-a-tenisove-kurty-edimex/",
       "urlAliasy": []
     },
@@ -4846,6 +5657,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/sportove-a-relaxacne-centrum-kotelna/",
         "pl": "https://www.qrlink.sk/new/pl/sportove-a-relaxacne-centrum-kotelna/",
         "hu": "https://www.qrlink.sk/new/hu/sportove-a-relaxacne-centrum-kotelna/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Sport and relax centre Kotelna",
+          "text": "<p>The sport and relaxation centre in Frýdlant nad Ostravicí offers the environment for active rest and relaxation. The building was reconstructed from the former heating room that explains its name. It is opened whole year round. Kotelna is opened since 2002 as an area of 5200 square metres, offering a full range of sport and relaxation services, from squash, tennis, beach volleyball, spinning, solarium to exercise classes for seniors or mothers with children. The centre is very popular. Beside the people of Frýdlant nad Ostravicí, also the visitors from Beskydy, people from the entire region and area of Frýdek Místek or Ostrava are coming here all year round.</p>\n<p>In the sport and relaxation centre you can visit: </p>\n<p>Relaxing swimming pool with dimensions of 9x6m, depth of 130cm, underwater lighting, 5 water attractions – decorative waterfall, water spout, counter current, hydromassage benches for three people and a blower </p>\n<p>The massage whirlpool tub is in the pool area (the water is 36°C) as well as the massage box with various programs. </p>\n<p>Fitness and cardio zone is modern air-conditioned gym with 17 fitness stands. </p>\n<p>Outside beach volleyball court is opened from 1.5 to 30.9. </p>\n<p>Petanque is available during the whole year. </p>\n<p>Sauna and indoor pool for cooling. </p>\n<p>Solarium with a vertical Sun Shower 8000 </p>\n<p>Squash – 3 courts for two which can be enlarged for multiple players. And by transforming the squash courts, we can get floorball or mini football pitches. </p>\n<p>Outdoor tennis court with lightning for the evening games, in winter it can be adjusted to the inflatable indoor hall. Court is also suitable for football tennis or mini football. </p>\n<p>Spinning – all spinning lessons has to be ordered in advance.</p>"
+        }
       },
       "url": "/sportove-a-relaxacne-centrum-kotelna/",
       "urlAliasy": []
@@ -4877,6 +5694,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-sv-antonina-paduanskeho-ondrejnik/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-sv-antonina-paduanskeho-ondrejnik/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Chapel of St. Antonín Paduánsky, Ondřejník",
+          "text": "<p>Romantic Chapel of St. Antonín stands in front of the tourist cottage of the Czech Tourist Club Ondřejník and the abandoned cottage Solárka under the peak of the Ondřejník hill. Its location provides a wide view of the surrounding countryside, of Frýdlant nad Ostravicí in the valley, of the whole Ostrava basin and of the massif of Lysá mountain, the highest mountain of the Moravian-Silesian Beskydy. The chapel and the nearby buffet in the Ondřejíček cottage are in the summer and winter frequent destinations of tourists from surrounding areas. Several hiking trails lead from Frýdlant to Ondřejík as well as a comfortable asphalt road.</p>\n<p>The Chapel is a relatively young building. It was built during the construction of a new and modern mountain hotel Solárka in the years 1932-1933 which was built by Oldřich and Františka the Látal from Moravská Ostrava. Solárka was supposed to become a modern hotel in a mountainous environment that would meet all the requirements for a comfortable, hence stylish stay in the mountains. In 1933, in order to make the surroundings more romantic, the owners built a Chapel named after the greatest tourist fan of Ondřejník, prof. Antonín Uřídil from Brno. Although the famous Solárka hotel burnt on 28th August 2002 and its wreckage was pulled down to the stone, the Chapel of st. Antonín still looks into the valley and talks about the former tourist glory of Ondřejník.</p>",
+          "audio": [
+            "/assets/audio/migrated/11-chapel-of-st-antonin-paduansky-ondrejnik-1.mp3"
+          ]
+        }
+      },
       "url": "/kaplnka-sv-antonina-paduanskeho-ondrejnik/",
       "urlAliasy": []
     },
@@ -4906,6 +5732,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/vlakova-stanica-frydlant-nad-ostravici/",
         "pl": "https://www.qrlink.sk/new/pl/vlakova-stanica-frydlant-nad-ostravici/",
         "hu": "https://www.qrlink.sk/new/hu/vlakova-stanica-frydlant-nad-ostravici/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Train station Frýdlant nad Ostravicí",
+          "text": "<p>Frýdlant nad Ostravicí is an important railway junction which is used every year by tourists for their trips to the beauties of the Beskydy mountains. Today’s main train building dates back to 1888. From the history we know that on 2nd January, 1869 the emperor Franz Joseph I. granted the concession document for the construction of the railroad from Moravská Ostrava to Frýdlant in the Beskydy, at that time already well-known village with huts and iron works. On 3rd January 1871, the first train arrived to Frýdlant on brand new Frýdlant-Ostrava rails whose construction lasted for two years. At the present, this railway is an important connection, both for regular people coming to work as well as students attending schools. It is used extensively also for the active holidays in the Beskydy Mountains. The building of the station underwent, in 2013, a total reconstruction, the investor of which was the Railway Transport Administration, state organization. The funds were provided by the State transport Infrastructure Fund. Except this reconstruction, there was a complete reconstruction of the railway upper and the underpass, including bridges and crossings, the construction of elevated roofed platforms for the first and second tracks, including the sub-level access to the subway platform and the elevator for the immobile passengers.</p>"
+        }
       },
       "url": "/vlakova-stanica-frydlant-nad-ostravici/",
       "urlAliasy": []
@@ -5988,6 +6820,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kraj-rusinov-a-andyho-warhola-vystahovalectvo/",
         "hu": "https://www.qrlink.sk/new/hu/kraj-rusinov-a-andyho-warhola-vystahovalectvo/"
       },
+      "i18n": {
+        "hu": {
+          "nazov": "Vysťahovalectvo",
+          "text": "<p>Na prelome 19. a 20. storočia sa z dedín dnešného okresu Medzilaborce čoraz častejšie odchádzalo za oceán. Amerika nebola symbolom dobrodružstva, ale nádejou na lepší život. Mladí muži aj celé rodiny opúšťali Mikovú, Haburu, Medzilaborce a ďalšie rusínske obce v presvedčení, že si zarobia a vrátia sa domov. Mnohí však zostali v Spojených štátoch natrvalo. </p>\n<p>A práve medzi nimi boli aj rodičia jedného z najvýznamnejších umelcov 20. storočia – Andyho Warhola.</p>\n<h2>Prečo sa rozhodli odísť</h2>\n<p>Koncom 19. storočia žila väčšina obyvateľov severovýchodného Slovenska z drobného hospodárstva. Pôdy bolo málo, pracovných príležitostí ešte menej a mnohé rodiny žili na hranici chudoby. </p>\n<p>V rovnakom období prudko rástol americký priemysel, ktorý potreboval tisíce robotníkov. Hoci práca v baniach a oceliarňach bola náročná, ponúkala zárobok, aký si doma mnohí nevedeli predstaviť. Amerika sa tak pre mnohé rodiny stala jedinou reálnou šancou na lepší život. </p>\n<p>Vysťahovalectvo zasiahlo prakticky celé územie dnešného okresu Medzilaboriec. Silne ovplyvnilo najmä rusínske obce ako sú Miková, Habura, Čertižné, Ňagov či Radvaň nad Laborcom. </p>\n<p>V niektorých dedinách odišiel do Ameriky minimálne jeden člen takmer z každej rodiny. Historické pramene uvádzajú, že z Mikovej odišla do začiatku prvej svetovej vojny približne tretina obyvateľov. V rokoch 1890 – 1914 sa za oceán vysťahovalo približne 225 000 karpatských Rusínov.</p>\n<h2>Cesta za oceán</h2>\n<p>Cesta do Ameriky nebola jednoduchá. Väčšina vysťahovalcov z regiónu cestovala vlakom do veľkých európskych prístavov, najmä do Hamburgu a Brém, odkiaľ pokračovala parníkmi cez Atlantik do Spojených štátov. Po príchode do New Yorku absolvovali zdravotné prehliadky a administratívne kontroly na ostrove Ellis Island. </p>\n<p>Mnohí následne smerovali do priemyselných miest, ako Pittsburgh či Cleveland, kde už existovali početné komunity prisťahovalcov z Karpát. </p>\n<p><img src=\"/assets/images/migrated/europsky-emigranti-habura.jpg\" alt=\"\"></p>\n<p><em>Európski emigranti po príchode do Spojených štátov začiatkom 20. storočia, zdroj:</em> <em><a href=\"https://time.com/\">https://time.com/</a>.</em></p>\n<h2>Príbeh rodiny Warholovcov</h2>\n<p>Jedným z tisícov vysťahovalcov bol aj Andrej Varchola z Mikovej. Do Spojených štátov odišiel za prácou začiatkom 20. storočia. O niekoľko rokov ho nasledovala jeho manželka Júlia Zavacká, ktorá pochádzala z tej istej obce. </p>\n<p>Usadili sa v Pittsburghu, kde sa im narodili traja synovia. Najmladší z nich, Andrew Warhola, sa narodil v roku 1928 a svet ho neskôr spoznal pod menom Andy Warhol. </p>\n<p><img src=\"/assets/images/migrated/habura-foto-vystahovalectvo.jpg\" alt=\"\"></p>\n<p><em>Vízum Júlie Warholovej do Spojených štátov amerických, zdroj: Petra Tóth Atelier.</em></p>\n<p><em>Júlia Warholová (rod. Zavacká) so synmi Johnom a Andrewom (neskôr Andym Warholom, vpravo), zdroj: <a href=\"https://www.rusyn.sk/\">https://www.rusyn.sk/</a>.</em> </p>\n<p>Hoci sa Andy narodil v Amerike, vyrastal v rusínskej rodine. Doma sa hovorilo rusínsky, zachovávali sa gréckokatolícke tradície a významný vplyv na jeho vzťah k umeniu mala práve matka Júlia. </p>\n<p>Tému vysťahovalectva z tohto regiónu dnes približuje aj Náučný chodník Kraj Rusínov a Andyho Warhola, ktorý vedie z Habury smerom k hranici katastrálnych území Habury a Mikovej.</p>"
+        }
+      },
       "url": "/kraj-rusinov-a-andyho-warhola-vystahovalectvo/",
       "urlAliasy": []
     },
@@ -6875,6 +7713,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/vodna-nadrz-v-porabke/",
         "hu": "https://www.qrlink.sk/new/hu/vodna-nadrz-v-porabke/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The Water Reservoir In Porabka",
+          "text": "<p>The water reservoir in Porabka and the water catcher, today called as Miedzybrodzkie lake, have been built from 1928 to 1937 in narrow pass between Zasolnica and Kozubnik. This was the firt investition of this kind in Poland. The autor of the project was Ing. Gabriel Narutowicz (later the president of Poland). The dam is made of concrete, it is 37,3m high. With the dams in Tresno and Czańc it creates the cascade of the Sola river.</p>"
+        }
+      },
       "url": "/vodna-nadrz-v-porabke/",
       "urlAliasy": []
     },
@@ -6904,6 +7748,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/osada-kolonia-v-style-witkiewiczovcov/",
         "pl": "https://www.qrlink.sk/new/pl/osada-kolonia-v-style-witkiewiczovcov/",
         "hu": "https://www.qrlink.sk/new/hu/osada-kolonia-v-style-witkiewiczovcov/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The settlement „Kolonia“ in the Witkiewicz style",
+          "text": "<p>The Kolonia is the settlement of lovely wooden huts in the Witkiewicz style built between wars for the builders of the dam in Porabka. With a view on numerous and rare exemplars of trees and ornamental shrubs it creates impression of the well-maintained park. It is an atractive walking route.</p>"
+        }
       },
       "url": "/osada-kolonia-v-style-witkiewiczovcov/",
       "urlAliasy": []
@@ -6935,6 +7785,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/obecne-centrum-kultury-v-porabke/",
         "hu": "https://www.qrlink.sk/new/hu/obecne-centrum-kultury-v-porabke/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The Munucipal culture centre in Porabka",
+          "text": "<p>The Munucipal culture centre in Porabka is the base cultural organization in part of the village and for all village too. It cooperates with the associations acting in the village and the organisation units organizing free time for children and youth. It organizes a competitons, tournament, exhibitions and auditions. It prepares newspapers. It is also place of Urban public library and associations acting in Porabka.</p>"
+        }
+      },
       "url": "/obecne-centrum-kultury-v-porabke/",
       "urlAliasy": []
     },
@@ -6964,6 +7820,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/regionalna-izba-v-porabke/",
         "pl": "https://www.qrlink.sk/new/pl/regionalna-izba-v-porabke/",
         "hu": "https://www.qrlink.sk/new/hu/regionalna-izba-v-porabke/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The Regional room in Porabka",
+          "text": "<p>The Regional room in Porabka exists from 1998. Iniciator of its establishment was the Community of lovers of Zywiec´s land. There are many exhibits from the village and the surrounding areas. Main part of the collections are agrricultural tools, items of daily consumption and the original traditional costumes, which were worn in this region before fiew decades. There are also pictures and folk scuplts.</p>"
+        }
       },
       "url": "/regionalna-izba-v-porabke/",
       "urlAliasy": []
@@ -6995,6 +7857,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-st-urbana-ul-krakowska/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-st-urbana-ul-krakowska/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The Chapel of Saint Urban, Krakowska street",
+          "text": "<p>Object have been built from 1823 to 1827 in the centre of Porabka. The Chapel is masonry with outer measure 5x5m and high 5.20m. There is a small stone altar inside, a picture of Mother of God’s Rosary and above it a picture of Saint Urban is. On the side of the altar there are two stone sculpts of Saint Francis and Saint John of Nepomuk. The tower was built in the baroque-gothic style and it is shingle. In 1913 on the front wall of the Chapel there was placed remember plate dedicated to members of the January uprising.</p>"
+        }
+      },
       "url": "/kaplnka-st-urbana-ul-krakowska/",
       "urlAliasy": []
     },
@@ -7024,6 +7892,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kaplnka-na-tronce/",
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-na-tronce/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-na-tronce/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The Chapel on Tronca",
+          "text": "<p>The Chapel on Tronca stands on touristic footpath passing through the Bukowski Gron to the pass of Kocierska. There is a picture of Mother of God’s Snow. Each first august sunday there are indulgence assembly on which are coming crowds of believers.</p>"
+        }
       },
       "url": "/kaplnka-na-tronce/",
       "urlAliasy": []
@@ -7055,6 +7929,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/nadrz-czaniecka/",
         "hu": "https://www.qrlink.sk/new/hu/nadrz-czaniecka/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The reservoir Czaniecka",
+          "text": "<p>The artificial reservoir Czaniecka has been built in 1966 with aim to create possibility of collection water for the Hornoslezka industry area and Bielsko Biala with regulation water level. It is located on beautiful valley of the Sola river. It is covering area of 45 hectares and its capacity is 1.3 million m3. The reservoir is direct sanitary protection zone.</p>"
+        }
+      },
       "url": "/nadrz-czaniecka/",
       "urlAliasy": []
     },
@@ -7084,6 +7964,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/lesna-rezervacia-zasolnica/",
         "pl": "https://www.qrlink.sk/new/pl/lesna-rezervacia-zasolnica/",
         "hu": "https://www.qrlink.sk/new/hu/lesna-rezervacia-zasolnica/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The forest reservation Zasolnica",
+          "text": "<p>The forest reservation Zasolnica has been created in 1973 to protect the old carpathian oak forest. It is one of few natural reservations in the Small Beskid. Its whole area is 16 hectares. It includes zone of the Wilkowicka Magura, the area of Meadow Chrobacka and slopes of Zasolnicka Mountains.</p>"
+        }
       },
       "url": "/lesna-rezervacia-zasolnica/",
       "urlAliasy": []
@@ -7115,6 +8001,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kostol-v-czancu/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-v-czancu/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The church in Czańc",
+          "text": "<p>The parish church dedicated to Saint Bartholomew in Czańc has been built from 1921 to 1924, on place where old wooden church form 15th century had stated before. After the old church remained the masonary tower from 1764 and the sacristy. The new church has been built with thanks to the then owners of the county Czańc Archduke Charles Steven Habsburg form Zywiec, the patron of the Czanc parish. The author of the church project was the famous Krakow architect Franciiszek Mączyński.</p>"
+        }
+      },
       "url": "/kostol-v-czancu/",
       "urlAliasy": []
     },
@@ -7144,6 +8036,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kaplnka-v-bujakowskom-lese/",
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-v-bujakowskom-lese/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-v-bujakowskom-lese/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The chapel under Bujakovská Mountain",
+          "text": "<p>The great stone chapel is located under Bujakovská Mountain, built 90s of the 20th century. So its history is dated to years before the WWII and its position is not random. The chapel have been built in forest next to the legendary sanative spring „U dedka“ (At grandfather). Inside the chapel there is scuplt of Mother of God’s from Lurds made by folk from Bujakow.</p>"
+        }
       },
       "url": "/kaplnka-v-bujakowskom-lese/",
       "urlAliasy": []
@@ -7175,6 +8073,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/vila-v-kobiernicach-a-pamiatkovy-park/",
         "hu": "https://www.qrlink.sk/new/hu/vila-v-kobiernicach-a-pamiatkovy-park/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The Villa in Kobiernica and the remember park",
+          "text": "<p>The Villa in Kobiernica and the remember park have been built in half of the 19th century in the classicism style by family Tomkowič. Building has ground floor with high rectangular roof. In the middle there is located hall under four ion pillars with with ion crowns. The facade from garden side is very decorated, almost from the floor, divided by pilasters. Inside the building there are located the newgothic fireplaces. The villa is located in centre of the village, surrounded by the historical park where many beautiful trees are still living. In 1886 – 1920 there acted the Secondary aggricultural school. The school was established with help from the then owner county Kobiernice, baron Herman Čeča form Koz. This places are really creative. Today we can find there the house of culture, the educational centre and the residence of associatios acting in the village.</p>"
+        }
+      },
       "url": "/vila-v-kobiernicach-a-pamiatkovy-park/",
       "urlAliasy": []
     },
@@ -7205,6 +8109,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/zrucanina-hradu-na-wolku-a-historicka-trasa/",
         "hu": "https://www.qrlink.sk/new/hu/zrucanina-hradu-na-wolku-a-historicka-trasa/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The ruins of the castle on the hill Volek",
+          "text": "<p>The ruins of the once well known castle are on the hill named „Volek“ in the village Kobiernice. It has been built in the begining of 14th century and it was composed of two main buildings surrounded by double mound and stone wall, which have had to fulfil the defensive function. Soon it bacames place for the knight thieves. The castle was destroyed in 1476 by Kazimier Jagiellonsky. Nowdays there are only ruins of this castle, mounds and ditchs around the ruins and remains of the quadrilateral gate.</p>"
+        }
+      },
       "url": "/zrucanina-hradu-na-wolku-a-historicka-trasa/",
       "urlAliasy": []
     },
@@ -7231,6 +8141,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/sarisska-galeria/",
         "pl": "https://www.qrlink.sk/new/pl/sarisska-galeria/",
         "hu": "https://www.qrlink.sk/new/hu/sarisska-galeria/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Gallery of Šariš",
+          "text": "<p>Gallery of Šariš is one of the oldest regional galleries in Slovakia. It was established in 1956, in a town with a rich history and cultural tradition, to cater exclusively for the fine arts. Originally named Krajská galéria (Regional Gallery), it was later known as Galéria výtvarného umenia (Gallery of Fine Art) before acquiring in 1991 its present designation of Šarišská galéria v Prešove (The Šariš Gallery in Prešov). </p>\n<p>The gallery opened its collections to the public in 1957, at which time it was housed in the former Evangelical college, a National Cultural Monument in the northern part of the main square. In 1981 it started to use two former burgher houses – originally Gothic, with Renaissance and Baroque modifications. These listed buildings were specially reconstructed to meet the gallery’s requirements. The house at no. 53 is one of the most interesting Gothic residences in the Urban Conservation Area. Its facade is finished with a triangular shield. At its peak, there is the sculpture of a man dressed in Kuruc holding the sword in his right hand and left cut off head of the enemy in the left. </p>\n<p>The Šariš Gallery has built upon its initial collections through its own research and acquisitions – mostly purchases – and now administers more than 3,500 works from the 15th to 20th centuries. Its acquisitions policy is geared to surveying fine art both past and present, with the focus on Šariš. However, the works of important representatives of art in Eastern Slovakia and Slovakia as a whole are also traced and acquired for examination and display. </p>\n<p>The quality and wealth of its collections, along with its exhibition and education programme, make the Šariš Gallery in Prešov one of the leading galleries in Slovakia and a model acquisitions-oriented institution in the region.</p>\n<p>Opening hours: </p>\n<p>Monday: closed </p>\n<p>Tuesday 9.00 – 18.00 </p>\n<p>Wednesday: 9.00 – 18.00 </p>\n<p>Thursday: 9.00 – 18.00 </p>\n<p>Friday: 9.00 – 18.00 </p>\n<p>Saturday: 14.00 – 18.00 </p>\n<p>Sunday: 14.00 – 18.00</p>\n<p>Address: </p>\n<p>Šarišská galéria </p>\n<p>Hlavná 51 </p>\n<p>08001 Prešov </p>\n<p>Slovakia</p>\n<p>Tel.: 051/ 772 54 23</p>\n<p><a href=\"http://www.sgpresov.sk\">www.sgpresov.sk</a></p>",
+          "audio": [
+            "/assets/audio/migrated/18-gallery-of-saris.mp3"
+          ]
+        }
       },
       "url": "/sarisska-galeria/",
       "urlAliasy": []
@@ -7259,6 +8178,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/frantiskansky-kostol/",
         "hu": "https://www.qrlink.sk/new/hu/frantiskansky-kostol/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Franciscan church of St. Joseph",
+          "text": "<p>A baroque single-nave Roman Catholic Church with a two-spire facade, connected with the monastery at the northern side. It was consecrated to St. Joseph and with its dimensions belongs to big cathedrals. </p>\n<p>About 1830, a Carmelite Order built up a new church and a small monastery exactly in the place of the original church in the 11th century. The friars moved away in 1559 and both buildings devolved to municipal administration that, during the Reformation, used the monastery for economic and defensive purposes. </p>\n<p>Based on Emperor Leopold’s I (1657-1705) order from 1661, the church and the monastery devolved to the Franciscan Order from near-by Nižná Šebastová. Thanks to financial support from Baron Ferenc Klobusiczky from Prešov and Baroness Sóos from Solivar, the Gothic church was soon reconstructed, notably the presbytery and the nave lateral shrines were added to the letter’s pillars. </p>\n<p>The complete facade with two lateral spires was modified copying the Jesuitical church in Rome. Extensive reconstruction of the church and the monastery was done by Johannes Tornyossi thanks to financial support from the Klobusiczkys in 1708-1718. The monastery has four altars and a pulpit. </p>\n<p>Construction works were also implemented in the following period. From 1732 to 1735, the monastery facade was completed with stucco ornaments and four sandstone sculptures (1734) representing St. Rocha, St. Florien, St. Francis and St. Anton. They were created by Simon Griming. </p>\n<p>The church interior was beautifully adapted. The new main altar of St. Family (1732) was given a rich sculptural decoration. Its author Francisco Strecius provided it with over 40 different sculptures, with 12-year-old Jesus, the Virgin Mary, and St. Joseph to whom the church was consecrated. The consecration ceremony in the reconstructed monastery took place in 1735. The church became another demonstration of sacral arts in Prešov. </p>\n<p>Another stage of extensive construction works dates back 50 years later, following the big fire in December 1870 that destroyed the church interior, including the main altar. The reconstruction was money-consuming, however, another fire on December 3, 1888, burnt down the slim church spires. The remains of the spires were preserved up to present days without any significant interventions. </p>\n<p>Franciscan church of St. Joseph underwent necessary general reconstruction in 1984-1991.Sandstone portals, almost all windows and ledges, the church and spire roofs, and even the church clock were replaced. The monastery reconstruction was completed in 1993.</p>",
+          "audio": [
+            "/assets/audio/migrated/04franciscanchurch.mp3"
+          ]
+        }
+      },
       "url": "/frantiskansky-kostol/",
       "urlAliasy": []
     },
@@ -7285,6 +8213,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/evanjelicke-kolegium/",
         "pl": "https://www.qrlink.sk/new/pl/evanjelicke-kolegium/",
         "hu": "https://www.qrlink.sk/new/hu/evanjelicke-kolegium/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Evangelical College",
+          "text": "<p>Evangelical College, which represents one of the most significant educational Protestant institutions in our cultural history, is situated in the vicinity of the Evangelical Temple of the Holy Trinity. </p>\n<p>The decision to establish the Prešov Evangelical College was made by the deputies representing the Upper Hungary Protestant classes in their session in Košice on November 18th, 1665. The foundation stone of the building was laid and classes started in the autumn of the next year. The college was following the rich traditions of the humanistic city school at which, except for other famous personalities, the famous teacher, scholar and educator Comenius worked for a short time before. The Evangelical College was established according to the German model as a ten-class Secondary Grammar School including courses in theology and philosophy in the last years of study. </p>\n<p>The outstanding professors from all over Hungary and from abroad, like Dr. Samuel Pomarius, philosopher and educator Elias Ladiver, writer and historian Ján Rezik, and Samuel Mathaeides taught at this school since its beginnings. Famous personalities can be found among the students of the above teachers, for example Emmerich Thokoly – a leader of the anti-Habsburg Resistance or Jacob Bogdani, a famous English Baroque painter. Because of the personalities teaching at this school as well as the modern methods of teaching, the school developed its quality to such an extent that the gentry decided to transform into an Evangelical University. </p>\n<p>This development interrupted after the Wesselényi Conspiracy in 1671. The building was occupied by the military troops and was given to the Jesuits in 1673. Thus Evangelical College was cancelled and the professors were forced to leave the city. The situation changed as late as 1682 when Emmerich Thokoly, one of the graduates of the College, re-established the College. The Jesuits came back to the College after the defeat of the resistance. The College flourished during the period of the Ferenc II Rákóczi Uprising for the last time. </p>\n<p>The capitulation agreement after the occupation of Prešov in December, 1710 secured the College’s continuing existence, but Queen Eleanor ordered the Evangelicals to leave the building the following year. The building was given to the Jesuits again then. The building served as the Jesuit Residence sixty years until the cancellation of the Jesuit Order in 1773. The building of the College and the neighbouring church thus became a state property. </p>\n<p>Classes began in the original building of the College again in 1785. The year of 1804 is a milestone in the history of the College since in this year it was granted a status as the District College operating in the whole area of Potis district of evangelical church of the Augsburg Confession. </p>\n<p>The College flourished alter the Austrian-Hungarian Settlement in 1867, especially in the 1870s. The College became a large educational institution including a complete Secondary Grammar School study, a Law and Theological Academy, and a Teacher Training Institute. </p>\n<p>After the establishment of the Czechoslovak Republic in 1918, the pre-World War I nature of the College changed. Only an eight-class Secondary Grammar School remained. Classes were firstly conducted in two languages (Hungarian and Slovak), later, since the 1920’s, only in Slovak. </p>\n<p>The old College building became a state property in 1950. It has been used by several institutions since then, but because of indifference and poor care of the building, it has gradually fallen into disrepair. According to the Restitution Law, the building became a property of the Evangelical Church of the Augsburg Confession in 1992 again. </p>\n<p>The original building was a three-wing Renaissance building consisting of the yard in the middle, enclosed by a wall on the southern side, and an entry gate. A high attic wall with a typical attic gable dominated above the row of Renaissance windows. The Jesuits joined the original extended southern wing on the first floor to the northern choir of the neighbouring Evangelical church in 1716. The whole building was remodelled in a Baroque style in 1724. A large remodelling of the College took place from 1867 to 1887 and was supervised by an architect K. Benkó. During the restoration a connecting corridor, the second floor, as well as the whole building was remodelled in a Neo-Renaissance style. The assembly hall where the collection of historical books from the College Library can be currently found is the nicest room of the interior. </p>\n<p>The monument commemorating the victims of Caraffa’s Bloody Trial in 1687, along with a memorial desk bearing the names of the victims, was built on the north-western corner of the building in 1908.</p>",
+          "audio": [
+            "/assets/audio/migrated/09-evangelical-college.mp3"
+          ]
+        }
       },
       "url": "/evanjelicke-kolegium/",
       "urlAliasy": []
@@ -7313,6 +8250,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/chram-sv-jana-krstitela/",
         "hu": "https://www.qrlink.sk/new/hu/chram-sv-jana-krstitela/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Cathedral of St. John the Baptist",
+          "text": "<p>It was originally a Gothic one-nave church. It was connected to the Minorite monastery in the 17th century and rebuilt in the Baroque style in the 18th century to the present state. </p>\n<p>The building of the city almshouse was built on the southern outskirt of Prešov in the first half of the 14th century. A smaller chapel was added it in the same century. A new hospital Church dedicated to the Holy Virgin started to be built in 1429. In this period the church was situated outside the original city walls, and only later, after the relocation of the city walls, the church became a part of the city. </p>\n<p>After the Reformation period, the hospital church became an Evangelical church of Prešov Slovak population. </p>\n<p>The ruler Leopold I ordered to give the church into the possession of the Minorite Order in 1673 when they came to Prešov the same year. The Minorite Order was also given a hospital as well. The Minorite church was considerably rebuilt as late as in the mid-18th century. Rebuilding was supervised by the Prešov builder Caspar Urlespacher from 1753 to 1754. The sanctuary faced the west; the main entry portal was relocated to the east facing the street. A newly-built main facade was characterised by a Baroque decoration. Two side chapels on the northern and southern sides were added to the nave. The third chapel was built on the northern side, in the area under the tower. A unique Gothic net vault above a newly-built choir’s area has been preserved. A part of the wall with the original pillars and the church’s spire has also been preserved as part of the original hospital church. </p>\n<p>A non-existing sculptural group of St. John of Nepomuk (Ján Nepomucký) placed in front of the monastery, at the edge of the Main Street, was built probably in the end of the Baroque reconstruction of the Minorite temple. </p>\n<p>The works in the church interior continued and four bigger frescoes depicting scenes from the life of St. John the Baptist were created in 1757. Their author is an unknown Košice painter and they can be seen on the ceiling of the temple’s nave currently. </p>\n<p>The next reconstruction of the church took place as late as in 1835, when the church belonged to the Uniate bishoprie since 1818. In 1846 the church was adopted to the needs of the eastern liturgy. The altar was adapted, an iconostasis, the bishop’s throne, the pulpit and the canonical pews were created. </p>\n<p>A large crypt can be found under the temple. Five bishops, some Jesuits, several Minorite Order members and others are buried there. </p>\n<p>The temple was given into the possession of the Orthodox Church in the 1950’s when the Uniate Church was cancelled in Czechoslovakia, and returned to them after the re-establishment of the Uniate Church in 1968. The temple was renovated from 1977 to 1980, but the general reconstruction of the whole complex took place from 1994 to 1995.</p>",
+          "audio": [
+            "/assets/audio/migrated/03-cathedral-temple-of-saint-john-the-baptist.mp3"
+          ]
+        }
+      },
       "url": "/chram-sv-jana-krstitela/",
       "urlAliasy": []
     },
@@ -7339,6 +8285,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/susosie-immaculaty/",
         "pl": "https://www.qrlink.sk/new/pl/susosie-immaculaty/",
         "hu": "https://www.qrlink.sk/new/hu/susosie-immaculaty/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Sculptural Group Immaculata",
+          "text": "<p>The dominant of the northern part of the square is reconstructed Baroque Immaculata sculpture, surrounded by park, incorrectly called Trinity by Prešov citizens.</p>\n<p>In 1751 this statue was built by Jesuits as a monument to the plague. It stands on the place where from March to September 1687 the bloody trial of Prešov. </p>\n<p>The sandstone sculptural group in the form of a three-part base with four statues of saints – St. Nicholas, Bishop of St. John of Nepomuk, St. Stephen and St. Francis Xavier – is the work of Košice sculptor Joseph Hartmann, who was one of the most sacral artists of his time at Eastern Slovakia. The work is dominated by the golden statue of the Madonna with the child, crown and sceptre. The original statues at the base of the statues still retain only pp. Only statues of St. Nicholas and St. John of Nepomuk have been retained from original statues on the base.</p>\n<p>The heavily damaged and weather-worn statue was reconstructed in 1967, the last time in 1995-1997.</p>",
+          "audio": [
+            "/assets/audio/migrated/10-sculptural-group-immaculata.mp3"
+          ]
+        }
       },
       "url": "/susosie-immaculaty/",
       "urlAliasy": []
@@ -7367,6 +8322,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/mestske-hradby/",
         "hu": "https://www.qrlink.sk/new/hu/mestske-hradby/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "City Walls – Florien Port",
+          "text": "<p>City walls were one of the most important urban medieval privileges. The beginning of their construction began in 1374 and the right to build was given to Prešov by the ruler of Louis I. </p>\n<p>The walls were elliptical footprint, have eleven towers, were doubled and a ditch, which was filled with water from stream at the time of danger, was located between them. In 18th century the town became a military function obsolete, because the empress Maria Theresa issued an order to repeal the city walls in 1751. </p>\n<p>A system of walls was captured on the map, which made the Prešov geometer Gaspar in 1768, just before their destruction.</p>\n<p>Until today, only a small part of walls maintained. The greatest object of the surviving parts of the city walls is Florien Port on the same street. It served to enter the city on foot and mouth of urban channel. In its present form has been adjusted at the end of the 18th century. In an adjacent building, now it belongs to the Hotel Academy in Prešov. </p>\n<p>The polygonal bastion is the only preserved cannon bastion, standing east of the Franciscan church. In its neighbourhood under Kmeť alley, the preserved part of trench with wall. On the south side of the trench, the Garden of Arts lies in.</p>\n<p>The original bastion, in which is now cafe and restaurant, of the old wall construction period is preserved on Kováčská Street.</p>",
+          "audio": [
+            "/assets/audio/migrated/16-city-walls.mp3"
+          ]
+        }
+      },
       "url": "/mestske-hradby/",
       "urlAliasy": []
     },
@@ -7393,6 +8357,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kostol-sv-mikulasa/",
         "pl": "https://www.qrlink.sk/new/pl/kostol-sv-mikulasa/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-sv-mikulasa/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Concathedral of St. Nicolas",
+          "text": "<p>The concathedral of St. Nicolas is undoubtedly the most remarkable sight of Prešov which represents the oldest and the only Gothic religious building preserved in Prešov. The temple has a three-nave Gothic design, so-called “the hall church” which was common on the German territories. </p>\n<p>In the past it was considered as one of the most perfect hall churches in former Hungary. By its size (length 54.7 metres, width 34.45 metres and the height of the interior is 16 metres) it holds the third position among buildings of the same type in Slovakia. </p>\n<p>Its origin dates back to the pre-urban period and probably the church of the German settlement stood there since the 13th century. The patronage of St. Nicholas is probably connected with this period when it was brought here by the German colonists. The parish church itself was built by the city authorities in the end of 40s of the 14th century. It is evidenced by the charter issued by Queen Elisabeth in 1347 allowing the Prešov citizens to cut the stone needed for the church’s construction anywhere in Šariš County. Presumably the original building was a late Baroque three-nave design building with the floor plan identical with the present church. The pillars heads and the consoles in the northern wall and the triumphal arch referring to the height of the original church have been preserved from the original church. A relief of a bearded head in the northern wall, probably a face of a stone-mason master, commemorates the church builders. From 1502 to 1511 the reconstruction supervised by the Prešov stone-mason master Ján Brengyszeyn was the largest. The whole three-nave design was rebuilt, all the walls were heightened to some metres and after some extension (the southern hall) the whole temple got its present late Baroque look. The naves and presbytery was arched by the beautiful net and star pattern ceilings. The hall under the spire was ended by a circle vault. </p>\n<p>The church spire was completed in 1515. The current look of its top comes from 1904. </p>\n<p>In the fifties of last century, the church has undergone overhaul which has resulted in the new travertine tiles, plaster, paint, coloured windows, radio, or Way of the Cross. The sculptures from the workshop of Master Paul of Levoča are in interiors, but also other valuable fragments of the Gothic style. The most notable monuments are the main altar of the concathedral of St. Nicolas, which is a symbiosis of Gothic and Baroque art.</p>",
+          "audio": [
+            "/assets/audio/migrated/01-the-church-of-st-nicholas.mp3"
+          ]
+        }
       },
       "url": "/kostol-sv-mikulasa/",
       "urlAliasy": []
@@ -7421,6 +8394,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/evanjelicky-a-v-chram-sv-trojice/",
         "hu": "https://www.qrlink.sk/new/hu/evanjelicky-a-v-chram-sv-trojice/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Evangelic Church of the Augsburg Confession of the Holy Trinity",
+          "text": "<p>This Renaissance temple is quite rare in this territory and represents one of the few Protestant churches built in Slovakia during the Reformation period. The length of the building is 36 metres; its width is 12 metres and inner height is 13metres. </p>\n<p>Both the Evangelicals and the Calvinists used mostly the older gothic, previously Catholic temples, and only rarely they built new ones. In the first half of the 17th century in Prešov the number of the Hungarian burghers rose considerably. The church in the Slovak Street used as the Hungarian Evangelical Temple was small and could not satisfy the believers’ needs. A City Council decided to build a new Hungarian church to be built on the place on the square, next to the German church, on the place of the original Church of St. Ladislav. The foundation stone was ceremoniously laid on the 25th July, 1642. </p>\n<p>The construction of the temple took five years and was ceremoniously blessed on June 16th, 1647. A stone tablet was situated under the main portal with a Latin inscription. The church was designed as a typical Renaissance one nave with trihedral ending, choir stands on the floor on both sides of the ship and organ on the north side of matroneum. The mere notion of architectural and artistic works, its austere interior decoration and inner decoration meet the needs of the Lutheran Church. </p>\n<p>The further destiny of both the temple and the College buildings represent actually a chronicle of the Reformation and anti-reformation history in the city. The authorities confiscated the church in 1670 after the suppression of the Wesselényi Conspiracy for the first time. Three years later, after the occupation of the city by soldiers, the temple was given to the Jesuits who settled in the other confiscated building of the College. They owned it for 89 years. The church came into the possession of the original owner even twice more: during the Imrich Thokoly Uprising and the Ferenc II Rákóczi Uprising. In spite of the Capitulation Agreement allowing the Church to keep the temple, Queen Eleanor ordered the Evangelicals to leave all the churches on the territory of the city. </p>\n<p>The Jesuits moved into the church again and stayed there until 1773 when their Order was cancelled. Several reconstructions were made in this period, but they were removed later. The joining of the northern choir to the vault roofed corridor in the southern tract of the College building was the most significant of them. The Jesuits built the main altar of the Holy Virgin, the side altars of St. Ignatius and St. Francis of Xavier in 1673. Altar of the crucified Christ and Suffering Holy Virgin was built by them in 1696. Four more altars were built in 1731. </p>\n<p> Pope Clement XIV put an end to the Jesuit Community in 1773 and the church became a property of the city’s chamber, in 1783 together with the College building they were put on public auction. The municipal authorities and some merchants were interested in buying the church. The church was purchased by the Evangelicals’ for 6000 golden ducats with a support from the Emperor and King Joseph II. He visited the city in 1770 and was familiar with the Evangelicals’ problems. The Evangelicals got the College building into their possession in the same period. </p>\n<p>In 1783 the temple became a property of the Evangelical Church of the Augsburg Confession again. It was used by both Slovak and German (later Hungarian and German) choirs from its beginnings to 1945. Both choirs were involved in its reconstruction and preservation. The church burnt out in 1913 for the last time. The fire destroyed the altar picture and heavily damaged the organ and the altar. The last concise reconstruction of the church took place from 1980 to 1981. The organ was renewed several times, last time in 1997. It belongs to the most beautiful baroque sights of Prešov.</p>",
+          "audio": [
+            "/assets/audio/migrated/02-evangelic-church-of-the-augsburg-confession-of-the-holy-trinity.mp3"
+          ]
+        }
+      },
       "url": "/evanjelicky-a-v-chram-sv-trojice/",
       "urlAliasy": []
     },
@@ -7447,6 +8429,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/neptunova-fontana/",
         "pl": "https://www.qrlink.sk/new/pl/neptunova-fontana/",
         "hu": "https://www.qrlink.sk/new/hu/neptunova-fontana/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Neptune´s Fountain",
+          "text": "<p>Neptune´s Fountain is the only original preserved town water tank. Ten similar water tanks supplied the town with water before the water-supply system was built.</p>\n<p>At the beginning of the 19th century, Jewish tradesman Mark Holländer had the sculptural group of Neptune built as an expression of gratitude for the city council to allow him to live and establish a business in Prešov. No Jews were allowed to live in Prešov except the time of markets up to the time of Joseph II. A rich Galician trader M. Holländer as the first successfully broke that prohibition in the second half of the 80s of the 18th century. Despite existing laws (a special decree of Joseph II. permit Jews to settle in the royal city, with the exception of mine) both the city council, as well as mercantile guild lobbied against its presence. Thanks good relations with the monarch he managed to stay in town, buy a house, shop and even get the burgher rights. In gratitude, he then had in one of the tanks this fountain built.</p>\n<p>The author of the statue of Neptune with trident, surrounded by seafood (fish, frog, snake, turtle and crocodile), a Košice stonemason and sculptor Vincent Staviarsky, who completed the sculpture in 1826. </p>\n<p>Neptune statue was reconstructed at the beginning of 90s of the 20th century.</p>",
+          "audio": [
+            "/assets/audio/migrated/14-neptunes-fountain.mp3"
+          ]
+        }
       },
       "url": "/neptunova-fontana/",
       "urlAliasy": []
@@ -7475,6 +8466,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/hlavna-ulica/",
         "hu": "https://www.qrlink.sk/new/hu/hlavna-ulica/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Main Street",
+          "text": "<p>Main Street with a typical shape of lenses square is one of the oldest part of town, it has already existed in plan in the preurban period. The original village of German colonists from the 13th century changed into the market settlement, which later became the heart of the city. Most houses originated in the Middle Ages. The main building material was wood, stone buildings were created in the 14th century – the parish church of St. Nicholas, town hall, rectory, hospital, school and some homes of wealthy burghers. </p>\n<p>The stone became the dominant building material during the 15th – 16 century. Gothic buildings of corridor type came originally from these times. The largest architectural development of the town and the square was in the Renaissance in 16th and 17 century. All new parcels were gradually built over and square has been extended to the south. Most of the houses got the new Renaissance facade, typical Prešov attics, staircases, portals and lining. The urban public facilities were the showpieces; the most important sight is Rákóczy palace. </p>\n<p>From the Baroque period the rebuilt monastery with the Church of St. John the Baptist was the largest building, the Klobušický Palace has preserved the original baroque facade. The Classical period is represented by the important building of the Greek Catholic Bishop’s Palace, as other buildings are Reduta building with the Black Eagle and the Neptune fountain. </p>\n<p>One of the largest interventions in the architectural development of the street were rebuilding after the great fire in 1887. Some buildings were demolished and built new ones, old and classical Renaissance facade replaced by new, mostly in the spirit of historicist styles. Reconstruction of Evangelic College was completed; the town hall and theatre, the Black Eagle and other objects were rebuilt. </p>\n<p>A significant intervention into a square was the establishment of the park south of the church of St. Nicolas. </p>\n<p>The most important historical and architectural monuments of the city Prešov are concentrated in the core of the square. In 1955 the historic core of Prešov became a historical town reserve and has been gradually renewed, most notably in 90s of the 20th century.</p>",
+          "audio": [
+            "/assets/audio/migrated/15-main-street.mp3"
+          ]
+        }
+      },
       "url": "/hlavna-ulica/",
       "urlAliasy": []
     },
@@ -7501,6 +8501,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/ortodoxna-synagoga/",
         "pl": "https://www.qrlink.sk/new/pl/ortodoxna-synagoga/",
         "hu": "https://www.qrlink.sk/new/hu/ortodoxna-synagoga/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Jewish Orthodox Synagogue",
+          "text": "<p>Complex of objects of Prešov Orthodox Jewish religious community originated from the 80s of the 19th century to the mid 30s of the 20th century. It was closed as a separate district in the area behind the former town walls. </p>\n<p>The orthodox synagogue is located in the courtyard centre, between the rabbinate and the school. This is the only synagogue in Prešov which still serves its original purpose. It was built up in 1898 based on the design of a synagogue in the town Tokai and served as a sacral building, constructed in the Moorish style with some orientalising elements. </p>\n<p>The relatively austere neo-Romanesque-Moorish facades hide treasure of synagogue architecture. The richly decorated interiors with fully conserved inventory belong to among the most attractive of Jewish monuments in Slovakia. Apart from the almemor, the interior is provided with one more precious object: the tabernacle, (aron hakodesh) which demonstrates remarkable craftsmanship, was made by Bacsó, a sculptor from Košice. The whole interior is decorated by Andreas Grazi’s beautiful ornamental paintings. They have preserved their original richness, expressiveness, and form. </p>\n<p>The synagogue fulfilled its purpose until 1942. In the spring and summer of 1942, it was here and at the neighbouring premises, where Prešov Jews were concentrated immediately before deportations. Several thousand Prešov citizens were sent by Hlinka guardists to transports directed to concentration camps. During the occupation of Prešov, the synagogue was turned into a stable and a garage of the German army. </p>\n<p>Following liberation, the building functioned as a canteen for home-comers. When the necessary repairs were done and the interior was appropriately furnished, the building was consecrated in 1948. Ever then it has been serving as the only synagogue of the only Jewish community in Prešov. </p>\n<p>This being the most beautiful functional synagogue in Slovakia, Jews from Los Angeles attempted to purchase and move it to the USA in 1989-90, however, they failed. In August 1991, the leading representatives of the Slovak Republic took part in a ceremony of unveiling a memorial to over 6,000 victims of the Holocaust from Prešov and its neighbourhood. </p>\n<p>In November 1993 the Slovak National Museum installed in the second storey of the synagogue (women’s gallery) a part of the collections from the pre-war Jewish museum in Prešov which were returned from Prague. A permanent exposition of Bárkány’s collection is a unique combination and harmony of the collections and the interior of one of the most beautiful synagogues in our country.</p>\n<p>Opening hours: </p>\n<p>Monday: closed </p>\n<p>Tuesday: 11 am – 3 pm </p>\n<p>Wednesday: 11 am – 3 pm </p>\n<p>Thursday: 9 am – 1 pm </p>\n<p>Friday: 9 am – 1 pm </p>\n<p>Saturday: closed </p>\n<p>Sunday: 2 pm – 4 pm</p>\n<p>Address: </p>\n<p>Orthodox synagogue </p>\n<p>Okružná 32 </p>\n<p>080 01 Prešov</p>\n<p>Tel.: 051 / 773 16 38 </p>\n<p><a href=\"http://www.snm.sk\">www.snm.sk</a></p>",
+          "audio": [
+            "/assets/audio/migrated/05-jewish-orthodox-synagogue.mp3"
+          ]
+        }
       },
       "url": "/ortodoxna-synagoga/",
       "urlAliasy": []
@@ -7529,6 +8538,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/greckokatolicky-biskupsky-palac/",
         "hu": "https://www.qrlink.sk/new/hu/greckokatolicky-biskupsky-palac/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Uniate Bishop´s Palace",
+          "text": "<p>The Bishop’s Palace, which originated from the previous Minorite monastery, forms an inseparable part of the complex of the Greek-Catholic (Uniate) church and other buildings. </p>\n<p>Its history started when the buildings housing the city hospital and almhouse were rebuilt into a new monastery which was obtained by the Minorites in 1671. They started to build a new monastery near the Lower City Gate in 1698, on the place where four smaller artisans’ houses had been built originally. </p>\n<p>The Minorites finished their activities in Prešov according to Emperor Joseph’s II order from July 12, 1787 which cancelled the monastery. After the departure of the last friars in 1788, Prešov suffered from a Great Fire which damaged the building of the cancelled Minorite monastery. The reconstruction was supervised by city authorities who decided to place a stable for its military corps in the reconstructed building. </p>\n<p>The seat of the Uniate Vicariate was relocated from Košice to Prešov in 1791. Its seat was in the building of the original Minorite monastery. Pope Pius VII issued a bull entitled Relata Samper on September 22, 1818, by which a Uniate bishopry in Prešov was originated. The whole complex of the original monastery was allotted to the first bishop of the newly-established Prešov Uniate diocese, Gregory Tarkovich (1754-1841). The gradual reconstruction of this complex as well as the reconstruction of the newly-established seat started in this period. </p>\n<p>Jozef Gaganec, the second bishop of Prešov, had got a large rebuilding of the seat made in 1848. This enabled the creation of the current two-storey building of the palace with its Classicist facade. A big triangle gable (tympanon) was placed above the main gate and a big cupola dominated the middle building. </p>\n<p>The Bishop’s Palace and the temple were damaged during the Soviet air raids on December 20, 1944. Both the buildings started to be reconstructed immediately after World War II. </p>\n<p>Both the buildings – the church and the bishop’s palace – were given into the possession of the Orthodox Church in 1950 when the state authorities decided to eliminate the Uniate Church in Czechoslovakia. The bishop’s palace became a seat of the Prešov Orthodox Church’s Archbishop for four decades up to 1990. The palace has been a seat of the local bishop of the Uniate Church since 1990 in Slovakia and Bohemia.</p>",
+          "audio": [
+            "/assets/audio/migrated/17-uniate-bishops-palace.mp3"
+          ]
+        }
+      },
       "url": "/greckokatolicky-biskupsky-palac/",
       "urlAliasy": []
     },
@@ -7555,6 +8573,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kalvaria-2/",
         "pl": "https://www.qrlink.sk/new/pl/kalvaria-2/",
         "hu": "https://www.qrlink.sk/new/hu/kalvaria-2/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Calvary",
+          "text": "<p>Prešov is dominated by the baroque complex of Calvary situated on a not very high hill at the western part of the city. In the past, it was considered to be the second most beautiful Calvary in the territory of the Kingdom of Hungary (after Banská Štiavnica). </p>\n<p>As with other Calvaries, its origin is closely related to recatholization and Jesuit activities. Establishment of the Calvary was initiated by the Dying Christ Association founded by Jesuit priests in the early 18th century. Construction of sacral buildings started in 1720 and continued to 1769. However, some chapels of the Way of the Cross were built up in the 19th century, with the construction continuing till 1893. The Christ on the Olive Hill chapel and the Cross were the first objects to be consecrated by the Jesuit superior in the autumn of 1721. Construction of the complex was subsidized by the municipality and by donors, including burghers and local. </p>\n<p>The Calvary complex encompasses the St. Cross church, fourteen chapels of the Way of the Cross, including the Saint Stairway chapel, catacombs, and a cemetary. </p>\n<p>The chapels of the Way of the Cross were built up from 1721 through 1893. All of them are of a similar form, including a gable front decorated with ornaments, the donor’s coat of arms, and a semicircular vaulted entrance portal with a richly decorated lattice. This, however, does not apply to the other dominant building, the Saint Stairway chapel, built up in 1765 after the fashion of the Sancta Scala chapel near the Lateran church in Rome. The building was financed by a Lithuanian duke Radziwill who had the chapel built up out of gratitude for having been provided asylum following his forced escape from Poland. Radziwill’s coat of arms, including an inscription, is placed at the facade above the entrance. The interior includes 28 stairs with a place for relics of the saints, an altar with the Piety sculpture, and wall paintings by O. Trtina. </p>\n<p>The complete cycle of the Way of the Cross encompasses the following chapels: 1. The Last Supper, 2. Jesus on the Olive Hill, 3. Jesus Hit in front of High Priest Annanas, 4. Saint Stairway, 5. Whipping, 6. An Unknown Founder, 7. Jesus Meets Crying Women. 8. The Crucifixion, 9. Christ on the Cross, 10. Removing from the Cross, 11. Resurrection, 13. Doubting Thomas, and 14. Chapel of Ascension. </p>\n<p>The graveyard was established along with the church and the chapels. Originally, it was used for burying the Calvary donors, later for people from near-by town neighbourhoods (Pod Kalváriou, Za Kalváriou), and other people, too. There are several interesting and valuable aristocratic and burgher crypts in the Empire and the historicist styles. In 1836, catacombs were built under the church. They functioned as a crypt for clergymen. When viewed from the city, the wall, including the entrance portal, resembles a fortification wall. </p>\n<p>The whole Calvary complex was thoroughly reconstructed in the period of 1972 through 1983.</p>",
+          "audio": [
+            "/assets/audio/migrated/06-calvary.mp3"
+          ]
+        }
       },
       "url": "/kalvaria-2/",
       "urlAliasy": []
@@ -7583,6 +8610,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/zupny-dom/",
         "hu": "https://www.qrlink.sk/new/hu/zupny-dom/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Comitat House",
+          "text": "<p>It is a rococo-classicist building of a palace type, designed for administration purposes of the former Šariš district. </p>\n<p>As early as in the late Middle Ages Prešov became the most important political, cultural, economic, administration, and religious centre of the Šariš comitat. It maintained this position in the following centuries, too. The importance of the town was even increased in 1723 because Prešov became a seat of one of four newly-established juridical institutions in the Hungarian Lands, notably the district court for the Tisza basin region. </p>\n<p>Issues concerning the Šariš See fell within the competence of the Šariš district administration head appointed by a ruler. The district administration head was a commander of all royal soldiers on the district (comitat) territory. Moreover, he passed judgements on district inhabitants, with the exception of the aristocracy and clericals, and administered national incomes. The first head mentioned in historical documents was Peter (1217). The Šariš territory of those times was a part of a large borderland comitat Novum Castrum from which it separated in the first part of the 13th century. Heads of the Šariš district originally lived at the Šariš castle. Later on the seat varied depending on respective persons. </p>\n<p>Based on Maria Theresa’s Decree which ordered each comitat to build up a new office building in the place of its seat, a beautiful Comitat House building was erected in 1769-1770. Profound reconstruction made it possible to connect two-storey Renaissance houses belonging to the Mednyanszkys with a one storey corner house of a book-printer F. Paracelsus. The resulting was a monumental palace-type building with a spacious hall at the second storey, connected with other rooms through a network of corridors. The top of a lavishly articulated facade with two entrance portals was provided with a triangular shield (tympanum), including a relief of King Solomon’s trial, an adornment preserved up to the present. The wide balustrade staircase leads to a spacious hall with a trough-shaped vaulting. The other rooms are provided with lunette or flat vaulted ceilings, or with flat ceilings with stucco mirrors. </p>\n<p>The Comitat House served its original purpose for more than one and a half century, till the end of 1944. During the first Slovak Republic (1939-1945) it became a seat of the Šariš-Zemplín district. In the course of its existence, the Comitat House underwent several reconstructions. It was very damaged by the big fire of May 6, 1887, when fire destroyed a large part of the town centre. Shortly, the building was refurbished to fulfil its purpose. On December 20, 1944, the building was seriously damaged during Soviet air-raids. After the World War II the Comitat House was gradually reconstructed, and housed several institutions.</p>",
+          "audio": [
+            "/assets/audio/migrated/13-comitat-house.mp3"
+          ]
+        }
+      },
       "url": "/zupny-dom/",
       "urlAliasy": []
     },
@@ -7609,6 +8645,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/palac-klobusickych/",
         "pl": "https://www.qrlink.sk/new/pl/palac-klobusickych/",
         "hu": "https://www.qrlink.sk/new/hu/palac-klobusickych/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Klobusiczky Palace",
+          "text": "<p>The exclusive seat of the Earls Klobusiczky situated in the southern part of the square and on the eastern part of the Main Street (house number 22) is remarkably similar to the Rákóczi Palace, although much younger. </p>\n<p>The palace originated in the mid 18th century, on the five medieval plots on the square and former Hungarian Street which were bought at the end of the last century by the Earl Francis Klobusiczky. </p>\n<p>There should have been two farms and three artisan houses which were rebuilt later on these purchased plots. A two-storey palace representative of the late Baroque style (Louis XVI style) with a four-wing design and a polygonal yard in the middle were the results of a large reconstruction. Francis Klobusiczky, a former royal tabular trustee, later a supporter of General Caraffa, is most probably the initiator of the rebuilding of the old palace and the construction of a new palace. Francis Klobusiczky was an administrator in the office of the Chairman of the Šariš region from 170 to 1708, and in 1704 he joined the anti-Habsburg Uprising led by Ferenc Rákóczi. After the uprising had finished in 1711, he was granted a pardon and was allowed to keep his property. </p>\n<p>The Klobusiczky Palace was completed in 1756. The facade facing the street was heavily decorated by wonderful stucco scenes and ornamentation, and a Klobusiczky family coats-of-arms situated above the main portal is the most unique feature. A large adjacent park in the east was situated there and reached the city walls. A small summer- house from that period was placed in the park. The original Gothic wainscoting from the Franciscan church was fixed to it later. This romantic building is still a part of the scenery of the evangelical parish garden. </p>\n<p>The Klobusiczky Palace belonged to several new owners in the 19th century. The first Prešov(German) theatre was founded at the beginning of the 19th century. The palace was polyfunctional in the 19th and the 20th centuries, it served as the barracks for the military corps located in Prešov, and after its cancellation some businessmen’s offices and as well as one of the oldest Prešov pharmacies called “Salvator”. Some classrooms of the Prešov Secondary Catholic Grammar School, the Taxing Office during the period of the first Czechoslovak Republic and after foundingof the P. J. Šafárik University, the Faculty of Arts were situated in the building as well. The Faculty of Arts used the building until 1986. Then it was used as a student dormitory and as classrooms for the Apprentice School of Services. Now it is used by the Regional Court.</p>",
+          "audio": [
+            "/assets/audio/migrated/11-klobusicky-palace.mp3"
+          ]
+        }
       },
       "url": "/palac-klobusickych/",
       "urlAliasy": []
@@ -7637,6 +8682,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/radnica-2/",
         "hu": "https://www.qrlink.sk/new/hu/radnica-2/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Town Hall",
+          "text": "<p>The historical building of Prešov’s town-hall is situated in the eastern part of the square, opposite the Neptune fountain. </p>\n<p>The original town-hall was originally situated in a different place. It was a self-standing two-storey stone building, situated to the south from the parish church, somewhere in the area where currently the Monument of the Red Army in the park is situated. The municipal authorities moved out of the building for unknown reasons (probably because of the destruction caused by fires) to the contemporary place of residence of the town council in the course of the 17th century. The original look of the town hall remains unknown, only its stone city coat-of-arms from the first half of the 16th century has been preserved. It is placed in the portal of the later town hall. </p>\n<p>The building now housing the town hall was a luxurious burgher’s house in the Middle Ages. It was rebuilt to a city winery in the beginning of the 16th century and was used for these purposes for more than two centuries. Its reconstruction was supervised by a stonemason master John Brengyszeyen. Only some interior fragments, portal and the late Baroque wainscoting on the ground-floor have been preserved from the Baroque period. The winery was extended by an extension above the street passage connecting the two quarters of the square and rebuilt to a Renaissance style. The interior was decorated by Renaissance vaults and decorative attic gables. </p>\n<p>After several rebuilding, some vaults and several Renaissance wainscotings have been preserved from this period. A considerable reconstruction was made after the fire in 1768. It was finished in 1788 when it resembled a late Baroque style building with typical facades, high windows and a balcony. The last reconstruction was made after the Great Fire in 1887. In this period one more storey in a late Baroque mood was added to it and the roof was reconstructed. </p>\n<p>The town council contributed to modern Slovak and Central European history in 1919. On June, 16, 1919, the so-called Slovak Republic of Councils was proclaimed from the balcony of this building after the occupation of the city and the large part of East Slovakia by the Hungarian Red Army. The National City Council resided here after 1945, after 1990 it became a residence of the City Council. The building was added to the list of the national cultural heritage in 1961. The component of the Town Hall is the massive stone building, attached to the Town Hall from Jarkova Street, so called the Carrafa´s prison.</p>",
+          "audio": [
+            "/assets/audio/migrated/07-town-hall.mp3"
+          ]
+        }
+      },
       "url": "/radnica-2/",
       "urlAliasy": []
     },
@@ -7663,6 +8717,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/rakociho-palac/",
         "pl": "https://www.qrlink.sk/new/pl/rakociho-palac/",
         "hu": "https://www.qrlink.sk/new/hu/rakociho-palac/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Rakoczi Palace",
+          "text": "<p>The destiny of Prešov in the 17th – 18th century was more than any other eastern city linked to the powerful Rákoczi family and its important personalities. Rákoczi residence, as a reminder of those turbulent times, still excludes the east side of Main Street (house no. 86) facing the Roman Catholic Parish church.</p>\n<p>Two medieval burgher houses stood originally in its place. At the end of the 16th century, two parcels were purchased by Sigismund Rákóczi, prince of Transylvania, who had city palace reconstructed in the Renaissance style. After the reconstruction another followed, late-Renaissance repair of the whole object at the beginning of the 17th century. While it was typical suave facade with windows, bay windows, finished with a beautiful attic, consisting of combinations of tags, crimps and blind arcades.</p>\n<p>The entire facade and the attic are richly decorated by graphite. Thus Rákoczis succeeded in creating a genuine masterpiece of Renaissance architecture, regarded as the most beautiful urban Renaissance palace in the former Upper Hungary.</p>\n<p>History of the Palace, since its establishment, is closely linked to family history of Rakoczis. In 1633 there were conducted the negotiations between representatives of the Transylvanian Prince, George I. Rákóczi and Emperor Ferdinand II, completed by signing the Prešov Peace. In April 1701 Habsburg authorities imprisoned there Francis II. Rákóczi,who had been captured in his mansion in Veľký Šariš. In 1711 it was confiscated and several owners changed off.</p>\n<p>During the 18th century the wings of the courtyard were renewed in the Baroque style. In 19th century building had several owners or tenants who have adapted it for business and workshop premises.</p>\n<p>Careful reconstruction of the palace to its original Renaissance form, completed by restoration of graphite decoration of the facade was in 1950-1956. Currently, the building houses the Regional Museum.</p>\n<p>Opening hours </p>\n<p>IN SUMMER / MAY – SEPTEMBER</p>\n<p>Monday – Friday 9 am – 6 pm </p>\n<p>Saturday 2 pm – 6 pm </p>\n<p>Sunday 2 pm – 6 pm</p>\n<p>Also open during bank holidays: 2 pm – 6 pm </p>\n<p>(only applies during the summer season)</p>\n<p>OUT OF SEASON / OCTOBER – APRIL</p>\n<p>Monday – Friday 9 pm – 5 pm </p>\n<p>Saturday closed </p>\n<p>Sunday 2 pm – 6 pm</p>\n<p>Tel.: +421 51 773 4708</p>\n<p>Adress: </p>\n<p>Rakociho palác </p>\n<p>Hlavná 86 </p>\n<p>080 01 Prešov</p>\n<p><a href=\"http://www.tripolitana.sk\">www.tripolitana.sk</a></p>",
+          "audio": [
+            "/assets/audio/migrated/12-rakoczi-palace.mp3"
+          ]
+        }
       },
       "url": "/rakociho-palac/",
       "urlAliasy": []
@@ -7691,6 +8754,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/caraffova-vaznica/",
         "hu": "https://www.qrlink.sk/new/hu/caraffova-vaznica/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Caraffa´s  Prison",
+          "text": "<p>Caraffa´s Prison is late Gothic building from the beginning of the 16th century, completing the building of city hall today. This is one of the few preserved Gothic monuments in Prešov. </p>\n<p>The building was built in 1504 – 1509 on a plot of a town council member, a painter Peter Moler, whose house in Main Street was purchased by the municipality and adapted to a town wine cellar. The building was used to store wine barrels and other equipment until the end of the 17th century. Moreover, the archival records from 1530 have it that the building was also used as a prison because of its location near the town-hall. </p>\n<p>The building was given its name in the time of the Prešov bloody slaughter-house of Prešov in 1687. Based on an unjust verdict of the Emperor´s general Antonio Caraffa from Naples, 24 Hungarian yeomen and burghers were executed in the square near Evangelic Collegium. </p>\n<p>One of the torture chambers established by Caraffa for examining the accused was situated in the underground places of the present town-hall which, at those times, constituted a single architectonic unit including Caraffa’s prison. However, the victims of Caraffa’s verdict were not imprisoned in this building. The name may have been given later, perhaps after its characteristic shapes. Some written records indicate that the building was also used for keeping check gauges and scales; moreover, it functioned as a town armoury for some time, and as a town prison in the second half of the 19th century. </p>\n<p>At the beginning of the 20th century, the building started to serve for archiving municipal written documents. In 1955-56, the building, especially its interior, was adapted to its future purpose of archiving written documents of Prešov.</p>",
+          "audio": [
+            "/assets/audio/migrated/08-caraffas-prison.mp3"
+          ]
+        }
+      },
       "url": "/caraffova-vaznica/",
       "urlAliasy": []
     },
@@ -7717,6 +8789,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/the-museum-of-wines/",
         "pl": "https://www.qrlink.sk/new/pl/the-museum-of-wines/",
         "hu": "https://www.qrlink.sk/new/hu/the-museum-of-wines/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The Museum of Wines",
+          "text": "<p>Wines is situated in the centre of Prešov, in the underground cellars, which were built at the beginning of 16th century as a town tavern and storage of wine under the Town Hall. During the corporative and agricultural uprisings the place was used as a jail. In 1993 it was reconstructed and is now used for the needs of The Museum of Wines. </p>\n<p>The exhibit shows the history of vine growing in Slovakia, Morava and Bohemia according to individual vineyard localities. But the main attention belongs to the wine producers, especially the producers of the branded species. One part of the exhibition is devoted to history and technology of Tokai wine. There are more than 2,000 types of wines, which can be tested or bought. Except the wines visitors can see the machines used for wine producing – press machines, barrels, hand pumps, machines for bottle closing, the old measuring jars made of copper, glass, the wine bottles of the various shapes, colours and size. </p>\n<p>There is a possibility to drink the exhibited types of wines in the museum. During the presentation you can listen to an expert commentary about the samples, appropriate serving, producing of wine etc. </p>\n<p>One of the prestigious annual activities of the museum is organizing competitive show of wines Muvina, which became one of the most credible shows for wine producers. Wines from the whole world come, experts – oenologists from different countries in the world are ivited to degust and evaluate wine. </p>\n<p>Opening hours: </p>\n<p>Monday – Friday: 9 am – 6 pm </p>\n<p>Saturday: 9 am – 12 pm </p>\n<p>Sunday: Closed </p>\n<p>lunch break – 12.30 pm – 13 pm</p>\n<p>Address: </p>\n<p>Museum of Wine </p>\n<p>Floriánova Street </p>\n<p>080 01 Prešov</p>\n<p>Tel.: 051/ 7733 108</p>\n<p><a href=\"http://www.muzeumvin.sk\">www.muzeumvin.sk</a></p>",
+          "audio": [
+            "/assets/audio/migrated/19-the-museum-of-wines.mp3"
+          ]
+        }
       },
       "url": "/the-museum-of-wines/",
       "urlAliasy": []
@@ -7907,6 +8988,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/zvonica/",
         "hu": "https://www.qrlink.sk/new/hu/zvonica/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "BELL TOWER",
+          "text": "<p>The wooden bell tower, built in 1770. Is one of the dominant features of the village. It is one of the oldest constructions in the village, and it is a typical timber construction with a wooden tiled root, and an encircling casing. Its location in the village can be explained by its original function of annoucing the time of prayer, and warning of fires and other dangers in the village. In the past the bell tower formed the boundary between the upper and lower ends of Vlkolínec. This solitary building is an exceptional exambple of a traditional bell tower.</p>",
+          "audio": [
+            "/assets/audio/migrated/01-bell-tower-2.mp3"
+          ]
+        }
+      },
       "url": "/zvonica/",
       "urlAliasy": []
     },
@@ -7933,6 +9023,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/rimskokatolicky-kostol-navstivenia-panny-marie/",
         "pl": "https://www.qrlink.sk/new/pl/rimskokatolicky-kostol-navstivenia-panny-marie/",
         "hu": "https://www.qrlink.sk/new/hu/rimskokatolicky-kostol-navstivenia-panny-marie/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "THE ROMAN CATHOLIC CHURCH OF THE VISITATION OF THE VIRGIN MARY",
+          "text": "<p>This single nave building with a tower and an added vestry was built in 1875, in the style of Neoclassicism. A chapel which belonged to the cemetery formally stood on this site. This sacral building used for liturgical purposes expresses the traditions and association to the Christian culture of Europe. In the past, the church in Vlkolinec, which is a mountain village with tough conditions for permanent residents, functioned as the sole place of social contact, and as a source of strength and motivation. Significant reconstructions took place in 1941, 1950 and 2008.</p>",
+          "audio": [
+            "/assets/audio/migrated/03-the-roman-catholic-church-of-the-visitation-of-the-virgin-mary.mp3"
+          ]
+        }
       },
       "url": "/rimskokatolicky-kostol-navstivenia-panny-marie/",
       "urlAliasy": []
@@ -7961,6 +9060,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/pamatnik-obetiam-cernovskej-tragedie/",
         "hu": "https://www.qrlink.sk/new/hu/pamatnik-obetiam-cernovskej-tragedie/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "MEMORIAL TO THE VICTIMS OF THE ČERNOVÁ TRAGEDY",
+          "text": "<p>The symbol and the everlasting witness of a tragic moment in the history of Slovakia and the Černová village. The memorial was ordered by Slovenská liga and it was funded by the money raised by American Slovaks on the occasion of the 25th anniversary of the Černová Tragedy. The memorial is a reminder of the 15 victims who were shot dead by Hungarian gendarmes when the newly-built Our Lady of the Rosary Church was about to be consecrated. They died because they wanted Andrej Hlinka, who was born in Černová and took care of the church construction, to take part in the above consecration. The Černová Tragedy triggered many protests in and outside Slovakia. It drew attention to the oppression of Slovaks in the Hungarian Empire and to the politically manipulated court trials that resulted in the wrongul conviction of 59 people from Černová. The memorial was publicly unveiled on the 28th October 1932 in front of Andrej Hlinka, a priest from Ružomberok, and representatives of Slovenská liga and Matica slovenská and 6000 other people. The author of this national cultural monument is the sculptor Miroslav (Frico) Motoška and its architectural side was taken care of by Juraj Sládek. The memorial was built in 1932 by Jaroslav Vinduška’s company headquartered in Prague. The monument is 14 m wide and 6,8 m high. There were 46,8 t of travertine used to construct this memorial. Its shape recalls the T letter turned upside down and tis stands on a small cairn. The monument shows a cross with an Old-Slavic-style relief of Christ’s head. Under the cross, there is a lurel wreath and the Slovak nation sign. The front side of the memorial shows the sign Lord, bless our nation, for which these died and the gragedy date engraved under the cross. The names of all the victims are stade on the both sides of the memorial starting with the oldest and ending with the youngest of them. Unfortunately, not all the names and age details are correct. The vaule of the memorial on the day of its unveiling was 65 000 Czechoslovak crowns.</p>",
+          "audio": [
+            "/assets/audio/migrated/07-memorial-to-the-victims-of-the-chernova-tragedy.mp3"
+          ]
+        }
+      },
       "url": "/pamatnik-obetiam-cernovskej-tragedie/",
       "urlAliasy": []
     },
@@ -7987,6 +9095,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kostol-ruzencovej-panny-marie/",
         "pl": "https://www.qrlink.sk/new/pl/kostol-ruzencovej-panny-marie/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-ruzencovej-panny-marie/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "CHURCH OF OUR LADY OF THE ROSARY",
+          "text": "<p>The foundation stone of the church in Černová was blessed in Holy Week, on Maundy Thursday, 20 April 1906.The consecration of the newly built church was set to take place on 27 October 1907, but there was a tragic event in which 15 parishioners were killed and dozens more were injured. The church was not consecrated and remained closed for a long time. The church consecration did not take place until 29 June 1910, at the feast of the Apostles Peter and Paul. Finally, the church was consecrated by Andrej Hlinka, a native of Černová and vicar of Ružomberok, who contributed to its building to the greatest extent. In 1911 the church organ made by the company Bratři Paštikové from Prague was installed. In 1941 the original organ was rebuilt by the Rieger company.In 1912 the church altars made by the Austrian company Ferdinand Stuflesser were installed. In 1913 the church was painted by the academic painter Jozef Hanula. On 6 January 1925, on the feast of the Epiphany, Andrej Hlinka blessed two new bells that are located in the tower together with the original bell from 1911. In 1929 the church became a parish church and Černová became an independent parish. In 1948, on the initiative of Ladislav Hatala, new stations of the Way of the Cross were made for the church. In 1957, on the occasion of the 50th anniversary of the Černová tragedy, an electric clock made by the company from Vyškov u Brna was fitted into the tower.</p>",
+          "audio": [
+            "/assets/audio/migrated/06-church-of-our-lady-of-the-rosary.mp3"
+          ]
+        }
       },
       "url": "/kostol-ruzencovej-panny-marie/",
       "urlAliasy": []
@@ -8015,6 +9132,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/rodny-dom-andreja-hlinku/",
         "hu": "https://www.qrlink.sk/new/hu/rodny-dom-andreja-hlinku/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "NATIVE HOUSE OF ANDREJ HLINKA",
+          "text": "<p>On 27 September 1864 Andrej Hlinka, a priest, a nationalist and a politician whose life motto was: “All for God and for the nation!” was born in this house. The exhibition in three rooms of his native house does not only include his furniture, priestly clothes, personal items, but also info-panels with photographs of Hlinka’s life, documents and manuscripts. His wax statue and death mask made out by the sculptor Fraňo Štefunko from Martin make present the personality and great charisma of a man whose name could not be mentioned for more than forty years, not even in his native village. All exhibited items help to feel the time in which he lived. One can hear his perfect Slovak and determination in his voice on a gramophone recording, which unveils why he enjoyed such trust among the Slovak nation that he always cared about. Slovaks have always felt to be a nation and Andrej Hlinka was their true leader and father of the nation. In his time he was a natural authority for the oppressed Slovak nation, and it was his desire to cement and unite it.</p>",
+          "audio": [
+            "/assets/audio/migrated/05-native-house-of-andrej-hlinka.mp3"
+          ]
+        }
+      },
       "url": "/rodny-dom-andreja-hlinku/",
       "urlAliasy": []
     },
@@ -8041,6 +9167,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kalvaria/",
         "pl": "https://www.qrlink.sk/new/pl/kalvaria/",
         "hu": "https://www.qrlink.sk/new/hu/kalvaria/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "CALVARY",
+          "text": "<p>The Calvary, consisting of the Church of the Elevation of the Holy Cross, and 14 chapels standing on the Way of the Cross, was constructed during the years 1858 to 1860. The external appearance of the Way of the Cross is a distinctive town landmark. The original idea for the construction came from the initiative of the town´s Roman Catholic priests, Ján Nepomuk Záhora, Andrej Kučma and other believers from the Ružomberok parish. The church, built in the classical style was renovated in 1902 to 1903, and then again between 1947 and 1948. The internal decorations were designed by Valér Aurel Zavarský and the embossed carvings are the work of František Gibala. The interior was enriched in 1959 by mural paintings from Mikuláš Klimčák. This original simple sacral construction conceived in a classical spirit, is a place of pilgrimage, and a part of the spiritual history of Ružomberok.</p>",
+          "audio": [
+            "/assets/audio/migrated/12-calvary.mp3"
+          ]
+        }
       },
       "url": "/kalvaria/",
       "urlAliasy": []
@@ -8069,6 +9204,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/mestsky-cintorin/",
         "hu": "https://www.qrlink.sk/new/hu/mestsky-cintorin/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "TOWN CEMETERY",
+          "text": "<p>The town cemetery, from the year 1913, is located on sloping terrain and its reverential character is enhanced by a natural green back drop. The cemetery is a place of rest for town and regional figures as well as historical personalities of national importance. The striking tombs and graves are arranged in a planned layout along a main central axis with a cemetery cross in the centre. This creates the characteristic appearance of one of the most beautiful decorated cemeteries in Slovakia. In the cemetery there are national cultural monuments, for example, the tomb of the Makovický family, the work of Dušan Jurkovič, and the grave of Ľudovít Fulla and his first wife Juliana Klára, created by Martin Kusý Snr. and Ľudovít Fulla.</p>",
+          "audio": [
+            "/assets/audio/migrated/17-town-cemetery.mp3"
+          ]
+        }
+      },
       "url": "/mestsky-cintorin/",
       "urlAliasy": []
     },
@@ -8095,6 +9239,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/galeria-ludovita-fullu/",
         "pl": "https://www.qrlink.sk/new/pl/galeria-ludovita-fullu/",
         "hu": "https://www.qrlink.sk/new/hu/galeria-ludovita-fullu/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "GALLERY OF ĽUDOVÍT FULLA",
+          "text": "<p>This was the first significant gallery to be built in Slovakia after 1945. The original concept for the building was created by the architect Martin Kusý in 1964 and he together with Štefan Hatala finished the building in 1969. This excellent building represents the new movement of modern architecture and is among the best of its kind in Slovakia. Its stark geometrical form truthfully expresses the linear sequence of the internal spaces. The Gallery is the permanent home of an exhibition of the creative work typical of Ľudovít Fulla, as well as the artist’s original flat complete with the original furnishings.</p>",
+          "audio": [
+            "/assets/audio/migrated/24-gallery-of-ludovit-fulla.mp3"
+          ]
+        }
       },
       "url": "/galeria-ludovita-fullu/",
       "urlAliasy": []
@@ -8123,6 +9276,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/liptovske-muzeum/",
         "hu": "https://www.qrlink.sk/new/hu/liptovske-muzeum/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "LIPTOV MUSEUM",
+          "text": "<p>The Liptov museum was founded by the Kűrti brothers, Artúr and Július in 1912. This cultural institution was moved to its current building, built by the town of Ružomberok, in 1934, from its original location in a Presbytery from the middle-ages. It was designed by the town architect Vojtech Donner, and the construction was carried out between 1935 – 1937 by Július Záchenský. This showcase building marks the end of the square of Š. N. Hýroš. An example of a traditional building, it demonstrates a lasting solution to the requirements of the exhibition and work space.</p>",
+          "audio": [
+            "/assets/audio/migrated/23-liptov-museum.mp3"
+          ]
+        }
+      },
       "url": "/liptovske-muzeum/",
       "urlAliasy": []
     },
@@ -8149,6 +9311,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/evanjelicky-a-v-kostol/",
         "pl": "https://www.qrlink.sk/new/pl/evanjelicky-a-v-kostol/",
         "hu": "https://www.qrlink.sk/new/hu/evanjelicky-a-v-kostol/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "LUTHERAN CHURCH",
+          "text": "<p>A dominant architectural feature of the town; this church was built in the years 1925 to 1926, in a modern spirit with elements of Rondocubism. It was designed by architect Ján Burjan, a native of Ružomberok, who used the original concept of architect Dušan Jurkovič from 1914. The building has a rectangular layout with a pseudo basilica between two transepts with central square tower. A renovation of the exterior took place between 1997 and 1998, and the interior was refurbished in 2004. The building of the Lutheran Presbytery and elementary school from 1923 – 1924 was built according to the design of Dušan Jurkovič. It also belongs to the sacral construction and together with the church they form one connected area.</p>",
+          "audio": [
+            "/assets/audio/migrated/15-lutheran-church.mp3"
+          ]
+        }
       },
       "url": "/evanjelicky-a-v-kostol/",
       "urlAliasy": []
@@ -8177,6 +9348,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kulturny-dom-andreja-hlinku/",
         "hu": "https://www.qrlink.sk/new/hu/kulturny-dom-andreja-hlinku/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "THE CULTURE HOUSE OF ANDREJ HLINKA",
+          "text": "<p>This imposing, timeless building designed by Ružomberok architect Ján Burjan was constructed from 1927 to 1928. The construction was carried out by Ondrej Janček and Jozef Pešek. The construction of this monumental, multi-functional building was initiated by Andrej Hlinka. It is now a centre of cultural, social and sporting life. It was jointly financed by the Catholic society, Andrej Hlinka and through a public collection from local people and American Slovaks. In 1941 the building took on its final form following the desing of Vojtech Dommer (1938), with the construction work being carried out by the company of Július Záchenský. The appearance of the building displays features of the Rondocubism style. A complete renovation designed by Igor Maťaťa was carried out, with some breaks, between 1997 and 2004.</p>",
+          "audio": [
+            "/assets/audio/migrated/16-the-culture-house-of-andrej-hlinka.mp3"
+          ]
+        }
+      },
       "url": "/kulturny-dom-andreja-hlinku/",
       "urlAliasy": []
     },
@@ -8203,6 +9383,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/radnica/",
         "pl": "https://www.qrlink.sk/new/pl/radnica/",
         "hu": "https://www.qrlink.sk/new/hu/radnica/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "TOWN HALL",
+          "text": "<p>The showcase building in a Neo-Renaissance style was built in 1897 according to the design of the builder Štefan Michalík on the site of the Šustrík Mansion from the 17th century. Jozef Uhlár and Štefan Martoník oversaw a conversion and reconstruction of the interior in 1937 and in 1968 stained glass designed by Róbert Dúbravec was placed in the windows in the central staircase. Since its construction, the building has served as the town hall – the seat of the local authority. The Town Hall building is closely linked to Andrej Hlinka, and between 1898 and 1985 the Roman Catholic parish office was located in the southern wing of the building. This dominant architectural feature was completely renovated between 2001 and 2010.</p>",
+          "audio": [
+            "/assets/audio/migrated/18-town-hall.mp3"
+          ]
+        }
       },
       "url": "/radnica/",
       "urlAliasy": []
@@ -8231,6 +9420,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/rimskokatolicky-kostol-sv-ondreja/",
         "hu": "https://www.qrlink.sk/new/hu/rimskokatolicky-kostol-sv-ondreja/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "SAINT ANDREW’S ROMAN CATHOLIC CHURCH",
+          "text": "<p>The oldest preserved sacral building in the town of Ružomberok, this original early Gothic building from the turn of the 14th century has been modified by a Renaissance reconstruction from the end of the 16th century, and Baroque modifications carried out in the 17th and 18th centuries. The church, dating from 1445, was located in the centre of a fortified sacral area, on the southern side of which stood a parochial house and a church school, built in the 17th century. A complete reconstruction was completed in 1903, using elements of the historical new Romanesque style. Considerable decorative modifications were undertaken from 1939 to 1940. The painted decoration of the church is the work of Eduard Massányi. The stained glass windows, designed by L’udovit Fulla from the 1930’s to the 1970’s, are a masterpiece, and a nationally significant example of stained glass window art.</p>"
+        }
+      },
       "url": "/rimskokatolicky-kostol-sv-ondreja/",
       "urlAliasy": []
     },
@@ -8257,6 +9452,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/mauzoleum-andreja-hlinku/",
         "pl": "https://www.qrlink.sk/new/pl/mauzoleum-andreja-hlinku/",
         "hu": "https://www.qrlink.sk/new/hu/mauzoleum-andreja-hlinku/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "THE MAUSOLEUM OF ANDREJ HLINKA",
+          "text": "<p>The Mausoleum of Msgr. Andrej Hlinka was built in 1939. The construction, an initiative of the town of Ružomberok, fulfilled both the law requiring recognition of his achievements, and acted on a resolution of the Slovak Assembly requiring construction of a permanent memorial to him. It is located under the site of the former Presbytery and the Illeshäzy School. The original idea for a memorial hall for those who lost their lives in the First World War was transformed into the current architectural concept by Kazimir Olejník, Jozef Švidroň and Jozef Glončák. The area around the Mausoleum was architecturally planned in order to create a ceremonial approach. This was done through a staircase now known as the School Stairs, which is lined on both sides with a decorated pillared banister. It was designed by Jozef Uhlár and Štefan Martoník. A major renovation took place from 1990 to 1991. Nowadays it is a reverential place and a symbolic site representing the location of the final resting place of Andrej Hlinka.</p>",
+          "audio": [
+            "/assets/audio/migrated/21-the-mausoleum-of-andrej-hlinka.mp3"
+          ]
+        }
       },
       "url": "/mauzoleum-andreja-hlinku/",
       "urlAliasy": []
@@ -8285,6 +9489,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/piaristicke-gymnazium/",
         "hu": "https://www.qrlink.sk/new/hu/piaristicke-gymnazium/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "PlARlST GRAMMAR SCHOOL",
+          "text": "<p>This solitary building from the years 1888 to 1889 is a part of the Piarist College complex. The new building of the eight-year grammar school in the classical architectural style was built with town funds and replaced the older Piarist School building from 1790. lt is a two- storey building with a three-wing layout, central hall, and a central newel staircase. At the time of its establishment (1729) the Lower Piarist Grammar School in Ružomberok was the only one of its type for Liptov, Orava, Turiec and the upper part of Trenčín shire. During its existence many significant national Slovak figures attended the school. A complete renovation took place between 1984 and 1985, and the facade and interior were renovated in 2004. Since the year 2005, the building has been the seat of the vice-chancellor of the Catholic University in Ružomberok.</p>",
+          "audio": [
+            "/assets/audio/migrated/22-piarist-grammar-school.mp3"
+          ]
+        }
+      },
       "url": "/piaristicke-gymnazium/",
       "urlAliasy": []
     },
@@ -8311,6 +9524,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/namestie-andreja-hlinku/",
         "pl": "https://www.qrlink.sk/new/pl/namestie-andreja-hlinku/",
         "hu": "https://www.qrlink.sk/new/hu/namestie-andreja-hlinku/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "THE ANDREJ HLINKA SQUARE",
+          "text": "<p>This historical square took on its basic form at the turn of the 14th century, and maintains the original narrow land divisions of the Middle Ages. Later building works and reconstructions from the 18th and 19th century are partially preserved. This historical rectangular square is accessed by a network of steep winding streets and a system of staircases that link it with the lower town. Some national cultural monuments are located in the square, for example a pillar with a statue of the Our Lady of the Immaculate Conception and other important buildings listed as town landmarks.</p>",
+          "audio": [
+            "/assets/audio/migrated/26-the-andrej-hlinka-square.mp3"
+          ]
+        }
       },
       "url": "/namestie-andreja-hlinku/",
       "urlAliasy": []
@@ -8339,6 +9561,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/mariansky-stlp-socha-imacculata/",
         "hu": "https://www.qrlink.sk/new/hu/mariansky-stlp-socha-imacculata/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "VIRGIN MARY COLUMN – SCULPTURE IMACCULATA",
+          "text": "<p>A neo Baroque Marian Column from 1858 stands on Andrej Hlinka’s Square. The statue was likely made by Alexander Belopotocký. The podium with four stairs is enclosed with an iron wrought fence. At the top of a pillar is a stone gold-plated statue of Virgin Mary Immaculata from the end of the 18th century which stands on an earthglobe entwined by a gilded snake. The statue has an aureole with twelve stars. The Marian Column is an artistic statue with a unique monumental exterior sculptural work from the 18th and 19th centuries.</p>",
+          "audio": [
+            "/assets/audio/migrated/20-virgin-mary-column-sculpture-imacculata.mp3"
+          ]
+        }
+      },
       "url": "/mariansky-stlp-socha-imacculata/",
       "urlAliasy": []
     },
@@ -8365,6 +9596,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/rimskokatolicky-kostol-povysenia-sv-kriza/",
         "pl": "https://www.qrlink.sk/new/pl/rimskokatolicky-kostol-povysenia-sv-kriza/",
         "hu": "https://www.qrlink.sk/new/hu/rimskokatolicky-kostol-povysenia-sv-kriza/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "ROMAN CATHOLIC CHURCH OF THE ELEVATION OF THE HOLY CROSS",
+          "text": "<p>The Church of the Elevation of the Holy Cross began life in the year 1806 when the monastic residency of the Piarist order was reconstructed with the ﬁnancial support of Andrej Zvada Paračka, a townsman of Ružomberok and business man. This sacral construction in the Empire style completes the space of Andrej Hlinka´s square. The original church layout of a single nave, tower and a semicircular sanctuary has been preserved. In the niches in the frontal facade, stone sculptures of Saint Ján Nepomucký and Saint Jozef Kalazanský, from the workshop of Alexander Belopotocký, can be found. The interior furnishings from the 19th and 20th century are the work of Alexander Belopotocký and Valér Aurel Zavarsky, and the interior vaulted ceilings are adorned with paintings from Jozef Hanula. Even though they belong to the early work of the artist they display his characteristic style and expressions.</p>",
+          "audio": [
+            "/assets/audio/migrated/13-roman-catholic-church-of-the-elevation-of-the-holy-cross.mp3"
+          ]
+        }
       },
       "url": "/rimskokatolicky-kostol-povysenia-sv-kriza/",
       "urlAliasy": []
@@ -8393,6 +9633,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kolegium-piaristov/",
         "hu": "https://www.qrlink.sk/new/hu/kolegium-piaristov/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "PIARIST COLLEGE",
+          "text": "<p>The oldest part of this architectural structure is this late Baroque construction from the years 1730 to 1735. The benefactor behind this construction was count Jan Jakub Lőwenburg. Originally a two-storey building the construction was modified during later construction works in the 18th and 19th centuries. During the 1930’s the Jesuits completed the modern North West wing of the monastery. The residency of the Piarists is a typical monastic school building and is one of the main dominant features of the town. Behind the residency in the western part of the grounds, lies the monastic garden.</p>",
+          "audio": [
+            "/assets/audio/migrated/19-piarist-college.mp3"
+          ]
+        }
+      },
       "url": "/kolegium-piaristov/",
       "urlAliasy": []
     },
@@ -8419,6 +9668,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/synagoga/",
         "pl": "https://www.qrlink.sk/new/pl/synagoga/",
         "hu": "https://www.qrlink.sk/new/hu/synagoga/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "SYNAGOGUE",
+          "text": "<p>This Neo-Romanesque synagogue, from the years 1879 – 1880, represents the typical style of Jewish sacral architecture from the second half of the 19th Century. From the time of its establishment, it served as place of prayer for the Jewish religious community. The hall has three naves, and a rectangular floor plan with a matroneum. The interior facade has morphological details typical of the Neo-Romanesque period. The construction was led by Juraj Lukáč and the building is a model of the synagogue in Miskolc. The building was renovated for the first time in 1929 and the architectural expressions of that period, including the morphological details and in-filled openings were preserved in their original form. In 2014 the synagogue was completely renovated by the city of Ružomberok. This architectural monument acquired a new multifunctional social role being used as an exhibition space and concert hall of the city.</p>",
+          "audio": [
+            "/assets/audio/migrated/14-synagogue.mp3"
+          ]
+        }
       },
       "url": "/synagoga/",
       "urlAliasy": []
@@ -8447,6 +9705,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/slovenska-banka/",
         "hu": "https://www.qrlink.sk/new/hu/slovenska-banka/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "SLOVAK BANK",
+          "text": "<p>This solitary two-storey town-style building, was originally the headquarters of the Ružomberok Credit Union, a joint-stock company, later changed to Credit Bank and from 1919 the Slovak Bank. The Neo-Baroque building with Art Noveau features on the front facade was built in the years 1902 to 1903, from the design of Milan Michal Harminec. Partial modifications were carried out in 1936. The building was one of the significant locations in Slovak banking and Slovak national life, its history is connected to the Makovicky, Beniač and Houdek families, some of whose members were distinguished figures from financial, political and cultural life.</p>",
+          "audio": [
+            "/assets/audio/migrated/25-slovak-bank.mp3"
+          ]
+        }
+      },
       "url": "/slovenska-banka/",
       "urlAliasy": []
     },
@@ -8473,6 +9740,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/studna/",
         "pl": "https://www.qrlink.sk/new/pl/studna/",
         "hu": "https://www.qrlink.sk/new/hu/studna/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "WELL",
+          "text": "<p>This 12 metre deep wooden winch-well was in the past the village´s only source of drinking water. The upper part of the structure comprises of a wooden construction on a stone foundation. The roof is covered by wooden tiles and the internal construction of the well is stone. Constructed in 1860, this public well represents simple folk building techniques with typological features that illustrate the construction styles of the time. The design and concstruction of the well contribute to this conservation area´s outstanding identity.</p>",
+          "audio": [
+            "/assets/audio/migrated/02-well.mp3"
+          ]
+        }
       },
       "url": "/studna/",
       "urlAliasy": []
@@ -8501,6 +9777,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/rolnicky-dom/",
         "hu": "https://www.qrlink.sk/new/hu/rolnicky-dom/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "A PEASANT’S HOUSE",
+          "text": "<p>Peasant yard consisting of a logged folk double house, double – space barn, stable and a woodshed is the characteristic urban group of Vlkolinec settlement. Wood as the basic building material is used for dwelling and farming structures, stone was used for building store-rooms and corn lofts. It illustrates a traditional way of life in Vlkolinec and in upper Liptov region. Originally folk architecture is used as an expositive in SITU.</p>",
+          "audio": [
+            "/assets/audio/migrated/04-a-peasants-house.mp3"
+          ]
+        }
+      },
       "url": "/rolnicky-dom/",
       "urlAliasy": []
     },
@@ -8527,6 +9812,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/pomnik-sloboda-slovenskeho-naroda/",
         "pl": "https://www.qrlink.sk/new/pl/pomnik-sloboda-slovenskeho-naroda/",
         "hu": "https://www.qrlink.sk/new/hu/pomnik-sloboda-slovenskeho-naroda/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "MEMORIAL „THE FREEDOM OF THE SLOVAK NATION“",
+          "text": "<p>The sculptural group of “Freedom” created by L.Majerský on the occasion of Czechoslovak republic formation 10.anniversary and inaugurated by Msgr.A.Hlinka. Group of statues contain 3 compositions – Bondage, Revolt and Freedom.</p>",
+          "audio": [
+            "/assets/audio/migrated/10-memorial-the-freedom-of-the-slovak-nation.mp3"
+          ]
+        }
       },
       "url": "/pomnik-sloboda-slovenskeho-naroda/",
       "urlAliasy": []
@@ -8555,6 +9849,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/miesto-tragickych-udalosti/",
         "hu": "https://www.qrlink.sk/new/hu/miesto-tragickych-udalosti/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "PLACE OF THE TRAGIC EVENT",
+          "text": "<p>Sunday 27 October 1907 was a set date of the consecration of a new church. However, this was to be done without the participation of Andrej Hlinka, a native of Černová, who had been suspended from the priesthood for incitement against the Hungarian nationality. The people of Černová could not imagine this ceremony without the one who had greatly contributed to the building of the church. They were determined to prevent the consecration. From early morning a large part of the local people expected the unwelcome guests at the entrance of the village by the school in the lower part. The crowd formed a barrier of human bodies in the narrow entrance of the village in order to prevent the consecration of the church. A carriage with incoming priests got besieged by embattled people being aware of their belonging. The shouts of the Černová people as well as gendarmes‘ efforts to form a corridor for the carriages caused the horses to get stampeded and the chaos began. Verbal and physical attacks on both sides were ended by a sergeant who ordered to fire. Already after the first shots there were wounded and dying. Shooting, however, continued. The intervention of the gendarmes claimed 15 dead, 12 severely and 40 slightly injured. Afterwards, 59 defendants went through a trial in January 1908 in which the accused were sentenced to 37 years of imprisonment in total. As a result of national oppression, the Černová tragedy was one of the bloodiest events of last years of Austria-Hungary. It sparked large protests in Slovakia and throughout the monarchy. Several distinguished foreign personalities protested as well. It was also thanks to them that the Černová tragedy has entered the political history of the Slovak nation. The Slovak nation has also been made for life through the martyrs of Černová.</p>",
+          "audio": [
+            "/assets/audio/migrated/08-place-of-the-tragic-event-of-27-october-1907.mp3"
+          ]
+        }
+      },
       "url": "/miesto-tragickych-udalosti/",
       "urlAliasy": []
     },
@@ -8581,6 +9884,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/vlacik-korytko-na-zeleznicnej-stanici/",
         "pl": "https://www.qrlink.sk/new/pl/vlacik-korytko-na-zeleznicnej-stanici/",
         "hu": "https://www.qrlink.sk/new/hu/vlacik-korytko-na-zeleznicnej-stanici/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "TRAIN KORYTKO AT THE RAILWAY STATION",
+          "text": "<p>A distinct building of the train station was built according to models of spa houses with trussed masonry. In 1871 the first train in Liptov passed the newly built train station in Ružomberok. Later, in 1912 the building, the train platform and a terminal lobby has been enlarged and renovated.</p>",
+          "audio": [
+            "/assets/audio/migrated/09-train-station.mp3"
+          ]
+        }
       },
       "url": "/vlacik-korytko-na-zeleznicnej-stanici/",
       "urlAliasy": []
@@ -8609,6 +9921,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kastiel-sokolovce/",
         "pl": "https://www.qrlink.sk/new/pl/kastiel-sokolovce/",
         "hu": "https://www.qrlink.sk/new/hu/kastiel-sokolovce/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Sokolovce Mansion",
+          "text": "<p><strong>National Cultural Monument of the Slovak Republic No. 1019/1****The Manor House and Park in Sokolovce</strong></p>\n<p>The manor house and its adjoining park in Sokolovce represent the most significant historical landmark on the left bank of the Váh River between Piešťany and Hlohovec. This estate is unique as a well-preserved example of a historic rural residence, complete with a park featuring rare tree species and a natural water body.</p>\n<p>The period following the end of World War II marked the most challenging chapter in the history of the manor and park—now recognized as national cultural monuments—due to frequent changes in their use. Once a renowned state-run medical facility, the site gradually fell into decline. However, a turning point came at Christmas 2022, when the municipality took over its restoration by purchasing the manor house, beginning a new era in its history. The goal is a comprehensive restoration and functional revival of the estate—transforming it into a senior care home, cultural and community venue, and an ecologically valuable park.</p>\n<p>According to historical research, the noble residence in Sokolovce was founded in the 17th century by the Nyáry family, one of the oldest noble families in the Kingdom of Hungary. The family’s earliest known ancestor, János Nyáry, a royal agent, is mentioned as early as 1329, while the first written record of the village itself (“Zokol”) dates back to 1293.</p>\n<p>The first known owner of the Sokolovce estate was Count Zsigmund Nyáry. Together with his wife Klára Eva Angelika Maláth de Székely and their son József Lajos Miklós Nyáry, he continued to manage the property. The Nyáry family likely acquired the entire village through purchase from the local Skarbal family. Count Zsigmund Nyáry commissioned the construction of the manor house sometime after 1703, but no later than 1746. He also initiated the building of the Church of the Exaltation of the Holy Cross.</p>\n<p>The Baroque-Classical manor house and its park (second half of the 18th century) changed hands several times over the years: passing through the Amadé, Windisch-Grätz, Degenfeld, and Hirschwerk families. In the latter half of the 19th century, the estate was owned by Dávid Horn, who added a lookout tower and enhanced the park with a pond and rare trees. During the tenure of Count Adolf Degenfeld-Schomburg, a model farm and distillery were established. The last owners were the Gyulay family, who voluntarily left the estate in 1945 and fled to Vienna ahead of the advancing Eastern Front.</p>\n<p>The years 1945 to 2021 were especially hard on the manor and park. The property saw varied uses—from temporary housing for liberating troops to warehouses, supply depots, a school, and eventually a tuberculosis sanatorium (until 1976). The interiors were renovated in 1963 and again in 1980 to accommodate a medical facility for TB and later for addiction treatment. Although it was designated a national cultural monument in 1998, the manor was left vulnerable following the collapse of the state healthcare system (2005) and the sale of “surplus” assets (2008). After the copper roof was looted in 2012, the building deteriorated rapidly and became a ruin.</p>\n<p>The municipality’s efforts culminated on December 24, 2022, with the acquisition of the estate into public ownership. Since then, the village—together with former and current residents, natives, partners, and national institutions—has been working on a full restoration of both national landmarks. The aim is to repurpose them for modern use, enhancing the quality of life for both local inhabitants and visitors to the region.</p>"
+        }
       },
       "url": "/kastiel-sokolovce/",
       "urlAliasy": []
@@ -8881,6 +10199,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kostol-nanebovzatia-panny-marie-pomnik-padlym-v-1-sv-vojne/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-nanebovzatia-panny-marie-pomnik-padlym-v-1-sv-vojne/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The church of the assumption of the Virgin Mary – The memorial of the Fallen in the 1st World War",
+          "text": "<p>The parish Church of the assumption of the Virgin Mary in Turzovka had its three predecessors. They were the wooden churches dedicated to the St. Elizabeth, as well as the first bricked church which has been built in 1728. The current baroque church has being built from 1757 to 1759. The church is located in the centre of Turzovka. The original patrocinium was changed by the intervention of Pavel Anton Esterhazi at the assumption of the Virgin Mary. The church was not originally consecrated, just blessed which changed in 1834 on August 10th when there was a gala consecration with the participation of the diocesan Bishop Jozef Wurum. The refurbishment works on the church has several significant milestones. The first one was the 1st quarter of the 19th century, then years 1849-1883 during the spiritual rule of the dean Frantisek Taganyi. Another important period of renovation of the church were the years 1910-1911 during the exposure of the chancellor Julius Lonsky. In 1932 a new sacristy was built and the old one became lateral chapel of the Seventh-sorrows Virgin Mary. The interior of the chapels decorated by paintings made by academic artist Jozef Bozetech Klemens, Alesander Loszinsky as well as God known artists. The remarkable part of the church is the pseudo-baroque organ with polychrome woodcutting. A part of the old organ from 1799 was built into the centre of the sill. 1964 August 28th, Regional State Monument centre of care and nature conservation in Banska Bystrica declared the church as a cultural monument. In the following year, the entire surrounding of the church has been declared as the protected zone of cultural monuments.</p>\n<p>There is a memorial of the Fallen in 1st World War near the church. The memorial has been made in 1922 by sculptor and stonemason Vojtech Semerak from Olomouc. The cost of making it was 14 000 coins. In the same year the memorial was sanctified, during the renovation of st. missions by the local priest Karol Tocik. It is made of sandstone and it shows a stone grave. In its upper part there is a relief of a dying soldier which is held by an angel. Above the grave there is a raised cross with the crucified Christ. To the left from the grave there is sad woman with a bowed head with a bouquet of flowers in her hand, the other hand is touching the grave gently. Into the Entrance to the grave there was placed granite table with the names of the soldiers from Turzovka. In the right side there was placed another originally granite table with the names of soldiers additionally declared as dead. Since it was later damaged (cracked), it was replaced by a new table of less good material. On the occasion of the 20th anniversary of the SNU was in the year 1964 on the back side of the grave placed another table with names of the fallen and the victims of the Second World War from the parish of Turzovka. The memorial was proclaimed as a natural cultural monument.</p>",
+          "audio": [
+            "/assets/audio/migrated/1-the-church-of-the-assumption-of-the-virgin-mary-the-memorial-of-the-fallen-in-the-1st-world-war-13.mp3"
+          ]
+        }
+      },
       "url": "/kostol-nanebovzatia-panny-marie-pomnik-padlym-v-1-sv-vojne/",
       "urlAliasy": []
     },
@@ -8910,6 +10237,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/muzeum-karola-tocika/",
         "pl": "https://www.qrlink.sk/new/pl/muzeum-karola-tocika/",
         "hu": "https://www.qrlink.sk/new/hu/muzeum-karola-tocika/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The town museum of Karol Tocik",
+          "text": "<p>The town museum is located on the ground floor of the Town hall of Turzovka and was named after Karol Tocik who was not only a priest in Turzovka but also a regional historian. The Initiator of the museum’s birth was the association of the friends of Turzovka (Mr. Ivan Gajdiciar and Mr. Drahomir Velicka). The town museum was opened on August 12th 2016. The first exposition in the newly opened museum was an exhibition called “Father’s Heritage”. The exhibition included selection from the rich deposit of the exhibits donated to museum by citizens of Turzovka and the surrounding areas.</p>"
+        }
       },
       "url": "/muzeum-karola-tocika/",
       "urlAliasy": []
@@ -8941,6 +10274,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/rybniky/",
         "hu": "https://www.qrlink.sk/new/hu/rybniky/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Ponds",
+          "text": "<p>They are located in part town Predmier. It is the water surface of two pebbles at the confluence of the Predmieranka and the Kornanka rivers. The history of fishing ponds dates back to 1975. Initially, the members of the fishing association met only with common fishermen. The region Kysuce is poor on standing water and therefore there is a need to build its own fishing ponds. The company completed the construction of its first pond – in Turzovka and it made the launching of fish. The carp was loaded (600 kg, 1-2 kilos) and rainbow trout (20 0kg, two-year). A lot of voluntary hours have been worked out during the construction of the pond. For interest: Mr. Zemaník-840 hours and Mr. Drvár-620 hours.</p>"
+        }
+      },
       "url": "/rybniky/",
       "urlAliasy": []
     },
@@ -8970,6 +10309,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/prirodny-amfiteater-historia-beskydskych-slavnosti/",
         "pl": "https://www.qrlink.sk/new/pl/prirodny-amfiteater-historia-beskydskych-slavnosti/",
         "hu": "https://www.qrlink.sk/new/hu/prirodny-amfiteater-historia-beskydskych-slavnosti/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Natural amphitheater – history of Beskydy Festival",
+          "text": "<p>The town of Turzovka is and has been a fountain of culture and social life since time immemorial. Every year, Turzovka is preparing for its residents and visitors a marathon of events called Turzovka Summer, which starts at the end of June and ends and culminates in the Turzovska Fear in August. For several decades, the International Folklore Festival of the Beskydy Festival has a solid and irreplaceable place in the calendar. The original name of today’s Beskydy Festival was extended. From their inception until 1993 – they were the Beskydy Festival of Czechoslovak reciprocity. Their origins date back to 1968 to show people their diversity, identity, the richness of traditional folk culture preserved in songs, costumes, dances, and customs on both sides of the border. This resulted in a project of Beskydy Festival, which should have been a joint work of three neighbouring districts. In the Frýdek – Místek district, the village of Janovice was event place, in the district of Vsetín it was Rožňov pod Radhošťem and the district of Čadca it was the town of Turzovka. The first common program on the basis of the established statute of Festival took place in Turzovka in 1968. It took place in newly-built amphitheatre in Bukovina, which was built by leader of KaSS František Krišťiak and the director of the Drevoindustria Turzovka Jan Gerek, took the lead. Factory Drevoindustria </p>\n<p>not only provided free materials, prisms and boards for construction, but also involved in the production of the stage and seats of experienced factory workers, thanks to which the construction was completed on time and especially in good quality. A few weeks later The Warsaw Pact Armies entered Czechoslovakia, which caused not only the federal arrangement of state-legal relations but also the exchange of persons in responsible positions in cultural institutions, where new persons came up with new priorities and thus continued the programs in the selected places nor thoughts. Nevertheless, the Beskydy Festival are held in Turzovka, and tens of folklore groups from Kysuce, other Slovak regions and border neighbours were exchanged on stage of Turzovka Amphitheatre. During their history, the Beskydy Festival brought to the city life a rich offer of cultural experiences not only from the Slovak but also from the international folklore scene. Many well-known hosts from abroad – from France, the former Yugoslavia (Croatia, Serbia and Slovenia) and Hungary – have performed here.</p>",
+          "audio": [
+            "/assets/audio/migrated/11-natural-amphitheater-history-of-beskydy-festival-3.mp3"
+          ]
+        }
       },
       "url": "/prirodny-amfiteater-historia-beskydskych-slavnosti/",
       "urlAliasy": []
@@ -9001,6 +10349,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/lyziarske-stredisko-bukovina-javornicko-beskydska-magistrala/",
         "hu": "https://www.qrlink.sk/new/hu/lyziarske-stredisko-bukovina-javornicko-beskydska-magistrala/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The Ski areal Bukovina",
+          "text": "<p>The recreation centre Bukovina is located 2km from the centre of Turzovka in the region Kysuce. The areal offers accommodation and catering services. There are available two ski lifts with length of 500m and 600m with a transport capacity of 1250 persons per hour. The slopes are suitable for both beginners and advanced skier. They are edited daily by snow-strap vehicles. There is also possibility of evening skiing as there is a slope with artificial lightning. The accommodation capacity is 45 beds. 18 beds are in the main bungalow in double, triple and quadruple rooms with social equipment. Nearby there is cross-country route named “Besky – Javorniky Artery”. The main length is 54km which is blaming from the borders with the Czech Republic in Makov – Velky Javornik – Bumbalka and through the mountain Javorniky to the Cadca – Husarik. Another paths are created by alternatives, to get off or get on the main path and their total length is 42 km. Tourists from Czechia can join in Makov-Bumbalka, in the Makov Pass (“U tabuli”) and in Klokocov-Konecna. On the ridge of the Javorniky, besides the immutable atmosphere of the settlements, accompanies tourists also the unique gallery in nature which was created by the artists from Kysuce and Povazie.</p>",
+          "audio": [
+            "/assets/audio/migrated/10-the-ski-areal-bukovina-1.mp3"
+          ]
+        }
+      },
       "url": "/lyziarske-stredisko-bukovina-javornicko-beskydska-magistrala/",
       "urlAliasy": []
     },
@@ -9030,6 +10387,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kamenna-gula-pred-mestskym-uradom/",
         "pl": "https://www.qrlink.sk/new/pl/kamenna-gula-pred-mestskym-uradom/",
         "hu": "https://www.qrlink.sk/new/hu/kamenna-gula-pred-mestskym-uradom/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The stone sphere in front of the Town hall on the occasion of the 1st world meeting of Turzovka people",
+          "text": "<p>The stone sphere is located in front of the Town hall in Turzovka. Every 4 years there is world meeting of Turzovka people. The memory of the first meeting is the monument created by academic artist Ondrej Zimka jr. The first world meeting was in 1998 in occasion of 400th anniversary of establishment of Turzovka. The initiator of the meeting was the Community of friends of Turzovka with their leader Ivan Gajdiciar. The world meeting of Turzovka people and their descendants is held in August, every 4 years in the framework of the Turzovka’s cultural summer and Beskyd festivals which has their own tradition. It is good opportunity for everyone to come visit their native region – Kysuce in this time when on the traditional feast the social and cultural activities culminates. The meetings are characterized by the participation of natives and many personalities of social and political life, well known artists and sportsmen’s. The name “world” has its justification because in the meeting participates natives from America and other distant ends of the world. The visitors of the meeting were e.g. Rudolf Zigmund (general secreatary of the World Congress of Slovaks in USA), Jozef Okuliar or many regular participants e.g. Helena Zahranikova, Ondrej Zimka, Odrej Zimka jr.,Gustav Svabik or Stefan Simak.</p>",
+          "audio": [
+            "/assets/audio/migrated/9-the-stone-sphere-in-front-of-the-town-hall-on-the-occasion-of-the-1st-world-meeting-of-turzovka-people-3.mp3"
+          ]
+        }
       },
       "url": "/kamenna-gula-pred-mestskym-uradom/",
       "urlAliasy": [
@@ -9063,6 +10429,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/namestie-juraja-thurzu/",
         "hu": "https://www.qrlink.sk/new/hu/namestie-juraja-thurzu/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The Square of Juraj Thurza",
+          "text": "<p>The first written mention of the permanent settlement of Turzovka is associated with Juraj Thurza and comes from the time of wallachian colonization, from 1580 as “locum Predmer”. Thurzovcias the owners of the Bytca County needed to secure their own on their area against the penetration of valachians from the surroundings areas. With the name Turzovka we met first in “Landowner of Bytca County” in which there is additional sentence that Turzovka was established in 1598. The village obtained a localization list on February 21th 1602. In it Juraj Thurzo orders to the first settler to build a church and parish as soon as possible. In 1968 Turzovka is promoted to city and coat of arms is becoming to usage which was later modified by the Heraldic Commision to its present form.</p>\n<p>For the honor of the Hungarian palatine and the founder of Turzovka Juraj Thurza, in 2009 the town forced to build a Square of Juraj Thurza. The square is located on shopping street near the “Sarkpak” ant its part it also memorial table which was revealed at occasion of the fourth World meeting of Turzovka people. Its initiator was Community of friends of Turzovka with help from several sponsors. The author of the bronze table is sculptor Odrej Zimka jr..The table is embedded into granite, anchored in stainless frame which is mounted in a concrete pedestal. On the bronze table there is picture of Juraj Thurza and there are described all ranks he gained during his life.</p>",
+          "audio": [
+            "/assets/audio/migrated/7-the-square-of-juraj-thurza-1.mp3"
+          ]
+        }
+      },
       "url": "/namestie-juraja-thurzu/",
       "urlAliasy": []
     },
@@ -9092,6 +10467,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/areal-sportu-a-oddychu-skatepark/",
         "pl": "https://www.qrlink.sk/new/pl/areal-sportu-a-oddychu-skatepark/",
         "hu": "https://www.qrlink.sk/new/hu/areal-sportu-a-oddychu-skatepark/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The Sport and Recreation centre, the skatepark.",
+          "text": "<p>The town offers to the sports enthusiasts visit the Sport and Recreation centre in Turzovka – Zavodie. There are multyfunctional playground with a 42m x 22x play area for handball, volleyball, football, outdoor hockey court in standard international dimensions of 46m x 22m. In the summer months you can play petanque, tennis on two clay courts or ride a bicycle, scooter or quadrupeds. Of course there is an external and internal social background – relaxing terrace, benches, a building with a closets, hygienic and sports service and a social room. There are also an external arbor with the possibility of a toaster and children’s attractions for the youngest. Nearby there is skatepark for enthusiasts of adrenalin sport with seven obstacles.</p>"
+        }
       },
       "url": "/areal-sportu-a-oddychu-skatepark/",
       "urlAliasy": []
@@ -9123,6 +10504,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/park-drotara-a-dzarka-pricestny-stlp-jana-nepomuckeho-susosie-drotara-a-dzarka/",
         "hu": "https://www.qrlink.sk/new/hu/park-drotara-a-dzarka-pricestny-stlp-jana-nepomuckeho-susosie-drotara-a-dzarka/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The park of tinker and young tinker (Drotár and Džrek, the pillar of Jan Nepomuk, the sculpture of tinker and young tinker)",
+          "text": "<p>The town Turzovka has been one of the centers of tinkering in the past. The Park of tinker and young tinker has been built in 1998, it is located close to the railway crossing and crossing of streets Nadazna, Stefanikova, Obchodna. The dominant feature of the park is the bronze sculpture of tinker and young tinker author is the academic artist and honorary citizen of Turzovka Miroslav Cipar. The memorial was unveiled in 1998 on the occasion of the 400th anniversary of establishment of the city.</p>\n<p>In the Park there is also rustic roadside pillar of Jan Nepomuk martyr of the Catholic Church which is located between two more than two hundred years old limes. The roadside pillar originates in 19th century, it is the creation of an unknown author and it belongs to the national cultural monuments.</p>"
+        }
+      },
       "url": "/park-drotara-a-dzarka-pricestny-stlp-jana-nepomuckeho-susosie-drotara-a-dzarka/",
       "urlAliasy": []
     },
@@ -9152,6 +10539,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/hasicske-hobby-muzeum/",
         "pl": "https://www.qrlink.sk/new/pl/hasicske-hobby-muzeum/",
         "hu": "https://www.qrlink.sk/new/hu/hasicske-hobby-muzeum/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The Firemen´s hobby museum",
+          "text": "<p>It is a private museum of passionate collector and veteran Ladislav Dlhopolcek which was officially opened for public on July 21st 2015. Chairman of the veteran club of Turzovka Ladislav Dlhopolcek already on his youth has as any other boy different interests, his passion had not leaved him even with the years had come. Objects have cumulated and among them there were rare pieces and the question what with them. In his journeys he got an idea to establish his own museum in which the expositions would be his valuable exhibits, whether weights, firemen´s helmets or cameras. In his family house he set up two rooms and the realization of his thought had become.</p>"
+        }
       },
       "url": "/hasicske-hobby-muzeum/",
       "urlAliasy": []
@@ -9183,6 +10576,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/pamatniky/",
         "hu": "https://www.qrlink.sk/new/hu/pamatniky/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The memorial table and the Room of Rudolf Jasik",
+          "text": "<p>The memorial table is located at the entrance to the Cultural and social center building in Turzovka. Rudolf Jasik was an important and respected writer, native of Turzovka. He was born on December 2nd 1919 and died on June 30th 1960 in Bratislava. His works capture his life. His literary work is linked with year 1940 and he turned from poetry and short stories to well-known novels (Na brehu priezračnej rieky, Námestie sv.Alžbety or Mŕtvi nespievajú) Every November and December there is an event Jasikove Kysuce – literary competition linked with photographic competition “Na brehu priezracnej rieky” of which a part is memory at the memorial table. In the Cultural and social centre there is also permanent exposition of objects and documents from his life.</p>"
+        }
+      },
       "url": "/pamatniky/",
       "urlAliasy": []
     },
@@ -9212,6 +10611,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/pamatnik-m-r-stefanika/",
         "pl": "https://www.qrlink.sk/new/pl/pamatnik-m-r-stefanika/",
         "hu": "https://www.qrlink.sk/new/hu/pamatnik-m-r-stefanika/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The monument of M.R.Stefanika",
+          "text": "<p>Milan Rastislav Stefanik was born in Kosariska in family of evangelical pastor Pavol Stefanik and his wife Albertina (born Jurenkova). He was born as the sixth child. After him they had another 6 children. He was Slovak astronomer, photographer, military pilot, brigadier general of the French forces, diplomat and politician. He had the greatest credit at formation of the Czecho-Slovak foreign resistance during the WWI. He played an important role in organizing Czecho-Slovak legions and mediating contacts to French state officers. Together with Tomas Garrige Masaryk and Edvard Benes he was the key person in the establishment of Czecho-Slovakia. Stefanik was vice chairman of Czecho-Slovak national council, minister of war in provisional and then also in newly established Czecho-Slovakia government. On May 4th 1919 Stefanik boarded in the aiport Campoformido in Udine to the airplane Caproni 450 accompanied by two Italian pilots, lieutenant Giotto Mancinelli Scotti and Dergeant Umberto Merlin and mechanic-radiotelegraph Gabriel Aggiust. The end of their way was airport in Bratislava. But the plane has not landed because as it was approaching the place of landing, suddenly felt near Ivanka pri Dunaji. No one stayed alive. Stefanik is buried in the Mohyla na Bradle, a top architect’s work of Dusan Jurkovic. As a sign of his merits in the 1924 the monument of liberation with bust of Stefanik was built which is located in the centre of Turzovka in small park. After him is also named Street of M.R.Stefanika.</p>",
+          "audio": [
+            "/assets/audio/migrated/8-2-the-monument-of-m-r-stefanika-5.mp3"
+          ]
+        }
       },
       "url": "/pamatnik-m-r-stefanika/",
       "urlAliasy": []
@@ -9243,6 +10651,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/pamatnik-tomasa-uhorcika/",
         "hu": "https://www.qrlink.sk/new/hu/pamatnik-tomasa-uhorcika/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The Monument of Tomas Uhorcik",
+          "text": "<p>Tomas Uhorcik was friend of Juraj Janosik and leader of the brigands group at Kysuce. He was born in Turzovka – Predmier in 1680. He was brigand for 9 years and into his group he got Juraj Janosik in 1711 with who he was in prison in the Bytca castle, from which probably Janosik helped him to escape in autumn of 1710 after which he hide himself at the “Lazy” in Velke Rovne. </p>\n<p>He met Janosik on the fair in Liptovsky Mikulas, later he was smuggling horses from Poland with him. They also participated in several bandit actions at Moravia. But Uhorcik got married with the daughter of shepherd Stoliga and the position of ruler of his group he gave to Janosik. </p>\n<p>Uhorcik accepted name Martin Mravec and moved to Klenovec where he also became local officer – “hajduch”. After the death of Janosik in 1713 his identity was revealed. Uhorcik was tormented and he admitted that he was a bandit. He was executed a month after the execution of Janosik by the breaking on the wheel. The memorial of native of Turzovka Tomas Uhorcik from the academic artist Ondrej Zimka jr. has been revealed during the Beskyd festival 2013 when we remembered the 300 years since his execution. With this occasion there was a try to title in the book of records named “Treasures of Tomas Uhorcik” when people could manually make a gold coin for luck. The gold coin you can make even now in the International information center in Turzovka.</p>",
+          "audio": [
+            "/assets/audio/migrated/8-3-the-monument-of-tomas-uhorcik-1.mp3"
+          ]
+        }
+      },
       "url": "/pamatnik-tomasa-uhorcika/",
       "urlAliasy": []
     },
@@ -9270,6 +10687,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/pamatna-tabula-v-parku-rodakov/",
         "pl": "https://www.qrlink.sk/new/pl/pamatna-tabula-v-parku-rodakov/",
         "hu": "https://www.qrlink.sk/new/hu/pamatna-tabula-v-parku-rodakov/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The Memorial table in the Park of Natives",
+          "text": "<p>The table is installed where the water mill with turbine for electricity generation from 1924 and lindes for the third milenium were. In 1998 there were installed another memorial tables dedicated to the poet P. H. Jurin and writer J. Harant which are located on the building of Grammar school in Turzovka and to priest F. Tagany which is located in the building of the Parish office in Turzovka. The memorial table – the first bricked school in Turzovka – comes from 1873 and it is standing even nowadays near the church, although it serves to another purpose. From 1879 to 1924 in this school there taught organist and teacher Alexander Pritz. With his leaving from the school service in 1924 the church school ended too.</p>"
+        }
       },
       "url": "/pamatna-tabula-v-parku-rodakov/",
       "urlAliasy": []
@@ -9301,6 +10724,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The chapel of Virgin Mary’s perpetual help in settlement U Okuliarov",
+          "text": "<p>The original wooden chapel of the Blessed Virgin Mary has been built in 1810 by Jozef Okuliar, who put on it foundation of 10 gold. It is interesting that the chapel is located in the area of the cemetery. Renewals, reps. repairs of the chapel are mentioned in the years 1822, 1856 and 1860. In the year 1856 the well-known artist from Tesin Eduard Swiekiewicz painted into the chapel an picture of Virgin Mary. The old wooden chapel was sanitized in 1924 and in its place there was built the current chapel of Virgin Mary’s perpetual help. The year 1924 is also located on its facade. The facade of the chapel is decorated with a modified coat of arms from the national coat of arms – from the blue three hills with rising gold cross. Above it there is flying golden eight-pointed star. The metal double cross is located at the tip of a small spire.</p>"
+        }
+      },
       "url": "/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/",
       "urlAliasy": []
     },
@@ -9331,6 +10760,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-panny-marie-lurdskej-pri-motoreste/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-panny-marie-lurdskej-pri-motoreste/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The chapel of the Virgin Mary Lourdes",
+          "text": "<p>It has been forced to build in 2002-2003 by the family of Rudolf Mravec. They were inspired by the visit of Saint Father in Slovakia and upcoming st. missins in the parish. The chapel was sanctified on October 18th 2003 during the ongoing st. missions by the dean of Turzovka Jozef Petras and missionary Ivan Flimel.</p>"
+        }
+      },
       "url": "/kaplnka-panny-marie-lurdskej-pri-motoreste/",
       "urlAliasy": []
     },
@@ -9357,6 +10792,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kaplnka-na-javorovej-ulici/",
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-na-javorovej-ulici/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-na-javorovej-ulici/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The chapel on the “Javorova” street",
+          "text": "<p>A smaller sacred building which is standing on Javorova Street. Its initiator was Jakub Stefanka, who found during the digging sculpt of the Virgin Mary Hostyne. It was the impetus for the construction of a small chapel in which there is sculpt of the Virgin Mary Hostyne (not original) also nowadays. On the door of the chapel there is monogram of the Virgin Mary.</p>"
+        }
       },
       "url": "/kaplnka-na-javorovej-ulici/",
       "urlAliasy": []
@@ -9385,6 +10826,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-panny-marie-skapuliarskej/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-panny-marie-skapuliarskej/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The chapel of the Virgin Mary “Škapuliarskej”",
+          "text": "<p>The chapel has been built in 1820 by the mansard Valentin Vanko with his wife. In 1937 Jozef Zimka, the priest from Turzovka made a foundation of 50 gold coins. In the years 1849, 1852 and 1863 there were done smaller renovations. General renovation of the chapel has been done in 1934 when J. Planetzer made a foundation of 200 coins. Sanctification of the chapel has been done on August 12th 1934. In the small tower there is located small bell with “devoted to Heinrich Pirnetorz in 1934”.</p>"
+        }
+      },
       "url": "/kaplnka-panny-marie-skapuliarskej/",
       "urlAliasy": []
     },
@@ -9412,6 +10859,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-sedembolestnej-panny-marie-u-blazkov/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-sedembolestnej-panny-marie-u-blazkov/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The chapel of Senven-sorrows Viring Mary in “U Blazkov”",
+          "text": "<p>The construction of the chapel began in 1845, the initiator of the construction was Jozef Bobek. To this day is kept his request to the Bishop of Nitra from July 25th 1845 I which J .Bobek pleases the bishop for permission to build a chapel and informs him that he already has excavated groundworks and the bricked part of the walls. IN 1849 Martin Gajdos from Olesna set up foundation on this chapel. It was sanctified on September 24th 1950. In the small tower there is bell with cross and “Mich hat gestiftet Ortschat Ruhstein im Jahre Heiles 1922” and on the other side with “Oktav Winter, Branau, guss mich 1922, nr1206” (In the year of salvation 1922 the village Rustejn donated me, in 1922 created me Oktav Winter from Broumov, no 1206.)</p>"
+        }
+      },
       "url": "/kaplnka-sedembolestnej-panny-marie-u-blazkov/",
       "urlAliasy": []
     },
@@ -9438,6 +10891,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kaplnka-najsvatejsieho-srdca-panny-marie/",
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-najsvatejsieho-srdca-panny-marie/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-najsvatejsieho-srdca-panny-marie/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The chapel of the most holy heart of Virgin Mary",
+          "text": "<p>In part town Hlinene there was a wooden pillar before this chapel on which there was a picture of Virgin Mary. People often met there and held various devotions. To the treasuries they donated charity and later, they turn on their priest Frantisek Tagani with a request to build a chapel there. Tagani with request for permission turned on diocesan bishop and asked him to permission for serving holy mass several times per year. People of Turzovka considered this place to be a miracle. Believers have fled there in time of drought, spreading of diseases and doing processions there. The place was traditionally referred as unusual, where miraculous healing should be done. Tagani described in the letter to the bishop the case of 50 years old Jan Muron who had problems with eyes and couldn’t recognize siluetes of people even in short distance. His neighbor led him to this place where he prayed, dipping his eyes in the spring and after returning home he felt better. He repeated it second and third time and for the healing he thanked to this place. Adma Ucnik suffered from painful cramps and teeth pain, prayed, washed in spring and did not feel any more pain which he also confirmed by the oath. The bishop granted permission to build the chapel on October 30th 1870. About a year and half the works had ended. The chapel has dimension 9.48 x 6.6 m. Manual work and work with sled with worth of 900 gold coins provided for free partisans. Except financial securing the parish cared for the good artistic equipment in the chapel. The picture of the pure heart of the Virgin Mary painted Jozef Bozetech Klemens in 1871 and to the tower there was placed bell created by Cyril Kraus from Banska Bystrica in 1873. The chapel was sanctified by Tagani on June 9th 1872. During the year 1878 there were built stairs to the chapel as it was written there “Za duchovnej spravy Fra. Tagnyi roku Pana 1878” – “For the Divine Administration Fra. Tagányi the year of God 1878”.</p>"
+        }
       },
       "url": "/kaplnka-najsvatejsieho-srdca-panny-marie/",
       "urlAliasy": []
@@ -9469,6 +10928,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kostol-fatimskej-panny-marie/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-fatimskej-panny-marie/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The church of the Virgin Mary of Fatima",
+          "text": "<p>In july 2000, the new parish of Kona removed from the Turzovka parish. To the new parish were affiliated also Zivcakova and Turkov. The first priest of this parish was Ivan Mahrik. Thanks to him a church in Turkov has been built. Initiator of the building was Veronika Kristakova who donated field for the building. The construction of the new church had begun in November 2000. The construction works were done by the believers from Turkov, Podvysoka, Korna and Turzovka and in two years the works had finished. Gala consecration of the church was done by Bishop Jan Chryzostom Korec. Turzovka provided for the church a bell created by Compan Tkadlec form Halenkov. Interesting is that sculpt of the Virgin Mary of Fatima come from pilgrimage site in Portugal. From June 28th 2002 Turkov became a subsidiary of the Turzovka parish.</p>"
+        }
+      },
       "url": "/kostol-fatimskej-panny-marie/",
       "urlAliasy": []
     },
@@ -9495,6 +10960,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kaplnka-sedembolestnej-panny-marie/",
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-sedembolestnej-panny-marie/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-sedembolestnej-panny-marie/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The chapel of the Seven-sorrow Virgin Mary",
+          "text": "<p>The chapel has been built in 1944 above the road from Turzovka through the Semetes to Povazie. In the small tower there is bell with scripture “Burned by R. Manoušek and company, in Brno 1943“.</p>"
+        }
       },
       "url": "/kaplnka-sedembolestnej-panny-marie/",
       "urlAliasy": []
@@ -9526,6 +10997,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/zivcakova-marianske-putnicke-miesto/",
         "hu": "https://www.qrlink.sk/new/hu/zivcakova-marianske-putnicke-miesto/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Zivcakova – Marian pilgrimage place",
+          "text": "<p>Similarly to Lourdes, Medjugorje, Fatima, on the hill of Zivcakova there were many revelations. Zivcakova is located about 3 km west form Turzovka. From Turzovka there leads a cross path through the forest with beginning in Turzovka – Vysny koniec and from town settlement Zavodie.</p>"
+        }
+      },
       "url": "/zivcakova-marianske-putnicke-miesto/",
       "urlAliasy": []
     },
@@ -9555,6 +11032,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kaplnka-panny-marie-kralovnej-pokoja-zivcakova/",
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-panny-marie-kralovnej-pokoja-zivcakova/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-panny-marie-kralovnej-pokoja-zivcakova/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The chapel of the Virgin Mary Queen of peace",
+          "text": "<p>Zivcakova even as the locality where the valachian cattle were bred is mentioned in writing for the first time in 1616. The name is derived from the personal name Zivcak (the inhabitant of Zyviec). </p>\n<p>On the June 1st 1958 the Virgin Mary was supposed to appear to the forester Matus Lasut. The appears should continue also in July and August. The events instantly swirled the social atmosphere and the believers have begun to visit this place. The place and the believers were watched by State Security. Its members many times confiscated various objects and images with religious themes, destroyed and burned small altars built by believers with the aim not to come to Zivcakova. However, the repression cause exactly opposite effect. M. Lasut was several times investigated and interrogated. He died in 2010 and he is buried near the church of Turzovka parish. Zivcakova was declared as a pilgrimage place in 1994 by Bishopric in Nitra although the revelations are still not considered as true. Diocesan bishop from Zilina proclaimed Zivcakova as Marian pilgrimage place and place of pray. In 1992 in cause of many request to build a chapel, The Bishopric office in Nitra give a preliminary approval to build a chapel. Project of the construction was done by Marian Goc. The chapel has been built in 1993 and in October 17th it was sanctified. From the year 2000 the chapel belongs to the parish of Korna.</p>",
+          "audio": [
+            "/assets/audio/migrated/6-10-the-chapel-of-the-virgin-mary-queen-of-peace-1.mp3"
+          ]
+        }
       },
       "url": "/kaplnka-panny-marie-kralovnej-pokoja-zivcakova/",
       "urlAliasy": []
@@ -9586,6 +11072,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kostol-panny-marie-matky-cirkvi-zivcakova/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-panny-marie-matky-cirkvi-zivcakova/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The church of the Virgin Mary Mother of the Church in Zivcakova",
+          "text": "<p>The main stone for the construction of the church was blessed in 2008 by Zilinian diocesan Bishop Tomas Galis. In june of the next year the works began. Gala consecration of the church was done on October 4th 2015. Into the alter there were placed holy relics of St. Andrej Svorad and St. Benedict, St. John Paul II., St. Mary Goretti and blessed sister Zdenka Scheling. The dominance of the new church is the tower with golden crown and cross. On a 43 m high tower there is a lookout terrace which can be reached by 138 stairs. In the tower there was placed bell of mass of 830 kg called Maria created in Halenkov. In May 2015 another three bells were sanctified (The most holy Heart of Jesus – 355kg, St. Andrej Svorad a Benedikt – 220kg and St. Jozef – 150kg). All of them were created by Jozef Tkadlec in Halenkov. At the beginning of the stairs there are sculpts of St. Cyril and St. Method. In the interior of the church there is impressive mosaic with two excerpts from the Old Law – Creation of Eve from Adam’s Side and Noah’s Ark. The mosaic is composed of pebbles, glass, ceramics and sliced gold. Its author is recognized expert, father Marko Ivan Rupnik from Slovenia whose works can be found all over the world. In the main ship there is installed a whistle organ. After purchase of the organ in Germany, it has been repaired by company Vojtek and his son form Zilina.</p>",
+          "audio": [
+            "/assets/audio/migrated/6-11-the-church-of-the-virgin-mary-mother-of-the-church-in-zivcakova-1.mp3"
+          ]
+        }
+      },
       "url": "/kostol-panny-marie-matky-cirkvi-zivcakova/",
       "urlAliasy": []
     },
@@ -9616,6 +11111,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-na-bukovine/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-na-bukovine/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The chapel in Bukovina",
+          "text": "<p>A small sacral building in Bukovina standing on the tourist sidewalk has been built in 1945. Initiator was the family Stefankova as symbol of thanks to Virgin Mary’s help during the WWII. </p>\n<p>During the communism it was purposely damaged. It is a simple, folk styled building with a niche and without a concrete sanctification. In 2017 the chapel was completely repaired, its initiator was family Kontrikova, successors of family Stefankova</p>"
+        }
+      },
       "url": "/kaplnka-na-bukovine/",
       "urlAliasy": []
     },
@@ -9644,6 +11145,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-a-vojensky-cintorin-z-1-sv-vojny/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-a-vojensky-cintorin-z-1-sv-vojny/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "World War I. Chapel and Military Cemetery",
+          "text": "<p>After the assassination of the heir presumptive Franz Ferdinand d’Este in Sarajevo in the summer of 1914, serious political events in and outside of the monarchy had led to the beginning of World War I.</p>\n<p>Citizens of Vranov perceived the preparations for the war as some sort of alteration to their stereotypical days, weeks, and months, and not as an ominous disaster.</p>\n<p>After the general mobilization was ordered on July 31, 1914, it was no longer a game, it was a real war conflict with all of the dreads and victims. Military cemeteries for victims of Austro-Hungarian and Russian battles began to rise right at the front lines and near infirmaries. There are dozens of cemeteries with thousands of fallen in the forests of Eastern Carpathians.</p>\n<p>A war infirmary and a Russian war prisoners assembly were established in Vranov during that time. The cemetery established at that time was solely for that infirmary. More than 250 war victims were buried there. The cemetery was transformed during The First Czechoslovak Republic and in 1935 the District Defense Committee organized reverent remembrance and unveiled the monument dedicated to the fallen victims of Vranov during 1914-1918. Their names are immortalized on the marble table.</p>\n<p><img src=\"/assets/images/migrated/webp-net-resizeimage10.jpg\" alt=\"\"></p>",
+          "audio": [
+            "/assets/audio/migrated/01-world-war-i-chapel-and-military-cemetery.mp3"
+          ]
+        }
+      },
       "url": "/kaplnka-a-vojensky-cintorin-z-1-sv-vojny/",
       "urlAliasy": []
     },
@@ -9670,6 +11180,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/pieskovcovy-kriz/",
         "pl": "https://www.qrlink.sk/new/pl/pieskovcovy-kriz/",
         "hu": "https://www.qrlink.sk/new/hu/pieskovcovy-kriz/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Sandstone Cross",
+          "text": "<p>The sandstone cross from 1864 was originally situated next to the former Church of St. Stephan located presumably in the town center. The cross is preserved almost in its original form. Cemeteries were often located near churches in the past, and archeological research revealed graves near the church. Historians assume the cross had been a part of the cemetery. Another option is that it was a roadside cross since there had been a trade route. Therefore the location of the object was not random.</p>",
+          "audio": [
+            "/assets/audio/migrated/02-sandstone-cross.mp3"
+          ]
+        }
       },
       "url": "/pieskovcovy-kriz/",
       "urlAliasy": []
@@ -9701,6 +11220,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/bazilika-minor-narodenia-panny-marie-a-klastor-paulinov/",
         "hu": "https://www.qrlink.sk/new/hu/bazilika-minor-narodenia-panny-marie-a-klastor-paulinov/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Basilica Minor of Virgin Mary’s birth and Pauline monastery",
+          "text": "<p>The most valuable monument in the town is the late gothic Basilica Minor of Virgin Mary’s birth along with the Pauline monastery from the Baroque period. (It gained its title in 2008) Both buildings are registered as national cultural monuments since 1963.</p>\n<p>The church was built on behalf of Elizabeth Báthory’s son-in-laws mother Eufrosine Drugeth for the need of Calvinist believers. During Emeric Thököly’s uprising, their activities had been slowed down. On the contrary, this period was marked by the flourishing of Protestantism. The subsequent period of recatholicization strengthened the position of the order, which meant an intense development of the monastery and the church. The fire from the beginning of the 17th century had marked both buildings. During the 18th century, Paulines carried out a massive baroque reconstruction of the church.</p>\n<p>Interior decoration comes from Viennese painter Johann Lucas Kracker, who created a series of baroque illusory paintings. The most significant fresco from all that had been preserved is located between the main altar and pulpit. It symbolizes the birth of Virgin Mary. There is one artwork in the monastery that represents the craftsman. It’s located on the vault of the monastery staircase.</p>\n<p>The author of the wooden decoration on the main altar but also the side altars and pulpit, is Jozef Hartman, a sculptor from Košice. The decoration of Basilica in Vranov is one of his masterpieces. The altar of St. Ján Nepomucký is a part of the early stages of his work. Pulpit, side altars, and portal decorations are most likely his work too. Hartmann presents himself as a mature late baroque artist portraying characteristic slender figures with small heads, big noses, and expressive eyes, with almost flat eyelids. All of the furniture was created in 1745. The combination of Johann Lucas Kracker’s paintings and Jozef Hartmann’s carving decorations resulted in exceptional works at the basilica and monastery. Another national cultural monument is the temple treasure from Ján Szilassy, a goldsmith from Levoča, who was a key figure of the upper Hungarian baroque goldsmith. Szilassy created a collection consisting of the monstrance, cross, ciborium, and chalice for the Basilica in Vranov.</p>\n<p><img src=\"/assets/images/migrated/5-bazilika-minor.jpg\" alt=\"\"></p>\n<p><strong>The original monastery</strong> was built by Franciscans in the first half of the 15th century. They left the town during the reformation though. Franciscan monastery disappeared during the Anti-Habsburg rebellions. In 1672 Paulines came to the town at the invitation of Mária Esterházy. They built the monastery on the original foundations and resumed its activities. Today the monastery is used for the needs of the church.</p>\n<p><img src=\"/assets/images/migrated/6-klastor-paulinov.jpg\" alt=\"\"></p>\n<p><strong>Tombstones</strong></p>\n<p>Two original tombstones are located next to the side entrance of the Basilica. Romanticizing stone tombstone belongs to Ferencné Almássy (1783-1848). The next tombstone has the coat of arms of the Forgách family.</p>\n<p><img src=\"/assets/images/migrated/webp-net-resizeimage1.jpg\" alt=\"\"></p>",
+          "audio": [
+            "/assets/audio/migrated/basilica.mp3"
+          ]
+        }
+      },
       "url": "/bazilika-minor-narodenia-panny-marie-a-klastor-paulinov/",
       "urlAliasy": []
     },
@@ -9728,6 +11256,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/schwartzov-dom/",
         "pl": "https://www.qrlink.sk/new/pl/schwartzov-dom/",
         "hu": "https://www.qrlink.sk/new/hu/schwartzov-dom/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Schwartz’s House",
+          "text": "<p>Schwartz’s House is one of the most representative profane buildings preserved in Vranov nad Topľou. It was built by an important merchant from Vranov, Hugo Schwartz. Hugo Schwartz and his wife Lujza (born Berger), and brothers Ignatius and Izidor were also the owners of the largest company in Vranov – the industrial goods trade, which was located in the building. The richly decorated late Art Nouveau facade of the building complements the opulent stucco interior decoration. There’s a crown ledge above the entrance, supported by decorative elements on the facade. These elements are preserved in the building to this day. During the mid-war period, a gas station was located in front of the store. The owners of the shop also provided electric lighting for the adjacent crossroads. The family was also known for their philanthropic gifts, the most famous was the “American” Mikulaš Schwartz, who supported not only the Jewish community but also Catholic churches from the United States with his financial gifts. He donated 50,000 crowns to the Roman Catholic Church to buy a bell and 10,000 dollars for the construction of the Vranov synagogue. When Izidor Schwartz – the brother of Ignatius and Hugo – died (he worked as a commercial agent for the Slovak General Credit Bank), their family donated 100,000 crowns to the Roman Catholic Church for reconstruction. Members of this Jewish family, important to Vranov, are buried in the local Jewish cemetery.</p>\n<p><img src=\"/assets/images/migrated/schwartzov-dom-1.jpg\" alt=\"\"></p>",
+          "audio": [
+            "/assets/audio/migrated/schwartzs.mp3"
+          ]
+        }
       },
       "url": "/schwartzov-dom/",
       "urlAliasy": []
@@ -9757,6 +11294,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/socha-bretislav-benda-mladosti-a-krase-patri-buducnost/",
         "hu": "https://www.qrlink.sk/new/hu/socha-bretislav-benda-mladosti-a-krase-patri-buducnost/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "“The future belongs to Youth and Beauty” statue by Bretislav Benda",
+          "text": "<p>The sculpture of a female figure named “The future belongs to Youth and Beauty” was created in 1955 by a prominent Czech sculptor, a national artist named Břetislav Benda, as a gift to the construction manager of the Woodworking Company in Hencovce, which was later renamed Bukóza. It was initially located directly in the plant area in front of the pulp mill. In addition, Benda also created a sculpture depicting the wood processing technology in the plant. The sculpture was located at the front entrance of the building. In his own words, the artist “does not know a motif more precious than the human body, especially the female’s”, therefore the sculpture was a female figure in its natural form. Problems began after the installation of the statue. The fumes and lyes used in the brewery began to damage and contaminate the statue. The men employed in the plant started to dress the statue in women’s underwear. This attracted the attention of political leaders and contributed to its removal from the plant premises. Vranov nad Topľou bought the statue for 70,000 crowns and located it in a fountain in the central park. It’s been said that the secretary of the Central Committee of the Communist Party Vasil Biľak also wanted to remove the statue from the city. In the 1990s, it was damaged by misbehaving citizens. After repairs and restoration, it was placed in the city’s depository and in 2012, after the revitalization of the city park, it returned to the square.</p>\n<p>Bretislav Benda was born on March 28, 1897, in the town of Milevsko in the Czech republic. He studied at the Academy of Fine Arts, where he was a student of Josef Václav Myslbek. His studies were interrupted by the First World War and in 1916 he had to enlist in the army. While on the Italian front, he suffered a severe palm injury on both hands during a machine-gun fire. After returning from the front, he finished his studies in the studio of another important sculptor, Ján Šturs. A significant step in his career was his membership in the prestigious association Mánes. He joined in 1923. His sculptures include politicians such as T.G. Masaryk or E. Beneš, as well as soldiers and motifs of a female figure. He received a gold medal for the beautiful sculpture called Demeter and Bozena at the International Exhibition of Decorative Arts in Paris in 1925. Benda died in 1983 in Prague and is buried in the Vyšehrad cemetery. He is one of the most important sculptors of the 20th century.</p>\n<p><img src=\"/assets/images/migrated/webp-net-resizeimage5.jpg\" alt=\"\"></p>",
+          "audio": [
+            "/assets/audio/migrated/future.mp3"
+          ]
+        }
+      },
       "url": "/socha-bretislav-benda-mladosti-a-krase-patri-buducnost/",
       "urlAliasy": []
     },
@@ -9783,6 +11329,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kostol-sv-stefana/",
         "pl": "https://www.qrlink.sk/new/pl/kostol-sv-stefana/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-sv-stefana/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "St. Stephan’s Church",
+          "text": "<p>The medieval church was located in the central part of the town of Vranov, southwest of the water castle complex. This parish church was dedicated to St. Stephen, the king canonized in 1803, therefore the construction of the church could be expected in the period from the end of the 11th to the beginning of the 13th century. Based on the papal tithe registers from 1332 to 1337, we know Stephan operated in the Roman Catholic Church of Vranov during that time. Around 1490, a side altar dedicated to St. Anne was placed in the church. From the middle of the 16th century, both Calvinist and Lutheran preachers served in the church. Evangelical preachers were active in Vranov in the last third of the 17th century. During the recatholicization, the evangelical churches were taken out of their ownership, and landlords invited Pauline monks to the town, so at the end of the 17th century both Vranov churches belonged to the Roman Catholic Church. In the canonical visitation from June 3, 1773, the church is described as abandoned, without a roof. It also mentions an unfenced cemetery and ruins of the parish building. The above-ground ceilings of the church were still visible at the beginning of the 20th century. The Commemorative Book of the Košice Diocese Centenary from 1904 states that “part of the altar board still protrudes from the ground and indicates where the Slovak church was located”.</p>\n<p>Based on the archaeological research carried out by the staff of the Museum of National History in Hanušovce nad Topľou in 2008, we can say that the church was oriented in the east-west direction, with the entrances on the west and probably south side, and the sanctuary on the east side. Late Romanesque or early Gothic decoration elements were used. During the later reconstruction, probably at the end of the 15th century, it was equipped with retaining walls. The internal width of the sanctuary was 6,5 meters at its base, the width of the nave was 13,5 meters and its length was estimated at approximately 33 meters. Several graves with skeletal remains were discovered in the interior of the church, as well as next to it, during the archaeological research, which proves the existence of a cemetery in the church complex. Due to the presentation of the building of the defunct church, the town of Vranov nad Topľou proceeded to reconstruct the floor plan in the form of above-ground stone masonry in 2019.</p>",
+          "audio": [
+            "/assets/audio/migrated/stephans.mp3"
+          ]
+        }
       },
       "url": "/kostol-sv-stefana/",
       "urlAliasy": []
@@ -9811,6 +11366,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/lipa-slobody/",
         "hu": "https://www.qrlink.sk/new/hu/lipa-slobody/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Linden of Freedom",
+          "text": "<p>This linden was planted in 1918 and today it stands in front of the secondary vocational school in the town center. It was planted by Vranov local patriots and supporters of the independence of our nation in honor of the establishment of an independent Czechoslovakia on October 28, 1918, after the end of World War I and the disintegration of Austria-Hungary. The enthusiasm was shared because more Czech families lived in Vranov at that time. When the tree was still small, they watered it and took care of it so future generations would have a symbol of the first common state of the Czechs and Slovaks. Yet another story about the origin of the tree keeps being told. It says that this tree was planted by French soldiers during World War I, who were treated for injuries in a hospital in Vranov, which was set up in the school building. Even though the front line had never reached our town and passed only through the districts of Svidník, Stropkov, and Humenné, the wounded soldiers were transported from the front line to Vranov, where they were treated. Many of them also succumbed to their injuries here and were buried in the local cemetery. However, the above-mentioned soldiers survived and planted this linden tree as a memorial in front of the field hospital.</p>",
+          "audio": [
+            "/assets/audio/migrated/linden.mp3"
+          ]
+        }
+      },
       "url": "/lipa-slobody/",
       "urlAliasy": []
     },
@@ -9837,6 +11401,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/rolnicke-povstanie-na-vychodnom-slovensku-1831/",
         "pl": "https://www.qrlink.sk/new/pl/rolnicke-povstanie-na-vychodnom-slovensku-1831/",
         "hu": "https://www.qrlink.sk/new/hu/rolnicke-povstanie-na-vychodnom-slovensku-1831/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The Revolt of Peasants in Eastern Slovakia in 1831",
+          "text": "<p>In 1831 a great revolt broke out in Easter Slovakia and made history as The Revolt of Peasants. Its cause was the discontent of the population, mostly due to their economic conditions and their position as subjects on the individual dominions. At the end of the 18th century, local landlords were confiscating the lands for their own enrichment. There are documented cases of aristocratic families usurping the land at the expense of peasants. By the gradual occupation of the fields and meadows, the socio-economic situation of the peasants had worsened. The trigger for the turmoil was the cholera epidemic and quarantine measures to suppress the spread of the disease. Similar to the present, the conspiracies had spread among the common people that the cause of cholera was poisoned water in wells. For example, the confession of certain Ján Škvorel was preserved. While being tortured, he admitted he was poisoning water in wells of Vranov, Hlinné, Zámutov, and Soľ.</p>\n<p>The revolt began near the town of Trebišov and quickly spread to the villages near Vranov. The statements of the revolt leaders are the real evidence of the cause of the revolt. “The world has turned around, you have ruled enough, now it’s our time!” proclaimed the leaders while robbing the settlements. The leaders of the uprising from Zámutov also tried to coordinate revolts in neighboring villages, namely in Rudľov, Hlinné, Soľ, Komárany, Vechec, Čaklov, Jastrabie or Vranov. On August 5, the mayors of these villages met and agreed on a common approach to the destruction of the lords and their property. They also turned their anger against the Jews and they imprisoned them. After successful lootings on local lands, the revolters led by Adam and Michal Ostruha from Zámutov wanted to march on Nové Mesto pod Šiatrom town. The second group of revolters headed to mansions in Čaklov, Čemerné, and Majerovce, and the main forces headed to Vranov. The uprising had signs of a coordinated approach but it was stopped by the arrival of government troops from Košice and Prešov. Even the attempts of the revolters to unite with others on the territory of Šariš were not successful. They were outnumbered by the troops who gradually eliminated the individual locations of the uprising. 73 were indicted and 41 leaders were sentenced to death by hanging.</p>\n<p>The Revolt of Peasants in 1831 proves that conspiracy theories are not the invention of the modern age, but have also been the cause of many armed conflicts throughout the history.</p>",
+          "audio": [
+            "/assets/audio/migrated/therevolt.mp3"
+          ]
+        }
       },
       "url": "/rolnicke-povstanie-na-vychodnom-slovensku-1831/",
       "urlAliasy": []
@@ -9867,6 +11440,21 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/slnecne-hodiny-kalvinsky-kostol-na-hviezdoslavovej-ulici/",
         "hu": "https://www.qrlink.sk/new/hu/slnecne-hodiny-kalvinsky-kostol-na-hviezdoslavovej-ulici/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Sundial – Calvinist Church on Hviezdoslavova street",
+          "text": "<p>As Sándor Böszörményi – a Calvinist priest from Humenné – described in his work from 1938 “Reformed churches in the Toplianska kotlina basin”, Vranov was a town with strong reformation roots during the 16th and early 17th century. Recatholization changed that. At the end of the 19th century, a desire for their own church culminated among the protestants in Vranov. Calvinists and Evangelicals from Humenné served as an example since they had already dealt with this problem and built a church. That was the intention of Vranov believers as well. The courage and organization skills were missing though, so there was no guarantee it would actually happen. Fortunately, in 1892 a fresh graduate of the Mining and Forestry Academy in Banská Štiavnica, Gábor Bodor (*1967, Gelence – †1936, Vranov) from Transylvania, moved to Vranov. In addition to his forestry work, he was also interested in public affairs. He was fascinated by the idea of building a church. He decided to help. He organized collections and cultural and religious events. And he was not alone, many of his co-workers devoted to his idea had joined.</p>\n<p>20,000 crowns had been raised by 1910, which was enough to build the protestant church. But the believers could not agree on the symbols in the interior and on the church tower. World War I broke out. The money collected had to be handed over to the Hungarian government for military purposes. After the disintegration of Austria-Hungary and the establishment of the Czechoslovak Republic, the Lutherans and the Reformed each decided to build their own churches. Slovak-speaking Lutherans built their church on Rázusova Street. Gábor Bodor built a Calvinist church for Hungarian-speaking believers on his own land on Hviezdoslavova Street. Together with his wife Etelka, (born Keler), a descendant of Dutch and German ancestors, and children, took overall responsibility for the construction of the church, including materials and transport. The believers also supported the construction of the church to a large extent with their donations.</p>\n<p>The church was designed and built by Pavol Nagy, a builder from Vranov. The small church with 40 seats was consecrated in 1931 by the Reformed Bishop Péter Mihály. Services of the Reformed Church were held in the minority Hungarian language. This was the reason why Hungarians of other religions were also visiting the church.</p>\n<p><img src=\"/assets/images/migrated/webp-net-resizeimage8.jpg\" alt=\"\"></p>\n<p>Sundial is an interesting feature of the church. It was common in the homelands of both Gábor and Etelka, which might be the reason why it’s on this church, too. The church is registered as a national cultural monument.</p>\n<p>Although the church and its parcels were confiscated after World War II, during the socialist era, services in Hungarian continued until the death of Juraj Gazdovič († 1985), the pastor of Michalovce. Since then, all services have been held in Slovak.</p>\n<p>After the fall of communism, descendants of Gábor Bodor and Etelka asked for the return of the church and its properties. The church under the administration of the town was returned in 1994. The surrounding parcels, also belonging to the church, were administrated by Vranov nad Topľou Hospital. These were returned in 2013, after court quarrels.</p>\n<p>In 2020, the roof and tower of the church were repaired thanks to the Repair Fund of the Ministry of Culture of the Slovak Republic. It was an important step to save him. Unfortunately, the entrance to the church is 70 centimeters below the level of adjacent roads today due to near building modifications. This causes insufficient drainage of surface water, which has an adverse effect on the building. Every second Sunday there is a service in the Slovak language in the church.</p>\n<p><img src=\"/assets/images/migrated/webp-net-resizeimage7.jpg\" alt=\"\"></p>",
+          "audio": [
+            "/assets/audio/migrated/sundial.mp3"
+          ]
+        },
+        "hu": {
+          "text": "<p>Böszörményi Sándor, homonnai lelkész, “A Tapolyvölgyi reformátusok templomai” című 1938-as munkájában még erős református helyként írja le Varannót. A rekatolizációval a helyzet megváltozott.</p>\n<p>A varannói protestánsok a 19. század végén, saját templomot szerettek volna építeni maguknak. A homonnai protestánsok is hasonló problémával szembesültek, ott a reformátusok az evangélikusokkal közös templomot építettek.</p>\n<p>Varannón is ez volt a szándék. Bátorság és szervezõkészség hiányában nem volt garancia ennek megvalósítására. Szerencsére, 1892-ben Varannóra költözött a Selmecbányai Bányászati és Erdészeti Akadémián frissen végzett, erdélyi származású Bodor Gábor erdész, (1967, Gelence-1936, Varannó). Erdészeti munkája mellett a közélet ügyei is foglalkoztatták, jó tanácsadókkal az oldalán élére állt a templomépítési akciónak.</p>\n<p>1910-ig 20 000 koronát gyűjtöttek össze, egy közös protestáns templom megépítésére. A hívek nem tudtak megegyezni a közös templom tornyán megjelenő szimbólumokban, ráadásul kitört az első világháború. Az eddig összegyűlt pénzt kötelesek voltak katonai célokra átadni a magyar kormánynak. Ausztria-Magyarország felbomlása és a Csehszlovák Köztársaság megalakulása után az evangélikusok és a reformátusok úgy döntöttek, hogy saját templomot építenek maguknak. A többnyire szlovák anyanyelvű evangélikusok templomukat a Rázusova utcában építették meg.</p>\n<p>A magyar anyanyelvű reformátusok templomának megépítéséhez Bodor Gábor a Hviezdoslavova utcában lévő telkén adott lehetőséget. Ő, és holland és német felmenőkkel bíró felesége, valamint gyermekeik vállaltak minden felelősséget a templom megépítéséhez, anyagokat, fuvarozást is biztosítottak az építkezéshez. A templom megépítéséhez még számos más adomány is érkezett. A templom tervezője és kivitelezője Nagy Pál varannói építész volt. A 40 ülőhelyes kis templomot 1931-ben Mihály Péter református püspök szentelte fel. A református egyház istentiszteleteit kisebbségi magyar nyelven tartották. Ez volt az oka annak, hogy a templomot más vallású magyarok is látogatták.</p>\n<p>A templom érdekes jellemzője a tornyon lévő napóra. Mind Bodor Gábor, mind felesége Keller Etelka szülőföldjén a napórák gyakoriak voltak, ezek hatására készülhetett egy napóra a varannói templomra is, mely napóra a Csehszlovák Köztársaság napóra listájára is annakidején felkerült. A templom ma műemlék.</p>\n<p>Bár a 2. világháború után, a szocializmus idején, a templomot és a hozzá tartozó földet államosították, a templomi szolgálatot magyar nyelven Juraj Gazdovič Nagymihályi lelkész, egészen 1985-ben bekövetkezett haláláig tovább folytatta. Azóta az istentiszteletek szlovák nyelvűek.</p>\n<p>A kommunista kormány bukása után a kárpótlás részeként Bodor Gábor utódai visszakérték a város igazgatása alá tartozó templomot, amit 1994-ban mint törvényes tulajdonosok vissza is kaptak. A templomhoz tartozó környező telket, ami az OÚNZ-Nemocnica igazgatása alatt állt, csak hosszú pereskedés után, 2013-ban kapta vissza a varannói Bodor család.</p>\n<p>2020-ban állami segítséggel megjavították a tetőt és a tornyot. Ez fontos lépés volt a templom megmentése érdekében. Sajnos ma a környező építkezések, útépítések miatt a templom bejárata körülbelül 70 cm-rel a járda szintje alatt van, ami sok problémát okoz.</p>\n<p>A templomban minden második vasárnap szlovák nyelvű istentiszteletet tartanak.</p>\n<p>Bodor Péter és Bodor Katalin, 2021. június. 15.</p>",
+          "audio": [
+            "/assets/audio/migrated/09-hu.mp3"
+          ]
+        }
+      },
       "url": "/slnecne-hodiny-kalvinsky-kostol-na-hviezdoslavovej-ulici/",
       "urlAliasy": []
     },
@@ -9891,6 +11479,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/povest-o-vzniku-vranova/",
         "pl": "https://www.qrlink.sk/new/pl/povest-o-vzniku-vranova/",
         "hu": "https://www.qrlink.sk/new/hu/povest-o-vzniku-vranova/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The legend about the origins of Vranov",
+          "text": "<p><strong>Of crows by the Topľa river</strong></p>\n<p>The legend about the origins of Vranov</p>\n<p>An old road had always led up by the Topľa river. Merchants used it to travel from Hungary to Poland. They carried goods on their backs and carriages from one end of the country to another. And where there were merchants, goods, and money, there also were thieves and bandits, who instead of acquiring the fortune lawfully, chose to steal.</p>\n<p>Oftentimes the loot was so humongous that the merchants had to continue bare-handed. Bandits hid easily anywhere at that time, for thick bushes grew everywhere around rivers and streams. And there were birds in them, whole flocks.</p>\n<p>One day, a young merchant was traveling on his carriage. He was on the market in the town of Bardejov and wanted to go to Trebišov as soon as possible because his fellow merchants were already there waiting for him, so the story goes. But he didn’t arrive. When he was less than an hour away from the town, strangers stopped him and shouted:</p>\n<p>“Stop there, you! Money, or your life!” The merchant objected: “It is rather shameful to take what’s not yours.” Bandits were infuriated by his response and one of them, surely the leader, slapped his face and shouted: “Enough of you fiddle-faddle, you won’t stand against our will, no more!” The merchant lost track of what was happening to him. The bandits knocked him out until he was dazed, feeling like falling into a vast abyss.</p>\n<p>Who knows when he woke up after they stunned him. When he opened his eyes, he only saw reeds and thick forests. He was frightened the most when big crows cried around. It wasn’t a usual crow caw, it was a terrible shriek sending chills down his spine. Nowhere else have these birds screamed like that. But only then did the cold sweats drench him when he noticed he was tied up, from head to toe. His only thought was:</p>\n<p>“If I don’t get on my feet, the crows will stab me to death and lug me around.” The merchant wanted to move, but he only could lift his legs a little. He just was laying there like a log. The crows were circling him and crying until his ears were buzzing. For a moment he thought it was his last hour. After all, if no one helps him, he’ll starve to death. Or he’ll suffocate. And he will call in vain. For those birds, his voice won’t go far. So he closed his eyes again, not knowing if he was asleep or unconscious.</p>\n<p>But once again he woke up, suddenly feeling he was no longer tied up. Was it a dream or was it real, he did not know. He was afraid to open his eyes, but after all, he plucked up the courage. And what was his sight? Light all around and a smiling man leaning forward: “I thought you wouldn’t ever wake up. You slept like the dead.”</p>\n<p>“I did feel like coming alive though”, whispered the merchant looking at the man who was still leaning over him staring at his eyes. Even the thought of a bandit coming back to finish him off occurred to the merchant, yet he dared to ask:</p>\n<p>“And who are you? Did someone send you, or did you just happen to pass by?” The man replied:</p>\n<p>“I live on this land and I was fishing nearby. The crows were crying so loud in the reeds that I couldn’t help but see if no one was laying there. And I didn’t go in vain. But who knows how long you’ve been here.”</p>\n<p>The merchant didn’t know that either. The only sure thing was that this man had saved his life. And those birds too. They did help a lot.</p>\n<p>But the man who found him didn’t want to let him go even after he was back on his feet wanting to leave. He kept telling him he wouldn’t go far, being as weak as he was. He added: “This plentiful land provides everything people need to thrive. Stay here until you feel better.” The merchant did the man’s bidding but couldn’t help but wonder if bandits kept roaming around. But they were all gone. Everything went silent, only the birds were chirping and singing in the trees.</p>\n<p>“I need to fix myself a shelter and I don’t want to be a burden for you until then”, he added. “Oh, don’t worry about that, the more of us, the merrier. We’ll be happier and deal with any bandits quicker.”</p>\n<p>And the merchant stayed forever. Only when his fellow merchants on carriages were passing by, did he approach one of them and said: “Tell everyone I’m not coming home. I’m staying here, I like this land. Tell them to visit me one day. They’ll find me with ease because there’s nowhere else with so many crows.</p>\n<p>And the merchant really stayed where the bandits had robbed him. He built a cottage next to the Topľa river. And many others joined him that year who also didn’t want to leave. Years later a settlement grew here, then a village, and after that a town. As the settlement grew, so did its name. First, it was called Vrania* or Vranie, because of the many crows nearby. And when the village became a town with brick houses, it was named Vranov.</p>\n<p>People always talked about the crows crying and circling the place where bandits tied up and robbed the merchant.</p>\n<p>*Vrania, Vranie, Vranov – from Slovak ‘vrana’ meaning ‘crow’</p>",
+          "audio": [
+            "/assets/audio/migrated/of-crows-by-the-topla-river.mp3"
+          ]
+        }
       },
       "url": "/povest-o-vzniku-vranova/",
       "urlAliasy": []
@@ -9918,6 +11515,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/historia-vranovskej-synagogy/",
         "pl": "https://www.qrlink.sk/new/pl/historia-vranovskej-synagogy/",
         "hu": "https://www.qrlink.sk/new/hu/historia-vranovskej-synagogy/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The history of the Jewish Synagogue of Vranov",
+          "text": "<p>The construction of the Jewish synagogue began in 1921. Although the Orthodox Jewish religious community of Vranov bought the land in 1897, the construction hadn’t started until much later, due to a lack of money to build a decent building. The construction only started with the financial help of Mikuláš Schwartz, an American citizen originally from Vranov, who visited our city after WWI. When he saw the condition of the original synagogue, he decided to donate $10,000 to help build a new one. It was such a vast amount of money, that the Jewish community of Vranov had also managed to build a new mikvah. According to the census, 649 Jews lived in the town at that time, making up 28.3% of the 2,282 citizens of Vranov.</p>\n<p>Architect Vojtech Šípoš designed the construction project, and the company of Hugo Kaboš was entrusted with the implementation. The company of the Barkányi brothers participated in the finishing touches of the synagogue itself, and also the spa construction in 1924. A slightly elevated wide staircase led to the synagogue, and the whole area was enclosed by concrete fencing. Three separate entrances led to the vestibule of the synagogue. Staircases on the left and right of the hall led to the balcony with a room for women. The Ark of the Covenant was located on the east side of the building with its internal dimensions of 16&#215;16 meters.</p>\n<p>From an architectural point of view, the building itself can’t be classified as an example of any specific period style, although it stood out among surrounding buildings with its grandeur. With its towers extending above the roof of the dome, the building towered majestically on the slope and was visible from the village of Čemerné. The building was also visually attractive because of its oriental architectural elements embellishing both interior and exterior facades.</p>\n<p>The structurally impressive dome was supported by four bundled columns. The segmented space reminded a three-nave ship. The middle nave ended with a large, circular window with a six-pointed star. The same motif was used on the facade of the building with atypical external proportions. The external width of the building was 19 meters in the back, 21 meters at the front and the length of the building was 24 meters with a maximum height of 11 meters. The synagogue also included a ceremonial Jewish bath – a mikvah, and a bather’s apartment. The bather in 1941 was Eizig Bornstein.</p>\n<p>A Jewish Orthodox school of the Vranov community was not that far away from the synagogue. Herman and Salomon Stern were teaching religion there in 1941. Behind the school, there was an apartment of the rabbi and a Jewish slaughterhouse. Upon completion, the synagogue became the center of the religious and cultural life of the Jews of Vranov. The last rabbi of the Orthodox Jews was Lazarar Ehrengruber and the last rabbi of the Hasidic Jews was Eduard Halberstam. Mór Rosenwasser was the churchman. Services were held every evening and Saturday morning. However, there had to be at least ten adult men present.</p>\n<p>The building served its purpose shortly after the Second World War, but later it was used only as a warehouse and in the end, there was no one interested in using its premises, so the building slowly began to decay. Children and youth also damaged it. The designing process of a new housing neighborhood Okulka led to the planning of demolition of the synagogue, which was a huge mistake from today’s point of view. The building that could have been reconstructed, could serve as a multicultural facility with great acoustics for today and future generations. Unfortunately, the building was demolished in September 1982.</p>",
+          "audio": [
+            "/assets/audio/migrated/the-history-of-the-jewish-synagogue.mp3"
+          ]
+        }
       },
       "url": "/historia-vranovskej-synagogy/",
       "urlAliasy": []
@@ -9949,6 +11555,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/susosie-sv-jana-nepomuckeho-panny-marie-s-jeziskom/",
         "hu": "https://www.qrlink.sk/new/hu/susosie-sv-jana-nepomuckeho-panny-marie-s-jeziskom/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Statue of St. John of Nepomuck, Virgin Mary with baby Jesus",
+          "text": "<p>The stone baroque sculpture dates from 1770 and depicts the Virgin Mary with the baby Jesus. In front of her is the kneeling figure of St. John of Nepomuck. It is located on a high stone plinth and is surrounded by a stone balustrade. In terms of time and style, it corresponds with the Baroque modifications of the church and the Pauline monastery. </p>\n<p>Since the decoration in the church is the work of Master Hartman, it is likely that this statue is also from his work. The sculpture itself is unique in its design, because St. John of Nepomuck is usually depicted as a separate figure. The statue is 220 cm high. The sculpture was included in the list of cultural monuments in 1986.</p>\n<p>Due to damage caused by the weather, the statue was reconstructed in 2001 by the academic sculptor Ondrej Dzúrik, and after the work was completed, it was placed in the Church of St. Francis of Assisi. A copy of it was placed in its original place, the author of which is academic sculptor Michal Czupil, a native of Vranov nad Topľou.</p>\n<p>There are also solo statues of this saint on the territory of the city and district. One of them is located on the Street of Duklianských  hrdinov, the other in the village of Sedliská under the Čičva Castle by the Ondava River.</p>",
+          "audio": [
+            "/assets/audio/migrated/01.mp3"
+          ]
+        }
+      },
       "url": "/susosie-sv-jana-nepomuckeho-panny-marie-s-jeziskom/",
       "urlAliasy": []
     },
@@ -9979,6 +11594,15 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/cyril-daxner-daxnerov-dom/",
         "hu": "https://www.qrlink.sk/new/hu/cyril-daxner-daxnerov-dom/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Dr. Cyril Daxner – Daxner’s house",
+          "text": "<p>Cyril Daxner was a Slovak lawyer, officer, journalist, national and Christian activist, participant in the Little War, organizer of the Slovak National Uprising in eastern Slovakia. Grandfather Štefan Marko Daxner de Tótzabar (1822 – 1891) was a co-founder of Slovak Matica, one of the representatives of the Slovak National Uprising 1848 – 1849 and the creator of the political program current until 1918. He went down in history as a defender of the Evangelical Church before hungarization on Gemer region and Honta. His father was Ivan Daxner (1860 – 1935), who was directly involved in the creation of the Czechoslovak Republic and was the secretary of the Slovak League. He signed the Cleveland and Pittsburgh agreements, i.e. the documents leading to the creation of the Czechoslovak Republic. His great-grandfather was Karol Kuzmány, the 1st historical vice-president of Slovak Matica and superintendent of the Evangelical Church of the Augsburg denomination. Among close relatives, e.g. belongs Janko Jesenský (1874 – 1945), writer, politician and the first Slovak holder of the title of national artist, as well as Juraj Janoška (1882 – 1945) deputy robe, chairman of the Slovak National Party for some time, participant in the Slovak National Uprising, who died tragically in 1945.</p>\n<p>Cyril Svetozár Daxner was born on July 20, 1904 in Tisovec. Already in his childhood he showed interest in national affairs. He graduated from the Gymnasium in Turčiansky sv. Martin and continued his law studies at the Comenius University in Bratislava, which he completed in 1931. After obtaining his doctorate in law, he also worked as an editor of the National Newspaper in Martin.</p>\n<p>The historical significance of Cyril Daxner is in three areas: in active participation in the battles during the Little War (1939), in the Slovak National Uprising organization in eastern Slovakia, and in his the cultural and ecclesiastical influence in the Upper Zemplín region. He performed military duty as an artillery officer in the town of Vranov nad Topľou. After passing the bar exam, he opened a lawyer´s office here in 1934.</p>\n<p>Cyril Daxner was known for his original views, social and church life, law practice and help to ordinary people. He also observed European political events due to his language skills. He spoke Russian, Hungarian and German. Cyril Daxner did not belong to any political group and his only priority was the defense of the national rights of Slovaks. He was clearly against Nazism and pan-Germanism. In March 1939, after the Hungarian occupation of Podkarpatska Rus, he voluntarily reports to the headquarters in Prešov to Augustín Malár, who took command of VI. corps ensuring the defense of eastern Slovakia. When, on March 23, 1939, Hungarian troops invaded the territory of Slovakia from the east, Daxner, as an artillery lieutenant, took command of the attack group consisting of several armored cars OA 30 and set off against the advancing Hungarian troops. During the fighting, he personally operated one armored vehicle and narrowly escaped death after being hit by a grenade. His actions included him among the heroes of the Little War (1939). Young volunteers from the Prešov telegraph battalion also join his group. Daxner and his unit are engaged in fierce battles around Nižná Rybnica. After the war, he worked as a lawyer in the town of Vranov nad Topľou.</p>\n<p>In the following period, Cyril Daxner was involved in organizing the anti-German resistance and was a key figure in the civil resistance in eastern Slovakia with connections to Bratislava. He organized connections with civic groups in Humenné, Bardejov, Stropkov. He personally collaborated with Viliam Žingor and Ľudovít Kukorelli. He was a co-organizer of the Vranov partisan group known as Pučkov. During the repressive action in eastern Slovakia, on April 19, 1944, he was arrested together with his wife based on the information of a confidant of the State Security Center. From May 15, 1944, he was imprisoned in Ilava and later in Bratislava. In February 1945, the Gestapo dragged him to the Mauthausen-Gusen concentration camp.</p>\n<p>After the liberation, sick and malnourished, he left Austria by ship and returned to Bratislava on May 24, 1945. He tried to get to his family relative Janko Jesenský, but fell asleep on the street due to fatigue and contracted pneumonia from the cold weather. Doctor prof. Sumbol tried to save him until the last moment. Cyril Svetozár Daxner dies in a hospital in Bratislava on Hlboka cesta on June 7, 1945 and is buried in the cemetery near the Goat Gate. In 1945 in memoriam awarded the Czechoslovak War Cross 1939; in 1946 in memoriam by the Council of the Slovak National Uprising I.class; in 1939 he was awarded the Medal for Heroism and the Memorial Medal for the defense of Slovakia in March 1939 during the Little War. The monument to his extraordinary life is currently maintained by the local branch of Slovak Matica in Vranov nad Topľou.</p>",
+          "audio": [
+            "/assets/audio/migrated/02.mp3"
+          ]
+        }
+      },
       "url": "/cyril-daxner-daxnerov-dom/",
       "urlAliasy": []
     },
@@ -10008,6 +11632,15 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/pamatnik-hrdinom-a-bojovnikom-proti-fasizmu-a-pamatnik-oslobodenia-mesta/",
         "pl": "https://www.qrlink.sk/new/pl/pamatnik-hrdinom-a-bojovnikom-proti-fasizmu-a-pamatnik-oslobodenia-mesta/",
         "hu": "https://www.qrlink.sk/new/hu/pamatnik-hrdinom-a-bojovnikom-proti-fasizmu-a-pamatnik-oslobodenia-mesta/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Monument to heroes and fighters against fascism and Monument to the liberation of the city",
+          "text": "<p>In the center of Vranov nad Topľou, there are symbolically placed next to each other two monuments dedicated to the liberation of our city, which took place in different historical periods, but coincidentally on almost the same day. It is a Memorial to Heroes and Fighters against Fascism, which is an artistic representation of the liberation of Vranov nad Topľou on January 18, 1945 from fascist occupation. The second is a plaque commemorating an even older historical event, namely the liberation of the city on January 19, 1919 from Hungarian rule and the assignment of Vranov nad Topľou to the new Czechoslovak state. This monument was installed by Slovak Matica in 2019 and commemorates a landmark event that took place over five hundred years ago. The text on the memorial plaque is dedicated to the members of the 4th hund. of the 1st Battalion of the 1st Regiment of Slovak Freedom, who entered the town from Prešov on January 19, 1919 and thereby liberated Vranov nad Topľou and established the Czechoslovak state administration. This ended the thousand-year historical chapter associated with Hungary and we started a new path towards free Slovak and democratic statehood.</p>\n<p>It must not be forgotten that several people from Vranov nad Topľou fought in the ranks of the Czech-Slovak legions on the fronts of the First World War for the revival of the Slovak nation after decades of harsh hungarization. The result of the disintegration of Austria-Hungary was the total liberation of the Slovak nation and the associated return of the Slovak language to schools, offices, and the general life of our ancestors. Thanks to this cultural and political revival, many Slovaks immigrated to Vranov nas Topľou from the surrounding villages and worked in the management of the public administration of the young Czechoslovak Republic. Before that, it was very difficult due to the semi-feudal Hungarian conditions.</p>\n<p>The second liberation, better known to the public, took place in 1945. The troops of the Soviet Red Army – the 4th Ukrainian Front, under the leadership of Army General Ivan Yefimovich Petrov, which included the 1st Guards Army of Colonel General Greček and the 18th Army of Major General Gastilovič, brought peace to Vranov nad Topľou.</p>\n<p>The first to enter Vranov nad Topľou in the morning at nine o’clock was Soviet tank no. 27 and soldiers of the tank company under the leadership of Lieutenant Colonel Ivan Nikolajevic Fedan, which was part of the 107th Rifle Corps of Lieutenant General Gordejev belonging to the mentioned 1st Guards Army. It happened in the area of ​​the current part of the city Sídlisko 1. mája. During the next two days, January 18-19, the Soviet troops advanced without much resistance from the German troops towards Prešov and liberated one village after another.</p>",
+          "audio": [
+            "/assets/audio/migrated/03.mp3"
+          ]
+        }
       },
       "url": "/pamatnik-hrdinom-a-bojovnikom-proti-fasizmu-a-pamatnik-oslobodenia-mesta/",
       "urlAliasy": []
@@ -10199,6 +11832,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/rotunda/",
         "pl": "https://www.qrlink.sk/new/pl/rotunda/",
         "hu": "https://www.qrlink.sk/new/hu/rotunda/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "ROTUNDA",
+          "text": "<p>Rotunda was a masoned sacral building with a circular ground plan and an apse. Only its foundations are visible in the Museum grounds today. They were discovered by the founder and first director of the Zemplín Museum in Michalovce Jaroslav Vizdal in the second half of the 20th century. This monument now rep­resents the easternmost building of this type in Slovakia. </p>\n<p>The period of construction of this rotunda in Michalovce is unknown. The absence of writ­ten sources on its origin, and the research con­ducted so far, have not brought any progress in clarifying its dating. These circumstances do not allow us to date its construction before the 13th century. </p>\n<p>Originally, the rotunda probably served as a common parish church for the people from the surrounding villages. Thanks to archae­ological excavations, more than 120 graves have been examined in its surroundings so far. They contained mainly personal belongings of the deceased. Today, the finds from the area around rotunda are displayed in the archae­ological exhibition of the Zemplín Museum, where visitors can view them. They include a stone slab with an engraved inscription which was discovered in the interior of the rotunda. Nevertheless, the engraved text has not been reliably deciphered yet. Whether it served as a pedestal for an altar table or as a tombstone— and how it relates to the rotun­da—remains unanswered.</p>\n<div class=\"video-embed\"><iframe src=\"https://www.youtube.com/embed/Kfgm4FbkimA\" title=\"Video\" loading=\"lazy\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></div><p>The Rotunda Foundation Restoration Project was implemented with the financial support </p>\n<p>of the Košice Self-Governing Region under the grant programme “Traditions Inspire Innovation.””</p>\n<p><img src=\"/assets/images/migrated/2026-08-03_13h20_33.jpg\" alt=\"\"></p>"
+        }
       },
       "url": "/rotunda/",
       "urlAliasy": []

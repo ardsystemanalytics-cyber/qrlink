@@ -31,5 +31,11 @@
     "ru": "https://www.qrlink.sk/new/ru/vlakova-stanica-frydlant-nad-ostravici/",
     "pl": "https://www.qrlink.sk/new/pl/vlakova-stanica-frydlant-nad-ostravici/",
     "hu": "https://www.qrlink.sk/new/hu/vlakova-stanica-frydlant-nad-ostravici/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Train station Frýdlant nad Ostravicí",
+      "text": "Frýdlant nad Ostravicí is an important railway junction which is used every year by tourists for their trips to the beauties of the Beskydy mountains. Today’s main train building dates back to 1888. From the history we know that on 2nd January, 1869 the emperor Franz Joseph I. granted the concession document for the construction of the railroad from Moravská Ostrava to Frýdlant in the Beskydy, at that time already well-known village with huts and iron works. On 3rd January 1871, the first train arrived to Frýdlant on brand new Frýdlant-Ostrava rails whose construction lasted for two years. At the present, this railway is an important connection, both for regular people coming to work as well as students attending schools. It is used extensively also for the active holidays in the Beskydy Mountains. The building of the station underwent, in 2013, a total reconstruction, the investor of which was the Railway Transport Administration, state organization. The funds were provided by the State transport Infrastructure Fund. Except this reconstruction, there was a complete reconstruction of the railway upper and the underpass, including bridges and crossings, the construction of elevated roofed platforms for the first and second tracks, including the sub-level access to the subway platform and the elevator for the immobile passengers."
+    }
   }
 }

@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/zupny-dom/",
     "pl": "https://www.qrlink.sk/new/pl/zupny-dom/",
     "hu": "https://www.qrlink.sk/new/hu/zupny-dom/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Comitat House",
+      "text": "It is a rococo-classicist building of a palace type, designed for administration purposes of the former Šariš district. \n\nAs early as in the late Middle Ages Prešov became the most important political, cultural, economic, administration, and religious centre of the Šariš comitat. It maintained this position in the following centuries, too. The importance of the town was even increased in 1723 because Prešov became a seat of one of four newly-established juridical institutions in the Hungarian Lands, notably the district court for the Tisza basin region. \n\nIssues concerning the Šariš See fell within the competence of the Šariš district administration head appointed by a ruler. The district administration head was a commander of all royal soldiers on the district (comitat) territory. Moreover, he passed judgements on district inhabitants, with the exception of the aristocracy and clericals, and administered national incomes. The first head mentioned in historical documents was Peter (1217). The Šariš territory of those times was a part of a large borderland comitat Novum Castrum from which it separated in the first part of the 13th century. Heads of the Šariš district originally lived at the Šariš castle. Later on the seat varied depending on respective persons. \n\nBased on Maria Theresa’s Decree which ordered each comitat to build up a new office building in the place of its seat, a beautiful Comitat House building was erected in 1769-1770. Profound reconstruction made it possible to connect two-storey Renaissance houses belonging to the Mednyanszkys with a one storey corner house of a book-printer F. Paracelsus. The resulting was a monumental palace-type building with a spacious hall at the second storey, connected with other rooms through a network of corridors. The top of a lavishly articulated facade with two entrance portals was provided with a triangular shield (tympanum), including a relief of King Solomon’s trial, an adornment preserved up to the present. The wide balustrade staircase leads to a spacious hall with a trough-shaped vaulting. The other rooms are provided with lunette or flat vaulted ceilings, or with flat ceilings with stucco mirrors. \n\nThe Comitat House served its original purpose for more than one and a half century, till the end of 1944. During the first Slovak Republic (1939-1945) it became a seat of the Šariš-Zemplín district. In the course of its existence, the Comitat House underwent several reconstructions. It was very damaged by the big fire of May 6, 1887, when fire destroyed a large part of the town centre. Shortly, the building was refurbished to fulfil its purpose. On December 20, 1944, the building was seriously damaged during Soviet air-raids. After the World War II the Comitat House was gradually reconstructed, and housed several institutions.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/13-comitat-house.mp3"
+        }
+      ]
+    }
   }
 }

@@ -24,5 +24,10 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/"
-  ]
+  ],
+  "i18n": {
+    "en": {
+      "nazov": "The Čierne Kľačany’s Pyxida"
+    }
+  }
 }

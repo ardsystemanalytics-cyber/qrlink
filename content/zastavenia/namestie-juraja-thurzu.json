@@ -31,5 +31,16 @@
     "ru": "https://www.qrlink.sk/new/ru/namestie-juraja-thurzu/",
     "pl": "https://www.qrlink.sk/new/pl/namestie-juraja-thurzu/",
     "hu": "https://www.qrlink.sk/new/hu/namestie-juraja-thurzu/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The Square of Juraj Thurza",
+      "text": "The first written mention of the permanent settlement of Turzovka is associated with Juraj Thurza and comes from the time of wallachian colonization, from 1580 as “locum Predmer”. Thurzovcias the owners of the Bytca County needed to secure their own on their area against the penetration of valachians from the surroundings areas. With the name Turzovka we met first in “Landowner of Bytca County” in which there is additional sentence that Turzovka was established in 1598. The village obtained a localization list on February 21th 1602. In it Juraj Thurzo orders to the first settler to build a church and parish as soon as possible. In 1968 Turzovka is promoted to city and coat of arms is becoming to usage which was later modified by the Heraldic Commision to its present form.\n\nFor the honor of the Hungarian palatine and the founder of Turzovka Juraj Thurza, in 2009 the town forced to build a Square of Juraj Thurza. The square is located on shopping street near the “Sarkpak” ant its part it also memorial table which was revealed at occasion of the fourth World meeting of Turzovka people. Its initiator was Community of friends of Turzovka with help from several sponsors. The author of the bronze table is sculptor Odrej Zimka jr..The table is embedded into granite, anchored in stainless frame which is mounted in a concrete pedestal. On the bronze table there is picture of Juraj Thurza and there are described all ranks he gained during his life.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/7-the-square-of-juraj-thurza-1.mp3"
+        }
+      ]
+    }
   }
 }

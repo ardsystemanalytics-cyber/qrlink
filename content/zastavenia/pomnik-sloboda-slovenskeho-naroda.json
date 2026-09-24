@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/pomnik-sloboda-slovenskeho-naroda/",
     "pl": "https://www.qrlink.sk/new/pl/pomnik-sloboda-slovenskeho-naroda/",
     "hu": "https://www.qrlink.sk/new/hu/pomnik-sloboda-slovenskeho-naroda/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "MEMORIAL „THE FREEDOM OF THE SLOVAK NATION“",
+      "text": "The sculptural group of “Freedom” created by L.Majerský on the occasion of Czechoslovak republic formation 10.anniversary and inaugurated by Msgr.A.Hlinka. Group of statues contain 3 compositions – Bondage, Revolt and Freedom.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/10-memorial-the-freedom-of-the-slovak-nation.mp3"
+        }
+      ]
+    }
   }
 }

@@ -16,5 +16,13 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/architektura/"
-  ]
+  ],
+  "i18n": {
+    "en": {
+      "nazov": "Architecture"
+    },
+    "hu": {
+      "nazov": "Építészet"
+    }
+  }
 }

@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr15/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr15/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr15/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Alois Šébl House",
+      "text": "Alois Šébl’s house stood on the corner of the street leading from the main road to the castle. It housed a shop and the owner’s apartment. Its original appearance was lost with the construction of a new multi-storey building in 1934, which housed a shop, restaurant, and social room. The building served the citizens as a commercial and cultural center for a very long time. Today, the building has been renovated and houses the private guesthouse “Barónka.”(Baroness)."
+    },
+    "hu": {
+      "nazov": "Alois Šébl háza",
+      "text": "Šébl Alois háza a főútról a kastély felé vezető utca sarkán állt. Ebben volt a bolt és a tulajdonos lakása. Eredeti formáját 1934-ben elvesztette. Ekkor itt egy új emeletes épületet emeltek bolttal, étteremmel és társasági helyiséggel. Az épület nagyon sokáig a polgárok kereskedelmi és kulturális központjaként szolgált. Ma ebben a felújított épületben a „Barónka” (Bárónő) nevű magánpanzió működik."
+    }
   }
 }

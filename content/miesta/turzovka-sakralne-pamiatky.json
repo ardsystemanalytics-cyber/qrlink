@@ -17,5 +17,13 @@
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/sakralne-pamiatky/",
     "https://www.qrlink.sk/new/turzovka/sakralne-pamiatky-v-meste/"
-  ]
+  ],
+  "i18n": {
+    "en": {
+      "nazov": "The sacral monuments in the town"
+    },
+    "hu": {
+      "nazov": "Sakrálne pamiatky"
+    }
+  }
 }

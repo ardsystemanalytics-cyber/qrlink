@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr15/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr15/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr15/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Bosniak / Bosnia bar",
+      "text": "It consists of two towers and a ground floor structure between them. The building is now in ruins after a fire. \n\n \n\nAccording to legends and expert opinion, some parts of it are very old, but the structure is not marked on any older maps. Research suggests that the building was constructed in several stages, as evidenced by the different types of mortar, stone, and varying brick sizes. The individual parts of the building were therefore created in different time periods (and also in different artistic styles). Based on the different floor plans of the towers, it can be concluded that one (southeast) played role in observation and the other (northwest) in defense. \n\n \n\nIn the 19th century, the building served Count Emanuel I Andrássy as a space for displaying his exotic trophies."
+    },
+    "hu": {
+      "nazov": "Bosniak / Bosznia bar",
+      "text": "Két toronyból és a közöttük lévő földszinti épületből áll. Az épület ma már a tűzvész után csak romjaiban lelhető fel. \n\n \n\nA mondák és a szakértők véleménye szerint egyes részei nagyon régiek, de az építmény egyetlen régebbi térképen sem szerepel. A kutatások szerint az épület több építési szakaszban épült, amit a különböző típusú habarcs, kövek és a téglák eltérő méretei is bizonyítanak. Az épület egyes részei tehát időileg (és művészileg is) különböző korszakokban készültek. A tornyok eltérő alaprajza alapján feltételezhető, hogy az egyik (a délkeleti) a felderítést, a másik (az északnyugati) pedig a védekezést szolgálta. \n\n \n\nA 19. században az épület I. Andrássy Manó gróf egzotikus trófeáinak kiállítótermeként szolgált."
+    }
   }
 }

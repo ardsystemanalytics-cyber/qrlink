@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr29/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr29/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr29/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Horse chestnut",
+      "text": "The horse chestnut tree is very common in the park of Betliar. They were planted not only for aesthetic reasons, but also because their crops served as food for big game. \n\n \n\nThe chestnut alley is about 1600 m long and has more than 600 trees (approx. 650). The trees were planted before the end of the 19th century. (1895)"
+    },
+    "hu": {
+      "nazov": "Közönséges vadgesztenye",
+      "text": "A betléri parkban a vadgesztenyefa nagyon elterjedt- nemcsak esztétikai okokból ültették, hanem azért is, mert termése a nagyvadak táplálékául szolgált. \n\n \n\nA vadgesztenyefasor körülbelül 1600 m hosszú, és több mint 600 fa (nagyjából 650) található benne. A fákat a 19. század vége előtt ültették. (1895)"
+    }
   }
 }

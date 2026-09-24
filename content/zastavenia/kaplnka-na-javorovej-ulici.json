@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/kaplnka-na-javorovej-ulici/",
     "pl": "https://www.qrlink.sk/new/pl/kaplnka-na-javorovej-ulici/",
     "hu": "https://www.qrlink.sk/new/hu/kaplnka-na-javorovej-ulici/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The chapel on the “Javorova” street",
+      "text": "A smaller sacred building which is standing on Javorova Street. Its initiator was Jakub Stefanka, who found during the digging sculpt of the Virgin Mary Hostyne. It was the impetus for the construction of a small chapel in which there is sculpt of the Virgin Mary Hostyne (not original) also nowadays. On the door of the chapel there is monogram of the Virgin Mary."
+    }
   }
 }

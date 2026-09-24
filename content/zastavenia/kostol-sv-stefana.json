@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/kostol-sv-stefana/",
     "pl": "https://www.qrlink.sk/new/pl/kostol-sv-stefana/",
     "hu": "https://www.qrlink.sk/new/hu/kostol-sv-stefana/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "St. Stephan’s Church",
+      "text": "The medieval church was located in the central part of the town of Vranov, southwest of the water castle complex. This parish church was dedicated to St. Stephen, the king canonized in 1803, therefore the construction of the church could be expected in the period from the end of the 11th to the beginning of the 13th century. Based on the papal tithe registers from 1332 to 1337, we know Stephan operated in the Roman Catholic Church of Vranov during that time. Around 1490, a side altar dedicated to St. Anne was placed in the church. From the middle of the 16th century, both Calvinist and Lutheran preachers served in the church. Evangelical preachers were active in Vranov in the last third of the 17th century. During the recatholicization, the evangelical churches were taken out of their ownership, and landlords invited Pauline monks to the town, so at the end of the 17th century both Vranov churches belonged to the Roman Catholic Church. In the canonical visitation from June 3, 1773, the church is described as abandoned, without a roof. It also mentions an unfenced cemetery and ruins of the parish building. The above-ground ceilings of the church were still visible at the beginning of the 20th century. The Commemorative Book of the Košice Diocese Centenary from 1904 states that “part of the altar board still protrudes from the ground and indicates where the Slovak church was located”.\n\nBased on the archaeological research carried out by the staff of the Museum of National History in Hanušovce nad Topľou in 2008, we can say that the church was oriented in the east-west direction, with the entrances on the west and probably south side, and the sanctuary on the east side. Late Romanesque or early Gothic decoration elements were used. During the later reconstruction, probably at the end of the 15th century, it was equipped with retaining walls. The internal width of the sanctuary was 6,5 meters at its base, the width of the nave was 13,5 meters and its length was estimated at approximately 33 meters. Several graves with skeletal remains were discovered in the interior of the church, as well as next to it, during the archaeological research, which proves the existence of a cemetery in the church complex. Due to the presentation of the building of the defunct church, the town of Vranov nad Topľou proceeded to reconstruct the floor plan in the form of above-ground stone masonry in 2019.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/stephans.mp3"
+        }
+      ]
+    }
   }
 }

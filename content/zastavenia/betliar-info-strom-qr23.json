@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr23/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr23/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr23/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "American tulip tree",
+      "text": "Relatively young trees, the lily tree has very rare wood, which is used, for example, to make musical instruments. The flowers resemble small tulips, hence the name."
+    },
+    "hu": {
+      "nazov": "Amerikai tulipánfa",
+      "text": "Ezek viszonylag fiatal fák, amelyek nagyon értékes faanyaggal rendelkezik, amelyből például hangszereket is gyártanak. Virágai kis tulipánokra emlékeztetnek, ezért kapta ezt a nevet."
+    }
   }
 }

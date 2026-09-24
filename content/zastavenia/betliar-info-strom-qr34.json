@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr34/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr34/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr34/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "White pine",
+      "text": "A tall tree native to North America, where it grows to a height of 50 m, and in some cases even 80 m. It has been cultivated in Europe since 1705. Today, it is a very common tree (species) in our parks because it grows quickly and mature specimens have beautiful crowns. According to experts, the white oaks in Betliar Park have very good conditions for growth and development."
+    },
+    "hu": {
+      "nazov": "Simafenyő",
+      "text": "Magas fa, Észak-Amerikából származik, ahol 50 m magasra nő, egyes esetekben mérete akár a 80 m-t is elérheti. Európában 1705 óta termesztik. Manapság parkjainkban nagyon elterjedt fa (faj), mert gyorsan nő, és a kifejlett példányok gyönyörű koronával rendelkeznek. Szakértők véleménye szerint a betléri park fehérfenyői nagyon jó feltételekkel rendelkeznek a növekedéshez és fejlődéshez."
+    }
   }
 }

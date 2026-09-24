@@ -31,5 +31,11 @@
     "ru": "https://www.qrlink.sk/new/ru/muzeum-karola-tocika/",
     "pl": "https://www.qrlink.sk/new/pl/muzeum-karola-tocika/",
     "hu": "https://www.qrlink.sk/new/hu/muzeum-karola-tocika/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The town museum of Karol Tocik",
+      "text": "The town museum is located on the ground floor of the Town hall of Turzovka and was named after Karol Tocik who was not only a priest in Turzovka but also a regional historian. The Initiator of the museum’s birth was the association of the friends of Turzovka (Mr. Ivan Gajdiciar and Mr. Drahomir Velicka). The town museum was opened on August 12th 2016. The first exposition in the newly opened museum was an exhibition called “Father’s Heritage”. The exhibition included selection from the rich deposit of the exhibits donated to museum by citizens of Turzovka and the surrounding areas."
+    }
   }
 }

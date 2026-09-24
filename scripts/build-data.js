@@ -111,9 +111,17 @@ const zastavenia = readFolder(path.join(CONTENT, "zastavenia"))
       urlAliasy: prettyAliases({ povodneUrlAliasy }),
     };
     if (out.i18n) {
-      out.i18n = Object.fromEntries(Object.entries(out.i18n).map(([lang, v]) =>
-        [lang, v && v.text ? { ...v, text: mdToHtml(v.text) } : v]
-      ));
+      // Preložené audio (napr. anglická nahrávka zo starého webu) má rovnaký
+      // tvar ako hlavné "audio" - rozbaliť na pole URL. Keď preklad audio nemá,
+      // pole sa vynechá a app.js prehrá slovenské.
+      out.i18n = Object.fromEntries(Object.entries(out.i18n).map(([lang, v]) => {
+        if (!v || typeof v !== "object") return [lang, v];
+        const t = { ...v };
+        if (t.text) t.text = mdToHtml(t.text);
+        const audio = urlListToStrings(t.audio);
+        if (audio.length) t.audio = audio; else delete t.audio;
+        return [lang, t];
+      }));
     }
     return out;
   });

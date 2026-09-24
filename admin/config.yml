@@ -312,6 +312,12 @@ collections:
               - { label: "Názov", name: "nazov", widget: "string", required: false }
               - { label: "Popis", name: "popis", widget: "text", required: false }
               - { label: "Text", name: "text", widget: "markdown", required: false, buttons: ["bold", "italic", "link", "heading-two", "heading-three", "quote", "bulleted-list", "numbered-list"], editor_components: [] }
+              - label: "Audio (nahrávka v tomto jazyku)"
+                name: "audio"
+                widget: "list"
+                required: false
+                hint: "Nechaj prázdne, ak nahrávka v tomto jazyku nie je – prehrá sa slovenská."
+                field: { label: "Audio súbor", name: "url", widget: "file" }
           - label: "Čeština"
             name: "cs"
             widget: "object"
@@ -320,6 +326,12 @@ collections:
               - { label: "Názov", name: "nazov", widget: "string", required: false }
               - { label: "Popis", name: "popis", widget: "text", required: false }
               - { label: "Text", name: "text", widget: "markdown", required: false, buttons: ["bold", "italic", "link", "heading-two", "heading-three", "quote", "bulleted-list", "numbered-list"], editor_components: [] }
+              - label: "Audio (nahrávka v tomto jazyku)"
+                name: "audio"
+                widget: "list"
+                required: false
+                hint: "Nechaj prázdne, ak nahrávka v tomto jazyku nie je – prehrá sa slovenská."
+                field: { label: "Audio súbor", name: "url", widget: "file" }
           - label: "Maďarčina"
             name: "hu"
             widget: "object"
@@ -328,6 +340,12 @@ collections:
               - { label: "Názov", name: "nazov", widget: "string", required: false }
               - { label: "Popis", name: "popis", widget: "text", required: false }
               - { label: "Text", name: "text", widget: "markdown", required: false, buttons: ["bold", "italic", "link", "heading-two", "heading-three", "quote", "bulleted-list", "numbered-list"], editor_components: [] }
+              - label: "Audio (nahrávka v tomto jazyku)"
+                name: "audio"
+                widget: "list"
+                required: false
+                hint: "Nechaj prázdne, ak nahrávka v tomto jazyku nie je – prehrá sa slovenská."
+                field: { label: "Audio súbor", name: "url", widget: "file" }
 
   - name: kontakt
     label: "Kontakt"

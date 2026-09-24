@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr18/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr18/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr18/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Canadian hemlock",
+      "text": "It originates from the colder parts of North America and is a broad conical tree with a beautiful branching pattern, fine texture, and dark green color. The first seeds arrived in Europe around 1736 and since then it has been cultivated as a decorative, frost-resistant tree. In our park, mixed forest trees grow in close proximity to the Canadian hemlock, which significantly limits its space."
+    },
+    "hu": {
+      "nazov": "Kanadai hemlokfenyő",
+      "text": "Észak-Amerika hidegebb részeiről származik, széles kúpos koronájú, szépen szerteágazó fa, finom textúrájú és sötétzöld színű. Az első magok körülbelül 1736-ban kerültek Európába, és azóta fagyálló díszfaként termesztik. Parkunkban a kanadai hemlokfenyő közelében vegyes erdő található, amely jelentősen korlátozza a terét."
+    }
   }
 }

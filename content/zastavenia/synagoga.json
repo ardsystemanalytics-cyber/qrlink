@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/synagoga/",
     "pl": "https://www.qrlink.sk/new/pl/synagoga/",
     "hu": "https://www.qrlink.sk/new/hu/synagoga/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "SYNAGOGUE",
+      "text": "This Neo-Romanesque synagogue, from the years 1879 – 1880, represents the typical style of Jewish sacral architecture from the second half of the 19th Century. From the time of its establishment, it served as place of prayer for the Jewish religious community. The hall has three naves, and a rectangular floor plan with a matroneum. The interior facade has morphological details typical of the Neo-Romanesque period. The construction was led by Juraj Lukáč and the building is a model of the synagogue in Miskolc. The building was renovated for the first time in 1929 and the architectural expressions of that period, including the morphological details and in-filled openings were preserved in their original form. In 2014 the synagogue was completely renovated by the city of Ružomberok. This architectural monument acquired a new multifunctional social role being used as an exhibition space and concert hall of the city.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/14-synagogue.mp3"
+        }
+      ]
+    }
   }
 }

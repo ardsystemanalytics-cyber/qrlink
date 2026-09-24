@@ -31,5 +31,11 @@
     "ru": "https://www.qrlink.sk/new/ru/pamatniky/",
     "pl": "https://www.qrlink.sk/new/pl/pamatniky/",
     "hu": "https://www.qrlink.sk/new/hu/pamatniky/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The memorial table and the Room of Rudolf Jasik",
+      "text": "The memorial table is located at the entrance to the Cultural and social center building in Turzovka. Rudolf Jasik was an important and respected writer, native of Turzovka. He was born on December 2nd 1919 and died on June 30th 1960 in Bratislava. His works capture his life. His literary work is linked with year 1940 and he turned from poetry and short stories to well-known novels (Na brehu priezračnej rieky, Námestie sv.Alžbety or Mŕtvi nespievajú) Every November and December there is an event Jasikove Kysuce – literary competition linked with photographic competition “Na brehu priezracnej rieky” of which a part is memory at the memorial table. In the Cultural and social centre there is also permanent exposition of objects and documents from his life."
+    }
   }
 }

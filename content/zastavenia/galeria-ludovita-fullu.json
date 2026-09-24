@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/galeria-ludovita-fullu/",
     "pl": "https://www.qrlink.sk/new/pl/galeria-ludovita-fullu/",
     "hu": "https://www.qrlink.sk/new/hu/galeria-ludovita-fullu/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "GALLERY OF ĽUDOVÍT FULLA",
+      "text": "This was the first significant gallery to be built in Slovakia after 1945. The original concept for the building was created by the architect Martin Kusý in 1964 and he together with Štefan Hatala finished the building in 1969. This excellent building represents the new movement of modern architecture and is among the best of its kind in Slovakia. Its stark geometrical form truthfully expresses the linear sequence of the internal spaces. The Gallery is the permanent home of an exhibition of the creative work typical of Ľudovít Fulla, as well as the artist’s original flat complete with the original furnishings.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/24-gallery-of-ludovit-fulla.mp3"
+        }
+      ]
+    }
   }
 }

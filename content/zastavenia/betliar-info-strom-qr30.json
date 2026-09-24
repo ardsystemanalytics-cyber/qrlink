@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr30/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr30/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr30/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Red-leaved beech",
+      "text": "It is a cultivar (variety) of European beech, with red leaves after sprouting, which later darken. Red-leaved beeches grow in several places in the park, either individually or in groups. Beautiful specimens grow in the meadow in front of the manor house. *We estimate all red-leaved beeches to be between 140 and 150 years old.*"
+    },
+    "hu": {
+      "nazov": "Vérbükk (Fagus sylvatica f. Purpurea)",
+      "text": "*Ez a hegyi bükk egyik fajtája, rügyezés (hajtás) után vörös levelei vannak, később sötétednek. A parkban több helyen nőnek vöröslevelű bükkök, akár egyedül, akár csoportokban. Gyönyörű példányok nőnek a kastély előtti réten. Az összes vöröslevelű bükk korát 140-150 évre becsüljük.*"
+    }
   }
 }

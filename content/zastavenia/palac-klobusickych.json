@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/palac-klobusickych/",
     "pl": "https://www.qrlink.sk/new/pl/palac-klobusickych/",
     "hu": "https://www.qrlink.sk/new/hu/palac-klobusickych/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Klobusiczky Palace",
+      "text": "The exclusive seat of the Earls Klobusiczky situated in the southern part of the square and on the eastern part of the Main Street (house number 22) is remarkably similar to the Rákóczi Palace, although much younger. \n\nThe palace originated in the mid 18th century, on the five medieval plots on the square and former Hungarian Street which were bought at the end of the last century by the Earl Francis Klobusiczky. \n\nThere should have been two farms and three artisan houses which were rebuilt later on these purchased plots. A two-storey palace representative of the late Baroque style (Louis XVI style) with a four-wing design and a polygonal yard in the middle were the results of a large reconstruction. Francis Klobusiczky, a former royal tabular trustee, later a supporter of General Caraffa, is most probably the initiator of the rebuilding of the old palace and the construction of a new palace. Francis Klobusiczky was an administrator in the office of the Chairman of the Šariš region from 170 to 1708, and in 1704 he joined the anti-Habsburg Uprising led by Ferenc Rákóczi. After the uprising had finished in 1711, he was granted a pardon and was allowed to keep his property. \n\nThe Klobusiczky Palace was completed in 1756. The facade facing the street was heavily decorated by wonderful stucco scenes and ornamentation, and a Klobusiczky family coats-of-arms situated above the main portal is the most unique feature. A large adjacent park in the east was situated there and reached the city walls. A small summer- house from that period was placed in the park. The original Gothic wainscoting from the Franciscan church was fixed to it later. This romantic building is still a part of the scenery of the evangelical parish garden. \n\nThe Klobusiczky Palace belonged to several new owners in the 19th century. The first Prešov(German) theatre was founded at the beginning of the 19th century. The palace was polyfunctional in the 19th and the 20th centuries, it served as the barracks for the military corps located in Prešov, and after its cancellation some businessmen’s offices and as well as one of the oldest Prešov pharmacies called “Salvator”. Some classrooms of the Prešov Secondary Catholic Grammar School, the Taxing Office during the period of the first Czechoslovak Republic and after foundingof the P. J. Šafárik University, the Faculty of Arts were situated in the building as well. The Faculty of Arts used the building until 1986. Then it was used as a student dormitory and as classrooms for the Apprentice School of Services. Now it is used by the Regional Court.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/11-klobusicky-palace.mp3"
+        }
+      ]
+    }
   }
 }

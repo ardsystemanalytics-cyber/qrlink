@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/hlavna-ulica/",
     "pl": "https://www.qrlink.sk/new/pl/hlavna-ulica/",
     "hu": "https://www.qrlink.sk/new/hu/hlavna-ulica/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Main Street",
+      "text": "Main Street with a typical shape of lenses square is one of the oldest part of town, it has already existed in plan in the preurban period. The original village of German colonists from the 13th century changed into the market settlement, which later became the heart of the city. Most houses originated in the Middle Ages. The main building material was wood, stone buildings were created in the 14th century – the parish church of St. Nicholas, town hall, rectory, hospital, school and some homes of wealthy burghers. \n\nThe stone became the dominant building material during the 15th – 16 century. Gothic buildings of corridor type came originally from these times. The largest architectural development of the town and the square was in the Renaissance in 16th and 17 century. All new parcels were gradually built over and square has been extended to the south. Most of the houses got the new Renaissance facade, typical Prešov attics, staircases, portals and lining. The urban public facilities were the showpieces; the most important sight is Rákóczy palace. \n\nFrom the Baroque period the rebuilt monastery with the Church of St. John the Baptist was the largest building, the Klobušický Palace has preserved the original baroque facade. The Classical period is represented by the important building of the Greek Catholic Bishop’s Palace, as other buildings are Reduta building with the Black Eagle and the Neptune fountain. \n\nOne of the largest interventions in the architectural development of the street were rebuilding after the great fire in 1887. Some buildings were demolished and built new ones, old and classical Renaissance facade replaced by new, mostly in the spirit of historicist styles. Reconstruction of Evangelic College was completed; the town hall and theatre, the Black Eagle and other objects were rebuilt. \n\nA significant intervention into a square was the establishment of the park south of the church of St. Nicolas. \n\nThe most important historical and architectural monuments of the city Prešov are concentrated in the core of the square. In 1955 the historic core of Prešov became a historical town reserve and has been gradually renewed, most notably in 90s of the 20th century.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/15-main-street.mp3"
+        }
+      ]
+    }
   }
 }

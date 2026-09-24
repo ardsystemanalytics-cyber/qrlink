@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr4/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr4/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr4/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Evangelical parish",
+      "text": "The Evangelical rectory is located in close proximity to the Evangelical church. It houses an apartment for the clergy and the parish office. The rectory was also the seat of the Seniorský úrad Gemerského seniorátu (Seniorate Office of Gemer). In 1998, a memorial plaque was unveiled on the front of the rectory in memory of ThDr. Július Madarás, Doctor of Theology, who worked in the village."
+    },
+    "hu": {
+      "nazov": "Evangélikus parókia",
+      "text": "Az evangélikus plébánia az evangélikus templom közvetlen közelében épült. Itt található a lelkész lakása és a plébánia hivatal is. A plébánia a Seniorský úrad Gemerského seniorátu (Gömör-vidéki Szeniorátus) székhelye is volt. A parókia homlokzatán 1998-ban emléktáblát avattak ThDr. Madarás Július, a településen működő teológus doktor emlékére."
+    }
   }
 }

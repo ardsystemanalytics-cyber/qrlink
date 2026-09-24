@@ -16,5 +16,13 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/pamatniky-v-turzovke/"
-  ]
+  ],
+  "i18n": {
+    "en": {
+      "nazov": "The monuments in Turzovka"
+    },
+    "hu": {
+      "nazov": "Pamätníky v Turzovke"
+    }
+  }
 }

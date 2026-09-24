@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/mariansky-stlp-socha-imacculata/",
     "pl": "https://www.qrlink.sk/new/pl/mariansky-stlp-socha-imacculata/",
     "hu": "https://www.qrlink.sk/new/hu/mariansky-stlp-socha-imacculata/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "VIRGIN MARY COLUMN – SCULPTURE IMACCULATA",
+      "text": "A neo Baroque Marian Column from 1858 stands on Andrej Hlinka’s Square. The statue was likely made by Alexander Belopotocký. The podium with four stairs is enclosed with an iron wrought fence. At the top of a pillar is a stone gold-plated statue of Virgin Mary Immaculata from the end of the 18th century which stands on an earthglobe entwined by a gilded snake. The statue has an aureole with twelve stars. The Marian Column is an artistic statue with a unique monumental exterior sculptural work from the 18th and 19th centuries.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/20-virgin-mary-column-sculpture-imacculata.mp3"
+        }
+      ]
+    }
   }
 }

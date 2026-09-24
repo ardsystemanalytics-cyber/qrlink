@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr1/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr1/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr1/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Community Centre",
+      "text": "The Cultural Centre was built in the 1980s and serves as a vibrant hub of cultural life in the village. The building houses a large hall with a stage and retractable seating, two club rooms, a library, and an exhibition room.\n\nThe Cultural Centre is also home to the newly renovated Úsvit Cinema, which regularly screens films twice a week. It is the home stage of the amateur M-Theatre.\n\nThe club rooms are regularly used by senior citizens as well as the Mama Club, which provides a space for the youngest residents and their parents. The Cultural Centre also hosts exhibitions, balls, competitions, and other social events in the village."
+    },
+    "hu": {
+      "nazov": "Kultúrház / Művelődési ház",
+      "text": "A kultúrház / művelődési ház az 1980-as években épült. Színpaddal ellátott színházteremmel, nyugdíjasklubbal, könyvtárral és tárgyalóteremmel rendelkezik. A kultúrházban / művelődési házban nyilvános kulturális rendezvényeket, valamint magáncégek bemutatóit is tartják."
+    }
   }
 }

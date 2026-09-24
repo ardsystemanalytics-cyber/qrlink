@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr27/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr27/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr27/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Norway maple",
+      "text": "A tree belonging to the maple family, which has about 120 species. The Norway maple is a 20-30 m tall tree and its leaves shed milk when broken. In the past, sugar was produced from maple sap, and today it is used to make syrups. *It is often planted in city parks.* \n\n \n\nThe most beautiful maples stand in the meadow in front of the castle and in the meadow behind the castle."
+    },
+    "hu": {
+      "nazov": "Platánlevelű juhar",
+      "text": "A juharfélék családjába tartozó fa, amelynek körülbelül 120 faja létezik. A platánlevelű juhar 20-30 m magas fa, levelei töréskor tejet bocsátanak ki. Régen a juharfa nedvéből cukrot állítottak elő, ma pedig szirupokat készítenek belőle. Gyakran ültetik városi parkokba. \n\n \n\nA legszebb juharfák a kastély előtti és mögötti réten állnak."
+    }
   }
 }

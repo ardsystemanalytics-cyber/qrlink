@@ -31,5 +31,16 @@
     "ru": "https://www.qrlink.sk/new/ru/kaplnka-a-vojensky-cintorin-z-1-sv-vojny/",
     "pl": "https://www.qrlink.sk/new/pl/kaplnka-a-vojensky-cintorin-z-1-sv-vojny/",
     "hu": "https://www.qrlink.sk/new/hu/kaplnka-a-vojensky-cintorin-z-1-sv-vojny/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "World War I. Chapel and Military Cemetery",
+      "text": "After the assassination of the heir presumptive Franz Ferdinand d’Este in Sarajevo in the summer of 1914, serious political events in and outside of the monarchy had led to the beginning of World War I.\n\nCitizens of Vranov perceived the preparations for the war as some sort of alteration to their stereotypical days, weeks, and months, and not as an ominous disaster.\n\nAfter the general mobilization was ordered on July 31, 1914, it was no longer a game, it was a real war conflict with all of the dreads and victims. Military cemeteries for victims of Austro-Hungarian and Russian battles began to rise right at the front lines and near infirmaries. There are dozens of cemeteries with thousands of fallen in the forests of Eastern Carpathians.\n\nA war infirmary and a Russian war prisoners assembly were established in Vranov during that time. The cemetery established at that time was solely for that infirmary. More than 250 war victims were buried there. The cemetery was transformed during The First Czechoslovak Republic and in 1935 the District Defense Committee organized reverent remembrance and unveiled the monument dedicated to the fallen victims of Vranov during 1914-1918. Their names are immortalized on the marble table.\n\n![](/assets/images/migrated/webp-net-resizeimage10.jpg)",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/01-world-war-i-chapel-and-military-cemetery.mp3"
+        }
+      ]
+    }
   }
 }

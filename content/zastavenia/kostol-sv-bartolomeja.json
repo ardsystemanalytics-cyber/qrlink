@@ -31,5 +31,16 @@
     "ru": "https://www.qrlink.sk/new/ru/kostol-sv-bartolomeja/",
     "pl": "https://www.qrlink.sk/new/pl/kostol-sv-bartolomeja/",
     "hu": "https://www.qrlink.sk/new/hu/kostol-sv-bartolomeja/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Church of St. Bartolomej",
+      "text": "Church of St. Bartolomej was built between 1672-1690 and it replaced the older wooden church of St. Matthew (Mateja) that was probably standing on the sites of today’s chapel on Kamenec. In the first half of the 18th century it was enlarged by the addition of the aisles and the presbytery to the present form. The most important repairs were made after the city’s big fires in the years 1886 and 1890. The new shape of the pyramid roof of the tower comes from this period. Formerly it was baroque onion-shaped. On the church’s wall there is the tombstone of tenants of the Homoláč’s iron mills, close by a cast iron cross from the local foundry and the statue of St. Florian.\n\nAmong the important days of the Church of St. Bartolomej is Friday 13 August 2010 when the four new bells rang for the first time and had been solemnly hanged in the tower on that day. The bells were consecrated by the Bishop of the Ostrava-Opava diocese of Monsignor Frantisek Lobkowicz. All four bells were cast in the workshop Tomášková-Dytrychová in Brodka near Přerov. They are made of special alloy intended for the production of bells, so-called bell-metal. The largest of the four is the bell of the Most Holy Trinity which has a diameter of 1040 millimetres, weighs 850 kilograms and emits a Fis1 tone. The second largest is the bell of the Virgin Mary of Carmel which measures one meter in diameter, weighs 620 kilograms and is tuned into the tone Gis 1. The bell of St. Anthony, the third in size with the diameter of 890 millimetres and weight of 362 kilograms, rings in tone H1. The smallest of these four is the bell of St. Bartolomej with the diameter of 770 millimetres and weight of 282 kilograms. It emits the tone Cis 2.\n\nThe original Frýdlant bells which were called St. Cyril, Bartholomew, Joseph, Paul, and Mary were confiscated during the war and taken to Germany by the Nazis. According to the witnesses, these bells did not end up recast into weapons. After the war the representatives of Frýdlant were asked to pick them up in Hamburg but no one send. Perhaps because in that time Communists were gaining ground and the bells were definitely not the priority for them.\n\nSince 3 May 1958 the church has been a cultural monument.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/2-church-of-st-bartolomej-3.mp3"
+        }
+      ]
+    }
   }
 }

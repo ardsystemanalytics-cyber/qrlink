@@ -31,5 +31,11 @@
     "ru": "https://www.qrlink.sk/new/ru/obecne-centrum-kultury-v-porabke/",
     "pl": "https://www.qrlink.sk/new/pl/obecne-centrum-kultury-v-porabke/",
     "hu": "https://www.qrlink.sk/new/hu/obecne-centrum-kultury-v-porabke/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The Munucipal culture centre in Porabka",
+      "text": "The Munucipal culture centre in Porabka is the base cultural organization in part of the village and for all village too. It cooperates with the associations acting in the village and the organisation units organizing free time for children and youth. It organizes a competitons, tournament, exhibitions and auditions. It prepares newspapers. It is also place of Urban public library and associations acting in Porabka."
+    }
   }
 }

@@ -25,5 +25,13 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/frydlant/"
-  ]
+  ],
+  "i18n": {
+    "en": {
+      "nazov": "Frýdlant"
+    },
+    "hu": {
+      "nazov": "Frýdlant"
+    }
+  }
 }

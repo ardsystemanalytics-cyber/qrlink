@@ -31,5 +31,16 @@
     "ru": "https://www.qrlink.sk/new/ru/kostol-panny-marie-matky-cirkvi-zivcakova/",
     "pl": "https://www.qrlink.sk/new/pl/kostol-panny-marie-matky-cirkvi-zivcakova/",
     "hu": "https://www.qrlink.sk/new/hu/kostol-panny-marie-matky-cirkvi-zivcakova/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The church of the Virgin Mary Mother of the Church in Zivcakova",
+      "text": "The main stone for the construction of the church was blessed in 2008 by Zilinian diocesan Bishop Tomas Galis. In june of the next year the works began. Gala consecration of the church was done on October 4th 2015. Into the alter there were placed holy relics of St. Andrej Svorad and St. Benedict, St. John Paul II., St. Mary Goretti and blessed sister Zdenka Scheling. The dominance of the new church is the tower with golden crown and cross. On a 43 m high tower there is a lookout terrace which can be reached by 138 stairs. In the tower there was placed bell of mass of 830 kg called Maria created in Halenkov. In May 2015 another three bells were sanctified (The most holy Heart of Jesus – 355kg, St. Andrej Svorad a Benedikt – 220kg and St. Jozef – 150kg). All of them were created by Jozef Tkadlec in Halenkov. At the beginning of the stairs there are sculpts of St. Cyril and St. Method. In the interior of the church there is impressive mosaic with two excerpts from the Old Law – Creation of Eve from Adam’s Side and Noah’s Ark. The mosaic is composed of pebbles, glass, ceramics and sliced gold. Its author is recognized expert, father Marko Ivan Rupnik from Slovenia whose works can be found all over the world. In the main ship there is installed a whistle organ. After purchase of the organ in Germany, it has been repaired by company Vojtek and his son form Zilina.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/6-11-the-church-of-the-virgin-mary-mother-of-the-church-in-zivcakova-1.mp3"
+        }
+      ]
+    }
   }
 }

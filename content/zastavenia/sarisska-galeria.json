@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/sarisska-galeria/",
     "pl": "https://www.qrlink.sk/new/pl/sarisska-galeria/",
     "hu": "https://www.qrlink.sk/new/hu/sarisska-galeria/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Gallery of Šariš",
+      "text": "Gallery of Šariš is one of the oldest regional galleries in Slovakia. It was established in 1956, in a town with a rich history and cultural tradition, to cater exclusively for the fine arts. Originally named Krajská galéria (Regional Gallery), it was later known as Galéria výtvarného umenia (Gallery of Fine Art) before acquiring in 1991 its present designation of Šarišská galéria v Prešove (The Šariš Gallery in Prešov). \n\nThe gallery opened its collections to the public in 1957, at which time it was housed in the former Evangelical college, a National Cultural Monument in the northern part of the main square. In 1981 it started to use two former burgher houses – originally Gothic, with Renaissance and Baroque modifications. These listed buildings were specially reconstructed to meet the gallery’s requirements. The house at no. 53 is one of the most interesting Gothic residences in the Urban Conservation Area. Its facade is finished with a triangular shield. At its peak, there is the sculpture of a man dressed in Kuruc holding the sword in his right hand and left cut off head of the enemy in the left. \n\nThe Šariš Gallery has built upon its initial collections through its own research and acquisitions – mostly purchases – and now administers more than 3,500 works from the 15th to 20th centuries. Its acquisitions policy is geared to surveying fine art both past and present, with the focus on Šariš. However, the works of important representatives of art in Eastern Slovakia and Slovakia as a whole are also traced and acquired for examination and display. \n\nThe quality and wealth of its collections, along with its exhibition and education programme, make the Šariš Gallery in Prešov one of the leading galleries in Slovakia and a model acquisitions-oriented institution in the region.\n\nOpening hours: \n\nMonday: closed \n\nTuesday 9.00 – 18.00 \n\nWednesday: 9.00 – 18.00 \n\nThursday: 9.00 – 18.00 \n\nFriday: 9.00 – 18.00 \n\nSaturday: 14.00 – 18.00 \n\nSunday: 14.00 – 18.00\n\nAddress: \n\nŠarišská galéria \n\nHlavná 51 \n\n08001 Prešov \n\nSlovakia\n\nTel.: 051/ 772 54 23\n\nwww.sgpresov.sk",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/18-gallery-of-saris.mp3"
+        }
+      ]
+    }
   }
 }

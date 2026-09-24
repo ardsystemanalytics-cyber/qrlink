@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/kolegium-piaristov/",
     "pl": "https://www.qrlink.sk/new/pl/kolegium-piaristov/",
     "hu": "https://www.qrlink.sk/new/hu/kolegium-piaristov/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "PIARIST COLLEGE",
+      "text": "The oldest part of this architectural structure is this late Baroque construction from the years 1730 to 1735. The benefactor behind this construction was count Jan Jakub Lőwenburg. Originally a two-storey building the construction was modified during later construction works in the 18th and 19th centuries. During the 1930’s the Jesuits completed the modern North West wing of the monastery. The residency of the Piarists is a typical monastic school building and is one of the main dominant features of the town. Behind the residency in the western part of the grounds, lies the monastic garden.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/19-piarist-college.mp3"
+        }
+      ]
+    }
   }
 }

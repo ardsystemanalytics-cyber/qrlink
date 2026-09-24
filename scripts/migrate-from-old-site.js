@@ -298,7 +298,14 @@ async function main() {
   }
 }
 
-main().catch((e) => {
-  console.error(e);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch((e) => {
+    console.error(e);
+    process.exit(1);
+  });
+} else {
+  // Prevod HTML starého webu na Markdown znovu používa aj
+  // scripts/migrate-translations.js (jazykové verzie), nech majú preklady
+  // presne rovnaké formátovanie ako slovenský text.
+  module.exports = { htmlToMarkdown, decodeEntities };
+}

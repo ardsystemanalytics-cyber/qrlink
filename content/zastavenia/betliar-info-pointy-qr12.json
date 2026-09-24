@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr12/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr12/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr12/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Primary school building",
+      "text": "The elementary school building was constructed on the street leading to the railway station in 1911 as a public school. It contained an apartment for the teacher and three large classrooms. The school grounds included utility and sanitary facilities and a large garden. In 2001, the village celebrated the 90th anniversary of its founding, and it remains in operation to this day."
+    },
+    "hu": {
+      "nazov": "Általános iskola épülete",
+      "text": "Az általános iskola épülete 1911-ben épült a vasútállomás felé vezető utcán mint népiskola. Az épületben egy tanári lakás és három nagy tanterem volt. Az iskola területén gazdasági és szociális létesítmények, valamint egy nagy kert is volt. 2001-ben a település a létesítmény 90. évfordulóját ünnepelte és a mai napig működik."
+    }
   }
 }

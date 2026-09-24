@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr21/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr21/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr21/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Pedunculate oak",
+      "text": "It has a dense columnar to broom-like crown. It is planted in three locations in the park: near the Masonic pavilion, in the northeast view, and on the meadow east of the manor house. The trees were planted in the middle of the last century (around 1960)."
+    },
+    "hu": {
+      "nazov": "Kocsányos tölgy",
+      "text": "Sűrű, oszlopos, seprűalakú lombkoronája van. A parkban három helyen ültették: a szabadkőműves pavilonnál, az északkeleti kilátónál és a kastélytól keletre fekvő réten. A fákat a múlt század közepén (1960 körül) ültették."
+    }
   }
 }

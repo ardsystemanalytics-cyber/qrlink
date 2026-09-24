@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr8/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr8/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr8/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Small park",
+      "text": "The small park was established after the regulation of the Krivý potok (Curved stream) at the beginning of the 20th century. It occupies the area on the right side of the stream and forms part of the village center. The park is based on a linden tree alley, complemented by majestic poplars on the stream side. Next to the alley is a park planting with a row of linden trees, conifers, and rose beds. In the central flower bed is a monument to the 675th anniversary of the village’s founding – a boulder from Volovec Hill (1263 m above sea level), which towers above the village, complemented by a commemorative plaque."
+    },
+    "hu": {
+      "nazov": "Kispark",
+      "text": "A kis parkot a Krivý potok (Görbe patak) szabályozása után hozták létre a 20. század elején. A park a patak jobb oldalán helyezkedik el, és a település központjának részéhez tartozik. A park alapját egy hársfa-sétány alkotja, amelyet a patak oldalán fenséges nyárfák egészítenek ki. Az allé mellett parkosított terület található, hársfasorral, tűlevelű fákkal és rózsaágyásokkal. A központi ágyásban található a falu megalapításának 675. évfordulójára emelt emlékmű – egy szikla a Volovec-hegyről (1263 m tengerszint feletti magasság), amely a falu fölé magasodik és emléktáblával van kiegészítve."
+    }
   }
 }

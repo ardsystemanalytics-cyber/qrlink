@@ -31,5 +31,11 @@
     "ru": "https://www.qrlink.sk/new/ru/kostol-v-czancu/",
     "pl": "https://www.qrlink.sk/new/pl/kostol-v-czancu/",
     "hu": "https://www.qrlink.sk/new/hu/kostol-v-czancu/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The church in Czańc",
+      "text": "The parish church dedicated to Saint Bartholomew in Czańc has been built from 1921 to 1924, on place where old wooden church form 15th century had stated before. After the old church remained the masonary tower from 1764 and the sacristy. The new church has been built with thanks to the then owners of the county Czańc Archduke Charles Steven Habsburg form Zywiec, the patron of the Czanc parish. The author of the church project was the famous Krakow architect Franciiszek Mączyński."
+    }
   }
 }

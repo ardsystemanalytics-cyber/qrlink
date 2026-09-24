@@ -1,0 +1,5257 @@
+[
+  {
+    "sub": "miesta",
+    "id": "betliar-info-pointy",
+    "lang": "en",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "betliar-info-pointy",
+    "lang": "hu",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "betliar-info-strom-architektura",
+    "lang": "en",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "betliar-info-strom-architektura",
+    "lang": "hu",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "betliar-info-strom-fauna-flora",
+    "lang": "en",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "betliar-info-strom-fauna-flora",
+    "lang": "hu",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "betliar-info-strom",
+    "lang": "en",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "betliar-info-strom",
+    "lang": "hu",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "betliar",
+    "lang": "en",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "betliar",
+    "lang": "hu",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "bludisko",
+    "lang": "en",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "bludisko",
+    "lang": "hu",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "bratislava-ivanka",
+    "lang": "en",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "bratislava-ivanka",
+    "lang": "hu",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "cestovatelsky-dennik",
+    "lang": "en",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "cestovatelsky-dennik",
+    "lang": "hu",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "cierne-klacany",
+    "lang": "en",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "cierne-klacany",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "dendrolog-1",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "dendrolog-1",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "dendrolog-2",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "dendrolog-2",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "euroregion-beskydy",
+    "lang": "en",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "euroregion-beskydy",
+    "lang": "hu",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "frydlant",
+    "lang": "en",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "frydlant",
+    "lang": "hu",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "gabcikovo",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "gabcikovo",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "hmyzi-domcek",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "hmyzi-domcek",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "hrad-strecno",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "hrad-strecno",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "klenoty-pohranicie",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "klenoty-pohranicie",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "knm",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "knm",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "komjatice",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "komjatice",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "kraj-rusinov",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "kraj-rusinov",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "nch-hlinene",
+    "lang": "en",
+    "prenesene": [
+      "popis"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "nch-hlinene",
+    "lang": "hu",
+    "prenesene": [
+      "popis"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "nch-pohranicie",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "nch-pohranicie",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "nch-zivcakova",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "nch-zivcakova",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "partizanske-simonovany",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "partizanske-simonovany",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "pexeso",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "pexeso",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "porabka",
+    "lang": "en",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "porabka",
+    "lang": "hu",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "presov",
+    "lang": "en",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "presov",
+    "lang": "hu",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "roznov",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "roznov",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "ruzomberok",
+    "lang": "en",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "ruzomberok",
+    "lang": "hu",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "sokolovce",
+    "lang": "en",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "sokolovce",
+    "lang": "hu",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "trebisov",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "trebisov",
+    "lang": "hu",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "turzovka-pamatniky",
+    "lang": "en",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "turzovka-pamatniky",
+    "lang": "hu",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "turzovka-sakralne-pamiatky",
+    "lang": "en",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "turzovka-sakralne-pamiatky",
+    "lang": "hu",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "turzovka",
+    "lang": "en",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "turzovka",
+    "lang": "hu",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "vranov",
+    "lang": "en",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "vranov",
+    "lang": "hu",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "vtacia-budka",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "vtacia-budka",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "vtacie-krmitko",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "vtacie-krmitko",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "zemplinske-muzeum",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "zemplinske-muzeum",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "zs-a-ms-banova",
+    "lang": "en",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "zs-a-ms-banova",
+    "lang": "hu",
+    "prenesene": [
+      "názov"
+    ]
+  },
+  {
+    "sub": "miesta",
+    "id": "zvonica-hrusove",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "miesta",
+    "id": "zvonica-hrusove",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "2-gastan-jedly",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "2-gastan-jedly",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "3-orech-kralovsky",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "3-orech-kralovsky",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "4-ceresna-vtacia",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "4-ceresna-vtacia",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "5-jablon-domaca",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "5-jablon-domaca",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "6-slivka-trnkova",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "6-slivka-trnkova",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "7-buk-lesny",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "7-buk-lesny",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "8-breza-previsnuta",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "8-breza-previsnuta",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "areal-sportu-a-oddychu-skatepark",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "areal-sportu-a-oddychu-skatepark",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "babia-hora",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "babia-hora",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "barokovo-klasicisticky-kastiel",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "barokovo-klasicisticky-kastiel",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "bazilika-minor-narodenia-panny-marie-a-klastor-paulinov",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "bazilika-minor-narodenia-panny-marie-a-klastor-paulinov",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "bazilika-minor-putnicky-chram-navstivenie-panny-marie",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "bazilika-minor-putnicky-chram-navstivenie-panny-marie",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr10",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr10",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr11",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr11",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr12",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr12",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr13",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr13",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr14",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr14",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr15",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr15",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr16",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr16",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr17",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr17",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr18",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr18",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr1",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr1",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr2",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr2",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr3",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr3",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr4",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr4",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr5",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr5",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr6",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr6",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr7",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr7",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr8",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr8",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr9",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-pointy-qr9",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr10",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr10",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr11",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr11",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr12",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr12",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr13",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr13",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr14",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr14",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr15",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr15",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr16",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr16",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr17",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr17",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr18",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr18",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr19",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr19",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr1",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr1",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr20",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr20",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr21",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr21",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr22",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr22",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr23",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr23",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr24",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr24",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr25",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr25",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr26",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr26",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr27",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr27",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr28",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr28",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr29",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr29",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr2",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr2",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr30",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr30",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr31",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr31",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr32",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr32",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr33",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr33",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr34",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr34",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr35",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr35",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr3",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr3",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr4",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr4",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr5",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr5",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr6",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr6",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr7",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr7",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr8",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr8",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr9",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "betliar-info-strom-qr9",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "bio",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "bio",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "bobor",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "bobor",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "bobrovska-kalvaria",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "bobrovska-kalvaria",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "bytcianski-turzovci-povod-dejiny-rodu-erb",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "bytcianski-turzovci-povod-dejiny-rodu-erb",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "caraffova-vaznica",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "caraffova-vaznica",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "centrum-socialnych-sluzieb",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "centrum-socialnych-sluzieb",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "certuv-mlyn",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "certuv-mlyn",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "cervienka-obycajna",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "cervienka-obycajna",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "cesticka-na-hrad",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "cesticka-na-hrad",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "ciernoklacianska-pyxida",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "ciernoklacianska-pyxida",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "cisterna",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "cisterna",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "cmel",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "cmel",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "cvicna-stolna-dolu-paskov",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "cvicna-stolna-dolu-paskov",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "cyril-daxner-daxnerov-dom",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "cyril-daxner-daxnerov-dom",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "dendrolog-2-stvrta-podstranka",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "dendrolog-2-stvrta-podstranka",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "dendrolog-2-tretia-podstranka",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "dendrolog-2-tretia-podstranka",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "detsky-naucny-turisticky-chodnik",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "detsky-naucny-turisticky-chodnik",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "doc-ing-julius-binder-dr-h-c",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "doc-ing-julius-binder-dr-h-c",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "drozd-cierny",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "drozd-cierny",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "edmund-reitter-clovek-a-filantrop",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "edmund-reitter-clovek-a-filantrop",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "edmund-reitter-odkaz-v-soudobem-paskove",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "edmund-reitter-odkaz-v-soudobem-paskove",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "edmund-reitter-rodinne-zazemi-2",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "edmund-reitter-rodinne-zazemi-2",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "edmund-reitter-vedec-novinar-a-cestovatel",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "edmund-reitter-vedec-novinar-a-cestovatel",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "evanjelicke-kolegium",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "evanjelicke-kolegium",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "evanjelicky-a-v-chram-sv-trojice",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "evanjelicky-a-v-chram-sv-trojice",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "evanjelicky-a-v-kostol",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "evanjelicky-a-v-kostol",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "expozicia-archeologie",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "expozicia-archeologie",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "frantiskansky-kostol",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "frantiskansky-kostol",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "frydecky-les",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "frydecky-les",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "futbalove-ihrisko-a-hala-sport-frydlant-nad-ostravici",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "futbalove-ihrisko-a-hala-sport-frydlant-nad-ostravici",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "gabcikov-sad",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "gabcikov-sad",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "galeria-ludovita-fullu",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "galeria-ludovita-fullu",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "gejzir-v-rajeckej-lesnej",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "gejzir-v-rajeckej-lesnej",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "goticky-a-vychodny-palac",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "goticky-a-vychodny-palac",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "greckokatolicky-biskupsky-palac",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "greckokatolicky-biskupsky-palac",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "greckokatolicky-chram-zosnutia-presvatej-bohorodicky",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "greckokatolicky-chram-zosnutia-presvatej-bohorodicky",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "grun-bily-kriz",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "grun-bily-kriz",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "hasicske-hobby-muzeum",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "hasicske-hobby-muzeum",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "historia-vranovskej-synagogy",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "historia-vranovskej-synagogy",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "historicka-kniznica-bibliotheca-antiqua-taganiana",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "historicka-kniznica-bibliotheca-antiqua-taganiana",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "hlavna-ulica",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "hlavna-ulica",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "hlavna-veza-vyhlad",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "hlavna-veza-vyhlad",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "hlavne-nadvorie",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "hlavne-nadvorie",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "hlinensky-potok",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "hlinensky-potok",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "hmyzi-hotel",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "hmyzi-hotel",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "hrad-hukvaldy-s-odborom",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "hrad-hukvaldy-s-odborom",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "hrad-lietava",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "hrad-lietava",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "hrad-strecno",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "hrad-strecno",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "chata-mamenka-a-libusin",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "chata-mamenka-a-libusin",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "chlebovicka-medova-stopa",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "chlebovicka-medova-stopa",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "chodnik-jozefa-kronera",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "chodnik-jozefa-kronera",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "chram-sv-jana-krstitela",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "chram-sv-jana-krstitela",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "chranena-lipa",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "chranena-lipa",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "janosikove-diery",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "janosikove-diery",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "javor-mliecny",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "javor-mliecny",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "javorniky-dominanta-hornych-kysuc",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "javorniky-dominanta-hornych-kysuc",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "juraj-turzo-a-turzovka",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "juraj-turzo-a-turzovka",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "juraj-turzo-podporovatel-vzdelanosti-a-patron-evanjelickej-cirkvi",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "juraj-turzo-podporovatel-vzdelanosti-a-patron-evanjelickej-cirkvi",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "jurkovicova-rozhladna",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "jurkovicova-rozhladna",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "juzne-nadvorie",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "juzne-nadvorie",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kalvaria-2",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kalvaria-2",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kalvaria",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kalvaria",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kamenna-gula-pred-mestskym-uradom",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kamenna-gula-pred-mestskym-uradom",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kamenne-gule-na-kysuciach",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kamenne-gule-na-kysuciach",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaple-sv-cyrila-a-metodeje",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaple-sv-cyrila-a-metodeje",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-a-vojensky-cintorin-z-1-sv-vojny",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-a-vojensky-cintorin-z-1-sv-vojny",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-na-bukovine",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-na-bukovine",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-na-javorovej-ulici",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-na-javorovej-ulici",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-na-tronce",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-na-tronce",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-najsvatejsieho-srdca-panny-marie",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-najsvatejsieho-srdca-panny-marie",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-panny-marie-kralovnej-pokoja-zivcakova",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-panny-marie-kralovnej-pokoja-zivcakova",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-panny-marie-lurdskej-pri-motoreste",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-panny-marie-lurdskej-pri-motoreste",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-panny-marie-skapuliarskej",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-panny-marie-skapuliarskej",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-sedembolestnej-panny-marie-u-blazkov",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-sedembolestnej-panny-marie-u-blazkov",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-sedembolestnej-panny-marie",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-sedembolestnej-panny-marie",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-st-urbana-ul-krakowska",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-st-urbana-ul-krakowska",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-sv-antonina-paduanskeho-ondrejnik",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-sv-antonina-paduanskeho-ondrejnik",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-sv-rozalie",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-sv-rozalie",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-v-bujakowskom-lese",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka-v-bujakowskom-lese",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kaplnka",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kastiel-a-park-v-ivanke-pri-dunaji",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kastiel-a-park-v-ivanke-pri-dunaji",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kastiel-komjatice",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kastiel-komjatice",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kastiel-sokolovce",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kastiel-sokolovce",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kastiel-v-radoli",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kastiel-v-radoli",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "klin",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "klin",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kolegium-piaristov",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kolegium-piaristov",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kornansky-ropny-pramen",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kornansky-ropny-pramen",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kostol-fatimskej-panny-marie",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kostol-fatimskej-panny-marie",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kostol-nanebovzatia-panny-marie-pomnik-padlym-v-1-sv-vojne",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kostol-nanebovzatia-panny-marie-pomnik-padlym-v-1-sv-vojne",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kostol-nanebovzatia-panny-marie-v-turzovke",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kostol-nanebovzatia-panny-marie-v-turzovke",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kostol-panny-marie-matky-cirkvi-zivcakova",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kostol-panny-marie-matky-cirkvi-zivcakova",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kostol-ruzencovej-panny-marie",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kostol-ruzencovej-panny-marie",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kostol-sv-bartolomeja",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kostol-sv-bartolomeja",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kostol-sv-jana-krstitela",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kostol-sv-jana-krstitela",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kostol-sv-mikulasa",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kostol-sv-mikulasa",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kostol-sv-stefana",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kostol-sv-stefana",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kostol-v-czancu",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kostol-v-czancu",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kov",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kov",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kraj-rusinov-a-andyho-warhola-tazba-ropy-v-regione",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kraj-rusinov-a-andyho-warhola-tazba-ropy-v-regione",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kraj-rusinov-a-andyho-warhola-vystahovalectvo",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kraj-rusinov-a-andyho-warhola-vystahovalectvo",
+    "lang": "hu",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "krtko",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "krtko",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "ku-pramenu-rieky-kysuca-400-rokov-4000-krokov",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "ku-pramenu-rieky-kysuca-400-rokov-4000-krokov",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kulturne-centrum-frydlant-nad-ostravici",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kulturne-centrum-frydlant-nad-ostravici",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kulturny-dom-andreja-hlinku",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kulturny-dom-andreja-hlinku",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kupalisko-a-tenisove-kurty-edimex",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kupalisko-a-tenisove-kurty-edimex",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kysucka-hvezdaren",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kysucka-hvezdaren",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kysucky-detsky-les",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "kysucky-detsky-les",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "lesna-rezervacia-zasolnica",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "lesna-rezervacia-zasolnica",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "lesni-stezka-vyhlidka",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "lesni-stezka-vyhlidka",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "letisko-frydlant-nad-ostravici",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "letisko-frydlant-nad-ostravici",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "lienka-sedembodkova",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "lienka-sedembodkova",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "lipa-slobody",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "lipa-slobody",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "liptovske-muzeum",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "liptovske-muzeum",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "lysa-hora",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "lysa-hora",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "lyziarske-stredisko-bukovina-javornicko-beskydska-magistrala",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "lyziarske-stredisko-bukovina-javornicko-beskydska-magistrala",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "marianske-putnicke-miesto-zivcakova",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "marianske-putnicke-miesto-zivcakova",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "marianske-susosie",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "marianske-susosie",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "mariansky-stlp-socha-imacculata",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "mariansky-stlp-socha-imacculata",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "martakov-kopec-rozhladna-zakopcie",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "martakov-kopec-rozhladna-zakopcie",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "mauzoleum-andreja-hlinku",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "mauzoleum-andreja-hlinku",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "mauzoleum-grofa-juliusa-andrassyho",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "mauzoleum-grofa-juliusa-andrassyho",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "mestske-hradby",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "mestske-hradby",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "mestske-muzeum-karola-tocika",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "mestske-muzeum-karola-tocika",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "mestsky-cintorin",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "mestsky-cintorin",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "mestsky-park",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "mestsky-park",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "mestsky-urad-frydlant-nad-ostravici",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "mestsky-urad-frydlant-nad-ostravici",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "miesto-tragickych-udalosti",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "miesto-tragickych-udalosti",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "mimoriadne-udalosti-na-uzemi-turzovky",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "mimoriadne-udalosti-na-uzemi-turzovky",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "mohyla-m-r-stefanika",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "mohyla-m-r-stefanika",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "mravec",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "mravec",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "muzeum-beskyd-frydek-mistek-frydecky-zamok",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "muzeum-beskyd-frydek-mistek-frydecky-zamok",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "muzeum-juraja-janosika",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "muzeum-juraja-janosika",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "muzeum-karola-tocika",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "muzeum-karola-tocika",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "muzeum-kysuckej-dediny",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "muzeum-kysuckej-dediny",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "nadrz-czaniecka",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "nadrz-czaniecka",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "najstarsie-zmienky-o-zivcakovej",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "najstarsie-zmienky-o-zivcakovej",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "najuzsi-bod",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "najuzsi-bod",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "namestie-andreja-hlinku",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "namestie-andreja-hlinku",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "namestie-juraja-thurzu",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "namestie-juraja-thurzu",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "naucny-chodnik-vrchlinenskym-kopcom",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "naucny-chodnik-vrchlinenskym-kopcom",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "neptunova-fontana",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "neptunova-fontana",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "nch-zarubana-kycera",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "nch-zarubana-kycera",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "nizinny-vodny-hrad-paric",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "nizinny-vodny-hrad-paric",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "o-hlinenom-v-najstarsich-casoch",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "o-hlinenom-v-najstarsich-casoch",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "obec-ivanka-pri-dunaji",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "obec-ivanka-pri-dunaji",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "obecne-centrum-kultury-v-porabke",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "obecne-centrum-kultury-v-porabke",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "oravsky-hrad",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "oravsky-hrad",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "oriesok-obycajny",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "oriesok-obycajny",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "ortodoxna-synagoga",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "ortodoxna-synagoga",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "osada-kolonia-v-style-witkiewiczovcov",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "osada-kolonia-v-style-witkiewiczovcov",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "palac-klobusickych",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "palac-klobusickych",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pamatna-tabula-v-parku-rodakov",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pamatna-tabula-v-parku-rodakov",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pamatnik-hrdinom-a-bojovnikom-proti-fasizmu-a-pamatnik-oslobodenia-mesta",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pamatnik-hrdinom-a-bojovnikom-proti-fasizmu-a-pamatnik-oslobodenia-mesta",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pamatnik-m-r-stefanika",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pamatnik-m-r-stefanika",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pamatnik-obetiam-cernovskej-tragedie",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pamatnik-obetiam-cernovskej-tragedie",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pamatnik-tomasa-uhorcika",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pamatnik-tomasa-uhorcika",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pamatniky",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pamatniky",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "papier",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "papier",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "park-drotara-a-dzarka-pricestny-stlp-jana-nepomuckeho-susosie-drotara-a-dzarka",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "park-drotara-a-dzarka-pricestny-stlp-jana-nepomuckeho-susosie-drotara-a-dzarka",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pavlinsky-klastor",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pavlinsky-klastor",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pesnicka-kohutik-jaraby",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pesnicka-kohutik-jaraby",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pesnicka-oda-na-radost",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pesnicka-oda-na-radost",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "piaristicke-gymnazium",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "piaristicke-gymnazium",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pieskovcovy-kriz",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pieskovcovy-kriz",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pinka-obycajna",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pinka-obycajna",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "plast",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "plast",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "plte-na-vahu",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "plte-na-vahu",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "politicka-a-vojenska-kariera-juraja-turza",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "politicka-a-vojenska-kariera-juraja-turza",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pomnik-padlym-v-i-a-ii-svetovej-vojne",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pomnik-padlym-v-i-a-ii-svetovej-vojne",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pomnik-sloboda-slovenskeho-naroda",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pomnik-sloboda-slovenskeho-naroda",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "potomstvo-juraja-turza-2",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "potomstvo-juraja-turza-2",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "povest-o-vzniku-vranova",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "povest-o-vzniku-vranova",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "prameny-moravky",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "prameny-moravky",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "prirodny-amfiteater-historia-beskydskych-slavnosti",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "prirodny-amfiteater-historia-beskydskych-slavnosti",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "prizemie-juzneho-palaca-kuchyna",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "prizemie-juzneho-palaca-kuchyna",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "prve-podlazie-juzneho-palaca",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "prve-podlazie-juzneho-palaca",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pustevny",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "pustevny",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "putnicke-miesto-zivcakova",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "putnicke-miesto-zivcakova",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "qr-sprievodca-zvonica-hrusove",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "qr-sprievodca-zvonica-hrusove",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "radnica-2",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "radnica-2",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "radnica",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "radnica",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rakociho-palac",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rakociho-palac",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "regionalna-izba-v-porabke",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "regionalna-izba-v-porabke",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rimsko-katolicky-kostol-sv-michala-archanjela-velicna",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rimsko-katolicky-kostol-sv-michala-archanjela-velicna",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rimskokatolicky-kostol-navstevy-panny-marie",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rimskokatolicky-kostol-navstevy-panny-marie",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rimskokatolicky-kostol-navstivenia-panny-marie",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rimskokatolicky-kostol-navstivenia-panny-marie",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rimskokatolicky-kostol-povysenia-sv-kriza",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rimskokatolicky-kostol-povysenia-sv-kriza",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rimskokatolicky-kostol-sv-ondreja",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rimskokatolicky-kostol-sv-ondreja",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rodny-dom-andreja-hlinku",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rodny-dom-andreja-hlinku",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rodny-dom-jozefa-kronera",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rodny-dom-jozefa-kronera",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rolnicke-povstanie-na-vychodnom-slovensku-1831",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rolnicke-povstanie-na-vychodnom-slovensku-1831",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rolnicky-dom",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rolnicky-dom",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "romansky-kostol-sv-ducha",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "romansky-kostol-sv-ducha",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rotunda",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rotunda",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rozhladna-luby",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rozhladna-luby",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rozhladna-okrouhla",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rozhladna-okrouhla",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rozhladna-tabor",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rozhladna-tabor",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rybniky",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "rybniky",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "sarisska-galeria",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "sarisska-galeria",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "severna-veza",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "severna-veza",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "severny-palac",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "severny-palac",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "schwartzov-dom",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "schwartzov-dom",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "sklo",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "sklo",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "slanicky-ostrov-umenia",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "slanicky-ostrov-umenia",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "slimak",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "slimak",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "slnecne-hodiny-kalvinsky-kostol-na-hviezdoslavovej-ulici",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "slnecne-hodiny-kalvinsky-kostol-na-hviezdoslavovej-ulici",
+    "lang": "hu",
+    "prenesene": [
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "slovenska-banka",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "slovenska-banka",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "slovensky-severny-pol-oravska-polhora",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "slovensky-severny-pol-oravska-polhora",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "socha-bretislav-benda-mladosti-a-krase-patri-buducnost",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "socha-bretislav-benda-mladosti-a-krase-patri-buducnost",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "socha-radegasta",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "socha-radegasta",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "sportove-a-relaxacne-centrum-kotelna",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "sportove-a-relaxacne-centrum-kotelna",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "stala-expozicia-ludoveho-rezbarstva",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "stala-expozicia-ludoveho-rezbarstva",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "stavba-kaplnky-a-putnicke-miesto",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "stavba-kaplnky-a-putnicke-miesto",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "stehlik-cecetka",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "stehlik-cecetka",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "studna",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "studna",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "sulovsky-hrad",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "sulovsky-hrad",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "sursky-kanal",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "sursky-kanal",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "susosie-immaculaty",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "susosie-immaculaty",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "susosie-sv-jana-nepomuckeho-panny-marie-s-jeziskom",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "susosie-sv-jana-nepomuckeho-panny-marie-s-jeziskom",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "susosie-sv-jana-nepomuckeho",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "susosie-sv-jana-nepomuckeho",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "svetlonos",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "svetlonos",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "sykorka-belasa",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "sykorka-belasa",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "synagoga",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "synagoga",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "the-museum-of-wines",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "the-museum-of-wines",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "tri-krize-na-stratenci-a-kriz-na-velkom-javorniku",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "tri-krize-na-stratenci-a-kriz-na-velkom-javorniku",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "trojmedzie",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "trojmedzie",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "udajne-zjavenia-na-zivcakovej-matusovi-lasutovi",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "udajne-zjavenia-na-zivcakovej-matusovi-lasutovi",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "unikatny-dreveny-betlehem-v-rajeckej-lesnej",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "unikatny-dreveny-betlehem-v-rajeckej-lesnej",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "valasske-muzeum-v-prirode",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "valasske-muzeum-v-prirode",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vcela-samotarka",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vcela-samotarka",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vcelarska-naucna-stezka",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vcelarska-naucna-stezka",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vcielka",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vcielka",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "velka-raca-1236-m-n-m",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "velka-raca-1236-m-n-m",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vevericka",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vevericka",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vila-v-kobiernicach-a-pamiatkovy-park",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vila-v-kobiernicach-a-pamiatkovy-park",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vlacik-korytko-na-zeleznicnej-stanici",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vlacik-korytko-na-zeleznicnej-stanici",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vlakova-stanica-frydlant-nad-ostravici",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vlakova-stanica-frydlant-nad-ostravici",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vodna-nadrz-v-porabke",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vodna-nadrz-v-porabke",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vodna-pila-vincenta-hrtusa",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vodna-pila-vincenta-hrtusa",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vstup-do-hlavnej-veze",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vstup-do-hlavnej-veze",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vstup-na-hrad",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vstup-na-hrad",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vyhliadkova-veza-s-oddychovou-zonou-na-vrchu-bukovina",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vyhliadkova-veza-s-oddychovou-zonou-na-vrchu-bukovina",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vyvoj-do-roku-1989",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "vyvoj-do-roku-1989",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zakladna-skola-frydlant-nad-ostravici-komenskeho-420-prispevkova-organizacia",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zakladna-skola-frydlant-nad-ostravici-komenskeho-420-prispevkova-organizacia",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zakladna-skola-frydlant-nad-ostravici-namestie-t-g-masaryka-1260-prispevkova-organizacia",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zakladna-skola-frydlant-nad-ostravici-namestie-t-g-masaryka-1260-prispevkova-organizacia",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zakopy",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zakopy",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zamocky-park",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zamocky-park",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zamok-v-paskove",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zamok-v-paskove",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zastavka-1-autonomna-zeleznicna-zastavka-v-sr",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zastavka-1-autonomna-zeleznicna-zastavka-v-sr",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zaver-zivota-uhorskeho-palatina",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zaver-zivota-uhorskeho-palatina",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zivcakova-marianske-putnicke-miesto",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zivcakova-marianske-putnicke-miesto",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zlatoocka-obycajna",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zlatoocka-obycajna",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zrucanina-hradu-hradisko",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zrucanina-hradu-hradisko",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zrucanina-hradu-na-wolku-a-historicka-trasa",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ],
+    "poznamka": "audio zhodné so slovenským – neprenesené"
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zrucanina-hradu-na-wolku-a-historicka-trasa",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zupny-dom",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zupny-dom",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zvonica-2",
+    "lang": "en",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zvonica-2",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zvonica",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text",
+      "audio"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zvonica",
+    "lang": "hu",
+    "prenesene": []
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zvonicka",
+    "lang": "en",
+    "prenesene": [
+      "názov",
+      "text"
+    ]
+  },
+  {
+    "sub": "zastavenia",
+    "id": "zvonicka",
+    "lang": "hu",
+    "prenesene": []
+  }
+]

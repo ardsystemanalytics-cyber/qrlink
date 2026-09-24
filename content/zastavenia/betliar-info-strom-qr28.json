@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr28/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr28/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr28/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Southern catalpa",
+      "text": "It grows to a height of about 15 m and has a conical, irregular crown. It blooms in summer (June-July). There are several catalpa trees growing in the park, the most beautiful of which can be found in the left background of the northwestern view, with massive spruce trees in the background. During flowering, it has very pretty flowers, and brides often come to the park to take pictures beneath this tree."
+    },
+    "hu": {
+      "nazov": "Szívlevelű szivarfa",
+      "text": "Körülbelül 15 méter magasra nő, koronája kúpos és szabálytalan. Nyáron (június-július) virágzik. A parkban több szívlevelű szivarfa is nő, a legszebbek a bal oldali északnyugati kilátóból láthatóak, a háttérben hatalmas lucfenyőkkel. Virágzáskor nagyon szép virágai vannak, és gyakran fényképezkednek alatta a menyasszonyok."
+    }
   }
 }

@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/kostol-sv-mikulasa/",
     "pl": "https://www.qrlink.sk/new/pl/kostol-sv-mikulasa/",
     "hu": "https://www.qrlink.sk/new/hu/kostol-sv-mikulasa/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Concathedral of St. Nicolas",
+      "text": "The concathedral of St. Nicolas is undoubtedly the most remarkable sight of Prešov which represents the oldest and the only Gothic religious building preserved in Prešov. The temple has a three-nave Gothic design, so-called “the hall church” which was common on the German territories. \n\nIn the past it was considered as one of the most perfect hall churches in former Hungary. By its size (length 54.7 metres, width 34.45 metres and the height of the interior is 16 metres) it holds the third position among buildings of the same type in Slovakia. \n\nIts origin dates back to the pre-urban period and probably the church of the German settlement stood there since the 13th century. The patronage of St. Nicholas is probably connected with this period when it was brought here by the German colonists. The parish church itself was built by the city authorities in the end of 40s of the 14th century. It is evidenced by the charter issued by Queen Elisabeth in 1347 allowing the Prešov citizens to cut the stone needed for the church’s construction anywhere in Šariš County. Presumably the original building was a late Baroque three-nave design building with the floor plan identical with the present church. The pillars heads and the consoles in the northern wall and the triumphal arch referring to the height of the original church have been preserved from the original church. A relief of a bearded head in the northern wall, probably a face of a stone-mason master, commemorates the church builders. From 1502 to 1511 the reconstruction supervised by the Prešov stone-mason master Ján Brengyszeyn was the largest. The whole three-nave design was rebuilt, all the walls were heightened to some metres and after some extension (the southern hall) the whole temple got its present late Baroque look. The naves and presbytery was arched by the beautiful net and star pattern ceilings. The hall under the spire was ended by a circle vault. \n\nThe church spire was completed in 1515. The current look of its top comes from 1904. \n\nIn the fifties of last century, the church has undergone overhaul which has resulted in the new travertine tiles, plaster, paint, coloured windows, radio, or Way of the Cross. The sculptures from the workshop of Master Paul of Levoča are in interiors, but also other valuable fragments of the Gothic style. The most notable monuments are the main altar of the concathedral of St. Nicolas, which is a symbiosis of Gothic and Baroque art.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/01-the-church-of-st-nicholas.mp3"
+        }
+      ]
+    }
   }
 }

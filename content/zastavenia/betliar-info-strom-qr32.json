@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr32/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr32/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr32/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Cucumber tree (Blue magnolia)",
+      "text": "It originates *from North America and East Asia*, where about 30 species grow. The tree is 20 to 30 m tall, with a conical crown and elongated leaves. \n\n \n\nThere is one specimen growing in the park, which has favorable conditions for growth (not very demanding on the soil and with sufficient moisture) and has therefore grown to remarkable dimensions – one of the largest magnolias of its kind in Central Europe. \n\n \n\nThe magnolia was planted in our park at the beginning of the 20th century (1900s), and the seedling was brought to Betliar from Moravia. The gardener at the time tried to propagate it vegetatively, which is why it has branches that grow straight up. In 2018, the tree participated in the Tree of the Year competition, in which it took a respectable third place."
+    },
+    "hu": {
+      "nazov": "Hegyeslevelű liliomfa",
+      "text": "Észak-Amerikából és Kelet-Ázsiából származik, ahol körülbelül 30 fajtája nő. A fa 20-30 m magas, kúpos koronával és hosszúkás levelekkel rendelkezik. \n\n \n\nA parkban egy példány található, amely kedvező növekedési feltételekkel rendelkezik (nem igényel különleges talajt, továbbá elegendő nedvességre van szüksége), ezért figyelemre méltó méretűre nőtt – Közép-Európában ez az egyik legnagyobb magnólia a fajtájából. \n\n \n\nA magnólia a 20. század elején (1900-as évek) került a parkba, a palántát Morvaországból hozták Betliarba (Betlérbe). Az akkori kertész vegetatív úton próbálta szaporítani, ezért ágai egyenesen felfelé nőnek. 2018-ban a fa részt vett az Év fája versenyen, ahol a szép harmadik helyet szerezte meg."
+    }
   }
 }

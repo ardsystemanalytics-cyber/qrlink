@@ -31,5 +31,11 @@
     "ru": "https://www.qrlink.sk/new/ru/kaplnka-sv-rozalie/",
     "pl": "https://www.qrlink.sk/new/pl/kaplnka-sv-rozalie/",
     "hu": "https://www.qrlink.sk/new/hu/kaplnka-sv-rozalie/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The Chapel of St. Rosalia",
+      "text": "The Chapel of St. Rosalia is a rotunda with a Neoclassical façade, a domed roof, and a small tower with a bell. Its interior consists of a Classical altar with candleholders and two triangular-shaped reliquaries, one of which contains a black (plague) hand. The chapel was built by Antal Grassalkovich III in 1832 with the help of the inhabitants of the villages Ivanka and Farná in gratitude to St. Rosalia – the patron saint of the plague-stricken – for ending an epidemic of hepatitis, which at the time had spread across the entire Bratislava region, claiming many lives. The epidemic faded away and the last infected person died on St. Rosalia’s Day, September 4th. The chapel stands at what is today the centre of the village, but it originally marked the western edge of the residential area of the village, right on the boundary with Farná. From the first half of the 19th century the built-up area around the centre expanded. Trees and greenery were planted in the vicinity of the chapel, eventually growing into a park. In 2009, the chapel, along with its valuable Rococo reliquaries, a Rococo silver eternal flame, and the St. Rosalia altarpiece containing a rarely found view of the village, was declared a National Heritage Site."
+    }
   }
 }

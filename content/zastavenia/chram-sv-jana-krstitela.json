@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/chram-sv-jana-krstitela/",
     "pl": "https://www.qrlink.sk/new/pl/chram-sv-jana-krstitela/",
     "hu": "https://www.qrlink.sk/new/hu/chram-sv-jana-krstitela/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Cathedral of St. John the Baptist",
+      "text": "It was originally a Gothic one-nave church. It was connected to the Minorite monastery in the 17th century and rebuilt in the Baroque style in the 18th century to the present state. \n\nThe building of the city almshouse was built on the southern outskirt of Prešov in the first half of the 14th century. A smaller chapel was added it in the same century. A new hospital Church dedicated to the Holy Virgin started to be built in 1429. In this period the church was situated outside the original city walls, and only later, after the relocation of the city walls, the church became a part of the city. \n\nAfter the Reformation period, the hospital church became an Evangelical church of Prešov Slovak population. \n\nThe ruler Leopold I ordered to give the church into the possession of the Minorite Order in 1673 when they came to Prešov the same year. The Minorite Order was also given a hospital as well. The Minorite church was considerably rebuilt as late as in the mid-18th century. Rebuilding was supervised by the Prešov builder Caspar Urlespacher from 1753 to 1754. The sanctuary faced the west; the main entry portal was relocated to the east facing the street. A newly-built main facade was characterised by a Baroque decoration. Two side chapels on the northern and southern sides were added to the nave. The third chapel was built on the northern side, in the area under the tower. A unique Gothic net vault above a newly-built choir’s area has been preserved. A part of the wall with the original pillars and the church’s spire has also been preserved as part of the original hospital church. \n\nA non-existing sculptural group of St. John of Nepomuk (Ján Nepomucký) placed in front of the monastery, at the edge of the Main Street, was built probably in the end of the Baroque reconstruction of the Minorite temple. \n\nThe works in the church interior continued and four bigger frescoes depicting scenes from the life of St. John the Baptist were created in 1757. Their author is an unknown Košice painter and they can be seen on the ceiling of the temple’s nave currently. \n\nThe next reconstruction of the church took place as late as in 1835, when the church belonged to the Uniate bishoprie since 1818. In 1846 the church was adopted to the needs of the eastern liturgy. The altar was adapted, an iconostasis, the bishop’s throne, the pulpit and the canonical pews were created. \n\nA large crypt can be found under the temple. Five bishops, some Jesuits, several Minorite Order members and others are buried there. \n\nThe temple was given into the possession of the Orthodox Church in the 1950’s when the Uniate Church was cancelled in Czechoslovakia, and returned to them after the re-establishment of the Uniate Church in 1968. The temple was renovated from 1977 to 1980, but the general reconstruction of the whole complex took place from 1994 to 1995.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/03-cathedral-temple-of-saint-john-the-baptist.mp3"
+        }
+      ]
+    }
   }
 }

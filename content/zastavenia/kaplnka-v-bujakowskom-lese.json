@@ -31,5 +31,11 @@
     "ru": "https://www.qrlink.sk/new/ru/kaplnka-v-bujakowskom-lese/",
     "pl": "https://www.qrlink.sk/new/pl/kaplnka-v-bujakowskom-lese/",
     "hu": "https://www.qrlink.sk/new/hu/kaplnka-v-bujakowskom-lese/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The chapel under Bujakovská Mountain",
+      "text": "The great stone chapel is located under Bujakovská Mountain, built 90s of the 20th century. So its history is dated to years before the WWII and its position is not random. The chapel have been built in forest next to the legendary sanative spring „U dedka“ (At grandfather). Inside the chapel there is scuplt of Mother of God’s from Lurds made by folk from Bujakow."
+    }
   }
 }

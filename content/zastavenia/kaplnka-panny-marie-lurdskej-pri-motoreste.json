@@ -31,5 +31,11 @@
     "ru": "https://www.qrlink.sk/new/ru/kaplnka-panny-marie-lurdskej-pri-motoreste/",
     "pl": "https://www.qrlink.sk/new/pl/kaplnka-panny-marie-lurdskej-pri-motoreste/",
     "hu": "https://www.qrlink.sk/new/hu/kaplnka-panny-marie-lurdskej-pri-motoreste/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The chapel of the Virgin Mary Lourdes",
+      "text": "It has been forced to build in 2002-2003 by the family of Rudolf Mravec. They were inspired by the visit of Saint Father in Slovakia and upcoming st. missins in the parish. The chapel was sanctified on October 18th 2003 during the ongoing st. missions by the dean of Turzovka Jozef Petras and missionary Ivan Flimel."
+    }
   }
 }

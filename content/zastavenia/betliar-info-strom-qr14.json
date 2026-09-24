@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr14/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr14/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr14/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Animal Farm",
+      "text": "Next to a large pond (about 20 meters north), you can find a game reserve built at the end of the 19th century, reminiscent of a medieval castle. The Andrássy family kept brown bears, lynxes, otters, martens, badgers, and mouflons in the enclosure. \n\n \n\nToday, the game reserve is abandoned – the animals were released into the wild. (During World War II)"
+    },
+    "hu": {
+      "nazov": "Állatkert",
+      "text": "A nagy halastó mellett (kb. 20 m-re északra) található egy vadászterület, amelyet a 19. század végén építettek, és amely egy középkori várat idéz. Az Andrássy család barna medvéket, hiúzokat, vidrákat, nyesteket, borzokat és a karámban muflonokat is tartott itt. \n\n \n\nMa a vadászterület elhagyatott – az állatokat szabadon engedték (a második világháború idején)."
+    }
   }
 }

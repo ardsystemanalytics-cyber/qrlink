@@ -31,5 +31,11 @@
     "ru": "https://www.qrlink.sk/new/ru/regionalna-izba-v-porabke/",
     "pl": "https://www.qrlink.sk/new/pl/regionalna-izba-v-porabke/",
     "hu": "https://www.qrlink.sk/new/hu/regionalna-izba-v-porabke/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The Regional room in Porabka",
+      "text": "The Regional room in Porabka exists from 1998. Iniciator of its establishment was the Community of lovers of Zywiec´s land. There are many exhibits from the village and the surrounding areas. Main part of the collections are agrricultural tools, items of daily consumption and the original traditional costumes, which were worn in this region before fiew decades. There are also pictures and folk scuplts."
+    }
   }
 }

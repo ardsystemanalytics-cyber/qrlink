@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/radnica-2/",
     "pl": "https://www.qrlink.sk/new/pl/radnica-2/",
     "hu": "https://www.qrlink.sk/new/hu/radnica-2/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Town Hall",
+      "text": "The historical building of Prešov’s town-hall is situated in the eastern part of the square, opposite the Neptune fountain. \n\nThe original town-hall was originally situated in a different place. It was a self-standing two-storey stone building, situated to the south from the parish church, somewhere in the area where currently the Monument of the Red Army in the park is situated. The municipal authorities moved out of the building for unknown reasons (probably because of the destruction caused by fires) to the contemporary place of residence of the town council in the course of the 17th century. The original look of the town hall remains unknown, only its stone city coat-of-arms from the first half of the 16th century has been preserved. It is placed in the portal of the later town hall. \n\nThe building now housing the town hall was a luxurious burgher’s house in the Middle Ages. It was rebuilt to a city winery in the beginning of the 16th century and was used for these purposes for more than two centuries. Its reconstruction was supervised by a stonemason master John Brengyszeyen. Only some interior fragments, portal and the late Baroque wainscoting on the ground-floor have been preserved from the Baroque period. The winery was extended by an extension above the street passage connecting the two quarters of the square and rebuilt to a Renaissance style. The interior was decorated by Renaissance vaults and decorative attic gables. \n\nAfter several rebuilding, some vaults and several Renaissance wainscotings have been preserved from this period. A considerable reconstruction was made after the fire in 1768. It was finished in 1788 when it resembled a late Baroque style building with typical facades, high windows and a balcony. The last reconstruction was made after the Great Fire in 1887. In this period one more storey in a late Baroque mood was added to it and the roof was reconstructed. \n\nThe town council contributed to modern Slovak and Central European history in 1919. On June, 16, 1919, the so-called Slovak Republic of Councils was proclaimed from the balcony of this building after the occupation of the city and the large part of East Slovakia by the Hungarian Red Army. The National City Council resided here after 1945, after 1990 it became a residence of the City Council. The building was added to the list of the national cultural heritage in 1961. The component of the Town Hall is the massive stone building, attached to the Town Hall from Jarkova Street, so called the Carrafa´s prison.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/07-town-hall.mp3"
+        }
+      ]
+    }
   }
 }

@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr24/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr24/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr24/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Ginkgo biloba",
+      "text": "This tree is probably native to eastern China and has been cultivated in East Asia since ancient times, mainly *around Buddhist temples* *(it was a sacred tree of the ancient Chinese),* where trees over 1,000 years old can be found. Ginkgo was imported to Europe around 1730. It grows to a height of 30 meters and can live up to 2,000 years. Its leaves have beneficial and healing properties."
+    },
+    "hu": {
+      "nazov": "Páfrányfenyő",
+      "text": "Ez a fa valószínűleg Kelet-Kínából származik, ősidők óta termesztik Kelet-Ázsiában, *főleg buddhista templomok körül (az ókori kínaiak szent fája volt),* ahol több mint ezeréves fák is megtalálhatók. Európába a ginkót 1730 körül hozták be. Magassága eléri a 30 métert, és akár  2000 évet is megérhet. Levelei jótékony és gyógyító hatással bírnak."
+    }
   }
 }

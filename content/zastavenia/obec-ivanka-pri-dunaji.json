@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/obec-ivanka-pri-dunaji/",
     "pl": "https://www.qrlink.sk/new/pl/obec-ivanka-pri-dunaji/",
     "hu": "https://www.qrlink.sk/new/hu/obec-ivanka-pri-dunaji/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Ivanka pri Dunaji",
+      "text": "Ivanka pri Dunaji lies in the district of Senec in the southwest of Slovakia, bordering the capital, Bratislava. It has a growing population, which is largely due to an influx of newcomers drawn to the town because of its attractive location. The town covers a total area of 1,425 ha, and its nearest neighbours are Bernolákovo to the east, Zálesie and Most pri Bratislave to the south, and Chorvátsky Grob and Svätý Jur to the north. It borders Bratislava to the west, specifically the boroughs of Vajnory and Ružinov, while it is only 12 km from Ivanka to the centre of Bratislava. Part of the landing runway at M.R. Štefánik airport falls within the cadastral boundaries of the town. Ivanka pri Dunaji is located within the plains of the Podunajská nížina lowlands at 133 metres above sea level. The nearest mountains, roughly 15 km north of the town, are the Small Carpathians. Ivanka pri Dunaji is a member of the Slovak Association of Towns and Villages and co-operates with neighbouring local governments within the Podunajsko Regional Association.\n\nThe town’s main transport connections are the Route I-61 from Bratislava to Senec, and the 130 train line from Bratislava to the town of Nové Zámky. The Bratislava – Trnava D1 motorway, which can be joined in Vajnory and Senec, cuts through the northern part of the town’s territory. A section of the D4 motorway, which is part of the Bratislava bypass, also lies within Ivanka’s boundaries. The town is a favourite site for cyclists because of its many marked cycling trails and newly-built local bike paths.\n\nIvanka has a temperate continental climate, being located in a warm, dry climate zone with mild winters. The main waterway in Ivanka is the Šúrsky kanál. Construction of the canal, which was designed as an artificial waterway to divert and drain the moorlands near Svätý Jur, began in 1941. The 15.62-kilometre-long canal is fed by streams flowing from the Small Carpathians, as well as water from wastewater treatment plants, before it flows into the Small Danube. Forests, mainly riparian lowland, cover 135 ha of the town’s area.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/ivanka-aj.mp3"
+        }
+      ]
+    }
   }
 }

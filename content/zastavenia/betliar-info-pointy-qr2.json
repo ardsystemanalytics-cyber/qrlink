@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr2/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr2/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr2/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Roman Catholic Church of St. Elizabeth the Widow",
+      "text": "A medieval building from the first half of the 14th century, renovated in the 17th and 19th centuries, the oldest monument of the village. According to available sources, a chapel stood on the site of the church as early as the 14th century, which was rebuilt into its present form over the course of history. The Gothic origin of the church is evident in its floor plan with a rectangular sanctuary vaulted with a barrel vault and a sacristy accessed through a pointed portal. The tower was added in the 17th century. The nave of the church is vaulted with Baroque vaults. Only the wooden pulpit from the early 18th century with statues of the Evangelists and a wooden statue of the Virgin Mary Queen from the second half of the 18th century have been preserved from the Baroque furnishings of the church. The main altar from the late 19th century features a painting of St. Elizabeth the Widow, while the side altar features a painting of St. Elizabeth of Hungary."
+    },
+    "hu": {
+      "nazov": "Özvegy Szent Erzsébet római katolikus templom",
+      "text": "Középkori épület a 14. század első feléből, a 17. és 19. században átalakítva, a település legrégebbi műemléke. A rendelkezésre álló források szerint a templom helyén már a 14. században egy kápolna állt, amelyet a történelem során mai formájára átalakítottak. A templom gótikus eredetére utal a négyszögletes alaprajzú szentély boltívvel és szentségtartóval, amelybe egy tört bejárat vezet. A torony a 17. században épült hozzá. A templom hajója barokk boltívekkel van fedve. A templom barokk berendezéséből csak a 18. század elejéről származó fa szószék maradt fenn, amelyen az evangélisták szobrai láthatók, valamint egy fa Szűz Mária királynő szobor a 18. század második feléből. A főoltáron, amely a 19. század végéről származik, özvegy Szent Erzsébet képe látható, az oldalsó oltáron pedig Árpád-házi Szent Erzsébet magyar királyné képe."
+    }
   }
 }

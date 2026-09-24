@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/susosie-immaculaty/",
     "pl": "https://www.qrlink.sk/new/pl/susosie-immaculaty/",
     "hu": "https://www.qrlink.sk/new/hu/susosie-immaculaty/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Sculptural Group Immaculata",
+      "text": "The dominant of the northern part of the square is reconstructed Baroque Immaculata sculpture, surrounded by park, incorrectly called Trinity by Prešov citizens.\n\nIn 1751 this statue was built by Jesuits as a monument to the plague. It stands on the place where from March to September 1687 the bloody trial of Prešov. \n\nThe sandstone sculptural group in the form of a three-part base with four statues of saints – St. Nicholas, Bishop of St. John of Nepomuk, St. Stephen and St. Francis Xavier – is the work of Košice sculptor Joseph Hartmann, who was one of the most sacral artists of his time at Eastern Slovakia. The work is dominated by the golden statue of the Madonna with the child, crown and sceptre. The original statues at the base of the statues still retain only pp. Only statues of St. Nicholas and St. John of Nepomuk have been retained from original statues on the base.\n\nThe heavily damaged and weather-worn statue was reconstructed in 1967, the last time in 1995-1997.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/10-sculptural-group-immaculata.mp3"
+        }
+      ]
+    }
   }
 }

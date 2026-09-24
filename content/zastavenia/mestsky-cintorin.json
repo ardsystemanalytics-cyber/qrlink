@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/mestsky-cintorin/",
     "pl": "https://www.qrlink.sk/new/pl/mestsky-cintorin/",
     "hu": "https://www.qrlink.sk/new/hu/mestsky-cintorin/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "TOWN CEMETERY",
+      "text": "The town cemetery, from the year 1913, is located on sloping terrain and its reverential character is enhanced by a natural green back drop. The cemetery is a place of rest for town and regional figures as well as historical personalities of national importance. The striking tombs and graves are arranged in a planned layout along a main central axis with a cemetery cross in the centre. This creates the characteristic appearance of one of the most beautiful decorated cemeteries in Slovakia. In the cemetery there are national cultural monuments, for example, the tomb of the Makovický family, the work of Dušan Jurkovič, and the grave of Ľudovít Fulla and his first wife Juliana Klára, created by Martin Kusý Snr. and Ľudovít Fulla.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/17-town-cemetery.mp3"
+        }
+      ]
+    }
   }
 }

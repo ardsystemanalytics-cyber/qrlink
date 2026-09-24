@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/greckokatolicky-biskupsky-palac/",
     "pl": "https://www.qrlink.sk/new/pl/greckokatolicky-biskupsky-palac/",
     "hu": "https://www.qrlink.sk/new/hu/greckokatolicky-biskupsky-palac/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Uniate Bishop´s Palace",
+      "text": "The Bishop’s Palace, which originated from the previous Minorite monastery, forms an inseparable part of the complex of the Greek-Catholic (Uniate) church and other buildings. \n\nIts history started when the buildings housing the city hospital and almhouse were rebuilt into a new monastery which was obtained by the Minorites in 1671. They started to build a new monastery near the Lower City Gate in 1698, on the place where four smaller artisans’ houses had been built originally. \n\nThe Minorites finished their activities in Prešov according to Emperor Joseph’s II order from July 12, 1787 which cancelled the monastery. After the departure of the last friars in 1788, Prešov suffered from a Great Fire which damaged the building of the cancelled Minorite monastery. The reconstruction was supervised by city authorities who decided to place a stable for its military corps in the reconstructed building. \n\nThe seat of the Uniate Vicariate was relocated from Košice to Prešov in 1791. Its seat was in the building of the original Minorite monastery. Pope Pius VII issued a bull entitled Relata Samper on September 22, 1818, by which a Uniate bishopry in Prešov was originated. The whole complex of the original monastery was allotted to the first bishop of the newly-established Prešov Uniate diocese, Gregory Tarkovich (1754-1841). The gradual reconstruction of this complex as well as the reconstruction of the newly-established seat started in this period. \n\nJozef Gaganec, the second bishop of Prešov, had got a large rebuilding of the seat made in 1848. This enabled the creation of the current two-storey building of the palace with its Classicist facade. A big triangle gable (tympanon) was placed above the main gate and a big cupola dominated the middle building. \n\nThe Bishop’s Palace and the temple were damaged during the Soviet air raids on December 20, 1944. Both the buildings started to be reconstructed immediately after World War II. \n\nBoth the buildings – the church and the bishop’s palace – were given into the possession of the Orthodox Church in 1950 when the state authorities decided to eliminate the Uniate Church in Czechoslovakia. The bishop’s palace became a seat of the Prešov Orthodox Church’s Archbishop for four decades up to 1990. The palace has been a seat of the local bishop of the Uniate Church since 1990 in Slovakia and Bohemia.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/17-uniate-bishops-palace.mp3"
+        }
+      ]
+    }
   }
 }

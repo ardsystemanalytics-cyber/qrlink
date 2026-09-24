@@ -31,5 +31,16 @@
     "ru": "https://www.qrlink.sk/new/ru/pamatnik-m-r-stefanika/",
     "pl": "https://www.qrlink.sk/new/pl/pamatnik-m-r-stefanika/",
     "hu": "https://www.qrlink.sk/new/hu/pamatnik-m-r-stefanika/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The monument of M.R.Stefanika",
+      "text": "Milan Rastislav Stefanik was born in Kosariska in family of evangelical pastor Pavol Stefanik and his wife Albertina (born Jurenkova). He was born as the sixth child. After him they had another 6 children. He was Slovak astronomer, photographer, military pilot, brigadier general of the French forces, diplomat and politician. He had the greatest credit at formation of the Czecho-Slovak foreign resistance during the WWI. He played an important role in organizing Czecho-Slovak legions and mediating contacts to French state officers. Together with Tomas Garrige Masaryk and Edvard Benes he was the key person in the establishment of Czecho-Slovakia. Stefanik was vice chairman of Czecho-Slovak national council, minister of war in provisional and then also in newly established Czecho-Slovakia government. On May 4th 1919 Stefanik boarded in the aiport Campoformido in Udine to the airplane Caproni 450 accompanied by two Italian pilots, lieutenant Giotto Mancinelli Scotti and Dergeant Umberto Merlin and mechanic-radiotelegraph Gabriel Aggiust. The end of their way was airport in Bratislava. But the plane has not landed because as it was approaching the place of landing, suddenly felt near Ivanka pri Dunaji. No one stayed alive. Stefanik is buried in the Mohyla na Bradle, a top architect’s work of Dusan Jurkovic. As a sign of his merits in the 1924 the monument of liberation with bust of Stefanik was built which is located in the centre of Turzovka in small park. After him is also named Street of M.R.Stefanika.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/8-2-the-monument-of-m-r-stefanika-5.mp3"
+        }
+      ]
+    }
   }
 }

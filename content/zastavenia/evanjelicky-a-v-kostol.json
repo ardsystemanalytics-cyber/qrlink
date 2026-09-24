@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/evanjelicky-a-v-kostol/",
     "pl": "https://www.qrlink.sk/new/pl/evanjelicky-a-v-kostol/",
     "hu": "https://www.qrlink.sk/new/hu/evanjelicky-a-v-kostol/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "LUTHERAN CHURCH",
+      "text": "A dominant architectural feature of the town; this church was built in the years 1925 to 1926, in a modern spirit with elements of Rondocubism. It was designed by architect Ján Burjan, a native of Ružomberok, who used the original concept of architect Dušan Jurkovič from 1914. The building has a rectangular layout with a pseudo basilica between two transepts with central square tower. A renovation of the exterior took place between 1997 and 1998, and the interior was refurbished in 2004. The building of the Lutheran Presbytery and elementary school from 1923 – 1924 was built according to the design of Dušan Jurkovič. It also belongs to the sacral construction and together with the church they form one connected area.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/15-lutheran-church.mp3"
+        }
+      ]
+    }
   }
 }

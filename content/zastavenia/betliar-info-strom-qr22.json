@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr22/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr22/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr22/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "American linden",
+      "text": "It originates from North America and grows to a height of 30-40 m. It is a massive tree with a broad conical crown. There are several American lindens in the park. The most beautiful ones are located on the left bank of the Betliarský stream in a meadow with white pines. Others are to the right of the second fountain and near the large waterfall."
+    },
+    "hu": {
+      "nazov": "Amerikai hárs",
+      "text": "Észak-Amerikából származik, 30-40 m magasra nő. Hatalmas fa, széles kúpos koronával. A parkban több amerikai hársfa is található. A legszebbek a Betlér-patak bal partján, a simafenyőkkel borított réten találhatók. Továbbiak a második szökőkút jobb oldalán és a nagy vízesésnél találhatók."
+    }
   }
 }

@@ -31,5 +31,16 @@
     "ru": "https://www.qrlink.sk/new/ru/susosie-sv-jana-nepomuckeho-panny-marie-s-jeziskom/",
     "pl": "https://www.qrlink.sk/new/pl/susosie-sv-jana-nepomuckeho-panny-marie-s-jeziskom/",
     "hu": "https://www.qrlink.sk/new/hu/susosie-sv-jana-nepomuckeho-panny-marie-s-jeziskom/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Statue of St. John of Nepomuck, Virgin Mary with baby Jesus",
+      "text": "The stone baroque sculpture dates from 1770 and depicts the Virgin Mary with the baby Jesus. In front of her is the kneeling figure of St. John of Nepomuck. It is located on a high stone plinth and is surrounded by a stone balustrade. In terms of time and style, it corresponds with the Baroque modifications of the church and the Pauline monastery. \n\nSince the decoration in the church is the work of Master Hartman, it is likely that this statue is also from his work. The sculpture itself is unique in its design, because St. John of Nepomuck is usually depicted as a separate figure. The statue is 220 cm high. The sculpture was included in the list of cultural monuments in 1986.\n\nDue to damage caused by the weather, the statue was reconstructed in 2001 by the academic sculptor Ondrej Dzúrik, and after the work was completed, it was placed in the Church of St. Francis of Assisi. A copy of it was placed in its original place, the author of which is academic sculptor Michal Czupil, a native of Vranov nad Topľou.\n\nThere are also solo statues of this saint on the territory of the city and district. One of them is located on the Street of Duklianských  hrdinov, the other in the village of Sedliská under the Čičva Castle by the Ondava River.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/01.mp3"
+        }
+      ]
+    }
   }
 }

@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr16/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr16/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr16/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Birthplace of Július Koššuth",
+      "text": "The family home of the founder of the Pohrebné podporné združenie na Slovensku (Funeral Support Association in Slovakia) was built in the second half of the 19th century. It stands on Okružná Street, and on February 28, 1882, Július Koššuth, founder of the Pohrebné podporné združenie na Slovensku (Funeral Support Association in Slovakia), was born there. He played a major role in the development of the village and lived there his entire life. His house has undergone several renovations and its current appearance is maintained by his heirs, even though it is uninhabited."
+    },
+    "hu": {
+      "nazov": "Koššuth Július szülőháza",
+      "text": "A Pohrebné podporné združenie na Slovensku (Szlovákiai Temetkezést Támogató Egyesület) alapítójának családi háza a 19. század második felében épült. Az Okružná utcában áll, és 1882. február 28-án itt született Koššuth Július, a Pohrebné podporné združenie na Slovensku (Szlovákiai Temetkezést Támogató Egyesület) egyesület alapítója, aki nagy szerepet játszott a település fejlődésében és az egész életét itt élte le. Házát többször átalakították, mai formáját az örökösei fenntartják annak ellenére, hogy a ház már lakatlan."
+    }
   }
 }

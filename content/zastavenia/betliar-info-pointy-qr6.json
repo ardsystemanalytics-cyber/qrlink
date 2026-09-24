@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr6/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr6/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr6/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Forest Administration Building",
+      "text": "The Forest Administration building was originally the seat of the Andrássy family estate administrator and was built in 1900. Later, it also housed the headquarters of the 261st Artillery Unit, and since October 1934, it has been home to the State Forest and Estate Administration, which took over a large part of the Andrássy family’s property in the same year. To this day, the building houses the Forest Administration of the Slovak Republic."
+    },
+    "hu": {
+      "nazov": "Erdőigazgatási épület",
+      "text": "A Správa lesov (Erdőigazgatási Épülete) eredetileg 1900-ban épült, amikor az Andrássy család vagyonkezelőjének székhelye volt. Később itt működött a 261. tüzérségi egység parancsnoksága és 1934 októberétől pedig a Správa štátnych lesov a statkov (Állami Erdő- és Birtokgazdálkodási Igazgatóság) székhelye volt, amely ugyanebben az évben átvette az Andrássy család vagyonának jelentős részét. A mai napig ebben az épületben működik a Správa lesov SR (Szlovák Köztársaság Erdőgazdálkodási Igazgatósága)."
+    }
   }
 }

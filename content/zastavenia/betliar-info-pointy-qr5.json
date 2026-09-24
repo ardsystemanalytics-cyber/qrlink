@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr5/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr5/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr5/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Fire Station",
+      "text": "It is located in the center of the village on the site of a former fire station. As early as 1884, Count Andrássy Emmanuel founded a volunteer fire brigade in the village. The founder of the brigade also purchased the first firefighting equipment and gear. In 1932, a new fire station was built, which is interesting in that it stands on reinforced concrete pedestals across the entire width of the stream. It has a meeting room, garages, and space for firefighting equipment. On the occasion of the 50th anniversary of the founding of the Volunteer Fire Department in the village, the village also purchased a firefighting flag. On the front of the building, a commemorative plaque was unveiled on the occasion of the 120th anniversary of the founding of the Volunteer Fire Department in memory of its distinguished members. In a niche on the other side of the building is a statue of the patron saint of firefighters, St. Florian."
+    },
+    "hu": {
+      "nazov": "Tűzoltóállomás",
+      "text": "A központban, a volt tűzoltó-raktár helyén épült. Már 1884-ben Andrássy Manó gróf önkéntes tűzoltócsapatot alapított a településen. A testület alapítója megvásárolta az első tűzoltó felszerelést és a tűzoltáshoz szükséges eszközöket is. 1932-ben új tűzoltóállomást építettek, amely azért érdekes, mert ez a patak teljes szélességében vasbeton alapokon áll. Van benne tárgyalóterem, garázsok és tűzoltó technika tárolására szolgáló helység is. A önkéntes tűzoltóság alapításának 50. évfordulója alkalmából a település tűzoltósági zászlót is szerzett. Az épület homlokzatán a 120. évforduló alkalmából emléktáblát helyeztek el a Dobrovoľný hasičský zbor (Önkéntes Tűzoltószolgálat) érdemes tagjainak emlékére. Az épület másik oldalán, egy niche-ben található a Szent Florián, tűzoltók védőszentjének szobrocskája."
+    }
   }
 }

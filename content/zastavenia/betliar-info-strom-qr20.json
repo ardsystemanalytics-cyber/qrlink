@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr20/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr20/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr20/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Japanese cherry (sakura)",
+      "text": "It is a tree similar to cherry and originates from East Asia (China, Japan). It grows up to 20 meters high. \n\n \n\nThere are four trees of this species growing in the park, two near the northeast tower of the manor house, in the backdrop of the northeast view, and another two on the clearing north of the manor house."
+    },
+    "hu": {
+      "nazov": "Japáncseresznye (sakura)",
+      "text": "Ez egy cseresznyéhez hasonló fa, amely Kelet-Ázsiából (Kína, Japán) származik. Magassága elérheti a 20 métert. \n\n \n\nA parkban 4 fa nő ebből a fafajból, kettő a kastély északkeleti tornya mellett, a keleti kilátó mögött, a másik kettő pedig a kastélytól északra fekvő tisztáson."
+    }
   }
 }

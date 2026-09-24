@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/radnica/",
     "pl": "https://www.qrlink.sk/new/pl/radnica/",
     "hu": "https://www.qrlink.sk/new/hu/radnica/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "TOWN HALL",
+      "text": "The showcase building in a Neo-Renaissance style was built in 1897 according to the design of the builder Štefan Michalík on the site of the Šustrík Mansion from the 17th century. Jozef Uhlár and Štefan Martoník oversaw a conversion and reconstruction of the interior in 1937 and in 1968 stained glass designed by Róbert Dúbravec was placed in the windows in the central staircase. Since its construction, the building has served as the town hall – the seat of the local authority. The Town Hall building is closely linked to Andrej Hlinka, and between 1898 and 1985 the Roman Catholic parish office was located in the southern wing of the building. This dominant architectural feature was completely renovated between 2001 and 2010.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/18-town-hall.mp3"
+        }
+      ]
+    }
   }
 }

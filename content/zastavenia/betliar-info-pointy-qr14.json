@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr14/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr14/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr14/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Apartment buildings in Nižná Maša",
+      "text": "Two-story apartment buildings from the 19th century built for employees of the former Andrássy and Nádasdy ironworks. The buildings later served as apartments for retirees of the Rimamuránska železiarska spoločnosť (Rimamuránska Ironworks). Today, they are mainly used as recreational dwellings. \n\n \n\nAt the beginning of the 20th century, blast furnaces for smelting iron ore were still in operation in the area, and the remains of stone walls can still be seen nearby. Water from the Slaná River, diverted by an artificial canal that still exists today, powered the turbine of a small hydroelectric power plant until the 1950s."
+    },
+    "hu": {
+      "nazov": "Lakóházak Nižná Mašán",
+      "text": "Kétemeletes lakóházak a 19. századból, amelyeket az Andrássy és Nádasdy családok egykori vasipari vállalkozásának alkalmazottai számára építettek. A házak később a Rimamuránska železiarska spoločnosť (Rimamurányaljai Vasipari Vállalat) nyugdíjasainak lakóhelyéül szolgáltak. Ma elsősorban üdülőhelyként használják őket. \n\n \n\nA 20. század elején a településen még működtek a vasérc olvasztó kemecék, amelyek kőfalai a közeli területen fennmaradtak. A Slaná (Sajó) folyóból egy mesterséges csatornán keresztül elvezetett víz még az 1950-es években is egy kis vízerőmű turbináját hajtotta."
+    }
   }
 }

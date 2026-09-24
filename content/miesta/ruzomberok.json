@@ -21,5 +21,13 @@
     "ru": "https://www.qrlink.sk/new/ru/category/ruzomberok/",
     "pl": "https://www.qrlink.sk/new/pl/category/ruzomberok/",
     "hu": "https://www.qrlink.sk/new/hu/category/ruzomberok/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Ružomberok"
+    },
+    "hu": {
+      "nazov": "Ružomberok"
+    }
   }
 }

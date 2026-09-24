@@ -31,5 +31,11 @@
     "ru": "https://www.qrlink.sk/new/ru/zivcakova-marianske-putnicke-miesto/",
     "pl": "https://www.qrlink.sk/new/pl/zivcakova-marianske-putnicke-miesto/",
     "hu": "https://www.qrlink.sk/new/hu/zivcakova-marianske-putnicke-miesto/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Zivcakova – Marian pilgrimage place",
+      "text": "Similarly to Lourdes, Medjugorje, Fatima, on the hill of Zivcakova there were many revelations. Zivcakova is located about 3 km west form Turzovka. From Turzovka there leads a cross path through the forest with beginning in Turzovka – Vysny koniec and from town settlement Zavodie."
+    }
   }
 }

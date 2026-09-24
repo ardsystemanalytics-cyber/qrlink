@@ -21,5 +21,13 @@
     "ru": "https://www.qrlink.sk/new/ru/category/ivanka-pri-dunaji/",
     "pl": "https://www.qrlink.sk/new/pl/category/ivanka-pri-dunaji/",
     "hu": "https://www.qrlink.sk/new/hu/category/ivanka-pri-dunaji/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Ivanka pri Dunaji"
+    },
+    "hu": {
+      "nazov": "Ivanka pri Dunaji"
+    }
   }
 }

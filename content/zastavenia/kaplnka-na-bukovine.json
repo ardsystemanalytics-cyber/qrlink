@@ -31,5 +31,11 @@
     "ru": "https://www.qrlink.sk/new/ru/kaplnka-na-bukovine/",
     "pl": "https://www.qrlink.sk/new/pl/kaplnka-na-bukovine/",
     "hu": "https://www.qrlink.sk/new/hu/kaplnka-na-bukovine/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The chapel in Bukovina",
+      "text": "A small sacral building in Bukovina standing on the tourist sidewalk has been built in 1945. Initiator was the family Stefankova as symbol of thanks to Virgin Mary’s help during the WWII. \n\nDuring the communism it was purposely damaged. It is a simple, folk styled building with a niche and without a concrete sanctification. In 2017 the chapel was completely repaired, its initiator was family Kontrikova, successors of family Stefankova"
+    }
   }
 }

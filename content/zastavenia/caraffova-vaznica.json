@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/caraffova-vaznica/",
     "pl": "https://www.qrlink.sk/new/pl/caraffova-vaznica/",
     "hu": "https://www.qrlink.sk/new/hu/caraffova-vaznica/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Caraffa´s  Prison",
+      "text": "Caraffa´s Prison is late Gothic building from the beginning of the 16th century, completing the building of city hall today. This is one of the few preserved Gothic monuments in Prešov. \n\nThe building was built in 1504 – 1509 on a plot of a town council member, a painter Peter Moler, whose house in Main Street was purchased by the municipality and adapted to a town wine cellar. The building was used to store wine barrels and other equipment until the end of the 17th century. Moreover, the archival records from 1530 have it that the building was also used as a prison because of its location near the town-hall. \n\nThe building was given its name in the time of the Prešov bloody slaughter-house of Prešov in 1687. Based on an unjust verdict of the Emperor´s general Antonio Caraffa from Naples, 24 Hungarian yeomen and burghers were executed in the square near Evangelic Collegium. \n\nOne of the torture chambers established by Caraffa for examining the accused was situated in the underground places of the present town-hall which, at those times, constituted a single architectonic unit including Caraffa’s prison. However, the victims of Caraffa’s verdict were not imprisoned in this building. The name may have been given later, perhaps after its characteristic shapes. Some written records indicate that the building was also used for keeping check gauges and scales; moreover, it functioned as a town armoury for some time, and as a town prison in the second half of the 19th century. \n\nAt the beginning of the 20th century, the building started to serve for archiving municipal written documents. In 1955-56, the building, especially its interior, was adapted to its future purpose of archiving written documents of Prešov.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/08-caraffas-prison.mp3"
+        }
+      ]
+    }
   }
 }

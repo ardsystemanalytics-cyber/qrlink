@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr25/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr25/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr25/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Norway spruce",
+      "text": "It is remarkable mainly because its branches are conically thickened up to a height of about 4 m. At a height of 4 m, the warty thickenings gradually decrease in size until they disappear completely. (There are two other spruce trees growing in the park that have warty thickened branch bases, but less so than the spruce described above)."
+    },
+    "hu": {
+      "nazov": "Közönséges lucfenyő",
+      "text": "Különösen azért figyelemre méltó, mert körülbelül 4 méteres magasságig a ágak kúposan megvastagodtak. A négy méteres magasságban a törzsön a szemölcsszerű megvastagodások fokozatosan csökkennek, majd teljesen eltűnnek. (A parkban további két, azonos fajtájú lucfenyő nő, amelyeknél az ágak tövénél is fellelhetőek a szemölcsszerű megvastagodások, de kevésbé, mint a leírt fenyőnél)."
+    }
   }
 }

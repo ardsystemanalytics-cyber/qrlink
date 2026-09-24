@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr4/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr4/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr4/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Castle",
+      "text": "The castle, seat of the noble Andrassy family. It was rebuilt into its present form between 1881 and 1886 and was already part of a complex of buildings at that time:"
+    },
+    "hu": {
+      "nazov": "Kastély",
+      "text": "A kastély az Andrássy nemesi család székhelye. Jelenlegi formájára 1881 és 1886 között épült át, és már akkor is egy épületkomplexum része volt:"
+    }
   }
 }

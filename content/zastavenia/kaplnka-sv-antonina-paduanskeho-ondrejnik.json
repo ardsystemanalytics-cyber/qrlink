@@ -31,5 +31,16 @@
     "ru": "https://www.qrlink.sk/new/ru/kaplnka-sv-antonina-paduanskeho-ondrejnik/",
     "pl": "https://www.qrlink.sk/new/pl/kaplnka-sv-antonina-paduanskeho-ondrejnik/",
     "hu": "https://www.qrlink.sk/new/hu/kaplnka-sv-antonina-paduanskeho-ondrejnik/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Chapel of St. Antonín Paduánsky, Ondřejník",
+      "text": "Romantic Chapel of St. Antonín stands in front of the tourist cottage of the Czech Tourist Club Ondřejník and the abandoned cottage Solárka under the peak of the Ondřejník hill. Its location provides a wide view of the surrounding countryside, of Frýdlant nad Ostravicí in the valley, of the whole Ostrava basin and of the massif of Lysá mountain, the highest mountain of the Moravian-Silesian Beskydy. The chapel and the nearby buffet in the Ondřejíček cottage are in the summer and winter frequent destinations of tourists from surrounding areas. Several hiking trails lead from Frýdlant to Ondřejík as well as a comfortable asphalt road.\n\nThe Chapel is a relatively young building. It was built during the construction of a new and modern mountain hotel Solárka in the years 1932-1933 which was built by Oldřich and Františka the Látal from Moravská Ostrava. Solárka was supposed to become a modern hotel in a mountainous environment that would meet all the requirements for a comfortable, hence stylish stay in the mountains. In 1933, in order to make the surroundings more romantic, the owners built a Chapel named after the greatest tourist fan of Ondřejník, prof. Antonín Uřídil from Brno. Although the famous Solárka hotel burnt on 28th August 2002 and its wreckage was pulled down to the stone, the Chapel of st. Antonín still looks into the valley and talks about the former tourist glory of Ondřejník.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/11-chapel-of-st-antonin-paduansky-ondrejnik-1.mp3"
+        }
+      ]
+    }
   }
 }

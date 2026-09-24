@@ -31,5 +31,16 @@
     "ru": "https://www.qrlink.sk/new/ru/centrum-socialnych-sluzieb/",
     "pl": "https://www.qrlink.sk/new/pl/centrum-socialnych-sluzieb/",
     "hu": "https://www.qrlink.sk/new/hu/centrum-socialnych-sluzieb/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Social Service Centrum",
+      "text": "The building of the former monastery and today the Social Services Centre is one of the most extensive architectural monuments in Frýdlant nad Ostravicí. It was built by the Archbishop of Olomouc Bedrich of Furstenberg. In the front of the building there is a neo-romanian religious chapel which is the copy of the St. Paul Basilica in Rome. It is divided into three aisles and has four narrow Romanesque windows. The ceiling above the main aisle is a wooden and coffered and the vaults of the aisles depict a starry sky. The walls and columns are richly decorated with paintings. On the walls there are paintings of St. Cyril and Method, St. Charles and St. Bedrich who supposed to represent the founder of Friedrich’s institution Bedrich of Fürstenberg and who holds the model of the chapel in his left hand. Bedrich of Furstenberg personally consecrated the chapel on 5 November 1876. The concerts are acted in the chapel several times a year.\n\nThe foundation stone for the construction of the Monastery of the Merciful Sisters of St. Karel Boromejski was placed on 28 August 1871. Large beautiful house with wide arched corridors and spacious airy rooms and beautiful chapel in particular show the greatness of the founder – Archbishop of Olomouc Bedrich of Furstenberg. \n\nThe monastery functioned for a long time as a school, it was spoken of as a school in the healthy forest region which provided the youth with all that was needed to strengthen the body and educate the spirit. Results of teaching in constitutional school gained the trust of school inspectors. One of them said:” I entered the house with prejudices against monastic schools but I left looking at it differently, even with enthusiasm!” On 30 October 1877, the school was granted permission to teach. Thanks to the same inspector, the school received on 9 July 1881 the public right. In the last year of the WWII, education was interrupted in order to establish military hospital in the monastery. After the liberation in 1945, the school operated again until the nationalisation of schools in 1948. Between 1963 and 1983, a secondary general education school, later a grammar school, was located in the south wing of the building.\n\nDecree of the Regional National Committee from April 19, 1950 made from the monastery a retirement home. Nursing and some service work were still performed by nuns. Gradually, their number decreased. They have been replaced by civil servants. The last nurses left the monastery after a century of work in Frýdlant at the end of July 1971. The buildings of the Social Services Centre have undergone extensive reconstruction in recent years and have become the dominant of the city.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/3-social-service-centrum-5.mp3"
+        }
+      ]
+    }
   }
 }

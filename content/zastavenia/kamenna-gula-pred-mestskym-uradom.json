@@ -34,5 +34,16 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/turzovka/kamenna-gula-pred-mestskym-uradom-pri-prilezitosti-1-sv-stretnutia-turzovcanov/"
-  ]
+  ],
+  "i18n": {
+    "en": {
+      "nazov": "The stone sphere in front of the Town hall on the occasion of the 1st world meeting of Turzovka people",
+      "text": "The stone sphere is located in front of the Town hall in Turzovka. Every 4 years there is world meeting of Turzovka people. The memory of the first meeting is the monument created by academic artist Ondrej Zimka jr. The first world meeting was in 1998 in occasion of 400th anniversary of establishment of Turzovka. The initiator of the meeting was the Community of friends of Turzovka with their leader Ivan Gajdiciar. The world meeting of Turzovka people and their descendants is held in August, every 4 years in the framework of the Turzovka’s cultural summer and Beskyd festivals which has their own tradition. It is good opportunity for everyone to come visit their native region – Kysuce in this time when on the traditional feast the social and cultural activities culminates. The meetings are characterized by the participation of natives and many personalities of social and political life, well known artists and sportsmen’s. The name “world” has its justification because in the meeting participates natives from America and other distant ends of the world. The visitors of the meeting were e.g. Rudolf Zigmund (general secreatary of the World Congress of Slovaks in USA), Jozef Okuliar or many regular participants e.g. Helena Zahranikova, Ondrej Zimka, Odrej Zimka jr.,Gustav Svabik or Stefan Simak.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/9-the-stone-sphere-in-front-of-the-town-hall-on-the-occasion-of-the-1st-world-meeting-of-turzovka-people-3.mp3"
+        }
+      ]
+    }
+  }
 }

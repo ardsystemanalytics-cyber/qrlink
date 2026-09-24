@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr11/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr11/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr11/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Apartment building in the “Píla” (Sawmill) area",
+      "text": "This original apartment building stands on the site of Count Andrássy’s sawmill, which no longer exists, on the Rožňava – Dobšiná state road. It is a single-story apartment building made of red unplastered bricks built into a wooden truss structure. It is unique and now the only completely preserved example of employee housing on the former forest estate of the Andrássy estate in the village. There were three apartment buildings in it. To this day, it is partially inhabited and continuously maintained in a habitable condition."
+    },
+    "hu": {
+      "nazov": "„Píla“ lakóház (a „Fűrésztelepen“)",
+      "text": "Ez az eredeti lakóház Andrássy gróf ma már nem létező fűrésztelepének helyén áll a Rožňava / Rozsnyó – Dobšiná / Dobsina főút mellett. Ez egy vörös, vakolatlan téglából épült, fagerendás szerkezetbe falazott földszintes lakóház. Érdekes épület, és ma már ez az egyetlen teljesen megőrzött példánya a volt Andrássy-birtok erdőgazdálkodási vállalat alkalmazottai számára fenntartott lakásnak. Ebben három lakás volt. Az épület egy részét a mai napig lakják, folyamatosan karbantartott, lakható állapotban van."
+    }
   }
 }

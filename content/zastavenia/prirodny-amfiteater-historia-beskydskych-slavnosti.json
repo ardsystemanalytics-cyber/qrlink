@@ -31,5 +31,16 @@
     "ru": "https://www.qrlink.sk/new/ru/prirodny-amfiteater-historia-beskydskych-slavnosti/",
     "pl": "https://www.qrlink.sk/new/pl/prirodny-amfiteater-historia-beskydskych-slavnosti/",
     "hu": "https://www.qrlink.sk/new/hu/prirodny-amfiteater-historia-beskydskych-slavnosti/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Natural amphitheater – history of Beskydy Festival",
+      "text": "The town of Turzovka is and has been a fountain of culture and social life since time immemorial. Every year, Turzovka is preparing for its residents and visitors a marathon of events called Turzovka Summer, which starts at the end of June and ends and culminates in the Turzovska Fear in August. For several decades, the International Folklore Festival of the Beskydy Festival has a solid and irreplaceable place in the calendar. The original name of today’s Beskydy Festival was extended. From their inception until 1993 – they were the Beskydy Festival of Czechoslovak reciprocity. Their origins date back to 1968 to show people their diversity, identity, the richness of traditional folk culture preserved in songs, costumes, dances, and customs on both sides of the border. This resulted in a project of Beskydy Festival, which should have been a joint work of three neighbouring districts. In the Frýdek – Místek district, the village of Janovice was event place, in the district of Vsetín it was Rožňov pod Radhošťem and the district of Čadca it was the town of Turzovka. The first common program on the basis of the established statute of Festival took place in Turzovka in 1968. It took place in newly-built amphitheatre in Bukovina, which was built by leader of KaSS František Krišťiak and the director of the Drevoindustria Turzovka Jan Gerek, took the lead. Factory Drevoindustria \n\nnot only provided free materials, prisms and boards for construction, but also involved in the production of the stage and seats of experienced factory workers, thanks to which the construction was completed on time and especially in good quality. A few weeks later The Warsaw Pact Armies entered Czechoslovakia, which caused not only the federal arrangement of state-legal relations but also the exchange of persons in responsible positions in cultural institutions, where new persons came up with new priorities and thus continued the programs in the selected places nor thoughts. Nevertheless, the Beskydy Festival are held in Turzovka, and tens of folklore groups from Kysuce, other Slovak regions and border neighbours were exchanged on stage of Turzovka Amphitheatre. During their history, the Beskydy Festival brought to the city life a rich offer of cultural experiences not only from the Slovak but also from the international folklore scene. Many well-known hosts from abroad – from France, the former Yugoslavia (Croatia, Serbia and Slovenia) and Hungary – have performed here.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/11-natural-amphitheater-history-of-beskydy-festival-3.mp3"
+        }
+      ]
+    }
   }
 }

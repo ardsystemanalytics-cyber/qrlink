@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr33/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr33/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr33/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Common yew",
+      "text": "Yews are among our darkest coniferous trees. All parts of the fruit except the pulp are poisonous. They grow even in dark places and are undemanding in terms of soil. \n\n \n\nYew is a European tree, popularly grown in parks and gardens, and is suitable not only for natural parks but also for architectural parks, as it tolerates pruning well and can be shaped. \n\n \n\nIn our park, on the road to Hermes’ Well, there are nine yews, said to be very old. Their *exact age is difficult to determine* because after 200 to 250 years, their branches begin to grow into a single thicker trunk. Although the thickness of the trunks varies, all nine yews were planted at the same time and we estimate that they are over 300 years old."
+    },
+    "hu": {
+      "nazov": "Közönséges tiszafa",
+      "text": "A tiszafa az egyik legsötétebb tűlevelű fafajunk. Termésének minden része, kivéve a húsát, mérgező. Sötét helyeken is nő, talajigénye alacsony. \n\n \n\nA tiszafa európai fafaj, előszeretettel termesztik parkokban és kertekben. Nemcsak természetes, hanem építészeti parkokba is alkalmas, mert jól viseli a metszést és formálható. \n\n \n\nParkunkban, a Hermész-kút felé vezető út mellett 9 tiszafa nő, állítólag nagyon öregek. Pontos korukat nehéz meghatározni, mert ágai 200-250 év után egy vastagabb törzsbe nőnek össze. Bár a törzsek vastagsága eltérő, mind a 9 tiszafa egyidejűleg volt ültetve, és becslésünk szerint több mint 300 évesek."
+    }
   }
 }

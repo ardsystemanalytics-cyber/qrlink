@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/kaplnka-sedembolestnej-panny-marie-u-blazkov/",
     "pl": "https://www.qrlink.sk/new/pl/kaplnka-sedembolestnej-panny-marie-u-blazkov/",
     "hu": "https://www.qrlink.sk/new/hu/kaplnka-sedembolestnej-panny-marie-u-blazkov/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The chapel of Senven-sorrows Viring Mary in “U Blazkov”",
+      "text": "The construction of the chapel began in 1845, the initiator of the construction was Jozef Bobek. To this day is kept his request to the Bishop of Nitra from July 25th 1845 I which J .Bobek pleases the bishop for permission to build a chapel and informs him that he already has excavated groundworks and the bricked part of the walls. IN 1849 Martin Gajdos from Olesna set up foundation on this chapel. It was sanctified on September 24th 1950. In the small tower there is bell with cross and “Mich hat gestiftet Ortschat Ruhstein im Jahre Heiles 1922” and on the other side with “Oktav Winter, Branau, guss mich 1922, nr1206” (In the year of salvation 1922 the village Rustejn donated me, in 1922 created me Oktav Winter from Broumov, no 1206.)"
+    }
   }
 }

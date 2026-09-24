@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/mestske-hradby/",
     "pl": "https://www.qrlink.sk/new/pl/mestske-hradby/",
     "hu": "https://www.qrlink.sk/new/hu/mestske-hradby/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "City Walls – Florien Port",
+      "text": "City walls were one of the most important urban medieval privileges. The beginning of their construction began in 1374 and the right to build was given to Prešov by the ruler of Louis I. \n\nThe walls were elliptical footprint, have eleven towers, were doubled and a ditch, which was filled with water from stream at the time of danger, was located between them. In 18th century the town became a military function obsolete, because the empress Maria Theresa issued an order to repeal the city walls in 1751. \n\nA system of walls was captured on the map, which made the Prešov geometer Gaspar in 1768, just before their destruction.\n\nUntil today, only a small part of walls maintained. The greatest object of the surviving parts of the city walls is Florien Port on the same street. It served to enter the city on foot and mouth of urban channel. In its present form has been adjusted at the end of the 18th century. In an adjacent building, now it belongs to the Hotel Academy in Prešov. \n\nThe polygonal bastion is the only preserved cannon bastion, standing east of the Franciscan church. In its neighbourhood under Kmeť alley, the preserved part of trench with wall. On the south side of the trench, the Garden of Arts lies in.\n\nThe original bastion, in which is now cafe and restaurant, of the old wall construction period is preserved on Kováčská Street.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/16-city-walls.mp3"
+        }
+      ]
+    }
   }
 }

@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/kalvaria-2/",
     "pl": "https://www.qrlink.sk/new/pl/kalvaria-2/",
     "hu": "https://www.qrlink.sk/new/hu/kalvaria-2/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Calvary",
+      "text": "Prešov is dominated by the baroque complex of Calvary situated on a not very high hill at the western part of the city. In the past, it was considered to be the second most beautiful Calvary in the territory of the Kingdom of Hungary (after Banská Štiavnica). \n\nAs with other Calvaries, its origin is closely related to recatholization and Jesuit activities. Establishment of the Calvary was initiated by the Dying Christ Association founded by Jesuit priests in the early 18th century. Construction of sacral buildings started in 1720 and continued to 1769. However, some chapels of the Way of the Cross were built up in the 19th century, with the construction continuing till 1893. The Christ on the Olive Hill chapel and the Cross were the first objects to be consecrated by the Jesuit superior in the autumn of 1721. Construction of the complex was subsidized by the municipality and by donors, including burghers and local. \n\nThe Calvary complex encompasses the St. Cross church, fourteen chapels of the Way of the Cross, including the Saint Stairway chapel, catacombs, and a cemetary. \n\nThe chapels of the Way of the Cross were built up from 1721 through 1893. All of them are of a similar form, including a gable front decorated with ornaments, the donor’s coat of arms, and a semicircular vaulted entrance portal with a richly decorated lattice. This, however, does not apply to the other dominant building, the Saint Stairway chapel, built up in 1765 after the fashion of the Sancta Scala chapel near the Lateran church in Rome. The building was financed by a Lithuanian duke Radziwill who had the chapel built up out of gratitude for having been provided asylum following his forced escape from Poland. Radziwill’s coat of arms, including an inscription, is placed at the facade above the entrance. The interior includes 28 stairs with a place for relics of the saints, an altar with the Piety sculpture, and wall paintings by O. Trtina. \n\nThe complete cycle of the Way of the Cross encompasses the following chapels: 1. The Last Supper, 2. Jesus on the Olive Hill, 3. Jesus Hit in front of High Priest Annanas, 4. Saint Stairway, 5. Whipping, 6. An Unknown Founder, 7. Jesus Meets Crying Women. 8. The Crucifixion, 9. Christ on the Cross, 10. Removing from the Cross, 11. Resurrection, 13. Doubting Thomas, and 14. Chapel of Ascension. \n\nThe graveyard was established along with the church and the chapels. Originally, it was used for burying the Calvary donors, later for people from near-by town neighbourhoods (Pod Kalváriou, Za Kalváriou), and other people, too. There are several interesting and valuable aristocratic and burgher crypts in the Empire and the historicist styles. In 1836, catacombs were built under the church. They functioned as a crypt for clergymen. When viewed from the city, the wall, including the entrance portal, resembles a fortification wall. \n\nThe whole Calvary complex was thoroughly reconstructed in the period of 1972 through 1983.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/06-calvary.mp3"
+        }
+      ]
+    }
   }
 }

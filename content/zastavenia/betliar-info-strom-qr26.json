@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr26/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr26/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr26/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Dahurian larch",
+      "text": "One of the oldest and largest Dahurian spruce trees in Slovakia."
+    },
+    "hu": {
+      "nazov": "Dahúr-féle vörösfenyő",
+      "text": "Az egyik legrégebb és legnagyobb Dahúr-féle vörösfenyő Szlovákia területén."
+    }
   }
 }

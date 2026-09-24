@@ -31,5 +31,11 @@
     "ru": "https://www.qrlink.sk/new/ru/kaplnka-na-tronce/",
     "pl": "https://www.qrlink.sk/new/pl/kaplnka-na-tronce/",
     "hu": "https://www.qrlink.sk/new/hu/kaplnka-na-tronce/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The Chapel on Tronca",
+      "text": "The Chapel on Tronca stands on touristic footpath passing through the Bukowski Gron to the pass of Kocierska. There is a picture of Mother of God’s Snow. Each first august sunday there are indulgence assembly on which are coming crowds of believers."
+    }
   }
 }

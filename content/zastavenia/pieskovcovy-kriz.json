@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/pieskovcovy-kriz/",
     "pl": "https://www.qrlink.sk/new/pl/pieskovcovy-kriz/",
     "hu": "https://www.qrlink.sk/new/hu/pieskovcovy-kriz/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Sandstone Cross",
+      "text": "The sandstone cross from 1864 was originally situated next to the former Church of St. Stephan located presumably in the town center. The cross is preserved almost in its original form. Cemeteries were often located near churches in the past, and archeological research revealed graves near the church. Historians assume the cross had been a part of the cemetery. Another option is that it was a roadside cross since there had been a trade route. Therefore the location of the object was not random.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/02-sandstone-cross.mp3"
+        }
+      ]
+    }
   }
 }

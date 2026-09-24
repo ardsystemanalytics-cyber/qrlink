@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/frantiskansky-kostol/",
     "pl": "https://www.qrlink.sk/new/pl/frantiskansky-kostol/",
     "hu": "https://www.qrlink.sk/new/hu/frantiskansky-kostol/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Franciscan church of St. Joseph",
+      "text": "A baroque single-nave Roman Catholic Church with a two-spire facade, connected with the monastery at the northern side. It was consecrated to St. Joseph and with its dimensions belongs to big cathedrals. \n\nAbout 1830, a Carmelite Order built up a new church and a small monastery exactly in the place of the original church in the 11th century. The friars moved away in 1559 and both buildings devolved to municipal administration that, during the Reformation, used the monastery for economic and defensive purposes. \n\nBased on Emperor Leopold’s I (1657-1705) order from 1661, the church and the monastery devolved to the Franciscan Order from near-by Nižná Šebastová. Thanks to financial support from Baron Ferenc Klobusiczky from Prešov and Baroness Sóos from Solivar, the Gothic church was soon reconstructed, notably the presbytery and the nave lateral shrines were added to the letter’s pillars. \n\nThe complete facade with two lateral spires was modified copying the Jesuitical church in Rome. Extensive reconstruction of the church and the monastery was done by Johannes Tornyossi thanks to financial support from the Klobusiczkys in 1708-1718. The monastery has four altars and a pulpit. \n\nConstruction works were also implemented in the following period. From 1732 to 1735, the monastery facade was completed with stucco ornaments and four sandstone sculptures (1734) representing St. Rocha, St. Florien, St. Francis and St. Anton. They were created by Simon Griming. \n\nThe church interior was beautifully adapted. The new main altar of St. Family (1732) was given a rich sculptural decoration. Its author Francisco Strecius provided it with over 40 different sculptures, with 12-year-old Jesus, the Virgin Mary, and St. Joseph to whom the church was consecrated. The consecration ceremony in the reconstructed monastery took place in 1735. The church became another demonstration of sacral arts in Prešov. \n\nAnother stage of extensive construction works dates back 50 years later, following the big fire in December 1870 that destroyed the church interior, including the main altar. The reconstruction was money-consuming, however, another fire on December 3, 1888, burnt down the slim church spires. The remains of the spires were preserved up to present days without any significant interventions. \n\nFranciscan church of St. Joseph underwent necessary general reconstruction in 1984-1991.Sandstone portals, almost all windows and ledges, the church and spire roofs, and even the church clock were replaced. The monastery reconstruction was completed in 1993.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/04franciscanchurch.mp3"
+        }
+      ]
+    }
   }
 }

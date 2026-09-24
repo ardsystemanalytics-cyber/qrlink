@@ -31,5 +31,16 @@
     "ru": "https://www.qrlink.sk/new/ru/lyziarske-stredisko-bukovina-javornicko-beskydska-magistrala/",
     "pl": "https://www.qrlink.sk/new/pl/lyziarske-stredisko-bukovina-javornicko-beskydska-magistrala/",
     "hu": "https://www.qrlink.sk/new/hu/lyziarske-stredisko-bukovina-javornicko-beskydska-magistrala/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The Ski areal Bukovina",
+      "text": "The recreation centre Bukovina is located 2km from the centre of Turzovka in the region Kysuce. The areal offers accommodation and catering services. There are available two ski lifts with length of 500m and 600m with a transport capacity of 1250 persons per hour. The slopes are suitable for both beginners and advanced skier. They are edited daily by snow-strap vehicles. There is also possibility of evening skiing as there is a slope with artificial lightning. The accommodation capacity is 45 beds. 18 beds are in the main bungalow in double, triple and quadruple rooms with social equipment. Nearby there is cross-country route named “Besky – Javorniky Artery”. The main length is 54km which is blaming from the borders with the Czech Republic in Makov – Velky Javornik – Bumbalka and through the mountain Javorniky to the Cadca – Husarik. Another paths are created by alternatives, to get off or get on the main path and their total length is 42 km. Tourists from Czechia can join in Makov-Bumbalka, in the Makov Pass (“U tabuli”) and in Klokocov-Konecna. On the ridge of the Javorniky, besides the immutable atmosphere of the settlements, accompanies tourists also the unique gallery in nature which was created by the artists from Kysuce and Povazie.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/10-the-ski-areal-bukovina-1.mp3"
+        }
+      ]
+    }
   }
 }

@@ -740,7 +740,9 @@ function renderZastavenie() {
     QA("#gStrip img").forEach((img, j) => img.classList.toggle("active", j === i));
   }
 
-  if (z.audio && z.audio.length) renderPlayer(z.audio[0]);
+  // Nahrávka v aktuálnom jazyku, ak existuje (napr. anglická), inak slovenská.
+  const audio = tc(z, "audio");
+  if (audio && audio.length) renderPlayer(audio[0]);
   else Q("#playerHost").remove();
 
   const dText = Q("#dText");

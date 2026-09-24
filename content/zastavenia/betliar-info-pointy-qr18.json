@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr18/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr18/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr18/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The farm building of Betliar Manor House",
+      "text": "The building belongs to a complex of buildings from a former 19th-century farmstead, which consisted of two horse stables, an adjacent farmyard, a barn, a coachman’s house, and a separate coach house. The gables of the buildings are decorated with reliefs of horse heads. Two adjacent buildings, which are currently used as a restaurant and guesthouse, served the same purpose in the past."
+    },
+    "hu": {
+      "nazov": "A betliari (betléri) kastély gazdasági épülete",
+      "text": "Az épület egy 19. századi egykori gazdaság épületegyütteséhez tartozik, amely két lóistállóból, egy szomszédos udvarból, egy pajtaépületből, a kocsis házából és egy különálló kocsiszínből állt. Az épületek oromzatát lófejek dombornyomata díszíti. A két szomszédos épület a múltban ugyanezt a célt szolgálta, amelyek jelenleg étteremként és panzióként működnek."
+    }
   }
 }

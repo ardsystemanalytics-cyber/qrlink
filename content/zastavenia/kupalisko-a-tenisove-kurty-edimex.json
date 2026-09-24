@@ -31,5 +31,11 @@
     "ru": "https://www.qrlink.sk/new/ru/kupalisko-a-tenisove-kurty-edimex/",
     "pl": "https://www.qrlink.sk/new/pl/kupalisko-a-tenisove-kurty-edimex/",
     "hu": "https://www.qrlink.sk/new/hu/kupalisko-a-tenisove-kurty-edimex/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Swimming pool and tennis courts Edimex",
+      "text": "Swimming pool in Frýdlant nad Ostravicí offers to visitors a heated outdoor swimming pool with dimensions of 50x22m. For children, there is prepared small swimming pool with dimensions of 12x12m. The visitors of the swimming pool can use 60m long water slide and volleyball or football tennis fields. In the area, there are changing rooms, small buffet area, tennis court and parking lot. \n\nSwimming pool in Frýdlant is located on the outside area of the town and thanks to its location among tall trees it offers calmness, privacy and relaxing atmosphere without disturbances caused by road traffic. \n\nEdimex tennis hall, which is the largest covered tennis centre in Moravia, is in very small distance from the swimming pool. It offers central court with the tribune for 300 spectators, 3 other courts without tribunes, a gym, a regeneration studio, a shop with tennis merchandise and a tennis bar. Halls can be rented for various sport or cultural events."
+    }
   }
 }

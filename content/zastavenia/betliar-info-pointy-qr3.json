@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr3/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr3/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr3/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Evangelical Church of the Augsburg Confession",
+      "text": "The Evangelical Church of the Augsburg Confession was built in 1786 after Emperor Joseph II issued his Patent of Toleration, in accordance with the regulations of the time, without a tower or bells. The Classicist tower was added in 1826, and a new entrance to the church was opened underneath it. The original southern entrance with a brick vestibule has been preserved. The longitudinal hall of the church, vaulted with late Baroque vaults, has an interesting acute-angled closure. Here is a brick column altar with a painting of Christ and the Samaritan Woman at the Well from 1838, which is one of the best works by the important Levoča painter Jozef Czauczik. \n\n \n\nThe church building and tower were damaged by fire and burned to the ground in 1856. However, it was immediately rebuilt and remained intact until 1911, when the roof of the church was covered with eternit and the tower with sheet metal. The church was renovated in 1937. The last interior renovations took place in the 1990s. In 2006, the church tower was given new copper roofing, and in 2008, the roof of the nave was replaced."
+    },
+    "hu": {
+      "nazov": "Ágostai hitvallású evangélikus templom",
+      "text": "Az ágostai hitvallású evangélikus templomot 1786-ban építették II. József császár türelmi rendelete nyomán, az akkori előírásoknak megfelelően torony és harangok nélkül. A klasszicista tornyot csak 1826-ban építették hozzá, alatta a templomba új bejáratot nyitottak. Az eredeti déli bejárat a tégla előcsarnokával együtt fennmaradt. A késő barokk boltívekkel fedett, hosszúkás templomterem érdekes, éles szögben zárul. Itt található a téglából készült oszlopos oltár, amelyen Krisztus és a szamaritánus asszony a kútnál című, 1838-ból származó festmény látható, amely a jelentős levočai (lőcsi) festő, Czauczik Jozef egyik legkiemelkedőbb alkotása. \n\n \n\nA templom épületét és tornyát tűzvész sújtotta és 1856-ban porig égett. Azonban hamarosan újjáépítették, és 1911-ig sértetlenül állt, amikor a templom tetőjét palával, a tornyot pedig fémlemezzel borították. 1937-ben a templomot felújították. Az utolsó belső átalakítások a templomban a múlt század 90-es éveiben történtek, 2006-ban a templom tornya új rézborítást kapott, 2008-ban pedig a templom hajójának tetőborítását cserélték ki."
+    }
   }
 }

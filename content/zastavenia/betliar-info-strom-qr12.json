@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr12/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr12/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr12/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Sculptures",
+      "text": "In the past, there were several sculptures in the park, some of which were made according to designs by 19th-century French sculptors. In 2005, three rare sculptures were stolen: a statue of Knight Árpád (very beautiful), a rare Buddha statue that disappeared from in front of the ticket office (located near the fountain), and a statue of a black man that was cast in the ironworks in Drnava."
+    },
+    "hu": {
+      "nazov": "Szobrászat",
+      "text": "A múltban a parkban több szobor is állt, melyek közül néhányat 19. századi francia szobrászok tervei alapján készítettek. 2005-ben három értékes szobrot tulajdonítottak el: Árpád lovag szobrát (nagyon szép), egy értékes Buddha-szobrot, amely a pénztár előtt (a szökőkút közelében) állt, valamint egy néger ember szobrát, amelyet a dernői vasműben öntöttek."
+    }
   }
 }

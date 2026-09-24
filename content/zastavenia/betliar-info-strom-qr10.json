@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr10/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr10/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr10/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Japanese Bridge",
+      "text": "Also known locally as the “Kalapový most“ („Hut Bridge”), it was built during the second half of the 1880s, when East Asian elements were beginning to influence our culture. The wooden structure has a hat-shaped tin roof with raised edges, typical of Japanese gazebos. \n\n \n\nThe original bridge was destroyed by a flood in 1971, and a faithful replica was built in 1979. (According to some sources, there was a Japanese garden on the left bank of the stream)."
+    },
+    "hu": {
+      "nazov": "Japán híd",
+      "text": "A helyiek által „Kalapos híd” néven emlegetett híd a kelet-ázsiai elemek kultúránkra való ráhatásának idején, a 19. század második felében épült. A fa szerkezeten kalap alakú fémtető található, emelt szélekkel, amelyek a japán pavilonokra jellemzőek. \n\n \n\nAz eredeti hidat 1971-ben elsodorta a víz, majd 1979-ben építették meg a híd pontos mását. (Egyes adatok szerint a patak bal partján japán kert volt.)"
+    }
   }
 }

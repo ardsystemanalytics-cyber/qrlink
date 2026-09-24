@@ -17,5 +17,13 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/bludisko/"
-  ]
+  ],
+  "i18n": {
+    "en": {
+      "nazov": "Test 2. podkategoria enviro"
+    },
+    "hu": {
+      "nazov": "Test 2. podkategoria enviro"
+    }
+  }
 }

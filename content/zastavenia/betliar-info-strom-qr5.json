@@ -31,5 +31,15 @@
     "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr5/",
     "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr5/",
     "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr5/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Hermes’ Well",
+      "text": "This small round stone structure with a dome was built as a place to rest, relax, and refresh oneself after long walks through the park. It is designed as a cave with lighting through an opening in the dome. The appearance of the well is inspired by ancient baths with a pool and statues. The center of the composition was dominated by the slender figure of a naked young man leaning against a tree trunk entwined with vines, flanked by two amorettos sitting on dolphins and blowing conch shells. The entire scene was illuminated by a circular opening in the dome filled with colored glass. These have long since disappeared, and the stone dome has also collapsed and been replaced by a concrete one. In the early 1990s, one of the amoretto sculptures on the dolphin disappeared, and soon after, the two remaining sculptures were violently broken and are now stored in pieces in the museum’s depository. This small structure is known as Hermes’ Well; it is not known who gave it this name, because the young man in the cave was not Hermes, the god of trade and messenger of the gods, but Bacchus, the god of good wine and unrestrained celebrations – bacchanalia. **Hermes’ Well is a small piece of park architecture from the 1790s.**"
+    },
+    "hu": {
+      "nazov": "Hermész-kút",
+      "text": "Ez a kis, kerek, kupolás kőépület *pihenőhelyként, kikapcsolódásra és felfrissülésre szolgál* a parkban tett hosszú séták után. Barlangként van kialakítva, a kupola nyílásán keresztül fény világlik be. A kút kinézete az ókori fürdőket idézi, medencével és szobrokkal. A kompozíció közepét egy szőlővel befuttatott fa törzsének dőlő, karcsú, mezítelen fiatal férfi alakja határozta meg, oldalán két amorett delfineken ült és kagylót fújt. Az egész jelenetet a színes üvegekkel kitöltött kupola kör alakú nyílásán át beáramló fény világította meg. Ezek már régen eltűntek, a kőkupola is leomlott, és betonnal helyettesítették. Az 1990-es évek elején először az egyik delfinen ülő amorett szobor tűnt el, majd nem sokkal később a két megmaradt szobrot is erőszakkal összetörték – darabjait a múzeum raktárában őrzik. Ez a kis építmény Hermész kútjaként ismert; nem tudni, ki adta neki ezt a nevet, mert a barlangban nem Hermész a kereskedelem istene és az istenek hírvivője volt ábrázolva,  hanem Bacchus, a jó bor és a féktelen ünnepségek – a bacchanáliák – istene. Hermész kútja egy kis parképület a **18. század 90-es éveiből.**"
+    }
   }
 }

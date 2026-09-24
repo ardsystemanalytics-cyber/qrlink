@@ -31,5 +31,16 @@
     "ru": "https://www.qrlink.sk/new/ru/socha-bretislav-benda-mladosti-a-krase-patri-buducnost/",
     "pl": "https://www.qrlink.sk/new/pl/socha-bretislav-benda-mladosti-a-krase-patri-buducnost/",
     "hu": "https://www.qrlink.sk/new/hu/socha-bretislav-benda-mladosti-a-krase-patri-buducnost/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "“The future belongs to Youth and Beauty” statue by Bretislav Benda",
+      "text": "The sculpture of a female figure named “The future belongs to Youth and Beauty” was created in 1955 by a prominent Czech sculptor, a national artist named Břetislav Benda, as a gift to the construction manager of the Woodworking Company in Hencovce, which was later renamed Bukóza. It was initially located directly in the plant area in front of the pulp mill. In addition, Benda also created a sculpture depicting the wood processing technology in the plant. The sculpture was located at the front entrance of the building. In his own words, the artist “does not know a motif more precious than the human body, especially the female’s”, therefore the sculpture was a female figure in its natural form. Problems began after the installation of the statue. The fumes and lyes used in the brewery began to damage and contaminate the statue. The men employed in the plant started to dress the statue in women’s underwear. This attracted the attention of political leaders and contributed to its removal from the plant premises. Vranov nad Topľou bought the statue for 70,000 crowns and located it in a fountain in the central park. It’s been said that the secretary of the Central Committee of the Communist Party Vasil Biľak also wanted to remove the statue from the city. In the 1990s, it was damaged by misbehaving citizens. After repairs and restoration, it was placed in the city’s depository and in 2012, after the revitalization of the city park, it returned to the square.\n\nBretislav Benda was born on March 28, 1897, in the town of Milevsko in the Czech republic. He studied at the Academy of Fine Arts, where he was a student of Josef Václav Myslbek. His studies were interrupted by the First World War and in 1916 he had to enlist in the army. While on the Italian front, he suffered a severe palm injury on both hands during a machine-gun fire. After returning from the front, he finished his studies in the studio of another important sculptor, Ján Šturs. A significant step in his career was his membership in the prestigious association Mánes. He joined in 1923. His sculptures include politicians such as T.G. Masaryk or E. Beneš, as well as soldiers and motifs of a female figure. He received a gold medal for the beautiful sculpture called Demeter and Bozena at the International Exhibition of Decorative Arts in Paris in 1925. Benda died in 1983 in Prague and is buried in the Vyšehrad cemetery. He is one of the most important sculptors of the 20th century.\n\n![](/assets/images/migrated/webp-net-resizeimage5.jpg)",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/future.mp3"
+        }
+      ]
+    }
   }
 }

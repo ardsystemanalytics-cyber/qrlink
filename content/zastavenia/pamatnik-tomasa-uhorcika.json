@@ -31,5 +31,16 @@
     "ru": "https://www.qrlink.sk/new/ru/pamatnik-tomasa-uhorcika/",
     "pl": "https://www.qrlink.sk/new/pl/pamatnik-tomasa-uhorcika/",
     "hu": "https://www.qrlink.sk/new/hu/pamatnik-tomasa-uhorcika/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The Monument of Tomas Uhorcik",
+      "text": "Tomas Uhorcik was friend of Juraj Janosik and leader of the brigands group at Kysuce. He was born in Turzovka – Predmier in 1680. He was brigand for 9 years and into his group he got Juraj Janosik in 1711 with who he was in prison in the Bytca castle, from which probably Janosik helped him to escape in autumn of 1710 after which he hide himself at the “Lazy” in Velke Rovne. \n\nHe met Janosik on the fair in Liptovsky Mikulas, later he was smuggling horses from Poland with him. They also participated in several bandit actions at Moravia. But Uhorcik got married with the daughter of shepherd Stoliga and the position of ruler of his group he gave to Janosik. \n\nUhorcik accepted name Martin Mravec and moved to Klenovec where he also became local officer – “hajduch”. After the death of Janosik in 1713 his identity was revealed. Uhorcik was tormented and he admitted that he was a bandit. He was executed a month after the execution of Janosik by the breaking on the wheel. The memorial of native of Turzovka Tomas Uhorcik from the academic artist Ondrej Zimka jr. has been revealed during the Beskyd festival 2013 when we remembered the 300 years since his execution. With this occasion there was a try to title in the book of records named “Treasures of Tomas Uhorcik” when people could manually make a gold coin for luck. The gold coin you can make even now in the International information center in Turzovka.",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/8-3-the-monument-of-tomas-uhorcik-1.mp3"
+        }
+      ]
+    }
   }
 }

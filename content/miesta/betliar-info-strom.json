@@ -16,5 +16,13 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/info-strom/"
-  ]
+  ],
+  "i18n": {
+    "en": {
+      "nazov": "English Park at the Andrássy Mansion in Betliar"
+    },
+    "hu": {
+      "nazov": "Angol park az Andrássy-kastélynál Betliáron"
+    }
+  }
 }

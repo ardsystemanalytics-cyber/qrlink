@@ -31,5 +31,11 @@
     "ru": "https://www.qrlink.sk/new/ru/osada-kolonia-v-style-witkiewiczovcov/",
     "pl": "https://www.qrlink.sk/new/pl/osada-kolonia-v-style-witkiewiczovcov/",
     "hu": "https://www.qrlink.sk/new/hu/osada-kolonia-v-style-witkiewiczovcov/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The settlement „Kolonia“ in the Witkiewicz style",
+      "text": "The Kolonia is the settlement of lovely wooden huts in the Witkiewicz style built between wars for the builders of the dam in Porabka. With a view on numerous and rare exemplars of trees and ornamental shrubs it creates impression of the well-maintained park. It is an atractive walking route."
+    }
   }
 }

@@ -154,7 +154,12 @@ function reuseFromRecord(record, url) {
     if (record.i18n && typeof record.i18n === "object") {
       for (const lang of Object.keys(record.i18n)) {
         const v = record.i18n[lang];
-        if (v && typeof v === "object") { v.text = await fixText(v.text); v.popis = await fixText(v.popis); }
+        if (v && typeof v === "object") {
+          v.text = await fixText(v.text);
+          v.popis = await fixText(v.popis);
+          // preložené audio (napr. anglická nahrávka) - rovnako ako hlavné "audio"
+          if (Array.isArray(v.audio)) for (const item of v.audio) if (item && typeof item === "object") item.url = await fixField(item.url);
+        }
       }
     }
 

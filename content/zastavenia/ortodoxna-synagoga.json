@@ -28,5 +28,16 @@
     "ru": "https://www.qrlink.sk/new/ru/ortodoxna-synagoga/",
     "pl": "https://www.qrlink.sk/new/pl/ortodoxna-synagoga/",
     "hu": "https://www.qrlink.sk/new/hu/ortodoxna-synagoga/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Jewish Orthodox Synagogue",
+      "text": "Complex of objects of Prešov Orthodox Jewish religious community originated from the 80s of the 19th century to the mid 30s of the 20th century. It was closed as a separate district in the area behind the former town walls. \n\nThe orthodox synagogue is located in the courtyard centre, between the rabbinate and the school. This is the only synagogue in Prešov which still serves its original purpose. It was built up in 1898 based on the design of a synagogue in the town Tokai and served as a sacral building, constructed in the Moorish style with some orientalising elements. \n\nThe relatively austere neo-Romanesque-Moorish facades hide treasure of synagogue architecture. The richly decorated interiors with fully conserved inventory belong to among the most attractive of Jewish monuments in Slovakia. Apart from the almemor, the interior is provided with one more precious object: the tabernacle, (aron hakodesh) which demonstrates remarkable craftsmanship, was made by Bacsó, a sculptor from Košice. The whole interior is decorated by Andreas Grazi’s beautiful ornamental paintings. They have preserved their original richness, expressiveness, and form. \n\nThe synagogue fulfilled its purpose until 1942. In the spring and summer of 1942, it was here and at the neighbouring premises, where Prešov Jews were concentrated immediately before deportations. Several thousand Prešov citizens were sent by Hlinka guardists to transports directed to concentration camps. During the occupation of Prešov, the synagogue was turned into a stable and a garage of the German army. \n\nFollowing liberation, the building functioned as a canteen for home-comers. When the necessary repairs were done and the interior was appropriately furnished, the building was consecrated in 1948. Ever then it has been serving as the only synagogue of the only Jewish community in Prešov. \n\nThis being the most beautiful functional synagogue in Slovakia, Jews from Los Angeles attempted to purchase and move it to the USA in 1989-90, however, they failed. In August 1991, the leading representatives of the Slovak Republic took part in a ceremony of unveiling a memorial to over 6,000 victims of the Holocaust from Prešov and its neighbourhood. \n\nIn November 1993 the Slovak National Museum installed in the second storey of the synagogue (women’s gallery) a part of the collections from the pre-war Jewish museum in Prešov which were returned from Prague. A permanent exposition of Bárkány’s collection is a unique combination and harmony of the collections and the interior of one of the most beautiful synagogues in our country.\n\nOpening hours: \n\nMonday: closed \n\nTuesday: 11 am – 3 pm \n\nWednesday: 11 am – 3 pm \n\nThursday: 9 am – 1 pm \n\nFriday: 9 am – 1 pm \n\nSaturday: closed \n\nSunday: 2 pm – 4 pm\n\nAddress: \n\nOrthodox synagogue \n\nOkružná 32 \n\n080 01 Prešov\n\nTel.: 051 / 773 16 38 \n\nwww.snm.sk",
+      "audio": [
+        {
+          "url": "assets/audio/migrated/05-jewish-orthodox-synagogue.mp3"
+        }
+      ]
+    }
   }
 }
