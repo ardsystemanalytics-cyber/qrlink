@@ -32,6 +32,21 @@ function readFolder(folderPath) {
     .map(f => readJSON(path.join(folderPath, f)));
 }
 
+// Pekné URL (rovnaké ako mal starý web, len bez "/new/") – odvodené z
+// "povodnaUrl.sk" uloženého pri migrácii zo starého webu (pozri
+// scripts/migrate-from-old-site.js). Vracia napr. "/category/betliar/"
+// alebo "/castles/hlavne-nadvorie/" (vždy s úvodným aj koncovým lomítkom,
+// zhodne s "trailingSlash": true vo vercel.json). Nová (nemigrovaná)
+// položka bez povodnaUrl nemá starý WP náprotivok – použije sa fallback.
+const OLD_SITE_PREFIX = "https://www.qrlink.sk/new/";
+function prettyUrl(record, fallback) {
+  const sk = record.povodnaUrl?.sk;
+  if (sk && sk.startsWith(OLD_SITE_PREFIX)) {
+    return "/" + sk.slice(OLD_SITE_PREFIX.length);
+  }
+  return fallback;
+}
+
 const kategorie = readFolder(path.join(CONTENT, "kategorie"))
   .sort((a, b) => (a.poradie ?? 0) - (b.poradie ?? 0))
   .map(({ poradie, ...k }) => k); // "poradie" je len pomocné pre zoradenie, do data.js sa nedáva
@@ -40,7 +55,10 @@ const miesta = readFolder(path.join(CONTENT, "miesta"))
   .sort((a, b) => (a.poradie ?? 0) - (b.poradie ?? 0))
   // "poradie"/"hlavnaKategoria"/"korenoveMiesto" sú len pomocné polia
   // (zoradenie + zoskupovanie v Decap CMS), do data.js sa nedávajú
-  .map(({ poradie, hlavnaKategoria, korenoveMiesto, ...m }) => m);
+  .map(({ poradie, hlavnaKategoria, korenoveMiesto, ...m }) => ({
+    ...m,
+    url: prettyUrl(m, `/kategoria.html?id=${m.id}`),
+  }));
 
 // "audio"/"galeria" sú v Decap CMS "list" polia s jedným pod-poľom ("url"),
 // takže sa v content/*.json vždy ukladajú ako [{url: "..."}, ...] – presne
@@ -54,7 +72,13 @@ const zastavenia = readFolder(path.join(CONTENT, "zastavenia"))
     // "hlavnaKategoria"/"projekt"/"miestoNazov" sú len pomocné polia na
     // zoskupovanie/popisky v Decap CMS (/admin), do data.js sa nedávajú
     // – app.js ich nepozná/nepotrebuje.
-    const out = { ...z, text: mdToHtml(z.text), audio: urlListToStrings(z.audio), galeria: urlListToStrings(z.galeria) };
+    const out = {
+      ...z,
+      text: mdToHtml(z.text),
+      audio: urlListToStrings(z.audio),
+      galeria: urlListToStrings(z.galeria),
+      url: prettyUrl(z, `/zastavenie.html?id=${z.id}`),
+    };
     if (out.i18n) {
       out.i18n = Object.fromEntries(Object.entries(out.i18n).map(([lang, v]) =>
         [lang, v && v.text ? { ...v, text: mdToHtml(v.text) } : v]
@@ -90,3 +114,56 @@ const DB = ${JSON.stringify(DB, null, 2)};
 
 fs.writeFileSync(path.join(ROOT, "js/data.js"), output, "utf8");
 console.log(`js/data.js vygenerovaný: ${kategorie.length} kategórií, ${miesta.length} miest, ${zastavenia.length} zastavení.`);
+
+// ---------------------------------------------------------------------
+// Pekné URL (2/2): mapa pre middleware.mjs ("stará cesta bez /new/" ->
+// "skutočná stránka") + sitemap.xml. Generuje sa tu (nie ručným
+// jednorazovým skriptom), aby nikdy nezaostávala za obsahom – zakaždým,
+// keď sa nasadí nová/zmenená stránka z Decap CMS, prebehne aj toto.
+//
+// Písané ako .mjs (ES modul so "export default"), nie .json - Vercel Edge
+// Middleware beží v obmedzenom runtime bez prístupu k "fs" a JSON importy
+// bez nastaveného "type":"module" v package.json (ktoré by rozbilo ostatné,
+// bežné CommonJS skripty v tomto projekte) nie sú spoľahlivé naprieč
+// verziami; obyčajný "export default {...}" funguje vždy.
+const SITE_ORIGIN = "https://qrlink.sk";
+
+// Kľúč = pekná cesta (bez /new/, bez jazyka) -> hodnota = SKUTOČNÁ interná
+// stránka, ktorú middleware.mjs má vykresliť (nie "record.url" - to je tá
+// istá pekná cesta, ktorá by inak ukazovala sama na seba).
+const urlMap = {
+  "": "/",
+  "hrady-a-zamky": "/",
+  "environmentalna-vychova-a-vzdelavanie": "/",
+  "kontakt": "/kontakt.html",
+};
+function addToUrlMap(record, internalPath) {
+  const sk = record.povodnaUrl?.sk;
+  if (sk && sk.startsWith(OLD_SITE_PREFIX)) {
+    const restPath = sk.slice(OLD_SITE_PREFIX.length).replace(/\/$/, "");
+    urlMap[restPath] = internalPath;
+  }
+}
+for (const m of miesta) addToUrlMap(m, `/kategoria.html?id=${m.id}`);
+for (const z of zastavenia) addToUrlMap(z, `/zastavenie.html?id=${z.id}`);
+fs.mkdirSync(path.join(ROOT, "lib"), { recursive: true });
+fs.writeFileSync(
+  path.join(ROOT, "lib", "pretty-url-map.mjs"),
+  `// AUTOMATICKY VYGENEROVANÉ - pozri scripts/build-data.js\nexport default ${JSON.stringify(urlMap, null, 2)};\n`,
+  "utf8"
+);
+
+const sitemapUrls = [
+  "/",
+  "/kontakt/",
+  ...miesta.map((m) => m.url),
+  ...zastavenia.map((z) => z.url),
+];
+const sitemapXml =
+  `<?xml version="1.0" encoding="UTF-8"?>\n` +
+  `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
+  sitemapUrls.map((u) => `  <url><loc>${SITE_ORIGIN}${u}</loc></url>`).join("\n") +
+  `\n</urlset>\n`;
+fs.writeFileSync(path.join(ROOT, "sitemap.xml"), sitemapXml, "utf8");
+
+console.log(`lib/pretty-url-map.mjs: ${Object.keys(urlMap).length} ciest. sitemap.xml: ${sitemapUrls.length} URL.`);

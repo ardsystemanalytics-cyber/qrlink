@@ -69,6 +69,11 @@ collections:
     format: "json"
     slug: "{{id}}"
     identifier_field: nazov
+    # Pekné URL (napr. "/category/betliar/") sa počítajú z "povodnaUrl" pri
+    # builde (scripts/build-data.js) - nedajú sa vyjadriť jednoduchou šablónou
+    # tu (nepravidelná, ľubovoľne vnorená štruktúra prevzatá zo starého webu),
+    # preto náhľad vedie na vždy funkčnú internú adresu s ?id=.
+    preview_path: "kategoria.html?id={{id}}"
     # V /admin sa pri Miestach objaví rozbaľovacie "Group by" – zoznam si
     # vieš rozdeliť buď podľa hlavnej kategórie, alebo podľa toho, pod
     # ktoré (hlavné) miesto podkategórie/trasy patria.
@@ -204,6 +209,8 @@ collections:
     extension: "json"
     format: "json"
     slug: "{{id}}"
+    # Pozri poznámku pri "preview_path" v kolekcii "miesta" vyššie - rovnaký dôvod.
+    preview_path: "zastavenie.html?id={{id}}"
     identifier_field: nazov
     # Predvolené zoradenie v zozname (aj v rámci skupín nižšie) –
     # rovnaké poradie, v akom sa zastavenia zobrazujú na webe.

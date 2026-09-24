@@ -6,6 +6,7 @@
     "build": "node scripts/build-data.js"
   },
   "dependencies": {
+    "@vercel/functions": "^3.9.9",
     "marked": "^18.0.9"
   }
 }

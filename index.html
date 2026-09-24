@@ -8,6 +8,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="QR LINK – Sprievodca, ktorý čaká na mieste">
   <meta property="og:description" content="QR LINK – digitálny sprievodca po mestách, pamiatkach a náučných chodníkoch. Naskenujte QR kód priamo na mieste a počúvajte príbeh.">
+  <link rel="canonical" href="https://qrlink.sk/">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@3/dist/maplibre-gl.css"/>
@@ -76,12 +77,12 @@
 
 <header class="site-header">
   <div class="wrap">
-    <a class="logo" href="index.html" aria-label="ARDSYSTÉM – domov"><img src="img/logo-ardsystem.png" alt="ARDSYSTÉM, s. r. o."></a>
+    <a class="logo" href="/" aria-label="ARDSYSTÉM – domov"><img src="img/logo-ardsystem.png" alt="ARDSYSTÉM, s. r. o."></a>
     <button class="nav-toggle" data-i18n="menu_toggle_aria" data-i18n-attr="aria-label">MENU</button>
     <nav class="nav">
-      <a href="index.html#mapa" class="active" data-i18n="nav_map">Mapa</a>
-      <a href="index.html#miesta" data-i18n="nav_places">Miesta</a>
-      <a href="kontakt.html" data-i18n="nav_contact">Kontakt</a>
+      <a href="/#mapa" class="active" data-i18n="nav_map">Mapa</a>
+      <a href="/#miesta" data-i18n="nav_places">Miesta</a>
+      <a href="/kontakt/" data-i18n="nav_contact">Kontakt</a>
       <div class="lang-switch"></div>
     </nav>
   </div>
@@ -390,7 +391,7 @@
                 ${kat ? tc(kat, 'nazov') : ""}
               </span>
               <p>${tc(m, 'popis') || ""}</p>
-              <a class="map-popup-btn" href="kategoria.html?id=${m.id}">${t('map_popup_view_detail')}</a>
+              <a class="map-popup-btn" href="${m.url}">${t('map_popup_view_detail')}</a>
             </div>
           </div>
         `, { maxWidth: 240, minWidth: 220, closeButton: false, className: "map-popup-wrap", autoPan: false });

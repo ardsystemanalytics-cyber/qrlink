@@ -9,6 +9,7 @@ const param = (k) => new URLSearchParams(location.search).get(k);
 const katById = (id) => DB.kategorie.find(k => k.id === id);
 const miestoById = (id) => DB.miesta.find(m => m.id === id);
 const DEFAULT_PHOTO = "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80";
+const SITE_ORIGIN = "https://qrlink.sk";
 
 /* SEO – voliteľné polia "seo.title/description/image" (editovateľné cez CMS);
    kým nie sú vyplnené, spadnú späť na bežný názov/popis/fotku daného záznamu.
@@ -19,7 +20,7 @@ function seoTitle(obj) { return (obj.seo && obj.seo.title) || tc(obj, "nazov"); 
 function seoDescription(obj) { return (obj.seo && obj.seo.description) || tc(obj, "popis") || ""; }
 function seoImage(obj) { return (obj.seo && obj.seo.image) || obj.cover || obj.foto || DEFAULT_PHOTO; }
 
-function updateSEO({ title, description, image }) {
+function updateSEO({ title, description, image, url }) {
   document.title = title;
   const setMeta = (selector, attr, value) => {
     const el = Q(selector);
@@ -29,7 +30,14 @@ function updateSEO({ title, description, image }) {
   setMeta('meta[property="og:title"]', "content", title);
   setMeta('meta[property="og:description"]', "content", description);
   if (image) setMeta('meta[property="og:image"]', "content", image);
-  setMeta('meta[property="og:url"]', "content", location.href);
+  // Kanonická URL je vždy tá "pekná" (napr. "/category/betliar/") na
+  // ostrej doméne - nie aktuálna adresa v prehliadači (tá môže byť
+  // rozohnaná (podľa toho) na Vercel preview doméne, alebo priamy
+  // needitovaný "/kategoria.html?id=..." odkaz, keby sem niekto prišiel
+  // obídením middleware presmerovania).
+  const canonicalUrl = new URL(url || location.pathname, SITE_ORIGIN).href;
+  setMeta('meta[property="og:url"]', "content", canonicalUrl);
+  setMeta('link[rel="canonical"]', "href", canonicalUrl);
 }
 
 /* ------------------------------------------- strom kategórií ------ */
@@ -87,7 +95,7 @@ function fotoPre(m) {
 function renderBreadcrumb(items) {
   const host = Q("#crumbs");
   if (!host) return;
-  const parts = [`<a href="index.html">${t("crumbs_home")}</a>`];
+  const parts = [`<a href="/">${t("crumbs_home")}</a>`];
   items.forEach(it => {
     parts.push(`<span class="sep">›</span>`);
     parts.push(it.href
@@ -142,7 +150,7 @@ function renderMap() {
     g.innerHTML = `
       <circle cx="${m.mapX}" cy="${m.mapY}" fill="${kat ? kat.farba : "#1F5B41"}"></circle>
       <text x="${m.mapX + 14}" y="${m.mapY + 5}">${m.nazov}</text>`;
-    const go = () => location.href = `kategoria.html?id=${m.id}`;
+    const go = () => location.href = m.url;
     g.addEventListener("click", go);
     g.addEventListener("keydown", e => { if (e.key === "Enter") go(); });
     host.appendChild(g);
@@ -209,7 +217,7 @@ function cardHTML(m) {
 
   // Farba ikonky = farba primárnej kategórie
   // Pozadie: 15% opacity farby, ikona plnou farbou
-  return `<a class="place-card" href="kategoria.html?id=${m.id}">
+  return `<a class="place-card" href="${m.url}">
     <div class="card-photo">
       <img src="${photo}" alt="${tc(m, "nazov")}" loading="lazy">
       <span class="card-cat-icon" style="background:${farba};border:none">
@@ -335,7 +343,7 @@ function renderStats() {
 /* ---------------------------------------- karta podkategórie ------ */
 function subcatCardHTML(m) {
   const pocet = pocetZastaveni(m.id);
-  return `<a class="place-card" href="kategoria.html?id=${m.id}">
+  return `<a class="place-card" href="${m.url}">
     <div class="card-photo">
       <img src="${fotoPre(m)}" alt="${tc(m, "nazov")}" loading="lazy">
     </div>
@@ -393,7 +401,7 @@ const STOP_QR_ICON = `<rect x="3" y="3" width="7" height="7"/><rect x="14" y="3"
     <rect x="3" y="14" width="7" height="7"/><path d="M14 14h3v3h-3zM20 14v3M14 20h3M20 20v.01"/>`;
 
 function stopCardHTML(z) {
-  return `<a class="stop-card" href="zastavenie.html?id=${z.id}">
+  return `<a class="stop-card" href="${z.url}">
     <div class="stop-photo">
       <img src="${z.cover || DEFAULT_PHOTO}" alt="${tc(z, "nazov")}" loading="lazy">
       <span class="stop-no">${z.poradie}</span>
@@ -414,7 +422,7 @@ function stopCardHTML(z) {
 
 /* riadok zastavenia – zoznamové zobrazenie (prepínač Karty/Zoznam) */
 function stopRowHTML(z) {
-  return `<a class="stop-row" href="zastavenie.html?id=${z.id}">
+  return `<a class="stop-row" href="${z.url}">
     <span class="stop-row-no">${z.poradie}</span>
     <div class="stop-row-body">
       <h3>${tc(z, "nazov")}</h3>
@@ -460,7 +468,7 @@ function renderKategoria() {
   const m = miestoById(param("id"));
   if (!m) { titleEl.textContent = t("not_found_place"); return; }
 
-  updateSEO({ title: `${seoTitle(m)} – QR LINK`, description: seoDescription(m), image: seoImage(m) });
+  updateSEO({ title: `${seoTitle(m)} – QR LINK`, description: seoDescription(m), image: seoImage(m), url: m.url });
   titleEl.textContent = tc(m, "nazov");
   const descEl = Q("#catDesc");
   if (descEl) descEl.textContent = tc(m, "popis") || "";
@@ -468,7 +476,7 @@ function renderKategoria() {
   const chain = retazPredkov(m);
   renderBreadcrumb(chain.map((node, i) => ({
     label: tc(node, "nazov"),
-    href: i < chain.length - 1 ? `kategoria.html?id=${node.id}` : null
+    href: i < chain.length - 1 ? node.url : null
   })));
 
   const photoHost = Q("#catPhoto");
@@ -590,10 +598,10 @@ function renderKategoria() {
       const dalsi = surodenci[idx + 1];
       siblingHost.innerHTML = `<div class="cat-sibling-nav">
         ${rodic
-          ? `<a class="cat-sibling-link" href="kategoria.html?id=${rodic.id}"><span>←</span> ${t("back_to", { name: tc(rodic, "nazov") })}</a>`
+          ? `<a class="cat-sibling-link" href="${rodic.url}"><span>←</span> ${t("back_to", { name: tc(rodic, "nazov") })}</a>`
           : `<span></span>`}
         ${dalsi
-          ? `<a class="cat-sibling-link cat-sibling-next" href="kategoria.html?id=${dalsi.id}">${t("next_place_prefix")}<strong>${tc(dalsi, "nazov")}</strong> <span>→</span></a>`
+          ? `<a class="cat-sibling-link cat-sibling-next" href="${dalsi.url}">${t("next_place_prefix")}<strong>${tc(dalsi, "nazov")}</strong> <span>→</span></a>`
           : `<span></span>`}
       </div>`;
     }
@@ -654,14 +662,14 @@ function renderZastavenie() {
   if (!z) { root.innerHTML = `<p>${t("detail_not_found")}</p>`; return; }
 
   const m = miestoById(z.miesto);
-  updateSEO({ title: `${seoTitle(z)} – QR LINK`, description: seoDescription(z), image: seoImage(z) });
+  updateSEO({ title: `${seoTitle(z)} – QR LINK`, description: seoDescription(z), image: seoImage(z), url: z.url });
 
   const chain = m ? retazPredkov(m) : [];
   const koren = m ? rootProjekt(m) : null;
   const hlavnaKat = koren ? katById(koren.primarna) : null;
   renderBreadcrumb([
-    ...(hlavnaKat ? [{ label: tc(hlavnaKat, "nazov"), href: `index.html#miesta` }] : []),
-    ...chain.map(node => ({ label: tc(node, "nazov"), href: `kategoria.html?id=${node.id}` })),
+    ...(hlavnaKat ? [{ label: tc(hlavnaKat, "nazov"), href: `/#miesta` }] : []),
+    ...chain.map(node => ({ label: tc(node, "nazov"), href: node.url })),
     { label: tc(z, "nazov"), href: null }
   ]);
 
@@ -767,14 +775,14 @@ function renderZastavenie() {
   const metaRow = Q("#metaRow");
   if (metaRow) {
     metaRow.innerHTML = `
-      ${m ? `<a class="cat-sibling-link" href="kategoria.html?id=${m.id}"><span>←</span> ${t("back_to", { name: tc(m, "nazov") })}</a>` : `<span></span>`}
+      ${m ? `<a class="cat-sibling-link" href="${m.url}"><span>←</span> ${t("back_to", { name: tc(m, "nazov") })}</a>` : `<span></span>`}
       <span class="counter">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M13 4a3 3 0 1 1-2 0M7 21v-5l2-3 1-4h4l1 4 2 3v5"/>
         </svg>
         <span id="visitCount">–</span>
       </span>
-      <a class="btn" id="allStops" href="${m ? `kategoria.html?id=${m.id}` : "index.html"}">
+      <a class="btn" id="allStops" href="${m ? m.url : "/"}">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M13 4a3 3 0 1 1-2 0M8 21l2-6 3-2 1-4M14 21l-1-5"/>
         </svg>

@@ -144,7 +144,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/"
-      }
+      },
+      "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/"
     },
     {
       "id": "hrad-strecno",
@@ -166,7 +167,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/",
         "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/",
         "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/"
-      }
+      },
+      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/"
     },
     {
       "id": "turzovka-mesto",
@@ -180,7 +182,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/turzovka/",
         "pl": "https://www.qrlink.sk/new/pl/category/turzovka/",
         "hu": "https://www.qrlink.sk/new/hu/category/turzovka/"
-      }
+      },
+      "url": "/category/turzovka/"
     },
     {
       "id": "betliar-info-pointy",
@@ -194,7 +197,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/betliar/info-pointy/",
         "pl": "https://www.qrlink.sk/new/pl/category/betliar/info-pointy/",
         "hu": "https://www.qrlink.sk/new/hu/category/betliar/info-pointy/"
-      }
+      },
+      "url": "/category/betliar/info-pointy/"
     },
     {
       "id": "betliar-info-strom-architektura",
@@ -208,7 +212,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/betliar/info-strom/architektura/",
         "pl": "https://www.qrlink.sk/new/pl/category/betliar/info-strom/architektura/",
         "hu": "https://www.qrlink.sk/new/hu/category/betliar/info-strom/architektura/"
-      }
+      },
+      "url": "/category/betliar/info-strom/architektura/"
     },
     {
       "id": "bratislava-ivanka",
@@ -230,7 +235,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/ivanka-pri-dunaji/",
         "pl": "https://www.qrlink.sk/new/pl/category/ivanka-pri-dunaji/",
         "hu": "https://www.qrlink.sk/new/hu/category/ivanka-pri-dunaji/"
-      }
+      },
+      "url": "/category/ivanka-pri-dunaji/"
     },
     {
       "id": "dendrolog-1",
@@ -245,7 +251,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-1/",
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-1/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-1/"
-      }
+      },
+      "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-1/"
     },
     {
       "id": "turzovka-pamatniky",
@@ -259,7 +266,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/turzovka/pamatniky-v-turzovke/",
         "pl": "https://www.qrlink.sk/new/pl/category/turzovka/pamatniky-v-turzovke/",
         "hu": "https://www.qrlink.sk/new/hu/category/turzovka/pamatniky-v-turzovke/"
-      }
+      },
+      "url": "/category/turzovka/pamatniky-v-turzovke/"
     },
     {
       "id": "betliar-info-strom-fauna-flora",
@@ -273,7 +281,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/betliar/info-strom/flora/",
         "pl": "https://www.qrlink.sk/new/pl/category/betliar/info-strom/flora/",
         "hu": "https://www.qrlink.sk/new/hu/category/betliar/info-strom/flora/"
-      }
+      },
+      "url": "/category/betliar/info-strom/flora/"
     },
     {
       "id": "betliar-info-strom",
@@ -287,7 +296,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/betliar/info-strom/",
         "pl": "https://www.qrlink.sk/new/pl/category/betliar/info-strom/",
         "hu": "https://www.qrlink.sk/new/hu/category/betliar/info-strom/"
-      }
+      },
+      "url": "/category/betliar/info-strom/"
     },
     {
       "id": "dendrolog-2",
@@ -302,7 +312,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-2/",
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-2/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-2/"
-      }
+      },
+      "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-2/"
     },
     {
       "id": "turzovka-sakralne-pamiatky",
@@ -316,7 +327,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/turzovka/sakralne-pamiatky/",
         "pl": "https://www.qrlink.sk/new/pl/category/turzovka/sakralne-pamiatky/",
         "hu": "https://www.qrlink.sk/new/hu/category/turzovka/sakralne-pamiatky/"
-      }
+      },
+      "url": "/category/turzovka/sakralne-pamiatky/"
     },
     {
       "id": "hmyzi-domcek",
@@ -331,7 +343,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/hmyzi-domcek/",
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/hmyzi-domcek/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/hmyzi-domcek/"
-      }
+      },
+      "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/hmyzi-domcek/"
     },
     {
       "id": "pexeso",
@@ -346,7 +359,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/pexeso/",
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/pexeso/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/pexeso/"
-      }
+      },
+      "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/pexeso/"
     },
     {
       "id": "vtacia-budka",
@@ -361,7 +375,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacia-budka/",
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacia-budka/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacia-budka/"
-      }
+      },
+      "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacia-budka/"
     },
     {
       "id": "betliar",
@@ -384,7 +399,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/betliar/",
         "pl": "https://www.qrlink.sk/new/pl/category/betliar/",
         "hu": "https://www.qrlink.sk/new/hu/category/betliar/"
-      }
+      },
+      "url": "/category/betliar/"
     },
     {
       "id": "vtacie-krmitko",
@@ -399,7 +415,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/",
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/"
-      }
+      },
+      "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/"
     },
     {
       "id": "euroregion-beskydy",
@@ -455,7 +472,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/euroregion-beskydy/",
         "pl": "https://www.qrlink.sk/new/pl/category/euroregion-beskydy/",
         "hu": "https://www.qrlink.sk/new/hu/category/euroregion-beskydy/"
-      }
+      },
+      "url": "/category/euroregion-beskydy/"
     },
     {
       "id": "frydlant",
@@ -478,7 +496,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/frydlant/",
         "pl": "https://www.qrlink.sk/new/pl/category/frydlant/",
         "hu": "https://www.qrlink.sk/new/hu/category/frydlant/"
-      }
+      },
+      "url": "/category/frydlant/"
     },
     {
       "id": "kraj-rusinov",
@@ -500,7 +519,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/kraj-rusinov-a-andyho-warhola/",
         "pl": "https://www.qrlink.sk/new/pl/category/kraj-rusinov-a-andyho-warhola/",
         "hu": "https://www.qrlink.sk/new/hu/category/kraj-rusinov-a-andyho-warhola/"
-      }
+      },
+      "url": "/category/kraj-rusinov-a-andyho-warhola/"
     },
     {
       "id": "knm",
@@ -522,7 +542,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/knm/",
         "pl": "https://www.qrlink.sk/new/pl/category/knm/",
         "hu": "https://www.qrlink.sk/new/hu/category/knm/"
-      }
+      },
+      "url": "/category/knm/"
     },
     {
       "id": "porabka",
@@ -545,7 +566,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/porabka/",
         "pl": "https://www.qrlink.sk/new/pl/category/porabka/",
         "hu": "https://www.qrlink.sk/new/hu/category/porabka/"
-      }
+      },
+      "url": "/category/porabka/"
     },
     {
       "id": "presov",
@@ -567,7 +589,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/presov/",
         "pl": "https://www.qrlink.sk/new/pl/category/presov/",
         "hu": "https://www.qrlink.sk/new/hu/category/presov/"
-      }
+      },
+      "url": "/category/presov/"
     },
     {
       "id": "roznov",
@@ -590,7 +613,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/roznov-pod-radhostem/",
         "pl": "https://www.qrlink.sk/new/pl/category/roznov-pod-radhostem/",
         "hu": "https://www.qrlink.sk/new/hu/category/roznov-pod-radhostem/"
-      }
+      },
+      "url": "/category/roznov-pod-radhostem/"
     },
     {
       "id": "ruzomberok",
@@ -612,7 +636,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/ruzomberok/",
         "pl": "https://www.qrlink.sk/new/pl/category/ruzomberok/",
         "hu": "https://www.qrlink.sk/new/hu/category/ruzomberok/"
-      }
+      },
+      "url": "/category/ruzomberok/"
     },
     {
       "id": "sokolovce",
@@ -634,7 +659,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/sokolovce/",
         "pl": "https://www.qrlink.sk/new/pl/category/sokolovce/",
         "hu": "https://www.qrlink.sk/new/hu/category/sokolovce/"
-      }
+      },
+      "url": "/category/sokolovce/"
     },
     {
       "id": "trebisov",
@@ -656,7 +682,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/trebisov/",
         "pl": "https://www.qrlink.sk/new/pl/category/trebisov/",
         "hu": "https://www.qrlink.sk/new/hu/category/trebisov/"
-      }
+      },
+      "url": "/category/trebisov/"
     },
     {
       "id": "turzovka",
@@ -678,7 +705,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/turzovka/",
         "pl": "https://www.qrlink.sk/new/pl/category/turzovka/",
         "hu": "https://www.qrlink.sk/new/hu/category/turzovka/"
-      }
+      },
+      "url": "/category/turzovka/"
     },
     {
       "id": "vranov",
@@ -700,7 +728,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/vranov-nad-toplou/",
         "pl": "https://www.qrlink.sk/new/pl/category/vranov-nad-toplou/",
         "hu": "https://www.qrlink.sk/new/hu/category/vranov-nad-toplou/"
-      }
+      },
+      "url": "/category/vranov-nad-toplou/"
     },
     {
       "id": "cierne-klacany",
@@ -722,7 +751,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/",
         "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/",
         "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/"
-      }
+      },
+      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/"
     },
     {
       "id": "klenoty-pohranicie",
@@ -745,7 +775,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/klenoty-v-cesko-slovenskom-pohranici/",
         "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/klenoty-v-cesko-slovenskom-pohranici/",
         "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/klenoty-v-cesko-slovenskom-pohranici/"
-      }
+      },
+      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/klenoty-v-cesko-slovenskom-pohranici/"
     },
     {
       "id": "cestovatelsky-dennik",
@@ -768,7 +799,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/",
         "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/",
         "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/"
-      }
+      },
+      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/"
     },
     {
       "id": "nch-pohranicie",
@@ -791,7 +823,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/",
         "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/",
         "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/"
-      }
+      },
+      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/"
     },
     {
       "id": "nch-hlinene",
@@ -813,7 +846,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/",
         "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/",
         "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/"
-      }
+      },
+      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/"
     },
     {
       "id": "nch-zivcakova",
@@ -835,7 +869,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/",
         "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/",
         "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/"
-      }
+      },
+      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/"
     },
     {
       "id": "gabcikovo",
@@ -858,7 +893,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/",
         "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/",
         "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/"
-      }
+      },
+      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/"
     },
     {
       "id": "zvonica-hrusove",
@@ -880,7 +916,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/",
         "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/",
         "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/"
-      }
+      },
+      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/"
     },
     {
       "id": "zs-a-ms-banova",
@@ -902,7 +939,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/",
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/"
-      }
+      },
+      "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/"
     },
     {
       "id": "komjatice",
@@ -924,7 +962,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/komjatice/",
         "pl": "https://www.qrlink.sk/new/pl/category/komjatice/",
         "hu": "https://www.qrlink.sk/new/hu/category/komjatice/"
-      }
+      },
+      "url": "/category/komjatice/"
     },
     {
       "id": "zemplinske-muzeum",
@@ -946,7 +985,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/zemplinske-muzeum/",
         "pl": "https://www.qrlink.sk/new/pl/category/zemplinske-muzeum/",
         "hu": "https://www.qrlink.sk/new/hu/category/zemplinske-muzeum/"
-      }
+      },
+      "url": "/category/zemplinske-muzeum/"
     }
   ],
   "zastavenia": [
@@ -976,7 +1016,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr1/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr1/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr1/"
-      }
+      },
+      "url": "/betliar-info-pointy-qr1/"
     },
     {
       "id": "betliar-info-pointy-qr2",
@@ -1004,7 +1045,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr2/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr2/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr2/"
-      }
+      },
+      "url": "/betliar-info-pointy-qr2/"
     },
     {
       "id": "betliar-info-pointy-qr3",
@@ -1032,7 +1074,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr3/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr3/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr3/"
-      }
+      },
+      "url": "/betliar-info-pointy-qr3/"
     },
     {
       "id": "betliar-info-pointy-qr4",
@@ -1060,7 +1103,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr4/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr4/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr4/"
-      }
+      },
+      "url": "/betliar-info-pointy-qr4/"
     },
     {
       "id": "betliar-info-pointy-qr5",
@@ -1088,7 +1132,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr5/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr5/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr5/"
-      }
+      },
+      "url": "/betliar-info-pointy-qr5/"
     },
     {
       "id": "betliar-info-pointy-qr6",
@@ -1116,7 +1161,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr6/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr6/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr6/"
-      }
+      },
+      "url": "/betliar-info-pointy-qr6/"
     },
     {
       "id": "betliar-info-pointy-qr7",
@@ -1144,7 +1190,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr7/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr7/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr7/"
-      }
+      },
+      "url": "/betliar-info-pointy-qr7/"
     },
     {
       "id": "betliar-info-pointy-qr8",
@@ -1172,7 +1219,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr8/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr8/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr8/"
-      }
+      },
+      "url": "/betliar-info-pointy-qr8/"
     },
     {
       "id": "betliar-info-pointy-qr9",
@@ -1200,7 +1248,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr9/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr9/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr9/"
-      }
+      },
+      "url": "/betliar-info-pointy-qr9/"
     },
     {
       "id": "betliar-info-pointy-qr10",
@@ -1228,7 +1277,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr10/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr10/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr10/"
-      }
+      },
+      "url": "/betliar-info-pointy-qr10/"
     },
     {
       "id": "betliar-info-pointy-qr11",
@@ -1256,7 +1306,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr11/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr11/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr11/"
-      }
+      },
+      "url": "/betliar-info-pointy-qr11/"
     },
     {
       "id": "betliar-info-pointy-qr12",
@@ -1284,7 +1335,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr12/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr12/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr12/"
-      }
+      },
+      "url": "/betliar-info-pointy-qr12/"
     },
     {
       "id": "betliar-info-pointy-qr13",
@@ -1312,7 +1364,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr13/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr13/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr13/"
-      }
+      },
+      "url": "/betliar-info-pointy-qr13/"
     },
     {
       "id": "betliar-info-pointy-qr14",
@@ -1340,7 +1393,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr14/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr14/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr14/"
-      }
+      },
+      "url": "/betliar-info-pointy-qr14/"
     },
     {
       "id": "betliar-info-pointy-qr15",
@@ -1368,7 +1422,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr15/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr15/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr15/"
-      }
+      },
+      "url": "/betliar-info-pointy-qr15/"
     },
     {
       "id": "betliar-info-pointy-qr16",
@@ -1396,7 +1451,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr16/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr16/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr16/"
-      }
+      },
+      "url": "/betliar-info-pointy-qr16/"
     },
     {
       "id": "betliar-info-pointy-qr17",
@@ -1424,7 +1480,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr17/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr17/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr17/"
-      }
+      },
+      "url": "/betliar-info-pointy-qr17/"
     },
     {
       "id": "betliar-info-pointy-qr18",
@@ -1452,7 +1509,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-pointy-qr18/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr18/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr18/"
-      }
+      },
+      "url": "/betliar-info-pointy-qr18/"
     },
     {
       "id": "zvonicka",
@@ -1473,7 +1531,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/zvonicka/",
         "pl": "https://www.qrlink.sk/new/pl/zvonicka/",
         "hu": "https://www.qrlink.sk/new/hu/zvonicka/"
-      }
+      },
+      "url": "/zvonicka/"
     },
     {
       "id": "betliar-info-strom-qr1",
@@ -1501,7 +1560,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr1/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr1/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr1/"
-      }
+      },
+      "url": "/betliar-info-strom-qr1/"
     },
     {
       "id": "betliar-info-strom-qr2",
@@ -1529,7 +1589,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr2/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr2/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr2/"
-      }
+      },
+      "url": "/betliar-info-strom-qr2/"
     },
     {
       "id": "betliar-info-strom-qr3",
@@ -1557,7 +1618,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr3/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr3/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr3/"
-      }
+      },
+      "url": "/betliar-info-strom-qr3/"
     },
     {
       "id": "betliar-info-strom-qr4",
@@ -1585,7 +1647,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr4/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr4/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr4/"
-      }
+      },
+      "url": "/betliar-info-strom-qr4/"
     },
     {
       "id": "betliar-info-strom-qr5",
@@ -1613,7 +1676,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr5/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr5/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr5/"
-      }
+      },
+      "url": "/betliar-info-strom-qr5/"
     },
     {
       "id": "betliar-info-strom-qr6",
@@ -1641,7 +1705,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr6/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr6/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr6/"
-      }
+      },
+      "url": "/betliar-info-strom-qr6/"
     },
     {
       "id": "betliar-info-strom-qr7",
@@ -1669,7 +1734,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr7/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr7/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr7/"
-      }
+      },
+      "url": "/betliar-info-strom-qr7/"
     },
     {
       "id": "betliar-info-strom-qr8",
@@ -1697,7 +1763,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr8/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr8/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr8/"
-      }
+      },
+      "url": "/betliar-info-strom-qr8/"
     },
     {
       "id": "betliar-info-strom-qr9",
@@ -1725,7 +1792,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr9/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr9/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr9/"
-      }
+      },
+      "url": "/betliar-info-strom-qr9/"
     },
     {
       "id": "betliar-info-strom-qr10",
@@ -1753,7 +1821,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr10/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr10/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr10/"
-      }
+      },
+      "url": "/betliar-info-strom-qr10/"
     },
     {
       "id": "betliar-info-strom-qr11",
@@ -1781,7 +1850,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr11/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr11/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr11/"
-      }
+      },
+      "url": "/betliar-info-strom-qr11/"
     },
     {
       "id": "betliar-info-strom-qr12",
@@ -1809,7 +1879,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr12/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr12/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr12/"
-      }
+      },
+      "url": "/betliar-info-strom-qr12/"
     },
     {
       "id": "betliar-info-strom-qr13",
@@ -1837,7 +1908,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr13/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr13/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr13/"
-      }
+      },
+      "url": "/betliar-info-strom-qr13/"
     },
     {
       "id": "betliar-info-strom-qr14",
@@ -1865,7 +1937,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr14/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr14/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr14/"
-      }
+      },
+      "url": "/betliar-info-strom-qr14/"
     },
     {
       "id": "betliar-info-strom-qr15",
@@ -1893,7 +1966,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr15/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr15/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr15/"
-      }
+      },
+      "url": "/betliar-info-strom-qr15/"
     },
     {
       "id": "betliar-info-strom-qr16",
@@ -1921,7 +1995,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr16/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr16/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr16/"
-      }
+      },
+      "url": "/betliar-info-strom-qr16/"
     },
     {
       "id": "betliar-info-strom-qr17",
@@ -1949,7 +2024,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr17/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr17/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr17/"
-      }
+      },
+      "url": "/betliar-info-strom-qr17/"
     },
     {
       "id": "betliar-info-strom-qr18",
@@ -1977,7 +2053,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr18/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr18/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr18/"
-      }
+      },
+      "url": "/betliar-info-strom-qr18/"
     },
     {
       "id": "betliar-info-strom-qr19",
@@ -2005,7 +2082,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr19/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr19/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr19/"
-      }
+      },
+      "url": "/betliar-info-strom-qr19/"
     },
     {
       "id": "betliar-info-strom-qr20",
@@ -2033,7 +2111,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr20/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr20/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr20/"
-      }
+      },
+      "url": "/betliar-info-strom-qr20/"
     },
     {
       "id": "betliar-info-strom-qr21",
@@ -2061,7 +2140,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr21/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr21/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr21/"
-      }
+      },
+      "url": "/betliar-info-strom-qr21/"
     },
     {
       "id": "betliar-info-strom-qr22",
@@ -2089,7 +2169,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr22/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr22/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr22/"
-      }
+      },
+      "url": "/betliar-info-strom-qr22/"
     },
     {
       "id": "betliar-info-strom-qr23",
@@ -2117,7 +2198,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr23/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr23/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr23/"
-      }
+      },
+      "url": "/betliar-info-strom-qr23/"
     },
     {
       "id": "betliar-info-strom-qr24",
@@ -2145,7 +2227,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr24/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr24/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr24/"
-      }
+      },
+      "url": "/betliar-info-strom-qr24/"
     },
     {
       "id": "betliar-info-strom-qr25",
@@ -2173,7 +2256,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr25/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr25/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr25/"
-      }
+      },
+      "url": "/betliar-info-strom-qr25/"
     },
     {
       "id": "betliar-info-strom-qr26",
@@ -2201,7 +2285,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr26/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr26/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr26/"
-      }
+      },
+      "url": "/betliar-info-strom-qr26/"
     },
     {
       "id": "betliar-info-strom-qr27",
@@ -2229,7 +2314,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr27/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr27/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr27/"
-      }
+      },
+      "url": "/betliar-info-strom-qr27/"
     },
     {
       "id": "betliar-info-strom-qr28",
@@ -2257,7 +2343,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr28/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr28/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr28/"
-      }
+      },
+      "url": "/betliar-info-strom-qr28/"
     },
     {
       "id": "betliar-info-strom-qr29",
@@ -2285,7 +2372,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr29/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr29/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr29/"
-      }
+      },
+      "url": "/betliar-info-strom-qr29/"
     },
     {
       "id": "betliar-info-strom-qr30",
@@ -2313,7 +2401,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr30/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr30/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr30/"
-      }
+      },
+      "url": "/betliar-info-strom-qr30/"
     },
     {
       "id": "betliar-info-strom-qr31",
@@ -2341,7 +2430,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr31/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr31/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr31/"
-      }
+      },
+      "url": "/betliar-info-strom-qr31/"
     },
     {
       "id": "betliar-info-strom-qr32",
@@ -2369,7 +2459,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr32/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr32/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr32/"
-      }
+      },
+      "url": "/betliar-info-strom-qr32/"
     },
     {
       "id": "betliar-info-strom-qr33",
@@ -2397,7 +2488,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr33/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr33/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr33/"
-      }
+      },
+      "url": "/betliar-info-strom-qr33/"
     },
     {
       "id": "betliar-info-strom-qr34",
@@ -2425,7 +2517,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr34/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr34/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr34/"
-      }
+      },
+      "url": "/betliar-info-strom-qr34/"
     },
     {
       "id": "betliar-info-strom-qr35",
@@ -2453,7 +2546,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/betliar-info-strom-qr35/",
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr35/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr35/"
-      }
+      },
+      "url": "/betliar-info-strom-qr35/"
     },
     {
       "id": "vevericka",
@@ -2478,7 +2572,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/vevericka/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/vevericka/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/vevericka/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/vevericka/"
     },
     {
       "id": "krtko",
@@ -2503,7 +2598,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/krtko/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/krtko/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/krtko/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/krtko/"
     },
     {
       "id": "mravec",
@@ -2528,7 +2624,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/mravec/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/mravec/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/mravec/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/mravec/"
     },
     {
       "id": "vcielka",
@@ -2553,7 +2650,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/vcielka/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/vcielka/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/vcielka/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/vcielka/"
     },
     {
       "id": "slimak",
@@ -2578,7 +2676,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/slimak/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/slimak/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/slimak/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/slimak/"
     },
     {
       "id": "bobor",
@@ -2603,7 +2702,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/bobor/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/bobor/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/bobor/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/bobor/"
     },
     {
       "id": "obec-ivanka-pri-dunaji",
@@ -2628,7 +2728,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/obec-ivanka-pri-dunaji/",
         "pl": "https://www.qrlink.sk/new/pl/obec-ivanka-pri-dunaji/",
         "hu": "https://www.qrlink.sk/new/hu/obec-ivanka-pri-dunaji/"
-      }
+      },
+      "url": "/obec-ivanka-pri-dunaji/"
     },
     {
       "id": "kastiel-a-park-v-ivanke-pri-dunaji",
@@ -2656,7 +2757,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kastiel-a-park-v-ivanke-pri-dunaji/",
         "pl": "https://www.qrlink.sk/new/pl/kastiel-a-park-v-ivanke-pri-dunaji/",
         "hu": "https://www.qrlink.sk/new/hu/kastiel-a-park-v-ivanke-pri-dunaji/"
-      }
+      },
+      "url": "/kastiel-a-park-v-ivanke-pri-dunaji/"
     },
     {
       "id": "kostol-sv-jana-krstitela",
@@ -2684,7 +2786,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kostol-sv-jana-krstitela/",
         "pl": "https://www.qrlink.sk/new/pl/kostol-sv-jana-krstitela/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-sv-jana-krstitela/"
-      }
+      },
+      "url": "/kostol-sv-jana-krstitela/"
     },
     {
       "id": "mohyla-m-r-stefanika",
@@ -2712,7 +2815,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/mohyla-m-r-stefanika/",
         "pl": "https://www.qrlink.sk/new/pl/mohyla-m-r-stefanika/",
         "hu": "https://www.qrlink.sk/new/hu/mohyla-m-r-stefanika/"
-      }
+      },
+      "url": "/mohyla-m-r-stefanika/"
     },
     {
       "id": "pomnik-padlym-v-i-a-ii-svetovej-vojne",
@@ -2740,7 +2844,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/pomnik-padlym-v-i-a-ii-svetovej-vojne/",
         "pl": "https://www.qrlink.sk/new/pl/pomnik-padlym-v-i-a-ii-svetovej-vojne/",
         "hu": "https://www.qrlink.sk/new/hu/pomnik-padlym-v-i-a-ii-svetovej-vojne/"
-      }
+      },
+      "url": "/pomnik-padlym-v-i-a-ii-svetovej-vojne/"
     },
     {
       "id": "susosie-sv-jana-nepomuckeho",
@@ -2768,7 +2873,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/susosie-sv-jana-nepomuckeho/",
         "pl": "https://www.qrlink.sk/new/pl/susosie-sv-jana-nepomuckeho/",
         "hu": "https://www.qrlink.sk/new/hu/susosie-sv-jana-nepomuckeho/"
-      }
+      },
+      "url": "/susosie-sv-jana-nepomuckeho/"
     },
     {
       "id": "kaplnka-sv-rozalie",
@@ -2796,7 +2902,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kaplnka-sv-rozalie/",
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-sv-rozalie/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-sv-rozalie/"
-      }
+      },
+      "url": "/kaplnka-sv-rozalie/"
     },
     {
       "id": "sursky-kanal",
@@ -2824,7 +2931,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/sursky-kanal/",
         "pl": "https://www.qrlink.sk/new/pl/sursky-kanal/",
         "hu": "https://www.qrlink.sk/new/hu/sursky-kanal/"
-      }
+      },
+      "url": "/sursky-kanal/"
     },
     {
       "id": "mestske-muzeum-karola-tocika",
@@ -2847,7 +2955,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/mestske-muzeum-karola-tocika/",
         "pl": "https://www.qrlink.sk/new/pl/castles/mestske-muzeum-karola-tocika/",
         "hu": "https://www.qrlink.sk/new/hu/castles/mestske-muzeum-karola-tocika/"
-      }
+      },
+      "url": "/castles/mestske-muzeum-karola-tocika/"
     },
     {
       "id": "historicka-kniznica-bibliotheca-antiqua-taganiana",
@@ -2870,7 +2979,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/historicka-kniznica-bibliotheca-antiqua-taganiana/",
         "pl": "https://www.qrlink.sk/new/pl/castles/historicka-kniznica-bibliotheca-antiqua-taganiana/",
         "hu": "https://www.qrlink.sk/new/hu/castles/historicka-kniznica-bibliotheca-antiqua-taganiana/"
-      }
+      },
+      "url": "/castles/historicka-kniznica-bibliotheca-antiqua-taganiana/"
     },
     {
       "id": "vyhliadkova-veza-s-oddychovou-zonou-na-vrchu-bukovina",
@@ -2893,7 +3003,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/vyhliadkova-veza-s-oddychovou-zonou-na-vrchu-bukovina/",
         "pl": "https://www.qrlink.sk/new/pl/castles/vyhliadkova-veza-s-oddychovou-zonou-na-vrchu-bukovina/",
         "hu": "https://www.qrlink.sk/new/hu/castles/vyhliadkova-veza-s-oddychovou-zonou-na-vrchu-bukovina/"
-      }
+      },
+      "url": "/castles/vyhliadkova-veza-s-oddychovou-zonou-na-vrchu-bukovina/"
     },
     {
       "id": "naucny-chodnik-vrchlinenskym-kopcom",
@@ -2916,7 +3027,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/naucny-chodnik-vrchlinenskym-kopcom/",
         "pl": "https://www.qrlink.sk/new/pl/castles/naucny-chodnik-vrchlinenskym-kopcom/",
         "hu": "https://www.qrlink.sk/new/hu/castles/naucny-chodnik-vrchlinenskym-kopcom/"
-      }
+      },
+      "url": "/castles/naucny-chodnik-vrchlinenskym-kopcom/"
     },
     {
       "id": "kornansky-ropny-pramen",
@@ -2939,7 +3051,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/kornansky-ropny-pramen/",
         "pl": "https://www.qrlink.sk/new/pl/castles/kornansky-ropny-pramen/",
         "hu": "https://www.qrlink.sk/new/hu/castles/kornansky-ropny-pramen/"
-      }
+      },
+      "url": "/castles/kornansky-ropny-pramen/"
     },
     {
       "id": "kostol-nanebovzatia-panny-marie-v-turzovke",
@@ -2962,7 +3075,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/kostol-nanebovzatia-panny-marie-v-turzovke/",
         "pl": "https://www.qrlink.sk/new/pl/castles/kostol-nanebovzatia-panny-marie-v-turzovke/",
         "hu": "https://www.qrlink.sk/new/hu/castles/kostol-nanebovzatia-panny-marie-v-turzovke/"
-      }
+      },
+      "url": "/castles/kostol-nanebovzatia-panny-marie-v-turzovke/"
     },
     {
       "id": "rodny-dom-jozefa-kronera",
@@ -2985,7 +3099,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/rodny-dom-jozefa-kronera/",
         "pl": "https://www.qrlink.sk/new/pl/castles/rodny-dom-jozefa-kronera/",
         "hu": "https://www.qrlink.sk/new/hu/castles/rodny-dom-jozefa-kronera/"
-      }
+      },
+      "url": "/castles/rodny-dom-jozefa-kronera/"
     },
     {
       "id": "velka-raca-1236-m-n-m",
@@ -3008,7 +3123,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/velka-raca-1236-m-n-m/",
         "pl": "https://www.qrlink.sk/new/pl/castles/velka-raca-1236-m-n-m/",
         "hu": "https://www.qrlink.sk/new/hu/castles/velka-raca-1236-m-n-m/"
-      }
+      },
+      "url": "/castles/velka-raca-1236-m-n-m/"
     },
     {
       "id": "putnicke-miesto-zivcakova",
@@ -3031,7 +3147,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/putnicke-miesto-zivcakova/",
         "pl": "https://www.qrlink.sk/new/pl/castles/putnicke-miesto-zivcakova/",
         "hu": "https://www.qrlink.sk/new/hu/castles/putnicke-miesto-zivcakova/"
-      }
+      },
+      "url": "/castles/putnicke-miesto-zivcakova/"
     },
     {
       "id": "lysa-hora",
@@ -3054,7 +3171,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/lysa-hora/",
         "pl": "https://www.qrlink.sk/new/pl/castles/lysa-hora/",
         "hu": "https://www.qrlink.sk/new/hu/castles/lysa-hora/"
-      }
+      },
+      "url": "/castles/lysa-hora/"
     },
     {
       "id": "zamok-v-paskove",
@@ -3077,7 +3195,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/zamok-v-paskove/",
         "pl": "https://www.qrlink.sk/new/pl/castles/zamok-v-paskove/",
         "hu": "https://www.qrlink.sk/new/hu/castles/zamok-v-paskove/"
-      }
+      },
+      "url": "/castles/zamok-v-paskove/"
     },
     {
       "id": "zamocky-park",
@@ -3100,7 +3219,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/zamocky-park/",
         "pl": "https://www.qrlink.sk/new/pl/castles/zamocky-park/",
         "hu": "https://www.qrlink.sk/new/hu/castles/zamocky-park/"
-      }
+      },
+      "url": "/castles/zamocky-park/"
     },
     {
       "id": "rozhladna-okrouhla",
@@ -3123,7 +3243,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/rozhladna-okrouhla/",
         "pl": "https://www.qrlink.sk/new/pl/castles/rozhladna-okrouhla/",
         "hu": "https://www.qrlink.sk/new/hu/castles/rozhladna-okrouhla/"
-      }
+      },
+      "url": "/castles/rozhladna-okrouhla/"
     },
     {
       "id": "hrad-hukvaldy-s-odborom",
@@ -3146,7 +3267,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/hrad-hukvaldy-s-odborom/",
         "pl": "https://www.qrlink.sk/new/pl/castles/hrad-hukvaldy-s-odborom/",
         "hu": "https://www.qrlink.sk/new/hu/castles/hrad-hukvaldy-s-odborom/"
-      }
+      },
+      "url": "/castles/hrad-hukvaldy-s-odborom/"
     },
     {
       "id": "cvicna-stolna-dolu-paskov",
@@ -3167,7 +3289,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/cvicna-stolna-dolu-paskov/",
         "pl": "https://www.qrlink.sk/new/pl/castles/cvicna-stolna-dolu-paskov/",
         "hu": "https://www.qrlink.sk/new/hu/castles/cvicna-stolna-dolu-paskov/"
-      }
+      },
+      "url": "/castles/cvicna-stolna-dolu-paskov/"
     },
     {
       "id": "bazilika-minor-putnicky-chram-navstivenie-panny-marie",
@@ -3190,7 +3313,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/bazilika-minor-putnicky-chram-navstivenie-panny-marie/",
         "pl": "https://www.qrlink.sk/new/pl/castles/bazilika-minor-putnicky-chram-navstivenie-panny-marie/",
         "hu": "https://www.qrlink.sk/new/hu/castles/bazilika-minor-putnicky-chram-navstivenie-panny-marie/"
-      }
+      },
+      "url": "/castles/bazilika-minor-putnicky-chram-navstivenie-panny-marie/"
     },
     {
       "id": "muzeum-beskyd-frydek-mistek-frydecky-zamok",
@@ -3213,7 +3337,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/muzeum-beskyd-frydek-mistek-frydecky-zamok/",
         "pl": "https://www.qrlink.sk/new/pl/castles/muzeum-beskyd-frydek-mistek-frydecky-zamok/",
         "hu": "https://www.qrlink.sk/new/hu/castles/muzeum-beskyd-frydek-mistek-frydecky-zamok/"
-      }
+      },
+      "url": "/castles/muzeum-beskyd-frydek-mistek-frydecky-zamok/"
     },
     {
       "id": "pustevny",
@@ -3236,7 +3361,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/pustevny/",
         "pl": "https://www.qrlink.sk/new/pl/castles/pustevny/",
         "hu": "https://www.qrlink.sk/new/hu/castles/pustevny/"
-      }
+      },
+      "url": "/castles/pustevny/"
     },
     {
       "id": "javorniky-dominanta-hornych-kysuc",
@@ -3259,7 +3385,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/javorniky-dominanta-hornych-kysuc/",
         "pl": "https://www.qrlink.sk/new/pl/castles/javorniky-dominanta-hornych-kysuc/",
         "hu": "https://www.qrlink.sk/new/hu/castles/javorniky-dominanta-hornych-kysuc/"
-      }
+      },
+      "url": "/castles/javorniky-dominanta-hornych-kysuc/"
     },
     {
       "id": "muzeum-kysuckej-dediny",
@@ -3282,7 +3409,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/muzeum-kysuckej-dediny/",
         "pl": "https://www.qrlink.sk/new/pl/castles/muzeum-kysuckej-dediny/",
         "hu": "https://www.qrlink.sk/new/hu/castles/muzeum-kysuckej-dediny/"
-      }
+      },
+      "url": "/castles/muzeum-kysuckej-dediny/"
     },
     {
       "id": "ciernoklacianska-pyxida",
@@ -3317,7 +3445,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/ciernoklacianska-pyxida/",
         "pl": "https://www.qrlink.sk/new/pl/ciernoklacianska-pyxida/",
         "hu": "https://www.qrlink.sk/new/hu/ciernoklacianska-pyxida/"
-      }
+      },
+      "url": "/ciernoklacianska-pyxida/"
     },
     {
       "id": "javor-mliecny",
@@ -3342,7 +3471,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/javor-mliecny/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/javor-mliecny/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/javor-mliecny/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/javor-mliecny/"
     },
     {
       "id": "2-gastan-jedly",
@@ -3367,7 +3497,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/2-gastan-jedly/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/2-gastan-jedly/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/2-gastan-jedly/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/2-gastan-jedly/"
     },
     {
       "id": "3-orech-kralovsky",
@@ -3392,7 +3523,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/3-orech-kralovsky/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/3-orech-kralovsky/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/3-orech-kralovsky/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/3-orech-kralovsky/"
     },
     {
       "id": "4-ceresna-vtacia",
@@ -3417,7 +3549,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/4-ceresna-vtacia/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/4-ceresna-vtacia/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/4-ceresna-vtacia/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/4-ceresna-vtacia/"
     },
     {
       "id": "5-jablon-domaca",
@@ -3442,7 +3575,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/5-jablon-domaca/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/5-jablon-domaca/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/5-jablon-domaca/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/5-jablon-domaca/"
     },
     {
       "id": "6-slivka-trnkova",
@@ -3467,7 +3601,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/6-slivka-trnkova/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/6-slivka-trnkova/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/6-slivka-trnkova/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/6-slivka-trnkova/"
     },
     {
       "id": "7-buk-lesny",
@@ -3492,7 +3627,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/7-buk-lesny/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/7-buk-lesny/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/7-buk-lesny/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/7-buk-lesny/"
     },
     {
       "id": "8-breza-previsnuta",
@@ -3517,7 +3653,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/8-breza-previsnuta/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/8-breza-previsnuta/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/8-breza-previsnuta/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/8-breza-previsnuta/"
     },
     {
       "id": "pesnicka-kohutik-jaraby",
@@ -3542,7 +3679,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/pesnicka-kohutik-jaraby/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/pesnicka-kohutik-jaraby/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/pesnicka-kohutik-jaraby/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/pesnicka-kohutik-jaraby/"
     },
     {
       "id": "pesnicka-oda-na-radost",
@@ -3567,7 +3705,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/pesnicka-oda-na-radost/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/pesnicka-oda-na-radost/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/pesnicka-oda-na-radost/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/pesnicka-oda-na-radost/"
     },
     {
       "id": "dendrolog-2-tretia-podstranka",
@@ -3592,7 +3731,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/dendrolog-2-tretia-podstranka/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/dendrolog-2-tretia-podstranka/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/dendrolog-2-tretia-podstranka/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/dendrolog-2-tretia-podstranka/"
     },
     {
       "id": "dendrolog-2-stvrta-podstranka",
@@ -3618,7 +3758,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/"
     },
     {
       "id": "oravsky-hrad",
@@ -3643,7 +3784,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/oravsky-hrad/",
         "pl": "https://www.qrlink.sk/new/pl/oravsky-hrad/",
         "hu": "https://www.qrlink.sk/new/hu/oravsky-hrad/"
-      }
+      },
+      "url": "/oravsky-hrad/"
     },
     {
       "id": "babia-hora",
@@ -3668,7 +3810,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/babia-hora/",
         "pl": "https://www.qrlink.sk/new/pl/babia-hora/",
         "hu": "https://www.qrlink.sk/new/hu/babia-hora/"
-      }
+      },
+      "url": "/babia-hora/"
     },
     {
       "id": "slovensky-severny-pol-oravska-polhora",
@@ -3696,7 +3839,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/slovensky-severny-pol-oravska-polhora/",
         "pl": "https://www.qrlink.sk/new/pl/slovensky-severny-pol-oravska-polhora/",
         "hu": "https://www.qrlink.sk/new/hu/slovensky-severny-pol-oravska-polhora/"
-      }
+      },
+      "url": "/slovensky-severny-pol-oravska-polhora/"
     },
     {
       "id": "slanicky-ostrov-umenia",
@@ -3721,7 +3865,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/slanicky-ostrov-umenia/",
         "pl": "https://www.qrlink.sk/new/pl/slanicky-ostrov-umenia/",
         "hu": "https://www.qrlink.sk/new/hu/slanicky-ostrov-umenia/"
-      }
+      },
+      "url": "/slanicky-ostrov-umenia/"
     },
     {
       "id": "rimsko-katolicky-kostol-sv-michala-archanjela-velicna",
@@ -3746,7 +3891,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/rimsko-katolicky-kostol-sv-michala-archanjela-velicna/",
         "pl": "https://www.qrlink.sk/new/pl/rimsko-katolicky-kostol-sv-michala-archanjela-velicna/",
         "hu": "https://www.qrlink.sk/new/hu/rimsko-katolicky-kostol-sv-michala-archanjela-velicna/"
-      }
+      },
+      "url": "/rimsko-katolicky-kostol-sv-michala-archanjela-velicna/"
     },
     {
       "id": "klin",
@@ -3771,7 +3917,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/klin/",
         "pl": "https://www.qrlink.sk/new/pl/klin/",
         "hu": "https://www.qrlink.sk/new/hu/klin/"
-      }
+      },
+      "url": "/klin/"
     },
     {
       "id": "stala-expozicia-ludoveho-rezbarstva",
@@ -3796,7 +3943,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/stala-expozicia-ludoveho-rezbarstva/",
         "pl": "https://www.qrlink.sk/new/pl/stala-expozicia-ludoveho-rezbarstva/",
         "hu": "https://www.qrlink.sk/new/hu/stala-expozicia-ludoveho-rezbarstva/"
-      }
+      },
+      "url": "/stala-expozicia-ludoveho-rezbarstva/"
     },
     {
       "id": "bobrovska-kalvaria",
@@ -3821,7 +3969,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/bobrovska-kalvaria/",
         "pl": "https://www.qrlink.sk/new/pl/bobrovska-kalvaria/",
         "hu": "https://www.qrlink.sk/new/hu/bobrovska-kalvaria/"
-      }
+      },
+      "url": "/bobrovska-kalvaria/"
     },
     {
       "id": "hrad-strecno",
@@ -3846,7 +3995,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/hrad-strecno/",
         "pl": "https://www.qrlink.sk/new/pl/hrad-strecno/",
         "hu": "https://www.qrlink.sk/new/hu/hrad-strecno/"
-      }
+      },
+      "url": "/hrad-strecno/"
     },
     {
       "id": "plte-na-vahu",
@@ -3871,7 +4021,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/plte-na-vahu/",
         "pl": "https://www.qrlink.sk/new/pl/plte-na-vahu/",
         "hu": "https://www.qrlink.sk/new/hu/plte-na-vahu/"
-      }
+      },
+      "url": "/plte-na-vahu/"
     },
     {
       "id": "hrad-lietava",
@@ -3896,7 +4047,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/hrad-lietava/",
         "pl": "https://www.qrlink.sk/new/pl/hrad-lietava/",
         "hu": "https://www.qrlink.sk/new/hu/hrad-lietava/"
-      }
+      },
+      "url": "/hrad-lietava/"
     },
     {
       "id": "muzeum-juraja-janosika",
@@ -3921,7 +4073,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/muzeum-juraja-janosika/",
         "pl": "https://www.qrlink.sk/new/pl/muzeum-juraja-janosika/",
         "hu": "https://www.qrlink.sk/new/hu/muzeum-juraja-janosika/"
-      }
+      },
+      "url": "/muzeum-juraja-janosika/"
     },
     {
       "id": "janosikove-diery",
@@ -3946,7 +4099,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/janosikove-diery/",
         "pl": "https://www.qrlink.sk/new/pl/janosikove-diery/",
         "hu": "https://www.qrlink.sk/new/hu/janosikove-diery/"
-      }
+      },
+      "url": "/janosikove-diery/"
     },
     {
       "id": "sulovsky-hrad",
@@ -3971,7 +4125,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/sulovsky-hrad/",
         "pl": "https://www.qrlink.sk/new/pl/sulovsky-hrad/",
         "hu": "https://www.qrlink.sk/new/hu/sulovsky-hrad/"
-      }
+      },
+      "url": "/sulovsky-hrad/"
     },
     {
       "id": "historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny",
@@ -3997,7 +4152,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny/",
         "pl": "https://www.qrlink.sk/new/pl/historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny/",
         "hu": "https://www.qrlink.sk/new/hu/historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny/"
-      }
+      },
+      "url": "/historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny/"
     },
     {
       "id": "trojmedzie",
@@ -4022,7 +4178,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/trojmedzie/",
         "pl": "https://www.qrlink.sk/new/pl/trojmedzie/",
         "hu": "https://www.qrlink.sk/new/hu/trojmedzie/"
-      }
+      },
+      "url": "/trojmedzie/"
     },
     {
       "id": "marianske-putnicke-miesto-zivcakova",
@@ -4047,7 +4204,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/marianske-putnicke-miesto-zivcakova/",
         "pl": "https://www.qrlink.sk/new/pl/marianske-putnicke-miesto-zivcakova/",
         "hu": "https://www.qrlink.sk/new/hu/marianske-putnicke-miesto-zivcakova/"
-      }
+      },
+      "url": "/marianske-putnicke-miesto-zivcakova/"
     },
     {
       "id": "kamenne-gule-na-kysuciach",
@@ -4072,7 +4230,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kamenne-gule-na-kysuciach/",
         "pl": "https://www.qrlink.sk/new/pl/kamenne-gule-na-kysuciach/",
         "hu": "https://www.qrlink.sk/new/hu/kamenne-gule-na-kysuciach/"
-      }
+      },
+      "url": "/kamenne-gule-na-kysuciach/"
     },
     {
       "id": "tri-krize-na-stratenci-a-kriz-na-velkom-javorniku",
@@ -4098,7 +4257,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/tri-krize-na-stratenci-a-kriz-na-velkom-javorniku/",
         "pl": "https://www.qrlink.sk/new/pl/tri-krize-na-stratenci-a-kriz-na-velkom-javorniku/",
         "hu": "https://www.qrlink.sk/new/hu/tri-krize-na-stratenci-a-kriz-na-velkom-javorniku/"
-      }
+      },
+      "url": "/tri-krize-na-stratenci-a-kriz-na-velkom-javorniku/"
     },
     {
       "id": "unikatny-dreveny-betlehem-v-rajeckej-lesnej",
@@ -4123,7 +4283,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/unikatny-dreveny-betlehem-v-rajeckej-lesnej/",
         "pl": "https://www.qrlink.sk/new/pl/unikatny-dreveny-betlehem-v-rajeckej-lesnej/",
         "hu": "https://www.qrlink.sk/new/hu/unikatny-dreveny-betlehem-v-rajeckej-lesnej/"
-      }
+      },
+      "url": "/unikatny-dreveny-betlehem-v-rajeckej-lesnej/"
     },
     {
       "id": "gejzir-v-rajeckej-lesnej",
@@ -4148,7 +4309,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/gejzir-v-rajeckej-lesnej/",
         "pl": "https://www.qrlink.sk/new/pl/gejzir-v-rajeckej-lesnej/",
         "hu": "https://www.qrlink.sk/new/hu/gejzir-v-rajeckej-lesnej/"
-      }
+      },
+      "url": "/gejzir-v-rajeckej-lesnej/"
     },
     {
       "id": "mestsky-urad-frydlant-nad-ostravici",
@@ -4176,7 +4338,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/mestsky-urad-frydlant-nad-ostravici/",
         "pl": "https://www.qrlink.sk/new/pl/mestsky-urad-frydlant-nad-ostravici/",
         "hu": "https://www.qrlink.sk/new/hu/mestsky-urad-frydlant-nad-ostravici/"
-      }
+      },
+      "url": "/mestsky-urad-frydlant-nad-ostravici/"
     },
     {
       "id": "kostol-sv-bartolomeja",
@@ -4204,7 +4367,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kostol-sv-bartolomeja/",
         "pl": "https://www.qrlink.sk/new/pl/kostol-sv-bartolomeja/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-sv-bartolomeja/"
-      }
+      },
+      "url": "/kostol-sv-bartolomeja/"
     },
     {
       "id": "centrum-socialnych-sluzieb",
@@ -4232,7 +4396,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/centrum-socialnych-sluzieb/",
         "pl": "https://www.qrlink.sk/new/pl/centrum-socialnych-sluzieb/",
         "hu": "https://www.qrlink.sk/new/hu/centrum-socialnych-sluzieb/"
-      }
+      },
+      "url": "/centrum-socialnych-sluzieb/"
     },
     {
       "id": "kulturne-centrum-frydlant-nad-ostravici",
@@ -4260,7 +4425,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kulturne-centrum-frydlant-nad-ostravici/",
         "pl": "https://www.qrlink.sk/new/pl/kulturne-centrum-frydlant-nad-ostravici/",
         "hu": "https://www.qrlink.sk/new/hu/kulturne-centrum-frydlant-nad-ostravici/"
-      }
+      },
+      "url": "/kulturne-centrum-frydlant-nad-ostravici/"
     },
     {
       "id": "zakladna-skola-frydlant-nad-ostravici-namestie-t-g-masaryka-1260-prispevkova-organizacia",
@@ -4288,7 +4454,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/zakladna-skola-frydlant-nad-ostravici-namestie-t-g-masaryka-1260-prispevkova-organizacia/",
         "pl": "https://www.qrlink.sk/new/pl/zakladna-skola-frydlant-nad-ostravici-namestie-t-g-masaryka-1260-prispevkova-organizacia/",
         "hu": "https://www.qrlink.sk/new/hu/zakladna-skola-frydlant-nad-ostravici-namestie-t-g-masaryka-1260-prispevkova-organizacia/"
-      }
+      },
+      "url": "/zakladna-skola-frydlant-nad-ostravici-namestie-t-g-masaryka-1260-prispevkova-organizacia/"
     },
     {
       "id": "zakladna-skola-frydlant-nad-ostravici-komenskeho-420-prispevkova-organizacia",
@@ -4316,7 +4483,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/zakladna-skola-frydlant-nad-ostravici-komenskeho-420-prispevkova-organizacia/",
         "pl": "https://www.qrlink.sk/new/pl/zakladna-skola-frydlant-nad-ostravici-komenskeho-420-prispevkova-organizacia/",
         "hu": "https://www.qrlink.sk/new/hu/zakladna-skola-frydlant-nad-ostravici-komenskeho-420-prispevkova-organizacia/"
-      }
+      },
+      "url": "/zakladna-skola-frydlant-nad-ostravici-komenskeho-420-prispevkova-organizacia/"
     },
     {
       "id": "letisko-frydlant-nad-ostravici",
@@ -4344,7 +4512,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/letisko-frydlant-nad-ostravici/",
         "pl": "https://www.qrlink.sk/new/pl/letisko-frydlant-nad-ostravici/",
         "hu": "https://www.qrlink.sk/new/hu/letisko-frydlant-nad-ostravici/"
-      }
+      },
+      "url": "/letisko-frydlant-nad-ostravici/"
     },
     {
       "id": "futbalove-ihrisko-a-hala-sport-frydlant-nad-ostravici",
@@ -4372,7 +4541,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/futbalove-ihrisko-a-hala-sport-frydlant-nad-ostravici/",
         "pl": "https://www.qrlink.sk/new/pl/futbalove-ihrisko-a-hala-sport-frydlant-nad-ostravici/",
         "hu": "https://www.qrlink.sk/new/hu/futbalove-ihrisko-a-hala-sport-frydlant-nad-ostravici/"
-      }
+      },
+      "url": "/futbalove-ihrisko-a-hala-sport-frydlant-nad-ostravici/"
     },
     {
       "id": "kupalisko-a-tenisove-kurty-edimex",
@@ -4400,7 +4570,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kupalisko-a-tenisove-kurty-edimex/",
         "pl": "https://www.qrlink.sk/new/pl/kupalisko-a-tenisove-kurty-edimex/",
         "hu": "https://www.qrlink.sk/new/hu/kupalisko-a-tenisove-kurty-edimex/"
-      }
+      },
+      "url": "/kupalisko-a-tenisove-kurty-edimex/"
     },
     {
       "id": "sportove-a-relaxacne-centrum-kotelna",
@@ -4428,7 +4599,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/sportove-a-relaxacne-centrum-kotelna/",
         "pl": "https://www.qrlink.sk/new/pl/sportove-a-relaxacne-centrum-kotelna/",
         "hu": "https://www.qrlink.sk/new/hu/sportove-a-relaxacne-centrum-kotelna/"
-      }
+      },
+      "url": "/sportove-a-relaxacne-centrum-kotelna/"
     },
     {
       "id": "kaplnka-sv-antonina-paduanskeho-ondrejnik",
@@ -4456,7 +4628,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kaplnka-sv-antonina-paduanskeho-ondrejnik/",
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-sv-antonina-paduanskeho-ondrejnik/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-sv-antonina-paduanskeho-ondrejnik/"
-      }
+      },
+      "url": "/kaplnka-sv-antonina-paduanskeho-ondrejnik/"
     },
     {
       "id": "vlakova-stanica-frydlant-nad-ostravici",
@@ -4484,7 +4657,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/vlakova-stanica-frydlant-nad-ostravici/",
         "pl": "https://www.qrlink.sk/new/pl/vlakova-stanica-frydlant-nad-ostravici/",
         "hu": "https://www.qrlink.sk/new/hu/vlakova-stanica-frydlant-nad-ostravici/"
-      }
+      },
+      "url": "/vlakova-stanica-frydlant-nad-ostravici/"
     },
     {
       "id": "doc-ing-julius-binder-dr-h-c",
@@ -4507,7 +4681,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/doc-ing-julius-binder-dr-h-c/",
         "pl": "https://www.qrlink.sk/new/pl/castles/doc-ing-julius-binder-dr-h-c/",
         "hu": "https://www.qrlink.sk/new/hu/castles/doc-ing-julius-binder-dr-h-c/"
-      }
+      },
+      "url": "/castles/doc-ing-julius-binder-dr-h-c/"
     },
     {
       "id": "gabcikov-sad",
@@ -4528,7 +4703,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/gabcikov-sad/",
         "pl": "https://www.qrlink.sk/new/pl/castles/gabcikov-sad/",
         "hu": "https://www.qrlink.sk/new/hu/castles/gabcikov-sad/"
-      }
+      },
+      "url": "/castles/gabcikov-sad/"
     },
     {
       "id": "hmyzi-hotel",
@@ -4549,7 +4725,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/hmyzi-hotel/",
         "pl": "https://www.qrlink.sk/new/pl/castles/hmyzi-hotel/",
         "hu": "https://www.qrlink.sk/new/hu/castles/hmyzi-hotel/"
-      }
+      },
+      "url": "/castles/hmyzi-hotel/"
     },
     {
       "id": "vcela-samotarka",
@@ -4574,7 +4751,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/vcela-samotarka/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/vcela-samotarka/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/vcela-samotarka/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/vcela-samotarka/"
     },
     {
       "id": "cmel",
@@ -4599,7 +4777,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/cmel/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/cmel/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/cmel/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/cmel/"
     },
     {
       "id": "zlatoocka-obycajna",
@@ -4624,7 +4803,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/zlatoocka-obycajna/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/zlatoocka-obycajna/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/zlatoocka-obycajna/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/zlatoocka-obycajna/"
     },
     {
       "id": "lienka-sedembodkova",
@@ -4649,7 +4829,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/lienka-sedembodkova/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/lienka-sedembodkova/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/lienka-sedembodkova/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/lienka-sedembodkova/"
     },
     {
       "id": "cesticka-na-hrad",
@@ -4677,7 +4858,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/cesticka-na-hrad/",
         "pl": "https://www.qrlink.sk/new/pl/castles/cesticka-na-hrad/",
         "hu": "https://www.qrlink.sk/new/hu/castles/cesticka-na-hrad/"
-      }
+      },
+      "url": "/castles/cesticka-na-hrad/"
     },
     {
       "id": "vstup-na-hrad",
@@ -4705,7 +4887,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/vstup-na-hrad/",
         "pl": "https://www.qrlink.sk/new/pl/castles/vstup-na-hrad/",
         "hu": "https://www.qrlink.sk/new/hu/castles/vstup-na-hrad/"
-      }
+      },
+      "url": "/castles/vstup-na-hrad/"
     },
     {
       "id": "expozicia-archeologie",
@@ -4734,7 +4917,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/expozicia-archeologie/",
         "pl": "https://www.qrlink.sk/new/pl/castles/expozicia-archeologie/",
         "hu": "https://www.qrlink.sk/new/hu/castles/expozicia-archeologie/"
-      }
+      },
+      "url": "/castles/expozicia-archeologie/"
     },
     {
       "id": "prve-podlazie-juzneho-palaca",
@@ -4760,7 +4944,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/prve-podlazie-juzneho-palaca/",
         "pl": "https://www.qrlink.sk/new/pl/castles/prve-podlazie-juzneho-palaca/",
         "hu": "https://www.qrlink.sk/new/hu/castles/prve-podlazie-juzneho-palaca/"
-      }
+      },
+      "url": "/castles/prve-podlazie-juzneho-palaca/"
     },
     {
       "id": "prizemie-juzneho-palaca-kuchyna",
@@ -4785,7 +4970,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/prizemie-juzneho-palaca-kuchyna/",
         "pl": "https://www.qrlink.sk/new/pl/castles/prizemie-juzneho-palaca-kuchyna/",
         "hu": "https://www.qrlink.sk/new/hu/castles/prizemie-juzneho-palaca-kuchyna/"
-      }
+      },
+      "url": "/castles/prizemie-juzneho-palaca-kuchyna/"
     },
     {
       "id": "juzne-nadvorie",
@@ -4810,7 +4996,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/juzne-nadvorie/",
         "pl": "https://www.qrlink.sk/new/pl/castles/juzne-nadvorie/",
         "hu": "https://www.qrlink.sk/new/hu/castles/juzne-nadvorie/"
-      }
+      },
+      "url": "/castles/juzne-nadvorie/"
     },
     {
       "id": "cisterna",
@@ -4835,7 +5022,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/cisterna/",
         "pl": "https://www.qrlink.sk/new/pl/castles/cisterna/",
         "hu": "https://www.qrlink.sk/new/hu/castles/cisterna/"
-      }
+      },
+      "url": "/castles/cisterna/"
     },
     {
       "id": "vstup-do-hlavnej-veze",
@@ -4861,7 +5049,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/vstup-do-hlavnej-veze/",
         "pl": "https://www.qrlink.sk/new/pl/castles/vstup-do-hlavnej-veze/",
         "hu": "https://www.qrlink.sk/new/hu/castles/vstup-do-hlavnej-veze/"
-      }
+      },
+      "url": "/castles/vstup-do-hlavnej-veze/"
     },
     {
       "id": "hlavna-veza-vyhlad",
@@ -4888,7 +5077,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/hlavna-veza-vyhlad/",
         "pl": "https://www.qrlink.sk/new/pl/castles/hlavna-veza-vyhlad/",
         "hu": "https://www.qrlink.sk/new/hu/castles/hlavna-veza-vyhlad/"
-      }
+      },
+      "url": "/castles/hlavna-veza-vyhlad/"
     },
     {
       "id": "goticky-a-vychodny-palac",
@@ -4913,7 +5103,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/goticky-a-vychodny-palac/",
         "pl": "https://www.qrlink.sk/new/pl/castles/goticky-a-vychodny-palac/",
         "hu": "https://www.qrlink.sk/new/hu/castles/goticky-a-vychodny-palac/"
-      }
+      },
+      "url": "/castles/goticky-a-vychodny-palac/"
     },
     {
       "id": "severny-palac",
@@ -4938,7 +5129,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/severny-palac/",
         "pl": "https://www.qrlink.sk/new/pl/castles/severny-palac/",
         "hu": "https://www.qrlink.sk/new/hu/castles/severny-palac/"
-      }
+      },
+      "url": "/castles/severny-palac/"
     },
     {
       "id": "kaplnka",
@@ -4966,7 +5158,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/kaplnka/",
         "pl": "https://www.qrlink.sk/new/pl/castles/kaplnka/",
         "hu": "https://www.qrlink.sk/new/hu/castles/kaplnka/"
-      }
+      },
+      "url": "/castles/kaplnka/"
     },
     {
       "id": "severna-veza",
@@ -4992,7 +5185,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/severna-veza/",
         "pl": "https://www.qrlink.sk/new/pl/castles/severna-veza/",
         "hu": "https://www.qrlink.sk/new/hu/castles/severna-veza/"
-      }
+      },
+      "url": "/castles/severna-veza/"
     },
     {
       "id": "hlavne-nadvorie",
@@ -5017,7 +5211,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/hlavne-nadvorie/",
         "pl": "https://www.qrlink.sk/new/pl/castles/hlavne-nadvorie/",
         "hu": "https://www.qrlink.sk/new/hu/castles/hlavne-nadvorie/"
-      }
+      },
+      "url": "/castles/hlavne-nadvorie/"
     },
     {
       "id": "bytcianski-turzovci-povod-dejiny-rodu-erb",
@@ -5042,7 +5237,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/bytcianski-turzovci-povod-dejiny-rodu-erb/",
         "pl": "https://www.qrlink.sk/new/pl/castles/bytcianski-turzovci-povod-dejiny-rodu-erb/",
         "hu": "https://www.qrlink.sk/new/hu/castles/bytcianski-turzovci-povod-dejiny-rodu-erb/"
-      }
+      },
+      "url": "/castles/bytcianski-turzovci-povod-dejiny-rodu-erb/"
     },
     {
       "id": "politicka-a-vojenska-kariera-juraja-turza",
@@ -5067,7 +5263,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/politicka-a-vojenska-kariera-juraja-turza/",
         "pl": "https://www.qrlink.sk/new/pl/castles/politicka-a-vojenska-kariera-juraja-turza/",
         "hu": "https://www.qrlink.sk/new/hu/castles/politicka-a-vojenska-kariera-juraja-turza/"
-      }
+      },
+      "url": "/castles/politicka-a-vojenska-kariera-juraja-turza/"
     },
     {
       "id": "juraj-turzo-a-turzovka",
@@ -5092,7 +5289,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/juraj-turzo-a-turzovka/",
         "pl": "https://www.qrlink.sk/new/pl/castles/juraj-turzo-a-turzovka/",
         "hu": "https://www.qrlink.sk/new/hu/castles/juraj-turzo-a-turzovka/"
-      }
+      },
+      "url": "/castles/juraj-turzo-a-turzovka/"
     },
     {
       "id": "juraj-turzo-podporovatel-vzdelanosti-a-patron-evanjelickej-cirkvi",
@@ -5117,7 +5315,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/juraj-turzo-podporovatel-vzdelanosti-a-patron-evanjelickej-cirkvi/",
         "pl": "https://www.qrlink.sk/new/pl/castles/juraj-turzo-podporovatel-vzdelanosti-a-patron-evanjelickej-cirkvi/",
         "hu": "https://www.qrlink.sk/new/hu/castles/juraj-turzo-podporovatel-vzdelanosti-a-patron-evanjelickej-cirkvi/"
-      }
+      },
+      "url": "/castles/juraj-turzo-podporovatel-vzdelanosti-a-patron-evanjelickej-cirkvi/"
     },
     {
       "id": "zaver-zivota-uhorskeho-palatina",
@@ -5142,7 +5341,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/zaver-zivota-uhorskeho-palatina/",
         "pl": "https://www.qrlink.sk/new/pl/castles/zaver-zivota-uhorskeho-palatina/",
         "hu": "https://www.qrlink.sk/new/hu/castles/zaver-zivota-uhorskeho-palatina/"
-      }
+      },
+      "url": "/castles/zaver-zivota-uhorskeho-palatina/"
     },
     {
       "id": "edmund-reitter-vedec-novinar-a-cestovatel",
@@ -5167,7 +5367,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/edmund-reitter-vedec-novinar-a-cestovatel/",
         "pl": "https://www.qrlink.sk/new/pl/castles/edmund-reitter-vedec-novinar-a-cestovatel/",
         "hu": "https://www.qrlink.sk/new/hu/castles/edmund-reitter-vedec-novinar-a-cestovatel/"
-      }
+      },
+      "url": "/castles/edmund-reitter-vedec-novinar-a-cestovatel/"
     },
     {
       "id": "edmund-reitter-clovek-a-filantrop",
@@ -5192,7 +5393,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/edmund-reitter-clovek-a-filantrop/",
         "pl": "https://www.qrlink.sk/new/pl/castles/edmund-reitter-clovek-a-filantrop/",
         "hu": "https://www.qrlink.sk/new/hu/castles/edmund-reitter-clovek-a-filantrop/"
-      }
+      },
+      "url": "/castles/edmund-reitter-clovek-a-filantrop/"
     },
     {
       "id": "edmund-reitter-odkaz-v-soudobem-paskove",
@@ -5217,7 +5419,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/edmund-reitter-odkaz-v-soudobem-paskove/",
         "pl": "https://www.qrlink.sk/new/pl/castles/edmund-reitter-odkaz-v-soudobem-paskove/",
         "hu": "https://www.qrlink.sk/new/hu/castles/edmund-reitter-odkaz-v-soudobem-paskove/"
-      }
+      },
+      "url": "/castles/edmund-reitter-odkaz-v-soudobem-paskove/"
     },
     {
       "id": "potomstvo-juraja-turza-2",
@@ -5242,7 +5445,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/potomstvo-juraja-turza-2/",
         "pl": "https://www.qrlink.sk/new/pl/castles/potomstvo-juraja-turza-2/",
         "hu": "https://www.qrlink.sk/new/hu/castles/potomstvo-juraja-turza-2/"
-      }
+      },
+      "url": "/castles/potomstvo-juraja-turza-2/"
     },
     {
       "id": "edmund-reitter-rodinne-zazemi-2",
@@ -5267,7 +5471,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/edmund-reitter-rodinne-zazemi-2/",
         "pl": "https://www.qrlink.sk/new/pl/castles/edmund-reitter-rodinne-zazemi-2/",
         "hu": "https://www.qrlink.sk/new/hu/castles/edmund-reitter-rodinne-zazemi-2/"
-      }
+      },
+      "url": "/castles/edmund-reitter-rodinne-zazemi-2/"
     },
     {
       "id": "rozhladna-tabor",
@@ -5292,7 +5497,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/rozhladna-tabor/",
         "pl": "https://www.qrlink.sk/new/pl/rozhladna-tabor/",
         "hu": "https://www.qrlink.sk/new/hu/rozhladna-tabor/"
-      }
+      },
+      "url": "/rozhladna-tabor/"
     },
     {
       "id": "kysucka-hvezdaren",
@@ -5317,7 +5523,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kysucka-hvezdaren/",
         "pl": "https://www.qrlink.sk/new/pl/kysucka-hvezdaren/",
         "hu": "https://www.qrlink.sk/new/hu/kysucka-hvezdaren/"
-      }
+      },
+      "url": "/kysucka-hvezdaren/"
     },
     {
       "id": "kastiel-v-radoli",
@@ -5345,7 +5552,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kastiel-v-radoli/",
         "pl": "https://www.qrlink.sk/new/pl/kastiel-v-radoli/",
         "hu": "https://www.qrlink.sk/new/hu/kastiel-v-radoli/"
-      }
+      },
+      "url": "/kastiel-v-radoli/"
     },
     {
       "id": "martakov-kopec-rozhladna-zakopcie",
@@ -5370,7 +5578,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/martakov-kopec-rozhladna-zakopcie/",
         "pl": "https://www.qrlink.sk/new/pl/martakov-kopec-rozhladna-zakopcie/",
         "hu": "https://www.qrlink.sk/new/hu/martakov-kopec-rozhladna-zakopcie/"
-      }
+      },
+      "url": "/martakov-kopec-rozhladna-zakopcie/"
     },
     {
       "id": "rozhladna-luby",
@@ -5395,7 +5604,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/rozhladna-luby/",
         "pl": "https://www.qrlink.sk/new/pl/rozhladna-luby/",
         "hu": "https://www.qrlink.sk/new/hu/rozhladna-luby/"
-      }
+      },
+      "url": "/rozhladna-luby/"
     },
     {
       "id": "chranena-lipa",
@@ -5420,7 +5630,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/chranena-lipa/",
         "pl": "https://www.qrlink.sk/new/pl/chranena-lipa/",
         "hu": "https://www.qrlink.sk/new/hu/chranena-lipa/"
-      }
+      },
+      "url": "/chranena-lipa/"
     },
     {
       "id": "kastiel-komjatice",
@@ -5459,7 +5670,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kastiel-komjatice/",
         "pl": "https://www.qrlink.sk/new/pl/kastiel-komjatice/",
         "hu": "https://www.qrlink.sk/new/hu/kastiel-komjatice/"
-      }
+      },
+      "url": "/kastiel-komjatice/"
     },
     {
       "id": "kraj-rusinov-a-andyho-warhola-vystahovalectvo",
@@ -5487,7 +5699,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kraj-rusinov-a-andyho-warhola-vystahovalectvo/",
         "pl": "https://www.qrlink.sk/new/pl/kraj-rusinov-a-andyho-warhola-vystahovalectvo/",
         "hu": "https://www.qrlink.sk/new/hu/kraj-rusinov-a-andyho-warhola-vystahovalectvo/"
-      }
+      },
+      "url": "/kraj-rusinov-a-andyho-warhola-vystahovalectvo/"
     },
     {
       "id": "kraj-rusinov-a-andyho-warhola-tazba-ropy-v-regione",
@@ -5515,7 +5728,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kraj-rusinov-a-andyho-warhola-tazba-ropy-v-regione/",
         "pl": "https://www.qrlink.sk/new/pl/kraj-rusinov-a-andyho-warhola-tazba-ropy-v-regione/",
         "hu": "https://www.qrlink.sk/new/hu/kraj-rusinov-a-andyho-warhola-tazba-ropy-v-regione/"
-      }
+      },
+      "url": "/kraj-rusinov-a-andyho-warhola-tazba-ropy-v-regione/"
     },
     {
       "id": "o-hlinenom-v-najstarsich-casoch",
@@ -5541,7 +5755,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/o-hlinenom-v-najstarsich-casoch/",
         "pl": "https://www.qrlink.sk/new/pl/o-hlinenom-v-najstarsich-casoch/",
         "hu": "https://www.qrlink.sk/new/hu/o-hlinenom-v-najstarsich-casoch/"
-      }
+      },
+      "url": "/o-hlinenom-v-najstarsich-casoch/"
     },
     {
       "id": "svetlonos",
@@ -5567,7 +5782,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/svetlonos/",
         "pl": "https://www.qrlink.sk/new/pl/svetlonos/",
         "hu": "https://www.qrlink.sk/new/hu/svetlonos/"
-      }
+      },
+      "url": "/svetlonos/"
     },
     {
       "id": "zakopy",
@@ -5593,7 +5809,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/zakopy/",
         "pl": "https://www.qrlink.sk/new/pl/zakopy/",
         "hu": "https://www.qrlink.sk/new/hu/zakopy/"
-      }
+      },
+      "url": "/zakopy/"
     },
     {
       "id": "hlinensky-potok",
@@ -5619,7 +5836,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/hlinensky-potok/",
         "pl": "https://www.qrlink.sk/new/pl/hlinensky-potok/",
         "hu": "https://www.qrlink.sk/new/hu/hlinensky-potok/"
-      }
+      },
+      "url": "/hlinensky-potok/"
     },
     {
       "id": "najuzsi-bod",
@@ -5645,7 +5863,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/najuzsi-bod/",
         "pl": "https://www.qrlink.sk/new/pl/najuzsi-bod/",
         "hu": "https://www.qrlink.sk/new/hu/najuzsi-bod/"
-      }
+      },
+      "url": "/najuzsi-bod/"
     },
     {
       "id": "zvonica-2",
@@ -5671,7 +5890,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/zvonica-2/",
         "pl": "https://www.qrlink.sk/new/pl/zvonica-2/",
         "hu": "https://www.qrlink.sk/new/hu/zvonica-2/"
-      }
+      },
+      "url": "/zvonica-2/"
     },
     {
       "id": "nch-zarubana-kycera",
@@ -5696,7 +5916,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/nch-zarubana-kycera/",
         "pl": "https://www.qrlink.sk/new/pl/castles/nch-zarubana-kycera/",
         "hu": "https://www.qrlink.sk/new/hu/castles/nch-zarubana-kycera/"
-      }
+      },
+      "url": "/castles/nch-zarubana-kycera/"
     },
     {
       "id": "detsky-naucny-turisticky-chodnik",
@@ -5721,7 +5942,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/detsky-naucny-turisticky-chodnik/",
         "pl": "https://www.qrlink.sk/new/pl/castles/detsky-naucny-turisticky-chodnik/",
         "hu": "https://www.qrlink.sk/new/hu/castles/detsky-naucny-turisticky-chodnik/"
-      }
+      },
+      "url": "/castles/detsky-naucny-turisticky-chodnik/"
     },
     {
       "id": "kysucky-detsky-les",
@@ -5745,7 +5967,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/kysucky-detsky-les/",
         "pl": "https://www.qrlink.sk/new/pl/castles/kysucky-detsky-les/",
         "hu": "https://www.qrlink.sk/new/hu/castles/kysucky-detsky-les/"
-      }
+      },
+      "url": "/castles/kysucky-detsky-les/"
     },
     {
       "id": "ku-pramenu-rieky-kysuca-400-rokov-4000-krokov",
@@ -5770,7 +5993,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/ku-pramenu-rieky-kysuca-400-rokov-4000-krokov/",
         "pl": "https://www.qrlink.sk/new/pl/castles/ku-pramenu-rieky-kysuca-400-rokov-4000-krokov/",
         "hu": "https://www.qrlink.sk/new/hu/castles/ku-pramenu-rieky-kysuca-400-rokov-4000-krokov/"
-      }
+      },
+      "url": "/castles/ku-pramenu-rieky-kysuca-400-rokov-4000-krokov/"
     },
     {
       "id": "chodnik-jozefa-kronera",
@@ -5795,7 +6019,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/chodnik-jozefa-kronera/",
         "pl": "https://www.qrlink.sk/new/pl/castles/chodnik-jozefa-kronera/",
         "hu": "https://www.qrlink.sk/new/hu/castles/chodnik-jozefa-kronera/"
-      }
+      },
+      "url": "/castles/chodnik-jozefa-kronera/"
     },
     {
       "id": "prameny-moravky",
@@ -5819,7 +6044,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/prameny-moravky/",
         "pl": "https://www.qrlink.sk/new/pl/castles/prameny-moravky/",
         "hu": "https://www.qrlink.sk/new/hu/castles/prameny-moravky/"
-      }
+      },
+      "url": "/castles/prameny-moravky/"
     },
     {
       "id": "frydecky-les",
@@ -5843,7 +6069,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/frydecky-les/",
         "pl": "https://www.qrlink.sk/new/pl/castles/frydecky-les/",
         "hu": "https://www.qrlink.sk/new/hu/castles/frydecky-les/"
-      }
+      },
+      "url": "/castles/frydecky-les/"
     },
     {
       "id": "grun-bily-kriz",
@@ -5867,7 +6094,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/grun-bily-kriz/",
         "pl": "https://www.qrlink.sk/new/pl/castles/grun-bily-kriz/",
         "hu": "https://www.qrlink.sk/new/hu/castles/grun-bily-kriz/"
-      }
+      },
+      "url": "/castles/grun-bily-kriz/"
     },
     {
       "id": "certuv-mlyn",
@@ -5891,7 +6119,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/certuv-mlyn/",
         "pl": "https://www.qrlink.sk/new/pl/castles/certuv-mlyn/",
         "hu": "https://www.qrlink.sk/new/hu/castles/certuv-mlyn/"
-      }
+      },
+      "url": "/castles/certuv-mlyn/"
     },
     {
       "id": "vcelarska-naucna-stezka",
@@ -5916,7 +6145,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/vcelarska-naucna-stezka/",
         "pl": "https://www.qrlink.sk/new/pl/castles/vcelarska-naucna-stezka/",
         "hu": "https://www.qrlink.sk/new/hu/castles/vcelarska-naucna-stezka/"
-      }
+      },
+      "url": "/castles/vcelarska-naucna-stezka/"
     },
     {
       "id": "chlebovicka-medova-stopa",
@@ -5940,7 +6170,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/chlebovicka-medova-stopa/",
         "pl": "https://www.qrlink.sk/new/pl/castles/chlebovicka-medova-stopa/",
         "hu": "https://www.qrlink.sk/new/hu/castles/chlebovicka-medova-stopa/"
-      }
+      },
+      "url": "/castles/chlebovicka-medova-stopa/"
     },
     {
       "id": "lesni-stezka-vyhlidka",
@@ -5964,7 +6195,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/lesni-stezka-vyhlidka/",
         "pl": "https://www.qrlink.sk/new/pl/castles/lesni-stezka-vyhlidka/",
         "hu": "https://www.qrlink.sk/new/hu/castles/lesni-stezka-vyhlidka/"
-      }
+      },
+      "url": "/castles/lesni-stezka-vyhlidka/"
     },
     {
       "id": "najstarsie-zmienky-o-zivcakovej",
@@ -5993,7 +6225,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/najstarsie-zmienky-o-zivcakovej/",
         "pl": "https://www.qrlink.sk/new/pl/castles/najstarsie-zmienky-o-zivcakovej/",
         "hu": "https://www.qrlink.sk/new/hu/castles/najstarsie-zmienky-o-zivcakovej/"
-      }
+      },
+      "url": "/castles/najstarsie-zmienky-o-zivcakovej/"
     },
     {
       "id": "vodna-pila-vincenta-hrtusa",
@@ -6018,7 +6251,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/vodna-pila-vincenta-hrtusa/",
         "pl": "https://www.qrlink.sk/new/pl/castles/vodna-pila-vincenta-hrtusa/",
         "hu": "https://www.qrlink.sk/new/hu/castles/vodna-pila-vincenta-hrtusa/"
-      }
+      },
+      "url": "/castles/vodna-pila-vincenta-hrtusa/"
     },
     {
       "id": "mimoriadne-udalosti-na-uzemi-turzovky",
@@ -6044,7 +6278,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/mimoriadne-udalosti-na-uzemi-turzovky/",
         "pl": "https://www.qrlink.sk/new/pl/castles/mimoriadne-udalosti-na-uzemi-turzovky/",
         "hu": "https://www.qrlink.sk/new/hu/castles/mimoriadne-udalosti-na-uzemi-turzovky/"
-      }
+      },
+      "url": "/castles/mimoriadne-udalosti-na-uzemi-turzovky/"
     },
     {
       "id": "udajne-zjavenia-na-zivcakovej-matusovi-lasutovi",
@@ -6070,7 +6305,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/udajne-zjavenia-na-zivcakovej-matusovi-lasutovi/",
         "pl": "https://www.qrlink.sk/new/pl/castles/udajne-zjavenia-na-zivcakovej-matusovi-lasutovi/",
         "hu": "https://www.qrlink.sk/new/hu/castles/udajne-zjavenia-na-zivcakovej-matusovi-lasutovi/"
-      }
+      },
+      "url": "/castles/udajne-zjavenia-na-zivcakovej-matusovi-lasutovi/"
     },
     {
       "id": "vyvoj-do-roku-1989",
@@ -6096,7 +6332,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/vyvoj-do-roku-1989/",
         "pl": "https://www.qrlink.sk/new/pl/castles/vyvoj-do-roku-1989/",
         "hu": "https://www.qrlink.sk/new/hu/castles/vyvoj-do-roku-1989/"
-      }
+      },
+      "url": "/castles/vyvoj-do-roku-1989/"
     },
     {
       "id": "stavba-kaplnky-a-putnicke-miesto",
@@ -6122,7 +6359,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/stavba-kaplnky-a-putnicke-miesto/",
         "pl": "https://www.qrlink.sk/new/pl/castles/stavba-kaplnky-a-putnicke-miesto/",
         "hu": "https://www.qrlink.sk/new/hu/castles/stavba-kaplnky-a-putnicke-miesto/"
-      }
+      },
+      "url": "/castles/stavba-kaplnky-a-putnicke-miesto/"
     },
     {
       "id": "kov",
@@ -6147,7 +6385,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/kov/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/kov/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/kov/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/kov/"
     },
     {
       "id": "sklo",
@@ -6172,7 +6411,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/sklo/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/sklo/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/sklo/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/sklo/"
     },
     {
       "id": "bio",
@@ -6197,7 +6437,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/bio/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/bio/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/bio/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/bio/"
     },
     {
       "id": "plast",
@@ -6222,7 +6463,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/plast/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/plast/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/plast/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/plast/"
     },
     {
       "id": "papier",
@@ -6247,7 +6489,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/papier/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/papier/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/papier/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/papier/"
     },
     {
       "id": "vodna-nadrz-v-porabke",
@@ -6275,7 +6518,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/vodna-nadrz-v-porabke/",
         "pl": "https://www.qrlink.sk/new/pl/vodna-nadrz-v-porabke/",
         "hu": "https://www.qrlink.sk/new/hu/vodna-nadrz-v-porabke/"
-      }
+      },
+      "url": "/vodna-nadrz-v-porabke/"
     },
     {
       "id": "osada-kolonia-v-style-witkiewiczovcov",
@@ -6303,7 +6547,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/osada-kolonia-v-style-witkiewiczovcov/",
         "pl": "https://www.qrlink.sk/new/pl/osada-kolonia-v-style-witkiewiczovcov/",
         "hu": "https://www.qrlink.sk/new/hu/osada-kolonia-v-style-witkiewiczovcov/"
-      }
+      },
+      "url": "/osada-kolonia-v-style-witkiewiczovcov/"
     },
     {
       "id": "obecne-centrum-kultury-v-porabke",
@@ -6331,7 +6576,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/obecne-centrum-kultury-v-porabke/",
         "pl": "https://www.qrlink.sk/new/pl/obecne-centrum-kultury-v-porabke/",
         "hu": "https://www.qrlink.sk/new/hu/obecne-centrum-kultury-v-porabke/"
-      }
+      },
+      "url": "/obecne-centrum-kultury-v-porabke/"
     },
     {
       "id": "regionalna-izba-v-porabke",
@@ -6359,7 +6605,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/regionalna-izba-v-porabke/",
         "pl": "https://www.qrlink.sk/new/pl/regionalna-izba-v-porabke/",
         "hu": "https://www.qrlink.sk/new/hu/regionalna-izba-v-porabke/"
-      }
+      },
+      "url": "/regionalna-izba-v-porabke/"
     },
     {
       "id": "kaplnka-st-urbana-ul-krakowska",
@@ -6387,7 +6634,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kaplnka-st-urbana-ul-krakowska/",
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-st-urbana-ul-krakowska/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-st-urbana-ul-krakowska/"
-      }
+      },
+      "url": "/kaplnka-st-urbana-ul-krakowska/"
     },
     {
       "id": "kaplnka-na-tronce",
@@ -6415,7 +6663,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kaplnka-na-tronce/",
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-na-tronce/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-na-tronce/"
-      }
+      },
+      "url": "/kaplnka-na-tronce/"
     },
     {
       "id": "nadrz-czaniecka",
@@ -6443,7 +6692,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/nadrz-czaniecka/",
         "pl": "https://www.qrlink.sk/new/pl/nadrz-czaniecka/",
         "hu": "https://www.qrlink.sk/new/hu/nadrz-czaniecka/"
-      }
+      },
+      "url": "/nadrz-czaniecka/"
     },
     {
       "id": "lesna-rezervacia-zasolnica",
@@ -6471,7 +6721,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/lesna-rezervacia-zasolnica/",
         "pl": "https://www.qrlink.sk/new/pl/lesna-rezervacia-zasolnica/",
         "hu": "https://www.qrlink.sk/new/hu/lesna-rezervacia-zasolnica/"
-      }
+      },
+      "url": "/lesna-rezervacia-zasolnica/"
     },
     {
       "id": "kostol-v-czancu",
@@ -6499,7 +6750,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kostol-v-czancu/",
         "pl": "https://www.qrlink.sk/new/pl/kostol-v-czancu/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-v-czancu/"
-      }
+      },
+      "url": "/kostol-v-czancu/"
     },
     {
       "id": "kaplnka-v-bujakowskom-lese",
@@ -6527,7 +6779,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kaplnka-v-bujakowskom-lese/",
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-v-bujakowskom-lese/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-v-bujakowskom-lese/"
-      }
+      },
+      "url": "/kaplnka-v-bujakowskom-lese/"
     },
     {
       "id": "vila-v-kobiernicach-a-pamiatkovy-park",
@@ -6555,7 +6808,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/vila-v-kobiernicach-a-pamiatkovy-park/",
         "pl": "https://www.qrlink.sk/new/pl/vila-v-kobiernicach-a-pamiatkovy-park/",
         "hu": "https://www.qrlink.sk/new/hu/vila-v-kobiernicach-a-pamiatkovy-park/"
-      }
+      },
+      "url": "/vila-v-kobiernicach-a-pamiatkovy-park/"
     },
     {
       "id": "zrucanina-hradu-na-wolku-a-historicka-trasa",
@@ -6583,7 +6837,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/zrucanina-hradu-na-wolku-a-historicka-trasa/",
         "pl": "https://www.qrlink.sk/new/pl/zrucanina-hradu-na-wolku-a-historicka-trasa/",
         "hu": "https://www.qrlink.sk/new/hu/zrucanina-hradu-na-wolku-a-historicka-trasa/"
-      }
+      },
+      "url": "/zrucanina-hradu-na-wolku-a-historicka-trasa/"
     },
     {
       "id": "sarisska-galeria",
@@ -6608,7 +6863,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/sarisska-galeria/",
         "pl": "https://www.qrlink.sk/new/pl/sarisska-galeria/",
         "hu": "https://www.qrlink.sk/new/hu/sarisska-galeria/"
-      }
+      },
+      "url": "/sarisska-galeria/"
     },
     {
       "id": "frantiskansky-kostol",
@@ -6633,7 +6889,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/frantiskansky-kostol/",
         "pl": "https://www.qrlink.sk/new/pl/frantiskansky-kostol/",
         "hu": "https://www.qrlink.sk/new/hu/frantiskansky-kostol/"
-      }
+      },
+      "url": "/frantiskansky-kostol/"
     },
     {
       "id": "evanjelicke-kolegium",
@@ -6658,7 +6915,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/evanjelicke-kolegium/",
         "pl": "https://www.qrlink.sk/new/pl/evanjelicke-kolegium/",
         "hu": "https://www.qrlink.sk/new/hu/evanjelicke-kolegium/"
-      }
+      },
+      "url": "/evanjelicke-kolegium/"
     },
     {
       "id": "chram-sv-jana-krstitela",
@@ -6683,7 +6941,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/chram-sv-jana-krstitela/",
         "pl": "https://www.qrlink.sk/new/pl/chram-sv-jana-krstitela/",
         "hu": "https://www.qrlink.sk/new/hu/chram-sv-jana-krstitela/"
-      }
+      },
+      "url": "/chram-sv-jana-krstitela/"
     },
     {
       "id": "susosie-immaculaty",
@@ -6708,7 +6967,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/susosie-immaculaty/",
         "pl": "https://www.qrlink.sk/new/pl/susosie-immaculaty/",
         "hu": "https://www.qrlink.sk/new/hu/susosie-immaculaty/"
-      }
+      },
+      "url": "/susosie-immaculaty/"
     },
     {
       "id": "mestske-hradby",
@@ -6733,7 +6993,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/mestske-hradby/",
         "pl": "https://www.qrlink.sk/new/pl/mestske-hradby/",
         "hu": "https://www.qrlink.sk/new/hu/mestske-hradby/"
-      }
+      },
+      "url": "/mestske-hradby/"
     },
     {
       "id": "kostol-sv-mikulasa",
@@ -6758,7 +7019,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kostol-sv-mikulasa/",
         "pl": "https://www.qrlink.sk/new/pl/kostol-sv-mikulasa/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-sv-mikulasa/"
-      }
+      },
+      "url": "/kostol-sv-mikulasa/"
     },
     {
       "id": "evanjelicky-a-v-chram-sv-trojice",
@@ -6783,7 +7045,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/evanjelicky-a-v-chram-sv-trojice/",
         "pl": "https://www.qrlink.sk/new/pl/evanjelicky-a-v-chram-sv-trojice/",
         "hu": "https://www.qrlink.sk/new/hu/evanjelicky-a-v-chram-sv-trojice/"
-      }
+      },
+      "url": "/evanjelicky-a-v-chram-sv-trojice/"
     },
     {
       "id": "neptunova-fontana",
@@ -6808,7 +7071,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/neptunova-fontana/",
         "pl": "https://www.qrlink.sk/new/pl/neptunova-fontana/",
         "hu": "https://www.qrlink.sk/new/hu/neptunova-fontana/"
-      }
+      },
+      "url": "/neptunova-fontana/"
     },
     {
       "id": "hlavna-ulica",
@@ -6833,7 +7097,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/hlavna-ulica/",
         "pl": "https://www.qrlink.sk/new/pl/hlavna-ulica/",
         "hu": "https://www.qrlink.sk/new/hu/hlavna-ulica/"
-      }
+      },
+      "url": "/hlavna-ulica/"
     },
     {
       "id": "ortodoxna-synagoga",
@@ -6858,7 +7123,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/ortodoxna-synagoga/",
         "pl": "https://www.qrlink.sk/new/pl/ortodoxna-synagoga/",
         "hu": "https://www.qrlink.sk/new/hu/ortodoxna-synagoga/"
-      }
+      },
+      "url": "/ortodoxna-synagoga/"
     },
     {
       "id": "greckokatolicky-biskupsky-palac",
@@ -6883,7 +7149,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/greckokatolicky-biskupsky-palac/",
         "pl": "https://www.qrlink.sk/new/pl/greckokatolicky-biskupsky-palac/",
         "hu": "https://www.qrlink.sk/new/hu/greckokatolicky-biskupsky-palac/"
-      }
+      },
+      "url": "/greckokatolicky-biskupsky-palac/"
     },
     {
       "id": "kalvaria-2",
@@ -6908,7 +7175,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kalvaria-2/",
         "pl": "https://www.qrlink.sk/new/pl/kalvaria-2/",
         "hu": "https://www.qrlink.sk/new/hu/kalvaria-2/"
-      }
+      },
+      "url": "/kalvaria-2/"
     },
     {
       "id": "zupny-dom",
@@ -6933,7 +7201,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/zupny-dom/",
         "pl": "https://www.qrlink.sk/new/pl/zupny-dom/",
         "hu": "https://www.qrlink.sk/new/hu/zupny-dom/"
-      }
+      },
+      "url": "/zupny-dom/"
     },
     {
       "id": "palac-klobusickych",
@@ -6958,7 +7227,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/palac-klobusickych/",
         "pl": "https://www.qrlink.sk/new/pl/palac-klobusickych/",
         "hu": "https://www.qrlink.sk/new/hu/palac-klobusickych/"
-      }
+      },
+      "url": "/palac-klobusickych/"
     },
     {
       "id": "radnica-2",
@@ -6983,7 +7253,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/radnica-2/",
         "pl": "https://www.qrlink.sk/new/pl/radnica-2/",
         "hu": "https://www.qrlink.sk/new/hu/radnica-2/"
-      }
+      },
+      "url": "/radnica-2/"
     },
     {
       "id": "rakociho-palac",
@@ -7008,7 +7279,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/rakociho-palac/",
         "pl": "https://www.qrlink.sk/new/pl/rakociho-palac/",
         "hu": "https://www.qrlink.sk/new/hu/rakociho-palac/"
-      }
+      },
+      "url": "/rakociho-palac/"
     },
     {
       "id": "caraffova-vaznica",
@@ -7033,7 +7305,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/caraffova-vaznica/",
         "pl": "https://www.qrlink.sk/new/pl/caraffova-vaznica/",
         "hu": "https://www.qrlink.sk/new/hu/caraffova-vaznica/"
-      }
+      },
+      "url": "/caraffova-vaznica/"
     },
     {
       "id": "the-museum-of-wines",
@@ -7058,7 +7331,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/the-museum-of-wines/",
         "pl": "https://www.qrlink.sk/new/pl/the-museum-of-wines/",
         "hu": "https://www.qrlink.sk/new/hu/the-museum-of-wines/"
-      }
+      },
+      "url": "/the-museum-of-wines/"
     },
     {
       "id": "jurkovicova-rozhladna",
@@ -7083,7 +7357,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/jurkovicova-rozhladna/",
         "pl": "https://www.qrlink.sk/new/pl/jurkovicova-rozhladna/",
         "hu": "https://www.qrlink.sk/new/hu/jurkovicova-rozhladna/"
-      }
+      },
+      "url": "/jurkovicova-rozhladna/"
     },
     {
       "id": "zrucanina-hradu-hradisko",
@@ -7108,7 +7383,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/zrucanina-hradu-hradisko/",
         "pl": "https://www.qrlink.sk/new/pl/zrucanina-hradu-hradisko/",
         "hu": "https://www.qrlink.sk/new/hu/zrucanina-hradu-hradisko/"
-      }
+      },
+      "url": "/zrucanina-hradu-hradisko/"
     },
     {
       "id": "valasske-muzeum-v-prirode",
@@ -7133,7 +7409,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/valasske-muzeum-v-prirode/",
         "pl": "https://www.qrlink.sk/new/pl/valasske-muzeum-v-prirode/",
         "hu": "https://www.qrlink.sk/new/hu/valasske-muzeum-v-prirode/"
-      }
+      },
+      "url": "/valasske-muzeum-v-prirode/"
     },
     {
       "id": "kaple-sv-cyrila-a-metodeje",
@@ -7158,7 +7435,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kaple-sv-cyrila-a-metodeje/",
         "pl": "https://www.qrlink.sk/new/pl/kaple-sv-cyrila-a-metodeje/",
         "hu": "https://www.qrlink.sk/new/hu/kaple-sv-cyrila-a-metodeje/"
-      }
+      },
+      "url": "/kaple-sv-cyrila-a-metodeje/"
     },
     {
       "id": "socha-radegasta",
@@ -7183,7 +7461,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/socha-radegasta/",
         "pl": "https://www.qrlink.sk/new/pl/socha-radegasta/",
         "hu": "https://www.qrlink.sk/new/hu/socha-radegasta/"
-      }
+      },
+      "url": "/socha-radegasta/"
     },
     {
       "id": "chata-mamenka-a-libusin",
@@ -7208,7 +7487,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/chata-mamenka-a-libusin/",
         "pl": "https://www.qrlink.sk/new/pl/chata-mamenka-a-libusin/",
         "hu": "https://www.qrlink.sk/new/hu/chata-mamenka-a-libusin/"
-      }
+      },
+      "url": "/chata-mamenka-a-libusin/"
     },
     {
       "id": "zvonica",
@@ -7233,7 +7513,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/zvonica/",
         "pl": "https://www.qrlink.sk/new/pl/zvonica/",
         "hu": "https://www.qrlink.sk/new/hu/zvonica/"
-      }
+      },
+      "url": "/zvonica/"
     },
     {
       "id": "rimskokatolicky-kostol-navstivenia-panny-marie",
@@ -7258,7 +7539,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/rimskokatolicky-kostol-navstivenia-panny-marie/",
         "pl": "https://www.qrlink.sk/new/pl/rimskokatolicky-kostol-navstivenia-panny-marie/",
         "hu": "https://www.qrlink.sk/new/hu/rimskokatolicky-kostol-navstivenia-panny-marie/"
-      }
+      },
+      "url": "/rimskokatolicky-kostol-navstivenia-panny-marie/"
     },
     {
       "id": "pamatnik-obetiam-cernovskej-tragedie",
@@ -7283,7 +7565,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/pamatnik-obetiam-cernovskej-tragedie/",
         "pl": "https://www.qrlink.sk/new/pl/pamatnik-obetiam-cernovskej-tragedie/",
         "hu": "https://www.qrlink.sk/new/hu/pamatnik-obetiam-cernovskej-tragedie/"
-      }
+      },
+      "url": "/pamatnik-obetiam-cernovskej-tragedie/"
     },
     {
       "id": "kostol-ruzencovej-panny-marie",
@@ -7308,7 +7591,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kostol-ruzencovej-panny-marie/",
         "pl": "https://www.qrlink.sk/new/pl/kostol-ruzencovej-panny-marie/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-ruzencovej-panny-marie/"
-      }
+      },
+      "url": "/kostol-ruzencovej-panny-marie/"
     },
     {
       "id": "rodny-dom-andreja-hlinku",
@@ -7333,7 +7617,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/rodny-dom-andreja-hlinku/",
         "pl": "https://www.qrlink.sk/new/pl/rodny-dom-andreja-hlinku/",
         "hu": "https://www.qrlink.sk/new/hu/rodny-dom-andreja-hlinku/"
-      }
+      },
+      "url": "/rodny-dom-andreja-hlinku/"
     },
     {
       "id": "kalvaria",
@@ -7358,7 +7643,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kalvaria/",
         "pl": "https://www.qrlink.sk/new/pl/kalvaria/",
         "hu": "https://www.qrlink.sk/new/hu/kalvaria/"
-      }
+      },
+      "url": "/kalvaria/"
     },
     {
       "id": "mestsky-cintorin",
@@ -7383,7 +7669,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/mestsky-cintorin/",
         "pl": "https://www.qrlink.sk/new/pl/mestsky-cintorin/",
         "hu": "https://www.qrlink.sk/new/hu/mestsky-cintorin/"
-      }
+      },
+      "url": "/mestsky-cintorin/"
     },
     {
       "id": "galeria-ludovita-fullu",
@@ -7408,7 +7695,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/galeria-ludovita-fullu/",
         "pl": "https://www.qrlink.sk/new/pl/galeria-ludovita-fullu/",
         "hu": "https://www.qrlink.sk/new/hu/galeria-ludovita-fullu/"
-      }
+      },
+      "url": "/galeria-ludovita-fullu/"
     },
     {
       "id": "liptovske-muzeum",
@@ -7433,7 +7721,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/liptovske-muzeum/",
         "pl": "https://www.qrlink.sk/new/pl/liptovske-muzeum/",
         "hu": "https://www.qrlink.sk/new/hu/liptovske-muzeum/"
-      }
+      },
+      "url": "/liptovske-muzeum/"
     },
     {
       "id": "evanjelicky-a-v-kostol",
@@ -7458,7 +7747,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/evanjelicky-a-v-kostol/",
         "pl": "https://www.qrlink.sk/new/pl/evanjelicky-a-v-kostol/",
         "hu": "https://www.qrlink.sk/new/hu/evanjelicky-a-v-kostol/"
-      }
+      },
+      "url": "/evanjelicky-a-v-kostol/"
     },
     {
       "id": "kulturny-dom-andreja-hlinku",
@@ -7483,7 +7773,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kulturny-dom-andreja-hlinku/",
         "pl": "https://www.qrlink.sk/new/pl/kulturny-dom-andreja-hlinku/",
         "hu": "https://www.qrlink.sk/new/hu/kulturny-dom-andreja-hlinku/"
-      }
+      },
+      "url": "/kulturny-dom-andreja-hlinku/"
     },
     {
       "id": "radnica",
@@ -7508,7 +7799,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/radnica/",
         "pl": "https://www.qrlink.sk/new/pl/radnica/",
         "hu": "https://www.qrlink.sk/new/hu/radnica/"
-      }
+      },
+      "url": "/radnica/"
     },
     {
       "id": "rimskokatolicky-kostol-sv-ondreja",
@@ -7533,7 +7825,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/rimskokatolicky-kostol-sv-ondreja/",
         "pl": "https://www.qrlink.sk/new/pl/rimskokatolicky-kostol-sv-ondreja/",
         "hu": "https://www.qrlink.sk/new/hu/rimskokatolicky-kostol-sv-ondreja/"
-      }
+      },
+      "url": "/rimskokatolicky-kostol-sv-ondreja/"
     },
     {
       "id": "mauzoleum-andreja-hlinku",
@@ -7558,7 +7851,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/mauzoleum-andreja-hlinku/",
         "pl": "https://www.qrlink.sk/new/pl/mauzoleum-andreja-hlinku/",
         "hu": "https://www.qrlink.sk/new/hu/mauzoleum-andreja-hlinku/"
-      }
+      },
+      "url": "/mauzoleum-andreja-hlinku/"
     },
     {
       "id": "piaristicke-gymnazium",
@@ -7583,7 +7877,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/piaristicke-gymnazium/",
         "pl": "https://www.qrlink.sk/new/pl/piaristicke-gymnazium/",
         "hu": "https://www.qrlink.sk/new/hu/piaristicke-gymnazium/"
-      }
+      },
+      "url": "/piaristicke-gymnazium/"
     },
     {
       "id": "namestie-andreja-hlinku",
@@ -7608,7 +7903,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/namestie-andreja-hlinku/",
         "pl": "https://www.qrlink.sk/new/pl/namestie-andreja-hlinku/",
         "hu": "https://www.qrlink.sk/new/hu/namestie-andreja-hlinku/"
-      }
+      },
+      "url": "/namestie-andreja-hlinku/"
     },
     {
       "id": "mariansky-stlp-socha-imacculata",
@@ -7633,7 +7929,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/mariansky-stlp-socha-imacculata/",
         "pl": "https://www.qrlink.sk/new/pl/mariansky-stlp-socha-imacculata/",
         "hu": "https://www.qrlink.sk/new/hu/mariansky-stlp-socha-imacculata/"
-      }
+      },
+      "url": "/mariansky-stlp-socha-imacculata/"
     },
     {
       "id": "rimskokatolicky-kostol-povysenia-sv-kriza",
@@ -7658,7 +7955,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/rimskokatolicky-kostol-povysenia-sv-kriza/",
         "pl": "https://www.qrlink.sk/new/pl/rimskokatolicky-kostol-povysenia-sv-kriza/",
         "hu": "https://www.qrlink.sk/new/hu/rimskokatolicky-kostol-povysenia-sv-kriza/"
-      }
+      },
+      "url": "/rimskokatolicky-kostol-povysenia-sv-kriza/"
     },
     {
       "id": "kolegium-piaristov",
@@ -7683,7 +7981,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kolegium-piaristov/",
         "pl": "https://www.qrlink.sk/new/pl/kolegium-piaristov/",
         "hu": "https://www.qrlink.sk/new/hu/kolegium-piaristov/"
-      }
+      },
+      "url": "/kolegium-piaristov/"
     },
     {
       "id": "synagoga",
@@ -7708,7 +8007,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/synagoga/",
         "pl": "https://www.qrlink.sk/new/pl/synagoga/",
         "hu": "https://www.qrlink.sk/new/hu/synagoga/"
-      }
+      },
+      "url": "/synagoga/"
     },
     {
       "id": "slovenska-banka",
@@ -7733,7 +8033,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/slovenska-banka/",
         "pl": "https://www.qrlink.sk/new/pl/slovenska-banka/",
         "hu": "https://www.qrlink.sk/new/hu/slovenska-banka/"
-      }
+      },
+      "url": "/slovenska-banka/"
     },
     {
       "id": "studna",
@@ -7758,7 +8059,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/studna/",
         "pl": "https://www.qrlink.sk/new/pl/studna/",
         "hu": "https://www.qrlink.sk/new/hu/studna/"
-      }
+      },
+      "url": "/studna/"
     },
     {
       "id": "rolnicky-dom",
@@ -7783,7 +8085,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/rolnicky-dom/",
         "pl": "https://www.qrlink.sk/new/pl/rolnicky-dom/",
         "hu": "https://www.qrlink.sk/new/hu/rolnicky-dom/"
-      }
+      },
+      "url": "/rolnicky-dom/"
     },
     {
       "id": "pomnik-sloboda-slovenskeho-naroda",
@@ -7808,7 +8111,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/pomnik-sloboda-slovenskeho-naroda/",
         "pl": "https://www.qrlink.sk/new/pl/pomnik-sloboda-slovenskeho-naroda/",
         "hu": "https://www.qrlink.sk/new/hu/pomnik-sloboda-slovenskeho-naroda/"
-      }
+      },
+      "url": "/pomnik-sloboda-slovenskeho-naroda/"
     },
     {
       "id": "miesto-tragickych-udalosti",
@@ -7833,7 +8137,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/miesto-tragickych-udalosti/",
         "pl": "https://www.qrlink.sk/new/pl/miesto-tragickych-udalosti/",
         "hu": "https://www.qrlink.sk/new/hu/miesto-tragickych-udalosti/"
-      }
+      },
+      "url": "/miesto-tragickych-udalosti/"
     },
     {
       "id": "vlacik-korytko-na-zeleznicnej-stanici",
@@ -7858,7 +8163,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/vlacik-korytko-na-zeleznicnej-stanici/",
         "pl": "https://www.qrlink.sk/new/pl/vlacik-korytko-na-zeleznicnej-stanici/",
         "hu": "https://www.qrlink.sk/new/hu/vlacik-korytko-na-zeleznicnej-stanici/"
-      }
+      },
+      "url": "/vlacik-korytko-na-zeleznicnej-stanici/"
     },
     {
       "id": "kastiel-sokolovce",
@@ -7884,7 +8190,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kastiel-sokolovce/",
         "pl": "https://www.qrlink.sk/new/pl/kastiel-sokolovce/",
         "hu": "https://www.qrlink.sk/new/hu/kastiel-sokolovce/"
-      }
+      },
+      "url": "/kastiel-sokolovce/"
     },
     {
       "id": "mestsky-park",
@@ -7909,7 +8216,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/mestsky-park/",
         "pl": "https://www.qrlink.sk/new/pl/mestsky-park/",
         "hu": "https://www.qrlink.sk/new/hu/mestsky-park/"
-      }
+      },
+      "url": "/mestsky-park/"
     },
     {
       "id": "mauzoleum-grofa-juliusa-andrassyho",
@@ -7934,7 +8242,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/mauzoleum-grofa-juliusa-andrassyho/",
         "pl": "https://www.qrlink.sk/new/pl/mauzoleum-grofa-juliusa-andrassyho/",
         "hu": "https://www.qrlink.sk/new/hu/mauzoleum-grofa-juliusa-andrassyho/"
-      }
+      },
+      "url": "/mauzoleum-grofa-juliusa-andrassyho/"
     },
     {
       "id": "pavlinsky-klastor",
@@ -7959,7 +8268,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/pavlinsky-klastor/",
         "pl": "https://www.qrlink.sk/new/pl/pavlinsky-klastor/",
         "hu": "https://www.qrlink.sk/new/hu/pavlinsky-klastor/"
-      }
+      },
+      "url": "/pavlinsky-klastor/"
     },
     {
       "id": "barokovo-klasicisticky-kastiel",
@@ -7984,7 +8294,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/barokovo-klasicisticky-kastiel/",
         "pl": "https://www.qrlink.sk/new/pl/barokovo-klasicisticky-kastiel/",
         "hu": "https://www.qrlink.sk/new/hu/barokovo-klasicisticky-kastiel/"
-      }
+      },
+      "url": "/barokovo-klasicisticky-kastiel/"
     },
     {
       "id": "marianske-susosie",
@@ -8009,7 +8320,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/marianske-susosie/",
         "pl": "https://www.qrlink.sk/new/pl/marianske-susosie/",
         "hu": "https://www.qrlink.sk/new/hu/marianske-susosie/"
-      }
+      },
+      "url": "/marianske-susosie/"
     },
     {
       "id": "nizinny-vodny-hrad-paric",
@@ -8034,7 +8346,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/nizinny-vodny-hrad-paric/",
         "pl": "https://www.qrlink.sk/new/pl/nizinny-vodny-hrad-paric/",
         "hu": "https://www.qrlink.sk/new/hu/nizinny-vodny-hrad-paric/"
-      }
+      },
+      "url": "/nizinny-vodny-hrad-paric/"
     },
     {
       "id": "greckokatolicky-chram-zosnutia-presvatej-bohorodicky",
@@ -8059,7 +8372,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/greckokatolicky-chram-zosnutia-presvatej-bohorodicky/",
         "pl": "https://www.qrlink.sk/new/pl/greckokatolicky-chram-zosnutia-presvatej-bohorodicky/",
         "hu": "https://www.qrlink.sk/new/hu/greckokatolicky-chram-zosnutia-presvatej-bohorodicky/"
-      }
+      },
+      "url": "/greckokatolicky-chram-zosnutia-presvatej-bohorodicky/"
     },
     {
       "id": "rimskokatolicky-kostol-navstevy-panny-marie",
@@ -8084,7 +8398,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/rimskokatolicky-kostol-navstevy-panny-marie/",
         "pl": "https://www.qrlink.sk/new/pl/rimskokatolicky-kostol-navstevy-panny-marie/",
         "hu": "https://www.qrlink.sk/new/hu/rimskokatolicky-kostol-navstevy-panny-marie/"
-      }
+      },
+      "url": "/rimskokatolicky-kostol-navstevy-panny-marie/"
     },
     {
       "id": "romansky-kostol-sv-ducha",
@@ -8107,7 +8422,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/romansky-kostol-sv-ducha/",
         "pl": "https://www.qrlink.sk/new/pl/romansky-kostol-sv-ducha/",
         "hu": "https://www.qrlink.sk/new/hu/romansky-kostol-sv-ducha/"
-      }
+      },
+      "url": "/romansky-kostol-sv-ducha/"
     },
     {
       "id": "kostol-nanebovzatia-panny-marie-pomnik-padlym-v-1-sv-vojne",
@@ -8135,7 +8451,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kostol-nanebovzatia-panny-marie-pomnik-padlym-v-1-sv-vojne/",
         "pl": "https://www.qrlink.sk/new/pl/kostol-nanebovzatia-panny-marie-pomnik-padlym-v-1-sv-vojne/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-nanebovzatia-panny-marie-pomnik-padlym-v-1-sv-vojne/"
-      }
+      },
+      "url": "/kostol-nanebovzatia-panny-marie-pomnik-padlym-v-1-sv-vojne/"
     },
     {
       "id": "muzeum-karola-tocika",
@@ -8163,7 +8480,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/muzeum-karola-tocika/",
         "pl": "https://www.qrlink.sk/new/pl/muzeum-karola-tocika/",
         "hu": "https://www.qrlink.sk/new/hu/muzeum-karola-tocika/"
-      }
+      },
+      "url": "/muzeum-karola-tocika/"
     },
     {
       "id": "rybniky",
@@ -8191,7 +8509,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/rybniky/",
         "pl": "https://www.qrlink.sk/new/pl/rybniky/",
         "hu": "https://www.qrlink.sk/new/hu/rybniky/"
-      }
+      },
+      "url": "/rybniky/"
     },
     {
       "id": "prirodny-amfiteater-historia-beskydskych-slavnosti",
@@ -8219,7 +8538,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/prirodny-amfiteater-historia-beskydskych-slavnosti/",
         "pl": "https://www.qrlink.sk/new/pl/prirodny-amfiteater-historia-beskydskych-slavnosti/",
         "hu": "https://www.qrlink.sk/new/hu/prirodny-amfiteater-historia-beskydskych-slavnosti/"
-      }
+      },
+      "url": "/prirodny-amfiteater-historia-beskydskych-slavnosti/"
     },
     {
       "id": "lyziarske-stredisko-bukovina-javornicko-beskydska-magistrala",
@@ -8247,7 +8567,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/lyziarske-stredisko-bukovina-javornicko-beskydska-magistrala/",
         "pl": "https://www.qrlink.sk/new/pl/lyziarske-stredisko-bukovina-javornicko-beskydska-magistrala/",
         "hu": "https://www.qrlink.sk/new/hu/lyziarske-stredisko-bukovina-javornicko-beskydska-magistrala/"
-      }
+      },
+      "url": "/lyziarske-stredisko-bukovina-javornicko-beskydska-magistrala/"
     },
     {
       "id": "kamenna-gula-pred-mestskym-uradom",
@@ -8275,7 +8596,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kamenna-gula-pred-mestskym-uradom/",
         "pl": "https://www.qrlink.sk/new/pl/kamenna-gula-pred-mestskym-uradom/",
         "hu": "https://www.qrlink.sk/new/hu/kamenna-gula-pred-mestskym-uradom/"
-      }
+      },
+      "url": "/kamenna-gula-pred-mestskym-uradom/"
     },
     {
       "id": "namestie-juraja-thurzu",
@@ -8303,7 +8625,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/namestie-juraja-thurzu/",
         "pl": "https://www.qrlink.sk/new/pl/namestie-juraja-thurzu/",
         "hu": "https://www.qrlink.sk/new/hu/namestie-juraja-thurzu/"
-      }
+      },
+      "url": "/namestie-juraja-thurzu/"
     },
     {
       "id": "areal-sportu-a-oddychu-skatepark",
@@ -8331,7 +8654,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/areal-sportu-a-oddychu-skatepark/",
         "pl": "https://www.qrlink.sk/new/pl/areal-sportu-a-oddychu-skatepark/",
         "hu": "https://www.qrlink.sk/new/hu/areal-sportu-a-oddychu-skatepark/"
-      }
+      },
+      "url": "/areal-sportu-a-oddychu-skatepark/"
     },
     {
       "id": "park-drotara-a-dzarka-pricestny-stlp-jana-nepomuckeho-susosie-drotara-a-dzarka",
@@ -8359,7 +8683,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/park-drotara-a-dzarka-pricestny-stlp-jana-nepomuckeho-susosie-drotara-a-dzarka/",
         "pl": "https://www.qrlink.sk/new/pl/park-drotara-a-dzarka-pricestny-stlp-jana-nepomuckeho-susosie-drotara-a-dzarka/",
         "hu": "https://www.qrlink.sk/new/hu/park-drotara-a-dzarka-pricestny-stlp-jana-nepomuckeho-susosie-drotara-a-dzarka/"
-      }
+      },
+      "url": "/park-drotara-a-dzarka-pricestny-stlp-jana-nepomuckeho-susosie-drotara-a-dzarka/"
     },
     {
       "id": "hasicske-hobby-muzeum",
@@ -8387,7 +8712,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/hasicske-hobby-muzeum/",
         "pl": "https://www.qrlink.sk/new/pl/hasicske-hobby-muzeum/",
         "hu": "https://www.qrlink.sk/new/hu/hasicske-hobby-muzeum/"
-      }
+      },
+      "url": "/hasicske-hobby-muzeum/"
     },
     {
       "id": "pamatniky",
@@ -8415,7 +8741,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/pamatniky/",
         "pl": "https://www.qrlink.sk/new/pl/pamatniky/",
         "hu": "https://www.qrlink.sk/new/hu/pamatniky/"
-      }
+      },
+      "url": "/pamatniky/"
     },
     {
       "id": "pamatnik-m-r-stefanika",
@@ -8443,7 +8770,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/pamatnik-m-r-stefanika/",
         "pl": "https://www.qrlink.sk/new/pl/pamatnik-m-r-stefanika/",
         "hu": "https://www.qrlink.sk/new/hu/pamatnik-m-r-stefanika/"
-      }
+      },
+      "url": "/pamatnik-m-r-stefanika/"
     },
     {
       "id": "pamatnik-tomasa-uhorcika",
@@ -8471,7 +8799,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/pamatnik-tomasa-uhorcika/",
         "pl": "https://www.qrlink.sk/new/pl/pamatnik-tomasa-uhorcika/",
         "hu": "https://www.qrlink.sk/new/hu/pamatnik-tomasa-uhorcika/"
-      }
+      },
+      "url": "/pamatnik-tomasa-uhorcika/"
     },
     {
       "id": "pamatna-tabula-v-parku-rodakov",
@@ -8497,7 +8826,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/pamatna-tabula-v-parku-rodakov/",
         "pl": "https://www.qrlink.sk/new/pl/pamatna-tabula-v-parku-rodakov/",
         "hu": "https://www.qrlink.sk/new/hu/pamatna-tabula-v-parku-rodakov/"
-      }
+      },
+      "url": "/pamatna-tabula-v-parku-rodakov/"
     },
     {
       "id": "kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov",
@@ -8525,7 +8855,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/",
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/"
-      }
+      },
+      "url": "/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/"
     },
     {
       "id": "kaplnka-panny-marie-lurdskej-pri-motoreste",
@@ -8553,7 +8884,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kaplnka-panny-marie-lurdskej-pri-motoreste/",
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-panny-marie-lurdskej-pri-motoreste/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-panny-marie-lurdskej-pri-motoreste/"
-      }
+      },
+      "url": "/kaplnka-panny-marie-lurdskej-pri-motoreste/"
     },
     {
       "id": "kaplnka-na-javorovej-ulici",
@@ -8578,7 +8910,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kaplnka-na-javorovej-ulici/",
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-na-javorovej-ulici/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-na-javorovej-ulici/"
-      }
+      },
+      "url": "/kaplnka-na-javorovej-ulici/"
     },
     {
       "id": "kaplnka-panny-marie-skapuliarskej",
@@ -8603,7 +8936,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kaplnka-panny-marie-skapuliarskej/",
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-panny-marie-skapuliarskej/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-panny-marie-skapuliarskej/"
-      }
+      },
+      "url": "/kaplnka-panny-marie-skapuliarskej/"
     },
     {
       "id": "kaplnka-sedembolestnej-panny-marie-u-blazkov",
@@ -8628,7 +8962,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kaplnka-sedembolestnej-panny-marie-u-blazkov/",
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-sedembolestnej-panny-marie-u-blazkov/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-sedembolestnej-panny-marie-u-blazkov/"
-      }
+      },
+      "url": "/kaplnka-sedembolestnej-panny-marie-u-blazkov/"
     },
     {
       "id": "kaplnka-najsvatejsieho-srdca-panny-marie",
@@ -8653,7 +8988,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kaplnka-najsvatejsieho-srdca-panny-marie/",
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-najsvatejsieho-srdca-panny-marie/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-najsvatejsieho-srdca-panny-marie/"
-      }
+      },
+      "url": "/kaplnka-najsvatejsieho-srdca-panny-marie/"
     },
     {
       "id": "kostol-fatimskej-panny-marie",
@@ -8681,7 +9017,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kostol-fatimskej-panny-marie/",
         "pl": "https://www.qrlink.sk/new/pl/kostol-fatimskej-panny-marie/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-fatimskej-panny-marie/"
-      }
+      },
+      "url": "/kostol-fatimskej-panny-marie/"
     },
     {
       "id": "kaplnka-sedembolestnej-panny-marie",
@@ -8706,7 +9043,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kaplnka-sedembolestnej-panny-marie/",
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-sedembolestnej-panny-marie/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-sedembolestnej-panny-marie/"
-      }
+      },
+      "url": "/kaplnka-sedembolestnej-panny-marie/"
     },
     {
       "id": "zivcakova-marianske-putnicke-miesto",
@@ -8734,7 +9072,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/zivcakova-marianske-putnicke-miesto/",
         "pl": "https://www.qrlink.sk/new/pl/zivcakova-marianske-putnicke-miesto/",
         "hu": "https://www.qrlink.sk/new/hu/zivcakova-marianske-putnicke-miesto/"
-      }
+      },
+      "url": "/zivcakova-marianske-putnicke-miesto/"
     },
     {
       "id": "kaplnka-panny-marie-kralovnej-pokoja-zivcakova",
@@ -8762,7 +9101,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kaplnka-panny-marie-kralovnej-pokoja-zivcakova/",
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-panny-marie-kralovnej-pokoja-zivcakova/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-panny-marie-kralovnej-pokoja-zivcakova/"
-      }
+      },
+      "url": "/kaplnka-panny-marie-kralovnej-pokoja-zivcakova/"
     },
     {
       "id": "kostol-panny-marie-matky-cirkvi-zivcakova",
@@ -8790,7 +9130,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kostol-panny-marie-matky-cirkvi-zivcakova/",
         "pl": "https://www.qrlink.sk/new/pl/kostol-panny-marie-matky-cirkvi-zivcakova/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-panny-marie-matky-cirkvi-zivcakova/"
-      }
+      },
+      "url": "/kostol-panny-marie-matky-cirkvi-zivcakova/"
     },
     {
       "id": "kaplnka-na-bukovine",
@@ -8818,7 +9159,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kaplnka-na-bukovine/",
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-na-bukovine/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-na-bukovine/"
-      }
+      },
+      "url": "/kaplnka-na-bukovine/"
     },
     {
       "id": "kaplnka-a-vojensky-cintorin-z-1-sv-vojny",
@@ -8844,7 +9186,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kaplnka-a-vojensky-cintorin-z-1-sv-vojny/",
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-a-vojensky-cintorin-z-1-sv-vojny/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-a-vojensky-cintorin-z-1-sv-vojny/"
-      }
+      },
+      "url": "/kaplnka-a-vojensky-cintorin-z-1-sv-vojny/"
     },
     {
       "id": "pieskovcovy-kriz",
@@ -8869,7 +9212,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/pieskovcovy-kriz/",
         "pl": "https://www.qrlink.sk/new/pl/pieskovcovy-kriz/",
         "hu": "https://www.qrlink.sk/new/hu/pieskovcovy-kriz/"
-      }
+      },
+      "url": "/pieskovcovy-kriz/"
     },
     {
       "id": "bazilika-minor-narodenia-panny-marie-a-klastor-paulinov",
@@ -8897,7 +9241,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/bazilika-minor-narodenia-panny-marie-a-klastor-paulinov/",
         "pl": "https://www.qrlink.sk/new/pl/bazilika-minor-narodenia-panny-marie-a-klastor-paulinov/",
         "hu": "https://www.qrlink.sk/new/hu/bazilika-minor-narodenia-panny-marie-a-klastor-paulinov/"
-      }
+      },
+      "url": "/bazilika-minor-narodenia-panny-marie-a-klastor-paulinov/"
     },
     {
       "id": "schwartzov-dom",
@@ -8923,7 +9268,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/schwartzov-dom/",
         "pl": "https://www.qrlink.sk/new/pl/schwartzov-dom/",
         "hu": "https://www.qrlink.sk/new/hu/schwartzov-dom/"
-      }
+      },
+      "url": "/schwartzov-dom/"
     },
     {
       "id": "socha-bretislav-benda-mladosti-a-krase-patri-buducnost",
@@ -8949,7 +9295,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/socha-bretislav-benda-mladosti-a-krase-patri-buducnost/",
         "pl": "https://www.qrlink.sk/new/pl/socha-bretislav-benda-mladosti-a-krase-patri-buducnost/",
         "hu": "https://www.qrlink.sk/new/hu/socha-bretislav-benda-mladosti-a-krase-patri-buducnost/"
-      }
+      },
+      "url": "/socha-bretislav-benda-mladosti-a-krase-patri-buducnost/"
     },
     {
       "id": "kostol-sv-stefana",
@@ -8974,7 +9321,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kostol-sv-stefana/",
         "pl": "https://www.qrlink.sk/new/pl/kostol-sv-stefana/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-sv-stefana/"
-      }
+      },
+      "url": "/kostol-sv-stefana/"
     },
     {
       "id": "lipa-slobody",
@@ -8999,7 +9347,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/lipa-slobody/",
         "pl": "https://www.qrlink.sk/new/pl/lipa-slobody/",
         "hu": "https://www.qrlink.sk/new/hu/lipa-slobody/"
-      }
+      },
+      "url": "/lipa-slobody/"
     },
     {
       "id": "rolnicke-povstanie-na-vychodnom-slovensku-1831",
@@ -9024,7 +9373,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/rolnicke-povstanie-na-vychodnom-slovensku-1831/",
         "pl": "https://www.qrlink.sk/new/pl/rolnicke-povstanie-na-vychodnom-slovensku-1831/",
         "hu": "https://www.qrlink.sk/new/hu/rolnicke-povstanie-na-vychodnom-slovensku-1831/"
-      }
+      },
+      "url": "/rolnicke-povstanie-na-vychodnom-slovensku-1831/"
     },
     {
       "id": "slnecne-hodiny-kalvinsky-kostol-na-hviezdoslavovej-ulici",
@@ -9051,7 +9401,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/slnecne-hodiny-kalvinsky-kostol-na-hviezdoslavovej-ulici/",
         "pl": "https://www.qrlink.sk/new/pl/slnecne-hodiny-kalvinsky-kostol-na-hviezdoslavovej-ulici/",
         "hu": "https://www.qrlink.sk/new/hu/slnecne-hodiny-kalvinsky-kostol-na-hviezdoslavovej-ulici/"
-      }
+      },
+      "url": "/slnecne-hodiny-kalvinsky-kostol-na-hviezdoslavovej-ulici/"
     },
     {
       "id": "povest-o-vzniku-vranova",
@@ -9074,7 +9425,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/povest-o-vzniku-vranova/",
         "pl": "https://www.qrlink.sk/new/pl/povest-o-vzniku-vranova/",
         "hu": "https://www.qrlink.sk/new/hu/povest-o-vzniku-vranova/"
-      }
+      },
+      "url": "/povest-o-vzniku-vranova/"
     },
     {
       "id": "historia-vranovskej-synagogy",
@@ -9099,7 +9451,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/historia-vranovskej-synagogy/",
         "pl": "https://www.qrlink.sk/new/pl/historia-vranovskej-synagogy/",
         "hu": "https://www.qrlink.sk/new/hu/historia-vranovskej-synagogy/"
-      }
+      },
+      "url": "/historia-vranovskej-synagogy/"
     },
     {
       "id": "susosie-sv-jana-nepomuckeho-panny-marie-s-jeziskom",
@@ -9127,7 +9480,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/susosie-sv-jana-nepomuckeho-panny-marie-s-jeziskom/",
         "pl": "https://www.qrlink.sk/new/pl/susosie-sv-jana-nepomuckeho-panny-marie-s-jeziskom/",
         "hu": "https://www.qrlink.sk/new/hu/susosie-sv-jana-nepomuckeho-panny-marie-s-jeziskom/"
-      }
+      },
+      "url": "/susosie-sv-jana-nepomuckeho-panny-marie-s-jeziskom/"
     },
     {
       "id": "cyril-daxner-daxnerov-dom",
@@ -9155,7 +9509,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/cyril-daxner-daxnerov-dom/",
         "pl": "https://www.qrlink.sk/new/pl/cyril-daxner-daxnerov-dom/",
         "hu": "https://www.qrlink.sk/new/hu/cyril-daxner-daxnerov-dom/"
-      }
+      },
+      "url": "/cyril-daxner-daxnerov-dom/"
     },
     {
       "id": "pamatnik-hrdinom-a-bojovnikom-proti-fasizmu-a-pamatnik-oslobodenia-mesta",
@@ -9183,7 +9538,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/pamatnik-hrdinom-a-bojovnikom-proti-fasizmu-a-pamatnik-oslobodenia-mesta/",
         "pl": "https://www.qrlink.sk/new/pl/pamatnik-hrdinom-a-bojovnikom-proti-fasizmu-a-pamatnik-oslobodenia-mesta/",
         "hu": "https://www.qrlink.sk/new/hu/pamatnik-hrdinom-a-bojovnikom-proti-fasizmu-a-pamatnik-oslobodenia-mesta/"
-      }
+      },
+      "url": "/pamatnik-hrdinom-a-bojovnikom-proti-fasizmu-a-pamatnik-oslobodenia-mesta/"
     },
     {
       "id": "sykorka-belasa",
@@ -9208,7 +9564,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/sykorka-belasa/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/sykorka-belasa/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/sykorka-belasa/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/sykorka-belasa/"
     },
     {
       "id": "cervienka-obycajna",
@@ -9233,7 +9590,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/cervienka-obycajna/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/cervienka-obycajna/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/cervienka-obycajna/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/cervienka-obycajna/"
     },
     {
       "id": "oriesok-obycajny",
@@ -9258,7 +9616,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/oriesok-obycajny/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/oriesok-obycajny/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/oriesok-obycajny/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/oriesok-obycajny/"
     },
     {
       "id": "pinka-obycajna",
@@ -9283,7 +9642,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/pinka-obycajna/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/pinka-obycajna/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/pinka-obycajna/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/pinka-obycajna/"
     },
     {
       "id": "stehlik-cecetka",
@@ -9308,7 +9668,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/stehlik-cecetka/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/stehlik-cecetka/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/stehlik-cecetka/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/stehlik-cecetka/"
     },
     {
       "id": "drozd-cierny",
@@ -9333,7 +9694,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/drozd-cierny/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/drozd-cierny/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/drozd-cierny/"
-      }
+      },
+      "url": "/environmental-upbringing-and-education/drozd-cierny/"
     },
     {
       "id": "rotunda",
@@ -9360,7 +9722,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/rotunda/",
         "pl": "https://www.qrlink.sk/new/pl/rotunda/",
         "hu": "https://www.qrlink.sk/new/hu/rotunda/"
-      }
+      },
+      "url": "/rotunda/"
     },
     {
       "id": "qr-sprievodca-zvonica-hrusove",
@@ -9404,7 +9767,8 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/qr-sprievodca-zvonica-hrusove/",
         "pl": "https://www.qrlink.sk/new/pl/castles/qr-sprievodca-zvonica-hrusove/",
         "hu": "https://www.qrlink.sk/new/hu/castles/qr-sprievodca-zvonica-hrusove/"
-      }
+      },
+      "url": "/castles/qr-sprievodca-zvonica-hrusove/"
     }
   ],
   "kontakt": {

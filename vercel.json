@@ -2,8 +2,8 @@
   "buildCommand": "node scripts/build-data.js",
   "outputDirectory": ".",
   "trailingSlash": true,
-  "rewrites": [
-    { "source": "/new/:path*", "destination": "/api/new/:path*" },
-    { "source": "/new/", "destination": "/api/new/" }
+  "redirects": [
+    { "source": "/new", "destination": "/", "permanent": true },
+    { "source": "/new/:path*", "destination": "/:path*", "permanent": true }
   ]
 }
