@@ -370,12 +370,17 @@ function getLang() {
   // Pri "peknej" URL (napr. /en/castles/hlavne-nadvorie/) middleware.js
   // prepíše request na "...&lang=en", ale ten cieľový query string vidí
   // len server, nie prehliadač (window.location zostáva na viditeľnej,
-  // pôvodnej adrese) - jazyk teda treba skúsiť aj ako prvý segment cesty.
-  const firstSegment = location.pathname.split("/").filter(Boolean)[0];
-  if (firstSegment && I18N_LANGS.includes(firstSegment)) {
-    localStorage.setItem(I18N_STORAGE_KEY, firstSegment);
-    return firstSegment;
+  // pôvodnej adrese) - jazyk sa preto berie z prvého segmentu cesty.
+  // Pekná URL BEZ jazykového prefixu je vždy slovenská (ako na starom
+  // webe) - adresa a jazyk textov tak nikdy nemôžu byť každý iný.
+  if (!location.pathname.includes(".html")) {
+    const firstSegment = location.pathname.split("/").filter(Boolean)[0];
+    const lang = firstSegment && I18N_LANGS.includes(firstSegment) ? firstSegment : I18N_DEFAULT;
+    localStorage.setItem(I18N_STORAGE_KEY, lang);
+    return lang;
   }
+  // Priama interná stránka (napr. /kategoria.html?id=... z náhľadu v CMS)
+  // bez ?lang - naposledy zvolený jazyk.
   const stored = localStorage.getItem(I18N_STORAGE_KEY);
   if (stored && I18N_LANGS.includes(stored)) return stored;
   return I18N_DEFAULT;
@@ -400,6 +405,44 @@ function setLang(lang) {
   }
   location.href = url.toString();
 }
+
+/* Odkaz v rámci webu v aktuálnom jazyku - aby sa pri prechádzaní webom
+   v inom jazyku zachoval jazyk aj v adrese:
+     "/category/betliar/"      -> "/en/category/betliar/"
+     "/#miesta"                -> "/en/#miesta"
+     "/kategoria.html?id=x"    -> "/kategoria.html?id=x&lang=en"
+   Slovenčina (bez prefixu), externé odkazy a súbory (/assets, *.mp3...)
+   ostávajú bez zmeny. */
+const I18N_FILE_DIRS = ["assets", "css", "js", "img", "admin", "api"];
+function langHref(href, lang = getLang()) {
+  if (!href || lang === I18N_DEFAULT || !href.startsWith("/") || href.startsWith("//")) return href;
+  const url = new URL(href, location.origin);
+  const first = url.pathname.split("/").filter(Boolean)[0];
+  if (first && (I18N_PATH_LANGS.includes(first) || I18N_FILE_DIRS.includes(first))) return href;
+  if (url.pathname.includes(".html")) url.searchParams.set("lang", lang);
+  else if (/\.[a-z0-9]+$/i.test(url.pathname)) return href;
+  else url.pathname = `/${lang}${url.pathname}`;
+  return url.pathname + url.search + url.hash;
+}
+
+/* prepíše všetky interné odkazy <a href="/..."> v danom strome */
+function localizeLinks(root) {
+  const lang = getLang();
+  if (lang === I18N_DEFAULT || !root || !root.querySelectorAll) return;
+  const links = [...root.querySelectorAll('a[href^="/"]')];
+  if (root.matches && root.matches('a[href^="/"]')) links.push(root);
+  links.forEach(a => {
+    const href = a.getAttribute("href");
+    const localized = langHref(href, lang);
+    if (localized !== href) a.setAttribute("href", localized);
+  });
+}
+
+// Odkazy vznikajú aj dynamicky (karty, breadcrumby, mapa...) - preto sa
+// strážia všetky novo pridané prvky, nie len statické HTML.
+new MutationObserver(mutations => {
+  mutations.forEach(m => m.addedNodes.forEach(n => { if (n.nodeType === 1) localizeLinks(n); }));
+}).observe(document.documentElement, { childList: true, subtree: true });
 
 /* preklad UI reťazca podľa kľúča; {vars} sa dosadia do šablóny ako {meno} */
 function t(key, vars) {
@@ -493,4 +536,5 @@ document.addEventListener("DOMContentLoaded", () => {
   document.documentElement.lang = getLang();
   applyStaticI18n();
   renderLangSwitch();
+  localizeLinks(document);
 });

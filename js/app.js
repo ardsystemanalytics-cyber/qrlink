@@ -185,7 +185,7 @@ function renderMap() {
     g.innerHTML = `
       <circle cx="${m.mapX}" cy="${m.mapY}" fill="${kat ? kat.farba : "#1F5B41"}"></circle>
       <text x="${m.mapX + 14}" y="${m.mapY + 5}">${m.nazov}</text>`;
-    const go = () => location.href = m.url;
+    const go = () => location.href = langHref(m.url);
     g.addEventListener("click", go);
     g.addEventListener("keydown", e => { if (e.key === "Enter") go(); });
     host.appendChild(g);
