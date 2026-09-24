@@ -17,7 +17,7 @@
   ],
   "gps": null,
   "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2593.171130572713!2d18.156546615636238!3d49.46238107935133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x94fb5db20fc6038b!2zNDnCsDI3JzQ0LjYiTiAxOMKwMDknMzEuNSJF!5e0!3m2!1ssk!2ssk!4v1662653676799!5m2!1ssk!2ssk",
-  "text": "Jméno rozhledna získala podle slovenského architekta Dušana Sámo Jurkoviče, který v této oblasti zanechal výraznou stopu. Ačkoliv původní myšlenka, vybudovat rozhlednu, pochází ze 60. let 20. století, k její realizaci došlo až v letech 2010-11. Otevřena 28. 04. 2012. Stavba je vysoká 31 metrů. Vyhlídková plošina ve výšce 18,8 m, rozhledna má 102 schodů. Základnu rozhledny tvoří kamenná podezdívka a na ní je posazená dřevěná konstrukce zakončená věžovitou osmistěnnou nástavbou. Z vyhlídkového ochozu se vám naskytne výhled nejen na okolní obce, ale jako na dlani na dlani budete mít město Rožnov pod Radhoštěm.",
+  "text": "Rozhľadňa dostala meno podľa slovenského architekta Dušana Sama Jurkoviča, ktorý v tejto oblasti zanechal výraznú stopu. Hoci pôvodná myšlienka postaviť rozhľadňu pochádza zo 60. rokov 20. storočia, uskutočnila sa až v rokoch 2010 – 2011. Otvorená bola 28. 4. 2012. Stavba je vysoká 31 metrov, vyhliadková plošina je vo výške 18,8 m a rozhľadňa má 102 schodov. Základ rozhľadne tvorí kamenná podmurovka, na ktorej je osadená drevená konštrukcia zakončená vežovitou osemstennou nadstavbou. Z vyhliadkového ochodza sa vám naskytne výhľad nielen na okolité obce, ale ako na dlani budete mať aj mesto Rožnov pod Radhoštěm.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Rožnov pod Radhoštěm",
   "miestoNazov": "Rožnov pod Radhoštěm",
@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/jurkovicova-rozhladna/",
     "pl": "https://www.qrlink.sk/new/pl/jurkovicova-rozhladna/",
     "hu": "https://www.qrlink.sk/new/hu/jurkovicova-rozhladna/"
+  },
+  "i18n": {
+    "cs": {
+      "nazov": "JURKOVIČOVA ROZHLEDNA",
+      "text": "Jméno rozhledna získala podle slovenského architekta Dušana Sámo Jurkoviče, který v této oblasti zanechal výraznou stopu. Ačkoliv původní myšlenka, vybudovat rozhlednu, pochází ze 60. let 20. století, k její realizaci došlo až v letech 2010-11. Otevřena 28. 04. 2012. Stavba je vysoká 31 metrů. Vyhlídková plošina ve výšce 18,8 m, rozhledna má 102 schodů. Základnu rozhledny tvoří kamenná podezdívka a na ní je posazená dřevěná konstrukce zakončená věžovitou osmistěnnou nástavbou. Z vyhlídkového ochozu se vám naskytne výhled nejen na okolní obce, ale jako na dlani na dlani budete mít město Rožnov pod Radhoštěm."
+    }
   }
 }

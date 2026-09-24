@@ -8736,7 +8736,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2593.171130572713!2d18.156546615636238!3d49.46238107935133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x94fb5db20fc6038b!2zNDnCsDI3JzQ0LjYiTiAxOMKwMDknMzEuNSJF!5e0!3m2!1ssk!2ssk!4v1662653676799!5m2!1ssk!2ssk",
-      "text": "<p>Jméno rozhledna získala podle slovenského architekta Dušana Sámo Jurkoviče, který v této oblasti zanechal výraznou stopu. Ačkoliv původní myšlenka, vybudovat rozhlednu, pochází ze 60. let 20. století, k její realizaci došlo až v letech 2010-11. Otevřena 28. 04. 2012. Stavba je vysoká 31 metrů. Vyhlídková plošina ve výšce 18,8 m, rozhledna má 102 schodů. Základnu rozhledny tvoří kamenná podezdívka a na ní je posazená dřevěná konstrukce zakončená věžovitou osmistěnnou nástavbou. Z vyhlídkového ochozu se vám naskytne výhled nejen na okolní obce, ale jako na dlani na dlani budete mít město Rožnov pod Radhoštěm.</p>",
+      "text": "<p>Rozhľadňa dostala meno podľa slovenského architekta Dušana Sama Jurkoviča, ktorý v tejto oblasti zanechal výraznú stopu. Hoci pôvodná myšlienka postaviť rozhľadňu pochádza zo 60. rokov 20. storočia, uskutočnila sa až v rokoch 2010 – 2011. Otvorená bola 28. 4. 2012. Stavba je vysoká 31 metrov, vyhliadková plošina je vo výške 18,8 m a rozhľadňa má 102 schodov. Základ rozhľadne tvorí kamenná podmurovka, na ktorej je osadená drevená konštrukcia zakončená vežovitou osemstennou nadstavbou. Z vyhliadkového ochodza sa vám naskytne výhľad nielen na okolité obce, ale ako na dlani budete mať aj mesto Rožnov pod Radhoštěm.</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/jurkovicova-rozhladna/",
         "en": "https://www.qrlink.sk/new/en/jurkovicova-rozhladna/",
@@ -8744,6 +8744,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/jurkovicova-rozhladna/",
         "pl": "https://www.qrlink.sk/new/pl/jurkovicova-rozhladna/",
         "hu": "https://www.qrlink.sk/new/hu/jurkovicova-rozhladna/"
+      },
+      "i18n": {
+        "cs": {
+          "nazov": "JURKOVIČOVA ROZHLEDNA",
+          "text": "<p>Jméno rozhledna získala podle slovenského architekta Dušana Sámo Jurkoviče, který v této oblasti zanechal výraznou stopu. Ačkoliv původní myšlenka, vybudovat rozhlednu, pochází ze 60. let 20. století, k její realizaci došlo až v letech 2010-11. Otevřena 28. 04. 2012. Stavba je vysoká 31 metrů. Vyhlídková plošina ve výšce 18,8 m, rozhledna má 102 schodů. Základnu rozhledny tvoří kamenná podezdívka a na ní je posazená dřevěná konstrukce zakončená věžovitou osmistěnnou nástavbou. Z vyhlídkového ochozu se vám naskytne výhled nejen na okolní obce, ale jako na dlani na dlani budete mít město Rožnov pod Radhoštěm.</p>"
+        }
       },
       "url": "/jurkovicova-rozhladna/",
       "urlAliasy": []
@@ -8763,7 +8769,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2593.649815731038!2d18.11908551563592!3d49.4533352793502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x367111fea396b9fd!2zNDnCsDI3JzEyLjAiTiAxOMKwMDcnMTYuNiJF!5e0!3m2!1ssk!2ssk!4v1662654800821!5m2!1ssk!2ssk",
-      "text": "<p>Hrad Rožnov byl postaven v 2. polovině 14. století. Pro jeho stavbu bylo vybráno vhodné místo na vrchu Hradisko (522 m n. m.). Jeho funkcí byla ochrana hranic s Uhry. Hrad byl od 14. do 17. století několikrát rozšiřován. První zmínka o hradu byla objevena v listině Voka z Kravař, později byl v majetku pánů z Cimburka a na konci 15. století pánů z Pezinku. V roce 1505 jej získali Kunštátové a roku 1526 Jaroslav ze Šelenberka. V roce 1535 získal hrad Jan z Pernštejna, ale již v roce 1539 byl z příkazu krále Ferdinanda I. obsazen a pobořen, neboť se na něm usídlila loupeživá tlupa. Později byl hrad provizorně opraven a ještě v roce 1660 sloužil panským úředníkům. Na konci 17. století byl opuštěn úplně. Zkázu hradu dokonali sami obyvatelé Rožnova. Ve druhé polovině 19. století dostali povolení obecního úřadu zbytky hradu rozebrat pro stavby svých obydlí ”aby také nějak té památky oučastní byli“.</p>\n<p>Od roku 1964 jsou chráněny jako kulturní památka. Dochovaly se zbytky zdí, brána, příkop s valem a část podzemí.</p>",
+      "text": "<p>Hrad Rožnov bol postavený v 2. polovici 14. storočia. Na jeho stavbu vybrali vhodné miesto na vrchu Hradisko (522 m n. m.). Jeho úlohou bola ochrana hraníc s Uhorskom. Od 14. do 17. storočia bol hrad niekoľkokrát rozširovaný. Prvá zmienka o hrade sa našla v listine Voka z Kravař, neskôr patril pánom z Cimburka a na konci 15. storočia pánom z Pezinka. V roku 1505 ho získali páni z Kunštátu a v roku 1526 Jaroslav zo Šelenberka. V roku 1535 získal hrad Ján z Pernštejna, ale už v roku 1539 bol na príkaz kráľa Ferdinanda I. obsadený a zbúraný, pretože sa v ňom usadila zbojnícka banda. Neskôr bol hrad provizórne opravený a ešte v roku 1660 slúžil panským úradníkom. Koncom 17. storočia bol úplne opustený. Skazu hradu dokonali samotní obyvatelia Rožnova. V druhej polovici 19. storočia dostali od obecného úradu povolenie rozobrať zvyšky hradu na stavbu svojich obydlí, „aby také nějak té památky oučastní byli“.</p>\n<p>Od roku 1964 sú zvyšky hradu chránené ako kultúrna pamiatka. Zachovali sa zvyšky múrov, brána, priekopa s valom a časť podzemia.</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/zrucanina-hradu-hradisko/",
         "en": "https://www.qrlink.sk/new/en/zrucanina-hradu-hradisko/",
@@ -8772,6 +8778,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/zrucanina-hradu-hradisko/",
         "hu": "https://www.qrlink.sk/new/hu/zrucanina-hradu-hradisko/"
       },
+      "i18n": {
+        "cs": {
+          "nazov": "ZŘÍCENINA HRADU HRADISKO",
+          "text": "<p>Hrad Rožnov byl postaven v 2. polovině 14. století. Pro jeho stavbu bylo vybráno vhodné místo na vrchu Hradisko (522 m n. m.). Jeho funkcí byla ochrana hranic s Uhry. Hrad byl od 14. do 17. století několikrát rozšiřován. První zmínka o hradu byla objevena v listině Voka z Kravař, později byl v majetku pánů z Cimburka a na konci 15. století pánů z Pezinku. V roce 1505 jej získali Kunštátové a roku 1526 Jaroslav ze Šelenberka. V roce 1535 získal hrad Jan z Pernštejna, ale již v roce 1539 byl z příkazu krále Ferdinanda I. obsazen a pobořen, neboť se na něm usídlila loupeživá tlupa. Později byl hrad provizorně opraven a ještě v roce 1660 sloužil panským úředníkům. Na konci 17. století byl opuštěn úplně. Zkázu hradu dokonali sami obyvatelé Rožnova. Ve druhé polovině 19. století dostali povolení obecního úřadu zbytky hradu rozebrat pro stavby svých obydlí ”aby také nějak té památky oučastní byli“.</p>\n<p>Od roku 1964 jsou chráněny jako kulturní památka. Dochovaly se zbytky zdí, brána, příkop s valem a část podzemí.</p>"
+        }
+      },
       "url": "/zrucanina-hradu-hradisko/",
       "urlAliasy": []
     },
@@ -8779,7 +8791,7 @@ const DB = {
       "id": "valasske-muzeum-v-prirode",
       "miesto": "roznov",
       "poradie": 3,
-      "nazov": "VALAŠSKÉ MÚZEUM V PRÍRODE",
+      "nazov": "VALAŠSKÉ MÚZEUM V PRÍRODE",
       "popis": "",
       "cover": "/assets/images/migrated/valasske-muzeum-v-prirode-3.jpg",
       "audio": [
@@ -8790,7 +8802,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2593.2222735600412!2d18.14718161563622!3d49.46141467935108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdf883058aafe0ade!2zNDnCsDI3JzQxLjEiTiAxOMKwMDgnNTcuNyJF!5e0!3m2!1ssk!2ssk!4v1662655042321!5m2!1ssk!2ssk",
-      "text": "<p>Valašské muzeum v přírodě je nejstarším a největším skanzenem ve střední Evropě. Skládá se ze tří samostatných areálů – Valašské dědiny, Dřevěného městečka a Mlýnské doliny. Najdete zde původní domy a předměty ze všech koutů Beskyd nebo jejich precizní kopie. V areálu se natáčelo mnoho filmů a pohádek a pravidelně se zde konají různé tématické kulturní akce. </p>\n<p>Od 11. 12. 2018 je areál součástí Národního muzea v přírodě.</p>\n<p>V podhorském městě Rožnově pod Radhoštěm rozprostírajícím se na úpatí Beskyd stojí Valašské muzeum v přírodě, první a až do 70. let 20. století jediné muzeum svého typu v naší zemi. O jeho vznik se zasloužili členové rožnovského muzejního spolku, zejména sourozenci Alois a Bohumír Jaroňkovi. Již před první světovou válkou předložili plány na přenesení několika roubených staveb do městského parku. Uskutečnit své cíle se jim však podařilo až při přípravách národopisné slavnosti v roce 1925. Na mýtinku lázeňského parku byly tehdy <strong>přestěhovány dva roubené domy z rožnovského náměstí</strong> spolu s dalšími menšími stavbami a v prostorách mezi nimi se odehrála velkolepá folklorní slavnost zvaná <strong>Valašský rok</strong>. Vznikl tak <strong>základ areálu Dřevěné městečko</strong>, který byl postupně rozšiřován o další dřevěné stavby a zároveň takto bylo založeno jedinečné nové muzeum – Valašské muzeum v přírodě.</p>\n<p>Již samotní zakladatelé si uvědomovali, že městská část muzea dostatečně nevypovídá o způsobech života na celém Valašsku, a proto usilovali o realizaci <strong>vesnického areálu</strong>. Záměr na <strong>vybudování Valašské dědiny</strong> vznikl na počátku 50. let a o desetiletí později byla zahájena na rožnovské pasece zvané Stráň výstavba prvních roubených chalup a hospodářských staveb. Cílem bylo vytvořit co nepravdivější obraz valašské dědiny zasazené do rázovité valašské kulturní krajiny.</p>\n<p>Dřevěné městečko a Valašská dědina byly na počátku 80. let doplněny o třetí, <strong>technický, areál</strong> zvaný <strong>Mlýnská dolina s funkčními historickými stavbami poháněnými vodou</strong>.</p>\n<p>Dosud posledním, čtvrtým, areálem muzea se v roce 1995 staly <strong>Pustevny se zvoničkou a s objekty Maměnka a Libušín</strong>, které byly na konci 19. století vystavěny podle návrhů architekta Dušana Samo Jurkoviče a jež se staly národní kulturní památkou.</p>\n<p>Do dnešních dnů se areály průběžně rozrůstají o další historické stavby, které dokreslují malebný obraz tradičního Valašska. Podoba by však nebyla celistvá bez života v muzeu.  Nejvýraznějším rysem současného dění v  areálech je cílevědomé úsilí o jejich <strong>oživení</strong> prostřednictvím interiérových i exteriérových expozic, <strong>prezentace</strong> <strong>tradičních technologií řemeslných, zemědělských i podomáckých, lidového umění, obyčejů a folkloru</strong>. Valašské muzeum tak plní odkaz svých zakladatelů, kteří usilovali o to, aby bylo živým muzeem.</p>",
+      "text": "<p>Valašské múzeum v prírode je najstarším a najväčším skanzenom v strednej Európe. Skladá sa z troch samostatných areálov – Valašskej dediny, Dreveného mestečka a Mlynskej doliny. Nájdete tu pôvodné domy a predmety zo všetkých kútov Beskýd alebo ich precízne kópie. V areáli sa natáčalo mnoho filmov a rozprávok a pravidelne sa tu konajú rôzne tematické kultúrne podujatia.</p>\n<p>Od 11. 12. 2018 je areál súčasťou Národného múzea v prírode.</p>\n<p>V podhorskom meste Rožnov pod Radhoštěm, ktoré sa rozprestiera na úpätí Beskýd, stojí Valašské múzeum v prírode – prvé a až do 70. rokov 20. storočia jediné múzeum svojho druhu v Česku. O jeho vznik sa zaslúžili členovia rožnovského múzejného spolku, najmä súrodenci Alois a Bohumír Jaroňkovci. Už pred prvou svetovou vojnou predložili plány na prenesenie niekoľkých zrubových stavieb do mestského parku. Svoje ciele sa im však podarilo uskutočniť až pri príprave národopisnej slávnosti v roku 1925. Na čistinu kúpeľného parku boli vtedy <strong>presťahované dva zrubové domy z rožnovského námestia</strong> spolu s ďalšími menšími stavbami a v priestore medzi nimi sa odohrala veľkolepá folklórna slávnosť nazvaná <strong>Valašský rok</strong>. Vznikol tak <strong>základ areálu Drevené mestečko</strong>, ktorý sa postupne rozširoval o ďalšie drevené stavby, a zároveň tak bolo založené jedinečné nové múzeum – Valašské múzeum v prírode.</p>\n<p>Už samotní zakladatelia si uvedomovali, že mestská časť múzea dostatočne nevypovedá o spôsobe života na celom Valašsku, a preto sa usilovali vybudovať aj <strong>dedinský areál</strong>. Zámer <strong>vybudovať Valašskú dedinu</strong> vznikol začiatkom 50. rokov a o desaťročie neskôr sa na rožnovskej paseke zvanej Stráň začala výstavba prvých zrubových chalúp a hospodárskych stavieb. Cieľom bolo vytvoriť čo najpravdivejší obraz valašskej dediny zasadenej do rázovitej valašskej kultúrnej krajiny.</p>\n<p>Drevené mestečko a Valašskú dedinu začiatkom 80. rokov doplnil tretí, <strong>technický areál</strong> nazvaný <strong>Mlynská dolina s funkčnými historickými stavbami poháňanými vodou</strong>.</p>\n<p>Zatiaľ posledným, štvrtým areálom múzea sa v roku 1995 stali <strong>Pustevny so zvoničkou a s objektmi Maměnka a Libušín</strong>, ktoré boli na konci 19. storočia postavené podľa návrhov architekta Dušana Sama Jurkoviča a sú národnou kultúrnou pamiatkou.</p>\n<p>Areály sa dodnes priebežne rozrastajú o ďalšie historické stavby, ktoré dotvárajú malebný obraz tradičného Valašska. Ich podoba by však nebola úplná bez života v múzeu. Najvýraznejšou črtou súčasného diania v areáloch je cieľavedomé úsilie o ich <strong>oživenie</strong> prostredníctvom interiérových aj exteriérových expozícií a <strong>prezentácie</strong> <strong>tradičných remeselných, poľnohospodárskych aj domáckych technológií, ľudového umenia, zvykov a folklóru</strong>. Valašské múzeum tak napĺňa odkaz svojich zakladateľov, ktorí sa usilovali o to, aby bolo živým múzeom.</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/valasske-muzeum-v-prirode/",
         "en": "https://www.qrlink.sk/new/en/valasske-muzeum-v-prirode/",
@@ -8799,6 +8811,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/valasske-muzeum-v-prirode/",
         "hu": "https://www.qrlink.sk/new/hu/valasske-muzeum-v-prirode/"
       },
+      "i18n": {
+        "cs": {
+          "nazov": "VALAŠSKÉ MUZEUM V PŘÍRODĚ",
+          "text": "<p>Valašské muzeum v přírodě je nejstarším a největším skanzenem ve střední Evropě. Skládá se ze tří samostatných areálů – Valašské dědiny, Dřevěného městečka a Mlýnské doliny. Najdete zde původní domy a předměty ze všech koutů Beskyd nebo jejich precizní kopie. V areálu se natáčelo mnoho filmů a pohádek a pravidelně se zde konají různé tématické kulturní akce. </p>\n<p>Od 11. 12. 2018 je areál součástí Národního muzea v přírodě.</p>\n<p>V podhorském městě Rožnově pod Radhoštěm rozprostírajícím se na úpatí Beskyd stojí Valašské muzeum v přírodě, první a až do 70. let 20. století jediné muzeum svého typu v naší zemi. O jeho vznik se zasloužili členové rožnovského muzejního spolku, zejména sourozenci Alois a Bohumír Jaroňkovi. Již před první světovou válkou předložili plány na přenesení několika roubených staveb do městského parku. Uskutečnit své cíle se jim však podařilo až při přípravách národopisné slavnosti v roce 1925. Na mýtinku lázeňského parku byly tehdy <strong>přestěhovány dva roubené domy z rožnovského náměstí</strong> spolu s dalšími menšími stavbami a v prostorách mezi nimi se odehrála velkolepá folklorní slavnost zvaná <strong>Valašský rok</strong>. Vznikl tak <strong>základ areálu Dřevěné městečko</strong>, který byl postupně rozšiřován o další dřevěné stavby a zároveň takto bylo založeno jedinečné nové muzeum – Valašské muzeum v přírodě.</p>\n<p>Již samotní zakladatelé si uvědomovali, že městská část muzea dostatečně nevypovídá o způsobech života na celém Valašsku, a proto usilovali o realizaci <strong>vesnického areálu</strong>. Záměr na <strong>vybudování Valašské dědiny</strong> vznikl na počátku 50. let a o desetiletí později byla zahájena na rožnovské pasece zvané Stráň výstavba prvních roubených chalup a hospodářských staveb. Cílem bylo vytvořit co nepravdivější obraz valašské dědiny zasazené do rázovité valašské kulturní krajiny.</p>\n<p>Dřevěné městečko a Valašská dědina byly na počátku 80. let doplněny o třetí, <strong>technický, areál</strong> zvaný <strong>Mlýnská dolina s funkčními historickými stavbami poháněnými vodou</strong>.</p>\n<p>Dosud posledním, čtvrtým, areálem muzea se v roce 1995 staly <strong>Pustevny se zvoničkou a s objekty Maměnka a Libušín</strong>, které byly na konci 19. století vystavěny podle návrhů architekta Dušana Samo Jurkoviče a jež se staly národní kulturní památkou.</p>\n<p>Do dnešních dnů se areály průběžně rozrůstají o další historické stavby, které dokreslují malebný obraz tradičního Valašska. Podoba by však nebyla celistvá bez života v muzeu.  Nejvýraznějším rysem současného dění v  areálech je cílevědomé úsilí o jejich <strong>oživení</strong> prostřednictvím interiérových i exteriérových expozic, <strong>prezentace</strong> <strong>tradičních technologií řemeslných, zemědělských i podomáckých, lidového umění, obyčejů a folkloru</strong>. Valašské muzeum tak plní odkaz svých zakladatelů, kteří usilovali o to, aby bylo živým muzeem.</p>"
+        }
+      },
       "url": "/valasske-muzeum-v-prirode/",
       "urlAliasy": []
     },
@@ -8806,7 +8824,7 @@ const DB = {
       "id": "kaple-sv-cyrila-a-metodeje",
       "miesto": "roznov",
       "poradie": 4,
-      "nazov": "KAPLE sv. CYRILA A METODĚJE",
+      "nazov": "KAPLNKA sv. CYRILA A METODA",
       "popis": "",
       "cover": "/assets/images/migrated/kaple-sv-cyrila-a-metodeja.jpg",
       "audio": [
@@ -8817,7 +8835,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2591.608691457133!2d18.220549615637314!3d49.49189827935453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd46fa24cb003ee73!2zNDnCsDI5JzMwLjgiTiAxOMKwMTMnMjEuOSJF!5e0!3m2!1ssk!2ssk!4v1662655222086!5m2!1ssk!2ssk",
-      "text": "<p>Kaple se sousoším věrozvěstů Cyrila a Metoděje postavená v roce 1898 v byzantském slohu, kteří toto místo podle staré pověsti navštívili. Před kaplí stojí bronzové sousoší sv. Cyrila a Metoděje od Albína Poláška z roku 1931. Hlavní pouť se koná 5. 7. Zvonice kaple slouží jako rozhledna.</p>",
+      "text": "<p>Kaplnka so súsoším vierozvestov Cyrila a Metoda, ktorí podľa starej povesti toto miesto navštívili, bola postavená v roku 1898 v byzantskom slohu. Pred kaplnkou stojí bronzové súsošie sv. Cyrila a Metoda od Albína Poláška z roku 1931. Hlavná púť sa koná 5. 7. Zvonica kaplnky slúži ako rozhľadňa.</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/kaple-sv-cyrila-a-metodeje/",
         "en": "https://www.qrlink.sk/new/en/kaple-sv-cyrila-a-metodeje/",
@@ -8825,6 +8843,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kaple-sv-cyrila-a-metodeje/",
         "pl": "https://www.qrlink.sk/new/pl/kaple-sv-cyrila-a-metodeje/",
         "hu": "https://www.qrlink.sk/new/hu/kaple-sv-cyrila-a-metodeje/"
+      },
+      "i18n": {
+        "cs": {
+          "nazov": "KAPLE sv. CYRILA A METODĚJE",
+          "text": "<p>Kaple se sousoším věrozvěstů Cyrila a Metoděje postavená v roce 1898 v byzantském slohu, kteří toto místo podle staré pověsti navštívili. Před kaplí stojí bronzové sousoší sv. Cyrila a Metoděje od Albína Poláška z roku 1931. Hlavní pouť se koná 5. 7. Zvonice kaple slouží jako rozhledna.</p>"
+        }
       },
       "url": "/kaple-sv-cyrila-a-metodeje/",
       "urlAliasy": []
@@ -8844,7 +8868,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2592.102187670639!2d18.250703015636972!3d49.48257667935352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa7f8594118c5d672!2zNDnCsDI4JzU3LjMiTiAxOMKwMTUnMTAuNCJF!5e0!3m2!1ssk!2ssk!4v1662655306416!5m2!1ssk!2ssk",
-      "text": "<p>Původní sochu Radegasta vytvořil sochař Albín Polášek z betonu a kameninové drti. Na horský hřbet mezi Pustevnami a Radhoštěm byla umístěna v roce 1931. Horské podnebí sochu narušovalo, a proto byla v roce 1996 přesunuta do haly radnice ve Frenštátu pod Radhoštěm a na jejím místě stojí od roku 1998 kopie z odolnější žuly.</p>\n<p>Radegasta uctívali pohané jako boha slunce, hojnosti a úrody. Albín Polášek jej ztvárnil jako postavu s mužským tělem a lví hlavou, na které má nasazenou přilbu s býčími rohy. V pravé ruce svírá roh hojnosti, levou se opírá o sekyru.</p>",
+      "text": "<p>Pôvodnú sochu Radegasta vytvoril sochár Albín Polášek z betónu a kameninovej drte. Na horský chrbát medzi Pustevnami a Radhošťom ju umiestnili v roku 1931. Horské podnebie sochu poškodzovalo, a preto ju v roku 1996 premiestnili do haly radnice vo Frenštáte pod Radhoštěm a na jej mieste stojí od roku 1998 kópia z odolnejšej žuly.</p>\n<p>Radegasta uctievali pohania ako boha slnka, hojnosti a úrody. Albín Polášek ho stvárnil ako postavu s mužským telom a levou hlavou, na ktorej má nasadenú prilbu s býčími rohmi. V pravej ruke zviera roh hojnosti, ľavou sa opiera o sekeru.</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/socha-radegasta/",
         "en": "https://www.qrlink.sk/new/en/socha-radegasta/",
@@ -8853,6 +8877,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/socha-radegasta/",
         "hu": "https://www.qrlink.sk/new/hu/socha-radegasta/"
       },
+      "i18n": {
+        "cs": {
+          "nazov": "SOCHA RADEGASTA",
+          "text": "<p>Původní sochu Radegasta vytvořil sochař Albín Polášek z betonu a kameninové drti. Na horský hřbet mezi Pustevnami a Radhoštěm byla umístěna v roce 1931. Horské podnebí sochu narušovalo, a proto byla v roce 1996 přesunuta do haly radnice ve Frenštátu pod Radhoštěm a na jejím místě stojí od roku 1998 kopie z odolnější žuly.</p>\n<p>Radegasta uctívali pohané jako boha slunce, hojnosti a úrody. Albín Polášek jej ztvárnil jako postavu s mužským tělem a lví hlavou, na které má nasazenou přilbu s býčími rohy. V pravé ruce svírá roh hojnosti, levou se opírá o sekyru.</p>"
+        }
+      },
       "url": "/socha-radegasta/",
       "urlAliasy": []
     },
@@ -8860,7 +8890,7 @@ const DB = {
       "id": "chata-mamenka-a-libusin",
       "miesto": "roznov",
       "poradie": 6,
-      "nazov": "CHATA MAMĚNKA  A LIBUŠÍN",
+      "nazov": "CHATA MAMĚNKA A LIBUŠÍN",
       "popis": "",
       "cover": "/assets/images/migrated/chata-libusin.jpg",
       "audio": [
@@ -8871,7 +8901,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2591.735799126436!2d18.26362851563728!3d49.48949747935442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeca8d0d023eb66b5!2zNDnCsDI5JzIyLjIiTiAxOMKwMTUnNTYuOSJF!5e0!3m2!1ssk!2ssk!4v1662655426017!5m2!1ssk!2ssk",
-      "text": "<p>Chata Maměnka byla vystavěna, stejně jako sousední chata Libušín, podle návrhů architekta Dušana Jurkoviče v roce 1898. Výrazně zdobená lidově secesní budova s prvky valašské architektury dnes slouží jako hotel. Stavba je národní kulturní památkou.</p>\n<p>Chata Libušín, jedna z dominant horského sedla Pustevny, byla vystavěna podle návrhů architekta Dušana Jurkoviče v roce 1898. Chata je vystavěna ve stylu tzv. lidové secese s prvky valašské architektury. Obzvláště vzácnou byla jídelna zdobená freskami a grafity s motivy moravských a slovenských pověstí, kterou však v roce 2014 velmi poškodil požár celé budovy. </p>\n<p>V roce 1995 byla vyhlášena národní kulturní památkou. V srpnu 2020 byla znovuotevřena.</p>\n<p>Zemepisné súradnice: 49.4894975N, 18.2658172E; nadmorská výška 1 018 m. n. m.</p>\n<p>Zemepisné súradnice: 49.4896744N, 18.2654061E; nadmorská výška 1 018 m. n. m.</p>",
+      "text": "<p>Chata Maměnka bola postavená, rovnako ako susedná chata Libušín, podľa návrhov architekta Dušana Jurkoviča v roku 1898. Výrazne zdobená ľudovo-secesná budova s prvkami valašskej architektúry dnes slúži ako hotel. Stavba je národnou kultúrnou pamiatkou.</p>\n<p>Chata Libušín, jedna z dominánt horského sedla Pustevny, bola postavená podľa návrhov architekta Dušana Jurkoviča v roku 1898. Chata je postavená v štýle tzv. ľudovej secesie s prvkami valašskej architektúry. Obzvlášť vzácna bola jedáleň zdobená freskami a sgrafitami s motívmi moravských a slovenských povestí, ktorú však v roku 2014 veľmi poškodil požiar celej budovy.</p>\n<p>V roku 1995 bola vyhlásená za národnú kultúrnu pamiatku. V auguste 2020 bola znovu otvorená.</p>\n<p>Zemepisné súradnice: 49.4894975N, 18.2658172E; nadmorská výška 1 018 m. n. m.</p>\n<p>Zemepisné súradnice: 49.4896744N, 18.2654061E; nadmorská výška 1 018 m. n. m.</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/chata-mamenka-a-libusin/",
         "en": "https://www.qrlink.sk/new/en/chata-mamenka-a-libusin/",
@@ -8879,6 +8909,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/chata-mamenka-a-libusin/",
         "pl": "https://www.qrlink.sk/new/pl/chata-mamenka-a-libusin/",
         "hu": "https://www.qrlink.sk/new/hu/chata-mamenka-a-libusin/"
+      },
+      "i18n": {
+        "cs": {
+          "nazov": "CHATA MAMĚNKA A LIBUŠÍN",
+          "text": "<p>Chata Maměnka byla vystavěna, stejně jako sousední chata Libušín, podle návrhů architekta Dušana Jurkoviče v roce 1898. Výrazně zdobená lidově secesní budova s prvky valašské architektury dnes slouží jako hotel. Stavba je národní kulturní památkou.</p>\n<p>Chata Libušín, jedna z dominant horského sedla Pustevny, byla vystavěna podle návrhů architekta Dušana Jurkoviče v roce 1898. Chata je vystavěna ve stylu tzv. lidové secese s prvky valašské architektury. Obzvláště vzácnou byla jídelna zdobená freskami a grafity s motivy moravských a slovenských pověstí, kterou však v roce 2014 velmi poškodil požár celé budovy. </p>\n<p>V roce 1995 byla vyhlášena národní kulturní památkou. V srpnu 2020 byla znovuotevřena.</p>\n<p>Zeměpisné souřadnice: 49.4894975N, 18.2658172E; nadmořská výška 1 018 m n. m.</p>\n<p>Zeměpisné souřadnice: 49.4896744N, 18.2654061E; nadmořská výška 1 018 m n. m.</p>"
+        }
       },
       "url": "/chata-mamenka-a-libusin/",
       "urlAliasy": []

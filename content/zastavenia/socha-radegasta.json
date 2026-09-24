@@ -17,7 +17,7 @@
   ],
   "gps": null,
   "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2592.102187670639!2d18.250703015636972!3d49.48257667935352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa7f8594118c5d672!2zNDnCsDI4JzU3LjMiTiAxOMKwMTUnMTAuNCJF!5e0!3m2!1ssk!2ssk!4v1662655306416!5m2!1ssk!2ssk",
-  "text": "Původní sochu Radegasta vytvořil sochař Albín Polášek z betonu a kameninové drti. Na horský hřbet mezi Pustevnami a Radhoštěm byla umístěna v roce 1931. Horské podnebí sochu narušovalo, a proto byla v roce 1996 přesunuta do haly radnice ve Frenštátu pod Radhoštěm a na jejím místě stojí od roku 1998 kopie z odolnější žuly.\n\nRadegasta uctívali pohané jako boha slunce, hojnosti a úrody. Albín Polášek jej ztvárnil jako postavu s mužským tělem a lví hlavou, na které má nasazenou přilbu s býčími rohy. V pravé ruce svírá roh hojnosti, levou se opírá o sekyru.",
+  "text": "Pôvodnú sochu Radegasta vytvoril sochár Albín Polášek z betónu a kameninovej drte. Na horský chrbát medzi Pustevnami a Radhošťom ju umiestnili v roku 1931. Horské podnebie sochu poškodzovalo, a preto ju v roku 1996 premiestnili do haly radnice vo Frenštáte pod Radhoštěm a na jej mieste stojí od roku 1998 kópia z odolnejšej žuly.\n\nRadegasta uctievali pohania ako boha slnka, hojnosti a úrody. Albín Polášek ho stvárnil ako postavu s mužským telom a levou hlavou, na ktorej má nasadenú prilbu s býčími rohmi. V pravej ruke zviera roh hojnosti, ľavou sa opiera o sekeru.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Rožnov pod Radhoštěm",
   "miestoNazov": "Rožnov pod Radhoštěm",
@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/socha-radegasta/",
     "pl": "https://www.qrlink.sk/new/pl/socha-radegasta/",
     "hu": "https://www.qrlink.sk/new/hu/socha-radegasta/"
+  },
+  "i18n": {
+    "cs": {
+      "nazov": "SOCHA RADEGASTA",
+      "text": "Původní sochu Radegasta vytvořil sochař Albín Polášek z betonu a kameninové drti. Na horský hřbet mezi Pustevnami a Radhoštěm byla umístěna v roce 1931. Horské podnebí sochu narušovalo, a proto byla v roce 1996 přesunuta do haly radnice ve Frenštátu pod Radhoštěm a na jejím místě stojí od roku 1998 kopie z odolnější žuly.\n\nRadegasta uctívali pohané jako boha slunce, hojnosti a úrody. Albín Polášek jej ztvárnil jako postavu s mužským tělem a lví hlavou, na které má nasazenou přilbu s býčími rohy. V pravé ruce svírá roh hojnosti, levou se opírá o sekyru."
+    }
   }
 }

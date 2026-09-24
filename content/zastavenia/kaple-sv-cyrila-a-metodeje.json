@@ -2,7 +2,7 @@
   "id": "kaple-sv-cyrila-a-metodeje",
   "miesto": "roznov",
   "poradie": 4,
-  "nazov": "KAPLE sv. CYRILA A METODĚJE",
+  "nazov": "KAPLNKA sv. CYRILA A METODA",
   "popis": "",
   "cover": "assets/images/migrated/kaple-sv-cyrila-a-metodeja.jpg",
   "audio": [
@@ -17,7 +17,7 @@
   ],
   "gps": null,
   "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2591.608691457133!2d18.220549615637314!3d49.49189827935453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd46fa24cb003ee73!2zNDnCsDI5JzMwLjgiTiAxOMKwMTMnMjEuOSJF!5e0!3m2!1ssk!2ssk!4v1662655222086!5m2!1ssk!2ssk",
-  "text": "Kaple se sousoším věrozvěstů Cyrila a Metoděje postavená v roce 1898 v byzantském slohu, kteří toto místo podle staré pověsti navštívili. Před kaplí stojí bronzové sousoší sv. Cyrila a Metoděje od Albína Poláška z roku 1931. Hlavní pouť se koná 5. 7. Zvonice kaple slouží jako rozhledna.",
+  "text": "Kaplnka so súsoším vierozvestov Cyrila a Metoda, ktorí podľa starej povesti toto miesto navštívili, bola postavená v roku 1898 v byzantskom slohu. Pred kaplnkou stojí bronzové súsošie sv. Cyrila a Metoda od Albína Poláška z roku 1931. Hlavná púť sa koná 5. 7. Zvonica kaplnky slúži ako rozhľadňa.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Rožnov pod Radhoštěm",
   "miestoNazov": "Rožnov pod Radhoštěm",
@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/kaple-sv-cyrila-a-metodeje/",
     "pl": "https://www.qrlink.sk/new/pl/kaple-sv-cyrila-a-metodeje/",
     "hu": "https://www.qrlink.sk/new/hu/kaple-sv-cyrila-a-metodeje/"
+  },
+  "i18n": {
+    "cs": {
+      "nazov": "KAPLE sv. CYRILA A METODĚJE",
+      "text": "Kaple se sousoším věrozvěstů Cyrila a Metoděje postavená v roce 1898 v byzantském slohu, kteří toto místo podle staré pověsti navštívili. Před kaplí stojí bronzové sousoší sv. Cyrila a Metoděje od Albína Poláška z roku 1931. Hlavní pouť se koná 5. 7. Zvonice kaple slouží jako rozhledna."
+    }
   }
 }
