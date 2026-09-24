@@ -25,7 +25,7 @@
 import { rewrite, next } from "@vercel/functions";
 import urlMap from "./lib/pretty-url-map.mjs";
 
-const OLD_LANGS = ["sk", "en", "de", "ru", "pl", "hu"];
+const OLD_LANGS = ["sk", "en", "cs", "hu", "de", "ru", "pl"];
 
 export const config = {
   // Vynechá /admin, /api, /assets, /css, /js, /img (celý segment - slug ako

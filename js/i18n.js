@@ -6,6 +6,10 @@
    ===================================================================== */
 
 const I18N_LANGS = ["sk", "en", "cs", "hu"];
+// Jazykové prefixy, ktoré sa môžu objaviť na začiatku peknej URL: naše 4
+// jazyky + de/ru/pl zo starého webu (tam existovali, u nás padnú na SK).
+// Musí sedieť s OLD_LANGS v middleware.js a js/app.js.
+const I18N_PATH_LANGS = ["sk", "en", "cs", "hu", "de", "ru", "pl"];
 const I18N_DEFAULT = "sk";
 const I18N_STORAGE_KEY = "qrlink-lang";
 const I18N_NAMES = { sk: "Slovenčina", en: "English", cs: "Čeština", hu: "Magyar" };
@@ -312,8 +316,19 @@ function setLang(lang) {
   if (!I18N_LANGS.includes(lang)) return;
   localStorage.setItem(I18N_STORAGE_KEY, lang);
   const url = new URL(location.href);
-  if (lang === I18N_DEFAULT) url.searchParams.delete("lang");
-  else url.searchParams.set("lang", lang);
+  url.searchParams.delete("lang");
+  if (url.pathname.includes(".html")) {
+    // Priama interná stránka (napr. /kategoria.html?id=...) - jazyk v query.
+    if (lang !== I18N_DEFAULT) url.searchParams.set("lang", lang);
+  } else {
+    // Pekná URL - jazyk ako prvý segment cesty (/en/..., rovnako ako starý
+    // web), slovenčina bez prefixu. Pôvodný jazykový prefix (aj starý
+    // de/ru/pl) sa najprv odstráni, inak by v getLang() vyhral nad voľbou.
+    const segments = url.pathname.split("/").filter(Boolean);
+    if (segments.length && I18N_PATH_LANGS.includes(segments[0])) segments.shift();
+    if (lang !== I18N_DEFAULT) segments.unshift(lang);
+    url.pathname = segments.length ? `/${segments.join("/")}/` : "/";
+  }
   location.href = url.toString();
 }
 

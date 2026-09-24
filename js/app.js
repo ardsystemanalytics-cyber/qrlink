@@ -17,7 +17,7 @@ const miestoById = (id) => DB.miesta.find(m => m.id === id);
    normalizácia jazykového prefixu ako v middleware.js). Priamy prístup
    cez "kategoria.html?id=..."/"zastavenie.html?id=..." (napr. z /admin
    náhľadu) funguje ako doteraz, cez "param('id')". */
-const OLD_LANGS = ["sk", "en", "de", "ru", "pl", "hu"];
+const OLD_LANGS = ["sk", "en", "cs", "hu", "de", "ru", "pl"];
 function prettyPathFromLocation() {
   const segments = location.pathname.split("/").filter(Boolean);
   if (segments.length && OLD_LANGS.includes(segments[0])) segments.shift();
