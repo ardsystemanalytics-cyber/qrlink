@@ -25,13 +25,5 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/"
-  ],
-  "i18n": {
-    "en": {
-      "nazov": "Cestovateľský denník - Klenoty v česko- slovenskom pohraničí"
-    },
-    "hu": {
-      "nazov": "Cestovateľský denník - Klenoty v česko- slovenskom pohraničí"
-    }
-  }
+  ]
 }

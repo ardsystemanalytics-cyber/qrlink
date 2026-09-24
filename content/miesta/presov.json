@@ -21,13 +21,5 @@
     "ru": "https://www.qrlink.sk/new/ru/category/presov/",
     "pl": "https://www.qrlink.sk/new/pl/category/presov/",
     "hu": "https://www.qrlink.sk/new/hu/category/presov/"
-  },
-  "i18n": {
-    "en": {
-      "nazov": "Prešov"
-    },
-    "hu": {
-      "nazov": "Prešov"
-    }
   }
 }

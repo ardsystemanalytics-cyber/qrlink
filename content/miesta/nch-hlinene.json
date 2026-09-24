@@ -24,13 +24,5 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/"
-  ],
-  "i18n": {
-    "en": {
-      "popis": "[:sk]Po stopách kulturně -přírodního dědictví česko-slovenskeho regionu[:]"
-    },
-    "hu": {
-      "popis": "[:sk]Po stopách kulturně -přírodního dědictví česko-slovenskeho regionu[:]"
-    }
-  }
+  ]
 }

@@ -58,6 +58,12 @@ collections:
             required: false
             fields:
               - { label: "Názov", name: "nazov", widget: "string", required: false }
+          - label: "Nemčina"
+            name: "de"
+            widget: "object"
+            required: false
+            fields:
+              - { label: "Názov", name: "nazov", widget: "string", required: false }
 
   - name: miesta
     label: "Miesta"
@@ -160,6 +166,13 @@ collections:
                 fields:
                   - { label: "Nadpis", name: "text", widget: "string", required: false }
                   - { label: "Text", name: "popis", widget: "text", required: false }
+              - label: "Nemčina"
+                name: "de"
+                widget: "object"
+                required: false
+                fields:
+                  - { label: "Nadpis", name: "text", widget: "string", required: false }
+                  - { label: "Text", name: "popis", widget: "text", required: false }
 
       - label: "SEO (voliteľné)"
         name: "seo"
@@ -194,6 +207,13 @@ collections:
               - { label: "Popis", name: "popis", widget: "text", required: false }
           - label: "Maďarčina"
             name: "hu"
+            widget: "object"
+            required: false
+            fields:
+              - { label: "Názov", name: "nazov", widget: "string", required: false }
+              - { label: "Popis", name: "popis", widget: "text", required: false }
+          - label: "Nemčina"
+            name: "de"
             widget: "object"
             required: false
             fields:
@@ -334,6 +354,20 @@ collections:
                 field: { label: "Audio súbor", name: "url", widget: "file" }
           - label: "Maďarčina"
             name: "hu"
+            widget: "object"
+            required: false
+            fields:
+              - { label: "Názov", name: "nazov", widget: "string", required: false }
+              - { label: "Popis", name: "popis", widget: "text", required: false }
+              - { label: "Text", name: "text", widget: "markdown", required: false, buttons: ["bold", "italic", "link", "heading-two", "heading-three", "quote", "bulleted-list", "numbered-list"], editor_components: [] }
+              - label: "Audio (nahrávka v tomto jazyku)"
+                name: "audio"
+                widget: "list"
+                required: false
+                hint: "Nechaj prázdne, ak nahrávka v tomto jazyku nie je – prehrá sa slovenská."
+                field: { label: "Audio súbor", name: "url", widget: "file" }
+          - label: "Nemčina"
+            name: "de"
             widget: "object"
             required: false
             fields:

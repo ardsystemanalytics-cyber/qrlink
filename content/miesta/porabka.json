@@ -25,13 +25,5 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/porabka/"
-  ],
-  "i18n": {
-    "en": {
-      "nazov": "Porąbka"
-    },
-    "hu": {
-      "nazov": "Porąbka"
-    }
-  }
+  ]
 }

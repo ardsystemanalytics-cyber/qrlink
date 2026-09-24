@@ -5,14 +5,14 @@
    znova načíta, aby sa prerenderoval celý (statický aj JS) obsah.
    ===================================================================== */
 
-const I18N_LANGS = ["sk", "en", "cs", "hu"];
-// Jazykové prefixy, ktoré sa môžu objaviť na začiatku peknej URL: naše 4
-// jazyky + de/ru/pl zo starého webu (tam existovali, u nás padnú na SK).
+const I18N_LANGS = ["sk", "en", "cs", "hu", "de"];
+// Jazykové prefixy, ktoré sa môžu objaviť na začiatku peknej URL: naše
+// jazyky + ru/pl zo starého webu (tam existovali, u nás padnú na SK).
 // Musí sedieť s OLD_LANGS v middleware.js a js/app.js.
 const I18N_PATH_LANGS = ["sk", "en", "cs", "hu", "de", "ru", "pl"];
 const I18N_DEFAULT = "sk";
 const I18N_STORAGE_KEY = "qrlink-lang";
-const I18N_NAMES = { sk: "Slovenčina", en: "English", cs: "Čeština", hu: "Magyar" };
+const I18N_NAMES = { sk: "Slovenčina", en: "English", cs: "Čeština", hu: "Magyar", de: "Deutsch" };
 
 const I18N = {
   sk: {
@@ -289,6 +289,75 @@ const I18N = {
     contact_trails_title: "Tanösvények", contact_trails_text: "Megállókkal teli útvonalak a felfedezéssel teli kirándulásokhoz.",
     contact_furniture_title: "Utcabútorok", contact_furniture_text: "Információs táblák és padok QR-kóddal a terepen.",
     contact_audio_title: "Hangos kalauz", contact_audio_text: "Hallgassa meg a helyszín történetét közvetlenül a telefonján."
+  },
+
+  de: {
+    nav_map: "Karte", nav_places: "Orte", nav_contact: "Kontakt",
+    menu_toggle_aria: "Menü öffnen", logo_home_aria: "ARDSYSTÉM – Startseite",
+
+    home_hero_line1: "Ein Reiseführer,", home_hero_line2: "der direkt vor Ort auf Sie wartet",
+    home_lead: "QR LINK verwandelt Städte, Burgen und Lehrpfade in Geschichten. Scannen Sie den Code auf der Tafel und hören Sie, was hier wirklich geschah – oder wählen Sie einen Ort auf der Karte und planen Sie Ihren Ausflug im Voraus.",
+    feature1_title: "Audio-Geschichten", feature1_text: "an jedem Ort",
+    feature2_title: "Ausflugstipps", feature2_text: "und Wissenswertes",
+    feature3_title: "Entdecken Sie die Slowakei", feature3_text: "als Erlebnis",
+    map_heading: "Entdecken Sie Orte auf der Karte", search_placeholder: "Ort suchen…",
+    stat_places_label: "Orte auf der Karte", stat_stops_label: "Stationen mit Geschichten",
+    stat_inspire_title: "Lassen Sie sich inspirieren", stat_inspire_text: "für Ihren nächsten Ausflug",
+    places_heading: "Wohin geht es?",
+    places_sub: "Entdecken Sie Orte, Burgen und Lehrpfade voller Geschichten in der ganzen Slowakei.",
+    show_more: "Weitere Orte anzeigen",
+    footer_benefit1_title: "Audio-Geschichten", footer_benefit1_text: "Geschichten, erzählt genau dort, wo sie geschahen.",
+    footer_benefit2_title: "Ausflugstipps", footer_benefit2_text: "Inspiration für Ausflüge und interessante Stationen.",
+    footer_benefit3_title: "Entdecken Sie die Slowakei", footer_benefit3_text: "Unsere Schönheiten auf erlebnisreiche Weise kennenlernen.",
+    footer_benefit4_title: "QR LINK", footer_benefit4_text: "Digitaler Reiseführer – scannen, zuhören, entdecken.",
+    footer_copyright: "© ARDSYSTÉM, s.r.o. – Alle Rechte vorbehalten",
+    footer_tagline: "QR LINK – digitaler Reiseführer",
+    map_popup_close_aria: "Schließen", map_popup_view_detail: "Details anzeigen →",
+
+    crumbs_aria: "Sie sind hier", crumbs_home: "Startseite",
+    sibling_nav_aria: "Vorheriger und nächster Ort",
+    not_found_place: "Ort nicht gefunden",
+    primary_category: "Hauptkategorie: ", other_categories: "Weitere Kategorien: ",
+    filter_all: "Alle",
+    empty_no_results: "Keine Orte gefunden.", empty_no_category: "Keine Orte in dieser Kategorie.",
+    scan_qr: "Scannen Sie den QR-Code",
+    discover_places: "Orte entdecken", stops_default_title: "Stationen",
+    stops_coming_soon: "Die Stationen für diesen Ort werden bald ergänzt.",
+    total_label: "insgesamt", locations_suffix: "Orte",
+    inspiration_title: "Inspiration", inspiration_text: "für Ihren Ausflug",
+    audio_title: "Audio", audio_suffix: "Guide",
+    view_cards: "Karten", view_list: "Liste",
+    back_to: "Zurück zu „{name}“", next_place_prefix: "Nächster Ort: ",
+    history_culture_title: "Geschichte und Kultur", history_culture_text: "Burgen, Schlösser und historische Städte mit reicher Geschichte.",
+    nature_title: "Natur", nature_text: "Entdecken Sie die Schönheit der Landschaft auf Schritt und Tritt.",
+    connects_title: "Was uns verbindet", connects_text: "Entdecken Sie Orte, die die Slowakei und Tschechien verbinden.",
+    qr_guide_title: "QR-Guide", qr_guide_text: "Scannen Sie die QR-Codes und lernen Sie die Orte noch besser kennen.",
+
+    detail_not_found: "Station nicht gefunden.", stop_of: "Station {n} von {total}",
+    share: "Teilen", open_in_maps: "In Karten öffnen",
+    gps_map_title: "Wo sich diese Station befindet", next_stops_title: "Weitere Stationen auf der Route",
+    prev_stops_aria: "Vorherige Stationen", next_stops_aria: "Nächste Stationen",
+    all_stops: "Alle Stationen",
+    skip_back_aria: "10 Sekunden zurück", play_aria: "Audio abspielen", skip_fwd_aria: "10 Sekunden vor",
+    volume_aria: "Lautstärke",
+    gallery_title: "Fotogalerie", prev_photos_aria: "Vorherige Fotos", next_photos_aria: "Nächste Fotos",
+    lightbox_aria: "Vergrößertes Foto", close_aria: "Schließen", photo_alt: "Foto {n}",
+    prev_photo_aria: "Vorheriges Foto", next_photo_aria: "Nächstes Foto",
+
+    contact_hero_title: "Kontaktieren Sie uns jederzeit",
+    contact_hero_text: "Gerne erstellen wir einen QR-Guide auch für Ihre Stadt, Ihr Denkmal oder Ihren Lehrpfad.",
+    contact_info_title: "Kontaktdaten", contact_form_title: "Schreiben Sie uns",
+    name_placeholder: "Vor- und Nachname *", email_placeholder: "E-Mail *", message_placeholder: "Ihre Nachricht *",
+    not_robot: "Ich bin kein Roboter", send_button: "Nachricht senden",
+    form_success: "Vielen Dank für Ihre Nachricht! Wir melden uns so bald wie möglich.",
+    home_contact_title: "Haben Sie eine Frage oder Interesse an einer Zusammenarbeit?",
+    home_contact_text: "Schreiben Sie uns – wir helfen Ihnen gerne bei Ihrem Projekt oder Guide.",
+    phone_placeholder: "Telefon",
+    consent_prefix: "Ich stimme der", consent_link: "Verarbeitung meiner Daten", consent_suffix: "zu *",
+    contact_qr_title: "QR-Guide", contact_qr_text: "Scannen Sie den QR-Code direkt vor Ort und erfahren Sie seine Geschichte.",
+    contact_trails_title: "Lehrpfade", contact_trails_text: "Routen mit Stationen für Ausflüge voller Entdeckungen.",
+    contact_furniture_title: "Stadtmobiliar", contact_furniture_text: "Infotafeln und Bänke mit QR-Code direkt im Gelände.",
+    contact_audio_title: "Audio-Guide", contact_audio_text: "Hören Sie die Geschichte des Ortes direkt auf Ihrem Handy."
   }
 };
 
@@ -356,6 +425,7 @@ function tStops(n) {
   const lang = getLang();
   if (lang === "en") return n === 1 ? "stop" : "stops";
   if (lang === "hu") return "megálló";
+  if (lang === "de") return n === 1 ? "Station" : "Stationen";
   if (lang === "cs") return "zastavení";
   if (n === 1) return "zastavenie";
   if (n >= 2 && n <= 4) return "zastavenia";
@@ -366,6 +436,7 @@ function tVisits(n) {
   const lang = getLang();
   if (lang === "en") return n === 1 ? "1 visit" : `${n} visits`;
   if (lang === "hu") return `${n} megtekintés`;
+  if (lang === "de") return n === 1 ? "1 Besuch" : `${n} Besuche`;
   if (lang === "cs") return n === 1 ? "1 návštěva" : `${n} návštěv`;
   return n === 1 ? "1 návšteva" : `${n} návštev`;
 }

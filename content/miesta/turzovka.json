@@ -24,13 +24,5 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/turzovka/"
-  ],
-  "i18n": {
-    "en": {
-      "nazov": "Turzovka"
-    },
-    "hu": {
-      "nazov": "Turzovka"
-    }
-  }
+  ]
 }

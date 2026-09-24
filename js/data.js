@@ -63,6 +63,9 @@ const DB = {
         },
         "hu": {
           "nazov": "Városok"
+        },
+        "de": {
+          "nazov": "Städte"
         }
       }
     },
@@ -79,6 +82,9 @@ const DB = {
         },
         "hu": {
           "nazov": "Műemlékek"
+        },
+        "de": {
+          "nazov": "Denkmäler"
         }
       }
     },
@@ -95,6 +101,9 @@ const DB = {
         },
         "hu": {
           "nazov": "Tanösvények"
+        },
+        "de": {
+          "nazov": "Lehrpfade"
         }
       }
     },
@@ -111,6 +120,9 @@ const DB = {
         },
         "hu": {
           "nazov": "Környezeti nevelés és oktatás"
+        },
+        "de": {
+          "nazov": "Umweltbildung und -erziehung"
         }
       }
     },
@@ -127,6 +139,9 @@ const DB = {
         },
         "hu": {
           "nazov": "Cseh-szlovák határvidék"
+        },
+        "de": {
+          "nazov": "Tschechisch-slowakisches Grenzgebiet"
         }
       }
     }
@@ -145,14 +160,6 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/"
-      },
-      "i18n": {
-        "en": {
-          "nazov": "Test 2. podkategoria enviro"
-        },
-        "hu": {
-          "nazov": "Test 2. podkategoria enviro"
-        }
       },
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
       "urlAliasy": [
@@ -266,14 +273,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/ivanka-pri-dunaji/",
         "hu": "https://www.qrlink.sk/new/hu/category/ivanka-pri-dunaji/"
       },
-      "i18n": {
-        "en": {
-          "nazov": "Ivanka pri Dunaji"
-        },
-        "hu": {
-          "nazov": "Ivanka pri Dunaji"
-        }
-      },
       "url": "/category/ivanka-pri-dunaji/",
       "urlAliasy": []
     },
@@ -312,9 +311,6 @@ const DB = {
       "i18n": {
         "en": {
           "nazov": "The monuments in Turzovka"
-        },
-        "hu": {
-          "nazov": "Pamätníky v Turzovke"
         }
       },
       "url": "/category/turzovka/pamatniky-v-turzovke/",
@@ -409,9 +405,6 @@ const DB = {
       "i18n": {
         "en": {
           "nazov": "The sacral monuments in the town"
-        },
-        "hu": {
-          "nazov": "Sakrálne pamiatky"
         }
       },
       "url": "/category/turzovka/sakralne-pamiatky/",
@@ -498,14 +491,6 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/betliar/",
         "pl": "https://www.qrlink.sk/new/pl/category/betliar/",
         "hu": "https://www.qrlink.sk/new/hu/category/betliar/"
-      },
-      "i18n": {
-        "en": {
-          "nazov": "Betliar"
-        },
-        "hu": {
-          "nazov": "Betliar"
-        }
       },
       "url": "/category/betliar/",
       "urlAliasy": []
@@ -609,14 +594,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/frydlant/",
         "hu": "https://www.qrlink.sk/new/hu/category/frydlant/"
       },
-      "i18n": {
-        "en": {
-          "nazov": "Frýdlant"
-        },
-        "hu": {
-          "nazov": "Frýdlant"
-        }
-      },
       "url": "/category/frydlant/",
       "urlAliasy": [
         "/frydlant/"
@@ -692,14 +669,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/porabka/",
         "hu": "https://www.qrlink.sk/new/hu/category/porabka/"
       },
-      "i18n": {
-        "en": {
-          "nazov": "Porąbka"
-        },
-        "hu": {
-          "nazov": "Porąbka"
-        }
-      },
       "url": "/category/porabka/",
       "urlAliasy": [
         "/porabka/"
@@ -725,14 +694,6 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/presov/",
         "pl": "https://www.qrlink.sk/new/pl/category/presov/",
         "hu": "https://www.qrlink.sk/new/hu/category/presov/"
-      },
-      "i18n": {
-        "en": {
-          "nazov": "Prešov"
-        },
-        "hu": {
-          "nazov": "Prešov"
-        }
       },
       "url": "/category/presov/",
       "urlAliasy": []
@@ -783,14 +744,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/ruzomberok/",
         "hu": "https://www.qrlink.sk/new/hu/category/ruzomberok/"
       },
-      "i18n": {
-        "en": {
-          "nazov": "Ružomberok"
-        },
-        "hu": {
-          "nazov": "Ružomberok"
-        }
-      },
       "url": "/category/ruzomberok/",
       "urlAliasy": []
     },
@@ -814,14 +767,6 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/sokolovce/",
         "pl": "https://www.qrlink.sk/new/pl/category/sokolovce/",
         "hu": "https://www.qrlink.sk/new/hu/category/sokolovce/"
-      },
-      "i18n": {
-        "en": {
-          "nazov": "Sokolovce"
-        },
-        "hu": {
-          "nazov": "Sokolovce"
-        }
       },
       "url": "/category/sokolovce/",
       "urlAliasy": []
@@ -847,11 +792,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/trebisov/",
         "hu": "https://www.qrlink.sk/new/hu/category/trebisov/"
       },
-      "i18n": {
-        "hu": {
-          "nazov": "Trebišov"
-        }
-      },
       "url": "/category/trebisov/",
       "urlAliasy": []
     },
@@ -875,14 +815,6 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/turzovka/",
         "pl": "https://www.qrlink.sk/new/pl/category/turzovka/",
         "hu": "https://www.qrlink.sk/new/hu/category/turzovka/"
-      },
-      "i18n": {
-        "en": {
-          "nazov": "Turzovka"
-        },
-        "hu": {
-          "nazov": "Turzovka"
-        }
       },
       "url": "/category/turzovka/",
       "urlAliasy": [
@@ -909,14 +841,6 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/vranov-nad-toplou/",
         "pl": "https://www.qrlink.sk/new/pl/category/vranov-nad-toplou/",
         "hu": "https://www.qrlink.sk/new/hu/category/vranov-nad-toplou/"
-      },
-      "i18n": {
-        "en": {
-          "nazov": "Vranov nad Topľou"
-        },
-        "hu": {
-          "nazov": "Vranov nad Topľou"
-        }
       },
       "url": "/category/vranov-nad-toplou/",
       "urlAliasy": []
@@ -1001,14 +925,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/",
         "hu": "https://www.qrlink.sk/new/hu/category/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/"
       },
-      "i18n": {
-        "en": {
-          "nazov": "Cestovateľský denník - Klenoty v česko- slovenskom pohraničí"
-        },
-        "hu": {
-          "nazov": "Cestovateľský denník - Klenoty v česko- slovenskom pohraničí"
-        }
-      },
       "url": "/category/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/",
       "urlAliasy": [
         "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/"
@@ -1061,14 +977,6 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/naucny-chodnik-hlinene/",
         "pl": "https://www.qrlink.sk/new/pl/category/naucny-chodnik-hlinene/",
         "hu": "https://www.qrlink.sk/new/hu/category/naucny-chodnik-hlinene/"
-      },
-      "i18n": {
-        "en": {
-          "popis": "[:sk]Po stopách kulturně -přírodního dědictví česko-slovenskeho regionu[:]"
-        },
-        "hu": {
-          "popis": "[:sk]Po stopách kulturně -přírodního dědictví česko-slovenskeho regionu[:]"
-        }
       },
       "url": "/category/naucny-chodnik-hlinene/",
       "urlAliasy": [
@@ -1174,14 +1082,6 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/",
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/"
-      },
-      "i18n": {
-        "en": {
-          "nazov": "Test 1 podkategoria enviro"
-        },
-        "hu": {
-          "nazov": "Test 1 podkategoria enviro"
-        }
       },
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/",
       "urlAliasy": [
@@ -2082,11 +1982,9 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "Rotunda",
           "text": "<p>Immediately after entering the park, we are struck by a group of buildings on the left bank of the stream. The first is the rotunda-shaped building of the former library, which was built in 1816 by Leopold Andrássy to house the family library. In addition to family members, it was also used by members of the Malohont Learned Society. At the end of the 19th century, under Count Emanuel Andrássy, the books were moved to the manor house, to the former picture gallery. However, all the original wooden library shelves, balconies with railings, and spiral staircases remained in the rotunda, but unfortunately, they were removed and destroyed in the 1980s. Currently, this space is not in use. </p>\n<p>The library was gradually expanded by several generations of the Andrássy family, and today it contains more than 15,000 books (the most valuable of which are incunabula – first editions from before 1500). </p>\n<p>The second, undoubtedly interesting building is the gardener’s house, built in Tyrolean style, part of which is constructed with a beam frame and infill walls. The count’s laundry room was located in the basement of the house, which also included a drying room under a high roof. Today, this house provides accommodation for museum visitors and researchers. </p>\n<p>The adjacent single-story cottage, which was originally occupied by the count’s coachman, has a similar use. </p>\n<p>The path beneath these three buildings leads to a wooden footbridge over the stream and continues to an old staircase leading to a beautiful wooden well, restored to its original colors, and to the former servants’ quarters, a long building with a wooden gallery, where Dr. Günther and her relatives lived for almost four years. Today, the building is used as a museum depository, ticket office, and museum gift shop.</p>"
         },
         "hu": {
-          "nazov": "Rotunda",
           "text": "<p>Mindjárt a park bejáratánál megragadja figyelmünket a patak bal partján álló épületcsoport. Az első egy rotunda alakú épület, a volt könyvtár, amelyet 1816-ban Andrássy Lipót építtetett a családi könyvtár könyveinek tárolására. A családtagokon kívül a Kishonti Tudományos Társaság tagjai is használták. A 19. század végén, Andrássy Manó gróf idején a könyveket a kastélyba, a volt képtár helyiségébe költöztették. A rotundában azonban megmaradtak az eredeti fa könyvespolcok, a korlátos tornácok és a csigalépcsők, amelyeket sajnos a 20. század 80-as éveiben eltávolítottak és megsemmisítettek. Jelenleg ez a helyiség nincs használatban. </p>\n<p>A könyvtárat az Andrássy család több generációja fokozatosan bővítette, és ma több mint 15 000 könyv található benne (a legértékesebbek közülük az inkunábulák, azaz az 1500 előtti első nyomtatványok). </p>\n<p>A második, kétségkívül érdekes épület a kertész háza, amely tiroli stílusban épült, melynek egy része gerendavázas-kitöltőfalas építésű. A ház alagsorában volt a gróf mosókonyhája, amelyhez egy magas tető alatt lévő szárító is tartozott. Ez a ház ma a múzeum látogatóinak és kutatóknak nyújt szállást. </p>\n<p>Hasonló feladatot lát el a szomszédos földszintes házikó is, amelyben eredetileg a gróf kocsisa lakott. </p>\n<p>A három épület alatt húzódó járda egy fából készült hídnál torkollik a patakba, és egy régi lépcsőhöz vezet, amely egy szép, eredeti színeiben felújított, fából készült csörlős kúthoz és a volt cselédházhoz, egy hosszú épülethez vezet, amelynek fa erkélye van, és amelyben Günther doktornő is rokonával együtt közel négy évig lakott. Ma az épületet múzeumi raktárként, pénztárként és múzeumi ajándékboltként is használják.</p>"
         }
       },
@@ -2602,7 +2500,6 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "Bosniak / Bosnia bar",
           "text": "<p>It consists of two towers and a ground floor structure between them. The building is now in ruins after a fire. </p>\n<p>According to legends and expert opinion, some parts of it are very old, but the structure is not marked on any older maps. Research suggests that the building was constructed in several stages, as evidenced by the different types of mortar, stone, and varying brick sizes. The individual parts of the building were therefore created in different time periods (and also in different artistic styles). Based on the different floor plans of the towers, it can be concluded that one (southeast) played role in observation and the other (northwest) in defense. </p>\n<p>In the 19th century, the building served Count Emanuel I Andrássy as a space for displaying his exotic trophies.</p>"
         },
         "hu": {
@@ -3632,6 +3529,10 @@ const DB = {
         "en": {
           "nazov": "The Chateau and Park in Ivanka pri Dunaji",
           "text": "<p>At the centre of the village lies its historically most significant secular building – the Ivanka chateau. The building is today much altered in appearance from the time of its original construction.</p>\n<p>Construction of the chateau was begun by Antal Grassalkovich I, the president of the Hungarian Royal Chamber, after 1763. Because his palace in Bratislava was being finished at the same time, it is thought that the same architect, Mayerhoffer, was involved in the construction of his countryside residence in Ivanka.</p>\n<p>The chateau was in the hands of the Grassalkovich family until 1841 when, after its male line died out upon the death of Antal III, it was put up for auction.</p>\n<p>The chateau and its property were bought by Mihailo Obrenović, a Serb Count – and for a short time the reigning Prince of Serbia – who lived in exile in Austria in 1842-1858. He set up his countryside residence in Ivanka. In 1853, Obrenović married a Hungarian aristocrat, Countess Julia Hunyady. In 1855, Ľudovít Štúr, who was living under police guard in Modra, visited Obrenović in secret at the chateau – a meeting marked by a plaque in front of the chateau. The chateau was renovated by Obrenović in 1856 following the great fire of Ivanka. The southwest wing of the building was pulled down and replaced with a tower which served as a water tower. At the start of the 20th century the new owners, the Hunyady family, renovated the chateau in a mixture of Neogothic and Art Nouveau styles. In its current form, the building is modelled on medieval architecture with its façade displaying a combination of Romanesque and Gothic features. The chateau was originally surrounded by an extensive French formal park.</p>\n<p>In 1943, Jesuits moved into the property, having bought it from Count Hunyady, and turned it into a dormitory for young students from their secondary school in Bratislava. In 1948, the building was expropriated by the communists, passing into the hands of the Department of Agriculture. After 1989, it was returned to the Jesuits. The building was renovated and is currently home to the Anton Neuwirth Collegium, an educational institution founded along the lines of traditional Oxford colleges. The collegium offers a two-year programme for university students focused on philosophy, the relationship between Christianity and culture, and personal growth.</p>\n<p>Because of its great architectural and historical value, the chateau and park have been declared a National Heritage Site.</p>"
+        },
+        "de": {
+          "nazov": "Das Kastell und der Park in Iwanka an der Donau",
+          "text": "<p>Das Kastell bildet die Dominante des Gemeindezentrums, es ist der bedeutendste profane Bau der Ortschaft, doch seine gegenwärtige Bauform entspricht nicht der ursprünglichen – aus der Zeit seiner Entstehung.</p>\n<p>Das Kastell begann der Vorsitzende der Ungarischen Kammer Anton I. Grassalkowitsch nach dem Jahr 1763 zu bauen. Zu dieser Zeit wurde auch sein Pressburger Palast fertiggestellt, es ist also anzunehmen, dass der Projektant seines Landsitzes auch der Baumeister Mayerhofer war.</p>\n<p>Das Kastell blieb im Besitz der Familie Grassalkowitsch bis 1841, wenn die männliche Linie durch Anton III. ausgestorben ist und das Landgut versteigert wurde.</p>\n<p>Das Kastell und das Landgut kaufte Michal Obrenovitsch, serbischer Fürst und eine Zeitlang auch serbischer Herrscher, der in den Jahren 1842 bis 1858 im Exil in Österreich lebte. In Iwanka errichtete er seinen Landsitz. Obrenowitsch heiratete 1853 ungarische Adelige Gräfin Julia Hunyady. 1855 besuchte den Obrenowitsch geheim Ľudovít Štúr, der damals in Modra unter Polizeiaufsicht lebte. An dieses Ereignis erinnert die Gedenktafel. Nachdem Iwanka 1856 vom Brand heimgesucht wurde, ließ er das Kastell neugestalten. Der südwestliche Teil des bestehenden Bauwerks wurde beseitigt und an dessen Stelle ein Turm aufgebaut, der als Wasserbehälter diente.</p>\n<p>Anfang des 20-sten Jahrhunderts ließen die neuen Besitzer, die Hunyadys, das Kastell im neugotisch-Jugendstil umbauen. Heute ist es ein mehrstöckiges Gebäude, einige Fassadenelemente wurden nach den mittelalterlichen Mustern, u. zw. in Kombination der romanischen und gotischen Lösungsweisen gestaltet. Das repräsentative Kastell war ursprünglich von einem weitläufigen französischen Park umgeben.</p>\n<p>1943 kauften von Graf Hunyady die Jesuiten das Kastell und zogen hier ein. Es wurde hier ein Wohnheim errichtet, und zwar für jene Jugendlichen, die am Jesuiten Gymnasium in Bratislava studierten. 1948 wurde der Besitz von der kommunistischen Regierung enteignet und ging in die Hände des Nationalministeriums für Landwirtschaft über. Nach 1989 wurde das Kastell im Rahmen der Restitution wieder in die Verwaltung der Jesus Gemeinschaft – Jesuiten zurückgegeben. Das Kastellgebäude wurde rekonstruiert, gegenwärtig hat hier seinen Sitz das Anton Neuwirth Kollegium. Es handelt sich um ein Studentenkollegium, gegründet nach dem Muster der traditionellen Oxfordkollegien. Es bietet ein zweijähriges Internatprogramm für Hochschulstudenten mit der Studienrichtung – Philosophie, Beziehung Christentum und Kultur sowie Persönlichkeitsentwicklung.</p>\n<p>Das Kastell stellt ein Denkmal von hohem architektonisch-urbanistischen Wert dar und wurde samt zugehörigem Park zum Nationalen Kulturdenkmal erklärt.</p>"
         }
       },
       "url": "/kastiel-a-park-v-ivanke-pri-dunaji/",
@@ -3670,6 +3571,10 @@ const DB = {
         "en": {
           "nazov": "The Church of St. John the Baptist",
           "text": "<p>One of the most prominent, and oldest, buildings in the village is the Church of St. John the Baptist. A church stood on this site as far back as the Middle Ages, probably in the 12th century. But in 1770 Antal Grassalkovich I began construction of a new church, which was completed two years later by his son Antal II. It owes its current appearance to Mihailo Obrenović, who in the second half of the 19th century, following a great fire in the village, had its tower raised and renovated the building, giving it its current Baroque-Classical style. The front of the church is dominated by a tower with a clock, which is topped by a tall pyramidal spire with a cross. Inside the church the nave is separated from the sanctuary by a triumphal arch. The pillars of the northern section of the nave hold the organ gallery, which was expanded into the nave in 1948. Original illusionistic Baroque paintings of the Assumption of the Blessed Virgin Mary and the Ascension of Jesus Christ, which had been painted over during the 20th century, adorn the vaults of the nave and the sanctuary. Beneath the sanctuary is a crypt containing the remains of some of the owners of the Ivanka manor.</p>\n<p>In front of the church are free-standing Baroque-Classical statues of St. Donatus the Martyr, and of St. Florian, the patron saint of firefighters. They presumably date back to the time of the current church’s construction. They originally stood elsewhere, but were relocated to the church. The Church of St. John the Baptist has been declared a National Heritage Site.</p>"
+        },
+        "de": {
+          "nazov": "Die Kirche des Heiligen Johannes des Täufers (Die Johanniskirche)",
+          "text": "<p>Die Johanniskirche ist die Dominante und zugleich eine der ältesten Bauten der Gemeinde. Ursprüngliche mittelalterliche Kirche entstand wahrscheinlich schon im 12-ten Jahrhundert. Auf seiner Stelle begann 1770 Anton I. Grassalkowitsch eine neue Kirche zu bauen, Sohn Anton II. beendete den Bau 1772.</p>\n<p>Für ihr gegenwärtiges Aussehen dankt die Kirche dem Michal Obrenowitsch. Nach einem großen Brand in der 2-ten Hälfte des 19-ten Jahrhunderts ließ er einen Turm aufbauen und die Kirche bekam ihre gegenwärtige barock-klassizistische Gestalt. Ein Zweietagenturm mit Turmuhr und hohem Pyramidendach abgeschlossen mit einem Kreuz dominiert die Fassade. Im Inneren der Kirche sind zwei Haupträume des Kirchenschiffes und des Sanktuarium durch einen Triumphbogen abgeteilt. Im Nordteil des Kirchenschiffes ist an den Säulen eine Orgelempore angebracht, die 1948 mehr in den Raum ausgeweitet wurde. An den Schiffs- und Sanktuariumsgewölben befinden sich ursprüngliche illusive Barockmalereien, die Marie Himmelfahrt und Christi Himmelfahrt wiedergeben. Im 20-sten Jahrhundert wurden die figuralen Kompositionen stark übermalt. Unter dem Sanktuarium befindet sich die Krypta, wo einige Besitzer des Herrengutes beigesetzt wurden.</p>\n<p>Vor dem Kirchengebäude sind zwei frei stehende barock-klassizistische Statuen zu sehen. Die eine stellt den Märtyrer – den heiligen Donat dar, die andere den Schutzheiligen der Feuerwehrleute – den heiligen Florian. Wahrscheinlich stammen beide aus der Zeit, wenn die heutige Kirche gebaut wurde. Ursprünglich standen sie woanders, erst später kamen sie auf diesen Platz. Die Kirche des Heiligen Johannes des Täufers wurde zum Nationalkulturdenkmal erklärt.</p>"
         }
       },
       "url": "/kostol-sv-jana-krstitela/",
@@ -3708,6 +3613,10 @@ const DB = {
         "en": {
           "nazov": "The Milan Rastislav Štefánik Monument",
           "text": "<p>Although the memorial site actually lies outside the official boundaries of Ivanka pri Dunaji, it has always been closely linked with the village, which has been responsible for its management and maintenance since it was built. The work of the renowned Slovak architect Dušan Jurkovič, the memorial stands in the area where the plane carrying Milan Rastislav Štefánik crashed in 1919, killing him and its Italian crew. It was officially opened in 1923, with construction continuing until 1935 when the site gained its present-day appearance.</p>\n<p>The memorial consists of an entrance path running through an alley of lime trees, a moat and earth banks which outline the boundaries of the interior rectangular area. This area is crossed by a path lined with travertine posts joined by metal chains, and at its centre stands an earth pyramid, clad in stone, and a large granite stele with an inscription. On the other side of the path is a semi-circular stone bench, lined by yew trees. Lime trees, some of them dating back to the time the memorial was built, adorn the earth banks and the surroundings of the memorial site.</p>\n<p>The M. R. Štefánik Monument is one of Slovakia’s most significant works of monumental memorial art in Slovakia. As a highly authentic example of landscape architecture with a historical value, it has been declared a National Heritage Site.</p>"
+        },
+        "de": {
+          "nazov": "Das Grabmal von Milan Rastislav Štefánik",
+          "text": "<p>Das Gelände der Gedenkstätte befindet sich außerhalb des Katasterbezirks der Gemeinde, trotzdem ist es mit Iwanka an der Donau unmittelbar verbunden. Seit Aufbau der Gedenkstätte bis zur Gegenwart steht das Gelände unter Verwaltung sowie Instandhaltung der Gemeinde. Die Gedenkstätte befindet sich genau auf der Stelle, wo 1919 das Flugzeug mit M. R. Štefánik und seiner italienischen Besatzung abgestürzt und ums Leben gekommen ist. Es ist ein Werk des bedeutenden slowakischen Architekten Dušan Jurkovič. Die Enthüllungsfeierlichkeit der Gedenkstätte fand 1923 statt, ihre gegenwärtige Gestalt gewann sie allmählich bis 1935.</p>\n<p>Das gesamte Gelände bildet eine Zutritt-Lindenallee, ein Graben und eine Aufschüttung, die das innere rechteckige Gelände abgrenzen. Diese Fläche zerteilt ein Weg, der von Travertinsäulchen, die miteinander mit Metallketten verbunden sind, gesäumt wird. In der Mitte befindet sich die Tonpyramide mit Steinbelag, darunter eine Granitstela mit Aufschrift. Als Pendant dazu, auf der anderen Seite des Weges, befindet sich eine zwei Mal gekröpfte Steinbank, umgeben von Eiben. Auf der Spitze der Aufschüttungen sowie in der Umgebung der Gedenkstätte befinden sich Linden, einige noch aus der Zeit ihrer Erbauung.</p>\n<p>Das Grabmal von M. R. Štefánik gehört zu den bedeutenden monumentalen Memorialbauten in der Slowakei, zugleich ist es ein einzigartiges Werk der Landschaftsarchitektur von hoher Authentizität und als bedeutendes historisches Denkmal wurde zum Nationalen Kulturdenkmal erklärt.</p>"
         }
       },
       "url": "/mohyla-m-r-stefanika/",
@@ -3744,6 +3653,10 @@ const DB = {
         "en": {
           "nazov": "The War Memorial",
           "text": "<p>The memorial, which was commissioned by the village in honour of its fellow citizens, was created by the sculptor Vojtech Ihriský. He started working on it during the middle of the 1930s, but the memorial only took its final, current shape after WWII. Standing in the central area of the Square of Fallen Heroes (Námestie padlých hrdinov), the memorial and its stone relief depict three life-size standing figures – a soldier in uniform wearing a helmet and holding a rifle, and a woman in village dress and a small boy saying goodbye to the soldier. On each side of the relief is a stone tablet bearing the names of residents of the village who gave their lives in WWI and WWII. The memorial is situated on an elliptical base enclosed by a two-step curb. In the centre of the base, below the relief, is a grave ledger with a raised Latin cross. As a monumental memorial work, it has been declared a National Heritage Site.</p>"
+        },
+        "de": {
+          "nazov": "Denkmal für die Gefallenen im I. und II.",
+          "text": "<p>Das Denkmal schuf auf Auftrag der Gemeinde als Dankbarkeits- und Ehrenbezeigung den gefallenen Mitbürgern der akademische Bildhauer Vojtech Ihriský. Er begann an dem Ehrenmal in der ersten Hälfte der dreißiger Jahre des 20-sten Jahrhunderts zu arbeiten. Endgültige Gestalt erhielt es erst nach dem zweiten Weltkrieg und wurde im Zentralraum am Platz der gefallenen Helden untergebracht. Das Mahnmal mit einem Steinrelief stellt drei stehende Figuren in Lebensgröße dar – einen Soldaten in Uniform mit Helm und Gewehr, eine Frau in Dorfbekleidung und einen kleinen Jungen. An den Seiten des Reliefs sind Tafeln mit den Namen der gefallenen Dorfbewohner angebracht. Den horizontalen Teil des Denkmals bildet ein zweistufiger Randstein in einer Ellipsenform. In der Mitte unter dem Relief befindet sich eine steinerne Grabtafel mit einem ganzflächig vorgesprungenen lateinischen Kreuz. Dieses Kunstwerk repräsentiert das architektonische Gebiet – monumentale Mahnmäler, Erinnerungswerke in der Slowakei und es wurde zum Nationalen Kulturdenkmal erklärt.</p>"
         }
       },
       "url": "/pomnik-padlym-v-i-a-ii-svetovej-vojne/",
@@ -3780,6 +3693,10 @@ const DB = {
         "en": {
           "nazov": "The Statue of St. John of Nepomuk",
           "text": "<p>This monumental sculpture consists of a pedestal, column, balustrade, and the statue itself. This Rococo work with elements of Louis XVI and Empire styles dates back to the last third of the 18th century. It stands on a pedestal shaped like clouds from which the heads of angels look out. At its sides are Putti figures – the one on the right side is an original, but the one on the left was added during reconstruction work. The dominant part of the sculpture is the statue of St. John of Nepomuk, a standard depiction of a priest in a rochet underneath a cope, holding a biretta in his right hand. He is looking at the cross in his left hand. The sculpture underwent restoration work in 2008 and was relocated from a garden on Záleská Street to the Square of St. Rosalia (Námestie sv. Rozálie). According to legend, born out of a document kept at the local rectory, the sculpture was put up by guests of Antal Grassalkovich II. When they were returning from a successful hunt, their boat overturned on the swollen Small Danube, and they began to drown. As death closed in upon them, they promised that if they survived, they would erect a statue to St. John of Nepomuk at the site where they were saved. The harmonious union of architectural and artistic features has earnt the sculpture recognition as a National Heritage Site.</p>"
+        },
+        "de": {
+          "nazov": "Die Statuengruppe des Heiligen Johannes Nepomuk",
+          "text": "<p>Monumental wirkendes bildhauerisches Werk besteht aus dem Podest, einer Säule, einer Balustrade und der Statuengruppe. Es entstand im letzten Drittel des spätbarocken 18-ten Jahrhunderts mit Luisezu- Elementen, also im Stil Ludwigs des XVI. und des Empires. Die Statuengruppe steht auf einem wolkenförmigen Podest mit Engelsköpfchen, seitens sind Figürchen der Putten – nackten Kinder, von denen der Rechte ursprünglich ist und das linke Pendant als Analogie im Rahmen der Restaurierung geschaffen wurde. Markante Dominante des Kunstwerks bildet die Statue des heiligen Johannes Nepomuk. Es ist eine klassische Darstellung des Priesters in einem zeremoniellen Gewand, darüber ein Pelzmantel, in der rechten Hand das Birett, liturgische Kopfbedeckung, in der linken Hand ein Kreuz, worauf sein Blick gerichtet ist. Die Statutengruppe wurde 2008 restauriert und aus dem Garten in der Záleská Straße auf den Platz der heiligen Rosalie verlegt. Zur Entstehung des Bildwerks bindet sich eine Legende, ihren Ursprung findet man in einem Dokument in der Ortspfarre. Danach ließen es die Gäste des Anton II. Grassalkowitsch als Ausdruck der Dankbarkeit für ihre Lebensrettung errichten. Als sie von einer erfolgreichen Jagd in einem Kahn über den angeschwollenen Flussarm der Kleinen Donau zurückkehrten, ist dieser umgekippt, sie waren nah am Ertrinken und in der Todesangst versprachen sie – falls sie davonkommen würden, lassen sie an der Rettungsstelle eine Statue für den heiligen Johannes Nepomuk aufstellen. Die geschaffene Statuengruppe weist harmonische Einheit der architektonischen und darstellenden Elemente auf und wurde zum Nationalen Kulturdenkmal erklärt.</p>"
         }
       },
       "url": "/susosie-sv-jana-nepomuckeho/",
@@ -3816,6 +3733,10 @@ const DB = {
         "en": {
           "nazov": "The Chapel of St. Rosalia",
           "text": "<p>The Chapel of St. Rosalia is a rotunda with a Neoclassical façade, a domed roof, and a small tower with a bell. Its interior consists of a Classical altar with candleholders and two triangular-shaped reliquaries, one of which contains a black (plague) hand. The chapel was built by Antal Grassalkovich III in 1832 with the help of the inhabitants of the villages Ivanka and Farná in gratitude to St. Rosalia – the patron saint of the plague-stricken – for ending an epidemic of hepatitis, which at the time had spread across the entire Bratislava region, claiming many lives. The epidemic faded away and the last infected person died on St. Rosalia’s Day, September 4th. The chapel stands at what is today the centre of the village, but it originally marked the western edge of the residential area of the village, right on the boundary with Farná. From the first half of the 19th century the built-up area around the centre expanded. Trees and greenery were planted in the vicinity of the chapel, eventually growing into a park. In 2009, the chapel, along with its valuable Rococo reliquaries, a Rococo silver eternal flame, and the St. Rosalia altarpiece containing a rarely found view of the village, was declared a National Heritage Site.</p>"
+        },
+        "de": {
+          "nazov": "Die Kapelle der Heiligen Rosalie",
+          "text": "<p>Die Kapelle der Heiligen Rosalie ist eine Rotunde mit neoklassizistischer Fassade, einem Kuppeldach mit kleinem Türmchen, in dem eine Glocke platziert ist. Zur Ausstattung der Kapelle gehört ein klassizistischer Altar mit einem Kerzenset und zwei Reliquiaren in dreieckiger Form, in einem befindet sich die schwarze Hand (Pesthand).</p>\n<p>Die Kapelle ließ 1832 mit Hilfe der Bewohner der Gemeinden Iwanka und Farná Anton III. Grassalkowitsch erbauen. Auf diese Weise haben sie ihren Dank der heiligen Rosalie – Schutzpatronin der Pestbefallenen, für das Ende der infektiösen Gelbsucht zum Ausdruck gebracht. Diese Pest verbreitete sich damals im ganzen Pressburger Gau und hat viele Menschenleben gekostet. Die Epidemie erlosch, der letzte Befallene starb eben am Feiertag der heiligen Rosalie – am 4. September.</p>\n<p>Die Kapelle befindet sich heute in der Mitte der Gemeinde. Ursprünglich bildete dieser Platz den westlichen Rand des Innenbereichs der Ortschaft, knapp am Katastergebiet der Gemeinde Farná. Seit der ersten Hälfte des 19-ten Jahrhunderts verbreitete sich im Zentrum nach und nach die Bebauung, rund um die Kapelle wurden Bäume angebaut, allmählich entstand hier eine Parkanlage. 2009 wurde die Kapelle der Heiligen Rosalie samt wertvollen Reliquiaren, dem silbernen ewigen Licht im Rokokostil und dem Altarbild einer Heiligen sowie einer einzigartigen Vedute dieser Ortschaft zum Nationalen Kulturdenkmal erklärt.</p>"
         }
       },
       "url": "/kaplnka-sv-rozalie/",
@@ -3852,6 +3773,10 @@ const DB = {
         "en": {
           "nazov": "Memorial to Those Who Built the Šúr Canal",
           "text": "<p>The Šúr Canal, which in the past had been known as the Main or Bypass Canal, Moravod, New Sajloch, or Jewish Canal, is an artificial drainage waterway in the southwest of Slovakia. Approximately 17 km long, it runs round the towns of Pezinok, Svätý Jur, Vajnory, Ivanka pri Dunaji, and Zálesie, where it flows into the Small Danube. Its course carries water from streams running down from the slopes of the Small Carpathian mountains into the Šúr national nature reserve. The Šúr is a unique natural phenomenon, created in the shallow depression along the eastern slopes of the Small Carpathians around 10,000 years ago. A large and very shallow lake developed, which gradually filled with water and gravel and sand sediments. Peat was formed from the plants which grew in its shallow waters. Over time these processes created Šúr – wetlands impossible to walk through, covered with trees and other greenery, and often waterlogged during the year. It stretched from Modra all the way to Ivanka pri Dunaji. The wetlands provided a natural stock of animals and birds for the local population, as well as a reservoir of drinking water, but at the same time it was a barrier to expanding land for agricultural use and so, in the Middle Ages, efforts were made to partially drain it. In 1896 a canal was dug through Šúr. This helped to significantly lower the water level. But after a while the canal became clogged, and the water rose again to its original level. At the time, naturalists drew attention to the exceptional importance of the area’s flora and fauna. But despite efforts to save it, in 1929 the government launched a project to completely destroy Šúr. However, the plan was soon put on hold because of the Great Depression, and it was not until the Slovak Republic came into being that a solution to the so-called ‘Mudland’ problem took shape, as also recorded in Slovak writer František Hečko’s book “Svätá tma” (Sacred darkness). From 1938 there was pressure to resolve the problem, largely from the government commissioner for the town of Svätý Jur, whose inhabitants owned more than 3,000 hectares of land in the Mudland which they wished to reclaim and use for agricultural purposes. Members of the Labour Corps of the National Defence, which was a controversial part of the Slovak military forces in 1939-1945 used as a tool to solve the Jewish and Roma ‘question’ in the army during WWII, were sent in to work on the land. The corps was made up largely of Slovak nationals assigned to it for health or disciplinary reasons, as well as Jews and Roma, who on the basis of their race were assigned to the VI Labour Battalion of the Labour Corps. It was the members of this specific battalion who built the extensive drainage canal from Pezinok to Zálesie, where it flows into the Small Danube river. Forced Jewish labour from concentration camps was also used, as later were Roma and political prisoners. Inhabitants from local villages also took part in the construction. The canal was completed in 1943, after which a further stage was planned – construction of the Háj recreational area in the Panónsky háj grove. However, with the end of the war, this did not take place. To this day, the Šúr canal is a significant drainage waterway, and its discharge is regulated so as to ensure protection of the internationally significant wetlands of the Šúr national nature reserve.</p>\n<p>In 2021, on the initiative of the Ivanka Historical Society, on its right bank a memorial was erected to the people who built the canal during the difficult times of WWII.</p>"
+        },
+        "de": {
+          "nazov": "Werbeträger über den Aufbau des Kanals von Schur",
+          "text": "<p>Der Kanal von Schur, in der Vergangenheit auch Umlaufkanal, Moravod, Neues Seilloch oder Jüdischer Kanal genannt, ist eine künstliche Entwässerungsanlage in dem südwestlichen Teil der Slowakei. Mit seiner 17 km Länge umläuft er die Kataster der Gemeinde Pezinok (Bösing), Sväty Jur (Sankt Georgen), Vajnory (Weinern), Iwanka an der Donau und Zálesie, wo er in die Kleine Donau mündet. Ihr Flussbett führt die von den Hängen der Kleinkarpaten fließenden Bachgewässer in das Naturschutzgebiet Schur ab. Dieses Gebiet ist durch seine seltsame Entstehungsweise vor zehntausend Jahren, im Jüngeren Quartär, in einer Vertiefung entlang der östlichen Hänge der Kleinen Karpaten eine einzigartige Naturerscheinung. Es entstand hier ein großer flacher See, der allmählich mit Wasser aufgefüllt und mit schotter-sandigen Sedimenten abgelagert wurde. In seinem seichten Wasser gedeihen verschiedene Pflanzen, aus denen sich Torf bildete. So entstand langsam Schur – ein undurchdringbares Moorgebiet, mit Bäumen und anderen Pflanzen bedeckt, im Laufe des Jahres oft wasserüberflutet, erstreckt sich von der Stadt Modra bis Iwanka. Der Morast bildete für die Bewohner der Gegend eine natürliche Vorratskammer an Wild und Vögel sowie ein Trinkwasserreservoir. Zugleich aber wurde das Moorgebiet zum Hindernis für die Erweiterung der landwirtschaftlichen Flächen. Schon im Mittelalter bemühte man sich um seine teilweise Austrocknung. 1896 wurde über Schur ein Kanal ausgehoben, wodurch der Spiegel seiner Wassersströme wesentlich sank. Mit der Zeit wurde der Kanal wieder mit Ablagerungen abgesetzt und der Wasserspiegel erreichte die ursprüngliche Höhe. Schon damals haben die Naturwissenschaftler auf den außergewöhnlichen Wert der Fauna und Flora dieses Gebietes hingewiesen. Trotz aller Bemühungen um seine Rettung entstand 1929 ein Regierungsprojekt für die vollständige Liquidierung des Schur-Gebiets von Svätý Jur (Sant Georgen), wurde jedoch wegen der Wirtschaftskrise gestoppt. Nach Entstehung der sog. Slowakischen Republik entstand ein Projekt, genannt Bahnot, das dieses Problem lösen sollte. (Geschehnisse um diese Situation schildert in seinem Roman „Die Heilige Finsternis“ der Schriftsteller František Hečko, wo die Gemeinde Bahnoty heißt, daher Name des Projektes). Seit 1938 wurde hauptsächlich seitens des Regierungskommisars der Stadt Svätý Jur in dieser Richtung starker Druck ausgeübt, weil die Einwohner auf diesem Gebiet über 3000 ha Grundstücke besaßen, die sie nach der Melioration landwirtschaftlich ausnützen wollten. Für geräumige Erdarbeiten wurden die Angehörigen der Arbeitskräfte der nationalen Verteidigung eingesetzt. Den Arbeitskorps bildeten überwiegend Personen slowakischer Nationalität, die hierher aus gesundheitlichen oder disziplinären Gründen eingesetzt wurden, sowie auf Grund ihrer Rasse eingesetzte Juden und Zigeuner (damaliger Begriff). Gerade sie haben den ausgedehnten Entwässerungskanal von Pezinok bis zur Mündung der Kleinen Donau bei Zálesie aufgebaut. Es wurde auch Zwangsarbeit der jüdischen Häftlinge aus den Konzentrationslagern, später auch der Roma (Sinti) und der politischen Gefangenen ausgenutzt. Ebenfalls die Bewohner der anliegenden Gemeinden nahmen an den Arbeiten teil. Der Aufbau des Schur-Kanals wurde 1943 beendet und danach sollte eine weitere Etappe – Bau einer Ferienkolonie Háj (Hain) auf dem Gelände von Panónsky háj (Der Hain von Pannonien) folgen. Diese wurde bis Ende des Krieges und auch danach nicht realisiert. Der Kanal von Schur dient bis zur heutigen Zeit als bedeutendes Wasser –Meliorationswerk, sein Durchfluss wird in der Zusammenarbeit mit der Naturschutzbehörde geregelt, damit der Schutz des international bedeutsamen Moors im Nationalen Naturschutzgebiet Schur gewährleistet wird.</p>\n<p>2021 wurde durch die Initiative der Historischen Gesellschaft von Iwanka auf dem rechten Donauufer ein Werbeträger aufgebaut – zur Erinnerung an dieses bedeutende Meliorationswerk und an die Menschen die es in den schweren Jahren des zweiten Weltkrieges aufgebaut haben.</p>"
         }
       },
       "url": "/sursky-kanal/",
@@ -6819,12 +6744,6 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kraj-rusinov-a-andyho-warhola-vystahovalectvo/",
         "pl": "https://www.qrlink.sk/new/pl/kraj-rusinov-a-andyho-warhola-vystahovalectvo/",
         "hu": "https://www.qrlink.sk/new/hu/kraj-rusinov-a-andyho-warhola-vystahovalectvo/"
-      },
-      "i18n": {
-        "hu": {
-          "nazov": "Vysťahovalectvo",
-          "text": "<p>Na prelome 19. a 20. storočia sa z dedín dnešného okresu Medzilaborce čoraz častejšie odchádzalo za oceán. Amerika nebola symbolom dobrodružstva, ale nádejou na lepší život. Mladí muži aj celé rodiny opúšťali Mikovú, Haburu, Medzilaborce a ďalšie rusínske obce v presvedčení, že si zarobia a vrátia sa domov. Mnohí však zostali v Spojených štátoch natrvalo. </p>\n<p>A práve medzi nimi boli aj rodičia jedného z najvýznamnejších umelcov 20. storočia – Andyho Warhola.</p>\n<h2>Prečo sa rozhodli odísť</h2>\n<p>Koncom 19. storočia žila väčšina obyvateľov severovýchodného Slovenska z drobného hospodárstva. Pôdy bolo málo, pracovných príležitostí ešte menej a mnohé rodiny žili na hranici chudoby. </p>\n<p>V rovnakom období prudko rástol americký priemysel, ktorý potreboval tisíce robotníkov. Hoci práca v baniach a oceliarňach bola náročná, ponúkala zárobok, aký si doma mnohí nevedeli predstaviť. Amerika sa tak pre mnohé rodiny stala jedinou reálnou šancou na lepší život. </p>\n<p>Vysťahovalectvo zasiahlo prakticky celé územie dnešného okresu Medzilaboriec. Silne ovplyvnilo najmä rusínske obce ako sú Miková, Habura, Čertižné, Ňagov či Radvaň nad Laborcom. </p>\n<p>V niektorých dedinách odišiel do Ameriky minimálne jeden člen takmer z každej rodiny. Historické pramene uvádzajú, že z Mikovej odišla do začiatku prvej svetovej vojny približne tretina obyvateľov. V rokoch 1890 – 1914 sa za oceán vysťahovalo približne 225 000 karpatských Rusínov.</p>\n<h2>Cesta za oceán</h2>\n<p>Cesta do Ameriky nebola jednoduchá. Väčšina vysťahovalcov z regiónu cestovala vlakom do veľkých európskych prístavov, najmä do Hamburgu a Brém, odkiaľ pokračovala parníkmi cez Atlantik do Spojených štátov. Po príchode do New Yorku absolvovali zdravotné prehliadky a administratívne kontroly na ostrove Ellis Island. </p>\n<p>Mnohí následne smerovali do priemyselných miest, ako Pittsburgh či Cleveland, kde už existovali početné komunity prisťahovalcov z Karpát. </p>\n<p><img src=\"/assets/images/migrated/europsky-emigranti-habura.jpg\" alt=\"\"></p>\n<p><em>Európski emigranti po príchode do Spojených štátov začiatkom 20. storočia, zdroj:</em> <em><a href=\"https://time.com/\">https://time.com/</a>.</em></p>\n<h2>Príbeh rodiny Warholovcov</h2>\n<p>Jedným z tisícov vysťahovalcov bol aj Andrej Varchola z Mikovej. Do Spojených štátov odišiel za prácou začiatkom 20. storočia. O niekoľko rokov ho nasledovala jeho manželka Júlia Zavacká, ktorá pochádzala z tej istej obce. </p>\n<p>Usadili sa v Pittsburghu, kde sa im narodili traja synovia. Najmladší z nich, Andrew Warhola, sa narodil v roku 1928 a svet ho neskôr spoznal pod menom Andy Warhol. </p>\n<p><img src=\"/assets/images/migrated/habura-foto-vystahovalectvo.jpg\" alt=\"\"></p>\n<p><em>Vízum Júlie Warholovej do Spojených štátov amerických, zdroj: Petra Tóth Atelier.</em></p>\n<p><em>Júlia Warholová (rod. Zavacká) so synmi Johnom a Andrewom (neskôr Andym Warholom, vpravo), zdroj: <a href=\"https://www.rusyn.sk/\">https://www.rusyn.sk/</a>.</em> </p>\n<p>Hoci sa Andy narodil v Amerike, vyrastal v rusínskej rodine. Doma sa hovorilo rusínsky, zachovávali sa gréckokatolícke tradície a významný vplyv na jeho vzťah k umeniu mala práve matka Júlia. </p>\n<p>Tému vysťahovalectva z tohto regiónu dnes približuje aj Náučný chodník Kraj Rusínov a Andyho Warhola, ktorý vedie z Habury smerom k hranici katastrálnych území Habury a Mikovej.</p>"
-        }
       },
       "url": "/kraj-rusinov-a-andyho-warhola-vystahovalectvo/",
       "urlAliasy": []
@@ -11835,7 +11754,6 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "ROTUNDA",
           "text": "<p>Rotunda was a masoned sacral building with a circular ground plan and an apse. Only its foundations are visible in the Museum grounds today. They were discovered by the founder and first director of the Zemplín Museum in Michalovce Jaroslav Vizdal in the second half of the 20th century. This monument now rep­resents the easternmost building of this type in Slovakia. </p>\n<p>The period of construction of this rotunda in Michalovce is unknown. The absence of writ­ten sources on its origin, and the research con­ducted so far, have not brought any progress in clarifying its dating. These circumstances do not allow us to date its construction before the 13th century. </p>\n<p>Originally, the rotunda probably served as a common parish church for the people from the surrounding villages. Thanks to archae­ological excavations, more than 120 graves have been examined in its surroundings so far. They contained mainly personal belongings of the deceased. Today, the finds from the area around rotunda are displayed in the archae­ological exhibition of the Zemplín Museum, where visitors can view them. They include a stone slab with an engraved inscription which was discovered in the interior of the rotunda. Nevertheless, the engraved text has not been reliably deciphered yet. Whether it served as a pedestal for an altar table or as a tombstone— and how it relates to the rotun­da—remains unanswered.</p>\n<div class=\"video-embed\"><iframe src=\"https://www.youtube.com/embed/Kfgm4FbkimA\" title=\"Video\" loading=\"lazy\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></div><p>The Rotunda Foundation Restoration Project was implemented with the financial support </p>\n<p>of the Košice Self-Governing Region under the grant programme “Traditions Inspire Innovation.””</p>\n<p><img src=\"/assets/images/migrated/2026-08-03_13h20_33.jpg\" alt=\"\"></p>"
         }
       },
