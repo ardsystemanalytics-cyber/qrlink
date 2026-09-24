@@ -27,6 +27,9 @@
   "i18n": {
     "en": {
       "popis": "A village with a manor house that was once its magnificent landmark."
+    },
+    "cs": {
+      "popis": "Obec s kaštelem, který byl kdysi její honosnou dominantou."
     }
   }
 }

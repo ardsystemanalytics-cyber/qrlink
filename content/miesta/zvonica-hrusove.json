@@ -30,6 +30,10 @@
     "en": {
       "nazov": "Hrušové Bell Tower",
       "popis": "A historic bell tower."
+    },
+    "cs": {
+      "nazov": "Zvonice Hrušové",
+      "popis": "Historická zvonice."
     }
   }
 }

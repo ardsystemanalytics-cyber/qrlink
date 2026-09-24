@@ -30,6 +30,10 @@
     "en": {
       "nazov": "Živčáková Nature Trail",
       "popis": "A trail to the pilgrimage site of Živčáková."
+    },
+    "cs": {
+      "nazov": "Naučná stezka Živčáková",
+      "popis": "Stezka k poutnímu místu Živčáková."
     }
   }
 }

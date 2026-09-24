@@ -40,6 +40,10 @@
     "hu": {
       "nazov": "A betliari (betléri) kastély gazdasági épülete",
       "text": "Az épület egy 19. századi egykori gazdaság épületegyütteséhez tartozik, amely két lóistállóból, egy szomszédos udvarból, egy pajtaépületből, a kocsis házából és egy különálló kocsiszínből állt. Az épületek oromzatát lófejek dombornyomata díszíti. A két szomszédos épület a múltban ugyanezt a célt szolgálta, amelyek jelenleg étteremként és panzióként működnek."
+    },
+    "cs": {
+      "nazov": "Hospodářská budova kaštelu Betliar",
+      "text": "Budova patří do komplexu budov bývalého statku z 19. století, který tvořily dvě stáje pro koně, přilehlé humno, stodola, dům kočího a samostatně stojící budova kočárovny. Štíty budov jsou zdobeny reliéfy koňských hlav. Ke stejným účelům sloužily v minulosti i dva přilehlé objekty, které jsou v současnosti využívány jako restaurace a penzion."
     }
   }
 }

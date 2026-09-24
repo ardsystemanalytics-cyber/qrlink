@@ -27,6 +27,9 @@
   "i18n": {
     "en": {
       "popis": "A town in eastern Slovakia."
+    },
+    "cs": {
+      "popis": "Město na východním Slovensku."
     }
   }
 }

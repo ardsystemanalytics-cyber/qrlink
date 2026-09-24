@@ -21,6 +21,10 @@
     "en": {
       "nazov": "The monuments in Turzovka",
       "popis": "Memorials and memorial sites in Turzovka."
+    },
+    "cs": {
+      "nazov": "Památníky v Turzovce",
+      "popis": "Památníky a pamětní místa v Turzovce."
     }
   },
   "foto": "assets/images/places/turzovka-pamatniky.jpg"

@@ -40,6 +40,10 @@
     "hu": {
       "nazov": "Általános iskola épülete",
       "text": "Az általános iskola épülete 1911-ben épült a vasútállomás felé vezető utcán mint népiskola. Az épületben egy tanári lakás és három nagy tanterem volt. Az iskola területén gazdasági és szociális létesítmények, valamint egy nagy kert is volt. 2001-ben a település a létesítmény 90. évfordulóját ünnepelte és a mai napig működik."
+    },
+    "cs": {
+      "nazov": "Budova základní školy",
+      "text": "Budova základní školy byla postavena na ulici vedoucí k železniční stanici v roce 1911 jako obecná škola. Byl v ní byt pro učitele a tři velké učebny. V areálu školy byla hospodářská a sociální zařízení a velká zahrada. V roce 2001 obec oslavila 90. výročí jejího vzniku a škola funguje dodnes."
     }
   }
 }

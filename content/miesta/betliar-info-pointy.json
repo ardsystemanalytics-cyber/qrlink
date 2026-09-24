@@ -24,6 +24,10 @@
     },
     "hu": {
       "nazov": "A község nevezetességei Betliar"
+    },
+    "cs": {
+      "nazov": "Pamětihodnosti obce Betliar",
+      "popis": "Prohlídková trasa po pamětihodnostech přímo v obci Betliar."
     }
   },
   "foto": "assets/images/places/betliar-info-pointy.jpg"

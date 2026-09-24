@@ -40,6 +40,10 @@
     "hu": {
       "nazov": "Közönséges lucfenyő",
       "text": "Különösen azért figyelemre méltó, mert körülbelül 4 méteres magasságig a ágak kúposan megvastagodtak. A négy méteres magasságban a törzsön a szemölcsszerű megvastagodások fokozatosan csökkennek, majd teljesen eltűnnek. (A parkban további két, azonos fajtájú lucfenyő nő, amelyeknél az ágak tövénél is fellelhetőek a szemölcsszerű megvastagodások, de kevésbé, mint a leírt fenyőnél)."
+    },
+    "cs": {
+      "nazov": "Smrk ztepilý (bradavičnatý)",
+      "text": "Je pozoruhodný zejména proto, že do výšky asi 4 m jsou větve kuželovitě ztluštělé. Ve čtyřmetrové výšce kmene se bradavičnatá ztluštění postupně zmenšují, až úplně mizí.\n\n(V parku rostou další dva exempláře smrku, které mají bradavičnatě ztluštělé báze větví, ale méně než popsaný smrk.)"
     }
   }
 }

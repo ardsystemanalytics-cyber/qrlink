@@ -40,6 +40,10 @@
     "hu": {
       "nazov": "Kastély",
       "text": "A kastély az Andrássy nemesi család székhelye. Jelenlegi formájára 1881 és 1886 között épült át, és már akkor is egy épületkomplexum része volt:"
+    },
+    "cs": {
+      "nazov": "Kaštel",
+      "text": "Kaštel, sídlo šlechtického rodu Andrássyů. *Do současné podoby byl přestavěn v letech 1881 – 1886* a již v té době byl součástí komplexu budov:"
     }
   }
 }

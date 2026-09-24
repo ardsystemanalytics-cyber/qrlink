@@ -28,6 +28,9 @@
   "i18n": {
     "en": {
       "popis": "A village known for the manor house of the Andrássy family."
+    },
+    "cs": {
+      "popis": "Obec známá kaštelem rodu Andrássyů."
     }
   }
 }

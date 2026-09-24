@@ -33,6 +33,10 @@
     "en": {
       "nazov": "Bio",
       "text": "## Biowaste\n\nThe biowaste container is brown and is labelled as biodegradable waste.\n\n**The brown container is for** biodegradable waste such as fruit and vegetable scraps, peels, coffee grounds and tea leaves, grass, small tree branches, flowers and leaves.\n\n**It is not for** hair, ash, leftover food and meat, bones, plastic bags, stones, eggshells and other non-degradable waste.\n\n*Source: [Wikipedia](https://sk.wikipedia.org/)*"
+    },
+    "cs": {
+      "nazov": "Bio",
+      "text": "## Bioodpad\n\nNádoba na bioodpad má hnědou barvu a je označena jako biologicky rozložitelný odpad.\n\n**Do hnědého kontejneru patří** biologicky rozložitelný odpad, jako jsou zbytky ovoce a zeleniny, slupky, zbytky kávy a čaje, tráva, malé větve ze stromů, květiny a listí.\n\n**Nepatří sem** vlasy, popel, zbytky jídla a masa, kosti, plastové sáčky, kameny, skořápky od vajec a ostatní nerozložitelný odpad.\n\n*Zdroj: [Wikipedia](https://sk.wikipedia.org/)*"
     }
   }
 }

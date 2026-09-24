@@ -30,6 +30,9 @@
   "i18n": {
     "en": {
       "popis": "A town in the Upper Kysuce region."
+    },
+    "cs": {
+      "popis": "Město na horních Kysucích."
     }
   }
 }

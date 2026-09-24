@@ -27,6 +27,9 @@
   "i18n": {
     "en": {
       "popis": "A village near Piešťany."
+    },
+    "cs": {
+      "popis": "Obec u Piešťan."
     }
   }
 }

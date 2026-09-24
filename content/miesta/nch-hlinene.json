@@ -30,6 +30,10 @@
     "en": {
       "nazov": "Hlinené Nature Trail",
       "popis": "A nature trail near Turzovka."
+    },
+    "cs": {
+      "nazov": "Naučná stezka Hlinené",
+      "popis": "Naučná stezka v okolí Turzovky."
     }
   }
 }

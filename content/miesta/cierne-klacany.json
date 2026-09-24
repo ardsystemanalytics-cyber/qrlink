@@ -29,6 +29,10 @@
     "en": {
       "nazov": "The Čierne Kľačany’s Pyxida",
       "popis": "A rare ivory casket from the Great Moravian period."
+    },
+    "cs": {
+      "nazov": "Pyxida z Čiernych Kľačan",
+      "popis": "Vzácná slonovinová schránka z velkomoravského období."
     }
   },
   "foto": "assets/images/places/cierne-klacany.jpg"

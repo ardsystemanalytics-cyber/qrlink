@@ -21,6 +21,9 @@
   "i18n": {
     "en": {
       "nazov": "Insect Hotel"
+    },
+    "cs": {
+      "nazov": "Hmyzí domeček"
     }
   }
 }

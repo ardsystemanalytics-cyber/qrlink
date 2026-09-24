@@ -33,6 +33,10 @@
     "en": {
       "nazov": "Geyser in Rajecká Lesná",
       "text": "It is an attraction for many tourists. It is about 10 m high and is most interesting in winter, when it forms a huge cone of ice."
+    },
+    "cs": {
+      "nazov": "Gejzír v Rajecké Lesné",
+      "text": "Je lákadlem pro mnoho turistů. Je vysoký přibližně 10 m a nejzajímavější je v zimním období, kdy vytváří obrovský ledový kužel."
     }
   }
 }

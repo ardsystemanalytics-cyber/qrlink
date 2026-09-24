@@ -31,6 +31,9 @@
   "i18n": {
     "en": {
       "popis": "A Polish village in the Beskids."
+    },
+    "cs": {
+      "popis": "Polská obec v Beskydech."
     }
   }
 }

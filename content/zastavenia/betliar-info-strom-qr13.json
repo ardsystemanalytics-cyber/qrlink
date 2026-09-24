@@ -40,6 +40,10 @@
     "hu": {
       "nazov": "Nagy halastó",
       "text": "A 19. század 80-as éveiben épült, területe 4750 m2. A tó partján kikötő található, a partról egy fahíd vezet a kis pavilonhoz."
+    },
+    "cs": {
+      "nazov": "Velký rybník",
+      "text": "Byl vybudován v 80. letech 19. století a má rozlohu 4 750 m2. Na rybníku je vybudováno přístaviště, z břehu vede dřevěný můstek do malé besídky."
     }
   }
 }

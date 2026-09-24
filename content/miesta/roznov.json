@@ -28,6 +28,9 @@
   "i18n": {
     "en": {
       "popis": "A Wallachian town known for its open-air museum."
+    },
+    "cs": {
+      "popis": "Valašské město známé skanzenem."
     }
   }
 }

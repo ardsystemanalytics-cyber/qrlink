@@ -24,6 +24,10 @@
     },
     "hu": {
       "nazov": "Építészet"
+    },
+    "cs": {
+      "nazov": "Architektura",
+      "popis": "Architektonické prvky anglického parku u kaštelu Andrássyů."
     }
   },
   "foto": "assets/images/places/betliar-info-strom-architektura.jpg"

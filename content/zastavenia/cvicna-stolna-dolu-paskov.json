@@ -25,6 +25,10 @@
     "en": {
       "nazov": "Paskov Mine Training Gallery",
       "text": "It is an artificially built demonstration gallery with working mining equipment. Along 200 m of mine corridors there are typical mine workplaces arranged in technological sequence, just as in a real mine."
+    },
+    "cs": {
+      "nazov": "Cvičná štola Dolu Paskov",
+      "text": "Je to uměle vybudovaná ukázková štola s funkčním důlním zařízením. Na 200 m důlních chodeb se nacházejí běžná důlní pracoviště v technologické návaznosti jako ve skutečném dole."
     }
   }
 }

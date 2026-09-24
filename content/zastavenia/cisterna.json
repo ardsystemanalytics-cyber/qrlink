@@ -33,6 +33,10 @@
     "en": {
       "nazov": "Cistern",
       "text": "The cistern was used to collect rainwater from the castle roofs. The water reached it through rain gutters. The cistern is 3.5 m deep and 2.6 m in diameter. The bottom five courses of the lining are original, the other 3 courses have been reconstructed. When in use, the bottom and walls of the cistern were coated with clay to prevent water from seeping into the limestone bedrock. The water from the cistern was not drinkable – it was only for utility use."
+    },
+    "cs": {
+      "nazov": "Cisterna",
+      "text": "Cisterna sloužila k zachytávání dešťové vody ze střech hradu. Voda se do ní dostávala dešťovými okapy. Cisterna je hluboká 3,5 m a má průměr 2,6 m. Pět spodních řad obložení je původních, ostatní 3 řady jsou dorekonstruované. Dno a stěny cisterny byly v době používání vymazány jílem, čímž se zabránilo prosakování vody do vápencového podloží. Voda z cisterny nebyla pitná, pouze užitková."
     }
   }
 }

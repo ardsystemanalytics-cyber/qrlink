@@ -28,6 +28,10 @@
     "en": {
       "nazov": "Zemplín Museum",
       "popis": "A museum in Michalovce with archaeological finds from the region."
+    },
+    "cs": {
+      "nazov": "Zemplínské muzeum",
+      "popis": "Muzeum v Michalovcích s archeologickými nálezy z regionu."
     }
   }
 }

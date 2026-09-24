@@ -31,6 +31,9 @@
   "i18n": {
     "en": {
       "popis": "A town in the Czech-Slovak borderland."
+    },
+    "cs": {
+      "popis": "Město v česko-slovenském pohraničí."
     }
   }
 }

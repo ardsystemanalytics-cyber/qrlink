@@ -28,6 +28,10 @@
     "en": {
       "nazov": "The Land of the Rusyns and Andy Warhol",
       "popis": "The Medzilaborce region, connected with Rusyn culture and the family of Andy Warhol."
+    },
+    "cs": {
+      "nazov": "Kraj Rusínů a Andyho Warhola",
+      "popis": "Region Medzilaborců spjatý s rusínskou kulturou a rodinou Andyho Warhola."
     }
   }
 }

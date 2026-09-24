@@ -21,6 +21,9 @@
   "i18n": {
     "en": {
       "nazov": "Birdhouse"
+    },
+    "cs": {
+      "nazov": "Ptačí budka"
     }
   }
 }

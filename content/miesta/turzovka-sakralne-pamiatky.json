@@ -22,6 +22,10 @@
     "en": {
       "nazov": "The sacral monuments in the town",
       "popis": "Churches and chapels in and around Turzovka."
+    },
+    "cs": {
+      "nazov": "Sakrální památky",
+      "popis": "Kostely a kaple v Turzovce a okolí."
     }
   },
   "foto": "assets/images/places/turzovka-sakralne-pamiatky.jpg"

@@ -40,6 +40,10 @@
     "hu": {
       "nazov": "Kínai pavilon",
       "text": "Alaprajza nyolcszög alakú, kupolás tetővel, fémlemezből készült, sporteszközök tárolására és pihenésre szolgált. Az 19. század 80-as évek első felében épült."
+    },
+    "cs": {
+      "nazov": "Čínský pavilon",
+      "text": "Má *půdorys osmiúhelníku* s kupolovitou střechou, je zhotoven z plechu a sloužil k odkládání sportovních potřeb a *k odpočinku*. Byl postaven v první polovině 80. let 19. století."
     }
   }
 }

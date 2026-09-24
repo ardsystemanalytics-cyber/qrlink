@@ -40,6 +40,10 @@
     "hu": {
       "nazov": "Amerikai tulipánfa",
       "text": "Ezek viszonylag fiatal fák, amelyek nagyon értékes faanyaggal rendelkezik, amelyből például hangszereket is gyártanak. Virágai kis tulipánokra emlékeztetnek, ezért kapta ezt a nevet."
+    },
+    "cs": {
+      "nazov": "Liliovník tulipánokvětý",
+      "text": "Poměrně mladé stromy; liliovník má velmi vzácné dřevo, z něhož se vyrábějí například i hudební nástroje. Květy připomínají malé tulipány, odtud ten název."
     }
   }
 }

@@ -33,6 +33,10 @@
     "en": {
       "nazov": "Rafting on the Váh",
       "text": "A raft trip through the Strečno gorge offers a unique and safe way to discover history and natural, cultural and technical attractions on a traditional means of transport – beneath the ancient castles of Strečno and Starhrad, past the best-known obstacles for raftsmen, the Margita and Besná rocks, in the pass where the Váh cuts through the Malá Fatra mountains."
+    },
+    "cs": {
+      "nazov": "Vory na Váhu",
+      "text": "Plavba na voru strečnianskou soutěskou nabízí jedinečnou a bezpečnou možnost poznat historii a přírodní, kulturní a technické zajímavosti na tradičním dopravním prostředku pod starobylými hrady Strečno a Starhrad, kolem nejznámějších vorařských překážek – skal Margita a Besná v průsmyku Váhu pohořím Malé Fatry."
     }
   }
 }

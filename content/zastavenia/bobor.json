@@ -33,6 +33,10 @@
     "en": {
       "nazov": "Beaver",
       "text": "**Beaver**\n\nThe beaver builds a dam across the river, \n\nhis walls of trees make the water shiver. \n\nHis little teeth are strong and sharp, \n\nhe gnaws through trees and strips their bark.\n\nHis tail is flat just like a paddle, \n\nhe slaps it down with a splash and a rattle. \n\nIn water he's a swimming master, \n\nbuilding his homes by the river faster."
+    },
+    "cs": {
+      "nazov": "Bobr",
+      "text": "**Bobr**\n\nBobr staví v řece hráz, \n\nze stromů má hradby zas. \n\nZoubky silné, ostré má, \n\nstromy rychle ohryzá.\n\nOcas plochý jako pádlo, \n\nplácne jím, když skočí na dno. \n\nVe vodě je mistr plavby, \n\nv řece tvoří svoje stavby."
     }
   }
 }

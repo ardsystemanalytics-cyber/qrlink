@@ -21,6 +21,9 @@
   "i18n": {
     "en": {
       "nazov": "Dendrologist 2"
+    },
+    "cs": {
+      "nazov": "Dendrolog 2"
     }
   }
 }

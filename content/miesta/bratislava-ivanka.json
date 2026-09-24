@@ -27,6 +27,9 @@
   "i18n": {
     "en": {
       "popis": "A village near Bratislava with a rich history."
+    },
+    "cs": {
+      "popis": "Obec u Bratislavy s bohatou historií."
     }
   }
 }

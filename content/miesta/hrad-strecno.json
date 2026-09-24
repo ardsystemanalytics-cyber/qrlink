@@ -30,6 +30,10 @@
     "en": {
       "nazov": "Strečno Castle",
       "popis": "A medieval castle above the Váh river – 14 stops with an audio guide."
+    },
+    "cs": {
+      "nazov": "Hrad Strečno",
+      "popis": "Středověký hrad nad Váhem – 14 zastavení s audioprůvodcem."
     }
   }
 }
