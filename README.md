@@ -149,10 +149,19 @@ repozitári. Každá zmena je Git commit, teda kedykoľvek vrátiteľná
 
 ## QR kódy a presmerovanie zo starých adries
 
-Nové adresy majú tvar `zastavenie.html?id=cesticka-na-hrad`. Aby staré QR
-nosiče fungovali, treba na doméne qrlink.sk nastaviť presmerovania
-(redirect) zo starých URL na nové – rieši sa pri prepnutí domény,
-na Verceli cez súbor `vercel.json` (pripravím na požiadanie).
+Nový web má adresy zhodné so starým WordPress webom, len bez `/new`
+(napr. `/category/betliar/`). Všetko rieši `middleware.js`:
+
+- pekná adresa → interne stránka `kategoria.html` / `zastavenie.html`,
+- `/new/...` → 301 na tú istú adresu bez `/new` (staré QR kódy); ak by
+  taká adresa neexistovala, 301 rovno na hlavnú stránku,
+- akákoľvek iná neexistujúca adresa → 301 na hlavnú stránku (pri prefixe
+  `/en/`, `/cs/`, `/hu/`, `/de/` na hlavnú stránku v danom jazyku),
+- `/admin`, `/api`, `/assets`, `/css`, `/js`, `/img` middleware vôbec
+  nerieši.
+
+Mapa adries aj zoznam existujúcich súborov sa generujú pri každom builde
+(`scripts/build-data.js` → `lib/pretty-url-map.mjs`).
 
 ## Počítadlo návštev
 

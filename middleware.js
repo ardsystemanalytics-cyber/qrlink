@@ -1,42 +1,56 @@
 /* =====================================================================
-   Vercel Routing Middleware – pekné URL zhodné so starým webom.
+   Vercel Routing Middleware – pekné URL zhodné so starým webom,
+   presmerovanie "/new/..." a presmerovanie neexistujúcich adries.
 
-   Prichádzajúca cesta typu "/category/betliar/" alebo
-   "/en/castles/hlavne-nadvorie/" sa (po prípadnom odstránení jazykového
-   prefixu) vyhľadá v lib/pretty-url-map.mjs a interne PREPÍŠE (rewrite –
-   v adresnom riadku zostáva pôvodná pekná URL) na skutočnú stránku, napr.
-   "/zastavenie.html?id=hlavne-nadvorie&lang=en".
+   1) Pekná URL typu "/category/betliar/" alebo "/en/castles/hlavne-nadvorie/"
+      sa (po prípadnom odstránení jazykového prefixu) vyhľadá v
+      lib/pretty-url-map.mjs a interne PREPÍŠE (rewrite – v adresnom riadku
+      zostáva pôvodná pekná URL) na skutočnú stránku, napr.
+      "/zastavenie.html?id=hlavne-nadvorie&lang=en".
 
-   Mapa sa generuje automaticky v scripts/build-data.js z poľa
-   "povodnaUrl" (uložené pri migrácii zo starého WordPress webu), takže sa
-   nikdy nerozíde s obsahom – žiadna ručná údržba.
+   2) "/new/..." (starý WordPress web) -> 301 na tú istú adresu bez "/new".
+      Ak by taká adresa na novom webe neexistovala, ide 301 ROVNO na hlavnú
+      stránku (jedno presmerovanie, žiadna reťaz /new/x -> /x -> /).
 
-   Presmerovanie "/new/..." -> "/..." (301) rieši samostatne vercel.json
-   (obyčajný "redirects" záznam) – sem sa tie požiadavky vôbec nedostanú,
-   Vercel ich presmeruje ešte predtým, než by mal shanci bežať middleware.
+   3) Čokoľvek ostatné, čo na novom webe neexistuje (napr. adresy ešte
+      staršej verzie webu bez "/new") -> 301 na hlavnú stránku (pri
+      jazykovom prefixe en/cs/hu/de na hlavnú stránku v tom jazyku).
+
+   Mapa pekných URL aj zoznam existujúcich súborov sa generujú automaticky
+   v scripts/build-data.js (z poľa "povodnaUrl" a zo súborov projektu),
+   takže sa nikdy nerozídu s obsahom – žiadna ručná údržba.
+
+   /admin, /api, /assets, /css, /js, /img sem vôbec nechodia (matcher) –
+   tie obsluhuje Vercel priamo, bez akejkoľvek zmeny.
 
    Musí sa volať presne "middleware.js" (Vercel takto automaticky nájde
-   Routing Middleware, pozri "proxy" vo vercel.json) a písaná je ako ES
-   modul (import/export) - Vercel ju stavia vlastným kompilátorom bez
-   ohľadu na "type" v package.json, presne tak ako to robia všetky
-   oficiálne príklady, takže na zvyšné (bežné CommonJS) skripty/funkcie
-   v tomto projekte to nemá žiadny vplyv.
+   Routing Middleware) a písaná je ako ES modul (import/export) - Vercel
+   ju stavia vlastným kompilátorom bez ohľadu na "type" v package.json,
+   takže na zvyšné (bežné CommonJS) skripty/funkcie to nemá vplyv.
    ===================================================================== */
 import { rewrite, next } from "@vercel/functions";
-import urlMap, { guess } from "./lib/pretty-url-map.mjs";
+import urlMap, { guess, staticFiles } from "./lib/pretty-url-map.mjs";
 
 const OLD_LANGS = ["sk", "en", "cs", "hu", "de", "ru", "pl"];
+// Jazyky, ktoré nový web naozaj má (js/i18n.js) - len tie majú vlastnú
+// jazykovú hlavnú stránku "/en/" atď.; ru/pl skončia na "/".
+const SITE_LANGS = ["en", "cs", "hu", "de"];
+// Priečinky, ktoré obsluhuje priamo Vercel (a matcher ich vynecháva).
+const PASSTHROUGH_DIRS = ["admin", "api", "assets", "css", "js", "img", "_vercel", ".well-known"];
+const STATIC = new Set(staticFiles);
 
 export const config = {
-  // Vynechá /admin, /api, /assets, /css, /js, /img (celý segment - slug ako
-  // "apiary" sa teda nevynechá) a čokoľvek s príponou (napr. /favicon.ico,
-  // /sitemap.xml, priamo požadované *.html súbory).
-  matcher: ["/((?!(?:admin|api|assets|css|js|img)(?:/|$)|.*\\.).*)"],
+  // Vynechá /admin, /api, /assets, /css, /js, /img (+ interné /_vercel a
+  // /.well-known) - celý segment, slug ako "apiary" sa teda nevynechá.
+  matcher: ["/((?!(?:admin|api|assets|css|js|img|_vercel|\\.well-known)(?:/|$)).*)"],
 };
 
-export default function middleware(request) {
-  const url = new URL(request.url);
-  const segments = url.pathname.split("/").filter(Boolean);
+// Čo je na danej ceste: { rewrite: "/zastavenie.html?id=..&lang=.." },
+// { file: true } (existujúci súbor/priečinok), alebo null (neexistuje).
+function resolve(pathname) {
+  let decoded;
+  try { decoded = decodeURIComponent(pathname); } catch { return null; }
+  const segments = decoded.split("/").filter(Boolean);
 
   let lang = "sk";
   let rest = segments;
@@ -49,14 +63,40 @@ export default function middleware(request) {
   // Presná zhoda, inak (len pri viacdielnej ceste) poistka podľa posledného
   // segmentu = názvu zastavenia, rovnako ako to robil starý WordPress.
   const destination = urlMap[key] ?? (rest.length > 1 ? guess[rest[rest.length - 1]] : undefined);
-  if (!destination) return next();
-
-  const target = new URL(destination, url);
-  if (lang !== "sk") {
-    // Náš i18n.js nepodporovaný jazyk (de/ru/pl) sám potichu ignoruje a
-    // spadne na slovenčinu – žiadne extra ošetrenie tu netreba.
-    target.searchParams.set("lang", lang);
+  if (destination) {
+    const target = new URL(destination, "https://x");
+    if (lang !== "sk") target.searchParams.set("lang", lang);
+    return { rewrite: target.pathname + target.search };
   }
 
+  if (segments.length && PASSTHROUGH_DIRS.includes(segments[0])) return { file: true };
+  let rel = decoded.replace(/^\/+/, "");
+  if (rel === "" || rel.endsWith("/")) rel += "index.html";
+  return STATIC.has(rel) ? { file: true } : null;
+}
+
+// Hlavná stránka, na ktorú ide neexistujúca adresa (so zachovaním jazyka).
+function homeFor(pathname) {
+  const first = pathname.split("/").filter(Boolean)[0];
+  return SITE_LANGS.includes(first) ? `/${first}/` : "/";
+}
+
+export default function middleware(request) {
+  const url = new URL(request.url);
+  const { pathname } = url;
+
+  if (pathname === "/new" || pathname.startsWith("/new/")) {
+    const stripped = pathname.slice(4) || "/";
+    const target = resolve(stripped) ? new URL(stripped + url.search, url) : new URL(homeFor(stripped), url);
+    return Response.redirect(target, 301);
+  }
+
+  const found = resolve(pathname);
+  if (!found) return Response.redirect(new URL(homeFor(pathname), url), 301);
+  if (found.file) return next();
+
+  const target = new URL(found.rewrite, url);
+  // pôvodné query parametre (napr. ?utm_source=qr) zachovať
+  for (const [k, v] of url.searchParams) if (!target.searchParams.has(k)) target.searchParams.set(k, v);
   return rewrite(target);
 }

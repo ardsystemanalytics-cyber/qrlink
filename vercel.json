@@ -1,9 +1,5 @@
 {
   "buildCommand": "node scripts/build-data.js",
   "outputDirectory": ".",
-  "trailingSlash": true,
-  "redirects": [
-    { "source": "/new", "destination": "/", "statusCode": 301 },
-    { "source": "/new/:path*", "destination": "/:path*", "statusCode": 301 }
-  ]
+  "trailingSlash": true
 }

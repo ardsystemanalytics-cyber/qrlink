@@ -220,15 +220,6 @@ for (const z of zastavenia) {
 }
 for (const [last, n] of Object.entries(guessCount)) if (n > 1) delete guess[last];
 
-fs.mkdirSync(path.join(ROOT, "lib"), { recursive: true });
-fs.writeFileSync(
-  path.join(ROOT, "lib", "pretty-url-map.mjs"),
-  `// AUTOMATICKY VYGENEROVANÉ - pozri scripts/build-data.js\n` +
-    `export default ${JSON.stringify(urlMap, null, 2)};\n` +
-    `export const guess = ${JSON.stringify(guess, null, 2)};\n`,
-  "utf8"
-);
-
 const sitemapUrls = [
   "/",
   "/kontakt/",
@@ -242,4 +233,31 @@ const sitemapXml =
   `\n</urlset>\n`;
 fs.writeFileSync(path.join(ROOT, "sitemap.xml"), sitemapXml, "utf8");
 
-console.log(`lib/pretty-url-map.mjs: ${Object.keys(urlMap).length} ciest. sitemap.xml: ${sitemapUrls.length} URL.`);
+// Zoznam existujúcich súborov webu (mimo priečinkov, ktoré middleware.js
+// vôbec nerieši) - middleware podľa neho pozná, čo na webe NEEXISTUJE,
+// a takú adresu presmeruje na hlavnú stránku. Generuje sa až po zápise
+// sitemap.xml, aby bol v zozname aj ten.
+const NOT_LISTED = new Set(["node_modules", "admin", "api", "assets", "css", "js", "img"]);
+const staticFiles = [];
+(function walk(dir, rel) {
+  for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+    if (e.name.startsWith(".") || (!rel && NOT_LISTED.has(e.name))) continue;
+    const r = rel ? `${rel}/${e.name}` : e.name;
+    if (e.isDirectory()) walk(path.join(dir, e.name), r);
+    else staticFiles.push(r);
+  }
+})(ROOT, "");
+if (!staticFiles.includes("lib/pretty-url-map.mjs")) staticFiles.push("lib/pretty-url-map.mjs");
+staticFiles.sort();
+
+fs.mkdirSync(path.join(ROOT, "lib"), { recursive: true });
+fs.writeFileSync(
+  path.join(ROOT, "lib", "pretty-url-map.mjs"),
+  `// AUTOMATICKY VYGENEROVANÉ - pozri scripts/build-data.js\n` +
+    `export default ${JSON.stringify(urlMap, null, 2)};\n` +
+    `export const guess = ${JSON.stringify(guess, null, 2)};\n` +
+    `export const staticFiles = ${JSON.stringify(staticFiles)};\n`,
+  "utf8"
+);
+
+console.log(`lib/pretty-url-map.mjs: ${Object.keys(urlMap).length} ciest, ${staticFiles.length} súborov. sitemap.xml: ${sitemapUrls.length} URL.`);
