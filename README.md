@@ -189,6 +189,8 @@ Nový web má adresy zhodné so starým WordPress webom, len bez `/new`
 - pekná adresa → interne stránka `kategoria.html` / `zastavenie.html`,
 - `/new/...` → 301 na tú istú adresu bez `/new` (staré QR kódy); ak by
   taká adresa neexistovala, 301 rovno na hlavnú stránku,
+- ruské/poľské adresy (`/ru/...`, `/pl/...`, aj `/new/ru/...`) → 301 na
+  slovenskú verziu bez prefixu (nový web ruštinu ani poľštinu nemá),
 - akákoľvek iná neexistujúca adresa → 301 na hlavnú stránku (pri prefixe
   `/en/`, `/cs/`, `/hu/`, `/de/` na hlavnú stránku v danom jazyku),
 - `/admin`, `/api`, `/assets`, `/css`, `/js`, `/img` middleware vôbec

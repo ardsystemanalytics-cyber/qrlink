@@ -11,6 +11,8 @@
    2) "/new/..." (starý WordPress web) -> 301 na tú istú adresu bez "/new".
       Ak by taká adresa na novom webe neexistovala, ide 301 ROVNO na hlavnú
       stránku (jedno presmerovanie, žiadna reťaz /new/x -> /x -> /).
+      Ruské/poľské adresy (/new/ru/..., /ru/..., /pl/...) idú na slovenskú
+      verziu bez prefixu - nový web ruštinu ani poľštinu nemá.
 
    3) Čokoľvek ostatné, čo na novom webe neexistuje (napr. adresy ešte
       staršej verzie webu bez "/new") -> 301 na hlavnú stránku (pri
@@ -33,7 +35,7 @@ import urlMap, { guess, staticFiles } from "./lib/pretty-url-map.mjs";
 
 const OLD_LANGS = ["sk", "en", "cs", "hu", "de", "ru", "pl"];
 // Jazyky, ktoré nový web naozaj má (js/i18n.js) - len tie majú vlastnú
-// jazykovú hlavnú stránku "/en/" atď.; ru/pl skončia na "/".
+// jazykovú verziu "/en/..." atď.; ru/pl/sk prefix sa presmeruje bez neho.
 const SITE_LANGS = ["en", "cs", "hu", "de"];
 // Priečinky, ktoré obsluhuje priamo Vercel (a matcher ich vynecháva).
 const PASSTHROUGH_DIRS = ["admin", "api", "assets", "css", "js", "img", "_vercel", ".well-known"];
@@ -81,15 +83,27 @@ function homeFor(pathname) {
   return SITE_LANGS.includes(first) ? `/${first}/` : "/";
 }
 
+// Jazykový prefix, ktorý nový web nemá ako samostatnú verziu: ru/pl (starý
+// web ich mal, nový nie -> zobrazí sa slovenčina) a "sk" (slovenčina je bez
+// prefixu). Takáto adresa sa presmeruje na slovenskú, aby jazyk v adrese
+// vždy sedel s jazykom textov: /ru/zvonicka/ -> /zvonicka/.
+const NON_SITE_PREFIX = /^\/(?:sk|ru|pl)(?=\/|$)/;
+const withoutNonSiteLang = (pathname) => pathname.replace(NON_SITE_PREFIX, "") || "/";
+
+// Jedno presmerovanie 301 na cieľ, ak existuje, inak rovno na hlavnú stránku.
+function redirectTo(target, url) {
+  const dest = resolve(target) ? new URL(target + url.search, url) : new URL(homeFor(target), url);
+  return Response.redirect(dest, 301);
+}
+
 export default function middleware(request) {
   const url = new URL(request.url);
   const { pathname } = url;
 
   if (pathname === "/new" || pathname.startsWith("/new/")) {
-    const stripped = pathname.slice(4) || "/";
-    const target = resolve(stripped) ? new URL(stripped + url.search, url) : new URL(homeFor(stripped), url);
-    return Response.redirect(target, 301);
+    return redirectTo(withoutNonSiteLang(pathname.slice(4) || "/"), url);
   }
+  if (NON_SITE_PREFIX.test(pathname)) return redirectTo(withoutNonSiteLang(pathname), url);
 
   const found = resolve(pathname);
   if (!found) return Response.redirect(new URL(homeFor(pathname), url), 301);
