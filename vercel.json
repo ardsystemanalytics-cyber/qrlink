@@ -3,7 +3,7 @@
   "outputDirectory": ".",
   "trailingSlash": true,
   "redirects": [
-    { "source": "/new", "destination": "/", "permanent": true },
-    { "source": "/new/:path*", "destination": "/:path*", "permanent": true }
+    { "source": "/new", "destination": "/", "statusCode": 301 },
+    { "source": "/new/:path*", "destination": "/:path*", "statusCode": 301 }
   ]
 }
