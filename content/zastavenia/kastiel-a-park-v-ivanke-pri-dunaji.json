@@ -31,5 +31,8 @@
     "ru": "https://www.qrlink.sk/new/ru/kastiel-a-park-v-ivanke-pri-dunaji/",
     "pl": "https://www.qrlink.sk/new/pl/kastiel-a-park-v-ivanke-pri-dunaji/",
     "hu": "https://www.qrlink.sk/new/hu/kastiel-a-park-v-ivanke-pri-dunaji/"
-  }
+  },
+  "povodneUrlAliasy": [
+    "https://www.qrlink.sk/new/castles/kastiel-a-park-v-ivanke-pri-dunaji/"
+  ]
 }

@@ -47,6 +47,17 @@ function prettyUrl(record, fallback) {
   return fallback;
 }
 
+// Starý web mal niektorý obsah dostupný na viacerých adresách (napr. staršia
+// duplicitná kópia zastavenia ako "castles/svetlonos/" popri platnom
+// "svetlonos/", alebo stará samostatná stránka "porabka/" popri kategórii
+// "category/porabka/"). Tie ďalšie adresy sú v "povodneUrlAliasy" - vedú
+// na ten istý obsah (kanonická URL ostáva hlavná "url").
+function prettyAliases(record) {
+  return (record.povodneUrlAliasy || [])
+    .filter((u) => typeof u === "string" && u.startsWith(OLD_SITE_PREFIX))
+    .map((u) => "/" + u.slice(OLD_SITE_PREFIX.length));
+}
+
 // Lokálne médiá (nahrané cez CMS aj tie stiahnuté pri migrácii zo starého
 // webu) sú v content/*.json uložené ako cesta relatívna k webroot-u bez
 // úvodného lomítka (napr. "assets/images/migrated/x.jpg") - to fungovalo,
@@ -69,11 +80,12 @@ const miesta = readFolder(path.join(CONTENT, "miesta"))
   .sort((a, b) => (a.poradie ?? 0) - (b.poradie ?? 0))
   // "poradie"/"hlavnaKategoria"/"korenoveMiesto" sú len pomocné polia
   // (zoradenie + zoskupovanie v Decap CMS), do data.js sa nedávajú
-  .map(({ poradie, hlavnaKategoria, korenoveMiesto, ...m }) => ({
+  .map(({ poradie, hlavnaKategoria, korenoveMiesto, povodneUrlAliasy, ...m }) => ({
     ...m,
     cover: abs(m.cover),
     foto: abs(m.foto),
     url: prettyUrl(m, `/kategoria.html?id=${m.id}`),
+    urlAliasy: prettyAliases({ povodneUrlAliasy }),
   }));
 
 // "audio"/"galeria" sú v Decap CMS "list" polia s jedným pod-poľom ("url"),
@@ -85,7 +97,7 @@ const urlListToStrings = (list) => (list || []).map((it) => abs(typeof it === "s
 
 const zastavenia = readFolder(path.join(CONTENT, "zastavenia"))
   .sort((a, b) => a.miesto.localeCompare(b.miesto) || (a.poradie ?? 0) - (b.poradie ?? 0))
-  .map(({ hlavnaKategoria, projekt, miestoNazov, ...z }) => {
+  .map(({ hlavnaKategoria, projekt, miestoNazov, povodneUrlAliasy, ...z }) => {
     // "hlavnaKategoria"/"projekt"/"miestoNazov" sú len pomocné polia na
     // zoskupovanie/popisky v Decap CMS (/admin), do data.js sa nedávajú
     // – app.js ich nepozná/nepotrebuje.
@@ -96,6 +108,7 @@ const zastavenia = readFolder(path.join(CONTENT, "zastavenia"))
       audio: urlListToStrings(z.audio),
       galeria: urlListToStrings(z.galeria),
       url: prettyUrl(z, `/zastavenie.html?id=${z.id}`),
+      urlAliasy: prettyAliases({ povodneUrlAliasy }),
     };
     if (out.i18n) {
       out.i18n = Object.fromEntries(Object.entries(out.i18n).map(([lang, v]) =>
@@ -152,15 +165,29 @@ const SITE_ORIGIN = "https://qrlink.sk";
 // istá pekná cesta, ktorá by inak ukazovala sama na seba).
 const urlMap = {
   "": "/",
+  // Navigačné stránky starého webu - náprotivkom je úvodná stránka (filtre
+  // kategórií sú tam priamo na mape/kartách).
   "hrady-a-zamky": "/",
   "environmentalna-vychova-a-vzdelavanie": "/",
   "kontakt": "/kontakt.html",
+  // Zoskupujúce kategórie starého webu bez vlastného obsahu (len rozcestník
+  // na podkategórie, ktoré tu už sú ako samostatné miesta).
+  "category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok": "/",
+  "category/environmentalna-vychova-a-vzdelavanie": "/",
+  // Prázdne/testovacie kategórie a vzorový obsah WordPressu, ktoré starý web
+  // síce verejne zobrazoval, ale bez skutočného obsahu - aby staré odkazy
+  // neskončili chybou, ukážu úvodnú stránku.
+  "category/nezaradene": "/",
+  "category/nezaradene/test-1-kategoria-ako-beskydy": "/",
+  "category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/test-27": "/",
+  "category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/od-roznova-pod-prisahu-vyznal": "/",
+  "ahoj-svet": "/",
+  "ukazka-strany": "/",
 };
 function addToUrlMap(record, internalPath) {
-  const sk = record.povodnaUrl?.sk;
-  if (sk && sk.startsWith(OLD_SITE_PREFIX)) {
-    const restPath = sk.slice(OLD_SITE_PREFIX.length).replace(/\/$/, "");
-    urlMap[restPath] = internalPath;
+  for (const pretty of [record.url, ...(record.urlAliasy || [])]) {
+    if (!pretty || !pretty.startsWith("/") || pretty.includes(".html")) continue; // fallback "?id=" URL nemá peknú cestu
+    urlMap[pretty.replace(/^\/|\/$/g, "")] = internalPath;
   }
 }
 for (const m of miesta) addToUrlMap(m, `/kategoria.html?id=${m.id}`);

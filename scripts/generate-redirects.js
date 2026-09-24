@@ -26,14 +26,16 @@ function readFolder(p) {
 const miesta = readFolder(path.join(CONTENT, "miesta"));
 const zastavenia = readFolder(path.join(CONTENT, "zastavenia"));
 
+const OLD_LANGS = ["sk", "en", "de", "ru", "pl", "hu"];
+const OLD_PREFIX = "https://www.qrlink.sk/new/";
+const langVariants = (skUrl) => Object.fromEntries(OLD_LANGS.map((l) => [l, l === "sk" ? skUrl : skUrl.replace(OLD_PREFIX, `${OLD_PREFIX}${l}/`)]));
+
 const allOldUrls = [];
-for (const m of miesta) {
-  if (!m.povodnaUrl) continue;
-  for (const [lang, url] of Object.entries(m.povodnaUrl)) allOldUrls.push({ typ: "miesto", id: m.id, lang, url });
-}
-for (const z of zastavenia) {
-  if (!z.povodnaUrl) continue;
-  for (const [lang, url] of Object.entries(z.povodnaUrl)) allOldUrls.push({ typ: "zastavenie", id: z.id, lang, url });
+for (const [typ, list] of [["miesto", miesta], ["zastavenie", zastavenia]]) {
+  for (const r of list) {
+    const sets = [r.povodnaUrl, ...(r.povodneUrlAliasy || []).map(langVariants)].filter(Boolean);
+    for (const set of sets) for (const [lang, url] of Object.entries(set)) allOldUrls.push({ typ, id: r.id, lang, url });
+  }
 }
 
 const listPath = path.join(ROOT, "scripts", "old-urls-checklist.txt");

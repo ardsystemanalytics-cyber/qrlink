@@ -120,9 +120,16 @@ function htmlToMarkdown(html, vlastnyNazov) {
   if (!html) return "";
 
   const blocks = [];
-  const re = /<h([1-4])[^>]*>([\s\S]*?)<\/h\1>|<table[^>]*>([\s\S]*?)<\/table>|<p[^>]*>([\s\S]*?)<\/p>/gi;
+  // YouTube video je na starom webe vložené ako <iframe> (mimo <p>) - bez
+  // tejto vetvy by sa pri migrácii potichu stratilo. Prenesie sa ako HTML
+  // blok (Markdown ho nechá tak, app.js ho vykreslí cez innerHTML).
+  const re = /<h([1-4])[^>]*>([\s\S]*?)<\/h\1>|<table[^>]*>([\s\S]*?)<\/table>|<p[^>]*>([\s\S]*?)<\/p>|<iframe[^>]*\ssrc="(https:\/\/www\.youtube(?:-nocookie)?\.com\/embed\/[^"]+)"[^>]*>/gi;
   let m;
   while ((m = re.exec(html))) {
+    if (m[5] !== undefined) {
+      blocks.push(`<div class="video-embed"><iframe src="${m[5]}" title="Video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>`);
+      continue;
+    }
     if (m[1] !== undefined) {
       const level = parseInt(m[1], 10);
       const text = inlineToMarkdown(m[2]);

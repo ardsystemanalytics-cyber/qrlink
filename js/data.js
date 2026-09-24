@@ -35,7 +35,8 @@ const PLACE_PHOTOS = {
   "zvonica-hrusove": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80",
   "zs-a-ms-banova": "/assets/images/migrated/zs-banova-logo.jpg",
   "komjatice": "/assets/images/migrated/16.jpg",
-  "zemplinske-muzeum": "/assets/images/migrated/rotunda.jpg"
+  "zemplinske-muzeum": "/assets/images/migrated/rotunda.jpg",
+  "partizanske-simonovany": "/assets/images/migrated/zastavka.jpg"
 };
 
 // SVG ikonky kategórií (systémové dáta, spravuje sa mimo CMS)
@@ -145,7 +146,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/"
       },
-      "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/"
+      "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
+      "urlAliasy": []
     },
     {
       "id": "hrad-strecno",
@@ -168,22 +170,16 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/",
         "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/"
       },
-      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/"
+      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/",
+      "urlAliasy": []
     },
     {
       "id": "turzovka-mesto",
       "rodic": "turzovka",
       "nazov": "Turzovka – mestské pamiatky a zaujímavosti",
       "popis": "Ostatné pamätihodnosti a zaujímavosti priamo v meste Turzovka.",
-      "povodnaUrl": {
-        "sk": "https://www.qrlink.sk/new/category/turzovka/",
-        "en": "https://www.qrlink.sk/new/en/category/turzovka/",
-        "de": "https://www.qrlink.sk/new/de/category/turzovka/",
-        "ru": "https://www.qrlink.sk/new/ru/category/turzovka/",
-        "pl": "https://www.qrlink.sk/new/pl/category/turzovka/",
-        "hu": "https://www.qrlink.sk/new/hu/category/turzovka/"
-      },
-      "url": "/category/turzovka/"
+      "url": "/kategoria.html?id=turzovka-mesto",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-pointy",
@@ -198,7 +194,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/betliar/info-pointy/",
         "hu": "https://www.qrlink.sk/new/hu/category/betliar/info-pointy/"
       },
-      "url": "/category/betliar/info-pointy/"
+      "url": "/category/betliar/info-pointy/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-architektura",
@@ -213,7 +210,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/betliar/info-strom/architektura/",
         "hu": "https://www.qrlink.sk/new/hu/category/betliar/info-strom/architektura/"
       },
-      "url": "/category/betliar/info-strom/architektura/"
+      "url": "/category/betliar/info-strom/architektura/",
+      "urlAliasy": []
     },
     {
       "id": "bratislava-ivanka",
@@ -236,7 +234,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/ivanka-pri-dunaji/",
         "hu": "https://www.qrlink.sk/new/hu/category/ivanka-pri-dunaji/"
       },
-      "url": "/category/ivanka-pri-dunaji/"
+      "url": "/category/ivanka-pri-dunaji/",
+      "urlAliasy": []
     },
     {
       "id": "dendrolog-1",
@@ -252,7 +251,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-1/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-1/"
       },
-      "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-1/"
+      "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-1/",
+      "urlAliasy": []
     },
     {
       "id": "turzovka-pamatniky",
@@ -267,7 +267,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/turzovka/pamatniky-v-turzovke/",
         "hu": "https://www.qrlink.sk/new/hu/category/turzovka/pamatniky-v-turzovke/"
       },
-      "url": "/category/turzovka/pamatniky-v-turzovke/"
+      "url": "/category/turzovka/pamatniky-v-turzovke/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-fauna-flora",
@@ -282,7 +283,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/betliar/info-strom/flora/",
         "hu": "https://www.qrlink.sk/new/hu/category/betliar/info-strom/flora/"
       },
-      "url": "/category/betliar/info-strom/flora/"
+      "url": "/category/betliar/info-strom/flora/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom",
@@ -297,7 +299,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/betliar/info-strom/",
         "hu": "https://www.qrlink.sk/new/hu/category/betliar/info-strom/"
       },
-      "url": "/category/betliar/info-strom/"
+      "url": "/category/betliar/info-strom/",
+      "urlAliasy": []
     },
     {
       "id": "dendrolog-2",
@@ -313,7 +316,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-2/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-2/"
       },
-      "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-2/"
+      "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-2/",
+      "urlAliasy": []
     },
     {
       "id": "turzovka-sakralne-pamiatky",
@@ -328,7 +332,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/turzovka/sakralne-pamiatky/",
         "hu": "https://www.qrlink.sk/new/hu/category/turzovka/sakralne-pamiatky/"
       },
-      "url": "/category/turzovka/sakralne-pamiatky/"
+      "url": "/category/turzovka/sakralne-pamiatky/",
+      "urlAliasy": []
     },
     {
       "id": "hmyzi-domcek",
@@ -344,7 +349,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/hmyzi-domcek/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/hmyzi-domcek/"
       },
-      "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/hmyzi-domcek/"
+      "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/hmyzi-domcek/",
+      "urlAliasy": []
     },
     {
       "id": "pexeso",
@@ -360,7 +366,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/pexeso/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/pexeso/"
       },
-      "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/pexeso/"
+      "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/pexeso/",
+      "urlAliasy": []
     },
     {
       "id": "vtacia-budka",
@@ -376,7 +383,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacia-budka/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacia-budka/"
       },
-      "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacia-budka/"
+      "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacia-budka/",
+      "urlAliasy": []
     },
     {
       "id": "betliar",
@@ -400,7 +408,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/betliar/",
         "hu": "https://www.qrlink.sk/new/hu/category/betliar/"
       },
-      "url": "/category/betliar/"
+      "url": "/category/betliar/",
+      "urlAliasy": []
     },
     {
       "id": "vtacie-krmitko",
@@ -416,7 +425,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/"
       },
-      "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/"
+      "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/",
+      "urlAliasy": []
     },
     {
       "id": "euroregion-beskydy",
@@ -473,7 +483,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/euroregion-beskydy/",
         "hu": "https://www.qrlink.sk/new/hu/category/euroregion-beskydy/"
       },
-      "url": "/category/euroregion-beskydy/"
+      "url": "/category/euroregion-beskydy/",
+      "urlAliasy": []
     },
     {
       "id": "frydlant",
@@ -497,7 +508,10 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/frydlant/",
         "hu": "https://www.qrlink.sk/new/hu/category/frydlant/"
       },
-      "url": "/category/frydlant/"
+      "url": "/category/frydlant/",
+      "urlAliasy": [
+        "/frydlant/"
+      ]
     },
     {
       "id": "kraj-rusinov",
@@ -520,7 +534,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/kraj-rusinov-a-andyho-warhola/",
         "hu": "https://www.qrlink.sk/new/hu/category/kraj-rusinov-a-andyho-warhola/"
       },
-      "url": "/category/kraj-rusinov-a-andyho-warhola/"
+      "url": "/category/kraj-rusinov-a-andyho-warhola/",
+      "urlAliasy": []
     },
     {
       "id": "knm",
@@ -543,7 +558,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/knm/",
         "hu": "https://www.qrlink.sk/new/hu/category/knm/"
       },
-      "url": "/category/knm/"
+      "url": "/category/knm/",
+      "urlAliasy": []
     },
     {
       "id": "porabka",
@@ -567,7 +583,10 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/porabka/",
         "hu": "https://www.qrlink.sk/new/hu/category/porabka/"
       },
-      "url": "/category/porabka/"
+      "url": "/category/porabka/",
+      "urlAliasy": [
+        "/porabka/"
+      ]
     },
     {
       "id": "presov",
@@ -590,7 +609,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/presov/",
         "hu": "https://www.qrlink.sk/new/hu/category/presov/"
       },
-      "url": "/category/presov/"
+      "url": "/category/presov/",
+      "urlAliasy": []
     },
     {
       "id": "roznov",
@@ -614,7 +634,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/roznov-pod-radhostem/",
         "hu": "https://www.qrlink.sk/new/hu/category/roznov-pod-radhostem/"
       },
-      "url": "/category/roznov-pod-radhostem/"
+      "url": "/category/roznov-pod-radhostem/",
+      "urlAliasy": []
     },
     {
       "id": "ruzomberok",
@@ -637,7 +658,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/ruzomberok/",
         "hu": "https://www.qrlink.sk/new/hu/category/ruzomberok/"
       },
-      "url": "/category/ruzomberok/"
+      "url": "/category/ruzomberok/",
+      "urlAliasy": []
     },
     {
       "id": "sokolovce",
@@ -660,7 +682,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/sokolovce/",
         "hu": "https://www.qrlink.sk/new/hu/category/sokolovce/"
       },
-      "url": "/category/sokolovce/"
+      "url": "/category/sokolovce/",
+      "urlAliasy": []
     },
     {
       "id": "trebisov",
@@ -683,7 +706,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/trebisov/",
         "hu": "https://www.qrlink.sk/new/hu/category/trebisov/"
       },
-      "url": "/category/trebisov/"
+      "url": "/category/trebisov/",
+      "urlAliasy": []
     },
     {
       "id": "turzovka",
@@ -706,7 +730,10 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/turzovka/",
         "hu": "https://www.qrlink.sk/new/hu/category/turzovka/"
       },
-      "url": "/category/turzovka/"
+      "url": "/category/turzovka/",
+      "urlAliasy": [
+        "/turzovka/"
+      ]
     },
     {
       "id": "vranov",
@@ -729,7 +756,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/vranov-nad-toplou/",
         "hu": "https://www.qrlink.sk/new/hu/category/vranov-nad-toplou/"
       },
-      "url": "/category/vranov-nad-toplou/"
+      "url": "/category/vranov-nad-toplou/",
+      "urlAliasy": []
     },
     {
       "id": "cierne-klacany",
@@ -752,7 +780,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/",
         "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/"
       },
-      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/"
+      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/",
+      "urlAliasy": []
     },
     {
       "id": "klenoty-pohranicie",
@@ -776,7 +805,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/klenoty-v-cesko-slovenskom-pohranici/",
         "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/klenoty-v-cesko-slovenskom-pohranici/"
       },
-      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/klenoty-v-cesko-slovenskom-pohranici/"
+      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/klenoty-v-cesko-slovenskom-pohranici/",
+      "urlAliasy": []
     },
     {
       "id": "cestovatelsky-dennik",
@@ -800,7 +830,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/",
         "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/"
       },
-      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/"
+      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/",
+      "urlAliasy": []
     },
     {
       "id": "nch-pohranicie",
@@ -824,7 +855,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/",
         "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/"
       },
-      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/"
+      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/",
+      "urlAliasy": []
     },
     {
       "id": "nch-hlinene",
@@ -847,7 +879,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/",
         "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/"
       },
-      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/"
+      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/",
+      "urlAliasy": []
     },
     {
       "id": "nch-zivcakova",
@@ -870,7 +903,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/",
         "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/"
       },
-      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/"
+      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/",
+      "urlAliasy": []
     },
     {
       "id": "gabcikovo",
@@ -894,7 +928,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/",
         "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/"
       },
-      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/"
+      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/",
+      "urlAliasy": []
     },
     {
       "id": "zvonica-hrusove",
@@ -917,7 +952,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/",
         "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/"
       },
-      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/"
+      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/",
+      "urlAliasy": []
     },
     {
       "id": "zs-a-ms-banova",
@@ -940,7 +976,10 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/"
       },
-      "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/"
+      "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/",
+      "urlAliasy": [
+        "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/"
+      ]
     },
     {
       "id": "komjatice",
@@ -963,7 +1002,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/komjatice/",
         "hu": "https://www.qrlink.sk/new/hu/category/komjatice/"
       },
-      "url": "/category/komjatice/"
+      "url": "/category/komjatice/",
+      "urlAliasy": []
     },
     {
       "id": "zemplinske-muzeum",
@@ -986,7 +1026,32 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/zemplinske-muzeum/",
         "hu": "https://www.qrlink.sk/new/hu/category/zemplinske-muzeum/"
       },
-      "url": "/category/zemplinske-muzeum/"
+      "url": "/category/zemplinske-muzeum/",
+      "urlAliasy": []
+    },
+    {
+      "id": "partizanske-simonovany",
+      "nazov": "Partizánske – časť Šimonovany",
+      "primarna": "mesta",
+      "kategorie": [
+        "mesta"
+      ],
+      "lon": 18.37,
+      "lat": 48.62,
+      "mapX": 270,
+      "mapY": 276,
+      "cover": "",
+      "popis": "Mestská časť Partizánskeho s prvou autonómnou železničnou zastávkou na Slovensku.",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/category/partizanske-cast-simonovany/",
+        "en": "https://www.qrlink.sk/new/en/category/partizanske-cast-simonovany/",
+        "de": "https://www.qrlink.sk/new/de/category/partizanske-cast-simonovany/",
+        "ru": "https://www.qrlink.sk/new/ru/category/partizanske-cast-simonovany/",
+        "pl": "https://www.qrlink.sk/new/pl/category/partizanske-cast-simonovany/",
+        "hu": "https://www.qrlink.sk/new/hu/category/partizanske-cast-simonovany/"
+      },
+      "url": "/category/partizanske-cast-simonovany/",
+      "urlAliasy": []
     }
   ],
   "zastavenia": [
@@ -1017,7 +1082,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr1/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr1/"
       },
-      "url": "/betliar-info-pointy-qr1/"
+      "url": "/betliar-info-pointy-qr1/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-pointy-qr2",
@@ -1046,7 +1112,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr2/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr2/"
       },
-      "url": "/betliar-info-pointy-qr2/"
+      "url": "/betliar-info-pointy-qr2/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-pointy-qr3",
@@ -1075,7 +1142,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr3/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr3/"
       },
-      "url": "/betliar-info-pointy-qr3/"
+      "url": "/betliar-info-pointy-qr3/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-pointy-qr4",
@@ -1104,7 +1172,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr4/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr4/"
       },
-      "url": "/betliar-info-pointy-qr4/"
+      "url": "/betliar-info-pointy-qr4/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-pointy-qr5",
@@ -1133,7 +1202,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr5/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr5/"
       },
-      "url": "/betliar-info-pointy-qr5/"
+      "url": "/betliar-info-pointy-qr5/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-pointy-qr6",
@@ -1162,7 +1232,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr6/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr6/"
       },
-      "url": "/betliar-info-pointy-qr6/"
+      "url": "/betliar-info-pointy-qr6/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-pointy-qr7",
@@ -1191,7 +1262,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr7/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr7/"
       },
-      "url": "/betliar-info-pointy-qr7/"
+      "url": "/betliar-info-pointy-qr7/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-pointy-qr8",
@@ -1220,7 +1292,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr8/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr8/"
       },
-      "url": "/betliar-info-pointy-qr8/"
+      "url": "/betliar-info-pointy-qr8/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-pointy-qr9",
@@ -1249,7 +1322,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr9/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr9/"
       },
-      "url": "/betliar-info-pointy-qr9/"
+      "url": "/betliar-info-pointy-qr9/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-pointy-qr10",
@@ -1278,7 +1352,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr10/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr10/"
       },
-      "url": "/betliar-info-pointy-qr10/"
+      "url": "/betliar-info-pointy-qr10/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-pointy-qr11",
@@ -1307,7 +1382,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr11/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr11/"
       },
-      "url": "/betliar-info-pointy-qr11/"
+      "url": "/betliar-info-pointy-qr11/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-pointy-qr12",
@@ -1336,7 +1412,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr12/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr12/"
       },
-      "url": "/betliar-info-pointy-qr12/"
+      "url": "/betliar-info-pointy-qr12/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-pointy-qr13",
@@ -1365,7 +1442,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr13/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr13/"
       },
-      "url": "/betliar-info-pointy-qr13/"
+      "url": "/betliar-info-pointy-qr13/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-pointy-qr14",
@@ -1394,7 +1472,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr14/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr14/"
       },
-      "url": "/betliar-info-pointy-qr14/"
+      "url": "/betliar-info-pointy-qr14/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-pointy-qr15",
@@ -1423,7 +1502,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr15/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr15/"
       },
-      "url": "/betliar-info-pointy-qr15/"
+      "url": "/betliar-info-pointy-qr15/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-pointy-qr16",
@@ -1452,7 +1532,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr16/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr16/"
       },
-      "url": "/betliar-info-pointy-qr16/"
+      "url": "/betliar-info-pointy-qr16/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-pointy-qr17",
@@ -1481,7 +1562,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr17/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr17/"
       },
-      "url": "/betliar-info-pointy-qr17/"
+      "url": "/betliar-info-pointy-qr17/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-pointy-qr18",
@@ -1510,7 +1592,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-pointy-qr18/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-pointy-qr18/"
       },
-      "url": "/betliar-info-pointy-qr18/"
+      "url": "/betliar-info-pointy-qr18/",
+      "urlAliasy": []
     },
     {
       "id": "zvonicka",
@@ -1532,7 +1615,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/zvonicka/",
         "hu": "https://www.qrlink.sk/new/hu/zvonicka/"
       },
-      "url": "/zvonicka/"
+      "url": "/zvonicka/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr1",
@@ -1561,7 +1645,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr1/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr1/"
       },
-      "url": "/betliar-info-strom-qr1/"
+      "url": "/betliar-info-strom-qr1/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr2",
@@ -1590,7 +1675,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr2/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr2/"
       },
-      "url": "/betliar-info-strom-qr2/"
+      "url": "/betliar-info-strom-qr2/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr3",
@@ -1619,7 +1705,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr3/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr3/"
       },
-      "url": "/betliar-info-strom-qr3/"
+      "url": "/betliar-info-strom-qr3/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr4",
@@ -1648,7 +1735,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr4/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr4/"
       },
-      "url": "/betliar-info-strom-qr4/"
+      "url": "/betliar-info-strom-qr4/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr5",
@@ -1677,7 +1765,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr5/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr5/"
       },
-      "url": "/betliar-info-strom-qr5/"
+      "url": "/betliar-info-strom-qr5/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr6",
@@ -1706,7 +1795,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr6/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr6/"
       },
-      "url": "/betliar-info-strom-qr6/"
+      "url": "/betliar-info-strom-qr6/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr7",
@@ -1735,7 +1825,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr7/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr7/"
       },
-      "url": "/betliar-info-strom-qr7/"
+      "url": "/betliar-info-strom-qr7/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr8",
@@ -1764,7 +1855,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr8/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr8/"
       },
-      "url": "/betliar-info-strom-qr8/"
+      "url": "/betliar-info-strom-qr8/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr9",
@@ -1793,7 +1885,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr9/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr9/"
       },
-      "url": "/betliar-info-strom-qr9/"
+      "url": "/betliar-info-strom-qr9/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr10",
@@ -1822,7 +1915,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr10/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr10/"
       },
-      "url": "/betliar-info-strom-qr10/"
+      "url": "/betliar-info-strom-qr10/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr11",
@@ -1851,7 +1945,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr11/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr11/"
       },
-      "url": "/betliar-info-strom-qr11/"
+      "url": "/betliar-info-strom-qr11/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr12",
@@ -1880,7 +1975,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr12/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr12/"
       },
-      "url": "/betliar-info-strom-qr12/"
+      "url": "/betliar-info-strom-qr12/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr13",
@@ -1909,7 +2005,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr13/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr13/"
       },
-      "url": "/betliar-info-strom-qr13/"
+      "url": "/betliar-info-strom-qr13/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr14",
@@ -1938,7 +2035,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr14/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr14/"
       },
-      "url": "/betliar-info-strom-qr14/"
+      "url": "/betliar-info-strom-qr14/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr15",
@@ -1967,7 +2065,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr15/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr15/"
       },
-      "url": "/betliar-info-strom-qr15/"
+      "url": "/betliar-info-strom-qr15/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr16",
@@ -1996,7 +2095,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr16/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr16/"
       },
-      "url": "/betliar-info-strom-qr16/"
+      "url": "/betliar-info-strom-qr16/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr17",
@@ -2025,7 +2125,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr17/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr17/"
       },
-      "url": "/betliar-info-strom-qr17/"
+      "url": "/betliar-info-strom-qr17/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr18",
@@ -2054,7 +2155,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr18/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr18/"
       },
-      "url": "/betliar-info-strom-qr18/"
+      "url": "/betliar-info-strom-qr18/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr19",
@@ -2083,7 +2185,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr19/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr19/"
       },
-      "url": "/betliar-info-strom-qr19/"
+      "url": "/betliar-info-strom-qr19/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr20",
@@ -2112,7 +2215,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr20/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr20/"
       },
-      "url": "/betliar-info-strom-qr20/"
+      "url": "/betliar-info-strom-qr20/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr21",
@@ -2141,7 +2245,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr21/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr21/"
       },
-      "url": "/betliar-info-strom-qr21/"
+      "url": "/betliar-info-strom-qr21/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr22",
@@ -2170,7 +2275,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr22/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr22/"
       },
-      "url": "/betliar-info-strom-qr22/"
+      "url": "/betliar-info-strom-qr22/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr23",
@@ -2199,7 +2305,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr23/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr23/"
       },
-      "url": "/betliar-info-strom-qr23/"
+      "url": "/betliar-info-strom-qr23/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr24",
@@ -2228,7 +2335,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr24/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr24/"
       },
-      "url": "/betliar-info-strom-qr24/"
+      "url": "/betliar-info-strom-qr24/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr25",
@@ -2257,7 +2365,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr25/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr25/"
       },
-      "url": "/betliar-info-strom-qr25/"
+      "url": "/betliar-info-strom-qr25/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr26",
@@ -2286,7 +2395,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr26/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr26/"
       },
-      "url": "/betliar-info-strom-qr26/"
+      "url": "/betliar-info-strom-qr26/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr27",
@@ -2315,7 +2425,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr27/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr27/"
       },
-      "url": "/betliar-info-strom-qr27/"
+      "url": "/betliar-info-strom-qr27/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr28",
@@ -2344,7 +2455,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr28/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr28/"
       },
-      "url": "/betliar-info-strom-qr28/"
+      "url": "/betliar-info-strom-qr28/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr29",
@@ -2373,7 +2485,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr29/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr29/"
       },
-      "url": "/betliar-info-strom-qr29/"
+      "url": "/betliar-info-strom-qr29/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr30",
@@ -2402,7 +2515,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr30/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr30/"
       },
-      "url": "/betliar-info-strom-qr30/"
+      "url": "/betliar-info-strom-qr30/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr31",
@@ -2431,7 +2545,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr31/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr31/"
       },
-      "url": "/betliar-info-strom-qr31/"
+      "url": "/betliar-info-strom-qr31/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr32",
@@ -2460,7 +2575,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr32/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr32/"
       },
-      "url": "/betliar-info-strom-qr32/"
+      "url": "/betliar-info-strom-qr32/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr33",
@@ -2489,7 +2605,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr33/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr33/"
       },
-      "url": "/betliar-info-strom-qr33/"
+      "url": "/betliar-info-strom-qr33/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr34",
@@ -2518,7 +2635,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr34/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr34/"
       },
-      "url": "/betliar-info-strom-qr34/"
+      "url": "/betliar-info-strom-qr34/",
+      "urlAliasy": []
     },
     {
       "id": "betliar-info-strom-qr35",
@@ -2547,7 +2665,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr35/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr35/"
       },
-      "url": "/betliar-info-strom-qr35/"
+      "url": "/betliar-info-strom-qr35/",
+      "urlAliasy": []
     },
     {
       "id": "vevericka",
@@ -2573,7 +2692,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/vevericka/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/vevericka/"
       },
-      "url": "/environmental-upbringing-and-education/vevericka/"
+      "url": "/environmental-upbringing-and-education/vevericka/",
+      "urlAliasy": []
     },
     {
       "id": "krtko",
@@ -2599,7 +2719,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/krtko/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/krtko/"
       },
-      "url": "/environmental-upbringing-and-education/krtko/"
+      "url": "/environmental-upbringing-and-education/krtko/",
+      "urlAliasy": []
     },
     {
       "id": "mravec",
@@ -2625,7 +2746,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/mravec/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/mravec/"
       },
-      "url": "/environmental-upbringing-and-education/mravec/"
+      "url": "/environmental-upbringing-and-education/mravec/",
+      "urlAliasy": []
     },
     {
       "id": "vcielka",
@@ -2651,7 +2773,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/vcielka/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/vcielka/"
       },
-      "url": "/environmental-upbringing-and-education/vcielka/"
+      "url": "/environmental-upbringing-and-education/vcielka/",
+      "urlAliasy": []
     },
     {
       "id": "slimak",
@@ -2677,7 +2800,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/slimak/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/slimak/"
       },
-      "url": "/environmental-upbringing-and-education/slimak/"
+      "url": "/environmental-upbringing-and-education/slimak/",
+      "urlAliasy": []
     },
     {
       "id": "bobor",
@@ -2703,7 +2827,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/bobor/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/bobor/"
       },
-      "url": "/environmental-upbringing-and-education/bobor/"
+      "url": "/environmental-upbringing-and-education/bobor/",
+      "urlAliasy": []
     },
     {
       "id": "obec-ivanka-pri-dunaji",
@@ -2729,7 +2854,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/obec-ivanka-pri-dunaji/",
         "hu": "https://www.qrlink.sk/new/hu/obec-ivanka-pri-dunaji/"
       },
-      "url": "/obec-ivanka-pri-dunaji/"
+      "url": "/obec-ivanka-pri-dunaji/",
+      "urlAliasy": []
     },
     {
       "id": "kastiel-a-park-v-ivanke-pri-dunaji",
@@ -2758,7 +2884,10 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kastiel-a-park-v-ivanke-pri-dunaji/",
         "hu": "https://www.qrlink.sk/new/hu/kastiel-a-park-v-ivanke-pri-dunaji/"
       },
-      "url": "/kastiel-a-park-v-ivanke-pri-dunaji/"
+      "url": "/kastiel-a-park-v-ivanke-pri-dunaji/",
+      "urlAliasy": [
+        "/castles/kastiel-a-park-v-ivanke-pri-dunaji/"
+      ]
     },
     {
       "id": "kostol-sv-jana-krstitela",
@@ -2787,7 +2916,10 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kostol-sv-jana-krstitela/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-sv-jana-krstitela/"
       },
-      "url": "/kostol-sv-jana-krstitela/"
+      "url": "/kostol-sv-jana-krstitela/",
+      "urlAliasy": [
+        "/castles/kostol-sv-jana-krstitela/"
+      ]
     },
     {
       "id": "mohyla-m-r-stefanika",
@@ -2816,7 +2948,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/mohyla-m-r-stefanika/",
         "hu": "https://www.qrlink.sk/new/hu/mohyla-m-r-stefanika/"
       },
-      "url": "/mohyla-m-r-stefanika/"
+      "url": "/mohyla-m-r-stefanika/",
+      "urlAliasy": []
     },
     {
       "id": "pomnik-padlym-v-i-a-ii-svetovej-vojne",
@@ -2845,7 +2978,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/pomnik-padlym-v-i-a-ii-svetovej-vojne/",
         "hu": "https://www.qrlink.sk/new/hu/pomnik-padlym-v-i-a-ii-svetovej-vojne/"
       },
-      "url": "/pomnik-padlym-v-i-a-ii-svetovej-vojne/"
+      "url": "/pomnik-padlym-v-i-a-ii-svetovej-vojne/",
+      "urlAliasy": []
     },
     {
       "id": "susosie-sv-jana-nepomuckeho",
@@ -2874,7 +3008,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/susosie-sv-jana-nepomuckeho/",
         "hu": "https://www.qrlink.sk/new/hu/susosie-sv-jana-nepomuckeho/"
       },
-      "url": "/susosie-sv-jana-nepomuckeho/"
+      "url": "/susosie-sv-jana-nepomuckeho/",
+      "urlAliasy": []
     },
     {
       "id": "kaplnka-sv-rozalie",
@@ -2903,7 +3038,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-sv-rozalie/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-sv-rozalie/"
       },
-      "url": "/kaplnka-sv-rozalie/"
+      "url": "/kaplnka-sv-rozalie/",
+      "urlAliasy": []
     },
     {
       "id": "sursky-kanal",
@@ -2932,7 +3068,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/sursky-kanal/",
         "hu": "https://www.qrlink.sk/new/hu/sursky-kanal/"
       },
-      "url": "/sursky-kanal/"
+      "url": "/sursky-kanal/",
+      "urlAliasy": []
     },
     {
       "id": "mestske-muzeum-karola-tocika",
@@ -2956,7 +3093,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/mestske-muzeum-karola-tocika/",
         "hu": "https://www.qrlink.sk/new/hu/castles/mestske-muzeum-karola-tocika/"
       },
-      "url": "/castles/mestske-muzeum-karola-tocika/"
+      "url": "/castles/mestske-muzeum-karola-tocika/",
+      "urlAliasy": []
     },
     {
       "id": "historicka-kniznica-bibliotheca-antiqua-taganiana",
@@ -2980,7 +3118,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/historicka-kniznica-bibliotheca-antiqua-taganiana/",
         "hu": "https://www.qrlink.sk/new/hu/castles/historicka-kniznica-bibliotheca-antiqua-taganiana/"
       },
-      "url": "/castles/historicka-kniznica-bibliotheca-antiqua-taganiana/"
+      "url": "/castles/historicka-kniznica-bibliotheca-antiqua-taganiana/",
+      "urlAliasy": []
     },
     {
       "id": "vyhliadkova-veza-s-oddychovou-zonou-na-vrchu-bukovina",
@@ -3004,7 +3143,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/vyhliadkova-veza-s-oddychovou-zonou-na-vrchu-bukovina/",
         "hu": "https://www.qrlink.sk/new/hu/castles/vyhliadkova-veza-s-oddychovou-zonou-na-vrchu-bukovina/"
       },
-      "url": "/castles/vyhliadkova-veza-s-oddychovou-zonou-na-vrchu-bukovina/"
+      "url": "/castles/vyhliadkova-veza-s-oddychovou-zonou-na-vrchu-bukovina/",
+      "urlAliasy": []
     },
     {
       "id": "naucny-chodnik-vrchlinenskym-kopcom",
@@ -3028,7 +3168,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/naucny-chodnik-vrchlinenskym-kopcom/",
         "hu": "https://www.qrlink.sk/new/hu/castles/naucny-chodnik-vrchlinenskym-kopcom/"
       },
-      "url": "/castles/naucny-chodnik-vrchlinenskym-kopcom/"
+      "url": "/castles/naucny-chodnik-vrchlinenskym-kopcom/",
+      "urlAliasy": []
     },
     {
       "id": "kornansky-ropny-pramen",
@@ -3052,7 +3193,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/kornansky-ropny-pramen/",
         "hu": "https://www.qrlink.sk/new/hu/castles/kornansky-ropny-pramen/"
       },
-      "url": "/castles/kornansky-ropny-pramen/"
+      "url": "/castles/kornansky-ropny-pramen/",
+      "urlAliasy": []
     },
     {
       "id": "kostol-nanebovzatia-panny-marie-v-turzovke",
@@ -3076,7 +3218,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/kostol-nanebovzatia-panny-marie-v-turzovke/",
         "hu": "https://www.qrlink.sk/new/hu/castles/kostol-nanebovzatia-panny-marie-v-turzovke/"
       },
-      "url": "/castles/kostol-nanebovzatia-panny-marie-v-turzovke/"
+      "url": "/castles/kostol-nanebovzatia-panny-marie-v-turzovke/",
+      "urlAliasy": []
     },
     {
       "id": "rodny-dom-jozefa-kronera",
@@ -3100,7 +3243,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/rodny-dom-jozefa-kronera/",
         "hu": "https://www.qrlink.sk/new/hu/castles/rodny-dom-jozefa-kronera/"
       },
-      "url": "/castles/rodny-dom-jozefa-kronera/"
+      "url": "/castles/rodny-dom-jozefa-kronera/",
+      "urlAliasy": []
     },
     {
       "id": "velka-raca-1236-m-n-m",
@@ -3124,7 +3268,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/velka-raca-1236-m-n-m/",
         "hu": "https://www.qrlink.sk/new/hu/castles/velka-raca-1236-m-n-m/"
       },
-      "url": "/castles/velka-raca-1236-m-n-m/"
+      "url": "/castles/velka-raca-1236-m-n-m/",
+      "urlAliasy": []
     },
     {
       "id": "putnicke-miesto-zivcakova",
@@ -3148,7 +3293,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/putnicke-miesto-zivcakova/",
         "hu": "https://www.qrlink.sk/new/hu/castles/putnicke-miesto-zivcakova/"
       },
-      "url": "/castles/putnicke-miesto-zivcakova/"
+      "url": "/castles/putnicke-miesto-zivcakova/",
+      "urlAliasy": []
     },
     {
       "id": "lysa-hora",
@@ -3172,7 +3318,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/lysa-hora/",
         "hu": "https://www.qrlink.sk/new/hu/castles/lysa-hora/"
       },
-      "url": "/castles/lysa-hora/"
+      "url": "/castles/lysa-hora/",
+      "urlAliasy": []
     },
     {
       "id": "zamok-v-paskove",
@@ -3196,7 +3343,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/zamok-v-paskove/",
         "hu": "https://www.qrlink.sk/new/hu/castles/zamok-v-paskove/"
       },
-      "url": "/castles/zamok-v-paskove/"
+      "url": "/castles/zamok-v-paskove/",
+      "urlAliasy": []
     },
     {
       "id": "zamocky-park",
@@ -3220,7 +3368,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/zamocky-park/",
         "hu": "https://www.qrlink.sk/new/hu/castles/zamocky-park/"
       },
-      "url": "/castles/zamocky-park/"
+      "url": "/castles/zamocky-park/",
+      "urlAliasy": []
     },
     {
       "id": "rozhladna-okrouhla",
@@ -3244,7 +3393,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/rozhladna-okrouhla/",
         "hu": "https://www.qrlink.sk/new/hu/castles/rozhladna-okrouhla/"
       },
-      "url": "/castles/rozhladna-okrouhla/"
+      "url": "/castles/rozhladna-okrouhla/",
+      "urlAliasy": []
     },
     {
       "id": "hrad-hukvaldy-s-odborom",
@@ -3268,7 +3418,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/hrad-hukvaldy-s-odborom/",
         "hu": "https://www.qrlink.sk/new/hu/castles/hrad-hukvaldy-s-odborom/"
       },
-      "url": "/castles/hrad-hukvaldy-s-odborom/"
+      "url": "/castles/hrad-hukvaldy-s-odborom/",
+      "urlAliasy": []
     },
     {
       "id": "cvicna-stolna-dolu-paskov",
@@ -3290,7 +3441,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/cvicna-stolna-dolu-paskov/",
         "hu": "https://www.qrlink.sk/new/hu/castles/cvicna-stolna-dolu-paskov/"
       },
-      "url": "/castles/cvicna-stolna-dolu-paskov/"
+      "url": "/castles/cvicna-stolna-dolu-paskov/",
+      "urlAliasy": []
     },
     {
       "id": "bazilika-minor-putnicky-chram-navstivenie-panny-marie",
@@ -3314,7 +3466,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/bazilika-minor-putnicky-chram-navstivenie-panny-marie/",
         "hu": "https://www.qrlink.sk/new/hu/castles/bazilika-minor-putnicky-chram-navstivenie-panny-marie/"
       },
-      "url": "/castles/bazilika-minor-putnicky-chram-navstivenie-panny-marie/"
+      "url": "/castles/bazilika-minor-putnicky-chram-navstivenie-panny-marie/",
+      "urlAliasy": []
     },
     {
       "id": "muzeum-beskyd-frydek-mistek-frydecky-zamok",
@@ -3338,7 +3491,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/muzeum-beskyd-frydek-mistek-frydecky-zamok/",
         "hu": "https://www.qrlink.sk/new/hu/castles/muzeum-beskyd-frydek-mistek-frydecky-zamok/"
       },
-      "url": "/castles/muzeum-beskyd-frydek-mistek-frydecky-zamok/"
+      "url": "/castles/muzeum-beskyd-frydek-mistek-frydecky-zamok/",
+      "urlAliasy": []
     },
     {
       "id": "pustevny",
@@ -3362,7 +3516,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/pustevny/",
         "hu": "https://www.qrlink.sk/new/hu/castles/pustevny/"
       },
-      "url": "/castles/pustevny/"
+      "url": "/castles/pustevny/",
+      "urlAliasy": []
     },
     {
       "id": "javorniky-dominanta-hornych-kysuc",
@@ -3386,7 +3541,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/javorniky-dominanta-hornych-kysuc/",
         "hu": "https://www.qrlink.sk/new/hu/castles/javorniky-dominanta-hornych-kysuc/"
       },
-      "url": "/castles/javorniky-dominanta-hornych-kysuc/"
+      "url": "/castles/javorniky-dominanta-hornych-kysuc/",
+      "urlAliasy": []
     },
     {
       "id": "muzeum-kysuckej-dediny",
@@ -3410,7 +3566,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/muzeum-kysuckej-dediny/",
         "hu": "https://www.qrlink.sk/new/hu/castles/muzeum-kysuckej-dediny/"
       },
-      "url": "/castles/muzeum-kysuckej-dediny/"
+      "url": "/castles/muzeum-kysuckej-dediny/",
+      "urlAliasy": []
     },
     {
       "id": "ciernoklacianska-pyxida",
@@ -3437,7 +3594,7 @@ const DB = {
         "lng": 18.418106
       },
       "mapEmbed": "https://www.google.com/maps?q=48.343092,18.418106&z=18&output=embed",
-      "text": "<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/09/2025-10-09_12h27_42.jpg\" alt=\"\"></p>\n<p><strong>Čiernokľačianska Pyxida je svetový unikát, ktorý naveky bude reprezentovať Čierne Kľačany, Nitru, Slovensko. Objavitelia i propagátori tohto unikátneho archeologického nálezu si zaslúžia našu úctu, pretože skladajú mozaiku odkrývania histórie.</strong></p>\n<p>**<em>Čiernokľačianska pyxida bola objavená v roku 1974 v lokalite pri mlyne</em> **</p>\n<p>Pri budovaní vodovodu v obci hĺbiaci mechanizmus počas výkopu ryhy na vodovodné potrubie narušil archeologické objekty so zvyškami ľudských kostier, črepmi nádob a zvieracími kosťami. Najvýznamnejším objektom bol porušený kostrový hrob, v ktorom sa našli fragmenty slonovinovej pyxidy.</p>\n<p>**<em>Pyxidu zachránila mládež</em> **</p>\n<p>Vtedy žiaci ZDŠ – Milan Švec, Stanislav Lukáč, Milan Tonka, Dušan Filipčík našli úlomky a študenti Gymnázia Janka Kráľa – Július Horný ml. a Ivan Lukáč následne hľadali väzbu medzi úlomkami. Nahlásenie nálezu pyxidy a podnet podal Július Horný st. na Archeologický ústav v Nitre. Vďaka všetkým patrí pyxida k raritám a unikátom obce, Slovenska i Európy. Pri obhliadke náleziska sa podarilo zachrániť súbor nálezov z rôznych období praveku a včasnej doby dejinnej, medzi ktorými vzbudili pozornosť najmä fragmenty pyxidy zo slonoviny.</p>\n<p><em><strong>Miesto nálezu</strong></em></p>\n<p>Lokalita nálezu sa nachádza asi 500 m južne od obce pri mlyne na vrchole a južnom svahu mierneho návršia. Z južnej a západnej strany pretekajú neďaleko potoky Širočina a Bočovka. Ryha na vodovodné potrubie, vyhĺbená od vodárne po okraj obce na ľavej strane cesty, narušila viaceré, prevažne sídliskové objekty. Ich zvyšky sa zreteľne črtali v dĺžke asi 200 m. Nesporne najvýznamnejším objektom bol porušený kostrový hrob, v ktorom sa našli fragmenty slonovinovej pyxidy.</p>\n<p><em><strong>Motívy pyxidy</strong></em></p>\n<p>Pyxida bola poskladaná do tvaru valcovitého plášťa. Jej výzdoba realizovaná v nízkom reliéfe je tvorená výjavom oráča s dobytčím záprahom a kráčajúcej ženy s košom obilia. V bukolickom výjave medzi odpočívajúcim stádom oviec a kôz dominujú postavy sediaceho mladého a prichádzajúceho starého pastiera.</p>\n<p><em><strong>Z histórie</strong></em></p>\n<p>Maximálny rozkvet umenia rezby zo slonoviny sa začína v polovici 4. storočia. Zo slonoviny sa vyrábali rôzne predmety, ale aj schránky. Výzdoba samozrejme reprezentovala spôsob použitia či majiteľa. Významné miesto medzi prácami zo slonoviny majú pyxidy – nádobka kruhového alebo oválneho tvaru s dnom a vrchnákom. Na rozvoji produkcie pyxíd sa v nemalej miere podieľala cirkev. Kresťanská liturgia prevzala používanie pyxidy nielen ako schránky na kadidlo, ale predovšetkým na ukladanie relikvií a hostie či eucharistie. Tak to určoval aj koncil v Narbonne z roku 589. V 9. storočí bývali pyxidy umiestnené nad oltárom a slúžili už ako relikviár. Vďaka tomu sa vo významných kresťanských chrámoch západnej Európy zachovali pozoruhodné exempláre.</p>\n<p><em><strong>Pamätná tabuľa</strong></em></p>\n<p>V roku 1991 bola odhalená pamätná tabuľa na kultúrnom dome s textom: „Z tejto obce pochádza výnimočné antické dielo, živé aj v časoch Veľkej Moravy, reliéfne zdobená slonovinová pyxida. Z úcty k histórii a k pamiatke sv. Cyrila a Metoda venujú vďační Slováci.” Tabuľu odhaľoval, prof. ThDr. Alojz Martinec, starosta obce Peter Horný, prvý podpredseda Matice slovenskej PhDr. Stanislav Bajaník – náš rodák a čestný občan,  za početnej účasti vzácnych hostí.</p>\n<p>**<em>Odhalenie pomníka</em> **</p>\n<p>V r. 1993 pri príležitosti celoslovenského stretnutia Kľačian na Slovensku bol pri mlyne, mieste nálezu Čiernokľačianskej pyxidy odhalený pomník s bronzovou tabuľou za účasti významných rodákov, hostí z Matice slovenskej, okolitých obcí a miest. Kameň darovala obec, bronzovú tabuľu Matica slovenská.</p>\n<p><em><strong>Odhalenie a vysvätenie súsošia sv. Cyrila a Metoda</strong></em></p>\n<p>V roku 1997 bolo v našej obci odhalenie a vysvätenie súsošia sv. Cyrila a Metoda ako prvého cyrilo-metodského súsošia na Slovensku v druhej SR. Autori: Akad. soch. Ľudmila Cvengrošová, Ing. arch. Viola Bajaníková – ako nezištný dar obci. Realizácia firma Koňuš – Gubáň, Kremnica. Súsošie s čiernokľačianskou pyxidou sa nachádza aj v Nitre, v Devíne, Zalavár (Blatno hrad) – Maďarsko. Iniciátormi a gestormi realizácie diela boli prvý podpredseda Matice slovenskej PhDr. Stanislav Bajaník, starosta obce Peter </p>\n<p>Horný, predseda MO MS Ing. Jozef Švec a poslanci obecného zastupiteľstva. Vysvätil ho náš rodák Mons. Vincent Malý, Dr.h.c.</p>\n<p><em><strong>Dar pápežovi Jánovi Pavlovi II.</strong></em></p>\n<p>V roku 2003 bola kópia čiernokľačianskej pyxidy odovzdaná pápežskému nunciovi v Bratislave ako dar pápežovi Jánovi Pavlovi II. a Vatikánu na jeho ostatnej návšteve na Slovensku. Nuncius a Svätá Stolica za dar osobitne písomne poďakovali. Dar odovzdávali: Imrich Dočolomanský, miestny rímsko-katolícky farár, Valéria Kršáková, zástupkyňa starostu obce, Ing. Jozef Švec, predseda MO Matice slovenskej, PhDr. Stanislav Bajaník za Maticu slovenskú.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/09/2025-09-25_11h43_44.jpg\" alt=\"\"></p>\n<p><em><strong>Relief Pyxidy</strong></em></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/09/foto-030zNew.jpg\" alt=\"\"></p>\n<p><em><strong>Stanislav Lukáč, vo výkope vodovodu, r. 1974</strong></em></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/09/kolnik_fotoz-min.jpg\" alt=\"\"></p>\n<p><em><strong>Rozložená rekonštrukcia motívov pyxidy</strong></em></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/09/foto-054-min.jpg\" alt=\"\"></p>\n<p><em><strong>Odhalenie pamätnej tabule na budove kultúrneho domu, r. 1991</strong></em></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/09/Image0011-min.jpg\" alt=\"\"></p>\n<p><em><strong>Miesto nálezu –  pamätník Pyxidy Prof. ThDr. Alojz Martinec a  Mons. Vincent Malý, Dr.h.c.</strong></em></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/09/foto-036_1993-min.jpg\" alt=\"\"></p>\n<p><em><strong>Miesto nálezu – pamätník Pyxidy PhDr. Stanislav Bajaník</strong></em></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/09/2025-09-25_11h40_55-min.png\" alt=\"\"></p>\n<p><em><strong>Za mnohé aktivity čo boli organizované v súvislosti  s  Pyxidou bola unikátna výstava vo Vatikáne v dňoch 12. novembra 2013 – 26. januára 2014 „Najstaršie doklady počiatkov kresťanstva na Slovensku – sv. Cyril a Metod, patróni Európy,“ kde Pyxida mala prvé miesto. Nad podujatím, ktoré organizovalo Slovenské národné múzeum,  Archeologický ústav Slovenskej akadémie vied a Veľvyslanectvo SR pri Svätej Stolici, prevzali záštitu predseda vlády SR Robert Fico a nitriansky biskup Mons. prof. Viliam Judák. Foto: archív PhDr. Petra Bednára, CSc.</strong></em></p>",
+      "text": "<p><img src=\"/assets/images/migrated/2025-10-09_12h27_42.jpg\" alt=\"\"></p>\n<p><strong>Čiernokľačianska Pyxida je svetový unikát, ktorý naveky bude reprezentovať Čierne Kľačany, Nitru, Slovensko. Objavitelia i propagátori tohto unikátneho archeologického nálezu si zaslúžia našu úctu, pretože skladajú mozaiku odkrývania histórie.</strong></p>\n<p>**<em>Čiernokľačianska pyxida bola objavená v roku 1974 v lokalite pri mlyne</em> **</p>\n<p>Pri budovaní vodovodu v obci hĺbiaci mechanizmus počas výkopu ryhy na vodovodné potrubie narušil archeologické objekty so zvyškami ľudských kostier, črepmi nádob a zvieracími kosťami. Najvýznamnejším objektom bol porušený kostrový hrob, v ktorom sa našli fragmenty slonovinovej pyxidy.</p>\n<p>**<em>Pyxidu zachránila mládež</em> **</p>\n<p>Vtedy žiaci ZDŠ – Milan Švec, Stanislav Lukáč, Milan Tonka, Dušan Filipčík našli úlomky a študenti Gymnázia Janka Kráľa – Július Horný ml. a Ivan Lukáč následne hľadali väzbu medzi úlomkami. Nahlásenie nálezu pyxidy a podnet podal Július Horný st. na Archeologický ústav v Nitre. Vďaka všetkým patrí pyxida k raritám a unikátom obce, Slovenska i Európy. Pri obhliadke náleziska sa podarilo zachrániť súbor nálezov z rôznych období praveku a včasnej doby dejinnej, medzi ktorými vzbudili pozornosť najmä fragmenty pyxidy zo slonoviny.</p>\n<p><em><strong>Miesto nálezu</strong></em></p>\n<p>Lokalita nálezu sa nachádza asi 500 m južne od obce pri mlyne na vrchole a južnom svahu mierneho návršia. Z južnej a západnej strany pretekajú neďaleko potoky Širočina a Bočovka. Ryha na vodovodné potrubie, vyhĺbená od vodárne po okraj obce na ľavej strane cesty, narušila viaceré, prevažne sídliskové objekty. Ich zvyšky sa zreteľne črtali v dĺžke asi 200 m. Nesporne najvýznamnejším objektom bol porušený kostrový hrob, v ktorom sa našli fragmenty slonovinovej pyxidy.</p>\n<p><em><strong>Motívy pyxidy</strong></em></p>\n<p>Pyxida bola poskladaná do tvaru valcovitého plášťa. Jej výzdoba realizovaná v nízkom reliéfe je tvorená výjavom oráča s dobytčím záprahom a kráčajúcej ženy s košom obilia. V bukolickom výjave medzi odpočívajúcim stádom oviec a kôz dominujú postavy sediaceho mladého a prichádzajúceho starého pastiera.</p>\n<p><em><strong>Z histórie</strong></em></p>\n<p>Maximálny rozkvet umenia rezby zo slonoviny sa začína v polovici 4. storočia. Zo slonoviny sa vyrábali rôzne predmety, ale aj schránky. Výzdoba samozrejme reprezentovala spôsob použitia či majiteľa. Významné miesto medzi prácami zo slonoviny majú pyxidy – nádobka kruhového alebo oválneho tvaru s dnom a vrchnákom. Na rozvoji produkcie pyxíd sa v nemalej miere podieľala cirkev. Kresťanská liturgia prevzala používanie pyxidy nielen ako schránky na kadidlo, ale predovšetkým na ukladanie relikvií a hostie či eucharistie. Tak to určoval aj koncil v Narbonne z roku 589. V 9. storočí bývali pyxidy umiestnené nad oltárom a slúžili už ako relikviár. Vďaka tomu sa vo významných kresťanských chrámoch západnej Európy zachovali pozoruhodné exempláre.</p>\n<p><em><strong>Pamätná tabuľa</strong></em></p>\n<p>V roku 1991 bola odhalená pamätná tabuľa na kultúrnom dome s textom: „Z tejto obce pochádza výnimočné antické dielo, živé aj v časoch Veľkej Moravy, reliéfne zdobená slonovinová pyxida. Z úcty k histórii a k pamiatke sv. Cyrila a Metoda venujú vďační Slováci.” Tabuľu odhaľoval, prof. ThDr. Alojz Martinec, starosta obce Peter Horný, prvý podpredseda Matice slovenskej PhDr. Stanislav Bajaník – náš rodák a čestný občan,  za početnej účasti vzácnych hostí.</p>\n<p>**<em>Odhalenie pomníka</em> **</p>\n<p>V r. 1993 pri príležitosti celoslovenského stretnutia Kľačian na Slovensku bol pri mlyne, mieste nálezu Čiernokľačianskej pyxidy odhalený pomník s bronzovou tabuľou za účasti významných rodákov, hostí z Matice slovenskej, okolitých obcí a miest. Kameň darovala obec, bronzovú tabuľu Matica slovenská.</p>\n<p><em><strong>Odhalenie a vysvätenie súsošia sv. Cyrila a Metoda</strong></em></p>\n<p>V roku 1997 bolo v našej obci odhalenie a vysvätenie súsošia sv. Cyrila a Metoda ako prvého cyrilo-metodského súsošia na Slovensku v druhej SR. Autori: Akad. soch. Ľudmila Cvengrošová, Ing. arch. Viola Bajaníková – ako nezištný dar obci. Realizácia firma Koňuš – Gubáň, Kremnica. Súsošie s čiernokľačianskou pyxidou sa nachádza aj v Nitre, v Devíne, Zalavár (Blatno hrad) – Maďarsko. Iniciátormi a gestormi realizácie diela boli prvý podpredseda Matice slovenskej PhDr. Stanislav Bajaník, starosta obce Peter </p>\n<p>Horný, predseda MO MS Ing. Jozef Švec a poslanci obecného zastupiteľstva. Vysvätil ho náš rodák Mons. Vincent Malý, Dr.h.c.</p>\n<p><em><strong>Dar pápežovi Jánovi Pavlovi II.</strong></em></p>\n<p>V roku 2003 bola kópia čiernokľačianskej pyxidy odovzdaná pápežskému nunciovi v Bratislave ako dar pápežovi Jánovi Pavlovi II. a Vatikánu na jeho ostatnej návšteve na Slovensku. Nuncius a Svätá Stolica za dar osobitne písomne poďakovali. Dar odovzdávali: Imrich Dočolomanský, miestny rímsko-katolícky farár, Valéria Kršáková, zástupkyňa starostu obce, Ing. Jozef Švec, predseda MO Matice slovenskej, PhDr. Stanislav Bajaník za Maticu slovenskú.</p>\n<p><img src=\"/assets/images/migrated/2025-09-25_11h43_44.jpg\" alt=\"\"></p>\n<p><em><strong>Relief Pyxidy</strong></em></p>\n<p><img src=\"/assets/images/migrated/foto-030znew.jpg\" alt=\"\"></p>\n<p><em><strong>Stanislav Lukáč, vo výkope vodovodu, r. 1974</strong></em></p>\n<p><img src=\"/assets/images/migrated/kolnik_fotoz-min.jpg\" alt=\"\"></p>\n<p><em><strong>Rozložená rekonštrukcia motívov pyxidy</strong></em></p>\n<p><img src=\"/assets/images/migrated/foto-054-min.jpg\" alt=\"\"></p>\n<p><em><strong>Odhalenie pamätnej tabule na budove kultúrneho domu, r. 1991</strong></em></p>\n<p><img src=\"/assets/images/migrated/image0011-min.jpg\" alt=\"\"></p>\n<p><em><strong>Miesto nálezu –  pamätník Pyxidy Prof. ThDr. Alojz Martinec a  Mons. Vincent Malý, Dr.h.c.</strong></em></p>\n<p><img src=\"/assets/images/migrated/foto-036_1993-min.jpg\" alt=\"\"></p>\n<p><em><strong>Miesto nálezu – pamätník Pyxidy PhDr. Stanislav Bajaník</strong></em></p>\n<p><img src=\"/assets/images/migrated/2025-09-25_11h40_55-min.jpg\" alt=\"\"></p>\n<p><em><strong>Za mnohé aktivity čo boli organizované v súvislosti  s  Pyxidou bola unikátna výstava vo Vatikáne v dňoch 12. novembra 2013 – 26. januára 2014 „Najstaršie doklady počiatkov kresťanstva na Slovensku – sv. Cyril a Metod, patróni Európy,“ kde Pyxida mala prvé miesto. Nad podujatím, ktoré organizovalo Slovenské národné múzeum,  Archeologický ústav Slovenskej akadémie vied a Veľvyslanectvo SR pri Svätej Stolici, prevzali záštitu predseda vlády SR Robert Fico a nitriansky biskup Mons. prof. Viliam Judák. Foto: archív PhDr. Petra Bednára, CSc.</strong></em></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/ciernoklacianska-pyxida/",
         "en": "https://www.qrlink.sk/new/en/ciernoklacianska-pyxida/",
@@ -3446,7 +3603,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/ciernoklacianska-pyxida/",
         "hu": "https://www.qrlink.sk/new/hu/ciernoklacianska-pyxida/"
       },
-      "url": "/ciernoklacianska-pyxida/"
+      "url": "/ciernoklacianska-pyxida/",
+      "urlAliasy": []
     },
     {
       "id": "javor-mliecny",
@@ -3472,7 +3630,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/javor-mliecny/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/javor-mliecny/"
       },
-      "url": "/environmental-upbringing-and-education/javor-mliecny/"
+      "url": "/environmental-upbringing-and-education/javor-mliecny/",
+      "urlAliasy": []
     },
     {
       "id": "2-gastan-jedly",
@@ -3498,7 +3657,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/2-gastan-jedly/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/2-gastan-jedly/"
       },
-      "url": "/environmental-upbringing-and-education/2-gastan-jedly/"
+      "url": "/environmental-upbringing-and-education/2-gastan-jedly/",
+      "urlAliasy": []
     },
     {
       "id": "3-orech-kralovsky",
@@ -3524,7 +3684,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/3-orech-kralovsky/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/3-orech-kralovsky/"
       },
-      "url": "/environmental-upbringing-and-education/3-orech-kralovsky/"
+      "url": "/environmental-upbringing-and-education/3-orech-kralovsky/",
+      "urlAliasy": []
     },
     {
       "id": "4-ceresna-vtacia",
@@ -3550,7 +3711,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/4-ceresna-vtacia/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/4-ceresna-vtacia/"
       },
-      "url": "/environmental-upbringing-and-education/4-ceresna-vtacia/"
+      "url": "/environmental-upbringing-and-education/4-ceresna-vtacia/",
+      "urlAliasy": []
     },
     {
       "id": "5-jablon-domaca",
@@ -3576,7 +3738,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/5-jablon-domaca/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/5-jablon-domaca/"
       },
-      "url": "/environmental-upbringing-and-education/5-jablon-domaca/"
+      "url": "/environmental-upbringing-and-education/5-jablon-domaca/",
+      "urlAliasy": []
     },
     {
       "id": "6-slivka-trnkova",
@@ -3602,7 +3765,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/6-slivka-trnkova/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/6-slivka-trnkova/"
       },
-      "url": "/environmental-upbringing-and-education/6-slivka-trnkova/"
+      "url": "/environmental-upbringing-and-education/6-slivka-trnkova/",
+      "urlAliasy": []
     },
     {
       "id": "7-buk-lesny",
@@ -3628,7 +3792,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/7-buk-lesny/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/7-buk-lesny/"
       },
-      "url": "/environmental-upbringing-and-education/7-buk-lesny/"
+      "url": "/environmental-upbringing-and-education/7-buk-lesny/",
+      "urlAliasy": []
     },
     {
       "id": "8-breza-previsnuta",
@@ -3654,7 +3819,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/8-breza-previsnuta/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/8-breza-previsnuta/"
       },
-      "url": "/environmental-upbringing-and-education/8-breza-previsnuta/"
+      "url": "/environmental-upbringing-and-education/8-breza-previsnuta/",
+      "urlAliasy": []
     },
     {
       "id": "pesnicka-kohutik-jaraby",
@@ -3680,7 +3846,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/pesnicka-kohutik-jaraby/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/pesnicka-kohutik-jaraby/"
       },
-      "url": "/environmental-upbringing-and-education/pesnicka-kohutik-jaraby/"
+      "url": "/environmental-upbringing-and-education/pesnicka-kohutik-jaraby/",
+      "urlAliasy": []
     },
     {
       "id": "pesnicka-oda-na-radost",
@@ -3706,7 +3873,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/pesnicka-oda-na-radost/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/pesnicka-oda-na-radost/"
       },
-      "url": "/environmental-upbringing-and-education/pesnicka-oda-na-radost/"
+      "url": "/environmental-upbringing-and-education/pesnicka-oda-na-radost/",
+      "urlAliasy": []
     },
     {
       "id": "dendrolog-2-tretia-podstranka",
@@ -3732,7 +3900,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/dendrolog-2-tretia-podstranka/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/dendrolog-2-tretia-podstranka/"
       },
-      "url": "/environmental-upbringing-and-education/dendrolog-2-tretia-podstranka/"
+      "url": "/environmental-upbringing-and-education/dendrolog-2-tretia-podstranka/",
+      "urlAliasy": []
     },
     {
       "id": "dendrolog-2-stvrta-podstranka",
@@ -3750,7 +3919,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<h2><strong>Stupnica</strong></h2>\n<p>(iné názvy: <strong>tónová stupnica, hudobná stupnica</strong>) je v muzikológii rad tónov, stupňovito zoradených v stúpajúcom alebo klesajúcom smere podľa určitých pravidiel od základného (prvého) tónu – toniky stupnice k jeho oktáve (oktáva je vzdialenosť tónov z ktorých ten vyšší má dvojnásobnú frekvenciu).</p>\n<p>Skupinu tónov danej stupnice, použitú v určitej hudobnej skladbe alebo piesni nazývame tónina.<a href=\"https://sk.wikipedia.org/wiki/Stupnica_(hudba)#cite_note-1\">[1]</a>Stupnice sú v podstate konvencie, ktoré sa vytvorili tak, aby ladili nášmu sluchu. Rôzne stupnice sa líšia hlavne počtom tónov a ich vzdialenosťami (intervalmi), t. j. hlavne umiestnením poltónov a celých tónov.</p>\n<p><strong>Durové stupnice</strong> sú diatonické stupnice, typické pre európsku hudbu. Názov je odvodený z latinského „durum“ – tvrdý.</p>\n<p><strong>C dur –</strong> Základnou durovou stupnicou je C dur. Skladá sa z týchto tónov: C,D,E,F,G,A,H,C. Na klavíri sú to iba biele klávesy. Na vokálne (hlasové) účely majú tóny C-dur aj svoje slabičné názvy, to je tvz. solmizačná stupnica.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/07/2025-07-16_09h11_35.png\" alt=\"\"></p>\n<p>Zvuková nahrávka – Ogg Vorbis sound file of C Major scale, Zdroj: <a href=\"https://sk.wikipedia.org/wiki/S%C3%BAbor:C_major.ogg\">Aidan Hanrath, Vlastné dielo</a></p>\n<p>Zdroj: <a href=\"https://sk.wikipedia.org/wiki/Stupnica_(hudba)\">Wikipedia</a></p>",
+      "text": "<h2><strong>Stupnica</strong></h2>\n<p>(iné názvy: <strong>tónová stupnica, hudobná stupnica</strong>) je v muzikológii rad tónov, stupňovito zoradených v stúpajúcom alebo klesajúcom smere podľa určitých pravidiel od základného (prvého) tónu – toniky stupnice k jeho oktáve (oktáva je vzdialenosť tónov z ktorých ten vyšší má dvojnásobnú frekvenciu).</p>\n<p>Skupinu tónov danej stupnice, použitú v určitej hudobnej skladbe alebo piesni nazývame tónina.<a href=\"https://sk.wikipedia.org/wiki/Stupnica_(hudba)#cite_note-1\">[1]</a>Stupnice sú v podstate konvencie, ktoré sa vytvorili tak, aby ladili nášmu sluchu. Rôzne stupnice sa líšia hlavne počtom tónov a ich vzdialenosťami (intervalmi), t. j. hlavne umiestnením poltónov a celých tónov.</p>\n<p><strong>Durové stupnice</strong> sú diatonické stupnice, typické pre európsku hudbu. Názov je odvodený z latinského „durum“ – tvrdý.</p>\n<p><strong>C dur –</strong> Základnou durovou stupnicou je C dur. Skladá sa z týchto tónov: C,D,E,F,G,A,H,C. Na klavíri sú to iba biele klávesy. Na vokálne (hlasové) účely majú tóny C-dur aj svoje slabičné názvy, to je tvz. solmizačná stupnica.</p>\n<p><img src=\"/assets/images/migrated/2025-07-16_09h11_35.png\" alt=\"\"></p>\n<p>Zvuková nahrávka – Ogg Vorbis sound file of C Major scale, Zdroj: <a href=\"https://sk.wikipedia.org/wiki/S%C3%BAbor:C_major.ogg\">Aidan Hanrath, Vlastné dielo</a></p>\n<p>Zdroj: <a href=\"https://sk.wikipedia.org/wiki/Stupnica_(hudba)\">Wikipedia</a></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/",
         "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/",
@@ -3759,7 +3928,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/"
       },
-      "url": "/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/"
+      "url": "/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/",
+      "urlAliasy": []
     },
     {
       "id": "oravsky-hrad",
@@ -3785,7 +3955,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/oravsky-hrad/",
         "hu": "https://www.qrlink.sk/new/hu/oravsky-hrad/"
       },
-      "url": "/oravsky-hrad/"
+      "url": "/oravsky-hrad/",
+      "urlAliasy": []
     },
     {
       "id": "babia-hora",
@@ -3811,7 +3982,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/babia-hora/",
         "hu": "https://www.qrlink.sk/new/hu/babia-hora/"
       },
-      "url": "/babia-hora/"
+      "url": "/babia-hora/",
+      "urlAliasy": []
     },
     {
       "id": "slovensky-severny-pol-oravska-polhora",
@@ -3840,7 +4012,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/slovensky-severny-pol-oravska-polhora/",
         "hu": "https://www.qrlink.sk/new/hu/slovensky-severny-pol-oravska-polhora/"
       },
-      "url": "/slovensky-severny-pol-oravska-polhora/"
+      "url": "/slovensky-severny-pol-oravska-polhora/",
+      "urlAliasy": []
     },
     {
       "id": "slanicky-ostrov-umenia",
@@ -3866,7 +4039,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/slanicky-ostrov-umenia/",
         "hu": "https://www.qrlink.sk/new/hu/slanicky-ostrov-umenia/"
       },
-      "url": "/slanicky-ostrov-umenia/"
+      "url": "/slanicky-ostrov-umenia/",
+      "urlAliasy": []
     },
     {
       "id": "rimsko-katolicky-kostol-sv-michala-archanjela-velicna",
@@ -3892,7 +4066,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/rimsko-katolicky-kostol-sv-michala-archanjela-velicna/",
         "hu": "https://www.qrlink.sk/new/hu/rimsko-katolicky-kostol-sv-michala-archanjela-velicna/"
       },
-      "url": "/rimsko-katolicky-kostol-sv-michala-archanjela-velicna/"
+      "url": "/rimsko-katolicky-kostol-sv-michala-archanjela-velicna/",
+      "urlAliasy": []
     },
     {
       "id": "klin",
@@ -3918,7 +4093,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/klin/",
         "hu": "https://www.qrlink.sk/new/hu/klin/"
       },
-      "url": "/klin/"
+      "url": "/klin/",
+      "urlAliasy": []
     },
     {
       "id": "stala-expozicia-ludoveho-rezbarstva",
@@ -3944,7 +4120,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/stala-expozicia-ludoveho-rezbarstva/",
         "hu": "https://www.qrlink.sk/new/hu/stala-expozicia-ludoveho-rezbarstva/"
       },
-      "url": "/stala-expozicia-ludoveho-rezbarstva/"
+      "url": "/stala-expozicia-ludoveho-rezbarstva/",
+      "urlAliasy": []
     },
     {
       "id": "bobrovska-kalvaria",
@@ -3970,7 +4147,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/bobrovska-kalvaria/",
         "hu": "https://www.qrlink.sk/new/hu/bobrovska-kalvaria/"
       },
-      "url": "/bobrovska-kalvaria/"
+      "url": "/bobrovska-kalvaria/",
+      "urlAliasy": []
     },
     {
       "id": "hrad-strecno",
@@ -3996,7 +4174,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/hrad-strecno/",
         "hu": "https://www.qrlink.sk/new/hu/hrad-strecno/"
       },
-      "url": "/hrad-strecno/"
+      "url": "/hrad-strecno/",
+      "urlAliasy": []
     },
     {
       "id": "plte-na-vahu",
@@ -4022,7 +4201,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/plte-na-vahu/",
         "hu": "https://www.qrlink.sk/new/hu/plte-na-vahu/"
       },
-      "url": "/plte-na-vahu/"
+      "url": "/plte-na-vahu/",
+      "urlAliasy": []
     },
     {
       "id": "hrad-lietava",
@@ -4048,7 +4228,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/hrad-lietava/",
         "hu": "https://www.qrlink.sk/new/hu/hrad-lietava/"
       },
-      "url": "/hrad-lietava/"
+      "url": "/hrad-lietava/",
+      "urlAliasy": []
     },
     {
       "id": "muzeum-juraja-janosika",
@@ -4074,7 +4255,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/muzeum-juraja-janosika/",
         "hu": "https://www.qrlink.sk/new/hu/muzeum-juraja-janosika/"
       },
-      "url": "/muzeum-juraja-janosika/"
+      "url": "/muzeum-juraja-janosika/",
+      "urlAliasy": []
     },
     {
       "id": "janosikove-diery",
@@ -4100,7 +4282,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/janosikove-diery/",
         "hu": "https://www.qrlink.sk/new/hu/janosikove-diery/"
       },
-      "url": "/janosikove-diery/"
+      "url": "/janosikove-diery/",
+      "urlAliasy": []
     },
     {
       "id": "sulovsky-hrad",
@@ -4126,7 +4309,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/sulovsky-hrad/",
         "hu": "https://www.qrlink.sk/new/hu/sulovsky-hrad/"
       },
-      "url": "/sulovsky-hrad/"
+      "url": "/sulovsky-hrad/",
+      "urlAliasy": []
     },
     {
       "id": "historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny",
@@ -4144,7 +4328,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2597.388960379223!2d19.093981615633314!3d49.38263387934232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a01aab07ba1a8d2!2zNDnCsDIyJzU3LjUiTiAxOcKwMDUnNDYuMiJF!5e0!3m2!1ssk!2ssk!4v1673719549886!5m2!1ssk!2ssk",
-      "text": "<p>Historická lesná úvraťová železnica je zachovanou a funkčnou časťou bývalej Kysucko-oravskej lesnej železnice (KOLŽ), ktorá vznikla v roku 1926 spojením lesných železníc vybudovaných v roku 1915 – 1918, a to kysuckej – z Oščadnice do Chmúry (Nová Bystrica, časť Vychylovka) a oravskej – z Lokce do Erdútky (terajšej Oravskej Lesnej). Prevádzka na KOLŽ bola ukončená na konci roku 1971 a okrem 8 km dlhého úseku Chmúra – Tanečník, v ktorom sa nachádzal cenný úvraťový systém, bola ostatná trať demontovaná. V roku 1974 zachovanú časť zrušenej KOLŽ prevzalo do správy Kysucké múzeum v Čadci. Úsek bývalej KOLŽ o dĺžke 8 km medzi Chmúrou (Vychylovka) a Tanečníkom (Oravská Lesná) s unikátnym úvraťovým systémom, bol ako technická pamiatka vyhlásený v roku 1991 za národnú kultúrnu pamiatku SR. Súčasťou inventára HLÚŽ sú historické parné a motorové rušne, vozne a pod. Železnica premáva počas sezónnej prevádzky v mesiacoch máj – október.</p>\n<p>Múzeum Kysuckej dediny je skanzen nachádzajúci sa neďaleko obce Nová Bystrica, časti Vychylovka, v doline Chmúra, ktorá je súčasťou CHKO Kysuce. Skanzen vznikol 11. októbra 1974, pričom jeden z hlavných dôvodov pre jeho vznik bola záchrana najcennejších pamiatok ľudovej architektúry z obcí Riečnica a Harvelka, ktoré mali zaniknúť z dôvodu výstavby vodnej nádrže Nová Bystrica. </p>\n<p>Do roku 1981, kedy bola sprístupnená prvá časť expozície, sa vybudovalo 22 z celkovo plánovaných 69 objektov expozície múzea v prírode. Národopisná expozícia sa usiluje o rekonštrukciu sídelnej krajiny a životného prostredia, s prezentáciou ľudovej architektúry a spôsobu života i kultúry ľudu na Kysuciach v druhej polovici 19. storočia a prvej polovici 20. storočia. Technické stavby prezentuje vodný mlyn a píla s hrázdenou konštrukciou z obce Klubina. Zo sakrálnych stavieb sa tu nachádza murovaná kaplnka z prvej štvrtiny 19. storočia zo Zborova nad Bystricou a cintorín s kovovými krížmi, predstavujúci cintoríny na Kysuciach začiatkom tohto storočia.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/01/15-muzeum-kysuckej-dediny.jpg\" alt=\"\"></p>",
+      "text": "<p>Historická lesná úvraťová železnica je zachovanou a funkčnou časťou bývalej Kysucko-oravskej lesnej železnice (KOLŽ), ktorá vznikla v roku 1926 spojením lesných železníc vybudovaných v roku 1915 – 1918, a to kysuckej – z Oščadnice do Chmúry (Nová Bystrica, časť Vychylovka) a oravskej – z Lokce do Erdútky (terajšej Oravskej Lesnej). Prevádzka na KOLŽ bola ukončená na konci roku 1971 a okrem 8 km dlhého úseku Chmúra – Tanečník, v ktorom sa nachádzal cenný úvraťový systém, bola ostatná trať demontovaná. V roku 1974 zachovanú časť zrušenej KOLŽ prevzalo do správy Kysucké múzeum v Čadci. Úsek bývalej KOLŽ o dĺžke 8 km medzi Chmúrou (Vychylovka) a Tanečníkom (Oravská Lesná) s unikátnym úvraťovým systémom, bol ako technická pamiatka vyhlásený v roku 1991 za národnú kultúrnu pamiatku SR. Súčasťou inventára HLÚŽ sú historické parné a motorové rušne, vozne a pod. Železnica premáva počas sezónnej prevádzky v mesiacoch máj – október.</p>\n<p>Múzeum Kysuckej dediny je skanzen nachádzajúci sa neďaleko obce Nová Bystrica, časti Vychylovka, v doline Chmúra, ktorá je súčasťou CHKO Kysuce. Skanzen vznikol 11. októbra 1974, pričom jeden z hlavných dôvodov pre jeho vznik bola záchrana najcennejších pamiatok ľudovej architektúry z obcí Riečnica a Harvelka, ktoré mali zaniknúť z dôvodu výstavby vodnej nádrže Nová Bystrica. </p>\n<p>Do roku 1981, kedy bola sprístupnená prvá časť expozície, sa vybudovalo 22 z celkovo plánovaných 69 objektov expozície múzea v prírode. Národopisná expozícia sa usiluje o rekonštrukciu sídelnej krajiny a životného prostredia, s prezentáciou ľudovej architektúry a spôsobu života i kultúry ľudu na Kysuciach v druhej polovici 19. storočia a prvej polovici 20. storočia. Technické stavby prezentuje vodný mlyn a píla s hrázdenou konštrukciou z obce Klubina. Zo sakrálnych stavieb sa tu nachádza murovaná kaplnka z prvej štvrtiny 19. storočia zo Zborova nad Bystricou a cintorín s kovovými krížmi, predstavujúci cintoríny na Kysuciach začiatkom tohto storočia.</p>\n<p><img src=\"/assets/images/migrated/15-muzeum-kysuckej-dediny.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny/",
         "en": "https://www.qrlink.sk/new/en/historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny/",
@@ -4153,7 +4337,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny/",
         "hu": "https://www.qrlink.sk/new/hu/historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny/"
       },
-      "url": "/historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny/"
+      "url": "/historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny/",
+      "urlAliasy": []
     },
     {
       "id": "trojmedzie",
@@ -4179,7 +4364,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/trojmedzie/",
         "hu": "https://www.qrlink.sk/new/hu/trojmedzie/"
       },
-      "url": "/trojmedzie/"
+      "url": "/trojmedzie/",
+      "urlAliasy": []
     },
     {
       "id": "marianske-putnicke-miesto-zivcakova",
@@ -4205,7 +4391,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/marianske-putnicke-miesto-zivcakova/",
         "hu": "https://www.qrlink.sk/new/hu/marianske-putnicke-miesto-zivcakova/"
       },
-      "url": "/marianske-putnicke-miesto-zivcakova/"
+      "url": "/marianske-putnicke-miesto-zivcakova/",
+      "urlAliasy": []
     },
     {
       "id": "kamenne-gule-na-kysuciach",
@@ -4231,7 +4418,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kamenne-gule-na-kysuciach/",
         "hu": "https://www.qrlink.sk/new/hu/kamenne-gule-na-kysuciach/"
       },
-      "url": "/kamenne-gule-na-kysuciach/"
+      "url": "/kamenne-gule-na-kysuciach/",
+      "urlAliasy": []
     },
     {
       "id": "tri-krize-na-stratenci-a-kriz-na-velkom-javorniku",
@@ -4249,7 +4437,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2600.9587581586443!2d18.332809915630804!3d49.31506467933492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc11c98ee5119d30d!2zNDnCsDE4JzU0LjIiTiAxOMKwMjAnMDYuMCJF!5e0!3m2!1ssk!2ssk!4v1673720689668!5m2!1ssk!2ssk",
-      "text": "<p>V blízkosti slovensko-českých hraníc sa rozprestiera obľúbené pohorie Javorníky. Jeho najvyšším vrcholom je Veľký Javorník, ktorý je ako stvorený na turistiku s rodinou a priateľmi. Očarí vás malebnými zákutiami, krásnou prírodou, ako aj nenáročnosťou výstupových trás.</p>\n<p>Cestou sa vám naskytujú panoramatické výhľady najmä na Moravsko-sliezske Beskydy. Na hrebeni okrem prírodných krás nájdete aj diela ľudských rúk, a to v podobe kamenných objektov – jedinečnú kamennú galériu v prírode. Ich autormi sú umelci spätí s regiónmi Kysuce a Horné Považie (medzi nimi Ondrej Zimka, Gustáv Švábik-Macvejda, Milan Greguš, Pavol Muška, Ondrej 4. a ateliér Tri kamene a iní).</p>\n<p>Bola vybudovaná v roku 2008, v nadmorskej výške 1055 m n. m. Nachádza sa tu tiež kamenný pamätník Tri kríže. Venovaný je trom vojakom, ktorí padli počas 2. svetovej vojny, v čase oslobodenia Veľkých Karlovíc. Rozhľadňa má výšku 8 m a vedie na ňu 22 schodov.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/01/02-tri-krize-na-stratenci.jpg\" alt=\"\"></p>",
+      "text": "<p>V blízkosti slovensko-českých hraníc sa rozprestiera obľúbené pohorie Javorníky. Jeho najvyšším vrcholom je Veľký Javorník, ktorý je ako stvorený na turistiku s rodinou a priateľmi. Očarí vás malebnými zákutiami, krásnou prírodou, ako aj nenáročnosťou výstupových trás.</p>\n<p>Cestou sa vám naskytujú panoramatické výhľady najmä na Moravsko-sliezske Beskydy. Na hrebeni okrem prírodných krás nájdete aj diela ľudských rúk, a to v podobe kamenných objektov – jedinečnú kamennú galériu v prírode. Ich autormi sú umelci spätí s regiónmi Kysuce a Horné Považie (medzi nimi Ondrej Zimka, Gustáv Švábik-Macvejda, Milan Greguš, Pavol Muška, Ondrej 4. a ateliér Tri kamene a iní).</p>\n<p>Bola vybudovaná v roku 2008, v nadmorskej výške 1055 m n. m. Nachádza sa tu tiež kamenný pamätník Tri kríže. Venovaný je trom vojakom, ktorí padli počas 2. svetovej vojny, v čase oslobodenia Veľkých Karlovíc. Rozhľadňa má výšku 8 m a vedie na ňu 22 schodov.</p>\n<p><img src=\"/assets/images/migrated/02-tri-krize-na-stratenci.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/tri-krize-na-stratenci-a-kriz-na-velkom-javorniku/",
         "en": "https://www.qrlink.sk/new/en/tri-krize-na-stratenci-a-kriz-na-velkom-javorniku/",
@@ -4258,7 +4446,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/tri-krize-na-stratenci-a-kriz-na-velkom-javorniku/",
         "hu": "https://www.qrlink.sk/new/hu/tri-krize-na-stratenci-a-kriz-na-velkom-javorniku/"
       },
-      "url": "/tri-krize-na-stratenci-a-kriz-na-velkom-javorniku/"
+      "url": "/tri-krize-na-stratenci-a-kriz-na-velkom-javorniku/",
+      "urlAliasy": []
     },
     {
       "id": "unikatny-dreveny-betlehem-v-rajeckej-lesnej",
@@ -4284,7 +4473,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/unikatny-dreveny-betlehem-v-rajeckej-lesnej/",
         "hu": "https://www.qrlink.sk/new/hu/unikatny-dreveny-betlehem-v-rajeckej-lesnej/"
       },
-      "url": "/unikatny-dreveny-betlehem-v-rajeckej-lesnej/"
+      "url": "/unikatny-dreveny-betlehem-v-rajeckej-lesnej/",
+      "urlAliasy": []
     },
     {
       "id": "gejzir-v-rajeckej-lesnej",
@@ -4310,7 +4500,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/gejzir-v-rajeckej-lesnej/",
         "hu": "https://www.qrlink.sk/new/hu/gejzir-v-rajeckej-lesnej/"
       },
-      "url": "/gejzir-v-rajeckej-lesnej/"
+      "url": "/gejzir-v-rajeckej-lesnej/",
+      "urlAliasy": []
     },
     {
       "id": "mestsky-urad-frydlant-nad-ostravici",
@@ -4339,7 +4530,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/mestsky-urad-frydlant-nad-ostravici/",
         "hu": "https://www.qrlink.sk/new/hu/mestsky-urad-frydlant-nad-ostravici/"
       },
-      "url": "/mestsky-urad-frydlant-nad-ostravici/"
+      "url": "/mestsky-urad-frydlant-nad-ostravici/",
+      "urlAliasy": []
     },
     {
       "id": "kostol-sv-bartolomeja",
@@ -4368,7 +4560,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kostol-sv-bartolomeja/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-sv-bartolomeja/"
       },
-      "url": "/kostol-sv-bartolomeja/"
+      "url": "/kostol-sv-bartolomeja/",
+      "urlAliasy": []
     },
     {
       "id": "centrum-socialnych-sluzieb",
@@ -4397,7 +4590,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/centrum-socialnych-sluzieb/",
         "hu": "https://www.qrlink.sk/new/hu/centrum-socialnych-sluzieb/"
       },
-      "url": "/centrum-socialnych-sluzieb/"
+      "url": "/centrum-socialnych-sluzieb/",
+      "urlAliasy": []
     },
     {
       "id": "kulturne-centrum-frydlant-nad-ostravici",
@@ -4426,7 +4620,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kulturne-centrum-frydlant-nad-ostravici/",
         "hu": "https://www.qrlink.sk/new/hu/kulturne-centrum-frydlant-nad-ostravici/"
       },
-      "url": "/kulturne-centrum-frydlant-nad-ostravici/"
+      "url": "/kulturne-centrum-frydlant-nad-ostravici/",
+      "urlAliasy": []
     },
     {
       "id": "zakladna-skola-frydlant-nad-ostravici-namestie-t-g-masaryka-1260-prispevkova-organizacia",
@@ -4455,7 +4650,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/zakladna-skola-frydlant-nad-ostravici-namestie-t-g-masaryka-1260-prispevkova-organizacia/",
         "hu": "https://www.qrlink.sk/new/hu/zakladna-skola-frydlant-nad-ostravici-namestie-t-g-masaryka-1260-prispevkova-organizacia/"
       },
-      "url": "/zakladna-skola-frydlant-nad-ostravici-namestie-t-g-masaryka-1260-prispevkova-organizacia/"
+      "url": "/zakladna-skola-frydlant-nad-ostravici-namestie-t-g-masaryka-1260-prispevkova-organizacia/",
+      "urlAliasy": []
     },
     {
       "id": "zakladna-skola-frydlant-nad-ostravici-komenskeho-420-prispevkova-organizacia",
@@ -4484,7 +4680,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/zakladna-skola-frydlant-nad-ostravici-komenskeho-420-prispevkova-organizacia/",
         "hu": "https://www.qrlink.sk/new/hu/zakladna-skola-frydlant-nad-ostravici-komenskeho-420-prispevkova-organizacia/"
       },
-      "url": "/zakladna-skola-frydlant-nad-ostravici-komenskeho-420-prispevkova-organizacia/"
+      "url": "/zakladna-skola-frydlant-nad-ostravici-komenskeho-420-prispevkova-organizacia/",
+      "urlAliasy": []
     },
     {
       "id": "letisko-frydlant-nad-ostravici",
@@ -4513,7 +4710,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/letisko-frydlant-nad-ostravici/",
         "hu": "https://www.qrlink.sk/new/hu/letisko-frydlant-nad-ostravici/"
       },
-      "url": "/letisko-frydlant-nad-ostravici/"
+      "url": "/letisko-frydlant-nad-ostravici/",
+      "urlAliasy": []
     },
     {
       "id": "futbalove-ihrisko-a-hala-sport-frydlant-nad-ostravici",
@@ -4542,7 +4740,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/futbalove-ihrisko-a-hala-sport-frydlant-nad-ostravici/",
         "hu": "https://www.qrlink.sk/new/hu/futbalove-ihrisko-a-hala-sport-frydlant-nad-ostravici/"
       },
-      "url": "/futbalove-ihrisko-a-hala-sport-frydlant-nad-ostravici/"
+      "url": "/futbalove-ihrisko-a-hala-sport-frydlant-nad-ostravici/",
+      "urlAliasy": []
     },
     {
       "id": "kupalisko-a-tenisove-kurty-edimex",
@@ -4571,7 +4770,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kupalisko-a-tenisove-kurty-edimex/",
         "hu": "https://www.qrlink.sk/new/hu/kupalisko-a-tenisove-kurty-edimex/"
       },
-      "url": "/kupalisko-a-tenisove-kurty-edimex/"
+      "url": "/kupalisko-a-tenisove-kurty-edimex/",
+      "urlAliasy": []
     },
     {
       "id": "sportove-a-relaxacne-centrum-kotelna",
@@ -4600,7 +4800,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/sportove-a-relaxacne-centrum-kotelna/",
         "hu": "https://www.qrlink.sk/new/hu/sportove-a-relaxacne-centrum-kotelna/"
       },
-      "url": "/sportove-a-relaxacne-centrum-kotelna/"
+      "url": "/sportove-a-relaxacne-centrum-kotelna/",
+      "urlAliasy": []
     },
     {
       "id": "kaplnka-sv-antonina-paduanskeho-ondrejnik",
@@ -4629,7 +4830,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-sv-antonina-paduanskeho-ondrejnik/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-sv-antonina-paduanskeho-ondrejnik/"
       },
-      "url": "/kaplnka-sv-antonina-paduanskeho-ondrejnik/"
+      "url": "/kaplnka-sv-antonina-paduanskeho-ondrejnik/",
+      "urlAliasy": []
     },
     {
       "id": "vlakova-stanica-frydlant-nad-ostravici",
@@ -4658,7 +4860,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/vlakova-stanica-frydlant-nad-ostravici/",
         "hu": "https://www.qrlink.sk/new/hu/vlakova-stanica-frydlant-nad-ostravici/"
       },
-      "url": "/vlakova-stanica-frydlant-nad-ostravici/"
+      "url": "/vlakova-stanica-frydlant-nad-ostravici/",
+      "urlAliasy": []
     },
     {
       "id": "doc-ing-julius-binder-dr-h-c",
@@ -4682,7 +4885,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/doc-ing-julius-binder-dr-h-c/",
         "hu": "https://www.qrlink.sk/new/hu/castles/doc-ing-julius-binder-dr-h-c/"
       },
-      "url": "/castles/doc-ing-julius-binder-dr-h-c/"
+      "url": "/castles/doc-ing-julius-binder-dr-h-c/",
+      "urlAliasy": []
     },
     {
       "id": "gabcikov-sad",
@@ -4704,7 +4908,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/gabcikov-sad/",
         "hu": "https://www.qrlink.sk/new/hu/castles/gabcikov-sad/"
       },
-      "url": "/castles/gabcikov-sad/"
+      "url": "/castles/gabcikov-sad/",
+      "urlAliasy": []
     },
     {
       "id": "hmyzi-hotel",
@@ -4726,7 +4931,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/hmyzi-hotel/",
         "hu": "https://www.qrlink.sk/new/hu/castles/hmyzi-hotel/"
       },
-      "url": "/castles/hmyzi-hotel/"
+      "url": "/castles/hmyzi-hotel/",
+      "urlAliasy": []
     },
     {
       "id": "vcela-samotarka",
@@ -4752,7 +4958,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/vcela-samotarka/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/vcela-samotarka/"
       },
-      "url": "/environmental-upbringing-and-education/vcela-samotarka/"
+      "url": "/environmental-upbringing-and-education/vcela-samotarka/",
+      "urlAliasy": []
     },
     {
       "id": "cmel",
@@ -4778,7 +4985,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/cmel/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/cmel/"
       },
-      "url": "/environmental-upbringing-and-education/cmel/"
+      "url": "/environmental-upbringing-and-education/cmel/",
+      "urlAliasy": []
     },
     {
       "id": "zlatoocka-obycajna",
@@ -4804,7 +5012,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/zlatoocka-obycajna/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/zlatoocka-obycajna/"
       },
-      "url": "/environmental-upbringing-and-education/zlatoocka-obycajna/"
+      "url": "/environmental-upbringing-and-education/zlatoocka-obycajna/",
+      "urlAliasy": []
     },
     {
       "id": "lienka-sedembodkova",
@@ -4830,7 +5039,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/lienka-sedembodkova/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/lienka-sedembodkova/"
       },
-      "url": "/environmental-upbringing-and-education/lienka-sedembodkova/"
+      "url": "/environmental-upbringing-and-education/lienka-sedembodkova/",
+      "urlAliasy": []
     },
     {
       "id": "cesticka-na-hrad",
@@ -4859,7 +5069,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/cesticka-na-hrad/",
         "hu": "https://www.qrlink.sk/new/hu/castles/cesticka-na-hrad/"
       },
-      "url": "/castles/cesticka-na-hrad/"
+      "url": "/castles/cesticka-na-hrad/",
+      "urlAliasy": []
     },
     {
       "id": "vstup-na-hrad",
@@ -4888,7 +5099,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/vstup-na-hrad/",
         "hu": "https://www.qrlink.sk/new/hu/castles/vstup-na-hrad/"
       },
-      "url": "/castles/vstup-na-hrad/"
+      "url": "/castles/vstup-na-hrad/",
+      "urlAliasy": []
     },
     {
       "id": "expozicia-archeologie",
@@ -4909,7 +5121,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>V tejto miestnosti sa nachádza archeologická expozícia. Vo vitrínach môžete vidieť archeologické nálezy z obdobia od praveku po stredovek, ktoré sa našli počas archeologických výskumov v Strečne a v okolitých obciach (Varín, Rosina, Krasňany, Gbeľany).</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2020/07/stre%C4%8Dno-mapka_3.jpg\" alt=\"\"></p>",
+      "text": "<p>V tejto miestnosti sa nachádza archeologická expozícia. Vo vitrínach môžete vidieť archeologické nálezy z obdobia od praveku po stredovek, ktoré sa našli počas archeologických výskumov v Strečne a v okolitých obciach (Varín, Rosina, Krasňany, Gbeľany).</p>\n<p><img src=\"/assets/images/migrated/strecno-mapka_3.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/expozicia-archeologie/",
         "en": "https://www.qrlink.sk/new/en/castles/expozicia-archeologie/",
@@ -4918,7 +5130,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/expozicia-archeologie/",
         "hu": "https://www.qrlink.sk/new/hu/castles/expozicia-archeologie/"
       },
-      "url": "/castles/expozicia-archeologie/"
+      "url": "/castles/expozicia-archeologie/",
+      "urlAliasy": []
     },
     {
       "id": "prve-podlazie-juzneho-palaca",
@@ -4936,7 +5149,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Prvá písomná zmienka o Strečne, ako o provincii pochádza z roku 1316. V tomto období ovládal celú Žilinskú kotlinu Matúš Čák Trenčiansky a po jeho smrti prevzal jeho majetky uhorský kráľ, Karol Róbert. Ako kamenný hrad, ,,comitatus castri Strychen“, sa Strečno spomína v listine z roku 1384. Hrad bol postavený na vysokom vápencovom brale (cca 100m) nad riekou Váh. Takéto výnimočné umiestnenie umožňovalo prísnu kontrolu každého, kto chcel prejsť dolinou Váhu. Preto bol hrad využívaný na stráženie mýtnej stanice, ktorá sa nachádzala pri brode cez rieku. Do konca 14. storočia bol hrad kráľovským majetkom. V nasledujúcom období viackrát menil majiteľov, medzi ktorými bol prvý poľský šľachtic Sudivoj z Ostrorohu, bývalý husitský kapitán Ján Čapek zo Sán, Pongrác z Liptovského Mikuláša či Pavol Kiniži (ktorý bol aj majiteľom hradu Lietava). Vdova po Pavlovi Kinižim, Benigna, predala hrad Zápoľským. Následne hrad pripadol Mikulášovi Kostkovi, po ktorom ho vlastnili Deršfiovci. Najznámejšími majiteľmi boli František Vešeléni a jeho žena Žofia Bosniaková, ktorí hrad vlastnili v 17. storočí. Spočiatku mal hrad iba malú rozlohu (22x18m). Tvorila ho obytná budova, cisterna a päťposchodová hranolová veža, tzv. bergfrit. Prístup do hradu bol z južnej strany chránený priekopou vysekanou do hradnej skaly, cez ktorú viedol most k hlavnej bráne. V 16. storočí bol hrad značne rozšírený a prestavaný. Bolo potrebné ho opevniť, aby sa stal bezpečným útočiskom a taktiež zútulniť pre potreby šľachty. Hrad sa tak postupne rozrástol o severný palác zakončený kaplnkou a tiež o južný palác s 2 obytnými krídlami. Na západnej strane vzniklo predhradie so severnou vežou a novou hlavnou bránou s predbráním. Na východnej strane vznikol dvojpodlažný palác a múry boli posunuté až na okraj skalnej steny nad riekou. V 17. storočí vznikli tri delové bastióny a z južnej strany pribudli dve nové predhradia s bránami. V tomto období dosiahol hrad svoju najväčšiu rozlohu – 165x61m a stal sa najlepšie opevneným hradom na strednom Považí. Model hradu v jeho najväčšej rozlohe môžete vidieť vo vitríne. V priebehu druhej polovice 17. storočia prežil hrad niekoľko dramatických udalostí. Vtedajší majiteľ, František Vešeléni, zomrel a majetky zdedil jeho syn Ladislav. Avšak ten sa musel svojich majetkov v Uhorsku vzdať, pretože došlo k prezradeniu, že jeho otec pripravoval povstanie proti cisárovi. Po konfiškácii majetku sa na hrade usídlili Tőkőlyho vojaci, ktorí bojovali v rámci protihabsburského povstania. Cisár Leopold I. preto prikázal hrad definitívne zničiť. Opevnenie a strechy hradu boli zbúrané, studňa a hradná cisterna boli zasypané. Od konca 17. storočia hrad chátral. V roku 1970 bol hrad vyhlásený za Národnú kultúrnu pamiatku. Následne bol rekonštruovaný (1978 – 1994) a v roku 1995 bol ako zrekonštruovaná zrúcanina sprístupnený verejnosti. Druhý model hradu zobrazuje stav zrúcaniny pred rekonštrukciou (30 roky 20. storočia).</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2020/07/4a-model-hradu-20.-storo%C4%8Die.png\" alt=\"\"></p>\n<p>V súčasnosti môžete vidieť v tejto miestnosti výstavu dobových pohľadníc hradu Strečno a neďalekého Starého hradu a fotografíí súčasnej podoby Strečna.</p>",
+      "text": "<p>Prvá písomná zmienka o Strečne, ako o provincii pochádza z roku 1316. V tomto období ovládal celú Žilinskú kotlinu Matúš Čák Trenčiansky a po jeho smrti prevzal jeho majetky uhorský kráľ, Karol Róbert. Ako kamenný hrad, ,,comitatus castri Strychen“, sa Strečno spomína v listine z roku 1384. Hrad bol postavený na vysokom vápencovom brale (cca 100m) nad riekou Váh. Takéto výnimočné umiestnenie umožňovalo prísnu kontrolu každého, kto chcel prejsť dolinou Váhu. Preto bol hrad využívaný na stráženie mýtnej stanice, ktorá sa nachádzala pri brode cez rieku. Do konca 14. storočia bol hrad kráľovským majetkom. V nasledujúcom období viackrát menil majiteľov, medzi ktorými bol prvý poľský šľachtic Sudivoj z Ostrorohu, bývalý husitský kapitán Ján Čapek zo Sán, Pongrác z Liptovského Mikuláša či Pavol Kiniži (ktorý bol aj majiteľom hradu Lietava). Vdova po Pavlovi Kinižim, Benigna, predala hrad Zápoľským. Následne hrad pripadol Mikulášovi Kostkovi, po ktorom ho vlastnili Deršfiovci. Najznámejšími majiteľmi boli František Vešeléni a jeho žena Žofia Bosniaková, ktorí hrad vlastnili v 17. storočí. Spočiatku mal hrad iba malú rozlohu (22x18m). Tvorila ho obytná budova, cisterna a päťposchodová hranolová veža, tzv. bergfrit. Prístup do hradu bol z južnej strany chránený priekopou vysekanou do hradnej skaly, cez ktorú viedol most k hlavnej bráne. V 16. storočí bol hrad značne rozšírený a prestavaný. Bolo potrebné ho opevniť, aby sa stal bezpečným útočiskom a taktiež zútulniť pre potreby šľachty. Hrad sa tak postupne rozrástol o severný palác zakončený kaplnkou a tiež o južný palác s 2 obytnými krídlami. Na západnej strane vzniklo predhradie so severnou vežou a novou hlavnou bránou s predbráním. Na východnej strane vznikol dvojpodlažný palác a múry boli posunuté až na okraj skalnej steny nad riekou. V 17. storočí vznikli tri delové bastióny a z južnej strany pribudli dve nové predhradia s bránami. V tomto období dosiahol hrad svoju najväčšiu rozlohu – 165x61m a stal sa najlepšie opevneným hradom na strednom Považí. Model hradu v jeho najväčšej rozlohe môžete vidieť vo vitríne. V priebehu druhej polovice 17. storočia prežil hrad niekoľko dramatických udalostí. Vtedajší majiteľ, František Vešeléni, zomrel a majetky zdedil jeho syn Ladislav. Avšak ten sa musel svojich majetkov v Uhorsku vzdať, pretože došlo k prezradeniu, že jeho otec pripravoval povstanie proti cisárovi. Po konfiškácii majetku sa na hrade usídlili Tőkőlyho vojaci, ktorí bojovali v rámci protihabsburského povstania. Cisár Leopold I. preto prikázal hrad definitívne zničiť. Opevnenie a strechy hradu boli zbúrané, studňa a hradná cisterna boli zasypané. Od konca 17. storočia hrad chátral. V roku 1970 bol hrad vyhlásený za Národnú kultúrnu pamiatku. Následne bol rekonštruovaný (1978 – 1994) a v roku 1995 bol ako zrekonštruovaná zrúcanina sprístupnený verejnosti. Druhý model hradu zobrazuje stav zrúcaniny pred rekonštrukciou (30 roky 20. storočia).</p>\n<p><img src=\"/assets/images/migrated/4a-model-hradu-20-storocie.jpg\" alt=\"\"></p>\n<p>V súčasnosti môžete vidieť v tejto miestnosti výstavu dobových pohľadníc hradu Strečno a neďalekého Starého hradu a fotografíí súčasnej podoby Strečna.</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/prve-podlazie-juzneho-palaca/",
         "en": "https://www.qrlink.sk/new/en/castles/prve-podlazie-juzneho-palaca/",
@@ -4945,7 +5158,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/prve-podlazie-juzneho-palaca/",
         "hu": "https://www.qrlink.sk/new/hu/castles/prve-podlazie-juzneho-palaca/"
       },
-      "url": "/castles/prve-podlazie-juzneho-palaca/"
+      "url": "/castles/prve-podlazie-juzneho-palaca/",
+      "urlAliasy": []
     },
     {
       "id": "prizemie-juzneho-palaca-kuchyna",
@@ -4971,7 +5185,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/prizemie-juzneho-palaca-kuchyna/",
         "hu": "https://www.qrlink.sk/new/hu/castles/prizemie-juzneho-palaca-kuchyna/"
       },
-      "url": "/castles/prizemie-juzneho-palaca-kuchyna/"
+      "url": "/castles/prizemie-juzneho-palaca-kuchyna/",
+      "urlAliasy": []
     },
     {
       "id": "juzne-nadvorie",
@@ -4997,7 +5212,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/juzne-nadvorie/",
         "hu": "https://www.qrlink.sk/new/hu/castles/juzne-nadvorie/"
       },
-      "url": "/castles/juzne-nadvorie/"
+      "url": "/castles/juzne-nadvorie/",
+      "urlAliasy": []
     },
     {
       "id": "cisterna",
@@ -5023,7 +5239,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/cisterna/",
         "hu": "https://www.qrlink.sk/new/hu/castles/cisterna/"
       },
-      "url": "/castles/cisterna/"
+      "url": "/castles/cisterna/",
+      "urlAliasy": []
     },
     {
       "id": "vstup-do-hlavnej-veze",
@@ -5041,7 +5258,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Na prízemí, pri vstupe do veže, sa nachádza 8m hlboký otvor. V čase využívania hradu táto miestnosť slúžila, ako chladnička či zásobáreň potravín. Keďže miestnosť nemá žiadny iný prístup okrem vrchného otvoru, v praxi to vyzeralo tak, že sluha sa na lane spustil cez otvor dovnútra a vyzdvihol odtiaľ požadované suroviny. V minulosti sa vo veži nenachádzali schody. Pôvodne tu boli drevené rebríky, ktoré viedli na každé z piatich podlaží veže. Dokonca aj do veže sa najskôr chodilo až z 2. podlažia po pristavenom rebríku, aby sa nepriateľom sťažil jednoduchý prístup dovnútra.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2020/07/8-vstup-do-ve%C5%BEe1.jpg\" alt=\"\"></p>",
+      "text": "<p>Na prízemí, pri vstupe do veže, sa nachádza 8m hlboký otvor. V čase využívania hradu táto miestnosť slúžila, ako chladnička či zásobáreň potravín. Keďže miestnosť nemá žiadny iný prístup okrem vrchného otvoru, v praxi to vyzeralo tak, že sluha sa na lane spustil cez otvor dovnútra a vyzdvihol odtiaľ požadované suroviny. V minulosti sa vo veži nenachádzali schody. Pôvodne tu boli drevené rebríky, ktoré viedli na každé z piatich podlaží veže. Dokonca aj do veže sa najskôr chodilo až z 2. podlažia po pristavenom rebríku, aby sa nepriateľom sťažil jednoduchý prístup dovnútra.</p>\n<p><img src=\"/assets/images/migrated/8-vstup-do-veze1.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/vstup-do-hlavnej-veze/",
         "en": "https://www.qrlink.sk/new/en/castles/vstup-do-hlavnej-veze/",
@@ -5050,7 +5267,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/vstup-do-hlavnej-veze/",
         "hu": "https://www.qrlink.sk/new/hu/castles/vstup-do-hlavnej-veze/"
       },
-      "url": "/castles/vstup-do-hlavnej-veze/"
+      "url": "/castles/vstup-do-hlavnej-veze/",
+      "urlAliasy": []
     },
     {
       "id": "hlavna-veza-vyhlad",
@@ -5069,7 +5287,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Hlavná hradná veža je najvyšším miesto hradu. Od rieky Váh sme teraz vzdialení 148 metrov. V minulosti mala veža obrannú funkciu a využívala sa na kontrolu okolia. Na západnej strane môžete vidieť vrch Zvonica, na ktorom sa nachádza Pamätník francúzskych partizánov. Francúzski partizáni bojovali v okolí Strečna počas SNP. Veľa z nich tu padlo, a preto bol na ich počesť vybudovaný tento pamätník (v krypte sa nachádzajú telesné pozostatky 24 partizánov). Na severozápade môžete vidieť obec Varín. V miestnom kostole bol pred viac ako 300 rokmi krstený najznámejší slovenský zbojník, Juraj Jánošík, rodák z neďalekej Terchovej (Terchová je od Varína vzdialená zhruba 14 km). Smerom na severovýchod sa nachádza Starý hrad (nie je ho vidieť), pôvodne nazývaný hrad Varín. Postavený bol v 13. storočí na pravom brehu Váhu. Viedla tadiaľ hlavná považská cesta do Turca a Liptova, ktorá prechádzala v blízkosti hradu z pravej strany rieky na ľavú brodom cez Váh. Na prelome 13. a 14. storočia sa začala budovať cesta na ľavom brehu Váhu a hrad Varín sa tak dostal mimo dôležitej obchodnej trasy. Jeho funkciu následne prebral novopostavený hrad Strečno. Význam hradu Varín poklesol, o čom svedčí aj jeho premenovanie na Starý hrad. V súčasnosti je iba ruinou.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2020/07/IMG_20200624_150338.jpg\" alt=\"\"></p>\n<h2>Krásna Marienka (povesť)</h2>\n<p>Susedia zo Starého hradu a Strečna zahoreli takmer súčasne láskou ku krásnej Marienke z podhradia Strečna. Hoci k oltáru si nevestu násilím odviedol strečniansky hradný pán, Marienka milovala šľachetného Milka – pána Starého hradu. Strečniansky hradný pán o tom vedel, a tak radšej pre istotu svojho soka zákerne zavraždil. Marienka následne utiekla z prekliateho hradu Strečno a v noci tajne navštevovala Milkov hrob, ktorý bol neďaleko rieky Váh. Strečniansky hradný pán sa o tom dozvedel a na brehu Váhu čakal na Marienku, aby ju odprosil. Prišiel však rytier v brnení a hradný pán domnievajúc sa, že ide pomstiť Mil</p>\n<p>kovu smrť, rytierovi zoťal mečom hlavu. Keď sa hlava dokotúľala až k nemu, zistil, že v skutočnosti zabil svoju ženu Marienku. Na druhý deň pri Milkovom hrobe našli mŕtveho aj strečnianskeho hradného pána. Zabil ho totiž blesk počas búrky, ktorá sa spustila po tomto veľkom nešťastí.</p>",
+      "text": "<p>Hlavná hradná veža je najvyšším miesto hradu. Od rieky Váh sme teraz vzdialení 148 metrov. V minulosti mala veža obrannú funkciu a využívala sa na kontrolu okolia. Na západnej strane môžete vidieť vrch Zvonica, na ktorom sa nachádza Pamätník francúzskych partizánov. Francúzski partizáni bojovali v okolí Strečna počas SNP. Veľa z nich tu padlo, a preto bol na ich počesť vybudovaný tento pamätník (v krypte sa nachádzajú telesné pozostatky 24 partizánov). Na severozápade môžete vidieť obec Varín. V miestnom kostole bol pred viac ako 300 rokmi krstený najznámejší slovenský zbojník, Juraj Jánošík, rodák z neďalekej Terchovej (Terchová je od Varína vzdialená zhruba 14 km). Smerom na severovýchod sa nachádza Starý hrad (nie je ho vidieť), pôvodne nazývaný hrad Varín. Postavený bol v 13. storočí na pravom brehu Váhu. Viedla tadiaľ hlavná považská cesta do Turca a Liptova, ktorá prechádzala v blízkosti hradu z pravej strany rieky na ľavú brodom cez Váh. Na prelome 13. a 14. storočia sa začala budovať cesta na ľavom brehu Váhu a hrad Varín sa tak dostal mimo dôležitej obchodnej trasy. Jeho funkciu následne prebral novopostavený hrad Strečno. Význam hradu Varín poklesol, o čom svedčí aj jeho premenovanie na Starý hrad. V súčasnosti je iba ruinou.</p>\n<p><img src=\"/assets/images/migrated/img_20200624_150338.jpg\" alt=\"\"></p>\n<h2>Krásna Marienka (povesť)</h2>\n<p>Susedia zo Starého hradu a Strečna zahoreli takmer súčasne láskou ku krásnej Marienke z podhradia Strečna. Hoci k oltáru si nevestu násilím odviedol strečniansky hradný pán, Marienka milovala šľachetného Milka – pána Starého hradu. Strečniansky hradný pán o tom vedel, a tak radšej pre istotu svojho soka zákerne zavraždil. Marienka následne utiekla z prekliateho hradu Strečno a v noci tajne navštevovala Milkov hrob, ktorý bol neďaleko rieky Váh. Strečniansky hradný pán sa o tom dozvedel a na brehu Váhu čakal na Marienku, aby ju odprosil. Prišiel však rytier v brnení a hradný pán domnievajúc sa, že ide pomstiť Mil</p>\n<p>kovu smrť, rytierovi zoťal mečom hlavu. Keď sa hlava dokotúľala až k nemu, zistil, že v skutočnosti zabil svoju ženu Marienku. Na druhý deň pri Milkovom hrobe našli mŕtveho aj strečnianskeho hradného pána. Zabil ho totiž blesk počas búrky, ktorá sa spustila po tomto veľkom nešťastí.</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/hlavna-veza-vyhlad/",
         "en": "https://www.qrlink.sk/new/en/castles/hlavna-veza-vyhlad/",
@@ -5078,7 +5296,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/hlavna-veza-vyhlad/",
         "hu": "https://www.qrlink.sk/new/hu/castles/hlavna-veza-vyhlad/"
       },
-      "url": "/castles/hlavna-veza-vyhlad/"
+      "url": "/castles/hlavna-veza-vyhlad/",
+      "urlAliasy": []
     },
     {
       "id": "goticky-a-vychodny-palac",
@@ -5104,7 +5323,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/goticky-a-vychodny-palac/",
         "hu": "https://www.qrlink.sk/new/hu/castles/goticky-a-vychodny-palac/"
       },
-      "url": "/castles/goticky-a-vychodny-palac/"
+      "url": "/castles/goticky-a-vychodny-palac/",
+      "urlAliasy": []
     },
     {
       "id": "severny-palac",
@@ -5130,7 +5350,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/severny-palac/",
         "hu": "https://www.qrlink.sk/new/hu/castles/severny-palac/"
       },
-      "url": "/castles/severny-palac/"
+      "url": "/castles/severny-palac/",
+      "urlAliasy": []
     },
     {
       "id": "kaplnka",
@@ -5150,7 +5371,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>V kaplnke môžete vidieť gotickú hviezdicovú klenbu, ktorú sa podarilo zrekonštruovať podľa pôvodných rebier – našli sa zrútené v kaplnke a v hradnej studni. Nad emporou, na ktorej stojíme, bola pôvodne ešte jedna empora. Vchádzalo sa na ňu z druhého podlažia severného paláca. V podlahe kaplnky je odkrytá krypta, do ktorej bolo uložené telo Žofie Bosniakovej, ktorá zomrela v roku 1644 ako 34-ročná. V roku 1689 tu jej telo našli cisárske vojská, ktoré na príkaz cisára ničili hrad. Aj 45 rokov po smrti bolo jej telo takmer neporušené. Keďže hrad bol vtedy už ruinou, Žofiino telo bolo po krátkom čase premiestnené do kostola v neďalekej Tepličke nad Váhom, kde bolo uložené v presklenej rakve a ľudia ho tam chodili obdivovať. Avšak v roku 2009 mentálne chorý muž rakvu so Žofiiným telom vyniesol von, podpálil a zničil tak veľmi vzácne kultúrne dedičstvo. V našej krypte sa dnes na Žofiinu počesť nachádza replika jej tela, zhotovená akademickým maliarom Stanom Lajdom. Žofia Bosniaková je najvýraznejšou osobnosťou v dejinách nášho hradu. V minulosti ju mali ľudia veľmi radi, pretože bola milá, skromná, dobrosrdečná a nikdy neodmietla žiadnu prosbu o pomoc. Spolu so svojím manželom založila útulok pre chudobných, chorých, siroty a cudzincov. Práve pre jej dobré skutky a pre neporušené telo, ktoré sa našlo v našej krypte, je Žofia považovaná za svätú, aj je známa pod pomenovaním svätica zo Strečna. Dokonca v roku 1997 sa začal proces jej blahorečenia (pre nedostatok archívnych dôkazov, že sa okolo jej osoby diali zázraky, zatiaľ blahorečená nebola). O Žofii existuje niekoľko povestí a legiend. Jedna z najznámejších hovorí, že Žofia Bosniaková v čase najväčšej biedy rozdávala chudobným zadarmo malé chlebíky, a tie podľa jej mena dostali pomenovanie bosniaky. V okolí Štrečna a Žiliny sú bosniaky známe aj dnes.</p>\n<h2>Sakristia</h2>\n<p>Vo vitrínach sa nachádzajú kamenné fragmenty, ktoré sa našli v hradnej studni počas čistiacich prác (1988 – 1992). V prvej vitrínke sú zrejme časti portálu dverí, časť výzdoby nad vstupom do hradu alebo náhrobný kameň s menom Vešeléni.</p>\n<h2>Legendy o Žofii Bosniakovej</h2>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2020/07/12a-%C5%BDofia-Bosniakov%C3%A1.jpg\" alt=\"\"></p>\n<p>Žofiino manželstvo s Františkom Vešelénim bolo zo začiatku veľmi šťastné. Postupom času, keď František často odchádzal na Fiľakovský hrad (bol kapitánom hradu), zaľúbil sa do druhej ženy, do tzv. Muránskej Venuše z hradu Muráň, do Márie Séči. Žofia veľmi trpela jeho nevšímavosťou a údajne denne chodila do kaplnky v skalách, aby si tam vymodlila jeho lásku späť. Raz ju tam v modlitbe k Panne Márii našiel František, prosil ju o odpustenie a prisahal jej večnú lásku. Keď však Žofia zomrela, František Vešeléni sa krátko na to opäť oženil a za manželku si zobral práve spomínanú Máriu Séči.</p>\n<h2>Reštaurovanie kaplnky</h2>\n<p>Pred reštaurovaním boli steny kaplnky preomietnuté cementovou omietkou, v hornej časti boli domurované do pôvodnej výšky a zaklenuté novou rekonštrukčnou železobetónovou klenbou. Steny boli natreté na bielo a rebrá klenby zase na tehlovočerveno. Toto bola zrejme aj pôvodná základná stredoveká farebnosť kaplnky. Keďže z vonkajšej strany omietka chýbala, dážď spôsoboval zvýšenú vlhkosť a plesne v interiéri. Výskumom sa zistilo, že pod cementovou omietkou sú zachované pôvodné stredoveké omietky. Samotné reštaurovanie začalo kompletným odstránením cementových omietok. Výsledkom bolo očistenie stein až na pôvodné kamenné murivo s čiastočne zachovanými pôvodnými stredovekými omietkami v spodnej časti stien. Následne boli murivá a omietky hĺbkovo spevnené. Po celkovom spevnení a konzervácii došlo k doplneniu zachovaných častí omietky. V stenách boli doplnené aj drevené lešenárske guľatiny z výstavby kaplnky, po ktorých ostali už len diery do exteriéru. Takisto došlo k farebnému sceleniu kaplnky, aby výrazná klenba kaplnky z konca 20. storočia nepôsobila rušivo a nepútala väčšiu pozornosť ako pôvodné stredoveké omietky.</p>",
+      "text": "<p>V kaplnke môžete vidieť gotickú hviezdicovú klenbu, ktorú sa podarilo zrekonštruovať podľa pôvodných rebier – našli sa zrútené v kaplnke a v hradnej studni. Nad emporou, na ktorej stojíme, bola pôvodne ešte jedna empora. Vchádzalo sa na ňu z druhého podlažia severného paláca. V podlahe kaplnky je odkrytá krypta, do ktorej bolo uložené telo Žofie Bosniakovej, ktorá zomrela v roku 1644 ako 34-ročná. V roku 1689 tu jej telo našli cisárske vojská, ktoré na príkaz cisára ničili hrad. Aj 45 rokov po smrti bolo jej telo takmer neporušené. Keďže hrad bol vtedy už ruinou, Žofiino telo bolo po krátkom čase premiestnené do kostola v neďalekej Tepličke nad Váhom, kde bolo uložené v presklenej rakve a ľudia ho tam chodili obdivovať. Avšak v roku 2009 mentálne chorý muž rakvu so Žofiiným telom vyniesol von, podpálil a zničil tak veľmi vzácne kultúrne dedičstvo. V našej krypte sa dnes na Žofiinu počesť nachádza replika jej tela, zhotovená akademickým maliarom Stanom Lajdom. Žofia Bosniaková je najvýraznejšou osobnosťou v dejinách nášho hradu. V minulosti ju mali ľudia veľmi radi, pretože bola milá, skromná, dobrosrdečná a nikdy neodmietla žiadnu prosbu o pomoc. Spolu so svojím manželom založila útulok pre chudobných, chorých, siroty a cudzincov. Práve pre jej dobré skutky a pre neporušené telo, ktoré sa našlo v našej krypte, je Žofia považovaná za svätú, aj je známa pod pomenovaním svätica zo Strečna. Dokonca v roku 1997 sa začal proces jej blahorečenia (pre nedostatok archívnych dôkazov, že sa okolo jej osoby diali zázraky, zatiaľ blahorečená nebola). O Žofii existuje niekoľko povestí a legiend. Jedna z najznámejších hovorí, že Žofia Bosniaková v čase najväčšej biedy rozdávala chudobným zadarmo malé chlebíky, a tie podľa jej mena dostali pomenovanie bosniaky. V okolí Štrečna a Žiliny sú bosniaky známe aj dnes.</p>\n<h2>Sakristia</h2>\n<p>Vo vitrínach sa nachádzajú kamenné fragmenty, ktoré sa našli v hradnej studni počas čistiacich prác (1988 – 1992). V prvej vitrínke sú zrejme časti portálu dverí, časť výzdoby nad vstupom do hradu alebo náhrobný kameň s menom Vešeléni.</p>\n<h2>Legendy o Žofii Bosniakovej</h2>\n<p><img src=\"/assets/images/migrated/12a-zofia-bosniakova.jpg\" alt=\"\"></p>\n<p>Žofiino manželstvo s Františkom Vešelénim bolo zo začiatku veľmi šťastné. Postupom času, keď František často odchádzal na Fiľakovský hrad (bol kapitánom hradu), zaľúbil sa do druhej ženy, do tzv. Muránskej Venuše z hradu Muráň, do Márie Séči. Žofia veľmi trpela jeho nevšímavosťou a údajne denne chodila do kaplnky v skalách, aby si tam vymodlila jeho lásku späť. Raz ju tam v modlitbe k Panne Márii našiel František, prosil ju o odpustenie a prisahal jej večnú lásku. Keď však Žofia zomrela, František Vešeléni sa krátko na to opäť oženil a za manželku si zobral práve spomínanú Máriu Séči.</p>\n<h2>Reštaurovanie kaplnky</h2>\n<p>Pred reštaurovaním boli steny kaplnky preomietnuté cementovou omietkou, v hornej časti boli domurované do pôvodnej výšky a zaklenuté novou rekonštrukčnou železobetónovou klenbou. Steny boli natreté na bielo a rebrá klenby zase na tehlovočerveno. Toto bola zrejme aj pôvodná základná stredoveká farebnosť kaplnky. Keďže z vonkajšej strany omietka chýbala, dážď spôsoboval zvýšenú vlhkosť a plesne v interiéri. Výskumom sa zistilo, že pod cementovou omietkou sú zachované pôvodné stredoveké omietky. Samotné reštaurovanie začalo kompletným odstránením cementových omietok. Výsledkom bolo očistenie stein až na pôvodné kamenné murivo s čiastočne zachovanými pôvodnými stredovekými omietkami v spodnej časti stien. Následne boli murivá a omietky hĺbkovo spevnené. Po celkovom spevnení a konzervácii došlo k doplneniu zachovaných častí omietky. V stenách boli doplnené aj drevené lešenárske guľatiny z výstavby kaplnky, po ktorých ostali už len diery do exteriéru. Takisto došlo k farebnému sceleniu kaplnky, aby výrazná klenba kaplnky z konca 20. storočia nepôsobila rušivo a nepútala väčšiu pozornosť ako pôvodné stredoveké omietky.</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/kaplnka/",
         "en": "https://www.qrlink.sk/new/en/castles/kaplnka/",
@@ -5159,7 +5380,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/kaplnka/",
         "hu": "https://www.qrlink.sk/new/hu/castles/kaplnka/"
       },
-      "url": "/castles/kaplnka/"
+      "url": "/castles/kaplnka/",
+      "urlAliasy": []
     },
     {
       "id": "severna-veza",
@@ -5186,7 +5408,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/severna-veza/",
         "hu": "https://www.qrlink.sk/new/hu/castles/severna-veza/"
       },
-      "url": "/castles/severna-veza/"
+      "url": "/castles/severna-veza/",
+      "urlAliasy": []
     },
     {
       "id": "hlavne-nadvorie",
@@ -5212,7 +5435,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/hlavne-nadvorie/",
         "hu": "https://www.qrlink.sk/new/hu/castles/hlavne-nadvorie/"
       },
-      "url": "/castles/hlavne-nadvorie/"
+      "url": "/castles/hlavne-nadvorie/",
+      "urlAliasy": []
     },
     {
       "id": "bytcianski-turzovci-povod-dejiny-rodu-erb",
@@ -5238,7 +5462,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/bytcianski-turzovci-povod-dejiny-rodu-erb/",
         "hu": "https://www.qrlink.sk/new/hu/castles/bytcianski-turzovci-povod-dejiny-rodu-erb/"
       },
-      "url": "/castles/bytcianski-turzovci-povod-dejiny-rodu-erb/"
+      "url": "/castles/bytcianski-turzovci-povod-dejiny-rodu-erb/",
+      "urlAliasy": []
     },
     {
       "id": "politicka-a-vojenska-kariera-juraja-turza",
@@ -5264,7 +5489,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/politicka-a-vojenska-kariera-juraja-turza/",
         "hu": "https://www.qrlink.sk/new/hu/castles/politicka-a-vojenska-kariera-juraja-turza/"
       },
-      "url": "/castles/politicka-a-vojenska-kariera-juraja-turza/"
+      "url": "/castles/politicka-a-vojenska-kariera-juraja-turza/",
+      "urlAliasy": []
     },
     {
       "id": "juraj-turzo-a-turzovka",
@@ -5290,7 +5516,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/juraj-turzo-a-turzovka/",
         "hu": "https://www.qrlink.sk/new/hu/castles/juraj-turzo-a-turzovka/"
       },
-      "url": "/castles/juraj-turzo-a-turzovka/"
+      "url": "/castles/juraj-turzo-a-turzovka/",
+      "urlAliasy": []
     },
     {
       "id": "juraj-turzo-podporovatel-vzdelanosti-a-patron-evanjelickej-cirkvi",
@@ -5316,7 +5543,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/juraj-turzo-podporovatel-vzdelanosti-a-patron-evanjelickej-cirkvi/",
         "hu": "https://www.qrlink.sk/new/hu/castles/juraj-turzo-podporovatel-vzdelanosti-a-patron-evanjelickej-cirkvi/"
       },
-      "url": "/castles/juraj-turzo-podporovatel-vzdelanosti-a-patron-evanjelickej-cirkvi/"
+      "url": "/castles/juraj-turzo-podporovatel-vzdelanosti-a-patron-evanjelickej-cirkvi/",
+      "urlAliasy": []
     },
     {
       "id": "zaver-zivota-uhorskeho-palatina",
@@ -5342,7 +5570,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/zaver-zivota-uhorskeho-palatina/",
         "hu": "https://www.qrlink.sk/new/hu/castles/zaver-zivota-uhorskeho-palatina/"
       },
-      "url": "/castles/zaver-zivota-uhorskeho-palatina/"
+      "url": "/castles/zaver-zivota-uhorskeho-palatina/",
+      "urlAliasy": []
     },
     {
       "id": "edmund-reitter-vedec-novinar-a-cestovatel",
@@ -5368,7 +5597,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/edmund-reitter-vedec-novinar-a-cestovatel/",
         "hu": "https://www.qrlink.sk/new/hu/castles/edmund-reitter-vedec-novinar-a-cestovatel/"
       },
-      "url": "/castles/edmund-reitter-vedec-novinar-a-cestovatel/"
+      "url": "/castles/edmund-reitter-vedec-novinar-a-cestovatel/",
+      "urlAliasy": []
     },
     {
       "id": "edmund-reitter-clovek-a-filantrop",
@@ -5394,7 +5624,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/edmund-reitter-clovek-a-filantrop/",
         "hu": "https://www.qrlink.sk/new/hu/castles/edmund-reitter-clovek-a-filantrop/"
       },
-      "url": "/castles/edmund-reitter-clovek-a-filantrop/"
+      "url": "/castles/edmund-reitter-clovek-a-filantrop/",
+      "urlAliasy": []
     },
     {
       "id": "edmund-reitter-odkaz-v-soudobem-paskove",
@@ -5420,7 +5651,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/edmund-reitter-odkaz-v-soudobem-paskove/",
         "hu": "https://www.qrlink.sk/new/hu/castles/edmund-reitter-odkaz-v-soudobem-paskove/"
       },
-      "url": "/castles/edmund-reitter-odkaz-v-soudobem-paskove/"
+      "url": "/castles/edmund-reitter-odkaz-v-soudobem-paskove/",
+      "urlAliasy": []
     },
     {
       "id": "potomstvo-juraja-turza-2",
@@ -5446,7 +5678,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/potomstvo-juraja-turza-2/",
         "hu": "https://www.qrlink.sk/new/hu/castles/potomstvo-juraja-turza-2/"
       },
-      "url": "/castles/potomstvo-juraja-turza-2/"
+      "url": "/castles/potomstvo-juraja-turza-2/",
+      "urlAliasy": []
     },
     {
       "id": "edmund-reitter-rodinne-zazemi-2",
@@ -5472,7 +5705,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/edmund-reitter-rodinne-zazemi-2/",
         "hu": "https://www.qrlink.sk/new/hu/castles/edmund-reitter-rodinne-zazemi-2/"
       },
-      "url": "/castles/edmund-reitter-rodinne-zazemi-2/"
+      "url": "/castles/edmund-reitter-rodinne-zazemi-2/",
+      "urlAliasy": []
     },
     {
       "id": "rozhladna-tabor",
@@ -5498,7 +5732,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/rozhladna-tabor/",
         "hu": "https://www.qrlink.sk/new/hu/rozhladna-tabor/"
       },
-      "url": "/rozhladna-tabor/"
+      "url": "/rozhladna-tabor/",
+      "urlAliasy": []
     },
     {
       "id": "kysucka-hvezdaren",
@@ -5524,7 +5759,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kysucka-hvezdaren/",
         "hu": "https://www.qrlink.sk/new/hu/kysucka-hvezdaren/"
       },
-      "url": "/kysucka-hvezdaren/"
+      "url": "/kysucka-hvezdaren/",
+      "urlAliasy": []
     },
     {
       "id": "kastiel-v-radoli",
@@ -5553,7 +5789,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kastiel-v-radoli/",
         "hu": "https://www.qrlink.sk/new/hu/kastiel-v-radoli/"
       },
-      "url": "/kastiel-v-radoli/"
+      "url": "/kastiel-v-radoli/",
+      "urlAliasy": []
     },
     {
       "id": "martakov-kopec-rozhladna-zakopcie",
@@ -5579,7 +5816,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/martakov-kopec-rozhladna-zakopcie/",
         "hu": "https://www.qrlink.sk/new/hu/martakov-kopec-rozhladna-zakopcie/"
       },
-      "url": "/martakov-kopec-rozhladna-zakopcie/"
+      "url": "/martakov-kopec-rozhladna-zakopcie/",
+      "urlAliasy": []
     },
     {
       "id": "rozhladna-luby",
@@ -5605,7 +5843,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/rozhladna-luby/",
         "hu": "https://www.qrlink.sk/new/hu/rozhladna-luby/"
       },
-      "url": "/rozhladna-luby/"
+      "url": "/rozhladna-luby/",
+      "urlAliasy": []
     },
     {
       "id": "chranena-lipa",
@@ -5631,7 +5870,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/chranena-lipa/",
         "hu": "https://www.qrlink.sk/new/hu/chranena-lipa/"
       },
-      "url": "/chranena-lipa/"
+      "url": "/chranena-lipa/",
+      "urlAliasy": []
     },
     {
       "id": "kastiel-komjatice",
@@ -5662,7 +5902,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Len málokto si dnes pri prechádzke Komjaticami uvedomí, že na mieste, kde sa dnes rozprestiera pokojná časť obce, kedysi stál honosný kaštieľ obklopený rozľahlým parkom, vodnými ramenami rieky Nitry a vzácnymi drevinami. Po celé storočia patril k najvýznamnejším šľachtickým sídlam dolného Ponitria. Dnes z neho zostali iba historické fotografie, archívne dokumenty, spomienky pamätníkov a jedinečný park, ktorý dodnes rozpráva jeho dávny príbeh. </p>\n<p>Kaštieľ stál v časti obce Majír, v ohybe rieky Nitry, neďaleko dnešného Kostola svätej Alžbety. </p>\n<p>Už v rokoch 1408 – 1418 si bratia Peter I. a Mikuláš V. Forgáčovci postavili v Komjaticiach svoje opevnené hrádky. Jeden z nich stál na mieste neskoršieho kaštieľa a postupnými prestavbami sa z pôvodného stredovekého sídla stal šľachtický kaštieľ rodu Forgáčovcov. Ten naposledy upravil gróf František IX. Forgáč. Po jeho smrti sa jeho vdova Terézia Klobušická vydala za Antona I. Grasalkoviča, významného uhorského šľachtica, štátnika a blízkeho spolupracovníka cisárovnej Márie Terézie. Práve tým sa začala nová etapa dejín komjatického panstva. </p>\n<p>Anton I. Grasalkovič prestaval a rozšíril forgáčovský kaštieľ na reprezentatívne sídlo s praktickým hospodárskym zázemím. Išlo o prízemnú neskorobarokovú stavbu s pôdorysom v tvare písmena U. Súčasťou budovy bola aj súkromná kaplnka zasvätená Panne Márii. Práve v nej sa v roku 1752 zosobášil Anton I. Grasalkovič s Teréziou Klobušickou, vdovou po grófovi Františkovi Forgáčovi. Kaplnka slúžila výhradne rodine majiteľov panstva a bohoslužby sa v nej konali len pri výnimočných príležitostiach. Po smrti posledného Grasalkoviča rod vymrel po meči a komjatické panstvo prešlo do rúk ďalších vlastníkov. </p>\n<p>Po Grasalkovičovcoch sa vlastníci komjatického panstva určitý čas menili. Panstvo spravoval gróf Pavol Motešický a neskôr sa dostalo do rúk grófovi Viczayovi. Toto obdobie netrvalo dlho, no predstavovalo dôležitý medzník medzi érou Grasalkovičovcov a príchodom baróna Mórica Wodianera, ktorý v roku 1858 odkúpil panstvo a rozhodol sa vybudovať reprezentačné sídlo hodné významného šľachtického rodu. V roku 1872 prešiel kaštieľ najväčšou prestavbou vo svojej histórii. Pôvodná baroková budova bola zvýšená o jedno poschodie a získala podobu francúzskeho zámku v historizujúcom slohu. Elegantná fasáda, vstupný portikus – kryté stĺpové vstupné priečelie pred vchodom do budovy, vežičky, bohato riešené interiéry i honosné schodisko dodali stavbe výnimočný vzhľad. Zo staršieho kaštieľa sa pritom zachovali niektoré barokové časti vrátane vstupnej predsiene s historickými klenbami. </p>\n<p>Kaštieľ nebol len domovom šľachtickej rodiny. Predstavoval centrum rozsiahleho hospodárstva. Na prízemí sa nachádzali kuchyne, sklady, miestnosti pre služobníctvo i hospodárske priestory. Poschodie patrilo reprezentačným sálam, salónom, jedálni, zrkadlovej sále, súkromným apartmánom grófa a grófky, hosťovským izbám, detským izbám či poľovníckej miestnosti. Súčasťou objektu bola aj kaplnka a priestory v manzardovej streche. </p>\n<p>Okolie kaštieľa tvoril starostlivo navrhnutý areál. Cez rieku Nitru viedli drevené mosty spájajúce sídlo s parkom, ďalší most slúžil kočom a neskôr aj prvým automobilom. Popri kaštieli sa nachádzal vodný mlyn, rozsiahly hospodársky dvor, pálenica s vysokým komínom, maštale, </p>\n<p>dom záhradníka i monumentálny skleník. Práve v ňom sa pestovali exotické rastliny, ktoré počas letných mesiacov zdobili nádvorie a park. </p>\n<p>Po smrti Mórica Wodianera prešlo panstvo na rod Nemešovcov. Posledným majiteľom bol gróf Ladislav Nemeš, za ktorého sa konala posledná rekonštrukcia, kedy boli odstránené skoro všetky dekoratívne prvky fasády i sochy. Premenami prešla aj plocha parku, ktorá bola pravidelne udržiavaná. Pokojný život šľachtického sídla ukončila druhá svetová vojna. </p>\n<p>Na prelome rokov 1944 a 1945, počas prechodu frontu cez Komjatice, bol kaštieľ zapálený ustupujúcou nemeckou armádou. Oheň zničil strechu aj väčšinu interiérov a budova zostala ťažko poškodená. Napriek tomu ešte niekoľko rokov stála ako tichá pripomienka svojej niekdajšej krásy. Rozhodnutie o jej záchrane však nikdy neprišlo. V prvej polovici päťdesiatych rokov 20. storočia bola postupne rozobratá a po roku 1954 definitívne zbúraná. Zanikol tak jeden z najkrajších kaštieľov regiónu. </p>\n<p>Najcennejším dedičstvom komjatického panstva zostal historický kaštieľsky park. Jeho základy položili už pravdepodobne Forgáčovci a neskôr Grasalkovičovci, no dnešnú podobu získal vďaka Wodianerovcom počas prestavby v roku 1872, keď bol upravený na anglický krajinársky park. Rozprestieral sa na oboch stranách rieky Nitry, pretínali ho romantické cestičky, mosty a lúčne priestranstvá. Rástli tu vzácne dreviny z rôznych častí sveta – ginko dvojlaločné, sofory, tisy, katalpy, platany či jedľa grécka. Najväčšou pýchou parku je dnes Komjatický platan, ktorého obvod kmeňa presahuje deväť metrov. Patrí medzi najväčšie platany v Európe a v roku 2012 získal titul Strom roka. Park bol obnovený v roku 2009 a dnes je obľúbeným miestom oddychu i živou pripomienkou slávnej minulosti Komjatíc. </p>\n<p>Kaštieľ síce z krajiny navždy zmizol, jeho príbeh však zostáva súčasťou pamäti obce. Každý strom v parku, každá historická fotografia či zachovaný dokument pripomínajú obdobie, keď boli Komjatice sídlom významného panstva. Aj preto stojí za to na chvíľu sa zastaviť, zapojiť predstavivosť a pokúsiť sa uvidieť to, čo dnes zostáva ukryté iba v dejinách. </p>\n<p><strong>Text a výber fotografií:</strong> PaedDr. Lucia Repková/Ing. Michal Repka </p>\n<p><strong>Použitá literatúra:</strong> </p>\n<p>CIFRA, Štefan – VRABCOVÁ, Viera, zost. Komjatice 1256 – 2006: vedecko-popularizačná monografia obce. 1. doplnené vydanie. Komjatice – Bratislava: Združenie priateľov obce Komjatice; Obec Komjatice; Q-SOLID, spol. s r. o., 2008. 792 s. ISBN 80-969550-2-0. </p>\n<p>JAHNÁTEK, Július. Kaštieľ Komjatice a iné historické zmienky. Komjatice, 2020. 331 s. ISBN 978-80-968398-7-2. </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/15.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/17.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/28.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/Obr12.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/29.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/30.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/000479.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/Image0049.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/Image0974.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/Image1380.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/IMG_5038.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/novy%E2%95%A0%C3%BC-4.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/novy%E2%95%A0%C3%BC-13.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/Obr3.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/Obr5.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/07/Obr7.jpg\" alt=\"\"></p>",
+      "text": "<p>Len málokto si dnes pri prechádzke Komjaticami uvedomí, že na mieste, kde sa dnes rozprestiera pokojná časť obce, kedysi stál honosný kaštieľ obklopený rozľahlým parkom, vodnými ramenami rieky Nitry a vzácnymi drevinami. Po celé storočia patril k najvýznamnejším šľachtickým sídlam dolného Ponitria. Dnes z neho zostali iba historické fotografie, archívne dokumenty, spomienky pamätníkov a jedinečný park, ktorý dodnes rozpráva jeho dávny príbeh. </p>\n<p>Kaštieľ stál v časti obce Majír, v ohybe rieky Nitry, neďaleko dnešného Kostola svätej Alžbety. </p>\n<p>Už v rokoch 1408 – 1418 si bratia Peter I. a Mikuláš V. Forgáčovci postavili v Komjaticiach svoje opevnené hrádky. Jeden z nich stál na mieste neskoršieho kaštieľa a postupnými prestavbami sa z pôvodného stredovekého sídla stal šľachtický kaštieľ rodu Forgáčovcov. Ten naposledy upravil gróf František IX. Forgáč. Po jeho smrti sa jeho vdova Terézia Klobušická vydala za Antona I. Grasalkoviča, významného uhorského šľachtica, štátnika a blízkeho spolupracovníka cisárovnej Márie Terézie. Práve tým sa začala nová etapa dejín komjatického panstva. </p>\n<p>Anton I. Grasalkovič prestaval a rozšíril forgáčovský kaštieľ na reprezentatívne sídlo s praktickým hospodárskym zázemím. Išlo o prízemnú neskorobarokovú stavbu s pôdorysom v tvare písmena U. Súčasťou budovy bola aj súkromná kaplnka zasvätená Panne Márii. Práve v nej sa v roku 1752 zosobášil Anton I. Grasalkovič s Teréziou Klobušickou, vdovou po grófovi Františkovi Forgáčovi. Kaplnka slúžila výhradne rodine majiteľov panstva a bohoslužby sa v nej konali len pri výnimočných príležitostiach. Po smrti posledného Grasalkoviča rod vymrel po meči a komjatické panstvo prešlo do rúk ďalších vlastníkov. </p>\n<p>Po Grasalkovičovcoch sa vlastníci komjatického panstva určitý čas menili. Panstvo spravoval gróf Pavol Motešický a neskôr sa dostalo do rúk grófovi Viczayovi. Toto obdobie netrvalo dlho, no predstavovalo dôležitý medzník medzi érou Grasalkovičovcov a príchodom baróna Mórica Wodianera, ktorý v roku 1858 odkúpil panstvo a rozhodol sa vybudovať reprezentačné sídlo hodné významného šľachtického rodu. V roku 1872 prešiel kaštieľ najväčšou prestavbou vo svojej histórii. Pôvodná baroková budova bola zvýšená o jedno poschodie a získala podobu francúzskeho zámku v historizujúcom slohu. Elegantná fasáda, vstupný portikus – kryté stĺpové vstupné priečelie pred vchodom do budovy, vežičky, bohato riešené interiéry i honosné schodisko dodali stavbe výnimočný vzhľad. Zo staršieho kaštieľa sa pritom zachovali niektoré barokové časti vrátane vstupnej predsiene s historickými klenbami. </p>\n<p>Kaštieľ nebol len domovom šľachtickej rodiny. Predstavoval centrum rozsiahleho hospodárstva. Na prízemí sa nachádzali kuchyne, sklady, miestnosti pre služobníctvo i hospodárske priestory. Poschodie patrilo reprezentačným sálam, salónom, jedálni, zrkadlovej sále, súkromným apartmánom grófa a grófky, hosťovským izbám, detským izbám či poľovníckej miestnosti. Súčasťou objektu bola aj kaplnka a priestory v manzardovej streche. </p>\n<p>Okolie kaštieľa tvoril starostlivo navrhnutý areál. Cez rieku Nitru viedli drevené mosty spájajúce sídlo s parkom, ďalší most slúžil kočom a neskôr aj prvým automobilom. Popri kaštieli sa nachádzal vodný mlyn, rozsiahly hospodársky dvor, pálenica s vysokým komínom, maštale, </p>\n<p>dom záhradníka i monumentálny skleník. Práve v ňom sa pestovali exotické rastliny, ktoré počas letných mesiacov zdobili nádvorie a park. </p>\n<p>Po smrti Mórica Wodianera prešlo panstvo na rod Nemešovcov. Posledným majiteľom bol gróf Ladislav Nemeš, za ktorého sa konala posledná rekonštrukcia, kedy boli odstránené skoro všetky dekoratívne prvky fasády i sochy. Premenami prešla aj plocha parku, ktorá bola pravidelne udržiavaná. Pokojný život šľachtického sídla ukončila druhá svetová vojna. </p>\n<p>Na prelome rokov 1944 a 1945, počas prechodu frontu cez Komjatice, bol kaštieľ zapálený ustupujúcou nemeckou armádou. Oheň zničil strechu aj väčšinu interiérov a budova zostala ťažko poškodená. Napriek tomu ešte niekoľko rokov stála ako tichá pripomienka svojej niekdajšej krásy. Rozhodnutie o jej záchrane však nikdy neprišlo. V prvej polovici päťdesiatych rokov 20. storočia bola postupne rozobratá a po roku 1954 definitívne zbúraná. Zanikol tak jeden z najkrajších kaštieľov regiónu. </p>\n<p>Najcennejším dedičstvom komjatického panstva zostal historický kaštieľsky park. Jeho základy položili už pravdepodobne Forgáčovci a neskôr Grasalkovičovci, no dnešnú podobu získal vďaka Wodianerovcom počas prestavby v roku 1872, keď bol upravený na anglický krajinársky park. Rozprestieral sa na oboch stranách rieky Nitry, pretínali ho romantické cestičky, mosty a lúčne priestranstvá. Rástli tu vzácne dreviny z rôznych častí sveta – ginko dvojlaločné, sofory, tisy, katalpy, platany či jedľa grécka. Najväčšou pýchou parku je dnes Komjatický platan, ktorého obvod kmeňa presahuje deväť metrov. Patrí medzi najväčšie platany v Európe a v roku 2012 získal titul Strom roka. Park bol obnovený v roku 2009 a dnes je obľúbeným miestom oddychu i živou pripomienkou slávnej minulosti Komjatíc. </p>\n<p>Kaštieľ síce z krajiny navždy zmizol, jeho príbeh však zostáva súčasťou pamäti obce. Každý strom v parku, každá historická fotografia či zachovaný dokument pripomínajú obdobie, keď boli Komjatice sídlom významného panstva. Aj preto stojí za to na chvíľu sa zastaviť, zapojiť predstavivosť a pokúsiť sa uvidieť to, čo dnes zostáva ukryté iba v dejinách. </p>\n<p><strong>Text a výber fotografií:</strong> PaedDr. Lucia Repková/Ing. Michal Repka </p>\n<p><strong>Použitá literatúra:</strong> </p>\n<p>CIFRA, Štefan – VRABCOVÁ, Viera, zost. Komjatice 1256 – 2006: vedecko-popularizačná monografia obce. 1. doplnené vydanie. Komjatice – Bratislava: Združenie priateľov obce Komjatice; Obec Komjatice; Q-SOLID, spol. s r. o., 2008. 792 s. ISBN 80-969550-2-0. </p>\n<p>JAHNÁTEK, Július. Kaštieľ Komjatice a iné historické zmienky. Komjatice, 2020. 331 s. ISBN 978-80-968398-7-2. </p>\n<p><img src=\"/assets/images/migrated/15.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/17.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/28.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/obr12.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/29.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/30.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/000479.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/image0049.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/image0974.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/image1380.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/img_5038.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/novy-u-4.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/novy-u-13.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/obr3.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/obr5.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/obr7.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/kastiel-komjatice/",
         "en": "https://www.qrlink.sk/new/en/kastiel-komjatice/",
@@ -5671,7 +5911,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kastiel-komjatice/",
         "hu": "https://www.qrlink.sk/new/hu/kastiel-komjatice/"
       },
-      "url": "/kastiel-komjatice/"
+      "url": "/kastiel-komjatice/",
+      "urlAliasy": []
     },
     {
       "id": "kraj-rusinov-a-andyho-warhola-vystahovalectvo",
@@ -5691,7 +5932,7 @@ const DB = {
         "lng": 21.85219682449781
       },
       "mapEmbed": "https://www.google.com/maps?q=49.32246968713569,21.85219682449781&z=14&output=embed",
-      "text": "<p>Na prelome 19. a 20. storočia sa z dedín dnešného okresu Medzilaborce čoraz častejšie odchádzalo za oceán. Amerika nebola symbolom dobrodružstva, ale nádejou na lepší život. Mladí muži aj celé rodiny opúšťali Mikovú, Haburu, Medzilaborce a ďalšie rusínske obce v presvedčení, že si zarobia a vrátia sa domov. Mnohí však zostali v Spojených štátoch natrvalo. </p>\n<p>A práve medzi nimi boli aj rodičia jedného z najvýznamnejších umelcov 20. storočia – Andyho Warhola.</p>\n<h2>Prečo sa rozhodli odísť</h2>\n<p>Koncom 19. storočia žila väčšina obyvateľov severovýchodného Slovenska z drobného hospodárstva. Pôdy bolo málo, pracovných príležitostí ešte menej a mnohé rodiny žili na hranici chudoby. </p>\n<p>V rovnakom období prudko rástol americký priemysel, ktorý potreboval tisíce robotníkov. Hoci práca v baniach a oceliarňach bola náročná, ponúkala zárobok, aký si doma mnohí nevedeli predstaviť. Amerika sa tak pre mnohé rodiny stala jedinou reálnou šancou na lepší život. </p>\n<p>Vysťahovalectvo zasiahlo prakticky celé územie dnešného okresu Medzilaboriec. Silne ovplyvnilo najmä rusínske obce ako sú Miková, Habura, Čertižné, Ňagov či Radvaň nad Laborcom. </p>\n<p>V niektorých dedinách odišiel do Ameriky minimálne jeden člen takmer z každej rodiny. Historické pramene uvádzajú, že z Mikovej odišla do začiatku prvej svetovej vojny približne tretina obyvateľov. V rokoch 1890 – 1914 sa za oceán vysťahovalo približne 225 000 karpatských Rusínov.</p>\n<h2>Cesta za oceán</h2>\n<p>Cesta do Ameriky nebola jednoduchá. Väčšina vysťahovalcov z regiónu cestovala vlakom do veľkých európskych prístavov, najmä do Hamburgu a Brém, odkiaľ pokračovala parníkmi cez Atlantik do Spojených štátov. Po príchode do New Yorku absolvovali zdravotné prehliadky a administratívne kontroly na ostrove Ellis Island. </p>\n<p>Mnohí následne smerovali do priemyselných miest, ako Pittsburgh či Cleveland, kde už existovali početné komunity prisťahovalcov z Karpát. </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/06/europsky-emigranti-habura.jpg\" alt=\"\"></p>\n<p><em>Európski emigranti po príchode do Spojených štátov začiatkom 20. storočia, zdroj:</em> <em><a href=\"https://time.com/\">https://time.com/</a>.</em></p>\n<h2>Príbeh rodiny Warholovcov</h2>\n<p>Jedným z tisícov vysťahovalcov bol aj Andrej Varchola z Mikovej. Do Spojených štátov odišiel za prácou začiatkom 20. storočia. O niekoľko rokov ho nasledovala jeho manželka Júlia Zavacká, ktorá pochádzala z tej istej obce. </p>\n<p>Usadili sa v Pittsburghu, kde sa im narodili traja synovia. Najmladší z nich, Andrew Warhola, sa narodil v roku 1928 a svet ho neskôr spoznal pod menom Andy Warhol. </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/06/habura-foto-vystahovalectvo.jpg\" alt=\"\"></p>\n<p><em>Vízum Júlie Warholovej do Spojených štátov amerických, zdroj: Petra Tóth Atelier.</em></p>\n<p><em>Júlia Warholová (rod. Zavacká) so synmi Johnom a Andrewom (neskôr Andym Warholom, vpravo), zdroj: <a href=\"https://www.rusyn.sk/\">https://www.rusyn.sk/</a>.</em> </p>\n<p>Hoci sa Andy narodil v Amerike, vyrastal v rusínskej rodine. Doma sa hovorilo rusínsky, zachovávali sa gréckokatolícke tradície a významný vplyv na jeho vzťah k umeniu mala práve matka Júlia. </p>\n<p>Tému vysťahovalectva z tohto regiónu dnes približuje aj Náučný chodník Kraj Rusínov a Andyho Warhola, ktorý vedie z Habury smerom k hranici katastrálnych území Habury a Mikovej.</p>",
+      "text": "<p>Na prelome 19. a 20. storočia sa z dedín dnešného okresu Medzilaborce čoraz častejšie odchádzalo za oceán. Amerika nebola symbolom dobrodružstva, ale nádejou na lepší život. Mladí muži aj celé rodiny opúšťali Mikovú, Haburu, Medzilaborce a ďalšie rusínske obce v presvedčení, že si zarobia a vrátia sa domov. Mnohí však zostali v Spojených štátoch natrvalo. </p>\n<p>A práve medzi nimi boli aj rodičia jedného z najvýznamnejších umelcov 20. storočia – Andyho Warhola.</p>\n<h2>Prečo sa rozhodli odísť</h2>\n<p>Koncom 19. storočia žila väčšina obyvateľov severovýchodného Slovenska z drobného hospodárstva. Pôdy bolo málo, pracovných príležitostí ešte menej a mnohé rodiny žili na hranici chudoby. </p>\n<p>V rovnakom období prudko rástol americký priemysel, ktorý potreboval tisíce robotníkov. Hoci práca v baniach a oceliarňach bola náročná, ponúkala zárobok, aký si doma mnohí nevedeli predstaviť. Amerika sa tak pre mnohé rodiny stala jedinou reálnou šancou na lepší život. </p>\n<p>Vysťahovalectvo zasiahlo prakticky celé územie dnešného okresu Medzilaboriec. Silne ovplyvnilo najmä rusínske obce ako sú Miková, Habura, Čertižné, Ňagov či Radvaň nad Laborcom. </p>\n<p>V niektorých dedinách odišiel do Ameriky minimálne jeden člen takmer z každej rodiny. Historické pramene uvádzajú, že z Mikovej odišla do začiatku prvej svetovej vojny približne tretina obyvateľov. V rokoch 1890 – 1914 sa za oceán vysťahovalo približne 225 000 karpatských Rusínov.</p>\n<h2>Cesta za oceán</h2>\n<p>Cesta do Ameriky nebola jednoduchá. Väčšina vysťahovalcov z regiónu cestovala vlakom do veľkých európskych prístavov, najmä do Hamburgu a Brém, odkiaľ pokračovala parníkmi cez Atlantik do Spojených štátov. Po príchode do New Yorku absolvovali zdravotné prehliadky a administratívne kontroly na ostrove Ellis Island. </p>\n<p>Mnohí následne smerovali do priemyselných miest, ako Pittsburgh či Cleveland, kde už existovali početné komunity prisťahovalcov z Karpát. </p>\n<p><img src=\"/assets/images/migrated/europsky-emigranti-habura.jpg\" alt=\"\"></p>\n<p><em>Európski emigranti po príchode do Spojených štátov začiatkom 20. storočia, zdroj:</em> <em><a href=\"https://time.com/\">https://time.com/</a>.</em></p>\n<h2>Príbeh rodiny Warholovcov</h2>\n<p>Jedným z tisícov vysťahovalcov bol aj Andrej Varchola z Mikovej. Do Spojených štátov odišiel za prácou začiatkom 20. storočia. O niekoľko rokov ho nasledovala jeho manželka Júlia Zavacká, ktorá pochádzala z tej istej obce. </p>\n<p>Usadili sa v Pittsburghu, kde sa im narodili traja synovia. Najmladší z nich, Andrew Warhola, sa narodil v roku 1928 a svet ho neskôr spoznal pod menom Andy Warhol. </p>\n<p><img src=\"/assets/images/migrated/habura-foto-vystahovalectvo.jpg\" alt=\"\"></p>\n<p><em>Vízum Júlie Warholovej do Spojených štátov amerických, zdroj: Petra Tóth Atelier.</em></p>\n<p><em>Júlia Warholová (rod. Zavacká) so synmi Johnom a Andrewom (neskôr Andym Warholom, vpravo), zdroj: <a href=\"https://www.rusyn.sk/\">https://www.rusyn.sk/</a>.</em> </p>\n<p>Hoci sa Andy narodil v Amerike, vyrastal v rusínskej rodine. Doma sa hovorilo rusínsky, zachovávali sa gréckokatolícke tradície a významný vplyv na jeho vzťah k umeniu mala práve matka Júlia. </p>\n<p>Tému vysťahovalectva z tohto regiónu dnes približuje aj Náučný chodník Kraj Rusínov a Andyho Warhola, ktorý vedie z Habury smerom k hranici katastrálnych území Habury a Mikovej.</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/kraj-rusinov-a-andyho-warhola-vystahovalectvo/",
         "en": "https://www.qrlink.sk/new/en/kraj-rusinov-a-andyho-warhola-vystahovalectvo/",
@@ -5700,7 +5941,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kraj-rusinov-a-andyho-warhola-vystahovalectvo/",
         "hu": "https://www.qrlink.sk/new/hu/kraj-rusinov-a-andyho-warhola-vystahovalectvo/"
       },
-      "url": "/kraj-rusinov-a-andyho-warhola-vystahovalectvo/"
+      "url": "/kraj-rusinov-a-andyho-warhola-vystahovalectvo/",
+      "urlAliasy": []
     },
     {
       "id": "kraj-rusinov-a-andyho-warhola-tazba-ropy-v-regione",
@@ -5720,7 +5962,7 @@ const DB = {
         "lng": 21.848361265647892
       },
       "mapEmbed": "https://www.google.com/maps?q=49.322560596913995,21.848361265647892&z=14&output=embed",
-      "text": "<p>Málokto vie, že severovýchod Slovenska patrí k najstarším oblastiam ťažby ropy v strednej Európe. Jedným z najvýznamnejších miest bola obec Miková, kde sa ropa prirodzene objavovala na povrchu zeme už stáročia. </p>\n<p>Miestni obyvatelia si všimli čiernu tekutinu vytekajúcu zo zeme v lokalite Dychtivka a potok, do ktorého vytekala, nazvali Ripné. Spočiatku netušili, že ide o cennú surovinu. Ropu využívali najmä ako liečivo pre dobytok alebo na mazanie vozov.</p>\n<p><em>Foto: Obec Miková, r. 1936.</em></p>\n<h2>Od prírodných prameňov k priemyselnej ťažbe</h2>\n<p>Prvá známa písomná zmienka o výskyte ropy v okolí Mikovej pochádza z roku 1684. Záznamy z roku 1742 hovoria o jej čistení a destilácii. Skutočný rozvoj však nastal až na prelome 19. a 20. storočia, keď geológovia potvrdili perspektívnosť ložísk v okolí Mikovej a Habury. </p>\n<p>V roku 1911 sa začala moderná ťažba z prvých vrtov Alexander a Magdaléna. Po vzniku Československa pokračoval geologický prieskum a francúzska spoločnosť <em>Société Anonyme des Pétroles de Mikova</em> otvorila ďalšie vrty. Spočiatku sa z najúspešnejšieho vrtu denne získavali približne 4 tony ropy. </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/06/Poh%C4%BEad-na-bane-v-Mikovej.jpg\" alt=\"\"></p>\n<p><em>Pohľad na bane v Mikovej, zdroj: <a href=\"http://www.mikova.sk/sk/ukazka-strany-2\">www.mikova.sk/sk/ukazka-strany-2</a>.</em></p>\n<h2>Ropa strategickou surovinou</h2>\n<p>Najväčší význam mala mikovská ropa počas oboch svetových vojen. V roku 1941 pokračovalo vŕtanie vrtu Matej V, ktorý dosiahol hĺbku 1 368,9 metra a stal sa jedným z najhlbších a najvýkonnejších vrtov na východnom Slovensku. Len z vrtu Matej I sa v rokoch 1941 – 1943 vyťažilo približne 12 900 ton ropy. </p>\n<p>Podľa spomienok obyvateľov a historických záznamov sa v Mikovej počas existencie bane vyťažilo približne 226 600 ton kvalitnej parafínovej ropy, ktorá obsahovala vysoký podiel benzínových zložiek.</p>\n<h2><strong>Vplyv ťažby ropy na život v Mikovej</strong></h2>\n<p>Objavenie ropy prinieslo do dovtedy poľnohospodárskej obce nové pracovné príležitosti. Miestni obyvatelia našli zamestnanie pri vrtných prácach, obsluhe zariadení aj údržbe bane. Do Mikovej prichádzali odborníci z rôznych krajín a obec sa na niekoľko desaťročí zaradila medzi významné ropné lokality severovýchodného Slovenska.</p>\n<h2><strong>Koniec ťažby</strong></h2>\n<p>Po druhej svetovej vojne sa ukázalo, že ďalšia ťažba už nie je ekonomicky výhodná. Baňa bola 14. septembra 1951 uzavretá a o dva roky neskôr prešla do likvidácie. Hoci sa v roku 1998 uskutočnil ešte jeden prieskumný vrt Alexander-1, komerčne využiteľné množstvo ropy sa už nepotvrdilo. </p>\n<p>Hoci sa ťažba ropy skončila, jej stopy sa v kraji zachovali dodnes. Pozostatky niekdajších vrtov, lokality Dychtivka a Ripné či ďalšie miesta spojené s históriou ťažby ropy približuje návštevníkom Náučný chodník Kraj Rusínov a Andyho Warhola. </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/06/Mikova-zvy%C5%A1ky-studn%C3%AD.jpg\" alt=\"\"></p>\n<p><em>Mikova-zvyšky studní od 1911 do 1943, zdroj:</em> <a href=\"https://www.researchgate.net/profile/J_Milicka\"><em>J. Milicka</em></a><em>.</em></p>",
+      "text": "<p>Málokto vie, že severovýchod Slovenska patrí k najstarším oblastiam ťažby ropy v strednej Európe. Jedným z najvýznamnejších miest bola obec Miková, kde sa ropa prirodzene objavovala na povrchu zeme už stáročia. </p>\n<p>Miestni obyvatelia si všimli čiernu tekutinu vytekajúcu zo zeme v lokalite Dychtivka a potok, do ktorého vytekala, nazvali Ripné. Spočiatku netušili, že ide o cennú surovinu. Ropu využívali najmä ako liečivo pre dobytok alebo na mazanie vozov.</p>\n<p><em>Foto: Obec Miková, r. 1936.</em></p>\n<h2>Od prírodných prameňov k priemyselnej ťažbe</h2>\n<p>Prvá známa písomná zmienka o výskyte ropy v okolí Mikovej pochádza z roku 1684. Záznamy z roku 1742 hovoria o jej čistení a destilácii. Skutočný rozvoj však nastal až na prelome 19. a 20. storočia, keď geológovia potvrdili perspektívnosť ložísk v okolí Mikovej a Habury. </p>\n<p>V roku 1911 sa začala moderná ťažba z prvých vrtov Alexander a Magdaléna. Po vzniku Československa pokračoval geologický prieskum a francúzska spoločnosť <em>Société Anonyme des Pétroles de Mikova</em> otvorila ďalšie vrty. Spočiatku sa z najúspešnejšieho vrtu denne získavali približne 4 tony ropy. </p>\n<p><img src=\"/assets/images/migrated/pohlad-na-bane-v-mikovej.jpg\" alt=\"\"></p>\n<p><em>Pohľad na bane v Mikovej, zdroj: <a href=\"http://www.mikova.sk/sk/ukazka-strany-2\">www.mikova.sk/sk/ukazka-strany-2</a>.</em></p>\n<h2>Ropa strategickou surovinou</h2>\n<p>Najväčší význam mala mikovská ropa počas oboch svetových vojen. V roku 1941 pokračovalo vŕtanie vrtu Matej V, ktorý dosiahol hĺbku 1 368,9 metra a stal sa jedným z najhlbších a najvýkonnejších vrtov na východnom Slovensku. Len z vrtu Matej I sa v rokoch 1941 – 1943 vyťažilo približne 12 900 ton ropy. </p>\n<p>Podľa spomienok obyvateľov a historických záznamov sa v Mikovej počas existencie bane vyťažilo približne 226 600 ton kvalitnej parafínovej ropy, ktorá obsahovala vysoký podiel benzínových zložiek.</p>\n<h2><strong>Vplyv ťažby ropy na život v Mikovej</strong></h2>\n<p>Objavenie ropy prinieslo do dovtedy poľnohospodárskej obce nové pracovné príležitosti. Miestni obyvatelia našli zamestnanie pri vrtných prácach, obsluhe zariadení aj údržbe bane. Do Mikovej prichádzali odborníci z rôznych krajín a obec sa na niekoľko desaťročí zaradila medzi významné ropné lokality severovýchodného Slovenska.</p>\n<h2><strong>Koniec ťažby</strong></h2>\n<p>Po druhej svetovej vojne sa ukázalo, že ďalšia ťažba už nie je ekonomicky výhodná. Baňa bola 14. septembra 1951 uzavretá a o dva roky neskôr prešla do likvidácie. Hoci sa v roku 1998 uskutočnil ešte jeden prieskumný vrt Alexander-1, komerčne využiteľné množstvo ropy sa už nepotvrdilo. </p>\n<p>Hoci sa ťažba ropy skončila, jej stopy sa v kraji zachovali dodnes. Pozostatky niekdajších vrtov, lokality Dychtivka a Ripné či ďalšie miesta spojené s históriou ťažby ropy približuje návštevníkom Náučný chodník Kraj Rusínov a Andyho Warhola. </p>\n<p><img src=\"/assets/images/migrated/mikova-zvysky-studni.jpg\" alt=\"\"></p>\n<p><em>Mikova-zvyšky studní od 1911 do 1943, zdroj:</em> <a href=\"https://www.researchgate.net/profile/J_Milicka\"><em>J. Milicka</em></a><em>.</em></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/kraj-rusinov-a-andyho-warhola-tazba-ropy-v-regione/",
         "en": "https://www.qrlink.sk/new/en/kraj-rusinov-a-andyho-warhola-tazba-ropy-v-regione/",
@@ -5729,7 +5971,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kraj-rusinov-a-andyho-warhola-tazba-ropy-v-regione/",
         "hu": "https://www.qrlink.sk/new/hu/kraj-rusinov-a-andyho-warhola-tazba-ropy-v-regione/"
       },
-      "url": "/kraj-rusinov-a-andyho-warhola-tazba-ropy-v-regione/"
+      "url": "/kraj-rusinov-a-andyho-warhola-tazba-ropy-v-regione/",
+      "urlAliasy": []
     },
     {
       "id": "o-hlinenom-v-najstarsich-casoch",
@@ -5747,7 +5990,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Patrí k najstarším mestským častiam Turzovky. Tvorí severnú a väčšiu časť východnej hranice jej katastra. Zo severu susedí s obcou Klokočov, z východu s Olešnou. V písomných prameňoch sa spomína od konca 16. storočia v rôznych podobách. Etymológia názvu je zreteľná, toponymum je odvodené z adjektíva hlinené (miesto) &gt; Hlinené.</p>\n<p>V druhej polovici 16. storočia slúžila táto oblasť ako pastviny pre valašský dobytok. Salaše tu stavali poddaní budatínskeho zemepána, ktorí so stádami prechádzali Javorníky z Nesluše a Diviny. Keďže v tom čase neboli pohraničné oblasti riadne vymedzené, dochádzalo v nich k stretom i ozbrojeným násilnostiam medzi poddanými susediacich panstiev. Hlinené sa v takýchto súvislostiach spomína v roku 1584 a potom aj v roku 1592. V roku 1584 salaše postavené vo Vrch Hlinenom prepadli a vyplienili poddaní tešínskej kňažnej. V roku 1592 zase utrpel salaš Martina Mičeka v Hlinenom, odkiaľ poddaní a drábi Juraja Turza odviedli 12 baranov, vzali šesť hrúd syra vlnu a dve sekery.  Na konci 16. storočia zemepán Juraj Turzo založil Turzovku ako určitú hrádzu proti prenikaniu budatínskych valachov na územia, ktoré považoval za svoje majetky. Ani bezprostredne po jej vzniku nebolo všetkému koniec a spory pokračovali. V máji 1601 bolo vedené vyšetrovanie sporov medzi panstvami Bytča a Budatín, v ktorom vypovedalo viacero svedkov. Niektoré z ich výpovedí uvádzame na dokreslenie situácie: <em>První svedek Jura Drahoš, 60-ročný, od Rožnova &#8230; pod prísahu vyznal, že ty jiste vrchy po Predmyer, <strong>Hlynenne</strong>, Bahan a Bruhovy užívali k zámku budatinskemu slobodne &#8230;</em></p>\n<p><em>Dvanácty svedek Ďuro Bakoš z Krásna, asi 45-ročný &#8230; pod prísahu vyznal, že sluhuval v Nesluši &#8230; a že za mladych časov svých pásal slobodne na Bahenej, <strong>na Hlinenej</strong>, na Dluhej a žadni jim neprekážal&#8230;</em>   Ešte v tom istom roku uzatvoril Juraj Turzo ako bytčiansky zemepán dohodu so svojim susedom z Budatínom Mojžišom Suňogom dohodu o nových hraniciach, ktoré sa posunuli z potoka Predmier (dn. Predmieranka) na východ a novou hranicou medzi panstvami sa stala riečka Olešnianka. Táto nová hranica je potom potvrdená aj vo výsadnej listine, ktorú Turzo vydal obyvateľom Turzovky vo februári 1602.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
+      "text": "<p>Patrí k najstarším mestským častiam Turzovky. Tvorí severnú a väčšiu časť východnej hranice jej katastra. Zo severu susedí s obcou Klokočov, z východu s Olešnou. V písomných prameňoch sa spomína od konca 16. storočia v rôznych podobách. Etymológia názvu je zreteľná, toponymum je odvodené z adjektíva hlinené (miesto) &gt; Hlinené.</p>\n<p>V druhej polovici 16. storočia slúžila táto oblasť ako pastviny pre valašský dobytok. Salaše tu stavali poddaní budatínskeho zemepána, ktorí so stádami prechádzali Javorníky z Nesluše a Diviny. Keďže v tom čase neboli pohraničné oblasti riadne vymedzené, dochádzalo v nich k stretom i ozbrojeným násilnostiam medzi poddanými susediacich panstiev. Hlinené sa v takýchto súvislostiach spomína v roku 1584 a potom aj v roku 1592. V roku 1584 salaše postavené vo Vrch Hlinenom prepadli a vyplienili poddaní tešínskej kňažnej. V roku 1592 zase utrpel salaš Martina Mičeka v Hlinenom, odkiaľ poddaní a drábi Juraja Turza odviedli 12 baranov, vzali šesť hrúd syra vlnu a dve sekery.  Na konci 16. storočia zemepán Juraj Turzo založil Turzovku ako určitú hrádzu proti prenikaniu budatínskych valachov na územia, ktoré považoval za svoje majetky. Ani bezprostredne po jej vzniku nebolo všetkému koniec a spory pokračovali. V máji 1601 bolo vedené vyšetrovanie sporov medzi panstvami Bytča a Budatín, v ktorom vypovedalo viacero svedkov. Niektoré z ich výpovedí uvádzame na dokreslenie situácie: <em>První svedek Jura Drahoš, 60-ročný, od Rožnova &#8230; pod prísahu vyznal, že ty jiste vrchy po Predmyer, <strong>Hlynenne</strong>, Bahan a Bruhovy užívali k zámku budatinskemu slobodne &#8230;</em></p>\n<p><em>Dvanácty svedek Ďuro Bakoš z Krásna, asi 45-ročný &#8230; pod prísahu vyznal, že sluhuval v Nesluši &#8230; a že za mladych časov svých pásal slobodne na Bahenej, <strong>na Hlinenej</strong>, na Dluhej a žadni jim neprekážal&#8230;</em>   Ešte v tom istom roku uzatvoril Juraj Turzo ako bytčiansky zemepán dohodu so svojim susedom z Budatínom Mojžišom Suňogom dohodu o nových hraniciach, ktoré sa posunuli z potoka Predmier (dn. Predmieranka) na východ a novou hranicou medzi panstvami sa stala riečka Olešnianka. Táto nová hranica je potom potvrdená aj vo výsadnej listine, ktorú Turzo vydal obyvateľom Turzovky vo februári 1602.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"/assets/images/migrated/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/o-hlinenom-v-najstarsich-casoch/",
         "en": "https://www.qrlink.sk/new/en/o-hlinenom-v-najstarsich-casoch/",
@@ -5756,7 +5999,10 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/o-hlinenom-v-najstarsich-casoch/",
         "hu": "https://www.qrlink.sk/new/hu/o-hlinenom-v-najstarsich-casoch/"
       },
-      "url": "/o-hlinenom-v-najstarsich-casoch/"
+      "url": "/o-hlinenom-v-najstarsich-casoch/",
+      "urlAliasy": [
+        "/castles/o-hlinenom-v-najstarsich-casoch/"
+      ]
     },
     {
       "id": "svetlonos",
@@ -5774,7 +6020,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Svetlonos bol veľmi rozšírenou démonickou bytosťou. Mal rôzne pomenovania: svetlonos, svetielko, bludička, svetlá noc. Svetlonos patril medzi podzemné a zlé bytosti podobne ako rarach, bes, ďas a pod. Objavoval sa v noci v lesných húštinách, pri mokradiach (trasafkách) a v blízkosti vodných zdrojov. Niekde mal podobu malého chlapca so žeravými očami, ktorý pred pozorovateľom rástol do nadprirodzenej veľkosti. Zvádzal ľudí zo správnej cesty, vábil do močiarov, vodil ich po poliach, cez skálie a tŕnie či po cintorínoch. Lákal nielen svetlom, ale aj plačom či volaním po mene. Svetlonosmi sa údajne stávali po smrti zlí, nežičliví ľudia, takí, ktorí iným odorávali z polí či takí, čo krivo prisahali na Bibliu a za trest im horeli dva prsty. Úmyselne alebo nechtiac ho mohol privolať človek, ktorý po zotmení zahvízdal. Preto sa ľudia stránili pískať v noci. Traduje sa, že zbaviť sa ho človek mohol prežehnaním, oľutovaním svojho previnenia či odrobinami zo štedrovečerného stola. Svetlonos strácal nad človekom moc, keď sa ten ukryl pod strechu, alebo keď sa začalo brieždiť. Vtedy svetlonos stratil svoju moc a povodeného nechal tak. Hoci by sa mohlo zdať, že pomenovanie svetlonosa pochádza z toho, že mu svieti nos, nie je to tak. Slovenské slovo svetlonos je doslovný preklad latinského Lucifer (lat. lux – svetlo, ferre – nosiť, prenášať) – nositeľ svetla, svetlonosič.</p>\n<p>O stretnutí so svetlonosom hovorí aj krátky príbeh z roku 1930: <em>Raz istý muž videl večer pobehovať svetlonosa kdesi blízko domu. I vyšiel von a zapískal, hneď však zas rýchlo vbehol do izby. A tu už dupy, dup – svetlonos začal behať okolo okien a menom volal toho muža: „Jozefe, poď von! Jozefe, poď von!“ Jozef sa však ani nehol z miesta, len sa tak od strachu triasol, čo s ním bude. Hoci vedel, že pod strechou je chránený od moci svetlonosa. Keď sa svetlonos nemohol dočkať, omrzelo ho podaromnici okolo domu naprázdno pobehovať, stratil sa a viac neprišiel. Však ani náš milý Jozef sa už nikdy neopovážil na svetlonosa zapískať.</em></p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
+      "text": "<p>Svetlonos bol veľmi rozšírenou démonickou bytosťou. Mal rôzne pomenovania: svetlonos, svetielko, bludička, svetlá noc. Svetlonos patril medzi podzemné a zlé bytosti podobne ako rarach, bes, ďas a pod. Objavoval sa v noci v lesných húštinách, pri mokradiach (trasafkách) a v blízkosti vodných zdrojov. Niekde mal podobu malého chlapca so žeravými očami, ktorý pred pozorovateľom rástol do nadprirodzenej veľkosti. Zvádzal ľudí zo správnej cesty, vábil do močiarov, vodil ich po poliach, cez skálie a tŕnie či po cintorínoch. Lákal nielen svetlom, ale aj plačom či volaním po mene. Svetlonosmi sa údajne stávali po smrti zlí, nežičliví ľudia, takí, ktorí iným odorávali z polí či takí, čo krivo prisahali na Bibliu a za trest im horeli dva prsty. Úmyselne alebo nechtiac ho mohol privolať človek, ktorý po zotmení zahvízdal. Preto sa ľudia stránili pískať v noci. Traduje sa, že zbaviť sa ho človek mohol prežehnaním, oľutovaním svojho previnenia či odrobinami zo štedrovečerného stola. Svetlonos strácal nad človekom moc, keď sa ten ukryl pod strechu, alebo keď sa začalo brieždiť. Vtedy svetlonos stratil svoju moc a povodeného nechal tak. Hoci by sa mohlo zdať, že pomenovanie svetlonosa pochádza z toho, že mu svieti nos, nie je to tak. Slovenské slovo svetlonos je doslovný preklad latinského Lucifer (lat. lux – svetlo, ferre – nosiť, prenášať) – nositeľ svetla, svetlonosič.</p>\n<p>O stretnutí so svetlonosom hovorí aj krátky príbeh z roku 1930: <em>Raz istý muž videl večer pobehovať svetlonosa kdesi blízko domu. I vyšiel von a zapískal, hneď však zas rýchlo vbehol do izby. A tu už dupy, dup – svetlonos začal behať okolo okien a menom volal toho muža: „Jozefe, poď von! Jozefe, poď von!“ Jozef sa však ani nehol z miesta, len sa tak od strachu triasol, čo s ním bude. Hoci vedel, že pod strechou je chránený od moci svetlonosa. Keď sa svetlonos nemohol dočkať, omrzelo ho podaromnici okolo domu naprázdno pobehovať, stratil sa a viac neprišiel. Však ani náš milý Jozef sa už nikdy neopovážil na svetlonosa zapískať.</em></p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"/assets/images/migrated/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/svetlonos/",
         "en": "https://www.qrlink.sk/new/en/svetlonos/",
@@ -5783,7 +6029,10 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/svetlonos/",
         "hu": "https://www.qrlink.sk/new/hu/svetlonos/"
       },
-      "url": "/svetlonos/"
+      "url": "/svetlonos/",
+      "urlAliasy": [
+        "/castles/svetlonos/"
+      ]
     },
     {
       "id": "zakopy",
@@ -5801,7 +6050,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Turzovka sa síce dostala do kontaktu s nemeckým vojskom už na začiatku druhej svetovej vojny, keď tadiaľto prechádzalo v súvislosti s útokom na Poľsko. Bojové akcie sa na území mesta odohrávali až počas rokov 1944 – 45 počas Slovenského národného povstania a neskôr i v priebehu oslobodzovania. V Turzovke a jej okolí vznikli počas vojny rôzne ilegálne a partizánske skupiny. V septembri 1944 z príkazu Nemeckej brannej moci boli nariadené povinné práce pri kopaní zákopov. Každá obec mala vyslať určený počet ľudí, pre Turzovku bolo stanovených, vzhľadom na počet obyvateľov, 800 pracovníkov. Od tejto povinnosti boli oslobodené len osoby, ktoré boli zamestnané v dôležitom podniku, choré a práce neschopné osoby a tie, ktoré viedli domácnosť. V októbri 1944 bolo vydané nariadenie, ktoré nesplnenie povinnosti trestalo odoslaním do najbližšieho tábora ako „asociálny živel.“ Začiatkom októbra bolo z Turzovky nasadených na opevňovacie práce vo Svrčinovci 905 mužov a 260 žien. Asi v tom istom období boli tieto práce vykonávané aj na území mesta a obec bola povinná vyplácať robotníkom mzdu. Pozostatky zákopov možno vidieť i na tomto mieste.</p>\n<p>Prvé bojové stretnutia medzi nemeckými jednotkami a partizánmi sa odohrali na konci októbra 1944 v Kline a na Hlaviciach, ktoré s Hlineným susedia. Obec musela nemecké vojsko zásobovať drevom, uhlím, okrem toho boli obyvatelia povinní vykonávať povoznícke práce, odovzdávať seno a iné naturálie. Partizáni pôsobili aj na Košariskách v Hlinenom, odkiaľ organizovali výpady na Nemcov. V centre vojsko obsadilo pre vlastnú potrebu budovy ľudovej i meštianskej školy  a tiež budovu sociálneho domu sv. Jozefa. Boje prebiehali až do jari 1945. Vojenské jednotky 18. sovietskej armády generál-poručíka A. I. Gastiloviča 30. apríla 1945 dobyli Kysucké Nové Mesto a odtiaľ cez Neslušu a Dlhú nad Kysucou postupovali na Turzovku. Na druhý deň prebiehali boje na Vyšnom Konci a 2. mája 1945 bola obce oslobodená. V tomto celosvetovom konflikte padlo na bojiskách a v zázemí 64 obyvateľov Turzovky (vrátane Klokočova a Korne) a ďalších sedem obetí pochádzalo z Turkova a Dlhej, ktoré boli k Turzovke pripojené v roku 1948. Doposiaľ identifikovaných židovských obetí pochádzajúcich alebo bývajúcich v obci bolo 74.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
+      "text": "<p>Turzovka sa síce dostala do kontaktu s nemeckým vojskom už na začiatku druhej svetovej vojny, keď tadiaľto prechádzalo v súvislosti s útokom na Poľsko. Bojové akcie sa na území mesta odohrávali až počas rokov 1944 – 45 počas Slovenského národného povstania a neskôr i v priebehu oslobodzovania. V Turzovke a jej okolí vznikli počas vojny rôzne ilegálne a partizánske skupiny. V septembri 1944 z príkazu Nemeckej brannej moci boli nariadené povinné práce pri kopaní zákopov. Každá obec mala vyslať určený počet ľudí, pre Turzovku bolo stanovených, vzhľadom na počet obyvateľov, 800 pracovníkov. Od tejto povinnosti boli oslobodené len osoby, ktoré boli zamestnané v dôležitom podniku, choré a práce neschopné osoby a tie, ktoré viedli domácnosť. V októbri 1944 bolo vydané nariadenie, ktoré nesplnenie povinnosti trestalo odoslaním do najbližšieho tábora ako „asociálny živel.“ Začiatkom októbra bolo z Turzovky nasadených na opevňovacie práce vo Svrčinovci 905 mužov a 260 žien. Asi v tom istom období boli tieto práce vykonávané aj na území mesta a obec bola povinná vyplácať robotníkom mzdu. Pozostatky zákopov možno vidieť i na tomto mieste.</p>\n<p>Prvé bojové stretnutia medzi nemeckými jednotkami a partizánmi sa odohrali na konci októbra 1944 v Kline a na Hlaviciach, ktoré s Hlineným susedia. Obec musela nemecké vojsko zásobovať drevom, uhlím, okrem toho boli obyvatelia povinní vykonávať povoznícke práce, odovzdávať seno a iné naturálie. Partizáni pôsobili aj na Košariskách v Hlinenom, odkiaľ organizovali výpady na Nemcov. V centre vojsko obsadilo pre vlastnú potrebu budovy ľudovej i meštianskej školy  a tiež budovu sociálneho domu sv. Jozefa. Boje prebiehali až do jari 1945. Vojenské jednotky 18. sovietskej armády generál-poručíka A. I. Gastiloviča 30. apríla 1945 dobyli Kysucké Nové Mesto a odtiaľ cez Neslušu a Dlhú nad Kysucou postupovali na Turzovku. Na druhý deň prebiehali boje na Vyšnom Konci a 2. mája 1945 bola obce oslobodená. V tomto celosvetovom konflikte padlo na bojiskách a v zázemí 64 obyvateľov Turzovky (vrátane Klokočova a Korne) a ďalších sedem obetí pochádzalo z Turkova a Dlhej, ktoré boli k Turzovke pripojené v roku 1948. Doposiaľ identifikovaných židovských obetí pochádzajúcich alebo bývajúcich v obci bolo 74.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"/assets/images/migrated/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/zakopy/",
         "en": "https://www.qrlink.sk/new/en/zakopy/",
@@ -5810,7 +6059,10 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/zakopy/",
         "hu": "https://www.qrlink.sk/new/hu/zakopy/"
       },
-      "url": "/zakopy/"
+      "url": "/zakopy/",
+      "urlAliasy": [
+        "/castles/zakopy/"
+      ]
     },
     {
       "id": "hlinensky-potok",
@@ -5828,7 +6080,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Na tomto mieste (južne od vrchu Hlinené, 875 m n. m.) začína svoju púť Hlinenský potok (č. hydrologického poradia 4-21-06-034), ktorý obojstranne do svojho koryta prijíma ďalšie bezmenné potôčiky a jarčeky. Z ľavej strany doliny priteká desať prítokov, z pravej deväť. Potok tečie mestskou časťou Hlinené v severo-južnej línii. Samotný Hlinenský potok je ľavobrežným prítokom Kysuce. Jeho ústie sa nachádza Pod Kempou pri vyústení doliny Hlinené v Turzovke. Dĺžka toku je takmer 4 km. V písomných prameňoch sa spomína napr.  v roku 1769 ako <em>Hliniana</em>, 1793 – <em>rivus</em> (potok) <em>Hlinena</em> či 1824 – <em>Hlinana</em>. Názov dostal potok od terénneho pomenovania lokality Hlinené &gt; adjektívum hlinenský + apelatívum potok &gt; Hlinenský potok. Pomenovanie Hlinené je odvodené z apelatíva hlina &gt; hlinené (miesto) &gt; Hlinené. Motiváciou bolo hlinené miesto.</p>\n<p>Hoci Hlinenský potok zväčša nemá veľké prietoky, v čase intenzívnych zrážok a jarného topenia snehu v oblasti Turzovskej vrchoviny dochádza k náhlemu zvýšeniu objemu odtoku povrchových vôd, čo spôsobuje výrazné zvyšovanie jeho hladiny. Nadmerné množstvo týchto vôd zo spádovej oblasti, navýšené lokálnymi prítokmi v hornej časti povodia toku, niekedy môžu spôsobovať v zastavanej časti eróziu svahov a pri zvyšovaní prietokov i vyliatie potoka z koryta. Potok má charakter horskej bystriny, v minulosti tu žili raky, pstruhy a iné vodné živočíchy, ktoré sú citlivé na čistotu vody. V Hlinenskom potoku má aktuálne znečistenie a kolísanie hladiny vplyv na faunu typických vodných druhov. Pri vyšších prietokoch migrujú v dolnej časti z rieky Kysuca najmä ryby.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
+      "text": "<p>Na tomto mieste (južne od vrchu Hlinené, 875 m n. m.) začína svoju púť Hlinenský potok (č. hydrologického poradia 4-21-06-034), ktorý obojstranne do svojho koryta prijíma ďalšie bezmenné potôčiky a jarčeky. Z ľavej strany doliny priteká desať prítokov, z pravej deväť. Potok tečie mestskou časťou Hlinené v severo-južnej línii. Samotný Hlinenský potok je ľavobrežným prítokom Kysuce. Jeho ústie sa nachádza Pod Kempou pri vyústení doliny Hlinené v Turzovke. Dĺžka toku je takmer 4 km. V písomných prameňoch sa spomína napr.  v roku 1769 ako <em>Hliniana</em>, 1793 – <em>rivus</em> (potok) <em>Hlinena</em> či 1824 – <em>Hlinana</em>. Názov dostal potok od terénneho pomenovania lokality Hlinené &gt; adjektívum hlinenský + apelatívum potok &gt; Hlinenský potok. Pomenovanie Hlinené je odvodené z apelatíva hlina &gt; hlinené (miesto) &gt; Hlinené. Motiváciou bolo hlinené miesto.</p>\n<p>Hoci Hlinenský potok zväčša nemá veľké prietoky, v čase intenzívnych zrážok a jarného topenia snehu v oblasti Turzovskej vrchoviny dochádza k náhlemu zvýšeniu objemu odtoku povrchových vôd, čo spôsobuje výrazné zvyšovanie jeho hladiny. Nadmerné množstvo týchto vôd zo spádovej oblasti, navýšené lokálnymi prítokmi v hornej časti povodia toku, niekedy môžu spôsobovať v zastavanej časti eróziu svahov a pri zvyšovaní prietokov i vyliatie potoka z koryta. Potok má charakter horskej bystriny, v minulosti tu žili raky, pstruhy a iné vodné živočíchy, ktoré sú citlivé na čistotu vody. V Hlinenskom potoku má aktuálne znečistenie a kolísanie hladiny vplyv na faunu typických vodných druhov. Pri vyšších prietokoch migrujú v dolnej časti z rieky Kysuca najmä ryby.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"/assets/images/migrated/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/hlinensky-potok/",
         "en": "https://www.qrlink.sk/new/en/hlinensky-potok/",
@@ -5837,7 +6089,10 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/hlinensky-potok/",
         "hu": "https://www.qrlink.sk/new/hu/hlinensky-potok/"
       },
-      "url": "/hlinensky-potok/"
+      "url": "/hlinensky-potok/",
+      "urlAliasy": [
+        "/castles/hlinensky-potok/"
+      ]
     },
     {
       "id": "najuzsi-bod",
@@ -5855,7 +6110,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Nachádzate sa v lokalite Pri kríži. Jeho zaujímavosťou je, že v tejto oblasti vytvára kataster mesta určité „hrdlo,“ ktoré je jeho najužším miestom. Z východu (od Olešnej) na západ (po Klokočov) meria len niečo viac ako 300 metrov. Je to zároveň miesto krížnych ciest. Takýmto miestam sa v minulosti pripisoval magický význam. Mali byť obľúbeným miestom pôsobenia nadprirodzených síl. Kresťania tieto miesta označovali krížom. Aj na tomto mieste sa nachádzal v minulosti malý krížik. Označoval miesto, kde tragicky zahynul pri práci s drevom istý Jakub, rodák z neďalekej osady. Na jeho pamiatku tu umiestnili kríž jeho príbuzní. O tom, že nejaký kríž tu stojí dlhé roky, svedčí aj skutočnosť, že priľahlý pľac nesie názov „Pod krížom.“ Kríže sa na území Slovenska vo voľnej krajine začali nebývalo rozširovať od druhej polovice 18. storočia. Umiestňovali sa popri komunikáciách, na križovatky, rázcestia, na hranice chotárov, pri žriedle vody či prameňoch. Popri cestičkách a chodníkoch pripomínali miesto tragickej smrti alebo zázračného zjavenia. Slúžili aj ako ukazovateľ cesty či orientačný bod. Vo Vrch Hlinenom sa drevený kríž s plechovým korpusom prvý raz spomína už v roku 1828, ktorý bol obnovený či skôr vymenený v roku 1919.</p>\n<p>Miesto Pri kríži má viacero symbolov. V nedeľu sa tu stretávali ľudia z Potôčkov, Riečok aj Vrch Hlineného a spoločne sa tu modlili za úrodu, dážď, zdravie alebo prednášali Bohu iné prosby. Ľudia si tu po namáhavom a strmom výstupe, unavení s batohom na chrbte oddýchli, pomodlili sa a pokračovali do svojich pľacov (príbytkov) U Kadurov, Na Vŕšok, Na Rovienky, Do Stoligov alebo Do Gajdičiarov. V týchto odľahlých osadách bol život kvôli namáhavej práci a vzdialenostiam náročný, skromný, ale zároveň radostný. Aj keď horské osady boli od seba vzdialené, ľudia mali k sebe blízko.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
+      "text": "<p>Nachádzate sa v lokalite Pri kríži. Jeho zaujímavosťou je, že v tejto oblasti vytvára kataster mesta určité „hrdlo,“ ktoré je jeho najužším miestom. Z východu (od Olešnej) na západ (po Klokočov) meria len niečo viac ako 300 metrov. Je to zároveň miesto krížnych ciest. Takýmto miestam sa v minulosti pripisoval magický význam. Mali byť obľúbeným miestom pôsobenia nadprirodzených síl. Kresťania tieto miesta označovali krížom. Aj na tomto mieste sa nachádzal v minulosti malý krížik. Označoval miesto, kde tragicky zahynul pri práci s drevom istý Jakub, rodák z neďalekej osady. Na jeho pamiatku tu umiestnili kríž jeho príbuzní. O tom, že nejaký kríž tu stojí dlhé roky, svedčí aj skutočnosť, že priľahlý pľac nesie názov „Pod krížom.“ Kríže sa na území Slovenska vo voľnej krajine začali nebývalo rozširovať od druhej polovice 18. storočia. Umiestňovali sa popri komunikáciách, na križovatky, rázcestia, na hranice chotárov, pri žriedle vody či prameňoch. Popri cestičkách a chodníkoch pripomínali miesto tragickej smrti alebo zázračného zjavenia. Slúžili aj ako ukazovateľ cesty či orientačný bod. Vo Vrch Hlinenom sa drevený kríž s plechovým korpusom prvý raz spomína už v roku 1828, ktorý bol obnovený či skôr vymenený v roku 1919.</p>\n<p>Miesto Pri kríži má viacero symbolov. V nedeľu sa tu stretávali ľudia z Potôčkov, Riečok aj Vrch Hlineného a spoločne sa tu modlili za úrodu, dážď, zdravie alebo prednášali Bohu iné prosby. Ľudia si tu po namáhavom a strmom výstupe, unavení s batohom na chrbte oddýchli, pomodlili sa a pokračovali do svojich pľacov (príbytkov) U Kadurov, Na Vŕšok, Na Rovienky, Do Stoligov alebo Do Gajdičiarov. V týchto odľahlých osadách bol život kvôli namáhavej práci a vzdialenostiam náročný, skromný, ale zároveň radostný. Aj keď horské osady boli od seba vzdialené, ľudia mali k sebe blízko.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"/assets/images/migrated/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/najuzsi-bod/",
         "en": "https://www.qrlink.sk/new/en/najuzsi-bod/",
@@ -5864,7 +6119,10 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/najuzsi-bod/",
         "hu": "https://www.qrlink.sk/new/hu/najuzsi-bod/"
       },
-      "url": "/najuzsi-bod/"
+      "url": "/najuzsi-bod/",
+      "urlAliasy": [
+        "/castles/najuzsi-bod/"
+      ]
     },
     {
       "id": "zvonica-2",
@@ -5882,7 +6140,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Rok postavenia zvonice nie je známy, pravdepodobne pochádza z prvej polovice minulého storočia. Pôvodne išlo o drevenú zvonicu, ku ktorej bola neskôr pristavaná murovaná prístavba, čím vznikla aj malá kaplnka. Zaujímavosťou je, že vo zvonici sa nachádzajú dva zvony, z ktorých jeden má datovanie 1752. Ide teda o najstarší zvon turzovskej farnosti in situ (najstarší z roku 1614 sa nachádza v zbierkach Mestského múzea K. Točíka). Zvony však nie sú pôvodné, podľa zachovanej ústnej tradície boli do zvonice dovezené prvým zvonárom z neznámej lokality z Moravy. V roku 1919 bol v osade postavený kríž, ale z kronikárskeho zápisu nie je jasné, o ktorý z dvoch jestvujúcich išlo. Či o kríž v lokality Pri kríži alebo kríž pri zvonici. Súčasný kríž pri zvonici bol osadený na jeseň 2020.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
+      "text": "<p>Rok postavenia zvonice nie je známy, pravdepodobne pochádza z prvej polovice minulého storočia. Pôvodne išlo o drevenú zvonicu, ku ktorej bola neskôr pristavaná murovaná prístavba, čím vznikla aj malá kaplnka. Zaujímavosťou je, že vo zvonici sa nachádzajú dva zvony, z ktorých jeden má datovanie 1752. Ide teda o najstarší zvon turzovskej farnosti in situ (najstarší z roku 1614 sa nachádza v zbierkach Mestského múzea K. Točíka). Zvony však nie sú pôvodné, podľa zachovanej ústnej tradície boli do zvonice dovezené prvým zvonárom z neznámej lokality z Moravy. V roku 1919 bol v osade postavený kríž, ale z kronikárskeho zápisu nie je jasné, o ktorý z dvoch jestvujúcich išlo. Či o kríž v lokality Pri kríži alebo kríž pri zvonici. Súčasný kríž pri zvonici bol osadený na jeseň 2020.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"/assets/images/migrated/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/zvonica-2/",
         "en": "https://www.qrlink.sk/new/en/zvonica-2/",
@@ -5891,7 +6149,10 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/zvonica-2/",
         "hu": "https://www.qrlink.sk/new/hu/zvonica-2/"
       },
-      "url": "/zvonica-2/"
+      "url": "/zvonica-2/",
+      "urlAliasy": [
+        "/castles/zvonica/"
+      ]
     },
     {
       "id": "nch-zarubana-kycera",
@@ -5908,7 +6169,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2599.8675225100465!2d18.55861117649205!3d49.33572687140091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDIwJzA4LjYiTiAxOMKwMzMnNDAuMyJF!5e0!3m2!1ssk!2ssk!4v1693316832386!5m2!1ssk!2ssk",
-      "text": "<h2>K rozhľadni Zarúbaná Kýčera</h2>\n<p>Náučný chodník pozostáva zo 6-tich informačných panelov zaoberajúcich sa históriou obce, architektúrou, geológiou a geomorfológiou pohoria, rastlinstvom a živočíšstvom. Pri niektorých paneloch sú umiestnené prístrešky s lavičkami pre oddych. Na konci náučného chodníka je postavená vyhliadková veža, z ktorej sú nádherné výhľady na Javorníky, Malú Fatru, Súľovské skaly, Moravskosliezske Beskydy.</p>\n<h2>Top zajímavost:</h2>\n<h3>Múzeum drotárie</h3>\n<p>Múzeum drotárie  je jeden z najstarších objektov v centre obce Veľké Rovné, ktorý sa podaril zrekonštruovať na základe zachovanej dobovej fotografi. Snahou bolo prinavrátenie pôvodnej dôstojnosti objektu.</p>\n<h3>Rozhľadňa Zarúbaná Kýčera</h3>\n<p>Vyhliadková veža má tri podlažia vo výške 15 metrov, na ktoré sa vystupuje po rebríkoch. Za dobrého počasia sa vám v plnej svojej kráse predvedie nielen hrebeň Javorníkov, ale aj Malá Fatra, Strážovské vrchy, Súľovské skaly, Biele Karpaty, Beskydy, Vršatské bradlá a z Oravy Roháče, Babia hora či Pilsko.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/Klapy.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/Svedern%C3%ADk.jpeg\" alt=\"\"></p>",
+      "text": "<h2>K rozhľadni Zarúbaná Kýčera</h2>\n<p>Náučný chodník pozostáva zo 6-tich informačných panelov zaoberajúcich sa históriou obce, architektúrou, geológiou a geomorfológiou pohoria, rastlinstvom a živočíšstvom. Pri niektorých paneloch sú umiestnené prístrešky s lavičkami pre oddych. Na konci náučného chodníka je postavená vyhliadková veža, z ktorej sú nádherné výhľady na Javorníky, Malú Fatru, Súľovské skaly, Moravskosliezske Beskydy.</p>\n<h2>Top zajímavost:</h2>\n<h3>Múzeum drotárie</h3>\n<p>Múzeum drotárie  je jeden z najstarších objektov v centre obce Veľké Rovné, ktorý sa podaril zrekonštruovať na základe zachovanej dobovej fotografi. Snahou bolo prinavrátenie pôvodnej dôstojnosti objektu.</p>\n<h3>Rozhľadňa Zarúbaná Kýčera</h3>\n<p>Vyhliadková veža má tri podlažia vo výške 15 metrov, na ktoré sa vystupuje po rebríkoch. Za dobrého počasia sa vám v plnej svojej kráse predvedie nielen hrebeň Javorníkov, ale aj Malá Fatra, Strážovské vrchy, Súľovské skaly, Biele Karpaty, Beskydy, Vršatské bradlá a z Oravy Roháče, Babia hora či Pilsko.</p>\n<p><img src=\"/assets/images/migrated/klapy.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/svedernik.jpeg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/nch-zarubana-kycera/",
         "en": "https://www.qrlink.sk/new/en/castles/nch-zarubana-kycera/",
@@ -5917,7 +6178,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/nch-zarubana-kycera/",
         "hu": "https://www.qrlink.sk/new/hu/castles/nch-zarubana-kycera/"
       },
-      "url": "/castles/nch-zarubana-kycera/"
+      "url": "/castles/nch-zarubana-kycera/",
+      "urlAliasy": []
     },
     {
       "id": "detsky-naucny-turisticky-chodnik",
@@ -5934,7 +6196,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2595.6958741200174!2d18.548644275425218!3d49.41465676140126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDI0JzUyLjgiTiAxOMKwMzMnMDQuNCJF!5e0!3m2!1ssk!2ssk!4v1693317305855!5m2!1ssk!2ssk",
-      "text": "<p>Na náučný chodník sa vydáme z časti Vyšná Korňa, auto zaparkujeme pri ruine základnej školy pár metrov nad výrobňou syrových korbáčikoch. Vydáme sa do osady Durajčíkovci, ďalej ponad osadu Vyšní Slezákovi až k Panorama Ranču. Po ceste nachádzame 6 informačných tabúľ venovaným zvieratám, ktoré môžeme počas prechádzky stretnúť. Sú to zvieratá: veverica, zajac, srna, diviak, jež, líška. Na konci náučného chodníka sa nachádza drevený rám, z ktorého si môžeme urobiť pekné fotky s krásnymi výhľadmi, zvonička a bufet, kde sa môžeme občerstviť. Ďalej môžeme pokračovať na vrch Bobek, na hranici s Českou republikou, ktorý ponúka krásne výhľady aj na Moravskosliezske Beskydy.</p>\n<h2>Top zaujímavosť:</h2>\n<h3>Lipy na Vigľaši</h3>\n<p>Staré stromy sú pamätníkmi rôznych udalostí a ľudských osudov. V Korni stoja tri mohutné lipy na Vígľaši, ktoré má obec aj v erbe. Nepatria k jediným unikátom. Zaujímavosťou je ďalšia lipa na Grúni, ktorej obvod kmeňa je vyše 6 metrov. Raritou je tiež smrek hadovitý v osade U Žilov.</p>\n<h3>Korňanský ropný prameň</h3>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/Dreveni%C4%8Dka-Kor%C5%88a.jpg\" alt=\"\"></p>\n<p>Na východnom okraji v blízkosti osady Muchovci v obci Korňa sa nachádza ojedinelý európsky unikát – prirodzený povrchový výver ľahkej ropy s občasnými výronmi samozapaľujúceho sa metánu. Výver, ktorý dokumentujte roponosnosť flyšových vrstiev, obsahuje vysoké percentá olejov. Ropa sa sústreďuje v malom jazierku s priemerom 1,5 – 2 m. Napriek tomu, že sa jedná o veľmi kvalitnú ropu, vrty v okolí – s ktorými sa začalo už na konci 19. storočia, nepreukázali také množstvo ropy, aby sa vyplatila priemyselná ťažba. Miestni obyvatelia ju v minulosti využívali na kúrenie, svietenie i mazanie. Vrty, ktoré sa tu uskutočnili (celkovo ich bolo 5, prvý v roku 1900 a posledný v roku 1929-33 do hĺbky 968 m), však nepotvrdili rentabilnosť ťažby (celkovo sa vyťažilo len 15-16 vagónov ropy). V roku 1973 ropný prameň vyhlásili za chránený prírodný výtvor, v roku 1995 prekategorizovali na prírodnú pamiatku s výmerom 0,171 ha. K prameňu je voľný prístup, cca 150 m od parkoviska pri hlavnej ceste.</p>\n<h3>Veterný mlyn</h3>\n<p>Veterný mlyn je jedným zo siedmych divov obce Korňa. Tento prvý div je zaujímavým zobrazením veterného mlynu, ktorý je umiestnený v Nižnej Korni. Dáva do povedomia starý veterný mlyn, ktorý stojí v osade u Šulca, je však už v zlom technickom stave. Nachádza sa v ťažko dostupnom teréne, preto je potrebné prejsť približne tri kilometre cez les, aby ste sa k nemu dostali.</p>\n<p>Povráva sa, že zariadenie starého mlynu do Korne doviezol predok Jozefa Gajdičiara, ktorý pracoval v Ostravsku ako baník. Lopatky vrtule boli roztáčané najmä severným vetrom, pri ktorom sa najlepšie mlela múka. Zaujímavosťou je, že na Morave sa zachovalo asi 70 podobných stavieb a podobný mlyn bol na Slovensko prenesený aj z Poľska. Odporúčame zobrať si so sebou aj trošku zrna a vyskúšať si namlieť múku.</p>\n<h3>Pútnické miesto Živčáková</h3>\n<p>V júni v roku 1958 sa na vrchu Živčáková mala lesnému robotníkovi Matúšovi Lašutovi zjaviť Panna Mária. Správa sa rýchlo rozšírila a miesto údajného zjavenia začali navštevovať veriaci, ktorí putovali na horu, odkiaľ si odnášali vodu z neďalekého prameňa. V roku 1992 BÚ v Nitre súhlasil a v nasledujúcom roku bola na hore Živčáková postavená kaplnka Panny Márie, Kráľovnej pokoja. Jej projekt vypracoval Ing. Arch. Marián Goč. V areáli zjavenia sa nachádza niekoľko prameňov s liečivou vodou, ktoré nezamŕzajú ani v najtuhších zimách.</p>\n<p>Žilinský biskup Tomáš Galis dňa 19. októbra 2008 vyhlásil Horu Živčáková za oficiálne mariánske pútnické miesto a vysvätil základný kameň budúceho chrámu Panny Márie Matky Cirkvi. 4. októbra 2015 bol chrám slávnostne vysvätený žilinským diecéznym biskupom Mons. Tomášom Galisom. Jeho výstavba trvala 7 rokov. Vo veži kostola sú umiestnené štyri zvony, ktoré sú dielom Josefa Tkadleca z Halenkova.</p>\n<p>Veža slúži aj ako vyhliadková a je sprístupnená pre pútnikov i turistov, z jej otvorenej terasy je kruhový výhľad na okolitú prírodu. Ak si chcete pozrieť tento výhľad musíte vyšľapať približne 140 schodov. Vstup do veže je zdarma, vstupné je dobrovoľné. Vyhliadková veža je sprístupnená len za priaznivého počasia.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/199505802_1883109211852134_8317344405388699304_n.jpg\" alt=\"\"></p>",
+      "text": "<p>Na náučný chodník sa vydáme z časti Vyšná Korňa, auto zaparkujeme pri ruine základnej školy pár metrov nad výrobňou syrových korbáčikoch. Vydáme sa do osady Durajčíkovci, ďalej ponad osadu Vyšní Slezákovi až k Panorama Ranču. Po ceste nachádzame 6 informačných tabúľ venovaným zvieratám, ktoré môžeme počas prechádzky stretnúť. Sú to zvieratá: veverica, zajac, srna, diviak, jež, líška. Na konci náučného chodníka sa nachádza drevený rám, z ktorého si môžeme urobiť pekné fotky s krásnymi výhľadmi, zvonička a bufet, kde sa môžeme občerstviť. Ďalej môžeme pokračovať na vrch Bobek, na hranici s Českou republikou, ktorý ponúka krásne výhľady aj na Moravskosliezske Beskydy.</p>\n<h2>Top zaujímavosť:</h2>\n<h3>Lipy na Vigľaši</h3>\n<p>Staré stromy sú pamätníkmi rôznych udalostí a ľudských osudov. V Korni stoja tri mohutné lipy na Vígľaši, ktoré má obec aj v erbe. Nepatria k jediným unikátom. Zaujímavosťou je ďalšia lipa na Grúni, ktorej obvod kmeňa je vyše 6 metrov. Raritou je tiež smrek hadovitý v osade U Žilov.</p>\n<h3>Korňanský ropný prameň</h3>\n<p><img src=\"/assets/images/migrated/drevenicka-korna.jpg\" alt=\"\"></p>\n<p>Na východnom okraji v blízkosti osady Muchovci v obci Korňa sa nachádza ojedinelý európsky unikát – prirodzený povrchový výver ľahkej ropy s občasnými výronmi samozapaľujúceho sa metánu. Výver, ktorý dokumentujte roponosnosť flyšových vrstiev, obsahuje vysoké percentá olejov. Ropa sa sústreďuje v malom jazierku s priemerom 1,5 – 2 m. Napriek tomu, že sa jedná o veľmi kvalitnú ropu, vrty v okolí – s ktorými sa začalo už na konci 19. storočia, nepreukázali také množstvo ropy, aby sa vyplatila priemyselná ťažba. Miestni obyvatelia ju v minulosti využívali na kúrenie, svietenie i mazanie. Vrty, ktoré sa tu uskutočnili (celkovo ich bolo 5, prvý v roku 1900 a posledný v roku 1929-33 do hĺbky 968 m), však nepotvrdili rentabilnosť ťažby (celkovo sa vyťažilo len 15-16 vagónov ropy). V roku 1973 ropný prameň vyhlásili za chránený prírodný výtvor, v roku 1995 prekategorizovali na prírodnú pamiatku s výmerom 0,171 ha. K prameňu je voľný prístup, cca 150 m od parkoviska pri hlavnej ceste.</p>\n<h3>Veterný mlyn</h3>\n<p>Veterný mlyn je jedným zo siedmych divov obce Korňa. Tento prvý div je zaujímavým zobrazením veterného mlynu, ktorý je umiestnený v Nižnej Korni. Dáva do povedomia starý veterný mlyn, ktorý stojí v osade u Šulca, je však už v zlom technickom stave. Nachádza sa v ťažko dostupnom teréne, preto je potrebné prejsť približne tri kilometre cez les, aby ste sa k nemu dostali.</p>\n<p>Povráva sa, že zariadenie starého mlynu do Korne doviezol predok Jozefa Gajdičiara, ktorý pracoval v Ostravsku ako baník. Lopatky vrtule boli roztáčané najmä severným vetrom, pri ktorom sa najlepšie mlela múka. Zaujímavosťou je, že na Morave sa zachovalo asi 70 podobných stavieb a podobný mlyn bol na Slovensko prenesený aj z Poľska. Odporúčame zobrať si so sebou aj trošku zrna a vyskúšať si namlieť múku.</p>\n<h3>Pútnické miesto Živčáková</h3>\n<p>V júni v roku 1958 sa na vrchu Živčáková mala lesnému robotníkovi Matúšovi Lašutovi zjaviť Panna Mária. Správa sa rýchlo rozšírila a miesto údajného zjavenia začali navštevovať veriaci, ktorí putovali na horu, odkiaľ si odnášali vodu z neďalekého prameňa. V roku 1992 BÚ v Nitre súhlasil a v nasledujúcom roku bola na hore Živčáková postavená kaplnka Panny Márie, Kráľovnej pokoja. Jej projekt vypracoval Ing. Arch. Marián Goč. V areáli zjavenia sa nachádza niekoľko prameňov s liečivou vodou, ktoré nezamŕzajú ani v najtuhších zimách.</p>\n<p>Žilinský biskup Tomáš Galis dňa 19. októbra 2008 vyhlásil Horu Živčáková za oficiálne mariánske pútnické miesto a vysvätil základný kameň budúceho chrámu Panny Márie Matky Cirkvi. 4. októbra 2015 bol chrám slávnostne vysvätený žilinským diecéznym biskupom Mons. Tomášom Galisom. Jeho výstavba trvala 7 rokov. Vo veži kostola sú umiestnené štyri zvony, ktoré sú dielom Josefa Tkadleca z Halenkova.</p>\n<p>Veža slúži aj ako vyhliadková a je sprístupnená pre pútnikov i turistov, z jej otvorenej terasy je kruhový výhľad na okolitú prírodu. Ak si chcete pozrieť tento výhľad musíte vyšľapať približne 140 schodov. Vstup do veže je zdarma, vstupné je dobrovoľné. Vyhliadková veža je sprístupnená len za priaznivého počasia.</p>\n<p><img src=\"/assets/images/migrated/199505802_1883109211852134_8317344405388699304_n.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/detsky-naucny-turisticky-chodnik/",
         "en": "https://www.qrlink.sk/new/en/castles/detsky-naucny-turisticky-chodnik/",
@@ -5943,7 +6205,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/detsky-naucny-turisticky-chodnik/",
         "hu": "https://www.qrlink.sk/new/hu/castles/detsky-naucny-turisticky-chodnik/"
       },
-      "url": "/castles/detsky-naucny-turisticky-chodnik/"
+      "url": "/castles/detsky-naucny-turisticky-chodnik/",
+      "urlAliasy": []
     },
     {
       "id": "kysucky-detsky-les",
@@ -5959,7 +6222,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2597.338988456459!2d19.096093675422946!3d49.38357926360561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDIzJzAwLjkiTiAxOcKwMDUnNTUuMiJF!5e0!3m2!1ssk!2ssk!4v1693317671356!5m2!1ssk!2ssk",
-      "text": "<p>Chodník vybudovaný v areáli Múzea Kysuckej dediny vo Vychylovke ponúka poučenie i zábavu pre malých aj veľkých návštevníkov. Na jednotlivých 7 stanovištiach, ktoré sú umiestnené na chodníku, si môžete vyskúšať ako sa dá les vnímať nie len zrakom, na ktorý sa človek najmä spolieha, ale aj hmatom, čuchom, sluchom aj chuťou. Na sprevádzanie po chodníku je možnosť objednať si odborných sprievodcov –ktorí zabezpečia odborný výklad a aj zábavu vo forme lesných hier a pohybových aktivít. Okolo náučného chodníka môžeme nájsť kŕmidla pre zver, drevenú detskú rozhľadňu, detské ihrisko s hojdačkami, preliezkami, lavičkami a drevený altánok.</p>\n<h2>Top zajímavost:</h2>\n<h3>Skanzen Vychylovka</h3>\n<p>Pamiatky ľudovej architektúry to všetko ponúka Skanzen Vychylovka. Odkaz starých a prastarých rodičov ležiaci v malebnom prostredí Chmúrnej doliny dokáže pre svojich návštevníkov priniesť spomienky na mladosť, spoznávať históriu, ba aj osvetliť kopaničiarsky spôsob osídlenia, ktorý bol charakteristický práve pre Kysuce.</p>\n<p>Jednu z najrozsiahlejších expozícii ľudovej architektúry na Slovensku tvorí 34 stavieb, z ktorých prevažná časť je prenesená z dnes už neexistujúcich obcí Riečnica a Harvelka. Centrum skanzenu tvorí kaplnka Panny Márie Ružencovej zo Zborova nad Bystricou, krčma z obce Korňa a najstarší obytný dom z Oščadnice. Nemožno nepoukázať ani na skvost vodného mlynu a píly s hrazdenou konštrukciou z obce Klubina. Počas sezóny tu návštevníci môžu vidieť ukážky práce remeselníkov, vystúpenia folklórnych skupín, súborov z kysuckého regiónu a prípravu tradičných kysuckých jedál. Výnimočnosť tohto prostredia vyhľadávajú aj filmári. Medzi najznámejšie diela, ktoré sa aspoň čiastočne odohrali v skanzene, patrí film Želary a Lietajúci Cyprián. Sezónna prevádzka v národopisnej expozícii je od 1. mája do 31. októbra.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/Br%C3%BDzgalky-3.jpg\" alt=\"\"></p>",
+      "text": "<p>Chodník vybudovaný v areáli Múzea Kysuckej dediny vo Vychylovke ponúka poučenie i zábavu pre malých aj veľkých návštevníkov. Na jednotlivých 7 stanovištiach, ktoré sú umiestnené na chodníku, si môžete vyskúšať ako sa dá les vnímať nie len zrakom, na ktorý sa človek najmä spolieha, ale aj hmatom, čuchom, sluchom aj chuťou. Na sprevádzanie po chodníku je možnosť objednať si odborných sprievodcov –ktorí zabezpečia odborný výklad a aj zábavu vo forme lesných hier a pohybových aktivít. Okolo náučného chodníka môžeme nájsť kŕmidla pre zver, drevenú detskú rozhľadňu, detské ihrisko s hojdačkami, preliezkami, lavičkami a drevený altánok.</p>\n<h2>Top zajímavost:</h2>\n<h3>Skanzen Vychylovka</h3>\n<p>Pamiatky ľudovej architektúry to všetko ponúka Skanzen Vychylovka. Odkaz starých a prastarých rodičov ležiaci v malebnom prostredí Chmúrnej doliny dokáže pre svojich návštevníkov priniesť spomienky na mladosť, spoznávať históriu, ba aj osvetliť kopaničiarsky spôsob osídlenia, ktorý bol charakteristický práve pre Kysuce.</p>\n<p>Jednu z najrozsiahlejších expozícii ľudovej architektúry na Slovensku tvorí 34 stavieb, z ktorých prevažná časť je prenesená z dnes už neexistujúcich obcí Riečnica a Harvelka. Centrum skanzenu tvorí kaplnka Panny Márie Ružencovej zo Zborova nad Bystricou, krčma z obce Korňa a najstarší obytný dom z Oščadnice. Nemožno nepoukázať ani na skvost vodného mlynu a píly s hrazdenou konštrukciou z obce Klubina. Počas sezóny tu návštevníci môžu vidieť ukážky práce remeselníkov, vystúpenia folklórnych skupín, súborov z kysuckého regiónu a prípravu tradičných kysuckých jedál. Výnimočnosť tohto prostredia vyhľadávajú aj filmári. Medzi najznámejšie diela, ktoré sa aspoň čiastočne odohrali v skanzene, patrí film Želary a Lietajúci Cyprián. Sezónna prevádzka v národopisnej expozícii je od 1. mája do 31. októbra.</p>\n<p><img src=\"/assets/images/migrated/bryzgalky-3.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/kysucky-detsky-les/",
         "en": "https://www.qrlink.sk/new/en/castles/kysucky-detsky-les/",
@@ -5968,7 +6231,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/kysucky-detsky-les/",
         "hu": "https://www.qrlink.sk/new/hu/castles/kysucky-detsky-les/"
       },
-      "url": "/castles/kysucky-detsky-les/"
+      "url": "/castles/kysucky-detsky-les/",
+      "urlAliasy": []
     },
     {
       "id": "ku-pramenu-rieky-kysuca-400-rokov-4000-krokov",
@@ -5985,7 +6249,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2599.0863723121875!2d18.402335075420527!3d49.350513765949906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDIxJzAxLjgiTiAxOMKwMjQnMTcuNyJF!5e0!3m2!1ssk!2ssk!4v1693317865170!5m2!1ssk!2ssk",
-      "text": "<p>Náučný chodník ku prameňu rieky Kysuca – 400 rokov – 4000 krokov  vznikol pri príležitosti 400-tého výročia prvej písomnej zmienky o obci Makov ležiacej medzi Turzovskou vrchovinou a Javorníkmi v CHKO Kysuce. Náučný chodník je dĺžkou nenáročný cca 2 km avšak s prudším stúpaním, ktoré nám spríjemňujú oddychové lavičky s vyrezávanými zvieratami z dreva.</p>\n<h2>Top zajímavost:</h2>\n<h3>Brest u Papaji</h3>\n<p>Najstarší a najmohutnejší brest hrabolistý v strednej Európe, ktorý má takmer 500 rokov, Unikátny exemplár brestu hrabolistého Ulmus carpinifolia sa vyznačuje nielen vekom, ale aj neobvyklou mohutnosťou. Obvod kmeňa vo výške 130 cm je 625 cm a pri koreni viac ako 11 metrov. Výška je asi 30 m. Nachádza sa v časti Makov – Kopanice , z hlavne cesty pri Chate Makov odbočíme vľavo cez most, na prvej križovatke za obchodom odbočíme vľavo a pokračujeme cca 1,5 km.</p>\n<h3>Rozhľadňa Stratenec</h3>\n<p>Drevená rozhľadňa bola vybudovaná na vrchu Stratenec, v nadmorskej výške 1055 m n.m., ešte v roku 2008**.** Vyhliadka má výšku 8 metrov a 22 schodov. Nachádza sa tu tiež kamenný pamätník Tri kríže. Venovaný je trom vojakom, ktorí padli počas 2. svetovej vojny, v čase oslobodenia Veľkých Karlovíc. Rozhľadňa na vrchu Stratenec má významné prvenstvo. Je najvyššia v celých Javorníkoch a nachádza sa na najzápadnejšom vrchu tohto pohoria.</p>\n<h3>Obec Makov</h3>\n<p>Ponúka  množstvo turistických a cyklistických atrakcií.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/Makov-gregu%C5%A1e.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/Makov-Kr%C5%A1lisko.jpg\" alt=\"\"></p>",
+      "text": "<p>Náučný chodník ku prameňu rieky Kysuca – 400 rokov – 4000 krokov  vznikol pri príležitosti 400-tého výročia prvej písomnej zmienky o obci Makov ležiacej medzi Turzovskou vrchovinou a Javorníkmi v CHKO Kysuce. Náučný chodník je dĺžkou nenáročný cca 2 km avšak s prudším stúpaním, ktoré nám spríjemňujú oddychové lavičky s vyrezávanými zvieratami z dreva.</p>\n<h2>Top zajímavost:</h2>\n<h3>Brest u Papaji</h3>\n<p>Najstarší a najmohutnejší brest hrabolistý v strednej Európe, ktorý má takmer 500 rokov, Unikátny exemplár brestu hrabolistého Ulmus carpinifolia sa vyznačuje nielen vekom, ale aj neobvyklou mohutnosťou. Obvod kmeňa vo výške 130 cm je 625 cm a pri koreni viac ako 11 metrov. Výška je asi 30 m. Nachádza sa v časti Makov – Kopanice , z hlavne cesty pri Chate Makov odbočíme vľavo cez most, na prvej križovatke za obchodom odbočíme vľavo a pokračujeme cca 1,5 km.</p>\n<h3>Rozhľadňa Stratenec</h3>\n<p>Drevená rozhľadňa bola vybudovaná na vrchu Stratenec, v nadmorskej výške 1055 m n.m., ešte v roku 2008**.** Vyhliadka má výšku 8 metrov a 22 schodov. Nachádza sa tu tiež kamenný pamätník Tri kríže. Venovaný je trom vojakom, ktorí padli počas 2. svetovej vojny, v čase oslobodenia Veľkých Karlovíc. Rozhľadňa na vrchu Stratenec má významné prvenstvo. Je najvyššia v celých Javorníkoch a nachádza sa na najzápadnejšom vrchu tohto pohoria.</p>\n<h3>Obec Makov</h3>\n<p>Ponúka  množstvo turistických a cyklistických atrakcií.</p>\n<p><img src=\"/assets/images/migrated/makov-greguse.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/makov-krslisko.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/ku-pramenu-rieky-kysuca-400-rokov-4000-krokov/",
         "en": "https://www.qrlink.sk/new/en/castles/ku-pramenu-rieky-kysuca-400-rokov-4000-krokov/",
@@ -5994,7 +6258,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/ku-pramenu-rieky-kysuca-400-rokov-4000-krokov/",
         "hu": "https://www.qrlink.sk/new/hu/castles/ku-pramenu-rieky-kysuca-400-rokov-4000-krokov/"
       },
-      "url": "/castles/ku-pramenu-rieky-kysuca-400-rokov-4000-krokov/"
+      "url": "/castles/ku-pramenu-rieky-kysuca-400-rokov-4000-krokov/",
+      "urlAliasy": []
     },
     {
       "id": "chodnik-jozefa-kronera",
@@ -6011,7 +6276,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2595.227160405695!2d18.686675875425863!3d49.42351926077234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDI1JzI0LjciTiAxOMKwNDEnMjEuMyJF!5e0!3m2!1ssk!2ssk!4v1693318141031!5m2!1ssk!2ssk",
-      "text": "<p>Jozef Kroner počas svojho života stvárnil niekoľko desiatok postáv, z ktorých si väčšina ľudí vybaví napr. Pacha, Svága Ragana, Kuba, Tóna Brtka, či Martina Pichanku z Tisícročnej včely. Aj tieto postavy, resp. filmy sú stvárnené do podoby 12 umeleckých diel Chodníka Jozefa Kronera.</p>\n<h3><strong>Názvy sochárskych diel na chodníku</strong>:</h3>\n<h2>Top zajímavost:</h2>\n<h3><strong>Rodný dom Jozefa Kronera</strong></h3>\n<p>Domček, v ktorom sa v roku 1924 narodil významný slovenský herec Jozef Kroner.  Múzeum je prístupné každý deň. V múzeu nájdete v strede stôl, hercovo kreslo a vitrínu, v ktorej je množstvo predmetov zo života umelca, napr. osobné listy, rôzne ocenenia, rybárske čižmy, okuliare, šálka, dokonca aj soška Oscara za film Obchod na Korze, v ktorom Jozef Kroner stvárnil hlavnú postavu.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/5.-Na-Michalke-2.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/Ve%C4%BEk%C3%BD-Polom.jpg\" alt=\"\"></p>",
+      "text": "<p>Jozef Kroner počas svojho života stvárnil niekoľko desiatok postáv, z ktorých si väčšina ľudí vybaví napr. Pacha, Svága Ragana, Kuba, Tóna Brtka, či Martina Pichanku z Tisícročnej včely. Aj tieto postavy, resp. filmy sú stvárnené do podoby 12 umeleckých diel Chodníka Jozefa Kronera.</p>\n<h3><strong>Názvy sochárskych diel na chodníku</strong>:</h3>\n<h2>Top zajímavost:</h2>\n<h3><strong>Rodný dom Jozefa Kronera</strong></h3>\n<p>Domček, v ktorom sa v roku 1924 narodil významný slovenský herec Jozef Kroner.  Múzeum je prístupné každý deň. V múzeu nájdete v strede stôl, hercovo kreslo a vitrínu, v ktorej je množstvo predmetov zo života umelca, napr. osobné listy, rôzne ocenenia, rybárske čižmy, okuliare, šálka, dokonca aj soška Oscara za film Obchod na Korze, v ktorom Jozef Kroner stvárnil hlavnú postavu.</p>\n<p><img src=\"/assets/images/migrated/5-na-michalke-2.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/velky-polom.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/chodnik-jozefa-kronera/",
         "en": "https://www.qrlink.sk/new/en/castles/chodnik-jozefa-kronera/",
@@ -6020,7 +6285,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/chodnik-jozefa-kronera/",
         "hu": "https://www.qrlink.sk/new/hu/castles/chodnik-jozefa-kronera/"
       },
-      "url": "/castles/chodnik-jozefa-kronera/"
+      "url": "/castles/chodnik-jozefa-kronera/",
+      "urlAliasy": []
     },
     {
       "id": "prameny-moravky",
@@ -6036,7 +6302,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2586.1742785178662!2d18.521811775438422!3d49.59446284862748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDM1JzQwLjEiTiAxOMKwMzEnMjcuOCJF!5e0!3m2!1ssk!2ssk!4v1693318475745!5m2!1ssk!2ssk",
-      "text": "<p>Naučná stezka vychází od parkoviště v části Lipové a stoupá po silnici údolím řeky Morávky až k jejímu prameni. Cestou potkáte devět naučných tabulí věnovaných povodí Morávky – řece i lesům, výstavbě přehrady, historii obce Morávka a turistice. Dozvíte se například, že voda z řeky Morávky je základní surovinou pro výrobu nošovického piva.</p>\n<h2>Top zaujímavosť:</h2>\n<h3>Přehrada Morávka</h3>\n<p>Údolní vodní nádrž byla vybudována v letech 1961 – 1967 hlavně jako zdroj pitné vody a ochrana před povodněmi.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/moravka-2.jpg\" alt=\"\"></p>\n<h3>Památník partyzánského hnutí „Noční přechod“</h3>\n<p>Památník partyzánského hnutí Noční přechod je památník obětem Nočního přechodu v obci Morávka v okrese Frýdek-Místek. Památkově chráněn je od roku 1958 a 6. října 1978 byl prohlášen za národní kulturní památku.</p>\n<h3>Bílý Kříž</h3>\n<p>Původně zde byla osada, která se jmenovala Karlovice. Na Bílý kříž byla přejmenována po roce 1830. Pašerákům tabáku z uherského Slovenska zastoupil cestu financ (tehdejší pohraniční policie). Pašeráci se báli bití a pokut víc než vraždy, a tak pohraničníka ubili a pochovali. Na mohyle nad hrobem byl postaven dřevěný kříž z čerstvě ostrouhaných smrkových žerdí. Celý hřeben byl tehdy odlesněn, a tak kříž svítil bíle dodaleka. Dnešní kříž už je po několikáté obnovený, a aby dostál svému jménu, je na bílo natřený.</p>\n<h3>Dřevěný kostelík Panny Marie na Gruni, Lysá hora</h3>",
+      "text": "<p>Naučná stezka vychází od parkoviště v části Lipové a stoupá po silnici údolím řeky Morávky až k jejímu prameni. Cestou potkáte devět naučných tabulí věnovaných povodí Morávky – řece i lesům, výstavbě přehrady, historii obce Morávka a turistice. Dozvíte se například, že voda z řeky Morávky je základní surovinou pro výrobu nošovického piva.</p>\n<h2>Top zaujímavosť:</h2>\n<h3>Přehrada Morávka</h3>\n<p>Údolní vodní nádrž byla vybudována v letech 1961 – 1967 hlavně jako zdroj pitné vody a ochrana před povodněmi.</p>\n<p><img src=\"/assets/images/migrated/moravka-2.jpg\" alt=\"\"></p>\n<h3>Památník partyzánského hnutí „Noční přechod“</h3>\n<p>Památník partyzánského hnutí Noční přechod je památník obětem Nočního přechodu v obci Morávka v okrese Frýdek-Místek. Památkově chráněn je od roku 1958 a 6. října 1978 byl prohlášen za národní kulturní památku.</p>\n<h3>Bílý Kříž</h3>\n<p>Původně zde byla osada, která se jmenovala Karlovice. Na Bílý kříž byla přejmenována po roce 1830. Pašerákům tabáku z uherského Slovenska zastoupil cestu financ (tehdejší pohraniční policie). Pašeráci se báli bití a pokut víc než vraždy, a tak pohraničníka ubili a pochovali. Na mohyle nad hrobem byl postaven dřevěný kříž z čerstvě ostrouhaných smrkových žerdí. Celý hřeben byl tehdy odlesněn, a tak kříž svítil bíle dodaleka. Dnešní kříž už je po několikáté obnovený, a aby dostál svému jménu, je na bílo natřený.</p>\n<h3>Dřevěný kostelík Panny Marie na Gruni, Lysá hora</h3>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/prameny-moravky/",
         "en": "https://www.qrlink.sk/new/en/castles/prameny-moravky/",
@@ -6045,7 +6311,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/prameny-moravky/",
         "hu": "https://www.qrlink.sk/new/hu/castles/prameny-moravky/"
       },
-      "url": "/castles/prameny-moravky/"
+      "url": "/castles/prameny-moravky/",
+      "urlAliasy": []
     },
     {
       "id": "frydecky-les",
@@ -6061,7 +6328,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2580.605452484018!2d18.35841647544615!3d49.69940234115713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDQxJzU3LjgiTiAxOMKwMjEnMzkuNiJF!5e0!3m2!1ssk!2ssk!4v1693384634344!5m2!1ssk!2ssk",
-      "text": "<p>Naučná stezka ukazuje, že les má mnoho funkcí a neslouží jen pro pěstování a těžbu dřeva. Les je také domovem mnoha druhů rostlin a živočichů – od hmyzu až po velkou zvěř. Naučná stezka je vhodná zejména pro školní mládež. Přes zamokřená místa již byly položeny jednoduché lávky a přes rokli s potůčkem byl postaven mostek.</p>\n<h2>Top zajímavost:</h2>\n<h3>Bludné balvany ve Frýdeckém lese</h3>\n<p>S bludnými neboli eratickými balvany se na severu Moravy a ve Slezsku můžeme setkat na mnoha místech. Nález balvanů ve Frýdeckém lese byl poprvé zveřejněn v roce 2006. Větší skupina balvanů je v levém přítoku potůčku Podšajarky, v rokli zhruba 200 metrů severně od Zátiší, další leží přímo v řečišti Podšajarky.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/fr%C3%ADdeck%C3%BD-1.jpg\" alt=\"\"></p>",
+      "text": "<p>Naučná stezka ukazuje, že les má mnoho funkcí a neslouží jen pro pěstování a těžbu dřeva. Les je také domovem mnoha druhů rostlin a živočichů – od hmyzu až po velkou zvěř. Naučná stezka je vhodná zejména pro školní mládež. Přes zamokřená místa již byly položeny jednoduché lávky a přes rokli s potůčkem byl postaven mostek.</p>\n<h2>Top zajímavost:</h2>\n<h3>Bludné balvany ve Frýdeckém lese</h3>\n<p>S bludnými neboli eratickými balvany se na severu Moravy a ve Slezsku můžeme setkat na mnoha místech. Nález balvanů ve Frýdeckém lese byl poprvé zveřejněn v roce 2006. Větší skupina balvanů je v levém přítoku potůčku Podšajarky, v rokli zhruba 200 metrů severně od Zátiší, další leží přímo v řečišti Podšajarky.</p>\n<p><img src=\"/assets/images/migrated/fridecky-1.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/frydecky-les/",
         "en": "https://www.qrlink.sk/new/en/castles/frydecky-les/",
@@ -6070,7 +6337,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/frydecky-les/",
         "hu": "https://www.qrlink.sk/new/hu/castles/frydecky-les/"
       },
-      "url": "/castles/frydecky-les/"
+      "url": "/castles/frydecky-les/",
+      "urlAliasy": []
     },
     {
       "id": "grun-bily-kriz",
@@ -6086,7 +6354,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2592.659645413536!2d18.4393050754294!3d49.47204535732784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDI4JzE5LjQiTiAxOMKwMjYnMzAuOCJF!5e0!3m2!1ssk!2ssk!4v1693384789384!5m2!1ssk!2ssk",
-      "text": "<p>Místo je ideální zejména pro rodiny s dětmi, seniory a pro všechny, kdo nemají ambice zdolávat vysoké hory, ale spíše si chtějí užít procházku, mají chuť se něco dozvědět a rádi se kochají horskou krajinou. Délku si zvolte sami. Můžete ujít třeba jen 4 km ke Švarné Hance nebo 11 km, pokud se rozhodnete pokračovat až na vyhlášený Bílý Kříž. Zpět se vrátíte po stejné trase. Část hřebenové trasy ke Švarné Hance (2 km) je díky asfaltovému povrchu vhodná pro kočárky.</p>\n<h2>Top zajímavost:</h2>\n<p>Za hezkého počasí výhled na Slovenské Tatry. Kostel sv. Jindřicha, pomník Maryčky Magdonové a starodávný hřbitov s litinovými kříži ve Starých Hamrech, bývalá Bezručova škola, dřevěný kostel Panny Marie Pomocné na Gruni, ovce Valaška.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/gr2.jpg\" alt=\"\"></p>",
+      "text": "<p>Místo je ideální zejména pro rodiny s dětmi, seniory a pro všechny, kdo nemají ambice zdolávat vysoké hory, ale spíše si chtějí užít procházku, mají chuť se něco dozvědět a rádi se kochají horskou krajinou. Délku si zvolte sami. Můžete ujít třeba jen 4 km ke Švarné Hance nebo 11 km, pokud se rozhodnete pokračovat až na vyhlášený Bílý Kříž. Zpět se vrátíte po stejné trase. Část hřebenové trasy ke Švarné Hance (2 km) je díky asfaltovému povrchu vhodná pro kočárky.</p>\n<h2>Top zajímavost:</h2>\n<p>Za hezkého počasí výhled na Slovenské Tatry. Kostel sv. Jindřicha, pomník Maryčky Magdonové a starodávný hřbitov s litinovými kříži ve Starých Hamrech, bývalá Bezručova škola, dřevěný kostel Panny Marie Pomocné na Gruni, ovce Valaška.</p>\n<p><img src=\"/assets/images/migrated/gr2.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/grun-bily-kriz/",
         "en": "https://www.qrlink.sk/new/en/castles/grun-bily-kriz/",
@@ -6095,7 +6363,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/grun-bily-kriz/",
         "hu": "https://www.qrlink.sk/new/hu/castles/grun-bily-kriz/"
       },
-      "url": "/castles/grun-bily-kriz/"
+      "url": "/castles/grun-bily-kriz/",
+      "urlAliasy": []
     },
     {
       "id": "certuv-mlyn",
@@ -6111,7 +6380,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2591.726688868354!2d18.26245507543072!3d49.489669556076244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDI5JzIyLjgiTiAxOMKwMTUnNTQuMSJF!5e0!3m2!1ssk!2ssk!4v1693385924368!5m2!1ssk!2ssk",
-      "text": "<p>Stezka vede z Pusteven kolem jezírka Mořské oko úbočím Čertova mlýna (1205 m) k horskému hotelu na Martiňáku. Na naučné stezce je 9 zastavení s informacemi o místních zajímavých rostlinách a živočiších, dozvíte se, čím jsou vzácné lesy v okolí, kde se ukrývali partyzáni nebo pověst o čertovi. Stezka má ve znaku Čertův stůl – unikátní skalní útvar na hřebeni Čertova mlýna.</p>\n<h2>Top zajímavost:</h2>\n<h3>Pustevny</h3>\n<p>Pustevny je sedlo v Moravskoslezských Beskydech nedaleko Radhoště, které patří k obci Prostřední Bečva. Bylo pojmenováno po poustevnících, kteří zde žili do roku 1874. Pro Pustevny jsou typické dřevěné stavby postavené v lidovém slohu koncem 19. století na návrh architekta Dušana Jurkoviče. Nachází se zde lyžařské středisko a vede sem sedačková lanovka.</p>\n<h3>Mořské oko</h3>\n<p>Jezírko Mořské oko je uměle vytvořené podnikavými turisty na konci 19. století z původního mokřadu. Turistům bylo líto, že na Pustevnách chybí nějaké to pleso jako třeba v Tatrách, a tak si je sami vytvořili a stalo se oblíbenou atrakcí. Nyní je významnou lokalitou pro rozmnožování různých druhů obojživelníků, zejména tří druhů čolků.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/cert1.jpg\" alt=\"\"></p>",
+      "text": "<p>Stezka vede z Pusteven kolem jezírka Mořské oko úbočím Čertova mlýna (1205 m) k horskému hotelu na Martiňáku. Na naučné stezce je 9 zastavení s informacemi o místních zajímavých rostlinách a živočiších, dozvíte se, čím jsou vzácné lesy v okolí, kde se ukrývali partyzáni nebo pověst o čertovi. Stezka má ve znaku Čertův stůl – unikátní skalní útvar na hřebeni Čertova mlýna.</p>\n<h2>Top zajímavost:</h2>\n<h3>Pustevny</h3>\n<p>Pustevny je sedlo v Moravskoslezských Beskydech nedaleko Radhoště, které patří k obci Prostřední Bečva. Bylo pojmenováno po poustevnících, kteří zde žili do roku 1874. Pro Pustevny jsou typické dřevěné stavby postavené v lidovém slohu koncem 19. století na návrh architekta Dušana Jurkoviče. Nachází se zde lyžařské středisko a vede sem sedačková lanovka.</p>\n<h3>Mořské oko</h3>\n<p>Jezírko Mořské oko je uměle vytvořené podnikavými turisty na konci 19. století z původního mokřadu. Turistům bylo líto, že na Pustevnách chybí nějaké to pleso jako třeba v Tatrách, a tak si je sami vytvořili a stalo se oblíbenou atrakcí. Nyní je významnou lokalitou pro rozmnožování různých druhů obojživelníků, zejména tří druhů čolků.</p>\n<p><img src=\"/assets/images/migrated/cert1.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/certuv-mlyn/",
         "en": "https://www.qrlink.sk/new/en/castles/certuv-mlyn/",
@@ -6120,7 +6389,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/certuv-mlyn/",
         "hu": "https://www.qrlink.sk/new/hu/castles/certuv-mlyn/"
       },
-      "url": "/castles/certuv-mlyn/"
+      "url": "/castles/certuv-mlyn/",
+      "urlAliasy": []
     },
     {
       "id": "vcelarska-naucna-stezka",
@@ -6137,7 +6407,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2583.557827388851!2d18.364425075442078!3d49.64378784511767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDM4JzM3LjYiTiAxOMKwMjInMDEuMiJF!5e0!3m2!1ssk!2ssk!4v1693406215876!5m2!1ssk!2ssk",
-      "text": "<p>Naučná stezka se skládá z odpočinkového stanoviště, což je velký dřevěný altán, v jehož okolí jsou umístěny informační panely, na kterých se návštěvníci dočtou řadu zajímavostí z historie včelařství a základní informace o včele medonosné. Včelstvo je v podstatě takový super organismus, který přežívá v nezměněné podobě na naší planetě už milióny let a každá včela v něm hraje svou důležitou roli. Kterými členy je takové včelstvo tvořeno a jak společně fungují – o tom všem se také návštěvníci z informačních cedulí mohou něco dozvědět.</p>\n<h2>Top zajímavost:</h2>\n<p>Podél stezky protéká řeka Ostravice, ke které je krásný přístup s výhledem na řeku. Vedle stezky je taky výukový včelí úl, kde se návštěvníci můžou podívat na to, jak včelky pracují.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/v%C4%8Dela3.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/v%C4%8Dela1.jpg\" alt=\"\"></p>",
+      "text": "<p>Naučná stezka se skládá z odpočinkového stanoviště, což je velký dřevěný altán, v jehož okolí jsou umístěny informační panely, na kterých se návštěvníci dočtou řadu zajímavostí z historie včelařství a základní informace o včele medonosné. Včelstvo je v podstatě takový super organismus, který přežívá v nezměněné podobě na naší planetě už milióny let a každá včela v něm hraje svou důležitou roli. Kterými členy je takové včelstvo tvořeno a jak společně fungují – o tom všem se také návštěvníci z informačních cedulí mohou něco dozvědět.</p>\n<h2>Top zajímavost:</h2>\n<p>Podél stezky protéká řeka Ostravice, ke které je krásný přístup s výhledem na řeku. Vedle stezky je taky výukový včelí úl, kde se návštěvníci můžou podívat na to, jak včelky pracují.</p>\n<p><img src=\"/assets/images/migrated/vcela3.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/vcela1.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/vcelarska-naucna-stezka/",
         "en": "https://www.qrlink.sk/new/en/castles/vcelarska-naucna-stezka/",
@@ -6146,7 +6416,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/vcelarska-naucna-stezka/",
         "hu": "https://www.qrlink.sk/new/hu/castles/vcelarska-naucna-stezka/"
       },
-      "url": "/castles/vcelarska-naucna-stezka/"
+      "url": "/castles/vcelarska-naucna-stezka/",
+      "urlAliasy": []
     },
     {
       "id": "chlebovicka-medova-stopa",
@@ -6162,7 +6433,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2582.8343518192314!2d18.275270075443068!3d49.65742034414708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDM5JzI2LjciTiAxOMKwMTYnNDAuMiJF!5e0!3m2!1ssk!2ssk!4v1693406767616!5m2!1ssk!2ssk",
-      "text": "<p>Stezka navazuje na Včelařský naučný areál Chlebovice a umožňuje návštěvníkům naučného areálu i běžným turistům seznámit se zábavnou formou s včelařstvím i zajímavými místy v Chlebovicích. Medovou stezkou provede včelka Medulinka, která na celkem pěti stanovištích seznámí návštěvníky s 12 včelařskými tématy a 12 zajímavými místy Chlebovic. Díky hrací kartě „Medovka“ si mohou malí i velcí ověřit své nové znalosti v „Medulinčině kvízu“. Stezka vás zavede až k rozhledně Kabátice, ze které je krásný výhled východním směrem na vodní nádrž Olešná a město Frýdek-Místek.</p>\n<h2>Top zajímavost:</h2>\n<h3>Včelařské muzeum</h3>\n<p>Ojedinělá sbírka medometů, dýmáků, úlů a včelařských potřeb.</p>\n<h3>Rozhledna Kabátice, přehrada Olešná, hrad Hukvaldy, rodný dům Leoše Janáčka, obora Hukvaldy, Štramberk, Štramberská Trúba.</h3>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/Bez-n%C3%A1zvuc2.jpg\" alt=\"\"></p>",
+      "text": "<p>Stezka navazuje na Včelařský naučný areál Chlebovice a umožňuje návštěvníkům naučného areálu i běžným turistům seznámit se zábavnou formou s včelařstvím i zajímavými místy v Chlebovicích. Medovou stezkou provede včelka Medulinka, která na celkem pěti stanovištích seznámí návštěvníky s 12 včelařskými tématy a 12 zajímavými místy Chlebovic. Díky hrací kartě „Medovka“ si mohou malí i velcí ověřit své nové znalosti v „Medulinčině kvízu“. Stezka vás zavede až k rozhledně Kabátice, ze které je krásný výhled východním směrem na vodní nádrž Olešná a město Frýdek-Místek.</p>\n<h2>Top zajímavost:</h2>\n<h3>Včelařské muzeum</h3>\n<p>Ojedinělá sbírka medometů, dýmáků, úlů a včelařských potřeb.</p>\n<h3>Rozhledna Kabátice, přehrada Olešná, hrad Hukvaldy, rodný dům Leoše Janáčka, obora Hukvaldy, Štramberk, Štramberská Trúba.</h3>\n<p><img src=\"/assets/images/migrated/bez-nazvuc2.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/chlebovicka-medova-stopa/",
         "en": "https://www.qrlink.sk/new/en/castles/chlebovicka-medova-stopa/",
@@ -6171,7 +6442,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/chlebovicka-medova-stopa/",
         "hu": "https://www.qrlink.sk/new/hu/castles/chlebovicka-medova-stopa/"
       },
-      "url": "/castles/chlebovicka-medova-stopa/"
+      "url": "/castles/chlebovicka-medova-stopa/",
+      "urlAliasy": []
     },
     {
       "id": "lesni-stezka-vyhlidka",
@@ -6187,7 +6459,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2586.4788239879226!2d18.34265947543805!3d49.588719249036146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDM1JzE5LjQiTiAxOMKwMjAnNDIuOCJF!5e0!3m2!1ssk!2ssk!4v1693407597189!5m2!1ssk!2ssk",
-      "text": "<p>Jde o moderní venkovní hřiště s atrakcemi v dřevěném provedení. Cestičky jsou z jemné šotoliny, které zvládne i městský kočárek. Originální jsou dvě ptačí hnízda zavěšená na stromech, na která se dá vyšplhat po pavoučí síti. V jejich okolí jsou v korunách stromů umístěny dřevěné sochy ptáků, které lze přímo z kukaní pozorovat. Vše je doplněno otočnými naučnými cedulemi s pěknými obrázky. Na dalších zastaveních se děti vyřádí na skluzavce, prolézačkách nebo dřevěných špalcích. Milé jsou dvě houpací sítě, určené k pozorování mraků. Cestu také lemují zastavení se zvětšenými dřevěnými maketami hmyzu a lesních hub. Pro větší děti i dospělé je tu umístěno workoutové hřiště s kruhy, hrazdou, lanem apod.</p>\n<h2>Top zajímavost:</h2>\n<p>Z této stezky se dá pokračovat na turisty hojně navštěvovaný Ondřejník.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/08/vyhliadka2.jpg\" alt=\"\"></p>",
+      "text": "<p>Jde o moderní venkovní hřiště s atrakcemi v dřevěném provedení. Cestičky jsou z jemné šotoliny, které zvládne i městský kočárek. Originální jsou dvě ptačí hnízda zavěšená na stromech, na která se dá vyšplhat po pavoučí síti. V jejich okolí jsou v korunách stromů umístěny dřevěné sochy ptáků, které lze přímo z kukaní pozorovat. Vše je doplněno otočnými naučnými cedulemi s pěknými obrázky. Na dalších zastaveních se děti vyřádí na skluzavce, prolézačkách nebo dřevěných špalcích. Milé jsou dvě houpací sítě, určené k pozorování mraků. Cestu také lemují zastavení se zvětšenými dřevěnými maketami hmyzu a lesních hub. Pro větší děti i dospělé je tu umístěno workoutové hřiště s kruhy, hrazdou, lanem apod.</p>\n<h2>Top zajímavost:</h2>\n<p>Z této stezky se dá pokračovat na turisty hojně navštěvovaný Ondřejník.</p>\n<p><img src=\"/assets/images/migrated/vyhliadka2.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/lesni-stezka-vyhlidka/",
         "en": "https://www.qrlink.sk/new/en/castles/lesni-stezka-vyhlidka/",
@@ -6196,7 +6468,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/lesni-stezka-vyhlidka/",
         "hu": "https://www.qrlink.sk/new/hu/castles/lesni-stezka-vyhlidka/"
       },
-      "url": "/castles/lesni-stezka-vyhlidka/"
+      "url": "/castles/lesni-stezka-vyhlidka/",
+      "urlAliasy": []
     },
     {
       "id": "najstarsie-zmienky-o-zivcakovej",
@@ -6217,7 +6490,7 @@ const DB = {
         "lng": 18.569917576091964
       },
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2011.6759220261013!2d18.56734267542398!3d49.39787256259185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDIzJzUyLjMiTiAxOMKwMzQnMTEuNyJF!5e1!3m2!1ssk!2ssk!4v1692690296474!5m2!1ssk!2ssk",
-      "text": "<p>Vrch Živčákova sa nachádza na pomedzí troch kysuckých obcí – Turzovka, Korňa a Vysoká nad Kysucou. Prvýkrát sa písomne spomína v listine, ktorú vydal zakladateľ Turzovky Juraj Turzo 26. mája 1616. Medzi vymenovanými pasienkami a horami, ktoré mali užívať turzovskí valasi sa spomína lokalita <em>na Zivčzakoweg</em>. Ďalší známy dokument spomínajúci túto lokalitu je obhliadka chotára Vysokej a susediacich obcí Turzovka a (Veľké) Rovné z roku 1690. Stoličná komisia začínala obhliadku práve na vrchu Živčákova (<em>ad montem Ziwczakova</em>). Hora nebola v minulosti ničím zvláštna, o jej význame možno hovoriť až od roku 1954, keď bola z Turzovky vyčlenená samostatná obec Korňa a Živčákova sa stala hraničným územím, priamym hraničným bodom oboch katastrov. Ako vyplýva aj zo starších písomných zmienok, vrch sa vždy označoval ako Živčákova. Názov bol motivovaný osobným menom niektorého valacha, ktorý mal v tejto lokalite svoje pastviská. Osobné meno Živčák bolo odvodené z pomenovania obyvateľa Živiecka, podobne Slezák, Polák, Rusnák a pod. Nezodpovedanou otázkou ostane, či išlo v tomto prípade priamo o valacha z poľského územia, alebo už o človeka, ktorý na územie Turzovky prišiel sprostredkovane cez Oravu, kde bolo meno Živčák pomerne rozšírené. Vieme totiž, že Juraj Turzo si na svoje bytčianske majetky pozýval aj valachov z Oravy. Keďže sa Živčákova spomína už v roku 1616 je pravdepodobné, že sa spomínaný valach dostal do tejto oblasti ešte pre samotným založením Turzovky, prípadne v čase jej kreovania. Lokalita sa teda správne nazýva Živčákova, nie Živčák, ako sa to približne od polovice 20. storočia niekedy uvádza. Živčák je osobné meno, Živčákova hora, skrátene Živčákova je označenie vrchu – oronymum.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
+      "text": "<p>Vrch Živčákova sa nachádza na pomedzí troch kysuckých obcí – Turzovka, Korňa a Vysoká nad Kysucou. Prvýkrát sa písomne spomína v listine, ktorú vydal zakladateľ Turzovky Juraj Turzo 26. mája 1616. Medzi vymenovanými pasienkami a horami, ktoré mali užívať turzovskí valasi sa spomína lokalita <em>na Zivčzakoweg</em>. Ďalší známy dokument spomínajúci túto lokalitu je obhliadka chotára Vysokej a susediacich obcí Turzovka a (Veľké) Rovné z roku 1690. Stoličná komisia začínala obhliadku práve na vrchu Živčákova (<em>ad montem Ziwczakova</em>). Hora nebola v minulosti ničím zvláštna, o jej význame možno hovoriť až od roku 1954, keď bola z Turzovky vyčlenená samostatná obec Korňa a Živčákova sa stala hraničným územím, priamym hraničným bodom oboch katastrov. Ako vyplýva aj zo starších písomných zmienok, vrch sa vždy označoval ako Živčákova. Názov bol motivovaný osobným menom niektorého valacha, ktorý mal v tejto lokalite svoje pastviská. Osobné meno Živčák bolo odvodené z pomenovania obyvateľa Živiecka, podobne Slezák, Polák, Rusnák a pod. Nezodpovedanou otázkou ostane, či išlo v tomto prípade priamo o valacha z poľského územia, alebo už o človeka, ktorý na územie Turzovky prišiel sprostredkovane cez Oravu, kde bolo meno Živčák pomerne rozšírené. Vieme totiž, že Juraj Turzo si na svoje bytčianske majetky pozýval aj valachov z Oravy. Keďže sa Živčákova spomína už v roku 1616 je pravdepodobné, že sa spomínaný valach dostal do tejto oblasti ešte pre samotným založením Turzovky, prípadne v čase jej kreovania. Lokalita sa teda správne nazýva Živčákova, nie Živčák, ako sa to približne od polovice 20. storočia niekedy uvádza. Živčák je osobné meno, Živčákova hora, skrátene Živčákova je označenie vrchu – oronymum.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"/assets/images/migrated/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/najstarsie-zmienky-o-zivcakovej/",
         "en": "https://www.qrlink.sk/new/en/castles/najstarsie-zmienky-o-zivcakovej/",
@@ -6226,7 +6499,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/najstarsie-zmienky-o-zivcakovej/",
         "hu": "https://www.qrlink.sk/new/hu/castles/najstarsie-zmienky-o-zivcakovej/"
       },
-      "url": "/castles/najstarsie-zmienky-o-zivcakovej/"
+      "url": "/castles/najstarsie-zmienky-o-zivcakovej/",
+      "urlAliasy": []
     },
     {
       "id": "vodna-pila-vincenta-hrtusa",
@@ -6243,7 +6517,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>V mestskej časti Vyšný Koniec vlastnil na prelome 20. a 30. rokov minulého storočia vodnú pílu Ján Cvek. V roku 1932 podal žiadosť o povolenie vodného používania pre mlyn a pílu tesársky majster Vincent Hrtús. O rok neskôr sa konalo v tejto veci pojednávanie, na základe ktorého mu začiatkom roka 1944 vydal Župný úrad v Trenčíne vodoprávne povolenie na používanie pre mlyn a pílu. Píla po predošlom majiteľovi bola zanedbaná, nový vlastník musel veľa renovovať. Píla pracovala na vodný pohon iba pri vyšších vodných stavoch. V. Hrtús pílil drevo súkromníkom, ale najmä pre stáleho obchodíka s drevom a rezivom Kováčika z Turzovky. Ak nebolo možné pre nedostatok vody pracovať, pílu a jej zariadenie prebudovával a všetko zariadenie prispôsoboval na vodný pohon. Činnosť píly i sklady s drevom ohrozovali povodne. Povodne ničili i hať na vodný náhon. Veľká povodeň bola napr. 31. mája 1940, keď voda brala mosty, lávky i pozemky. Vtedy spôsobila veľkú škodu i V. Hrtúsovi, keď odplavila drevo z jeho skladu na Vyšnom Konci. Napriek problémom prevádzkoval pílu do roku 1949, keď mu stroje zaplombovali a zakázali prevádzku píly. Vtedajšiemu vedeniu obce V. Hrtús navrhol, že na tom mieste postaví „valašskú pílu“, ako technickú pamiatku a spomienku na obdobie, keď sa v tunajšej oblasti pracovalo primitívne len s jedinou pílou v gátri. Jeho návrh bol zamietnutý. Vrátil sa k tesárskemu remeslu, dožil sa 94 rokov. Pochovaný je v Lendaku, v mieste, kde pôsobil ako kňaz jeho syn Anton. Z niekdajšej píly zostalo v týchto miestach už len opustené koleso.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
+      "text": "<p>V mestskej časti Vyšný Koniec vlastnil na prelome 20. a 30. rokov minulého storočia vodnú pílu Ján Cvek. V roku 1932 podal žiadosť o povolenie vodného používania pre mlyn a pílu tesársky majster Vincent Hrtús. O rok neskôr sa konalo v tejto veci pojednávanie, na základe ktorého mu začiatkom roka 1944 vydal Župný úrad v Trenčíne vodoprávne povolenie na používanie pre mlyn a pílu. Píla po predošlom majiteľovi bola zanedbaná, nový vlastník musel veľa renovovať. Píla pracovala na vodný pohon iba pri vyšších vodných stavoch. V. Hrtús pílil drevo súkromníkom, ale najmä pre stáleho obchodíka s drevom a rezivom Kováčika z Turzovky. Ak nebolo možné pre nedostatok vody pracovať, pílu a jej zariadenie prebudovával a všetko zariadenie prispôsoboval na vodný pohon. Činnosť píly i sklady s drevom ohrozovali povodne. Povodne ničili i hať na vodný náhon. Veľká povodeň bola napr. 31. mája 1940, keď voda brala mosty, lávky i pozemky. Vtedy spôsobila veľkú škodu i V. Hrtúsovi, keď odplavila drevo z jeho skladu na Vyšnom Konci. Napriek problémom prevádzkoval pílu do roku 1949, keď mu stroje zaplombovali a zakázali prevádzku píly. Vtedajšiemu vedeniu obce V. Hrtús navrhol, že na tom mieste postaví „valašskú pílu“, ako technickú pamiatku a spomienku na obdobie, keď sa v tunajšej oblasti pracovalo primitívne len s jedinou pílou v gátri. Jeho návrh bol zamietnutý. Vrátil sa k tesárskemu remeslu, dožil sa 94 rokov. Pochovaný je v Lendaku, v mieste, kde pôsobil ako kňaz jeho syn Anton. Z niekdajšej píly zostalo v týchto miestach už len opustené koleso.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"/assets/images/migrated/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/vodna-pila-vincenta-hrtusa/",
         "en": "https://www.qrlink.sk/new/en/castles/vodna-pila-vincenta-hrtusa/",
@@ -6252,7 +6526,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/vodna-pila-vincenta-hrtusa/",
         "hu": "https://www.qrlink.sk/new/hu/castles/vodna-pila-vincenta-hrtusa/"
       },
-      "url": "/castles/vodna-pila-vincenta-hrtusa/"
+      "url": "/castles/vodna-pila-vincenta-hrtusa/",
+      "urlAliasy": []
     },
     {
       "id": "mimoriadne-udalosti-na-uzemi-turzovky",
@@ -6270,7 +6545,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Z historického hľadiska turzovská farnosť v roku 1958 nezažila úplne novú, dovtedy nepoznanú situáciu, pretože máme zdokumentované dve udalosti podobného charakteru. Prvýkrát sa s údajným zjavením obyvatelia stretli ešte v roku 1764. Pri akejsi studničke na území obce Vysoká (v tom čase ešte filiálka farnosti Turzovka) sa mala akémusi 12-ročnému dievčaťu zjaviť sv. Anna. Udalosť sa riešila na kongregácii Bytčianskeho dekanátu 18. septembra 1764 v Predmieri. V zápisnici sa uvádza, že zvesť o tomto prípade sa rýchlo rozšírila a rozrušila celé okolie. Aj tu začali ľudia masívne navštevovať toto miesto, veľa pútnikov prichádzalo z Moravy. Napokon sa zistilo, že v tomto prípade išlo o podvod a dievča po napomenutí farára svoje tvrdenia odvolalo. Kňazi mali za úlohu vysvetliť veriacim, že išlo o výmysel a zadržať ich, aby nenavštevovali toto miesto. Napriek tomu tradícia v obci pretrvala a v roku 1911 bola na tomto mieste postavená kaplnka, kde sa v modernom období každoročne koná púť.</p>\n<p>Ďalšie mimoriadne úkazy boli zdokumentované v druhej polovice 19. storočia. V dnešnej mestskej časti Turzovky Hlinené bol na stĺpiku pribitý obrázok Panny Márie a toto miesto bolo pre tunajších obyvateľov posvätným. Schádzali sa tu, modlili a konali procesie, navštevovali toto miesto v čase sucha či šíriacich sa nemocí. Tu sa síce priamo nehovorí o zjavení Panny Márie, ale je písomne doložených niekoľko údajne zázračných uzdravení, ktoré boli zapísané v obecnom protokole (nezachoval sa) a poznáme ich len vďaka opisu vtedajšieho turzovského farára Františka Tagániho, ktorým zdôvodňoval nitrianskemu biskupovi žiadosť svojich veriacich, postaviť na tomto mieste kaplnku. Od roku 1872 stojí na tomto mieste kaplnka Najsvätejšieho Srdca Panny Márie. Časom však táto tradícia upadla do zabudnutia.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
+      "text": "<p>Z historického hľadiska turzovská farnosť v roku 1958 nezažila úplne novú, dovtedy nepoznanú situáciu, pretože máme zdokumentované dve udalosti podobného charakteru. Prvýkrát sa s údajným zjavením obyvatelia stretli ešte v roku 1764. Pri akejsi studničke na území obce Vysoká (v tom čase ešte filiálka farnosti Turzovka) sa mala akémusi 12-ročnému dievčaťu zjaviť sv. Anna. Udalosť sa riešila na kongregácii Bytčianskeho dekanátu 18. septembra 1764 v Predmieri. V zápisnici sa uvádza, že zvesť o tomto prípade sa rýchlo rozšírila a rozrušila celé okolie. Aj tu začali ľudia masívne navštevovať toto miesto, veľa pútnikov prichádzalo z Moravy. Napokon sa zistilo, že v tomto prípade išlo o podvod a dievča po napomenutí farára svoje tvrdenia odvolalo. Kňazi mali za úlohu vysvetliť veriacim, že išlo o výmysel a zadržať ich, aby nenavštevovali toto miesto. Napriek tomu tradícia v obci pretrvala a v roku 1911 bola na tomto mieste postavená kaplnka, kde sa v modernom období každoročne koná púť.</p>\n<p>Ďalšie mimoriadne úkazy boli zdokumentované v druhej polovice 19. storočia. V dnešnej mestskej časti Turzovky Hlinené bol na stĺpiku pribitý obrázok Panny Márie a toto miesto bolo pre tunajších obyvateľov posvätným. Schádzali sa tu, modlili a konali procesie, navštevovali toto miesto v čase sucha či šíriacich sa nemocí. Tu sa síce priamo nehovorí o zjavení Panny Márie, ale je písomne doložených niekoľko údajne zázračných uzdravení, ktoré boli zapísané v obecnom protokole (nezachoval sa) a poznáme ich len vďaka opisu vtedajšieho turzovského farára Františka Tagániho, ktorým zdôvodňoval nitrianskemu biskupovi žiadosť svojich veriacich, postaviť na tomto mieste kaplnku. Od roku 1872 stojí na tomto mieste kaplnka Najsvätejšieho Srdca Panny Márie. Časom však táto tradícia upadla do zabudnutia.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"/assets/images/migrated/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/mimoriadne-udalosti-na-uzemi-turzovky/",
         "en": "https://www.qrlink.sk/new/en/castles/mimoriadne-udalosti-na-uzemi-turzovky/",
@@ -6279,7 +6554,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/mimoriadne-udalosti-na-uzemi-turzovky/",
         "hu": "https://www.qrlink.sk/new/hu/castles/mimoriadne-udalosti-na-uzemi-turzovky/"
       },
-      "url": "/castles/mimoriadne-udalosti-na-uzemi-turzovky/"
+      "url": "/castles/mimoriadne-udalosti-na-uzemi-turzovky/",
+      "urlAliasy": []
     },
     {
       "id": "udajne-zjavenia-na-zivcakovej-matusovi-lasutovi",
@@ -6297,7 +6573,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Prípad z roku 1958 na rozdiel od predošlých nielenže neskončil v zabudnutí ani počas tvrdého odporu minulého režimu, ale po jeho páde sa zo Živčákovej stalo oficiálne uznané mariánske pútnické miesto. Údajné zjavenia Panny Márie lesníkovi Matúšovi Lašútovi vyvolali medzi veriacimi postupne celosvetový ohlas. Vtedajší turzovský farár a dekan K. Točík do farskej kroniky poznamenal: „<em>Na Vyšnom Konci v Turzovke náš farník Matúš Lašút sa chválil, že sa P. Mária zjavila. K tomu primerano začal chodiť horlivo na sv. omšu. Denne od 6 h ráno už bol v kostole a na všetkých omšách bol prítomný. &#8230; Ničím nie je posiaľ potvrdené údajne zjavenie menovaného Lašúta. Toto sa malo stať v mesiaci júni, júli, august, sept., oktob., november 1958</em>.“ Farár o prípade 18. decembra 1958 informoval svojho biskupa v Nitre. Ten jeho postoj odobril s tým, aby dal svojim veriacim na vedomie, že cirkevná hierarchia po preskúmaní prípadu nadobudla presvedčenie, že v danom prípade nešlo o nadprirodzené zjavenie. Biskup Nécsey zároveň vydal zákaz navštevovať Živčákovu. Už na druhý deň po zverejnení zjavení (8. septembra – sviatok Narodenia Panny Márie) sa na horu zišlo asi tisíc ľudí. Prítomný bol aj M. Lašút, ktorý bol vyzvaný, aby sa dostavil na vyšetrovanie do Čadce. Podľa jeho výpovede ho vozili v rámci okresu z miesta na miesto, aby ho zmiatli a vyčerpali. V piatok 12. septembra ho previezli do psychiatrickej liečebne v Bytčici, kde skončil na tzv. ochrannom liečení. Od 18. novembra ho vyšetrovala odborná komisia lekárov na psychiatrickom oddelení Krajského ústavu národného zdravia v Žiline. V júni 1959 bol z ochranného liečenia prepustený, ale v septembri ho opätovne zaistili a odviezli do Bytčice, kde zotrval do novembra 1960. V septembri 1961 bol znova zaistený, v dome mu bola vykonaná domová prehliadka. Odviezli ho do Bytčice a po dvoch týždňoch do psychiatrickej liečebne v Kosmonosoch v Čechách. Stadiaľ ho 12. decembra 1961 prepustili s tým, že je zdravý, ale zaťažený vidinou Matky Božej. Boli proti nemu vedené i súdne vyšetrovania a konania. Po návrate z Kosmonosov ho už lekársky nevyšetrovali. Jeho život bol ale negatívne ovplyvňovaný rôznymi opatreniami. Sociálne vylúčenie výrazne pociťovala aj jeho rodina.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
+      "text": "<p>Prípad z roku 1958 na rozdiel od predošlých nielenže neskončil v zabudnutí ani počas tvrdého odporu minulého režimu, ale po jeho páde sa zo Živčákovej stalo oficiálne uznané mariánske pútnické miesto. Údajné zjavenia Panny Márie lesníkovi Matúšovi Lašútovi vyvolali medzi veriacimi postupne celosvetový ohlas. Vtedajší turzovský farár a dekan K. Točík do farskej kroniky poznamenal: „<em>Na Vyšnom Konci v Turzovke náš farník Matúš Lašút sa chválil, že sa P. Mária zjavila. K tomu primerano začal chodiť horlivo na sv. omšu. Denne od 6 h ráno už bol v kostole a na všetkých omšách bol prítomný. &#8230; Ničím nie je posiaľ potvrdené údajne zjavenie menovaného Lašúta. Toto sa malo stať v mesiaci júni, júli, august, sept., oktob., november 1958</em>.“ Farár o prípade 18. decembra 1958 informoval svojho biskupa v Nitre. Ten jeho postoj odobril s tým, aby dal svojim veriacim na vedomie, že cirkevná hierarchia po preskúmaní prípadu nadobudla presvedčenie, že v danom prípade nešlo o nadprirodzené zjavenie. Biskup Nécsey zároveň vydal zákaz navštevovať Živčákovu. Už na druhý deň po zverejnení zjavení (8. septembra – sviatok Narodenia Panny Márie) sa na horu zišlo asi tisíc ľudí. Prítomný bol aj M. Lašút, ktorý bol vyzvaný, aby sa dostavil na vyšetrovanie do Čadce. Podľa jeho výpovede ho vozili v rámci okresu z miesta na miesto, aby ho zmiatli a vyčerpali. V piatok 12. septembra ho previezli do psychiatrickej liečebne v Bytčici, kde skončil na tzv. ochrannom liečení. Od 18. novembra ho vyšetrovala odborná komisia lekárov na psychiatrickom oddelení Krajského ústavu národného zdravia v Žiline. V júni 1959 bol z ochranného liečenia prepustený, ale v septembri ho opätovne zaistili a odviezli do Bytčice, kde zotrval do novembra 1960. V septembri 1961 bol znova zaistený, v dome mu bola vykonaná domová prehliadka. Odviezli ho do Bytčice a po dvoch týždňoch do psychiatrickej liečebne v Kosmonosoch v Čechách. Stadiaľ ho 12. decembra 1961 prepustili s tým, že je zdravý, ale zaťažený vidinou Matky Božej. Boli proti nemu vedené i súdne vyšetrovania a konania. Po návrate z Kosmonosov ho už lekársky nevyšetrovali. Jeho život bol ale negatívne ovplyvňovaný rôznymi opatreniami. Sociálne vylúčenie výrazne pociťovala aj jeho rodina.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"/assets/images/migrated/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/udajne-zjavenia-na-zivcakovej-matusovi-lasutovi/",
         "en": "https://www.qrlink.sk/new/en/castles/udajne-zjavenia-na-zivcakovej-matusovi-lasutovi/",
@@ -6306,7 +6582,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/udajne-zjavenia-na-zivcakovej-matusovi-lasutovi/",
         "hu": "https://www.qrlink.sk/new/hu/castles/udajne-zjavenia-na-zivcakovej-matusovi-lasutovi/"
       },
-      "url": "/castles/udajne-zjavenia-na-zivcakovej-matusovi-lasutovi/"
+      "url": "/castles/udajne-zjavenia-na-zivcakovej-matusovi-lasutovi/",
+      "urlAliasy": []
     },
     {
       "id": "vyvoj-do-roku-1989",
@@ -6324,7 +6601,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Kým Lašúta vyšetrovali lekári, na Živčákovu chodievali pútnici, postavili tam oltáriky, na stromy povešali kríže, sv. obrázky a konali sa tam rôzne pobožnosti. Zvýšená účasť bývala obyčajne v nedele a na mariánske sviatky. Z tohto dôvodu biskup E. Nécsey vydal 22. augusta 1961 nariadenie, ktorým sprísnil svoj pôvodný zákaz Ale ani tento závažný dokument nepomohol a veriaci ho nerešpektovali. Najmä nie veriaci zo vzdialenejších slovenských lokalít, Moravy, Čiech a zahraničia. Existujú správy, že veriaci tento zákaz spočiatku nerešpektovali, pretože ho považovali za vynútený zo strany štátnej správy. Je otázne nakoľko biskup Nécsey konal z vlastného rozhodnutia a nakoľko jednoducho konať musel. Z mnohých materiálov, ktoré sa zachovali a kde sa prijímajú opatrenia na likvidáciu pútnického miesta Živčákova totiž vyplýva, že štátna moc ho nútila k vydávaniu neustále sa opakujúcich výziev a nariadení. Porada na OV KSS v Čadci 9. septembra 1967 konštatovala, že aktivizácia na Živčákovej dosahuje širokých rozmerov a dovtedy vydané úpravy sa nerešpektujú. Začiatkom roka 1968 rozposlal nitriansky biskup farnostiam obežník, v ktorom ich informoval o zrušení svojich predchádzajúcich zákazov. Pre veriacich bol tiež zrušený zákaz navštevovať toto miesto. Možno len diskutovať o tom, nakoľko sa na tomto rozhodnutí biskupa podpísal aj celospoločenský vývoj, ktorý vyústil do Pražskej jari a obrodného procesu, zastaveného udalosťami 21. augusta 1968. Toho sa však už nitriansky biskup nedožil, zomrel v Nitre 19. júna 1968.</p>\n<p>Zrejme s nastupujúcou normalizáciou sa počty pútnikov začiatkom 70. rokov značne znížili, pretože informatívna správa  ŠtB z roku 1973 konštatuje, že od roku 1971 má účasť na hore klesajúcu tendenciu. Avšak ľudia na Živčákovu neustále navštevovali. Nešlo len o domácich či veriacich z Čiech a Slovenska, ale aj cudzincov, najmä z Rakúska a Nemecka. Miesto bolo zo strany štátnych orgánov i ŠtB neustále monitorované aj v 70. a 80. rokoch.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
+      "text": "<p>Kým Lašúta vyšetrovali lekári, na Živčákovu chodievali pútnici, postavili tam oltáriky, na stromy povešali kríže, sv. obrázky a konali sa tam rôzne pobožnosti. Zvýšená účasť bývala obyčajne v nedele a na mariánske sviatky. Z tohto dôvodu biskup E. Nécsey vydal 22. augusta 1961 nariadenie, ktorým sprísnil svoj pôvodný zákaz Ale ani tento závažný dokument nepomohol a veriaci ho nerešpektovali. Najmä nie veriaci zo vzdialenejších slovenských lokalít, Moravy, Čiech a zahraničia. Existujú správy, že veriaci tento zákaz spočiatku nerešpektovali, pretože ho považovali za vynútený zo strany štátnej správy. Je otázne nakoľko biskup Nécsey konal z vlastného rozhodnutia a nakoľko jednoducho konať musel. Z mnohých materiálov, ktoré sa zachovali a kde sa prijímajú opatrenia na likvidáciu pútnického miesta Živčákova totiž vyplýva, že štátna moc ho nútila k vydávaniu neustále sa opakujúcich výziev a nariadení. Porada na OV KSS v Čadci 9. septembra 1967 konštatovala, že aktivizácia na Živčákovej dosahuje širokých rozmerov a dovtedy vydané úpravy sa nerešpektujú. Začiatkom roka 1968 rozposlal nitriansky biskup farnostiam obežník, v ktorom ich informoval o zrušení svojich predchádzajúcich zákazov. Pre veriacich bol tiež zrušený zákaz navštevovať toto miesto. Možno len diskutovať o tom, nakoľko sa na tomto rozhodnutí biskupa podpísal aj celospoločenský vývoj, ktorý vyústil do Pražskej jari a obrodného procesu, zastaveného udalosťami 21. augusta 1968. Toho sa však už nitriansky biskup nedožil, zomrel v Nitre 19. júna 1968.</p>\n<p>Zrejme s nastupujúcou normalizáciou sa počty pútnikov začiatkom 70. rokov značne znížili, pretože informatívna správa  ŠtB z roku 1973 konštatuje, že od roku 1971 má účasť na hore klesajúcu tendenciu. Avšak ľudia na Živčákovu neustále navštevovali. Nešlo len o domácich či veriacich z Čiech a Slovenska, ale aj cudzincov, najmä z Rakúska a Nemecka. Miesto bolo zo strany štátnych orgánov i ŠtB neustále monitorované aj v 70. a 80. rokoch.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"/assets/images/migrated/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/vyvoj-do-roku-1989/",
         "en": "https://www.qrlink.sk/new/en/castles/vyvoj-do-roku-1989/",
@@ -6333,7 +6610,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/vyvoj-do-roku-1989/",
         "hu": "https://www.qrlink.sk/new/hu/castles/vyvoj-do-roku-1989/"
       },
-      "url": "/castles/vyvoj-do-roku-1989/"
+      "url": "/castles/vyvoj-do-roku-1989/",
+      "urlAliasy": []
     },
     {
       "id": "stavba-kaplnky-a-putnicke-miesto",
@@ -6351,7 +6629,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Už v septembri 1989 sa na jednom oltáriku objavil zošit s textom žiadosti o postavenie kaplnky, ktorý obsahoval asi 600 podpisov. V novembri toho istého roka sa zrútil režim pod vládou KSČ a nasledoval prechod k slobodnej demokratickej spoločnosti. Veriacich povzbudila i návšteva pápeža Jána Pavla II. v apríli 1990, keď zavítal aj do Bratislavy. Keďže na Biskupský úrad v Nitre prichádzalo množstvo listov, v ktorých veriaci žiadali postavenie kaplnky na hore Živčákova, v roku 1992 vydal biskup predbežný súhlas na stavbu. Projekt kaplnky vypracoval Ing. arch. Marián Goč. V priebehu roka 1993 bola kaplnka Panny Márie, Kráľovnej pokoja postavená. Prvú sv. omšu tu na turzovské hody 15. augusta 1993 slúžil vtedajší turzovský farár Ivan Mahrík, ktorý sa veľmi pričinil o stavbu kaplnky i o rozvoj samotného pútnického miesta. V nedeľu 17. 10. 1993 bola kaplnka slávnostne posvätená, sv. omšu celebroval z poverenia kardinála Jána Korca vtedajší čadčiansky dekan Milan Kavor.</p>\n<p>Aj po zmene režimu Cirkev podporovala toto miesto len ako miesto mariánskej úcty a miesto modlitby. V tomto duchu v roku 2008 bola hora Živčákova vyhlásená žilinským diecéznym biskupom oficiálne za Mariánske pútnické miesto a miesto modlitby. O rok neskôr sa začala výstavba pútnického chrámu Panny Márie Matky Cirkvi. Práce na tejto veľkolepej stavbe boli ukončené v roku 2015 a slávnostná konsekrácia sa konala za účasti mnohých hostí a veľkého množstva pútnikov 4. októbra. Vedľa kostola prebieha výstavba exercično-pastoračného domu Marta, kde časť bude vyhradený pre rehoľníkov, ktorí majú v duchovnej správe pútnické miesto a časť bude slúžiť pre potreby veriacich, pre ubytovanie pútnikov a pod.</p>\n<p>Duchovná správa na hore Živčákova bola zriadená v roku 2012 a jej vedením sú poverení členovia rehole Misionárov Najsvätejších sŕdc Pána Ježiša a Panny Márie. Duchovná správa je od roku 2018 súčasťou Turzovského dekanátu Žilinskej diecézy.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2023/09/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
+      "text": "<p>Už v septembri 1989 sa na jednom oltáriku objavil zošit s textom žiadosti o postavenie kaplnky, ktorý obsahoval asi 600 podpisov. V novembri toho istého roka sa zrútil režim pod vládou KSČ a nasledoval prechod k slobodnej demokratickej spoločnosti. Veriacich povzbudila i návšteva pápeža Jána Pavla II. v apríli 1990, keď zavítal aj do Bratislavy. Keďže na Biskupský úrad v Nitre prichádzalo množstvo listov, v ktorých veriaci žiadali postavenie kaplnky na hore Živčákova, v roku 1992 vydal biskup predbežný súhlas na stavbu. Projekt kaplnky vypracoval Ing. arch. Marián Goč. V priebehu roka 1993 bola kaplnka Panny Márie, Kráľovnej pokoja postavená. Prvú sv. omšu tu na turzovské hody 15. augusta 1993 slúžil vtedajší turzovský farár Ivan Mahrík, ktorý sa veľmi pričinil o stavbu kaplnky i o rozvoj samotného pútnického miesta. V nedeľu 17. 10. 1993 bola kaplnka slávnostne posvätená, sv. omšu celebroval z poverenia kardinála Jána Korca vtedajší čadčiansky dekan Milan Kavor.</p>\n<p>Aj po zmene režimu Cirkev podporovala toto miesto len ako miesto mariánskej úcty a miesto modlitby. V tomto duchu v roku 2008 bola hora Živčákova vyhlásená žilinským diecéznym biskupom oficiálne za Mariánske pútnické miesto a miesto modlitby. O rok neskôr sa začala výstavba pútnického chrámu Panny Márie Matky Cirkvi. Práce na tejto veľkolepej stavbe boli ukončené v roku 2015 a slávnostná konsekrácia sa konala za účasti mnohých hostí a veľkého množstva pútnikov 4. októbra. Vedľa kostola prebieha výstavba exercično-pastoračného domu Marta, kde časť bude vyhradený pre rehoľníkov, ktorí majú v duchovnej správe pútnické miesto a časť bude slúžiť pre potreby veriacich, pre ubytovanie pútnikov a pod.</p>\n<p>Duchovná správa na hore Živčákova bola zriadená v roku 2012 a jej vedením sú poverení členovia rehole Misionárov Najsvätejších sŕdc Pána Ježiša a Panny Márie. Duchovná správa je od roku 2018 súčasťou Turzovského dekanátu Žilinskej diecézy.</p>\n<p>Názov projektu: Po stopách kulturně -přírodního dědictví česko-slovenskeho </p>\n<p><img src=\"/assets/images/migrated/obalka-03.png\" alt=\"\"></p>\n<p>regionu,</p>\n<p>Kód projektu:NFP304030BMA2</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/stavba-kaplnky-a-putnicke-miesto/",
         "en": "https://www.qrlink.sk/new/en/castles/stavba-kaplnky-a-putnicke-miesto/",
@@ -6360,7 +6638,33 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/stavba-kaplnky-a-putnicke-miesto/",
         "hu": "https://www.qrlink.sk/new/hu/castles/stavba-kaplnky-a-putnicke-miesto/"
       },
-      "url": "/castles/stavba-kaplnky-a-putnicke-miesto/"
+      "url": "/castles/stavba-kaplnky-a-putnicke-miesto/",
+      "urlAliasy": []
+    },
+    {
+      "id": "zastavka-1-autonomna-zeleznicna-zastavka-v-sr",
+      "miesto": "partizanske-simonovany",
+      "poradie": 1,
+      "nazov": "Zastávka – 1.autonómna železničná zastávka v SR",
+      "popis": "",
+      "cover": "/assets/images/migrated/zastavka.jpg",
+      "audio": [],
+      "galeria": [
+        "/assets/images/migrated/zastavka.jpg"
+      ],
+      "gps": null,
+      "mapEmbed": "",
+      "text": "<div class=\"video-embed\"><iframe src=\"https://www.youtube.com/embed/Rvd2X_QsYyg\" title=\"Video\" loading=\"lazy\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></div>",
+      "povodnaUrl": {
+        "sk": "https://www.qrlink.sk/new/zastavka-1-autonomna-zeleznicna-zastavka-v-sr/",
+        "en": "https://www.qrlink.sk/new/en/zastavka-1-autonomna-zeleznicna-zastavka-v-sr/",
+        "de": "https://www.qrlink.sk/new/de/zastavka-1-autonomna-zeleznicna-zastavka-v-sr/",
+        "ru": "https://www.qrlink.sk/new/ru/zastavka-1-autonomna-zeleznicna-zastavka-v-sr/",
+        "pl": "https://www.qrlink.sk/new/pl/zastavka-1-autonomna-zeleznicna-zastavka-v-sr/",
+        "hu": "https://www.qrlink.sk/new/hu/zastavka-1-autonomna-zeleznicna-zastavka-v-sr/"
+      },
+      "url": "/zastavka-1-autonomna-zeleznicna-zastavka-v-sr/",
+      "urlAliasy": []
     },
     {
       "id": "kov",
@@ -6386,7 +6690,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/kov/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/kov/"
       },
-      "url": "/environmental-upbringing-and-education/kov/"
+      "url": "/environmental-upbringing-and-education/kov/",
+      "urlAliasy": []
     },
     {
       "id": "sklo",
@@ -6412,7 +6717,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/sklo/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/sklo/"
       },
-      "url": "/environmental-upbringing-and-education/sklo/"
+      "url": "/environmental-upbringing-and-education/sklo/",
+      "urlAliasy": []
     },
     {
       "id": "bio",
@@ -6438,7 +6744,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/bio/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/bio/"
       },
-      "url": "/environmental-upbringing-and-education/bio/"
+      "url": "/environmental-upbringing-and-education/bio/",
+      "urlAliasy": []
     },
     {
       "id": "plast",
@@ -6464,7 +6771,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/plast/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/plast/"
       },
-      "url": "/environmental-upbringing-and-education/plast/"
+      "url": "/environmental-upbringing-and-education/plast/",
+      "urlAliasy": []
     },
     {
       "id": "papier",
@@ -6490,7 +6798,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/papier/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/papier/"
       },
-      "url": "/environmental-upbringing-and-education/papier/"
+      "url": "/environmental-upbringing-and-education/papier/",
+      "urlAliasy": []
     },
     {
       "id": "vodna-nadrz-v-porabke",
@@ -6519,7 +6828,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/vodna-nadrz-v-porabke/",
         "hu": "https://www.qrlink.sk/new/hu/vodna-nadrz-v-porabke/"
       },
-      "url": "/vodna-nadrz-v-porabke/"
+      "url": "/vodna-nadrz-v-porabke/",
+      "urlAliasy": []
     },
     {
       "id": "osada-kolonia-v-style-witkiewiczovcov",
@@ -6548,7 +6858,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/osada-kolonia-v-style-witkiewiczovcov/",
         "hu": "https://www.qrlink.sk/new/hu/osada-kolonia-v-style-witkiewiczovcov/"
       },
-      "url": "/osada-kolonia-v-style-witkiewiczovcov/"
+      "url": "/osada-kolonia-v-style-witkiewiczovcov/",
+      "urlAliasy": []
     },
     {
       "id": "obecne-centrum-kultury-v-porabke",
@@ -6577,7 +6888,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/obecne-centrum-kultury-v-porabke/",
         "hu": "https://www.qrlink.sk/new/hu/obecne-centrum-kultury-v-porabke/"
       },
-      "url": "/obecne-centrum-kultury-v-porabke/"
+      "url": "/obecne-centrum-kultury-v-porabke/",
+      "urlAliasy": []
     },
     {
       "id": "regionalna-izba-v-porabke",
@@ -6606,7 +6918,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/regionalna-izba-v-porabke/",
         "hu": "https://www.qrlink.sk/new/hu/regionalna-izba-v-porabke/"
       },
-      "url": "/regionalna-izba-v-porabke/"
+      "url": "/regionalna-izba-v-porabke/",
+      "urlAliasy": []
     },
     {
       "id": "kaplnka-st-urbana-ul-krakowska",
@@ -6635,7 +6948,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-st-urbana-ul-krakowska/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-st-urbana-ul-krakowska/"
       },
-      "url": "/kaplnka-st-urbana-ul-krakowska/"
+      "url": "/kaplnka-st-urbana-ul-krakowska/",
+      "urlAliasy": []
     },
     {
       "id": "kaplnka-na-tronce",
@@ -6664,7 +6978,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-na-tronce/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-na-tronce/"
       },
-      "url": "/kaplnka-na-tronce/"
+      "url": "/kaplnka-na-tronce/",
+      "urlAliasy": []
     },
     {
       "id": "nadrz-czaniecka",
@@ -6693,7 +7008,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/nadrz-czaniecka/",
         "hu": "https://www.qrlink.sk/new/hu/nadrz-czaniecka/"
       },
-      "url": "/nadrz-czaniecka/"
+      "url": "/nadrz-czaniecka/",
+      "urlAliasy": []
     },
     {
       "id": "lesna-rezervacia-zasolnica",
@@ -6722,7 +7038,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/lesna-rezervacia-zasolnica/",
         "hu": "https://www.qrlink.sk/new/hu/lesna-rezervacia-zasolnica/"
       },
-      "url": "/lesna-rezervacia-zasolnica/"
+      "url": "/lesna-rezervacia-zasolnica/",
+      "urlAliasy": []
     },
     {
       "id": "kostol-v-czancu",
@@ -6751,7 +7068,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kostol-v-czancu/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-v-czancu/"
       },
-      "url": "/kostol-v-czancu/"
+      "url": "/kostol-v-czancu/",
+      "urlAliasy": []
     },
     {
       "id": "kaplnka-v-bujakowskom-lese",
@@ -6780,7 +7098,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-v-bujakowskom-lese/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-v-bujakowskom-lese/"
       },
-      "url": "/kaplnka-v-bujakowskom-lese/"
+      "url": "/kaplnka-v-bujakowskom-lese/",
+      "urlAliasy": []
     },
     {
       "id": "vila-v-kobiernicach-a-pamiatkovy-park",
@@ -6809,7 +7128,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/vila-v-kobiernicach-a-pamiatkovy-park/",
         "hu": "https://www.qrlink.sk/new/hu/vila-v-kobiernicach-a-pamiatkovy-park/"
       },
-      "url": "/vila-v-kobiernicach-a-pamiatkovy-park/"
+      "url": "/vila-v-kobiernicach-a-pamiatkovy-park/",
+      "urlAliasy": []
     },
     {
       "id": "zrucanina-hradu-na-wolku-a-historicka-trasa",
@@ -6838,7 +7158,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/zrucanina-hradu-na-wolku-a-historicka-trasa/",
         "hu": "https://www.qrlink.sk/new/hu/zrucanina-hradu-na-wolku-a-historicka-trasa/"
       },
-      "url": "/zrucanina-hradu-na-wolku-a-historicka-trasa/"
+      "url": "/zrucanina-hradu-na-wolku-a-historicka-trasa/",
+      "urlAliasy": []
     },
     {
       "id": "sarisska-galeria",
@@ -6864,7 +7185,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/sarisska-galeria/",
         "hu": "https://www.qrlink.sk/new/hu/sarisska-galeria/"
       },
-      "url": "/sarisska-galeria/"
+      "url": "/sarisska-galeria/",
+      "urlAliasy": []
     },
     {
       "id": "frantiskansky-kostol",
@@ -6890,7 +7212,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/frantiskansky-kostol/",
         "hu": "https://www.qrlink.sk/new/hu/frantiskansky-kostol/"
       },
-      "url": "/frantiskansky-kostol/"
+      "url": "/frantiskansky-kostol/",
+      "urlAliasy": []
     },
     {
       "id": "evanjelicke-kolegium",
@@ -6916,7 +7239,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/evanjelicke-kolegium/",
         "hu": "https://www.qrlink.sk/new/hu/evanjelicke-kolegium/"
       },
-      "url": "/evanjelicke-kolegium/"
+      "url": "/evanjelicke-kolegium/",
+      "urlAliasy": []
     },
     {
       "id": "chram-sv-jana-krstitela",
@@ -6942,7 +7266,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/chram-sv-jana-krstitela/",
         "hu": "https://www.qrlink.sk/new/hu/chram-sv-jana-krstitela/"
       },
-      "url": "/chram-sv-jana-krstitela/"
+      "url": "/chram-sv-jana-krstitela/",
+      "urlAliasy": []
     },
     {
       "id": "susosie-immaculaty",
@@ -6968,7 +7293,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/susosie-immaculaty/",
         "hu": "https://www.qrlink.sk/new/hu/susosie-immaculaty/"
       },
-      "url": "/susosie-immaculaty/"
+      "url": "/susosie-immaculaty/",
+      "urlAliasy": []
     },
     {
       "id": "mestske-hradby",
@@ -6994,7 +7320,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/mestske-hradby/",
         "hu": "https://www.qrlink.sk/new/hu/mestske-hradby/"
       },
-      "url": "/mestske-hradby/"
+      "url": "/mestske-hradby/",
+      "urlAliasy": []
     },
     {
       "id": "kostol-sv-mikulasa",
@@ -7020,7 +7347,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kostol-sv-mikulasa/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-sv-mikulasa/"
       },
-      "url": "/kostol-sv-mikulasa/"
+      "url": "/kostol-sv-mikulasa/",
+      "urlAliasy": []
     },
     {
       "id": "evanjelicky-a-v-chram-sv-trojice",
@@ -7046,7 +7374,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/evanjelicky-a-v-chram-sv-trojice/",
         "hu": "https://www.qrlink.sk/new/hu/evanjelicky-a-v-chram-sv-trojice/"
       },
-      "url": "/evanjelicky-a-v-chram-sv-trojice/"
+      "url": "/evanjelicky-a-v-chram-sv-trojice/",
+      "urlAliasy": []
     },
     {
       "id": "neptunova-fontana",
@@ -7072,7 +7401,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/neptunova-fontana/",
         "hu": "https://www.qrlink.sk/new/hu/neptunova-fontana/"
       },
-      "url": "/neptunova-fontana/"
+      "url": "/neptunova-fontana/",
+      "urlAliasy": []
     },
     {
       "id": "hlavna-ulica",
@@ -7098,7 +7428,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/hlavna-ulica/",
         "hu": "https://www.qrlink.sk/new/hu/hlavna-ulica/"
       },
-      "url": "/hlavna-ulica/"
+      "url": "/hlavna-ulica/",
+      "urlAliasy": []
     },
     {
       "id": "ortodoxna-synagoga",
@@ -7124,7 +7455,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/ortodoxna-synagoga/",
         "hu": "https://www.qrlink.sk/new/hu/ortodoxna-synagoga/"
       },
-      "url": "/ortodoxna-synagoga/"
+      "url": "/ortodoxna-synagoga/",
+      "urlAliasy": []
     },
     {
       "id": "greckokatolicky-biskupsky-palac",
@@ -7150,7 +7482,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/greckokatolicky-biskupsky-palac/",
         "hu": "https://www.qrlink.sk/new/hu/greckokatolicky-biskupsky-palac/"
       },
-      "url": "/greckokatolicky-biskupsky-palac/"
+      "url": "/greckokatolicky-biskupsky-palac/",
+      "urlAliasy": []
     },
     {
       "id": "kalvaria-2",
@@ -7176,7 +7509,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kalvaria-2/",
         "hu": "https://www.qrlink.sk/new/hu/kalvaria-2/"
       },
-      "url": "/kalvaria-2/"
+      "url": "/kalvaria-2/",
+      "urlAliasy": []
     },
     {
       "id": "zupny-dom",
@@ -7202,7 +7536,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/zupny-dom/",
         "hu": "https://www.qrlink.sk/new/hu/zupny-dom/"
       },
-      "url": "/zupny-dom/"
+      "url": "/zupny-dom/",
+      "urlAliasy": []
     },
     {
       "id": "palac-klobusickych",
@@ -7228,7 +7563,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/palac-klobusickych/",
         "hu": "https://www.qrlink.sk/new/hu/palac-klobusickych/"
       },
-      "url": "/palac-klobusickych/"
+      "url": "/palac-klobusickych/",
+      "urlAliasy": []
     },
     {
       "id": "radnica-2",
@@ -7254,7 +7590,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/radnica-2/",
         "hu": "https://www.qrlink.sk/new/hu/radnica-2/"
       },
-      "url": "/radnica-2/"
+      "url": "/radnica-2/",
+      "urlAliasy": []
     },
     {
       "id": "rakociho-palac",
@@ -7280,7 +7617,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/rakociho-palac/",
         "hu": "https://www.qrlink.sk/new/hu/rakociho-palac/"
       },
-      "url": "/rakociho-palac/"
+      "url": "/rakociho-palac/",
+      "urlAliasy": []
     },
     {
       "id": "caraffova-vaznica",
@@ -7306,7 +7644,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/caraffova-vaznica/",
         "hu": "https://www.qrlink.sk/new/hu/caraffova-vaznica/"
       },
-      "url": "/caraffova-vaznica/"
+      "url": "/caraffova-vaznica/",
+      "urlAliasy": []
     },
     {
       "id": "the-museum-of-wines",
@@ -7332,7 +7671,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/the-museum-of-wines/",
         "hu": "https://www.qrlink.sk/new/hu/the-museum-of-wines/"
       },
-      "url": "/the-museum-of-wines/"
+      "url": "/the-museum-of-wines/",
+      "urlAliasy": []
     },
     {
       "id": "jurkovicova-rozhladna",
@@ -7358,7 +7698,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/jurkovicova-rozhladna/",
         "hu": "https://www.qrlink.sk/new/hu/jurkovicova-rozhladna/"
       },
-      "url": "/jurkovicova-rozhladna/"
+      "url": "/jurkovicova-rozhladna/",
+      "urlAliasy": []
     },
     {
       "id": "zrucanina-hradu-hradisko",
@@ -7384,7 +7725,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/zrucanina-hradu-hradisko/",
         "hu": "https://www.qrlink.sk/new/hu/zrucanina-hradu-hradisko/"
       },
-      "url": "/zrucanina-hradu-hradisko/"
+      "url": "/zrucanina-hradu-hradisko/",
+      "urlAliasy": []
     },
     {
       "id": "valasske-muzeum-v-prirode",
@@ -7410,7 +7752,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/valasske-muzeum-v-prirode/",
         "hu": "https://www.qrlink.sk/new/hu/valasske-muzeum-v-prirode/"
       },
-      "url": "/valasske-muzeum-v-prirode/"
+      "url": "/valasske-muzeum-v-prirode/",
+      "urlAliasy": []
     },
     {
       "id": "kaple-sv-cyrila-a-metodeje",
@@ -7436,7 +7779,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kaple-sv-cyrila-a-metodeje/",
         "hu": "https://www.qrlink.sk/new/hu/kaple-sv-cyrila-a-metodeje/"
       },
-      "url": "/kaple-sv-cyrila-a-metodeje/"
+      "url": "/kaple-sv-cyrila-a-metodeje/",
+      "urlAliasy": []
     },
     {
       "id": "socha-radegasta",
@@ -7462,7 +7806,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/socha-radegasta/",
         "hu": "https://www.qrlink.sk/new/hu/socha-radegasta/"
       },
-      "url": "/socha-radegasta/"
+      "url": "/socha-radegasta/",
+      "urlAliasy": []
     },
     {
       "id": "chata-mamenka-a-libusin",
@@ -7488,7 +7833,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/chata-mamenka-a-libusin/",
         "hu": "https://www.qrlink.sk/new/hu/chata-mamenka-a-libusin/"
       },
-      "url": "/chata-mamenka-a-libusin/"
+      "url": "/chata-mamenka-a-libusin/",
+      "urlAliasy": []
     },
     {
       "id": "zvonica",
@@ -7514,7 +7860,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/zvonica/",
         "hu": "https://www.qrlink.sk/new/hu/zvonica/"
       },
-      "url": "/zvonica/"
+      "url": "/zvonica/",
+      "urlAliasy": []
     },
     {
       "id": "rimskokatolicky-kostol-navstivenia-panny-marie",
@@ -7540,7 +7887,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/rimskokatolicky-kostol-navstivenia-panny-marie/",
         "hu": "https://www.qrlink.sk/new/hu/rimskokatolicky-kostol-navstivenia-panny-marie/"
       },
-      "url": "/rimskokatolicky-kostol-navstivenia-panny-marie/"
+      "url": "/rimskokatolicky-kostol-navstivenia-panny-marie/",
+      "urlAliasy": []
     },
     {
       "id": "pamatnik-obetiam-cernovskej-tragedie",
@@ -7566,7 +7914,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/pamatnik-obetiam-cernovskej-tragedie/",
         "hu": "https://www.qrlink.sk/new/hu/pamatnik-obetiam-cernovskej-tragedie/"
       },
-      "url": "/pamatnik-obetiam-cernovskej-tragedie/"
+      "url": "/pamatnik-obetiam-cernovskej-tragedie/",
+      "urlAliasy": []
     },
     {
       "id": "kostol-ruzencovej-panny-marie",
@@ -7592,7 +7941,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kostol-ruzencovej-panny-marie/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-ruzencovej-panny-marie/"
       },
-      "url": "/kostol-ruzencovej-panny-marie/"
+      "url": "/kostol-ruzencovej-panny-marie/",
+      "urlAliasy": []
     },
     {
       "id": "rodny-dom-andreja-hlinku",
@@ -7618,7 +7968,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/rodny-dom-andreja-hlinku/",
         "hu": "https://www.qrlink.sk/new/hu/rodny-dom-andreja-hlinku/"
       },
-      "url": "/rodny-dom-andreja-hlinku/"
+      "url": "/rodny-dom-andreja-hlinku/",
+      "urlAliasy": []
     },
     {
       "id": "kalvaria",
@@ -7644,7 +7995,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kalvaria/",
         "hu": "https://www.qrlink.sk/new/hu/kalvaria/"
       },
-      "url": "/kalvaria/"
+      "url": "/kalvaria/",
+      "urlAliasy": []
     },
     {
       "id": "mestsky-cintorin",
@@ -7670,7 +8022,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/mestsky-cintorin/",
         "hu": "https://www.qrlink.sk/new/hu/mestsky-cintorin/"
       },
-      "url": "/mestsky-cintorin/"
+      "url": "/mestsky-cintorin/",
+      "urlAliasy": []
     },
     {
       "id": "galeria-ludovita-fullu",
@@ -7696,7 +8049,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/galeria-ludovita-fullu/",
         "hu": "https://www.qrlink.sk/new/hu/galeria-ludovita-fullu/"
       },
-      "url": "/galeria-ludovita-fullu/"
+      "url": "/galeria-ludovita-fullu/",
+      "urlAliasy": []
     },
     {
       "id": "liptovske-muzeum",
@@ -7722,7 +8076,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/liptovske-muzeum/",
         "hu": "https://www.qrlink.sk/new/hu/liptovske-muzeum/"
       },
-      "url": "/liptovske-muzeum/"
+      "url": "/liptovske-muzeum/",
+      "urlAliasy": []
     },
     {
       "id": "evanjelicky-a-v-kostol",
@@ -7748,7 +8103,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/evanjelicky-a-v-kostol/",
         "hu": "https://www.qrlink.sk/new/hu/evanjelicky-a-v-kostol/"
       },
-      "url": "/evanjelicky-a-v-kostol/"
+      "url": "/evanjelicky-a-v-kostol/",
+      "urlAliasy": []
     },
     {
       "id": "kulturny-dom-andreja-hlinku",
@@ -7774,7 +8130,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kulturny-dom-andreja-hlinku/",
         "hu": "https://www.qrlink.sk/new/hu/kulturny-dom-andreja-hlinku/"
       },
-      "url": "/kulturny-dom-andreja-hlinku/"
+      "url": "/kulturny-dom-andreja-hlinku/",
+      "urlAliasy": []
     },
     {
       "id": "radnica",
@@ -7800,7 +8157,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/radnica/",
         "hu": "https://www.qrlink.sk/new/hu/radnica/"
       },
-      "url": "/radnica/"
+      "url": "/radnica/",
+      "urlAliasy": []
     },
     {
       "id": "rimskokatolicky-kostol-sv-ondreja",
@@ -7826,7 +8184,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/rimskokatolicky-kostol-sv-ondreja/",
         "hu": "https://www.qrlink.sk/new/hu/rimskokatolicky-kostol-sv-ondreja/"
       },
-      "url": "/rimskokatolicky-kostol-sv-ondreja/"
+      "url": "/rimskokatolicky-kostol-sv-ondreja/",
+      "urlAliasy": []
     },
     {
       "id": "mauzoleum-andreja-hlinku",
@@ -7852,7 +8211,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/mauzoleum-andreja-hlinku/",
         "hu": "https://www.qrlink.sk/new/hu/mauzoleum-andreja-hlinku/"
       },
-      "url": "/mauzoleum-andreja-hlinku/"
+      "url": "/mauzoleum-andreja-hlinku/",
+      "urlAliasy": []
     },
     {
       "id": "piaristicke-gymnazium",
@@ -7878,7 +8238,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/piaristicke-gymnazium/",
         "hu": "https://www.qrlink.sk/new/hu/piaristicke-gymnazium/"
       },
-      "url": "/piaristicke-gymnazium/"
+      "url": "/piaristicke-gymnazium/",
+      "urlAliasy": []
     },
     {
       "id": "namestie-andreja-hlinku",
@@ -7904,7 +8265,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/namestie-andreja-hlinku/",
         "hu": "https://www.qrlink.sk/new/hu/namestie-andreja-hlinku/"
       },
-      "url": "/namestie-andreja-hlinku/"
+      "url": "/namestie-andreja-hlinku/",
+      "urlAliasy": []
     },
     {
       "id": "mariansky-stlp-socha-imacculata",
@@ -7930,7 +8292,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/mariansky-stlp-socha-imacculata/",
         "hu": "https://www.qrlink.sk/new/hu/mariansky-stlp-socha-imacculata/"
       },
-      "url": "/mariansky-stlp-socha-imacculata/"
+      "url": "/mariansky-stlp-socha-imacculata/",
+      "urlAliasy": []
     },
     {
       "id": "rimskokatolicky-kostol-povysenia-sv-kriza",
@@ -7956,7 +8319,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/rimskokatolicky-kostol-povysenia-sv-kriza/",
         "hu": "https://www.qrlink.sk/new/hu/rimskokatolicky-kostol-povysenia-sv-kriza/"
       },
-      "url": "/rimskokatolicky-kostol-povysenia-sv-kriza/"
+      "url": "/rimskokatolicky-kostol-povysenia-sv-kriza/",
+      "urlAliasy": []
     },
     {
       "id": "kolegium-piaristov",
@@ -7982,7 +8346,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kolegium-piaristov/",
         "hu": "https://www.qrlink.sk/new/hu/kolegium-piaristov/"
       },
-      "url": "/kolegium-piaristov/"
+      "url": "/kolegium-piaristov/",
+      "urlAliasy": []
     },
     {
       "id": "synagoga",
@@ -8008,7 +8373,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/synagoga/",
         "hu": "https://www.qrlink.sk/new/hu/synagoga/"
       },
-      "url": "/synagoga/"
+      "url": "/synagoga/",
+      "urlAliasy": []
     },
     {
       "id": "slovenska-banka",
@@ -8034,7 +8400,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/slovenska-banka/",
         "hu": "https://www.qrlink.sk/new/hu/slovenska-banka/"
       },
-      "url": "/slovenska-banka/"
+      "url": "/slovenska-banka/",
+      "urlAliasy": []
     },
     {
       "id": "studna",
@@ -8060,7 +8427,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/studna/",
         "hu": "https://www.qrlink.sk/new/hu/studna/"
       },
-      "url": "/studna/"
+      "url": "/studna/",
+      "urlAliasy": []
     },
     {
       "id": "rolnicky-dom",
@@ -8086,7 +8454,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/rolnicky-dom/",
         "hu": "https://www.qrlink.sk/new/hu/rolnicky-dom/"
       },
-      "url": "/rolnicky-dom/"
+      "url": "/rolnicky-dom/",
+      "urlAliasy": []
     },
     {
       "id": "pomnik-sloboda-slovenskeho-naroda",
@@ -8112,7 +8481,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/pomnik-sloboda-slovenskeho-naroda/",
         "hu": "https://www.qrlink.sk/new/hu/pomnik-sloboda-slovenskeho-naroda/"
       },
-      "url": "/pomnik-sloboda-slovenskeho-naroda/"
+      "url": "/pomnik-sloboda-slovenskeho-naroda/",
+      "urlAliasy": []
     },
     {
       "id": "miesto-tragickych-udalosti",
@@ -8138,7 +8508,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/miesto-tragickych-udalosti/",
         "hu": "https://www.qrlink.sk/new/hu/miesto-tragickych-udalosti/"
       },
-      "url": "/miesto-tragickych-udalosti/"
+      "url": "/miesto-tragickych-udalosti/",
+      "urlAliasy": []
     },
     {
       "id": "vlacik-korytko-na-zeleznicnej-stanici",
@@ -8164,7 +8535,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/vlacik-korytko-na-zeleznicnej-stanici/",
         "hu": "https://www.qrlink.sk/new/hu/vlacik-korytko-na-zeleznicnej-stanici/"
       },
-      "url": "/vlacik-korytko-na-zeleznicnej-stanici/"
+      "url": "/vlacik-korytko-na-zeleznicnej-stanici/",
+      "urlAliasy": []
     },
     {
       "id": "kastiel-sokolovce",
@@ -8191,7 +8563,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kastiel-sokolovce/",
         "hu": "https://www.qrlink.sk/new/hu/kastiel-sokolovce/"
       },
-      "url": "/kastiel-sokolovce/"
+      "url": "/kastiel-sokolovce/",
+      "urlAliasy": []
     },
     {
       "id": "mestsky-park",
@@ -8217,7 +8590,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/mestsky-park/",
         "hu": "https://www.qrlink.sk/new/hu/mestsky-park/"
       },
-      "url": "/mestsky-park/"
+      "url": "/mestsky-park/",
+      "urlAliasy": []
     },
     {
       "id": "mauzoleum-grofa-juliusa-andrassyho",
@@ -8243,7 +8617,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/mauzoleum-grofa-juliusa-andrassyho/",
         "hu": "https://www.qrlink.sk/new/hu/mauzoleum-grofa-juliusa-andrassyho/"
       },
-      "url": "/mauzoleum-grofa-juliusa-andrassyho/"
+      "url": "/mauzoleum-grofa-juliusa-andrassyho/",
+      "urlAliasy": []
     },
     {
       "id": "pavlinsky-klastor",
@@ -8269,7 +8644,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/pavlinsky-klastor/",
         "hu": "https://www.qrlink.sk/new/hu/pavlinsky-klastor/"
       },
-      "url": "/pavlinsky-klastor/"
+      "url": "/pavlinsky-klastor/",
+      "urlAliasy": []
     },
     {
       "id": "barokovo-klasicisticky-kastiel",
@@ -8295,7 +8671,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/barokovo-klasicisticky-kastiel/",
         "hu": "https://www.qrlink.sk/new/hu/barokovo-klasicisticky-kastiel/"
       },
-      "url": "/barokovo-klasicisticky-kastiel/"
+      "url": "/barokovo-klasicisticky-kastiel/",
+      "urlAliasy": []
     },
     {
       "id": "marianske-susosie",
@@ -8321,7 +8698,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/marianske-susosie/",
         "hu": "https://www.qrlink.sk/new/hu/marianske-susosie/"
       },
-      "url": "/marianske-susosie/"
+      "url": "/marianske-susosie/",
+      "urlAliasy": []
     },
     {
       "id": "nizinny-vodny-hrad-paric",
@@ -8347,7 +8725,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/nizinny-vodny-hrad-paric/",
         "hu": "https://www.qrlink.sk/new/hu/nizinny-vodny-hrad-paric/"
       },
-      "url": "/nizinny-vodny-hrad-paric/"
+      "url": "/nizinny-vodny-hrad-paric/",
+      "urlAliasy": []
     },
     {
       "id": "greckokatolicky-chram-zosnutia-presvatej-bohorodicky",
@@ -8373,7 +8752,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/greckokatolicky-chram-zosnutia-presvatej-bohorodicky/",
         "hu": "https://www.qrlink.sk/new/hu/greckokatolicky-chram-zosnutia-presvatej-bohorodicky/"
       },
-      "url": "/greckokatolicky-chram-zosnutia-presvatej-bohorodicky/"
+      "url": "/greckokatolicky-chram-zosnutia-presvatej-bohorodicky/",
+      "urlAliasy": []
     },
     {
       "id": "rimskokatolicky-kostol-navstevy-panny-marie",
@@ -8399,7 +8779,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/rimskokatolicky-kostol-navstevy-panny-marie/",
         "hu": "https://www.qrlink.sk/new/hu/rimskokatolicky-kostol-navstevy-panny-marie/"
       },
-      "url": "/rimskokatolicky-kostol-navstevy-panny-marie/"
+      "url": "/rimskokatolicky-kostol-navstevy-panny-marie/",
+      "urlAliasy": []
     },
     {
       "id": "romansky-kostol-sv-ducha",
@@ -8423,7 +8804,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/romansky-kostol-sv-ducha/",
         "hu": "https://www.qrlink.sk/new/hu/romansky-kostol-sv-ducha/"
       },
-      "url": "/romansky-kostol-sv-ducha/"
+      "url": "/romansky-kostol-sv-ducha/",
+      "urlAliasy": []
     },
     {
       "id": "kostol-nanebovzatia-panny-marie-pomnik-padlym-v-1-sv-vojne",
@@ -8452,7 +8834,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kostol-nanebovzatia-panny-marie-pomnik-padlym-v-1-sv-vojne/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-nanebovzatia-panny-marie-pomnik-padlym-v-1-sv-vojne/"
       },
-      "url": "/kostol-nanebovzatia-panny-marie-pomnik-padlym-v-1-sv-vojne/"
+      "url": "/kostol-nanebovzatia-panny-marie-pomnik-padlym-v-1-sv-vojne/",
+      "urlAliasy": []
     },
     {
       "id": "muzeum-karola-tocika",
@@ -8481,7 +8864,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/muzeum-karola-tocika/",
         "hu": "https://www.qrlink.sk/new/hu/muzeum-karola-tocika/"
       },
-      "url": "/muzeum-karola-tocika/"
+      "url": "/muzeum-karola-tocika/",
+      "urlAliasy": []
     },
     {
       "id": "rybniky",
@@ -8510,7 +8894,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/rybniky/",
         "hu": "https://www.qrlink.sk/new/hu/rybniky/"
       },
-      "url": "/rybniky/"
+      "url": "/rybniky/",
+      "urlAliasy": []
     },
     {
       "id": "prirodny-amfiteater-historia-beskydskych-slavnosti",
@@ -8539,7 +8924,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/prirodny-amfiteater-historia-beskydskych-slavnosti/",
         "hu": "https://www.qrlink.sk/new/hu/prirodny-amfiteater-historia-beskydskych-slavnosti/"
       },
-      "url": "/prirodny-amfiteater-historia-beskydskych-slavnosti/"
+      "url": "/prirodny-amfiteater-historia-beskydskych-slavnosti/",
+      "urlAliasy": []
     },
     {
       "id": "lyziarske-stredisko-bukovina-javornicko-beskydska-magistrala",
@@ -8568,7 +8954,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/lyziarske-stredisko-bukovina-javornicko-beskydska-magistrala/",
         "hu": "https://www.qrlink.sk/new/hu/lyziarske-stredisko-bukovina-javornicko-beskydska-magistrala/"
       },
-      "url": "/lyziarske-stredisko-bukovina-javornicko-beskydska-magistrala/"
+      "url": "/lyziarske-stredisko-bukovina-javornicko-beskydska-magistrala/",
+      "urlAliasy": []
     },
     {
       "id": "kamenna-gula-pred-mestskym-uradom",
@@ -8597,7 +8984,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kamenna-gula-pred-mestskym-uradom/",
         "hu": "https://www.qrlink.sk/new/hu/kamenna-gula-pred-mestskym-uradom/"
       },
-      "url": "/kamenna-gula-pred-mestskym-uradom/"
+      "url": "/kamenna-gula-pred-mestskym-uradom/",
+      "urlAliasy": []
     },
     {
       "id": "namestie-juraja-thurzu",
@@ -8626,7 +9014,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/namestie-juraja-thurzu/",
         "hu": "https://www.qrlink.sk/new/hu/namestie-juraja-thurzu/"
       },
-      "url": "/namestie-juraja-thurzu/"
+      "url": "/namestie-juraja-thurzu/",
+      "urlAliasy": []
     },
     {
       "id": "areal-sportu-a-oddychu-skatepark",
@@ -8655,7 +9044,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/areal-sportu-a-oddychu-skatepark/",
         "hu": "https://www.qrlink.sk/new/hu/areal-sportu-a-oddychu-skatepark/"
       },
-      "url": "/areal-sportu-a-oddychu-skatepark/"
+      "url": "/areal-sportu-a-oddychu-skatepark/",
+      "urlAliasy": []
     },
     {
       "id": "park-drotara-a-dzarka-pricestny-stlp-jana-nepomuckeho-susosie-drotara-a-dzarka",
@@ -8684,7 +9074,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/park-drotara-a-dzarka-pricestny-stlp-jana-nepomuckeho-susosie-drotara-a-dzarka/",
         "hu": "https://www.qrlink.sk/new/hu/park-drotara-a-dzarka-pricestny-stlp-jana-nepomuckeho-susosie-drotara-a-dzarka/"
       },
-      "url": "/park-drotara-a-dzarka-pricestny-stlp-jana-nepomuckeho-susosie-drotara-a-dzarka/"
+      "url": "/park-drotara-a-dzarka-pricestny-stlp-jana-nepomuckeho-susosie-drotara-a-dzarka/",
+      "urlAliasy": []
     },
     {
       "id": "hasicske-hobby-muzeum",
@@ -8713,7 +9104,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/hasicske-hobby-muzeum/",
         "hu": "https://www.qrlink.sk/new/hu/hasicske-hobby-muzeum/"
       },
-      "url": "/hasicske-hobby-muzeum/"
+      "url": "/hasicske-hobby-muzeum/",
+      "urlAliasy": []
     },
     {
       "id": "pamatniky",
@@ -8742,7 +9134,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/pamatniky/",
         "hu": "https://www.qrlink.sk/new/hu/pamatniky/"
       },
-      "url": "/pamatniky/"
+      "url": "/pamatniky/",
+      "urlAliasy": []
     },
     {
       "id": "pamatnik-m-r-stefanika",
@@ -8771,7 +9164,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/pamatnik-m-r-stefanika/",
         "hu": "https://www.qrlink.sk/new/hu/pamatnik-m-r-stefanika/"
       },
-      "url": "/pamatnik-m-r-stefanika/"
+      "url": "/pamatnik-m-r-stefanika/",
+      "urlAliasy": []
     },
     {
       "id": "pamatnik-tomasa-uhorcika",
@@ -8800,7 +9194,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/pamatnik-tomasa-uhorcika/",
         "hu": "https://www.qrlink.sk/new/hu/pamatnik-tomasa-uhorcika/"
       },
-      "url": "/pamatnik-tomasa-uhorcika/"
+      "url": "/pamatnik-tomasa-uhorcika/",
+      "urlAliasy": []
     },
     {
       "id": "pamatna-tabula-v-parku-rodakov",
@@ -8827,7 +9222,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/pamatna-tabula-v-parku-rodakov/",
         "hu": "https://www.qrlink.sk/new/hu/pamatna-tabula-v-parku-rodakov/"
       },
-      "url": "/pamatna-tabula-v-parku-rodakov/"
+      "url": "/pamatna-tabula-v-parku-rodakov/",
+      "urlAliasy": []
     },
     {
       "id": "kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov",
@@ -8856,7 +9252,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/"
       },
-      "url": "/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/"
+      "url": "/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/",
+      "urlAliasy": []
     },
     {
       "id": "kaplnka-panny-marie-lurdskej-pri-motoreste",
@@ -8885,7 +9282,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-panny-marie-lurdskej-pri-motoreste/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-panny-marie-lurdskej-pri-motoreste/"
       },
-      "url": "/kaplnka-panny-marie-lurdskej-pri-motoreste/"
+      "url": "/kaplnka-panny-marie-lurdskej-pri-motoreste/",
+      "urlAliasy": []
     },
     {
       "id": "kaplnka-na-javorovej-ulici",
@@ -8911,7 +9309,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-na-javorovej-ulici/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-na-javorovej-ulici/"
       },
-      "url": "/kaplnka-na-javorovej-ulici/"
+      "url": "/kaplnka-na-javorovej-ulici/",
+      "urlAliasy": []
     },
     {
       "id": "kaplnka-panny-marie-skapuliarskej",
@@ -8937,7 +9336,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-panny-marie-skapuliarskej/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-panny-marie-skapuliarskej/"
       },
-      "url": "/kaplnka-panny-marie-skapuliarskej/"
+      "url": "/kaplnka-panny-marie-skapuliarskej/",
+      "urlAliasy": []
     },
     {
       "id": "kaplnka-sedembolestnej-panny-marie-u-blazkov",
@@ -8963,7 +9363,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-sedembolestnej-panny-marie-u-blazkov/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-sedembolestnej-panny-marie-u-blazkov/"
       },
-      "url": "/kaplnka-sedembolestnej-panny-marie-u-blazkov/"
+      "url": "/kaplnka-sedembolestnej-panny-marie-u-blazkov/",
+      "urlAliasy": []
     },
     {
       "id": "kaplnka-najsvatejsieho-srdca-panny-marie",
@@ -8989,7 +9390,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-najsvatejsieho-srdca-panny-marie/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-najsvatejsieho-srdca-panny-marie/"
       },
-      "url": "/kaplnka-najsvatejsieho-srdca-panny-marie/"
+      "url": "/kaplnka-najsvatejsieho-srdca-panny-marie/",
+      "urlAliasy": []
     },
     {
       "id": "kostol-fatimskej-panny-marie",
@@ -9018,7 +9420,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kostol-fatimskej-panny-marie/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-fatimskej-panny-marie/"
       },
-      "url": "/kostol-fatimskej-panny-marie/"
+      "url": "/kostol-fatimskej-panny-marie/",
+      "urlAliasy": []
     },
     {
       "id": "kaplnka-sedembolestnej-panny-marie",
@@ -9044,7 +9447,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-sedembolestnej-panny-marie/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-sedembolestnej-panny-marie/"
       },
-      "url": "/kaplnka-sedembolestnej-panny-marie/"
+      "url": "/kaplnka-sedembolestnej-panny-marie/",
+      "urlAliasy": []
     },
     {
       "id": "zivcakova-marianske-putnicke-miesto",
@@ -9073,7 +9477,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/zivcakova-marianske-putnicke-miesto/",
         "hu": "https://www.qrlink.sk/new/hu/zivcakova-marianske-putnicke-miesto/"
       },
-      "url": "/zivcakova-marianske-putnicke-miesto/"
+      "url": "/zivcakova-marianske-putnicke-miesto/",
+      "urlAliasy": []
     },
     {
       "id": "kaplnka-panny-marie-kralovnej-pokoja-zivcakova",
@@ -9102,7 +9507,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-panny-marie-kralovnej-pokoja-zivcakova/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-panny-marie-kralovnej-pokoja-zivcakova/"
       },
-      "url": "/kaplnka-panny-marie-kralovnej-pokoja-zivcakova/"
+      "url": "/kaplnka-panny-marie-kralovnej-pokoja-zivcakova/",
+      "urlAliasy": []
     },
     {
       "id": "kostol-panny-marie-matky-cirkvi-zivcakova",
@@ -9131,7 +9537,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kostol-panny-marie-matky-cirkvi-zivcakova/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-panny-marie-matky-cirkvi-zivcakova/"
       },
-      "url": "/kostol-panny-marie-matky-cirkvi-zivcakova/"
+      "url": "/kostol-panny-marie-matky-cirkvi-zivcakova/",
+      "urlAliasy": []
     },
     {
       "id": "kaplnka-na-bukovine",
@@ -9160,7 +9567,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-na-bukovine/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-na-bukovine/"
       },
-      "url": "/kaplnka-na-bukovine/"
+      "url": "/kaplnka-na-bukovine/",
+      "urlAliasy": []
     },
     {
       "id": "kaplnka-a-vojensky-cintorin-z-1-sv-vojny",
@@ -9178,7 +9586,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.0284020819972!2d21.673188115964297!3d48.8957958792911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzQ0LjkiTiAyMcKwNDAnMzEuNCJF!5e0!3m2!1ssk!2ssk!4v1629985649847!5m2!1ssk!2ssk",
-      "text": "<p>Po udalostiach, ku ktorým došlo v lete 1914 v Sarajeve, kedy bol spáchaný atentát na následníka trónu Františka Ferdinanda d’Este, sa spustili v monarchii vážne vnútorné aj medzinárodné politické pohyby, ktoré vyústili do vyhlásenia I. svetovej vojny.</p>\n<p>Obyvatelia Vranova vnímali prípravy na vojnový konflikt ako „oživenie“ stereotypne prebiehajúcich dní, týždňov, mesiacov a nie ako hrozivú katastrofu. Keď bola 31. júla 1914 vyhlásená všeobecná mobilizácia, to už nebolo len „hranie sa na vojnu“, ale reálny vojenský konflikt so všetkými hrôzami a obeťami. Cintoríny pre padlých v bojoch medzi Rakúsko -Uhorskými a Ruskými armádami vznikali na frontovej línii aj v zázemí pri poľných lazaretoch. V lesoch Východných Karpát sa nachádzajú desiatky cintorínov, na ktorých sú pochované tisíce padlých.</p>\n<p>Vo Vranove bol v tej dobe zriadený vojenský lazaret a zhromaždisko vojnových ruských zajatcov. Cintorín, ktorý tu vznikol, slúžil pre potreby tohto lazaretu. Je na ňom pochovaných 250 obetí vojny. V období prvej Československej republiky bol cintorín upravený a v roku 1935 zorganizoval Okresný výbor brannosti vo Vranove pietnu oslavu, pri príležitosti ktorej bol odhalený pamätník Padlým spoluobčanom vranovským v rokoch 1914 – 1918. Ich mená sú zvečnené na mramorovej tabuli.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage10.jpg\" alt=\"\"></p>",
+      "text": "<p>Po udalostiach, ku ktorým došlo v lete 1914 v Sarajeve, kedy bol spáchaný atentát na následníka trónu Františka Ferdinanda d’Este, sa spustili v monarchii vážne vnútorné aj medzinárodné politické pohyby, ktoré vyústili do vyhlásenia I. svetovej vojny.</p>\n<p>Obyvatelia Vranova vnímali prípravy na vojnový konflikt ako „oživenie“ stereotypne prebiehajúcich dní, týždňov, mesiacov a nie ako hrozivú katastrofu. Keď bola 31. júla 1914 vyhlásená všeobecná mobilizácia, to už nebolo len „hranie sa na vojnu“, ale reálny vojenský konflikt so všetkými hrôzami a obeťami. Cintoríny pre padlých v bojoch medzi Rakúsko -Uhorskými a Ruskými armádami vznikali na frontovej línii aj v zázemí pri poľných lazaretoch. V lesoch Východných Karpát sa nachádzajú desiatky cintorínov, na ktorých sú pochované tisíce padlých.</p>\n<p>Vo Vranove bol v tej dobe zriadený vojenský lazaret a zhromaždisko vojnových ruských zajatcov. Cintorín, ktorý tu vznikol, slúžil pre potreby tohto lazaretu. Je na ňom pochovaných 250 obetí vojny. V období prvej Československej republiky bol cintorín upravený a v roku 1935 zorganizoval Okresný výbor brannosti vo Vranove pietnu oslavu, pri príležitosti ktorej bol odhalený pamätník Padlým spoluobčanom vranovským v rokoch 1914 – 1918. Ich mená sú zvečnené na mramorovej tabuli.</p>\n<p><img src=\"/assets/images/migrated/webp-net-resizeimage10.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/kaplnka-a-vojensky-cintorin-z-1-sv-vojny/",
         "en": "https://www.qrlink.sk/new/en/kaplnka-a-vojensky-cintorin-z-1-sv-vojny/",
@@ -9187,7 +9595,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kaplnka-a-vojensky-cintorin-z-1-sv-vojny/",
         "hu": "https://www.qrlink.sk/new/hu/kaplnka-a-vojensky-cintorin-z-1-sv-vojny/"
       },
-      "url": "/kaplnka-a-vojensky-cintorin-z-1-sv-vojny/"
+      "url": "/kaplnka-a-vojensky-cintorin-z-1-sv-vojny/",
+      "urlAliasy": []
     },
     {
       "id": "pieskovcovy-kriz",
@@ -9213,7 +9622,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/pieskovcovy-kriz/",
         "hu": "https://www.qrlink.sk/new/hu/pieskovcovy-kriz/"
       },
-      "url": "/pieskovcovy-kriz/"
+      "url": "/pieskovcovy-kriz/",
+      "urlAliasy": []
     },
     {
       "id": "bazilika-minor-narodenia-panny-marie-a-klastor-paulinov",
@@ -9233,7 +9643,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.222210164304!2d21.6782549159643!3d48.89210217929072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzMxLjYiTiAyMcKwNDAnNDkuNiJF!5e0!3m2!1ssk!2ssk!4v1629985933748!5m2!1ssk!2ssk",
-      "text": "<p>K najvýznamnejším pamiatkam na území mesta patrí neskorogotická Bazilika minor Narodenia Panny Márie a k nej prislúchajúci kláštor pavlínov z obdobia baroka. (Tento titul získal kostol v roku 2008) Obe stavby sú zapísané do registra národných kultúrnych pamiatok od roku 1963.</p>\n<p>Kostol nechala v roku 1580 postaviť svatka Alžbety Bátoriovej – Eufrozína Drugeth pre potreby kalvínskych veriacich. Počas povstania Imricha Tököliho nastal útlm ich činnosti. Toto obdobie naopak znamenalo rozkvet protestantizmu. Následné obdobie rekatolizácie posilnilo postavenie rehole, čo znamenalo intenzívny vývoj kláštora a kostola. Požiar na začiatku 17. storočia poznačil obidva objekty. V priebehu 18. storočia realizovali pavlíni mohutnú barokovú prestavbu kostola.</p>\n<p>Výzdoba v interiéroch pochádza od viedenského maliara Johanna Lucasa Krackera, ktorý vytvoril sériu barokových iluzívnych malieb. Z freskových malieb, ktoré sa zachovali, je najvýznamnejšia tá, ktorá sa nachádza medzi hlavným oltárom a kazateľnicou. Znázorňuje narodenie Panny Márie. V priestoroch kláštora prezentuje majstra jedno dielo. Nachádza sa na klenbe kláštorného schodišťa.</p>\n<p>Autorom drevenej výzdoby hlavného oltára, ale aj bočných oltárov a kazateľnice, je košický sochársky majster Jozef Hartman. Výzdoba vranovskej baziliky patrí k jeho vrcholným dielam. Do rannej fázy jeho tvorby patrí aj Oltár sv. Jána Nepomuckého. Z jeho dielne pochádza zrejme aj kazateľnica, bočné oltáre a snáď aj výzdoba portálov. Hartmann sa tu prezentuje už ako vyzretý neskorobarokový umelec s charakteristickými postavami štíhlych foriem s malou hlavou, veľkými nosmi a výraznými očami, s takmer až plocho modelovanými viečkami. Celý mobiliár vznikol v roku 1745. Výzdoba baziliky aj kláštora, v ktorej je kombinovaná maľba Johanna Lucasa Krackera a sochárska a rezbárska výzdoba Jozefa Hartmana vytvorili jedinečné dielo. Národnou kultúrnou pamiatkou je aj chrámový poklad od levočského zlatníckeho majstra Jána Szilassyho, ktorý je kľúčovou postavou hornouhroského barokového zlatníctva. Szilassy pre vranovskú baziliku vytvoril kolekciu pozostávajúcu z monštrancie, pacifikálneho kríža, cibória a kalicha.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2021/08/5-bazilika-minor-1024x773.jpg\" alt=\"\"></p>\n<p><strong>Pôvodný kláštor</strong> postavili františkáni v prvej polovici 15. storočia. Počas reformácie však mesto opustili. Františkánsky kláštor počas protihabsburských povstaní zanikol. V roku 1672 prišli na pozvanie Márie Esterháziovej do Vranova pavlíni. Vybudovali si kláštor na základoch starého františkánskeho kláštora a obnovili jeho činnosť. Dnes je kláštor využívaný pre potreby cirkvi.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2021/08/6-kla%C5%A1tor-paulinov.jpg\" alt=\"\"></p>\n<p><strong>Náhrobné kamene</strong></p>\n<p>Vedľa Baziliky pri bočnom vchode sa nachádzajú dva pôvodné náhrobné kamene. Romantizujúci kamenný náhrobok patrí Ferencné Almássy (1783-1848). Na druhom náhrobku je erb patriaci rodine Forgáčovcov.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage1-1024x768.jpg\" alt=\"\"></p>",
+      "text": "<p>K najvýznamnejším pamiatkam na území mesta patrí neskorogotická Bazilika minor Narodenia Panny Márie a k nej prislúchajúci kláštor pavlínov z obdobia baroka. (Tento titul získal kostol v roku 2008) Obe stavby sú zapísané do registra národných kultúrnych pamiatok od roku 1963.</p>\n<p>Kostol nechala v roku 1580 postaviť svatka Alžbety Bátoriovej – Eufrozína Drugeth pre potreby kalvínskych veriacich. Počas povstania Imricha Tököliho nastal útlm ich činnosti. Toto obdobie naopak znamenalo rozkvet protestantizmu. Následné obdobie rekatolizácie posilnilo postavenie rehole, čo znamenalo intenzívny vývoj kláštora a kostola. Požiar na začiatku 17. storočia poznačil obidva objekty. V priebehu 18. storočia realizovali pavlíni mohutnú barokovú prestavbu kostola.</p>\n<p>Výzdoba v interiéroch pochádza od viedenského maliara Johanna Lucasa Krackera, ktorý vytvoril sériu barokových iluzívnych malieb. Z freskových malieb, ktoré sa zachovali, je najvýznamnejšia tá, ktorá sa nachádza medzi hlavným oltárom a kazateľnicou. Znázorňuje narodenie Panny Márie. V priestoroch kláštora prezentuje majstra jedno dielo. Nachádza sa na klenbe kláštorného schodišťa.</p>\n<p>Autorom drevenej výzdoby hlavného oltára, ale aj bočných oltárov a kazateľnice, je košický sochársky majster Jozef Hartman. Výzdoba vranovskej baziliky patrí k jeho vrcholným dielam. Do rannej fázy jeho tvorby patrí aj Oltár sv. Jána Nepomuckého. Z jeho dielne pochádza zrejme aj kazateľnica, bočné oltáre a snáď aj výzdoba portálov. Hartmann sa tu prezentuje už ako vyzretý neskorobarokový umelec s charakteristickými postavami štíhlych foriem s malou hlavou, veľkými nosmi a výraznými očami, s takmer až plocho modelovanými viečkami. Celý mobiliár vznikol v roku 1745. Výzdoba baziliky aj kláštora, v ktorej je kombinovaná maľba Johanna Lucasa Krackera a sochárska a rezbárska výzdoba Jozefa Hartmana vytvorili jedinečné dielo. Národnou kultúrnou pamiatkou je aj chrámový poklad od levočského zlatníckeho majstra Jána Szilassyho, ktorý je kľúčovou postavou hornouhroského barokového zlatníctva. Szilassy pre vranovskú baziliku vytvoril kolekciu pozostávajúcu z monštrancie, pacifikálneho kríža, cibória a kalicha.</p>\n<p><img src=\"/assets/images/migrated/5-bazilika-minor-1024x773.jpg\" alt=\"\"></p>\n<p><strong>Pôvodný kláštor</strong> postavili františkáni v prvej polovici 15. storočia. Počas reformácie však mesto opustili. Františkánsky kláštor počas protihabsburských povstaní zanikol. V roku 1672 prišli na pozvanie Márie Esterháziovej do Vranova pavlíni. Vybudovali si kláštor na základoch starého františkánskeho kláštora a obnovili jeho činnosť. Dnes je kláštor využívaný pre potreby cirkvi.</p>\n<p><img src=\"/assets/images/migrated/6-klastor-paulinov.jpg\" alt=\"\"></p>\n<p><strong>Náhrobné kamene</strong></p>\n<p>Vedľa Baziliky pri bočnom vchode sa nachádzajú dva pôvodné náhrobné kamene. Romantizujúci kamenný náhrobok patrí Ferencné Almássy (1783-1848). Na druhom náhrobku je erb patriaci rodine Forgáčovcov.</p>\n<p><img src=\"/assets/images/migrated/webp-net-resizeimage1-1024x768.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/bazilika-minor-narodenia-panny-marie-a-klastor-paulinov/",
         "en": "https://www.qrlink.sk/new/en/bazilika-minor-narodenia-panny-marie-a-klastor-paulinov/",
@@ -9242,7 +9652,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/bazilika-minor-narodenia-panny-marie-a-klastor-paulinov/",
         "hu": "https://www.qrlink.sk/new/hu/bazilika-minor-narodenia-panny-marie-a-klastor-paulinov/"
       },
-      "url": "/bazilika-minor-narodenia-panny-marie-a-klastor-paulinov/"
+      "url": "/bazilika-minor-narodenia-panny-marie-a-klastor-paulinov/",
+      "urlAliasy": []
     },
     {
       "id": "schwartzov-dom",
@@ -9260,7 +9671,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.324815893478!2d21.679354615964247!3d48.89014657929066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzI0LjUiTiAyMcKwNDAnNTMuNiJF!5e0!3m2!1ssk!2ssk!4v1629986095509!5m2!1ssk!2ssk",
-      "text": "<p>Schwartzov dom je jedna z najreprezentatívnejších zachovaných profánnych budov vo Vranove nad Topľou. Jej staviteľom bol významný vranovský obchodník Hugo Schwartz v roku 1911. Hugo Schwartz s manželkou Lujzou rodenou Bergerovou, s bratmi Ignácom a Izidorom boli aj vlastníkmi najväčšieho vranovského podniku – obchodu s priemyselným tovarom, ktorý sa nachádzal v budove. Bohato zdobené neskorosecesné priečelie budovy dopĺňa bohatá štuková výzdoba interiéru. Nad vchodom je korunná rímsa podopretá ozdobnými prvkami na fasáde. Tieto prvky sú zachované na budove dodnes. V medzivojnovom období stála pred obchodom benzínová pumpa. Majitelia obchodu zabezpečili tiež elektrické osvetlenie priľahlej križovatky. Rodina bola známa svojimi filantropickými darmi, najznámejší bol „amerikanec“ Mikulaš Schwartz, ktorý zo Spojených štátov amerických svojimi finančnými darmi podporil nielen židovskú obec, ale aj katolícke zbory. Daroval rímskokatolíckej cirkvi 50 tisíc korún na zakúpenie zvona a 10 tisíc dolárov na výstavbu vranovskej synagógy. Keď Izidor Schwartz – brat Ignáca a Huga zomrel (pôsobil ako obchodný splnomocnenec Slovenskej všeobecnej úverovej banky), ich rodina darovala rímskokatolíckej cirkvi na opravy kostola 100 tisíc korún. Členovia tejto, pre Vranov významnej židovskej rodiny, sú pochovaní na miestnom židovskom cintoríne.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2021/08/Schwartzov-dom-1.jpg\" alt=\"\"></p>",
+      "text": "<p>Schwartzov dom je jedna z najreprezentatívnejších zachovaných profánnych budov vo Vranove nad Topľou. Jej staviteľom bol významný vranovský obchodník Hugo Schwartz v roku 1911. Hugo Schwartz s manželkou Lujzou rodenou Bergerovou, s bratmi Ignácom a Izidorom boli aj vlastníkmi najväčšieho vranovského podniku – obchodu s priemyselným tovarom, ktorý sa nachádzal v budove. Bohato zdobené neskorosecesné priečelie budovy dopĺňa bohatá štuková výzdoba interiéru. Nad vchodom je korunná rímsa podopretá ozdobnými prvkami na fasáde. Tieto prvky sú zachované na budove dodnes. V medzivojnovom období stála pred obchodom benzínová pumpa. Majitelia obchodu zabezpečili tiež elektrické osvetlenie priľahlej križovatky. Rodina bola známa svojimi filantropickými darmi, najznámejší bol „amerikanec“ Mikulaš Schwartz, ktorý zo Spojených štátov amerických svojimi finančnými darmi podporil nielen židovskú obec, ale aj katolícke zbory. Daroval rímskokatolíckej cirkvi 50 tisíc korún na zakúpenie zvona a 10 tisíc dolárov na výstavbu vranovskej synagógy. Keď Izidor Schwartz – brat Ignáca a Huga zomrel (pôsobil ako obchodný splnomocnenec Slovenskej všeobecnej úverovej banky), ich rodina darovala rímskokatolíckej cirkvi na opravy kostola 100 tisíc korún. Členovia tejto, pre Vranov významnej židovskej rodiny, sú pochovaní na miestnom židovskom cintoríne.</p>\n<p><img src=\"/assets/images/migrated/schwartzov-dom-1.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/schwartzov-dom/",
         "en": "https://www.qrlink.sk/new/en/schwartzov-dom/",
@@ -9269,7 +9680,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/schwartzov-dom/",
         "hu": "https://www.qrlink.sk/new/hu/schwartzov-dom/"
       },
-      "url": "/schwartzov-dom/"
+      "url": "/schwartzov-dom/",
+      "urlAliasy": []
     },
     {
       "id": "socha-bretislav-benda-mladosti-a-krase-patri-buducnost",
@@ -9287,7 +9699,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.3604879302734!2d21.68146001596417!3d48.88946667929064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzIyLjEiTiAyMcKwNDEnMDEuMSJF!5e0!3m2!1ssk!2ssk!4v1629986212712!5m2!1ssk!2ssk",
-      "text": "<p>Sochu ženskej postavy z názvom „Mladosti a kráse patrí budúcnosť“ vytvoril významný český sochár národný umelec Břetislav Benda v roku 1955, ako dar vedúcemu výstavby závodu Drevospracujúceho podniku v Hencovciach, ktorý sa neskôr premenoval na Bukózu. Prvotne bola umiestnená priamo v areáli závodu pred výrobným objektom  celulózky. Okrem nej Benda vytvoril aj plastiku zobrazujúcu technológiu spracovania dreva v závode, ktorá bola umiestnená na priečelí vstupnej budovy. Keďže podľa  vlastných slov umelec „nepozná motív vzácnejší, ako je ľudské telo a predovšetkým ženské“, bola predmetom sochy ženská postava vo svojej prirodzenej forme. Po inštalácii sochy sa začali problémy. Výpary a lúh, ktorý sa používal vo varni začali poškodzovať a znečisťovať sochu. Chlapi zamestnaní v závode preto sochu obliekali do ženskej bielizne. To vzbudilo pozornosť politických predstaviteľov a zaslúžili sa o jej odstránenie z areálu závodu. Sochu kúpilo mesto Vranov nad Topľou za 70 tisíc korún a umiestnilo ju do parkovej fontány  v centrálnom parku. Traduje sa, že sochu z mesta chcel odstrániť aj tajomník ÚV KSČ Vasiľ Biľak. V 90-tych rokoch ju poškodili nekultúrni občania. Po opravách a reštaurovaní bola umiestnená v depozitári mesta a v roku 2012 po revitalizácii mestského parku sa znova vrátila na námestie.</p>\n<p>Bretislav Benda sa narodil 28.marca 1897 v Milevsku. Študoval na Akadémii výtvarných umení, kde bol žiakom  Josefa Václava Myslbeka. Jeho štúdiá prerušila prvá  svetová vojna a v roku 1916 musel narukovať.  Na talianskom fronte utrpel pri guľometnej paľbe vážny priestrel obidvoch dlaní. Po návrate z frontu dokončil štúdia v ateliéri ďalšieho významného sochára Jána Štursu. Významným krokom v jeho kariére bolo členstvo v prestížnom spolku Mánes kam vstúpil v roku 1923. V jeho sochárskych výtvoroch sa objavujú politici ako T.G Masaryk či E.Beneš,  aj vojaci či motívy ženskej postavy. Na medzinárodnej výstave dekoratívneho umenia v Paríži v roku 1925 získal za nádhernú plastiku Démétér a Božena zlatú medailu. Benda zomiera v roku 1983 v Prahe a je pochovaný na vyšehradskom cintoríne.   Patrí medzi najvýznamnejších sochárov 20. storočia.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage5.jpg\" alt=\"\"></p>",
+      "text": "<p>Sochu ženskej postavy z názvom „Mladosti a kráse patrí budúcnosť“ vytvoril významný český sochár národný umelec Břetislav Benda v roku 1955, ako dar vedúcemu výstavby závodu Drevospracujúceho podniku v Hencovciach, ktorý sa neskôr premenoval na Bukózu. Prvotne bola umiestnená priamo v areáli závodu pred výrobným objektom  celulózky. Okrem nej Benda vytvoril aj plastiku zobrazujúcu technológiu spracovania dreva v závode, ktorá bola umiestnená na priečelí vstupnej budovy. Keďže podľa  vlastných slov umelec „nepozná motív vzácnejší, ako je ľudské telo a predovšetkým ženské“, bola predmetom sochy ženská postava vo svojej prirodzenej forme. Po inštalácii sochy sa začali problémy. Výpary a lúh, ktorý sa používal vo varni začali poškodzovať a znečisťovať sochu. Chlapi zamestnaní v závode preto sochu obliekali do ženskej bielizne. To vzbudilo pozornosť politických predstaviteľov a zaslúžili sa o jej odstránenie z areálu závodu. Sochu kúpilo mesto Vranov nad Topľou za 70 tisíc korún a umiestnilo ju do parkovej fontány  v centrálnom parku. Traduje sa, že sochu z mesta chcel odstrániť aj tajomník ÚV KSČ Vasiľ Biľak. V 90-tych rokoch ju poškodili nekultúrni občania. Po opravách a reštaurovaní bola umiestnená v depozitári mesta a v roku 2012 po revitalizácii mestského parku sa znova vrátila na námestie.</p>\n<p>Bretislav Benda sa narodil 28.marca 1897 v Milevsku. Študoval na Akadémii výtvarných umení, kde bol žiakom  Josefa Václava Myslbeka. Jeho štúdiá prerušila prvá  svetová vojna a v roku 1916 musel narukovať.  Na talianskom fronte utrpel pri guľometnej paľbe vážny priestrel obidvoch dlaní. Po návrate z frontu dokončil štúdia v ateliéri ďalšieho významného sochára Jána Štursu. Významným krokom v jeho kariére bolo členstvo v prestížnom spolku Mánes kam vstúpil v roku 1923. V jeho sochárskych výtvoroch sa objavujú politici ako T.G Masaryk či E.Beneš,  aj vojaci či motívy ženskej postavy. Na medzinárodnej výstave dekoratívneho umenia v Paríži v roku 1925 získal za nádhernú plastiku Démétér a Božena zlatú medailu. Benda zomiera v roku 1983 v Prahe a je pochovaný na vyšehradskom cintoríne.   Patrí medzi najvýznamnejších sochárov 20. storočia.</p>\n<p><img src=\"/assets/images/migrated/webp-net-resizeimage5.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/socha-bretislav-benda-mladosti-a-krase-patri-buducnost/",
         "en": "https://www.qrlink.sk/new/en/socha-bretislav-benda-mladosti-a-krase-patri-buducnost/",
@@ -9296,7 +9708,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/socha-bretislav-benda-mladosti-a-krase-patri-buducnost/",
         "hu": "https://www.qrlink.sk/new/hu/socha-bretislav-benda-mladosti-a-krase-patri-buducnost/"
       },
-      "url": "/socha-bretislav-benda-mladosti-a-krase-patri-buducnost/"
+      "url": "/socha-bretislav-benda-mladosti-a-krase-patri-buducnost/",
+      "urlAliasy": []
     },
     {
       "id": "kostol-sv-stefana",
@@ -9322,7 +9735,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kostol-sv-stefana/",
         "hu": "https://www.qrlink.sk/new/hu/kostol-sv-stefana/"
       },
-      "url": "/kostol-sv-stefana/"
+      "url": "/kostol-sv-stefana/",
+      "urlAliasy": []
     },
     {
       "id": "lipa-slobody",
@@ -9348,7 +9762,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/lipa-slobody/",
         "hu": "https://www.qrlink.sk/new/hu/lipa-slobody/"
       },
-      "url": "/lipa-slobody/"
+      "url": "/lipa-slobody/",
+      "urlAliasy": []
     },
     {
       "id": "rolnicke-povstanie-na-vychodnom-slovensku-1831",
@@ -9374,7 +9789,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/rolnicke-povstanie-na-vychodnom-slovensku-1831/",
         "hu": "https://www.qrlink.sk/new/hu/rolnicke-povstanie-na-vychodnom-slovensku-1831/"
       },
-      "url": "/rolnicke-povstanie-na-vychodnom-slovensku-1831/"
+      "url": "/rolnicke-povstanie-na-vychodnom-slovensku-1831/",
+      "urlAliasy": []
     },
     {
       "id": "slnecne-hodiny-kalvinsky-kostol-na-hviezdoslavovej-ulici",
@@ -9393,7 +9809,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.5260361833125!2d21.687261515964014!3d48.88631127929029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzEwLjciTiAyMcKwNDEnMjIuMCJF!5e0!3m2!1ssk!2ssk!4v1629986980289!5m2!1ssk!2ssk",
-      "text": "<p>Sándor Böszörményi – kalvínsky kňaz z Humenného opisuje vo svojej práci z roku 1938 s názvom „Kostoly reformovaných cirkví v Topľanskej kotline “ Vranov v 16. storočí a začiatkom 17. storočia ako mesto so silnými reformačnými koreňmi. Rekatolizáciou sa situácia zmenila.</p>\n<p>Medzi vranovskými protestantmi vyvrcholila túžba po vlastnom kostole koncom 19. storočia. Príkladom im boli humenskí kalvíni a evanjelici, ktorí sa s týmto problémom už vysporiadali a postavili si spoločný kostol.</p>\n<p>To bol zámer veriacich aj vo Vranove. Pri absencii odvahy a organizačných schopností neexistovala záruka, že sa tak stane. Našťastie v roku 1892 sa do Vranova prisťahoval čerstvý absolvent Banskej a lesníckej akadémie v Banskej Štiavnici, rodák zo Sedmohradska Gábor Bodor (*1867, Gelence – †1936, Vranov). Popri lesníckej práci sa zaujímal aj o veci verejné. Myšlienka postavenia kostola ho zaujala. Rozhodol sa pomôcť. Organizoval zbierky, kultúrne a náboženské akcie. A nebol sám, pridávali sa ochotní spolupracovníci oddaní myšlienke postavenia bohostánku.</p>\n<p>Do roku 1910 sa na výstavbu spoločného protestantského kostola vyzbieralo 20 000 korún, čo bolo dosť na jeho postavenie. Lenže veriaci sa nevedeli dohodnúť na symboloch v interiéri a na veži kostola. Vypukla 1. svetová vojna. Dovtedy vyzbierané peniaze boli povinní odovzdať maďarskej vláde na vojenské účely. Po rozpade Rakúsko-Uhorska a vzniku ČSR sa luteráni a reformovaní rozhodli postaviť každý svoj vlastný kostol. Po slovensky hovoriaci luteráni si postavili svoj kostol na Rázusovej ulici.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage8.jpg\" alt=\"\"></p>\n<p>Veriacim hovoriacim po maďarsky Gábor Bodor postavil kalvínsky kostol na svojich pozemkoch na Hviezdoslavovej ulici. Spolu s manželkou Etelkou rod.Keler potomkom holandských a nemeckých predkov, a deťmi, prevzali všetku zodpovednosť za stavbu kostola vrátane materiálu a dopravy. Nemalou mierou výstavbu kostola podporili aj veriaci svojimi darmi.</p>\n<p>Kostol projektoval a realizoval vranovský staviteľ Pavol Nagy. Malý kostol so 40 sedadlami vysvätil v roku 1931 reformovaný biskup Péter Mihály. Bohoslužby reformovanej cirkvi sa konali v menšinovom maďarskom jazyku. To bol dôvod, prečo kostol navštevovali aj maďari iných náboženstiev.</p>\n<p>Zaujímavosťou kostola sú slnečné hodiny. Vo vlasti Gábora Bodora a v rodisku predkov manželky Etelky rod.Keler boli takéto hodiny bežné a to bol asi dôvod, prečo sú na kostole slnečné hodiny. Kostol je zapísaný ako kultúrna národná pamiatka.</p>\n<p>Aj keď po druhej svetovej vojne, v období socializmu, došlo ku konfiškácii kostola a k nemu patriacich parciel, bohoslužby pokračovali v maďarčine až do smrti Juraja Gazdoviča (†1985) farára Michalovského seniorátu. Odvtedy sú bohoslužby konané v slovenčine.</p>\n<p>Po páde komunistickej vlády požiadali potomkovia vlastníkov Gábora Bodora a Etelky o vrátenie kostola a k nemu patriacich nehnuteľností. Kostol spadajúci pod správu mesta bol vrátený v roku 1994. Okolité parcely, tiež patriace ku kostolu, spravoval OÚNZ-Nemocnica Vranov nad Topľou. Tie boli vrátené po súdnych ťahaniciach v roku 2013.</p>\n<p>V roku 2020 bola z Fondu opráv MK SR opravená strecha a veža kostola. Bol to dôležitý krok pre jeho záchranu. Bohužiaľ, dnes je vstup do kostola kvôli okolitým stavebným úpravám 70 cm pod úrovňou priľahlých komunikácii. To spôsobuje nedostatočný odvod povrchovej vody, ktorá nepriaznivo pôsobí na stavbu. Každú druhú nedeľu je v kostole bohoslužba v slovenčine.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2021/08/Webp.net-resizeimage7.jpg\" alt=\"\"></p>",
+      "text": "<p>Sándor Böszörményi – kalvínsky kňaz z Humenného opisuje vo svojej práci z roku 1938 s názvom „Kostoly reformovaných cirkví v Topľanskej kotline “ Vranov v 16. storočí a začiatkom 17. storočia ako mesto so silnými reformačnými koreňmi. Rekatolizáciou sa situácia zmenila.</p>\n<p>Medzi vranovskými protestantmi vyvrcholila túžba po vlastnom kostole koncom 19. storočia. Príkladom im boli humenskí kalvíni a evanjelici, ktorí sa s týmto problémom už vysporiadali a postavili si spoločný kostol.</p>\n<p>To bol zámer veriacich aj vo Vranove. Pri absencii odvahy a organizačných schopností neexistovala záruka, že sa tak stane. Našťastie v roku 1892 sa do Vranova prisťahoval čerstvý absolvent Banskej a lesníckej akadémie v Banskej Štiavnici, rodák zo Sedmohradska Gábor Bodor (*1867, Gelence – †1936, Vranov). Popri lesníckej práci sa zaujímal aj o veci verejné. Myšlienka postavenia kostola ho zaujala. Rozhodol sa pomôcť. Organizoval zbierky, kultúrne a náboženské akcie. A nebol sám, pridávali sa ochotní spolupracovníci oddaní myšlienke postavenia bohostánku.</p>\n<p>Do roku 1910 sa na výstavbu spoločného protestantského kostola vyzbieralo 20 000 korún, čo bolo dosť na jeho postavenie. Lenže veriaci sa nevedeli dohodnúť na symboloch v interiéri a na veži kostola. Vypukla 1. svetová vojna. Dovtedy vyzbierané peniaze boli povinní odovzdať maďarskej vláde na vojenské účely. Po rozpade Rakúsko-Uhorska a vzniku ČSR sa luteráni a reformovaní rozhodli postaviť každý svoj vlastný kostol. Po slovensky hovoriaci luteráni si postavili svoj kostol na Rázusovej ulici.</p>\n<p><img src=\"/assets/images/migrated/webp-net-resizeimage8.jpg\" alt=\"\"></p>\n<p>Veriacim hovoriacim po maďarsky Gábor Bodor postavil kalvínsky kostol na svojich pozemkoch na Hviezdoslavovej ulici. Spolu s manželkou Etelkou rod.Keler potomkom holandských a nemeckých predkov, a deťmi, prevzali všetku zodpovednosť za stavbu kostola vrátane materiálu a dopravy. Nemalou mierou výstavbu kostola podporili aj veriaci svojimi darmi.</p>\n<p>Kostol projektoval a realizoval vranovský staviteľ Pavol Nagy. Malý kostol so 40 sedadlami vysvätil v roku 1931 reformovaný biskup Péter Mihály. Bohoslužby reformovanej cirkvi sa konali v menšinovom maďarskom jazyku. To bol dôvod, prečo kostol navštevovali aj maďari iných náboženstiev.</p>\n<p>Zaujímavosťou kostola sú slnečné hodiny. Vo vlasti Gábora Bodora a v rodisku predkov manželky Etelky rod.Keler boli takéto hodiny bežné a to bol asi dôvod, prečo sú na kostole slnečné hodiny. Kostol je zapísaný ako kultúrna národná pamiatka.</p>\n<p>Aj keď po druhej svetovej vojne, v období socializmu, došlo ku konfiškácii kostola a k nemu patriacich parciel, bohoslužby pokračovali v maďarčine až do smrti Juraja Gazdoviča (†1985) farára Michalovského seniorátu. Odvtedy sú bohoslužby konané v slovenčine.</p>\n<p>Po páde komunistickej vlády požiadali potomkovia vlastníkov Gábora Bodora a Etelky o vrátenie kostola a k nemu patriacich nehnuteľností. Kostol spadajúci pod správu mesta bol vrátený v roku 1994. Okolité parcely, tiež patriace ku kostolu, spravoval OÚNZ-Nemocnica Vranov nad Topľou. Tie boli vrátené po súdnych ťahaniciach v roku 2013.</p>\n<p>V roku 2020 bola z Fondu opráv MK SR opravená strecha a veža kostola. Bol to dôležitý krok pre jeho záchranu. Bohužiaľ, dnes je vstup do kostola kvôli okolitým stavebným úpravám 70 cm pod úrovňou priľahlých komunikácii. To spôsobuje nedostatočný odvod povrchovej vody, ktorá nepriaznivo pôsobí na stavbu. Každú druhú nedeľu je v kostole bohoslužba v slovenčine.</p>\n<p><img src=\"/assets/images/migrated/webp-net-resizeimage7.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/slnecne-hodiny-kalvinsky-kostol-na-hviezdoslavovej-ulici/",
         "en": "https://www.qrlink.sk/new/en/slnecne-hodiny-kalvinsky-kostol-na-hviezdoslavovej-ulici/",
@@ -9402,7 +9818,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/slnecne-hodiny-kalvinsky-kostol-na-hviezdoslavovej-ulici/",
         "hu": "https://www.qrlink.sk/new/hu/slnecne-hodiny-kalvinsky-kostol-na-hviezdoslavovej-ulici/"
       },
-      "url": "/slnecne-hodiny-kalvinsky-kostol-na-hviezdoslavovej-ulici/"
+      "url": "/slnecne-hodiny-kalvinsky-kostol-na-hviezdoslavovej-ulici/",
+      "urlAliasy": []
     },
     {
       "id": "povest-o-vzniku-vranova",
@@ -9426,7 +9843,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/povest-o-vzniku-vranova/",
         "hu": "https://www.qrlink.sk/new/hu/povest-o-vzniku-vranova/"
       },
-      "url": "/povest-o-vzniku-vranova/"
+      "url": "/povest-o-vzniku-vranova/",
+      "urlAliasy": []
     },
     {
       "id": "historia-vranovskej-synagogy",
@@ -9452,7 +9870,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/historia-vranovskej-synagogy/",
         "hu": "https://www.qrlink.sk/new/hu/historia-vranovskej-synagogy/"
       },
-      "url": "/historia-vranovskej-synagogy/"
+      "url": "/historia-vranovskej-synagogy/",
+      "urlAliasy": []
     },
     {
       "id": "susosie-sv-jana-nepomuckeho-panny-marie-s-jeziskom",
@@ -9481,7 +9900,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/susosie-sv-jana-nepomuckeho-panny-marie-s-jeziskom/",
         "hu": "https://www.qrlink.sk/new/hu/susosie-sv-jana-nepomuckeho-panny-marie-s-jeziskom/"
       },
-      "url": "/susosie-sv-jana-nepomuckeho-panny-marie-s-jeziskom/"
+      "url": "/susosie-sv-jana-nepomuckeho-panny-marie-s-jeziskom/",
+      "urlAliasy": []
     },
     {
       "id": "cyril-daxner-daxnerov-dom",
@@ -9510,7 +9930,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/cyril-daxner-daxnerov-dom/",
         "hu": "https://www.qrlink.sk/new/hu/cyril-daxner-daxnerov-dom/"
       },
-      "url": "/cyril-daxner-daxnerov-dom/"
+      "url": "/cyril-daxner-daxnerov-dom/",
+      "urlAliasy": []
     },
     {
       "id": "pamatnik-hrdinom-a-bojovnikom-proti-fasizmu-a-pamatnik-oslobodenia-mesta",
@@ -9539,7 +9960,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/pamatnik-hrdinom-a-bojovnikom-proti-fasizmu-a-pamatnik-oslobodenia-mesta/",
         "hu": "https://www.qrlink.sk/new/hu/pamatnik-hrdinom-a-bojovnikom-proti-fasizmu-a-pamatnik-oslobodenia-mesta/"
       },
-      "url": "/pamatnik-hrdinom-a-bojovnikom-proti-fasizmu-a-pamatnik-oslobodenia-mesta/"
+      "url": "/pamatnik-hrdinom-a-bojovnikom-proti-fasizmu-a-pamatnik-oslobodenia-mesta/",
+      "urlAliasy": []
     },
     {
       "id": "sykorka-belasa",
@@ -9565,7 +9987,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/sykorka-belasa/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/sykorka-belasa/"
       },
-      "url": "/environmental-upbringing-and-education/sykorka-belasa/"
+      "url": "/environmental-upbringing-and-education/sykorka-belasa/",
+      "urlAliasy": []
     },
     {
       "id": "cervienka-obycajna",
@@ -9591,7 +10014,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/cervienka-obycajna/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/cervienka-obycajna/"
       },
-      "url": "/environmental-upbringing-and-education/cervienka-obycajna/"
+      "url": "/environmental-upbringing-and-education/cervienka-obycajna/",
+      "urlAliasy": []
     },
     {
       "id": "oriesok-obycajny",
@@ -9617,7 +10041,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/oriesok-obycajny/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/oriesok-obycajny/"
       },
-      "url": "/environmental-upbringing-and-education/oriesok-obycajny/"
+      "url": "/environmental-upbringing-and-education/oriesok-obycajny/",
+      "urlAliasy": []
     },
     {
       "id": "pinka-obycajna",
@@ -9643,7 +10068,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/pinka-obycajna/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/pinka-obycajna/"
       },
-      "url": "/environmental-upbringing-and-education/pinka-obycajna/"
+      "url": "/environmental-upbringing-and-education/pinka-obycajna/",
+      "urlAliasy": []
     },
     {
       "id": "stehlik-cecetka",
@@ -9669,7 +10095,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/stehlik-cecetka/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/stehlik-cecetka/"
       },
-      "url": "/environmental-upbringing-and-education/stehlik-cecetka/"
+      "url": "/environmental-upbringing-and-education/stehlik-cecetka/",
+      "urlAliasy": []
     },
     {
       "id": "drozd-cierny",
@@ -9695,7 +10122,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/drozd-cierny/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/drozd-cierny/"
       },
-      "url": "/environmental-upbringing-and-education/drozd-cierny/"
+      "url": "/environmental-upbringing-and-education/drozd-cierny/",
+      "urlAliasy": []
     },
     {
       "id": "rotunda",
@@ -9714,7 +10142,7 @@ const DB = {
         "lng": 21.924997033374385
       },
       "mapEmbed": "https://www.google.com/maps?q=48.75793395666114,21.924997033374385&z=18&output=embed",
-      "text": "<p>Rotunda bola murovaná sakrálna stavba kru­hového pôdorysu s apsidou. V areáli múzea sú dnes viditeľné len jej základy, ktoré boli obja­vené v druhej polovici 20. storočia zakladate­ľom a prvým riaditeľom Zemplínskeho múzea v Michalovciach Jaroslavom Vizdalom. Táto pamiatka dnes reprezentuje najvýchodnejšiu stavbu tohto typu na Slovensku. </p>\n<p>Obdobie vzniku michalovskej rotundy nepozná­me. Chýbajúce písomné pramene o jej vzniku a ani jej doterajšie výskumy nepriniesli posun pri objasnení jej datovania. Tieto okolnosti nám nedovoľujú datovať jej výstavbu skôr než do 13. storočia. </p>\n<p>Pôvodne rotunda zrejme slúžila ako spoločný farský kostol pre obyvateľov z okolitých de­dín. Vďaka archeologickým výskumom bolo do dnešných dní v jej okolí preskúmaných viac ako 120 hrobov, ktoré obsahovali najmä osob­né predmety zosnulých. V súčasnosti sú nále­zy z okolia rotundy vystavené v archeologickej expozícii Zemplínskeho múzea, kde ich môžu návštevníci vidieť. Je tam umiestnená aj ka­menná platňa s vyrytým nápisom, ktorá sa na­šla v interiéri objektu. Dodnes sa však nepo­darilo spoľahlivo rozlúštiť text, ktorý sa na nej nachádza. Nezodpovedaná ostáva aj otáz­ka, či ide o podstavec oltárneho stola, prí­padne náhrobný kameň a vôbec v akom vzťahu k rotunde bola táto platňa.</p>\n<p>Projekt obnovy základov rotundy bol realizovaný s finančnou podporou </p>\n<p>Košického samosprávneho kraja v rámci výzvy “Tradície inšpirujú inovácie.”</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2026/08/2026-08-03_13h20_33.jpg\" alt=\"\"></p>",
+      "text": "<p>Rotunda bola murovaná sakrálna stavba kru­hového pôdorysu s apsidou. V areáli múzea sú dnes viditeľné len jej základy, ktoré boli obja­vené v druhej polovici 20. storočia zakladate­ľom a prvým riaditeľom Zemplínskeho múzea v Michalovciach Jaroslavom Vizdalom. Táto pamiatka dnes reprezentuje najvýchodnejšiu stavbu tohto typu na Slovensku. </p>\n<p>Obdobie vzniku michalovskej rotundy nepozná­me. Chýbajúce písomné pramene o jej vzniku a ani jej doterajšie výskumy nepriniesli posun pri objasnení jej datovania. Tieto okolnosti nám nedovoľujú datovať jej výstavbu skôr než do 13. storočia. </p>\n<p>Pôvodne rotunda zrejme slúžila ako spoločný farský kostol pre obyvateľov z okolitých de­dín. Vďaka archeologickým výskumom bolo do dnešných dní v jej okolí preskúmaných viac ako 120 hrobov, ktoré obsahovali najmä osob­né predmety zosnulých. V súčasnosti sú nále­zy z okolia rotundy vystavené v archeologickej expozícii Zemplínskeho múzea, kde ich môžu návštevníci vidieť. Je tam umiestnená aj ka­menná platňa s vyrytým nápisom, ktorá sa na­šla v interiéri objektu. Dodnes sa však nepo­darilo spoľahlivo rozlúštiť text, ktorý sa na nej nachádza. Nezodpovedaná ostáva aj otáz­ka, či ide o podstavec oltárneho stola, prí­padne náhrobný kameň a vôbec v akom vzťahu k rotunde bola táto platňa.</p>\n<div class=\"video-embed\"><iframe src=\"https://www.youtube.com/embed/Kfgm4FbkimA\" title=\"Video\" loading=\"lazy\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></div><p>Projekt obnovy základov rotundy bol realizovaný s finančnou podporou </p>\n<p>Košického samosprávneho kraja v rámci výzvy “Tradície inšpirujú inovácie.”</p>\n<p><img src=\"/assets/images/migrated/2026-08-03_13h20_33.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/rotunda/",
         "en": "https://www.qrlink.sk/new/en/rotunda/",
@@ -9723,7 +10151,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/rotunda/",
         "hu": "https://www.qrlink.sk/new/hu/rotunda/"
       },
-      "url": "/rotunda/"
+      "url": "/rotunda/",
+      "urlAliasy": []
     },
     {
       "id": "qr-sprievodca-zvonica-hrusove",
@@ -9759,7 +10188,7 @@ const DB = {
         "lng": 17.753408298101814
       },
       "mapEmbed": "https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1s48.775257658652436,17.753408298101814!6i16!3m1!1ssk!5m1!1ssk",
-      "text": "<p>Príbeh historickej dominanty a slovenského unikátu</p>\n<h2>História hrušovského kostolíka a zvonice</h2>\n<p>Kostolík v Hrušovom, ktorý sa podľa Jozefa Ľudovíta Holubyho mohol stavať v rovnakom období ako haluzický kostolík (okolo roku 1240), bol v skutočnosti podľa archeologického prieskumu z roku 1997 postavený v gotickom štýle až v 14. storočí. Odmietnutý bol aj husitský pôvod stavby: v listine z roku 1436 sa hrušovský kostol nespomína, rovnako ani v zápise z cirkevnej vizitácie z roku 1560. Prvá konkrétna zmienka pochádza až z roku 1692, keď evanjelický farár Peták pokrstil dieťa práve v tomto kostolíku. V roku 1705 bol kostol používaný evanjelikmi a ponechaný im, no podľa Ladislava Vargu ho v roku 1708 zničili Rákócziho povstalci a už nebol nikdy opravený.</p>\n<p>Napriek tomu sa kostolík ešte objavuje ako funkčný v neskoršom období — pod ním sa nachádzala krypta šľachtickej rodiny Beňovských. Od roku 1733 už patril katolíckej cirkvi. V roku 1788 sa tu konali katolícke omše každú tretiu nedeľu. Kostolík bol skromne zariadený, mal dva drevené chóry. Okolo roku 1790 bohoslužby zanikli a budova chátrala až do úplných ruín. V roku 1859 sa už podľa Jozefa Beneša nachádzal 70 rokov v ruinách. V roku 1879 bol rozobraný, jeho materiál poslúžil na výstavbu katolíckej školy v Dolných Bzinciach. Z kostolíka bol zvon prenesený na novú obecnú zvonicu.</p>\n<p>Zvonica v Hrušovom tak existuje od roku 1879.</p>\n<h2>Zvonárstvo a modernizácia zvonenia</h2>\n<p>Zvony majú v každej farnosti a cirkevnom zbore dôležitú úlohu: zvolávajú ľudí na bohoslužby, oznamujú významné udalosti i smútok. Zvonári v minulosti zvonili ručne každé ráno, na obed, večer a počas sviatkov či pohrebov. Zvonárstvo bolo zodpovedné a platené remeslo, no novú generáciu už nelákalo a vyžadovalo modernizáciu.</p>\n<p>Bzinský evanjelický farár ThDr. Igor Kišš sa rozhodol posunúť zvonenie na vyššiu úroveň a obrátil sa na Pavla Mrázika, strojného zámočníka. Spolu navštívili cirkevný zbor vo Vrútkach, kde už mali zvonenie elektrifikované. Inšpirovaný tamojším systémom, Mrázik navrhol a zrealizoval ešte vylepšenú konštrukciu elektrického pohonu zvonov.</p>\n<p>Otec Pavla Mrázika, Martin Mrázik, po prvej svetovej vojne zorganizoval nadstavbu zvonice o jedno poschodie. Vďaka spoločnému úsiliu obce a finančným príspevkom od obyvateľov sa podarilo zakúpiť nový veľký zvon, keďže pôvodný bol za vojny skonfiškovaný a pretavený na náboje.</p>\n<p>Po štyridsiatich rokoch kurátor Pavel Mrázik so svojimi pomocníkmi zhotovil na všetkých poschodiach zvonice nové drevené podlahy a schody. Práve v tomto období začal pripravovať elektrifikované ovládanie zvonov. V roku 1990 sa v jeho dielni začali montovať prvé elektrické pohony. Na projekte sa finančne podieľala celá obec.</p>\n<p>Prvé elektrické zvonenie bolo úspešne inštalované na veži evanjelického kostola v Bzinciach, nasledovala Lubina a ďalšie obce – Miškech Dedinka, Cetuna, Bošáca a ďalšie. Majster Mrázik elektrifikoval v regióne až 39 zvoníc, pričom mu pomáhal syn Ivan a ďalší odborníci.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/2025-08-18_13h09_48.png\" alt=\"\"></p>\n<h2>Unikátne zvonicové hodiny</h2>\n<p>S rodinou Mrázikovcov je zvonica v Hrušovom spätá už viac než sto rokov – nadstavba z roku 1918, zakúpený zvon a neskôr unikátne hodiny s 24-hodinovým ciferníkom, ktoré sú slovenskou raritou. Pavel Mrázik, vyučený strojár, zostrojil mnoho zaujímavých prístrojov, medzi nimi aj „stolný vesmír“. Hodiny s netradičným ciferníkom začal konštruovať po tom, ako ho zmiatlo hlásenie času v rádiu. Chcel, aby ciferník zobrazoval 24 hodín – tak ako má deň.</p>\n<p>V roku 1992 sa rozbehli dve veľké hodinové ručičky na zvonici, pričom ciferník má priemer jeden meter a čísla od 1 po 24. Hodinový mechanizmus konštruoval viac než desať rokov a všetko dôsledne vypočítal a navrhol. Hodiny fungovali bez väčších problémov až do smrti majstra Mrázika v roku 2007. Potom sa na dlhých osemnásť rokov zastavili. Po opravách u niekoľkých hodinárov a dôkladnom premazaní sa však opäť vrátili na svoje miesto a dnes zdobia zvonicu v Hrušovom.</p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_hodiny-min.jpg\" alt=\"\"></p>\n<h2>Najvýznamnejšie medzníky zvonice v Hrušovom</h2>\n<h2>Posolstvo a význam</h2>\n<p>Zvonica v Hrušovom je pamätníkom tvorivej remeselnej práce, občianskej solidarity a technickej inovácie. Je zároveň symbolom premeny – od ručne ovládanej zvonice až po unikát s elektrickým pohonom a netradičnými hodinami. Svojou históriou, príbehmi a nezameniteľnou siluetou zostáva dôležitou dominantou krajiny a svedkom premien doby. </p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_rekon%C5%A1truk%C4%8Dn%C3%A9-pr%C3%A1ce_2025-2-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_rekon%C5%A1truk%C4%8Dn%C3%A9-pr%C3%A1ce_2025-3-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_rekon%C5%A1truk%C4%8Dn%C3%A9-pr%C3%A1ce_2025-4-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_rekon%C5%A1truk%C4%8Dn%C3%A9-pr%C3%A1ce_2025-5-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_rekon%C5%A1truk%C4%8Dn%C3%A9-pr%C3%A1ce_2025-6-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_rekon%C5%A1truk%C4%8Dn%C3%A9-pr%C3%A1ce_2025-7-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_strecha-1-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_strecha-2-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/2_Hru%C5%A1ovsk%C3%A1-zvonica-hodiny-s-24-hodinov%C3%BDm-cifern%C3%ADkom_3-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/3_Hru%C5%A1ovsk%C3%A1-zvonica-hodiny-s-24-hodinov%C3%BDm-cifern%C3%ADkom-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_n%C3%A1pis-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_rekon%C5%A1trukcia-2025-1-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_rekon%C5%A1trukcia-2025-2-min.jpg\" alt=\"\"></p>\n<p><img src=\"https://www.qrlink.sk/new/wp-content/uploads/2025/08/Hru%C5%A1ovsk%C3%A1-zvonica_rekon%C5%A1truk%C4%8Dn%C3%A9-pr%C3%A1ce_2025-1-min.jpg\" alt=\"\"></p>\n<h3>Mapa – GPS (48.775257658652436, 17.753408298101814)</h3>\n<p>Pre spustenie navigácie otvorte mapu v samostatnom okne.</p>",
+      "text": "<p>Príbeh historickej dominanty a slovenského unikátu</p>\n<h2>História hrušovského kostolíka a zvonice</h2>\n<p>Kostolík v Hrušovom, ktorý sa podľa Jozefa Ľudovíta Holubyho mohol stavať v rovnakom období ako haluzický kostolík (okolo roku 1240), bol v skutočnosti podľa archeologického prieskumu z roku 1997 postavený v gotickom štýle až v 14. storočí. Odmietnutý bol aj husitský pôvod stavby: v listine z roku 1436 sa hrušovský kostol nespomína, rovnako ani v zápise z cirkevnej vizitácie z roku 1560. Prvá konkrétna zmienka pochádza až z roku 1692, keď evanjelický farár Peták pokrstil dieťa práve v tomto kostolíku. V roku 1705 bol kostol používaný evanjelikmi a ponechaný im, no podľa Ladislava Vargu ho v roku 1708 zničili Rákócziho povstalci a už nebol nikdy opravený.</p>\n<p>Napriek tomu sa kostolík ešte objavuje ako funkčný v neskoršom období — pod ním sa nachádzala krypta šľachtickej rodiny Beňovských. Od roku 1733 už patril katolíckej cirkvi. V roku 1788 sa tu konali katolícke omše každú tretiu nedeľu. Kostolík bol skromne zariadený, mal dva drevené chóry. Okolo roku 1790 bohoslužby zanikli a budova chátrala až do úplných ruín. V roku 1859 sa už podľa Jozefa Beneša nachádzal 70 rokov v ruinách. V roku 1879 bol rozobraný, jeho materiál poslúžil na výstavbu katolíckej školy v Dolných Bzinciach. Z kostolíka bol zvon prenesený na novú obecnú zvonicu.</p>\n<p>Zvonica v Hrušovom tak existuje od roku 1879.</p>\n<h2>Zvonárstvo a modernizácia zvonenia</h2>\n<p>Zvony majú v každej farnosti a cirkevnom zbore dôležitú úlohu: zvolávajú ľudí na bohoslužby, oznamujú významné udalosti i smútok. Zvonári v minulosti zvonili ručne každé ráno, na obed, večer a počas sviatkov či pohrebov. Zvonárstvo bolo zodpovedné a platené remeslo, no novú generáciu už nelákalo a vyžadovalo modernizáciu.</p>\n<p>Bzinský evanjelický farár ThDr. Igor Kišš sa rozhodol posunúť zvonenie na vyššiu úroveň a obrátil sa na Pavla Mrázika, strojného zámočníka. Spolu navštívili cirkevný zbor vo Vrútkach, kde už mali zvonenie elektrifikované. Inšpirovaný tamojším systémom, Mrázik navrhol a zrealizoval ešte vylepšenú konštrukciu elektrického pohonu zvonov.</p>\n<p>Otec Pavla Mrázika, Martin Mrázik, po prvej svetovej vojne zorganizoval nadstavbu zvonice o jedno poschodie. Vďaka spoločnému úsiliu obce a finančným príspevkom od obyvateľov sa podarilo zakúpiť nový veľký zvon, keďže pôvodný bol za vojny skonfiškovaný a pretavený na náboje.</p>\n<p>Po štyridsiatich rokoch kurátor Pavel Mrázik so svojimi pomocníkmi zhotovil na všetkých poschodiach zvonice nové drevené podlahy a schody. Práve v tomto období začal pripravovať elektrifikované ovládanie zvonov. V roku 1990 sa v jeho dielni začali montovať prvé elektrické pohony. Na projekte sa finančne podieľala celá obec.</p>\n<p>Prvé elektrické zvonenie bolo úspešne inštalované na veži evanjelického kostola v Bzinciach, nasledovala Lubina a ďalšie obce – Miškech Dedinka, Cetuna, Bošáca a ďalšie. Majster Mrázik elektrifikoval v regióne až 39 zvoníc, pričom mu pomáhal syn Ivan a ďalší odborníci.</p>\n<p><img src=\"/assets/images/migrated/2025-08-18_13h09_48.jpg\" alt=\"\"></p>\n<h2>Unikátne zvonicové hodiny</h2>\n<p>S rodinou Mrázikovcov je zvonica v Hrušovom spätá už viac než sto rokov – nadstavba z roku 1918, zakúpený zvon a neskôr unikátne hodiny s 24-hodinovým ciferníkom, ktoré sú slovenskou raritou. Pavel Mrázik, vyučený strojár, zostrojil mnoho zaujímavých prístrojov, medzi nimi aj „stolný vesmír“. Hodiny s netradičným ciferníkom začal konštruovať po tom, ako ho zmiatlo hlásenie času v rádiu. Chcel, aby ciferník zobrazoval 24 hodín – tak ako má deň.</p>\n<p>V roku 1992 sa rozbehli dve veľké hodinové ručičky na zvonici, pričom ciferník má priemer jeden meter a čísla od 1 po 24. Hodinový mechanizmus konštruoval viac než desať rokov a všetko dôsledne vypočítal a navrhol. Hodiny fungovali bez väčších problémov až do smrti majstra Mrázika v roku 2007. Potom sa na dlhých osemnásť rokov zastavili. Po opravách u niekoľkých hodinárov a dôkladnom premazaní sa však opäť vrátili na svoje miesto a dnes zdobia zvonicu v Hrušovom.</p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_hodiny-min.jpg\" alt=\"\"></p>\n<h2>Najvýznamnejšie medzníky zvonice v Hrušovom</h2>\n<h2>Posolstvo a význam</h2>\n<p>Zvonica v Hrušovom je pamätníkom tvorivej remeselnej práce, občianskej solidarity a technickej inovácie. Je zároveň symbolom premeny – od ručne ovládanej zvonice až po unikát s elektrickým pohonom a netradičnými hodinami. Svojou históriou, príbehmi a nezameniteľnou siluetou zostáva dôležitou dominantou krajiny a svedkom premien doby. </p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-2-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-3-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-4-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-5-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-6-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-7-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_strecha-1-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_strecha-2-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/2_hrusovska-zvonica-hodiny-s-24-hodinovym-cifernikom_3-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/3_hrusovska-zvonica-hodiny-s-24-hodinovym-cifernikom-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_napis-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_rekonstrukcia-2025-1-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_rekonstrukcia-2025-2-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-1-min.jpg\" alt=\"\"></p>\n<h3>Mapa – GPS (48.775257658652436, 17.753408298101814)</h3>\n<p>Pre spustenie navigácie otvorte mapu v samostatnom okne.</p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/castles/qr-sprievodca-zvonica-hrusove/",
         "en": "https://www.qrlink.sk/new/en/castles/qr-sprievodca-zvonica-hrusove/",
@@ -9768,7 +10197,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/qr-sprievodca-zvonica-hrusove/",
         "hu": "https://www.qrlink.sk/new/hu/castles/qr-sprievodca-zvonica-hrusove/"
       },
-      "url": "/castles/qr-sprievodca-zvonica-hrusove/"
+      "url": "/castles/qr-sprievodca-zvonica-hrusove/",
+      "urlAliasy": []
     }
   ],
   "kontakt": {

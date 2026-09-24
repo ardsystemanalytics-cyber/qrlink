@@ -1,0 +1,28 @@
+{
+  "id": "zastavka-1-autonomna-zeleznicna-zastavka-v-sr",
+  "miesto": "partizanske-simonovany",
+  "poradie": 1,
+  "nazov": "Zastávka – 1.autonómna železničná zastávka v SR",
+  "popis": "",
+  "cover": "assets/images/migrated/zastavka.jpg",
+  "audio": [],
+  "galeria": [
+    {
+      "url": "assets/images/migrated/zastavka.jpg"
+    }
+  ],
+  "gps": null,
+  "mapEmbed": "",
+  "text": "<div class=\"video-embed\"><iframe src=\"https://www.youtube.com/embed/Rvd2X_QsYyg\" title=\"Video\" loading=\"lazy\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></div>",
+  "hlavnaKategoria": "Mestá",
+  "projekt": "Partizánske – časť Šimonovany",
+  "miestoNazov": "Partizánske – časť Šimonovany",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/zastavka-1-autonomna-zeleznicna-zastavka-v-sr/",
+    "en": "https://www.qrlink.sk/new/en/zastavka-1-autonomna-zeleznicna-zastavka-v-sr/",
+    "de": "https://www.qrlink.sk/new/de/zastavka-1-autonomna-zeleznicna-zastavka-v-sr/",
+    "ru": "https://www.qrlink.sk/new/ru/zastavka-1-autonomna-zeleznicna-zastavka-v-sr/",
+    "pl": "https://www.qrlink.sk/new/pl/zastavka-1-autonomna-zeleznicna-zastavka-v-sr/",
+    "hu": "https://www.qrlink.sk/new/hu/zastavka-1-autonomna-zeleznicna-zastavka-v-sr/"
+  }
+}

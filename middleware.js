@@ -28,9 +28,10 @@ import urlMap from "./lib/pretty-url-map.mjs";
 const OLD_LANGS = ["sk", "en", "de", "ru", "pl", "hu"];
 
 export const config = {
-  // Vynechá /admin, /api, /assets, /css, /js, /img a čokoľvek s príponou
-  // (napr. /favicon.ico, /sitemap.xml, priamo požadované *.html súbory).
-  matcher: ["/((?!admin|api|assets|css|js|img|.*\\.).*)"],
+  // Vynechá /admin, /api, /assets, /css, /js, /img (celý segment - slug ako
+  // "apiary" sa teda nevynechá) a čokoľvek s príponou (napr. /favicon.ico,
+  // /sitemap.xml, priamo požadované *.html súbory).
+  matcher: ["/((?!(?:admin|api|assets|css|js|img)(?:/|$)|.*\\.).*)"],
 };
 
 export default function middleware(request) {

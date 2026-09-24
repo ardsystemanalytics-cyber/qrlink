@@ -1,0 +1,25 @@
+{
+  "poradie": 37,
+  "id": "partizanske-simonovany",
+  "nazov": "Partizánske – časť Šimonovany",
+  "primarna": "mesta",
+  "kategorie": [
+    "mesta"
+  ],
+  "lon": 18.37,
+  "lat": 48.62,
+  "mapX": 270,
+  "mapY": 276,
+  "cover": "",
+  "popis": "Mestská časť Partizánskeho s prvou autonómnou železničnou zastávkou na Slovensku.",
+  "hlavnaKategoria": "Mestá",
+  "korenoveMiesto": "Partizánske – časť Šimonovany",
+  "povodnaUrl": {
+    "sk": "https://www.qrlink.sk/new/category/partizanske-cast-simonovany/",
+    "en": "https://www.qrlink.sk/new/en/category/partizanske-cast-simonovany/",
+    "de": "https://www.qrlink.sk/new/de/category/partizanske-cast-simonovany/",
+    "ru": "https://www.qrlink.sk/new/ru/category/partizanske-cast-simonovany/",
+    "pl": "https://www.qrlink.sk/new/pl/category/partizanske-cast-simonovany/",
+    "hu": "https://www.qrlink.sk/new/hu/category/partizanske-cast-simonovany/"
+  }
+}

@@ -21,5 +21,8 @@
     "ru": "https://www.qrlink.sk/new/ru/category/turzovka/",
     "pl": "https://www.qrlink.sk/new/pl/category/turzovka/",
     "hu": "https://www.qrlink.sk/new/hu/category/turzovka/"
-  }
+  },
+  "povodneUrlAliasy": [
+    "https://www.qrlink.sk/new/turzovka/"
+  ]
 }

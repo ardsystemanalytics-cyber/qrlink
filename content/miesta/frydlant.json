@@ -22,5 +22,8 @@
     "ru": "https://www.qrlink.sk/new/ru/category/frydlant/",
     "pl": "https://www.qrlink.sk/new/pl/category/frydlant/",
     "hu": "https://www.qrlink.sk/new/hu/category/frydlant/"
-  }
+  },
+  "povodneUrlAliasy": [
+    "https://www.qrlink.sk/new/frydlant/"
+  ]
 }

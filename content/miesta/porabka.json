@@ -22,5 +22,8 @@
     "ru": "https://www.qrlink.sk/new/ru/category/porabka/",
     "pl": "https://www.qrlink.sk/new/pl/category/porabka/",
     "hu": "https://www.qrlink.sk/new/hu/category/porabka/"
-  }
+  },
+  "povodneUrlAliasy": [
+    "https://www.qrlink.sk/new/porabka/"
+  ]
 }

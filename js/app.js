@@ -27,7 +27,7 @@ function recordByIdOrPath(list, idFieldGetter) {
   const byId = idFieldGetter(param("id"));
   if (byId) return byId;
   const path = prettyPathFromLocation();
-  return list.find(x => x.url === path);
+  return list.find(x => x.url === path) || list.find(x => (x.urlAliasy || []).includes(path));
 }
 const DEFAULT_PHOTO = "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80";
 const SITE_ORIGIN = "https://qrlink.sk";

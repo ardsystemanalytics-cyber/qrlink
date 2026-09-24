@@ -31,5 +31,8 @@
     "ru": "https://www.qrlink.sk/new/ru/kostol-sv-jana-krstitela/",
     "pl": "https://www.qrlink.sk/new/pl/kostol-sv-jana-krstitela/",
     "hu": "https://www.qrlink.sk/new/hu/kostol-sv-jana-krstitela/"
-  }
+  },
+  "povodneUrlAliasy": [
+    "https://www.qrlink.sk/new/castles/kostol-sv-jana-krstitela/"
+  ]
 }
