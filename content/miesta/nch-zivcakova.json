@@ -15,11 +15,14 @@
   "hlavnaKategoria": "Náučné chodníky",
   "korenoveMiesto": "Náučný chodník Živčákova",
   "povodnaUrl": {
-    "sk": "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/",
-    "en": "https://www.qrlink.sk/new/en/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/",
-    "de": "https://www.qrlink.sk/new/de/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/",
-    "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/",
-    "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/",
-    "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/"
-  }
+    "sk": "https://www.qrlink.sk/new/category/naucny-chodnik-zivcakova/",
+    "en": "https://www.qrlink.sk/new/en/category/naucny-chodnik-zivcakova/",
+    "de": "https://www.qrlink.sk/new/de/category/naucny-chodnik-zivcakova/",
+    "ru": "https://www.qrlink.sk/new/ru/category/naucny-chodnik-zivcakova/",
+    "pl": "https://www.qrlink.sk/new/pl/category/naucny-chodnik-zivcakova/",
+    "hu": "https://www.qrlink.sk/new/hu/category/naucny-chodnik-zivcakova/"
+  },
+  "povodneUrlAliasy": [
+    "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/"
+  ]
 }

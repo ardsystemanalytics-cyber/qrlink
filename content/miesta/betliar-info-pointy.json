@@ -13,5 +13,8 @@
     "ru": "https://www.qrlink.sk/new/ru/category/betliar/info-pointy/",
     "pl": "https://www.qrlink.sk/new/pl/category/betliar/info-pointy/",
     "hu": "https://www.qrlink.sk/new/hu/category/betliar/info-pointy/"
-  }
+  },
+  "povodneUrlAliasy": [
+    "https://www.qrlink.sk/new/category/info-pointy/"
+  ]
 }

@@ -15,11 +15,14 @@
   "hlavnaKategoria": "Pamiatky",
   "korenoveMiesto": "Hrad Strečno",
   "povodnaUrl": {
-    "sk": "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/",
-    "en": "https://www.qrlink.sk/new/en/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/",
-    "de": "https://www.qrlink.sk/new/de/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/",
-    "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/",
-    "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/",
-    "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/"
-  }
+    "sk": "https://www.qrlink.sk/new/category/hrad-strecno/",
+    "en": "https://www.qrlink.sk/new/en/category/hrad-strecno/",
+    "de": "https://www.qrlink.sk/new/de/category/hrad-strecno/",
+    "ru": "https://www.qrlink.sk/new/ru/category/hrad-strecno/",
+    "pl": "https://www.qrlink.sk/new/pl/category/hrad-strecno/",
+    "hu": "https://www.qrlink.sk/new/hu/category/hrad-strecno/"
+  },
+  "povodneUrlAliasy": [
+    "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/"
+  ]
 }

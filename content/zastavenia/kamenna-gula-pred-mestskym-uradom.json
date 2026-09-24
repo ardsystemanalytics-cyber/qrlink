@@ -31,5 +31,8 @@
     "ru": "https://www.qrlink.sk/new/ru/kamenna-gula-pred-mestskym-uradom/",
     "pl": "https://www.qrlink.sk/new/pl/kamenna-gula-pred-mestskym-uradom/",
     "hu": "https://www.qrlink.sk/new/hu/kamenna-gula-pred-mestskym-uradom/"
-  }
+  },
+  "povodneUrlAliasy": [
+    "https://www.qrlink.sk/new/turzovka/kamenna-gula-pred-mestskym-uradom-pri-prilezitosti-1-sv-stretnutia-turzovcanov/"
+  ]
 }

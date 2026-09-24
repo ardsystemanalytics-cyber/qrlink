@@ -23,11 +23,17 @@ function prettyPathFromLocation() {
   if (segments.length && OLD_LANGS.includes(segments[0])) segments.shift();
   return segments.length ? `/${segments.join("/")}/` : "/";
 }
-function recordByIdOrPath(list, idFieldGetter) {
+function recordByIdOrPath(list, idFieldGetter, guessByLastSegment = false) {
   const byId = idFieldGetter(param("id"));
   if (byId) return byId;
   const path = prettyPathFromLocation();
-  return list.find(x => x.url === path) || list.find(x => (x.urlAliasy || []).includes(path));
+  const exact = list.find(x => x.url === path) || list.find(x => (x.urlAliasy || []).includes(path));
+  if (exact || !guessByLastSegment) return exact;
+  // Rovnaká poistka ako v middleware.js: posledný segment = názov zastavenia
+  // (napr. staré "/turzovka/rybniky/"), len keď je jednoznačný.
+  const last = path.split("/").filter(Boolean).pop();
+  const hits = list.filter(x => x.url && !x.url.includes(".html") && x.url.split("/").filter(Boolean).pop() === last);
+  return hits.length === 1 ? hits[0] : undefined;
 }
 const DEFAULT_PHOTO = "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80";
 const SITE_ORIGIN = "https://qrlink.sk";
@@ -679,7 +685,7 @@ function catFeaturesHTML() {
 function renderZastavenie() {
   const root = Q("#detailRoot");
   if (!root) return;
-  const z = recordByIdOrPath(DB.zastavenia, (id) => DB.zastavenia.find(x => x.id === id));
+  const z = recordByIdOrPath(DB.zastavenia, (id) => DB.zastavenia.find(x => x.id === id), true);
   if (!z) { root.innerHTML = `<p>${t("detail_not_found")}</p>`; return; }
 
   const m = miestoById(z.miesto);

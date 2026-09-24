@@ -15,11 +15,14 @@
   "hlavnaKategoria": "Pamiatky",
   "korenoveMiesto": "Čiernokľačianska Pyxida",
   "povodnaUrl": {
-    "sk": "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/",
-    "en": "https://www.qrlink.sk/new/en/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/",
-    "de": "https://www.qrlink.sk/new/de/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/",
-    "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/",
-    "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/",
-    "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/"
-  }
+    "sk": "https://www.qrlink.sk/new/category/cierne-klacany/",
+    "en": "https://www.qrlink.sk/new/en/category/cierne-klacany/",
+    "de": "https://www.qrlink.sk/new/de/category/cierne-klacany/",
+    "ru": "https://www.qrlink.sk/new/ru/category/cierne-klacany/",
+    "pl": "https://www.qrlink.sk/new/pl/category/cierne-klacany/",
+    "hu": "https://www.qrlink.sk/new/hu/category/cierne-klacany/"
+  },
+  "povodneUrlAliasy": [
+    "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/"
+  ]
 }

@@ -181,6 +181,10 @@ const urlMap = {
   "category/nezaradene/test-1-kategoria-ako-beskydy": "/",
   "category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/test-27": "/",
   "category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/od-roznova-pod-prisahu-vyznal": "/",
+  // Starý web obsluhoval vnorené kategórie aj krátkym tvarom (category/<slug>/).
+  "category/test-1-kategoria-ako-beskydy": "/",
+  "category/test-27": "/",
+  "category/od-roznova-pod-prisahu-vyznal": "/",
   "ahoj-svet": "/",
   "ukazka-strany": "/",
 };
@@ -192,10 +196,28 @@ function addToUrlMap(record, internalPath) {
 }
 for (const m of miesta) addToUrlMap(m, `/kategoria.html?id=${m.id}`);
 for (const z of zastavenia) addToUrlMap(z, `/zastavenie.html?id=${z.id}`);
+
+// Poistka ako vo WordPresse (redirect_guess_404_permalink): keď cesta
+// nesedí presne, ale jej POSLEDNÝ segment je názov zastavenia, zobrazí sa
+// to zastavenie. Starý web takto obsluhoval napr. staršie adresy
+// "/turzovka/rybniky/" (z pôvodnej štruktúry /mesto/zastavenie/), ktoré
+// môžu byť aj na vytlačených QR kódoch. Len jednoznačné názvy.
+const guess = {};
+const guessCount = {};
+for (const z of zastavenia) {
+  if (!z.url || z.url.includes(".html")) continue;
+  const last = z.url.split("/").filter(Boolean).pop();
+  guessCount[last] = (guessCount[last] || 0) + 1;
+  guess[last] = `/zastavenie.html?id=${z.id}`;
+}
+for (const [last, n] of Object.entries(guessCount)) if (n > 1) delete guess[last];
+
 fs.mkdirSync(path.join(ROOT, "lib"), { recursive: true });
 fs.writeFileSync(
   path.join(ROOT, "lib", "pretty-url-map.mjs"),
-  `// AUTOMATICKY VYGENEROVANÉ - pozri scripts/build-data.js\nexport default ${JSON.stringify(urlMap, null, 2)};\n`,
+  `// AUTOMATICKY VYGENEROVANÉ - pozri scripts/build-data.js\n` +
+    `export default ${JSON.stringify(urlMap, null, 2)};\n` +
+    `export const guess = ${JSON.stringify(guess, null, 2)};\n`,
   "utf8"
 );
 

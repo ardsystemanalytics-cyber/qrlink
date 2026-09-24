@@ -23,7 +23,7 @@
    v tomto projekte to nemá žiadny vplyv.
    ===================================================================== */
 import { rewrite, next } from "@vercel/functions";
-import urlMap from "./lib/pretty-url-map.mjs";
+import urlMap, { guess } from "./lib/pretty-url-map.mjs";
 
 const OLD_LANGS = ["sk", "en", "cs", "hu", "de", "ru", "pl"];
 
@@ -46,7 +46,9 @@ export default function middleware(request) {
   }
 
   const key = rest.join("/");
-  const destination = urlMap[key];
+  // Presná zhoda, inak (len pri viacdielnej ceste) poistka podľa posledného
+  // segmentu = názvu zastavenia, rovnako ako to robil starý WordPress.
+  const destination = urlMap[key] ?? (rest.length > 1 ? guess[rest[rest.length - 1]] : undefined);
   if (!destination) return next();
 
   const target = new URL(destination, url);

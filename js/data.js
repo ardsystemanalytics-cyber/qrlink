@@ -147,7 +147,9 @@ const DB = {
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/"
       },
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
-      "urlAliasy": []
+      "urlAliasy": [
+        "/category/bludisko/"
+      ]
     },
     {
       "id": "hrad-strecno",
@@ -163,15 +165,17 @@ const DB = {
       "cover": "/assets/images/migrated/1-paseka-e1592570206493.jpg",
       "popis": "Stredoveký hrad nad Váhom – 14 zastavení s audio sprievodcom.",
       "povodnaUrl": {
-        "sk": "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/",
-        "en": "https://www.qrlink.sk/new/en/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/",
-        "de": "https://www.qrlink.sk/new/de/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/",
-        "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/",
-        "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/",
-        "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/"
+        "sk": "https://www.qrlink.sk/new/category/hrad-strecno/",
+        "en": "https://www.qrlink.sk/new/en/category/hrad-strecno/",
+        "de": "https://www.qrlink.sk/new/de/category/hrad-strecno/",
+        "ru": "https://www.qrlink.sk/new/ru/category/hrad-strecno/",
+        "pl": "https://www.qrlink.sk/new/pl/category/hrad-strecno/",
+        "hu": "https://www.qrlink.sk/new/hu/category/hrad-strecno/"
       },
-      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/",
-      "urlAliasy": []
+      "url": "/category/hrad-strecno/",
+      "urlAliasy": [
+        "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/"
+      ]
     },
     {
       "id": "turzovka-mesto",
@@ -195,7 +199,9 @@ const DB = {
         "hu": "https://www.qrlink.sk/new/hu/category/betliar/info-pointy/"
       },
       "url": "/category/betliar/info-pointy/",
-      "urlAliasy": []
+      "urlAliasy": [
+        "/category/info-pointy/"
+      ]
     },
     {
       "id": "betliar-info-strom-architektura",
@@ -211,7 +217,9 @@ const DB = {
         "hu": "https://www.qrlink.sk/new/hu/category/betliar/info-strom/architektura/"
       },
       "url": "/category/betliar/info-strom/architektura/",
-      "urlAliasy": []
+      "urlAliasy": [
+        "/category/architektura/"
+      ]
     },
     {
       "id": "bratislava-ivanka",
@@ -252,7 +260,9 @@ const DB = {
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-1/"
       },
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-1/",
-      "urlAliasy": []
+      "urlAliasy": [
+        "/category/dendrolog-1/"
+      ]
     },
     {
       "id": "turzovka-pamatniky",
@@ -268,7 +278,9 @@ const DB = {
         "hu": "https://www.qrlink.sk/new/hu/category/turzovka/pamatniky-v-turzovke/"
       },
       "url": "/category/turzovka/pamatniky-v-turzovke/",
-      "urlAliasy": []
+      "urlAliasy": [
+        "/category/pamatniky-v-turzovke/"
+      ]
     },
     {
       "id": "betliar-info-strom-fauna-flora",
@@ -284,7 +296,9 @@ const DB = {
         "hu": "https://www.qrlink.sk/new/hu/category/betliar/info-strom/flora/"
       },
       "url": "/category/betliar/info-strom/flora/",
-      "urlAliasy": []
+      "urlAliasy": [
+        "/category/flora/"
+      ]
     },
     {
       "id": "betliar-info-strom",
@@ -300,7 +314,9 @@ const DB = {
         "hu": "https://www.qrlink.sk/new/hu/category/betliar/info-strom/"
       },
       "url": "/category/betliar/info-strom/",
-      "urlAliasy": []
+      "urlAliasy": [
+        "/category/info-strom/"
+      ]
     },
     {
       "id": "dendrolog-2",
@@ -317,7 +333,9 @@ const DB = {
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-2/"
       },
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-2/",
-      "urlAliasy": []
+      "urlAliasy": [
+        "/category/dendrolog-2/"
+      ]
     },
     {
       "id": "turzovka-sakralne-pamiatky",
@@ -333,7 +351,10 @@ const DB = {
         "hu": "https://www.qrlink.sk/new/hu/category/turzovka/sakralne-pamiatky/"
       },
       "url": "/category/turzovka/sakralne-pamiatky/",
-      "urlAliasy": []
+      "urlAliasy": [
+        "/category/sakralne-pamiatky/",
+        "/turzovka/sakralne-pamiatky-v-meste/"
+      ]
     },
     {
       "id": "hmyzi-domcek",
@@ -350,7 +371,9 @@ const DB = {
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/hmyzi-domcek/"
       },
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/hmyzi-domcek/",
-      "urlAliasy": []
+      "urlAliasy": [
+        "/category/hmyzi-domcek/"
+      ]
     },
     {
       "id": "pexeso",
@@ -367,7 +390,9 @@ const DB = {
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/pexeso/"
       },
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/pexeso/",
-      "urlAliasy": []
+      "urlAliasy": [
+        "/category/pexeso/"
+      ]
     },
     {
       "id": "vtacia-budka",
@@ -384,7 +409,9 @@ const DB = {
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacia-budka/"
       },
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacia-budka/",
-      "urlAliasy": []
+      "urlAliasy": [
+        "/category/vtacia-budka/"
+      ]
     },
     {
       "id": "betliar",
@@ -426,7 +453,9 @@ const DB = {
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/"
       },
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/",
-      "urlAliasy": []
+      "urlAliasy": [
+        "/category/vtacie-krmitko/"
+      ]
     },
     {
       "id": "euroregion-beskydy",
@@ -773,15 +802,17 @@ const DB = {
       "cover": "",
       "popis": "Vzácna slonovinová schránka z veľkomoravského obdobia.",
       "povodnaUrl": {
-        "sk": "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/",
-        "en": "https://www.qrlink.sk/new/en/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/",
-        "de": "https://www.qrlink.sk/new/de/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/",
-        "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/",
-        "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/",
-        "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/"
+        "sk": "https://www.qrlink.sk/new/category/cierne-klacany/",
+        "en": "https://www.qrlink.sk/new/en/category/cierne-klacany/",
+        "de": "https://www.qrlink.sk/new/de/category/cierne-klacany/",
+        "ru": "https://www.qrlink.sk/new/ru/category/cierne-klacany/",
+        "pl": "https://www.qrlink.sk/new/pl/category/cierne-klacany/",
+        "hu": "https://www.qrlink.sk/new/hu/category/cierne-klacany/"
       },
-      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/",
-      "urlAliasy": []
+      "url": "/category/cierne-klacany/",
+      "urlAliasy": [
+        "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/"
+      ]
     },
     {
       "id": "klenoty-pohranicie",
@@ -798,15 +829,17 @@ const DB = {
       "cover": "",
       "popis": "Kultúrne a prírodné klenoty pohraničia.",
       "povodnaUrl": {
-        "sk": "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/klenoty-v-cesko-slovenskom-pohranici/",
-        "en": "https://www.qrlink.sk/new/en/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/klenoty-v-cesko-slovenskom-pohranici/",
-        "de": "https://www.qrlink.sk/new/de/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/klenoty-v-cesko-slovenskom-pohranici/",
-        "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/klenoty-v-cesko-slovenskom-pohranici/",
-        "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/klenoty-v-cesko-slovenskom-pohranici/",
-        "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/klenoty-v-cesko-slovenskom-pohranici/"
+        "sk": "https://www.qrlink.sk/new/category/klenoty-v-cesko-slovenskom-pohranici/",
+        "en": "https://www.qrlink.sk/new/en/category/klenoty-v-cesko-slovenskom-pohranici/",
+        "de": "https://www.qrlink.sk/new/de/category/klenoty-v-cesko-slovenskom-pohranici/",
+        "ru": "https://www.qrlink.sk/new/ru/category/klenoty-v-cesko-slovenskom-pohranici/",
+        "pl": "https://www.qrlink.sk/new/pl/category/klenoty-v-cesko-slovenskom-pohranici/",
+        "hu": "https://www.qrlink.sk/new/hu/category/klenoty-v-cesko-slovenskom-pohranici/"
       },
-      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/klenoty-v-cesko-slovenskom-pohranici/",
-      "urlAliasy": []
+      "url": "/category/klenoty-v-cesko-slovenskom-pohranici/",
+      "urlAliasy": [
+        "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/klenoty-v-cesko-slovenskom-pohranici/"
+      ]
     },
     {
       "id": "cestovatelsky-dennik",
@@ -823,15 +856,17 @@ const DB = {
       "cover": "",
       "popis": "Putovanie po klenotoch pohraničia.",
       "povodnaUrl": {
-        "sk": "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/",
-        "en": "https://www.qrlink.sk/new/en/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/",
-        "de": "https://www.qrlink.sk/new/de/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/",
-        "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/",
-        "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/",
-        "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/"
+        "sk": "https://www.qrlink.sk/new/category/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/",
+        "en": "https://www.qrlink.sk/new/en/category/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/",
+        "de": "https://www.qrlink.sk/new/de/category/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/",
+        "ru": "https://www.qrlink.sk/new/ru/category/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/",
+        "pl": "https://www.qrlink.sk/new/pl/category/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/",
+        "hu": "https://www.qrlink.sk/new/hu/category/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/"
       },
-      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/",
-      "urlAliasy": []
+      "url": "/category/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/",
+      "urlAliasy": [
+        "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/"
+      ]
     },
     {
       "id": "nch-pohranicie",
@@ -848,15 +883,17 @@ const DB = {
       "cover": "",
       "popis": "Sieť náučných chodníkov v pohraničí.",
       "povodnaUrl": {
-        "sk": "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/",
-        "en": "https://www.qrlink.sk/new/en/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/",
-        "de": "https://www.qrlink.sk/new/de/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/",
-        "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/",
-        "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/",
-        "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/"
+        "sk": "https://www.qrlink.sk/new/category/naucne-chodniky-v-cesko-slovenskom-pohranici/",
+        "en": "https://www.qrlink.sk/new/en/category/naucne-chodniky-v-cesko-slovenskom-pohranici/",
+        "de": "https://www.qrlink.sk/new/de/category/naucne-chodniky-v-cesko-slovenskom-pohranici/",
+        "ru": "https://www.qrlink.sk/new/ru/category/naucne-chodniky-v-cesko-slovenskom-pohranici/",
+        "pl": "https://www.qrlink.sk/new/pl/category/naucne-chodniky-v-cesko-slovenskom-pohranici/",
+        "hu": "https://www.qrlink.sk/new/hu/category/naucne-chodniky-v-cesko-slovenskom-pohranici/"
       },
-      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/",
-      "urlAliasy": []
+      "url": "/category/naucne-chodniky-v-cesko-slovenskom-pohranici/",
+      "urlAliasy": [
+        "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/"
+      ]
     },
     {
       "id": "nch-hlinene",
@@ -872,15 +909,17 @@ const DB = {
       "cover": "",
       "popis": "Náučný chodník v okolí Turzovky.",
       "povodnaUrl": {
-        "sk": "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/",
-        "en": "https://www.qrlink.sk/new/en/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/",
-        "de": "https://www.qrlink.sk/new/de/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/",
-        "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/",
-        "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/",
-        "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/"
+        "sk": "https://www.qrlink.sk/new/category/naucny-chodnik-hlinene/",
+        "en": "https://www.qrlink.sk/new/en/category/naucny-chodnik-hlinene/",
+        "de": "https://www.qrlink.sk/new/de/category/naucny-chodnik-hlinene/",
+        "ru": "https://www.qrlink.sk/new/ru/category/naucny-chodnik-hlinene/",
+        "pl": "https://www.qrlink.sk/new/pl/category/naucny-chodnik-hlinene/",
+        "hu": "https://www.qrlink.sk/new/hu/category/naucny-chodnik-hlinene/"
       },
-      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/",
-      "urlAliasy": []
+      "url": "/category/naucny-chodnik-hlinene/",
+      "urlAliasy": [
+        "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/"
+      ]
     },
     {
       "id": "nch-zivcakova",
@@ -896,15 +935,17 @@ const DB = {
       "cover": "",
       "popis": "Chodník k pútnickému miestu Živčákova.",
       "povodnaUrl": {
-        "sk": "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/",
-        "en": "https://www.qrlink.sk/new/en/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/",
-        "de": "https://www.qrlink.sk/new/de/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/",
-        "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/",
-        "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/",
-        "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/"
+        "sk": "https://www.qrlink.sk/new/category/naucny-chodnik-zivcakova/",
+        "en": "https://www.qrlink.sk/new/en/category/naucny-chodnik-zivcakova/",
+        "de": "https://www.qrlink.sk/new/de/category/naucny-chodnik-zivcakova/",
+        "ru": "https://www.qrlink.sk/new/ru/category/naucny-chodnik-zivcakova/",
+        "pl": "https://www.qrlink.sk/new/pl/category/naucny-chodnik-zivcakova/",
+        "hu": "https://www.qrlink.sk/new/hu/category/naucny-chodnik-zivcakova/"
       },
-      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/",
-      "urlAliasy": []
+      "url": "/category/naucny-chodnik-zivcakova/",
+      "urlAliasy": [
+        "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/"
+      ]
     },
     {
       "id": "gabcikovo",
@@ -921,15 +962,17 @@ const DB = {
       "cover": "",
       "popis": "Vodné dielo na Dunaji – doc. Ing. Július Binder, Dr. h. c.",
       "povodnaUrl": {
-        "sk": "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/",
-        "en": "https://www.qrlink.sk/new/en/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/",
-        "de": "https://www.qrlink.sk/new/de/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/",
-        "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/",
-        "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/",
-        "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/"
+        "sk": "https://www.qrlink.sk/new/category/doc-ing-julius-binder-dr-h-c/",
+        "en": "https://www.qrlink.sk/new/en/category/doc-ing-julius-binder-dr-h-c/",
+        "de": "https://www.qrlink.sk/new/de/category/doc-ing-julius-binder-dr-h-c/",
+        "ru": "https://www.qrlink.sk/new/ru/category/doc-ing-julius-binder-dr-h-c/",
+        "pl": "https://www.qrlink.sk/new/pl/category/doc-ing-julius-binder-dr-h-c/",
+        "hu": "https://www.qrlink.sk/new/hu/category/doc-ing-julius-binder-dr-h-c/"
       },
-      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/",
-      "urlAliasy": []
+      "url": "/category/doc-ing-julius-binder-dr-h-c/",
+      "urlAliasy": [
+        "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/"
+      ]
     },
     {
       "id": "zvonica-hrusove",
@@ -945,15 +988,17 @@ const DB = {
       "cover": "",
       "popis": "Historická zvonica.",
       "povodnaUrl": {
-        "sk": "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/",
-        "en": "https://www.qrlink.sk/new/en/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/",
-        "de": "https://www.qrlink.sk/new/de/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/",
-        "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/",
-        "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/",
-        "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/"
+        "sk": "https://www.qrlink.sk/new/category/zvonica-hrusove/",
+        "en": "https://www.qrlink.sk/new/en/category/zvonica-hrusove/",
+        "de": "https://www.qrlink.sk/new/de/category/zvonica-hrusove/",
+        "ru": "https://www.qrlink.sk/new/ru/category/zvonica-hrusove/",
+        "pl": "https://www.qrlink.sk/new/pl/category/zvonica-hrusove/",
+        "hu": "https://www.qrlink.sk/new/hu/category/zvonica-hrusove/"
       },
-      "url": "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/",
-      "urlAliasy": []
+      "url": "/category/zvonica-hrusove/",
+      "urlAliasy": [
+        "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/"
+      ]
     },
     {
       "id": "zs-a-ms-banova",
@@ -978,7 +1023,9 @@ const DB = {
       },
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/",
       "urlAliasy": [
-        "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/"
+        "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/",
+        "/category/zs-a-ms-banova/",
+        "/category/zs-a-ms/"
       ]
     },
     {
@@ -8985,7 +9032,9 @@ const DB = {
         "hu": "https://www.qrlink.sk/new/hu/kamenna-gula-pred-mestskym-uradom/"
       },
       "url": "/kamenna-gula-pred-mestskym-uradom/",
-      "urlAliasy": []
+      "urlAliasy": [
+        "/turzovka/kamenna-gula-pred-mestskym-uradom-pri-prilezitosti-1-sv-stretnutia-turzovcanov/"
+      ]
     },
     {
       "id": "namestie-juraja-thurzu",

@@ -16,11 +16,14 @@
   "hlavnaKategoria": "Náučné chodníky",
   "korenoveMiesto": "Náučné chodníky v česko-slovenskom pohraničí",
   "povodnaUrl": {
-    "sk": "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/",
-    "en": "https://www.qrlink.sk/new/en/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/",
-    "de": "https://www.qrlink.sk/new/de/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/",
-    "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/",
-    "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/",
-    "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/"
-  }
+    "sk": "https://www.qrlink.sk/new/category/naucne-chodniky-v-cesko-slovenskom-pohranici/",
+    "en": "https://www.qrlink.sk/new/en/category/naucne-chodniky-v-cesko-slovenskom-pohranici/",
+    "de": "https://www.qrlink.sk/new/de/category/naucne-chodniky-v-cesko-slovenskom-pohranici/",
+    "ru": "https://www.qrlink.sk/new/ru/category/naucne-chodniky-v-cesko-slovenskom-pohranici/",
+    "pl": "https://www.qrlink.sk/new/pl/category/naucne-chodniky-v-cesko-slovenskom-pohranici/",
+    "hu": "https://www.qrlink.sk/new/hu/category/naucne-chodniky-v-cesko-slovenskom-pohranici/"
+  },
+  "povodneUrlAliasy": [
+    "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/"
+  ]
 }

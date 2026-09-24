@@ -13,5 +13,8 @@
     "ru": "https://www.qrlink.sk/new/ru/category/turzovka/pamatniky-v-turzovke/",
     "pl": "https://www.qrlink.sk/new/pl/category/turzovka/pamatniky-v-turzovke/",
     "hu": "https://www.qrlink.sk/new/hu/category/turzovka/pamatniky-v-turzovke/"
-  }
+  },
+  "povodneUrlAliasy": [
+    "https://www.qrlink.sk/new/category/pamatniky-v-turzovke/"
+  ]
 }

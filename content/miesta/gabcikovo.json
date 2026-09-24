@@ -16,11 +16,14 @@
   "hlavnaKategoria": "Pamiatky",
   "korenoveMiesto": "Vodné dielo Gabčíkovo / Čunovo",
   "povodnaUrl": {
-    "sk": "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/",
-    "en": "https://www.qrlink.sk/new/en/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/",
-    "de": "https://www.qrlink.sk/new/de/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/",
-    "ru": "https://www.qrlink.sk/new/ru/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/",
-    "pl": "https://www.qrlink.sk/new/pl/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/",
-    "hu": "https://www.qrlink.sk/new/hu/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/"
-  }
+    "sk": "https://www.qrlink.sk/new/category/doc-ing-julius-binder-dr-h-c/",
+    "en": "https://www.qrlink.sk/new/en/category/doc-ing-julius-binder-dr-h-c/",
+    "de": "https://www.qrlink.sk/new/de/category/doc-ing-julius-binder-dr-h-c/",
+    "ru": "https://www.qrlink.sk/new/ru/category/doc-ing-julius-binder-dr-h-c/",
+    "pl": "https://www.qrlink.sk/new/pl/category/doc-ing-julius-binder-dr-h-c/",
+    "hu": "https://www.qrlink.sk/new/hu/category/doc-ing-julius-binder-dr-h-c/"
+  },
+  "povodneUrlAliasy": [
+    "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/"
+  ]
 }
