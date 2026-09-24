@@ -227,11 +227,15 @@ GitHub OAuth App + premenných prostredia vo Vercel pre `/admin` prihlásenie
 
 ## Poznámka k vývoju (spolupráca s Claude)
 
-Claude má na všetku prácu na tomto webe (úpravy kódu aj obsahu, testovanie,
-inštalácia balíčkov, konfigurácia, ladenie chýb, `git commit` a pod.)
-trvalé povolenie konať bez toho, aby sa vopred pýtal – netreba mu nič
-odsúhlasovať vopred. `git commit` je len lokálna zmena v počítači (nikam
-sa tým nič nezverejňuje), takže na ňu netreba pýtať dovolenie.
+**Jediné, na čo sa Claude pýta: či má zmeny pushnúť (GitHub → Vercel).**
+Na nič iné sa nepýta – ani počas práce, ani na konci.
 
-Jediný krok, pred ktorým sa musí vždy spýtať a počkať na potvrdenie, je
-`git push` – tým sa zmena naozaj zverejní na GitHub a nasadí na Vercel.
+Bez pýtania smie a má rovno robiť všetko ostatné: otvárať a čítať
+akékoľvek súbory, upravovať kód aj obsah, sťahovať/porovnávať dáta zo
+starého webu, testovať, inštalovať balíčky, ladiť chyby a robiť
+`git commit` (commit je len lokálna zmena v počítači, nikam sa nič
+nezverejní). Keď má viac možností, vyberie rozumné riešenie sám a na konci
+ho len stručne zhrnie.
+
+Pred `git push` (zverejnenie na GitHub a nasadenie na Vercel, aj na
+`main`) sa musí vždy spýtať a počkať na výslovné potvrdenie – zakaždým.

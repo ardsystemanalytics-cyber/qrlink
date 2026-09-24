@@ -4,6 +4,11 @@ Repo-specific working instructions for Claude Code in this project.
 
 ## Workflow preference
 
+- **The ONLY question ever asked of the user: "Should I push?"** Never ask anything
+  else — not about content, scope, options or next steps. Decide sensibly, do the work,
+  commit locally, and mention decisions in the final summary. (User has repeated this
+  many times — see also README, section "Poznámka k vývoju".)
+
 - Do not ask for approval/confirmation on content or data work (e.g. importing/scraping
   content into `js/data.js`, editing text, restructuring pages) while it's in progress.
   Just proceed end-to-end.
