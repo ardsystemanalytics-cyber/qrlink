@@ -47,6 +47,20 @@ function prettyUrl(record, fallback) {
   return fallback;
 }
 
+// Lokálne médiá (nahrané cez CMS aj tie stiahnuté pri migrácii zo starého
+// webu) sú v content/*.json uložené ako cesta relatívna k webroot-u bez
+// úvodného lomítka (napr. "assets/images/migrated/x.jpg") - to fungovalo,
+// kým stránky bežali len na plochých URL ("/kategoria.html"). Teraz vďaka
+// pekným (ľubovoľne vnoreným) URL sa taká cesta prehliadaču rozbije, lebo
+// ju vyhodnotí relatívne k aktuálnej (vnorenej) URL, nie k webroot-u -
+// preto sa tu vždy normalizuje na "/assets/...". Externé (http/https) URL
+// necháva bez zmeny.
+function abs(p) {
+  if (!p) return p;
+  if (p.startsWith("/") || /^https?:\/\//.test(p)) return p;
+  return "/" + p;
+}
+
 const kategorie = readFolder(path.join(CONTENT, "kategorie"))
   .sort((a, b) => (a.poradie ?? 0) - (b.poradie ?? 0))
   .map(({ poradie, ...k }) => k); // "poradie" je len pomocné pre zoradenie, do data.js sa nedáva
@@ -57,14 +71,17 @@ const miesta = readFolder(path.join(CONTENT, "miesta"))
   // (zoradenie + zoskupovanie v Decap CMS), do data.js sa nedávajú
   .map(({ poradie, hlavnaKategoria, korenoveMiesto, ...m }) => ({
     ...m,
+    cover: abs(m.cover),
+    foto: abs(m.foto),
     url: prettyUrl(m, `/kategoria.html?id=${m.id}`),
   }));
 
 // "audio"/"galeria" sú v Decap CMS "list" polia s jedným pod-poľom ("url"),
 // takže sa v content/*.json vždy ukladajú ako [{url: "..."}, ...] – presne
 // tak, ako to CMS/admin uloží pri ručnom vypĺňaní. app.js ale pri prehrávači
-// aj galérii očakáva rovno pole reťazcov (URL), preto to tu rozbalíme.
-const urlListToStrings = (list) => (list || []).map((it) => (typeof it === "string" ? it : it?.url)).filter(Boolean);
+// aj galérii očakáva rovno pole reťazcov (URL), preto to tu rozbalíme
+// (a rovno aj normalizujeme na "/assets/..." - pozri "abs" vyššie).
+const urlListToStrings = (list) => (list || []).map((it) => abs(typeof it === "string" ? it : it?.url)).filter(Boolean);
 
 const zastavenia = readFolder(path.join(CONTENT, "zastavenia"))
   .sort((a, b) => a.miesto.localeCompare(b.miesto) || (a.poradie ?? 0) - (b.poradie ?? 0))
@@ -74,6 +91,7 @@ const zastavenia = readFolder(path.join(CONTENT, "zastavenia"))
     // – app.js ich nepozná/nepotrebuje.
     const out = {
       ...z,
+      cover: abs(z.cover),
       text: mdToHtml(z.text),
       audio: urlListToStrings(z.audio),
       galeria: urlListToStrings(z.galeria),
@@ -89,7 +107,8 @@ const zastavenia = readFolder(path.join(CONTENT, "zastavenia"))
 
 const kontakt = readJSON(path.join(CONTENT, "kontakt.json"));
 
-const { PLACE_PHOTOS, KAT_ICONS } = readJSON(path.join(ROOT, "scripts/static-data.json"));
+const { PLACE_PHOTOS: RAW_PLACE_PHOTOS, KAT_ICONS } = readJSON(path.join(ROOT, "scripts/static-data.json"));
+const PLACE_PHOTOS = Object.fromEntries(Object.entries(RAW_PLACE_PHOTOS).map(([id, url]) => [id, abs(url)]));
 
 const DB = { kategorie, miesta, zastavenia, kontakt };
 
@@ -116,7 +135,7 @@ fs.writeFileSync(path.join(ROOT, "js/data.js"), output, "utf8");
 console.log(`js/data.js vygenerovaný: ${kategorie.length} kategórií, ${miesta.length} miest, ${zastavenia.length} zastavení.`);
 
 // ---------------------------------------------------------------------
-// Pekné URL (2/2): mapa pre middleware.mjs ("stará cesta bez /new/" ->
+// Pekné URL (2/2): mapa pre middleware.js ("stará cesta bez /new/" ->
 // "skutočná stránka") + sitemap.xml. Generuje sa tu (nie ručným
 // jednorazovým skriptom), aby nikdy nezaostávala za obsahom – zakaždým,
 // keď sa nasadí nová/zmenená stránka z Decap CMS, prebehne aj toto.
@@ -129,7 +148,7 @@ console.log(`js/data.js vygenerovaný: ${kategorie.length} kategórií, ${miesta
 const SITE_ORIGIN = "https://qrlink.sk";
 
 // Kľúč = pekná cesta (bez /new/, bez jazyka) -> hodnota = SKUTOČNÁ interná
-// stránka, ktorú middleware.mjs má vykresliť (nie "record.url" - to je tá
+// stránka, ktorú middleware.js má vykresliť (nie "record.url" - to je tá
 // istá pekná cesta, ktorá by inak ukazovala sama na seba).
 const urlMap = {
   "": "/",

@@ -8,6 +8,27 @@ const QA = (s, el = document) => [...el.querySelectorAll(s)];
 const param = (k) => new URLSearchParams(location.search).get(k);
 const katById = (id) => DB.kategorie.find(k => k.id === id);
 const miestoById = (id) => DB.miesta.find(m => m.id === id);
+
+/* Pri "peknej" URL (napr. /category/betliar/) middleware.js request len
+   PREPÍŠE na "/kategoria.html?id=betliar" - prehliadač (a teda aj
+   location.search, ktoré tu číta "param()") vidí naďalej len pôvodnú
+   viditeľnú adresu bez "?id=". Preto pri takomto prístupe treba správny
+   záznam nájsť naopak: podľa "location.pathname" priamo v DB (rovnaká
+   normalizácia jazykového prefixu ako v middleware.js). Priamy prístup
+   cez "kategoria.html?id=..."/"zastavenie.html?id=..." (napr. z /admin
+   náhľadu) funguje ako doteraz, cez "param('id')". */
+const OLD_LANGS = ["sk", "en", "de", "ru", "pl", "hu"];
+function prettyPathFromLocation() {
+  const segments = location.pathname.split("/").filter(Boolean);
+  if (segments.length && OLD_LANGS.includes(segments[0])) segments.shift();
+  return segments.length ? `/${segments.join("/")}/` : "/";
+}
+function recordByIdOrPath(list, idFieldGetter) {
+  const byId = idFieldGetter(param("id"));
+  if (byId) return byId;
+  const path = prettyPathFromLocation();
+  return list.find(x => x.url === path);
+}
 const DEFAULT_PHOTO = "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80";
 const SITE_ORIGIN = "https://qrlink.sk";
 
@@ -465,7 +486,7 @@ function setupStopCarousel(scopeEl) {
 function renderKategoria() {
   const titleEl = Q("#catTitle");
   if (!titleEl) return;
-  const m = miestoById(param("id"));
+  const m = recordByIdOrPath(DB.miesta, miestoById);
   if (!m) { titleEl.textContent = t("not_found_place"); return; }
 
   updateSEO({ title: `${seoTitle(m)} – QR LINK`, description: seoDescription(m), image: seoImage(m), url: m.url });
@@ -658,7 +679,7 @@ function catFeaturesHTML() {
 function renderZastavenie() {
   const root = Q("#detailRoot");
   if (!root) return;
-  const z = DB.zastavenia.find(x => x.id === param("id"));
+  const z = recordByIdOrPath(DB.zastavenia, (id) => DB.zastavenia.find(x => x.id === id));
   if (!z) { root.innerHTML = `<p>${t("detail_not_found")}</p>`; return; }
 
   const m = miestoById(z.miesto);

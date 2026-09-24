@@ -294,6 +294,15 @@ function getLang() {
     localStorage.setItem(I18N_STORAGE_KEY, fromQuery);
     return fromQuery;
   }
+  // Pri "peknej" URL (napr. /en/castles/hlavne-nadvorie/) middleware.js
+  // prepíše request na "...&lang=en", ale ten cieľový query string vidí
+  // len server, nie prehliadač (window.location zostáva na viditeľnej,
+  // pôvodnej adrese) - jazyk teda treba skúsiť aj ako prvý segment cesty.
+  const firstSegment = location.pathname.split("/").filter(Boolean)[0];
+  if (firstSegment && I18N_LANGS.includes(firstSegment)) {
+    localStorage.setItem(I18N_STORAGE_KEY, firstSegment);
+    return firstSegment;
+  }
   const stored = localStorage.getItem(I18N_STORAGE_KEY);
   if (stored && I18N_LANGS.includes(stored)) return stored;
   return I18N_DEFAULT;

@@ -10,10 +10,10 @@
 
 // Fotky miest bez vlastnej fotky (systémové dáta, spravuje sa mimo CMS)
 const PLACE_PHOTOS = {
-  "bratislava-ivanka": "assets/images/places/bratislava-ivanka.jpg",
-  "betliar": "assets/images/places/betliar.jpg",
-  "euroregion-beskydy": "assets/images/places/euroregion-beskydy.jpg",
-  "frydlant": "assets/images/places/frydlant.jpg",
+  "bratislava-ivanka": "/assets/images/places/bratislava-ivanka.jpg",
+  "betliar": "/assets/images/places/betliar.jpg",
+  "euroregion-beskydy": "/assets/images/places/euroregion-beskydy.jpg",
+  "frydlant": "/assets/images/places/frydlant.jpg",
   "kraj-rusinov": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
   "knm": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&q=80",
   "porabka": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800&q=80",
@@ -24,7 +24,7 @@ const PLACE_PHOTOS = {
   "trebisov": "https://images.unsplash.com/photo-1589553416260-f586c8f1514f?w=800&q=80",
   "turzovka": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
   "vranov": "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=800&q=80",
-  "hrad-strecno": "assets/images/migrated/1-paseka-e1592570206493.jpg",
+  "hrad-strecno": "/assets/images/migrated/1-paseka-e1592570206493.jpg",
   "cierne-klacany": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80",
   "klenoty-pohranicie": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
   "cestovatelsky-dennik": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
@@ -33,9 +33,9 @@ const PLACE_PHOTOS = {
   "nch-zivcakova": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
   "gabcikovo": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
   "zvonica-hrusove": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80",
-  "zs-a-ms-banova": "assets/images/migrated/zs-banova-logo.jpg",
-  "komjatice": "assets/images/migrated/16.jpg",
-  "zemplinske-muzeum": "assets/images/migrated/rotunda.jpg"
+  "zs-a-ms-banova": "/assets/images/migrated/zs-banova-logo.jpg",
+  "komjatice": "/assets/images/migrated/16.jpg",
+  "zemplinske-muzeum": "/assets/images/migrated/rotunda.jpg"
 };
 
 // SVG ikonky kategórií (systémové dáta, spravuje sa mimo CMS)
@@ -135,7 +135,7 @@ const DB = {
       "id": "bludisko",
       "rodic": "zs-a-ms-banova",
       "nazov": "Bludisko",
-      "foto": "assets/images/migrated/zs-banova-bludisko-icon.jpg",
+      "foto": "/assets/images/migrated/zs-banova-bludisko-icon.jpg",
       "popis": "",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
@@ -158,7 +158,7 @@ const DB = {
       "lat": 49.177,
       "mapX": 354,
       "mapY": 120,
-      "cover": "assets/images/migrated/1-paseka-e1592570206493.jpg",
+      "cover": "/assets/images/migrated/1-paseka-e1592570206493.jpg",
       "popis": "Stredoveký hrad nad Váhom – 14 zastavení s audio sprievodcom.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/",
@@ -242,7 +242,7 @@ const DB = {
       "id": "dendrolog-1",
       "rodic": "zs-a-ms-banova",
       "nazov": "Dendrológ 1",
-      "foto": "assets/images/migrated/zs-banova-dendrolog-1-icon.jpg",
+      "foto": "/assets/images/migrated/zs-banova-dendrolog-1-icon.jpg",
       "popis": "",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-1/",
@@ -303,7 +303,7 @@ const DB = {
       "id": "dendrolog-2",
       "rodic": "zs-a-ms-banova",
       "nazov": "Dendrológ 2",
-      "foto": "assets/images/migrated/zs-banova-dendrolog-2-icon.jpg",
+      "foto": "/assets/images/migrated/zs-banova-dendrolog-2-icon.jpg",
       "popis": "",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-2/",
@@ -334,7 +334,7 @@ const DB = {
       "id": "hmyzi-domcek",
       "rodic": "zs-a-ms-banova",
       "nazov": "Hmyzí domček",
-      "foto": "assets/images/migrated/zs-banova-hmyzi-domcek-icon.jpg",
+      "foto": "/assets/images/migrated/zs-banova-hmyzi-domcek-icon.jpg",
       "popis": "",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/hmyzi-domcek/",
@@ -350,7 +350,7 @@ const DB = {
       "id": "pexeso",
       "rodic": "zs-a-ms-banova",
       "nazov": "Pexeso",
-      "foto": "assets/images/migrated/zs-banova-pexeso-icon.jpg",
+      "foto": "/assets/images/migrated/zs-banova-pexeso-icon.jpg",
       "popis": "",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/pexeso/",
@@ -366,7 +366,7 @@ const DB = {
       "id": "vtacia-budka",
       "rodic": "zs-a-ms-banova",
       "nazov": "Vtáčia búdka",
-      "foto": "assets/images/migrated/zs-banova-vtacia-budka-icon.jpg",
+      "foto": "/assets/images/migrated/zs-banova-vtacia-budka-icon.jpg",
       "popis": "",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacia-budka/",
@@ -406,7 +406,7 @@ const DB = {
       "id": "vtacie-krmitko",
       "rodic": "zs-a-ms-banova",
       "nazov": "Vtáčie kŕmitko",
-      "foto": "assets/images/migrated/zs-banova-vtacie-krmitko-icon.jpg",
+      "foto": "/assets/images/migrated/zs-banova-vtacie-krmitko-icon.jpg",
       "popis": "",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/",
@@ -996,12 +996,12 @@ const DB = {
       "poradie": 1,
       "nazov": "Kultúrny dom",
       "popis": "",
-      "cover": "assets/images/migrated/1-kulturny-dom.jpg",
+      "cover": "/assets/images/migrated/1-kulturny-dom.jpg",
       "audio": [
-        "assets/audio/migrated/1-kulturny-dom.mp3"
+        "/assets/audio/migrated/1-kulturny-dom.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/1-kulturny-dom.jpg"
+        "/assets/images/migrated/1-kulturny-dom.jpg"
       ],
       "gps": {
         "lat": 48.70527,
@@ -1025,12 +1025,12 @@ const DB = {
       "poradie": 2,
       "nazov": "Kostol rímskokatolícky sv. Alžbety vdovy",
       "popis": "",
-      "cover": "assets/images/migrated/2-rimskokatolicky-kostol.jpg",
+      "cover": "/assets/images/migrated/2-rimskokatolicky-kostol.jpg",
       "audio": [
-        "assets/audio/migrated/2-kostol-rimskokatolicky-sv-alzbety-vdovy.mp3"
+        "/assets/audio/migrated/2-kostol-rimskokatolicky-sv-alzbety-vdovy.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/2-rimskokatolicky-kostol.jpg"
+        "/assets/images/migrated/2-rimskokatolicky-kostol.jpg"
       ],
       "gps": {
         "lat": 48.704072,
@@ -1054,12 +1054,12 @@ const DB = {
       "poradie": 3,
       "nazov": "Kostol evanjelický augsburského vyznania",
       "popis": "",
-      "cover": "assets/images/migrated/3-evanjelicky-kostol.jpg",
+      "cover": "/assets/images/migrated/3-evanjelicky-kostol.jpg",
       "audio": [
-        "assets/audio/migrated/3-kostol-evanjelicky-augsburskeho-vyznania.mp3"
+        "/assets/audio/migrated/3-kostol-evanjelicky-augsburskeho-vyznania.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/3-evanjelicky-kostol.jpg"
+        "/assets/images/migrated/3-evanjelicky-kostol.jpg"
       ],
       "gps": {
         "lat": 48.703489,
@@ -1083,12 +1083,12 @@ const DB = {
       "poradie": 4,
       "nazov": "Evanjelická fara",
       "popis": "",
-      "cover": "assets/images/migrated/4-evanjelicka-fara.jpg",
+      "cover": "/assets/images/migrated/4-evanjelicka-fara.jpg",
       "audio": [
-        "assets/audio/migrated/4-evanjelicka-fara.mp3"
+        "/assets/audio/migrated/4-evanjelicka-fara.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/4-evanjelicka-fara.jpg"
+        "/assets/images/migrated/4-evanjelicka-fara.jpg"
       ],
       "gps": {
         "lat": 48.703546,
@@ -1112,12 +1112,12 @@ const DB = {
       "poradie": 5,
       "nazov": "Hasičská zbrojnica",
       "popis": "",
-      "cover": "assets/images/migrated/5-hasicska-zbrojnica.jpg",
+      "cover": "/assets/images/migrated/5-hasicska-zbrojnica.jpg",
       "audio": [
-        "assets/audio/migrated/5-hasicska-zbrojnica.mp3"
+        "/assets/audio/migrated/5-hasicska-zbrojnica.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/5-hasicska-zbrojnica.jpg"
+        "/assets/images/migrated/5-hasicska-zbrojnica.jpg"
       ],
       "gps": {
         "lat": 48.70283,
@@ -1141,12 +1141,12 @@ const DB = {
       "poradie": 6,
       "nazov": "Budova správy lesov",
       "popis": "",
-      "cover": "assets/images/migrated/6-budova-spravy-lesov.jpg",
+      "cover": "/assets/images/migrated/6-budova-spravy-lesov.jpg",
       "audio": [
-        "assets/audio/migrated/6-budova-spravy-lesov.mp3"
+        "/assets/audio/migrated/6-budova-spravy-lesov.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/6-budova-spravy-lesov.jpg"
+        "/assets/images/migrated/6-budova-spravy-lesov.jpg"
       ],
       "gps": {
         "lat": 48.702415,
@@ -1170,12 +1170,12 @@ const DB = {
       "poradie": 7,
       "nazov": "Budova obecného úradu",
       "popis": "",
-      "cover": "assets/images/migrated/7-obecny-urad.jpg",
+      "cover": "/assets/images/migrated/7-obecny-urad.jpg",
       "audio": [
-        "assets/audio/migrated/7-budova-obecneho-uradu.mp3"
+        "/assets/audio/migrated/7-budova-obecneho-uradu.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/7-obecny-urad.jpg"
+        "/assets/images/migrated/7-obecny-urad.jpg"
       ],
       "gps": {
         "lat": 48.7025556,
@@ -1199,12 +1199,12 @@ const DB = {
       "poradie": 8,
       "nazov": "Malý park",
       "popis": "",
-      "cover": "assets/images/migrated/8-maly-park.jpg",
+      "cover": "/assets/images/migrated/8-maly-park.jpg",
       "audio": [
-        "assets/audio/migrated/8-maly-park.mp3"
+        "/assets/audio/migrated/8-maly-park.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/8-maly-park.jpg"
+        "/assets/images/migrated/8-maly-park.jpg"
       ],
       "gps": {
         "lat": 48.701483,
@@ -1228,12 +1228,12 @@ const DB = {
       "poradie": 9,
       "nazov": "Socha sv. Jána Nepomuckého",
       "popis": "",
-      "cover": "assets/images/migrated/9-socha.jpg",
+      "cover": "/assets/images/migrated/9-socha.jpg",
       "audio": [
-        "assets/audio/migrated/9-socha-sv-jana-nepomuckeho.mp3"
+        "/assets/audio/migrated/9-socha-sv-jana-nepomuckeho.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/9-socha.jpg"
+        "/assets/images/migrated/9-socha.jpg"
       ],
       "gps": {
         "lat": 48.701857,
@@ -1257,12 +1257,12 @@ const DB = {
       "poradie": 10,
       "nazov": "Rodinný dom na Polomskej ulici",
       "popis": "",
-      "cover": "assets/images/migrated/10-rodinny-dom-na-polomskej-ulici.jpg",
+      "cover": "/assets/images/migrated/10-rodinny-dom-na-polomskej-ulici.jpg",
       "audio": [
-        "assets/audio/migrated/10-rodinny-dom-na-polomskej-ulici.mp3"
+        "/assets/audio/migrated/10-rodinny-dom-na-polomskej-ulici.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/10-rodinny-dom-na-polomskej-ulici.jpg"
+        "/assets/images/migrated/10-rodinny-dom-na-polomskej-ulici.jpg"
       ],
       "gps": {
         "lat": 48.70222,
@@ -1286,12 +1286,12 @@ const DB = {
       "poradie": 11,
       "nazov": "Bytový dom v lokalite „Píla“",
       "popis": "",
-      "cover": "assets/images/migrated/11-bytovy-dom-pila.jpg",
+      "cover": "/assets/images/migrated/11-bytovy-dom-pila.jpg",
       "audio": [
-        "assets/audio/migrated/11-bytovy-dom-v-lokalite-pila.mp3"
+        "/assets/audio/migrated/11-bytovy-dom-v-lokalite-pila.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/11-bytovy-dom-pila.jpg"
+        "/assets/images/migrated/11-bytovy-dom-pila.jpg"
       ],
       "gps": {
         "lat": 48.703401,
@@ -1315,12 +1315,12 @@ const DB = {
       "poradie": 12,
       "nazov": "Budova základnej školy",
       "popis": "",
-      "cover": "assets/images/migrated/12-zakladna-skola.jpg",
+      "cover": "/assets/images/migrated/12-zakladna-skola.jpg",
       "audio": [
-        "assets/audio/migrated/12-budova-zakladnej-skoly.mp3"
+        "/assets/audio/migrated/12-budova-zakladnej-skoly.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/12-zakladna-skola.jpg"
+        "/assets/images/migrated/12-zakladna-skola.jpg"
       ],
       "gps": {
         "lat": 48.700434,
@@ -1344,12 +1344,12 @@ const DB = {
       "poradie": 13,
       "nazov": "Budova železničnej stanice",
       "popis": "",
-      "cover": "assets/images/migrated/13-budova-zel-stanice.jpg",
+      "cover": "/assets/images/migrated/13-budova-zel-stanice.jpg",
       "audio": [
-        "assets/audio/migrated/13-budova-zeleznicnej-stanice.mp3"
+        "/assets/audio/migrated/13-budova-zeleznicnej-stanice.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/13-budova-zel-stanice.jpg"
+        "/assets/images/migrated/13-budova-zel-stanice.jpg"
       ],
       "gps": {
         "lat": 48.699018,
@@ -1373,12 +1373,12 @@ const DB = {
       "poradie": 14,
       "nazov": "Bytové domy na Nižnej Maši",
       "popis": "",
-      "cover": "assets/images/migrated/14-bytove-domy-nizna-masa.jpg",
+      "cover": "/assets/images/migrated/14-bytove-domy-nizna-masa.jpg",
       "audio": [
-        "assets/audio/migrated/14-bytove-domy-na-niznej-masi.mp3"
+        "/assets/audio/migrated/14-bytove-domy-na-niznej-masi.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/14-bytove-domy-nizna-masa.jpg"
+        "/assets/images/migrated/14-bytove-domy-nizna-masa.jpg"
       ],
       "gps": {
         "lat": 48.693316,
@@ -1402,12 +1402,12 @@ const DB = {
       "poradie": 15,
       "nazov": "Dom Aloisa Šébla",
       "popis": "",
-      "cover": "assets/images/migrated/15-dom-alojza-sebla.jpg",
+      "cover": "/assets/images/migrated/15-dom-alojza-sebla.jpg",
       "audio": [
-        "assets/audio/migrated/15-dom-aloisa-sebla.mp3"
+        "/assets/audio/migrated/15-dom-aloisa-sebla.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/15-dom-alojza-sebla.jpg"
+        "/assets/images/migrated/15-dom-alojza-sebla.jpg"
       ],
       "gps": {
         "lat": 48.701199,
@@ -1431,12 +1431,12 @@ const DB = {
       "poradie": 16,
       "nazov": "Rodný dom Júliusa Koššutha",
       "popis": "",
-      "cover": "assets/images/migrated/16-dom-juliusa-kossutha.jpg",
+      "cover": "/assets/images/migrated/16-dom-juliusa-kossutha.jpg",
       "audio": [
-        "assets/audio/migrated/16-rodny-dom-juliusa-kossutha.mp3"
+        "/assets/audio/migrated/16-rodny-dom-juliusa-kossutha.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/16-dom-juliusa-kossutha.jpg"
+        "/assets/images/migrated/16-dom-juliusa-kossutha.jpg"
       ],
       "gps": {
         "lat": 48.702361,
@@ -1460,12 +1460,12 @@ const DB = {
       "poradie": 17,
       "nazov": "Pomník padlým na miestnom cintoríne",
       "popis": "",
-      "cover": "assets/images/migrated/17-pomnik-padlym.jpg",
+      "cover": "/assets/images/migrated/17-pomnik-padlym.jpg",
       "audio": [
-        "assets/audio/migrated/17-pomnik-padlym-na-miestnom-cintorine.mp3"
+        "/assets/audio/migrated/17-pomnik-padlym-na-miestnom-cintorine.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/17-pomnik-padlym.jpg"
+        "/assets/images/migrated/17-pomnik-padlym.jpg"
       ],
       "gps": {
         "lat": 48.701845,
@@ -1489,12 +1489,12 @@ const DB = {
       "poradie": 18,
       "nazov": "Hospodárska budova Kaštieľa Betliar",
       "popis": "",
-      "cover": "assets/images/migrated/18-hodpodarska-budova-kastiela.jpg",
+      "cover": "/assets/images/migrated/18-hodpodarska-budova-kastiela.jpg",
       "audio": [
-        "assets/audio/migrated/18-hospodarska-budova-kastiela-betliar.mp3"
+        "/assets/audio/migrated/18-hospodarska-budova-kastiela-betliar.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/18-hodpodarska-budova-kastiela.jpg"
+        "/assets/images/migrated/18-hodpodarska-budova-kastiela.jpg"
       ],
       "gps": {
         "lat": 48.704795,
@@ -1540,12 +1540,12 @@ const DB = {
       "poradie": 1,
       "nazov": "Anglický park pri kaštieli",
       "popis": "",
-      "cover": "assets/images/migrated/kastiel-min.jpg",
+      "cover": "/assets/images/migrated/kastiel-min.jpg",
       "audio": [
-        "assets/audio/migrated/1-park.mp3"
+        "/assets/audio/migrated/1-park.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/kastiel-min.jpg"
+        "/assets/images/migrated/kastiel-min.jpg"
       ],
       "gps": {
         "lat": 48.704752,
@@ -1569,12 +1569,12 @@ const DB = {
       "poradie": 2,
       "nazov": "Rotunda",
       "popis": "",
-      "cover": "assets/images/migrated/qr-2.jpg",
+      "cover": "/assets/images/migrated/qr-2.jpg",
       "audio": [
-        "assets/audio/migrated/2-rotunda.mp3"
+        "/assets/audio/migrated/2-rotunda.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-2.jpg"
+        "/assets/images/migrated/qr-2.jpg"
       ],
       "gps": {
         "lat": 48.704758,
@@ -1598,12 +1598,12 @@ const DB = {
       "poradie": 3,
       "nazov": "Fontána",
       "popis": "",
-      "cover": "assets/images/migrated/qr-3.jpg",
+      "cover": "/assets/images/migrated/qr-3.jpg",
       "audio": [
-        "assets/audio/migrated/3-fontana.mp3"
+        "/assets/audio/migrated/3-fontana.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-3.jpg"
+        "/assets/images/migrated/qr-3.jpg"
       ],
       "gps": {
         "lat": 48.705933,
@@ -1627,12 +1627,12 @@ const DB = {
       "poradie": 4,
       "nazov": "Kaštieľ",
       "popis": "",
-      "cover": "assets/images/migrated/qr-4.jpg",
+      "cover": "/assets/images/migrated/qr-4.jpg",
       "audio": [
-        "assets/audio/migrated/4-kastiel.mp3"
+        "/assets/audio/migrated/4-kastiel.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-4.jpg"
+        "/assets/images/migrated/qr-4.jpg"
       ],
       "gps": {
         "lat": 48.706329,
@@ -1656,12 +1656,12 @@ const DB = {
       "poradie": 5,
       "nazov": "Hermesova studňa",
       "popis": "",
-      "cover": "assets/images/migrated/qr-5.jpg",
+      "cover": "/assets/images/migrated/qr-5.jpg",
       "audio": [
-        "assets/audio/migrated/5-hermesova-studna.mp3"
+        "/assets/audio/migrated/5-hermesova-studna.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-5.jpg"
+        "/assets/images/migrated/qr-5.jpg"
       ],
       "gps": {
         "lat": 48.707988,
@@ -1685,12 +1685,12 @@ const DB = {
       "poradie": 6,
       "nazov": "Slobodomurársky pavilón",
       "popis": "",
-      "cover": "assets/images/migrated/qr-6.jpg",
+      "cover": "/assets/images/migrated/qr-6.jpg",
       "audio": [
-        "assets/audio/migrated/6-slobodomurarsky-pavilon.mp3"
+        "/assets/audio/migrated/6-slobodomurarsky-pavilon.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-6.jpg"
+        "/assets/images/migrated/qr-6.jpg"
       ],
       "gps": {
         "lat": 48.708569,
@@ -1714,12 +1714,12 @@ const DB = {
       "poradie": 7,
       "nazov": "Veľký Vodopád",
       "popis": "",
-      "cover": "assets/images/migrated/qr-7.jpg",
+      "cover": "/assets/images/migrated/qr-7.jpg",
       "audio": [
-        "assets/audio/migrated/7-velky-vodopad.mp3"
+        "/assets/audio/migrated/7-velky-vodopad.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-7.jpg"
+        "/assets/images/migrated/qr-7.jpg"
       ],
       "gps": {
         "lat": 48.710302,
@@ -1743,12 +1743,12 @@ const DB = {
       "poradie": 8,
       "nazov": "Zavlažovací systém",
       "popis": "",
-      "cover": "assets/images/migrated/qr-8.jpg",
+      "cover": "/assets/images/migrated/qr-8.jpg",
       "audio": [
-        "assets/audio/migrated/8-zavlazovaci-system.mp3"
+        "/assets/audio/migrated/8-zavlazovaci-system.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-8.jpg"
+        "/assets/images/migrated/qr-8.jpg"
       ],
       "gps": {
         "lat": 48.714267,
@@ -1772,12 +1772,12 @@ const DB = {
       "poradie": 9,
       "nazov": "Olympijský oheň",
       "popis": "",
-      "cover": "assets/images/migrated/qr-9.jpg",
+      "cover": "/assets/images/migrated/qr-9.jpg",
       "audio": [
-        "assets/audio/migrated/9-olympijsky-ohen.mp3"
+        "/assets/audio/migrated/9-olympijsky-ohen.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-9.jpg"
+        "/assets/images/migrated/qr-9.jpg"
       ],
       "gps": {
         "lat": 48.70966,
@@ -1801,12 +1801,12 @@ const DB = {
       "poradie": 10,
       "nazov": "Japonský most",
       "popis": "",
-      "cover": "assets/images/migrated/qr-10.jpg",
+      "cover": "/assets/images/migrated/qr-10.jpg",
       "audio": [
-        "assets/audio/migrated/10-japonsky-most.mp3"
+        "/assets/audio/migrated/10-japonsky-most.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-10.jpg"
+        "/assets/images/migrated/qr-10.jpg"
       ],
       "gps": {
         "lat": 48.708112,
@@ -1830,12 +1830,12 @@ const DB = {
       "poradie": 11,
       "nazov": "Čínsky pavilón",
       "popis": "",
-      "cover": "assets/images/migrated/qr-11.jpg",
+      "cover": "/assets/images/migrated/qr-11.jpg",
       "audio": [
-        "assets/audio/migrated/11-cinsky-pavilon.mp3"
+        "/assets/audio/migrated/11-cinsky-pavilon.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-11.jpg"
+        "/assets/images/migrated/qr-11.jpg"
       ],
       "gps": {
         "lat": 48.70729,
@@ -1859,12 +1859,12 @@ const DB = {
       "poradie": 12,
       "nazov": "Parkové plastiky",
       "popis": "",
-      "cover": "assets/images/migrated/qr-12.jpg",
+      "cover": "/assets/images/migrated/qr-12.jpg",
       "audio": [
-        "assets/audio/migrated/12-plastiky.mp3"
+        "/assets/audio/migrated/12-plastiky.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-12.jpg"
+        "/assets/images/migrated/qr-12.jpg"
       ],
       "gps": {
         "lat": 48.705933,
@@ -1888,12 +1888,12 @@ const DB = {
       "poradie": 13,
       "nazov": "Veľký rybník",
       "popis": "",
-      "cover": "assets/images/migrated/qr-13.jpg",
+      "cover": "/assets/images/migrated/qr-13.jpg",
       "audio": [
-        "assets/audio/migrated/13-velky-rybnik.mp3"
+        "/assets/audio/migrated/13-velky-rybnik.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-13.jpg"
+        "/assets/images/migrated/qr-13.jpg"
       ],
       "gps": {
         "lat": 48.715222,
@@ -1917,12 +1917,12 @@ const DB = {
       "poradie": 14,
       "nazov": "Zverinec",
       "popis": "",
-      "cover": "assets/images/migrated/qr-14.jpg",
+      "cover": "/assets/images/migrated/qr-14.jpg",
       "audio": [
-        "assets/audio/migrated/zverinec.mp3"
+        "/assets/audio/migrated/zverinec.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-14.jpg"
+        "/assets/images/migrated/qr-14.jpg"
       ],
       "gps": {
         "lat": 48.716717,
@@ -1946,12 +1946,12 @@ const DB = {
       "poradie": 15,
       "nazov": "Bosniak / Bosnia bar",
       "popis": "",
-      "cover": "assets/images/migrated/qr-15.jpg",
+      "cover": "/assets/images/migrated/qr-15.jpg",
       "audio": [
-        "assets/audio/migrated/15-bosniak-bosnia-bar.mp3"
+        "/assets/audio/migrated/15-bosniak-bosnia-bar.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-15.jpg"
+        "/assets/images/migrated/qr-15.jpg"
       ],
       "gps": {
         "lat": 48.709349,
@@ -1975,12 +1975,12 @@ const DB = {
       "poradie": 1,
       "nazov": "Borovica čierna",
       "popis": "",
-      "cover": "assets/images/migrated/qr-16.jpg",
+      "cover": "/assets/images/migrated/qr-16.jpg",
       "audio": [
-        "assets/audio/migrated/16-borovica-cierna.mp3"
+        "/assets/audio/migrated/16-borovica-cierna.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-16.jpg"
+        "/assets/images/migrated/qr-16.jpg"
       ],
       "gps": {
         "lat": 48.708339,
@@ -2004,12 +2004,12 @@ const DB = {
       "poradie": 2,
       "nazov": "Douglaska tisolistá",
       "popis": "",
-      "cover": "assets/images/migrated/qr-17.jpg",
+      "cover": "/assets/images/migrated/qr-17.jpg",
       "audio": [
-        "assets/audio/migrated/17-douglaska-tisolista.mp3"
+        "/assets/audio/migrated/17-douglaska-tisolista.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-17.jpg"
+        "/assets/images/migrated/qr-17.jpg"
       ],
       "gps": {
         "lat": 48.706683,
@@ -2033,12 +2033,12 @@ const DB = {
       "poradie": 3,
       "nazov": "Tsuga kanadská",
       "popis": "",
-      "cover": "assets/images/migrated/qr-18.jpg",
+      "cover": "/assets/images/migrated/qr-18.jpg",
       "audio": [
-        "assets/audio/migrated/18-tsuga-kanadska.mp3"
+        "/assets/audio/migrated/18-tsuga-kanadska.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-18.jpg"
+        "/assets/images/migrated/qr-18.jpg"
       ],
       "gps": {
         "lat": 48.705616,
@@ -2062,12 +2062,12 @@ const DB = {
       "poradie": 4,
       "nazov": "Platan javorolistý",
       "popis": "",
-      "cover": "assets/images/migrated/qr-19.jpg",
+      "cover": "/assets/images/migrated/qr-19.jpg",
       "audio": [
-        "assets/audio/migrated/19-platan-javorolisty.mp3"
+        "/assets/audio/migrated/19-platan-javorolisty.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-19.jpg"
+        "/assets/images/migrated/qr-19.jpg"
       ],
       "gps": {
         "lat": 48.706692,
@@ -2091,12 +2091,12 @@ const DB = {
       "poradie": 5,
       "nazov": "Višňa pílkatá (sakura)",
       "popis": "",
-      "cover": "assets/images/migrated/qr-20.jpg",
+      "cover": "/assets/images/migrated/qr-20.jpg",
       "audio": [
-        "assets/audio/migrated/20-visna-pilkata-sakura.mp3"
+        "/assets/audio/migrated/20-visna-pilkata-sakura.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-20.jpg"
+        "/assets/images/migrated/qr-20.jpg"
       ],
       "gps": {
         "lat": 48.706692,
@@ -2120,12 +2120,12 @@ const DB = {
       "poradie": 6,
       "nazov": "Dub letný stĺpovitý",
       "popis": "",
-      "cover": "assets/images/migrated/qr-21.jpg",
+      "cover": "/assets/images/migrated/qr-21.jpg",
       "audio": [
-        "assets/audio/migrated/21-dub-letny-stlpovity.mp3"
+        "/assets/audio/migrated/21-dub-letny-stlpovity.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-21.jpg"
+        "/assets/images/migrated/qr-21.jpg"
       ],
       "gps": {
         "lat": 48.71051,
@@ -2149,12 +2149,12 @@ const DB = {
       "poradie": 7,
       "nazov": "Lipa americká",
       "popis": "",
-      "cover": "assets/images/migrated/qr-22.jpg",
+      "cover": "/assets/images/migrated/qr-22.jpg",
       "audio": [
-        "assets/audio/migrated/22-lipa-americka.mp3"
+        "/assets/audio/migrated/22-lipa-americka.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-22.jpg"
+        "/assets/images/migrated/qr-22.jpg"
       ],
       "gps": {
         "lat": 48.709194,
@@ -2178,12 +2178,12 @@ const DB = {
       "poradie": 8,
       "nazov": "Ľaliovník tulipánokvetý",
       "popis": "",
-      "cover": "assets/images/migrated/qr-23.jpg",
+      "cover": "/assets/images/migrated/qr-23.jpg",
       "audio": [
-        "assets/audio/migrated/23-laliovnik-tulipanokvety.mp3"
+        "/assets/audio/migrated/23-laliovnik-tulipanokvety.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-23.jpg"
+        "/assets/images/migrated/qr-23.jpg"
       ],
       "gps": {
         "lat": 48.706038,
@@ -2207,12 +2207,12 @@ const DB = {
       "poradie": 9,
       "nazov": "Ginko dvojlaločné",
       "popis": "",
-      "cover": "assets/images/migrated/qr-24.jpg",
+      "cover": "/assets/images/migrated/qr-24.jpg",
       "audio": [
-        "assets/audio/migrated/24-ginko-dvojlalocne.mp3"
+        "/assets/audio/migrated/24-ginko-dvojlalocne.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-24.jpg"
+        "/assets/images/migrated/qr-24.jpg"
       ],
       "gps": {
         "lat": 48.706533,
@@ -2236,12 +2236,12 @@ const DB = {
       "poradie": 10,
       "nazov": "Smrek (obyčajný) strukovitý",
       "popis": "",
-      "cover": "assets/images/migrated/qr-25.jpg",
+      "cover": "/assets/images/migrated/qr-25.jpg",
       "audio": [
-        "assets/audio/migrated/25-smrek-obycajny-strukovity.mp3"
+        "/assets/audio/migrated/25-smrek-obycajny-strukovity.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-25.jpg"
+        "/assets/images/migrated/qr-25.jpg"
       ],
       "gps": {
         "lat": 48.706446,
@@ -2265,12 +2265,12 @@ const DB = {
       "poradie": 11,
       "nazov": "Smrekovec Dahúrsky",
       "popis": "",
-      "cover": "assets/images/migrated/qr-26.jpg",
+      "cover": "/assets/images/migrated/qr-26.jpg",
       "audio": [
-        "assets/audio/migrated/26-smrekovec-dahursky.mp3"
+        "/assets/audio/migrated/26-smrekovec-dahursky.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-26.jpg"
+        "/assets/images/migrated/qr-26.jpg"
       ],
       "gps": {
         "lat": 48.70669,
@@ -2294,12 +2294,12 @@ const DB = {
       "poradie": 12,
       "nazov": "Javor mliečny",
       "popis": "",
-      "cover": "assets/images/migrated/qr-27-2.jpg",
+      "cover": "/assets/images/migrated/qr-27-2.jpg",
       "audio": [
-        "assets/audio/migrated/27-javor-mliecny.mp3"
+        "/assets/audio/migrated/27-javor-mliecny.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-27-2.jpg"
+        "/assets/images/migrated/qr-27-2.jpg"
       ],
       "gps": {
         "lat": 48.707153,
@@ -2323,12 +2323,12 @@ const DB = {
       "poradie": 13,
       "nazov": "Katalpa trubačovitá",
       "popis": "",
-      "cover": "assets/images/migrated/qr-28-2.jpg",
+      "cover": "/assets/images/migrated/qr-28-2.jpg",
       "audio": [
-        "assets/audio/migrated/28-katalpa-trubacovita.mp3"
+        "/assets/audio/migrated/28-katalpa-trubacovita.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-28-2.jpg"
+        "/assets/images/migrated/qr-28-2.jpg"
       ],
       "gps": {
         "lat": 48.70623,
@@ -2352,12 +2352,12 @@ const DB = {
       "poradie": 14,
       "nazov": "Pagaštan konský",
       "popis": "",
-      "cover": "assets/images/migrated/qr-29-3.jpg",
+      "cover": "/assets/images/migrated/qr-29-3.jpg",
       "audio": [
-        "assets/audio/migrated/29-pagastan-konsky.mp3"
+        "/assets/audio/migrated/29-pagastan-konsky.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-29-3.jpg"
+        "/assets/images/migrated/qr-29-3.jpg"
       ],
       "gps": {
         "lat": 48.706648,
@@ -2381,12 +2381,12 @@ const DB = {
       "poradie": 15,
       "nazov": "Buk červenolistý",
       "popis": "",
-      "cover": "assets/images/migrated/qr-30.jpg",
+      "cover": "/assets/images/migrated/qr-30.jpg",
       "audio": [
-        "assets/audio/migrated/30-buk-cervenolisty.mp3"
+        "/assets/audio/migrated/30-buk-cervenolisty.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-30.jpg"
+        "/assets/images/migrated/qr-30.jpg"
       ],
       "gps": {
         "lat": 48.705419,
@@ -2410,12 +2410,12 @@ const DB = {
       "poradie": 16,
       "nazov": "Zelkova ostrolistá",
       "popis": "",
-      "cover": "assets/images/migrated/qr31.jpg",
+      "cover": "/assets/images/migrated/qr31.jpg",
       "audio": [
-        "assets/audio/migrated/31-zelkova-ostrolista.mp3"
+        "/assets/audio/migrated/31-zelkova-ostrolista.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr31.jpg"
+        "/assets/images/migrated/qr31.jpg"
       ],
       "gps": {
         "lat": 48.705493,
@@ -2439,12 +2439,12 @@ const DB = {
       "poradie": 17,
       "nazov": "Magnólia končistolistá",
       "popis": "",
-      "cover": "assets/images/migrated/qr-32.jpg",
+      "cover": "/assets/images/migrated/qr-32.jpg",
       "audio": [
-        "assets/audio/migrated/32-magnolia-koncistolista.mp3"
+        "/assets/audio/migrated/32-magnolia-koncistolista.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-32.jpg"
+        "/assets/images/migrated/qr-32.jpg"
       ],
       "gps": {
         "lat": 48.706115,
@@ -2468,12 +2468,12 @@ const DB = {
       "poradie": 18,
       "nazov": "Tis obyčajný",
       "popis": "",
-      "cover": "assets/images/migrated/qr-33.jpg",
+      "cover": "/assets/images/migrated/qr-33.jpg",
       "audio": [
-        "assets/audio/migrated/33-tis-obycajny.mp3"
+        "/assets/audio/migrated/33-tis-obycajny.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr-33.jpg"
+        "/assets/images/migrated/qr-33.jpg"
       ],
       "gps": {
         "lat": 48.706519,
@@ -2497,12 +2497,12 @@ const DB = {
       "poradie": 19,
       "nazov": "Borovica vejmutovka",
       "popis": "",
-      "cover": "assets/images/migrated/qr34.jpg",
+      "cover": "/assets/images/migrated/qr34.jpg",
       "audio": [
-        "assets/audio/migrated/34-borovica-vejmutovka.mp3"
+        "/assets/audio/migrated/34-borovica-vejmutovka.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/qr34.jpg"
+        "/assets/images/migrated/qr34.jpg"
       ],
       "gps": {
         "lat": 48.708518,
@@ -2526,12 +2526,12 @@ const DB = {
       "poradie": 20,
       "nazov": "Zvernica",
       "popis": "",
-      "cover": "assets/images/migrated/zvernica-min.jpg",
+      "cover": "/assets/images/migrated/zvernica-min.jpg",
       "audio": [
-        "assets/audio/migrated/zvernica.mp3"
+        "/assets/audio/migrated/zvernica.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zvernica-min.jpg"
+        "/assets/images/migrated/zvernica-min.jpg"
       ],
       "gps": {
         "lat": 48.718658,
@@ -2555,12 +2555,12 @@ const DB = {
       "poradie": 1,
       "nazov": "Veverička",
       "popis": "",
-      "cover": "assets/images/migrated/zs-banova-bludisko-22-min.jpg",
+      "cover": "/assets/images/migrated/zs-banova-bludisko-22-min.jpg",
       "audio": [
-        "assets/audio/migrated/bludisko-vevericka.mp3"
+        "/assets/audio/migrated/bludisko-vevericka.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zs-banova-bludisko-22-min.jpg"
+        "/assets/images/migrated/zs-banova-bludisko-22-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -2581,12 +2581,12 @@ const DB = {
       "poradie": 2,
       "nazov": "Krtko",
       "popis": "",
-      "cover": "assets/images/migrated/zs-banova-bludisko-25-min.jpg",
+      "cover": "/assets/images/migrated/zs-banova-bludisko-25-min.jpg",
       "audio": [
-        "assets/audio/migrated/bludisko-krtko.mp3"
+        "/assets/audio/migrated/bludisko-krtko.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zs-banova-bludisko-25-min.jpg"
+        "/assets/images/migrated/zs-banova-bludisko-25-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -2607,12 +2607,12 @@ const DB = {
       "poradie": 3,
       "nazov": "Mravec",
       "popis": "",
-      "cover": "assets/images/migrated/zs-banova-bludisko-27-min.jpg",
+      "cover": "/assets/images/migrated/zs-banova-bludisko-27-min.jpg",
       "audio": [
-        "assets/audio/migrated/bludisko-mravec.mp3"
+        "/assets/audio/migrated/bludisko-mravec.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zs-banova-bludisko-27-min.jpg"
+        "/assets/images/migrated/zs-banova-bludisko-27-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -2633,12 +2633,12 @@ const DB = {
       "poradie": 4,
       "nazov": "Včielka",
       "popis": "",
-      "cover": "assets/images/migrated/zs-banova-bludisko-24-min.jpg",
+      "cover": "/assets/images/migrated/zs-banova-bludisko-24-min.jpg",
       "audio": [
-        "assets/audio/migrated/bludisko-vcielka.mp3"
+        "/assets/audio/migrated/bludisko-vcielka.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zs-banova-bludisko-24-min.jpg"
+        "/assets/images/migrated/zs-banova-bludisko-24-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -2659,12 +2659,12 @@ const DB = {
       "poradie": 5,
       "nazov": "Slimák",
       "popis": "",
-      "cover": "assets/images/migrated/zs-banova-bludisko-23-min.jpg",
+      "cover": "/assets/images/migrated/zs-banova-bludisko-23-min.jpg",
       "audio": [
-        "assets/audio/migrated/bludisko-slimak.mp3"
+        "/assets/audio/migrated/bludisko-slimak.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zs-banova-bludisko-23-min.jpg"
+        "/assets/images/migrated/zs-banova-bludisko-23-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -2685,12 +2685,12 @@ const DB = {
       "poradie": 6,
       "nazov": "Bobor",
       "popis": "",
-      "cover": "assets/images/migrated/zs-banova-bludisko-26-min.jpg",
+      "cover": "/assets/images/migrated/zs-banova-bludisko-26-min.jpg",
       "audio": [
-        "assets/audio/migrated/bludisko-bobor.mp3"
+        "/assets/audio/migrated/bludisko-bobor.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zs-banova-bludisko-26-min.jpg"
+        "/assets/images/migrated/zs-banova-bludisko-26-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -2711,12 +2711,12 @@ const DB = {
       "poradie": 1,
       "nazov": "Obec Ivanka pri Dunaji",
       "popis": "",
-      "cover": "assets/images/migrated/logo-0021.jpg",
+      "cover": "/assets/images/migrated/logo-0021.jpg",
       "audio": [
-        "assets/audio/migrated/ivanka-sk-1.mp3"
+        "/assets/audio/migrated/ivanka-sk-1.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/logo-0021.jpg"
+        "/assets/images/migrated/logo-0021.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21279.21520777018!2d17.242924121042183!3d48.18924157054997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c851bd13a4ddd%3A0xb49f9fed3bf4cebd!2s900%2028%20Ivanka%20pri%20Dunaji!5e0!3m2!1ssk!2ssk!4v1638974717753!5m2!1ssk!2ssk",
@@ -2737,12 +2737,12 @@ const DB = {
       "poradie": 2,
       "nazov": "Kaštieľ a park v Ivanke pri Dunaji",
       "popis": "",
-      "cover": "assets/images/migrated/2_kastiel.jpg",
+      "cover": "/assets/images/migrated/2_kastiel.jpg",
       "audio": [
-        "assets/audio/migrated/01-kastiel-a-park-v-ivanke-pri-dunaji.mp3"
+        "/assets/audio/migrated/01-kastiel-a-park-v-ivanke-pri-dunaji.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/2_kastiel.jpg"
+        "/assets/images/migrated/2_kastiel.jpg"
       ],
       "gps": {
         "lat": 48.19058822539862,
@@ -2766,12 +2766,12 @@ const DB = {
       "poradie": 3,
       "nazov": "Kostol sv. Jána Krstiteľa",
       "popis": "",
-      "cover": "assets/images/migrated/6_kostol-sv-jana-krstitela.jpg",
+      "cover": "/assets/images/migrated/6_kostol-sv-jana-krstitela.jpg",
       "audio": [
-        "assets/audio/migrated/02-kostol-sv-jana-krstitela.mp3"
+        "/assets/audio/migrated/02-kostol-sv-jana-krstitela.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/6_kostol-sv-jana-krstitela.jpg"
+        "/assets/images/migrated/6_kostol-sv-jana-krstitela.jpg"
       ],
       "gps": {
         "lat": 48.189869401009574,
@@ -2795,12 +2795,12 @@ const DB = {
       "poradie": 4,
       "nazov": "Mohyla M. R. Štefánika",
       "popis": "",
-      "cover": "assets/images/migrated/3_mohyla1.jpg",
+      "cover": "/assets/images/migrated/3_mohyla1.jpg",
       "audio": [
-        "assets/audio/migrated/03-mohila-m-r-stefanika.mp3"
+        "/assets/audio/migrated/03-mohila-m-r-stefanika.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/3_mohyla1.jpg"
+        "/assets/images/migrated/3_mohyla1.jpg"
       ],
       "gps": {
         "lat": 48.172126390056704,
@@ -2824,12 +2824,12 @@ const DB = {
       "poradie": 5,
       "nazov": "Pomník padlým v I. a II. svetovej vojne",
       "popis": "",
-      "cover": "assets/images/migrated/8_-pamatnik-padlym-hrdinom_.jpg",
+      "cover": "/assets/images/migrated/8_-pamatnik-padlym-hrdinom_.jpg",
       "audio": [
-        "assets/audio/migrated/04-pomnik-padlym-i-ii-sv-vojny.mp3"
+        "/assets/audio/migrated/04-pomnik-padlym-i-ii-sv-vojny.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/8_-pamatnik-padlym-hrdinom_.jpg"
+        "/assets/images/migrated/8_-pamatnik-padlym-hrdinom_.jpg"
       ],
       "gps": {
         "lat": 48.19030033923483,
@@ -2853,12 +2853,12 @@ const DB = {
       "poradie": 6,
       "nazov": "Súsošie sv. Jána Nepomuckého",
       "popis": "",
-      "cover": "assets/images/migrated/7_-susosie-sv-jana-nepomuckeho.jpg",
+      "cover": "/assets/images/migrated/7_-susosie-sv-jana-nepomuckeho.jpg",
       "audio": [
-        "assets/audio/migrated/05-susosie-sv-jana-nepomuckeho.mp3"
+        "/assets/audio/migrated/05-susosie-sv-jana-nepomuckeho.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/7_-susosie-sv-jana-nepomuckeho.jpg"
+        "/assets/images/migrated/7_-susosie-sv-jana-nepomuckeho.jpg"
       ],
       "gps": {
         "lat": 48.18921672833922,
@@ -2882,12 +2882,12 @@ const DB = {
       "poradie": 7,
       "nazov": "Kaplnka sv. Rozálie",
       "popis": "",
-      "cover": "assets/images/migrated/5_kaplnka-sv-rozalie_11.jpg",
+      "cover": "/assets/images/migrated/5_kaplnka-sv-rozalie_11.jpg",
       "audio": [
-        "assets/audio/migrated/06-kaplnka-sv-rozalie.mp3"
+        "/assets/audio/migrated/06-kaplnka-sv-rozalie.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/5_kaplnka-sv-rozalie_11.jpg"
+        "/assets/images/migrated/5_kaplnka-sv-rozalie_11.jpg"
       ],
       "gps": {
         "lat": 48.18895029245457,
@@ -2911,12 +2911,12 @@ const DB = {
       "poradie": 8,
       "nazov": "Pútač výstavby šúrskeho kanála",
       "popis": "",
-      "cover": "assets/images/migrated/cccc_optimized.jpg",
+      "cover": "/assets/images/migrated/cccc_optimized.jpg",
       "audio": [
-        "assets/audio/migrated/07-sursky-kanal-2.mp3"
+        "/assets/audio/migrated/07-sursky-kanal-2.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/cccc_optimized.jpg"
+        "/assets/images/migrated/cccc_optimized.jpg"
       ],
       "gps": {
         "lat": 48.180995231122786,
@@ -2940,10 +2940,10 @@ const DB = {
       "poradie": 1,
       "nazov": "Mestské múzeum Karola Točíka",
       "popis": "",
-      "cover": "assets/images/migrated/muzeum-karola-tocika-2.jpg",
+      "cover": "/assets/images/migrated/muzeum-karola-tocika-2.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/muzeum-karola-tocika-2.jpg"
+        "/assets/images/migrated/muzeum-karola-tocika-2.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -2964,10 +2964,10 @@ const DB = {
       "poradie": 2,
       "nazov": "Historická knižnica Bibliotheca antiqua Taganiana",
       "popis": "",
-      "cover": "assets/images/migrated/kniz.jpg",
+      "cover": "/assets/images/migrated/kniz.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/kniz.jpg"
+        "/assets/images/migrated/kniz.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -2988,10 +2988,10 @@ const DB = {
       "poradie": 3,
       "nazov": "Vyhliadková veža s oddychovou zónou na vrchu Bukovina.",
       "popis": "",
-      "cover": "assets/images/migrated/3-2.jpg",
+      "cover": "/assets/images/migrated/3-2.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/3-2.jpg"
+        "/assets/images/migrated/3-2.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3012,10 +3012,10 @@ const DB = {
       "poradie": 4,
       "nazov": "Náučný chodník Vrchlinenským kopcom",
       "popis": "",
-      "cover": "assets/images/migrated/400412770_326151270144609_2430754977789051967_n.jpg",
+      "cover": "/assets/images/migrated/400412770_326151270144609_2430754977789051967_n.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/400412770_326151270144609_2430754977789051967_n.jpg"
+        "/assets/images/migrated/400412770_326151270144609_2430754977789051967_n.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3036,10 +3036,10 @@ const DB = {
       "poradie": 5,
       "nazov": "Korňanský ropný prameň",
       "popis": "",
-      "cover": "assets/images/migrated/pramen.jpg",
+      "cover": "/assets/images/migrated/pramen.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/pramen.jpg"
+        "/assets/images/migrated/pramen.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3060,10 +3060,10 @@ const DB = {
       "poradie": 6,
       "nazov": "Kostol Nanebovzatia Panny Márie v Turzovke",
       "popis": "",
-      "cover": "assets/images/migrated/kostol-nanebovzatia-panny-marie-v-tuzovke.jpg",
+      "cover": "/assets/images/migrated/kostol-nanebovzatia-panny-marie-v-tuzovke.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/kostol-nanebovzatia-panny-marie-v-tuzovke.jpg"
+        "/assets/images/migrated/kostol-nanebovzatia-panny-marie-v-tuzovke.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3084,10 +3084,10 @@ const DB = {
       "poradie": 7,
       "nazov": "Rodný dom Jozefa Kronera",
       "popis": "",
-      "cover": "assets/images/migrated/rodny-dom-jozefa-kronera.jpg",
+      "cover": "/assets/images/migrated/rodny-dom-jozefa-kronera.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/rodny-dom-jozefa-kronera.jpg"
+        "/assets/images/migrated/rodny-dom-jozefa-kronera.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3108,10 +3108,10 @@ const DB = {
       "poradie": 8,
       "nazov": "Veľká Rača – (1236 m n. m.)",
       "popis": "",
-      "cover": "assets/images/migrated/dsc02296-2.jpg",
+      "cover": "/assets/images/migrated/dsc02296-2.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/dsc02296-2.jpg"
+        "/assets/images/migrated/dsc02296-2.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3132,10 +3132,10 @@ const DB = {
       "poradie": 9,
       "nazov": "Pútnické miesto Živčáková",
       "popis": "",
-      "cover": "assets/images/migrated/marianske-putnicke-miesto-zivcakova.jpg",
+      "cover": "/assets/images/migrated/marianske-putnicke-miesto-zivcakova.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/marianske-putnicke-miesto-zivcakova.jpg"
+        "/assets/images/migrated/marianske-putnicke-miesto-zivcakova.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3156,10 +3156,10 @@ const DB = {
       "poradie": 10,
       "nazov": "Lysá hora ",
       "popis": "",
-      "cover": "assets/images/migrated/img_5946.jpg",
+      "cover": "/assets/images/migrated/img_5946.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/img_5946.jpg"
+        "/assets/images/migrated/img_5946.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3180,10 +3180,10 @@ const DB = {
       "poradie": 11,
       "nazov": "Zámok v Paskove",
       "popis": "",
-      "cover": "assets/images/migrated/img_1288.jpg",
+      "cover": "/assets/images/migrated/img_1288.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/img_1288.jpg"
+        "/assets/images/migrated/img_1288.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3204,10 +3204,10 @@ const DB = {
       "poradie": 12,
       "nazov": "Zámocký park",
       "popis": "",
-      "cover": "assets/images/migrated/paskov4.jpg",
+      "cover": "/assets/images/migrated/paskov4.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/paskov4.jpg"
+        "/assets/images/migrated/paskov4.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3228,10 +3228,10 @@ const DB = {
       "poradie": 13,
       "nazov": "Rozhľadňa Okrouhlá",
       "popis": "",
-      "cover": "assets/images/migrated/staric_rozhledna_okruhla_2.jpg",
+      "cover": "/assets/images/migrated/staric_rozhledna_okruhla_2.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/staric_rozhledna_okruhla_2.jpg"
+        "/assets/images/migrated/staric_rozhledna_okruhla_2.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3252,10 +3252,10 @@ const DB = {
       "poradie": 14,
       "nazov": "Hrad Hukvaldy s odborom",
       "popis": "",
-      "cover": "assets/images/migrated/hrad-hukvaldy.jpg",
+      "cover": "/assets/images/migrated/hrad-hukvaldy.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/hrad-hukvaldy.jpg"
+        "/assets/images/migrated/hrad-hukvaldy.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3298,10 +3298,10 @@ const DB = {
       "poradie": 16,
       "nazov": "Bazilika Minor – pútnický chrám Navštívenie Panny Márie",
       "popis": "",
-      "cover": "assets/images/migrated/img_4094.jpg",
+      "cover": "/assets/images/migrated/img_4094.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/img_4094.jpg"
+        "/assets/images/migrated/img_4094.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3322,10 +3322,10 @@ const DB = {
       "poradie": 17,
       "nazov": "Múzeum Beskýd Frýdek-Místek (Frýdecký zámok)",
       "popis": "",
-      "cover": "assets/images/migrated/img_4028.jpg",
+      "cover": "/assets/images/migrated/img_4028.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/img_4028.jpg"
+        "/assets/images/migrated/img_4028.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3346,10 +3346,10 @@ const DB = {
       "poradie": 18,
       "nazov": "Pustevny",
       "popis": "",
-      "cover": "assets/images/migrated/img_6938.jpg",
+      "cover": "/assets/images/migrated/img_6938.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/img_6938.jpg"
+        "/assets/images/migrated/img_6938.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3370,10 +3370,10 @@ const DB = {
       "poradie": 19,
       "nazov": "Javorníky – dominanta Horných Kysúc",
       "popis": "",
-      "cover": "assets/images/migrated/javorniky-vyhlad.jpg",
+      "cover": "/assets/images/migrated/javorniky-vyhlad.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/javorniky-vyhlad.jpg"
+        "/assets/images/migrated/javorniky-vyhlad.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3394,10 +3394,10 @@ const DB = {
       "poradie": 20,
       "nazov": "Múzeum kysuckej dediny",
       "popis": "",
-      "cover": "assets/images/migrated/vychylovka-2.jpg",
+      "cover": "/assets/images/migrated/vychylovka-2.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/vychylovka-2.jpg"
+        "/assets/images/migrated/vychylovka-2.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3420,17 +3420,17 @@ const DB = {
       "popis": "",
       "cover": "",
       "audio": [
-        "assets/audio/migrated/pyxida.mp3"
+        "/assets/audio/migrated/pyxida.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/2025-10-09_12h27_42.jpg",
-        "assets/images/migrated/2025-09-25_11h43_44.jpg",
-        "assets/images/migrated/foto-030znew.jpg",
-        "assets/images/migrated/kolnik_fotoz-min.jpg",
-        "assets/images/migrated/foto-054-min.jpg",
-        "assets/images/migrated/image0011-min.jpg",
-        "assets/images/migrated/foto-036_1993-min.jpg",
-        "assets/images/migrated/2025-09-25_11h40_55-min.jpg"
+        "/assets/images/migrated/2025-10-09_12h27_42.jpg",
+        "/assets/images/migrated/2025-09-25_11h43_44.jpg",
+        "/assets/images/migrated/foto-030znew.jpg",
+        "/assets/images/migrated/kolnik_fotoz-min.jpg",
+        "/assets/images/migrated/foto-054-min.jpg",
+        "/assets/images/migrated/image0011-min.jpg",
+        "/assets/images/migrated/foto-036_1993-min.jpg",
+        "/assets/images/migrated/2025-09-25_11h40_55-min.jpg"
       ],
       "gps": {
         "lat": 48.343092,
@@ -3454,12 +3454,12 @@ const DB = {
       "poradie": 1,
       "nazov": "1. Javor Mliečny",
       "popis": "",
-      "cover": "assets/images/migrated/javor-mliecny-min.jpg",
+      "cover": "/assets/images/migrated/javor-mliecny-min.jpg",
       "audio": [
-        "assets/audio/migrated/pexeso-javor-mliecny-2.mp3"
+        "/assets/audio/migrated/pexeso-javor-mliecny-2.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/javor-mliecny-min.jpg"
+        "/assets/images/migrated/javor-mliecny-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3480,12 +3480,12 @@ const DB = {
       "poradie": 2,
       "nazov": "2. Gaštan Jedlý",
       "popis": "",
-      "cover": "assets/images/migrated/gastan-jedly-min.jpg",
+      "cover": "/assets/images/migrated/gastan-jedly-min.jpg",
       "audio": [
-        "assets/audio/migrated/pexeso-gastan-jedly.mp3"
+        "/assets/audio/migrated/pexeso-gastan-jedly.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/gastan-jedly-min.jpg"
+        "/assets/images/migrated/gastan-jedly-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3506,12 +3506,12 @@ const DB = {
       "poradie": 3,
       "nazov": "3. Orech Kráľovský",
       "popis": "",
-      "cover": "assets/images/migrated/orech-kralovsky-min.jpg",
+      "cover": "/assets/images/migrated/orech-kralovsky-min.jpg",
       "audio": [
-        "assets/audio/migrated/pexeso-orech-kralovsky.mp3"
+        "/assets/audio/migrated/pexeso-orech-kralovsky.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/orech-kralovsky-min.jpg"
+        "/assets/images/migrated/orech-kralovsky-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3532,12 +3532,12 @@ const DB = {
       "poradie": 4,
       "nazov": "4. Čerešňa Vtáčia",
       "popis": "",
-      "cover": "assets/images/migrated/ceresna-vtacia-min.jpg",
+      "cover": "/assets/images/migrated/ceresna-vtacia-min.jpg",
       "audio": [
-        "assets/audio/migrated/pexeso-ceresna-vtacia.mp3"
+        "/assets/audio/migrated/pexeso-ceresna-vtacia.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/ceresna-vtacia-min.jpg"
+        "/assets/images/migrated/ceresna-vtacia-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3558,12 +3558,12 @@ const DB = {
       "poradie": 5,
       "nazov": "5. Jabloň Domáca",
       "popis": "",
-      "cover": "assets/images/migrated/jablon-min.jpg",
+      "cover": "/assets/images/migrated/jablon-min.jpg",
       "audio": [
-        "assets/audio/migrated/pexeso-jablon-domaca.mp3"
+        "/assets/audio/migrated/pexeso-jablon-domaca.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/jablon-min.jpg"
+        "/assets/images/migrated/jablon-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3584,12 +3584,12 @@ const DB = {
       "poradie": 6,
       "nazov": "6. Slivka Trnková",
       "popis": "",
-      "cover": "assets/images/migrated/slivka-trnkova-min.jpg",
+      "cover": "/assets/images/migrated/slivka-trnkova-min.jpg",
       "audio": [
-        "assets/audio/migrated/pexeso-slivka-trnkova.mp3"
+        "/assets/audio/migrated/pexeso-slivka-trnkova.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/slivka-trnkova-min.jpg"
+        "/assets/images/migrated/slivka-trnkova-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3610,12 +3610,12 @@ const DB = {
       "poradie": 7,
       "nazov": "7. Buk Lesný",
       "popis": "",
-      "cover": "assets/images/migrated/buk-lesny-min.jpg",
+      "cover": "/assets/images/migrated/buk-lesny-min.jpg",
       "audio": [
-        "assets/audio/migrated/pexeso-buk-lesny.mp3"
+        "/assets/audio/migrated/pexeso-buk-lesny.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/buk-lesny-min.jpg"
+        "/assets/images/migrated/buk-lesny-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3636,12 +3636,12 @@ const DB = {
       "poradie": 8,
       "nazov": "8. Breza Previsnutá",
       "popis": "",
-      "cover": "assets/images/migrated/breza-previsnuta-min.jpg",
+      "cover": "/assets/images/migrated/breza-previsnuta-min.jpg",
       "audio": [
-        "assets/audio/migrated/pexeso-breza-previsnuta.mp3"
+        "/assets/audio/migrated/pexeso-breza-previsnuta.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/breza-previsnuta-min.jpg"
+        "/assets/images/migrated/breza-previsnuta-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3662,12 +3662,12 @@ const DB = {
       "poradie": 1,
       "nazov": "Pesnička „Kohútik jarabý“",
       "popis": "",
-      "cover": "assets/images/migrated/zs-banova-dendrofon-01-min.jpg",
+      "cover": "/assets/images/migrated/zs-banova-dendrofon-01-min.jpg",
       "audio": [
-        "assets/audio/migrated/kohutik-jaraby.mp3"
+        "/assets/audio/migrated/kohutik-jaraby.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zs-banova-dendrofon-01-min.jpg"
+        "/assets/images/migrated/zs-banova-dendrofon-01-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3688,12 +3688,12 @@ const DB = {
       "poradie": 2,
       "nazov": "Pesnička „Óda na radosť“",
       "popis": "",
-      "cover": "assets/images/migrated/zs-banova-dendrofon-02-min.jpg",
+      "cover": "/assets/images/migrated/zs-banova-dendrofon-02-min.jpg",
       "audio": [
-        "assets/audio/migrated/oda-na-radost.mp3"
+        "/assets/audio/migrated/oda-na-radost.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zs-banova-dendrofon-02-min.jpg"
+        "/assets/images/migrated/zs-banova-dendrofon-02-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3714,12 +3714,12 @@ const DB = {
       "poradie": 3,
       "nazov": "Tvrdosť dreva",
       "popis": "",
-      "cover": "assets/images/migrated/dendrolog-min.jpg",
+      "cover": "/assets/images/migrated/dendrolog-min.jpg",
       "audio": [
-        "assets/audio/migrated/text-to-speech_frank_tvrdost-dreva-_2025-07-16.mp3"
+        "/assets/audio/migrated/text-to-speech_frank_tvrdost-dreva-_2025-07-16.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/dendrolog-min.jpg"
+        "/assets/images/migrated/dendrolog-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3740,13 +3740,13 @@ const DB = {
       "poradie": 4,
       "nazov": "Stupnica",
       "popis": "",
-      "cover": "assets/images/migrated/dendrofon-min.jpg",
+      "cover": "/assets/images/migrated/dendrofon-min.jpg",
       "audio": [
-        "assets/audio/migrated/c_major.mp3"
+        "/assets/audio/migrated/c_major.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/dendrofon-min.jpg",
-        "assets/images/migrated/2025-07-16_09h11_35.png"
+        "/assets/images/migrated/dendrofon-min.jpg",
+        "/assets/images/migrated/2025-07-16_09h11_35.png"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -3767,12 +3767,12 @@ const DB = {
       "poradie": 1,
       "nazov": "Oravský hrad",
       "popis": "",
-      "cover": "assets/images/migrated/16-oravsky-hrad.jpg",
+      "cover": "/assets/images/migrated/16-oravsky-hrad.jpg",
       "audio": [
-        "assets/audio/migrated/16-oravsky-hrad.mp3"
+        "/assets/audio/migrated/16-oravsky-hrad.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/16-oravsky-hrad.jpg"
+        "/assets/images/migrated/16-oravsky-hrad.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.7531270722616!2d19.35674441562891!3d49.26212497932919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x34a8f73c010c6d1b!2zNDnCsDE1JzQzLjciTiAxOcKwMjEnMzIuMiJF!5e0!3m2!1ssk!2ssk!4v1669998518237!5m2!1ssk!2ssk",
@@ -3793,12 +3793,12 @@ const DB = {
       "poradie": 2,
       "nazov": "Babia hora",
       "popis": "",
-      "cover": "assets/images/migrated/17-babia-hora.jpg",
+      "cover": "/assets/images/migrated/17-babia-hora.jpg",
       "audio": [
-        "assets/audio/migrated/17-babia-hora.mp3"
+        "/assets/audio/migrated/17-babia-hora.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/17-babia-hora.jpg"
+        "/assets/images/migrated/17-babia-hora.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2587.3110200983883!2d19.527141915640318!3d49.57302187936395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbec06f7e38d3cd78!2zNDnCsDM0JzIyLjkiTiAxOcKwMzEnNDUuNiJF!5e0!3m2!1ssk!2ssk!4v1669998634342!5m2!1ssk!2ssk",
@@ -3819,12 +3819,12 @@ const DB = {
       "poradie": 3,
       "nazov": "Slovenský Severný pól, Oravská Polhora",
       "popis": "",
-      "cover": "assets/images/migrated/slovensky_severny_pol.jpg",
+      "cover": "/assets/images/migrated/slovensky_severny_pol.jpg",
       "audio": [
-        "assets/audio/migrated/02-slovensky-severny-pol-oravska-polhora.mp3"
+        "/assets/audio/migrated/02-slovensky-severny-pol-oravska-polhora.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/slovensky_severny_pol.jpg"
+        "/assets/images/migrated/slovensky_severny_pol.jpg"
       ],
       "gps": {
         "lat": 49.6138882113942,
@@ -3848,12 +3848,12 @@ const DB = {
       "poradie": 4,
       "nazov": "Slanický ostrov umenia",
       "popis": "",
-      "cover": "assets/images/migrated/19-slanicky-ostrov-umenia.jpg",
+      "cover": "/assets/images/migrated/19-slanicky-ostrov-umenia.jpg",
       "audio": [
-        "assets/audio/migrated/19-slanicky-ostrov-umenia-na-oravskej-priehrade.mp3"
+        "/assets/audio/migrated/19-slanicky-ostrov-umenia-na-oravskej-priehrade.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/19-slanicky-ostrov-umenia.jpg"
+        "/assets/images/migrated/19-slanicky-ostrov-umenia.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2596.089856705175!2d19.514748215634217!3d49.407206379345084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc8899d1238dd7506!2zNDnCsDI0JzI1LjkiTiAxOcKwMzEnMDEuMCJF!5e0!3m2!1ssk!2ssk!4v1669998930517!5m2!1ssk!2ssk",
@@ -3874,12 +3874,12 @@ const DB = {
       "poradie": 5,
       "nazov": "Rímsko-katolícky kostol sv. Michala archanjela – Veličná",
       "popis": "",
-      "cover": "assets/images/migrated/20-velicna-rim-kat-kostol-sv-michala-archanjela.jpg",
+      "cover": "/assets/images/migrated/20-velicna-rim-kat-kostol-sv-michala-archanjela.jpg",
       "audio": [
-        "assets/audio/migrated/20-velicna-rimsko-katolicky-kostol-sv-michala-archanjela.mp3"
+        "/assets/audio/migrated/20-velicna-rimsko-katolicky-kostol-sv-michala-archanjela.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/20-velicna-rim-kat-kostol-sv-michala-archanjela.jpg"
+        "/assets/images/migrated/20-velicna-rim-kat-kostol-sv-michala-archanjela.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2606.720349880515!2d19.241142915626877!3d49.20586437932307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x747fd1364c8d3d40!2zNDnCsDEyJzIxLjEiTiAxOcKwMTQnMzYuMCJF!5e0!3m2!1ssk!2ssk!4v1669999145589!5m2!1ssk!2ssk",
@@ -3900,12 +3900,12 @@ const DB = {
       "poradie": 6,
       "nazov": "Klin",
       "popis": "",
-      "cover": "assets/images/migrated/21-klin.jpg",
+      "cover": "/assets/images/migrated/21-klin.jpg",
       "audio": [
-        "assets/audio/migrated/21-klin.mp3"
+        "/assets/audio/migrated/21-klin.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/21-klin.jpg"
+        "/assets/images/migrated/21-klin.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29354.307444167625!2d19.465751366638496!3d49.43577385322474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715cf20f98ddf15%3A0xdd6ed98aa67936fb!2zU29jaGEgSmXFvmnFoWEgS3Jpc3Rh!5e0!3m2!1ssk!2ssk!4v1669999319183!5m2!1ssk!2ssk",
@@ -3926,12 +3926,12 @@ const DB = {
       "poradie": 7,
       "nazov": "Stála expozícia ľudového rezbárstva",
       "popis": "",
-      "cover": "assets/images/migrated/22-stala-expozicia-ludoveho-rezbarstva.jpg",
+      "cover": "/assets/images/migrated/22-stala-expozicia-ludoveho-rezbarstva.jpg",
       "audio": [
-        "assets/audio/migrated/22-stala-expozicia-ludoveho-rezbarstva.mp3"
+        "/assets/audio/migrated/22-stala-expozicia-ludoveho-rezbarstva.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/22-stala-expozicia-ludoveho-rezbarstva.jpg"
+        "/assets/images/migrated/22-stala-expozicia-ludoveho-rezbarstva.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2600.0875425227605!2d19.37880671563142!3d49.33156137933669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd2ce8f6eb16f04b0!2zNDnCsDE5JzUzLjYiTiAxOcKwMjInNTEuNiJF!5e0!3m2!1ssk!2ssk!4v1669999522047!5m2!1ssk!2ssk",
@@ -3952,12 +3952,12 @@ const DB = {
       "poradie": 8,
       "nazov": "Bobrovská kalvária",
       "popis": "",
-      "cover": "assets/images/migrated/18-bobrovska-kalvaria.jpg",
+      "cover": "/assets/images/migrated/18-bobrovska-kalvaria.jpg",
       "audio": [
-        "assets/audio/migrated/18-bobrovska-kalvaria.mp3"
+        "/assets/audio/migrated/18-bobrovska-kalvaria.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/18-bobrovska-kalvaria.jpg"
+        "/assets/images/migrated/18-bobrovska-kalvaria.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2595.1992647005786!2d19.54717301563486!3d49.42404667934694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8152eaf3721792f!2zNDnCsDI1JzI2LjYiTiAxOcKwMzInNTcuNyJF!5e0!3m2!1ssk!2ssk!4v1669999671050!5m2!1ssk!2ssk",
@@ -3978,12 +3978,12 @@ const DB = {
       "poradie": 9,
       "nazov": "Hrad Strečno",
       "popis": "",
-      "cover": "assets/images/migrated/07-hrad-strecno.jpg",
+      "cover": "/assets/images/migrated/07-hrad-strecno.jpg",
       "audio": [
-        "assets/audio/migrated/07-hrad-strecno.mp3"
+        "/assets/audio/migrated/07-hrad-strecno.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/07-hrad-strecno.jpg"
+        "/assets/images/migrated/07-hrad-strecno.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2608.371257471408!2d18.859973015625634!3d49.17454137931978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd67d3ca33c4a9cd0!2zNDnCsDEwJzI4LjQiTiAxOMKwNTEnNDMuOCJF!5e0!3m2!1ssk!2ssk!4v1669999746033!5m2!1ssk!2ssk",
@@ -4004,12 +4004,12 @@ const DB = {
       "poradie": 10,
       "nazov": "Plte na Váhu",
       "popis": "",
-      "cover": "assets/images/migrated/08-plte-na-vahu.jpg",
+      "cover": "/assets/images/migrated/08-plte-na-vahu.jpg",
       "audio": [
-        "assets/audio/migrated/08-plte-na-orave-a-vahu.mp3"
+        "/assets/audio/migrated/08-plte-na-orave-a-vahu.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/08-plte-na-vahu.jpg"
+        "/assets/images/migrated/08-plte-na-vahu.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2607.9645033650504!2d18.860359315625924!3d49.18226017932051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47145765ef4b5da9%3A0x7f8ddbb619c1dc1!2sPlte%20na%20V%C3%A1hu!5e0!3m2!1ssk!2ssk!4v1669999836498!5m2!1ssk!2ssk",
@@ -4030,12 +4030,12 @@ const DB = {
       "poradie": 11,
       "nazov": "Hrad Lietava",
       "popis": "",
-      "cover": "assets/images/migrated/06-hrad-lietava.jpg",
+      "cover": "/assets/images/migrated/06-hrad-lietava.jpg",
       "audio": [
-        "assets/audio/migrated/06-hrad-lietava.mp3"
+        "/assets/audio/migrated/06-hrad-lietava.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/06-hrad-lietava.jpg"
+        "/assets/images/migrated/06-hrad-lietava.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2609.098409789481!2d18.68284661562514!3d49.160740279318254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x753960f16cb85276!2zNDnCsDA5JzM4LjciTiAxOMKwNDEnMDYuMSJF!5e0!3m2!1ssk!2ssk!4v1669999921336!5m2!1ssk!2ssk",
@@ -4056,12 +4056,12 @@ const DB = {
       "poradie": 12,
       "nazov": "Múzeum Juraja Jánošíka",
       "popis": "",
-      "cover": "assets/images/migrated/09-muzeum-juraja-janosika.jpg",
+      "cover": "/assets/images/migrated/09-muzeum-juraja-janosika.jpg",
       "audio": [
-        "assets/audio/migrated/09-muzeum-juraja-janosika.mp3"
+        "/assets/audio/migrated/09-muzeum-juraja-janosika.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/09-muzeum-juraja-janosika.jpg"
+        "/assets/images/migrated/09-muzeum-juraja-janosika.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.996588256588!2d19.027763815628678!3d49.25751057932853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5d2fbe1bb44d902f!2zNDnCsDE1JzI3LjAiTiAxOcKwMDEnNDcuOCJF!5e0!3m2!1ssk!2ssk!4v1669999984748!5m2!1ssk!2ssk",
@@ -4082,12 +4082,12 @@ const DB = {
       "poradie": 13,
       "nazov": "Jánošíkové diery",
       "popis": "",
-      "cover": "assets/images/migrated/10-janosikove-diery.jpg",
+      "cover": "/assets/images/migrated/10-janosikove-diery.jpg",
       "audio": [
-        "assets/audio/migrated/10-janosikove-diery.mp3"
+        "/assets/audio/migrated/10-janosikove-diery.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/10-janosikove-diery.jpg"
+        "/assets/images/migrated/10-janosikove-diery.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2604.374588629687!2d19.07106211562841!3d49.25034557932786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x635b6fac453705a4!2zNDnCsDE1JzAxLjIiTiAxOcKwMDQnMjMuNyJF!5e0!3m2!1ssk!2ssk!4v1673718427616!5m2!1ssk!2ssk",
@@ -4108,12 +4108,12 @@ const DB = {
       "poradie": 14,
       "nazov": "Súľovský hrad",
       "popis": "",
-      "cover": "assets/images/migrated/05-sulovsky-hrad.jpg",
+      "cover": "/assets/images/migrated/05-sulovsky-hrad.jpg",
       "audio": [
-        "assets/audio/migrated/05-sulovsky-hrad.mp3"
+        "/assets/audio/migrated/05-sulovsky-hrad.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/05-sulovsky-hrad.jpg"
+        "/assets/images/migrated/05-sulovsky-hrad.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4783.777667273124!2d18.57905918803144!3d49.174502187227404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe9f96e36f7422be0!2zNDnCsDEwJzI4LjkiTiAxOMKwMzUnMDAuNiJF!5e0!3m2!1ssk!2ssk!4v1673719216891!5m2!1ssk!2ssk",
@@ -4134,13 +4134,13 @@ const DB = {
       "poradie": 15,
       "nazov": "Historická lesná úvraťová železnica, Múzeum Kysuckej dediny",
       "popis": "",
-      "cover": "assets/images/migrated/14-historicka-uvratova-zeleznica.jpg",
+      "cover": "/assets/images/migrated/14-historicka-uvratova-zeleznica.jpg",
       "audio": [
-        "assets/audio/migrated/14-historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny-1.mp3"
+        "/assets/audio/migrated/14-historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny-1.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/14-historicka-uvratova-zeleznica.jpg",
-        "assets/images/migrated/15-muzeum-kysuckej-dediny.jpg"
+        "/assets/images/migrated/14-historicka-uvratova-zeleznica.jpg",
+        "/assets/images/migrated/15-muzeum-kysuckej-dediny.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2597.388960379223!2d19.093981615633314!3d49.38263387934232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a01aab07ba1a8d2!2zNDnCsDIyJzU3LjUiTiAxOcKwMDUnNDYuMiJF!5e0!3m2!1ssk!2ssk!4v1673719549886!5m2!1ssk!2ssk",
@@ -4161,12 +4161,12 @@ const DB = {
       "poradie": 16,
       "nazov": "Trojmedzie",
       "popis": "",
-      "cover": "assets/images/migrated/12-trojmedzie.jpg",
+      "cover": "/assets/images/migrated/12-trojmedzie.jpg",
       "audio": [
-        "assets/audio/migrated/12-trojmedzie.mp3"
+        "/assets/audio/migrated/12-trojmedzie.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/12-trojmedzie.jpg"
+        "/assets/images/migrated/12-trojmedzie.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2590.2942358713362!2d18.848682715638308!3d49.516720579357475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1d22e40fd3ccadb5!2zNDnCsDMxJzAwLjIiTiAxOMKwNTEnMDMuMSJF!5e0!3m2!1ssk!2ssk!4v1673720034203!5m2!1ssk!2ssk",
@@ -4187,12 +4187,12 @@ const DB = {
       "poradie": 17,
       "nazov": "Mariánske pútnické miesto Živčáková",
       "popis": "",
-      "cover": "assets/images/migrated/11-marianske-putnicke-miesto-zivcakova.jpg",
+      "cover": "/assets/images/migrated/11-marianske-putnicke-miesto-zivcakova.jpg",
       "audio": [
-        "assets/audio/migrated/11-marianske-putnicke-miesto-zivcakova.mp3"
+        "/assets/audio/migrated/11-marianske-putnicke-miesto-zivcakova.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/11-marianske-putnicke-miesto-zivcakova.jpg"
+        "/assets/images/migrated/11-marianske-putnicke-miesto-zivcakova.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2596.6236929345378!2d18.56830211563385!3d49.39710997934393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8092b800ac138241!2zNDnCsDIzJzQ5LjYiTiAxOMKwMzQnMTMuOCJF!5e0!3m2!1ssk!2ssk!4v1673720163611!5m2!1ssk!2ssk",
@@ -4213,12 +4213,12 @@ const DB = {
       "poradie": 18,
       "nazov": "Kamenné gule na Kysuciach",
       "popis": "",
-      "cover": "assets/images/migrated/13-kamenne-gule-v-megonkach.jpg",
+      "cover": "/assets/images/migrated/13-kamenne-gule-v-megonkach.jpg",
       "audio": [
-        "assets/audio/migrated/13-kamenne-gule-na-kysuciach.mp3"
+        "/assets/audio/migrated/13-kamenne-gule-na-kysuciach.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/13-kamenne-gule-v-megonkach.jpg"
+        "/assets/images/migrated/13-kamenne-gule-v-megonkach.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2591.347144961259!2d18.72031601563756!3d49.49683807935525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x46f390f487682b10!2zNDnCsDI5JzQ4LjYiTiAxOMKwNDMnMjEuMCJF!5e0!3m2!1ssk!2ssk!4v1673720415142!5m2!1ssk!2ssk",
@@ -4239,13 +4239,13 @@ const DB = {
       "poradie": 19,
       "nazov": "Tri Kríže na Stratenci a kríž na veľkom Javorníku",
       "popis": "",
-      "cover": "assets/images/migrated/01-kriz-na-velkom-javorniku.jpg",
+      "cover": "/assets/images/migrated/01-kriz-na-velkom-javorniku.jpg",
       "audio": [
-        "assets/audio/migrated/01-tri-krize-na-stratenci-a-kriz-na-velkom-javorniku.mp3"
+        "/assets/audio/migrated/01-tri-krize-na-stratenci-a-kriz-na-velkom-javorniku.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/01-kriz-na-velkom-javorniku.jpg",
-        "assets/images/migrated/02-tri-krize-na-stratenci.jpg"
+        "/assets/images/migrated/01-kriz-na-velkom-javorniku.jpg",
+        "/assets/images/migrated/02-tri-krize-na-stratenci.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2600.9587581586443!2d18.332809915630804!3d49.31506467933492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc11c98ee5119d30d!2zNDnCsDE4JzU0LjIiTiAxOMKwMjAnMDYuMCJF!5e0!3m2!1ssk!2ssk!4v1673720689668!5m2!1ssk!2ssk",
@@ -4266,12 +4266,12 @@ const DB = {
       "poradie": 20,
       "nazov": "Unikátny drevený betlehem v Rajeckej Lesnej",
       "popis": "",
-      "cover": "assets/images/migrated/03-slovensky-betlehem.jpg",
+      "cover": "/assets/images/migrated/03-slovensky-betlehem.jpg",
       "audio": [
-        "assets/audio/migrated/03-unikatny-dreveny-betlehem-v-rajeckej-lesnej.mp3"
+        "/assets/audio/migrated/03-unikatny-dreveny-betlehem-v-rajeckej-lesnej.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/03-slovensky-betlehem.jpg"
+        "/assets/images/migrated/03-slovensky-betlehem.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2615.247400937453!2d18.632648515620854!3d49.04391937930607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8fcc4cbd4e4d10b5!2zNDnCsDAyJzM4LjEiTiAxOMKwMzgnMDUuNCJF!5e0!3m2!1ssk!2ssk!4v1673721119689!5m2!1ssk!2ssk",
@@ -4292,12 +4292,12 @@ const DB = {
       "poradie": 21,
       "nazov": "Gejzír v Rajeckej Lesnej",
       "popis": "",
-      "cover": "assets/images/migrated/04-gejzir-v-rajeckej-lesnej.jpg",
+      "cover": "/assets/images/migrated/04-gejzir-v-rajeckej-lesnej.jpg",
       "audio": [
-        "assets/audio/migrated/04-gejzir-v-rajeckej-lesnej.mp3"
+        "/assets/audio/migrated/04-gejzir-v-rajeckej-lesnej.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/04-gejzir-v-rajeckej-lesnej.jpg"
+        "/assets/images/migrated/04-gejzir-v-rajeckej-lesnej.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2616.495899583545!2d18.68767321561994!3d49.02017467930354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbc88f8aa4300dc94!2zNDnCsDAxJzEyLjYiTiAxOMKwNDEnMjMuNSJF!5e0!3m2!1ssk!2ssk!4v1673721236255!5m2!1ssk!2ssk",
@@ -4318,12 +4318,12 @@ const DB = {
       "poradie": 1,
       "nazov": "Mestský úrad Frýdlant nad Ostravicí",
       "popis": "",
-      "cover": "assets/images/migrated/01-mestsky-urad-na-namesti.jpg",
+      "cover": "/assets/images/migrated/01-mestsky-urad-na-namesti.jpg",
       "audio": [
-        "assets/audio/migrated/1-building-of-the-municipality-office-frydlant-nad-ostravici.mp3"
+        "/assets/audio/migrated/1-building-of-the-municipality-office-frydlant-nad-ostravici.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/01-mestsky-urad-na-namesti.jpg"
+        "/assets/images/migrated/01-mestsky-urad-na-namesti.jpg"
       ],
       "gps": {
         "lat": 49.592778,
@@ -4347,12 +4347,12 @@ const DB = {
       "poradie": 2,
       "nazov": "Kostol sv. Bartolomeja",
       "popis": "",
-      "cover": "assets/images/migrated/02-kostel-sv-bartolomeje-1.jpg",
+      "cover": "/assets/images/migrated/02-kostel-sv-bartolomeje-1.jpg",
       "audio": [
-        "assets/audio/migrated/2-church-of-st-bartolomej-2.mp3"
+        "/assets/audio/migrated/2-church-of-st-bartolomej-2.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/02-kostel-sv-bartolomeje-1.jpg"
+        "/assets/images/migrated/02-kostel-sv-bartolomeje-1.jpg"
       ],
       "gps": {
         "lat": 49.593281,
@@ -4376,12 +4376,12 @@ const DB = {
       "poradie": 3,
       "nazov": "Centrum sociálnych služieb",
       "popis": "",
-      "cover": "assets/images/migrated/03-stredisko-socialnich-sluzeb-kaple.jpg",
+      "cover": "/assets/images/migrated/03-stredisko-socialnich-sluzeb-kaple.jpg",
       "audio": [
-        "assets/audio/migrated/3-social-service-centrum-4.mp3"
+        "/assets/audio/migrated/3-social-service-centrum-4.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/03-stredisko-socialnich-sluzeb-kaple.jpg"
+        "/assets/images/migrated/03-stredisko-socialnich-sluzeb-kaple.jpg"
       ],
       "gps": {
         "lat": 49.594454,
@@ -4405,12 +4405,12 @@ const DB = {
       "poradie": 4,
       "nazov": "Kultúrne centrum Frýdlant nad Ostravicí",
       "popis": "",
-      "cover": "assets/images/migrated/04-kulturni-centrum-frydlant-nad-ostravici.jpg",
+      "cover": "/assets/images/migrated/04-kulturni-centrum-frydlant-nad-ostravici.jpg",
       "audio": [
-        "assets/audio/migrated/4-culture-centrum-of-frydlant-nad-ostravici-4.mp3"
+        "/assets/audio/migrated/4-culture-centrum-of-frydlant-nad-ostravici-4.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/04-kulturni-centrum-frydlant-nad-ostravici.jpg"
+        "/assets/images/migrated/04-kulturni-centrum-frydlant-nad-ostravici.jpg"
       ],
       "gps": {
         "lat": 49.592142,
@@ -4434,12 +4434,12 @@ const DB = {
       "poradie": 5,
       "nazov": "Základná škola Frýdlant nad Ostravicí, Námestie T. G. Masaryka 1260, príspevková organizácia",
       "popis": "",
-      "cover": "assets/images/migrated/05-zakladni-skola-t-g-masaryka.jpg",
+      "cover": "/assets/images/migrated/05-zakladni-skola-t-g-masaryka.jpg",
       "audio": [
-        "assets/audio/migrated/5-elementary-school-frydlant-nad-ostravici-4.mp3"
+        "/assets/audio/migrated/5-elementary-school-frydlant-nad-ostravici-4.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/05-zakladni-skola-t-g-masaryka.jpg"
+        "/assets/images/migrated/05-zakladni-skola-t-g-masaryka.jpg"
       ],
       "gps": {
         "lat": 49.593006,
@@ -4463,12 +4463,12 @@ const DB = {
       "poradie": 6,
       "nazov": "Základná škola Frýdlant nad Ostravicí, Komenského 420, príspevková organizácia",
       "popis": "",
-      "cover": "assets/images/migrated/6-2.jpg",
+      "cover": "/assets/images/migrated/6-2.jpg",
       "audio": [
-        "assets/audio/migrated/6-elementary-school-frydlant-nad-ostravici.mp3"
+        "/assets/audio/migrated/6-elementary-school-frydlant-nad-ostravici.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/6-2.jpg"
+        "/assets/images/migrated/6-2.jpg"
       ],
       "gps": {
         "lat": 49.592179,
@@ -4492,12 +4492,12 @@ const DB = {
       "poradie": 7,
       "nazov": "Letisko Frýdlant nad Ostravicí",
       "popis": "",
-      "cover": "assets/images/migrated/07-letiste-frydlant-nad-ostravici.jpg",
+      "cover": "/assets/images/migrated/07-letiste-frydlant-nad-ostravici.jpg",
       "audio": [
-        "assets/audio/migrated/7-airport-frydlant-nad-ostravici.mp3"
+        "/assets/audio/migrated/7-airport-frydlant-nad-ostravici.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/07-letiste-frydlant-nad-ostravici.jpg"
+        "/assets/images/migrated/07-letiste-frydlant-nad-ostravici.jpg"
       ],
       "gps": {
         "lat": 49.589172,
@@ -4521,12 +4521,12 @@ const DB = {
       "poradie": 8,
       "nazov": "Futbalové ihrisko a hala Sport Frýdlant nad Ostravicí",
       "popis": "",
-      "cover": "assets/images/migrated/08-fotbalove-hriste-a-hala-sport.jpg",
+      "cover": "/assets/images/migrated/08-fotbalove-hriste-a-hala-sport.jpg",
       "audio": [
-        "assets/audio/migrated/8-football-playground-and-sport-hall-in-frydlant-nad-ostravici.mp3"
+        "/assets/audio/migrated/8-football-playground-and-sport-hall-in-frydlant-nad-ostravici.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/08-fotbalove-hriste-a-hala-sport.jpg"
+        "/assets/images/migrated/08-fotbalove-hriste-a-hala-sport.jpg"
       ],
       "gps": {
         "lat": 49.585279,
@@ -4550,12 +4550,12 @@ const DB = {
       "poradie": 9,
       "nazov": "Kúpalisko a tenisové kurty Edimex",
       "popis": "",
-      "cover": "assets/images/migrated/09-koupaliste.jpg",
+      "cover": "/assets/images/migrated/09-koupaliste.jpg",
       "audio": [
-        "assets/audio/migrated/9-swimming-pool-and-tennis-courts-edimex.mp3"
+        "/assets/audio/migrated/9-swimming-pool-and-tennis-courts-edimex.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/09-koupaliste.jpg"
+        "/assets/images/migrated/09-koupaliste.jpg"
       ],
       "gps": {
         "lat": 49.581054,
@@ -4579,12 +4579,12 @@ const DB = {
       "poradie": 10,
       "nazov": "Športové a relaxačné centrum Kotelna",
       "popis": "",
-      "cover": "assets/images/migrated/10-sportovni-a-relaxacni-centrum-kotelna.jpg",
+      "cover": "/assets/images/migrated/10-sportovni-a-relaxacni-centrum-kotelna.jpg",
       "audio": [
-        "assets/audio/migrated/10-sport-and-relax-centre-kotelna.mp3"
+        "/assets/audio/migrated/10-sport-and-relax-centre-kotelna.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/10-sportovni-a-relaxacni-centrum-kotelna.jpg"
+        "/assets/images/migrated/10-sportovni-a-relaxacni-centrum-kotelna.jpg"
       ],
       "gps": {
         "lat": 49.590088,
@@ -4608,12 +4608,12 @@ const DB = {
       "poradie": 11,
       "nazov": "Kaplnka sv. Antonína Paduánskeho, Ondřejník",
       "popis": "",
-      "cover": "assets/images/migrated/11-kaple-sv-antonina-paduanskeho-ondrejnik.jpg",
+      "cover": "/assets/images/migrated/11-kaple-sv-antonina-paduanskeho-ondrejnik.jpg",
       "audio": [
-        "assets/audio/migrated/11-chapel-of-st-antonin-paduansky-ondrejnik.mp3"
+        "/assets/audio/migrated/11-chapel-of-st-antonin-paduansky-ondrejnik.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/11-kaple-sv-antonina-paduanskeho-ondrejnik.jpg"
+        "/assets/images/migrated/11-kaple-sv-antonina-paduanskeho-ondrejnik.jpg"
       ],
       "gps": {
         "lat": 49.580831,
@@ -4637,12 +4637,12 @@ const DB = {
       "poradie": 12,
       "nazov": "Vlaková stanica Frýdlant nad Ostravicí",
       "popis": "",
-      "cover": "assets/images/migrated/12-vlakove-nadrazi-frydlant-nad-ostravici.jpg",
+      "cover": "/assets/images/migrated/12-vlakove-nadrazi-frydlant-nad-ostravici.jpg",
       "audio": [
-        "assets/audio/migrated/12-train-station-frydlant-nad-ostravici-4.mp3"
+        "/assets/audio/migrated/12-train-station-frydlant-nad-ostravici-4.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/12-vlakove-nadrazi-frydlant-nad-ostravici.jpg"
+        "/assets/images/migrated/12-vlakove-nadrazi-frydlant-nad-ostravici.jpg"
       ],
       "gps": {
         "lat": 49.589223,
@@ -4666,10 +4666,10 @@ const DB = {
       "poradie": 1,
       "nazov": "Doc. Ing. Július Binder, Dr.h.c.",
       "popis": "",
-      "cover": "assets/images/migrated/julius_binder1.jpg",
+      "cover": "/assets/images/migrated/julius_binder1.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/julius_binder1.jpg"
+        "/assets/images/migrated/julius_binder1.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -4734,12 +4734,12 @@ const DB = {
       "poradie": 1,
       "nazov": "Včela samotárka",
       "popis": "",
-      "cover": "assets/images/migrated/zs-banova-hmyzi-domcek-09-min.jpg",
+      "cover": "/assets/images/migrated/zs-banova-hmyzi-domcek-09-min.jpg",
       "audio": [
-        "assets/audio/migrated/text-to-speech_frank_vcela-samotarka-_2025-07-16.mp3"
+        "/assets/audio/migrated/text-to-speech_frank_vcela-samotarka-_2025-07-16.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zs-banova-hmyzi-domcek-09-min.jpg"
+        "/assets/images/migrated/zs-banova-hmyzi-domcek-09-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -4760,12 +4760,12 @@ const DB = {
       "poradie": 2,
       "nazov": "Čmeľ",
       "popis": "",
-      "cover": "assets/images/migrated/zs-banova-hmyzi-domcek-08-min.jpg",
+      "cover": "/assets/images/migrated/zs-banova-hmyzi-domcek-08-min.jpg",
       "audio": [
-        "assets/audio/migrated/text-to-speech_frank_cmel-latinsky-b-_2025-07-16.mp3"
+        "/assets/audio/migrated/text-to-speech_frank_cmel-latinsky-b-_2025-07-16.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zs-banova-hmyzi-domcek-08-min.jpg"
+        "/assets/images/migrated/zs-banova-hmyzi-domcek-08-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -4786,12 +4786,12 @@ const DB = {
       "poradie": 3,
       "nazov": "Zlatoočka obyčajná",
       "popis": "",
-      "cover": "assets/images/migrated/zs-banova-hmyzi-domcek-10-min.jpg",
+      "cover": "/assets/images/migrated/zs-banova-hmyzi-domcek-10-min.jpg",
       "audio": [
-        "assets/audio/migrated/text-to-speech_frank_zlatoocka-obycaj-_2025-07-16.mp3"
+        "/assets/audio/migrated/text-to-speech_frank_zlatoocka-obycaj-_2025-07-16.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zs-banova-hmyzi-domcek-10-min.jpg"
+        "/assets/images/migrated/zs-banova-hmyzi-domcek-10-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -4812,12 +4812,12 @@ const DB = {
       "poradie": 4,
       "nazov": "Lienka sedembodková",
       "popis": "",
-      "cover": "assets/images/migrated/zs-banova-hmyzi-domcek-07-min.jpg",
+      "cover": "/assets/images/migrated/zs-banova-hmyzi-domcek-07-min.jpg",
       "audio": [
-        "assets/audio/migrated/text-to-speech_frank_lienka-sedembodko-_2025-07-16.mp3"
+        "/assets/audio/migrated/text-to-speech_frank_lienka-sedembodko-_2025-07-16.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zs-banova-hmyzi-domcek-07-min.jpg"
+        "/assets/images/migrated/zs-banova-hmyzi-domcek-07-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -4838,12 +4838,12 @@ const DB = {
       "poradie": 1,
       "nazov": "Cestička na hrad",
       "popis": "",
-      "cover": "assets/images/migrated/1-paseka-e1592570206493.jpg",
+      "cover": "/assets/images/migrated/1-paseka-e1592570206493.jpg",
       "audio": [
-        "assets/audio/migrated/1-1.mp3"
+        "/assets/audio/migrated/1-1.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/1-paseka-e1592570206493.jpg"
+        "/assets/images/migrated/1-paseka-e1592570206493.jpg"
       ],
       "gps": {
         "lat": 49.177151,
@@ -4867,12 +4867,12 @@ const DB = {
       "poradie": 2,
       "nazov": "Vstup na hrad",
       "popis": "",
-      "cover": "assets/images/migrated/img_20200624_153200.jpg",
+      "cover": "/assets/images/migrated/img_20200624_153200.jpg",
       "audio": [
-        "assets/audio/migrated/2_final.mp3"
+        "/assets/audio/migrated/2_final.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/img_20200624_153200.jpg"
+        "/assets/images/migrated/img_20200624_153200.jpg"
       ],
       "gps": {
         "lat": 49.174201,
@@ -4896,16 +4896,16 @@ const DB = {
       "poradie": 3,
       "nazov": "Expozícia archeológie",
       "popis": "",
-      "cover": "assets/images/migrated/img_20200701_150652.jpg",
+      "cover": "/assets/images/migrated/img_20200701_150652.jpg",
       "audio": [
-        "assets/audio/migrated/3-2.mp3",
-        "assets/audio/migrated/3d-1.mp3",
-        "assets/audio/migrated/3e-3.mp3"
+        "/assets/audio/migrated/3-2.mp3",
+        "/assets/audio/migrated/3d-1.mp3",
+        "/assets/audio/migrated/3e-3.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/img_20200701_150652.jpg",
-        "assets/images/migrated/img_20200701_150645.jpg",
-        "assets/images/migrated/strecno-mapka_3.jpg"
+        "/assets/images/migrated/img_20200701_150652.jpg",
+        "/assets/images/migrated/img_20200701_150645.jpg",
+        "/assets/images/migrated/strecno-mapka_3.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -4926,13 +4926,13 @@ const DB = {
       "poradie": 4,
       "nazov": "Prvé podlažie Južného paláca",
       "popis": "",
-      "cover": "assets/images/migrated/4-model-hradu-17-storocie.jpg",
+      "cover": "/assets/images/migrated/4-model-hradu-17-storocie.jpg",
       "audio": [
-        "assets/audio/migrated/4-1.mp3"
+        "/assets/audio/migrated/4-1.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/4-model-hradu-17-storocie.jpg",
-        "assets/images/migrated/4a-model-hradu-20-storocie.jpg"
+        "/assets/images/migrated/4-model-hradu-17-storocie.jpg",
+        "/assets/images/migrated/4a-model-hradu-20-storocie.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -4953,12 +4953,12 @@ const DB = {
       "poradie": 5,
       "nazov": "Prízemie južného paláca – kuchyňa",
       "popis": "",
-      "cover": "assets/images/migrated/5-kuchyna.jpg",
+      "cover": "/assets/images/migrated/5-kuchyna.jpg",
       "audio": [
-        "assets/audio/migrated/5-1.mp3"
+        "/assets/audio/migrated/5-1.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/5-kuchyna.jpg"
+        "/assets/images/migrated/5-kuchyna.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -4979,12 +4979,12 @@ const DB = {
       "poradie": 6,
       "nazov": "Južné nádvorie",
       "popis": "",
-      "cover": "assets/images/migrated/6-juzne-nadvorie.jpg",
+      "cover": "/assets/images/migrated/6-juzne-nadvorie.jpg",
       "audio": [
-        "assets/audio/migrated/6-1.mp3"
+        "/assets/audio/migrated/6-1.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/6-juzne-nadvorie.jpg"
+        "/assets/images/migrated/6-juzne-nadvorie.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5005,12 +5005,12 @@ const DB = {
       "poradie": 7,
       "nazov": "Cisterna",
       "popis": "",
-      "cover": "assets/images/migrated/7-cisterna-1.jpg",
+      "cover": "/assets/images/migrated/7-cisterna-1.jpg",
       "audio": [
-        "assets/audio/migrated/7-1.mp3"
+        "/assets/audio/migrated/7-1.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/7-cisterna-1.jpg"
+        "/assets/images/migrated/7-cisterna-1.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5031,13 +5031,13 @@ const DB = {
       "poradie": 8,
       "nazov": "Vstup do hlavnej veže",
       "popis": "",
-      "cover": "assets/images/migrated/img_20200703_125543.jpg",
+      "cover": "/assets/images/migrated/img_20200703_125543.jpg",
       "audio": [
-        "assets/audio/migrated/8.mp3"
+        "/assets/audio/migrated/8.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/img_20200703_125543.jpg",
-        "assets/images/migrated/8-vstup-do-veze1.jpg"
+        "/assets/images/migrated/img_20200703_125543.jpg",
+        "/assets/images/migrated/8-vstup-do-veze1.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5058,14 +5058,14 @@ const DB = {
       "poradie": 9,
       "nazov": "Hlavná veža – výhľad",
       "popis": "",
-      "cover": "assets/images/migrated/9-hl-veza.jpg",
+      "cover": "/assets/images/migrated/9-hl-veza.jpg",
       "audio": [
-        "assets/audio/migrated/9-1.mp3",
-        "assets/audio/migrated/9a-1.mp3"
+        "/assets/audio/migrated/9-1.mp3",
+        "/assets/audio/migrated/9a-1.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/9-hl-veza.jpg",
-        "assets/images/migrated/img_20200624_150338.jpg"
+        "/assets/images/migrated/9-hl-veza.jpg",
+        "/assets/images/migrated/img_20200624_150338.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5086,12 +5086,12 @@ const DB = {
       "poradie": 10,
       "nazov": "Gotický a východný palác",
       "popis": "",
-      "cover": "assets/images/migrated/10-vychodny-palac-e1593775595595.jpg",
+      "cover": "/assets/images/migrated/10-vychodny-palac-e1593775595595.jpg",
       "audio": [
-        "assets/audio/migrated/10.mp3"
+        "/assets/audio/migrated/10.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/10-vychodny-palac-e1593775595595.jpg"
+        "/assets/images/migrated/10-vychodny-palac-e1593775595595.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5112,12 +5112,12 @@ const DB = {
       "poradie": 11,
       "nazov": "Severný palác",
       "popis": "",
-      "cover": "assets/images/migrated/11-severny-palac.jpg",
+      "cover": "/assets/images/migrated/11-severny-palac.jpg",
       "audio": [
-        "assets/audio/migrated/11.mp3"
+        "/assets/audio/migrated/11.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/11-severny-palac.jpg"
+        "/assets/images/migrated/11-severny-palac.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5138,15 +5138,15 @@ const DB = {
       "poradie": 12,
       "nazov": "Kaplnka",
       "popis": "",
-      "cover": "assets/images/migrated/12-kaplnka.jpg",
+      "cover": "/assets/images/migrated/12-kaplnka.jpg",
       "audio": [
-        "assets/audio/migrated/12.mp3",
-        "assets/audio/migrated/12a.mp3",
-        "assets/audio/migrated/12b.mp3"
+        "/assets/audio/migrated/12.mp3",
+        "/assets/audio/migrated/12a.mp3",
+        "/assets/audio/migrated/12b.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/12-kaplnka.jpg",
-        "assets/images/migrated/12a-zofia-bosniakova.jpg"
+        "/assets/images/migrated/12-kaplnka.jpg",
+        "/assets/images/migrated/12a-zofia-bosniakova.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5167,13 +5167,13 @@ const DB = {
       "poradie": 13,
       "nazov": "Severná veža",
       "popis": "",
-      "cover": "assets/images/migrated/13-severna-veza-e1593776801900.jpg",
+      "cover": "/assets/images/migrated/13-severna-veza-e1593776801900.jpg",
       "audio": [
-        "assets/audio/migrated/13.mp3",
-        "assets/audio/migrated/13a.mp3"
+        "/assets/audio/migrated/13.mp3",
+        "/assets/audio/migrated/13a.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/13-severna-veza-e1593776801900.jpg"
+        "/assets/images/migrated/13-severna-veza-e1593776801900.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5194,12 +5194,12 @@ const DB = {
       "poradie": 14,
       "nazov": "Hlavné nádvorie",
       "popis": "",
-      "cover": "assets/images/migrated/14-hlavne-nadvorie-e1593777205229.jpg",
+      "cover": "/assets/images/migrated/14-hlavne-nadvorie-e1593777205229.jpg",
       "audio": [
-        "assets/audio/migrated/14.mp3"
+        "/assets/audio/migrated/14.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/14-hlavne-nadvorie-e1593777205229.jpg"
+        "/assets/images/migrated/14-hlavne-nadvorie-e1593777205229.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5220,12 +5220,12 @@ const DB = {
       "poradie": 1,
       "nazov": "Bytčianski Turzovci (pôvod, dejiny rodu, erb)",
       "popis": "",
-      "cover": "assets/images/migrated/fam-poss-036.jpg",
+      "cover": "/assets/images/migrated/fam-poss-036.jpg",
       "audio": [
-        "assets/audio/migrated/tabula-01.mp3"
+        "/assets/audio/migrated/tabula-01.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/fam-poss-036.jpg"
+        "/assets/images/migrated/fam-poss-036.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5246,12 +5246,12 @@ const DB = {
       "poradie": 2,
       "nazov": "Politická a vojenská kariéra Juraja Turza",
       "popis": "",
-      "cover": "assets/images/migrated/thurzo-nakoni.jpg",
+      "cover": "/assets/images/migrated/thurzo-nakoni.jpg",
       "audio": [
-        "assets/audio/migrated/tabula-02.mp3"
+        "/assets/audio/migrated/tabula-02.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/thurzo-nakoni.jpg"
+        "/assets/images/migrated/thurzo-nakoni.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5272,12 +5272,12 @@ const DB = {
       "poradie": 3,
       "nazov": "Juraj Turzo a Turzovka",
       "popis": "",
-      "cover": "assets/images/migrated/3.jpg",
+      "cover": "/assets/images/migrated/3.jpg",
       "audio": [
-        "assets/audio/migrated/tabula-03.mp3"
+        "/assets/audio/migrated/tabula-03.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/3.jpg"
+        "/assets/images/migrated/3.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5298,12 +5298,12 @@ const DB = {
       "poradie": 4,
       "nazov": "Juraj Turzo – podporovateľ vzdelanosti a patrón evanjelickej cirkvi ",
       "popis": "",
-      "cover": "assets/images/migrated/4.jpg",
+      "cover": "/assets/images/migrated/4.jpg",
       "audio": [
-        "assets/audio/migrated/tabula-04.mp3"
+        "/assets/audio/migrated/tabula-04.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/4.jpg"
+        "/assets/images/migrated/4.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5324,12 +5324,12 @@ const DB = {
       "poradie": 5,
       "nazov": "Záver života uhorského palatína",
       "popis": "",
-      "cover": "assets/images/migrated/5.jpg",
+      "cover": "/assets/images/migrated/5.jpg",
       "audio": [
-        "assets/audio/migrated/tabula-05.mp3"
+        "/assets/audio/migrated/tabula-05.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/5.jpg"
+        "/assets/images/migrated/5.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5350,12 +5350,12 @@ const DB = {
       "poradie": 6,
       "nazov": "Edmund Reitter – vědec, novinář a cestovatel",
       "popis": "",
-      "cover": "assets/images/migrated/9_titulni-strana-publikace.jpg",
+      "cover": "/assets/images/migrated/9_titulni-strana-publikace.jpg",
       "audio": [
-        "assets/audio/migrated/reiter02.mp3"
+        "/assets/audio/migrated/reiter02.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/9_titulni-strana-publikace.jpg"
+        "/assets/images/migrated/9_titulni-strana-publikace.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5376,12 +5376,12 @@ const DB = {
       "poradie": 7,
       "nazov": "Edmund Reitter – člověk a filantrop",
       "popis": "",
-      "cover": "assets/images/migrated/6_vitrina-se-sbirek-edmunda-reittera.jpg",
+      "cover": "/assets/images/migrated/6_vitrina-se-sbirek-edmunda-reittera.jpg",
       "audio": [
-        "assets/audio/migrated/reiter03-1.mp3"
+        "/assets/audio/migrated/reiter03-1.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/6_vitrina-se-sbirek-edmunda-reittera.jpg"
+        "/assets/images/migrated/6_vitrina-se-sbirek-edmunda-reittera.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5402,12 +5402,12 @@ const DB = {
       "poradie": 8,
       "nazov": "Edmund Reitter – odkaz v soudobém Paskově",
       "popis": "",
-      "cover": "assets/images/migrated/7_edmund-reitter-v-kruhu-spolku-paskovskych-hasicu.jpg",
+      "cover": "/assets/images/migrated/7_edmund-reitter-v-kruhu-spolku-paskovskych-hasicu.jpg",
       "audio": [
-        "assets/audio/migrated/reiter04.mp3"
+        "/assets/audio/migrated/reiter04.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/7_edmund-reitter-v-kruhu-spolku-paskovskych-hasicu.jpg"
+        "/assets/images/migrated/7_edmund-reitter-v-kruhu-spolku-paskovskych-hasicu.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5428,12 +5428,12 @@ const DB = {
       "poradie": 9,
       "nazov": "Potomstvo Juraja Turza",
       "popis": "",
-      "cover": "assets/images/migrated/6.jpg",
+      "cover": "/assets/images/migrated/6.jpg",
       "audio": [
-        "assets/audio/migrated/tabula-06-2.mp3"
+        "/assets/audio/migrated/tabula-06-2.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/6.jpg"
+        "/assets/images/migrated/6.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5454,12 +5454,12 @@ const DB = {
       "poradie": 10,
       "nazov": "Edmund Reitter – rodinné zázemí",
       "popis": "",
-      "cover": "assets/images/migrated/4_portret-edmunda-reittera.jpg",
+      "cover": "/assets/images/migrated/4_portret-edmunda-reittera.jpg",
       "audio": [
-        "assets/audio/migrated/reiter01.mp3"
+        "/assets/audio/migrated/reiter01.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/4_portret-edmunda-reittera.jpg"
+        "/assets/images/migrated/4_portret-edmunda-reittera.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5480,12 +5480,12 @@ const DB = {
       "poradie": 1,
       "nazov": "Rozhľadňa Tábor",
       "popis": "",
-      "cover": "assets/images/migrated/tabor.jpg",
+      "cover": "/assets/images/migrated/tabor.jpg",
       "audio": [
-        "assets/audio/migrated/rozhladna-tabor.mp3"
+        "/assets/audio/migrated/rozhladna-tabor.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/tabor.jpg"
+        "/assets/images/migrated/tabor.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2600.5853598694816!2d18.768725688647475!3d49.32213557521233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5e43da6c3837017c!2zNDnCsDE5JzIxLjkiTiAxOMKwNDYnMTUuMSJF!5e0!3m2!1ssk!2ssk!4v1660064468331!5m2!1ssk!2ssk",
@@ -5506,12 +5506,12 @@ const DB = {
       "poradie": 2,
       "nazov": "Kysucká hvezdáreň",
       "popis": "",
-      "cover": "assets/images/migrated/krajska-hvezdaren-zilina59999427.jpg",
+      "cover": "/assets/images/migrated/krajska-hvezdaren-zilina59999427.jpg",
       "audio": [
-        "assets/audio/migrated/kysucka-hvezdaren.mp3"
+        "/assets/audio/migrated/kysucka-hvezdaren.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/krajska-hvezdaren-zilina59999427.jpg"
+        "/assets/images/migrated/krajska-hvezdaren-zilina59999427.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2601.365512497397!2d18.763212815690366!3d49.307361279334096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4714432d1b5b4e9f%3A0x992ac2d9601869cf!2zS3JhanNrw6EgaHZlemTDoXJlxYggdiDFvWlsaW5l!5e0!3m2!1ssk!2ssk!4v1663696484685!5m2!1ssk!2ssk",
@@ -5532,12 +5532,12 @@ const DB = {
       "poradie": 3,
       "nazov": "Kaštieľ v Radoli",
       "popis": "",
-      "cover": "assets/images/migrated/radola.jpg",
+      "cover": "/assets/images/migrated/radola.jpg",
       "audio": [
-        "assets/audio/migrated/kastiel-v-radoli.mp3"
+        "/assets/audio/migrated/kastiel-v-radoli.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/radola.jpg"
+        "/assets/images/migrated/radola.jpg"
       ],
       "gps": {
         "lat": 49.295734,
@@ -5561,12 +5561,12 @@ const DB = {
       "poradie": 4,
       "nazov": "Martákov kopec- Rozhľadňa Zákopčie",
       "popis": "",
-      "cover": "assets/images/migrated/martakov-kopec.jpg",
+      "cover": "/assets/images/migrated/martakov-kopec.jpg",
       "audio": [
-        "assets/audio/migrated/martakov-kopec.mp3"
+        "/assets/audio/migrated/martakov-kopec.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/martakov-kopec.jpg"
+        "/assets/images/migrated/martakov-kopec.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2597.704347520183!2d18.72975531563311!3d49.37666697934162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaa597fb96b6f0f77!2zNDnCsDIyJzM2LjAiTiAxOMKwNDMnNTUuMCJF!5e0!3m2!1ssk!2ssk!4v1660065094533!5m2!1ssk!2ssk",
@@ -5587,12 +5587,12 @@ const DB = {
       "poradie": 5,
       "nazov": "Rozhľadňa Luby",
       "popis": "",
-      "cover": "assets/images/migrated/rozhladna-luby.jpg",
+      "cover": "/assets/images/migrated/rozhladna-luby.jpg",
       "audio": [
-        "assets/audio/migrated/rozhladna-lubi.mp3"
+        "/assets/audio/migrated/rozhladna-lubi.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/rozhladna-luby.jpg"
+        "/assets/images/migrated/rozhladna-luby.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2599.0548195652!2d18.527255315632107!3d49.35111097933872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5bba2c936e469e39!2zNDnCsDIxJzA0LjAiTiAxOMKwMzEnNDYuMCJF!5e0!3m2!1ssk!2ssk!4v1660065196116!5m2!1ssk!2ssk",
@@ -5613,12 +5613,12 @@ const DB = {
       "poradie": 6,
       "nazov": "Chránená lipa",
       "popis": "",
-      "cover": "assets/images/migrated/lipa1.jpg",
+      "cover": "/assets/images/migrated/lipa1.jpg",
       "audio": [
-        "assets/audio/migrated/chranena-lipa.mp3"
+        "/assets/audio/migrated/chranena-lipa.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/lipa1.jpg"
+        "/assets/images/migrated/lipa1.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5639,26 +5639,26 @@ const DB = {
       "poradie": 1,
       "nazov": "Kaštieľ v Komjaticiach – stratená dominanta obce",
       "popis": "",
-      "cover": "assets/images/migrated/16.jpg",
+      "cover": "/assets/images/migrated/16.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/16.jpg",
-        "assets/images/migrated/15.jpg",
-        "assets/images/migrated/17.jpg",
-        "assets/images/migrated/28.jpg",
-        "assets/images/migrated/obr12.jpg",
-        "assets/images/migrated/29.jpg",
-        "assets/images/migrated/30.jpg",
-        "assets/images/migrated/000479.jpg",
-        "assets/images/migrated/image0049.jpg",
-        "assets/images/migrated/image0974.jpg",
-        "assets/images/migrated/image1380.jpg",
-        "assets/images/migrated/img_5038.jpg",
-        "assets/images/migrated/novy-u-4.jpg",
-        "assets/images/migrated/novy-u-13.jpg",
-        "assets/images/migrated/obr3.jpg",
-        "assets/images/migrated/obr5.jpg",
-        "assets/images/migrated/obr7.jpg"
+        "/assets/images/migrated/16.jpg",
+        "/assets/images/migrated/15.jpg",
+        "/assets/images/migrated/17.jpg",
+        "/assets/images/migrated/28.jpg",
+        "/assets/images/migrated/obr12.jpg",
+        "/assets/images/migrated/29.jpg",
+        "/assets/images/migrated/30.jpg",
+        "/assets/images/migrated/000479.jpg",
+        "/assets/images/migrated/image0049.jpg",
+        "/assets/images/migrated/image0974.jpg",
+        "/assets/images/migrated/image1380.jpg",
+        "/assets/images/migrated/img_5038.jpg",
+        "/assets/images/migrated/novy-u-4.jpg",
+        "/assets/images/migrated/novy-u-13.jpg",
+        "/assets/images/migrated/obr3.jpg",
+        "/assets/images/migrated/obr5.jpg",
+        "/assets/images/migrated/obr7.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5679,12 +5679,12 @@ const DB = {
       "poradie": 1,
       "nazov": "Vysťahovalectvo",
       "popis": "",
-      "cover": "assets/images/migrated/vystahovalectvo-1.jpg",
+      "cover": "/assets/images/migrated/vystahovalectvo-1.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/vystahovalectvo-1.jpg",
-        "assets/images/migrated/europsky-emigranti-habura.jpg",
-        "assets/images/migrated/habura-foto-vystahovalectvo.jpg"
+        "/assets/images/migrated/vystahovalectvo-1.jpg",
+        "/assets/images/migrated/europsky-emigranti-habura.jpg",
+        "/assets/images/migrated/habura-foto-vystahovalectvo.jpg"
       ],
       "gps": {
         "lat": 49.32246968713569,
@@ -5708,12 +5708,12 @@ const DB = {
       "poradie": 2,
       "nazov": "Ťažba ropy v Regióne",
       "popis": "",
-      "cover": "assets/images/migrated/mikova.jpg",
+      "cover": "/assets/images/migrated/mikova.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/mikova.jpg",
-        "assets/images/migrated/pohlad-na-bane-v-mikovej.jpg",
-        "assets/images/migrated/mikova-zvysky-studni.jpg"
+        "/assets/images/migrated/mikova.jpg",
+        "/assets/images/migrated/pohlad-na-bane-v-mikovej.jpg",
+        "/assets/images/migrated/mikova-zvysky-studni.jpg"
       ],
       "gps": {
         "lat": 49.322560596913995,
@@ -5737,13 +5737,13 @@ const DB = {
       "poradie": 1,
       "nazov": "O Hlinenom v najstarších časoch",
       "popis": "",
-      "cover": "assets/images/migrated/hlinene-1.jpg",
+      "cover": "/assets/images/migrated/hlinene-1.jpg",
       "audio": [
-        "assets/audio/migrated/01-01-o-hlinenom-v-najstarsich-casoch.mp3"
+        "/assets/audio/migrated/01-01-o-hlinenom-v-najstarsich-casoch.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/hlinene-1.jpg",
-        "assets/images/migrated/obalka-03.png"
+        "/assets/images/migrated/hlinene-1.jpg",
+        "/assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5764,13 +5764,13 @@ const DB = {
       "poradie": 2,
       "nazov": "Svetlonos",
       "popis": "",
-      "cover": "assets/images/migrated/received_1981576642221183.jpeg",
+      "cover": "/assets/images/migrated/received_1981576642221183.jpeg",
       "audio": [
-        "assets/audio/migrated/04-04-svetlonos.mp3"
+        "/assets/audio/migrated/04-04-svetlonos.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/received_1981576642221183.jpeg",
-        "assets/images/migrated/obalka-03.png"
+        "/assets/images/migrated/received_1981576642221183.jpeg",
+        "/assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5791,13 +5791,13 @@ const DB = {
       "poradie": 3,
       "nazov": "Zákopy",
       "popis": "",
-      "cover": "assets/images/migrated/rtzrtzrt.jpg",
+      "cover": "/assets/images/migrated/rtzrtzrt.jpg",
       "audio": [
-        "assets/audio/migrated/05-05-zakopy.mp3"
+        "/assets/audio/migrated/05-05-zakopy.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/rtzrtzrt.jpg",
-        "assets/images/migrated/obalka-03.png"
+        "/assets/images/migrated/rtzrtzrt.jpg",
+        "/assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5818,13 +5818,13 @@ const DB = {
       "poradie": 4,
       "nazov": "Hlinenský potok",
       "popis": "",
-      "cover": "assets/images/migrated/received_1353598935231418.jpeg",
+      "cover": "/assets/images/migrated/received_1353598935231418.jpeg",
       "audio": [
-        "assets/audio/migrated/06-06-hlinensky-potok.mp3"
+        "/assets/audio/migrated/06-06-hlinensky-potok.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/received_1353598935231418.jpeg",
-        "assets/images/migrated/obalka-03.png"
+        "/assets/images/migrated/received_1353598935231418.jpeg",
+        "/assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5845,13 +5845,13 @@ const DB = {
       "poradie": 5,
       "nazov": "Najužší bod",
       "popis": "",
-      "cover": "assets/images/migrated/received_816669920100860.jpeg",
+      "cover": "/assets/images/migrated/received_816669920100860.jpeg",
       "audio": [
-        "assets/audio/migrated/07-07-najuzsi-bod.mp3"
+        "/assets/audio/migrated/07-07-najuzsi-bod.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/received_816669920100860.jpeg",
-        "assets/images/migrated/obalka-03.png"
+        "/assets/images/migrated/received_816669920100860.jpeg",
+        "/assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5872,13 +5872,13 @@ const DB = {
       "poradie": 6,
       "nazov": "Zvonica",
       "popis": "",
-      "cover": "assets/images/migrated/18-zvonica-3.jpg",
+      "cover": "/assets/images/migrated/18-zvonica-3.jpg",
       "audio": [
-        "assets/audio/migrated/08-08-zvonica.mp3"
+        "/assets/audio/migrated/08-08-zvonica.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/18-zvonica-3.jpg",
-        "assets/images/migrated/obalka-03.png"
+        "/assets/images/migrated/18-zvonica-3.jpg",
+        "/assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -5899,12 +5899,12 @@ const DB = {
       "poradie": 1,
       "nazov": "NCH Zarúbaná Kýčera",
       "popis": "",
-      "cover": "assets/images/migrated/divinka.jpg",
+      "cover": "/assets/images/migrated/divinka.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/divinka.jpg",
-        "assets/images/migrated/klapy.jpg",
-        "assets/images/migrated/svedernik.jpeg"
+        "/assets/images/migrated/divinka.jpg",
+        "/assets/images/migrated/klapy.jpg",
+        "/assets/images/migrated/svedernik.jpeg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2599.8675225100465!2d18.55861117649205!3d49.33572687140091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDIwJzA4LjYiTiAxOMKwMzMnNDAuMyJF!5e0!3m2!1ssk!2ssk!4v1693316832386!5m2!1ssk!2ssk",
@@ -5925,12 +5925,12 @@ const DB = {
       "poradie": 2,
       "nazov": "Detský náučný turistický chodník",
       "popis": "",
-      "cover": "assets/images/migrated/201631453_515707596139872_3880037117091592767_n.jpg",
+      "cover": "/assets/images/migrated/201631453_515707596139872_3880037117091592767_n.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/201631453_515707596139872_3880037117091592767_n.jpg",
-        "assets/images/migrated/drevenicka-korna.jpg",
-        "assets/images/migrated/199505802_1883109211852134_8317344405388699304_n.jpg"
+        "/assets/images/migrated/201631453_515707596139872_3880037117091592767_n.jpg",
+        "/assets/images/migrated/drevenicka-korna.jpg",
+        "/assets/images/migrated/199505802_1883109211852134_8317344405388699304_n.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2595.6958741200174!2d18.548644275425218!3d49.41465676140126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDI0JzUyLjgiTiAxOMKwMzMnMDQuNCJF!5e0!3m2!1ssk!2ssk!4v1693317305855!5m2!1ssk!2ssk",
@@ -5951,11 +5951,11 @@ const DB = {
       "poradie": 3,
       "nazov": "Kysucký detský les",
       "popis": "",
-      "cover": "assets/images/migrated/historicka-lesna-utratova-zeleznica.jpg",
+      "cover": "/assets/images/migrated/historicka-lesna-utratova-zeleznica.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/historicka-lesna-utratova-zeleznica.jpg",
-        "assets/images/migrated/bryzgalky-3.jpg"
+        "/assets/images/migrated/historicka-lesna-utratova-zeleznica.jpg",
+        "/assets/images/migrated/bryzgalky-3.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2597.338988456459!2d19.096093675422946!3d49.38357926360561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDIzJzAwLjkiTiAxOcKwMDUnNTUuMiJF!5e0!3m2!1ssk!2ssk!4v1693317671356!5m2!1ssk!2ssk",
@@ -5976,12 +5976,12 @@ const DB = {
       "poradie": 4,
       "nazov": "Ku prameňu rieky Kysuca – 400 rokov – 4000 krokov",
       "popis": "",
-      "cover": "assets/images/migrated/pramen-kysuce.jpg",
+      "cover": "/assets/images/migrated/pramen-kysuce.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/pramen-kysuce.jpg",
-        "assets/images/migrated/makov-greguse.jpg",
-        "assets/images/migrated/makov-krslisko.jpg"
+        "/assets/images/migrated/pramen-kysuce.jpg",
+        "/assets/images/migrated/makov-greguse.jpg",
+        "/assets/images/migrated/makov-krslisko.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2599.0863723121875!2d18.402335075420527!3d49.350513765949906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDIxJzAxLjgiTiAxOMKwMjQnMTcuNyJF!5e0!3m2!1ssk!2ssk!4v1693317865170!5m2!1ssk!2ssk",
@@ -6002,12 +6002,12 @@ const DB = {
       "poradie": 5,
       "nazov": "Chodník Jozefa Krónera",
       "popis": "",
-      "cover": "assets/images/migrated/dom-jozefa-kronera-zaciatok-nch.jpg",
+      "cover": "/assets/images/migrated/dom-jozefa-kronera-zaciatok-nch.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/dom-jozefa-kronera-zaciatok-nch.jpg",
-        "assets/images/migrated/5-na-michalke-2.jpg",
-        "assets/images/migrated/velky-polom.jpg"
+        "/assets/images/migrated/dom-jozefa-kronera-zaciatok-nch.jpg",
+        "/assets/images/migrated/5-na-michalke-2.jpg",
+        "/assets/images/migrated/velky-polom.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2595.227160405695!2d18.686675875425863!3d49.42351926077234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDI1JzI0LjciTiAxOMKwNDEnMjEuMyJF!5e0!3m2!1ssk!2ssk!4v1693318141031!5m2!1ssk!2ssk",
@@ -6028,11 +6028,11 @@ const DB = {
       "poradie": 6,
       "nazov": "Prameny Morávky",
       "popis": "",
-      "cover": "assets/images/migrated/moravka-1.jpg",
+      "cover": "/assets/images/migrated/moravka-1.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/moravka-1.jpg",
-        "assets/images/migrated/moravka-2.jpg"
+        "/assets/images/migrated/moravka-1.jpg",
+        "/assets/images/migrated/moravka-2.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2586.1742785178662!2d18.521811775438422!3d49.59446284862748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDM1JzQwLjEiTiAxOMKwMzEnMjcuOCJF!5e0!3m2!1ssk!2ssk!4v1693318475745!5m2!1ssk!2ssk",
@@ -6053,11 +6053,11 @@ const DB = {
       "poradie": 7,
       "nazov": "Frýdecký les",
       "popis": "",
-      "cover": "assets/images/migrated/fr2.jpg",
+      "cover": "/assets/images/migrated/fr2.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/fr2.jpg",
-        "assets/images/migrated/fridecky-1.jpg"
+        "/assets/images/migrated/fr2.jpg",
+        "/assets/images/migrated/fridecky-1.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2580.605452484018!2d18.35841647544615!3d49.69940234115713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDQxJzU3LjgiTiAxOMKwMjEnMzkuNiJF!5e0!3m2!1ssk!2ssk!4v1693384634344!5m2!1ssk!2ssk",
@@ -6078,11 +6078,11 @@ const DB = {
       "poradie": 8,
       "nazov": "Gruň – Bílý Kříž",
       "popis": "",
-      "cover": "assets/images/migrated/grun-1.jpg",
+      "cover": "/assets/images/migrated/grun-1.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/grun-1.jpg",
-        "assets/images/migrated/gr2.jpg"
+        "/assets/images/migrated/grun-1.jpg",
+        "/assets/images/migrated/gr2.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2592.659645413536!2d18.4393050754294!3d49.47204535732784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDI4JzE5LjQiTiAxOMKwMjYnMzAuOCJF!5e0!3m2!1ssk!2ssk!4v1693384789384!5m2!1ssk!2ssk",
@@ -6103,11 +6103,11 @@ const DB = {
       "poradie": 9,
       "nazov": "Čertův mlýn",
       "popis": "",
-      "cover": "assets/images/migrated/cert2.jpg",
+      "cover": "/assets/images/migrated/cert2.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/cert2.jpg",
-        "assets/images/migrated/cert1.jpg"
+        "/assets/images/migrated/cert2.jpg",
+        "/assets/images/migrated/cert1.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2591.726688868354!2d18.26245507543072!3d49.489669556076244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDI5JzIyLjgiTiAxOMKwMTUnNTQuMSJF!5e0!3m2!1ssk!2ssk!4v1693385924368!5m2!1ssk!2ssk",
@@ -6128,12 +6128,12 @@ const DB = {
       "poradie": 10,
       "nazov": "Včelařská naučná stezka",
       "popis": "",
-      "cover": "assets/images/migrated/vcela-2.jpg",
+      "cover": "/assets/images/migrated/vcela-2.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/vcela-2.jpg",
-        "assets/images/migrated/vcela3.jpg",
-        "assets/images/migrated/vcela1.jpg"
+        "/assets/images/migrated/vcela-2.jpg",
+        "/assets/images/migrated/vcela3.jpg",
+        "/assets/images/migrated/vcela1.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2583.557827388851!2d18.364425075442078!3d49.64378784511767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDM4JzM3LjYiTiAxOMKwMjInMDEuMiJF!5e0!3m2!1ssk!2ssk!4v1693406215876!5m2!1ssk!2ssk",
@@ -6154,11 +6154,11 @@ const DB = {
       "poradie": 11,
       "nazov": "Chlebovická Medová stopa",
       "popis": "",
-      "cover": "assets/images/migrated/mc1.jpg",
+      "cover": "/assets/images/migrated/mc1.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/mc1.jpg",
-        "assets/images/migrated/bez-nazvuc2.jpg"
+        "/assets/images/migrated/mc1.jpg",
+        "/assets/images/migrated/bez-nazvuc2.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2582.8343518192314!2d18.275270075443068!3d49.65742034414708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDM5JzI2LjciTiAxOMKwMTYnNDAuMiJF!5e0!3m2!1ssk!2ssk!4v1693406767616!5m2!1ssk!2ssk",
@@ -6179,11 +6179,11 @@ const DB = {
       "poradie": 12,
       "nazov": "Lesní stezka Vyhlídka",
       "popis": "",
-      "cover": "assets/images/migrated/vyhliadka1.jpg",
+      "cover": "/assets/images/migrated/vyhliadka1.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/vyhliadka1.jpg",
-        "assets/images/migrated/vyhliadka2.jpg"
+        "/assets/images/migrated/vyhliadka1.jpg",
+        "/assets/images/migrated/vyhliadka2.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2586.4788239879226!2d18.34265947543805!3d49.588719249036146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDM1JzE5LjQiTiAxOMKwMjAnNDIuOCJF!5e0!3m2!1ssk!2ssk!4v1693407597189!5m2!1ssk!2ssk",
@@ -6204,13 +6204,13 @@ const DB = {
       "poradie": 1,
       "nazov": "Najstaršie zmienky o Živčákovej",
       "popis": "",
-      "cover": "assets/images/migrated/zivcakova_mapa.jpg",
+      "cover": "/assets/images/migrated/zivcakova_mapa.jpg",
       "audio": [
-        "assets/audio/migrated/01-najstarsie-zmienky-o-zivcakovej.mp3"
+        "/assets/audio/migrated/01-najstarsie-zmienky-o-zivcakovej.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zivcakova_mapa.jpg",
-        "assets/images/migrated/obalka-03.png"
+        "/assets/images/migrated/zivcakova_mapa.jpg",
+        "/assets/images/migrated/obalka-03.png"
       ],
       "gps": {
         "lat": 49.397869104654376,
@@ -6236,10 +6236,10 @@ const DB = {
       "popis": "",
       "cover": "",
       "audio": [
-        "assets/audio/migrated/02-vodna-pila-vincenta-hrtusa.mp3"
+        "/assets/audio/migrated/02-vodna-pila-vincenta-hrtusa.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/obalka-03.png"
+        "/assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -6260,13 +6260,13 @@ const DB = {
       "poradie": 3,
       "nazov": "Mimoriadne udalosti na území Turzovky",
       "popis": "",
-      "cover": "assets/images/migrated/20230823_134552.jpg",
+      "cover": "/assets/images/migrated/20230823_134552.jpg",
       "audio": [
-        "assets/audio/migrated/03-mimoriadne-udalosti.mp3"
+        "/assets/audio/migrated/03-mimoriadne-udalosti.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/20230823_134552.jpg",
-        "assets/images/migrated/obalka-03.png"
+        "/assets/images/migrated/20230823_134552.jpg",
+        "/assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -6287,13 +6287,13 @@ const DB = {
       "poradie": 4,
       "nazov": " Údajné zjavenia na Živčákovej Matúšovi Lašútovi",
       "popis": "",
-      "cover": "assets/images/migrated/zivcakova_ii.jpg",
+      "cover": "/assets/images/migrated/zivcakova_ii.jpg",
       "audio": [
-        "assets/audio/migrated/04-udajne-zjavenia.mp3"
+        "/assets/audio/migrated/04-udajne-zjavenia.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zivcakova_ii.jpg",
-        "assets/images/migrated/obalka-03.png"
+        "/assets/images/migrated/zivcakova_ii.jpg",
+        "/assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -6314,13 +6314,13 @@ const DB = {
       "poradie": 5,
       "nazov": "Vývoj do roku 1989",
       "popis": "",
-      "cover": "assets/images/migrated/zivcakova-chram-matky-cirkvi-1.jpg",
+      "cover": "/assets/images/migrated/zivcakova-chram-matky-cirkvi-1.jpg",
       "audio": [
-        "assets/audio/migrated/05-vyvoj-do-roku-1989.mp3"
+        "/assets/audio/migrated/05-vyvoj-do-roku-1989.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zivcakova-chram-matky-cirkvi-1.jpg",
-        "assets/images/migrated/obalka-03.png"
+        "/assets/images/migrated/zivcakova-chram-matky-cirkvi-1.jpg",
+        "/assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -6341,13 +6341,13 @@ const DB = {
       "poradie": 6,
       "nazov": "Stavba kaplnky a pútnické miesto",
       "popis": "",
-      "cover": "assets/images/migrated/zivcakova_v.jpg",
+      "cover": "/assets/images/migrated/zivcakova_v.jpg",
       "audio": [
-        "assets/audio/migrated/06-stavba-kaplnky-a-putnicke-miesto.mp3"
+        "/assets/audio/migrated/06-stavba-kaplnky-a-putnicke-miesto.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zivcakova_v.jpg",
-        "assets/images/migrated/obalka-03.png"
+        "/assets/images/migrated/zivcakova_v.jpg",
+        "/assets/images/migrated/obalka-03.png"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -6368,12 +6368,12 @@ const DB = {
       "poradie": 1,
       "nazov": "Kov",
       "popis": "",
-      "cover": "assets/images/migrated/zs-banova-info-pexeso-02-min.jpg",
+      "cover": "/assets/images/migrated/zs-banova-info-pexeso-02-min.jpg",
       "audio": [
-        "assets/audio/migrated/text-to-speech_frank_kovy-mozu-byt-nek-_2025-07-16.mp3"
+        "/assets/audio/migrated/text-to-speech_frank_kovy-mozu-byt-nek-_2025-07-16.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zs-banova-info-pexeso-02-min.jpg"
+        "/assets/images/migrated/zs-banova-info-pexeso-02-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -6394,12 +6394,12 @@ const DB = {
       "poradie": 2,
       "nazov": "Sklo",
       "popis": "",
-      "cover": "assets/images/migrated/zs-banova-info-pexeso-03-min.jpg",
+      "cover": "/assets/images/migrated/zs-banova-info-pexeso-03-min.jpg",
       "audio": [
-        "assets/audio/migrated/text-to-speech_frank_sklo-je-mozne-rec-_2025-07-16.mp3"
+        "/assets/audio/migrated/text-to-speech_frank_sklo-je-mozne-rec-_2025-07-16.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zs-banova-info-pexeso-03-min.jpg"
+        "/assets/images/migrated/zs-banova-info-pexeso-03-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -6420,12 +6420,12 @@ const DB = {
       "poradie": 3,
       "nazov": "Bio",
       "popis": "",
-      "cover": "assets/images/migrated/zs-banova-info-pexeso-04.jpg",
+      "cover": "/assets/images/migrated/zs-banova-info-pexeso-04.jpg",
       "audio": [
-        "assets/audio/migrated/text-to-speech_frank_bioodpad-nadoba-_2025-07-16.mp3"
+        "/assets/audio/migrated/text-to-speech_frank_bioodpad-nadoba-_2025-07-16.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zs-banova-info-pexeso-04.jpg"
+        "/assets/images/migrated/zs-banova-info-pexeso-04.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -6446,12 +6446,12 @@ const DB = {
       "poradie": 4,
       "nazov": "Plast",
       "popis": "",
-      "cover": "assets/images/migrated/zs-banova-info-pexeso-05.jpg",
+      "cover": "/assets/images/migrated/zs-banova-info-pexeso-05.jpg",
       "audio": [
-        "assets/audio/migrated/text-to-speech_frank_plasty-sa-vyrabaj-_2025-07-16-1.mp3"
+        "/assets/audio/migrated/text-to-speech_frank_plasty-sa-vyrabaj-_2025-07-16-1.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zs-banova-info-pexeso-05.jpg"
+        "/assets/images/migrated/zs-banova-info-pexeso-05.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -6472,12 +6472,12 @@ const DB = {
       "poradie": 5,
       "nazov": "Papier",
       "popis": "",
-      "cover": "assets/images/migrated/zs-banova-info-pexeso-06-min.jpg",
+      "cover": "/assets/images/migrated/zs-banova-info-pexeso-06-min.jpg",
       "audio": [
-        "assets/audio/migrated/text-to-speech_frank_papier-sa-moze-re-_2025-07-16.mp3"
+        "/assets/audio/migrated/text-to-speech_frank_papier-sa-moze-re-_2025-07-16.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zs-banova-info-pexeso-06-min.jpg"
+        "/assets/images/migrated/zs-banova-info-pexeso-06-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -6498,12 +6498,12 @@ const DB = {
       "poradie": 1,
       "nazov": "Vodná nádrž v Porąbke",
       "popis": "",
-      "cover": "assets/images/migrated/1-zapora-wodna-w-porabce.jpg",
+      "cover": "/assets/images/migrated/1-zapora-wodna-w-porabce.jpg",
       "audio": [
-        "assets/audio/migrated/1-the-water-reservoir-in-porabka.mp3"
+        "/assets/audio/migrated/1-the-water-reservoir-in-porabka.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/1-zapora-wodna-w-porabce.jpg"
+        "/assets/images/migrated/1-zapora-wodna-w-porabce.jpg"
       ],
       "gps": {
         "lat": 49.807201,
@@ -6527,12 +6527,12 @@ const DB = {
       "poradie": 2,
       "nazov": "Osada „Kolonia” v štýle Witkiewiczovcov",
       "popis": "",
-      "cover": "assets/images/migrated/2-budynek-na-osiedlu-kolonia-w-stylu-witkiewiczowskim.jpg",
+      "cover": "/assets/images/migrated/2-budynek-na-osiedlu-kolonia-w-stylu-witkiewiczowskim.jpg",
       "audio": [
-        "assets/audio/migrated/2-the-settlement-kolonia-in-the-witkiewicz-style.mp3"
+        "/assets/audio/migrated/2-the-settlement-kolonia-in-the-witkiewicz-style.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/2-budynek-na-osiedlu-kolonia-w-stylu-witkiewiczowskim.jpg"
+        "/assets/images/migrated/2-budynek-na-osiedlu-kolonia-w-stylu-witkiewiczowskim.jpg"
       ],
       "gps": {
         "lat": 49.814007,
@@ -6556,12 +6556,12 @@ const DB = {
       "poradie": 3,
       "nazov": "Obecné centrum kultúry v Porąbke",
       "popis": "",
-      "cover": "assets/images/migrated/untitled.jpg",
+      "cover": "/assets/images/migrated/untitled.jpg",
       "audio": [
-        "assets/audio/migrated/3-the-municipal-culture-centre-in-porabka.mp3"
+        "/assets/audio/migrated/3-the-municipal-culture-centre-in-porabka.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/untitled.jpg"
+        "/assets/images/migrated/untitled.jpg"
       ],
       "gps": {
         "lat": 49.820541,
@@ -6585,12 +6585,12 @@ const DB = {
       "poradie": 4,
       "nazov": "Regionálna izba v Porąbke",
       "popis": "",
-      "cover": "assets/images/migrated/4-izba-regionalna-w-porabce.jpg",
+      "cover": "/assets/images/migrated/4-izba-regionalna-w-porabce.jpg",
       "audio": [
-        "assets/audio/migrated/4-the-regional-room-in-porabka.mp3"
+        "/assets/audio/migrated/4-the-regional-room-in-porabka.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/4-izba-regionalna-w-porabce.jpg"
+        "/assets/images/migrated/4-izba-regionalna-w-porabce.jpg"
       ],
       "gps": {
         "lat": 49.820154,
@@ -6614,12 +6614,12 @@ const DB = {
       "poradie": 5,
       "nazov": "Kaplnka st. Urbana; ul. Krakowska",
       "popis": "",
-      "cover": "assets/images/migrated/5-kaplica-sw-urbana.jpg",
+      "cover": "/assets/images/migrated/5-kaplica-sw-urbana.jpg",
       "audio": [
-        "assets/audio/migrated/5-the-chapel-of-saint-urban-krakowska-street.mp3"
+        "/assets/audio/migrated/5-the-chapel-of-saint-urban-krakowska-street.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/5-kaplica-sw-urbana.jpg"
+        "/assets/images/migrated/5-kaplica-sw-urbana.jpg"
       ],
       "gps": {
         "lat": 49.821086,
@@ -6643,12 +6643,12 @@ const DB = {
       "poradie": 6,
       "nazov": "Kaplnka na Tronce",
       "popis": "",
-      "cover": "assets/images/migrated/6-kapliczka-na-trzonce.jpg",
+      "cover": "/assets/images/migrated/6-kapliczka-na-trzonce.jpg",
       "audio": [
-        "assets/audio/migrated/6-the-chapel-on-tronca.mp3"
+        "/assets/audio/migrated/6-the-chapel-on-tronca.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/6-kapliczka-na-trzonce.jpg"
+        "/assets/images/migrated/6-kapliczka-na-trzonce.jpg"
       ],
       "gps": {
         "lat": 49.814098,
@@ -6672,12 +6672,12 @@ const DB = {
       "poradie": 7,
       "nazov": "Nádrž Czaniecka",
       "popis": "",
-      "cover": "assets/images/migrated/7-zbiornik-czaniecki.jpg",
+      "cover": "/assets/images/migrated/7-zbiornik-czaniecki.jpg",
       "audio": [
-        "assets/audio/migrated/7-the-reservoir-czaniecka.mp3"
+        "/assets/audio/migrated/7-the-reservoir-czaniecka.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/7-zbiornik-czaniecki.jpg"
+        "/assets/images/migrated/7-zbiornik-czaniecki.jpg"
       ],
       "gps": {
         "lat": 49.828962,
@@ -6701,12 +6701,12 @@ const DB = {
       "poradie": 8,
       "nazov": "Lesná rezervácia Zasolnica",
       "popis": "",
-      "cover": "assets/images/migrated/8-porabka-zasolnica1.jpg",
+      "cover": "/assets/images/migrated/8-porabka-zasolnica1.jpg",
       "audio": [
-        "assets/audio/migrated/8-the-forest-reservation-zasolnica.mp3"
+        "/assets/audio/migrated/8-the-forest-reservation-zasolnica.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/8-porabka-zasolnica1.jpg"
+        "/assets/images/migrated/8-porabka-zasolnica1.jpg"
       ],
       "gps": {
         "lat": 49.817509,
@@ -6730,12 +6730,12 @@ const DB = {
       "poradie": 9,
       "nazov": "Kostol v Czaňcu",
       "popis": "",
-      "cover": "assets/images/migrated/9-1.jpg",
+      "cover": "/assets/images/migrated/9-1.jpg",
       "audio": [
-        "assets/audio/migrated/9-the-church-in-czanc.mp3"
+        "/assets/audio/migrated/9-the-church-in-czanc.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/9-1.jpg"
+        "/assets/images/migrated/9-1.jpg"
       ],
       "gps": {
         "lat": 49.850158,
@@ -6759,12 +6759,12 @@ const DB = {
       "poradie": 10,
       "nazov": "Kaplnka v Bujakowskom Lese",
       "popis": "",
-      "cover": "assets/images/migrated/10-kapliczka-w-bujakowskim-lesie.jpg",
+      "cover": "/assets/images/migrated/10-kapliczka-w-bujakowskim-lesie.jpg",
       "audio": [
-        "assets/audio/migrated/10-the-chapel-in-the-bujakow-forest.mp3"
+        "/assets/audio/migrated/10-the-chapel-in-the-bujakow-forest.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/10-kapliczka-w-bujakowskim-lesie.jpg"
+        "/assets/images/migrated/10-kapliczka-w-bujakowskim-lesie.jpg"
       ],
       "gps": {
         "lat": 49.841205,
@@ -6788,12 +6788,12 @@ const DB = {
       "poradie": 11,
       "nazov": "Vila v Kobiernicach a pamiatkový park",
       "popis": "",
-      "cover": "assets/images/migrated/11-dworek-w-kobiernicach.jpg",
+      "cover": "/assets/images/migrated/11-dworek-w-kobiernicach.jpg",
       "audio": [
-        "assets/audio/migrated/11-the-villa-in-kobiernice-and-the-remember-park.mp3"
+        "/assets/audio/migrated/11-the-villa-in-kobiernice-and-the-remember-park.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/11-dworek-w-kobiernicach.jpg"
+        "/assets/images/migrated/11-dworek-w-kobiernicach.jpg"
       ],
       "gps": {
         "lat": 49.855608,
@@ -6817,12 +6817,12 @@ const DB = {
       "poradie": 12,
       "nazov": "Zrúcanina hradu na Wolku a historická trasa",
       "popis": "",
-      "cover": "assets/images/migrated/12-ruiny-zamku-na-wo-ku.jpg",
+      "cover": "/assets/images/migrated/12-ruiny-zamku-na-wo-ku.jpg",
       "audio": [
-        "assets/audio/migrated/12-the-ruin-of-the-castle-on-wolk-and-the-historical-route.mp3"
+        "/assets/audio/migrated/12-the-ruin-of-the-castle-on-wolk-and-the-historical-route.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/12-ruiny-zamku-na-wo-ku.jpg"
+        "/assets/images/migrated/12-ruiny-zamku-na-wo-ku.jpg"
       ],
       "gps": {
         "lat": 49.831074,
@@ -6846,12 +6846,12 @@ const DB = {
       "poradie": 1,
       "nazov": "Šarišská galéria",
       "popis": "",
-      "cover": "assets/images/migrated/sarisska-galeria.jpg",
+      "cover": "/assets/images/migrated/sarisska-galeria.jpg",
       "audio": [
-        "assets/audio/migrated/18-sarisska-galeria.mp3"
+        "/assets/audio/migrated/18-sarisska-galeria.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/sarisska-galeria.jpg"
+        "/assets/images/migrated/sarisska-galeria.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d654.4368803374607!2d21.2402468292687!3d48.9963619987063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzQ2LjkiTiAyMcKwMTQnMjYuOSJF!5e0!3m2!1ssk!2ssk!4v1524205053767",
@@ -6872,12 +6872,12 @@ const DB = {
       "poradie": 2,
       "nazov": "Kostol sv. Jozefa",
       "popis": "",
-      "cover": "assets/images/migrated/frantiskansky-kostol.jpg",
+      "cover": "/assets/images/migrated/frantiskansky-kostol.jpg",
       "audio": [
-        "assets/audio/migrated/04-frantiskansky-kostol.mp3"
+        "/assets/audio/migrated/04-frantiskansky-kostol.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/frantiskansky-kostol.jpg"
+        "/assets/images/migrated/frantiskansky-kostol.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.7549846962456!2d21.24166831622513!3d48.99621997930127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzQ2LjQiTiAyMcKwMTQnMzcuOSJF!5e0!3m2!1ssk!2ssk!4v1524205536953",
@@ -6898,12 +6898,12 @@ const DB = {
       "poradie": 3,
       "nazov": "Evanjelické kolégium",
       "popis": "",
-      "cover": "assets/images/migrated/evanjelicke-kolegium.jpg",
+      "cover": "/assets/images/migrated/evanjelicke-kolegium.jpg",
       "audio": [
-        "assets/audio/migrated/09-evanjelicke-kolegium.mp3"
+        "/assets/audio/migrated/09-evanjelicke-kolegium.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/evanjelicke-kolegium.jpg"
+        "/assets/images/migrated/evanjelicke-kolegium.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.609886856688!2d21.237173316225192!3d48.998980979301535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzU2LjMiTiAyMcKwMTQnMjEuNyJF!5e0!3m2!1ssk!2ssk!4v1524230228595",
@@ -6924,12 +6924,12 @@ const DB = {
       "poradie": 4,
       "nazov": "Katedrálny chrám sv. Jána Krstiteľa",
       "popis": "",
-      "cover": "assets/images/migrated/chram-sv-jana-krstitela.jpg",
+      "cover": "/assets/images/migrated/chram-sv-jana-krstitela.jpg",
       "audio": [
-        "assets/audio/migrated/03-chram-sv-jana-krstitela.mp3"
+        "/assets/audio/migrated/03-chram-sv-jana-krstitela.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/chram-sv-jana-krstitela.jpg"
+        "/assets/images/migrated/chram-sv-jana-krstitela.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.8637646743155!2d21.24080931622513!3d48.994149979301085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzM4LjkiTiAyMcKwMTQnMzQuOCJF!5e0!3m2!1ssk!2ssk!4v1524657054426",
@@ -6950,12 +6950,12 @@ const DB = {
       "poradie": 5,
       "nazov": "Súsošie Immaculaty",
       "popis": "",
-      "cover": "assets/images/migrated/susosie-imacculata.jpg",
+      "cover": "/assets/images/migrated/susosie-imacculata.jpg",
       "audio": [
-        "assets/audio/migrated/10-susosie-immaculaty.mp3"
+        "/assets/audio/migrated/10-susosie-immaculaty.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/susosie-imacculata.jpg"
+        "/assets/images/migrated/susosie-imacculata.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.568039908227!2d21.238498961312196!3d48.99977724413268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzU3LjgiTiAyMcKwMTQnMjIuMCJF!5e0!3m2!1ssk!2ssk!4v1524657169917",
@@ -6976,12 +6976,12 @@ const DB = {
       "poradie": 6,
       "nazov": "Mestské hradby – Floriánova brána",
       "popis": "",
-      "cover": "assets/images/migrated/mestske-hradby-florianova-brana.jpg",
+      "cover": "/assets/images/migrated/mestske-hradby-florianova-brana.jpg",
       "audio": [
-        "assets/audio/migrated/16-mestske-hradby.mp3"
+        "/assets/audio/migrated/16-mestske-hradby.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/mestske-hradby-florianova-brana.jpg"
+        "/assets/images/migrated/mestske-hradby-florianova-brana.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.7372747821905!2d21.235212316225226!3d48.99655697930139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzQ3LjYiTiAyMcKwMTQnMTQuNiJF!5e0!3m2!1ssk!2ssk!4v1524657312693",
@@ -7002,12 +7002,12 @@ const DB = {
       "poradie": 7,
       "nazov": "Konkatedrála sv. Mikuláša",
       "popis": "",
-      "cover": "assets/images/migrated/kostol-sv-mikulasa.jpg",
+      "cover": "/assets/images/migrated/kostol-sv-mikulasa.jpg",
       "audio": [
-        "assets/audio/migrated/01-kostol-sv-mikulasa.mp3"
+        "/assets/audio/migrated/01-kostol-sv-mikulasa.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/kostol-sv-mikulasa.jpg"
+        "/assets/images/migrated/kostol-sv-mikulasa.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.663596363539!2d21.23751631622515!3d48.997958979301515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzUyLjciTiAyMcKwMTQnMjIuOSJF!5e0!3m2!1ssk!2ssk!4v1524657362805",
@@ -7028,12 +7028,12 @@ const DB = {
       "poradie": 8,
       "nazov": "Evanjelický a. v. chrám sv. Trojice",
       "popis": "",
-      "cover": "assets/images/migrated/evanjelicky-kostol-sv-trojice.jpg",
+      "cover": "/assets/images/migrated/evanjelicky-kostol-sv-trojice.jpg",
       "audio": [
-        "assets/audio/migrated/02-evanjelicky-chram-svetej-trojice.mp3"
+        "/assets/audio/migrated/02-evanjelicky-chram-svetej-trojice.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/evanjelicky-kostol-sv-trojice.jpg"
+        "/assets/images/migrated/evanjelicky-kostol-sv-trojice.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.636794267558!2d21.23776931622521!3d48.99846897930142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzU0LjUiTiAyMcKwMTQnMjMuOSJF!5e0!3m2!1ssk!2ssk!4v1524657402832",
@@ -7054,12 +7054,12 @@ const DB = {
       "poradie": 9,
       "nazov": "Neptúnova fontána",
       "popis": "",
-      "cover": "assets/images/migrated/neptunova-fontana.jpg",
+      "cover": "/assets/images/migrated/neptunova-fontana.jpg",
       "audio": [
-        "assets/audio/migrated/14-neptunova-fontana.mp3"
+        "/assets/audio/migrated/14-neptunova-fontana.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/neptunova-fontana.jpg"
+        "/assets/images/migrated/neptunova-fontana.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.700961292418!2d21.23841231622518!3d48.99724797930143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzUwLjEiTiAyMcKwMTQnMjYuMiJF!5e0!3m2!1ssk!2ssk!4v1524657454837",
@@ -7080,12 +7080,12 @@ const DB = {
       "poradie": 10,
       "nazov": "Hlavná ulica",
       "popis": "",
-      "cover": "assets/images/migrated/hlavna-ulica.jpg",
+      "cover": "/assets/images/migrated/hlavna-ulica.jpg",
       "audio": [
-        "assets/audio/migrated/15-hlavna-ulica.mp3"
+        "/assets/audio/migrated/15-hlavna-ulica.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/hlavna-ulica.jpg"
+        "/assets/images/migrated/hlavna-ulica.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.6785213623825!2d21.238496316225312!3d48.99767497930148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzUxLjYiTiAyMcKwMTQnMjYuNSJF!5e0!3m2!1ssk!2ssk!4v1524657540789",
@@ -7106,12 +7106,12 @@ const DB = {
       "poradie": 11,
       "nazov": "Ortodoxná synagóga",
       "popis": "",
-      "cover": "assets/images/migrated/ortodoxna-synagoga.jpg",
+      "cover": "/assets/images/migrated/ortodoxna-synagoga.jpg",
       "audio": [
-        "assets/audio/migrated/05-ortodoxna-synagoga.mp3"
+        "/assets/audio/migrated/05-ortodoxna-synagoga.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/ortodoxna-synagoga.jpg"
+        "/assets/images/migrated/ortodoxna-synagoga.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.5566495079597!2d21.235676316225227!3d48.9999939793017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzYwLjAiTiAyMcKwMTQnMTYuMyJF!5e0!3m2!1ssk!2ssk!4v1524657588771",
@@ -7132,12 +7132,12 @@ const DB = {
       "poradie": 12,
       "nazov": "Gréckokatolícky biskupský palác",
       "popis": "",
-      "cover": "assets/images/migrated/greckokatolicky-biskupsky-palac.jpg",
+      "cover": "/assets/images/migrated/greckokatolicky-biskupsky-palac.jpg",
       "audio": [
-        "assets/audio/migrated/17-greckokatolicky-biskupsky-palac.mp3"
+        "/assets/audio/migrated/17-greckokatolicky-biskupsky-palac.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/greckokatolicky-biskupsky-palac.jpg"
+        "/assets/images/migrated/greckokatolicky-biskupsky-palac.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.882472384162!2d21.24070831622515!3d48.993793979300996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzM3LjciTiAyMcKwMTQnMzQuNCJF!5e0!3m2!1ssk!2ssk!4v1524657637421",
@@ -7158,12 +7158,12 @@ const DB = {
       "poradie": 13,
       "nazov": "Kalvária",
       "popis": "",
-      "cover": "assets/images/migrated/kalvaria.jpg",
+      "cover": "/assets/images/migrated/kalvaria.jpg",
       "audio": [
-        "assets/audio/migrated/06-kalvaria.mp3"
+        "/assets/audio/migrated/06-kalvaria.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/kalvaria.jpg"
+        "/assets/images/migrated/kalvaria.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2618.184461793334!2d21.22368731622495!3d48.988046979300485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzE3LjAiTiAyMcKwMTMnMzMuMiJF!5e0!3m2!1ssk!2ssk!4v1524657745373",
@@ -7184,12 +7184,12 @@ const DB = {
       "poradie": 14,
       "nazov": "Župný dom",
       "popis": "",
-      "cover": "assets/images/migrated/zupny-dom.jpg",
+      "cover": "/assets/images/migrated/zupny-dom.jpg",
       "audio": [
-        "assets/audio/migrated/13-zupny-dom.mp3"
+        "/assets/audio/migrated/13-zupny-dom.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zupny-dom.jpg"
+        "/assets/images/migrated/zupny-dom.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.645301414838!2d21.240000601031507!3d48.99830710264607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzUzLjkiTiAyMcKwMTQnMzEuOSJF!5e0!3m2!1ssk!2ssk!4v1524657926453",
@@ -7210,12 +7210,12 @@ const DB = {
       "poradie": 15,
       "nazov": "Palác Klobušickovcov",
       "popis": "",
-      "cover": "assets/images/migrated/palac-klobusickych.jpg",
+      "cover": "/assets/images/migrated/palac-klobusickych.jpg",
       "audio": [
-        "assets/audio/migrated/11-palac-klobusickych.mp3"
+        "/assets/audio/migrated/11-palac-klobusickych.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/palac-klobusickych.jpg"
+        "/assets/images/migrated/palac-klobusickych.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.8283458681994!2d21.24078031622518!3d48.99482397930123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzQxLjQiTiAyMcKwMTQnMzQuNyJF!5e0!3m2!1ssk!2ssk!4v1524657972212",
@@ -7236,12 +7236,12 @@ const DB = {
       "poradie": 16,
       "nazov": "Radnica",
       "popis": "",
-      "cover": "assets/images/migrated/radnica.jpg",
+      "cover": "/assets/images/migrated/radnica.jpg",
       "audio": [
-        "assets/audio/migrated/07-radnica.mp3"
+        "/assets/audio/migrated/07-radnica.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/radnica.jpg"
+        "/assets/images/migrated/radnica.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1308.8497706934093!2d21.239106300656058!3d48.99727499817046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzUwLjIiTiAyMcKwMTQnMjMuMSJF!5e0!3m2!1ssk!2ssk!4v1524212848807",
@@ -7262,12 +7262,12 @@ const DB = {
       "poradie": 17,
       "nazov": "Rákociho palác",
       "popis": "",
-      "cover": "assets/images/migrated/rakocziho-palac.jpg",
+      "cover": "/assets/images/migrated/rakocziho-palac.jpg",
       "audio": [
-        "assets/audio/migrated/12-rakociho-palac.mp3"
+        "/assets/audio/migrated/12-rakociho-palac.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/rakocziho-palac.jpg"
+        "/assets/images/migrated/rakocziho-palac.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.653611020337!2d21.238780614271658!3d48.99814898449359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzUzLjMiTiAyMcKwMTQnMjYuNCJF!5e0!3m2!1ssk!2ssk!4v1524214125661",
@@ -7288,12 +7288,12 @@ const DB = {
       "poradie": 18,
       "nazov": "Caraffova väznica",
       "popis": "",
-      "cover": "assets/images/migrated/carrafova-vaznica.jpg",
+      "cover": "/assets/images/migrated/carrafova-vaznica.jpg",
       "audio": [
-        "assets/audio/migrated/08-caraffova-vaznica.mp3"
+        "/assets/audio/migrated/08-caraffova-vaznica.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/carrafova-vaznica.jpg"
+        "/assets/images/migrated/carrafova-vaznica.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.713100866098!2d21.236728316225136!3d48.9970169793014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzQ5LjMiTiAyMcKwMTQnMjAuMSJF!5e0!3m2!1ssk!2ssk!4v1524658024541",
@@ -7314,12 +7314,12 @@ const DB = {
       "poradie": 19,
       "nazov": "Múzeum vín",
       "popis": "",
-      "cover": "assets/images/migrated/muzeum-vin.jpg",
+      "cover": "/assets/images/migrated/muzeum-vin.jpg",
       "audio": [
-        "assets/audio/migrated/19-muzeum-vin.mp3"
+        "/assets/audio/migrated/19-muzeum-vin.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/muzeum-vin.jpg"
+        "/assets/images/migrated/muzeum-vin.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.6949177658466!2d21.23765231622518!3d48.99736297930145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzUwLjUiTiAyMcKwMTQnMjMuNCJF!5e0!3m2!1ssk!2ssk!4v1524658064030",
@@ -7340,12 +7340,12 @@ const DB = {
       "poradie": 1,
       "nazov": "JURKOVIČOVA ROZHĽADŇA",
       "popis": "",
-      "cover": "assets/images/migrated/jurkovicova-rozhladna.jpg",
+      "cover": "/assets/images/migrated/jurkovicova-rozhladna.jpg",
       "audio": [
-        "assets/audio/migrated/jurkovicova-rozhladna.mp3"
+        "/assets/audio/migrated/jurkovicova-rozhladna.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/jurkovicova-rozhladna.jpg"
+        "/assets/images/migrated/jurkovicova-rozhladna.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2593.171130572713!2d18.156546615636238!3d49.46238107935133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x94fb5db20fc6038b!2zNDnCsDI3JzQ0LjYiTiAxOMKwMDknMzEuNSJF!5e0!3m2!1ssk!2ssk!4v1662653676799!5m2!1ssk!2ssk",
@@ -7366,12 +7366,12 @@ const DB = {
       "poradie": 2,
       "nazov": "RUINY HRADU HRADISKO",
       "popis": "",
-      "cover": "assets/images/migrated/zdrucanina-hradu-hradisko.jpg",
+      "cover": "/assets/images/migrated/zdrucanina-hradu-hradisko.jpg",
       "audio": [
-        "assets/audio/migrated/hradisko.mp3"
+        "/assets/audio/migrated/hradisko.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zdrucanina-hradu-hradisko.jpg"
+        "/assets/images/migrated/zdrucanina-hradu-hradisko.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2593.649815731038!2d18.11908551563592!3d49.4533352793502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x367111fea396b9fd!2zNDnCsDI3JzEyLjAiTiAxOMKwMDcnMTYuNiJF!5e0!3m2!1ssk!2ssk!4v1662654800821!5m2!1ssk!2ssk",
@@ -7392,12 +7392,12 @@ const DB = {
       "poradie": 3,
       "nazov": "VALAŠSKÉ MÚZEUM V PRÍRODE",
       "popis": "",
-      "cover": "assets/images/migrated/valasske-muzeum-v-prirode-3.jpg",
+      "cover": "/assets/images/migrated/valasske-muzeum-v-prirode-3.jpg",
       "audio": [
-        "assets/audio/migrated/valasske-muzeum-v-prirode.mp3"
+        "/assets/audio/migrated/valasske-muzeum-v-prirode.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/valasske-muzeum-v-prirode-3.jpg"
+        "/assets/images/migrated/valasske-muzeum-v-prirode-3.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2593.2222735600412!2d18.14718161563622!3d49.46141467935108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdf883058aafe0ade!2zNDnCsDI3JzQxLjEiTiAxOMKwMDgnNTcuNyJF!5e0!3m2!1ssk!2ssk!4v1662655042321!5m2!1ssk!2ssk",
@@ -7418,12 +7418,12 @@ const DB = {
       "poradie": 4,
       "nazov": "KAPLE sv. CYRILA A METODĚJE",
       "popis": "",
-      "cover": "assets/images/migrated/kaple-sv-cyrila-a-metodeja.jpg",
+      "cover": "/assets/images/migrated/kaple-sv-cyrila-a-metodeja.jpg",
       "audio": [
-        "assets/audio/migrated/kaple.mp3"
+        "/assets/audio/migrated/kaple.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/kaple-sv-cyrila-a-metodeja.jpg"
+        "/assets/images/migrated/kaple-sv-cyrila-a-metodeja.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2591.608691457133!2d18.220549615637314!3d49.49189827935453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd46fa24cb003ee73!2zNDnCsDI5JzMwLjgiTiAxOMKwMTMnMjEuOSJF!5e0!3m2!1ssk!2ssk!4v1662655222086!5m2!1ssk!2ssk",
@@ -7444,12 +7444,12 @@ const DB = {
       "poradie": 5,
       "nazov": "SOCHA RADEGASTA",
       "popis": "",
-      "cover": "assets/images/migrated/socha-radegasta.jpg",
+      "cover": "/assets/images/migrated/socha-radegasta.jpg",
       "audio": [
-        "assets/audio/migrated/socha.mp3"
+        "/assets/audio/migrated/socha.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/socha-radegasta.jpg"
+        "/assets/images/migrated/socha-radegasta.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2592.102187670639!2d18.250703015636972!3d49.48257667935352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa7f8594118c5d672!2zNDnCsDI4JzU3LjMiTiAxOMKwMTUnMTAuNCJF!5e0!3m2!1ssk!2ssk!4v1662655306416!5m2!1ssk!2ssk",
@@ -7470,12 +7470,12 @@ const DB = {
       "poradie": 6,
       "nazov": "CHATA MAMĚNKA  A LIBUŠÍN",
       "popis": "",
-      "cover": "assets/images/migrated/chata-libusin.jpg",
+      "cover": "/assets/images/migrated/chata-libusin.jpg",
       "audio": [
-        "assets/audio/migrated/chata.mp3"
+        "/assets/audio/migrated/chata.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/chata-libusin.jpg"
+        "/assets/images/migrated/chata-libusin.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2591.735799126436!2d18.26362851563728!3d49.48949747935442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeca8d0d023eb66b5!2zNDnCsDI5JzIyLjIiTiAxOMKwMTUnNTYuOSJF!5e0!3m2!1ssk!2ssk!4v1662655426017!5m2!1ssk!2ssk",
@@ -7496,12 +7496,12 @@ const DB = {
       "poradie": 1,
       "nazov": "ZVONICA",
       "popis": "",
-      "cover": "assets/images/migrated/24-vlkolinec_-zvonica.jpg",
+      "cover": "/assets/images/migrated/24-vlkolinec_-zvonica.jpg",
       "audio": [
-        "assets/audio/migrated/01-zvonica-4.mp3"
+        "/assets/audio/migrated/01-zvonica-4.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/24-vlkolinec_-zvonica.jpg"
+        "/assets/images/migrated/24-vlkolinec_-zvonica.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924.716369944262!2d19.2784346!3d49.0392517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47150817f0eecd49%3A0xab8088b80787ee0a!2sZvoni%C4%8Dka+na+Vlkol%C3%ADnci!5e0!3m2!1ssk!2ssk!4v1522840498823",
@@ -7522,12 +7522,12 @@ const DB = {
       "poradie": 2,
       "nazov": "RÍMSKOKATOLÍCKY KOSTOL NAVŠTÍVENIA PANNY MÁRIE",
       "popis": "",
-      "cover": "assets/images/migrated/23-vlkolinec_-kostol.jpg",
+      "cover": "/assets/images/migrated/23-vlkolinec_-kostol.jpg",
       "audio": [
-        "assets/audio/migrated/03-rimskokatolicky-kostol-navstivenia-panny-marie-1.mp3"
+        "/assets/audio/migrated/03-rimskokatolicky-kostol-navstivenia-panny-marie-1.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/23-vlkolinec_-kostol.jpg"
+        "/assets/images/migrated/23-vlkolinec_-kostol.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924.7121167087856!2d19.279337385495104!3d49.03948046778337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715083d53f4bc53%3A0x80521eb8e47303e7!2zS29zdG9sw61rIE5hdsWhdMOtdmVuaWEgUGFubnkgTcOhcmll!5e0!3m2!1ssk!2ssk!4v1522842380436",
@@ -7548,12 +7548,12 @@ const DB = {
       "poradie": 3,
       "nazov": "POMNÍK OBETIAM ČERNOVSKEJ TRAGÉDIE",
       "popis": "",
-      "cover": "assets/images/migrated/22-pomnik-obetiam-_-cernova.jpg",
+      "cover": "/assets/images/migrated/22-pomnik-obetiam-_-cernova.jpg",
       "audio": [
-        "assets/audio/migrated/07-pamatnik-obetiam-cernovskej-tragedie.mp3"
+        "/assets/audio/migrated/07-pamatnik-obetiam-cernovskej-tragedie.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/22-pomnik-obetiam-_-cernova.jpg"
+        "/assets/images/migrated/22-pomnik-obetiam-_-cernova.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2612.768306715829!2d19.255600601097512!3d49.09104299268536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDA1JzI3LjgiTiAxOcKwMTUnMjQuOSJF!5e0!3m2!1ssk!2ssk!4v1522994773495",
@@ -7574,12 +7574,12 @@ const DB = {
       "poradie": 4,
       "nazov": "KOSTOL RUŽENCOVEJ PANNY MÁRIE",
       "popis": "",
-      "cover": "assets/images/migrated/20-kostol-ruzencovej-panny-marie_-cernova.jpg",
+      "cover": "/assets/images/migrated/20-kostol-ruzencovej-panny-marie_-cernova.jpg",
       "audio": [
-        "assets/audio/migrated/06-kostol-ruzencovej-panny-marie.mp3"
+        "/assets/audio/migrated/06-kostol-ruzencovej-panny-marie.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/20-kostol-ruzencovej-panny-marie_-cernova.jpg"
+        "/assets/images/migrated/20-kostol-ruzencovej-panny-marie_-cernova.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d653.1915555993178!2d19.25713762204226!3d49.09108259811127!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715a860c4f7a459%3A0x3c9b352a9a6de0d4!2sKostol+Panny+M%C3%A1rie+Ru%C5%BEencovej!5e0!3m2!1ssk!2ssk!4v1522844494474",
@@ -7600,12 +7600,12 @@ const DB = {
       "poradie": 5,
       "nazov": "RODNÝ DOM ANDREJA HLINKU",
       "popis": "",
-      "cover": "assets/images/migrated/19-dom-a-hlinku_cernova.jpg",
+      "cover": "/assets/images/migrated/19-dom-a-hlinku_cernova.jpg",
       "audio": [
-        "assets/audio/migrated/05-rodny-dom-andreja-hlinku.mp3"
+        "/assets/audio/migrated/05-rodny-dom-andreja-hlinku.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/19-dom-a-hlinku_cernova.jpg"
+        "/assets/images/migrated/19-dom-a-hlinku_cernova.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d923.733212889786!2d19.256773089400987!3d49.092111471014654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715a86094b525f7%3A0xf485632b2a61530e!2sRodn%C3%BD+dom+Andreja+Hlinku!5e0!3m2!1ssk!2ssk!4v1522845126231",
@@ -7626,12 +7626,12 @@ const DB = {
       "poradie": 6,
       "nazov": "KALVÁRIA",
       "popis": "",
-      "cover": "assets/images/migrated/17-kalvaria.jpg",
+      "cover": "/assets/images/migrated/17-kalvaria.jpg",
       "audio": [
-        "assets/audio/migrated/12-kalvaria.mp3"
+        "/assets/audio/migrated/12-kalvaria.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/17-kalvaria.jpg"
+        "/assets/images/migrated/17-kalvaria.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2690.203613819212!2d19.2862949710302!3d49.07488108017792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715a7dc9be8516d%3A0xc8bca86aa34bab08!2zS29zdG9sIFBvdsO9xaFlbmlhIHN2w6R0w6lobyBLcsOtxb5h!5e0!3m2!1ssk!2ssk!4v1522845662785",
@@ -7652,12 +7652,12 @@ const DB = {
       "poradie": 7,
       "nazov": "MESTSKÝ CINTORÍN",
       "popis": "",
-      "cover": "assets/images/migrated/16-mestsky-cintorin.jpg",
+      "cover": "/assets/images/migrated/16-mestsky-cintorin.jpg",
       "audio": [
-        "assets/audio/migrated/17-mestsky-cintorin.mp3"
+        "/assets/audio/migrated/17-mestsky-cintorin.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/16-mestsky-cintorin.jpg"
+        "/assets/images/migrated/16-mestsky-cintorin.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4793.05604832705!2d19.288033959838405!3d49.078425067593365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe17e4f8980aea4bf!2zQ2ludG9yw61u!5e0!3m2!1ssk!2ssk!4v1522845979672",
@@ -7678,12 +7678,12 @@ const DB = {
       "poradie": 8,
       "nazov": "GALÉRIA ĽUDOVÍTA FULLU",
       "popis": "",
-      "cover": "assets/images/migrated/15-fulova-galeria.jpg",
+      "cover": "/assets/images/migrated/15-fulova-galeria.jpg",
       "audio": [
-        "assets/audio/migrated/24-galeria-ludovita-fullu.mp3"
+        "/assets/audio/migrated/24-galeria-ludovita-fullu.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/15-fulova-galeria.jpg"
+        "/assets/images/migrated/15-fulova-galeria.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2613.220348592986!2d19.297411545725314!3d49.082452904872625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715a7ce5400a33f%3A0x5fdcd5cc3b8fa79b!2zU05HIC0gR2Fsw6lyaWEgxL11ZG92w610YSBGdWxsdQ!5e0!3m2!1ssk!2ssk!4v1522846352554",
@@ -7704,12 +7704,12 @@ const DB = {
       "poradie": 9,
       "nazov": "LIPTOVSKÉ MÚZEUM",
       "popis": "",
-      "cover": "assets/images/migrated/14-lipt-muzeum.jpg",
+      "cover": "/assets/images/migrated/14-lipt-muzeum.jpg",
       "audio": [
-        "assets/audio/migrated/23-liptovske-muzeum.mp3"
+        "/assets/audio/migrated/23-liptovske-muzeum.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/14-lipt-muzeum.jpg"
+        "/assets/images/migrated/14-lipt-muzeum.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3107.687211617832!2d19.29790436889494!3d49.082021750265724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715a7cef95a2dcb%3A0xb4e1b9c231300298!2zTGlwdG92c2vDqSBtw7p6ZXVtIHYgUnXFvm9tYmVya3U!5e0!3m2!1ssk!2ssk!4v1522846899592",
@@ -7730,12 +7730,12 @@ const DB = {
       "poradie": 10,
       "nazov": "EVANJELICKÝ A. V. KOSTOL",
       "popis": "",
-      "cover": "assets/images/migrated/12-evanjelicky-kostol.jpg",
+      "cover": "/assets/images/migrated/12-evanjelicky-kostol.jpg",
       "audio": [
-        "assets/audio/migrated/15-evanjelicky-kostol.mp3"
+        "/assets/audio/migrated/15-evanjelicky-kostol.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/12-evanjelicky-kostol.jpg"
+        "/assets/images/migrated/12-evanjelicky-kostol.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5226.187352661069!2d19.297683552836002!3d49.084859126712765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715a7cc36bf22d3%3A0xbd133b27c8e6d4a8!2sEvanjelick%C3%BD+kostol!5e0!3m2!1ssk!2ssk!4v1522847265186",
@@ -7756,12 +7756,12 @@ const DB = {
       "poradie": 11,
       "nazov": "KULTÚRNY DOM ANDREJA HLINKU",
       "popis": "",
-      "cover": "assets/images/migrated/11-kult-dom-a-hlinku.jpg",
+      "cover": "/assets/images/migrated/11-kult-dom-a-hlinku.jpg",
       "audio": [
-        "assets/audio/migrated/16-kulturny-dom-andreja-hlinku.mp3"
+        "/assets/audio/migrated/16-kulturny-dom-andreja-hlinku.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/11-kult-dom-a-hlinku.jpg"
+        "/assets/images/migrated/11-kult-dom-a-hlinku.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2613.1657511987582!2d19.301698612800127!3d49.08349047069304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715a7c940d8edad%3A0x5f322c1bc79331fb!2sKULT%C3%9ARNY+DOM+ANDREJA+HLINKU+a.s.!5e0!3m2!1ssk!2ssk!4v1522847520919",
@@ -7782,12 +7782,12 @@ const DB = {
       "poradie": 12,
       "nazov": "RADNICA",
       "popis": "",
-      "cover": "assets/images/migrated/8-radnica.jpg",
+      "cover": "/assets/images/migrated/8-radnica.jpg",
       "audio": [
-        "assets/audio/migrated/18-radnica.mp3"
+        "/assets/audio/migrated/18-radnica.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/8-radnica.jpg"
+        "/assets/images/migrated/8-radnica.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1646.250561441237!2d19.30293992072767!3d49.08170314231109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc37a06a0bcd57466!2sTown+Hall!5e0!3m2!1ssk!2ssk!4v1522847921790",
@@ -7808,12 +7808,12 @@ const DB = {
       "poradie": 13,
       "nazov": "RÍMSKOKATOLÍCKY KOSTOL SV. ONDREJA",
       "popis": "",
-      "cover": "assets/images/migrated/6-kostol-sv-ondreja.jpg",
+      "cover": "/assets/images/migrated/6-kostol-sv-ondreja.jpg",
       "audio": [
-        "assets/audio/migrated/11-rimskokatolicky-kostol-sv-ondreja-1.mp3"
+        "/assets/audio/migrated/11-rimskokatolicky-kostol-sv-ondreja-1.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/6-kostol-sv-ondreja.jpg"
+        "/assets/images/migrated/6-kostol-sv-ondreja.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1306.634782589815!2d19.303501864980923!3d49.08151758166057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715a7c96c8fbcdb%3A0x5561f6883f39adcc!2sKostol+sv.+Ondreja!5e0!3m2!1ssk!2ssk!4v1522848091563",
@@ -7834,12 +7834,12 @@ const DB = {
       "poradie": 14,
       "nazov": "MAUZÓLEUM ANDREJA  HLINKU",
       "popis": "",
-      "cover": "assets/images/migrated/7-mauzoleum-a-hlinku.jpg",
+      "cover": "/assets/images/migrated/7-mauzoleum-a-hlinku.jpg",
       "audio": [
-        "assets/audio/migrated/21-mauzoleum-andreja-hlinku.mp3"
+        "/assets/audio/migrated/21-mauzoleum-andreja-hlinku.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/7-mauzoleum-a-hlinku.jpg"
+        "/assets/images/migrated/7-mauzoleum-a-hlinku.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1098.7473294688261!2d19.304124785920333!3d49.081389902450915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715a7c912e38e27%3A0x9d74268e61b8848b!2sMauz%C3%B3leum+Andreja+Hlinku!5e0!3m2!1ssk!2ssk!4v1522848397415",
@@ -7860,12 +7860,12 @@ const DB = {
       "poradie": 15,
       "nazov": "PIARISTICKÉ GYMNÁZIUM",
       "popis": "",
-      "cover": "assets/images/migrated/5-piaristicke-gymnazium.jpg",
+      "cover": "/assets/images/migrated/5-piaristicke-gymnazium.jpg",
       "audio": [
-        "assets/audio/migrated/22-piaristicke-gymnazium.mp3"
+        "/assets/audio/migrated/22-piaristicke-gymnazium.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/5-piaristicke-gymnazium.jpg"
+        "/assets/images/migrated/5-piaristicke-gymnazium.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2613.388777634208!2d19.297474938034664!3d49.07925198619092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDA0JzQ1LjMiTiAxOcKwMTcnNTcuNCJF!5e0!3m2!1ssk!2ssk!4v1522995650402",
@@ -7886,12 +7886,12 @@ const DB = {
       "poradie": 16,
       "nazov": "NÁMESTIE ANDREJA HLINKU",
       "popis": "",
-      "cover": "assets/images/migrated/1-2-namestie-a-hlinku.jpg",
+      "cover": "/assets/images/migrated/1-2-namestie-a-hlinku.jpg",
       "audio": [
-        "assets/audio/migrated/26-namestie-andreja-hlinku.mp3"
+        "/assets/audio/migrated/26-namestie-andreja-hlinku.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/1-2-namestie-a-hlinku.jpg"
+        "/assets/images/migrated/1-2-namestie-a-hlinku.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2613.2747009625805!2d19.300603316227246!3d49.08141997931013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDA0JzUzLjEiTiAxOcKwMTgnMTAuMSJF!5e0!3m2!1ssk!2ssk!4v1522929486027",
@@ -7912,12 +7912,12 @@ const DB = {
       "poradie": 17,
       "nazov": "MARIÁNSKY STĹP – SOCHA IMACCULATA",
       "popis": "",
-      "cover": "assets/images/migrated/1-2-namestie-a-hlinku.jpg",
+      "cover": "/assets/images/migrated/1-2-namestie-a-hlinku.jpg",
       "audio": [
-        "assets/audio/migrated/20-mariansky-stlp-socha-imacculata.mp3"
+        "/assets/audio/migrated/20-mariansky-stlp-socha-imacculata.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/1-2-namestie-a-hlinku.jpg"
+        "/assets/images/migrated/1-2-namestie-a-hlinku.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2613.2747009625805!2d19.300603316227246!3d49.08141997931013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDA0JzUzLjEiTiAxOcKwMTgnMTAuMSJF!5e0!3m2!1ssk!2ssk!4v1522929569592",
@@ -7938,12 +7938,12 @@ const DB = {
       "poradie": 18,
       "nazov": "RÍMSKOKATOLÍCKY KOSTOL POVÝŠENIA SV. KRÍŽA",
       "popis": "",
-      "cover": "assets/images/migrated/3-4-kostol-pov-sv-kriza_-kolegium-piaristov.jpg",
+      "cover": "/assets/images/migrated/3-4-kostol-pov-sv-kriza_-kolegium-piaristov.jpg",
       "audio": [
-        "assets/audio/migrated/13-rimskokatolicky-kostol-povysenia-sv-kriza.mp3"
+        "/assets/audio/migrated/13-rimskokatolicky-kostol-povysenia-sv-kriza.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/3-4-kostol-pov-sv-kriza_-kolegium-piaristov.jpg"
+        "/assets/images/migrated/3-4-kostol-pov-sv-kriza_-kolegium-piaristov.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4148.359531601819!2d19.295661363556967!3d49.080888666450626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715a7cf4710be8d%3A0x43ea9a128da11d9d!2zS29zdG9sIHBvdsO9xaFlbmlhIFN2w6R0w6lobyBrcsOtxb5h!5e0!3m2!1ssk!2ssk!4v1522923064616",
@@ -7964,12 +7964,12 @@ const DB = {
       "poradie": 19,
       "nazov": "KOLÉGIUM PIARISTOV",
       "popis": "",
-      "cover": "assets/images/migrated/3-4-kostol-pov-sv-kriza_-kolegium-piaristov.jpg",
+      "cover": "/assets/images/migrated/3-4-kostol-pov-sv-kriza_-kolegium-piaristov.jpg",
       "audio": [
-        "assets/audio/migrated/19-kolegium-piaristov.mp3"
+        "/assets/audio/migrated/19-kolegium-piaristov.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/3-4-kostol-pov-sv-kriza_-kolegium-piaristov.jpg"
+        "/assets/images/migrated/3-4-kostol-pov-sv-kriza_-kolegium-piaristov.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2613.369677720535!2d19.296473316227193!3d49.07961497930974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDA0JzQ2LjYiTiAxOcKwMTcnNTUuMiJF!5e0!3m2!1ssk!2ssk!4v1522929332776",
@@ -7990,12 +7990,12 @@ const DB = {
       "poradie": 20,
       "nazov": "SYNAGÓGA",
       "popis": "",
-      "cover": "assets/images/migrated/9-synagoga.jpg",
+      "cover": "/assets/images/migrated/9-synagoga.jpg",
       "audio": [
-        "assets/audio/migrated/14-sinagoga.mp3"
+        "/assets/audio/migrated/14-sinagoga.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/9-synagoga.jpg"
+        "/assets/images/migrated/9-synagoga.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2466.5827710962817!2d19.302772926872493!3d49.08182415981736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715a7c99cc77e37%3A0x3900a53ec16d86ed!2zU3luYWfDs2dh!5e0!3m2!1ssk!2ssk!4v1522923931575",
@@ -8016,12 +8016,12 @@ const DB = {
       "poradie": 21,
       "nazov": "SLOVENSKÁ BANKA",
       "popis": "",
-      "cover": "assets/images/migrated/10-kniznica.jpg",
+      "cover": "/assets/images/migrated/10-kniznica.jpg",
       "audio": [
-        "assets/audio/migrated/25-slovenska-banka.mp3"
+        "/assets/audio/migrated/25-slovenska-banka.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/10-kniznica.jpg"
+        "/assets/images/migrated/10-kniznica.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d923.9271082262688!2d19.304588987097024!3d49.08168996970218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715a7c97a679e05%3A0xf2f2cb9f73ec4133!2sPodhora+1297%2F33%2C+034+01+Ru%C5%BEomberok!5e0!3m2!1ssk!2ssk!4v1522924950665",
@@ -8042,12 +8042,12 @@ const DB = {
       "poradie": 22,
       "nazov": "STUDŇA",
       "popis": "",
-      "cover": "assets/images/migrated/25-vlkolinec_studna.jpg",
+      "cover": "/assets/images/migrated/25-vlkolinec_studna.jpg",
       "audio": [
-        "assets/audio/migrated/02-studna.mp3"
+        "/assets/audio/migrated/02-studna.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/25-vlkolinec_studna.jpg"
+        "/assets/images/migrated/25-vlkolinec_studna.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d653.8731462025606!2d19.27784482928482!3d49.039256998706605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDAyJzIxLjMiTiAxOcKwMTYnNDIuMiJF!5e0!3m2!1ssk!2ssk!4v1522925848331",
@@ -8068,12 +8068,12 @@ const DB = {
       "poradie": 23,
       "nazov": "ROĽNÍCKY DOM",
       "popis": "",
-      "cover": "assets/images/migrated/26-vlkolinec_rolnicky-dom.jpg",
+      "cover": "/assets/images/migrated/26-vlkolinec_rolnicky-dom.jpg",
       "audio": [
-        "assets/audio/migrated/04-rolnicky-dom.mp3"
+        "/assets/audio/migrated/04-rolnicky-dom.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/26-vlkolinec_rolnicky-dom.jpg"
+        "/assets/images/migrated/26-vlkolinec_rolnicky-dom.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d653.8807842626173!2d19.276792829284837!3d49.038675998706616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDAyJzE5LjIiTiAxOcKwMTYnMzguNCJF!5e0!3m2!1ssk!2ssk!4v1522926352359",
@@ -8094,12 +8094,12 @@ const DB = {
       "poradie": 24,
       "nazov": "POMNÍK „SLOBODA SLOVENSKÉHO NÁRODA“",
       "popis": "",
-      "cover": "assets/images/migrated/13-socha-slobody_-obetiam-ii-sv-vojny.jpg",
+      "cover": "/assets/images/migrated/13-socha-slobody_-obetiam-ii-sv-vojny.jpg",
       "audio": [
-        "assets/audio/migrated/10-pomnik-sloboda-slovenskeho-naroda.mp3"
+        "/assets/audio/migrated/10-pomnik-sloboda-slovenskeho-naroda.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/13-socha-slobody_-obetiam-ii-sv-vojny.jpg"
+        "/assets/images/migrated/13-socha-slobody_-obetiam-ii-sv-vojny.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2613.1954552119746!2d19.29623531622733!3d49.082925979310126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDA0JzU4LjUiTiAxOcKwMTcnNTQuMyJF!5e0!3m2!1ssk!2ssk!4v1522927639699",
@@ -8120,12 +8120,12 @@ const DB = {
       "poradie": 25,
       "nazov": "MIESTO TRAGICKÝCH UDALOSTÍ",
       "popis": "",
-      "cover": "assets/images/migrated/21-miesto-strelby_-cernova.jpg",
+      "cover": "/assets/images/migrated/21-miesto-strelby_-cernova.jpg",
       "audio": [
-        "assets/audio/migrated/08-miesto-tragickych-udalosti.mp3"
+        "/assets/audio/migrated/08-miesto-tragickych-udalosti.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/21-miesto-strelby_-cernova.jpg"
+        "/assets/images/migrated/21-miesto-strelby_-cernova.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2612.6643147547416!2d19.256459316227456!3d49.0930189793111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDA1JzM0LjkiTiAxOcKwMTUnMzEuMSJF!5e0!3m2!1ssk!2ssk!4v1522929184981",
@@ -8146,12 +8146,12 @@ const DB = {
       "poradie": 26,
       "nazov": "VLÁČIK KORYTKO NA ŽELEZNIČNEJ STANICI",
       "popis": "",
-      "cover": "assets/images/migrated/18-vlacik-korytko-na-zs.jpg",
+      "cover": "/assets/images/migrated/18-vlacik-korytko-na-zs.jpg",
       "audio": [
-        "assets/audio/migrated/09-zeleznicna-stanica.mp3"
+        "/assets/audio/migrated/09-zeleznicna-stanica.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/18-vlacik-korytko-na-zs.jpg"
+        "/assets/images/migrated/18-vlacik-korytko-na-zs.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d653.3019813139591!2d19.308157829284912!3d49.082688998706864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDA0JzU3LjciTiAxOcKwMTgnMzEuMyJF!5e0!3m2!1ssk!2ssk!4v1522930009791",
@@ -8172,10 +8172,10 @@ const DB = {
       "poradie": 1,
       "nazov": "Kaštieľ Sokolovce",
       "popis": "",
-      "cover": "assets/images/migrated/kastiel-sokolovce.jpg",
+      "cover": "/assets/images/migrated/kastiel-sokolovce.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/kastiel-sokolovce.jpg"
+        "/assets/images/migrated/kastiel-sokolovce.jpg"
       ],
       "gps": {
         "lat": 48.5358319,
@@ -8199,12 +8199,12 @@ const DB = {
       "poradie": 1,
       "nazov": "Mestský park",
       "popis": "",
-      "cover": "assets/images/migrated/009.jpg",
+      "cover": "/assets/images/migrated/009.jpg",
       "audio": [
-        "assets/audio/migrated/09-mestsky-park.mp3"
+        "/assets/audio/migrated/09-mestsky-park.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/009.jpg"
+        "/assets/images/migrated/009.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7459.473524814148!2d21.722607129581974!3d48.622816980895905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47392ac65b16dfa9%3A0x90b571ca34957336!2sMestsk%C3%BD+park+Trebi%C5%A1ov!5e0!3m2!1ssk!2ssk!4v1528872271380",
@@ -8225,12 +8225,12 @@ const DB = {
       "poradie": 2,
       "nazov": "Mauzóleum grófa Júliusa Andrássyho",
       "popis": "",
-      "cover": "assets/images/migrated/003.jpg",
+      "cover": "/assets/images/migrated/003.jpg",
       "audio": [
-        "assets/audio/migrated/08-mauzoleum-grofa-juliusa-andrassyho.mp3"
+        "/assets/audio/migrated/08-mauzoleum-grofa-juliusa-andrassyho.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/003.jpg"
+        "/assets/images/migrated/003.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4978.60491320314!2d21.722810662353595!3d48.622779760038576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47392ac66d639cc7%3A0x69c48216952b413f!2zTWF1esOzbGV1bSByb2RpbnkgZ3LDs2ZhIErDumxpdXNhIEFuZHLDoXNzeWhv!5e0!3m2!1ssk!2ssk!4v1528872419269",
@@ -8251,12 +8251,12 @@ const DB = {
       "poradie": 3,
       "nazov": "Pavlínsky kláštor",
       "popis": "",
-      "cover": "assets/images/migrated/001.jpg",
+      "cover": "/assets/images/migrated/001.jpg",
       "audio": [
-        "assets/audio/migrated/07-paulinsky-klastor.mp3"
+        "/assets/audio/migrated/07-paulinsky-klastor.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/001.jpg"
+        "/assets/images/migrated/001.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2637.350605879921!2d21.71876131572889!3d48.6222725252566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDM3JzIwLjIiTiAyMcKwNDMnMTUuNCJF!5e0!3m2!1ssk!2ssk!4v1528874561240",
@@ -8277,12 +8277,12 @@ const DB = {
       "poradie": 4,
       "nazov": "Barokovo-klasicistický kaštieľ",
       "popis": "",
-      "cover": "assets/images/migrated/003-1.jpg",
+      "cover": "/assets/images/migrated/003-1.jpg",
       "audio": [
-        "assets/audio/migrated/06-barokovo-klasicisticky-kastiel-1.mp3"
+        "/assets/audio/migrated/06-barokovo-klasicisticky-kastiel-1.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/003-1.jpg"
+        "/assets/images/migrated/003-1.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1864.9911956602461!2d21.720026678587917!3d48.619492934243134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDM3JzEwLjYiTiAyMcKwNDMnMTYuMCJF!5e0!3m2!1ssk!2ssk!4v1528875321061",
@@ -8303,12 +8303,12 @@ const DB = {
       "poradie": 5,
       "nazov": "Mariánske súsošie",
       "popis": "",
-      "cover": "assets/images/migrated/002.jpg",
+      "cover": "/assets/images/migrated/002.jpg",
       "audio": [
-        "assets/audio/migrated/05-marianske-susosie.mp3"
+        "/assets/audio/migrated/05-marianske-susosie.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/002.jpg"
+        "/assets/images/migrated/002.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1318.6608332841422!2d21.719223882297673!3d48.62282636167004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47392ac9232a0a09%3A0xbcd6287459f481c2!2zTWFyacOhbnNrZSBzw7pzb8WhaWU!5e0!3m2!1ssk!2ssk!4v1528875920057",
@@ -8329,12 +8329,12 @@ const DB = {
       "poradie": 6,
       "nazov": "Nížinný vodný hrad Parič",
       "popis": "",
-      "cover": "assets/images/migrated/hir_2186-hdr.jpg",
+      "cover": "/assets/images/migrated/hir_2186-hdr.jpg",
       "audio": [
-        "assets/audio/migrated/04-nizinny-vodny-hrad-paric.mp3"
+        "/assets/audio/migrated/04-nizinny-vodny-hrad-paric.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/hir_2186-hdr.jpg"
+        "/assets/images/migrated/hir_2186-hdr.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1438.0550752730958!2d21.72638311986476!3d48.62123743481565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47392ac65d69fbe3%3A0x9e2c7cf3135f0062!2sHrad+Pari%C4%8D!5e0!3m2!1ssk!2ssk!4v1528876104940",
@@ -8355,12 +8355,12 @@ const DB = {
       "poradie": 7,
       "nazov": "Gréckokatolícky chrám Zosnutia presvätej Bohorodičky",
       "popis": "",
-      "cover": "assets/images/migrated/003-2.jpg",
+      "cover": "/assets/images/migrated/003-2.jpg",
       "audio": [
-        "assets/audio/migrated/03-greckokatolicky-chram-zosnutia-presvatej-bohorodicky.mp3"
+        "/assets/audio/migrated/03-greckokatolicky-chram-zosnutia-presvatej-bohorodicky.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/003-2.jpg"
+        "/assets/images/migrated/003-2.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2637.3041533320074!2d21.71836131572896!3d48.6231615251944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDM3JzIzLjQiTiAyMcKwNDMnMTQuMCJF!5e0!3m2!1ssk!2ssk!4v1528876438833",
@@ -8381,12 +8381,12 @@ const DB = {
       "poradie": 8,
       "nazov": "Rímskokatolícky kostol Návštevy Panny Márie",
       "popis": "",
-      "cover": "assets/images/migrated/002-1.jpg",
+      "cover": "/assets/images/migrated/002-1.jpg",
       "audio": [
-        "assets/audio/migrated/02-rimskokatolicky-kostol-navstevy-panny-marie.mp3"
+        "/assets/audio/migrated/02-rimskokatolicky-kostol-navstevy-panny-marie.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/002-1.jpg"
+        "/assets/images/migrated/002-1.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1318.6788048289857!2d21.719758772011975!3d48.62213848724366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDM3JzE5LjciTiAyMcKwNDMnMTQuNCJF!5e0!3m2!1ssk!2ssk!4v1528876606436",
@@ -8409,7 +8409,7 @@ const DB = {
       "popis": "",
       "cover": "",
       "audio": [
-        "assets/audio/migrated/01-romansky-kostol-svateho-ducha.mp3"
+        "/assets/audio/migrated/01-romansky-kostol-svateho-ducha.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -8431,12 +8431,12 @@ const DB = {
       "poradie": 1,
       "nazov": "Kostol Nanebovzatia Panny Márie – Pomník padlým v 1. sv. vojne",
       "popis": "",
-      "cover": "assets/images/migrated/1-1.jpg",
+      "cover": "/assets/images/migrated/1-1.jpg",
       "audio": [
-        "assets/audio/migrated/1-the-church-of-the-assumption-of-the-virgin-mary-the-memorial-of-the-fallen-in-the-1st-world-war-12.mp3"
+        "/assets/audio/migrated/1-the-church-of-the-assumption-of-the-virgin-mary-the-memorial-of-the-fallen-in-the-1st-world-war-12.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/1-1.jpg"
+        "/assets/images/migrated/1-1.jpg"
       ],
       "gps": {
         "lat": 49.405817,
@@ -8460,12 +8460,12 @@ const DB = {
       "poradie": 2,
       "nazov": "Múzeum Karola Točíka",
       "popis": "",
-      "cover": "assets/images/migrated/2.jpg",
+      "cover": "/assets/images/migrated/2.jpg",
       "audio": [
-        "assets/audio/migrated/2-the-town-museum-of-karol-tocik.mp3"
+        "/assets/audio/migrated/2-the-town-museum-of-karol-tocik.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/2.jpg"
+        "/assets/images/migrated/2.jpg"
       ],
       "gps": {
         "lat": 49.404162,
@@ -8489,12 +8489,12 @@ const DB = {
       "poradie": 3,
       "nazov": "Rybníky",
       "popis": "",
-      "cover": "assets/images/migrated/12.jpg",
+      "cover": "/assets/images/migrated/12.jpg",
       "audio": [
-        "assets/audio/migrated/12-ponds.mp3"
+        "/assets/audio/migrated/12-ponds.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/12.jpg"
+        "/assets/images/migrated/12.jpg"
       ],
       "gps": {
         "lat": 49.419162,
@@ -8518,12 +8518,12 @@ const DB = {
       "poradie": 4,
       "nazov": "Prírodný amfiteáter – história beskydských slávností",
       "popis": "",
-      "cover": "assets/images/migrated/11.jpg",
+      "cover": "/assets/images/migrated/11.jpg",
       "audio": [
-        "assets/audio/migrated/11-natural-amphitheater-history-of-beskydy-festival-2.mp3"
+        "/assets/audio/migrated/11-natural-amphitheater-history-of-beskydy-festival-2.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/11.jpg"
+        "/assets/images/migrated/11.jpg"
       ],
       "gps": {
         "lat": 49.401528,
@@ -8547,12 +8547,12 @@ const DB = {
       "poradie": 5,
       "nazov": "Lyžiarske stredisko Bukovina, Javornícko – beskydská magistrála",
       "popis": "",
-      "cover": "assets/images/migrated/bukovina-2.jpg",
+      "cover": "/assets/images/migrated/bukovina-2.jpg",
       "audio": [
-        "assets/audio/migrated/10-the-ski-areal-bukovina.mp3"
+        "/assets/audio/migrated/10-the-ski-areal-bukovina.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/bukovina-2.jpg"
+        "/assets/images/migrated/bukovina-2.jpg"
       ],
       "gps": {
         "lat": 49.398615,
@@ -8576,12 +8576,12 @@ const DB = {
       "poradie": 6,
       "nazov": "Kamenná guľa pred Mestským úradom",
       "popis": "",
-      "cover": "assets/images/migrated/9.jpg",
+      "cover": "/assets/images/migrated/9.jpg",
       "audio": [
-        "assets/audio/migrated/9-the-stone-sphere-in-front-of-the-town-hall-on-the-occasion-of-the-1st-world-meeting-of-turzovka-people-2.mp3"
+        "/assets/audio/migrated/9-the-stone-sphere-in-front-of-the-town-hall-on-the-occasion-of-the-1st-world-meeting-of-turzovka-people-2.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/9.jpg"
+        "/assets/images/migrated/9.jpg"
       ],
       "gps": {
         "lat": 49.403882,
@@ -8605,12 +8605,12 @@ const DB = {
       "poradie": 7,
       "nazov": "Námestie Juraja Thurzu",
       "popis": "",
-      "cover": "assets/images/migrated/7.jpg",
+      "cover": "/assets/images/migrated/7.jpg",
       "audio": [
-        "assets/audio/migrated/7-the-square-of-juraj-thurza.mp3"
+        "/assets/audio/migrated/7-the-square-of-juraj-thurza.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/7.jpg"
+        "/assets/images/migrated/7.jpg"
       ],
       "gps": {
         "lat": 49.403598,
@@ -8634,12 +8634,12 @@ const DB = {
       "poradie": 8,
       "nazov": "Areál športu a oddychu, Skatepark",
       "popis": "",
-      "cover": "assets/images/migrated/5.jpg",
+      "cover": "/assets/images/migrated/5.jpg",
       "audio": [
-        "assets/audio/migrated/5-the-sport-and-recreation-centre-the-skatepark.mp3"
+        "/assets/audio/migrated/5-the-sport-and-recreation-centre-the-skatepark.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/5.jpg"
+        "/assets/images/migrated/5.jpg"
       ],
       "gps": {
         "lat": 49.401766,
@@ -8663,12 +8663,12 @@ const DB = {
       "poradie": 9,
       "nazov": "Park Drotára a Džarka, Prícestný stĺp Jána Nepomuckého, Súsošie Drotára a Džarka",
       "popis": "",
-      "cover": "assets/images/migrated/4-2.jpg",
+      "cover": "/assets/images/migrated/4-2.jpg",
       "audio": [
-        "assets/audio/migrated/4-the-park-of-tinker-and-young-tinker-drotar-and-dzrek-the-pillar-of-jan-nepomuk-the-sculpture-of-tinker-and-young-tinker.mp3"
+        "/assets/audio/migrated/4-the-park-of-tinker-and-young-tinker-drotar-and-dzrek-the-pillar-of-jan-nepomuk-the-sculpture-of-tinker-and-young-tinker.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/4-2.jpg"
+        "/assets/images/migrated/4-2.jpg"
       ],
       "gps": {
         "lat": 49.403284,
@@ -8692,12 +8692,12 @@ const DB = {
       "poradie": 10,
       "nazov": "Hasičské Hobby múzeum",
       "popis": "",
-      "cover": "assets/images/migrated/hasicske-hobby-muzeum.jpg",
+      "cover": "/assets/images/migrated/hasicske-hobby-muzeum.jpg",
       "audio": [
-        "assets/audio/migrated/3-the-firemen-s-hobby-museum.mp3"
+        "/assets/audio/migrated/3-the-firemen-s-hobby-museum.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/hasicske-hobby-muzeum.jpg"
+        "/assets/images/migrated/hasicske-hobby-muzeum.jpg"
       ],
       "gps": {
         "lat": 49.39586,
@@ -8721,12 +8721,12 @@ const DB = {
       "poradie": 1,
       "nazov": "Pamätná tabuľa a izba Rudolfa Jašíka",
       "popis": "",
-      "cover": "assets/images/migrated/jasik.jpg",
+      "cover": "/assets/images/migrated/jasik.jpg",
       "audio": [
-        "assets/audio/migrated/8-1-the-memorial-table-and-the-room-of-rudolf-jasik.mp3"
+        "/assets/audio/migrated/8-1-the-memorial-table-and-the-room-of-rudolf-jasik.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/jasik.jpg"
+        "/assets/images/migrated/jasik.jpg"
       ],
       "gps": {
         "lat": 49.404348,
@@ -8750,12 +8750,12 @@ const DB = {
       "poradie": 2,
       "nazov": "Pamätník M. R. Štefánika",
       "popis": "",
-      "cover": "assets/images/migrated/8.jpg",
+      "cover": "/assets/images/migrated/8.jpg",
       "audio": [
-        "assets/audio/migrated/8-2-the-monument-of-m-r-stefanika-4.mp3"
+        "/assets/audio/migrated/8-2-the-monument-of-m-r-stefanika-4.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/8.jpg"
+        "/assets/images/migrated/8.jpg"
       ],
       "gps": {
         "lat": 49.402188,
@@ -8779,12 +8779,12 @@ const DB = {
       "poradie": 3,
       "nazov": "Pamätník Tomáša Uhorčíka",
       "popis": "",
-      "cover": "assets/images/migrated/uhorcik.jpg",
+      "cover": "/assets/images/migrated/uhorcik.jpg",
       "audio": [
-        "assets/audio/migrated/8-3-the-monument-of-tomas-uhorcik.mp3"
+        "/assets/audio/migrated/8-3-the-monument-of-tomas-uhorcik.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/uhorcik.jpg"
+        "/assets/images/migrated/uhorcik.jpg"
       ],
       "gps": {
         "lat": 49.404743,
@@ -8810,7 +8810,7 @@ const DB = {
       "popis": "",
       "cover": "",
       "audio": [
-        "assets/audio/migrated/8-4-the-memorial-table-in-the-park-of-natives.mp3"
+        "/assets/audio/migrated/8-4-the-memorial-table-in-the-park-of-natives.mp3"
       ],
       "galeria": [],
       "gps": {
@@ -8835,12 +8835,12 @@ const DB = {
       "poradie": 1,
       "nazov": "Kaplnka Panny Márie ustavičnej pomoci U Okuliarov",
       "popis": "",
-      "cover": "assets/images/migrated/u-koliarov.jpg",
+      "cover": "/assets/images/migrated/u-koliarov.jpg",
       "audio": [
-        "assets/audio/migrated/6-1-the-chapel-of-virgin-mary-s-perpetual-help-in-settlement-u-okruhliakov.mp3"
+        "/assets/audio/migrated/6-1-the-chapel-of-virgin-mary-s-perpetual-help-in-settlement-u-okruhliakov.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/u-koliarov.jpg"
+        "/assets/images/migrated/u-koliarov.jpg"
       ],
       "gps": {
         "lat": 49.406749,
@@ -8864,12 +8864,12 @@ const DB = {
       "poradie": 2,
       "nazov": "Kaplnka Panny Márie Lurdskej pri motoreste",
       "popis": "",
-      "cover": "assets/images/migrated/u-mravca.jpg",
+      "cover": "/assets/images/migrated/u-mravca.jpg",
       "audio": [
-        "assets/audio/migrated/6-2-the-chapel-of-the-virgin-mary-lourdes.mp3"
+        "/assets/audio/migrated/6-2-the-chapel-of-the-virgin-mary-lourdes.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/u-mravca.jpg"
+        "/assets/images/migrated/u-mravca.jpg"
       ],
       "gps": {
         "lat": 49.405104,
@@ -8893,12 +8893,12 @@ const DB = {
       "poradie": 3,
       "nazov": "Kaplnka na Javorovej ulici",
       "popis": "",
-      "cover": "assets/images/migrated/javorova.jpg",
+      "cover": "/assets/images/migrated/javorova.jpg",
       "audio": [
-        "assets/audio/migrated/6-3-the-chapel-on-the-javorova-street.mp3"
+        "/assets/audio/migrated/6-3-the-chapel-on-the-javorova-street.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/javorova.jpg"
+        "/assets/images/migrated/javorova.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -8919,12 +8919,12 @@ const DB = {
       "poradie": 4,
       "nazov": "Kaplnka Panny Márie Škapuliarskej",
       "popis": "",
-      "cover": "assets/images/migrated/skapuliarska.jpg",
+      "cover": "/assets/images/migrated/skapuliarska.jpg",
       "audio": [
-        "assets/audio/migrated/6-4-the-chapel-of-the-virgin-mary-skapuliarskej.mp3"
+        "/assets/audio/migrated/6-4-the-chapel-of-the-virgin-mary-skapuliarskej.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/skapuliarska.jpg"
+        "/assets/images/migrated/skapuliarska.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -8945,12 +8945,12 @@ const DB = {
       "poradie": 5,
       "nazov": "Kaplnka Sedembolestnej Panny Márie U Blažkov",
       "popis": "",
-      "cover": "assets/images/migrated/u-blazkov.jpg",
+      "cover": "/assets/images/migrated/u-blazkov.jpg",
       "audio": [
-        "assets/audio/migrated/6-5-the-chapel-of-senven-sorrows-viring-mary-in-u-blazkov.mp3"
+        "/assets/audio/migrated/6-5-the-chapel-of-senven-sorrows-viring-mary-in-u-blazkov.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/u-blazkov.jpg"
+        "/assets/images/migrated/u-blazkov.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -8971,12 +8971,12 @@ const DB = {
       "poradie": 6,
       "nazov": "Kaplnka Najsvätejšieho Srdca Panny Márie",
       "popis": "",
-      "cover": "assets/images/migrated/kaplnka-hlinene-najsv-srdca-p-marie.jpg",
+      "cover": "/assets/images/migrated/kaplnka-hlinene-najsv-srdca-p-marie.jpg",
       "audio": [
-        "assets/audio/migrated/6-6-the-chapel-of-the-most-holy-heart-of-virgin-mary-8.mp3"
+        "/assets/audio/migrated/6-6-the-chapel-of-the-most-holy-heart-of-virgin-mary-8.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/kaplnka-hlinene-najsv-srdca-p-marie.jpg"
+        "/assets/images/migrated/kaplnka-hlinene-najsv-srdca-p-marie.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -8997,12 +8997,12 @@ const DB = {
       "poradie": 7,
       "nazov": "Kostol Fatimskej Panny Márie",
       "popis": "",
-      "cover": "assets/images/migrated/kostol-turkov.jpg",
+      "cover": "/assets/images/migrated/kostol-turkov.jpg",
       "audio": [
-        "assets/audio/migrated/6-7-the-church-of-the-virgin-mary-of-fatima.mp3"
+        "/assets/audio/migrated/6-7-the-church-of-the-virgin-mary-of-fatima.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/kostol-turkov.jpg"
+        "/assets/images/migrated/kostol-turkov.jpg"
       ],
       "gps": {
         "lat": 49.371677,
@@ -9026,12 +9026,12 @@ const DB = {
       "poradie": 8,
       "nazov": "Kaplnka Sedembolestnej Panny Márie",
       "popis": "",
-      "cover": "assets/images/migrated/kaplnka-sedembolestnej-panny.jpg",
+      "cover": "/assets/images/migrated/kaplnka-sedembolestnej-panny.jpg",
       "audio": [
-        "assets/audio/migrated/6-8-the-chapel-of-the-seven-sorrow-virgin-mary.mp3"
+        "/assets/audio/migrated/6-8-the-chapel-of-the-seven-sorrow-virgin-mary.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/kaplnka-sedembolestnej-panny.jpg"
+        "/assets/images/migrated/kaplnka-sedembolestnej-panny.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -9052,12 +9052,12 @@ const DB = {
       "poradie": 9,
       "nazov": "Živčáková – mariánske pútnické miesto",
       "popis": "",
-      "cover": "assets/images/migrated/zivcakova.jpg",
+      "cover": "/assets/images/migrated/zivcakova.jpg",
       "audio": [
-        "assets/audio/migrated/6-9-zivcakova-marian-pilgrimage-place-3.mp3"
+        "/assets/audio/migrated/6-9-zivcakova-marian-pilgrimage-place-3.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zivcakova.jpg"
+        "/assets/images/migrated/zivcakova.jpg"
       ],
       "gps": {
         "lat": 49.394379,
@@ -9081,12 +9081,12 @@ const DB = {
       "poradie": 10,
       "nazov": "Kaplnka Panny Márie Kráľovnej pokoja, Živčáková",
       "popis": "",
-      "cover": "assets/images/migrated/zivcakova-kaplnka.jpg",
+      "cover": "/assets/images/migrated/zivcakova-kaplnka.jpg",
       "audio": [
-        "assets/audio/migrated/6-10-the-chapel-of-the-virgin-mary-queen-of-peace.mp3"
+        "/assets/audio/migrated/6-10-the-chapel-of-the-virgin-mary-queen-of-peace.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zivcakova-kaplnka.jpg"
+        "/assets/images/migrated/zivcakova-kaplnka.jpg"
       ],
       "gps": {
         "lat": 49.394385,
@@ -9110,12 +9110,12 @@ const DB = {
       "poradie": 11,
       "nazov": "Kostol Panny Márie Matky Cirkvi, Živčáková",
       "popis": "",
-      "cover": "assets/images/migrated/kostol-zivcakova.jpg",
+      "cover": "/assets/images/migrated/kostol-zivcakova.jpg",
       "audio": [
-        "assets/audio/migrated/6-11-the-church-of-the-virgin-mary-mother-of-the-church-in-zivcakova.mp3"
+        "/assets/audio/migrated/6-11-the-church-of-the-virgin-mary-mother-of-the-church-in-zivcakova.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/kostol-zivcakova.jpg"
+        "/assets/images/migrated/kostol-zivcakova.jpg"
       ],
       "gps": {
         "lat": 49.397869,
@@ -9139,12 +9139,12 @@ const DB = {
       "poradie": 12,
       "nazov": "Kaplnka na Bukovine",
       "popis": "",
-      "cover": "assets/images/migrated/bukovina.jpg",
+      "cover": "/assets/images/migrated/bukovina.jpg",
       "audio": [
-        "assets/audio/migrated/6-12-the-chapel-in-bukovina.mp3"
+        "/assets/audio/migrated/6-12-the-chapel-in-bukovina.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/bukovina.jpg"
+        "/assets/images/migrated/bukovina.jpg"
       ],
       "gps": {
         "lat": 49.395664,
@@ -9168,13 +9168,13 @@ const DB = {
       "poradie": 1,
       "nazov": "Kaplnka a Vojenský cintorín z 1. sv. vojny",
       "popis": "",
-      "cover": "assets/images/migrated/webp-net-resizeimage9.jpg",
+      "cover": "/assets/images/migrated/webp-net-resizeimage9.jpg",
       "audio": [
-        "assets/audio/migrated/01-kaplnka-a-vojensky-cintorin-1.mp3"
+        "/assets/audio/migrated/01-kaplnka-a-vojensky-cintorin-1.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/webp-net-resizeimage9.jpg",
-        "assets/images/migrated/webp-net-resizeimage10.jpg"
+        "/assets/images/migrated/webp-net-resizeimage9.jpg",
+        "/assets/images/migrated/webp-net-resizeimage10.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.0284020819972!2d21.673188115964297!3d48.8957958792911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzQ0LjkiTiAyMcKwNDAnMzEuNCJF!5e0!3m2!1ssk!2ssk!4v1629985649847!5m2!1ssk!2ssk",
@@ -9195,12 +9195,12 @@ const DB = {
       "poradie": 2,
       "nazov": "Pieskovcový kríž",
       "popis": "",
-      "cover": "assets/images/migrated/webp-net-resizeimage6.jpg",
+      "cover": "/assets/images/migrated/webp-net-resizeimage6.jpg",
       "audio": [
-        "assets/audio/migrated/02-pieskovcovy-kriz-1.mp3"
+        "/assets/audio/migrated/02-pieskovcovy-kriz-1.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/webp-net-resizeimage6.jpg"
+        "/assets/images/migrated/webp-net-resizeimage6.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.0284020819972!2d21.673188115964297!3d48.8957958792911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzQ0LjkiTiAyMcKwNDAnMzEuNCJF!5e0!3m2!1ssk!2ssk!4v1629985649847!5m2!1ssk!2ssk",
@@ -9221,15 +9221,15 @@ const DB = {
       "poradie": 3,
       "nazov": "Bazilika minor Narodenia Panny Márie a kláštor paulínov",
       "popis": "",
-      "cover": "assets/images/migrated/bazilika-minor-narodenia-panny-marie-a-klastor-paulinov.jpg",
+      "cover": "/assets/images/migrated/bazilika-minor-narodenia-panny-marie-a-klastor-paulinov.jpg",
       "audio": [
-        "assets/audio/migrated/03-bazilika-minor-narodenia-panny-marie.mp3"
+        "/assets/audio/migrated/03-bazilika-minor-narodenia-panny-marie.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/bazilika-minor-narodenia-panny-marie-a-klastor-paulinov.jpg",
-        "assets/images/migrated/5-bazilika-minor-1024x773.jpg",
-        "assets/images/migrated/6-klastor-paulinov.jpg",
-        "assets/images/migrated/webp-net-resizeimage1-1024x768.jpg"
+        "/assets/images/migrated/bazilika-minor-narodenia-panny-marie-a-klastor-paulinov.jpg",
+        "/assets/images/migrated/5-bazilika-minor-1024x773.jpg",
+        "/assets/images/migrated/6-klastor-paulinov.jpg",
+        "/assets/images/migrated/webp-net-resizeimage1-1024x768.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.222210164304!2d21.6782549159643!3d48.89210217929072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzMxLjYiTiAyMcKwNDAnNDkuNiJF!5e0!3m2!1ssk!2ssk!4v1629985933748!5m2!1ssk!2ssk",
@@ -9250,13 +9250,13 @@ const DB = {
       "poradie": 4,
       "nazov": "Schwartzov dom",
       "popis": "",
-      "cover": "assets/images/migrated/schwartzov-dom.jpg",
+      "cover": "/assets/images/migrated/schwartzov-dom.jpg",
       "audio": [
-        "assets/audio/migrated/04-schwartsov-dom.mp3"
+        "/assets/audio/migrated/04-schwartsov-dom.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/schwartzov-dom.jpg",
-        "assets/images/migrated/schwartzov-dom-1.jpg"
+        "/assets/images/migrated/schwartzov-dom.jpg",
+        "/assets/images/migrated/schwartzov-dom-1.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.324815893478!2d21.679354615964247!3d48.89014657929066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzI0LjUiTiAyMcKwNDAnNTMuNiJF!5e0!3m2!1ssk!2ssk!4v1629986095509!5m2!1ssk!2ssk",
@@ -9277,13 +9277,13 @@ const DB = {
       "poradie": 5,
       "nazov": "Socha Břetislav Benda – Mladosti a kráse patrí budúcnosť.",
       "popis": "",
-      "cover": "assets/images/migrated/webp-net-resizeimage4.jpg",
+      "cover": "/assets/images/migrated/webp-net-resizeimage4.jpg",
       "audio": [
-        "assets/audio/migrated/05-socha.mp3"
+        "/assets/audio/migrated/05-socha.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/webp-net-resizeimage4.jpg",
-        "assets/images/migrated/webp-net-resizeimage5.jpg"
+        "/assets/images/migrated/webp-net-resizeimage4.jpg",
+        "/assets/images/migrated/webp-net-resizeimage5.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.3604879302734!2d21.68146001596417!3d48.88946667929064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzIyLjEiTiAyMcKwNDEnMDEuMSJF!5e0!3m2!1ssk!2ssk!4v1629986212712!5m2!1ssk!2ssk",
@@ -9304,12 +9304,12 @@ const DB = {
       "poradie": 6,
       "nazov": "Kostol sv. Štefana",
       "popis": "",
-      "cover": "assets/images/migrated/kostol-sv-stefana.jpg",
+      "cover": "/assets/images/migrated/kostol-sv-stefana.jpg",
       "audio": [
-        "assets/audio/migrated/06-kostol-sv-stefana.mp3"
+        "/assets/audio/migrated/06-kostol-sv-stefana.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/kostol-sv-stefana.jpg"
+        "/assets/images/migrated/kostol-sv-stefana.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.448451841999!2d21.68342771596407!3d48.88779007929042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzE2LjAiTiAyMcKwNDEnMDguMiJF!5e0!3m2!1ssk!2ssk!4v1629986389082!5m2!1ssk!2ssk",
@@ -9330,12 +9330,12 @@ const DB = {
       "poradie": 7,
       "nazov": "Lipa slobody",
       "popis": "",
-      "cover": "assets/images/migrated/65a5690.jpg",
+      "cover": "/assets/images/migrated/65a5690.jpg",
       "audio": [
-        "assets/audio/migrated/07-lipa-slobody.mp3"
+        "/assets/audio/migrated/07-lipa-slobody.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/65a5690.jpg"
+        "/assets/images/migrated/65a5690.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.448451841999!2d21.68342771596407!3d48.88779007929042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzE2LjAiTiAyMcKwNDEnMDguMiJF!5e0!3m2!1ssk!2ssk!4v1629986591571!5m2!1ssk!2ssk",
@@ -9356,12 +9356,12 @@ const DB = {
       "poradie": 8,
       "nazov": "Roľnícke povstanie na Východnom Slovensku 1831",
       "popis": "",
-      "cover": "assets/images/migrated/webp-net-resizeimage2.jpg",
+      "cover": "/assets/images/migrated/webp-net-resizeimage2.jpg",
       "audio": [
-        "assets/audio/migrated/08-rolnicke-povstanie.mp3"
+        "/assets/audio/migrated/08-rolnicke-povstanie.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/webp-net-resizeimage2.jpg"
+        "/assets/images/migrated/webp-net-resizeimage2.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.4946417022916!2d21.684697415964084!3d48.8869096792903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzEyLjkiTiAyMcKwNDEnMTIuOCJF!5e0!3m2!1ssk!2ssk!4v1629986771802!5m2!1ssk!2ssk",
@@ -9382,14 +9382,14 @@ const DB = {
       "poradie": 9,
       "nazov": "Slnečné hodiny – Kalvínsky kostol na Hviezdoslavovej ulici",
       "popis": "",
-      "cover": "assets/images/migrated/webp-net-resizeimage3.jpg",
+      "cover": "/assets/images/migrated/webp-net-resizeimage3.jpg",
       "audio": [
-        "assets/audio/migrated/09-slnecne-hodiny-kalvinsky-kostol-3.mp3"
+        "/assets/audio/migrated/09-slnecne-hodiny-kalvinsky-kostol-3.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/webp-net-resizeimage3.jpg",
-        "assets/images/migrated/webp-net-resizeimage8.jpg",
-        "assets/images/migrated/webp-net-resizeimage7.jpg"
+        "/assets/images/migrated/webp-net-resizeimage3.jpg",
+        "/assets/images/migrated/webp-net-resizeimage8.jpg",
+        "/assets/images/migrated/webp-net-resizeimage7.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.5260361833125!2d21.687261515964014!3d48.88631127929029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUzJzEwLjciTiAyMcKwNDEnMjIuMCJF!5e0!3m2!1ssk!2ssk!4v1629986980289!5m2!1ssk!2ssk",
@@ -9412,7 +9412,7 @@ const DB = {
       "popis": "",
       "cover": "",
       "audio": [
-        "assets/audio/migrated/o-vranach-pri-topli.mp3"
+        "/assets/audio/migrated/o-vranach-pri-topli.mp3"
       ],
       "galeria": [],
       "gps": null,
@@ -9434,12 +9434,12 @@ const DB = {
       "poradie": 11,
       "nazov": "História vranovskej synagógy",
       "popis": "",
-      "cover": "assets/images/migrated/ortodoxn_zidovsk-synag-ga-patrila-k-dominant-m_vranov-enhanced-colorized-2x.jpg",
+      "cover": "/assets/images/migrated/ortodoxn_zidovsk-synag-ga-patrila-k-dominant-m_vranov-enhanced-colorized-2x.jpg",
       "audio": [
-        "assets/audio/migrated/historia-vranovskej-sinagogiy.mp3"
+        "/assets/audio/migrated/historia-vranovskej-sinagogiy.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/ortodoxn_zidovsk-synag-ga-patrila-k-dominant-m_vranov-enhanced-colorized-2x.jpg"
+        "/assets/images/migrated/ortodoxn_zidovsk-synag-ga-patrila-k-dominant-m_vranov-enhanced-colorized-2x.jpg"
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d347.4053338536094!2d21.68392637320189!3d48.89146608114608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4025a83ad902c860!2zNDjCsDUzJzI5LjciTiAyMcKwNDEnMDIuNSJF!5e0!3m2!1ssk!2ssk!4v1649056365899!5m2!1ssk!2ssk",
@@ -9460,12 +9460,12 @@ const DB = {
       "poradie": 12,
       "nazov": "Súsošie sv. Jána Nepomuckého, Panny Márie s Ježiškom",
       "popis": "",
-      "cover": "assets/images/migrated/socha-nepomuckeho.jpeg",
+      "cover": "/assets/images/migrated/socha-nepomuckeho.jpeg",
       "audio": [
-        "assets/audio/migrated/01-susosie.mp3"
+        "/assets/audio/migrated/01-susosie.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/socha-nepomuckeho.jpeg"
+        "/assets/images/migrated/socha-nepomuckeho.jpeg"
       ],
       "gps": {
         "lat": 49.02074150738056,
@@ -9489,12 +9489,12 @@ const DB = {
       "poradie": 13,
       "nazov": "Cyril Daxner – Daxnerov dom",
       "popis": "",
-      "cover": "assets/images/migrated/daxner1.jpg",
+      "cover": "/assets/images/migrated/daxner1.jpg",
       "audio": [
-        "assets/audio/migrated/02-daxner.mp3"
+        "/assets/audio/migrated/02-daxner.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/daxner1.jpg"
+        "/assets/images/migrated/daxner1.jpg"
       ],
       "gps": {
         "lat": 48.88860140720319,
@@ -9518,12 +9518,12 @@ const DB = {
       "poradie": 14,
       "nazov": "Pamätník hrdinom a bojovníkom proti fašizmu a Pamätník oslobodenia mesta",
       "popis": "",
-      "cover": "assets/images/migrated/pamatnik.jpg",
+      "cover": "/assets/images/migrated/pamatnik.jpg",
       "audio": [
-        "assets/audio/migrated/03-pamatnik.mp3"
+        "/assets/audio/migrated/03-pamatnik.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/pamatnik.jpg"
+        "/assets/images/migrated/pamatnik.jpg"
       ],
       "gps": {
         "lat": 49.02071946389593,
@@ -9547,12 +9547,12 @@ const DB = {
       "poradie": 1,
       "nazov": "Sýkorka Belasá",
       "popis": "",
-      "cover": "assets/images/migrated/sykorka-belasa-min.jpg",
+      "cover": "/assets/images/migrated/sykorka-belasa-min.jpg",
       "audio": [
-        "assets/audio/migrated/sykorka-belasa-spev-psitsi-sirrrrrrr.mp3"
+        "/assets/audio/migrated/sykorka-belasa-spev-psitsi-sirrrrrrr.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/sykorka-belasa-min.jpg"
+        "/assets/images/migrated/sykorka-belasa-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -9573,12 +9573,12 @@ const DB = {
       "poradie": 2,
       "nazov": "Červienka obyčajná",
       "popis": "",
-      "cover": "assets/images/migrated/cervienka-obycajna-min.jpg",
+      "cover": "/assets/images/migrated/cervienka-obycajna-min.jpg",
       "audio": [
-        "assets/audio/migrated/cervienka-obycajna-spev.mp3"
+        "/assets/audio/migrated/cervienka-obycajna-spev.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/cervienka-obycajna-min.jpg"
+        "/assets/images/migrated/cervienka-obycajna-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -9599,12 +9599,12 @@ const DB = {
       "poradie": 3,
       "nazov": "Oriešok obyčajný",
       "popis": "",
-      "cover": "assets/images/migrated/oriesok-obycajny-min.jpg",
+      "cover": "/assets/images/migrated/oriesok-obycajny-min.jpg",
       "audio": [
-        "assets/audio/migrated/oriesok-obycajny-hlas.mp3"
+        "/assets/audio/migrated/oriesok-obycajny-hlas.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/oriesok-obycajny-min.jpg"
+        "/assets/images/migrated/oriesok-obycajny-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -9625,12 +9625,12 @@ const DB = {
       "poradie": 1,
       "nazov": "Pinka obyčajná",
       "popis": "",
-      "cover": "assets/images/migrated/pinka-obycajna-min.jpg",
+      "cover": "/assets/images/migrated/pinka-obycajna-min.jpg",
       "audio": [
-        "assets/audio/migrated/pinka-obycajna-spev.mp3"
+        "/assets/audio/migrated/pinka-obycajna-spev.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/pinka-obycajna-min.jpg"
+        "/assets/images/migrated/pinka-obycajna-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -9651,12 +9651,12 @@ const DB = {
       "poradie": 2,
       "nazov": "Stehlík čečetka",
       "popis": "",
-      "cover": "assets/images/migrated/stehlik-cecetka-min.jpg",
+      "cover": "/assets/images/migrated/stehlik-cecetka-min.jpg",
       "audio": [
-        "assets/audio/migrated/stehlik-cecetka-vabenie-djuii-a-ce-cet.mp3"
+        "/assets/audio/migrated/stehlik-cecetka-vabenie-djuii-a-ce-cet.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/stehlik-cecetka-min.jpg"
+        "/assets/images/migrated/stehlik-cecetka-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -9677,12 +9677,12 @@ const DB = {
       "poradie": 3,
       "nazov": "Drozd Čierny",
       "popis": "",
-      "cover": "assets/images/migrated/drozd-cierny-min.jpg",
+      "cover": "/assets/images/migrated/drozd-cierny-min.jpg",
       "audio": [
-        "assets/audio/migrated/drozd-cierny-hlas-vzrusenia-tix-tix-1.mp3"
+        "/assets/audio/migrated/drozd-cierny-hlas-vzrusenia-tix-tix-1.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/drozd-cierny-min.jpg"
+        "/assets/images/migrated/drozd-cierny-min.jpg"
       ],
       "gps": null,
       "mapEmbed": "",
@@ -9703,11 +9703,11 @@ const DB = {
       "poradie": 1,
       "nazov": "Rotunda",
       "popis": "",
-      "cover": "assets/images/migrated/rotunda.jpg",
+      "cover": "/assets/images/migrated/rotunda.jpg",
       "audio": [],
       "galeria": [
-        "assets/images/migrated/rotunda.jpg",
-        "assets/images/migrated/2026-08-03_13h20_33.jpg"
+        "/assets/images/migrated/rotunda.jpg",
+        "/assets/images/migrated/2026-08-03_13h20_33.jpg"
       ],
       "gps": {
         "lat": 48.75793395666114,
@@ -9731,28 +9731,28 @@ const DB = {
       "poradie": 1,
       "nazov": "Zvonica v Hrušovom",
       "popis": "",
-      "cover": "assets/images/migrated/zvonica-hrusove.jpeg",
+      "cover": "/assets/images/migrated/zvonica-hrusove.jpeg",
       "audio": [
-        "assets/audio/migrated/zvonica-hrusove.mp3"
+        "/assets/audio/migrated/zvonica-hrusove.mp3"
       ],
       "galeria": [
-        "assets/images/migrated/zvonica-hrusove.jpeg",
-        "assets/images/migrated/2025-08-18_13h09_48.jpg",
-        "assets/images/migrated/hrusovska-zvonica_hodiny-min.jpg",
-        "assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-2-min.jpg",
-        "assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-3-min.jpg",
-        "assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-4-min.jpg",
-        "assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-5-min.jpg",
-        "assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-6-min.jpg",
-        "assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-7-min.jpg",
-        "assets/images/migrated/hrusovska-zvonica_strecha-1-min.jpg",
-        "assets/images/migrated/hrusovska-zvonica_strecha-2-min.jpg",
-        "assets/images/migrated/2_hrusovska-zvonica-hodiny-s-24-hodinovym-cifernikom_3-min.jpg",
-        "assets/images/migrated/3_hrusovska-zvonica-hodiny-s-24-hodinovym-cifernikom-min.jpg",
-        "assets/images/migrated/hrusovska-zvonica_napis-min.jpg",
-        "assets/images/migrated/hrusovska-zvonica_rekonstrukcia-2025-1-min.jpg",
-        "assets/images/migrated/hrusovska-zvonica_rekonstrukcia-2025-2-min.jpg",
-        "assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-1-min.jpg"
+        "/assets/images/migrated/zvonica-hrusove.jpeg",
+        "/assets/images/migrated/2025-08-18_13h09_48.jpg",
+        "/assets/images/migrated/hrusovska-zvonica_hodiny-min.jpg",
+        "/assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-2-min.jpg",
+        "/assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-3-min.jpg",
+        "/assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-4-min.jpg",
+        "/assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-5-min.jpg",
+        "/assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-6-min.jpg",
+        "/assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-7-min.jpg",
+        "/assets/images/migrated/hrusovska-zvonica_strecha-1-min.jpg",
+        "/assets/images/migrated/hrusovska-zvonica_strecha-2-min.jpg",
+        "/assets/images/migrated/2_hrusovska-zvonica-hodiny-s-24-hodinovym-cifernikom_3-min.jpg",
+        "/assets/images/migrated/3_hrusovska-zvonica-hodiny-s-24-hodinovym-cifernikom-min.jpg",
+        "/assets/images/migrated/hrusovska-zvonica_napis-min.jpg",
+        "/assets/images/migrated/hrusovska-zvonica_rekonstrukcia-2025-1-min.jpg",
+        "/assets/images/migrated/hrusovska-zvonica_rekonstrukcia-2025-2-min.jpg",
+        "/assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-1-min.jpg"
       ],
       "gps": {
         "lat": 48.775257658652436,
