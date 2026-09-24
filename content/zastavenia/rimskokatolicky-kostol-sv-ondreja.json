@@ -2,7 +2,7 @@
   "id": "rimskokatolicky-kostol-sv-ondreja",
   "miesto": "ruzomberok",
   "poradie": 13,
-  "nazov": "RÍMSKOKATOLÍCKY KOSTOL SV. ONDREJA",
+  "nazov": "Rímskokatolícky kostol sv. Ondreja",
   "popis": "",
   "cover": "assets/images/migrated/6-kostol-sv-ondreja.jpg",
   "audio": [
@@ -31,7 +31,7 @@
   },
   "i18n": {
     "en": {
-      "nazov": "SAINT ANDREW’S ROMAN CATHOLIC CHURCH",
+      "nazov": "Saint Andrew’s Roman Catholic Church",
       "text": "The oldest preserved sacral building in the town of Ružomberok, this original early Gothic building from the turn of the 14th century has been modified by a Renaissance reconstruction from the end of the 16th century, and Baroque modifications carried out in the 17th and 18th centuries. The church, dating from 1445, was located in the centre of a fortified sacral area, on the southern side of which stood a parochial house and a church school, built in the 17th century. A complete reconstruction was completed in 1903, using elements of the historical new Romanesque style. Considerable decorative modifications were undertaken from 1939 to 1940. The painted decoration of the church is the work of Eduard Massányi. The stained glass windows, designed by L’udovit Fulla from the 1930’s to the 1970’s, are a masterpiece, and a nationally significant example of stained glass window art."
     }
   }

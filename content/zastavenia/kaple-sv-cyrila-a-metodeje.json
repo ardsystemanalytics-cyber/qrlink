@@ -2,7 +2,7 @@
   "id": "kaple-sv-cyrila-a-metodeje",
   "miesto": "roznov",
   "poradie": 4,
-  "nazov": "KAPLNKA sv. CYRILA A METODA",
+  "nazov": "Kaplnka sv. Cyrila a Metoda",
   "popis": "",
   "cover": "assets/images/migrated/kaple-sv-cyrila-a-metodeja.jpg",
   "audio": [
@@ -31,7 +31,7 @@
   },
   "i18n": {
     "cs": {
-      "nazov": "KAPLE sv. CYRILA A METODĚJE",
+      "nazov": "Kaple sv. Cyrila a Metoděje",
       "text": "Kaple se sousoším věrozvěstů Cyrila a Metoděje postavená v roce 1898 v byzantském slohu, kteří toto místo podle staré pověsti navštívili. Před kaplí stojí bronzové sousoší sv. Cyrila a Metoděje od Albína Poláška z roku 1931. Hlavní pouť se koná 5. 7. Zvonice kaple slouží jako rozhledna."
     }
   }

@@ -2,7 +2,7 @@
   "id": "zvonica",
   "miesto": "ruzomberok",
   "poradie": 1,
-  "nazov": "ZVONICA",
+  "nazov": "Zvonica",
   "popis": "",
   "cover": "assets/images/migrated/24-vlkolinec_-zvonica.jpg",
   "audio": [
@@ -31,7 +31,7 @@
   },
   "i18n": {
     "en": {
-      "nazov": "BELL TOWER",
+      "nazov": "Bell Tower",
       "text": "The wooden bell tower, built in 1770. Is one of the dominant features of the village. It is one of the oldest constructions in the village, and it is a typical timber construction with a wooden tiled root, and an encircling casing. Its location in the village can be explained by its original function of annoucing the time of prayer, and warning of fires and other dangers in the village. In the past the bell tower formed the boundary between the upper and lower ends of Vlkolínec. This solitary building is an exceptional exambple of a traditional bell tower.",
       "audio": [
         {

@@ -2,7 +2,7 @@
   "id": "namestie-andreja-hlinku",
   "miesto": "ruzomberok",
   "poradie": 16,
-  "nazov": "NÁMESTIE ANDREJA HLINKU",
+  "nazov": "Námestie Andreja Hlinku",
   "popis": "",
   "cover": "assets/images/migrated/1-2-namestie-a-hlinku.jpg",
   "audio": [
@@ -31,7 +31,7 @@
   },
   "i18n": {
     "en": {
-      "nazov": "THE ANDREJ HLINKA SQUARE",
+      "nazov": "The Andrej Hlinka Square",
       "text": "This historical square took on its basic form at the turn of the 14th century, and maintains the original narrow land divisions of the Middle Ages. Later building works and reconstructions from the 18th and 19th century are partially preserved. This historical rectangular square is accessed by a network of steep winding streets and a system of staircases that link it with the lower town. Some national cultural monuments are located in the square, for example a pillar with a statue of the Our Lady of the Immaculate Conception and other important buildings listed as town landmarks.",
       "audio": [
         {

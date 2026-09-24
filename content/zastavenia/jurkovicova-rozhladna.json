@@ -2,7 +2,7 @@
   "id": "jurkovicova-rozhladna",
   "miesto": "roznov",
   "poradie": 1,
-  "nazov": "JURKOVIČOVA ROZHĽADŇA",
+  "nazov": "Jurkovičova rozhľadňa",
   "popis": "",
   "cover": "assets/images/migrated/jurkovicova-rozhladna.jpg",
   "audio": [
@@ -31,7 +31,7 @@
   },
   "i18n": {
     "cs": {
-      "nazov": "JURKOVIČOVA ROZHLEDNA",
+      "nazov": "Jurkovičova rozhledna",
       "text": "Jméno rozhledna získala podle slovenského architekta Dušana Sámo Jurkoviče, který v této oblasti zanechal výraznou stopu. Ačkoliv původní myšlenka, vybudovat rozhlednu, pochází ze 60. let 20. století, k její realizaci došlo až v letech 2010-11. Otevřena 28. 04. 2012. Stavba je vysoká 31 metrů. Vyhlídková plošina ve výšce 18,8 m, rozhledna má 102 schodů. Základnu rozhledny tvoří kamenná podezdívka a na ní je posazená dřevěná konstrukce zakončená věžovitou osmistěnnou nástavbou. Z vyhlídkového ochozu se vám naskytne výhled nejen na okolní obce, ale jako na dlani na dlani budete mít město Rožnov pod Radhoštěm."
     }
   }

@@ -2,7 +2,7 @@
   "id": "slovenska-banka",
   "miesto": "ruzomberok",
   "poradie": 21,
-  "nazov": "SLOVENSKÁ BANKA",
+  "nazov": "Slovenská banka",
   "popis": "",
   "cover": "assets/images/migrated/10-kniznica.jpg",
   "audio": [
@@ -31,7 +31,7 @@
   },
   "i18n": {
     "en": {
-      "nazov": "SLOVAK BANK",
+      "nazov": "Slovak Bank",
       "text": "This solitary two-storey town-style building, was originally the headquarters of the Ružomberok Credit Union, a joint-stock company, later changed to Credit Bank and from 1919 the Slovak Bank. The Neo-Baroque building with Art Noveau features on the front facade was built in the years 1902 to 1903, from the design of Milan Michal Harminec. Partial modifications were carried out in 1936. The building was one of the significant locations in Slovak banking and Slovak national life, its history is connected to the Makovicky, Beniač and Houdek families, some of whose members were distinguished figures from financial, political and cultural life.",
       "audio": [
         {

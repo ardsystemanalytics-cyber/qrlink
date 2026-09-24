@@ -218,7 +218,7 @@ const DB = {
           "nazov": "Sights of the village Betliar"
         },
         "hu": {
-          "nazov": "A község  nevezetességei Betliar"
+          "nazov": "A község nevezetességei Betliar"
         }
       },
       "url": "/category/betliar/info-pointy/",
@@ -3502,7 +3502,7 @@ const DB = {
       "id": "kastiel-a-park-v-ivanke-pri-dunaji",
       "miesto": "bratislava-ivanka",
       "poradie": 2,
-      "nazov": "Kaštieľ a park v Ivanke pri Dunaji",
+      "nazov": "Kaštieľ a park v Ivanke pri Dunaji",
       "popis": "",
       "cover": "/assets/images/migrated/2_kastiel.jpg",
       "audio": [
@@ -3626,7 +3626,7 @@ const DB = {
       "id": "pomnik-padlym-v-i-a-ii-svetovej-vojne",
       "miesto": "bratislava-ivanka",
       "poradie": 5,
-      "nazov": "Pomník padlým v I. a II. svetovej vojne",
+      "nazov": "Pomník padlým v I. a II. svetovej vojne",
       "popis": "",
       "cover": "/assets/images/migrated/8_-pamatnik-padlym-hrdinom_.jpg",
       "audio": [
@@ -3836,7 +3836,7 @@ const DB = {
       "id": "vyhliadkova-veza-s-oddychovou-zonou-na-vrchu-bukovina",
       "miesto": "cestovatelsky-dennik",
       "poradie": 3,
-      "nazov": "Vyhliadková veža s oddychovou zónou na vrchu Bukovina.",
+      "nazov": "Vyhliadková veža s oddychovou zónou na vrchu Bukovina",
       "popis": "",
       "cover": "/assets/images/migrated/3-2.jpg",
       "audio": [],
@@ -4011,7 +4011,7 @@ const DB = {
       "id": "lysa-hora",
       "miesto": "cestovatelsky-dennik",
       "poradie": 10,
-      "nazov": "Lysá hora ",
+      "nazov": "Lysá hora",
       "popis": "",
       "cover": "/assets/images/migrated/img_5946.jpg",
       "audio": [],
@@ -4316,7 +4316,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "THE ČIERNE KĽAČANY’S PYXIDA",
+          "nazov": "The Čierne Kľačany’s Pyxida",
           "text": "<p><img src=\"/assets/images/migrated/2025-10-09_12h27_54.jpg\" alt=\"\"></p>\n<p><strong>Introduction</strong></p>\n<p>Čierne Kľačany’s Pyxida is a world-unique artifact that will forever represent Čierne Kľačany, Nitra, Slovakia. The discoverers and promoters of this distinctive archaeological find deserve our respect because they piece together a mosaic of uncovering history.</p>\n<p><strong>The Čierne Kľačany’s Pyxida</strong></p>\n<p>The Čierne Kľačany’s pyxida was discovered in 1974 in a site near the mill. During the construction of water pipes in the village, the digging mechanism carving a trench for the water supply disrupted archaeological objects with remnants of human bones, fragments of vessels, and animal bones. The most significant object was a disturbed skeletal grave in which fragments of an ivory pyx were found.</p>\n<p><strong>Discovery and Preservation</strong></p>\n<p>The pyxida was saved by the youth. Then students of elementary school – Milan Švec, Stanislav Lukáč, Milan Tonka, Dušan Filipčík found fragments, and students of Janko Kráľ Gymnasium – Július Horný jr. and Ivan Lukáč subsequently sought connections between the fragments. Reporting the find of the pyxida and the prompting was submitted by Július Horný sr. to the Archaeological Institute in Nitra. Thanks to all, the pyxida belongs among the rarities and novelties of the village, Slovakia and Europe. During the survey of the site, the collection of finds from various prehistoric and early historic periods was saved, among which fragments of the ivory pyx drew particular attention.</p>\n<p><strong>Location of the Find</strong></p>\n<p>The discovery site is located about 500 meters south of the village near the mill on the top of a hill and the southern slope of a gentle elevation. From the south and west, streams Širočina and Bočovka flow nearby. The water pipe trench, dug from the waterworks to the edge of the village on the left side of the road, disturbed several predominantly residential objects. Their remnants clearly extended over a length of about 200 meters. Undoubtedly the most significant object was the disturbed skeletal grave in which fragments of the ivory pyxida were found.</p>\n<p><strong>Motifs of the Pyxida</strong></p>\n<p>The pyxida was assembled into the shape of a cylindrical cloak. Its decoration, realized in low relief, depicts a ploughman with a draught team and a walking woman with a basket of grain. In the bucolic scene, among a resting flock of sheep and goats, the figures of a seated young shepherd and an approaching old shepherd predominate.</p>\n<p><strong>From History</strong></p>\n<p>The maximum flowering of ivory carving begins in the mid-4th century. Ivory was used to make various objects, but also chests. The decoration, of course, reflected its use or ownership. An important place among ivory works is held by pyxes – small vessels with circular or oval shape, with a base and a lid. The church contributed significantly to the development of pyxida production. Christian liturgy adopted the use of pyxidas not only as reliquary chests for incense but primarily for storing relics and hosts or the Eucharist. This was determined by the Council of Narbonne in 589. In the 9th century, pyxidas were placed above the altar and served as reliquaries. Thanks to this, remarkable specimens have survived in important Christian churches of Western Europe.</p>\n<p><strong>A Commemorative Plaque</strong></p>\n<p>In 1991, a commemorative plaque was unveiled on the cultural house with the text: “From this village comes an extraordinary ancient work, vibrant even in the times of Great Moravia, a ivory pyxida decorated with relief. In honor of history and in memory of St. Cyril and Methodius, grateful Slovaks dedicate this.” The plaque was unveiled by Prof. ThDr. Alojz Martinec, village mayor Peter Horný and the first vice-president of the Slovak Matica PhDr. Stanislav Bajaník – our fellow townsman and honorary citizen, with a large attendance of notable guests.</p>\n<p><strong>Unveiling of the Monument</strong></p>\n<p>In 1993, on the occasion of a nationwide meeting of Kľačanys in Slovakia, at the mill, the site of the Čierne Kľačany’s pyxida was unveiled with a bronze plaque in the presence of prominent locals, guests from Matica Slovenská, nearby villages and towns. The stone was donated by the village, the bronze plaque by Matica Slovenská.</p>\n<p><strong>Unveiling and Consecration of the Cyril and Methodius Sculpture</strong></p>\n<p>In 1997, the village saw the unveiling and consecration of the statue of St. Cyril and Methodius as the first Cyril and Methodius sculpture in Slovakia in the post-communist era.  Authors: Acad. sculptor Ľudmila Cvengrošová, Ing. architect Viola Bajaníková – as a voluntary gift to the village. Implementation by Koňuš – Gubáň, Kremnica. The sculpture, together with the Čierne Kľačany’s pyxida, is also located in Nitra, in Devín, Zalavár (Blatno Castle) – Hungary. The initiators and patrons of the project were the first vice-president of Matica Slovenská PhDr. Stanislav Bajaník, the village mayor Peter Horný, the chairman of the MS Local Organization Ing. Jozef Švec and members of the village council. It was consecrated by our fellow citizen Mons. Vincent Malý, Dr.h.c.</p>\n<p><strong>Gift to Pope John Paul II</strong></p>\n<p>In 2003, a copy of the Čierne Kľačany’s pyxida was presented to the papal nuncio in Bratislava as a gift to Pope John Paul II and to the Vatican on his last visit to Slovakia. The nuncio and the Holy See sent a formal written thank-you note. The presentation was carried out by: Imrich Dočolomanský, local Roman Catholic parish priest, Valéria Kršáková, deputy mayor of the village, Ing. Jozef Švec, chairman of the MS local branch, PhDr. Stanislav Bajaník for Matica Slovenská.</p>\n<p><img src=\"/assets/images/migrated/2025-09-25_11h43_44.jpg\" alt=\"\"></p>\n<p><em><strong>Pyxida Relief</strong></em></p>\n<p><img src=\"/assets/images/migrated/foto-030znew.jpg\" alt=\"\"></p>\n<p><em><strong>Stanislav Lukáč, in the course of the water pipe excavation, 1974</strong></em></p>\n<p><img src=\"/assets/images/migrated/kolnik_fotoz-min.jpg\" alt=\"\"></p>\n<p><em><strong>Disassembled reconstruction of the pyxida motifs</strong></em></p>\n<p><img src=\"/assets/images/migrated/foto-054-min.jpg\" alt=\"\"></p>\n<p><em><strong>Unveiling of the commemorative plaque on the building of the cultural house, 1991</strong></em></p>\n<p><img src=\"/assets/images/migrated/image0011-min.jpg\" alt=\"\"></p>\n<p><em><strong>Location of the find – the Pyxida monument Prof. ThDr. Alojz Martinec and Mons. Vincent Malý, Dr.h.c.</strong></em></p>\n<p><img src=\"/assets/images/migrated/foto-036_1993-min.jpg\" alt=\"\"></p>\n<p><em><strong>Location of the find – the Pyxida monument PhDr. Stanislav Bajaník</strong></em></p>\n<p><img src=\"/assets/images/migrated/2025-09-25_11h40_55-min.jpg\" alt=\"\"></p>\n<p><em><strong>For many activities organized in connection with the Pyxida, there was a unique exhibition at the Vatican from 12 November 2013 to 26 January 2014, “The oldest documents of the beginnings of Christianity in Slovakia – St. Cyril and Methodius, Patrons of Europe,” where the Pyxida held the first place. The event was organized by the Slovak National Museum, the Archaeological Institute of the Slovak Academy of Sciences, and the Slovak Embassy to the Holy See, with the government’s backing by Prime Minister Robert Fico and the Bishop of Nitra, Mons. prof. Viliam Judák. Photo: archive of PhDr. Peter Bednár, CSc.</strong></em></p>"
         }
       },
@@ -4608,7 +4608,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>Na svete existuje viac ako 60 000 druhov stromov, pričom podľa Medzinárodnej organizácie botanických záhrad ich v celosvetovom zozname každoročne pribudne viac ako 2000. Na Slovensku z tohto ohromného čísla pritom rastie “len” 77 druhov.</p>\n<p>Každý typ dreviny má svoju jedinečnú bunkovú štruktúru, ktorá určuje, ako sa správa v rôznych podmienkach a aké je jej najlepšie využitie. Jednou z mechanických vlastností dreva je stupeň jeho tvrdosti. Ide o fyzikálnu veličinu, ktorá vyjadruje, ako je drevo schopné odolávať vniknutiu cudzieho telesa do jeho štruktúry.</p>\n<h2><strong>AKO SA MERIA TVRDOSŤ DREVA</strong></h2>\n<p>Na meranie tvrdosti dreva sa používajú dve metódy – Brinellova a Janka. Najčastejšie sa využíva práve druhá spomínaná, ktorá je pomenovaná po výskumníkovi Gabrielovi Jankovi.</p>\n<p>Do dreva sa postupne vtláča oceľová guľôčka s priemerom 11,28 mm až dovtedy, kým nie je do povrchu vnorená polovica jej priemeru. Sila, ktorú bolo nutné vynaložiť na zatlačenie tejto guličky do štruktúry dreva, je výsledná hodnota jeho tvrdosti udávaná v MPa (megapascal) alebo v kg/cm2 (kilogram na meter štvorcový).</p>\n<h2>TABUĽKA TVRDOSTI DREVA</h2>\n<table>\n<thead>\n<tr>\n<th><strong>Tvrdosť v kg/cm2</strong></th>\n<th><strong>Druh dreva</strong></th>\n</tr>\n</thead>\n<tbody><tr>\n<td>1. 0 – 350 kg/cm2 (veľmi mäkké drevo)</td>\n<td>smrek, borovica, jedľa, lipa</td>\n</tr>\n<tr>\n<td>2. 351 – 500 kg/cm2 (mäkké drevo)</td>\n<td>breza, jelša, teak</td>\n</tr>\n<tr>\n<td>3. 501 – 650 kg/cm2 (stredne tvrdé drevo)</td>\n<td>gaštan jedlý, lieska</td>\n</tr>\n<tr>\n<td>4. 651 – 1000 kg/cm2 (tvrdé drevo)</td>\n<td>dub, javor, orech, čerešňa, buk, agát, tis</td>\n</tr>\n<tr>\n<td>5. 1001 – 1500 kg/cm2 (veľmi tvrdé drevo)</td>\n<td>drieň, krušpán</td>\n</tr>\n<tr>\n<td>6. nad 1501 kg/cm2 (neobyčajne tvrdé drevo)</td>\n<td>eben, massaranduba</td>\n</tr>\n</tbody></table>\n<h2>NAJMÄKŠIE A NAJTVRDŠIE DREVO NA SLOVENSKU</h2>\n<p>Na Slovensku nerastú najtvrdšie dreviny sveta. V našich zemepisných šírkach nájdete len drevo s maximálnym stupňom tvrdosti 4 – tvrdé drevo. <strong>Najtvrdšie drevo na Slovensku má agát, najmäkšie drevo zas borovica.</strong></p>\n<p>Zaujímavosťou je, že tvrdosť jedného typu dreviny sa môže v rôznych klimatických podmienkach meniť (najvýznamnejší faktor, ktorý ju ovplyvňuje, je vlhkosť). <strong>Najtvrdším drevom na svete je preto pravdepodobne guajakové drevo rastúce v dažďových pralesoch Južnej Ameriky.</strong></p>\n<p><strong>Zdroj</strong>: <a href=\"https://cs.wikipedia.org/wiki/Tvrdost_d%C5%99eva\">Wikipedia</a></p>",
+      "text": "<p>Na svete existuje viac ako 60 000 druhov stromov, pričom podľa Medzinárodnej organizácie botanických záhrad ich v celosvetovom zozname každoročne pribudne viac ako 2000. Na Slovensku z tohto ohromného čísla pritom rastie “len” 77 druhov.</p>\n<p>Každý typ dreviny má svoju jedinečnú bunkovú štruktúru, ktorá určuje, ako sa správa v rôznych podmienkach a aké je jej najlepšie využitie. Jednou z mechanických vlastností dreva je stupeň jeho tvrdosti. Ide o fyzikálnu veličinu, ktorá vyjadruje, ako je drevo schopné odolávať vniknutiu cudzieho telesa do jeho štruktúry.</p>\n<h2><strong>Ako sa meria tvrdosť dreva</strong></h2>\n<p>Na meranie tvrdosti dreva sa používajú dve metódy – Brinellova a Janka. Najčastejšie sa využíva práve druhá spomínaná, ktorá je pomenovaná po výskumníkovi Gabrielovi Jankovi.</p>\n<p>Do dreva sa postupne vtláča oceľová guľôčka s priemerom 11,28 mm až dovtedy, kým nie je do povrchu vnorená polovica jej priemeru. Sila, ktorú bolo nutné vynaložiť na zatlačenie tejto guličky do štruktúry dreva, je výsledná hodnota jeho tvrdosti udávaná v MPa (megapascal) alebo v kg/cm2 (kilogram na meter štvorcový).</p>\n<h2>Tabuľka tvrdosti dreva</h2>\n<table>\n<thead>\n<tr>\n<th><strong>Tvrdosť v kg/cm2</strong></th>\n<th><strong>Druh dreva</strong></th>\n</tr>\n</thead>\n<tbody><tr>\n<td>1. 0 – 350 kg/cm2 (veľmi mäkké drevo)</td>\n<td>smrek, borovica, jedľa, lipa</td>\n</tr>\n<tr>\n<td>2. 351 – 500 kg/cm2 (mäkké drevo)</td>\n<td>breza, jelša, teak</td>\n</tr>\n<tr>\n<td>3. 501 – 650 kg/cm2 (stredne tvrdé drevo)</td>\n<td>gaštan jedlý, lieska</td>\n</tr>\n<tr>\n<td>4. 651 – 1000 kg/cm2 (tvrdé drevo)</td>\n<td>dub, javor, orech, čerešňa, buk, agát, tis</td>\n</tr>\n<tr>\n<td>5. 1001 – 1500 kg/cm2 (veľmi tvrdé drevo)</td>\n<td>drieň, krušpán</td>\n</tr>\n<tr>\n<td>6. nad 1501 kg/cm2 (neobyčajne tvrdé drevo)</td>\n<td>eben, massaranduba</td>\n</tr>\n</tbody></table>\n<h2>Najmäkšie a najtvrdšie drevo na Slovensku</h2>\n<p>Na Slovensku nerastú najtvrdšie dreviny sveta. V našich zemepisných šírkach nájdete len drevo s maximálnym stupňom tvrdosti 4 – tvrdé drevo. <strong>Najtvrdšie drevo na Slovensku má agát, najmäkšie drevo zas borovica.</strong></p>\n<p>Zaujímavosťou je, že tvrdosť jedného typu dreviny sa môže v rôznych klimatických podmienkach meniť (najvýznamnejší faktor, ktorý ju ovplyvňuje, je vlhkosť). <strong>Najtvrdším drevom na svete je preto pravdepodobne guajakové drevo rastúce v dažďových pralesoch Južnej Ameriky.</strong></p>\n<p><strong>Zdroj</strong>: <a href=\"https://cs.wikipedia.org/wiki/Tvrdost_d%C5%99eva\">Wikipedia</a></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/environmental-upbringing-and-education/dendrolog-2-tretia-podstranka/",
         "en": "https://www.qrlink.sk/new/en/environmental-upbringing-and-education/dendrolog-2-tretia-podstranka/",
@@ -5366,7 +5366,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "Culture Centrum of  Frýdlant nad Ostravicí",
+          "nazov": "Culture Centrum of Frýdlant nad Ostravicí",
           "text": "<p>The Frýdlant nad Ostravicí Cultural Centre is a contributory organization of Frýdlant nad Ostravicí with own legal subjectivity. It was established to organize cultural and social events </p>\n<p>in and around the city. The events are organized in the Cultural Centre which offers to those interested a large social hall with a capacity of 500 seats, a cinema and a conference centre, common rooms intended for the use of local associations, courses and clubs, Gallery of artistic enamel and cast iron, Ferdiš Duša Gallery, a municipal library and a terminal of the Beskydy Information Centre. On the ground floor of the Cultural Centre there is a permanent exhibition of cast iron which includes the period from the first third of 19th century until the Secession. It shows copies of art pieces of the Renaissance, Baroque, Armor samples, individual art designs and stylish cast iron stoves. Gallery of artistic enamel shows the use of old technologies for modern artistic creation. Since 1999, there have been more than twenty artists from all over Europe participating in international symposium “Frýdlant’s art enamel”. It is a unique European collection of enamel of its kind. Ferdiš Duša’s Gallery is dedicated to Frýdlant’s native painter and graphic artist Ferdiš Duša (1888 – 1958). Collection in attractive design offers not only paintings but also things less well known such as ceramics. A part of the Cultural Centre complex is also the city library with approximately 38,000 library units. The library naturally completes the Cultural Centre as it annually organizes many educational and entertaining events for children and the general public.</p>"
         }
       },
@@ -5438,7 +5438,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "Elementary school Frýdlant nad Ostravicí, Komenského Street 420,  Contributing organization",
+          "nazov": "Elementary school Frýdlant nad Ostravicí, Komenského Street 420, Contributing organization",
           "text": "<p>The history of the school dates back to 1925 when the building was built on Komenského Street and it was long the tallest building in the city. The teaching began in the school year 1926/1927. In May 1994, the school premises were enlarged by an addition of the new secondary school building. The historic part of the building was after many years renovated in 2004 and the campus area was enlarged by the primary school building where the school dining room and classrooms are now. The campus is complemented by a modern equipped sport playground. The elementary school has a capacity of 560 pupils. Its founder is Frýdlant nad Ostravicí. The school has its separated workplace which is located in the town of Nová Ves.</p>"
         }
       },
@@ -5696,7 +5696,7 @@ const DB = {
       "id": "gabcikov-sad",
       "miesto": "gabcikovo",
       "poradie": 2,
-      "nazov": "GABČÍKOV SAD",
+      "nazov": "Gabčíkov sad",
       "popis": "",
       "cover": "",
       "audio": [],
@@ -6300,7 +6300,7 @@ const DB = {
       "id": "juraj-turzo-a-turzovka",
       "miesto": "klenoty-pohranicie",
       "poradie": 3,
-      "nazov": "Juraj Turzo a Turzovka",
+      "nazov": "Juraj Turzo a Turzovka",
       "popis": "",
       "cover": "/assets/images/migrated/3.jpg",
       "audio": [
@@ -6327,7 +6327,7 @@ const DB = {
       "id": "juraj-turzo-podporovatel-vzdelanosti-a-patron-evanjelickej-cirkvi",
       "miesto": "klenoty-pohranicie",
       "poradie": 4,
-      "nazov": "Juraj Turzo – podporovateľ vzdelanosti a patrón evanjelickej cirkvi ",
+      "nazov": "Juraj Turzo – podporovateľ vzdelanosti a patrón evanjelickej cirkvi",
       "popis": "",
       "cover": "/assets/images/migrated/4.jpg",
       "audio": [
@@ -6435,7 +6435,7 @@ const DB = {
       "id": "edmund-reitter-odkaz-v-soudobem-paskove",
       "miesto": "klenoty-pohranicie",
       "poradie": 8,
-      "nazov": "Edmund Reitter – odkaz v soudobém Paskově",
+      "nazov": "Edmund Reitter – odkaz v soudobém Paskově",
       "popis": "",
       "cover": "/assets/images/migrated/7_edmund-reitter-v-kruhu-spolku-paskovskych-hasicu.jpg",
       "audio": [
@@ -6570,7 +6570,7 @@ const DB = {
       "id": "kastiel-v-radoli",
       "miesto": "knm",
       "poradie": 3,
-      "nazov": "Kaštieľ v Radoli",
+      "nazov": "Kaštieľ v Radoli",
       "popis": "",
       "cover": "/assets/images/migrated/radola.jpg",
       "audio": [
@@ -7365,7 +7365,7 @@ const DB = {
       "id": "udajne-zjavenia-na-zivcakovej-matusovi-lasutovi",
       "miesto": "nch-zivcakova",
       "poradie": 4,
-      "nazov": " Údajné zjavenia na Živčákovej Matúšovi Lašútovi",
+      "nazov": "Údajné zjavenia na Živčákovej Matúšovi Lašútovi",
       "popis": "",
       "cover": "/assets/images/migrated/zivcakova_ii.jpg",
       "audio": [
@@ -7421,7 +7421,7 @@ const DB = {
       "id": "stavba-kaplnky-a-putnicke-miesto",
       "miesto": "nch-zivcakova",
       "poradie": 6,
-      "nazov": "Stavba kaplnky a pútnické miesto",
+      "nazov": "Stavba kaplnky a pútnické miesto",
       "popis": "",
       "cover": "/assets/images/migrated/zivcakova_v.jpg",
       "audio": [
@@ -8628,7 +8628,7 @@ const DB = {
       ],
       "gps": null,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.653611020337!2d21.238780614271658!3d48.99814898449359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDU5JzUzLjMiTiAyMcKwMTQnMjYuNCJF!5e0!3m2!1ssk!2ssk!4v1524214125661",
-      "text": "<p>Osudy Prešova v 17. – 18. storočí boli viac ako v ktoromkoľvek inom východoslovenskom meste späté s mocnou rodinou Rákociovcov a jej významnými osobnosťami. Rákociovska rezidencia, ako pamiatka na tieto búrlivé časy, sa dodnes vyníma na východnej strane Hlavnej ulice (dom č. 86) oproti rímskokatolíckemu farskému kostolu. </p>\n<p>Na jej mieste stáli pôvodne dva stredoveké meštianske domy. Na konci 16. storočia zakúpil obidve parcely sedmohradské knieža Žigmund Rákoci, ktorý ich dal prebudovať na honosný mestský palác v renesančnom slohu. Na túto prestavbu nadväzovala ďalšia, neskororenesančná úprava celého objektu na začiatku 17. storočia. Počas nej bola dotvorená charakteristická fasáda s oknami v arkieroch, zakončená krásnou atikou, zloženou z kombinácií štítkov, oblúčikov a slepých arkád. </p>\n<p>Celé priečelie i s atikou je bohato zdobené grafitom. Rákociovcom sa tak podarilo vytvoriť skutočný skvost mestskej renesančnej architektúry, považovaný za najkrajší mestský renesančný palác na území bývalého Horného Uhorska. </p>\n<p>História paláca bola od jeho založenia úzko spätá s dejinami rákociovskeho rodu. V roku 1633 v ňom prebiehali rokovania medzi zástupcami sedmohradského kniežaťa Juraja I. Rákociho a cisára Ferdinanda II., ukončené podpísaním prešovského mieru. V apríli 1701, po vyzradení plánov na nové protihabsburské povstanie, väznili habsburské úrady v paláci Františka II. Rákociho, ktorého predtým zajali v jeho kaštieli vo Veľkom Šariši. Po roku 1711 bol skonfiškovaný a vystriedal viacerých majiteľov. </p>\n<p>V priebehu 18. storočia došlo k prestavbe dvorového krídla v barokovom slohu. V 19. storočí mala budova viacero vlastníkov, či nájomcov, ktorí si ju adaptovali na obchodné a dielenské priestory. </p>\n<p>Dôkladná rekonštrukcia paláca do pôvodnej renesančnej podoby, ukončená obnovou grafitovej výzdoby v priečelí, sa uskutočnila v r. 1950 – 1956. V súčasnosti je v budove umiestnené Krajské múzeum.</p>\n<p>Otváracie hodiny </p>\n<p>LETNÁ SEZÓNA / MÁJ – SEPTEMBER</p>\n<p>Pondelok – Piatok 9:00 – 18:00 </p>\n<p>Sobota 14:00 – 18:00 </p>\n<p>Nedeľa 14:00 – 18:00</p>\n<p>Otvorené aj počas štátnych sviatkov: 14:00 – 18:00 </p>\n<p>(platí len počas letnej sezóny)</p>\n<p>MIMO SEZÓNY / OKTÓBER- APRÍL</p>\n<p>Pondelok – Piatok 9:00 – 17:00 </p>\n<p>Sobota zatvorené </p>\n<p>Nedeľa 14:00 – 18:00</p>\n<p>Tel.: +421 51 773 4708</p>\n<p>Adresa: </p>\n<p>Rakociho palác </p>\n<p>Hlavná 86 </p>\n<p>080 01 Prešov</p>\n<p><a href=\"http://www.tripolitana.sk\">www.tripolitana.sk</a></p>",
+      "text": "<p>Osudy Prešova v 17. – 18. storočí boli viac ako v ktoromkoľvek inom východoslovenskom meste späté s mocnou rodinou Rákociovcov a jej významnými osobnosťami. Rákociovska rezidencia, ako pamiatka na tieto búrlivé časy, sa dodnes vyníma na východnej strane Hlavnej ulice (dom č. 86) oproti rímskokatolíckemu farskému kostolu. </p>\n<p>Na jej mieste stáli pôvodne dva stredoveké meštianske domy. Na konci 16. storočia zakúpil obidve parcely sedmohradské knieža Žigmund Rákoci, ktorý ich dal prebudovať na honosný mestský palác v renesančnom slohu. Na túto prestavbu nadväzovala ďalšia, neskororenesančná úprava celého objektu na začiatku 17. storočia. Počas nej bola dotvorená charakteristická fasáda s oknami v arkieroch, zakončená krásnou atikou, zloženou z kombinácií štítkov, oblúčikov a slepých arkád. </p>\n<p>Celé priečelie i s atikou je bohato zdobené grafitom. Rákociovcom sa tak podarilo vytvoriť skutočný skvost mestskej renesančnej architektúry, považovaný za najkrajší mestský renesančný palác na území bývalého Horného Uhorska. </p>\n<p>História paláca bola od jeho založenia úzko spätá s dejinami rákociovskeho rodu. V roku 1633 v ňom prebiehali rokovania medzi zástupcami sedmohradského kniežaťa Juraja I. Rákociho a cisára Ferdinanda II., ukončené podpísaním prešovského mieru. V apríli 1701, po vyzradení plánov na nové protihabsburské povstanie, väznili habsburské úrady v paláci Františka II. Rákociho, ktorého predtým zajali v jeho kaštieli vo Veľkom Šariši. Po roku 1711 bol skonfiškovaný a vystriedal viacerých majiteľov. </p>\n<p>V priebehu 18. storočia došlo k prestavbe dvorového krídla v barokovom slohu. V 19. storočí mala budova viacero vlastníkov, či nájomcov, ktorí si ju adaptovali na obchodné a dielenské priestory. </p>\n<p>Dôkladná rekonštrukcia paláca do pôvodnej renesančnej podoby, ukončená obnovou grafitovej výzdoby v priečelí, sa uskutočnila v r. 1950 – 1956. V súčasnosti je v budove umiestnené Krajské múzeum.</p>\n<p>Otváracie hodiny </p>\n<p>Letná sezóna / máj – september</p>\n<p>Pondelok – Piatok 9:00 – 18:00 </p>\n<p>Sobota 14:00 – 18:00 </p>\n<p>Nedeľa 14:00 – 18:00</p>\n<p>Otvorené aj počas štátnych sviatkov: 14:00 – 18:00 </p>\n<p>(platí len počas letnej sezóny)</p>\n<p>Mimo sezóny / október – apríl</p>\n<p>Pondelok – Piatok 9:00 – 17:00 </p>\n<p>Sobota zatvorené </p>\n<p>Nedeľa 14:00 – 18:00</p>\n<p>Tel.: +421 51 773 4708</p>\n<p>Adresa: </p>\n<p>Rakociho palác </p>\n<p>Hlavná 86 </p>\n<p>080 01 Prešov</p>\n<p><a href=\"http://www.tripolitana.sk\">www.tripolitana.sk</a></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/rakociho-palac/",
         "en": "https://www.qrlink.sk/new/en/rakociho-palac/",
@@ -8640,7 +8640,7 @@ const DB = {
       "i18n": {
         "en": {
           "nazov": "Rakoczi Palace",
-          "text": "<p>The destiny of Prešov in the 17th – 18th century was more than any other eastern city linked to the powerful Rákoczi family and its important personalities. Rákoczi residence, as a reminder of those turbulent times, still excludes the east side of Main Street (house no. 86) facing the Roman Catholic Parish church.</p>\n<p>Two medieval burgher houses stood originally in its place. At the end of the 16th century, two parcels were purchased by Sigismund Rákóczi, prince of Transylvania, who had city palace reconstructed in the Renaissance style. After the reconstruction another followed, late-Renaissance repair of the whole object at the beginning of the 17th century. While it was typical suave facade with windows, bay windows, finished with a beautiful attic, consisting of combinations of tags, crimps and blind arcades.</p>\n<p>The entire facade and the attic are richly decorated by graphite. Thus Rákoczis succeeded in creating a genuine masterpiece of Renaissance architecture, regarded as the most beautiful urban Renaissance palace in the former Upper Hungary.</p>\n<p>History of the Palace, since its establishment, is closely linked to family history of Rakoczis. In 1633 there were conducted the negotiations between representatives of the Transylvanian Prince, George I. Rákóczi and Emperor Ferdinand II, completed by signing the Prešov Peace. In April 1701 Habsburg authorities imprisoned there Francis II. Rákóczi,who had been captured in his mansion in Veľký Šariš. In 1711 it was confiscated and several owners changed off.</p>\n<p>During the 18th century the wings of the courtyard were renewed in the Baroque style. In 19th century building had several owners or tenants who have adapted it for business and workshop premises.</p>\n<p>Careful reconstruction of the palace to its original Renaissance form, completed by restoration of graphite decoration of the facade was in 1950-1956. Currently, the building houses the Regional Museum.</p>\n<p>Opening hours </p>\n<p>IN SUMMER / MAY – SEPTEMBER</p>\n<p>Monday – Friday 9 am – 6 pm </p>\n<p>Saturday 2 pm – 6 pm </p>\n<p>Sunday 2 pm – 6 pm</p>\n<p>Also open during bank holidays: 2 pm – 6 pm </p>\n<p>(only applies during the summer season)</p>\n<p>OUT OF SEASON / OCTOBER – APRIL</p>\n<p>Monday – Friday 9 pm – 5 pm </p>\n<p>Saturday closed </p>\n<p>Sunday 2 pm – 6 pm</p>\n<p>Tel.: +421 51 773 4708</p>\n<p>Adress: </p>\n<p>Rakociho palác </p>\n<p>Hlavná 86 </p>\n<p>080 01 Prešov</p>\n<p><a href=\"http://www.tripolitana.sk\">www.tripolitana.sk</a></p>",
+          "text": "<p>The destiny of Prešov in the 17th – 18th century was more than any other eastern city linked to the powerful Rákoczi family and its important personalities. Rákoczi residence, as a reminder of those turbulent times, still excludes the east side of Main Street (house no. 86) facing the Roman Catholic Parish church.</p>\n<p>Two medieval burgher houses stood originally in its place. At the end of the 16th century, two parcels were purchased by Sigismund Rákóczi, prince of Transylvania, who had city palace reconstructed in the Renaissance style. After the reconstruction another followed, late-Renaissance repair of the whole object at the beginning of the 17th century. While it was typical suave facade with windows, bay windows, finished with a beautiful attic, consisting of combinations of tags, crimps and blind arcades.</p>\n<p>The entire facade and the attic are richly decorated by graphite. Thus Rákoczis succeeded in creating a genuine masterpiece of Renaissance architecture, regarded as the most beautiful urban Renaissance palace in the former Upper Hungary.</p>\n<p>History of the Palace, since its establishment, is closely linked to family history of Rakoczis. In 1633 there were conducted the negotiations between representatives of the Transylvanian Prince, George I. Rákóczi and Emperor Ferdinand II, completed by signing the Prešov Peace. In April 1701 Habsburg authorities imprisoned there Francis II. Rákóczi,who had been captured in his mansion in Veľký Šariš. In 1711 it was confiscated and several owners changed off.</p>\n<p>During the 18th century the wings of the courtyard were renewed in the Baroque style. In 19th century building had several owners or tenants who have adapted it for business and workshop premises.</p>\n<p>Careful reconstruction of the palace to its original Renaissance form, completed by restoration of graphite decoration of the facade was in 1950-1956. Currently, the building houses the Regional Museum.</p>\n<p>Opening hours </p>\n<p>In summer / May – September</p>\n<p>Monday – Friday 9 am – 6 pm </p>\n<p>Saturday 2 pm – 6 pm </p>\n<p>Sunday 2 pm – 6 pm</p>\n<p>Also open during bank holidays: 2 pm – 6 pm </p>\n<p>(only applies during the summer season)</p>\n<p>Out of season / October – April</p>\n<p>Monday – Friday 9 pm – 5 pm </p>\n<p>Saturday closed </p>\n<p>Sunday 2 pm – 6 pm</p>\n<p>Tel.: +421 51 773 4708</p>\n<p>Adress: </p>\n<p>Rakociho palác </p>\n<p>Hlavná 86 </p>\n<p>080 01 Prešov</p>\n<p><a href=\"http://www.tripolitana.sk\">www.tripolitana.sk</a></p>",
           "audio": [
             "/assets/audio/migrated/12-rakoczi-palace.mp3"
           ]
@@ -8675,7 +8675,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "Caraffa´s  Prison",
+          "nazov": "Caraffa’s Prison",
           "text": "<p>Caraffa´s Prison is late Gothic building from the beginning of the 16th century, completing the building of city hall today. This is one of the few preserved Gothic monuments in Prešov. </p>\n<p>The building was built in 1504 – 1509 on a plot of a town council member, a painter Peter Moler, whose house in Main Street was purchased by the municipality and adapted to a town wine cellar. The building was used to store wine barrels and other equipment until the end of the 17th century. Moreover, the archival records from 1530 have it that the building was also used as a prison because of its location near the town-hall. </p>\n<p>The building was given its name in the time of the Prešov bloody slaughter-house of Prešov in 1687. Based on an unjust verdict of the Emperor´s general Antonio Caraffa from Naples, 24 Hungarian yeomen and burghers were executed in the square near Evangelic Collegium. </p>\n<p>One of the torture chambers established by Caraffa for examining the accused was situated in the underground places of the present town-hall which, at those times, constituted a single architectonic unit including Caraffa’s prison. However, the victims of Caraffa’s verdict were not imprisoned in this building. The name may have been given later, perhaps after its characteristic shapes. Some written records indicate that the building was also used for keeping check gauges and scales; moreover, it functioned as a town armoury for some time, and as a town prison in the second half of the 19th century. </p>\n<p>At the beginning of the 20th century, the building started to serve for archiving municipal written documents. In 1955-56, the building, especially its interior, was adapted to its future purpose of archiving written documents of Prešov.</p>",
           "audio": [
             "/assets/audio/migrated/08-caraffas-prison.mp3"
@@ -8725,7 +8725,7 @@ const DB = {
       "id": "jurkovicova-rozhladna",
       "miesto": "roznov",
       "poradie": 1,
-      "nazov": "JURKOVIČOVA ROZHĽADŇA",
+      "nazov": "Jurkovičova rozhľadňa",
       "popis": "",
       "cover": "/assets/images/migrated/jurkovicova-rozhladna.jpg",
       "audio": [
@@ -8747,7 +8747,7 @@ const DB = {
       },
       "i18n": {
         "cs": {
-          "nazov": "JURKOVIČOVA ROZHLEDNA",
+          "nazov": "Jurkovičova rozhledna",
           "text": "<p>Jméno rozhledna získala podle slovenského architekta Dušana Sámo Jurkoviče, který v této oblasti zanechal výraznou stopu. Ačkoliv původní myšlenka, vybudovat rozhlednu, pochází ze 60. let 20. století, k její realizaci došlo až v letech 2010-11. Otevřena 28. 04. 2012. Stavba je vysoká 31 metrů. Vyhlídková plošina ve výšce 18,8 m, rozhledna má 102 schodů. Základnu rozhledny tvoří kamenná podezdívka a na ní je posazená dřevěná konstrukce zakončená věžovitou osmistěnnou nástavbou. Z vyhlídkového ochozu se vám naskytne výhled nejen na okolní obce, ale jako na dlani na dlani budete mít město Rožnov pod Radhoštěm.</p>"
         }
       },
@@ -8758,7 +8758,7 @@ const DB = {
       "id": "zrucanina-hradu-hradisko",
       "miesto": "roznov",
       "poradie": 2,
-      "nazov": "RUINY HRADU HRADISKO",
+      "nazov": "Ruiny hradu Hradisko",
       "popis": "",
       "cover": "/assets/images/migrated/zdrucanina-hradu-hradisko.jpg",
       "audio": [
@@ -8780,7 +8780,7 @@ const DB = {
       },
       "i18n": {
         "cs": {
-          "nazov": "ZŘÍCENINA HRADU HRADISKO",
+          "nazov": "Zřícenina hradu Hradisko",
           "text": "<p>Hrad Rožnov byl postaven v 2. polovině 14. století. Pro jeho stavbu bylo vybráno vhodné místo na vrchu Hradisko (522 m n. m.). Jeho funkcí byla ochrana hranic s Uhry. Hrad byl od 14. do 17. století několikrát rozšiřován. První zmínka o hradu byla objevena v listině Voka z Kravař, později byl v majetku pánů z Cimburka a na konci 15. století pánů z Pezinku. V roce 1505 jej získali Kunštátové a roku 1526 Jaroslav ze Šelenberka. V roce 1535 získal hrad Jan z Pernštejna, ale již v roce 1539 byl z příkazu krále Ferdinanda I. obsazen a pobořen, neboť se na něm usídlila loupeživá tlupa. Později byl hrad provizorně opraven a ještě v roce 1660 sloužil panským úředníkům. Na konci 17. století byl opuštěn úplně. Zkázu hradu dokonali sami obyvatelé Rožnova. Ve druhé polovině 19. století dostali povolení obecního úřadu zbytky hradu rozebrat pro stavby svých obydlí ”aby také nějak té památky oučastní byli“.</p>\n<p>Od roku 1964 jsou chráněny jako kulturní památka. Dochovaly se zbytky zdí, brána, příkop s valem a část podzemí.</p>"
         }
       },
@@ -8791,7 +8791,7 @@ const DB = {
       "id": "valasske-muzeum-v-prirode",
       "miesto": "roznov",
       "poradie": 3,
-      "nazov": "VALAŠSKÉ MÚZEUM V PRÍRODE",
+      "nazov": "Valašské múzeum v prírode",
       "popis": "",
       "cover": "/assets/images/migrated/valasske-muzeum-v-prirode-3.jpg",
       "audio": [
@@ -8813,7 +8813,7 @@ const DB = {
       },
       "i18n": {
         "cs": {
-          "nazov": "VALAŠSKÉ MUZEUM V PŘÍRODĚ",
+          "nazov": "Valašské muzeum v přírodě",
           "text": "<p>Valašské muzeum v přírodě je nejstarším a největším skanzenem ve střední Evropě. Skládá se ze tří samostatných areálů – Valašské dědiny, Dřevěného městečka a Mlýnské doliny. Najdete zde původní domy a předměty ze všech koutů Beskyd nebo jejich precizní kopie. V areálu se natáčelo mnoho filmů a pohádek a pravidelně se zde konají různé tématické kulturní akce. </p>\n<p>Od 11. 12. 2018 je areál součástí Národního muzea v přírodě.</p>\n<p>V podhorském městě Rožnově pod Radhoštěm rozprostírajícím se na úpatí Beskyd stojí Valašské muzeum v přírodě, první a až do 70. let 20. století jediné muzeum svého typu v naší zemi. O jeho vznik se zasloužili členové rožnovského muzejního spolku, zejména sourozenci Alois a Bohumír Jaroňkovi. Již před první světovou válkou předložili plány na přenesení několika roubených staveb do městského parku. Uskutečnit své cíle se jim však podařilo až při přípravách národopisné slavnosti v roce 1925. Na mýtinku lázeňského parku byly tehdy <strong>přestěhovány dva roubené domy z rožnovského náměstí</strong> spolu s dalšími menšími stavbami a v prostorách mezi nimi se odehrála velkolepá folklorní slavnost zvaná <strong>Valašský rok</strong>. Vznikl tak <strong>základ areálu Dřevěné městečko</strong>, který byl postupně rozšiřován o další dřevěné stavby a zároveň takto bylo založeno jedinečné nové muzeum – Valašské muzeum v přírodě.</p>\n<p>Již samotní zakladatelé si uvědomovali, že městská část muzea dostatečně nevypovídá o způsobech života na celém Valašsku, a proto usilovali o realizaci <strong>vesnického areálu</strong>. Záměr na <strong>vybudování Valašské dědiny</strong> vznikl na počátku 50. let a o desetiletí později byla zahájena na rožnovské pasece zvané Stráň výstavba prvních roubených chalup a hospodářských staveb. Cílem bylo vytvořit co nepravdivější obraz valašské dědiny zasazené do rázovité valašské kulturní krajiny.</p>\n<p>Dřevěné městečko a Valašská dědina byly na počátku 80. let doplněny o třetí, <strong>technický, areál</strong> zvaný <strong>Mlýnská dolina s funkčními historickými stavbami poháněnými vodou</strong>.</p>\n<p>Dosud posledním, čtvrtým, areálem muzea se v roce 1995 staly <strong>Pustevny se zvoničkou a s objekty Maměnka a Libušín</strong>, které byly na konci 19. století vystavěny podle návrhů architekta Dušana Samo Jurkoviče a jež se staly národní kulturní památkou.</p>\n<p>Do dnešních dnů se areály průběžně rozrůstají o další historické stavby, které dokreslují malebný obraz tradičního Valašska. Podoba by však nebyla celistvá bez života v muzeu.  Nejvýraznějším rysem současného dění v  areálech je cílevědomé úsilí o jejich <strong>oživení</strong> prostřednictvím interiérových i exteriérových expozic, <strong>prezentace</strong> <strong>tradičních technologií řemeslných, zemědělských i podomáckých, lidového umění, obyčejů a folkloru</strong>. Valašské muzeum tak plní odkaz svých zakladatelů, kteří usilovali o to, aby bylo živým muzeem.</p>"
         }
       },
@@ -8824,7 +8824,7 @@ const DB = {
       "id": "kaple-sv-cyrila-a-metodeje",
       "miesto": "roznov",
       "poradie": 4,
-      "nazov": "KAPLNKA sv. CYRILA A METODA",
+      "nazov": "Kaplnka sv. Cyrila a Metoda",
       "popis": "",
       "cover": "/assets/images/migrated/kaple-sv-cyrila-a-metodeja.jpg",
       "audio": [
@@ -8846,7 +8846,7 @@ const DB = {
       },
       "i18n": {
         "cs": {
-          "nazov": "KAPLE sv. CYRILA A METODĚJE",
+          "nazov": "Kaple sv. Cyrila a Metoděje",
           "text": "<p>Kaple se sousoším věrozvěstů Cyrila a Metoděje postavená v roce 1898 v byzantském slohu, kteří toto místo podle staré pověsti navštívili. Před kaplí stojí bronzové sousoší sv. Cyrila a Metoděje od Albína Poláška z roku 1931. Hlavní pouť se koná 5. 7. Zvonice kaple slouží jako rozhledna.</p>"
         }
       },
@@ -8857,7 +8857,7 @@ const DB = {
       "id": "socha-radegasta",
       "miesto": "roznov",
       "poradie": 5,
-      "nazov": "SOCHA RADEGASTA",
+      "nazov": "Socha Radegasta",
       "popis": "",
       "cover": "/assets/images/migrated/socha-radegasta.jpg",
       "audio": [
@@ -8879,7 +8879,7 @@ const DB = {
       },
       "i18n": {
         "cs": {
-          "nazov": "SOCHA RADEGASTA",
+          "nazov": "Socha Radegasta",
           "text": "<p>Původní sochu Radegasta vytvořil sochař Albín Polášek z betonu a kameninové drti. Na horský hřbet mezi Pustevnami a Radhoštěm byla umístěna v roce 1931. Horské podnebí sochu narušovalo, a proto byla v roce 1996 přesunuta do haly radnice ve Frenštátu pod Radhoštěm a na jejím místě stojí od roku 1998 kopie z odolnější žuly.</p>\n<p>Radegasta uctívali pohané jako boha slunce, hojnosti a úrody. Albín Polášek jej ztvárnil jako postavu s mužským tělem a lví hlavou, na které má nasazenou přilbu s býčími rohy. V pravé ruce svírá roh hojnosti, levou se opírá o sekyru.</p>"
         }
       },
@@ -8890,7 +8890,7 @@ const DB = {
       "id": "chata-mamenka-a-libusin",
       "miesto": "roznov",
       "poradie": 6,
-      "nazov": "CHATA MAMĚNKA A LIBUŠÍN",
+      "nazov": "Chata Maměnka a Libušín",
       "popis": "",
       "cover": "/assets/images/migrated/chata-libusin.jpg",
       "audio": [
@@ -8912,7 +8912,7 @@ const DB = {
       },
       "i18n": {
         "cs": {
-          "nazov": "CHATA MAMĚNKA A LIBUŠÍN",
+          "nazov": "Chata Maměnka a Libušín",
           "text": "<p>Chata Maměnka byla vystavěna, stejně jako sousední chata Libušín, podle návrhů architekta Dušana Jurkoviče v roce 1898. Výrazně zdobená lidově secesní budova s prvky valašské architektury dnes slouží jako hotel. Stavba je národní kulturní památkou.</p>\n<p>Chata Libušín, jedna z dominant horského sedla Pustevny, byla vystavěna podle návrhů architekta Dušana Jurkoviče v roce 1898. Chata je vystavěna ve stylu tzv. lidové secese s prvky valašské architektury. Obzvláště vzácnou byla jídelna zdobená freskami a grafity s motivy moravských a slovenských pověstí, kterou však v roce 2014 velmi poškodil požár celé budovy. </p>\n<p>V roce 1995 byla vyhlášena národní kulturní památkou. V srpnu 2020 byla znovuotevřena.</p>\n<p>Zeměpisné souřadnice: 49.4894975N, 18.2658172E; nadmořská výška 1 018 m n. m.</p>\n<p>Zeměpisné souřadnice: 49.4896744N, 18.2654061E; nadmořská výška 1 018 m n. m.</p>"
         }
       },
@@ -8923,7 +8923,7 @@ const DB = {
       "id": "zvonica",
       "miesto": "ruzomberok",
       "poradie": 1,
-      "nazov": "ZVONICA",
+      "nazov": "Zvonica",
       "popis": "",
       "cover": "/assets/images/migrated/24-vlkolinec_-zvonica.jpg",
       "audio": [
@@ -8945,7 +8945,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "BELL TOWER",
+          "nazov": "Bell Tower",
           "text": "<p>The wooden bell tower, built in 1770. Is one of the dominant features of the village. It is one of the oldest constructions in the village, and it is a typical timber construction with a wooden tiled root, and an encircling casing. Its location in the village can be explained by its original function of annoucing the time of prayer, and warning of fires and other dangers in the village. In the past the bell tower formed the boundary between the upper and lower ends of Vlkolínec. This solitary building is an exceptional exambple of a traditional bell tower.</p>",
           "audio": [
             "/assets/audio/migrated/01-bell-tower-2.mp3"
@@ -8959,7 +8959,7 @@ const DB = {
       "id": "rimskokatolicky-kostol-navstivenia-panny-marie",
       "miesto": "ruzomberok",
       "poradie": 2,
-      "nazov": "RÍMSKOKATOLÍCKY KOSTOL NAVŠTÍVENIA PANNY MÁRIE",
+      "nazov": "Rímskokatolícky kostol Navštívenia Panny Márie",
       "popis": "",
       "cover": "/assets/images/migrated/23-vlkolinec_-kostol.jpg",
       "audio": [
@@ -8981,7 +8981,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "THE ROMAN CATHOLIC CHURCH OF THE VISITATION OF THE VIRGIN MARY",
+          "nazov": "The Roman Catholic Church of the Visitation of the Virgin Mary",
           "text": "<p>This single nave building with a tower and an added vestry was built in 1875, in the style of Neoclassicism. A chapel which belonged to the cemetery formally stood on this site. This sacral building used for liturgical purposes expresses the traditions and association to the Christian culture of Europe. In the past, the church in Vlkolinec, which is a mountain village with tough conditions for permanent residents, functioned as the sole place of social contact, and as a source of strength and motivation. Significant reconstructions took place in 1941, 1950 and 2008.</p>",
           "audio": [
             "/assets/audio/migrated/03-the-roman-catholic-church-of-the-visitation-of-the-virgin-mary.mp3"
@@ -8995,7 +8995,7 @@ const DB = {
       "id": "pamatnik-obetiam-cernovskej-tragedie",
       "miesto": "ruzomberok",
       "poradie": 3,
-      "nazov": "POMNÍK OBETIAM ČERNOVSKEJ TRAGÉDIE",
+      "nazov": "Pomník obetiam černovskej tragédie",
       "popis": "",
       "cover": "/assets/images/migrated/22-pomnik-obetiam-_-cernova.jpg",
       "audio": [
@@ -9017,7 +9017,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "MEMORIAL TO THE VICTIMS OF THE ČERNOVÁ TRAGEDY",
+          "nazov": "Memorial to the Victims of the Černová Tragedy",
           "text": "<p>The symbol and the everlasting witness of a tragic moment in the history of Slovakia and the Černová village. The memorial was ordered by Slovenská liga and it was funded by the money raised by American Slovaks on the occasion of the 25th anniversary of the Černová Tragedy. The memorial is a reminder of the 15 victims who were shot dead by Hungarian gendarmes when the newly-built Our Lady of the Rosary Church was about to be consecrated. They died because they wanted Andrej Hlinka, who was born in Černová and took care of the church construction, to take part in the above consecration. The Černová Tragedy triggered many protests in and outside Slovakia. It drew attention to the oppression of Slovaks in the Hungarian Empire and to the politically manipulated court trials that resulted in the wrongul conviction of 59 people from Černová. The memorial was publicly unveiled on the 28th October 1932 in front of Andrej Hlinka, a priest from Ružomberok, and representatives of Slovenská liga and Matica slovenská and 6000 other people. The author of this national cultural monument is the sculptor Miroslav (Frico) Motoška and its architectural side was taken care of by Juraj Sládek. The memorial was built in 1932 by Jaroslav Vinduška’s company headquartered in Prague. The monument is 14 m wide and 6,8 m high. There were 46,8 t of travertine used to construct this memorial. Its shape recalls the T letter turned upside down and tis stands on a small cairn. The monument shows a cross with an Old-Slavic-style relief of Christ’s head. Under the cross, there is a lurel wreath and the Slovak nation sign. The front side of the memorial shows the sign Lord, bless our nation, for which these died and the gragedy date engraved under the cross. The names of all the victims are stade on the both sides of the memorial starting with the oldest and ending with the youngest of them. Unfortunately, not all the names and age details are correct. The vaule of the memorial on the day of its unveiling was 65 000 Czechoslovak crowns.</p>",
           "audio": [
             "/assets/audio/migrated/07-memorial-to-the-victims-of-the-chernova-tragedy.mp3"
@@ -9031,7 +9031,7 @@ const DB = {
       "id": "kostol-ruzencovej-panny-marie",
       "miesto": "ruzomberok",
       "poradie": 4,
-      "nazov": "KOSTOL RUŽENCOVEJ PANNY MÁRIE",
+      "nazov": "Kostol Ružencovej Panny Márie",
       "popis": "",
       "cover": "/assets/images/migrated/20-kostol-ruzencovej-panny-marie_-cernova.jpg",
       "audio": [
@@ -9053,7 +9053,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "CHURCH OF OUR LADY OF THE ROSARY",
+          "nazov": "Church of Our Lady of the Rosary",
           "text": "<p>The foundation stone of the church in Černová was blessed in Holy Week, on Maundy Thursday, 20 April 1906.The consecration of the newly built church was set to take place on 27 October 1907, but there was a tragic event in which 15 parishioners were killed and dozens more were injured. The church was not consecrated and remained closed for a long time. The church consecration did not take place until 29 June 1910, at the feast of the Apostles Peter and Paul. Finally, the church was consecrated by Andrej Hlinka, a native of Černová and vicar of Ružomberok, who contributed to its building to the greatest extent. In 1911 the church organ made by the company Bratři Paštikové from Prague was installed. In 1941 the original organ was rebuilt by the Rieger company.In 1912 the church altars made by the Austrian company Ferdinand Stuflesser were installed. In 1913 the church was painted by the academic painter Jozef Hanula. On 6 January 1925, on the feast of the Epiphany, Andrej Hlinka blessed two new bells that are located in the tower together with the original bell from 1911. In 1929 the church became a parish church and Černová became an independent parish. In 1948, on the initiative of Ladislav Hatala, new stations of the Way of the Cross were made for the church. In 1957, on the occasion of the 50th anniversary of the Černová tragedy, an electric clock made by the company from Vyškov u Brna was fitted into the tower.</p>",
           "audio": [
             "/assets/audio/migrated/06-church-of-our-lady-of-the-rosary.mp3"
@@ -9067,7 +9067,7 @@ const DB = {
       "id": "rodny-dom-andreja-hlinku",
       "miesto": "ruzomberok",
       "poradie": 5,
-      "nazov": "RODNÝ DOM ANDREJA HLINKU",
+      "nazov": "Rodný dom Andreja Hlinku",
       "popis": "",
       "cover": "/assets/images/migrated/19-dom-a-hlinku_cernova.jpg",
       "audio": [
@@ -9089,7 +9089,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "NATIVE HOUSE OF ANDREJ HLINKA",
+          "nazov": "Native House of Andrej Hlinka",
           "text": "<p>On 27 September 1864 Andrej Hlinka, a priest, a nationalist and a politician whose life motto was: “All for God and for the nation!” was born in this house. The exhibition in three rooms of his native house does not only include his furniture, priestly clothes, personal items, but also info-panels with photographs of Hlinka’s life, documents and manuscripts. His wax statue and death mask made out by the sculptor Fraňo Štefunko from Martin make present the personality and great charisma of a man whose name could not be mentioned for more than forty years, not even in his native village. All exhibited items help to feel the time in which he lived. One can hear his perfect Slovak and determination in his voice on a gramophone recording, which unveils why he enjoyed such trust among the Slovak nation that he always cared about. Slovaks have always felt to be a nation and Andrej Hlinka was their true leader and father of the nation. In his time he was a natural authority for the oppressed Slovak nation, and it was his desire to cement and unite it.</p>",
           "audio": [
             "/assets/audio/migrated/05-native-house-of-andrej-hlinka.mp3"
@@ -9103,7 +9103,7 @@ const DB = {
       "id": "kalvaria",
       "miesto": "ruzomberok",
       "poradie": 6,
-      "nazov": "KALVÁRIA",
+      "nazov": "Kalvária",
       "popis": "",
       "cover": "/assets/images/migrated/17-kalvaria.jpg",
       "audio": [
@@ -9125,7 +9125,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "CALVARY",
+          "nazov": "Calvary",
           "text": "<p>The Calvary, consisting of the Church of the Elevation of the Holy Cross, and 14 chapels standing on the Way of the Cross, was constructed during the years 1858 to 1860. The external appearance of the Way of the Cross is a distinctive town landmark. The original idea for the construction came from the initiative of the town´s Roman Catholic priests, Ján Nepomuk Záhora, Andrej Kučma and other believers from the Ružomberok parish. The church, built in the classical style was renovated in 1902 to 1903, and then again between 1947 and 1948. The internal decorations were designed by Valér Aurel Zavarský and the embossed carvings are the work of František Gibala. The interior was enriched in 1959 by mural paintings from Mikuláš Klimčák. This original simple sacral construction conceived in a classical spirit, is a place of pilgrimage, and a part of the spiritual history of Ružomberok.</p>",
           "audio": [
             "/assets/audio/migrated/12-calvary.mp3"
@@ -9139,7 +9139,7 @@ const DB = {
       "id": "mestsky-cintorin",
       "miesto": "ruzomberok",
       "poradie": 7,
-      "nazov": "MESTSKÝ CINTORÍN",
+      "nazov": "Mestský cintorín",
       "popis": "",
       "cover": "/assets/images/migrated/16-mestsky-cintorin.jpg",
       "audio": [
@@ -9161,7 +9161,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "TOWN CEMETERY",
+          "nazov": "Town Cemetery",
           "text": "<p>The town cemetery, from the year 1913, is located on sloping terrain and its reverential character is enhanced by a natural green back drop. The cemetery is a place of rest for town and regional figures as well as historical personalities of national importance. The striking tombs and graves are arranged in a planned layout along a main central axis with a cemetery cross in the centre. This creates the characteristic appearance of one of the most beautiful decorated cemeteries in Slovakia. In the cemetery there are national cultural monuments, for example, the tomb of the Makovický family, the work of Dušan Jurkovič, and the grave of Ľudovít Fulla and his first wife Juliana Klára, created by Martin Kusý Snr. and Ľudovít Fulla.</p>",
           "audio": [
             "/assets/audio/migrated/17-town-cemetery.mp3"
@@ -9175,7 +9175,7 @@ const DB = {
       "id": "galeria-ludovita-fullu",
       "miesto": "ruzomberok",
       "poradie": 8,
-      "nazov": "GALÉRIA ĽUDOVÍTA FULLU",
+      "nazov": "Galéria Ľudovíta Fullu",
       "popis": "",
       "cover": "/assets/images/migrated/15-fulova-galeria.jpg",
       "audio": [
@@ -9197,7 +9197,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "GALLERY OF ĽUDOVÍT FULLA",
+          "nazov": "Gallery of Ľudovít Fulla",
           "text": "<p>This was the first significant gallery to be built in Slovakia after 1945. The original concept for the building was created by the architect Martin Kusý in 1964 and he together with Štefan Hatala finished the building in 1969. This excellent building represents the new movement of modern architecture and is among the best of its kind in Slovakia. Its stark geometrical form truthfully expresses the linear sequence of the internal spaces. The Gallery is the permanent home of an exhibition of the creative work typical of Ľudovít Fulla, as well as the artist’s original flat complete with the original furnishings.</p>",
           "audio": [
             "/assets/audio/migrated/24-gallery-of-ludovit-fulla.mp3"
@@ -9211,7 +9211,7 @@ const DB = {
       "id": "liptovske-muzeum",
       "miesto": "ruzomberok",
       "poradie": 9,
-      "nazov": "LIPTOVSKÉ MÚZEUM",
+      "nazov": "Liptovské múzeum",
       "popis": "",
       "cover": "/assets/images/migrated/14-lipt-muzeum.jpg",
       "audio": [
@@ -9233,7 +9233,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "LIPTOV MUSEUM",
+          "nazov": "Liptov Museum",
           "text": "<p>The Liptov museum was founded by the Kűrti brothers, Artúr and Július in 1912. This cultural institution was moved to its current building, built by the town of Ružomberok, in 1934, from its original location in a Presbytery from the middle-ages. It was designed by the town architect Vojtech Donner, and the construction was carried out between 1935 – 1937 by Július Záchenský. This showcase building marks the end of the square of Š. N. Hýroš. An example of a traditional building, it demonstrates a lasting solution to the requirements of the exhibition and work space.</p>",
           "audio": [
             "/assets/audio/migrated/23-liptov-museum.mp3"
@@ -9247,7 +9247,7 @@ const DB = {
       "id": "evanjelicky-a-v-kostol",
       "miesto": "ruzomberok",
       "poradie": 10,
-      "nazov": "EVANJELICKÝ A. V. KOSTOL",
+      "nazov": "Evanjelický a. v. kostol",
       "popis": "",
       "cover": "/assets/images/migrated/12-evanjelicky-kostol.jpg",
       "audio": [
@@ -9269,7 +9269,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "LUTHERAN CHURCH",
+          "nazov": "Lutheran Church",
           "text": "<p>A dominant architectural feature of the town; this church was built in the years 1925 to 1926, in a modern spirit with elements of Rondocubism. It was designed by architect Ján Burjan, a native of Ružomberok, who used the original concept of architect Dušan Jurkovič from 1914. The building has a rectangular layout with a pseudo basilica between two transepts with central square tower. A renovation of the exterior took place between 1997 and 1998, and the interior was refurbished in 2004. The building of the Lutheran Presbytery and elementary school from 1923 – 1924 was built according to the design of Dušan Jurkovič. It also belongs to the sacral construction and together with the church they form one connected area.</p>",
           "audio": [
             "/assets/audio/migrated/15-lutheran-church.mp3"
@@ -9283,7 +9283,7 @@ const DB = {
       "id": "kulturny-dom-andreja-hlinku",
       "miesto": "ruzomberok",
       "poradie": 11,
-      "nazov": "KULTÚRNY DOM ANDREJA HLINKU",
+      "nazov": "Kultúrny dom Andreja Hlinku",
       "popis": "",
       "cover": "/assets/images/migrated/11-kult-dom-a-hlinku.jpg",
       "audio": [
@@ -9305,7 +9305,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "THE CULTURE HOUSE OF ANDREJ HLINKA",
+          "nazov": "The Culture House of Andrej Hlinka",
           "text": "<p>This imposing, timeless building designed by Ružomberok architect Ján Burjan was constructed from 1927 to 1928. The construction was carried out by Ondrej Janček and Jozef Pešek. The construction of this monumental, multi-functional building was initiated by Andrej Hlinka. It is now a centre of cultural, social and sporting life. It was jointly financed by the Catholic society, Andrej Hlinka and through a public collection from local people and American Slovaks. In 1941 the building took on its final form following the desing of Vojtech Dommer (1938), with the construction work being carried out by the company of Július Záchenský. The appearance of the building displays features of the Rondocubism style. A complete renovation designed by Igor Maťaťa was carried out, with some breaks, between 1997 and 2004.</p>",
           "audio": [
             "/assets/audio/migrated/16-the-culture-house-of-andrej-hlinka.mp3"
@@ -9319,7 +9319,7 @@ const DB = {
       "id": "radnica",
       "miesto": "ruzomberok",
       "poradie": 12,
-      "nazov": "RADNICA",
+      "nazov": "Radnica",
       "popis": "",
       "cover": "/assets/images/migrated/8-radnica.jpg",
       "audio": [
@@ -9341,7 +9341,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "TOWN HALL",
+          "nazov": "Town Hall",
           "text": "<p>The showcase building in a Neo-Renaissance style was built in 1897 according to the design of the builder Štefan Michalík on the site of the Šustrík Mansion from the 17th century. Jozef Uhlár and Štefan Martoník oversaw a conversion and reconstruction of the interior in 1937 and in 1968 stained glass designed by Róbert Dúbravec was placed in the windows in the central staircase. Since its construction, the building has served as the town hall – the seat of the local authority. The Town Hall building is closely linked to Andrej Hlinka, and between 1898 and 1985 the Roman Catholic parish office was located in the southern wing of the building. This dominant architectural feature was completely renovated between 2001 and 2010.</p>",
           "audio": [
             "/assets/audio/migrated/18-town-hall.mp3"
@@ -9355,7 +9355,7 @@ const DB = {
       "id": "rimskokatolicky-kostol-sv-ondreja",
       "miesto": "ruzomberok",
       "poradie": 13,
-      "nazov": "RÍMSKOKATOLÍCKY KOSTOL SV. ONDREJA",
+      "nazov": "Rímskokatolícky kostol sv. Ondreja",
       "popis": "",
       "cover": "/assets/images/migrated/6-kostol-sv-ondreja.jpg",
       "audio": [
@@ -9377,7 +9377,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "SAINT ANDREW’S ROMAN CATHOLIC CHURCH",
+          "nazov": "Saint Andrew’s Roman Catholic Church",
           "text": "<p>The oldest preserved sacral building in the town of Ružomberok, this original early Gothic building from the turn of the 14th century has been modified by a Renaissance reconstruction from the end of the 16th century, and Baroque modifications carried out in the 17th and 18th centuries. The church, dating from 1445, was located in the centre of a fortified sacral area, on the southern side of which stood a parochial house and a church school, built in the 17th century. A complete reconstruction was completed in 1903, using elements of the historical new Romanesque style. Considerable decorative modifications were undertaken from 1939 to 1940. The painted decoration of the church is the work of Eduard Massányi. The stained glass windows, designed by L’udovit Fulla from the 1930’s to the 1970’s, are a masterpiece, and a nationally significant example of stained glass window art.</p>"
         }
       },
@@ -9388,7 +9388,7 @@ const DB = {
       "id": "mauzoleum-andreja-hlinku",
       "miesto": "ruzomberok",
       "poradie": 14,
-      "nazov": "MAUZÓLEUM ANDREJA  HLINKU",
+      "nazov": "Mauzóleum Andreja Hlinku",
       "popis": "",
       "cover": "/assets/images/migrated/7-mauzoleum-a-hlinku.jpg",
       "audio": [
@@ -9410,7 +9410,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "THE MAUSOLEUM OF ANDREJ HLINKA",
+          "nazov": "The Mausoleum of Andrej Hlinka",
           "text": "<p>The Mausoleum of Msgr. Andrej Hlinka was built in 1939. The construction, an initiative of the town of Ružomberok, fulfilled both the law requiring recognition of his achievements, and acted on a resolution of the Slovak Assembly requiring construction of a permanent memorial to him. It is located under the site of the former Presbytery and the Illeshäzy School. The original idea for a memorial hall for those who lost their lives in the First World War was transformed into the current architectural concept by Kazimir Olejník, Jozef Švidroň and Jozef Glončák. The area around the Mausoleum was architecturally planned in order to create a ceremonial approach. This was done through a staircase now known as the School Stairs, which is lined on both sides with a decorated pillared banister. It was designed by Jozef Uhlár and Štefan Martoník. A major renovation took place from 1990 to 1991. Nowadays it is a reverential place and a symbolic site representing the location of the final resting place of Andrej Hlinka.</p>",
           "audio": [
             "/assets/audio/migrated/21-the-mausoleum-of-andrej-hlinka.mp3"
@@ -9424,7 +9424,7 @@ const DB = {
       "id": "piaristicke-gymnazium",
       "miesto": "ruzomberok",
       "poradie": 15,
-      "nazov": "PIARISTICKÉ GYMNÁZIUM",
+      "nazov": "Piaristické gymnázium",
       "popis": "",
       "cover": "/assets/images/migrated/5-piaristicke-gymnazium.jpg",
       "audio": [
@@ -9446,7 +9446,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "PlARlST GRAMMAR SCHOOL",
+          "nazov": "Piarist Grammar School",
           "text": "<p>This solitary building from the years 1888 to 1889 is a part of the Piarist College complex. The new building of the eight-year grammar school in the classical architectural style was built with town funds and replaced the older Piarist School building from 1790. lt is a two- storey building with a three-wing layout, central hall, and a central newel staircase. At the time of its establishment (1729) the Lower Piarist Grammar School in Ružomberok was the only one of its type for Liptov, Orava, Turiec and the upper part of Trenčín shire. During its existence many significant national Slovak figures attended the school. A complete renovation took place between 1984 and 1985, and the facade and interior were renovated in 2004. Since the year 2005, the building has been the seat of the vice-chancellor of the Catholic University in Ružomberok.</p>",
           "audio": [
             "/assets/audio/migrated/22-piarist-grammar-school.mp3"
@@ -9460,7 +9460,7 @@ const DB = {
       "id": "namestie-andreja-hlinku",
       "miesto": "ruzomberok",
       "poradie": 16,
-      "nazov": "NÁMESTIE ANDREJA HLINKU",
+      "nazov": "Námestie Andreja Hlinku",
       "popis": "",
       "cover": "/assets/images/migrated/1-2-namestie-a-hlinku.jpg",
       "audio": [
@@ -9482,7 +9482,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "THE ANDREJ HLINKA SQUARE",
+          "nazov": "The Andrej Hlinka Square",
           "text": "<p>This historical square took on its basic form at the turn of the 14th century, and maintains the original narrow land divisions of the Middle Ages. Later building works and reconstructions from the 18th and 19th century are partially preserved. This historical rectangular square is accessed by a network of steep winding streets and a system of staircases that link it with the lower town. Some national cultural monuments are located in the square, for example a pillar with a statue of the Our Lady of the Immaculate Conception and other important buildings listed as town landmarks.</p>",
           "audio": [
             "/assets/audio/migrated/26-the-andrej-hlinka-square.mp3"
@@ -9496,7 +9496,7 @@ const DB = {
       "id": "mariansky-stlp-socha-imacculata",
       "miesto": "ruzomberok",
       "poradie": 17,
-      "nazov": "MARIÁNSKY STĹP – SOCHA IMACCULATA",
+      "nazov": "Mariánsky stĺp – socha Immaculata",
       "popis": "",
       "cover": "/assets/images/migrated/1-2-namestie-a-hlinku.jpg",
       "audio": [
@@ -9518,7 +9518,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "VIRGIN MARY COLUMN – SCULPTURE IMACCULATA",
+          "nazov": "Virgin Mary Column – Sculpture Immaculata",
           "text": "<p>A neo Baroque Marian Column from 1858 stands on Andrej Hlinka’s Square. The statue was likely made by Alexander Belopotocký. The podium with four stairs is enclosed with an iron wrought fence. At the top of a pillar is a stone gold-plated statue of Virgin Mary Immaculata from the end of the 18th century which stands on an earthglobe entwined by a gilded snake. The statue has an aureole with twelve stars. The Marian Column is an artistic statue with a unique monumental exterior sculptural work from the 18th and 19th centuries.</p>",
           "audio": [
             "/assets/audio/migrated/20-virgin-mary-column-sculpture-imacculata.mp3"
@@ -9532,7 +9532,7 @@ const DB = {
       "id": "rimskokatolicky-kostol-povysenia-sv-kriza",
       "miesto": "ruzomberok",
       "poradie": 18,
-      "nazov": "RÍMSKOKATOLÍCKY KOSTOL POVÝŠENIA SV. KRÍŽA",
+      "nazov": "Rímskokatolícky kostol Povýšenia sv. Kríža",
       "popis": "",
       "cover": "/assets/images/migrated/3-4-kostol-pov-sv-kriza_-kolegium-piaristov.jpg",
       "audio": [
@@ -9554,7 +9554,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "ROMAN CATHOLIC CHURCH OF THE ELEVATION OF THE HOLY CROSS",
+          "nazov": "Roman Catholic Church of the Elevation of the Holy Cross",
           "text": "<p>The Church of the Elevation of the Holy Cross began life in the year 1806 when the monastic residency of the Piarist order was reconstructed with the ﬁnancial support of Andrej Zvada Paračka, a townsman of Ružomberok and business man. This sacral construction in the Empire style completes the space of Andrej Hlinka´s square. The original church layout of a single nave, tower and a semicircular sanctuary has been preserved. In the niches in the frontal facade, stone sculptures of Saint Ján Nepomucký and Saint Jozef Kalazanský, from the workshop of Alexander Belopotocký, can be found. The interior furnishings from the 19th and 20th century are the work of Alexander Belopotocký and Valér Aurel Zavarsky, and the interior vaulted ceilings are adorned with paintings from Jozef Hanula. Even though they belong to the early work of the artist they display his characteristic style and expressions.</p>",
           "audio": [
             "/assets/audio/migrated/13-roman-catholic-church-of-the-elevation-of-the-holy-cross.mp3"
@@ -9568,7 +9568,7 @@ const DB = {
       "id": "kolegium-piaristov",
       "miesto": "ruzomberok",
       "poradie": 19,
-      "nazov": "KOLÉGIUM PIARISTOV",
+      "nazov": "Kolégium piaristov",
       "popis": "",
       "cover": "/assets/images/migrated/3-4-kostol-pov-sv-kriza_-kolegium-piaristov.jpg",
       "audio": [
@@ -9590,7 +9590,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "PIARIST COLLEGE",
+          "nazov": "Piarist College",
           "text": "<p>The oldest part of this architectural structure is this late Baroque construction from the years 1730 to 1735. The benefactor behind this construction was count Jan Jakub Lőwenburg. Originally a two-storey building the construction was modified during later construction works in the 18th and 19th centuries. During the 1930’s the Jesuits completed the modern North West wing of the monastery. The residency of the Piarists is a typical monastic school building and is one of the main dominant features of the town. Behind the residency in the western part of the grounds, lies the monastic garden.</p>",
           "audio": [
             "/assets/audio/migrated/19-piarist-college.mp3"
@@ -9604,7 +9604,7 @@ const DB = {
       "id": "synagoga",
       "miesto": "ruzomberok",
       "poradie": 20,
-      "nazov": "SYNAGÓGA",
+      "nazov": "Synagóga",
       "popis": "",
       "cover": "/assets/images/migrated/9-synagoga.jpg",
       "audio": [
@@ -9626,7 +9626,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "SYNAGOGUE",
+          "nazov": "Synagogue",
           "text": "<p>This Neo-Romanesque synagogue, from the years 1879 – 1880, represents the typical style of Jewish sacral architecture from the second half of the 19th Century. From the time of its establishment, it served as place of prayer for the Jewish religious community. The hall has three naves, and a rectangular floor plan with a matroneum. The interior facade has morphological details typical of the Neo-Romanesque period. The construction was led by Juraj Lukáč and the building is a model of the synagogue in Miskolc. The building was renovated for the first time in 1929 and the architectural expressions of that period, including the morphological details and in-filled openings were preserved in their original form. In 2014 the synagogue was completely renovated by the city of Ružomberok. This architectural monument acquired a new multifunctional social role being used as an exhibition space and concert hall of the city.</p>",
           "audio": [
             "/assets/audio/migrated/14-synagogue.mp3"
@@ -9640,7 +9640,7 @@ const DB = {
       "id": "slovenska-banka",
       "miesto": "ruzomberok",
       "poradie": 21,
-      "nazov": "SLOVENSKÁ BANKA",
+      "nazov": "Slovenská banka",
       "popis": "",
       "cover": "/assets/images/migrated/10-kniznica.jpg",
       "audio": [
@@ -9662,7 +9662,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "SLOVAK BANK",
+          "nazov": "Slovak Bank",
           "text": "<p>This solitary two-storey town-style building, was originally the headquarters of the Ružomberok Credit Union, a joint-stock company, later changed to Credit Bank and from 1919 the Slovak Bank. The Neo-Baroque building with Art Noveau features on the front facade was built in the years 1902 to 1903, from the design of Milan Michal Harminec. Partial modifications were carried out in 1936. The building was one of the significant locations in Slovak banking and Slovak national life, its history is connected to the Makovicky, Beniač and Houdek families, some of whose members were distinguished figures from financial, political and cultural life.</p>",
           "audio": [
             "/assets/audio/migrated/25-slovak-bank.mp3"
@@ -9676,7 +9676,7 @@ const DB = {
       "id": "studna",
       "miesto": "ruzomberok",
       "poradie": 22,
-      "nazov": "STUDŇA",
+      "nazov": "Studňa",
       "popis": "",
       "cover": "/assets/images/migrated/25-vlkolinec_studna.jpg",
       "audio": [
@@ -9698,7 +9698,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "WELL",
+          "nazov": "Well",
           "text": "<p>This 12 metre deep wooden winch-well was in the past the village´s only source of drinking water. The upper part of the structure comprises of a wooden construction on a stone foundation. The roof is covered by wooden tiles and the internal construction of the well is stone. Constructed in 1860, this public well represents simple folk building techniques with typological features that illustrate the construction styles of the time. The design and concstruction of the well contribute to this conservation area´s outstanding identity.</p>",
           "audio": [
             "/assets/audio/migrated/02-well.mp3"
@@ -9712,7 +9712,7 @@ const DB = {
       "id": "rolnicky-dom",
       "miesto": "ruzomberok",
       "poradie": 23,
-      "nazov": "ROĽNÍCKY DOM",
+      "nazov": "Roľnícky dom",
       "popis": "",
       "cover": "/assets/images/migrated/26-vlkolinec_rolnicky-dom.jpg",
       "audio": [
@@ -9734,7 +9734,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "A PEASANT’S HOUSE",
+          "nazov": "A Peasant’s House",
           "text": "<p>Peasant yard consisting of a logged folk double house, double – space barn, stable and a woodshed is the characteristic urban group of Vlkolinec settlement. Wood as the basic building material is used for dwelling and farming structures, stone was used for building store-rooms and corn lofts. It illustrates a traditional way of life in Vlkolinec and in upper Liptov region. Originally folk architecture is used as an expositive in SITU.</p>",
           "audio": [
             "/assets/audio/migrated/04-a-peasants-house.mp3"
@@ -9748,7 +9748,7 @@ const DB = {
       "id": "pomnik-sloboda-slovenskeho-naroda",
       "miesto": "ruzomberok",
       "poradie": 24,
-      "nazov": "POMNÍK „SLOBODA SLOVENSKÉHO NÁRODA“",
+      "nazov": "Pomník „Sloboda slovenského národa“",
       "popis": "",
       "cover": "/assets/images/migrated/13-socha-slobody_-obetiam-ii-sv-vojny.jpg",
       "audio": [
@@ -9770,7 +9770,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "MEMORIAL „THE FREEDOM OF THE SLOVAK NATION“",
+          "nazov": "Memorial “The Freedom of the Slovak Nation”",
           "text": "<p>The sculptural group of “Freedom” created by L.Majerský on the occasion of Czechoslovak republic formation 10.anniversary and inaugurated by Msgr.A.Hlinka. Group of statues contain 3 compositions – Bondage, Revolt and Freedom.</p>",
           "audio": [
             "/assets/audio/migrated/10-memorial-the-freedom-of-the-slovak-nation.mp3"
@@ -9784,7 +9784,7 @@ const DB = {
       "id": "miesto-tragickych-udalosti",
       "miesto": "ruzomberok",
       "poradie": 25,
-      "nazov": "MIESTO TRAGICKÝCH UDALOSTÍ",
+      "nazov": "Miesto tragických udalostí",
       "popis": "",
       "cover": "/assets/images/migrated/21-miesto-strelby_-cernova.jpg",
       "audio": [
@@ -9806,7 +9806,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "PLACE OF THE TRAGIC EVENT",
+          "nazov": "Place of the Tragic Event",
           "text": "<p>Sunday 27 October 1907 was a set date of the consecration of a new church. However, this was to be done without the participation of Andrej Hlinka, a native of Černová, who had been suspended from the priesthood for incitement against the Hungarian nationality. The people of Černová could not imagine this ceremony without the one who had greatly contributed to the building of the church. They were determined to prevent the consecration. From early morning a large part of the local people expected the unwelcome guests at the entrance of the village by the school in the lower part. The crowd formed a barrier of human bodies in the narrow entrance of the village in order to prevent the consecration of the church. A carriage with incoming priests got besieged by embattled people being aware of their belonging. The shouts of the Černová people as well as gendarmes‘ efforts to form a corridor for the carriages caused the horses to get stampeded and the chaos began. Verbal and physical attacks on both sides were ended by a sergeant who ordered to fire. Already after the first shots there were wounded and dying. Shooting, however, continued. The intervention of the gendarmes claimed 15 dead, 12 severely and 40 slightly injured. Afterwards, 59 defendants went through a trial in January 1908 in which the accused were sentenced to 37 years of imprisonment in total. As a result of national oppression, the Černová tragedy was one of the bloodiest events of last years of Austria-Hungary. It sparked large protests in Slovakia and throughout the monarchy. Several distinguished foreign personalities protested as well. It was also thanks to them that the Černová tragedy has entered the political history of the Slovak nation. The Slovak nation has also been made for life through the martyrs of Černová.</p>",
           "audio": [
             "/assets/audio/migrated/08-place-of-the-tragic-event-of-27-october-1907.mp3"
@@ -9820,7 +9820,7 @@ const DB = {
       "id": "vlacik-korytko-na-zeleznicnej-stanici",
       "miesto": "ruzomberok",
       "poradie": 26,
-      "nazov": "VLÁČIK KORYTKO NA ŽELEZNIČNEJ STANICI",
+      "nazov": "Vláčik Korytko na železničnej stanici",
       "popis": "",
       "cover": "/assets/images/migrated/18-vlacik-korytko-na-zs.jpg",
       "audio": [
@@ -9842,7 +9842,7 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "TRAIN KORYTKO AT THE RAILWAY STATION",
+          "nazov": "Train Korytko at the Railway Station",
           "text": "<p>A distinct building of the train station was built according to models of spa houses with trussed masonry. In 1871 the first train in Liptov passed the newly built train station in Ružomberok. Later, in 1912 the building, the train platform and a terminal lobby has been enlarged and renovated.</p>",
           "audio": [
             "/assets/audio/migrated/09-train-station.mp3"
@@ -10131,7 +10131,7 @@ const DB = {
       "id": "kostol-nanebovzatia-panny-marie-pomnik-padlym-v-1-sv-vojne",
       "miesto": "turzovka-mesto",
       "poradie": 1,
-      "nazov": "Kostol Nanebovzatia Panny Márie – Pomník padlým v 1. sv. vojne",
+      "nazov": "Kostol Nanebovzatia Panny Márie – Pomník padlým v 1. sv. vojne",
       "popis": "",
       "cover": "/assets/images/migrated/1-1.jpg",
       "audio": [
@@ -11152,7 +11152,7 @@ const DB = {
       "id": "bazilika-minor-narodenia-panny-marie-a-klastor-paulinov",
       "miesto": "vranov",
       "poradie": 3,
-      "nazov": "Bazilika minor Narodenia Panny Márie a kláštor paulínov",
+      "nazov": "Bazilika minor Narodenia Panny Márie a kláštor paulínov",
       "popis": "",
       "cover": "/assets/images/migrated/bazilika-minor-narodenia-panny-marie-a-klastor-paulinov.jpg",
       "audio": [

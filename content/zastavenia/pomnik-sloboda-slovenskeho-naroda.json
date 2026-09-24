@@ -2,7 +2,7 @@
   "id": "pomnik-sloboda-slovenskeho-naroda",
   "miesto": "ruzomberok",
   "poradie": 24,
-  "nazov": "POMNÍK „SLOBODA SLOVENSKÉHO NÁRODA“",
+  "nazov": "Pomník „Sloboda slovenského národa“",
   "popis": "",
   "cover": "assets/images/migrated/13-socha-slobody_-obetiam-ii-sv-vojny.jpg",
   "audio": [
@@ -31,7 +31,7 @@
   },
   "i18n": {
     "en": {
-      "nazov": "MEMORIAL „THE FREEDOM OF THE SLOVAK NATION“",
+      "nazov": "Memorial “The Freedom of the Slovak Nation”",
       "text": "The sculptural group of “Freedom” created by L.Majerský on the occasion of Czechoslovak republic formation 10.anniversary and inaugurated by Msgr.A.Hlinka. Group of statues contain 3 compositions – Bondage, Revolt and Freedom.",
       "audio": [
         {

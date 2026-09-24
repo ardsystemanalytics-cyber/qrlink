@@ -2,7 +2,7 @@
   "id": "vlacik-korytko-na-zeleznicnej-stanici",
   "miesto": "ruzomberok",
   "poradie": 26,
-  "nazov": "VLÁČIK KORYTKO NA ŽELEZNIČNEJ STANICI",
+  "nazov": "Vláčik Korytko na železničnej stanici",
   "popis": "",
   "cover": "assets/images/migrated/18-vlacik-korytko-na-zs.jpg",
   "audio": [
@@ -31,7 +31,7 @@
   },
   "i18n": {
     "en": {
-      "nazov": "TRAIN KORYTKO AT THE RAILWAY STATION",
+      "nazov": "Train Korytko at the Railway Station",
       "text": "A distinct building of the train station was built according to models of spa houses with trussed masonry. In 1871 the first train in Liptov passed the newly built train station in Ružomberok. Later, in 1912 the building, the train platform and a terminal lobby has been enlarged and renovated.",
       "audio": [
         {

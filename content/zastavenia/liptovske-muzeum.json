@@ -2,7 +2,7 @@
   "id": "liptovske-muzeum",
   "miesto": "ruzomberok",
   "poradie": 9,
-  "nazov": "LIPTOVSKÉ MÚZEUM",
+  "nazov": "Liptovské múzeum",
   "popis": "",
   "cover": "assets/images/migrated/14-lipt-muzeum.jpg",
   "audio": [
@@ -31,7 +31,7 @@
   },
   "i18n": {
     "en": {
-      "nazov": "LIPTOV MUSEUM",
+      "nazov": "Liptov Museum",
       "text": "The Liptov museum was founded by the Kűrti brothers, Artúr and Július in 1912. This cultural institution was moved to its current building, built by the town of Ružomberok, in 1934, from its original location in a Presbytery from the middle-ages. It was designed by the town architect Vojtech Donner, and the construction was carried out between 1935 – 1937 by Július Záchenský. This showcase building marks the end of the square of Š. N. Hýroš. An example of a traditional building, it demonstrates a lasting solution to the requirements of the exhibition and work space.",
       "audio": [
         {

@@ -58,6 +58,22 @@ nič nasadzuje, iba prepíše `js/data.js` podľa aktuálneho obsahu `content/`)
   aj pri lokálnom testovaní (na Verceli sa spustí automaticky pri nasadení).
 - Texty označené `[DOPLNIŤ]` čakajú na obsah z pôvodného webu.
 
+### Pravidlá pre jazykové verzie (platí aj pre nové zastavenia)
+
+- **Text patrí do verzie v jazyku, v ktorom je napísaný.** Slovenská
+  verzia (hlavné polia) má byť po slovensky, český text patrí do sekcie
+  „Čeština“, anglický do „Angličtina“ atď. Ak je originál napr. len
+  v češtine, do CS verzie ide originál a do SK verzie slovenský preklad.
+- **Audio:** nahrávka sa vloží do tej jazykovej verzie, ku ktorej patrí
+  (ako to mal starý web – väčšinou slovenská verzia = hlavné pole „Audio“).
+  Ostatné jazykové verzie, ktoré vlastnú nahrávku nemajú, nechaj pri audiu
+  **prázdne** – web v nich automaticky prehrá to isté audio ako slovenská
+  verzia. Vlastné audio sa do jazykovej verzie vkladá, len ak existuje
+  naozaj iná nahrávka v tom jazyku.
+- **Názvy nepíš veľkými písmenami.** Len prvé písmeno a vlastné mená
+  veľkým (napr. „Kaplnka sv. Cyrila a Metoda“, nie „KAPLNKA SV. CYRILA
+  A METODA“) – rovnako v prekladoch.
+
 ## Hierarchia: hlavná kategória → projekt → podkategória → zastavenie
 
 Obsah má 4 úrovne:
