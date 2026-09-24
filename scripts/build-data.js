@@ -52,10 +52,23 @@ function prettyUrl(record, fallback) {
 // "svetlonos/", alebo stará samostatná stránka "porabka/" popri kategórii
 // "category/porabka/"). Tie ďalšie adresy sú v "povodneUrlAliasy" - vedú
 // na ten istý obsah (kanonická URL ostáva hlavná "url").
-function prettyAliases(record) {
-  return (record.povodneUrlAliasy || [])
+function prettyAliases(record, field = "povodneUrlAliasy") {
+  return (record[field] || [])
     .filter((u) => typeof u === "string" && u.startsWith(OLD_SITE_PREFIX))
     .map((u) => "/" + u.slice(OLD_SITE_PREFIX.length));
+}
+
+// Staré adresy, ktoré už starý web presmeroval (301) na iný obsah, sú v
+// "povodnePresmerovania" pri cieľovom mieste/zastavení (napr.
+// "/new/sakralne-pamiatky-v-meste/" -> kaplnka u Okuliarov). Na rozdiel od
+// aliasov sa neukáže obsah na starej adrese, ale middleware.js presmeruje
+// (301) na kanonickú "url" - rovnako ako starý web. Kľúč = cesta bez "/".
+const redirects = {};
+function addRedirects(record, canonicalUrl) {
+  if (!canonicalUrl || canonicalUrl.includes(".html")) return;
+  for (const from of prettyAliases(record, "povodnePresmerovania")) {
+    redirects[from.replace(/^\/|\/$/g, "")] = canonicalUrl;
+  }
 }
 
 // Lokálne médiá (nahrané cez CMS aj tie stiahnuté pri migrácii zo starého
@@ -80,13 +93,17 @@ const miesta = readFolder(path.join(CONTENT, "miesta"))
   .sort((a, b) => (a.poradie ?? 0) - (b.poradie ?? 0))
   // "poradie"/"hlavnaKategoria"/"korenoveMiesto" sú len pomocné polia
   // (zoradenie + zoskupovanie v Decap CMS), do data.js sa nedávajú
-  .map(({ poradie, hlavnaKategoria, korenoveMiesto, povodneUrlAliasy, ...m }) => ({
-    ...m,
-    cover: abs(m.cover),
-    foto: abs(m.foto),
-    url: prettyUrl(m, `/kategoria.html?id=${m.id}`),
-    urlAliasy: prettyAliases({ povodneUrlAliasy }),
-  }));
+  .map(({ poradie, hlavnaKategoria, korenoveMiesto, povodneUrlAliasy, povodnePresmerovania, ...m }) => {
+    const url = prettyUrl(m, `/kategoria.html?id=${m.id}`);
+    addRedirects({ povodnePresmerovania }, url);
+    return {
+      ...m,
+      cover: abs(m.cover),
+      foto: abs(m.foto),
+      url,
+      urlAliasy: prettyAliases({ povodneUrlAliasy }),
+    };
+  });
 
 // "audio"/"galeria" sú v Decap CMS "list" polia s jedným pod-poľom ("url"),
 // takže sa v content/*.json vždy ukladajú ako [{url: "..."}, ...] – presne
@@ -97,7 +114,7 @@ const urlListToStrings = (list) => (list || []).map((it) => abs(typeof it === "s
 
 const zastavenia = readFolder(path.join(CONTENT, "zastavenia"))
   .sort((a, b) => a.miesto.localeCompare(b.miesto) || (a.poradie ?? 0) - (b.poradie ?? 0))
-  .map(({ hlavnaKategoria, projekt, miestoNazov, povodneUrlAliasy, ...z }) => {
+  .map(({ hlavnaKategoria, projekt, miestoNazov, povodneUrlAliasy, povodnePresmerovania, ...z }) => {
     // "hlavnaKategoria"/"projekt"/"miestoNazov" sú len pomocné polia na
     // zoskupovanie/popisky v Decap CMS (/admin), do data.js sa nedávajú
     // – app.js ich nepozná/nepotrebuje.
@@ -110,6 +127,7 @@ const zastavenia = readFolder(path.join(CONTENT, "zastavenia"))
       url: prettyUrl(z, `/zastavenie.html?id=${z.id}`),
       urlAliasy: prettyAliases({ povodneUrlAliasy }),
     };
+    addRedirects({ povodnePresmerovania }, out.url);
     if (out.i18n) {
       // Preložené audio (napr. anglická nahrávka zo starého webu) má rovnaký
       // tvar ako hlavné "audio" - rozbaliť na pole URL. Keď preklad audio nemá,
@@ -231,6 +249,9 @@ for (const z of zastavenia) {
   guess[last] = `/zastavenie.html?id=${z.id}`;
 }
 for (const [last, n] of Object.entries(guessCount)) if (n > 1) delete guess[last];
+for (const from of Object.keys(redirects)) {
+  if (urlMap[from]) console.warn(`POZOR: povodnePresmerovania "/${from}/" je zároveň platná adresa obsahu - presmerovanie ju prekryje.`);
+}
 
 const sitemapUrls = [
   "/",
@@ -268,6 +289,7 @@ fs.writeFileSync(
   `// AUTOMATICKY VYGENEROVANÉ - pozri scripts/build-data.js\n` +
     `export default ${JSON.stringify(urlMap, null, 2)};\n` +
     `export const guess = ${JSON.stringify(guess, null, 2)};\n` +
+    `export const redirects = ${JSON.stringify(redirects, null, 2)};\n` +
     `export const staticFiles = ${JSON.stringify(staticFiles)};\n`,
   "utf8"
 );

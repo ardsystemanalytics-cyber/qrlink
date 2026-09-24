@@ -14,6 +14,10 @@
       Ruské/poľské adresy (/new/ru/..., /ru/..., /pl/...) idú na slovenskú
       verziu bez prefixu - nový web ruštinu ani poľštinu nemá.
 
+   2b) Staré adresy, ktoré starý web už sám presmeroval (301) na iný obsah
+      (pole "povodnePresmerovania" v content/), -> 301 rovno na kanonickú
+      adresu cieľa (aj z "/new/..." je to jediný skok).
+
    3) Čokoľvek ostatné, čo na novom webe neexistuje (napr. adresy ešte
       staršej verzie webu bez "/new") -> 301 na hlavnú stránku (pri
       jazykovom prefixe en/cs/hu/de na hlavnú stránku v tom jazyku).
@@ -31,7 +35,7 @@
    takže na zvyšné (bežné CommonJS) skripty/funkcie to nemá vplyv.
    ===================================================================== */
 import { rewrite, next } from "@vercel/functions";
-import urlMap, { guess, staticFiles } from "./lib/pretty-url-map.mjs";
+import urlMap, { guess, redirects, staticFiles } from "./lib/pretty-url-map.mjs";
 
 const OLD_LANGS = ["sk", "en", "cs", "hu", "de", "ru", "pl"];
 // Jazyky, ktoré nový web naozaj má (js/i18n.js) - len tie majú vlastnú
@@ -96,14 +100,28 @@ function redirectTo(target, url) {
   return Response.redirect(dest, 301);
 }
 
+// Stará adresa, ktorú už starý web presmeroval (301) na iný obsah
+// ("povodnePresmerovania" v content/) -> kanonická adresa cieľa, so
+// zachovaním jazyka: /en/sakralne-pamiatky-v-meste/ -> /en/kaplnka-.../.
+// Inak cesta bez zmeny.
+function applyOldRedirect(pathname) {
+  const segments = pathname.split("/").filter(Boolean);
+  const lang = SITE_LANGS.includes(segments[0]) ? segments.shift() : null;
+  const target = redirects[segments.join("/")];
+  if (!target) return pathname;
+  return lang ? `/${lang}${target}` : target;
+}
+
 export default function middleware(request) {
   const url = new URL(request.url);
   const { pathname } = url;
 
   if (pathname === "/new" || pathname.startsWith("/new/")) {
-    return redirectTo(withoutNonSiteLang(pathname.slice(4) || "/"), url);
+    return redirectTo(applyOldRedirect(withoutNonSiteLang(pathname.slice(4) || "/")), url);
   }
-  if (NON_SITE_PREFIX.test(pathname)) return redirectTo(withoutNonSiteLang(pathname), url);
+  if (NON_SITE_PREFIX.test(pathname)) return redirectTo(applyOldRedirect(withoutNonSiteLang(pathname)), url);
+  const redirected = applyOldRedirect(pathname);
+  if (redirected !== pathname) return redirectTo(redirected, url);
 
   const found = resolve(pathname);
   if (!found) return Response.redirect(new URL(homeFor(pathname), url), 301);

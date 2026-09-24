@@ -32,6 +32,9 @@
     "pl": "https://www.qrlink.sk/new/pl/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/",
     "hu": "https://www.qrlink.sk/new/hu/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/"
   },
+  "povodnePresmerovania": [
+    "https://www.qrlink.sk/new/sakralne-pamiatky-v-meste/"
+  ],
   "i18n": {
     "en": {
       "nazov": "The chapel of Virgin Mary’s perpetual help in settlement U Okuliarov",
