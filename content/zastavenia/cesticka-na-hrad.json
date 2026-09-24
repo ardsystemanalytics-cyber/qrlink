@@ -31,5 +31,11 @@
     "ru": "https://www.qrlink.sk/new/ru/castles/cesticka-na-hrad/",
     "pl": "https://www.qrlink.sk/new/pl/castles/cesticka-na-hrad/",
     "hu": "https://www.qrlink.sk/new/hu/castles/cesticka-na-hrad/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The Path to the Castle",
+      "text": "## The Path of the Castle Lady Žofia\n\nThe path is short, but steep and demanding, with a surprise at the end – just like the road to heaven. Lady Žofia often walked down these 151 steps to visit her subjects and bring them her bread of comfort. Little Adam and Laco, in turn, ran down this path to meet their father – the lord of the castle – to welcome him before the castle gate opened. The path will lead you to a clearing where time has stood still: a medieval settlement with the cottages of a herbalist, a baker and a fisherman, and of course a shelter for pilgrims.\n\n## The Road of the Castle Lord František\n\nReturning from military campaigns, the lord of the castle used to take this wide and comfortable lord's road. Often tired and exhausted, but happy that he would once again see his beloved Žofia and his boys Adam and Laco. The boys always waited impatiently for their beloved father to come home and stay at least for a while. They watched for him from the castle tower so they could spot him from afar and run down the steps in time. They climbed onto their father's steed and were welcomed at the castle in glory."
+    }
   }
 }

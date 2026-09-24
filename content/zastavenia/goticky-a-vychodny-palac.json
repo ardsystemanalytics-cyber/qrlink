@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/castles/goticky-a-vychodny-palac/",
     "pl": "https://www.qrlink.sk/new/pl/castles/goticky-a-vychodny-palac/",
     "hu": "https://www.qrlink.sk/new/hu/castles/goticky-a-vychodny-palac/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Gothic and Eastern Palace",
+      "text": "Of the original Gothic palace discovered during archaeological research, only part of the basement with the original door portal has survived. Today you can see a display of a torture chamber inside.\n\nIn the past the torture chamber was probably not located here, because the upper castle, above the tower, was reserved for the lords, while the lower castle, below the tower, was for the servants. The outer wall of the eastern palace is one of the best-preserved original walls of the castle, as the other walls have been extensively reinforced. The wall has even kept its original window openings."
+    }
   }
 }

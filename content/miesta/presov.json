@@ -23,5 +23,10 @@
     "hu": "https://www.qrlink.sk/new/hu/category/presov/"
   },
   "foto": "assets/images/places/presov.jpg",
-  "fotoErb": true
+  "fotoErb": true,
+  "i18n": {
+    "en": {
+      "popis": "The metropolis of the Šariš region with a historic centre."
+    }
+  }
 }

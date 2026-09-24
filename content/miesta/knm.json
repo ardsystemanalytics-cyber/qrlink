@@ -23,5 +23,10 @@
     "hu": "https://www.qrlink.sk/new/hu/category/knm/"
   },
   "foto": "assets/images/places/knm.png",
-  "fotoErb": true
+  "fotoErb": true,
+  "i18n": {
+    "en": {
+      "popis": "A town in the Kysuce region."
+    }
+  }
 }

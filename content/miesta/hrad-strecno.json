@@ -25,5 +25,11 @@
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/"
   ],
-  "foto": "assets/images/places/hrad-strecno.jpg"
+  "foto": "assets/images/places/hrad-strecno.jpg",
+  "i18n": {
+    "en": {
+      "nazov": "Strečno Castle",
+      "popis": "A medieval castle above the Váh river – 14 stops with an audio guide."
+    }
+  }
 }

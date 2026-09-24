@@ -24,5 +24,11 @@
     "ru": "https://www.qrlink.sk/new/ru/castles/rodny-dom-jozefa-kronera/",
     "pl": "https://www.qrlink.sk/new/pl/castles/rodny-dom-jozefa-kronera/",
     "hu": "https://www.qrlink.sk/new/hu/castles/rodny-dom-jozefa-kronera/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Jozef Kroner's Birthplace",
+      "text": "The little house where the prominent Slovak actor Jozef Kroner was born in 1924. The museum is open every day. In the middle of the museum you will find a table, the actor's armchair and a display case with many objects from the artist's life, such as personal letters, various awards, fishing boots, glasses, a cup and even the Oscar statuette for the film The Shop on Main Street, in which Jozef Kroner played the lead role."
+    }
   }
 }

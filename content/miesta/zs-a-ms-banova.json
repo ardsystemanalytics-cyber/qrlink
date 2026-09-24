@@ -28,5 +28,11 @@
     "https://www.qrlink.sk/new/category/zs-a-ms/"
   ],
   "foto": "assets/images/places/zs-a-ms-banova.jpg",
-  "fotoErb": true
+  "fotoErb": true,
+  "i18n": {
+    "en": {
+      "nazov": "Bánová Primary School and Kindergarten",
+      "popis": "The grounds of the primary school and kindergarten in Žilina-Bánová with educational stops for environmental education."
+    }
+  }
 }

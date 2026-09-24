@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/sklo/",
     "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/sklo/",
     "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/sklo/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Glass",
+      "text": "Glass can be recycled practically endlessly. Glass waste belongs in the green container, and before throwing it away the packaging should be emptied of food or liquid residues.\n\n**The green containers are for** glass drink and food packaging, jars, glass objects, cosmetics bottles, window glass, broken glass, and packaging with the recycling symbol and code GL 70, 71 and 72.\n\n**They are not for**: porcelain, ceramics, car glass, mirrors, TV screens, chemical bottles, very dirty bottles and glass packaging (especially with sand), medicine bottles, light bulbs and fluorescent tubes, or glass combined with another material (wired glass).\n\nSeparate collection of clear and coloured glass is becoming more and more common. Most often a divided container is used, with one half for clear and the other for coloured glass. In some places there may be two separate containers for clear and coloured glass instead of a divided one.\n\n**Clear glass:** only clear bottles, jars and other clear, uncoloured glass.\n\n**Coloured (mixed) glass:** brown, green, grey and blue bottles, medicine bottles, sheet glass (even clear, because of its chemical composition) and white (milk) glass.\n\nIf there is only one glass container, clear and coloured glass are not separated and everything goes into one container.\n\n*Source: [Wikipedia](https://sk.wikipedia.org/wiki/Sklo)*"
+    }
   }
 }

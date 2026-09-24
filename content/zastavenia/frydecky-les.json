@@ -27,5 +27,11 @@
     "ru": "https://www.qrlink.sk/new/ru/castles/frydecky-les/",
     "pl": "https://www.qrlink.sk/new/pl/castles/frydecky-les/",
     "hu": "https://www.qrlink.sk/new/hu/castles/frydecky-les/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Frýdek Forest",
+      "text": "The nature trail shows that the forest has many functions and is not only for growing and harvesting timber. The forest is also home to many species of plants and animals – from insects to large game. The nature trail is particularly suitable for schoolchildren. Simple footbridges have been laid over wet places, and a small bridge has been built over a ravine with a stream.\n\n## Top attraction:\n\n### Erratic Boulders in Frýdek Forest\n\nErratic boulders can be found in many places in northern Moravia and Silesia. The discovery of the boulders in Frýdek Forest was first published in 2006. A larger group of boulders lies in the left tributary of the Podšajarka stream, in a ravine about 200 metres north of Zátiší; others lie directly in the bed of the Podšajarka.\n\n![](/assets/images/migrated/fridecky-1.jpg)"
+    }
   }
 }

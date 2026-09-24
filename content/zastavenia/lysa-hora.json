@@ -24,5 +24,11 @@
     "ru": "https://www.qrlink.sk/new/ru/castles/lysa-hora/",
     "pl": "https://www.qrlink.sk/new/pl/castles/lysa-hora/",
     "hu": "https://www.qrlink.sk/new/hu/castles/lysa-hora/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Lysá hora",
+      "text": "The highest mountain of the Moravian-Silesian Beskids (1,323 m above sea level), sometimes also nicknamed the queen of the Moravian-Silesian Beskids.\n\nThe Lysá hora massif is separated from the other parts of the Moravian-Silesian Beskids by the deep valleys of the Ostravice, Řečice and Mohelnice and consists of a dominant summit with four main spurs and several other side ridges. Four spurs radiate from the summit of “Gigula” (the old name of Lysá hora): “Lukšinec”, “Malchor”, “Zimná Polana” and “Veľký Kobylík”.\n\nOn the summit of Lysá hora there is a meteorological station, a TV transmitter, a mountain rescue station and several mountain huts. A small chapel stands next to one of them. There are also memorial plaques to hikers who died during the occupation.\n\nThe geomorphological curiosities of Lysá hora include the cave systems on the Lukšinec spur, called Ondrášovy díry (Ondráš's Holes). They consist of 250 m of fissure passages and chambers with a height range of about 30 m. Because of the real risk of injury the system is closed and the entrances are secured with grilles. Bats overwinter here.\n\nIn fine weather Lysá hora offers beautiful views of the ridges and valleys of the Beskids and Javorníky, of the Slovak mountains from Malá and Veľká Fatra all the way to the Western and High Tatras, and to the west of the Jeseníky mountains."
+    }
   }
 }

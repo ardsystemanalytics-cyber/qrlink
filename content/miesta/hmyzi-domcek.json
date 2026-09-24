@@ -17,5 +17,10 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/hmyzi-domcek/"
-  ]
+  ],
+  "i18n": {
+    "en": {
+      "nazov": "Insect Hotel"
+    }
+  }
 }

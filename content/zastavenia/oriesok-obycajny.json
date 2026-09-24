@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/oriesok-obycajny/",
     "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/oriesok-obycajny/",
     "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/oriesok-obycajny/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Eurasian Wren",
+      "text": "Sound recording – Call\n\nSource: Ľuboš Rendek, own work, [CC BY-SA 4.0](https://sk.wikipedia.org/wiki/S%C3%BAbor:Orie%C5%A1ok_oby%C4%8Dajn%C3%BD_Hlas.ogg),"
+    }
   }
 }

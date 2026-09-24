@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/bobor/",
     "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/bobor/",
     "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/bobor/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Beaver",
+      "text": "**Beaver**\n\nThe beaver builds a dam across the river, \n\nhis walls of trees make the water shiver. \n\nHis little teeth are strong and sharp, \n\nhe gnaws through trees and strips their bark.\n\nHis tail is flat just like a paddle, \n\nhe slaps it down with a splash and a rattle. \n\nIn water he's a swimming master, \n\nbuilding his homes by the river faster."
+    }
   }
 }

@@ -27,5 +27,10 @@
     "https://www.qrlink.sk/new/porabka/"
   ],
   "foto": "assets/images/places/porabka.png",
-  "fotoErb": true
+  "fotoErb": true,
+  "i18n": {
+    "en": {
+      "popis": "A Polish village in the Beskids."
+    }
+  }
 }

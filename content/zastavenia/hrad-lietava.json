@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/hrad-lietava/",
     "pl": "https://www.qrlink.sk/new/pl/hrad-lietava/",
     "hu": "https://www.qrlink.sk/new/hu/hrad-lietava/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Lietava Castle",
+      "text": "It is built on Cibulník hill – 635 m above sea level – with steep slopes on several sides. Thanks to its location it was almost impregnable in the past, and it ranks second in Slovakia, right after Spiš Castle. It offers visitors beautiful views of the Súľov Rocks, the Skalky massif, the Kysuce Highlands, Malá Fatra and the Javorníky mountains. It can be reached either from the village of Lietava or from Lietavská Svinná."
+    }
   }
 }

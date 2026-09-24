@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/kysucka-hvezdaren/",
     "pl": "https://www.qrlink.sk/new/pl/kysucka-hvezdaren/",
     "hu": "https://www.qrlink.sk/new/hu/kysucka-hvezdaren/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Kysuce Observatory",
+      "text": "The Kysuce Observatory is a regional cultural institution whose main mission is professional observation in astronomy and the popularisation of astronomy and related natural and technical sciences through various kinds of events for the general public. The observatory organises excursions, lectures for schools and the public of all ages, talks about current discoveries and phenomena, daytime and night-time sky observation for the public, screenings of popular science films and more. For many years the observatory has taken part in many international activities and observations. It houses a permanent exhibition called The Universe Through Children's Eyes.\n\nThe observatory is located in the Suľkov part of the town. More information at: [www.astrokysuce.sk](https://www.astrokysuce.sk) or tel. 041/421 2946"
+    }
   }
 }

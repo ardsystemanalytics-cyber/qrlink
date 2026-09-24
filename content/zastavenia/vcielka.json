@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/vcielka/",
     "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/vcielka/",
     "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/vcielka/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Little Bee",
+      "text": "**&#x1f41d; Little Bee**\n\nA little bee sings in the meadow, \n\nfrom flower to flower she flies so mellow. \n\nShe buzzes, sings and dances round, \n\nin the hive her honey's found.\n\nShe greets each little flower she sees, \n\nthe sunshine puts her mind at ease. \n\nFrom pollen she makes honey sweet, \n\nthe whole world loves this tasty treat."
+    }
   }
 }

@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/oravsky-hrad/",
     "pl": "https://www.qrlink.sk/new/pl/oravsky-hrad/",
     "hu": "https://www.qrlink.sk/new/hu/oravsky-hrad/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Orava Castle",
+      "text": "One of the biggest tourist attractions of the Orava region is Orava Castle, built on a rock above the Orava river in Oravský Podzámok. It is one of the most beautiful and most visited castles in Slovakia. Its exhibitions are divided into historical, ethnographic and natural history sections. The castle is a favourite with filmmakers: several fairy tales, an adventure series and even a horror film have been shot here."
+    }
   }
 }

@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/castles/cisterna/",
     "pl": "https://www.qrlink.sk/new/pl/castles/cisterna/",
     "hu": "https://www.qrlink.sk/new/hu/castles/cisterna/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Cistern",
+      "text": "The cistern was used to collect rainwater from the castle roofs. The water reached it through rain gutters. The cistern is 3.5 m deep and 2.6 m in diameter. The bottom five courses of the lining are original, the other 3 courses have been reconstructed. When in use, the bottom and walls of the cistern were coated with clay to prevent water from seeping into the limestone bedrock. The water from the cistern was not drinkable – it was only for utility use."
+    }
   }
 }

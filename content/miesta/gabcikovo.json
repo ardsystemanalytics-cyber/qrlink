@@ -26,5 +26,11 @@
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/"
   ],
-  "foto": "assets/images/places/gabcikovo.jpg"
+  "foto": "assets/images/places/gabcikovo.jpg",
+  "i18n": {
+    "en": {
+      "nazov": "Gabčíkovo / Čunovo Waterworks",
+      "popis": "A hydroelectric project on the Danube – doc. Ing. Július Binder, Dr. h. c."
+    }
+  }
 }

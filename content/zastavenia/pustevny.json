@@ -24,5 +24,11 @@
     "ru": "https://www.qrlink.sk/new/ru/castles/pustevny/",
     "pl": "https://www.qrlink.sk/new/pl/castles/pustevny/",
     "hu": "https://www.qrlink.sk/new/hu/castles/pustevny/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Pustevny",
+      "text": "Pustevny is a very attractive place for trips in any weather. The settlement near the mythical Radhošť mountain can be reached by cable car, on foot, on cross-country skis in winter and by bike in summer. Pustevny is the most popular tourist centre in the Beskids, and the statue of Radegast, which you will find on the way to Radhošť, is the best-known symbol of the whole Moravian-Silesian Region. Worth noticing is the architecture of the LIBUŠÍN and MAMĚNKA tourist lodges by the Slovak architect Dušan Jurkovič, as well as the wooden church of Saints Cyril and Methodius and the statue group of the two missionaries by Albín Polášek from 1931, which stands on the summit itself."
+    }
   }
 }

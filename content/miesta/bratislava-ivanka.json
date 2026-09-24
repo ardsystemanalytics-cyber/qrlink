@@ -23,5 +23,10 @@
     "hu": "https://www.qrlink.sk/new/hu/category/ivanka-pri-dunaji/"
   },
   "foto": "assets/images/places/bratislava-ivanka.png",
-  "fotoErb": true
+  "fotoErb": true,
+  "i18n": {
+    "en": {
+      "popis": "A village near Bratislava with a rich history."
+    }
+  }
 }

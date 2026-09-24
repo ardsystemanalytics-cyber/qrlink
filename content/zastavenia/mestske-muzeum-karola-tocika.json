@@ -24,5 +24,11 @@
     "ru": "https://www.qrlink.sk/new/ru/castles/mestske-muzeum-karola-tocika/",
     "pl": "https://www.qrlink.sk/new/pl/castles/mestske-muzeum-karola-tocika/",
     "hu": "https://www.qrlink.sk/new/hu/castles/mestske-muzeum-karola-tocika/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Karol Točík Town Museum",
+      "text": "The Town Museum in Turzovka is dedicated to Karol Točík, who was not only the parish priest and dean of Turzovka but also a regional historian. He worked in Turzovka from 1917 to 1959.\n\nThe first exhibition consisted of a selection of exhibits donated to the museum by local institutions and by citizens of Turzovka and nearby villages. An exceptional exhibit is the original bell that the town's founder, Juraj Thurzó, had cast in 1614 for the oldest wooden church in Turzovka (which no longer exists). The bell is the oldest and most valuable exhibit, and its stylised form also appears in the museum's logo."
+    }
   }
 }

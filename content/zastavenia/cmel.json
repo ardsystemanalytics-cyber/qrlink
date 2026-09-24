@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/cmel/",
     "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/cmel/",
     "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/cmel/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Bumblebee",
+      "text": "## Bumblebee – Lat. *Bombus*\n\nThe bumblebee is a genus of flying insects belonging to the bee family (Apidae). Like its relatives the honey bees, it feeds on nectar and pollen, which it collects not only for itself but also to feed its larvae. Most bumblebees are peaceful by nature and live in colonies. They typically have a robust body with dense bristly hair, mostly black and yellow, although orange, red or completely black forms also occur. Some species have a white-tipped abdomen.\n\nUnlike honey bees, bumblebees do not overwinter in colonies and do not store honey, so they are not kept for honey production. Queens and workers can sting repeatedly, because their stings have no barbs.\n\nBumblebees play an important role in pollinating plants, not only in the wild but also in agriculture. Thanks to their dense hair, on which they collect large amounts of pollen, and their intense buzzing while visiting flowers, they are more effective at pollinating even complex inflorescences. They have proved very useful, for example, in growing tomatoes in greenhouses. In many developed countries, however, this insect faces a decline in numbers due to excessive use of pesticides and is among the endangered species.\n\n*Source: [Wikipedia](https://sk.wikipedia.org/wiki/%C4%8Cme%C4%BE)*"
+    }
   }
 }

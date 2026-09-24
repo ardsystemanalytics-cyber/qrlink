@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/mravec/",
     "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/mravec/",
     "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/mravec/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Ant",
+      "text": "**&#x1f41c; Ant**\n\nThe ant goes marching in a line, \n\nwith sugar on his back so fine. \n\nHe's just as strong as a big strong man, \n\nhe'll carry the heaviest load he can.\n\nThe anthill's buzzing all day long, \n\neach ant knows where it belongs. \n\nThey work away both night and day, \n\nan ant's will never fades away."
+    }
   }
 }

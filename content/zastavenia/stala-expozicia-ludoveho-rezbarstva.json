@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/stala-expozicia-ludoveho-rezbarstva/",
     "pl": "https://www.qrlink.sk/new/pl/stala-expozicia-ludoveho-rezbarstva/",
     "hu": "https://www.qrlink.sk/new/hu/stala-expozicia-ludoveho-rezbarstva/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Permanent Exhibition of Folk Woodcarving",
+      "text": "Visitors will probably also be interested in the Gallery of Folk Woodcarving. The village now has a permanent exhibition of folk woodcarving with more than 150 wooden sculptures by more than fifty folk artists from Slovakia, the Czech Republic and Poland."
+    }
   }
 }

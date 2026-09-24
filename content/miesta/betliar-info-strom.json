@@ -19,7 +19,8 @@
   ],
   "i18n": {
     "en": {
-      "nazov": "English Park at the Andrássy Mansion in Betliar"
+      "nazov": "English Park at the Andrássy Mansion in Betliar",
+      "popis": "An educational route through the English park – fauna, flora and architecture."
     },
     "hu": {
       "nazov": "Angol park az Andrássy-kastélynál Betliáron"

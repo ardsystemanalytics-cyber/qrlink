@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/rozhladna-luby/",
     "pl": "https://www.qrlink.sk/new/pl/rozhladna-luby/",
     "hu": "https://www.qrlink.sk/new/hu/rozhladna-luby/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Luby Lookout Tower",
+      "text": "Altitude: 908 metres, height of the lookout tower: 20 metres, year built: 2012\n\nThe lookout tower stands on the main ridge of the Javorníky mountains, between the villages of Veľké Rovné and Vysoká nad Kysucou, on Luby hill. It is a wooden fire-watch tower and climbing it is prohibited. However, you can enjoy beautiful views from below the tower too.\n\nLuby hill has two peaks. The 20.5-metre wooden lookout tower stands on the lower one (908 m). Part of the hill is deforested, so views of the peaks of the Moravian-Silesian Beskids open up right below the tower. A hiking trail leads from the tower, connecting the scattered settlements of Veľké Rovné."
+    }
   }
 }

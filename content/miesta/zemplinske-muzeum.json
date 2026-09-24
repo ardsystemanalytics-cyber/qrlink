@@ -23,5 +23,11 @@
     "hu": "https://www.qrlink.sk/new/hu/category/zemplinske-muzeum/"
   },
   "foto": "assets/images/places/zemplinske-muzeum.jpg",
-  "fotoErb": true
+  "fotoErb": true,
+  "i18n": {
+    "en": {
+      "nazov": "Zemplín Museum",
+      "popis": "A museum in Michalovce with archaeological finds from the region."
+    }
+  }
 }

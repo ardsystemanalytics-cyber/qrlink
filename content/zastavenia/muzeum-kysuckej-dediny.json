@@ -24,5 +24,11 @@
     "ru": "https://www.qrlink.sk/new/ru/castles/muzeum-kysuckej-dediny/",
     "pl": "https://www.qrlink.sk/new/pl/castles/muzeum-kysuckej-dediny/",
     "hu": "https://www.qrlink.sk/new/hu/castles/muzeum-kysuckej-dediny/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Museum of the Kysuce Village",
+      "text": "It is an open-air museum near the village of Nová Bystrica, in its Vychylovka part, in the Chmúra valley, which is part of the Kysuce Protected Landscape Area. The open-air museum was founded on 11 October 1974; one of the main reasons for its creation was to save the most valuable monuments of folk architecture from the villages of Riečnica and Harvelka, which were to disappear because of the construction of the Nová Bystrica reservoir.\n\nBy 1981, when the first part of the exhibition was opened, 22 of the 69 planned buildings of the open-air museum had been built. The ethnographic exhibition seeks to reconstruct the settlement landscape and environment, presenting folk architecture and the way of life and culture of the people of Kysuce in the second half of the 19th century and the first half of the 20th century. Technical structures are represented by a water mill and a sawmill with a half-timbered structure from the village of Klubina. The sacred buildings include a masonry chapel from the first quarter of the 19th century from Zborov nad Bystricou and a cemetery with metal crosses, representing the cemeteries of Kysuce at the beginning of the century."
+    }
   }
 }

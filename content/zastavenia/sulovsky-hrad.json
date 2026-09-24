@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/sulovsky-hrad/",
     "pl": "https://www.qrlink.sk/new/pl/sulovsky-hrad/",
     "hu": "https://www.qrlink.sk/new/hu/sulovsky-hrad/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Súľov Castle",
+      "text": "On a massive rock crag of the Súľov Rocks, at an altitude of 660 metres, lie the remains of Súľov Castle. The castle dates from the first third of the 15th century, and unfortunately only a minimum of its perimeter walls has survived to this day. According to legend, a dragon lived near the castle and flew around it in a rage, crashing into the rocks. It thus left an opening – the Gothic Gate and the Dragon's Hole. A brave young man named Suľo set out to kill it, because it made life in the area unbearable. He succeeded, and the villagers built him a small castle in the impregnable rocks as a reward."
+    }
   }
 }

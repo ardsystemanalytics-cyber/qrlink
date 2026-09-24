@@ -25,5 +25,11 @@
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/"
   ],
-  "foto": "assets/images/places/nch-zivcakova.jpg"
+  "foto": "assets/images/places/nch-zivcakova.jpg",
+  "i18n": {
+    "en": {
+      "nazov": "Živčáková Nature Trail",
+      "popis": "A trail to the pilgrimage site of Živčáková."
+    }
+  }
 }

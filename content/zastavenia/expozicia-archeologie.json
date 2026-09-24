@@ -40,5 +40,11 @@
     "ru": "https://www.qrlink.sk/new/ru/castles/expozicia-archeologie/",
     "pl": "https://www.qrlink.sk/new/pl/castles/expozicia-archeologie/",
     "hu": "https://www.qrlink.sk/new/hu/castles/expozicia-archeologie/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Archaeology Exhibition",
+      "text": "This room houses the archaeological exhibition. In the display cases you can see archaeological finds from prehistoric times to the Middle Ages, discovered during archaeological research in Strečno and the surrounding villages (Varín, Rosina, Krasňany, Gbeľany).\n\n![](/assets/images/migrated/strecno-mapka_3.jpg)"
+    }
   }
 }

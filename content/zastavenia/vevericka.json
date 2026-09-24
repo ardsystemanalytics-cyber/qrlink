@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/vevericka/",
     "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/vevericka/",
     "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/vevericka/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Squirrel",
+      "text": "**&#x1f43f;&#xfe0f; Squirrel**\n\nThe squirrel's hopping through the wood, \n\nhiding nuts just like she should. \n\nShe nibbles them upon a bough, \n\nthe wind blows leaves about her now.\n\nAlong a branch she runs in play, \n\nher little tail bobs on its way. \n\nFor winter she has plenty stored, \n\nin a hollow tree she rests assured."
+    }
   }
 }

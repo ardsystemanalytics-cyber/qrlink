@@ -26,5 +26,11 @@
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/"
   ],
-  "foto": "assets/images/places/cestovatelsky-dennik.jpg"
+  "foto": "assets/images/places/cestovatelsky-dennik.jpg",
+  "i18n": {
+    "en": {
+      "nazov": "Travel Diary – Gems of the Czech-Slovak Borderland",
+      "popis": "A journey through the gems of the borderland."
+    }
+  }
 }

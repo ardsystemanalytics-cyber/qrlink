@@ -27,5 +27,11 @@
     "ru": "https://www.qrlink.sk/new/ru/castles/prameny-moravky/",
     "pl": "https://www.qrlink.sk/new/pl/castles/prameny-moravky/",
     "hu": "https://www.qrlink.sk/new/hu/castles/prameny-moravky/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The Springs of the Morávka",
+      "text": "The nature trail starts from the car park in the Lipové part of the village and climbs along the road up the valley of the Morávka river to its source. On the way you will find nine educational boards devoted to the Morávka basin – the river and the forests, the building of the dam, the history of the village of Morávka and hiking. You will learn, for example, that water from the Morávka river is the basic raw material for brewing Nošovice beer.\n\n## Top attraction:\n\n### Morávka Dam\n\nThe valley reservoir was built in 1961 – 1967 mainly as a source of drinking water and for flood protection.\n\n![](/assets/images/migrated/moravka-2.jpg)\n\n### “Night Crossing” Partisan Movement Memorial\n\nThe Night Crossing Partisan Movement Memorial commemorates the victims of the Night Crossing in the village of Morávka in the Frýdek-Místek district. It has been a protected monument since 1958 and was declared a national cultural monument on 6 October 1978.\n\n### Bílý Kříž\n\nOriginally there was a settlement here called Karlovice. It was renamed Bílý Kříž (White Cross) after 1830. A customs officer (the border police of the time) blocked the path of tobacco smugglers from Hungarian Slovakia. The smugglers feared a beating and fines more than murder, so they beat the border guard to death and buried him. A wooden cross made of freshly peeled spruce poles was erected on the mound above the grave. The whole ridge was deforested at that time, so the cross shone white from afar. Today's cross has been renewed several times and, to live up to its name, is painted white.\n\n### The Wooden Church of Our Lady at Gruň, Lysá hora"
+    }
   }
 }

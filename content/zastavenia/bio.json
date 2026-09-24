@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/bio/",
     "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/bio/",
     "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/bio/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Bio",
+      "text": "## Biowaste\n\nThe biowaste container is brown and is labelled as biodegradable waste.\n\n**The brown container is for** biodegradable waste such as fruit and vegetable scraps, peels, coffee grounds and tea leaves, grass, small tree branches, flowers and leaves.\n\n**It is not for** hair, ash, leftover food and meat, bones, plastic bags, stones, eggshells and other non-degradable waste.\n\n*Source: [Wikipedia](https://sk.wikipedia.org/)*"
+    }
   }
 }

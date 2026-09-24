@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/drozd-cierny/",
     "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/drozd-cierny/",
     "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/drozd-cierny/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Common Blackbird",
+      "text": "Sound recording – alarm call tix tix..\n\nSource: [Alexander Kürthy](https://commons.wikimedia.org/wiki/User:SanoAK), own work, [CC BY-SA 4.0](https://sk.wikipedia.org/wiki/S%C3%BAbor:TurdusMerulaCallEvening.ogg),"
+    }
   }
 }

@@ -26,5 +26,11 @@
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/klenoty-v-cesko-slovenskom-pohranici/"
   ],
-  "foto": "assets/images/places/klenoty-pohranicie.jpg"
+  "foto": "assets/images/places/klenoty-pohranicie.jpg",
+  "i18n": {
+    "en": {
+      "nazov": "Gems of the Czech-Slovak Borderland",
+      "popis": "Cultural and natural gems of the borderland."
+    }
+  }
 }

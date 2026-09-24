@@ -31,5 +31,11 @@
     "ru": "https://www.qrlink.sk/new/ru/castles/vstup-do-hlavnej-veze/",
     "pl": "https://www.qrlink.sk/new/pl/castles/vstup-do-hlavnej-veze/",
     "hu": "https://www.qrlink.sk/new/hu/castles/vstup-do-hlavnej-veze/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Entrance to the Main Tower",
+      "text": "On the ground floor, at the entrance to the tower, there is an 8 m deep opening. When the castle was in use, this room served as a cold store or food store. As the room has no other access than the opening at the top, in practice a servant would lower himself inside on a rope and bring up the required supplies. In the past there were no stairs in the tower. Originally there were wooden ladders leading to each of the tower's five floors. Even the tower itself was first entered only from the 2nd floor, via a ladder placed against it, to make it harder for enemies to get inside.\n\n![](/assets/images/migrated/8-vstup-do-veze1.jpg)"
+    }
   }
 }

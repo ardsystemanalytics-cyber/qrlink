@@ -23,5 +23,11 @@
     "hu": "https://www.qrlink.sk/new/hu/category/partizanske-cast-simonovany/"
   },
   "foto": "assets/images/places/partizanske-simonovany.png",
-  "fotoErb": true
+  "fotoErb": true,
+  "i18n": {
+    "en": {
+      "nazov": "Partizánske – Šimonovany",
+      "popis": "A district of Partizánske with the first autonomous railway stop in Slovakia."
+    }
+  }
 }

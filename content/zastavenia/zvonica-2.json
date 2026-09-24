@@ -34,5 +34,11 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/castles/zvonica/"
-  ]
+  ],
+  "i18n": {
+    "en": {
+      "nazov": "Bell Tower",
+      "text": "The year the bell tower was built is not known; it probably dates from the first half of the last century. It was originally a wooden bell tower, to which a masonry extension was later added, creating a small chapel. Interestingly, the bell tower houses two bells, one of which is dated 1752. It is thus the oldest bell of the Turzovka parish in situ (the oldest, from 1614, is in the collections of the K. Točík Town Museum). The bells, however, are not original: according to surviving oral tradition they were brought to the bell tower by the first bell-ringer from an unknown place in Moravia. In 1919 a cross was erected in the settlement, but the chronicle entry does not make clear which of the two existing crosses it was – the cross at the Pri kríži locality or the cross by the bell tower. The present cross by the bell tower was installed in the autumn of 2020.\n\nProject name: In the footsteps of the cultural and natural heritage of the Czech-Slovak\n\n![](/assets/images/migrated/obalka-03.png)\n\nregion,\n\nProject code: NFP304030BMA2"
+    }
+  }
 }

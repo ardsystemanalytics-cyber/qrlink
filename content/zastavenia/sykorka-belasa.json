@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/sykorka-belasa/",
     "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/sykorka-belasa/",
     "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/sykorka-belasa/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Eurasian Blue Tit",
+      "text": "Sound recording – Song “psitsi-sirrrrrrr”\n\nSource: Vladimír Yu. Arkhipov, [Arkhivov, own work, CC BY-SA 3.0,](https://sk.wikipedia.org/wiki/S%C3%BAbor:Cyanistes_caeruleus.ogg)"
+    }
   }
 }

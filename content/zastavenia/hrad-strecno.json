@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/hrad-strecno/",
     "pl": "https://www.qrlink.sk/new/pl/hrad-strecno/",
     "hu": "https://www.qrlink.sk/new/hu/hrad-strecno/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Strečno Castle",
+      "text": "On the left bank of the Váh river, above the village of Strečno, rises a castle that was once the safest fortress in the Váh valley and today comes alive with interesting cultural events throughout the year. One of the owners of the castle was Count František Wesselényi, whose first wife was the famous Žofia Bosniaková. Inside you can admire the exhibition of the Považie Museum in Žilina. The exhibits present archaeological finds from the Žilina area as well as the overall history of the castle."
+    }
   }
 }

@@ -31,5 +31,11 @@
     "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/",
     "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/",
     "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Scale",
+      "text": "## **Scale**\n\n(other names: **tone scale, musical scale**) is, in musicology, a series of tones arranged step by step in ascending or descending order according to certain rules, from the base (first) tone – the tonic of the scale – to its octave (an octave is the interval between two tones, the higher of which has twice the frequency).\n\nThe group of tones of a given scale used in a particular piece of music or song is called a key.[[1]](https://sk.wikipedia.org/wiki/Stupnica_(hudba)#cite_note-1)Scales are essentially conventions that have developed to suit our hearing. Different scales differ mainly in the number of tones and the distances (intervals) between them, i.e. mainly in the placement of semitones and whole tones.\n\n**Major scales** are diatonic scales typical of European music. The name “dur” used in Slovak comes from the Latin “durum” – hard.\n\n**C major –** The basic major scale is C major. It consists of these tones: C, D, E, F, G, A, B, C. On the piano these are only the white keys. For vocal purposes, the tones of C major also have their own syllable names – the so-called solmization scale.\n\n![](/assets/images/migrated/2025-07-16_09h11_35.png)\n\nSound recording – Ogg Vorbis sound file of C Major scale, Source: [Aidan Hanrath, own work](https://sk.wikipedia.org/wiki/S%C3%BAbor:C_major.ogg)\n\nSource: [Wikipedia](https://sk.wikipedia.org/wiki/Stupnica_(hudba))"
+    }
   }
 }

@@ -24,5 +24,11 @@
     "ru": "https://www.qrlink.sk/new/ru/castles/zamocky-park/",
     "pl": "https://www.qrlink.sk/new/pl/castles/zamocky-park/",
     "hu": "https://www.qrlink.sk/new/hu/castles/zamocky-park/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Chateau Park",
+      "text": "The park around the chateau was created in the 19th century, first in the French and later in the English style. Thanks to the presence of the protected hermit beetle, the 17-hectare green area has been declared a site of European importance. Its northern part in particular, with rare trees and a stream, offers a romantic atmosphere. The group of statues of the Greek goddesses Athena, Nike, Tyche and Eris in front of the chateau, complemented by a statue of the mythical hero Hercules, is an exceptional artistic expression of the legacy of ancient mythology. Numerous benches offer pleasant seating in spring, summer and autumn, when the park always has a different yet captivating atmosphere."
+    }
   }
 }

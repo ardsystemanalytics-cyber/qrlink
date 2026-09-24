@@ -25,5 +25,11 @@
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/"
   ],
-  "foto": "assets/images/places/nch-hlinene.jpg"
+  "foto": "assets/images/places/nch-hlinene.jpg",
+  "i18n": {
+    "en": {
+      "nazov": "Hlinené Nature Trail",
+      "popis": "A nature trail near Turzovka."
+    }
+  }
 }

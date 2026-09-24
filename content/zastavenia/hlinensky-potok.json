@@ -34,5 +34,11 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/castles/hlinensky-potok/"
-  ]
+  ],
+  "i18n": {
+    "en": {
+      "nazov": "Hlinené Stream",
+      "text": "At this spot (south of Hlinené hill, 875 m above sea level) the Hlinenský potok stream (hydrological number 4-21-06-034) begins its journey, taking in other nameless brooks and rivulets from both sides. Ten tributaries flow in from the left side of the valley and nine from the right. The stream flows through the Hlinené part of the town in a north-south line. The Hlinenský potok itself is a left-bank tributary of the Kysuca. Its mouth is at Pod Kempou, where the Hlinené valley opens out in Turzovka. The stream is almost 4 km long. Written sources mention it, for example, in 1769 as *Hliniana*, in 1793 as *rivus* (stream) *Hlinena* and in 1824 as *Hlinana*. The stream got its name from the local name of the Hlinené area > the adjective hlinenský + the common noun potok (stream) > Hlinenský potok. The name Hlinené is derived from the word hlina (clay) > hlinené (place) > Hlinené – the motivation was a clayey place.\n\nAlthough the Hlinenský potok usually does not carry much water, during heavy rainfall and the spring snowmelt in the Turzovka Highlands the volume of surface runoff rises suddenly, causing its level to rise sharply. The excessive amount of water from the catchment, increased by local tributaries in the upper part of the basin, can sometimes cause erosion of the slopes in the built-up area and, as the flow increases, the stream can overflow its banks. The stream has the character of a mountain torrent; in the past crayfish, trout and other aquatic animals sensitive to water purity lived here. Today, pollution and fluctuating water levels in the Hlinenský potok affect the typical aquatic fauna. At higher flows, mainly fish migrate into the lower part from the Kysuca river.\n\nProject name: In the footsteps of the cultural and natural heritage of the Czech-Slovak\n\n![](/assets/images/migrated/obalka-03.png)\n\nregion,\n\nProject code: NFP304030BMA2"
+    }
+  }
 }

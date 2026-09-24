@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/kov/",
     "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/kov/",
     "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/kov/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Metal",
+      "text": "Metals can be recycled endlessly and belong in the red containers. In some places they are collected together with plastics or with multi-layer composite packaging (e.g. beverage cartons).\n\n**This container is for** metal packaging, cans, metal products and parts, aluminium foil, aluminium drink cans, ferrous and non-ferrous metal parts and all metals marked with the FE 40 and ALU 41 symbols.\n\n**This container is not for** metal packaging combined with other packaging, e.g. toothpaste tubes, or metals heavily soiled with food remains, paints and various chemical and toxic substances.\n\n*Source: [Wikipedia](https://sk.wikipedia.org/wiki/Kov)*"
+    }
   }
 }

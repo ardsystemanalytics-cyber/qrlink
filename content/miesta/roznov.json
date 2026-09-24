@@ -24,5 +24,10 @@
     "hu": "https://www.qrlink.sk/new/hu/category/roznov-pod-radhostem/"
   },
   "foto": "assets/images/places/roznov.jpg",
-  "fotoErb": true
+  "fotoErb": true,
+  "i18n": {
+    "en": {
+      "popis": "A Wallachian town known for its open-air museum."
+    }
+  }
 }

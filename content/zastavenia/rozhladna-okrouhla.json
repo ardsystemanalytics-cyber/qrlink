@@ -24,5 +24,11 @@
     "ru": "https://www.qrlink.sk/new/ru/castles/rozhladna-okrouhla/",
     "pl": "https://www.qrlink.sk/new/pl/castles/rozhladna-okrouhla/",
     "hu": "https://www.qrlink.sk/new/hu/castles/rozhladna-okrouhla/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Okrouhlá Lookout Tower",
+      "text": "The lookout tower in Staříč stands on Okrouhlá hill, 378 m above sea level. The mast is 55 m high, and the viewing platform is at a height of 30 m, offering a wonderful view of the surrounding area. In fine weather you can see the Jeseníky mountains. Below Okrouhlá hill there is a car park for 10 cars built for the lookout tower. Those who would like to come by bus can park in the nearby car park by the football pitch."
+    }
   }
 }

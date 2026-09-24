@@ -26,5 +26,11 @@
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/"
   ],
-  "foto": "assets/images/places/nch-pohranicie.jpg"
+  "foto": "assets/images/places/nch-pohranicie.jpg",
+  "i18n": {
+    "en": {
+      "nazov": "Nature Trails in the Czech-Slovak Borderland",
+      "popis": "A network of nature trails in the borderland."
+    }
+  }
 }

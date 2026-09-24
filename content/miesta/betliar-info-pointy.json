@@ -19,7 +19,8 @@
   ],
   "i18n": {
     "en": {
-      "nazov": "Sights of the village Betliar"
+      "nazov": "Sights of the village Betliar",
+      "popis": "A sightseeing route to the landmarks right in the village of Betliar."
     },
     "hu": {
       "nazov": "A község nevezetességei Betliar"

@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/mestsky-park/",
     "pl": "https://www.qrlink.sk/new/pl/mestsky-park/",
     "hu": "https://www.qrlink.sk/new/hu/mestsky-park/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Town Park",
+      "text": "The historic park in Trebišov is one of the most important creations of the social and cultural atmosphere of past centuries. At the same time it documents the ethical relationship between past, present and future generations. The park grew out of the original floodplain forest and covers an area of 62 ha. It contains both historic and self-seeded greenery made up of conifers, broadleaf trees, shrubs and plants. The common yew is especially valuable; oriental arborvitae, northern white cedar, black pine, Scots pine, Norway spruce, blue spruce and others are widespread. The most important broadleaf trees are the London plane, horse chestnut, bird cherry, common ash, pedunculate oak, sessile oak, European beech, hornbeam, field elm, small-leaved lime, black alder, black locust, various kinds of maples, poplars and others.\n\nThe beginnings of the park's landscaping date back to the last third of the 18th century and are connected with the construction of the Trebišov manor house. Within the historic park and in its immediate surroundings there are other cultural monuments: Parič Castle, the foundations of the medieval Church of the Holy Spirit, the Roman Catholic Church of the Visitation of the Virgin Mary, the Greek Catholic Church of the Dormition of the Most Holy Mother of God, the Pauline monastery, the manor house with its farm buildings, the Mausoleum of Count Gyula Andrássy, the Immaculata statue group and archaeological sites from prehistory and the Middle Ages. The Trebišov park has benefited the town above all by isolating and protecting historically valuable buildings and parts of the town from haphazard development over the last two centuries, and also by creating a valuable environment with rare trees in the middle of the town. In the centre of the historic park lies the lowland water castle of Parič (Arx Paris, Castrum Paris)."
+    }
   }
 }

@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/castles/severny-palac/",
     "pl": "https://www.qrlink.sk/new/pl/castles/severny-palac/",
     "hu": "https://www.qrlink.sk/new/hu/castles/severny-palac/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Northern Palace",
+      "text": "The northern palace originally had 2 storeys – this can be seen from the holes in the walls, which held beams supporting the next floor. The opening in the upper corner is the inner part of a so-called garderobe – a medieval toilet. On the outside of the palace it has been partially reconstructed; originally only the supporting corbels survived. The toilet itself worked as a latrine, with the waste falling down the wall below the castle. A similar garderobe was also on the outer wall of the eastern palace."
+    }
   }
 }

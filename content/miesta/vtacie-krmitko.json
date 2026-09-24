@@ -17,5 +17,10 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/vtacie-krmitko/"
-  ]
+  ],
+  "i18n": {
+    "en": {
+      "nazov": "Bird Feeder"
+    }
+  }
 }

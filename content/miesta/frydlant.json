@@ -27,5 +27,10 @@
     "https://www.qrlink.sk/new/frydlant/"
   ],
   "foto": "assets/images/places/frydlant.png",
-  "fotoErb": true
+  "fotoErb": true,
+  "i18n": {
+    "en": {
+      "popis": "A town in the Czech-Slovak borderland."
+    }
+  }
 }

@@ -17,5 +17,10 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/pexeso/"
-  ]
+  ],
+  "i18n": {
+    "en": {
+      "nazov": "Memory Game"
+    }
+  }
 }

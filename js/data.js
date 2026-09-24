@@ -133,6 +133,11 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Maze"
+        }
+      },
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
       "urlAliasy": [
         "/category/bludisko/"
@@ -160,6 +165,12 @@ const DB = {
         "hu": "https://www.qrlink.sk/new/hu/category/hrad-strecno/"
       },
       "foto": "/assets/images/places/hrad-strecno.jpg",
+      "i18n": {
+        "en": {
+          "nazov": "Strečno Castle",
+          "popis": "A medieval castle above the Váh river – 14 stops with an audio guide."
+        }
+      },
       "url": "/category/hrad-strecno/",
       "urlAliasy": [
         "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/"
@@ -170,6 +181,12 @@ const DB = {
       "rodic": "turzovka",
       "nazov": "Turzovka – mestské pamiatky a zaujímavosti",
       "popis": "Ostatné pamätihodnosti a zaujímavosti priamo v meste Turzovka.",
+      "i18n": {
+        "en": {
+          "nazov": "Turzovka – Town Landmarks and Places of Interest",
+          "popis": "Other landmarks and places of interest right in the town of Turzovka."
+        }
+      },
       "url": "/kategoria.html?id=turzovka-mesto",
       "urlAliasy": []
     },
@@ -188,7 +205,8 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "Sights of the village Betliar"
+          "nazov": "Sights of the village Betliar",
+          "popis": "A sightseeing route to the landmarks right in the village of Betliar."
         },
         "hu": {
           "nazov": "A község nevezetességei Betliar"
@@ -215,7 +233,8 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "Architecture"
+          "nazov": "Architecture",
+          "popis": "Architectural features of the English park at the Andrássy Manor House."
         },
         "hu": {
           "nazov": "Építészet"
@@ -250,6 +269,11 @@ const DB = {
       },
       "foto": "/assets/images/places/bratislava-ivanka.png",
       "fotoErb": true,
+      "i18n": {
+        "en": {
+          "popis": "A village near Bratislava with a rich history."
+        }
+      },
       "url": "/category/ivanka-pri-dunaji/",
       "urlAliasy": []
     },
@@ -266,6 +290,11 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-1/",
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-1/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-1/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Dendrologist 1"
+        }
       },
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-1/",
       "urlAliasy": [
@@ -287,7 +316,8 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "The monuments in Turzovka"
+          "nazov": "The monuments in Turzovka",
+          "popis": "Memorials and memorial sites in Turzovka."
         }
       },
       "foto": "/assets/images/places/turzovka-pamatniky.jpg",
@@ -311,7 +341,8 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "Flora"
+          "nazov": "Flora",
+          "popis": "Fauna and flora of the English park at the Andrássy Manor House."
         },
         "hu": {
           "nazov": "Flóra"
@@ -338,7 +369,8 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "English Park at the Andrássy Mansion in Betliar"
+          "nazov": "English Park at the Andrássy Mansion in Betliar",
+          "popis": "An educational route through the English park – fauna, flora and architecture."
         },
         "hu": {
           "nazov": "Angol park az Andrássy-kastélynál Betliáron"
@@ -364,6 +396,11 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-2/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-2/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Dendrologist 2"
+        }
+      },
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-2/",
       "urlAliasy": [
         "/category/dendrolog-2/"
@@ -384,7 +421,8 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "The sacral monuments in the town"
+          "nazov": "The sacral monuments in the town",
+          "popis": "Churches and chapels in and around Turzovka."
         }
       },
       "foto": "/assets/images/places/turzovka-sakralne-pamiatky.jpg",
@@ -408,6 +446,11 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/hmyzi-domcek/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/hmyzi-domcek/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Insect Hotel"
+        }
+      },
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/hmyzi-domcek/",
       "urlAliasy": [
         "/category/hmyzi-domcek/"
@@ -427,6 +470,11 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/pexeso/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/pexeso/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Memory Game"
+        }
+      },
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/pexeso/",
       "urlAliasy": [
         "/category/pexeso/"
@@ -445,6 +493,11 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacia-budka/",
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacia-budka/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacia-budka/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Birdhouse"
+        }
       },
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacia-budka/",
       "urlAliasy": [
@@ -475,6 +528,11 @@ const DB = {
       },
       "foto": "/assets/images/places/betliar.png",
       "fotoErb": true,
+      "i18n": {
+        "en": {
+          "popis": "A village known for the manor house of the Andrássy family."
+        }
+      },
       "url": "/category/betliar/",
       "urlAliasy": []
     },
@@ -491,6 +549,11 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/",
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Bird Feeder"
+        }
       },
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/",
       "urlAliasy": [
@@ -581,6 +644,11 @@ const DB = {
       },
       "foto": "/assets/images/places/frydlant.png",
       "fotoErb": true,
+      "i18n": {
+        "en": {
+          "popis": "A town in the Czech-Slovak borderland."
+        }
+      },
       "url": "/category/frydlant/",
       "urlAliasy": [
         "/frydlant/"
@@ -609,6 +677,12 @@ const DB = {
       },
       "foto": "/assets/images/places/kraj-rusinov.jpg",
       "fotoErb": true,
+      "i18n": {
+        "en": {
+          "nazov": "The Land of the Rusyns and Andy Warhol",
+          "popis": "The Medzilaborce region, connected with Rusyn culture and the family of Andy Warhol."
+        }
+      },
       "url": "/category/kraj-rusinov-a-andyho-warhola/",
       "urlAliasy": []
     },
@@ -635,6 +709,11 @@ const DB = {
       },
       "foto": "/assets/images/places/knm.png",
       "fotoErb": true,
+      "i18n": {
+        "en": {
+          "popis": "A town in the Kysuce region."
+        }
+      },
       "url": "/category/knm/",
       "urlAliasy": []
     },
@@ -662,6 +741,11 @@ const DB = {
       },
       "foto": "/assets/images/places/porabka.png",
       "fotoErb": true,
+      "i18n": {
+        "en": {
+          "popis": "A Polish village in the Beskids."
+        }
+      },
       "url": "/category/porabka/",
       "urlAliasy": [
         "/porabka/"
@@ -690,6 +774,11 @@ const DB = {
       },
       "foto": "/assets/images/places/presov.jpg",
       "fotoErb": true,
+      "i18n": {
+        "en": {
+          "popis": "The metropolis of the Šariš region with a historic centre."
+        }
+      },
       "url": "/category/presov/",
       "urlAliasy": []
     },
@@ -717,6 +806,11 @@ const DB = {
       },
       "foto": "/assets/images/places/roznov.jpg",
       "fotoErb": true,
+      "i18n": {
+        "en": {
+          "popis": "A Wallachian town known for its open-air museum."
+        }
+      },
       "url": "/category/roznov-pod-radhostem/",
       "urlAliasy": []
     },
@@ -743,6 +837,11 @@ const DB = {
       },
       "foto": "/assets/images/places/ruzomberok.jpg",
       "fotoErb": true,
+      "i18n": {
+        "en": {
+          "popis": "A town in the Liptov region below the Veľká Fatra mountains."
+        }
+      },
       "url": "/category/ruzomberok/",
       "urlAliasy": []
     },
@@ -769,6 +868,11 @@ const DB = {
       },
       "foto": "/assets/images/places/sokolovce.jpg",
       "fotoErb": true,
+      "i18n": {
+        "en": {
+          "popis": "A village near Piešťany."
+        }
+      },
       "url": "/category/sokolovce/",
       "urlAliasy": []
     },
@@ -795,6 +899,11 @@ const DB = {
       },
       "foto": "/assets/images/places/trebisov.jpg",
       "fotoErb": true,
+      "i18n": {
+        "en": {
+          "popis": "A town in the Zemplín region."
+        }
+      },
       "url": "/category/trebisov/",
       "urlAliasy": []
     },
@@ -821,6 +930,11 @@ const DB = {
       },
       "foto": "/assets/images/places/turzovka.png",
       "fotoErb": true,
+      "i18n": {
+        "en": {
+          "popis": "A town in the Upper Kysuce region."
+        }
+      },
       "url": "/category/turzovka/",
       "urlAliasy": [
         "/turzovka/"
@@ -849,6 +963,11 @@ const DB = {
       },
       "foto": "/assets/images/places/vranov.png",
       "fotoErb": true,
+      "i18n": {
+        "en": {
+          "popis": "A town in eastern Slovakia."
+        }
+      },
       "url": "/category/vranov-nad-toplou/",
       "urlAliasy": []
     },
@@ -875,7 +994,8 @@ const DB = {
       },
       "i18n": {
         "en": {
-          "nazov": "The Čierne Kľačany’s Pyxida"
+          "nazov": "The Čierne Kľačany’s Pyxida",
+          "popis": "A rare ivory casket from the Great Moravian period."
         }
       },
       "foto": "/assets/images/places/cierne-klacany.jpg",
@@ -907,6 +1027,12 @@ const DB = {
         "hu": "https://www.qrlink.sk/new/hu/category/klenoty-v-cesko-slovenskom-pohranici/"
       },
       "foto": "/assets/images/places/klenoty-pohranicie.jpg",
+      "i18n": {
+        "en": {
+          "nazov": "Gems of the Czech-Slovak Borderland",
+          "popis": "Cultural and natural gems of the borderland."
+        }
+      },
       "url": "/category/klenoty-v-cesko-slovenskom-pohranici/",
       "urlAliasy": [
         "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/klenoty-v-cesko-slovenskom-pohranici/"
@@ -935,6 +1061,12 @@ const DB = {
         "hu": "https://www.qrlink.sk/new/hu/category/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/"
       },
       "foto": "/assets/images/places/cestovatelsky-dennik.jpg",
+      "i18n": {
+        "en": {
+          "nazov": "Travel Diary – Gems of the Czech-Slovak Borderland",
+          "popis": "A journey through the gems of the borderland."
+        }
+      },
       "url": "/category/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/",
       "urlAliasy": [
         "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/"
@@ -963,6 +1095,12 @@ const DB = {
         "hu": "https://www.qrlink.sk/new/hu/category/naucne-chodniky-v-cesko-slovenskom-pohranici/"
       },
       "foto": "/assets/images/places/nch-pohranicie.jpg",
+      "i18n": {
+        "en": {
+          "nazov": "Nature Trails in the Czech-Slovak Borderland",
+          "popis": "A network of nature trails in the borderland."
+        }
+      },
       "url": "/category/naucne-chodniky-v-cesko-slovenskom-pohranici/",
       "urlAliasy": [
         "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/"
@@ -990,6 +1128,12 @@ const DB = {
         "hu": "https://www.qrlink.sk/new/hu/category/naucny-chodnik-hlinene/"
       },
       "foto": "/assets/images/places/nch-hlinene.jpg",
+      "i18n": {
+        "en": {
+          "nazov": "Hlinené Nature Trail",
+          "popis": "A nature trail near Turzovka."
+        }
+      },
       "url": "/category/naucny-chodnik-hlinene/",
       "urlAliasy": [
         "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/"
@@ -1017,6 +1161,12 @@ const DB = {
         "hu": "https://www.qrlink.sk/new/hu/category/naucny-chodnik-zivcakova/"
       },
       "foto": "/assets/images/places/nch-zivcakova.jpg",
+      "i18n": {
+        "en": {
+          "nazov": "Živčáková Nature Trail",
+          "popis": "A trail to the pilgrimage site of Živčáková."
+        }
+      },
       "url": "/category/naucny-chodnik-zivcakova/",
       "urlAliasy": [
         "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/"
@@ -1045,6 +1195,12 @@ const DB = {
         "hu": "https://www.qrlink.sk/new/hu/category/doc-ing-julius-binder-dr-h-c/"
       },
       "foto": "/assets/images/places/gabcikovo.jpg",
+      "i18n": {
+        "en": {
+          "nazov": "Gabčíkovo / Čunovo Waterworks",
+          "popis": "A hydroelectric project on the Danube – doc. Ing. Július Binder, Dr. h. c."
+        }
+      },
       "url": "/category/doc-ing-julius-binder-dr-h-c/",
       "urlAliasy": [
         "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/"
@@ -1072,6 +1228,12 @@ const DB = {
         "hu": "https://www.qrlink.sk/new/hu/category/zvonica-hrusove/"
       },
       "foto": "/assets/images/places/zvonica-hrusove.jpg",
+      "i18n": {
+        "en": {
+          "nazov": "Hrušové Bell Tower",
+          "popis": "A historic bell tower."
+        }
+      },
       "url": "/category/zvonica-hrusove/",
       "urlAliasy": [
         "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/"
@@ -1100,6 +1262,12 @@ const DB = {
       },
       "foto": "/assets/images/places/zs-a-ms-banova.jpg",
       "fotoErb": true,
+      "i18n": {
+        "en": {
+          "nazov": "Bánová Primary School and Kindergarten",
+          "popis": "The grounds of the primary school and kindergarten in Žilina-Bánová with educational stops for environmental education."
+        }
+      },
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/",
       "urlAliasy": [
         "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/",
@@ -1130,6 +1298,11 @@ const DB = {
       },
       "foto": "/assets/images/places/komjatice.png",
       "fotoErb": true,
+      "i18n": {
+        "en": {
+          "popis": "A village with a manor house that was once its magnificent landmark."
+        }
+      },
       "url": "/category/komjatice/",
       "urlAliasy": []
     },
@@ -1156,6 +1329,12 @@ const DB = {
       },
       "foto": "/assets/images/places/zemplinske-muzeum.jpg",
       "fotoErb": true,
+      "i18n": {
+        "en": {
+          "nazov": "Zemplín Museum",
+          "popis": "A museum in Michalovce with archaeological finds from the region."
+        }
+      },
       "url": "/category/zemplinske-muzeum/",
       "urlAliasy": []
     },
@@ -1182,6 +1361,12 @@ const DB = {
       },
       "foto": "/assets/images/places/partizanske-simonovany.png",
       "fotoErb": true,
+      "i18n": {
+        "en": {
+          "nazov": "Partizánske – Šimonovany",
+          "popis": "A district of Partizánske with the first autonomous railway stop in Slovakia."
+        }
+      },
       "url": "/category/partizanske-cast-simonovany/",
       "urlAliasy": []
     }
@@ -3323,6 +3508,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/betliar-info-strom-qr35/",
         "hu": "https://www.qrlink.sk/new/hu/betliar-info-strom-qr35/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Game Reserve",
+          "text": "<p><strong>Type of destination:</strong> Animals</p>\n<p><strong>Short description:</strong> A game reserve focused on breeding red deer, covering almost 1,700 ha</p>\n<p><strong>Town:</strong> Betliar</p>\n<p><strong>District:</strong> Rožňava</p>\n<p><strong>Region:</strong> Košice</p>\n<p><strong>When to visit:</strong> All year round</p>\n<p><strong>Access:</strong> The information board is located at the entrance to the game reserve, near the Kopáň chalet in the northern part of the manor house park. There is no official hiking trail through the game reserve. Visitors may enter the reserve only via the ladders at the main entrances and may move only along the main roads inside the reserve.</p>\n<p><strong>Difficulty of the route:</strong> moderate</p>\n<p><strong>Places of interest nearby:</strong> Betliar Manor House, Significant Forestry Site Hrhovské (Un)abandoned Lands (30 km)</p>\n<p><strong>Date of unveiling:</strong> 14 June 2019</p>\n<p><strong>GPS coordinates:</strong> N 48°43’01.1″ E 20°30’52.4″</p>\n<p><strong>Suitable for:</strong> hiking</p>\n<p><strong>More detailed description:</strong> The founder of the game reserve was Emanuel Andrássy I, called the “Iron Count” because of his business activities. The game reserve, covering 575 ha, was built right next to the manor house and even extended into today&#39;s park. Its first inhabitants were red deer and fallow deer, and mouflons were added soon afterwards. The mouflons brought from the imperial game reserve in Vienna were of particularly high quality. The reserve was used not only for hunting but also contributed significantly to restocking the surrounding forests with game. It was seriously damaged in the First World War and disappeared completely in the Second. In 1967 foresters from the East Slovak State Forests, Rožňava forestry enterprise, decided to revive the former glory of the game reserve. This was done on an area of 1,466 ha, later extended to the current 1,696 ha. The reserve focuses mainly on breeding red deer, whose quality has increased considerably thanks to imports from Poľana and the Eastern Carpathians, and today the local trophies are of top quality. The game reserve in Betliar is the only one in Slovakia where red deer, fallow deer, mouflon, wild boar and roe deer live side by side, as well as bear, wolf and wildcat.</p>\n<p>Source: <a href=\"https://www.lesy.sk/lesy/pre-verejnost/kam-do-prirody/vyznamne-lesnicke-miesta/zoznam/hrhovske-nestustnute-strane.html\">Lesy.sk</a></p>"
+        }
+      },
       "url": "/betliar-info-strom-qr35/",
       "urlAliasy": []
     },
@@ -3349,6 +3540,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/vevericka/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/vevericka/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/vevericka/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Squirrel",
+          "text": "<p><strong>&#x1f43f;&#xfe0f; Squirrel</strong></p>\n<p>The squirrel&#39;s hopping through the wood, </p>\n<p>hiding nuts just like she should. </p>\n<p>She nibbles them upon a bough, </p>\n<p>the wind blows leaves about her now.</p>\n<p>Along a branch she runs in play, </p>\n<p>her little tail bobs on its way. </p>\n<p>For winter she has plenty stored, </p>\n<p>in a hollow tree she rests assured.</p>"
+        }
       },
       "url": "/environmental-upbringing-and-education/vevericka/",
       "urlAliasy": []
@@ -3377,6 +3574,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/krtko/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/krtko/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Mole",
+          "text": "<p><strong>&#x1f43e; Mole</strong></p>\n<p>The mole lives down underground, </p>\n<p>his shovel paws dig all around. </p>\n<p>He digs himself a burrow deep, </p>\n<p>and there in peace he goes to sleep.</p>\n<p>His eyes are small, he hardly sees, </p>\n<p>his nose will lead him where he pleases. </p>\n<p>His tunnels wind both here and there, </p>\n<p>but the mole knows his home is where.</p>"
+        }
+      },
       "url": "/environmental-upbringing-and-education/krtko/",
       "urlAliasy": []
     },
@@ -3403,6 +3606,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/mravec/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/mravec/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/mravec/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Ant",
+          "text": "<p><strong>&#x1f41c; Ant</strong></p>\n<p>The ant goes marching in a line, </p>\n<p>with sugar on his back so fine. </p>\n<p>He&#39;s just as strong as a big strong man, </p>\n<p>he&#39;ll carry the heaviest load he can.</p>\n<p>The anthill&#39;s buzzing all day long, </p>\n<p>each ant knows where it belongs. </p>\n<p>They work away both night and day, </p>\n<p>an ant&#39;s will never fades away.</p>"
+        }
       },
       "url": "/environmental-upbringing-and-education/mravec/",
       "urlAliasy": []
@@ -3431,6 +3640,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/vcielka/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/vcielka/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Little Bee",
+          "text": "<p><strong>&#x1f41d; Little Bee</strong></p>\n<p>A little bee sings in the meadow, </p>\n<p>from flower to flower she flies so mellow. </p>\n<p>She buzzes, sings and dances round, </p>\n<p>in the hive her honey&#39;s found.</p>\n<p>She greets each little flower she sees, </p>\n<p>the sunshine puts her mind at ease. </p>\n<p>From pollen she makes honey sweet, </p>\n<p>the whole world loves this tasty treat.</p>"
+        }
+      },
       "url": "/environmental-upbringing-and-education/vcielka/",
       "urlAliasy": []
     },
@@ -3458,6 +3673,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/slimak/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/slimak/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Snail",
+          "text": "<p><strong>&#x1f40c; Snail</strong></p>\n<p>The snail&#39;s in no hurry, he feels no stress, </p>\n<p>he won&#39;t cross the world in a day, no less. </p>\n<p>Wherever he gets to, there he&#39;ll stay, </p>\n<p>he won&#39;t rush his life away.</p>\n<p>When it rains he likes to smile, </p>\n<p>he slides on the drops for a merry while. </p>\n<p>He leaves a slimy trail behind – </p>\n<p>hello, snail, welcome back, how kind!</p>"
+        }
+      },
       "url": "/environmental-upbringing-and-education/slimak/",
       "urlAliasy": []
     },
@@ -3484,6 +3705,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/bobor/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/bobor/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/bobor/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Beaver",
+          "text": "<p><strong>Beaver</strong></p>\n<p>The beaver builds a dam across the river, </p>\n<p>his walls of trees make the water shiver. </p>\n<p>His little teeth are strong and sharp, </p>\n<p>he gnaws through trees and strips their bark.</p>\n<p>His tail is flat just like a paddle, </p>\n<p>he slaps it down with a splash and a rattle. </p>\n<p>In water he&#39;s a swimming master, </p>\n<p>building his homes by the river faster.</p>"
+        }
       },
       "url": "/environmental-upbringing-and-education/bobor/",
       "urlAliasy": []
@@ -3830,6 +4057,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/mestske-muzeum-karola-tocika/",
         "hu": "https://www.qrlink.sk/new/hu/castles/mestske-muzeum-karola-tocika/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Karol Točík Town Museum",
+          "text": "<p>The Town Museum in Turzovka is dedicated to Karol Točík, who was not only the parish priest and dean of Turzovka but also a regional historian. He worked in Turzovka from 1917 to 1959.</p>\n<p>The first exhibition consisted of a selection of exhibits donated to the museum by local institutions and by citizens of Turzovka and nearby villages. An exceptional exhibit is the original bell that the town&#39;s founder, Juraj Thurzó, had cast in 1614 for the oldest wooden church in Turzovka (which no longer exists). The bell is the oldest and most valuable exhibit, and its stylised form also appears in the museum&#39;s logo.</p>"
+        }
+      },
       "url": "/castles/mestske-muzeum-karola-tocika/",
       "urlAliasy": []
     },
@@ -3854,6 +4087,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/historicka-kniznica-bibliotheca-antiqua-taganiana/",
         "pl": "https://www.qrlink.sk/new/pl/castles/historicka-kniznica-bibliotheca-antiqua-taganiana/",
         "hu": "https://www.qrlink.sk/new/hu/castles/historicka-kniznica-bibliotheca-antiqua-taganiana/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Historical Library Bibliotheca antiqua Taganiana",
+          "text": "<p>The historical library is located in the cultural centre of the town of Turzovka and is named after František Taganí, a long-standing national revivalist and priest who contributed to the development of schooling and education. Books were his lifelong passion: he collected them and even founded one of the first private libraries. In the library you will find 2,500 volumes in Hungarian, Latin and German. In terms of content they are liturgical, theological, homiletic and religious works, but there are also books on history, linguistics and geography. The library is decorated with 2 paintings of Empress Sisi and Emperor Franz Joseph I, painted by Dominik Bartolomej Lippay, a native of Turzovka. There are also various period accessories of old libraries, with the possibility of meditation, studying the books or holding recitals in an intimate atmosphere.</p>"
+        }
       },
       "url": "/castles/historicka-kniznica-bibliotheca-antiqua-taganiana/",
       "urlAliasy": []
@@ -3880,6 +4119,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/vyhliadkova-veza-s-oddychovou-zonou-na-vrchu-bukovina/",
         "hu": "https://www.qrlink.sk/new/hu/castles/vyhliadkova-veza-s-oddychovou-zonou-na-vrchu-bukovina/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Lookout Tower with a Relaxation Area on Bukovina Hill",
+          "text": "<p>The lookout tower stands on Bukovina hill, which offers a beautiful view of the whole town as well as the cross-border area, including Lysá hora, the highest peak of the Moravian-Silesian Beskids. A telescope is installed on the tower so you can enjoy the beauty of nature up close. The tower includes a relaxation area with a gallery devoted to important personalities of the towns of Paskov and Turzovka. A tourist attraction is the sundial with benches and 4 carved statues of important figures of Turzovka and Paskov: Juraj Thurzó, Adam Bonec and Eduard Reitter.</p>"
+        }
+      },
       "url": "/castles/vyhliadkova-veza-s-oddychovou-zonou-na-vrchu-bukovina/",
       "urlAliasy": []
     },
@@ -3904,6 +4149,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/naucny-chodnik-vrchlinenskym-kopcom/",
         "pl": "https://www.qrlink.sk/new/pl/castles/naucny-chodnik-vrchlinenskym-kopcom/",
         "hu": "https://www.qrlink.sk/new/hu/castles/naucny-chodnik-vrchlinenskym-kopcom/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Vrch Hlinené Hill Nature Trail",
+          "text": "<p><strong>Vrch Hlinené Hill Nature Trail</strong></p>\n<p>The nature trail in Hlinené has several stops with 7 information boards with QR codes, a panoramic board at the top and wooden sculptures of forest animals – ideal for hiking with children in beautiful surroundings with views of the Moravian-Silesian Beskids. Along the path to the top you will come across various points of interest connected with the lives of the local people, because Hlinené is the oldest settled area. On the way to the top there is a turn-off to a heart-shaped wooden photo frame. This easy route starts at the chapel U Blažkov and ends at the wooden bell tower (737 m) in the Vrch Hlinené settlement.</p>"
+        }
       },
       "url": "/castles/naucny-chodnik-vrchlinenskym-kopcom/",
       "urlAliasy": []
@@ -3930,6 +4181,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/kornansky-ropny-pramen/",
         "hu": "https://www.qrlink.sk/new/hu/castles/kornansky-ropny-pramen/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Korňa Oil Spring",
+          "text": "<p>Since 1984 one of the greatest geological attractions in the Muchovci settlement has been the oil spring nature reserve. It is a rare European curiosity – a natural surface seep of light crude oil with occasional emissions of self-igniting methane. Legend tells of a poacher who is said to have fallen into the deposit while chasing game. Although it is very high-quality oil, the quantities found were not large enough to make industrial extraction worthwhile.</p>"
+        }
+      },
       "url": "/castles/kornansky-ropny-pramen/",
       "urlAliasy": []
     },
@@ -3954,6 +4211,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/kostol-nanebovzatia-panny-marie-v-turzovke/",
         "pl": "https://www.qrlink.sk/new/pl/castles/kostol-nanebovzatia-panny-marie-v-turzovke/",
         "hu": "https://www.qrlink.sk/new/hu/castles/kostol-nanebovzatia-panny-marie-v-turzovke/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Church of the Assumption of the Virgin Mary in Turzovka",
+          "text": "<p>The most important sacred building, which is also listed as a national cultural monument, is the Roman Catholic Baroque Church of the Assumption of the Virgin Mary from 1759. The main altar dates from the 18th century, and there are works from the late Baroque, Classicism and late Neoclassicism. Works by the painters Jozef Božetech Klemens, Jozef Hübsch and Alexander Loszinský, as well as by unknown artists, are richly represented. A remarkable feature of the church is the pseudo-Baroque organ with polychrome woodcarving. Part of the original organ from 1799 is built into the middle of the choir parapet.</p>"
+        }
       },
       "url": "/castles/kostol-nanebovzatia-panny-marie-v-turzovke/",
       "urlAliasy": []
@@ -3980,6 +4243,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/rodny-dom-jozefa-kronera/",
         "hu": "https://www.qrlink.sk/new/hu/castles/rodny-dom-jozefa-kronera/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Jozef Kroner's Birthplace",
+          "text": "<p>The little house where the prominent Slovak actor Jozef Kroner was born in 1924. The museum is open every day. In the middle of the museum you will find a table, the actor&#39;s armchair and a display case with many objects from the artist&#39;s life, such as personal letters, various awards, fishing boots, glasses, a cup and even the Oscar statuette for the film The Shop on Main Street, in which Jozef Kroner played the lead role.</p>"
+        }
+      },
       "url": "/castles/rodny-dom-jozefa-kronera/",
       "urlAliasy": []
     },
@@ -4004,6 +4273,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/velka-raca-1236-m-n-m/",
         "pl": "https://www.qrlink.sk/new/pl/castles/velka-raca-1236-m-n-m/",
         "hu": "https://www.qrlink.sk/new/hu/castles/velka-raca-1236-m-n-m/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Veľká Rača (1,236 m)",
+          "text": "<p>The highest peak of the Kysuce Beskids, offering plenty of ways to enjoy your free time in a beautiful mountain setting in every season.</p>\n<p>Veľká Rača is a great place for hiking. The easiest way to reach the summit is from the village of Oščadnica, from the Dedovka area.</p>\n<p>At the top a viewing platform awaits you, with a hiking map and panoramic view boards. The most beautiful views are of the ridge of the Western Tatras, the ridge of Malá Fatra, Babia hora and Pilsko.</p>\n<p>Rock holes: the Small Rock Hole (9 m long) and the Large Rock Hole (22 m long) – pseudokarst caves formed by the breaking up of sandstone beds. Openings of various sizes, so-called caves, formed in the sandstone. This phenomenon is part of the Veľká Rača National Nature Reserve.</p>"
+        }
       },
       "url": "/castles/velka-raca-1236-m-n-m/",
       "urlAliasy": []
@@ -4030,6 +4305,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/putnicke-miesto-zivcakova/",
         "hu": "https://www.qrlink.sk/new/hu/castles/putnicke-miesto-zivcakova/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Živčáková Pilgrimage Site",
+          "text": "<p>In June 1958 the Virgin Mary is said to have appeared to the forestry worker Matúš Lašut on Živčáková hill. The news spread quickly and believers began to visit the site of the alleged apparition, making pilgrimages to the hill. In 1992 the Bishop&#39;s Office in Nitra gave its consent, and the following year the Chapel of the Virgin Mary, Queen of Peace, was built on Živčáková hill, designed by the architect Marián Goč. Within the apparition site there are several springs of healing water. On 19 October 2008 the Bishop of Žilina, Tomáš Galis, declared Živčáková hill an official Marian pilgrimage site and blessed the foundation stone of the future Church of the Virgin Mary, Mother of the Church. On 4 October 2015 the church was solemnly consecrated by the Diocesan Bishop of Žilina, Mons. Tomáš Galis. The church tower houses four bells made by Josef Tkadlec from Halenkov.</p>\n<p>The tower also serves as a lookout and is open to pilgrims and tourists; its open terrace offers a panoramic view of the surrounding countryside. To enjoy this view you have to climb about 140 steps. Entry to the tower is free. The lookout tower is open only in good weather.</p>\n<p>The Lašút Trail nature trail also leads to the pilgrimage site from the Turzovka – Vyšný koniec part of the town. The trail is about 2.5 km long and is named after the forestry worker Matúš Lašút, to whom the Virgin Mary appeared here. The route has information boards and 14 Stations of the Cross.</p>"
+        }
+      },
       "url": "/castles/putnicke-miesto-zivcakova/",
       "urlAliasy": []
     },
@@ -4054,6 +4335,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/lysa-hora/",
         "pl": "https://www.qrlink.sk/new/pl/castles/lysa-hora/",
         "hu": "https://www.qrlink.sk/new/hu/castles/lysa-hora/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Lysá hora",
+          "text": "<p>The highest mountain of the Moravian-Silesian Beskids (1,323 m above sea level), sometimes also nicknamed the queen of the Moravian-Silesian Beskids.</p>\n<p>The Lysá hora massif is separated from the other parts of the Moravian-Silesian Beskids by the deep valleys of the Ostravice, Řečice and Mohelnice and consists of a dominant summit with four main spurs and several other side ridges. Four spurs radiate from the summit of “Gigula” (the old name of Lysá hora): “Lukšinec”, “Malchor”, “Zimná Polana” and “Veľký Kobylík”.</p>\n<p>On the summit of Lysá hora there is a meteorological station, a TV transmitter, a mountain rescue station and several mountain huts. A small chapel stands next to one of them. There are also memorial plaques to hikers who died during the occupation.</p>\n<p>The geomorphological curiosities of Lysá hora include the cave systems on the Lukšinec spur, called Ondrášovy díry (Ondráš&#39;s Holes). They consist of 250 m of fissure passages and chambers with a height range of about 30 m. Because of the real risk of injury the system is closed and the entrances are secured with grilles. Bats overwinter here.</p>\n<p>In fine weather Lysá hora offers beautiful views of the ridges and valleys of the Beskids and Javorníky, of the Slovak mountains from Malá and Veľká Fatra all the way to the Western and High Tatras, and to the west of the Jeseníky mountains.</p>"
+        }
       },
       "url": "/castles/lysa-hora/",
       "urlAliasy": []
@@ -4080,6 +4367,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/zamok-v-paskove/",
         "hu": "https://www.qrlink.sk/new/hu/castles/zamok-v-paskove/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Paskov Chateau",
+          "text": "<p>The Baroque chateau was built in 1640 – 1646 under Václav of Vrbno, probably on the site of an original fortress. The chateau gradually belonged to many noble families, and in 1869, after a fire, Count Moritz Saint-Genois had it rebuilt into its present form of a four-winged chateau with a mansard roof and a Neoclassical façade. After the Second World War, in 1945, all the property of the last owner, Otto Stolberg, was expropriated and the chateau was adapted into a hospital. This not only changed its purpose but also, to a large extent, had a negative impact on the historic substance of the building.</p>\n<p>Thanks to extensive reconstruction, the chateau is now open to the public. On the ground floor visitors can see the Gallery of the Coats of Arms of the Holders of Paskov, the Exhibition of Models of Wooden Churches, Chapels and Bell Towers of Northern Moravia and Silesia, the Permanent Exhibition on the History of Paskov and an exhibition devoted to the entomologist Edmund Reitter. Various exhibitions are held on the upper floor.</p>"
+        }
+      },
       "url": "/castles/zamok-v-paskove/",
       "urlAliasy": []
     },
@@ -4104,6 +4397,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/zamocky-park/",
         "pl": "https://www.qrlink.sk/new/pl/castles/zamocky-park/",
         "hu": "https://www.qrlink.sk/new/hu/castles/zamocky-park/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Chateau Park",
+          "text": "<p>The park around the chateau was created in the 19th century, first in the French and later in the English style. Thanks to the presence of the protected hermit beetle, the 17-hectare green area has been declared a site of European importance. Its northern part in particular, with rare trees and a stream, offers a romantic atmosphere. The group of statues of the Greek goddesses Athena, Nike, Tyche and Eris in front of the chateau, complemented by a statue of the mythical hero Hercules, is an exceptional artistic expression of the legacy of ancient mythology. Numerous benches offer pleasant seating in spring, summer and autumn, when the park always has a different yet captivating atmosphere.</p>"
+        }
       },
       "url": "/castles/zamocky-park/",
       "urlAliasy": []
@@ -4130,6 +4429,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/rozhladna-okrouhla/",
         "hu": "https://www.qrlink.sk/new/hu/castles/rozhladna-okrouhla/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Okrouhlá Lookout Tower",
+          "text": "<p>The lookout tower in Staříč stands on Okrouhlá hill, 378 m above sea level. The mast is 55 m high, and the viewing platform is at a height of 30 m, offering a wonderful view of the surrounding area. In fine weather you can see the Jeseníky mountains. Below Okrouhlá hill there is a car park for 10 cars built for the lookout tower. Those who would like to come by bus can park in the nearby car park by the football pitch.</p>"
+        }
+      },
       "url": "/castles/rozhladna-okrouhla/",
       "urlAliasy": []
     },
@@ -4155,6 +4460,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/hrad-hukvaldy-s-odborom/",
         "hu": "https://www.qrlink.sk/new/hu/castles/hrad-hukvaldy-s-odborom/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Hukvaldy Castle and Game Park",
+          "text": "<p>The ruins of this 13th-century Gothic castle are among the largest castle complexes in the Czech Republic. Besides being a fortress, the castle was also important as the administrative seat of an extensive estate, which soon after its founding became part of the property of the bishops of Olomouc. When the flats and offices of the officials were moved from the castle to the village below in 1760, Hukvaldy Castle began to turn into a ruin, which was used mainly as a cheap source of building stone. A new use for the castle began in the 19th century with the development of “tourism”. People&#39;s great interest in the castle led to efforts to preserve the monument and use it as a centre of cultural life. The castle offers beautiful views of the surrounding area.</p>\n<p>The most prominent personality associated with Hukvaldy Castle was the composer Leoš Janáček.</p>\n<p>The castle has a game park with a statue of the Cunning Little Vixen, where you can see fallow deer and mouflons. A rarity you can see in the game park on your way to the castle are the exposed root systems of seven mighty beech trees. Veritable waterfalls of roots exposed by erosion pour from the slope; some are up to eight metres long. The castle also has a summer amphitheatre with excellent acoustics, where the Leoš Janáček International Music Festival is held every year.</p>"
+        }
+      },
       "url": "/castles/hrad-hukvaldy-s-odborom/",
       "urlAliasy": []
     },
@@ -4177,6 +4488,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/cvicna-stolna-dolu-paskov/",
         "pl": "https://www.qrlink.sk/new/pl/castles/cvicna-stolna-dolu-paskov/",
         "hu": "https://www.qrlink.sk/new/hu/castles/cvicna-stolna-dolu-paskov/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Paskov Mine Training Gallery",
+          "text": "<p>It is an artificially built demonstration gallery with working mining equipment. Along 200 m of mine corridors there are typical mine workplaces arranged in technological sequence, just as in a real mine.</p>"
+        }
       },
       "url": "/castles/cvicna-stolna-dolu-paskov/",
       "urlAliasy": []
@@ -4203,6 +4520,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/bazilika-minor-putnicky-chram-navstivenie-panny-marie/",
         "hu": "https://www.qrlink.sk/new/hu/castles/bazilika-minor-putnicky-chram-navstivenie-panny-marie/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Basilica Minor – Pilgrimage Church of the Visitation of the Virgin Mary",
+          "text": "<p>On a gentle hill opposite the chateau and Chateau Square in Frýdek stands a magnificent late Baroque cathedral – the pilgrimage church of the Visitation of the Virgin Mary. The foundation stone of the church was laid in 1740. In 1759 the not yet completed church was consecrated. The towers had not been built and the interior furnishings were not complete. The church was finished in 1777. Frýdek thus gained a landmark thanks to which it is sometimes called the “Silesian Lourdes”. In 1999 Pope John Paul II raised the church to the rank of basilica minor. Since 2018 the church has been a national cultural monument.</p>\n<p>This beautiful church has a valuable main altar, an organ and even a crypt underground. In the surrounding park you will see the Neo-Renaissance Chapel of the Sacred Heart and fourteen chapels of the Stations of the Cross.</p>"
+        }
+      },
       "url": "/castles/bazilika-minor-putnicky-chram-navstivenie-panny-marie/",
       "urlAliasy": []
     },
@@ -4227,6 +4550,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/muzeum-beskyd-frydek-mistek-frydecky-zamok/",
         "pl": "https://www.qrlink.sk/new/pl/castles/muzeum-beskyd-frydek-mistek-frydecky-zamok/",
         "hu": "https://www.qrlink.sk/new/hu/castles/muzeum-beskyd-frydek-mistek-frydecky-zamok/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Museum of the Beskids Frýdek-Místek (Frýdek Chateau)",
+          "text": "<p>The castle and the small town were founded by Duke Casimir I of Teschen, probably between 1327 and 1339, on a strategically advantageous elevation above the Ostravice river. At the turn of the 16th and 17th centuries, under Count Bartholomew Bruntálský of Vrbno, the castle was rebuilt into a chateau. Another important figure who significantly influenced the appearance of the chateau was Georg III, Count of Oppersdorff, who bought the estate in 1636. A major event for the chateau and the town of Frýdek was the great fire of 1688. The owner of the chateau at the time was Count Franz Eusebius, who immediately began repairing the damaged chateau. Through the marriage of Franz Eusebius&#39;s daughter, the estate passed to the Pražma family of Bílkov. This family held the Frýdek estate throughout the 18th century, and the chateau was then an important cultural and social centre. The Pražma family also had a positive influence on the creation of the great pilgrimage church of the Visitation of the Virgin Mary, whose construction it generously supported from 1740. In 1798 the Pražmas sold the Frýdek estate to Maria Christina of Habsburg, sister of Joseph II. The Habsburgs held the chateau until 1918. After it was confiscated from the Habsburgs, the chateau was under compulsory administration. It was used as the seat of various authorities, then as the headquarters of the state forests, offices and flats. In 1960 the museum moved into the chateau, and today it offers five permanent exhibitions and a number of temporary ones. In the chateau you can visit the following exhibitions: the chateau tour, The Beskids – Nature and People, Frýdek and Místek, Frýdek – A Marian Pilgrimage Site, and the Óndra Łysohorsky Memorial.</p>"
+        }
       },
       "url": "/castles/muzeum-beskyd-frydek-mistek-frydecky-zamok/",
       "urlAliasy": []
@@ -4253,6 +4582,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/pustevny/",
         "hu": "https://www.qrlink.sk/new/hu/castles/pustevny/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Pustevny",
+          "text": "<p>Pustevny is a very attractive place for trips in any weather. The settlement near the mythical Radhošť mountain can be reached by cable car, on foot, on cross-country skis in winter and by bike in summer. Pustevny is the most popular tourist centre in the Beskids, and the statue of Radegast, which you will find on the way to Radhošť, is the best-known symbol of the whole Moravian-Silesian Region. Worth noticing is the architecture of the LIBUŠÍN and MAMĚNKA tourist lodges by the Slovak architect Dušan Jurkovič, as well as the wooden church of Saints Cyril and Methodius and the statue group of the two missionaries by Albín Polášek from 1931, which stands on the summit itself.</p>"
+        }
+      },
       "url": "/castles/pustevny/",
       "urlAliasy": []
     },
@@ -4278,6 +4613,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/javorniky-dominanta-hornych-kysuc/",
         "hu": "https://www.qrlink.sk/new/hu/castles/javorniky-dominanta-hornych-kysuc/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Javorníky – The Landmark of Upper Kysuce",
+          "text": "<p>The popular Javorníky mountains stretch along the Slovak-Czech border. Their highest peak is Veľký Javorník, which is perfect for hiking with family and friends. It will charm you with picturesque corners, beautiful nature and easy routes to the top.</p>\n<p>On the way you are treated to panoramic views, especially of the Moravian-Silesian Beskids. On the ridge, besides natural beauty, you will also find works of human hands in the form of stone objects – a unique open-air stone gallery. Their authors are artists connected with the Kysuce and Upper Považie regions (among them Ondrej Zimka, Gustáv Švábik-Macvejda, Milan Greguš, Pavol Muška, Ondrej 4., the Tri kamene studio and others).</p>"
+        }
+      },
       "url": "/castles/javorniky-dominanta-hornych-kysuc/",
       "urlAliasy": []
     },
@@ -4302,6 +4643,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/muzeum-kysuckej-dediny/",
         "pl": "https://www.qrlink.sk/new/pl/castles/muzeum-kysuckej-dediny/",
         "hu": "https://www.qrlink.sk/new/hu/castles/muzeum-kysuckej-dediny/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Museum of the Kysuce Village",
+          "text": "<p>It is an open-air museum near the village of Nová Bystrica, in its Vychylovka part, in the Chmúra valley, which is part of the Kysuce Protected Landscape Area. The open-air museum was founded on 11 October 1974; one of the main reasons for its creation was to save the most valuable monuments of folk architecture from the villages of Riečnica and Harvelka, which were to disappear because of the construction of the Nová Bystrica reservoir.</p>\n<p>By 1981, when the first part of the exhibition was opened, 22 of the 69 planned buildings of the open-air museum had been built. The ethnographic exhibition seeks to reconstruct the settlement landscape and environment, presenting folk architecture and the way of life and culture of the people of Kysuce in the second half of the 19th century and the first half of the 20th century. Technical structures are represented by a water mill and a sawmill with a half-timbered structure from the village of Klubina. The sacred buildings include a masonry chapel from the first quarter of the 19th century from Zborov nad Bystricou and a cemetery with metal crosses, representing the cemeteries of Kysuce at the beginning of the century.</p>"
+        }
       },
       "url": "/castles/muzeum-kysuckej-dediny/",
       "urlAliasy": []
@@ -4373,6 +4720,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/javor-mliecny/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/javor-mliecny/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "1. Norway Maple",
+          "text": "<p><strong>Norway Maple – Acer platanoides</strong></p>\n<p>It grows to 25 – 30 m and tolerates the urban environment and air pollution well. It prefers fresh, loamy soils from the lowlands to the foothills. A white “milky” sap flows from a damaged leaf stalk, which gave the tree its Slovak name; the leaves are five-lobed with long points. The light, dense wood with a fine flame-like grain is used for furniture and for the soundboards of violins and guitars. In spring its honey-rich flowers attract bees before the leaves have fully unfolded.</p>"
+        }
+      },
       "url": "/environmental-upbringing-and-education/javor-mliecny/",
       "urlAliasy": []
     },
@@ -4399,6 +4752,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/2-gastan-jedly/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/2-gastan-jedly/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/2-gastan-jedly/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "2. Sweet Chestnut",
+          "text": "<p><strong>Sweet Chestnut – Castanea sativa</strong></p>\n<p>A mighty tree 20 – 35 m tall that needs warmer, sunny slopes with deep, slightly acidic soils. Its long leathery leaves have sharp serrated edges and turn golden brown in autumn. Sweet edible nuts, popular in cooking and confectionery, ripen in prickly hemispherical husks. The oak-like wood is resistant to rot and is used for barrels, floors and outdoor structures. Old chestnut trees can live for over 500 years and their hollows provide shelter for bats.</p>"
+        }
       },
       "url": "/environmental-upbringing-and-education/2-gastan-jedly/",
       "urlAliasy": []
@@ -4427,6 +4786,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/3-orech-kralovsky/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/3-orech-kralovsky/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "3. Common Walnut",
+          "text": "<p><strong>Common Walnut – Juglans regia</strong></p>\n<p>It usually grows to 25 – 30 m and needs warm, sheltered sites with calcareous soils. Its broad, odd-pinnate leaves give off a typical resinous scent and can stain the skin when touched. A tasty kernel ripens inside the hard shell – one of the most nutritious nuts of our gardens. The dark brown, decorative wood is highly prized for luxury furniture, gun stocks and artistic veneers. The tree creates a chemical “protective zone” – few plants germinate beneath it, because it releases allelopathic substances.</p>"
+        }
+      },
       "url": "/environmental-upbringing-and-education/3-orech-kralovsky/",
       "urlAliasy": []
     },
@@ -4453,6 +4818,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/4-ceresna-vtacia/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/4-ceresna-vtacia/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/4-ceresna-vtacia/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "4. Wild Cherry",
+          "text": "<p><strong>Wild Cherry – Prunus avium</strong></p>\n<p>It reaches 20 – 30 m and grows best on sunny, deep soils of hilly country and low mountains. In spring it bursts into a mass of white, fragrant blossoms, often before the leaves come out. Its smooth reddish-brown bark with horizontal lenticels peels off in strips. The wood, with its warm red tint, is popular in joinery and in the making of musical instruments. Forest birds spread the seeds, so wild cherries are a natural part of the forest mosaic.</p>"
+        }
       },
       "url": "/environmental-upbringing-and-education/4-ceresna-vtacia/",
       "urlAliasy": []
@@ -4481,6 +4852,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/5-jablon-domaca/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/5-jablon-domaca/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "5. Apple Tree",
+          "text": "<p><strong>Apple Tree – Malus domestica</strong></p>\n<p>A tree or tall shrub 5 – 10 m high that flowers in April in a pink-to-white cloud of blossoms. It thrives in sunny, moderately moist gardens and orchards on loamy-sandy soils. Its fruit – apples – are the basis of many traditional dishes and drinks and can be stored for months. The dense, hard wood with its fine grain is used by carvers and makers of musical instruments and is excellent for smoking meat. Old varieties often provide hollows for tits and bats, increasing the biodiversity of the orchard.</p>"
+        }
+      },
       "url": "/environmental-upbringing-and-education/5-jablon-domaca/",
       "urlAliasy": []
     },
@@ -4507,6 +4884,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/6-slivka-trnkova/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/6-slivka-trnkova/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/6-slivka-trnkova/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "6. Blackthorn",
+          "text": "<p><strong>Blackthorn – Prunus spinosa</strong></p>\n<p>A dense thorny shrub or small tree 2 – 5 m high that forms impenetrable thickets on drier field margins and slopes. In March and April it flowers with small white blossoms before the leaves appear and is one of the first spring food sources for pollinators. The blue-black fruits – sloes – taste bitter, but soften after the autumn frosts and are used for jams or to flavour spirits. The densely branched, thorny twigs offer small birds a safe shelter. Sloes are related to plums, but they can quickly regenerate from root suckers and stabilise eroding slopes.</p>"
+        }
       },
       "url": "/environmental-upbringing-and-education/6-slivka-trnkova/",
       "urlAliasy": []
@@ -4535,6 +4918,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/7-buk-lesny/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/7-buk-lesny/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "7. European Beech",
+          "text": "<p><strong>European Beech – Fagus sylvatica</strong></p>\n<p>It can reach 40 – 45 m and forms massive, shady crowns under which few plants grow. It forms pure beech stands in moist hills and lower mountains up to 1,000 m, where it prefers deep, fertile soils. The trunk has smooth grey bark nicknamed “elephant skin”. After steaming, beech wood softens and can be bent, which is why the famous Thonet bentwood chairs were made from it. Beech leaves form a thick layer of humus in the forest that retains moisture.</p>"
+        }
+      },
       "url": "/environmental-upbringing-and-education/7-buk-lesny/",
       "urlAliasy": []
     },
@@ -4561,6 +4950,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/8-breza-previsnuta/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/8-breza-previsnuta/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/8-breza-previsnuta/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "8. Silver Birch",
+          "text": "<p><strong>Silver Birch – Betula pendula</strong></p>\n<p>A medium-sized tree 15 – 25 m, rarely 30 m, with striking white bark that peels off in papery flakes. It thrives best on light, acidic and drier soils from the lowlands to the foothills. Its long drooping branches gave it its species name and elegant appearance. The bark contains betulin, which repels water; that is why it was once used to seal roofs and boats. Birches are pioneers – they quickly colonise clear-cuts or burnt areas and prepare the soil for other trees.</p>"
+        }
       },
       "url": "/environmental-upbringing-and-education/8-breza-previsnuta/",
       "urlAliasy": []
@@ -4589,6 +4984,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/pesnicka-kohutik-jaraby/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/pesnicka-kohutik-jaraby/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Song “Kohútik jarabý” (The Speckled Little Rooster)",
+          "text": "<h2>The Words of the Song “Kohútik jarabý”</h2>\n<p><em>Speckled little rooster,</em> </p>\n<p><em>don&#39;t go in the garden,</em> </p>\n<p><em>you&#39;ll break the lily,</em> </p>\n<p><em>and then they&#39;ll kill you.</em></p>\n<p><em>And when they kill you</em> </p>\n<p><em>they will bury you</em> </p>\n<p><em>in the kind of garden</em> </p>\n<p><em>where the gentry sit.</em></p>"
+        }
+      },
       "url": "/environmental-upbringing-and-education/pesnicka-kohutik-jaraby/",
       "urlAliasy": []
     },
@@ -4616,6 +5017,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/pesnicka-oda-na-radost/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/pesnicka-oda-na-radost/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Song “Ode to Joy”",
+          "text": "<p><em><strong>Ode to Joy</strong></em> is the final movement of Beethoven&#39;s Symphony No. 9 in D minor, Op. 125, set to Schiller&#39;s ode “To Joy” (Ode „An die Freude“).</p>\n<p><strong>English rendering of the Slovak translation:</strong> <em><strong>Ode to Joy</strong></em></p>\n<p><em>Joy – beautiful spark of God, voice of the daughter of Elysium,</em></p>\n<p><em>now with unspeakable love you lead us to the sanctuary.</em></p>\n<p><em>Your magic will restore what an evil age does not protect –</em></p>\n<p><em>all people will be brothers beneath your wings.</em></p>\n<p><em>If fortune has smiled on you so far, help your friend,</em></p>\n<p><em>if you long for a faithful wife, come – here with us you will find paradise.</em></p>\n<p><em>If every soul met today at the very break of dawn,</em></p>\n<p><em>they would disturb the holy peace no more, and weeping and sorrow would depart.</em></p>\n<p><em>Joy! Since time began, man has drunk from nature&#39;s breast,</em></p>\n<p><em>people live by you alone, nations live from you.</em></p>\n<p><em>A full cluster of dark vine – giver of the rarest wines,</em></p>\n<p><em>even the worms feed on you, and the Cherub praises you.</em></p>\n<p><em>The sun&#39;s rays swarm, the sky shines above us,</em></p>\n<p><em>let us walk shared paths in times of unrest.</em></p>\n<p><em>Come into our arms, you millions – here is a kiss for the whole world.</em></p>\n<p><em>Brothers, soar to the nests where our dear Father reigns.</em></p>\n<p><em>Bow down in the dust, you millions – there is no life without the Creator.</em></p>\n<p><em>There among the stars He will keep watch, there among the stars He must reign.</em></p>\n<p><em>Joy, bright spark of the gods, voice of the daughter of Elysium,</em></p>\n<p><em>now with unspeakable love you lead us to the sanctuary.</em></p>\n<p><em><strong>Source</strong>: <a href=\"https://sk.wikipedia.org/wiki/%C3%93da_na_rados%C5%A5_(Beethoven)\">Wikipedia</a></em></p>"
+        }
+      },
       "url": "/environmental-upbringing-and-education/pesnicka-oda-na-radost/",
       "urlAliasy": []
     },
@@ -4642,6 +5049,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/dendrolog-2-tretia-podstranka/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/dendrolog-2-tretia-podstranka/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/dendrolog-2-tretia-podstranka/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Wood Hardness",
+          "text": "<p>There are more than 60,000 species of trees in the world, and according to Botanic Gardens Conservation International more than 2,000 are added to the global list every year. Of this enormous number, “only” 77 species grow in Slovakia.</p>\n<p>Each type of wood has its own unique cell structure, which determines how it behaves in different conditions and what it is best used for. One of the mechanical properties of wood is its degree of hardness. It is a physical quantity expressing how well the wood can resist a foreign body penetrating its structure.</p>\n<h2><strong>How wood hardness is measured</strong></h2>\n<p>Two methods are used to measure wood hardness – Brinell and Janka. The latter, named after the researcher Gabriel Janka, is used most often.</p>\n<p>A steel ball with a diameter of 11.28 mm is gradually pressed into the wood until half of its diameter is embedded in the surface. The force needed to press the ball into the wood structure is the resulting hardness value, given in MPa (megapascals) or in kg/cm2 (kilograms per square centimetre).</p>\n<h2>Wood hardness table</h2>\n<table>\n<thead>\n<tr>\n<th><strong>Hardness in kg/cm2</strong></th>\n<th><strong>Type of wood</strong></th>\n</tr>\n</thead>\n<tbody><tr>\n<td>1. 0 – 350 kg/cm2 (very soft wood)</td>\n<td>spruce, pine, fir, lime</td>\n</tr>\n<tr>\n<td>2. 351 – 500 kg/cm2 (soft wood)</td>\n<td>birch, alder, teak</td>\n</tr>\n<tr>\n<td>3. 501 – 650 kg/cm2 (medium-hard wood)</td>\n<td>sweet chestnut, hazel</td>\n</tr>\n<tr>\n<td>4. 651 – 1000 kg/cm2 (hard wood)</td>\n<td>oak, maple, walnut, cherry, beech, black locust, yew</td>\n</tr>\n<tr>\n<td>5. 1001 – 1500 kg/cm2 (very hard wood)</td>\n<td>cornelian cherry, boxwood</td>\n</tr>\n<tr>\n<td>6. over 1501 kg/cm2 (extremely hard wood)</td>\n<td>ebony, massaranduba</td>\n</tr>\n</tbody></table>\n<h2>The softest and hardest wood in Slovakia</h2>\n<p>The world&#39;s hardest woods do not grow in Slovakia. In our latitudes you will only find wood with a maximum hardness grade of 4 – hard wood. <strong>The hardest wood in Slovakia is black locust, and the softest is pine.</strong></p>\n<p>Interestingly, the hardness of one type of wood can vary in different climatic conditions (the most important factor affecting it is moisture). <strong>The hardest wood in the world is therefore probably lignum vitae, which grows in the rainforests of South America.</strong></p>\n<p><strong>Source</strong>: <a href=\"https://cs.wikipedia.org/wiki/Tvrdost_d%C5%99eva\">Wikipedia</a></p>"
+        }
       },
       "url": "/environmental-upbringing-and-education/dendrolog-2-tretia-podstranka/",
       "urlAliasy": []
@@ -4671,6 +5084,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Scale",
+          "text": "<h2><strong>Scale</strong></h2>\n<p>(other names: <strong>tone scale, musical scale</strong>) is, in musicology, a series of tones arranged step by step in ascending or descending order according to certain rules, from the base (first) tone – the tonic of the scale – to its octave (an octave is the interval between two tones, the higher of which has twice the frequency).</p>\n<p>The group of tones of a given scale used in a particular piece of music or song is called a key.<a href=\"https://sk.wikipedia.org/wiki/Stupnica_(hudba)#cite_note-1\">[1]</a>Scales are essentially conventions that have developed to suit our hearing. Different scales differ mainly in the number of tones and the distances (intervals) between them, i.e. mainly in the placement of semitones and whole tones.</p>\n<p><strong>Major scales</strong> are diatonic scales typical of European music. The name “dur” used in Slovak comes from the Latin “durum” – hard.</p>\n<p><strong>C major –</strong> The basic major scale is C major. It consists of these tones: C, D, E, F, G, A, B, C. On the piano these are only the white keys. For vocal purposes, the tones of C major also have their own syllable names – the so-called solmization scale.</p>\n<p><img src=\"/assets/images/migrated/2025-07-16_09h11_35.png\" alt=\"\"></p>\n<p>Sound recording – Ogg Vorbis sound file of C Major scale, Source: <a href=\"https://sk.wikipedia.org/wiki/S%C3%BAbor:C_major.ogg\">Aidan Hanrath, own work</a></p>\n<p>Source: <a href=\"https://sk.wikipedia.org/wiki/Stupnica_(hudba)\">Wikipedia</a></p>"
+        }
+      },
       "url": "/environmental-upbringing-and-education/dendrolog-2-stvrta-podstranka/",
       "urlAliasy": []
     },
@@ -4698,6 +5117,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/oravsky-hrad/",
         "hu": "https://www.qrlink.sk/new/hu/oravsky-hrad/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Orava Castle",
+          "text": "<p>One of the biggest tourist attractions of the Orava region is Orava Castle, built on a rock above the Orava river in Oravský Podzámok. It is one of the most beautiful and most visited castles in Slovakia. Its exhibitions are divided into historical, ethnographic and natural history sections. The castle is a favourite with filmmakers: several fairy tales, an adventure series and even a horror film have been shot here.</p>"
+        }
+      },
       "url": "/oravsky-hrad/",
       "urlAliasy": []
     },
@@ -4724,6 +5149,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/babia-hora/",
         "pl": "https://www.qrlink.sk/new/pl/babia-hora/",
         "hu": "https://www.qrlink.sk/new/hu/babia-hora/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Babia hora",
+          "text": "<p>The beautiful region of northern Slovakia is bordered by a mountain range called Babia hora. It can boast several exceptional distinctions. Babia hora is the northernmost viewpoint in Slovakia and the highest peak of the Orava Beskids. It rises to a height of 1,724 m, and the climb is considered one of the most beautiful and interesting in the area. From the southern route, Babia hora looks very rounded and gentle; however, given the surrounding terrain, you have to climb as much as 1,000 metres of elevation.</p>\n<p>The starting point for a beautiful Orava hike towards Babia hora is usually the village of Oravská Polhora, more precisely the Slaná voda chalet.</p>"
+        }
       },
       "url": "/babia-hora/",
       "urlAliasy": []
@@ -4755,6 +5186,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/slovensky-severny-pol-oravska-polhora/",
         "hu": "https://www.qrlink.sk/new/hu/slovensky-severny-pol-oravska-polhora/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Slovakia's North Pole, Oravská Polhora",
+          "text": "<p>The northernmost point of Slovakia is located near boundary stone 91/10 at an altitude of 1,086 m below the summit of Modralová, also known as Beskydok (1,168 m). The starting point is the village of Oravská Polhora, the Píla part. On the way to the so-called North Pole of Slovakia – the summit of Modralová – don&#39;t hesitate to visit the technical monuments hidden in the forests of Oravská Polhora. The so-called tajchy are artificially created log dams, which were built in the upper reaches of watercourses to hold back water.</p>"
+        }
+      },
       "url": "/slovensky-severny-pol-oravska-polhora/",
       "urlAliasy": []
     },
@@ -4781,6 +5218,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/slanicky-ostrov-umenia/",
         "pl": "https://www.qrlink.sk/new/pl/slanicky-ostrov-umenia/",
         "hu": "https://www.qrlink.sk/new/hu/slanicky-ostrov-umenia/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Slanica Island of Art",
+          "text": "<p>In the beautiful natural scenery of the Slanica Island of Art, in the middle of the Orava reservoir, there are permanent exhibitions of traditional folk art from the collections of the Orava Gallery. Of the five settlements that disappeared forever under the waters of the reservoir in 1953, only the hilltop with its Baroque church and Calvary, once the landmark of the village of Slanica, survived as an island. A few years later the idea arose to create permanent exhibitions of the Orava Gallery, which were opened in 1971 – 1973. The interior of the church, with its Classicist façade, houses the exhibition “Traditional Folk Sculpture and Painting”, and outside on the island a lapidarium of “Orava Stonemasonry of the 18th and 19th Centuries” was created. The former tomb houses an exhibition on the history of the flooded villages and the construction of the Orava reservoir. Thanks to their uniqueness, the exhibitions are among the most visited cultural sites in Orava, also thanks to the attractive trip on the passenger motor boat “SLANICA”, which sails to the island from the port at Slanická Osada during the season (from 15 May to 15 September). Every year in June and July, as part of the “Musical Summer” festival, the Námestovo Cultural Centre organises classical music concerts in the church.</p>"
+        }
       },
       "url": "/slanicky-ostrov-umenia/",
       "urlAliasy": []
@@ -4809,6 +5252,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/rimsko-katolicky-kostol-sv-michala-archanjela-velicna/",
         "hu": "https://www.qrlink.sk/new/hu/rimsko-katolicky-kostol-sv-michala-archanjela-velicna/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Roman Catholic Church of St Michael the Archangel – Veličná",
+          "text": "<p>The originally Gothic church built in the 14th century was destroyed by fire in 1683 together with most of the village. During repairs in the 17th century the church acquired its present appearance. The church grounds are surrounded by a defensive wall; in front of the church there is a Calvary from 1777 and the remains of the former cemetery. Inside there is a carved folk nativity scene. In 1963 the church was declared a national cultural monument.</p>"
+        }
+      },
       "url": "/rimsko-katolicky-kostol-sv-michala-archanjela-velicna/",
       "urlAliasy": []
     },
@@ -4835,6 +5284,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/klin/",
         "pl": "https://www.qrlink.sk/new/pl/klin/",
         "hu": "https://www.qrlink.sk/new/hu/klin/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Klin",
+          "text": "<p>The name of the village of Klin comes from the original term for a spur of a hill between two streams (klin means “wedge”). The village offers many attractions, such as cross-country ski trails, the hiking trail to Vahanov and the Statue of Christ on Grapa, the cycle path from Klin to Námestovo (the old Klin road) and the Forest Transformation nature trail.</p>\n<p>The small village of Klin near the district town of Námestovo looks unremarkable at first sight. Who would have thought that above it there is a truly world-class gem? Since 2008 a statue of Jesus Christ has stood on Grapa hill above the village, at an altitude of 686 m. It is 9.5 metres high, its arms span seven metres and it weighs 23 tonnes. Its author is the local folk woodcarver Peter Ganobjak.</p>\n<p>There are only three similar statues in the world. The best known is above the city of Rio de Janeiro, the second is in Lisbon, Portugal, and the third is right here.</p>"
+        }
       },
       "url": "/klin/",
       "urlAliasy": []
@@ -4863,6 +5318,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/stala-expozicia-ludoveho-rezbarstva/",
         "hu": "https://www.qrlink.sk/new/hu/stala-expozicia-ludoveho-rezbarstva/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Permanent Exhibition of Folk Woodcarving",
+          "text": "<p>Visitors will probably also be interested in the Gallery of Folk Woodcarving. The village now has a permanent exhibition of folk woodcarving with more than 150 wooden sculptures by more than fifty folk artists from Slovakia, the Czech Republic and Poland.</p>"
+        }
+      },
       "url": "/stala-expozicia-ludoveho-rezbarstva/",
       "urlAliasy": []
     },
@@ -4889,6 +5350,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/bobrovska-kalvaria/",
         "pl": "https://www.qrlink.sk/new/pl/bobrovska-kalvaria/",
         "hu": "https://www.qrlink.sk/new/hu/bobrovska-kalvaria/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Bobrov Calvary",
+          "text": "<p>In the heart of Bobrov there is a place where people come to find peace, to rest or simply to enjoy the view.</p>\n<p>The Calvary is located in the centre of the village, right next to the church. You can also get to the hilltop by car. The road leads behind the church to the cemetery, where you can join a concrete-slab road that ends near the Chapel of the Assumption of the Virgin Mary. However, if you want to see all parts of our route, we recommend leaving your car in the car park behind the church and setting off on foot.</p>"
+        }
       },
       "url": "/bobrovska-kalvaria/",
       "urlAliasy": []
@@ -4917,6 +5384,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/hrad-strecno/",
         "hu": "https://www.qrlink.sk/new/hu/hrad-strecno/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Strečno Castle",
+          "text": "<p>On the left bank of the Váh river, above the village of Strečno, rises a castle that was once the safest fortress in the Váh valley and today comes alive with interesting cultural events throughout the year. One of the owners of the castle was Count František Wesselényi, whose first wife was the famous Žofia Bosniaková. Inside you can admire the exhibition of the Považie Museum in Žilina. The exhibits present archaeological finds from the Žilina area as well as the overall history of the castle.</p>"
+        }
+      },
       "url": "/hrad-strecno/",
       "urlAliasy": []
     },
@@ -4943,6 +5416,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/plte-na-vahu/",
         "pl": "https://www.qrlink.sk/new/pl/plte-na-vahu/",
         "hu": "https://www.qrlink.sk/new/hu/plte-na-vahu/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Rafting on the Váh",
+          "text": "<p>A raft trip through the Strečno gorge offers a unique and safe way to discover history and natural, cultural and technical attractions on a traditional means of transport – beneath the ancient castles of Strečno and Starhrad, past the best-known obstacles for raftsmen, the Margita and Besná rocks, in the pass where the Váh cuts through the Malá Fatra mountains.</p>"
+        }
       },
       "url": "/plte-na-vahu/",
       "urlAliasy": []
@@ -4971,6 +5450,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/hrad-lietava/",
         "hu": "https://www.qrlink.sk/new/hu/hrad-lietava/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Lietava Castle",
+          "text": "<p>It is built on Cibulník hill – 635 m above sea level – with steep slopes on several sides. Thanks to its location it was almost impregnable in the past, and it ranks second in Slovakia, right after Spiš Castle. It offers visitors beautiful views of the Súľov Rocks, the Skalky massif, the Kysuce Highlands, Malá Fatra and the Javorníky mountains. It can be reached either from the village of Lietava or from Lietavská Svinná.</p>"
+        }
+      },
       "url": "/hrad-lietava/",
       "urlAliasy": []
     },
@@ -4997,6 +5482,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/muzeum-juraja-janosika/",
         "pl": "https://www.qrlink.sk/new/pl/muzeum-juraja-janosika/",
         "hu": "https://www.qrlink.sk/new/hu/muzeum-juraja-janosika/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Juraj Jánošík Museum",
+          "text": "<p>The permanent exhibition dedicated to the national hero Jánošík and to life in the village of Terchová in the past has been open since 2008. It is divided into several thematic sections: the traditional Terchová dwelling, the history of the village, and Jánošík as a folk hero.</p>"
+        }
       },
       "url": "/muzeum-juraja-janosika/",
       "urlAliasy": []
@@ -5025,6 +5516,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/janosikove-diery/",
         "hu": "https://www.qrlink.sk/new/hu/janosikove-diery/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Jánošík's Holes",
+          "text": "<p>The most beautiful and popular part of the Malá Fatra mountains is Jánošíkove diery (Jánošík&#39;s Holes). They are located in the Rozsutec nature reserve and consist of three parts: the Lower Holes, the Upper Holes and the New Holes. They were formed by the so-called Dierový potok stream, which flows through them.</p>"
+        }
+      },
       "url": "/janosikove-diery/",
       "urlAliasy": []
     },
@@ -5051,6 +5548,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/sulovsky-hrad/",
         "pl": "https://www.qrlink.sk/new/pl/sulovsky-hrad/",
         "hu": "https://www.qrlink.sk/new/hu/sulovsky-hrad/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Súľov Castle",
+          "text": "<p>On a massive rock crag of the Súľov Rocks, at an altitude of 660 metres, lie the remains of Súľov Castle. The castle dates from the first third of the 15th century, and unfortunately only a minimum of its perimeter walls has survived to this day. According to legend, a dragon lived near the castle and flew around it in a rage, crashing into the rocks. It thus left an opening – the Gothic Gate and the Dragon&#39;s Hole. A brave young man named Suľo set out to kill it, because it made life in the area unbearable. He succeeded, and the villagers built him a small castle in the impregnable rocks as a reward.</p>"
+        }
       },
       "url": "/sulovsky-hrad/",
       "urlAliasy": []
@@ -5080,6 +5583,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny/",
         "hu": "https://www.qrlink.sk/new/hu/historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Historical Forest Switchback Railway, Museum of the Kysuce Village",
+          "text": "<p>The Historical Forest Switchback Railway is a preserved and working part of the former Kysuce-Orava Forest Railway (KOLŽ), which was created in 1926 by joining forest railways built in 1915 – 1918: the Kysuce line from Oščadnica to Chmúra (Nová Bystrica, Vychylovka) and the Orava line from Lokca to Erdútka (today&#39;s Oravská Lesná). Operation of the KOLŽ ended at the end of 1971, and apart from the 8 km section Chmúra – Tanečník, which contained the valuable switchback system, the rest of the line was dismantled. In 1974 the preserved part of the closed KOLŽ was taken over by the Kysuce Museum in Čadca. The 8 km section of the former KOLŽ between Chmúra (Vychylovka) and Tanečník (Oravská Lesná), with its unique switchback system, was declared a national cultural monument of the Slovak Republic as a technical monument in 1991. The inventory of the railway includes historic steam and diesel locomotives, carriages and more. The railway runs during the season from May to October.</p>\n<p>The Museum of the Kysuce Village is an open-air museum near the village of Nová Bystrica, in its Vychylovka part, in the Chmúra valley, which is part of the Kysuce Protected Landscape Area. The open-air museum was founded on 11 October 1974; one of the main reasons for its creation was to save the most valuable monuments of folk architecture from the villages of Riečnica and Harvelka, which were to disappear because of the construction of the Nová Bystrica reservoir.</p>\n<p>By 1981, when the first part of the exhibition was opened, 22 of the 69 planned buildings of the open-air museum had been built. The ethnographic exhibition seeks to reconstruct the settlement landscape and environment, presenting folk architecture and the way of life and culture of the people of Kysuce in the second half of the 19th century and the first half of the 20th century. Technical structures are represented by a water mill and a sawmill with a half-timbered structure from the village of Klubina. The sacred buildings include a masonry chapel from the first quarter of the 19th century from Zborov nad Bystricou and a cemetery with metal crosses, representing the cemeteries of Kysuce at the beginning of the century.</p>\n<p><img src=\"/assets/images/migrated/15-muzeum-kysuckej-dediny.jpg\" alt=\"\"></p>"
+        }
+      },
       "url": "/historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny/",
       "urlAliasy": []
     },
@@ -5106,6 +5615,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/trojmedzie/",
         "pl": "https://www.qrlink.sk/new/pl/trojmedzie/",
         "hu": "https://www.qrlink.sk/new/hu/trojmedzie/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Tripoint",
+          "text": "<p>The Tripoint (Trojmedzie) is the place where the borders of Slovakia, the Czech Republic and Poland meet. From this point run 541 km of the Slovak-Polish border and 251 km of the Slovak-Czech border. At the Tripoint you can have a unique experience – standing in three countries at once.</p>\n<p>The tripoint lies in a stream gully 8 m deep and 34 m wide and is the centre of the circle circumscribed by the vertices of an isosceles triangle. The vertices of the triangle are 240 cm tall granite monoliths. The tripoint itself, marked by a smaller monolith, is in the bed of the stream.</p>\n<p>When they were built on 22 June 1995, commemorative documents of the time – various papers, newspapers and coins – were placed in metal cases in their bases.</p>\n<p>Meetings of friends and various events are regularly held at the Tripoint, e.g. New Year&#39;s Eve at the Tripoint, the hiking march Through Three States of Europe, the Celebration of the Eucharist at the Tripoint, the Goral Marathon and others.</p>"
+        }
       },
       "url": "/trojmedzie/",
       "urlAliasy": []
@@ -5134,6 +5649,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/marianske-putnicke-miesto-zivcakova/",
         "hu": "https://www.qrlink.sk/new/hu/marianske-putnicke-miesto-zivcakova/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Živčáková Marian Pilgrimage Site",
+          "text": "<p>In June 1958 the Virgin Mary is said to have appeared to the forestry worker Matúš Lašut on Živčáková hill. The news spread quickly and believers began to visit the site of the alleged apparition, making pilgrimages to the hill. In 1992 the Bishop&#39;s Office in Nitra gave its consent, and the following year the Chapel of the Virgin Mary, Queen of Peace, was built on Živčáková hill, designed by the architect Marián Goč. Within the apparition site there are several springs of healing water. On 19 October 2008 the Bishop of Žilina, Tomáš Galis, declared Živčáková hill an official Marian pilgrimage site and blessed the foundation stone of the future Church of the Virgin Mary, Mother of the Church. On 4 October 2015 the church was solemnly consecrated by the Diocesan Bishop of Žilina, Mons. Tomáš Galis. The church tower houses four bells made by Josef Tkadlec from Halenkov.</p>\n<p>The tower also serves as a lookout and is open to pilgrims and tourists; its open terrace offers a panoramic view of the surrounding countryside. To enjoy this view you have to climb about 140 steps. Entry to the tower is free, with voluntary donations. The lookout tower is open only in good weather.</p>"
+        }
+      },
       "url": "/marianske-putnicke-miesto-zivcakova/",
       "urlAliasy": []
     },
@@ -5160,6 +5681,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kamenne-gule-na-kysuciach/",
         "pl": "https://www.qrlink.sk/new/pl/kamenne-gule-na-kysuciach/",
         "hu": "https://www.qrlink.sk/new/hu/kamenne-gule-na-kysuciach/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Stone Spheres in Kysuce",
+          "text": "<p>The stone spheres are located in the Čadca – Milošová district, near the border with the village of Mosty u Jablunkova. In the 1980s, after blasting in a quarry where stone was extracted for regulating mountain streams, regular round spheres with diameters from 10 to 260 cm rolled out of the rock. In 2003 the site was declared a natural monument.</p>"
+        }
       },
       "url": "/kamenne-gule-na-kysuciach/",
       "urlAliasy": []
@@ -5189,6 +5716,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/tri-krize-na-stratenci-a-kriz-na-velkom-javorniku/",
         "hu": "https://www.qrlink.sk/new/hu/tri-krize-na-stratenci-a-kriz-na-velkom-javorniku/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Three Crosses on Stratenec and the Cross on Veľký Javorník",
+          "text": "<p>The popular Javorníky mountains stretch along the Slovak-Czech border. Their highest peak is Veľký Javorník, which is perfect for hiking with family and friends. It will charm you with picturesque corners, beautiful nature and easy routes to the top.</p>\n<p>On the way you are treated to panoramic views, especially of the Moravian-Silesian Beskids. On the ridge, besides natural beauty, you will also find works of human hands in the form of stone objects – a unique open-air stone gallery. Their authors are artists connected with the Kysuce and Upper Považie regions (among them Ondrej Zimka, Gustáv Švábik-Macvejda, Milan Greguš, Pavol Muška, Ondrej 4., the Tri kamene studio and others).</p>\n<p>The lookout tower on Stratenec was built in 2008 at an altitude of 1,055 m. There is also a stone memorial called Three Crosses, dedicated to three soldiers who fell during the Second World War at the time of the liberation of Velké Karlovice. The lookout tower is 8 m high and 22 steps lead up to it.</p>\n<p><img src=\"/assets/images/migrated/02-tri-krize-na-stratenci.jpg\" alt=\"\"></p>"
+        }
+      },
       "url": "/tri-krize-na-stratenci-a-kriz-na-velkom-javorniku/",
       "urlAliasy": []
     },
@@ -5216,6 +5749,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/unikatny-dreveny-betlehem-v-rajeckej-lesnej/",
         "hu": "https://www.qrlink.sk/new/hu/unikatny-dreveny-betlehem-v-rajeckej-lesnej/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The Unique Wooden Nativity Scene in Rajecká Lesná",
+          "text": "<p>This monumental woodcarving, measuring 8.5 m x 2.5 m x 3 m, can be found in the House of the Nativity. Its author is the master Jozef Pekara, who worked on it for 15 long years. It depicts not only the birth of Christ – almost 300 figures portray the history of the Slovak nation and scenes from the life of the Slovak people.</p>"
+        }
+      },
       "url": "/unikatny-dreveny-betlehem-v-rajeckej-lesnej/",
       "urlAliasy": []
     },
@@ -5242,6 +5781,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/gejzir-v-rajeckej-lesnej/",
         "pl": "https://www.qrlink.sk/new/pl/gejzir-v-rajeckej-lesnej/",
         "hu": "https://www.qrlink.sk/new/hu/gejzir-v-rajeckej-lesnej/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Geyser in Rajecká Lesná",
+          "text": "<p>It is an attraction for many tourists. It is about 10 m high and is most interesting in winter, when it forms a huge cone of ice.</p>"
+        }
       },
       "url": "/gejzir-v-rajeckej-lesnej/",
       "urlAliasy": []
@@ -5715,6 +6260,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/doc-ing-julius-binder-dr-h-c/",
         "hu": "https://www.qrlink.sk/new/hu/castles/doc-ing-julius-binder-dr-h-c/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Doc. Ing. Július Binder, Dr.h.c.",
+          "text": "<p><strong>We remember with respect Dr. h. c. doc. Ing. Július Binder, CSc.</strong></p>\n<p>He was born in Bernolákovo and would have turned 90 on 12 September.</p>\n<p>After graduating in hydraulic engineering structures from the Faculty of Civil Engineering of what was then the Slovak Technical College (SVŠT), today the Slovak University of Technology (STU) in Bratislava, he worked from 1955 to 1991 at Hydroconsult Bratislava (originally Hydroprojekt), first as a designer and later as production deputy and chief engineer of the company. His professional work focused mainly on the hydraulics of open watercourses, river training, water balance in river basins, road construction, water supply, protection of groundwater against pollution, wastewater treatment, special problems in the reconstruction of heating plants, waterways, water transport and special foundation engineering. He took part in designing water management works and hydraulic structures. He played a decisive role in solving the protection of groundwater on Žitný ostrov against petroleum products. He was chief project engineer of the wastewater treatment plant at Slovnaft in Bratislava, took part in the design of the wastewater treatment plant of the Nováky Chemical Works and in the remediation of the hazardous waste landfill at Chemko Strážske.</p>\n<p>Alongside his design work he taught for twenty years at the Secondary Technical School of Civil Engineering in Bratislava and taught agricultural land improvement at the Secondary Agricultural School. Later he lectured externally at SVŠT. He also lectured on environmental topics at foreign universities and scientific societies in almost every European country, as well as in the USA, Canada, Mexico, Venezuela, South Africa, China and Japan. His lectures also focused on the history of the construction of the Gabčíkovo – Nagymaros Waterworks System (SVD G-N) and explained the approach of the Slovak Republic in implementing Variant “C”. He emphasised that the aim of the system was equally flood protection, improved navigation on the shared section of the Danube and ecological electricity generation, and also a sustainable improvement of environmental conditions in the Danube&#39;s system of branches and the support of recreational, sports and cultural use in the area of the Čunovo reservoir.</p>\n<p>From 1986 he was a member of the so-called Joint Operational Group of Government Plenipotentiaries, which carried out extensive activities, including operational management and coordination of work on the construction of the SVD G-N and the preparation of background materials for negotiations of the government plenipotentiaries and their Joint Advisory Board. From 1991 he was director of Vodohospodárska výstavba (Water Management Construction).</p>\n<p>The culmination of Július Binder&#39;s professional career is connected with the design and construction of the Gabčíkovo – Nagymaros Waterworks System and, from 1990, above all with pushing through and implementing the alternative Variant “C”. This no longer counted on the participation of Hungary, which had finally withdrawn from the project in 1989. The key moment was damming the natural bed of the Danube on Slovak territory. The start of work on 24 October 1992 at 9:05 a.m. effectively put the Gabčíkovo Waterworks into operation. Later, in its judgment of 25 September 1997, the International Court of Justice in The Hague confirmed the validity of the 1977 international treaty and declared the construction of the alternative solution (Variant C) justified.</p>\n<p>His work at the state enterprise Vodohospodárska výstavba is connected not only with the completion of the Gabčíkovo Waterworks System and its financing, but also with the construction of the “Divoká voda” water sports centre and the “Danubiana” modern art gallery. The promotion and construction of the Málinec (1989 – 1993) and Turček (1993 – 1996) water supply reservoirs, and above all of the Žilina Waterworks (1994 – 1998), are to a large extent also his work. He served as director general of the state enterprise Vodohospodárska výstavba until 1998.</p>\n<p>He published several professional books. He is the author of several patents and improvement proposals and received numerous awards and honours, notably the Order of Ľudovít Štúr, 1st Class (1995), the Golden Double Cross for services to national culture (1996), the Award for Saving the Cultural Heritage and Development of the Town of Banská Štiavnica (1997) and the Štefan Moyzes Prize for contributions to national life from the Matica slovenská Foundation (1998). In 1995 the Scientific Board of STU in Bratislava awarded him the title Doctor honoris causa, and in 1997 he completed his habilitation at the Faculty of Civil Engineering of the University of Žilina and was appointed associate professor.</p>\n<p>On 26 October 2004 Pope John Paul II awarded Július Binder, for his witness as a believing Catholic layman and for his life&#39;s work, the highest church distinction for a layperson – the Knighthood of the Order of St. Gregory the Great.</p>\n<p>Dr. h. c. doc. Ing. Július Binder, CSc. died on 26 July 2021. Honour to his memory.</p>"
+        }
+      },
       "url": "/castles/doc-ing-julius-binder-dr-h-c/",
       "urlAliasy": []
     },
@@ -5738,6 +6289,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/gabcikov-sad/",
         "hu": "https://www.qrlink.sk/new/hu/castles/gabcikov-sad/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Gabčík's Orchard",
+          "text": "<p>Major General <strong>Jozef G A B Č Í K</strong> (* 8 April 1912, Poluvsie – † 18 June 1942, Prague)</p>\n<p>The youngest of four children in the family of Ferdinand and Mária Gabčík. After finishing primary school in Rajecké Teplice he went to Bohemia, where he trained as a locksmith. He began his compulsory service in the Czechoslovak army on 1 October 1932 in the 14th Infantry Regiment in Košice, during which he completed the non-commissioned officers&#39; school in Prešov. Afterwards he continued in voluntary service until the end of March 1937, when his commitment expired. At his father&#39;s insistence he did not extend it; until December 1938 he worked in Military Factory No. 4 producing combat gases in Žilina, where he inhaled dangerous gases in an accident. He was then transferred to the chemical warfare agents depot in Skalka nad Váhom. When the depots threatened to fall into German hands, he carried out an act of sabotage. Because of the risk of arrest he crossed the Slovak-Polish border and in Kraków joined the Czechoslovak army that was being formed.</p>\n<p>In July 1940 he sailed to Great Britain and was assigned to the 1st Infantry Battalion of the 1st Czechoslovak Mixed Brigade. For bravery in combat he was awarded the Czechoslovak War Cross 1939. In the summer of 1941 he agreed to be trained for special tasks and completed various special courses. After them, he was one of the first Czechoslovak soldiers to volunteer for special tasks in the occupied homeland.</p>\n<p>With the help of Czech patriots they carried out the assassination of Heydrich on 27 May 1942. At half past ten that day, at a sharp bend in Prague-Libeň, Gabčík received the signal that Heydrich&#39;s convertible was approaching. He jumped into its path, but the submachine gun he had hidden under his coat jammed. His accomplice Jan Kubiš therefore pulled a grenade from his bag and hit the car, and the fragments fatally wounded the Protector. Heydrich died of his injuries in hospital a few days after the attack – on 4 June.</p>\n<p>The German revenge took the form of mass arrests, executions, and the burning and massacre of the villages of Ležáky and Lidice for having helped members of the resistance.</p>\n<p>During the wave of mass reprisals they hid in various places. Their last refuge was the Orthodox Cathedral of Saints Cyril and Methodius in Prague, where, in a hopeless situation, Gabčík took his own life on 18 June 1942.</p>\n<p>In fact, the Slovak Jozef Gabčík together with the Czech Jan Kubiš rid the world of one of the greatest criminals of the 20th century. This act meant a major shift in how the events of the world war were perceived. On the basis of the demonstrable resistance against the fascists in the Protectorate, Britain and France withdrew their signatures from the pre-war Munich Agreement, which after the war allowed Czechoslovakia to be restored within its original borders. At the same time, this heroic act showed the way of resistance to other countries of occupied Europe.</p>\n<p>Jozef Gabčík was only 164 centimetres tall, had grey eyes and often smiled. He was a soldier who wore the uniforms of three armies – the Czechoslovak army of the First Republic, the French Foreign Legion and finally the British army.</p>\n<p>In May 2015, on the 70th anniversary of the end of the Second World War, the then president promoted him to the rank of brigadier general (in memoriam), and on 26 May 2017 to the rank of major general (in memoriam).</p>\n<p>Today streets in Bratislava, Žilina, Rajecké Teplice and in Prague near the site of the assassination are named after him. The Slovak 5th Special Forces Regiment in Žilina also bears his name in its honorary title. In his honour, a running race is called the Jozef Gabčík Memorial.</p>\n<p>The town of Gabčíkovo was renamed in his honour in 1948. The Gabčíkovo Waterworks bears his name too, and since 2024 so does this cherry orchard – Gabčík&#39;s Orchard.</p>"
+        }
+      },
       "url": "/castles/gabcikov-sad/",
       "urlAliasy": []
     },
@@ -5760,6 +6317,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/hmyzi-hotel/",
         "pl": "https://www.qrlink.sk/new/pl/castles/hmyzi-hotel/",
         "hu": "https://www.qrlink.sk/new/hu/castles/hmyzi-hotel/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Insect Hotel",
+          "text": "<p>Insect Hotel</p>\n<p>The state enterprise Vodohospodárska výstavba considers the protection of biodiversity an important aspect of its activities and part of its commitment to continue building and operating waterworks with respect for nature conservation and the sustainable use of water resources. All year round it carries out activities to support and restore biodiversity – for example, it continuously supplies water to the left-bank branch system of the Danube. It also carries out projects to rehabilitate local wetlands and to reconstruct weirs for better water distribution and better conditions for animals and plants.</p>\n<p>A responsible approach and support for biodiversity</p>\n<p>The unique insect hotel in the shape of the waterworks&#39; Kaplan turbine also contributes to improving the environment and biodiversity. It provides shelter for pollinators, which are irreplaceable for agricultural production, since most crops depend on them.</p>\n<p>More than 600 different species live in Slovakia, and they are an important part of ecosystems. Their most important role is pollinating plants. In the temperate zone of Europe almost 78 % of the flora relies on this relationship between plants and animals. Even more than 75 % of crops depend on pollination by insects.</p>\n<p>This insect hotel was made of birch and spruce wood as a faithful replica of a Kaplan turbine. Interestingly, the Gabčíkovo hydroelectric power plant has a total of eight Kaplan turbines, each with an output of 90 MW, producing up to 720 MW together. The Gabčíkovo Waterworks produces electricity amounting to about ten per cent of Slovakia&#39;s total annual consumption, from a clean renewable source – without producing greenhouse gases, without the need to import fossil fuels and without producing ash.</p>\n<p>The aim of this project is to highlight the importance of protecting biodiversity and to raise public awareness of it, and the company&#39;s goal is to make effective use of the potential for producing clean electricity, to create reserves of drinking water, to improve the environment around watercourses and to ensure the resilience of the landscape and a sustainable future for the next generations.</p>\n<p>Benefits of the waterworks for the environment</p>\n<p>Vodohospodárska výstavba monitors the environment in the areas affected by the waterworks system every year. Thanks to the waterworks, for example, soil erosion has stopped and conditions for farmers and for many animal species and forest game have improved. The drying out of forests has been prevented and the capacity of groundwater reserves has increased. Last but not least, the construction of the waterworks has provided flood protection for the Danubian Lowland.</p>"
+        }
       },
       "url": "/castles/hmyzi-hotel/",
       "urlAliasy": []
@@ -5788,6 +6351,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/vcela-samotarka/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/vcela-samotarka/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Solitary Bee",
+          "text": "<p>Unlike honey bees, solitary bees do not live in advanced colonies but lead a solitary life. More than 600 species of these bees live in Slovakia, and they are an irreplaceable part of natural ecosystems. Their main role is pollinating plants – in the temperate zone of Europe about 78 % of plant species depend on this process. Moreover, more than three quarters of agricultural crops depend on pollination by insects. The bees themselves, of course, are not aware of how important their contribution is to the functioning of the plant world.</p>\n<p>In recent years, however, we hear more and more often about a significant decline in insect populations across Europe. The long-term consequences of this are still hard to predict. For solitary bees, the greatest threats are the loss of natural habitat and the intensive use of chemicals in the landscape. While they once could move freely through the countryside, today various artificial barriers stand in their way. In the effort to maximise yields, copses, avenues, natural meadows, wetlands and meandering streams have disappeared from the landscape.</p>\n<p>As a result of these changes, some insects die of exhaustion while searching for food and shelter, and the isolation of individual populations leads to their genetic weakening. Interestingly, urban and suburban gardens can have a positive effect on solitary bees. Thanks to the variety of plants and the smaller scale of gardens, they provide enough food and nesting sites. Compared with vast agricultural monocultures, these settlements are a kind of refuge for life.</p>\n<p>Solitary bees pose no threat to people, even though they have a sting. They are peaceful and sting only in exceptional cases, for example when they are squeezed hard. That is also why they are ideal for nature lovers to observe. Farmers who work in harmony with nature can get feedback on the quality of their approach from the presence of these bees. To thrive, solitary bees also need suitable nesting conditions – most often they dig burrows in the soil, but they also like cavities in dead wood, cracks in masonry or hollow plant stems.</p>\n<p>Source: <a href=\"https://cs.wikipedia.org/wiki/V%C4%8Dely_samot%C3%A1%C5%99ky\">Wikipedia</a></p>"
+        }
+      },
       "url": "/environmental-upbringing-and-education/vcela-samotarka/",
       "urlAliasy": []
     },
@@ -5814,6 +6383,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/cmel/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/cmel/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/cmel/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Bumblebee",
+          "text": "<h2>Bumblebee – Lat. <em>Bombus</em></h2>\n<p>The bumblebee is a genus of flying insects belonging to the bee family (Apidae). Like its relatives the honey bees, it feeds on nectar and pollen, which it collects not only for itself but also to feed its larvae. Most bumblebees are peaceful by nature and live in colonies. They typically have a robust body with dense bristly hair, mostly black and yellow, although orange, red or completely black forms also occur. Some species have a white-tipped abdomen.</p>\n<p>Unlike honey bees, bumblebees do not overwinter in colonies and do not store honey, so they are not kept for honey production. Queens and workers can sting repeatedly, because their stings have no barbs.</p>\n<p>Bumblebees play an important role in pollinating plants, not only in the wild but also in agriculture. Thanks to their dense hair, on which they collect large amounts of pollen, and their intense buzzing while visiting flowers, they are more effective at pollinating even complex inflorescences. They have proved very useful, for example, in growing tomatoes in greenhouses. In many developed countries, however, this insect faces a decline in numbers due to excessive use of pesticides and is among the endangered species.</p>\n<p><em>Source: <a href=\"https://sk.wikipedia.org/wiki/%C4%8Cme%C4%BE\">Wikipedia</a></em></p>"
+        }
       },
       "url": "/environmental-upbringing-and-education/cmel/",
       "urlAliasy": []
@@ -5842,6 +6417,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/zlatoocka-obycajna/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/zlatoocka-obycajna/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Common Green Lacewing",
+          "text": "<p>The common green lacewing (Lat. Chrysopa) belongs to the order of net-winged insects (Neuroptera). It is a small insect with a body length of about 6 to 10 mm. Its body is slender, and its wings are transparent and membranous, with prominent veining and a wingspan of 2 to 3 cm. The lacewing has a small head with large, bulging eyes and long antennae. Its colouring ranges from brownish through speckled to a striking green.</p>\n<p>Lacewing larvae reach 7 to 10 mm. They have a flattened head, prominent mandibles and three pairs of legs. They are most often brown, grey or greenish-brown and resemble ladybird larvae. In Slovakia the species we most often meet is the common green lacewing – Chrysopa carnea. Lacewings are predators – they feed on harmful insects such as aphids, fly larvae, small caterpillars, scale insects, mites, leaf miners and even the eggs of other insects. During its development one larva can eat 200 to 500 aphids, or 30 to 50 mites in a single hour.</p>\n<p>An adult female can lay up to 20 eggs a day and produces as many as 800 during her life. The larva usually develops in 8 to 20 days. Before turning into an adult, the larva pupates directly on the plant. It overwinters hidden under tree bark or in various cracks in buildings. To encourage lacewings in gardens, it is important to avoid chemical sprays, especially those containing acaricides – substances harmful mainly to mites but also to beneficial insects such as lacewings.</p>\n<p><em>Source: <a href=\"https://cs.wikipedia.org/wiki/Zlatoo%C4%8Dka_obecn%C3%A1\">Wikipedia</a></em></p>"
+        }
+      },
       "url": "/environmental-upbringing-and-education/zlatoocka-obycajna/",
       "urlAliasy": []
     },
@@ -5868,6 +6449,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/lienka-sedembodkova/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/lienka-sedembodkova/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/lienka-sedembodkova/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Seven-Spot Ladybird",
+          "text": "<h2>Seven-Spot Ladybird (Lat. <em>Coccinella septempunctata</em>)</h2>\n<p>The seven-spot ladybird (Coccinella septempunctata) is one of the best-known and most widespread species of ladybird in Slovakia and in the world. It belongs to the order of beetles (Coleoptera) and is a member of the ladybird family (Coccinellidae). This species is considered a beneficial insect because it feeds on aphids and other pests, playing an important role in the biological protection of plants.</p>\n<p>An adult ladybird grows to 5 to 8 mm and has six legs. Its typical feature is its orange-red colouring with seven characteristic black spots – six placed symmetrically on the sides of the wing cases and the seventh in the middle, near where the wings meet. Other identifying features are two white patches on the thorax and pale areas between the eyes on the head. Ladybirds also have short antennae, which they use to sense smells and find their way around. Unlike some other species of ladybird, the appearance of the seven-spot ladybird is fairly uniform – only rarely do individuals differ in the number of spots or the colour of the wing cases.</p>\n<p>During its life the ladybird changes its preferred habitat. The larvae develop near the ground, hidden among herbs. On reaching adulthood they move higher up, for example onto shrubs, where they continue to feed and prepare for winter. They can overwinter in tree bark, in cracks in buildings or in the soil. In spring they return to places suitable for laying eggs – the lower layers of vegetation, where their larvae have both shelter and food.</p>\n<p>Although the seven-spot ladybird feeds mostly on aphids, it can adapt to other food – such as pollen or fungal spores – if its main source is not available. When food is scarce, it actively moves to new areas. Its development and activity are influenced by the weather – in warmer conditions its life cycle speeds up.</p>\n<p><em>Source: <a href=\"https://sk.wikipedia.org/wiki/Lienka_sedembodkov%C3%A1\">Wikipedia</a></em></p>"
+        }
       },
       "url": "/environmental-upbringing-and-education/lienka-sedembodkova/",
       "urlAliasy": []
@@ -5899,6 +6486,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/cesticka-na-hrad/",
         "hu": "https://www.qrlink.sk/new/hu/castles/cesticka-na-hrad/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The Path to the Castle",
+          "text": "<h2>The Path of the Castle Lady Žofia</h2>\n<p>The path is short, but steep and demanding, with a surprise at the end – just like the road to heaven. Lady Žofia often walked down these 151 steps to visit her subjects and bring them her bread of comfort. Little Adam and Laco, in turn, ran down this path to meet their father – the lord of the castle – to welcome him before the castle gate opened. The path will lead you to a clearing where time has stood still: a medieval settlement with the cottages of a herbalist, a baker and a fisherman, and of course a shelter for pilgrims.</p>\n<h2>The Road of the Castle Lord František</h2>\n<p>Returning from military campaigns, the lord of the castle used to take this wide and comfortable lord&#39;s road. Often tired and exhausted, but happy that he would once again see his beloved Žofia and his boys Adam and Laco. The boys always waited impatiently for their beloved father to come home and stay at least for a while. They watched for him from the castle tower so they could spot him from afar and run down the steps in time. They climbed onto their father&#39;s steed and were welcomed at the castle in glory.</p>"
+        }
+      },
       "url": "/castles/cesticka-na-hrad/",
       "urlAliasy": []
     },
@@ -5928,6 +6521,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/vstup-na-hrad/",
         "pl": "https://www.qrlink.sk/new/pl/castles/vstup-na-hrad/",
         "hu": "https://www.qrlink.sk/new/hu/castles/vstup-na-hrad/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Entrance to the Castle",
+          "text": "<h2><strong>Crossroads</strong></h2>\n<p>Here the two paths meet, just as the lord of the castle František meets Lady Žofia, and they go together hand in hand to Strečno Castle, where the servants welcome them.</p>\n<h2>The History of Castles in Slovakia</h2>\n<p>The 11th and 12th centuries were a time when it was important to protect the border areas from enemy attacks. Besides guard service, a system of castles along the most important routes also served this purpose. The greatest boom in the construction of stone castles in Slovakia, however, began only in the middle of the 13th century (immediately after the Tatar invasion). New buildings were constructed either on the sites of the original wooden castles or near them. During the 14th – 15th centuries, originally royal properties passed into the hands of the nobility, either as security for loans or as rewards for extraordinary services to the king. The nobility sometimes invested in rebuilding them and turned old castles into luxurious palaces. Only the Turkish raids of the 16th century required the construction of new fortifications. From the last third of the 17th century, however, the system of medieval castles gradually began to lose its military and strategic importance, and during the 18th century noble families moved from their castle estates to manor houses. It was in this period that many castles were demolished or burned, and others quickly fell into disrepair after their inhabitants moved out.</p>"
+        }
       },
       "url": "/castles/vstup-na-hrad/",
       "urlAliasy": []
@@ -5960,6 +6559,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/expozicia-archeologie/",
         "hu": "https://www.qrlink.sk/new/hu/castles/expozicia-archeologie/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Archaeology Exhibition",
+          "text": "<p>This room houses the archaeological exhibition. In the display cases you can see archaeological finds from prehistoric times to the Middle Ages, discovered during archaeological research in Strečno and the surrounding villages (Varín, Rosina, Krasňany, Gbeľany).</p>\n<p><img src=\"/assets/images/migrated/strecno-mapka_3.jpg\" alt=\"\"></p>"
+        }
+      },
       "url": "/castles/expozicia-archeologie/",
       "urlAliasy": []
     },
@@ -5988,6 +6593,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/prve-podlazie-juzneho-palaca/",
         "hu": "https://www.qrlink.sk/new/hu/castles/prve-podlazie-juzneho-palaca/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "First Floor of the Southern Palace",
+          "text": "<p>The first written mention of Strečno as a province dates from 1316. At that time the whole Žilina basin was ruled by Matthew Csák of Trenčín, and after his death his property was taken over by the Hungarian king Charles Robert. As a stone castle, “comitatus castri Strychen”, Strečno is mentioned in a charter of 1384. The castle was built on a high limestone crag (about 100 m) above the Váh river. This exceptional location allowed strict control of anyone who wanted to pass through the Váh valley. That is why the castle was used to guard the toll station at the ford across the river. Until the end of the 14th century the castle was royal property. In the following period it changed owners several times; among them were the first Polish nobleman Sudivoj of Ostroróg, the former Hussite captain Jan Čapek of Sány, Pongrác of Liptovský Mikuláš and Pavol Kiniži (who also owned Lietava Castle). Pavol Kiniži&#39;s widow Benigna sold the castle to the Zápolya family. The castle then passed to Mikuláš Kostka, after whom it was owned by the Deršfi family. The best-known owners were František Wesselényi and his wife Žofia Bosniaková, who owned the castle in the 17th century. At first the castle was small (22 x 18 m). It consisted of a residential building, a cistern and a five-storey prismatic tower, the so-called bergfried. On the southern side the approach to the castle was protected by a moat cut into the castle rock, over which a bridge led to the main gate. In the 16th century the castle was considerably extended and rebuilt. It had to be fortified to become a safe refuge and also made more comfortable for the needs of the nobility. The castle thus gradually grew by a northern palace ending in a chapel and a southern palace with 2 residential wings. On the western side an outer bailey was built with a northern tower and a new main gate with a barbican. On the eastern side a two-storey palace was built and the walls were moved right to the edge of the rock face above the river. In the 17th century three artillery bastions were built and two new outer baileys with gates were added on the southern side. At this time the castle reached its greatest extent – 165 x 61 m – and became the best-fortified castle in the central Váh valley. You can see a model of the castle at its greatest extent in the display case. In the second half of the 17th century the castle went through several dramatic events. Its then owner, František Wesselényi, died and his son Ladislav inherited the property. However, he had to give up his estates in Hungary because it was discovered that his father had been preparing an uprising against the emperor. After the confiscation, Thököly&#39;s soldiers, fighting in the anti-Habsburg uprising, settled in the castle. Emperor Leopold I therefore ordered the castle to be destroyed for good. The fortifications and roofs were demolished, and the well and the castle cistern were filled in. From the end of the 17th century the castle fell into decay. In 1970 it was declared a National Cultural Monument. It was then reconstructed (1978 – 1994), and in 1995 it was opened to the public as a reconstructed ruin. The second model of the castle shows the state of the ruin before reconstruction (1930s).</p>\n<p><img src=\"/assets/images/migrated/4a-model-hradu-20-storocie.jpg\" alt=\"\"></p>\n<p>Today this room houses an exhibition of period postcards of Strečno Castle and the nearby Old Castle, as well as photographs of Strečno today.</p>"
+        }
+      },
       "url": "/castles/prve-podlazie-juzneho-palaca/",
       "urlAliasy": []
     },
@@ -6014,6 +6625,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/prizemie-juzneho-palaca-kuchyna/",
         "pl": "https://www.qrlink.sk/new/pl/castles/prizemie-juzneho-palaca-kuchyna/",
         "hu": "https://www.qrlink.sk/new/hu/castles/prizemie-juzneho-palaca-kuchyna/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Ground Floor of the Southern Palace – Kitchen",
+          "text": "<p>This room represents the castle kitchen. The centre of the kitchen was an open hearth used for cooking. In the middle of the wall there is a flue that carried the smoke away. On both sides of the flue you can see part of a door portal and a window frame. You can also notice a medieval quern for grinding flour, a butter churn, vessels for storing oil and wine, and other kitchen utensils and vessels for preparing food or storing ingredients. Similar vessels and utensils are also displayed in the cases. The main components of the medieval diet were unleavened bread and various porridges, but also meat with herbs that grew near the dwellings. People also ate a lot of fruit and vegetables. For inspiration, you can read 2 recipes from a medieval cookbook on the panel.</p>"
+        }
       },
       "url": "/castles/prizemie-juzneho-palaca-kuchyna/",
       "urlAliasy": []
@@ -6042,6 +6659,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/juzne-nadvorie/",
         "hu": "https://www.qrlink.sk/new/hu/castles/juzne-nadvorie/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Southern Courtyard",
+          "text": "<p>Where the southern courtyard is today, there was originally a moat that protected access to the tower. Later a courtyard was built in its place, which had another storey and also a roof.</p>"
+        }
+      },
       "url": "/castles/juzne-nadvorie/",
       "urlAliasy": []
     },
@@ -6068,6 +6691,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/cisterna/",
         "pl": "https://www.qrlink.sk/new/pl/castles/cisterna/",
         "hu": "https://www.qrlink.sk/new/hu/castles/cisterna/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Cistern",
+          "text": "<p>The cistern was used to collect rainwater from the castle roofs. The water reached it through rain gutters. The cistern is 3.5 m deep and 2.6 m in diameter. The bottom five courses of the lining are original, the other 3 courses have been reconstructed. When in use, the bottom and walls of the cistern were coated with clay to prevent water from seeping into the limestone bedrock. The water from the cistern was not drinkable – it was only for utility use.</p>"
+        }
       },
       "url": "/castles/cisterna/",
       "urlAliasy": []
@@ -6096,6 +6725,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/vstup-do-hlavnej-veze/",
         "pl": "https://www.qrlink.sk/new/pl/castles/vstup-do-hlavnej-veze/",
         "hu": "https://www.qrlink.sk/new/hu/castles/vstup-do-hlavnej-veze/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Entrance to the Main Tower",
+          "text": "<p>On the ground floor, at the entrance to the tower, there is an 8 m deep opening. When the castle was in use, this room served as a cold store or food store. As the room has no other access than the opening at the top, in practice a servant would lower himself inside on a rope and bring up the required supplies. In the past there were no stairs in the tower. Originally there were wooden ladders leading to each of the tower&#39;s five floors. Even the tower itself was first entered only from the 2nd floor, via a ladder placed against it, to make it harder for enemies to get inside.</p>\n<p><img src=\"/assets/images/migrated/8-vstup-do-veze1.jpg\" alt=\"\"></p>"
+        }
       },
       "url": "/castles/vstup-do-hlavnej-veze/",
       "urlAliasy": []
@@ -6126,6 +6761,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/hlavna-veza-vyhlad/",
         "hu": "https://www.qrlink.sk/new/hu/castles/hlavna-veza-vyhlad/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Main Tower – View",
+          "text": "<p>The main castle tower is the highest point of the castle. We are now 148 metres above the Váh river. In the past the tower had a defensive function and was used to watch over the surroundings. To the west you can see Zvonica hill, where the Memorial to the French Partisans stands. French partisans fought around Strečno during the Slovak National Uprising. Many of them fell here, and this memorial was built in their honour (the remains of 24 partisans lie in the crypt). To the north-west you can see the village of Varín. More than 300 years ago the most famous Slovak outlaw, Juraj Jánošík, a native of nearby Terchová, was baptised in the local church (Terchová is about 14 km from Varín). To the north-east lies the Old Castle (it cannot be seen from here), originally called Varín Castle. It was built in the 13th century on the right bank of the Váh. The main road of the Váh valley to Turiec and Liptov ran past it, crossing from the right bank of the river to the left by a ford near the castle. At the turn of the 13th and 14th centuries a road began to be built on the left bank of the Váh, so Varín Castle ended up away from the important trade route. Its role was then taken over by the newly built Strečno Castle. Varín Castle lost its importance, as shown by its renaming to the Old Castle. Today it is only a ruin.</p>\n<p><img src=\"/assets/images/migrated/img_20200624_150338.jpg\" alt=\"\"></p>\n<h2>Beautiful Marienka (a legend)</h2>\n<p>The neighbours from the Old Castle and Strečno fell in love almost at the same time with beautiful Marienka from the village below Strečno Castle. Although the lord of Strečno forcibly led the bride to the altar, Marienka loved the noble Milko – the lord of the Old Castle. The lord of Strečno knew this, so, to be sure, he treacherously murdered his rival. Marienka then fled the cursed Strečno Castle and secretly visited Milko&#39;s grave near the Váh at night. The lord of Strečno found out and waited for Marienka on the bank of the Váh to beg her forgiveness. But a knight in armour came, and the lord, thinking he had come to avenge Milko&#39;s death, cut off the knight&#39;s head with his sword. When the head rolled up to him, he found that he had in fact killed his wife Marienka. The next day the lord of Strečno was also found dead by Milko&#39;s grave. He had been killed by lightning during the storm that broke out after this great tragedy.</p>"
+        }
+      },
       "url": "/castles/hlavna-veza-vyhlad/",
       "urlAliasy": []
     },
@@ -6153,6 +6794,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/goticky-a-vychodny-palac/",
         "hu": "https://www.qrlink.sk/new/hu/castles/goticky-a-vychodny-palac/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Gothic and Eastern Palace",
+          "text": "<p>Of the original Gothic palace discovered during archaeological research, only part of the basement with the original door portal has survived. Today you can see a display of a torture chamber inside.</p>\n<p>In the past the torture chamber was probably not located here, because the upper castle, above the tower, was reserved for the lords, while the lower castle, below the tower, was for the servants. The outer wall of the eastern palace is one of the best-preserved original walls of the castle, as the other walls have been extensively reinforced. The wall has even kept its original window openings.</p>"
+        }
+      },
       "url": "/castles/goticky-a-vychodny-palac/",
       "urlAliasy": []
     },
@@ -6179,6 +6826,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/severny-palac/",
         "pl": "https://www.qrlink.sk/new/pl/castles/severny-palac/",
         "hu": "https://www.qrlink.sk/new/hu/castles/severny-palac/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Northern Palace",
+          "text": "<p>The northern palace originally had 2 storeys – this can be seen from the holes in the walls, which held beams supporting the next floor. The opening in the upper corner is the inner part of a so-called garderobe – a medieval toilet. On the outside of the palace it has been partially reconstructed; originally only the supporting corbels survived. The toilet itself worked as a latrine, with the waste falling down the wall below the castle. A similar garderobe was also on the outer wall of the eastern palace.</p>"
+        }
       },
       "url": "/castles/severny-palac/",
       "urlAliasy": []
@@ -6210,6 +6863,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/kaplnka/",
         "hu": "https://www.qrlink.sk/new/hu/castles/kaplnka/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Chapel",
+          "text": "<p>In the chapel you can see a Gothic star vault, which was reconstructed according to the original ribs – they were found collapsed in the chapel and in the castle well. Above the gallery on which we are standing there was originally another gallery, accessed from the second floor of the northern palace. In the floor of the chapel there is an uncovered crypt where the body of Žofia Bosniaková, who died in 1644 at the age of 34, was laid. In 1689 her body was found here by imperial troops who were destroying the castle on the emperor&#39;s orders. Even 45 years after her death her body was almost intact. As the castle was already a ruin by then, Žofia&#39;s body was soon moved to the church in nearby Teplička nad Váhom, where it was placed in a glass coffin and people came to admire it. However, in 2009 a mentally ill man carried the coffin with Žofia&#39;s body outside, set it on fire and so destroyed a very precious cultural heritage. Today, in her honour, our crypt holds a replica of her body made by the academic painter Stano Lajda. Žofia Bosniaková is the most important personality in the history of our castle. People loved her very much, because she was kind, modest, good-hearted and never refused any request for help. Together with her husband she founded a shelter for the poor, the sick, orphans and strangers. Because of her good deeds and her intact body found in our crypt, Žofia is regarded as a saint and is known as the Saint of Strečno. In 1997 the process of her beatification even began (for lack of archival evidence that miracles occurred around her, she has not yet been beatified). There are several tales and legends about Žofia. One of the best known says that in times of the greatest poverty Žofia Bosniaková gave the poor small loaves of bread for free, which were named bosniaky after her. Bosniaky are still known around Strečno and Žilina today.</p>\n<h2>Sacristy</h2>\n<p>The display cases contain stone fragments found in the castle well during the cleaning work (1988 – 1992). The first case probably holds parts of a door portal, part of the decoration above the castle entrance, or a gravestone with the name Wesselényi.</p>\n<h2>Legends about Žofia Bosniaková</h2>\n<p><img src=\"/assets/images/migrated/12a-zofia-bosniakova.jpg\" alt=\"\"></p>\n<p>Žofia&#39;s marriage to František Wesselényi was very happy at first. Over time, as František often went to Fiľakovo Castle (he was its captain), he fell in love with another woman – the so-called Venus of Muráň from Muráň Castle, Mária Széchy. Žofia suffered greatly from his neglect and is said to have gone every day to a chapel in the rocks to pray for his love to return. Once František found her there praying to the Virgin Mary; he begged her forgiveness and swore eternal love to her. But when Žofia died, František Wesselényi soon remarried – and his new wife was none other than Mária Széchy.</p>\n<h2>Restoration of the Chapel</h2>\n<p>Before the restoration the chapel walls were covered with cement plaster; in the upper part they had been built up to their original height and covered with a new reinforced-concrete reconstruction vault. The walls were painted white and the vault ribs brick red, which was probably also the original basic medieval colour scheme of the chapel. As the plaster was missing on the outside, rain caused increased moisture and mould inside. Research showed that the original medieval plasters had survived under the cement plaster. The restoration itself began with the complete removal of the cement plaster, which cleaned the walls down to the original stone masonry, with partially preserved original medieval plaster in the lower part of the walls. The masonry and plaster were then consolidated in depth. After full consolidation and conservation, the preserved parts of the plaster were supplemented. The wooden scaffolding logs from the construction of the chapel, of which only holes to the outside remained, were also replaced in the walls. Finally, the colours of the chapel were unified, so that the striking late 20th-century vault would not look disruptive or attract more attention than the original medieval plaster.</p>"
+        }
+      },
       "url": "/castles/kaplnka/",
       "urlAliasy": []
     },
@@ -6238,6 +6897,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/severna-veza/",
         "hu": "https://www.qrlink.sk/new/hu/castles/severna-veza/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Northern Tower",
+          "text": "<p>On the ground floor of the northern tower there are still the original loopholes and a reconstructed open hearth, above which there is an imitation chimney. At the corner of the chapel you can see a space that was broken out later, where a spiral staircase led to the next floor of the tower. During the reconstruction a window was also restored – originally it was a door leading to the chapel&#39;s second gallery.</p>\n<h2>Northern Tower – View</h2>\n<p>The northern tower offers a view of the castle itself and its immediate surroundings. The castle rises majestically on an impregnable crag, as if guarding places shrouded in mystery. Raftsmen could tell you what we mean – they always sail beneath the castle with bated breath and are grateful when Margita and Besná let them pass in peace. Two rocks with women&#39;s names, jutting out of the water like tombstones, recall a sad event that happened here long ago.</p>\n<h2>Margita and Besná (a legend)</h2>\n<p>These two rocks are linked to the legend of a rich widowed farmer who married a young woman for the second time. He also had a beautiful daughter, Margita, whom her stepmother hated for her beauty and for her love of a young man with whom the stepmother had also fallen in love. As the young man rejected her, she thought only of how to take revenge on Margita. Once she secretly hurried after her and caught up with her just as she was passing a rock above the Váh, and at that spot she pushed her into the river. The waves carried Margita&#39;s body to the rock, which has borne her name ever since. When the truth came out, the stepmother, mad and raging (besná), threw herself into the Váh at the very spot where Margita had drowned. That is why the second rock is called Besná.</p>"
+        }
+      },
       "url": "/castles/severna-veza/",
       "urlAliasy": []
     },
@@ -6264,6 +6929,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/hlavne-nadvorie/",
         "pl": "https://www.qrlink.sk/new/pl/castles/hlavne-nadvorie/",
         "hu": "https://www.qrlink.sk/new/hu/castles/hlavne-nadvorie/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Main Courtyard",
+          "text": "<p>In the main courtyard there is a deep castle well. It is cut into the bedrock to a depth of 88 m, with the water about 1.5 m deep. During the archaeological research the most interesting finds were made in the well. When the castle was destroyed, the well was completely filled with rubbish and parts of architectural elements up to the surface, and before the research nobody even knew it existed. It was cleaned out by cavers from Martin (it took 5 years).</p>\n<h2>The History of Strečno Castle in the 18th – 20th Centuries</h2>\n<p>After the castle was confiscated from Ladislav Wesselényi, the Strečno estate was divided into two parts. One was acquired by Paul Esterházy (lord of Bytča), creating the Bytča-Strečno estate. The other part went to the Löwenburg brothers. In the second half of the 19th century the Esterházys sold the Bytča-Strečno estate to the timber magnate Leopold Popper. At the end of the 19th century the Poppers began selling off their property because of debts, and Strečno was acquired by the merchant Samuel Hahn. The Löwenburg part of the property was split into two – the Teplička and Gbeľany estates, which changed owners several times; the last owners were Countess Iphigénia D&#39;Harcourt and Countess Charlotte Mayláth. The merchant Hahn began to dismantle the castle and sell the stone as building material. Later he began quarrying limestone below the castle. Quarrying continued during the First Czechoslovak Republic (the Varín lime works). Only when Strečno came into the hands of the Czechoslovak Tourist Club was the work leading to the destruction of the castle stopped. During the Second World War the castle was badly damaged, especially when French partisan units fought here. It has been reconstructed since 1978, using stone recovered from the rubble of the castle itself or brought from the Polom quarry. The main gate, the main tower, the southern palace, the northern palace and the chapel were completely reconstructed. The northern tower and the barbican were largely rebuilt, and the eastern palace, the outer bailey wall and the artillery fortifications partially.</p>\n<h4>Dear visitors, this is where our tour of the castle together ends. We hope you enjoyed the virtual tour and that it enriched you not only visually but also spiritually. You were virtually guided by ARDSYSTÉM, with expert commentary from Strečno Castle and music by the ARCUS Early Music Choir.</h4>\n<p><a href=\"https://www.ardsystem.sk/\">https://ardsystem.sk/</a></p>\n<p><a href=\"https://www.pmza.sk/\">https://www.pmza.sk/</a></p>\n<p><a href=\"https://www.zborarcus.sk/\">https://www.zborarcus.sk/</a></p>"
+        }
       },
       "url": "/castles/hlavne-nadvorie/",
       "urlAliasy": []
@@ -6292,6 +6963,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/bytcianski-turzovci-povod-dejiny-rodu-erb/",
         "hu": "https://www.qrlink.sk/new/hu/castles/bytcianski-turzovci-povod-dejiny-rodu-erb/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The Thurzós of Bytča (Origin, Family History, Coat of Arms)",
+          "text": "<p>The Thurzó family, which came from Betlanovce in the Spiš region, was one of the most important noble families of the Kingdom of Hungary from the end of the 15th century to the first quarter of the 17th century. Members of the family lived in Hungary, Poland and in what is now Austria and Germany. In the territory of Slovakia the family was divided into several branches: the Spiš, Banská Bystrica, Trenčín, Bytča-Orava, Bojnice and Šintava branches. Members of the family held leading positions in the administration of the kingdom and owned extensive estates. Several of them studied at leading European universities in Italy, Poland and Germany.</p>\n<p>The founder of the Bytča-Orava branch was František Thurzó, son of Ján (VI) called the Crooked. Members of this branch also derived their predicate “<em>de Bethlenfalva</em>” from the family&#39;s original seat in Spiš. After his studies in Padua, František returned to Hungary at the beginning of 1543. His relative Alexej Thurzó bequeathed to him the bishop&#39;s estates with the castle in Nitra. In April 1544 František became Bishop and High Sheriff (župan) of Nitra and took over the bishop&#39;s estates. He gradually gained high court offices – he became prefect of the Hungarian Chamber, a member of the Lieutenancy Council and, in October 1556, as the only Hungarian nobleman, even president of the Court Chamber. In the spring of the same year he renounced the office of bishop and, in order to preserve the family line, married Barbora Kostková. In these offices he managed to acquire the Orava estate together with its castle. The marriage, however, was childless, and in 1561 his wife died. A year later František married for the second time, to Katarína Zrínska. During this period he bought the Lietava estate and also acquired Hričov Castle and the chateau in Bytča together with the town and estate. In Bytča, between 1571 and 1574, František had the family&#39;s main seat built – a Renaissance chateau, for whose construction he invited Italian masters. The couple had five children from the second marriage; one of them was Juraj, who continued the family line and was born at Lietava Castle on 2 September 1567.</p>\n<p>The oldest reliable source for the Thurzó coat of arms is the seal of Teofil Thurzó from 1493. It shows the well-known divided shield: in the upper field a crowned lion rises, and in the lower field there are three roses. For the Bytča-Orava branch of the Thurzós, an essential stage of development is the comital coat of arms granted to Juraj by Emperor Rudolf II in 1607. It consists of a quartered shield with a small golden inescutcheon in the centre bearing the black imperial eagle. The first and fourth fields of the quartered shield are divided: the upper red part bears a rising, crowned golden lion, and the lower golden half three red roses. In the second and third blue fields there is a silver unicorn with golden armament. The coat of arms has two crests. On the left, blue and silver mantling falls from under a golden crown on an open tournament helmet, and the crest is a silver unicorn with golden armament rising from the crown. On the right, red and gold mantling falls from under a golden crown, and the crest is a golden lion rising from the golden crown. The figures in the coat of arms observe the rule of heraldic courtesy – they face each other.</p>"
+        }
+      },
       "url": "/castles/bytcianski-turzovci-povod-dejiny-rodu-erb/",
       "urlAliasy": []
     },
@@ -6318,6 +6995,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/politicka-a-vojenska-kariera-juraja-turza/",
         "pl": "https://www.qrlink.sk/new/pl/castles/politicka-a-vojenska-kariera-juraja-turza/",
         "hu": "https://www.qrlink.sk/new/hu/castles/politicka-a-vojenska-kariera-juraja-turza/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The Political and Military Career of Juraj Thurzó",
+          "text": "<p>At the age of 17 Juraj Thurzó was sent to be educated at the Vienna court of Archduke Ernest of Austria. Here he received a proper courtly education, especially in military affairs and diplomacy. He also improved his language skills: besides Hungarian and Slovak, he could speak and write Latin and German. In 1585 young Juraj returned home to Bytča to take over the management of his estates.</p>\n<p>Militarily, Juraj Thurzó was involved in the wars against the Turks, especially during the so-called Fifteen Years&#39; War (1590 – 1604). He was personally present at several battles connected with the capture of the castles of Divín, Šomoška, Hajnáčka, Modrý Kameň and Fiľakovo. He also took part in the fighting at Buda, Vác, Esztergom and Székesfehérvár. From 1597 Thurzó&#39;s career was on the rise. In October 1597 he negotiated with the Polish king about anti-Turkish actions in Nové Zámky. A year later we find him as a councillor of Emperor Rudolf II, and in 1599 he became royal cupbearer. For his merits in the wars against the Turks, Archduke Matthias, brother of Rudolf II, nominated him at the Bratislava Diet in 1602 as captain of the Cis-Danubian army and commander of the Nové Zámky fortress. Interestingly, despite his Lutheran faith, Thurzó did not side with the anti-Habsburg uprising of Stephen Bocskai but remained loyal to the Catholic emperor. For his rejection of the uprising, the rebels plundered his estates in north-western Slovakia in 1605, including his main residence in Bytča.</p>\n<p>At the beginning of the 17th century disputes broke out between Archduke Matthias and his brother, Emperor Rudolf II. Juraj Thurzó began to support the more tolerant and far-sighted Matthias, who ascended the Hungarian throne on 16 November 1608 as Matthias II. It was he who, at the election of the Hungarian palatine, pushed for Juraj Thurzó to hold this highest office after the monarch. This happened on 7 December 1609. Thurzó&#39;s seat, Bytča, became the centre of high Hungarian politics, while his envoys in Prague, Vienna, Teschen, Kraków and Transylvania regularly reported to him on events in the surrounding countries. One of his primary tasks was taking care of the border castles, which were essential for the defence of the state against the Turks. On his orders inspections of the castles in the counties of Nitra, Zvolen, Novohrad and Malohont were carried out. He also ensured the regular pay of the castle garrisons to prevent desertion.</p>\n<p>Besides military matters, by virtue of his offices Thurzó also had to deal with some criminal cases. As early as 1600 the Court Chancellery entrusted him with a task connected with the criminal activities of the lord of Lednica, Michal Telekeši, who had attacked wagons carrying valuable gifts intended for the emperor. This act was considered lèse-majesté and high treason. On the orders of Archduke Matthias, Thurzó occupied Lednica Castle and confiscated it for the royal chamber. As palatine, he dealt with a serious case in 1610, when King Matthias commissioned him to investigate the notorious Elizabeth Báthory. Thurzó, however, did not punish her crimes sufficiently, and Báthory ended up imprisoned for life in her own Čachtice Castle.</p>"
+        }
       },
       "url": "/castles/politicka-a-vojenska-kariera-juraja-turza/",
       "urlAliasy": []
@@ -6346,6 +7029,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/juraj-turzo-a-turzovka/",
         "hu": "https://www.qrlink.sk/new/hu/castles/juraj-turzo-a-turzovka/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Juraj Thurzó and Turzovka",
+          "text": "<p>Turzovka is the only settlement in Slovakia that has preserved in its name the memory of this important Hungarian nobleman, holder of the office of palatine, influential politician, hero of the wars against the Turks, humanist scholar and patron of the Lutheran church. His relationship to Turzovka can be seen on three levels: 1. the founding of the village, 2. its naming, 3. the founding of the parish. Thurzó founded the village to protect his own property interests and territory against Wallachian settlers pushing in from the neighbouring Budatín estate, and also to settle the until then little-used areas in the upper basin of the Kysuca. Turzovka certainly came into being with his knowledge and consent in 1598, on the site of the older Dlhé Pole settlement of Predmier and the locality of Markove lúky. Four years later, on 21 February 1602, Thurzó issued a charter to the newly founded village, its locator and hereditary mayor Adam Bonec, in which he set out the basic conditions for the settlers and defined their land. It was a large territory on which several villages now lie – Makov, Vysoká nad Kysucou, Olešná, Klokočov, Korňa and Turzovka itself.</p>\n<p>The newly founded village was named after its founder – <em>Turzova</em>, in Hungarian and Latin <em>Turzofalva</em> or <em>Turzowafalva</em> (Thurzó&#39;s village). Until the middle of the 18th century the names Turzovka, Predmier and sometimes Kysuca or Nižná Kysuca were used in parallel. Before Turzovka was founded, there was no independent village in the Kysuce part of the Bytča estate. Turzovka was thus the first Kysuce locality on Thurzó&#39;s estate, which is probably why it was named Thurzó&#39;s village (<em>Turzofalva</em>), shortened to <em>Turzova</em> and later <em>Turzovka</em>. The name arose quite spontaneously and naturally from the overall development of settlement on the estate. As mentioned, it was not only the first village in Upper Kysuce but also a border village of the Bytča estate. That is why it was named after Thurzó, so that there could be no doubt it was Thurzó&#39;s property, Thurzó&#39;s village. The new name <em>Turzova</em>/<em>Turzovka</em> prevailed over the older, original name of the locality, Predmier.</p>\n<p>In 1615 Juraj Thurzó founded a parish in the new village by appointing a Lutheran pastor. While Thurzó played no active role in the naming, in religious life he was perhaps most engaged on behalf of his village. Already in the 1602 charter he explicitly stated that the locator and the local inhabitants should build a church and a parish house in the village. This happened in 1614, when they built the first wooden church, and the lord of the manor gave them a bell for it, probably cast in the bell foundry in Dolný Kubín. The bell has survived to this day and is now part of the collections of the Town Museum in Turzovka. Thurzó also provided a spiritual administrator, and with his arrival a new parish – at that time Lutheran – was established de facto and de jure. Until about the end of April 1615 Turzovka belonged as a branch village to the parish in Hričov. At the beginning of May Thurzó appointed the Lutheran priest Michal Orlandi Carbonarius (Uhliar) to Turzovka. From 1673 the Catholic parish smoothly continued the work of the Lutheran parish.</p>"
+        }
+      },
       "url": "/castles/juraj-turzo-a-turzovka/",
       "urlAliasy": []
     },
@@ -6372,6 +7061,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/juraj-turzo-podporovatel-vzdelanosti-a-patron-evanjelickej-cirkvi/",
         "pl": "https://www.qrlink.sk/new/pl/castles/juraj-turzo-podporovatel-vzdelanosti-a-patron-evanjelickej-cirkvi/",
         "hu": "https://www.qrlink.sk/new/hu/castles/juraj-turzo-podporovatel-vzdelanosti-a-patron-evanjelickej-cirkvi/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Juraj Thurzó – Supporter of Education and Patron of the Lutheran Church",
+          "text": "<p>The Thurzós became followers of the Lutheran faith of the Augsburg Confession as early as the time of František Thurzó. His son Juraj acted in the same spirit and became a great pillar of the Lutheran church in Hungary, even though he remained loyal to the Catholic imperial court. He brought several scholars to his court in Bytča. Thanks to him, the Bytča grammar school became a school whose graduates went on to universities at home and abroad. He himself had a valuable library of more than 800 volumes. His letters contain the term “<em>natio slavica nostra</em>” (our Slovak nation). Thurzó founded several Lutheran parishes in Orava (Lokca, Námestovo, Podvlk, Jablonka, Nižná and Žaškov) and in Kysuce (Turzovka). Schools were founded at the parishes. Thanks to Thurzó&#39;s financial support, several promising young men were able to study at foreign universities.</p>\n<p>His greatest achievement in the religious sphere is undoubtedly organising the church synod in Žilina, with which the Lutheran church in Hungary finally separated from the structures of the Catholic church. Besides the Hungarian palatine, the central figure of the synod was the senior of the Žilina contubernium, the scholar and Thurzó&#39;s court preacher Eliáš Láni. The synod was originally to take place in 1609, but because of certain disagreements it did not meet. On 28 – 30 March 1610, however, many noblemen, county officials, representatives of leading towns and Lutheran clergy came to Žilina at Thurzó&#39;s invitation. The palatine himself arrived with his retinue a day earlier. After the religious services in the Žilina parish church (today the cathedral), those present discussed the candidates for the posts of superintendents and set about drafting the legal articles. The commission wrote 16 articles and the wording of the superintendents&#39; oath. On the last day of the synod, 30 March, the first Lutheran superintendents were elected: Eliáš Láni for the counties of Trenčín, Liptov and Orava, Samuel Melik for the counties of Turiec, Zvolen, Novohrad and Hont, and Izák Abrahamides for the counties of Bratislava, Nitra and Tekov. Although the first two hesitated to accept these offices, Palatine Thurzó convinced them that the choice was right. In organising this important religious synod the palatine proved himself an excellent organiser and diplomat.</p>"
+        }
       },
       "url": "/castles/juraj-turzo-podporovatel-vzdelanosti-a-patron-evanjelickej-cirkvi/",
       "urlAliasy": []
@@ -6400,6 +7095,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/zaver-zivota-uhorskeho-palatina/",
         "hu": "https://www.qrlink.sk/new/hu/castles/zaver-zivota-uhorskeho-palatina/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The End of the Hungarian Palatine's Life",
+          "text": "<p>The office of palatine and the duties connected with it were not easy. Besides mental readiness, they also required good physical condition and fitness. There can be no doubt that the palatine&#39;s long stays in military camps and his presence on battlefields affected his later health. Thurzó was later greatly exhausted by fairly frequent journeys to Bratislava, Vienna and Košice, and he suffered from several illnesses, some of which became chronic. Members of his family liked to visit the spa in Rajecké Teplice, where they built a spa house in 1610. As Juraj Thurzó suffered from rheumatism, scoliosis, arthrosis and kidney stones, especially after 1612 he increasingly sought the opportunity to relax in the healing waters of the Rajec spa. Nevertheless, his health deteriorated, and as a result he could attend neither the wedding of Stanislav Thurzó&#39;s daughter in October 1614 nor, two years later in October, the wedding of Anna Sidonia, daughter of Duke Adam Wenceslaus of Teschen. His deteriorating health forced him in 1615 to summon his son Imrich from Wittenberg to Bytča, even though Imrich had just been elected rector of the university there. During 1616 Juraj Thurzó no longer travelled anywhere. He died on Christmas Eve, 24 December 1616, at the age of 49. The probable cause of death was a lung disease – pneumonia or tuberculosis.</p>\n<p>On 28 December the body of the deceased was laid in a wooden coffin, in which a painter made his posthumous portrait. The wooden coffin was closed on 9 January 1617 and placed in a larger pewter one on 7 February. His family then held a magnificent funeral for him on 19 February 1617. The palatine&#39;s catafalque was placed in the Wedding Palace, from where the funeral procession set off to the parish church. Besides the family, the procession included important noblemen, county and state dignitaries, captains of the border castles, representatives of towns, foreign delegations, as well as students from Bytča, Rajec and Žilina, members of local guilds, the palatine&#39;s armed guard, manorial servants and inhabitants of the villages of the Bytča and Lietava estates. The main preacher at the funeral rites was Superintendent Eliáš Láni. Afterwards the coffin was placed in the crypt of the Church of All Saints in Bytča. A few years later, however, Thurzó&#39;s remains were moved to the family tomb in the Chapel of St Michael at Orava Castle. His marble epitaph, depicting the palatine in life size, is still there today.</p>"
+        }
+      },
       "url": "/castles/zaver-zivota-uhorskeho-palatina/",
       "urlAliasy": []
     },
@@ -6426,6 +7127,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/edmund-reitter-vedec-novinar-a-cestovatel/",
         "pl": "https://www.qrlink.sk/new/pl/castles/edmund-reitter-vedec-novinar-a-cestovatel/",
         "hu": "https://www.qrlink.sk/new/hu/castles/edmund-reitter-vedec-novinar-a-cestovatel/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Edmund Reitter – Scientist, Journalist and Traveller",
+          "text": "<p>In professional circles Edmund Reitter became famous as an outstanding entomologist, above all a coleopterologist. To this day this long-time citizen of Paskov is ranked among the most important European and world experts in his field.</p>\n<p>The extremely hard-working Reitter combined the study of beetles with collecting them in the field and with an exceptionally extensive publishing activity. Thanks to examining collections sent to him by friends from very distant places (the Caucasus, Armenia, Mongolia, Siberia, etc.), he was a leading expert in coleopterology for the entire Palaearctic zone, which covers Europe, most of Asia and northern Africa. In the period of his research and publishing he was even considered the greatest expert on Caucasian beetles.</p>\n<p>Together with other experts and friends he undertook dozens of journeys in pursuit of his interest. With his beetle net he visited central, eastern and southern Europe, mostly the territory of the Austro-Hungarian Empire of the time. He brought back material for his work from, for example, the Tatras, Subcarpathian Ruthenia, Transylvania, Dalmatia, Bosnia, Montenegro and South Tyrol. His research on collections in various parts of the Beskids or right around Paskov was almost a matter of course. He made his last big journey in 1913, at the age of 68, to Croatia.</p>\n<p>Although Reitter was interested in beetles while still at grammar school in Opava, and they then became his hobby during his first stay in Paskov, he devoted himself to them fully only after moving to Vienna in 1879 and, two years later, to nearby Mödling. The entomological shop he ran at the time became a renowned centre for enthusiasts of the field. After returning to Paskov in 1891 he reopened it with similar success and popularity.</p>\n<p>Together with other experts he founded the Vienna Entomological Journal (Wiener Entomologische Zeitung), which he later published himself. His most extensive publication is the five-volume Fauna Germanica, which he published in an edition of 35,000 copies for the Association of German Teachers. Reitter wrote over 1,000 articles in various scientific journals. His works served as a starting point for a systematic approach to the study of insects, especially for newcomers to entomology and above all to coleopterology.</p>\n<p>The renown of Edmund Reitter&#39;s work was soon reflected in his membership in various prestigious entomological societies, not only in Austria-Hungary but also, for example, in Germany, Spain, Finland, Russia and even Egypt.</p>\n<p>The most extensive surviving legacy of Reitter&#39;s immense enthusiasm and diligence is the main part of his collection, which has been kept as a complete whole in the Hungarian National Museum since 1916.</p>"
+        }
       },
       "url": "/castles/edmund-reitter-vedec-novinar-a-cestovatel/",
       "urlAliasy": []
@@ -6454,6 +7161,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/edmund-reitter-clovek-a-filantrop/",
         "hu": "https://www.qrlink.sk/new/hu/castles/edmund-reitter-clovek-a-filantrop/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Edmund Reitter – The Man and Philanthropist",
+          "text": "<p>Although when remembering Edmund Reitter it is natural to recall above all his research and publishing activities, we cannot overlook the remarkable social engagement and spiritual orientation of this personality.</p>\n<p>Reitter&#39;s native language was German, which was also used as the official and working language in his first jobs with the Counts Larisch-Mönnich and Saint-Genois. He also published his scientific works in German. Czech, however, was also spoken in the Reitter family. He could communicate in Czech himself, and while living in Paskov he sent his children to a Czech school.</p>\n<p>He was not indifferent to social conditions and public life either. His support for the activities of the Paskov fire brigade is well known, as shown by the fact that he was made an honorary member.</p>\n<p>Nor can we forget the military field hospital for soldiers wounded in the First World War, where he included family members – his youngest daughter Thea and his niece Emilie – among the nurses caring for the wounded and sick.</p>\n<p>Naturally, he did not hesitate to take care of his younger unmarried sister Marie and his father Vincent, who spent the last years of their lives in the Reitter family circle.</p>\n<p>He was also known for his willingness to pass on his experience to young beginning entomologists. This applied to the clear style in which he wrote his scientific works, as well as to numerous personal consultations, during which he did not hesitate to lend specimens from his collections for further study. Their return was by no means guaranteed and in many cases did not happen. For Reitter, however, these losses were outweighed by the joy of fulfilling one of his life&#39;s missions – passing on his experience and knowledge to his successors.</p>\n<p>The renown of his scientific achievements brought Reitter offers of membership in many prestigious entomological societies, which he did not refuse. Examples include the German Entomological Society in Berlin, the Association of Silesian Insect Collectors in Breslau and the Society for Fauna and Flora in Helsinki. The greatest social recognition of his scientific merits, however, was the honorary title of Imperial Councillor.</p>\n<p>The rich layers of Edmund Reitter&#39;s personality are also shown by his footprint in literature. In his youth he wrote poetry, and at the age of twenty he published a lyrical collection of poems. Towards the end of his life, perhaps logically in the context of his life story and personal qualities, he inclined towards a spiritualist view of the world. It is no coincidence that, aware of his approaching death, he very carefully prepared his own funeral ceremony and had the death notice sent out only afterwards – to spare his friends the cost of travel and the risk of falling ill in cold weather.</p>\n<p>The symbolic legacy behind his almost incredibly extensive work, however, should be sought in his approach to work and life, which is summed up by two quotations: “Perseverance leads to the goal” and “You just have to have courage, that is all”.</p>"
+        }
+      },
       "url": "/castles/edmund-reitter-clovek-a-filantrop/",
       "urlAliasy": []
     },
@@ -6480,6 +7193,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/edmund-reitter-odkaz-v-soudobem-paskove/",
         "pl": "https://www.qrlink.sk/new/pl/castles/edmund-reitter-odkaz-v-soudobem-paskove/",
         "hu": "https://www.qrlink.sk/new/hu/castles/edmund-reitter-odkaz-v-soudobem-paskove/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Edmund Reitter – His Legacy in Today's Paskov",
+          "text": "<p>Although Edmund Reitter was almost forgotten after the death of his son and the emigration of his grandson in the 1940s, the current rehabilitation of his legacy is entirely justified.</p>\n<p>It began after 1989, when the social situation changed fundamentally and became far more open to remembering and learning about certain personalities, including those connected with German nationality or whose families had left for the West.</p>\n<p>As early as the 1990s, on the initiative of the town&#39;s then leadership, a metal memorial plaque was installed on house No. 35 on Nádražní Street, where Reitter lived for almost 30 years and where he died in 1920. It was designed by the academic sculptor Václav Fidrich. In the same period the Paskov municipal office published a small but very informative publication, A Memory of the Entomologist Edmund Reitter, by Jiří Janáček and Radim Šigut.</p>\n<p>The next period in which Paskov commemorated its famous citizen came after the purchase of the Paskov chateau and park. By acquiring and then revitalising the chateau building, the town gained space for permanent exhibitions. One of them, the “Edmund Reitter Hall”, is dedicated to this personality. Period furniture from the time when Reitter lived in Paskov, several surviving photographs, the Fauna Germanica book series and small fragments of his beetle collections are meant to evoke the scientist&#39;s family and working environment. The Edmund Reitter Hall was opened to the public together with another permanent exhibition on the history of Paskov on the ground floor of the main building on the occasion of the 750th anniversary of the first surviving written record of Paskov – in 2017. Later, a short feature film about Reitter was made to complement the tour of this room and make it more attractive.</p>\n<p>Since 2013 Edmund Reitter has also been commemorated on one of the panels of the information system Interesting Facts from the History of Paskov. On a four-kilometre circuit marked with the tourist sign for nature trails, the fifth stop introduces the former extensive system of fishponds that belonged to the Paskov estate. The information about Edmund Reitter as its manager in the 1870s, under the owner Count Moritz Saint-Genois, points to this position and his other activities.</p>\n<p>The latest tangible reminder of the world-famous Paskov scientist are the texts on the benches in the chateau park. Edmund Reitter&#39;s legacy is recalled on three of them. The town of Paskov has been presenting its history in this way since 2022.</p>\n<p>Nor should we forget some social events for children and adults that draw inspiration from history. The figure of Edmund Reitter sometimes “appears” in them too.</p>\n<p>Despite all these activities, however, the statement of the Czech naturalist Jiří Hudeček remains valid; in his text about Edmund Reitter, published on the 150th anniversary of his birth, he stated that a dignified tribute to the memory of this scientist is still awaited.</p>"
+        }
       },
       "url": "/castles/edmund-reitter-odkaz-v-soudobem-paskove/",
       "urlAliasy": []
@@ -6508,6 +7227,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/potomstvo-juraja-turza-2/",
         "hu": "https://www.qrlink.sk/new/hu/castles/potomstvo-juraja-turza-2/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The Descendants of Juraj Thurzó",
+          "text": "<p>Juraj Thurzó was married twice; his first wife was Žofia Forgáchová. The five-year marriage produced three children, but only two daughters, Zuzana and Judita, lived to adulthood. Thurzó&#39;s first wife died suddenly in 1590. Less than two years later Alžbeta Czobor became his second wife. Interestingly, they had a Catholic wedding, and Czobor also came from a Catholic family. Despite their different confessions the marriage was harmonious and produced nine children, of whom five daughters and above all a son, Imrich, the heir and continuer of the family line, lived to adulthood. Imrich was born in Bytča on 11 September 1598. At the court of the Bytča chateau he was brought up by teachers such as E. Láni, J. Nozitius and later J. Spiegel and F. Armpruster. He continued his education at the University of Wittenberg, where on 8 October 1615 the professors elected him rector. Young Imrich held this office only until 1 May 1616, when he resigned because of his father&#39;s illness and returned to Bytča. After his father&#39;s death Imrich became heir to the estates under his will, based on the principle of the indivisibility of property. In 1618 Imrich married Kristína Nyáry. In the same year he became High Sheriff of Orava County and was also elected a royal judge of the court. Unlike his father he became a supporter of the anti-Habsburg camp and served the Transylvanian prince Gabriel Bethlen as one of his leading dignitaries. He took part as a diplomat in various negotiations between the emperor and Bethlen. In poor health he came to the peace negotiations in Mikulov, where he died on 19 October 1621. He left a daughter, Alžbeta; Kristína was born only after his death. With him the male line of the Thurzó family died out.</p>\n<p>After the death of Juraj Thurzó&#39;s wife Alžbeta Czobor in March 1626, their daughters Zuzana, Judita, Barbora, Helena, Mária, Katarína and Anna met at Lietava Castle, where they signed a document establishing the Orava Composessorate. It consisted of the whole Orava estate and a quarter of the Lietava estate. The Thurzó estates were always to be administered by the eldest daughter and her husband. As the first three daughters were widows at the time, the first director of the Orava Composessorate was Gašpar Ilešházi with his wife Helena Thurzó. The eldest, Zuzana, was widowed three times; Judita was married to Andrej Jakušič, Barbora to Krištof Erdődy, Helena&#39;s husband was the aforementioned Gašpar Ilešházi, Mária married Michal Vizkelety, Katarína Štefan Thököly, and the youngest, Anna, was married to Ján Suňog.</p>"
+        }
+      },
       "url": "/castles/potomstvo-juraja-turza-2/",
       "urlAliasy": []
     },
@@ -6534,6 +7259,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/edmund-reitter-rodinne-zazemi-2/",
         "pl": "https://www.qrlink.sk/new/pl/castles/edmund-reitter-rodinne-zazemi-2/",
         "hu": "https://www.qrlink.sk/new/hu/castles/edmund-reitter-rodinne-zazemi-2/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Edmund Reitter – Family Background",
+          "text": "<p>Edmund Reitter came from a German-speaking family. He was born in Mohelnice in Moravia on 22 October 1845. After his mother&#39;s death his father remarried. This marriage gave Edmund two half-siblings – a brother Johan and a sister Marie.</p>\n<p>From childhood, his family environment – both his father and grandfather worked as foresters – gave young Edmund the background for developing a close relationship with nature.</p>\n<p>While still studying at the grammar school in Opava he was drawn to entomology, and within it his focus turned mainly to coleopterology. The first of these words of foreign origin refers to the science of insects, the second to the specialisation in beetles. In his youth the practical interests of young Reitter also included agriculture and fish farming.</p>\n<p>After finishing his studies he found his first job alongside his father on the estate of Count Larisch-Mönnich in Karviná. In 1869 he entered the service of the owner of the Paskov estate, Count Moritz Saint-Genois, as an official. Thanks to his natural ambition, however, he soon moved from his original position – in modern terms, an employee – to the far more independent position of leaseholder of the fishponds.</p>\n<p>His first marriage, concluded in 1871 with Anna Kunte, daughter of the brewer of the Paskov manorial brewery, did not have a happy story. First, his daughter Thea died soon after birth (in 1872), and only a little later his wife Anna (in 1873).</p>\n<p>Reitter did not remain alone for long, however, and less than a year after the death of his first wife he married again. His second wife, Hermína Nováková, was the daughter of a Paskov merchant. This marriage produced six children in total, five of whom lived to adulthood. The eldest, Martha, was born in 1875. The first-born son Erich, who came into the world a year later, died at six months. In 1880 the family grew by a son, Emmerich. He too was born in Paskov, although by then Reitter, already immersed in scientific work and business activities, had moved to Vienna and later to nearby Mödling. Mrs Reitter followed her husband somewhat later. During their stay in Mödling two more daughters were born to the Reitters – Edith in 1883 and, four years later, Amanda Felicitas.</p>\n<p>After the death of his father-in-law and at his wife&#39;s urging, the family returned to Paskov in 1891 and settled in house No. 35, which became their property six years later. Here their last daughter, Thea, was born in 1893. Reitter used the family residence – then the largest residential house in Paskov after the chateau – not only as a home for his family but also as a repository for his extensive beetle collections, a library of rich scientific literature and a store for various entomological supplies.</p>\n<p>Even during Edmund&#39;s lifetime his son Emmerich also took up entomology. The family tradition continued into the third generation as well, specifically in the genuine interest in entomology of Emmerich&#39;s son Evald. After Emmerich&#39;s death in 1945 (he died and was buried in Opava) and Evald&#39;s departure for Munich in West Germany in 1949, however, the Reitter family&#39;s activities in what was then Czechoslovakia came to an end.</p>"
+        }
       },
       "url": "/castles/edmund-reitter-rodinne-zazemi-2/",
       "urlAliasy": []
@@ -6562,6 +7293,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/rozhladna-tabor/",
         "hu": "https://www.qrlink.sk/new/hu/rozhladna-tabor/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Tábor Lookout Tower",
+          "text": "<p>Altitude: 697 metres, year built: 2015</p>\n<p>The summit of Tábor, at 697 m above sea level, is the landmark of Kysucké Nové Mesto. Since 2015 a massive, four-storey wooden lookout tower with 50 steps has stood on it. As we climb the hill, views open up of Kysucké Nové Mesto; from the tower we can see further to Poľana, Budatínska Lehota, Vreteň, the so-called Kysuce Gate and of course Malá Fatra.</p>"
+        }
+      },
       "url": "/rozhladna-tabor/",
       "urlAliasy": []
     },
@@ -6588,6 +7325,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kysucka-hvezdaren/",
         "pl": "https://www.qrlink.sk/new/pl/kysucka-hvezdaren/",
         "hu": "https://www.qrlink.sk/new/hu/kysucka-hvezdaren/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Kysuce Observatory",
+          "text": "<p>The Kysuce Observatory is a regional cultural institution whose main mission is professional observation in astronomy and the popularisation of astronomy and related natural and technical sciences through various kinds of events for the general public. The observatory organises excursions, lectures for schools and the public of all ages, talks about current discoveries and phenomena, daytime and night-time sky observation for the public, screenings of popular science films and more. For many years the observatory has taken part in many international activities and observations. It houses a permanent exhibition called The Universe Through Children&#39;s Eyes.</p>\n<p>The observatory is located in the Suľkov part of the town. More information at: <a href=\"https://www.astrokysuce.sk\">www.astrokysuce.sk</a> or tel. 041/421 2946</p>"
+        }
       },
       "url": "/kysucka-hvezdaren/",
       "urlAliasy": []
@@ -6619,6 +7362,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kastiel-v-radoli/",
         "hu": "https://www.qrlink.sk/new/hu/kastiel-v-radoli/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Radoľa Manor House",
+          "text": "<p>The Radoľa manor house is a Renaissance building in the village of Radoľa, in the Kysucké Nové Mesto district.</p>\n<p>The first mention of the manor house dates from 1575. Radoľa with its manor is mentioned again in 1580. In its oldest phase the manor house was a tower-like building with a square ground plan, two storeys and a cellar.</p>\n<p>In 1658 the manor house was rebuilt – a section with a large hall on both floors and several living rooms arranged one after another was added to the original tower-like building, as well as a side wing with more rooms, and a brick oriel was added to the oldest part. Some windows were enlarged, others walled up, the painted decoration was replaced by brick window surrounds and cornices, and the whole façade was finally unified in a single ochre tone.</p>\n<p>In the land register of 1710 the manor house is described as two-storeyed, with chambers, two cellars, a chapel, a kitchen, a room for the cooks, another room for the baker, and there was also a baking oven. The chapel served the needs of the lord of the manor and was entered from his private chamber.</p>\n<p>At the end of the 18th century minor alterations were made (some rooms were divided), probably connected with its use as a residence for officials.</p>\n<p>At the beginning of the 20th century the roof of the manor house burned down; during the restoration new beamed ceilings were installed in the rooms of the upper floor.</p>\n<p>The building has been entered in the list of national cultural monuments.</p>\n<p>Since 1983 it has housed permanent exhibitions of the Kysuce Museum. It is also used for exhibitions and lectures.</p>"
+        }
+      },
       "url": "/kastiel-v-radoli/",
       "urlAliasy": []
     },
@@ -6645,6 +7394,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/martakov-kopec-rozhladna-zakopcie/",
         "pl": "https://www.qrlink.sk/new/pl/martakov-kopec-rozhladna-zakopcie/",
         "hu": "https://www.qrlink.sk/new/hu/martakov-kopec-rozhladna-zakopcie/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Marťák Hill – Zákopčie Lookout Tower",
+          "text": "<p>Altitude: 854 metres, height of the lookout tower: 14 metres, year built: 2011</p>\n<p>It stands on the top of Marťák Hill in the Javorníky mountains. The lookout tower offers a view of almost the whole Kysuce region, nearby Zákopčie (north), the Moravian-Silesian Beskids (north-west) dominated by Lysá hora (with its transmitter), the Kysuce Beskids (north-east), the Kysuce Highlands, Oravská Magura (east), Malá Fatra (south-east) and, in good visibility, even the peaks of the Western Tatras on the south-eastern horizon. Near the lookout tower there is a wooden cross and a hikers&#39; shelter for resting.</p>"
+        }
       },
       "url": "/martakov-kopec-rozhladna-zakopcie/",
       "urlAliasy": []
@@ -6673,6 +7428,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/rozhladna-luby/",
         "hu": "https://www.qrlink.sk/new/hu/rozhladna-luby/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Luby Lookout Tower",
+          "text": "<p>Altitude: 908 metres, height of the lookout tower: 20 metres, year built: 2012</p>\n<p>The lookout tower stands on the main ridge of the Javorníky mountains, between the villages of Veľké Rovné and Vysoká nad Kysucou, on Luby hill. It is a wooden fire-watch tower and climbing it is prohibited. However, you can enjoy beautiful views from below the tower too.</p>\n<p>Luby hill has two peaks. The 20.5-metre wooden lookout tower stands on the lower one (908 m). Part of the hill is deforested, so views of the peaks of the Moravian-Silesian Beskids open up right below the tower. A hiking trail leads from the tower, connecting the scattered settlements of Veľké Rovné.</p>"
+        }
+      },
       "url": "/rozhladna-luby/",
       "urlAliasy": []
     },
@@ -6699,6 +7460,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/chranena-lipa/",
         "pl": "https://www.qrlink.sk/new/pl/chranena-lipa/",
         "hu": "https://www.qrlink.sk/new/hu/chranena-lipa/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Protected Lime Tree",
+          "text": "<p>One of the first two protected trees in the Kysuce region is a small-leaved lime (Tilia cordata), which grows on the northern edge of the built-up area of the town and is more than 300 years old. It was probably planted as a boundary tree of the town&#39;s land. The circumference of the lime at breast height is 582 cm, and 693 cm at the roots. The tree is 23 metres tall and its crown has a circumference of 22 metres.</p>\n<p>In 1848, before a battle with the Hungarian army, Slovak volunteers are said to have spent the night beneath it. The lime is a living symbol of the history of Kysuce with a high landscape and aesthetic value. A walk to the lime tree is a great way to relax.</p>\n<p>Other protected trees in the town are two large-leaved limes on Litovelská Street.</p>"
+        }
       },
       "url": "/chranena-lipa/",
       "urlAliasy": []
@@ -6741,6 +7508,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kastiel-komjatice/",
         "hu": "https://www.qrlink.sk/new/hu/kastiel-komjatice/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The Manor House in Komjatice – The Village's Lost Landmark",
+          "text": "<p>Few people walking through Komjatice today realise that where a quiet part of the village now lies, there once stood a magnificent manor house surrounded by an extensive park, branches of the Nitra river and rare trees. For centuries it was one of the most important noble residences of the lower Nitra region. Today only historical photographs, archival documents, the memories of eyewitnesses and a unique park remain, which still tells its old story.</p>\n<p>The manor house stood in the Majír part of the village, in a bend of the Nitra river, near today&#39;s Church of St Elizabeth.</p>\n<p>As early as 1408 – 1418 the brothers Peter I and Mikuláš V Forgách built their fortified castles in Komjatice. One of them stood on the site of the later manor house, and through gradual rebuilding the original medieval residence became the noble manor house of the Forgách family. It was last remodelled by Count František IX Forgách. After his death his widow Terézia Klobušická married Anton I Grassalkovich, an important Hungarian nobleman, statesman and close associate of Empress Maria Theresa. This began a new chapter in the history of the Komjatice estate.</p>\n<p>Anton I Grassalkovich rebuilt and extended the Forgách manor house into a representative residence with practical farm facilities. It was a single-storey late Baroque building with a U-shaped ground plan. The building included a private chapel dedicated to the Virgin Mary. It was there that Anton I Grassalkovich married Terézia Klobušická, the widow of Count František Forgách, in 1752. The chapel served exclusively the family of the estate owners, and services were held there only on special occasions. After the death of the last Grassalkovich, the male line died out and the Komjatice estate passed into the hands of other owners.</p>\n<p>After the Grassalkovich family, the owners of the Komjatice estate changed for a time. The estate was administered by Count Pavol Motešický and later came into the hands of Count Viczay. This period did not last long, but it was an important milestone between the Grassalkovich era and the arrival of Baron Moritz Wodianer, who bought the estate in 1858 and decided to build a representative residence worthy of an important noble family. In 1872 the manor house underwent the largest reconstruction in its history. The original Baroque building was raised by one storey and took on the appearance of a French chateau in the historicist style. An elegant façade, an entrance portico – a covered colonnaded front before the entrance – turrets, richly designed interiors and a grand staircase gave the building an exceptional appearance. Some Baroque parts of the older manor house were preserved, including the entrance hall with its historic vaults.</p>\n<p>The manor house was not just the home of a noble family. It was the centre of an extensive farm. The ground floor housed kitchens, storerooms, servants&#39; rooms and farm premises. The upper floor belonged to the reception halls, salons, the dining room, the hall of mirrors, the private apartments of the count and countess, guest rooms, children&#39;s rooms and a hunting room. The building also included a chapel and rooms in the mansard roof.</p>\n<p>The manor house was surrounded by carefully designed grounds. Wooden bridges across the Nitra river connected the residence with the park, and another bridge was used by carriages and later by the first cars. Next to the manor house there was a water mill, a large farmyard, a distillery with a tall chimney, stables, a gardener&#39;s house and a monumental greenhouse, where exotic plants were grown that decorated the courtyard and park during the summer months.</p>\n<p>After the death of Moritz Wodianer the estate passed to the Nemeš family. The last owner was Count Ladislav Nemeš, under whom the last reconstruction took place, when almost all the decorative elements of the façade and the statues were removed. The park, which was regularly maintained, also changed. The peaceful life of the noble residence was ended by the Second World War.</p>\n<p>At the turn of 1944 and 1945, as the front passed through Komjatice, the manor house was set on fire by the retreating German army. The fire destroyed the roof and most of the interiors, and the building was badly damaged. Nevertheless, it stood for several more years as a silent reminder of its former beauty. However, a decision to save it never came. In the first half of the 1950s it was gradually dismantled and, after 1954, finally demolished. So one of the most beautiful manor houses in the region disappeared.</p>\n<p>The most valuable legacy of the Komjatice estate is the historic manor park. Its foundations were probably laid by the Forgáchs and later the Grassalkovichs, but it gained its present form thanks to the Wodianers during the 1872 reconstruction, when it was landscaped as an English park. It stretched on both sides of the Nitra river and was crossed by romantic paths, bridges and meadows. Rare trees from various parts of the world grew here – ginkgo, pagoda trees, yews, catalpas, plane trees and Greek fir. The park&#39;s greatest pride today is the Komjatice plane tree, whose trunk has a circumference of over nine metres. It is one of the largest plane trees in Europe and in 2012 won the title of Tree of the Year. The park was restored in 2009 and today is a popular place to relax and a living reminder of Komjatice&#39;s glorious past.</p>\n<p>Although the manor house has disappeared from the landscape forever, its story remains part of the village&#39;s memory. Every tree in the park, every historical photograph and every surviving document recalls the time when Komjatice was the seat of an important estate. That is why it is worth stopping for a moment, using your imagination and trying to see what today remains hidden only in history.</p>\n<p><strong>Text and selection of photographs:</strong> PaedDr. Lucia Repková/Ing. Michal Repka</p>\n<p><strong>Literature used:</strong></p>\n<p>CIFRA, Štefan – VRABCOVÁ, Viera, eds. Komjatice 1256 – 2006: vedecko-popularizačná monografia obce. 1st revised edition. Komjatice – Bratislava: Združenie priateľov obce Komjatice; Obec Komjatice; Q-SOLID, spol. s r. o., 2008. 792 pp. ISBN 80-969550-2-0.</p>\n<p>JAHNÁTEK, Július. Kaštieľ Komjatice a iné historické zmienky. Komjatice, 2020. 331 pp. ISBN 978-80-968398-7-2.</p>\n<p><img src=\"/assets/images/migrated/15.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/17.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/28.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/obr12.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/29.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/30.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/000479.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/image0049.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/image0974.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/image1380.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/img_5038.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/novy-u-4.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/novy-u-13.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/obr3.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/obr5.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/obr7.jpg\" alt=\"\"></p>"
+        }
+      },
       "url": "/kastiel-komjatice/",
       "urlAliasy": []
     },
@@ -6770,6 +7543,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/kraj-rusinov-a-andyho-warhola-vystahovalectvo/",
         "pl": "https://www.qrlink.sk/new/pl/kraj-rusinov-a-andyho-warhola-vystahovalectvo/",
         "hu": "https://www.qrlink.sk/new/hu/kraj-rusinov-a-andyho-warhola-vystahovalectvo/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Emigration",
+          "text": "<p>At the turn of the 19th and 20th centuries, more and more people from the villages of today&#39;s Medzilaborce district left for America across the ocean. America was not a symbol of adventure, but a hope for a better life. Young men and whole families left Miková, Habura, Medzilaborce and other Rusyn villages, convinced that they would earn money and return home. Many, however, stayed in the United States for good.</p>\n<p>Among them were the parents of one of the most important artists of the 20th century – Andy Warhol.</p>\n<h2>Why They Decided to Leave</h2>\n<p>At the end of the 19th century most people in north-eastern Slovakia lived from small-scale farming. There was little land, even fewer jobs, and many families lived on the edge of poverty.</p>\n<p>At the same time American industry was growing rapidly and needed thousands of workers. Although work in the mines and steelworks was hard, it offered earnings that many could not imagine at home. America thus became the only real chance of a better life for many families.</p>\n<p>Emigration affected practically the whole territory of today&#39;s Medzilaborce district. It had a particularly strong impact on Rusyn villages such as Miková, Habura, Čertižné, Ňagov and Radvaň nad Laborcom.</p>\n<p>In some villages at least one member of almost every family left for America. Historical sources state that about a third of the inhabitants of Miková had left by the beginning of the First World War. Between 1890 and 1914 about 225,000 Carpathian Rusyns emigrated overseas.</p>\n<h2>The Journey Across the Ocean</h2>\n<p>The journey to America was not easy. Most emigrants from the region travelled by train to the large European ports, especially Hamburg and Bremen, from where they continued by steamship across the Atlantic to the United States. On arrival in New York they underwent medical examinations and administrative checks on Ellis Island.</p>\n<p>Many then headed to industrial cities such as Pittsburgh and Cleveland, where large communities of immigrants from the Carpathians already existed.</p>\n<p><img src=\"/assets/images/migrated/europsky-emigranti-habura.jpg\" alt=\"\"></p>\n<p><em>European emigrants after arriving in the United States at the beginning of the 20th century, source:</em> <em><a href=\"https://time.com/\">https://time.com/</a>.</em></p>\n<h2>The Story of the Warhola Family</h2>\n<p>One of the thousands of emigrants was Andrej Varchola from Miková. He left for the United States to find work at the beginning of the 20th century. A few years later he was followed by his wife Júlia Zavacká, who came from the same village.</p>\n<p>They settled in Pittsburgh, where three sons were born to them. The youngest, Andrew Warhola, was born in 1928, and the world later came to know him as Andy Warhol.</p>\n<p><img src=\"/assets/images/migrated/habura-foto-vystahovalectvo.jpg\" alt=\"\"></p>\n<p><em>Júlia Warhola&#39;s visa to the United States of America, source: Petra Tóth Atelier.</em></p>\n<p><em>Júlia Warhola (née Zavacká) with her sons John and Andrew (later Andy Warhol, right), source: <a href=\"https://www.rusyn.sk/\">https://www.rusyn.sk/</a>.</em></p>\n<p>Although Andy was born in America, he grew up in a Rusyn family. Rusyn was spoken at home, Greek Catholic traditions were kept, and his mother Júlia had a great influence on his relationship to art.</p>\n<p>The theme of emigration from this region is also presented today by the Land of the Rusyns and Andy Warhol nature trail, which leads from Habura towards the boundary between the cadastral areas of Habura and Miková.</p>"
+        }
       },
       "url": "/kraj-rusinov-a-andyho-warhola-vystahovalectvo/",
       "urlAliasy": []
@@ -6801,6 +7580,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/kraj-rusinov-a-andyho-warhola-tazba-ropy-v-regione/",
         "hu": "https://www.qrlink.sk/new/hu/kraj-rusinov-a-andyho-warhola-tazba-ropy-v-regione/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Oil Extraction in the Region",
+          "text": "<p>Few people know that north-eastern Slovakia is one of the oldest oil-producing areas in Central Europe. One of the most important places was the village of Miková, where oil had been appearing naturally on the surface for centuries.</p>\n<p>The local people noticed a black liquid flowing out of the ground at Dychtivka and named the stream it flowed into Ripné. At first they had no idea it was a valuable raw material. They used the oil mainly as a medicine for cattle or to grease carts.</p>\n<p><em>Photo: The village of Miková, 1936.</em></p>\n<h2>From Natural Springs to Industrial Extraction</h2>\n<p>The first known written mention of oil around Miková dates from 1684. Records from 1742 mention its purification and distillation. Real development, however, came only at the turn of the 19th and 20th centuries, when geologists confirmed the potential of the deposits around Miková and Habura.</p>\n<p>In 1911 modern extraction began from the first wells, Alexander and Magdaléna. After Czechoslovakia was founded, geological exploration continued, and the French company <em>Société Anonyme des Pétroles de Mikova</em> opened further wells. At first, about 4 tonnes of oil a day were obtained from the most successful well.</p>\n<p><img src=\"/assets/images/migrated/pohlad-na-bane-v-mikovej.jpg\" alt=\"\"></p>\n<p><em>View of the mines in Miková, source: <a href=\"http://www.mikova.sk/sk/ukazka-strany-2\">www.mikova.sk/sk/ukazka-strany-2</a>.</em></p>\n<h2>Oil as a Strategic Raw Material</h2>\n<p>Miková oil was most important during both world wars. In 1941 drilling continued on the Matej V well, which reached a depth of 1,368.9 metres and became one of the deepest and most productive wells in eastern Slovakia. The Matej I well alone yielded about 12,900 tonnes of oil in 1941 – 1943.</p>\n<p>According to the memories of residents and historical records, about 226,600 tonnes of high-quality paraffin-based oil with a high proportion of petrol components were extracted in Miková while the mine was in operation.</p>\n<h2><strong>The Impact of Oil Extraction on Life in Miková</strong></h2>\n<p>The discovery of oil brought new job opportunities to what had been a farming village. Local people found work in drilling, operating equipment and maintaining the mine. Experts from various countries came to Miková, and for several decades the village was one of the important oil sites of north-eastern Slovakia.</p>\n<h2><strong>The End of Extraction</strong></h2>\n<p>After the Second World War it became clear that further extraction was no longer economically viable. The mine was closed on 14 September 1951 and went into liquidation two years later. Although one more exploratory well, Alexander-1, was drilled in 1998, commercially usable quantities of oil were not confirmed.</p>\n<p>Although oil extraction has ended, its traces have survived in the region to this day. The remains of former wells, the Dychtivka and Ripné sites and other places connected with the history of oil extraction are presented to visitors by the Land of the Rusyns and Andy Warhol nature trail.</p>\n<p><img src=\"/assets/images/migrated/mikova-zvysky-studni.jpg\" alt=\"\"></p>\n<p><em>Miková – remains of wells from 1911 to 1943, source:</em> <a href=\"https://www.researchgate.net/profile/J_Milicka\"><em>J. Milicka</em></a><em>.</em></p>"
+        }
+      },
       "url": "/kraj-rusinov-a-andyho-warhola-tazba-ropy-v-regione/",
       "urlAliasy": []
     },
@@ -6828,6 +7613,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/o-hlinenom-v-najstarsich-casoch/",
         "pl": "https://www.qrlink.sk/new/pl/o-hlinenom-v-najstarsich-casoch/",
         "hu": "https://www.qrlink.sk/new/hu/o-hlinenom-v-najstarsich-casoch/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Hlinené in the Earliest Times",
+          "text": "<p>Hlinené is one of the oldest parts of Turzovka. It forms the northern and larger part of the eastern boundary of the town&#39;s cadastral area. To the north it borders on the village of Klokočov, to the east on Olešná. It is mentioned in written sources in various forms from the end of the 16th century. The etymology of the name is clear: the toponym is derived from the adjective hlinené (clayey place) &gt; Hlinené.</p>\n<p>In the second half of the 16th century the area was used as pasture for Wallachian livestock. Sheepfolds were built here by subjects of the lord of Budatín, who crossed the Javorníky with their herds from Nesluša and Divina. As the border areas were not properly defined at that time, clashes and even armed violence occurred between subjects of neighbouring estates. Hlinené is mentioned in such contexts in 1584 and again in 1592. In 1584 sheepfolds built in Vrch Hlinené were attacked and plundered by subjects of the Duchess of Teschen. In 1592 the sheepfold of Martin Miček in Hlinené suffered, when subjects and bailiffs of Juraj Thurzó took away 12 rams, six lumps of cheese, wool and two axes. At the end of the 16th century the lord of the manor Juraj Thurzó founded Turzovka as a kind of barrier against Budatín shepherds entering territories he considered his own. Even immediately after its founding the disputes did not end. In May 1601 an investigation was held into the disputes between the Bytča and Budatín estates, in which several witnesses testified. We quote some of their testimonies to illustrate the situation: <em>The first witness, Jura Drahoš, 60 years old, from Rožnov … confessed under oath that those very hills as far as Predmier, <strong>Hlinené</strong>, Bahan and Bruhovy were freely used by Budatín Castle …</em></p>\n<p><em>The twelfth witness, Ďuro Bakoš from Krásno, about 45 years old … confessed under oath that he served in Nesluša … and that in his young days he freely grazed at Bahená, <strong>at Hlinená</strong>, at Dlhá and nobody hindered them…</em> In the same year Juraj Thurzó, as lord of Bytča, concluded an agreement with his neighbour from Budatín, Mojžiš Suňog, on new boundaries, which moved from the Predmier stream (today&#39;s Predmieranka) to the east, and the Olešnianka stream became the new boundary between the estates. This new boundary was then confirmed in the charter that Thurzó issued to the inhabitants of Turzovka in February 1602.</p>\n<p>Project name: In the footsteps of the cultural and natural heritage of the Czech-Slovak</p>\n<p><img src=\"/assets/images/migrated/obalka-03.png\" alt=\"\"></p>\n<p>region,</p>\n<p>Project code: NFP304030BMA2</p>"
+        }
       },
       "url": "/o-hlinenom-v-najstarsich-casoch/",
       "urlAliasy": [
@@ -6859,6 +7650,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/svetlonos/",
         "hu": "https://www.qrlink.sk/new/hu/svetlonos/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The Will-o'-the-Wisp",
+          "text": "<p>The svetlonos (will-o&#39;-the-wisp) was a very widespread demonic being. It had various names: svetlonos, svetielko, bludička, svetlá noc. The svetlonos belonged among the underground and evil beings, like the rarach, bes, ďas and others. It appeared at night in forest thickets, by wetlands (bogs) and near water sources. In some places it took the form of a small boy with glowing eyes who grew to supernatural size before the onlooker&#39;s eyes. It led people astray, lured them into swamps, led them across fields, through rocks and thorns or through cemeteries. It lured not only with light but also by crying or calling people by name. Bad, spiteful people were said to become svetlonos after death – those who ploughed away others&#39; fields or who swore falsely on the Bible, and as punishment two of their fingers burned. A person who whistled after dark could summon it, deliberately or unwittingly. That is why people avoided whistling at night. It is said that a person could get rid of it by crossing themselves, repenting of their sins or with crumbs from the Christmas Eve table. The svetlonos lost its power over a person when they hid under a roof or when dawn began to break. Then the svetlonos lost its power and left the person it had led astray alone. Although it might seem that the name svetlonos (literally “light-nose”) comes from its nose shining, that is not so. The Slovak word svetlonos is a literal translation of the Latin Lucifer (Lat. lux – light, ferre – to carry, bear) – light-bearer, light-carrier.</p>\n<p>A short story from 1930 also tells of an encounter with a svetlonos: <em>One evening a certain man saw a svetlonos running about somewhere near the house. He went outside and whistled, but immediately ran back into the room. And then – stomp, stomp – the svetlonos began running round the windows, calling the man by name: “Jozef, come out! Jozef, come out!” But Jozef did not budge, he just trembled with fear, wondering what would happen to him, even though he knew that under the roof he was protected from the svetlonos&#39;s power. When the svetlonos grew tired of waiting and running around the house in vain, it disappeared and never came again. But our dear Jozef never again dared to whistle at a svetlonos.</em></p>\n<p>Project name: In the footsteps of the cultural and natural heritage of the Czech-Slovak</p>\n<p><img src=\"/assets/images/migrated/obalka-03.png\" alt=\"\"></p>\n<p>region,</p>\n<p>Project code: NFP304030BMA2</p>"
+        }
+      },
       "url": "/svetlonos/",
       "urlAliasy": [
         "/castles/svetlonos/"
@@ -6888,6 +7685,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/zakopy/",
         "pl": "https://www.qrlink.sk/new/pl/zakopy/",
         "hu": "https://www.qrlink.sk/new/hu/zakopy/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Trenches",
+          "text": "<p>Turzovka came into contact with the German army at the very beginning of the Second World War, when it passed through here in connection with the attack on Poland. Combat, however, took place in the town only in 1944 – 45, during the Slovak National Uprising and later during the liberation. Various illegal and partisan groups formed in and around Turzovka during the war. In September 1944 the German Wehrmacht ordered compulsory work digging trenches. Each municipality had to send a set number of people; for Turzovka, given its population, 800 workers were required. Only people employed in an important enterprise, the sick and those unable to work, and those running a household were exempt. In October 1944 a decree was issued punishing failure to comply by sending the offender to the nearest camp as an “antisocial element”. At the beginning of October 905 men and 260 women from Turzovka were deployed on fortification work in Svrčinovec. At about the same time this work was also carried out within the town, and the municipality had to pay the workers&#39; wages. The remains of trenches can also be seen at this spot.</p>\n<p>The first clashes between German units and partisans took place at the end of October 1944 in Klin and at Hlavice, which neighbour Hlinené. The municipality had to supply the German army with wood and coal; in addition, the inhabitants were obliged to do carting work and to hand over hay and other goods in kind. Partisans also operated at Košariská in Hlinené, from where they organised raids on the Germans. In the centre, the army occupied the buildings of the primary and secondary schools and the St Joseph social house for its own use. Fighting continued until the spring of 1945. On 30 April 1945 units of the Soviet 18th Army under Lieutenant General A. I. Gastilovich captured Kysucké Nové Mesto and advanced from there via Nesluša and Dlhá nad Kysucou towards Turzovka. The next day there was fighting at Vyšný Koniec, and on 2 May 1945 the village was liberated. In this global conflict 64 inhabitants of Turzovka (including Klokočov and Korňa) fell on the battlefields and at home, and seven other victims came from Turkov and Dlhá, which were joined to Turzovka in 1948. So far 74 Jewish victims who came from or lived in the village have been identified.</p>\n<p>Project name: In the footsteps of the cultural and natural heritage of the Czech-Slovak</p>\n<p><img src=\"/assets/images/migrated/obalka-03.png\" alt=\"\"></p>\n<p>region,</p>\n<p>Project code: NFP304030BMA2</p>"
+        }
       },
       "url": "/zakopy/",
       "urlAliasy": [
@@ -6919,6 +7722,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/hlinensky-potok/",
         "hu": "https://www.qrlink.sk/new/hu/hlinensky-potok/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Hlinené Stream",
+          "text": "<p>At this spot (south of Hlinené hill, 875 m above sea level) the Hlinenský potok stream (hydrological number 4-21-06-034) begins its journey, taking in other nameless brooks and rivulets from both sides. Ten tributaries flow in from the left side of the valley and nine from the right. The stream flows through the Hlinené part of the town in a north-south line. The Hlinenský potok itself is a left-bank tributary of the Kysuca. Its mouth is at Pod Kempou, where the Hlinené valley opens out in Turzovka. The stream is almost 4 km long. Written sources mention it, for example, in 1769 as <em>Hliniana</em>, in 1793 as <em>rivus</em> (stream) <em>Hlinena</em> and in 1824 as <em>Hlinana</em>. The stream got its name from the local name of the Hlinené area &gt; the adjective hlinenský + the common noun potok (stream) &gt; Hlinenský potok. The name Hlinené is derived from the word hlina (clay) &gt; hlinené (place) &gt; Hlinené – the motivation was a clayey place.</p>\n<p>Although the Hlinenský potok usually does not carry much water, during heavy rainfall and the spring snowmelt in the Turzovka Highlands the volume of surface runoff rises suddenly, causing its level to rise sharply. The excessive amount of water from the catchment, increased by local tributaries in the upper part of the basin, can sometimes cause erosion of the slopes in the built-up area and, as the flow increases, the stream can overflow its banks. The stream has the character of a mountain torrent; in the past crayfish, trout and other aquatic animals sensitive to water purity lived here. Today, pollution and fluctuating water levels in the Hlinenský potok affect the typical aquatic fauna. At higher flows, mainly fish migrate into the lower part from the Kysuca river.</p>\n<p>Project name: In the footsteps of the cultural and natural heritage of the Czech-Slovak</p>\n<p><img src=\"/assets/images/migrated/obalka-03.png\" alt=\"\"></p>\n<p>region,</p>\n<p>Project code: NFP304030BMA2</p>"
+        }
+      },
       "url": "/hlinensky-potok/",
       "urlAliasy": [
         "/castles/hlinensky-potok/"
@@ -6948,6 +7757,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/najuzsi-bod/",
         "pl": "https://www.qrlink.sk/new/pl/najuzsi-bod/",
         "hu": "https://www.qrlink.sk/new/hu/najuzsi-bod/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The Narrowest Point",
+          "text": "<p>You are in the locality called Pri kríži (By the Cross). Its peculiarity is that here the town&#39;s cadastral area forms a kind of “neck”, its narrowest point. From east (Olešná) to west (Klokočov) it measures just over 300 metres. It is also a crossroads. In the past such places were attributed magical significance – they were said to be favourite places for supernatural forces. Christians marked these places with a cross. In the past a small cross stood here too. It marked the place where a certain Jakub, a native of a nearby settlement, died tragically while working with timber. His relatives placed the cross here in his memory. The fact that the adjacent homestead is called “Pod krížom” (Below the Cross) shows that a cross has stood here for many years. In Slovakia, crosses in the open countryside began to spread widely from the second half of the 18th century. They were placed along roads, at crossroads and forks, on the boundaries of village lands, and by wells or springs. Along paths and tracks they recalled the place of a tragic death or a miraculous apparition. They also served as signposts or landmarks. In Vrch Hlinené a wooden cross with a tin corpus is first mentioned as early as 1828; it was restored, or rather replaced, in 1919.</p>\n<p>The place Pri kríži has several meanings. On Sundays people from Potôčky, Riečky and Vrch Hlinené met here and prayed together for the harvest, rain, health or other intentions. After a strenuous, steep climb, tired and with packs on their backs, people rested here, prayed and continued to their homesteads U Kadurov, Na Vŕšok, Na Rovienky, Do Stoligov or Do Gajdičiarov. In these remote settlements life was hard and modest because of the strenuous work and the distances, but at the same time joyful. Even though the mountain settlements were far apart, people were close to one another.</p>\n<p>Project name: In the footsteps of the cultural and natural heritage of the Czech-Slovak</p>\n<p><img src=\"/assets/images/migrated/obalka-03.png\" alt=\"\"></p>\n<p>region,</p>\n<p>Project code: NFP304030BMA2</p>"
+        }
       },
       "url": "/najuzsi-bod/",
       "urlAliasy": [
@@ -6979,6 +7794,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/zvonica-2/",
         "hu": "https://www.qrlink.sk/new/hu/zvonica-2/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Bell Tower",
+          "text": "<p>The year the bell tower was built is not known; it probably dates from the first half of the last century. It was originally a wooden bell tower, to which a masonry extension was later added, creating a small chapel. Interestingly, the bell tower houses two bells, one of which is dated 1752. It is thus the oldest bell of the Turzovka parish in situ (the oldest, from 1614, is in the collections of the K. Točík Town Museum). The bells, however, are not original: according to surviving oral tradition they were brought to the bell tower by the first bell-ringer from an unknown place in Moravia. In 1919 a cross was erected in the settlement, but the chronicle entry does not make clear which of the two existing crosses it was – the cross at the Pri kríži locality or the cross by the bell tower. The present cross by the bell tower was installed in the autumn of 2020.</p>\n<p>Project name: In the footsteps of the cultural and natural heritage of the Czech-Slovak</p>\n<p><img src=\"/assets/images/migrated/obalka-03.png\" alt=\"\"></p>\n<p>region,</p>\n<p>Project code: NFP304030BMA2</p>"
+        }
+      },
       "url": "/zvonica-2/",
       "urlAliasy": [
         "/castles/zvonica/"
@@ -7008,6 +7829,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/nch-zarubana-kycera/",
         "hu": "https://www.qrlink.sk/new/hu/castles/nch-zarubana-kycera/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Zarúbaná Kýčera Nature Trail",
+          "text": "<h2>To the Zarúbaná Kýčera Lookout Tower</h2>\n<p>The nature trail consists of 6 information panels on the history of the village, architecture, the geology and geomorphology of the mountains, and plant and animal life. Some panels have shelters with benches for resting. At the end of the nature trail stands a lookout tower with wonderful views of the Javorníky, Malá Fatra, the Súľov Rocks and the Moravian-Silesian Beskids.</p>\n<h2>Top attraction:</h2>\n<h3>Museum of Wire-Working (Drotárstvo)</h3>\n<p>The Museum of Wire-Working is one of the oldest buildings in the centre of the village of Veľké Rovné; it was reconstructed on the basis of a surviving period photograph. The aim was to restore the building&#39;s original dignity.</p>\n<h3>Zarúbaná Kýčera Lookout Tower</h3>\n<p>The lookout tower has three levels at a height of 15 metres, reached by ladders. In good weather you will see in all their beauty not only the Javorníky ridge but also Malá Fatra, the Strážov Mountains, the Súľov Rocks, the White Carpathians, the Beskids, the Vršatec cliffs and, from Orava, the Roháče, Babia hora and Pilsko.</p>\n<p><img src=\"/assets/images/migrated/klapy.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/svedernik.jpeg\" alt=\"\"></p>"
+        }
+      },
       "url": "/castles/nch-zarubana-kycera/",
       "urlAliasy": []
     },
@@ -7035,6 +7862,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/detsky-naucny-turisticky-chodnik/",
         "hu": "https://www.qrlink.sk/new/hu/castles/detsky-naucny-turisticky-chodnik/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Children's Educational Hiking Trail",
+          "text": "<p>We set off on the nature trail from the Vyšná Korňa part of the village; we park the car by the ruins of the primary school, a few metres above the cheese-string (korbáčiky) factory. We head to the Durajčíkovci settlement, then above the Vyšní Slezákovi settlement all the way to the Panorama Ranch. Along the way we find 6 information boards devoted to animals we may meet during the walk: the squirrel, hare, roe deer, wild boar, hedgehog and fox. At the end of the nature trail there is a wooden frame for taking nice photos with beautiful views, a small bell tower and a snack bar where we can have refreshments. We can continue to Bobek hill on the border with the Czech Republic, which also offers beautiful views of the Moravian-Silesian Beskids.</p>\n<h2>Top attraction:</h2>\n<h3>The Lime Trees at Vígľaš</h3>\n<p>Old trees are memorials to various events and human destinies. In Korňa there are three mighty lime trees at Vígľaš, which also appear in the village&#39;s coat of arms. They are not the only unique trees. Another interesting one is the lime tree at Grúň, whose trunk circumference exceeds 6 metres. A snake spruce in the U Žilov settlement is also a rarity.</p>\n<h3>Korňa Oil Spring</h3>\n<p><img src=\"/assets/images/migrated/drevenicka-korna.jpg\" alt=\"\"></p>\n<p>On the eastern edge of Korňa, near the Muchovci settlement, there is a rare European curiosity – a natural surface seep of light crude oil with occasional emissions of self-igniting methane. The seep, which documents the oil-bearing nature of the flysch layers, contains a high percentage of oils. The oil collects in a small pool 1.5 – 2 m in diameter. Although it is very high-quality oil, the boreholes in the area – drilling began as early as the end of the 19th century – did not show enough oil to make industrial extraction worthwhile. In the past the local people used it for heating, lighting and lubrication. The boreholes drilled here (5 in total, the first in 1900 and the last in 1929 – 33 to a depth of 968 m) did not confirm that extraction would be profitable (only 15 – 16 wagons of oil were extracted in total). In 1973 the oil spring was declared a protected natural formation, and in 1995 it was reclassified as a natural monument with an area of 0.171 ha. The spring is freely accessible, about 150 m from the car park by the main road.</p>\n<h3>Windmill</h3>\n<p>The windmill is one of the seven wonders of Korňa. This first wonder is an interesting depiction of a windmill located in Nižná Korňa. It recalls the old windmill that stands in the U Šulca settlement, which is, however, in poor technical condition. It is located in hard-to-reach terrain, so you have to walk about three kilometres through the forest to get to it.</p>\n<p>It is said that the equipment of the old mill was brought to Korňa by an ancestor of Jozef Gajdičiar, who worked as a miner in the Ostrava region. The blades were turned mainly by the north wind, which was best for grinding flour. Interestingly, about 70 similar structures have survived in Moravia, and a similar mill was also moved to Slovakia from Poland. We recommend taking some grain with you and trying to grind flour.</p>\n<h3>Živčáková Pilgrimage Site</h3>\n<p>In June 1958 the Virgin Mary is said to have appeared to the forestry worker Matúš Lašut on Živčáková hill. The news spread quickly and believers began to visit the site of the alleged apparition, making pilgrimages to the hill and taking water from a nearby spring. In 1992 the Bishop&#39;s Office in Nitra gave its consent, and the following year the Chapel of the Virgin Mary, Queen of Peace, was built on Živčáková hill, designed by the architect Marián Goč. Within the apparition site there are several springs of healing water that do not freeze even in the harshest winters.</p>\n<p>On 19 October 2008 the Bishop of Žilina, Tomáš Galis, declared Živčáková hill an official Marian pilgrimage site and blessed the foundation stone of the future Church of the Virgin Mary, Mother of the Church. On 4 October 2015 the church was solemnly consecrated by the Diocesan Bishop of Žilina, Mons. Tomáš Galis. Its construction took 7 years. The church tower houses four bells made by Josef Tkadlec from Halenkov.</p>\n<p>The tower also serves as a lookout and is open to pilgrims and tourists; its open terrace offers a panoramic view of the surrounding countryside. To enjoy this view you have to climb about 140 steps. Entry to the tower is free, with voluntary donations. The lookout tower is open only in good weather.</p>\n<p><img src=\"/assets/images/migrated/199505802_1883109211852134_8317344405388699304_n.jpg\" alt=\"\"></p>"
+        }
+      },
       "url": "/castles/detsky-naucny-turisticky-chodnik/",
       "urlAliasy": []
     },
@@ -7060,6 +7893,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/kysucky-detsky-les/",
         "pl": "https://www.qrlink.sk/new/pl/castles/kysucky-detsky-les/",
         "hu": "https://www.qrlink.sk/new/hu/castles/kysucky-detsky-les/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Kysuce Children's Forest",
+          "text": "<p>The trail built in the grounds of the Museum of the Kysuce Village in Vychylovka offers learning and fun for young and old visitors alike. At the 7 stations along the trail you can try perceiving the forest not only by sight, on which people mostly rely, but also by touch, smell, hearing and taste. You can book expert guides for the trail, who provide professional commentary as well as fun in the form of forest games and physical activities. Along the nature trail you will find game feeders, a wooden children&#39;s lookout tower, a playground with swings, climbing frames and benches, and a wooden gazebo.</p>\n<h2>Top attraction:</h2>\n<h3>Vychylovka Open-Air Museum</h3>\n<p>The Vychylovka open-air museum offers monuments of folk architecture. The legacy of our grandparents and great-grandparents, set in the picturesque Chmúra valley, brings visitors memories of youth, helps them discover history and even sheds light on the scattered “kopanice” type of settlement that was so characteristic of Kysuce.</p>\n<p>One of the largest exhibitions of folk architecture in Slovakia consists of 34 buildings, most of which were moved from the now non-existent villages of Riečnica and Harvelka. The centre of the open-air museum is formed by the Chapel of Our Lady of the Rosary from Zborov nad Bystricou, the inn from the village of Korňa and the oldest house from Oščadnica. Nor can we fail to mention the gem of the water mill and sawmill with a half-timbered structure from the village of Klubina. During the season visitors can see craftsmen at work, performances by folk groups and ensembles from the Kysuce region and the preparation of traditional Kysuce dishes. The uniqueness of this setting also attracts filmmakers; the best-known films shot at least partly in the open-air museum include Želary and The Flying Cyprian. The ethnographic exhibition is open during the season from 1 May to 31 October.</p>\n<p><img src=\"/assets/images/migrated/bryzgalky-3.jpg\" alt=\"\"></p>"
+        }
       },
       "url": "/castles/kysucky-detsky-les/",
       "urlAliasy": []
@@ -7088,6 +7927,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/ku-pramenu-rieky-kysuca-400-rokov-4000-krokov/",
         "hu": "https://www.qrlink.sk/new/hu/castles/ku-pramenu-rieky-kysuca-400-rokov-4000-krokov/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "To the Source of the Kysuca River – 400 Years – 4,000 Steps",
+          "text": "<p>The nature trail To the Source of the Kysuca River – 400 Years – 4,000 Steps was created on the 400th anniversary of the first written mention of the village of Makov, which lies between the Turzovka Highlands and the Javorníky mountains in the Kysuce Protected Landscape Area. The nature trail is short, about 2 km, but with a steeper climb, made more pleasant by resting benches with animals carved out of wood.</p>\n<h2>Top attraction:</h2>\n<h3>The Elm at Papaja</h3>\n<p>The oldest and mightiest field elm in Central Europe, almost 500 years old. This unique specimen of the field elm (Ulmus carpinifolia) stands out not only for its age but also for its unusual size. The trunk circumference at a height of 130 cm is 625 cm, and more than 11 metres at the base. It is about 30 m tall. It is located in the Makov – Kopanice part: from the main road at Chata Makov turn left over the bridge, at the first junction after the shop turn left and continue for about 1.5 km.</p>\n<h3>Stratenec Lookout Tower</h3>\n<p>The wooden lookout tower was built on Stratenec hill, at an altitude of 1,055 m, back in 2008. It is 8 metres high with 22 steps. There is also a stone memorial called Three Crosses, dedicated to three soldiers who fell during the Second World War at the time of the liberation of Velké Karlovice. The lookout tower on Stratenec holds an important distinction: it is the highest in the whole Javorníky range and stands on the westernmost peak of these mountains.</p>\n<h3>The Village of Makov</h3>\n<p>It offers many hiking and cycling attractions.</p>\n<p><img src=\"/assets/images/migrated/makov-greguse.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/makov-krslisko.jpg\" alt=\"\"></p>"
+        }
+      },
       "url": "/castles/ku-pramenu-rieky-kysuca-400-rokov-4000-krokov/",
       "urlAliasy": []
     },
@@ -7115,6 +7960,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/chodnik-jozefa-kronera/",
         "hu": "https://www.qrlink.sk/new/hu/castles/chodnik-jozefa-kronera/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Jozef Kroner Trail",
+          "text": "<p>During his life Jozef Kroner portrayed dozens of characters, of which most people remember, for example, Pacho, Brother-in-law Ragan, Kubo, Tóno Brtko or Martin Pichanda from The Millennial Bee. These characters and films are also depicted in the 12 works of art on the Jozef Kroner Trail.</p>\n<h3><strong>Names of the sculptures on the trail</strong>:</h3>\n<h2>Top attraction:</h2>\n<h3><strong>Jozef Kroner&#39;s Birthplace</strong></h3>\n<p>The little house where the prominent Slovak actor Jozef Kroner was born in 1924. The museum is open every day. In the middle of the museum you will find a table, the actor&#39;s armchair and a display case with many objects from the artist&#39;s life, such as personal letters, various awards, fishing boots, glasses, a cup and even the Oscar statuette for the film The Shop on Main Street, in which Jozef Kroner played the lead role.</p>\n<p><img src=\"/assets/images/migrated/5-na-michalke-2.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/velky-polom.jpg\" alt=\"\"></p>"
+        }
+      },
       "url": "/castles/chodnik-jozefa-kronera/",
       "urlAliasy": []
     },
@@ -7140,6 +7991,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/prameny-moravky/",
         "pl": "https://www.qrlink.sk/new/pl/castles/prameny-moravky/",
         "hu": "https://www.qrlink.sk/new/hu/castles/prameny-moravky/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The Springs of the Morávka",
+          "text": "<p>The nature trail starts from the car park in the Lipové part of the village and climbs along the road up the valley of the Morávka river to its source. On the way you will find nine educational boards devoted to the Morávka basin – the river and the forests, the building of the dam, the history of the village of Morávka and hiking. You will learn, for example, that water from the Morávka river is the basic raw material for brewing Nošovice beer.</p>\n<h2>Top attraction:</h2>\n<h3>Morávka Dam</h3>\n<p>The valley reservoir was built in 1961 – 1967 mainly as a source of drinking water and for flood protection.</p>\n<p><img src=\"/assets/images/migrated/moravka-2.jpg\" alt=\"\"></p>\n<h3>“Night Crossing” Partisan Movement Memorial</h3>\n<p>The Night Crossing Partisan Movement Memorial commemorates the victims of the Night Crossing in the village of Morávka in the Frýdek-Místek district. It has been a protected monument since 1958 and was declared a national cultural monument on 6 October 1978.</p>\n<h3>Bílý Kříž</h3>\n<p>Originally there was a settlement here called Karlovice. It was renamed Bílý Kříž (White Cross) after 1830. A customs officer (the border police of the time) blocked the path of tobacco smugglers from Hungarian Slovakia. The smugglers feared a beating and fines more than murder, so they beat the border guard to death and buried him. A wooden cross made of freshly peeled spruce poles was erected on the mound above the grave. The whole ridge was deforested at that time, so the cross shone white from afar. Today&#39;s cross has been renewed several times and, to live up to its name, is painted white.</p>\n<h3>The Wooden Church of Our Lady at Gruň, Lysá hora</h3>"
+        }
       },
       "url": "/castles/prameny-moravky/",
       "urlAliasy": []
@@ -7167,6 +8024,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/frydecky-les/",
         "hu": "https://www.qrlink.sk/new/hu/castles/frydecky-les/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Frýdek Forest",
+          "text": "<p>The nature trail shows that the forest has many functions and is not only for growing and harvesting timber. The forest is also home to many species of plants and animals – from insects to large game. The nature trail is particularly suitable for schoolchildren. Simple footbridges have been laid over wet places, and a small bridge has been built over a ravine with a stream.</p>\n<h2>Top attraction:</h2>\n<h3>Erratic Boulders in Frýdek Forest</h3>\n<p>Erratic boulders can be found in many places in northern Moravia and Silesia. The discovery of the boulders in Frýdek Forest was first published in 2006. A larger group of boulders lies in the left tributary of the Podšajarka stream, in a ravine about 200 metres north of Zátiší; others lie directly in the bed of the Podšajarka.</p>\n<p><img src=\"/assets/images/migrated/fridecky-1.jpg\" alt=\"\"></p>"
+        }
+      },
       "url": "/castles/frydecky-les/",
       "urlAliasy": []
     },
@@ -7193,6 +8056,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/grun-bily-kriz/",
         "hu": "https://www.qrlink.sk/new/hu/castles/grun-bily-kriz/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Gruň – Bílý Kříž",
+          "text": "<p>The place is ideal especially for families with children, seniors and anyone who has no ambition to conquer high mountains but would rather enjoy a walk, learn something and admire the mountain landscape. Choose the length yourself. You can walk just 4 km to Švarná Hanka or 11 km if you decide to continue all the way to the well-known Bílý Kříž. You return by the same route. Part of the ridge route to Švarná Hanka (2 km) has an asphalt surface and is suitable for pushchairs.</p>\n<h2>Top attraction:</h2>\n<p>In fine weather, a view of the Slovak Tatras. The Church of St Henry, the monument to Maryčka Magdonová and the old cemetery with cast-iron crosses in Staré Hamry, the former Bezruč school, the wooden Church of Our Lady of Help at Gruň, Wallachian sheep.</p>\n<p><img src=\"/assets/images/migrated/gr2.jpg\" alt=\"\"></p>"
+        }
+      },
       "url": "/castles/grun-bily-kriz/",
       "urlAliasy": []
     },
@@ -7218,6 +8087,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/certuv-mlyn/",
         "pl": "https://www.qrlink.sk/new/pl/castles/certuv-mlyn/",
         "hu": "https://www.qrlink.sk/new/hu/castles/certuv-mlyn/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Devil's Mill (Čertův mlýn)",
+          "text": "<p>The trail leads from Pustevny past the Mořské oko pond along the slopes of Čertův mlýn (1,205 m) to the mountain hotel at Martiňák. There are 9 stops on the nature trail with information about interesting local plants and animals; you will learn what makes the surrounding forests rare, where the partisans hid, and the legend of the devil. The trail&#39;s emblem is the Devil&#39;s Table – a unique rock formation on the ridge of Čertův mlýn.</p>\n<h2>Top attraction:</h2>\n<h3>Pustevny</h3>\n<p>Pustevny is a saddle in the Moravian-Silesian Beskids near Radhošť, belonging to the municipality of Prostřední Bečva. It was named after the hermits who lived here until 1874. Pustevny is typical for its wooden buildings in folk style, built at the end of the 19th century to designs by the architect Dušan Jurkovič. There is a ski resort here and a chairlift leads up to it.</p>\n<h3>Mořské oko</h3>\n<p>The Mořské oko pond was created artificially from an original wetland by enterprising hikers at the end of the 19th century. The hikers were sorry that Pustevny lacked a mountain lake like those in the Tatras, so they created one themselves, and it became a popular attraction. Today it is an important breeding site for various species of amphibians, especially three species of newts.</p>\n<p><img src=\"/assets/images/migrated/cert1.jpg\" alt=\"\"></p>"
+        }
       },
       "url": "/castles/certuv-mlyn/",
       "urlAliasy": []
@@ -7246,6 +8121,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/vcelarska-naucna-stezka/",
         "hu": "https://www.qrlink.sk/new/hu/castles/vcelarska-naucna-stezka/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Beekeeping Nature Trail",
+          "text": "<p>The nature trail consists of a rest stop – a large wooden gazebo – surrounded by information panels where visitors can read many interesting facts from the history of beekeeping and basic information about the honey bee. A bee colony is essentially a kind of super-organism that has survived unchanged on our planet for millions of years, and each bee in it plays an important role. Visitors can also learn from the information boards which members make up such a colony and how they work together.</p>\n<h2>Top attraction:</h2>\n<p>The Ostravice river flows along the trail, with beautiful access and views of the river. Next to the trail there is also an educational beehive where visitors can see how the bees work.</p>\n<p><img src=\"/assets/images/migrated/vcela3.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/vcela1.jpg\" alt=\"\"></p>"
+        }
+      },
       "url": "/castles/vcelarska-naucna-stezka/",
       "urlAliasy": []
     },
@@ -7272,6 +8153,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/chlebovicka-medova-stopa/",
         "hu": "https://www.qrlink.sk/new/hu/castles/chlebovicka-medova-stopa/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Chlebovice Honey Trail",
+          "text": "<p>The trail follows on from the Chlebovice Beekeeping Educational Area and lets visitors to the area, as well as ordinary hikers, get to know beekeeping and interesting places in Chlebovice in a fun way. The Honey Trail is guided by Medulinka the bee, who at five stations introduces visitors to 12 beekeeping topics and 12 interesting places in Chlebovice. With the “Medovka” game card, children and adults can test their new knowledge in “Medulinka&#39;s quiz”. The trail takes you all the way to the Kabátice lookout tower, which offers a beautiful view to the east of the Olešná reservoir and the town of Frýdek-Místek.</p>\n<h2>Top attraction:</h2>\n<h3>Beekeeping Museum</h3>\n<p>A unique collection of honey extractors, smokers, beehives and beekeeping equipment.</p>\n<h3>Kabátice lookout tower, Olešná reservoir, Hukvaldy Castle, the birthplace of Leoš Janáček, Hukvaldy game park, Štramberk, the Štramberk Trúba tower.</h3>\n<p><img src=\"/assets/images/migrated/bez-nazvuc2.jpg\" alt=\"\"></p>"
+        }
+      },
       "url": "/castles/chlebovicka-medova-stopa/",
       "urlAliasy": []
     },
@@ -7297,6 +8184,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/lesni-stezka-vyhlidka/",
         "pl": "https://www.qrlink.sk/new/pl/castles/lesni-stezka-vyhlidka/",
         "hu": "https://www.qrlink.sk/new/hu/castles/lesni-stezka-vyhlidka/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Vyhlídka Forest Trail",
+          "text": "<p>It is a modern outdoor playground with wooden attractions. The paths are made of fine gravel that even a city pushchair can handle. Two bird nests hanging in the trees, which you can climb up to via a spider net, are an original touch. Around them, wooden sculptures of birds are placed in the treetops and can be watched straight from the hides. Everything is complemented by rotating educational signs with nice pictures. At other stops children can let off steam on a slide, climbing frames or wooden logs. Two hammocks for watching the clouds are a lovely feature. The path is also lined with stops featuring enlarged wooden models of insects and forest mushrooms. For older children and adults there is a workout area with rings, a bar, a rope and more.</p>\n<h2>Top attraction:</h2>\n<p>From this trail you can continue to Ondřejník, which is very popular with hikers.</p>\n<p><img src=\"/assets/images/migrated/vyhliadka2.jpg\" alt=\"\"></p>"
+        }
       },
       "url": "/castles/lesni-stezka-vyhlidka/",
       "urlAliasy": []
@@ -7329,6 +8222,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/najstarsie-zmienky-o-zivcakovej/",
         "hu": "https://www.qrlink.sk/new/hu/castles/najstarsie-zmienky-o-zivcakovej/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The Oldest Mentions of Živčáková",
+          "text": "<p>Živčáková hill lies on the border of three Kysuce municipalities – Turzovka, Korňa and Vysoká nad Kysucou. It is first mentioned in writing in a charter issued by the founder of Turzovka, Juraj Thurzó, on 26 May 1616. Among the pastures and hills listed for use by the Wallachian shepherds of Turzovka is the locality <em>na Zivčzakoweg</em>. Another known document mentioning this locality is the survey of the boundaries of Vysoká and the neighbouring villages of Turzovka and (Veľké) Rovné from 1690. The county commission began its survey right on Živčáková hill (<em>ad montem Ziwczakova</em>). The hill was nothing special in the past; its importance dates only from 1954, when Korňa was separated from Turzovka as an independent municipality and Živčáková became border territory, a direct boundary point of both cadastral areas. As the older written records show, the hill was always called Živčáková. The name was derived from the personal name of a Wallachian shepherd who had his pastures here. The personal name Živčák was derived from the name for an inhabitant of the Żywiec region, just like Slezák, Polák, Rusnák and so on. It will remain unanswered whether this was a shepherd directly from Polish territory, or someone who came to Turzovka indirectly via Orava, where the name Živčák was fairly common. We know that Juraj Thurzó also invited Wallachian shepherds from Orava to his Bytča estates. As Živčáková is mentioned as early as 1616, it is likely that the shepherd came to the area before Turzovka was founded or at the time it was being established. The correct name of the locality is therefore Živčáková, not Živčák, as it has sometimes been given since about the middle of the 20th century. Živčák is a personal name; Živčákova hora (Živčák&#39;s hill), shortened to Živčáková, is the name of the hill – an oronym.</p>\n<p>Project name: In the footsteps of the cultural and natural heritage of the Czech-Slovak</p>\n<p><img src=\"/assets/images/migrated/obalka-03.png\" alt=\"\"></p>\n<p>region,</p>\n<p>Project code: NFP304030BMA2</p>"
+        }
+      },
       "url": "/castles/najstarsie-zmienky-o-zivcakovej/",
       "urlAliasy": []
     },
@@ -7355,6 +8254,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/vodna-pila-vincenta-hrtusa/",
         "pl": "https://www.qrlink.sk/new/pl/castles/vodna-pila-vincenta-hrtusa/",
         "hu": "https://www.qrlink.sk/new/hu/castles/vodna-pila-vincenta-hrtusa/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Vincent Hrtús's Water-Powered Sawmill",
+          "text": "<p>At the turn of the 1920s and 1930s a water-powered sawmill in the Vyšný Koniec part of the town was owned by Ján Cvek. In 1932 the master carpenter Vincent Hrtús applied for a water-use permit for a mill and sawmill. A hearing on the matter was held a year later, on the basis of which the County Office in Trenčín issued him a water-rights permit for the mill and sawmill at the beginning of 1944. The sawmill had been neglected by the previous owner, and the new owner had to renovate a great deal. The sawmill ran on water power only at higher water levels. V. Hrtús sawed timber for private customers, but mainly for Kováčik, a regular timber and lumber trader from Turzovka. When it was impossible to work for lack of water, he rebuilt the sawmill and its equipment, adapting everything to water power. The sawmill&#39;s work and the timber stores were threatened by floods, which also destroyed the weir for the mill race. A great flood occurred, for example, on 31 May 1940, when the water swept away bridges, footbridges and land. At that time it also caused great damage to V. Hrtús, washing away timber from his store at Vyšný Koniec. Despite the problems he ran the sawmill until 1949, when his machines were sealed and the sawmill was banned from operating. V. Hrtús proposed to the then village leadership that he would build a “Wallachian sawmill” on the spot as a technical monument and a reminder of the time when work in the area was done primitively with just a single saw in the frame. His proposal was rejected. He returned to carpentry and lived to the age of 94. He is buried in Lendak, where his son Anton worked as a priest. All that remains of the former sawmill here is an abandoned wheel.</p>\n<p>Project name: In the footsteps of the cultural and natural heritage of the Czech-Slovak</p>\n<p><img src=\"/assets/images/migrated/obalka-03.png\" alt=\"\"></p>\n<p>region,</p>\n<p>Project code: NFP304030BMA2</p>"
+        }
       },
       "url": "/castles/vodna-pila-vincenta-hrtusa/",
       "urlAliasy": []
@@ -7384,6 +8289,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/mimoriadne-udalosti-na-uzemi-turzovky/",
         "hu": "https://www.qrlink.sk/new/hu/castles/mimoriadne-udalosti-na-uzemi-turzovky/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Extraordinary Events in the Turzovka Area",
+          "text": "<p>From a historical point of view, in 1958 the Turzovka parish did not experience a completely new, previously unknown situation, because two events of a similar kind are documented. The inhabitants first encountered an alleged apparition as early as 1764. St Anne is said to have appeared to a 12-year-old girl at a small well in the village of Vysoká (then still a branch of the Turzovka parish). The event was dealt with at the congregation of the Bytča deanery on 18 September 1764 in Predmier. The minutes state that news of the case spread quickly and stirred up the whole area. Here too people began to visit the place in large numbers, and many pilgrims came from Moravia. In the end it turned out to be a fraud, and after being admonished by the parish priest the girl withdrew her claims. The priests were to explain to the faithful that it was an invention and to stop them from visiting the place. Nevertheless, the tradition survived in the village, and in 1911 a chapel was built on the spot, where a pilgrimage is held every year in modern times.</p>\n<p>Other extraordinary phenomena were documented in the second half of the 19th century. In what is today the Hlinené part of Turzovka, a picture of the Virgin Mary was nailed to a post, and the place was sacred to the local people. They gathered here, prayed and held processions, and visited the place in times of drought or spreading disease. Although there is no direct mention of an apparition of the Virgin Mary here, several allegedly miraculous healings are documented in writing; they were recorded in the municipal register (which has not survived) and we know of them only thanks to the description by the then parish priest of Turzovka, František Taganí, with which he supported his parishioners&#39; request to the Bishop of Nitra to build a chapel on the spot. Since 1872 the Chapel of the Most Sacred Heart of the Virgin Mary has stood here. Over time, however, the tradition fell into oblivion.</p>\n<p>Project name: In the footsteps of the cultural and natural heritage of the Czech-Slovak</p>\n<p><img src=\"/assets/images/migrated/obalka-03.png\" alt=\"\"></p>\n<p>region,</p>\n<p>Project code: NFP304030BMA2</p>"
+        }
+      },
       "url": "/castles/mimoriadne-udalosti-na-uzemi-turzovky/",
       "urlAliasy": []
     },
@@ -7411,6 +8322,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/udajne-zjavenia-na-zivcakovej-matusovi-lasutovi/",
         "pl": "https://www.qrlink.sk/new/pl/castles/udajne-zjavenia-na-zivcakovej-matusovi-lasutovi/",
         "hu": "https://www.qrlink.sk/new/hu/castles/udajne-zjavenia-na-zivcakovej-matusovi-lasutovi/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The Alleged Apparitions on Živčáková to Matúš Lašút",
+          "text": "<p>Unlike the previous cases, the case of 1958 not only did not fall into oblivion even during the harsh opposition of the former regime, but after its fall Živčáková became an officially recognised Marian pilgrimage site. The alleged apparitions of the Virgin Mary to the forester Matúš Lašút gradually attracted worldwide attention among believers. The then parish priest and dean of Turzovka, K. Točík, noted in the parish chronicle: “<em>At Vyšný Koniec in Turzovka our parishioner Matúš Lašút boasted that the Virgin Mary had appeared. Accordingly, he began to attend holy mass zealously. Every day from 6 a.m. he was already in the church and was present at all masses. … Nothing has so far confirmed the alleged apparition of the said Lašút. This is supposed to have happened in the months of June, July, August, September, October and November 1958</em>.” On 18 December 1958 the parish priest informed his bishop in Nitra about the case. The bishop approved his stance and instructed him to inform the faithful that, after examining the case, the church hierarchy had become convinced that it was not a supernatural apparition. Bishop Nécsey also banned visits to Živčáková. The very day after the apparitions were made public (8 September – the Feast of the Nativity of the Virgin Mary), about a thousand people gathered on the hill. M. Lašút was also present and was summoned to Čadca for questioning. According to his testimony, he was driven from place to place within the district to confuse and exhaust him. On Friday 12 September he was taken to the psychiatric hospital in Bytčica, where he ended up in so-called protective treatment. From 18 November he was examined by an expert commission of doctors at the psychiatric department of the Regional Institute of National Health in Žilina. In June 1959 he was released from protective treatment, but in September he was detained again and taken to Bytčica, where he stayed until November 1960. In September 1961 he was detained once more, and his house was searched. He was taken to Bytčica and, after two weeks, to the psychiatric hospital in Kosmonosy in Bohemia. From there he was released on 12 December 1961 as healthy, but burdened with a vision of the Mother of God. Judicial investigations and proceedings were also conducted against him. After his return from Kosmonosy he was no longer examined by doctors, but his life was negatively affected by various measures. His family also felt the social exclusion keenly.</p>\n<p>Project name: In the footsteps of the cultural and natural heritage of the Czech-Slovak</p>\n<p><img src=\"/assets/images/migrated/obalka-03.png\" alt=\"\"></p>\n<p>region,</p>\n<p>Project code: NFP304030BMA2</p>"
+        }
       },
       "url": "/castles/udajne-zjavenia-na-zivcakovej-matusovi-lasutovi/",
       "urlAliasy": []
@@ -7440,6 +8357,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/vyvoj-do-roku-1989/",
         "hu": "https://www.qrlink.sk/new/hu/castles/vyvoj-do-roku-1989/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Developments up to 1989",
+          "text": "<p>While Lašút was being examined by doctors, pilgrims kept coming to Živčáková; they built small altars there, hung crosses and holy pictures on the trees, and various devotions were held. Attendance was usually higher on Sundays and on Marian feasts. For this reason, on 22 August 1961 Bishop E. Nécsey issued a decree tightening his original ban. But even this weighty document did not help, and the faithful did not respect it – especially believers from more distant parts of Slovakia, Moravia, Bohemia and abroad. There are reports that at first the faithful did not respect the ban because they considered it forced by the state administration. It is questionable to what extent Bishop Nécsey acted on his own decision and to what extent he simply had to act. Many surviving materials in which measures were taken to liquidate the Živčáková pilgrimage site show that the state authorities forced him to issue constantly repeated appeals and decrees. A meeting at the District Committee of the Communist Party of Slovakia in Čadca on 9 September 1967 noted that activity on Živčáková was reaching wide proportions and that the regulations issued until then were not being respected. At the beginning of 1968 the Bishop of Nitra sent a circular to the parishes informing them that his previous bans had been lifted. The ban on believers visiting the site was also lifted. One can only discuss to what extent the bishop&#39;s decision was influenced by the general social development that culminated in the Prague Spring and the reform process stopped by the events of 21 August 1968. The Bishop of Nitra, however, did not live to see that; he died in Nitra on 19 June 1968.</p>\n<p>Apparently with the onset of “normalisation”, the numbers of pilgrims fell considerably at the beginning of the 1970s, as a 1973 information report of the StB (State Security) states that attendance on the hill had been declining since 1971. However, people kept visiting Živčáková. They were not only locals or believers from Bohemia and Slovakia but also foreigners, especially from Austria and Germany. The site was constantly monitored by the state authorities and the StB throughout the 1970s and 1980s.</p>\n<p>Project name: In the footsteps of the cultural and natural heritage of the Czech-Slovak</p>\n<p><img src=\"/assets/images/migrated/obalka-03.png\" alt=\"\"></p>\n<p>region,</p>\n<p>Project code: NFP304030BMA2</p>"
+        }
+      },
       "url": "/castles/vyvoj-do-roku-1989/",
       "urlAliasy": []
     },
@@ -7468,6 +8391,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/castles/stavba-kaplnky-a-putnicke-miesto/",
         "hu": "https://www.qrlink.sk/new/hu/castles/stavba-kaplnky-a-putnicke-miesto/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "The Building of the Chapel and the Pilgrimage Site",
+          "text": "<p>As early as September 1989 a notebook with a petition for building a chapel, containing about 600 signatures, appeared on one of the small altars. In November of that year the Communist regime collapsed and the transition to a free democratic society followed. Believers were also encouraged by the visit of Pope John Paul II in April 1990, when he also came to Bratislava. As the Bishop&#39;s Office in Nitra received many letters in which believers asked for a chapel to be built on Živčáková hill, in 1992 the bishop gave preliminary consent for its construction. The chapel was designed by the architect Marián Goč. During 1993 the Chapel of the Virgin Mary, Queen of Peace, was built. The first holy mass here was celebrated on the Turzovka parish feast on 15 August 1993 by the then parish priest of Turzovka, Ivan Mahrík, who did a great deal for the building of the chapel and the development of the pilgrimage site itself. On Sunday 17 October 1993 the chapel was solemnly consecrated; the mass was celebrated, on behalf of Cardinal Ján Korec, by the then dean of Čadca, Milan Kavor.</p>\n<p>Even after the change of regime, the Church supported this place only as a place of Marian devotion and prayer. In this spirit, in 2008 Živčáková hill was officially declared a Marian pilgrimage site and place of prayer by the diocesan Bishop of Žilina. A year later construction began on the pilgrimage Church of the Virgin Mary, Mother of the Church. Work on this magnificent building was completed in 2015, and the solemn consecration took place on 4 October in the presence of many guests and a great number of pilgrims. Next to the church, the Marta retreat and pastoral house is being built; part of it will be reserved for the members of the religious order who have spiritual care of the pilgrimage site, and part will serve the needs of believers, the accommodation of pilgrims and so on.</p>\n<p>The spiritual administration on Živčáková hill was established in 2012 and is entrusted to members of the Congregation of the Missionaries of the Sacred Hearts of Jesus and Mary. Since 2018 it has been part of the Turzovka deanery of the Diocese of Žilina.</p>\n<p>Project name: In the footsteps of the cultural and natural heritage of the Czech-Slovak</p>\n<p><img src=\"/assets/images/migrated/obalka-03.png\" alt=\"\"></p>\n<p>region,</p>\n<p>Project code: NFP304030BMA2</p>"
+        }
+      },
       "url": "/castles/stavba-kaplnky-a-putnicke-miesto/",
       "urlAliasy": []
     },
@@ -7492,6 +8421,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/zastavka-1-autonomna-zeleznicna-zastavka-v-sr/",
         "pl": "https://www.qrlink.sk/new/pl/zastavka-1-autonomna-zeleznicna-zastavka-v-sr/",
         "hu": "https://www.qrlink.sk/new/hu/zastavka-1-autonomna-zeleznicna-zastavka-v-sr/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The Stop – The First Autonomous Railway Stop in Slovakia",
+          "text": "<div class=\"video-embed\"><iframe src=\"https://www.youtube.com/embed/Rvd2X_QsYyg\" title=\"Video\" loading=\"lazy\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></div>"
+        }
       },
       "url": "/zastavka-1-autonomna-zeleznicna-zastavka-v-sr/",
       "urlAliasy": []
@@ -7520,6 +8455,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/kov/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/kov/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Metal",
+          "text": "<p>Metals can be recycled endlessly and belong in the red containers. In some places they are collected together with plastics or with multi-layer composite packaging (e.g. beverage cartons).</p>\n<p><strong>This container is for</strong> metal packaging, cans, metal products and parts, aluminium foil, aluminium drink cans, ferrous and non-ferrous metal parts and all metals marked with the FE 40 and ALU 41 symbols.</p>\n<p><strong>This container is not for</strong> metal packaging combined with other packaging, e.g. toothpaste tubes, or metals heavily soiled with food remains, paints and various chemical and toxic substances.</p>\n<p><em>Source: <a href=\"https://sk.wikipedia.org/wiki/Kov\">Wikipedia</a></em></p>"
+        }
+      },
       "url": "/environmental-upbringing-and-education/kov/",
       "urlAliasy": []
     },
@@ -7546,6 +8487,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/sklo/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/sklo/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/sklo/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Glass",
+          "text": "<p>Glass can be recycled practically endlessly. Glass waste belongs in the green container, and before throwing it away the packaging should be emptied of food or liquid residues.</p>\n<p><strong>The green containers are for</strong> glass drink and food packaging, jars, glass objects, cosmetics bottles, window glass, broken glass, and packaging with the recycling symbol and code GL 70, 71 and 72.</p>\n<p><strong>They are not for</strong>: porcelain, ceramics, car glass, mirrors, TV screens, chemical bottles, very dirty bottles and glass packaging (especially with sand), medicine bottles, light bulbs and fluorescent tubes, or glass combined with another material (wired glass).</p>\n<p>Separate collection of clear and coloured glass is becoming more and more common. Most often a divided container is used, with one half for clear and the other for coloured glass. In some places there may be two separate containers for clear and coloured glass instead of a divided one.</p>\n<p><strong>Clear glass:</strong> only clear bottles, jars and other clear, uncoloured glass.</p>\n<p><strong>Coloured (mixed) glass:</strong> brown, green, grey and blue bottles, medicine bottles, sheet glass (even clear, because of its chemical composition) and white (milk) glass.</p>\n<p>If there is only one glass container, clear and coloured glass are not separated and everything goes into one container.</p>\n<p><em>Source: <a href=\"https://sk.wikipedia.org/wiki/Sklo\">Wikipedia</a></em></p>"
+        }
       },
       "url": "/environmental-upbringing-and-education/sklo/",
       "urlAliasy": []
@@ -7574,6 +8521,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/bio/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/bio/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Bio",
+          "text": "<h2>Biowaste</h2>\n<p>The biowaste container is brown and is labelled as biodegradable waste.</p>\n<p><strong>The brown container is for</strong> biodegradable waste such as fruit and vegetable scraps, peels, coffee grounds and tea leaves, grass, small tree branches, flowers and leaves.</p>\n<p><strong>It is not for</strong> hair, ash, leftover food and meat, bones, plastic bags, stones, eggshells and other non-degradable waste.</p>\n<p><em>Source: <a href=\"https://sk.wikipedia.org/\">Wikipedia</a></em></p>"
+        }
+      },
       "url": "/environmental-upbringing-and-education/bio/",
       "urlAliasy": []
     },
@@ -7601,6 +8554,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/plast/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/plast/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Plastic",
+          "text": "<h2>Plastics</h2>\n<p>Plastics are made from crude oil and are the most common household waste. They make up probably the largest share of sorted waste. Mainly thermoplastics, from which most packaging is made, can be reprocessed. Plastics are also further sorted.</p>\n<p><strong>The yellow container is for</strong> PET drink bottles (first reduce their volume, e.g. by stepping on or squeezing them), tubs, sweet wrappers, plastic bags (including thin ones), clear and coloured films, polystyrene, vending machine cups and other plastic containers and packaging with the recycling symbol and code PET (1), LDPE (2), HDPE (4), PP (5), PS (6).</p>\n<p><strong>It is not for</strong> PET bottles from cooking oils, PVC pipes, packaging from hazardous substances (motor oil, chemicals, paints, etc.), medicine containers, synthetic textiles, floor coverings, linoleum, rubber, foam, tyres or multi-layer packaging.</p>\n<p>In some towns beverage cartons can also be put in the plastics containers, which is indicated on the bin.</p>\n<p><em>Source: <a href=\"https://sk.wikipedia.org/wiki/Plast\">Wikipedia</a></em></p>"
+        }
+      },
       "url": "/environmental-upbringing-and-education/plast/",
       "urlAliasy": []
     },
@@ -7627,6 +8586,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/papier/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/papier/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/papier/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Paper",
+          "text": "<p>Depending on its quality, paper can be recycled 6 or sometimes even 7 times. The thin fibres that make up paper become shorter with each recycling, which lowers their quality and the possibility of recycling them again. Boxes should be flattened before being thrown away so they do not take up much space in the container.</p>\n<p><strong>The blue container is for</strong> newspapers, magazines, office paper, advertising leaflets, boxes (if not combined with another material, e.g. aluminium or cellophane), cardboard, paper bags, envelopes, paperboard, books without bindings, and packaging with the recycling symbol and code PAP 20, 21 and 22.</p>\n<p><strong>The paper container is not for</strong> wet, greasy and soiled paper, carbon and waxed paper, hardback books, beverage cartons, asphalt and tarred paper, used nappies and hygiene products, carbon copy and self-copying paper.</p>\n<p><em>Source: <a href=\"https://sk.wikipedia.org/wiki/Papier\">Wikipedia</a></em></p>"
+        }
       },
       "url": "/environmental-upbringing-and-education/papier/",
       "urlAliasy": []
@@ -8775,6 +9740,10 @@ const DB = {
         "cs": {
           "nazov": "Jurkovičova rozhledna",
           "text": "<p>Jméno rozhledna získala podle slovenského architekta Dušana Sámo Jurkoviče, který v této oblasti zanechal výraznou stopu. Ačkoliv původní myšlenka, vybudovat rozhlednu, pochází ze 60. let 20. století, k její realizaci došlo až v letech 2010-11. Otevřena 28. 04. 2012. Stavba je vysoká 31 metrů. Vyhlídková plošina ve výšce 18,8 m, rozhledna má 102 schodů. Základnu rozhledny tvoří kamenná podezdívka a na ní je posazená dřevěná konstrukce zakončená věžovitou osmistěnnou nástavbou. Z vyhlídkového ochozu se vám naskytne výhled nejen na okolní obce, ale jako na dlani na dlani budete mít město Rožnov pod Radhoštěm.</p>"
+        },
+        "en": {
+          "nazov": "Jurkovič Lookout Tower",
+          "text": "<p>The lookout tower was named after the Slovak architect Dušan Samo Jurkovič, who left a significant mark on this area. Although the original idea of building a lookout tower dates from the 1960s, it was only realised in 2010 – 2011. It was opened on 28 April 2012. The structure is 31 metres high, the viewing platform is at a height of 18.8 m and the tower has 102 steps. The base of the tower is a stone plinth on which sits a wooden structure topped with a tower-like octagonal superstructure. From the viewing gallery you have a view not only of the surrounding villages – the town of Rožnov pod Radhoštěm lies before you as if on the palm of your hand.</p>"
         }
       },
       "url": "/jurkovicova-rozhladna/",
@@ -8808,6 +9777,10 @@ const DB = {
         "cs": {
           "nazov": "Zřícenina hradu Hradisko",
           "text": "<p>Hrad Rožnov byl postaven v 2. polovině 14. století. Pro jeho stavbu bylo vybráno vhodné místo na vrchu Hradisko (522 m n. m.). Jeho funkcí byla ochrana hranic s Uhry. Hrad byl od 14. do 17. století několikrát rozšiřován. První zmínka o hradu byla objevena v listině Voka z Kravař, později byl v majetku pánů z Cimburka a na konci 15. století pánů z Pezinku. V roce 1505 jej získali Kunštátové a roku 1526 Jaroslav ze Šelenberka. V roce 1535 získal hrad Jan z Pernštejna, ale již v roce 1539 byl z příkazu krále Ferdinanda I. obsazen a pobořen, neboť se na něm usídlila loupeživá tlupa. Později byl hrad provizorně opraven a ještě v roce 1660 sloužil panským úředníkům. Na konci 17. století byl opuštěn úplně. Zkázu hradu dokonali sami obyvatelé Rožnova. Ve druhé polovině 19. století dostali povolení obecního úřadu zbytky hradu rozebrat pro stavby svých obydlí ”aby také nějak té památky oučastní byli“.</p>\n<p>Od roku 1964 jsou chráněny jako kulturní památka. Dochovaly se zbytky zdí, brána, příkop s valem a část podzemí.</p>"
+        },
+        "en": {
+          "nazov": "Ruins of Hradisko Castle",
+          "text": "<p>Rožnov Castle was built in the second half of the 14th century. A suitable site on Hradisko hill (522 m) was chosen for its construction. Its role was to protect the border with Hungary. From the 14th to the 17th century the castle was extended several times. The first mention of the castle was found in a charter of Vok of Kravaře; later it belonged to the lords of Cimburk and, at the end of the 15th century, to the lords of Pezinok. In 1505 it was acquired by the lords of Kunštát and in 1526 by Jaroslav of Šelmberk. In 1535 Jan of Pernštejn acquired the castle, but as early as 1539 it was occupied and demolished on the orders of King Ferdinand I, because a band of robbers had settled in it. Later the castle was provisionally repaired and still served the manorial officials in 1660. At the end of the 17th century it was completely abandoned. The destruction of the castle was completed by the inhabitants of Rožnov themselves. In the second half of the 19th century they received permission from the municipal office to dismantle the remains of the castle to build their dwellings, “so that they too might somehow have a share in the monument”.</p>\n<p>Since 1964 the remains of the castle have been protected as a cultural monument. Remains of walls, a gate, a moat with a rampart and part of the underground have survived.</p>"
         }
       },
       "url": "/zrucanina-hradu-hradisko/",
@@ -8841,6 +9814,10 @@ const DB = {
         "cs": {
           "nazov": "Valašské muzeum v přírodě",
           "text": "<p>Valašské muzeum v přírodě je nejstarším a největším skanzenem ve střední Evropě. Skládá se ze tří samostatných areálů – Valašské dědiny, Dřevěného městečka a Mlýnské doliny. Najdete zde původní domy a předměty ze všech koutů Beskyd nebo jejich precizní kopie. V areálu se natáčelo mnoho filmů a pohádek a pravidelně se zde konají různé tématické kulturní akce. </p>\n<p>Od 11. 12. 2018 je areál součástí Národního muzea v přírodě.</p>\n<p>V podhorském městě Rožnově pod Radhoštěm rozprostírajícím se na úpatí Beskyd stojí Valašské muzeum v přírodě, první a až do 70. let 20. století jediné muzeum svého typu v naší zemi. O jeho vznik se zasloužili členové rožnovského muzejního spolku, zejména sourozenci Alois a Bohumír Jaroňkovi. Již před první světovou válkou předložili plány na přenesení několika roubených staveb do městského parku. Uskutečnit své cíle se jim však podařilo až při přípravách národopisné slavnosti v roce 1925. Na mýtinku lázeňského parku byly tehdy <strong>přestěhovány dva roubené domy z rožnovského náměstí</strong> spolu s dalšími menšími stavbami a v prostorách mezi nimi se odehrála velkolepá folklorní slavnost zvaná <strong>Valašský rok</strong>. Vznikl tak <strong>základ areálu Dřevěné městečko</strong>, který byl postupně rozšiřován o další dřevěné stavby a zároveň takto bylo založeno jedinečné nové muzeum – Valašské muzeum v přírodě.</p>\n<p>Již samotní zakladatelé si uvědomovali, že městská část muzea dostatečně nevypovídá o způsobech života na celém Valašsku, a proto usilovali o realizaci <strong>vesnického areálu</strong>. Záměr na <strong>vybudování Valašské dědiny</strong> vznikl na počátku 50. let a o desetiletí později byla zahájena na rožnovské pasece zvané Stráň výstavba prvních roubených chalup a hospodářských staveb. Cílem bylo vytvořit co nepravdivější obraz valašské dědiny zasazené do rázovité valašské kulturní krajiny.</p>\n<p>Dřevěné městečko a Valašská dědina byly na počátku 80. let doplněny o třetí, <strong>technický, areál</strong> zvaný <strong>Mlýnská dolina s funkčními historickými stavbami poháněnými vodou</strong>.</p>\n<p>Dosud posledním, čtvrtým, areálem muzea se v roce 1995 staly <strong>Pustevny se zvoničkou a s objekty Maměnka a Libušín</strong>, které byly na konci 19. století vystavěny podle návrhů architekta Dušana Samo Jurkoviče a jež se staly národní kulturní památkou.</p>\n<p>Do dnešních dnů se areály průběžně rozrůstají o další historické stavby, které dokreslují malebný obraz tradičního Valašska. Podoba by však nebyla celistvá bez života v muzeu.  Nejvýraznějším rysem současného dění v  areálech je cílevědomé úsilí o jejich <strong>oživení</strong> prostřednictvím interiérových i exteriérových expozic, <strong>prezentace</strong> <strong>tradičních technologií řemeslných, zemědělských i podomáckých, lidového umění, obyčejů a folkloru</strong>. Valašské muzeum tak plní odkaz svých zakladatelů, kteří usilovali o to, aby bylo živým muzeem.</p>"
+        },
+        "en": {
+          "nazov": "Wallachian Open-Air Museum",
+          "text": "<p>The Wallachian Open-Air Museum is the oldest and largest open-air museum in Central Europe. It consists of three separate areas – the Wallachian Village, the Wooden Town and the Mill Valley. Here you will find original houses and objects from all corners of the Beskids, or their precise copies. Many films and fairy tales have been shot in the grounds, and various themed cultural events are held here regularly.</p>\n<p>Since 11 December 2018 the museum has been part of the National Open-Air Museum.</p>\n<p>In the foothill town of Rožnov pod Radhoštěm, which spreads out at the foot of the Beskids, stands the Wallachian Open-Air Museum – the first, and until the 1970s the only, museum of its kind in the Czech lands. It was founded thanks to members of the Rožnov museum society, especially the siblings Alois and Bohumír Jaroněk. Even before the First World War they presented plans to move several log buildings to the town park. However, they only managed to realise their goals during preparations for an ethnographic festival in 1925. At that time <strong>two log houses from the Rožnov square were moved</strong> to a clearing in the spa park together with other smaller buildings, and a grand folklore festival called the <strong>Wallachian Year</strong> took place in the space between them. This laid <strong>the foundation of the Wooden Town area</strong>, which was gradually extended with other wooden buildings, and at the same time a unique new museum was founded – the Wallachian Open-Air Museum.</p>\n<p>The founders themselves realised that the town part of the museum did not sufficiently reflect the way of life throughout Wallachia, so they also sought to build a <strong>village area</strong>. The plan to <strong>build the Wallachian Village</strong> arose at the beginning of the 1950s, and a decade later construction of the first log cottages and farm buildings began in a Rožnov clearing called Stráň. The aim was to create as true a picture as possible of a Wallachian village set in the distinctive Wallachian cultural landscape.</p>\n<p>At the beginning of the 1980s the Wooden Town and the Wallachian Village were complemented by a third, <strong>technical area</strong> called the <strong>Mill Valley, with working historic water-powered buildings</strong>.</p>\n<p>The latest, fourth area of the museum, since 1995, is <strong>Pustevny with its small bell tower and the Maměnka and Libušín buildings</strong>, which were built at the end of the 19th century to designs by the architect Dušan Samo Jurkovič and are a national cultural monument.</p>\n<p>To this day the areas keep growing with further historic buildings that complete the picturesque image of traditional Wallachia. Their appearance, however, would not be complete without life in the museum. The most striking feature of what goes on in the areas today is the deliberate effort to <strong>bring them to life</strong> through indoor and outdoor exhibitions and <strong>demonstrations</strong> of <strong>traditional crafts, farming and household techniques, folk art, customs and folklore</strong>. The Wallachian Museum thus fulfils the legacy of its founders, who strove for it to be a living museum.</p>"
         }
       },
       "url": "/valasske-muzeum-v-prirode/",
@@ -8874,6 +9851,10 @@ const DB = {
         "cs": {
           "nazov": "Kaple sv. Cyrila a Metoděje",
           "text": "<p>Kaple se sousoším věrozvěstů Cyrila a Metoděje postavená v roce 1898 v byzantském slohu, kteří toto místo podle staré pověsti navštívili. Před kaplí stojí bronzové sousoší sv. Cyrila a Metoděje od Albína Poláška z roku 1931. Hlavní pouť se koná 5. 7. Zvonice kaple slouží jako rozhledna.</p>"
+        },
+        "en": {
+          "nazov": "Chapel of Saints Cyril and Methodius",
+          "text": "<p>The chapel with the statue group of the missionaries Cyril and Methodius, who according to an old legend visited this place, was built in 1898 in the Byzantine style. In front of the chapel stands a bronze statue group of Saints Cyril and Methodius by Albín Polášek from 1931. The main pilgrimage takes place on 5 July. The chapel&#39;s bell tower serves as a lookout tower.</p>"
         }
       },
       "url": "/kaple-sv-cyrila-a-metodeje/",
@@ -8907,6 +9888,10 @@ const DB = {
         "cs": {
           "nazov": "Socha Radegasta",
           "text": "<p>Původní sochu Radegasta vytvořil sochař Albín Polášek z betonu a kameninové drti. Na horský hřbet mezi Pustevnami a Radhoštěm byla umístěna v roce 1931. Horské podnebí sochu narušovalo, a proto byla v roce 1996 přesunuta do haly radnice ve Frenštátu pod Radhoštěm a na jejím místě stojí od roku 1998 kopie z odolnější žuly.</p>\n<p>Radegasta uctívali pohané jako boha slunce, hojnosti a úrody. Albín Polášek jej ztvárnil jako postavu s mužským tělem a lví hlavou, na které má nasazenou přilbu s býčími rohy. V pravé ruce svírá roh hojnosti, levou se opírá o sekyru.</p>"
+        },
+        "en": {
+          "nazov": "Statue of Radegast",
+          "text": "<p>The original statue of Radegast was created by the sculptor Albín Polášek from concrete and crushed stoneware. It was placed on the mountain ridge between Pustevny and Radhošť in 1931. The mountain climate damaged the statue, so in 1996 it was moved to the hall of the town hall in Frenštát pod Radhoštěm, and since 1998 a copy made of more durable granite has stood in its place.</p>\n<p>The pagans worshipped Radegast as the god of the sun, abundance and harvest. Albín Polášek depicted him as a figure with a man&#39;s body and a lion&#39;s head, wearing a helmet with bull&#39;s horns. In his right hand he holds a horn of plenty, and with his left he leans on an axe.</p>"
         }
       },
       "url": "/socha-radegasta/",
@@ -8940,6 +9925,10 @@ const DB = {
         "cs": {
           "nazov": "Chata Maměnka a Libušín",
           "text": "<p>Chata Maměnka byla vystavěna, stejně jako sousední chata Libušín, podle návrhů architekta Dušana Jurkoviče v roce 1898. Výrazně zdobená lidově secesní budova s prvky valašské architektury dnes slouží jako hotel. Stavba je národní kulturní památkou.</p>\n<p>Chata Libušín, jedna z dominant horského sedla Pustevny, byla vystavěna podle návrhů architekta Dušana Jurkoviče v roce 1898. Chata je vystavěna ve stylu tzv. lidové secese s prvky valašské architektury. Obzvláště vzácnou byla jídelna zdobená freskami a grafity s motivy moravských a slovenských pověstí, kterou však v roce 2014 velmi poškodil požár celé budovy. </p>\n<p>V roce 1995 byla vyhlášena národní kulturní památkou. V srpnu 2020 byla znovuotevřena.</p>\n<p>Zeměpisné souřadnice: 49.4894975N, 18.2658172E; nadmořská výška 1 018 m n. m.</p>\n<p>Zeměpisné souřadnice: 49.4896744N, 18.2654061E; nadmořská výška 1 018 m n. m.</p>"
+        },
+        "en": {
+          "nazov": "Maměnka and Libušín Chalets",
+          "text": "<p>The Maměnka chalet, like the neighbouring Libušín chalet, was built in 1898 to designs by the architect Dušan Jurkovič. The richly decorated folk Art Nouveau building with elements of Wallachian architecture now serves as a hotel. The building is a national cultural monument.</p>\n<p>The Libušín chalet, one of the landmarks of the Pustevny mountain saddle, was built in 1898 to designs by the architect Dušan Jurkovič. It is built in the so-called folk Art Nouveau style with elements of Wallachian architecture. Particularly precious was the dining room, decorated with frescoes and sgraffiti depicting Moravian and Slovak legends, which was, however, badly damaged in 2014 when a fire struck the whole building.</p>\n<p>In 1995 it was declared a national cultural monument. It reopened in August 2020.</p>\n<p>Geographic coordinates: 49.4894975N, 18.2658172E; altitude 1,018 m above sea level.</p>\n<p>Geographic coordinates: 49.4896744N, 18.2654061E; altitude 1,018 m above sea level.</p>"
         }
       },
       "url": "/chata-mamenka-a-libusin/",
@@ -9936,6 +10925,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/mestsky-park/",
         "hu": "https://www.qrlink.sk/new/hu/mestsky-park/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Town Park",
+          "text": "<p>The historic park in Trebišov is one of the most important creations of the social and cultural atmosphere of past centuries. At the same time it documents the ethical relationship between past, present and future generations. The park grew out of the original floodplain forest and covers an area of 62 ha. It contains both historic and self-seeded greenery made up of conifers, broadleaf trees, shrubs and plants. The common yew is especially valuable; oriental arborvitae, northern white cedar, black pine, Scots pine, Norway spruce, blue spruce and others are widespread. The most important broadleaf trees are the London plane, horse chestnut, bird cherry, common ash, pedunculate oak, sessile oak, European beech, hornbeam, field elm, small-leaved lime, black alder, black locust, various kinds of maples, poplars and others.</p>\n<p>The beginnings of the park&#39;s landscaping date back to the last third of the 18th century and are connected with the construction of the Trebišov manor house. Within the historic park and in its immediate surroundings there are other cultural monuments: Parič Castle, the foundations of the medieval Church of the Holy Spirit, the Roman Catholic Church of the Visitation of the Virgin Mary, the Greek Catholic Church of the Dormition of the Most Holy Mother of God, the Pauline monastery, the manor house with its farm buildings, the Mausoleum of Count Gyula Andrássy, the Immaculata statue group and archaeological sites from prehistory and the Middle Ages. The Trebišov park has benefited the town above all by isolating and protecting historically valuable buildings and parts of the town from haphazard development over the last two centuries, and also by creating a valuable environment with rare trees in the middle of the town. In the centre of the historic park lies the lowland water castle of Parič (Arx Paris, Castrum Paris).</p>"
+        }
+      },
       "url": "/mestsky-park/",
       "urlAliasy": []
     },
@@ -9962,6 +10957,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/mauzoleum-grofa-juliusa-andrassyho/",
         "pl": "https://www.qrlink.sk/new/pl/mauzoleum-grofa-juliusa-andrassyho/",
         "hu": "https://www.qrlink.sk/new/hu/mauzoleum-grofa-juliusa-andrassyho/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Mausoleum of Count Gyula Andrássy",
+          "text": "<p>One of the most valuable protected cultural monuments in Trebišov is the Mausoleum of Count Gyula (Július) Andrássy. It was built in 1893 in the Neo-Gothic style to a design by the German architect Arthur Meinig.</p>\n<p>The mausoleum contains the marble sarcophagus of Gyula Andrássy, Katalin Kendeffy and their mourning daughter Helena, the work of the Budapest sculptor György Zala from 1893 – 1895. The four corners of the sarcophagus are held by lionesses. On its lid is a bronze statue of an angel with outstretched wings holding a ribbon with the Latin inscription: Beati mortui qui in Domino moriuntur. Opera enim illorum sequuntur illos – “Blessed are the dead who die in the Lord, for their works follow them”.</p>\n<p>Bronze cartouches in front of the angel are decorated with the family coats of arms of Gyula Andrássy and his wife Countess Katalin Kendeffy (1830 – 1896). On the steps leading to the sarcophagus, a bronze figure of their daughter Ilona (1858 – 1952) kneels on a cushion. Count Gyula Andrássy himself is also buried in the mausoleum (he died in 1890 and was first buried in the crypt of the Roman Catholic church).</p>\n<p>His coffin was moved from the crypt of the Roman Catholic church to the mausoleum in 1894. According to legend, in 1895 Empress Elisabeth (Sisi) herself visited his grave in Trebišov and left a beautiful silver bouquet here. The interior also includes the pewter coffin of his son Tivadar and a wooden Neo-Gothic offering table. Tivadar Andrássy also took part in the artistic design. The building has a square ground plan with buttresses at the corners topped with pinnacles and gabled caps. The main cornice, decorated with an attic balustrade, is complemented by winged angel heads, which most people associate rather with the Baroque. But there are also stone gargoyles depicting mythical animals typical of the Gothic style. They drain water from the roof dome, which is crowned by a wrought Latin cross. On the northern side of the mausoleum there was originally a painting called “Three Mourning Women under the Cross” by Mihály Munkácsy. Katalin Kendeffy later donated it to the Hungarian National Gallery in Budapest; today the mausoleum holds a replica of the original. The mausoleum is one of the most beautiful Neo-Gothic buildings in Slovakia.</p>"
+        }
       },
       "url": "/mauzoleum-grofa-juliusa-andrassyho/",
       "urlAliasy": []
@@ -9990,6 +10991,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/pavlinsky-klastor/",
         "hu": "https://www.qrlink.sk/new/hu/pavlinsky-klastor/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Pauline Monastery",
+          "text": "<p>When Eusebius, a canon of the Esztergom chapter, united individually living hermits in 1225 following the example of St Paul the Hermit, he had no idea that he was laying the foundations of the only originally Hungarian male religious order – the Paulines. The order was constituted in the Archdiocese of Esztergom in 1256, and its existence was confirmed by Pope Clement V, who approved its rule in 1308. Thus the only originally Hungarian order, the Paulines, came into being, and it also had a monastery in Trebišov. Trebišov, however, entered the history of the Pauline order only almost two centuries after its founding. One of the most influential Perényis, Palatine Imre, had a two-storey monastery built in Trebišov in 1502. In 1504 he invited the Paulines there and, with the king&#39;s consent, gave them the villages of Sáros and Olaszi and a water mill on the Bodrog.</p>\n<p>The I-shaped Renaissance monastery building was directly attached to the church by its southern wing. Groin vaults have survived in some of its rooms. Mária Spoločníková discovered interesting fragments under the plaster. The stone frames of the connecting doors are also remarkable. The monastery was completed by a courtyard with a well and a garden, which was part of its life.</p>\n<p>The monastery was restored several times in the past. The façade was renewed in 1678 and 1720, and its articulation was carried out in 1876. The original monastery had Renaissance sgraffiti on its outer walls. When Joseph II abolished the Pauline order in 1786, the monastery lost its original purpose and was used for various purposes. At the time of its dissolution, the property of the seven monks living in the monastery amounted to 94,261 gold coins.</p>\n<p>Today the monastery building houses a primary art school and the Roman Catholic parish office. The building is not marked as a listed monument.</p>"
+        }
+      },
       "url": "/pavlinsky-klastor/",
       "urlAliasy": []
     },
@@ -10016,6 +11023,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/barokovo-klasicisticky-kastiel/",
         "pl": "https://www.qrlink.sk/new/pl/barokovo-klasicisticky-kastiel/",
         "hu": "https://www.qrlink.sk/new/hu/barokovo-klasicisticky-kastiel/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Baroque-Classicist Manor House",
+          "text": "<p>The late Baroque manor house, later remodelled in the Classicist style, was built in 1786 by Count Imrich Csáky. It is a two-storey building constructed 100 years after the destruction of Parič Castle. Some of the material from this castle was used in its construction.</p>\n<p>The manor house has two side Baroque towers on its front, which were added in the last third of the 19th century. The façade is divided by lesenes, and its dominant features are a Baroque gable and a representative balcony supported by eight Classicist columns. The Baroque gable of the central projection bears a relief coat of arms of the Csáky family. Next to it is a relief emblem symbolising hunting, so it was probably a hunting lodge. This is confirmed by K. Károlyi-Andrássy in her book The Red Countess Remembers. Her memories show that every year on 3 November, St Hubert&#39;s Day, grand fox hunts began in Trebišov and its surroundings.</p>\n<p>The rear part of the manor house, formed by two side wings with gabled façades, has the character of a cour d&#39;honneur. The interiors originally had mosaic parquet floors, inlaid period furniture, valuable works of art, sculptures, precious artefacts, woven curtains, valuable carpets, porcelain, silver, pewter and other luxury items. The exterior also featured artistically wrought grilles, a fence around the manor house, a balustrade, fountains and other architectural elements.</p>\n<p>In 1914 the most valuable parts of the interior were taken to Budapest and some to Tiszadob in Szabolcs County. Until the collapse of Austria-Hungary, and also after the founding of interwar Czechoslovakia, the grounds and the manor house were looked after by František Malonay, the administrator of the Andrássy estate.</p>\n<p>From 1949 to 1978 the manor house and its grounds served the Hospital and Polyclinic in Trebišov. Its original interior was considerably damaged and adapted to the needs of healthcare. After the hospital moved out, the manor house fell into disrepair for several years.</p>\n<p>In 1982 the state enterprise Pamiatkostav Žilina began reconstructing the building according to project documentation prepared by the Project Institute of Culture in Prešov. The documentation was approved, and the reconstruction financed, by the Regional Institute for the Care of Historic Monuments and Nature Conservation in Prešov. The first stage of the reconstruction was completed on 1 December 1987, when the exhibition Paths of Work and Struggles for Bread, documenting the history of agriculture in Eastern Slovakia from the Neolithic to the present, was ceremonially opened in the manor house.</p>\n<p>Today the manor house is the seat of the Local History Museum, which has its exhibitions here and in the adjacent listed buildings.</p>\n<p>The grounds of the manor house also include single-storey, originally Baroque buildings with gabled façades, which were later modified. They include the riding hall, the stable, the servants&#39; quarters, a farm building and the kitchen, which – except for the stable – have kept their Baroque stylistic features and are a natural part of this aristocratic residence.</p>\n<p>At the end of the 18th century, at the same time as the manor house was being built, a historic park began to be created from the floodplain forest. Gradually an English landscape park took shape, whose development culminated in 1890 – 1905, when the cour d&#39;honneur and the French garden were landscaped. Gazebos, fountains, aquariums, concert terraces and antique sculptures were built in some parts of the park, giving it a more cultivated character.</p>\n<p>Alongside the reconstruction and conversion of the manor house into a museum, the Regional Institute for the Care of Historic Monuments and Nature Conservation in Prešov carried out the biological restoration of the museum part of the town park. The park grew out of the original floodplain forest and covers an area of 62 ha. It contains both historic and self-seeded greenery made up of conifers, broadleaf trees, shrubs and plants. The common yew is especially valuable; oriental arborvitae, northern white cedar, black pine, Scots pine, Norway spruce, blue spruce and others are widespread. The most important broadleaf trees are the London plane, horse chestnut, bird cherry, common ash, pedunculate oak, sessile oak, European beech, hornbeam, field elm, small-leaved lime, black alder, black locust, various kinds of maples, poplars and others.</p>\n<p>Today the museum part of the park and the sections maintained by the Technical Services of the Town of Trebišov have a cultivated character. The other parts of the town park are more like a forest park. The forest park also includes the Bučov les health trail, which serves the residents and visitors of Trebišov for cycling.</p>"
+        }
       },
       "url": "/barokovo-klasicisticky-kastiel/",
       "urlAliasy": []
@@ -10044,6 +11057,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/marianske-susosie/",
         "hu": "https://www.qrlink.sk/new/hu/marianske-susosie/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Marian Statue Group",
+          "text": "<p>The Marian statue group is the work of an unknown stonemason and sculptor, dated to around 1800. Stylistically it belongs to the late Rococo with some features of Classicism. The dominant place in the group is taken by the statue of the Madonna treading on a serpent. To her right is a stone statue of St John of Nepomuk and to her left a statue of St Florian, patron and protector against fire. The statue group now stands in its third location. It originally stood in front of the manor house. Later, in 1907, it was moved to the area south of the church on the edge of the park towards the main street. At that time it was surrounded by a decorative chain on eight posts – a gift to the town from the widow of Count Theodor Andrássy.</p>\n<p>The damaged and badly deteriorated statue group was comprehensively restored in the mid-1980s by the State Restoration Workshops, which carved copies of the original sculptures and restored the less damaged parts. It was also moved to a more suitable place, the area between the Roman Catholic and Greek Catholic churches. The statue group is not marked as a listed monument.</p>"
+        }
+      },
       "url": "/marianske-susosie/",
       "urlAliasy": []
     },
@@ -10070,6 +11089,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/nizinny-vodny-hrad-paric/",
         "pl": "https://www.qrlink.sk/new/pl/nizinny-vodny-hrad-paric/",
         "hu": "https://www.qrlink.sk/new/hu/nizinny-vodny-hrad-paric/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Parič Lowland Water Castle",
+          "text": "<p>According to the results of M. Slivka&#39;s archaeological research, the first stage of construction of the early Gothic lowland water castle (probably a residential tower with fortifications) can be dated to the 12th to 13th century. This is confirmed by the examined fragments of utility pottery, a small lamp with a spout and four hearths raised about 30 cm above floor level. The polygonal shell structure of stone foundation masonry was built in the second stage of construction, at the beginning of the 14th century. Archaeological research confirmed that an early Gothic palace was built on the western side at the same time as the fortifications. Judging by the level of the floor of the upper vault, the building probably had three storeys. On the eastern side of the castle grounds a quadrangular entrance tower was built, and in the courtyard a stone-lined well with an internal diameter of 160 cm. The castle had high, thick fortifications topped with battlements and a wall walk. This second stage of construction was carried out by Philip and William Drugeth in the first half of the 14th century.</p>\n<p>With the construction of new outer fortifications, moats and other defensive elements, the castle took on the form of a more extensive manorial residence under the Perényi family in the 15th century.</p>\n<p>Parič Castle had a complicated history, full of violent changes of ownership. The turbulent era of the anti-Habsburg uprisings brought substantial changes to the architectural development of the castle, culminating in its deliberate blowing up by Imre Thököly in 1686. In the last quarter of the 18th century building material from the castle was used to build the nearby manor house, and its remains later even became a target for army exercises. All this left its mark on its condition, so that apart from the archaeologically identified structures below ground level, only a small fragment of the brick wall has survived.</p>\n<p>The remains of Parič Castle are located in a beautiful town park, the largest town park in Central Europe; nearby stand the Baroque-Classicist manor house and the Neo-Gothic Mausoleum of Count Gyula Andrássy.</p>\n<p>The location of the monument in an authentic cultural and historical setting, with a fairly intimate atmosphere of peace in the urban area of a district town, is an advantage that probably no other monument of this kind has.</p>\n<p>Of the archaeological finds from the research, the collection of stove tiles is particularly valuable – chamber, bowl, corner, trough and onion-shaped tiles from the 15th and 16th centuries. They are distinctive works of art with plant, animal, heraldic, architectural and secular motifs. Some of these tiles are in the collections of the Local History Museum in Trebišov.</p>"
+        }
       },
       "url": "/nizinny-vodny-hrad-paric/",
       "urlAliasy": []
@@ -10098,6 +11123,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/greckokatolicky-chram-zosnutia-presvatej-bohorodicky/",
         "hu": "https://www.qrlink.sk/new/hu/greckokatolicky-chram-zosnutia-presvatej-bohorodicky/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Greek Catholic Church of the Dormition of the Most Holy Mother of God",
+          "text": "<p>The construction of the Greek Catholic church in Trebišov was directly connected with the peak of the migration of people from north-eastern Upper Hungary to the more fertile parts of the Zemplín region during the Ruthenian colonisation in the 18th century and the first third of the 19th century. In 1720 Trebišov had only 36 burgher households. Uninhabited houses fell into disrepair and fields were overgrown with weeds.</p>\n<p>The register of the Greek Catholic Church, kept since 1776, mentions an old parish house, suggesting that an older church of this Eastern church existed in Trebišov. We can only assume that the original church was wooden with a thatched roof and was not sufficient for the growing number of believers after the individual waves of migration.</p>\n<p>Therefore, at the peak of the migration, on 28 August 1817, the foundation stone of a new stone church for believers of the Eastern rite was laid. The new Greek Catholic church was designed by the builder Jozef Turčáni. He designed a church whose interior met the needs of the spiritual life of the growing number of Greek Catholic believers. The church was built in 1818 – 1825. It was solemnly consecrated on 28 August 1825, on the feast of the Dormition of the Most Holy Mother of God – proof of the very strong patronage of the Virgin Mary in the town.</p>\n<p>Tragic events did not spare this church either. A natural disaster on 3 July 1844 caused the church tower to collapse; it was rebuilt in 1855. A great fire in 1876 destroyed the bells in the tower, towards which the king and the Ministry of Culture contributed. The restoration of the interior was completed in 1886, when the woodcarver Peter Kovaliczký made the iconostasis and the pulpit.</p>\n<p>The dominant icon on the iconostasis is the Dormition of the Virgin Mary. Alongside it are icons of Jesus Christ, the Mother of God and St Nicholas. In the next row of smaller icons, the Last Supper is in the centre, with the twelve main feasts of the Christian year on both sides. Icons of the twelve apostles, the prophets and the patriarchs, above them the dominant Golgotha with the Sorrowful Mother and St John, complete the composition of the whole iconostasis. With the addition of the sacristy in 1901, the purchase of an artistically valuable chandelier, ceramic tiling of the interior and the installation of stained-glass windows (1907), the completion of the church was practically finished. To replace the three bells requisitioned during the First World War, a large bell named Georgij was bought in the 1920s. The fence with a wrought decorative tower was completed and installed in 1903.</p>"
+        }
+      },
       "url": "/greckokatolicky-chram-zosnutia-presvatej-bohorodicky/",
       "urlAliasy": []
     },
@@ -10125,6 +11156,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/rimskokatolicky-kostol-navstevy-panny-marie/",
         "hu": "https://www.qrlink.sk/new/hu/rimskokatolicky-kostol-navstevy-panny-marie/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Roman Catholic Church of the Visitation of the Virgin Mary",
+          "text": "<p>The original church dates from before 1404. Although the present Roman Catholic church was partly influenced by later artistic and philosophical currents, it is one of the jewels of Gothic architecture. The church has a nave and later-added side chapels. The net rib vault consists of 63 rhomboid fields of various sizes with figural and decorative motifs. The interior is completed by several altars, wall paintings and the triumphal arch with relief mascarons and corbels. The ceiling of the sanctuary shows scenes from the life of the Virgin Mary. As a record of the priest Peter working in Trebišov dates from 1326, it can be assumed that a new Gothic church was built on the site of an older one before 1404. It was the parish church until 1504. When Imre Perényi invited the Paulines to Trebišov (1504), the church belonged to monks of this order in 1504 – 1530 and 1650 – 1786. During their time in Trebišov, the monastery church was restored in 1696 and its interior was later completed (1770).</p>\n<p>On the original late Gothic vaults of the interior, the heavenly space is finely rendered with illusionistic painted decoration from the last quarter of the 18th century. The ceiling of the sanctuary consists of eight compositions from the life of the Virgin Mary, to whom the church is dedicated. Twelve paintings from the legendary life of St Paul the Hermit form the ceiling of the nave. The side walls of the nave are decorated with two monumental paintings, Sobieski&#39;s Vision at the Siege of Vienna and Homage to Maria Theresa, from 1777, belonging to the Rococo period. A superficial, crude restoration of the paintings after the fire of the church and part of the village in 1876, restoration work funded by Count Theodor (Tivadar) Andrássy, the renewal of the frescoes on the inner vault by the painter Július Kern in 1933, and local overpainting of damaged parts in the cartouches, ornaments and stone elements meant that in several places the figural compositions lost their original colours through powdering of the upper layers and thick layers of filler and local overpainting added later.</p>\n<p>According to the report of the restorer Mária Spoločníková, the repairs carried out in 1968 by Umelecké remeslá of Bratislava and the Church Cooperative of Červený Kostelec used hard-to-dissolve two-component consolidants that may damage the original plaster layers during any further restoration. The restorer believes that beneath the levelling plaster of 1777 there is a lower layer of an unknown wall painting executed on the original Gothic ceiling.</p>\n<p>After the First World War the requisitioned bells and the damaged tower roofing had to be replaced. Only the largest bell remained in the Roman Catholic church; in 1924 two smaller bells by the bell-founder E. Ferencz of Kisgejőc were added to it. In 1926 the shifting of a buttress on the southern side of the Gothic church was also repaired. At that time the tower roof was re-covered and a new cross was placed on its top.</p>\n<p>At the entrance to the sacristy there are two marble epitaphs of Ján and Imre Perényi. Ján Perényi&#39;s epitaph, of brownish-pink marble, bears symbols consisting of two eagle wings, a man&#39;s head, knightly armour, a helmet with a crown and a Latin inscription on the ribbon of the tombstone. The tombstone of Imre Perényi, who died in 1519, shows the founder of the Trebišov monastery standing in armour on the back of a lion, leaning on a sword and supported by four angels. Besides the Perényis, Peter Szapáry, Etela Szapáry and Júlia Csáky are buried in other crypts beneath the church floor.</p>\n<p>The interior also contains other valuable artistic and historical monuments: the hanging paintings The Visitation of the Virgin Mary (1780), St Paul the Hermit (end of the 18th century) and St Justin Martyr (1835), a stone baptismal font (end of the 18th century) and a pseudo-Rococo armchair. According to the town chronicle, great manoeuvres attended by Emperor Franz Joseph I were held around Trebišov in 1887. In honour of the emperor, who stayed at the Trebišov manor house, Count Gyula Andrássy had a carved wooden armchair made, richly decorated with shell and scroll ornaments and figures of angels. This “imperial throne” is gilded with gold leaf and upholstered in purple plush in the pseudo-Rococo (second Rococo) style of the second half of the 19th century. Count Theodor Andrássy later donated it to the Roman Catholic church.</p>\n<p>By tying the ceiling and walls of the church together with iron tie rods, replacing a cracked bell in the tower with a small bell by a master from Sopron, laying patterned ceramic tiles (1901 – 1903), installing church windows with stained glass by Walter Gida and building the pulpit by the Sopron sculptor Leopold Hilda (1907), the church was structurally secured and its interior completed.</p>"
+        }
+      },
       "url": "/rimskokatolicky-kostol-navstevy-panny-marie/",
       "urlAliasy": []
     },
@@ -10149,6 +11186,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/romansky-kostol-sv-ducha/",
         "pl": "https://www.qrlink.sk/new/pl/romansky-kostol-sv-ducha/",
         "hu": "https://www.qrlink.sk/new/hu/romansky-kostol-sv-ducha/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Romanesque Church of the Holy Spirit",
+          "text": "<p>One of the oldest sacred monuments of Trebišov is the Romanesque Church of the Holy Spirit, whose foundations and cemetery were discovered by chance in the grounds of the Young Naturalists&#39; Station in Trebišov. Its existence was confirmed by records of the papal tithes from 1332 – 1337. Archaeological research showed that the Church of the Holy Spirit had a rectangular nave with a semicircular apse-sanctuary. In 65 skeletal graves the dead were buried on their backs without coffins and mostly without grave goods. Based on the finds, the church can probably be dated to the first half of the 13th century and its disappearance to around 1400.</p>"
+        }
       },
       "url": "/romansky-kostol-sv-ducha/",
       "urlAliasy": []
@@ -11650,6 +12693,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/sykorka-belasa/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/sykorka-belasa/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Eurasian Blue Tit",
+          "text": "<p>Sound recording – Song “psitsi-sirrrrrrr”</p>\n<p>Source: Vladimír Yu. Arkhipov, <a href=\"https://sk.wikipedia.org/wiki/S%C3%BAbor:Cyanistes_caeruleus.ogg\">Arkhivov, own work, CC BY-SA 3.0,</a></p>"
+        }
+      },
       "url": "/environmental-upbringing-and-education/sykorka-belasa/",
       "urlAliasy": []
     },
@@ -11676,6 +12725,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/cervienka-obycajna/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/cervienka-obycajna/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/cervienka-obycajna/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "European Robin",
+          "text": "<p>Sound recording – Song</p>\n<p>Source: <a href=\"http://www.xeno-canto.org/249306\">Zdeněk Vermouzek</a>, <a href=\"https://sk.wikipedia.org/wiki/S%C3%BAbor:XC249306-2015-05-31_05-47_ERI_RUB_a.ogg\">CC BY-SA 4.0</a>,</p>"
+        }
       },
       "url": "/environmental-upbringing-and-education/cervienka-obycajna/",
       "urlAliasy": []
@@ -11704,6 +12759,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/oriesok-obycajny/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/oriesok-obycajny/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Eurasian Wren",
+          "text": "<p>Sound recording – Call</p>\n<p>Source: Ľuboš Rendek, own work, <a href=\"https://sk.wikipedia.org/wiki/S%C3%BAbor:Orie%C5%A1ok_oby%C4%8Dajn%C3%BD_Hlas.ogg\">CC BY-SA 4.0</a>,</p>"
+        }
+      },
       "url": "/environmental-upbringing-and-education/oriesok-obycajny/",
       "urlAliasy": []
     },
@@ -11730,6 +12791,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/pinka-obycajna/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/pinka-obycajna/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/pinka-obycajna/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Common Chaffinch",
+          "text": "<p>Sound recording 1 – Song</p>\n<p>Source: <a href=\"https://sk.wikipedia.org/wiki/S%C3%BAbor:FringillaCoelebsSongSlovakiaOlympusLS11file0212.ogg\">SanoAK: Alexander Kürthy, own work, CC BY-SA 4.0,</a></p>"
+        }
       },
       "url": "/environmental-upbringing-and-education/pinka-obycajna/",
       "urlAliasy": []
@@ -11758,6 +12825,12 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/stehlik-cecetka/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/stehlik-cecetka/"
       },
+      "i18n": {
+        "en": {
+          "nazov": "Common Redpoll",
+          "text": "<p>Sound recording 1 – Calls “djüii” and “che-chet”.</p>\n<p>Source: <a href=\"https://xeno-canto.org/118265\">Jonathon Jongsma</a>, <a href=\"https://sk.wikipedia.org/wiki/S%C3%BAbor:Carduelis_flammea_-_Common_Redpoll_-_XC118265.ogg\">CC BY-SA 3.0,</a></p>"
+        }
+      },
       "url": "/environmental-upbringing-and-education/stehlik-cecetka/",
       "urlAliasy": []
     },
@@ -11784,6 +12857,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/drozd-cierny/",
         "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/drozd-cierny/",
         "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/drozd-cierny/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "Common Blackbird",
+          "text": "<p>Sound recording – alarm call tix tix..</p>\n<p>Source: <a href=\"https://commons.wikimedia.org/wiki/User:SanoAK\">Alexander Kürthy</a>, own work, <a href=\"https://sk.wikipedia.org/wiki/S%C3%BAbor:TurdusMerulaCallEvening.ogg\">CC BY-SA 4.0</a>,</p>"
+        }
       },
       "url": "/environmental-upbringing-and-education/drozd-cierny/",
       "urlAliasy": []
@@ -11864,6 +12943,12 @@ const DB = {
         "ru": "https://www.qrlink.sk/new/ru/castles/qr-sprievodca-zvonica-hrusove/",
         "pl": "https://www.qrlink.sk/new/pl/castles/qr-sprievodca-zvonica-hrusove/",
         "hu": "https://www.qrlink.sk/new/hu/castles/qr-sprievodca-zvonica-hrusove/"
+      },
+      "i18n": {
+        "en": {
+          "nazov": "The Bell Tower in Hrušové",
+          "text": "<p>The story of a historic landmark and a Slovak unique</p>\n<h2>The History of the Hrušové Church and Bell Tower</h2>\n<p>According to Jozef Ľudovít Holuby, the small church in Hrušové may have been built at the same time as the church in Haluzice (around 1240), but according to the 1997 archaeological survey it was actually built in the Gothic style only in the 14th century. The Hussite origin of the building was also rejected: the Hrušové church is not mentioned in a charter of 1436, nor in the record of the church visitation of 1560. The first specific mention dates only from 1692, when the Lutheran pastor Peták baptised a child in this very church. In 1705 the church was used by Lutherans and left to them, but according to Ladislav Varga it was destroyed by Rákóczi&#39;s rebels in 1708 and was never repaired.</p>\n<p>Nevertheless, the church still appears as functional later — beneath it was the crypt of the noble Beňovský family. From 1733 it belonged to the Catholic Church. In 1788 Catholic masses were held here every third Sunday. The church was modestly furnished and had two wooden galleries. Around 1790 services ceased and the building decayed into complete ruin. By 1859, according to Jozef Beneš, it had been in ruins for 70 years. In 1879 it was dismantled, and its material was used to build the Catholic school in Dolné Bzince. The bell from the church was moved to the new village bell tower.</p>\n<p>The bell tower in Hrušové has thus existed since 1879.</p>\n<h2>Bell-Ringing and Its Modernisation</h2>\n<p>Bells play an important role in every parish and congregation: they call people to services and announce important events and mourning. In the past bell-ringers rang by hand every morning, at noon, in the evening and during feasts and funerals. Bell-ringing was a responsible and paid craft, but it no longer attracted the new generation and needed modernising.</p>\n<p>The Lutheran pastor of Bzince, ThDr. Igor Kišš, decided to take bell-ringing to a higher level and turned to Pavel Mrázik, a mechanical fitter. Together they visited the congregation in Vrútky, where the bells had already been electrified. Inspired by the system there, Mrázik designed and built an even better electric drive for the bells.</p>\n<p>Pavel Mrázik&#39;s father, Martin Mrázik, organised the raising of the bell tower by one storey after the First World War. Thanks to the joint efforts of the village and financial contributions from its residents, a new large bell was bought, as the original one had been confiscated during the war and melted down for ammunition.</p>\n<p>Forty years later the curator Pavel Mrázik and his helpers made new wooden floors and stairs on all floors of the bell tower. It was at this time that he began preparing the electrified control of the bells. In 1990 the first electric drives began to be assembled in his workshop. The whole village contributed financially to the project.</p>\n<p>The first electric bell-ringing was successfully installed in the tower of the Lutheran church in Bzince, followed by Lubina and other villages – Miškech Dedinka, Cetuna, Bošáca and more. Master Mrázik electrified as many as 39 bell towers in the region, helped by his son Ivan and other experts.</p>\n<p><img src=\"/assets/images/migrated/2025-08-18_13h09_48.jpg\" alt=\"\"></p>\n<h2>The Unique Bell Tower Clock</h2>\n<p>The Mrázik family has been connected with the Hrušové bell tower for more than a hundred years – the extension of 1918, the purchased bell and later the unique clock with a 24-hour dial, which is a Slovak rarity. Pavel Mrázik, a trained mechanical engineer, built many interesting devices, including a “tabletop universe”. He began constructing the clock with its unusual dial after being confused by a time announcement on the radio. He wanted the dial to show 24 hours – just as the day has.</p>\n<p>In 1992 the two large hands on the bell tower started moving; the dial is one metre in diameter and bears the numbers 1 to 24. He worked on the clock mechanism for more than ten years, carefully calculating and designing everything. The clock worked without major problems until master Mrázik&#39;s death in 2007. Then it stopped for eighteen long years. After repairs by several clockmakers and thorough lubrication, however, it returned to its place and today adorns the bell tower in Hrušové again.</p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_hodiny-min.jpg\" alt=\"\"></p>\n<h2>The Most Important Milestones of the Hrušové Bell Tower</h2>\n<h2>Message and Significance</h2>\n<p>The bell tower in Hrušové is a monument to creative craftsmanship, civic solidarity and technical innovation. It is also a symbol of transformation – from a hand-operated bell tower to a unique structure with an electric drive and an unusual clock. With its history, stories and unmistakable silhouette it remains an important landmark of the landscape and a witness to changing times.</p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-2-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-3-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-4-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-5-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-6-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-7-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_strecha-1-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_strecha-2-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/2_hrusovska-zvonica-hodiny-s-24-hodinovym-cifernikom_3-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/3_hrusovska-zvonica-hodiny-s-24-hodinovym-cifernikom-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_napis-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_rekonstrukcia-2025-1-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_rekonstrukcia-2025-2-min.jpg\" alt=\"\"></p>\n<p><img src=\"/assets/images/migrated/hrusovska-zvonica_rekonstrukcne-prace_2025-1-min.jpg\" alt=\"\"></p>\n<h3>Map – GPS (48.775257658652436, 17.753408298101814)</h3>\n<p>To start navigation, open the map in a separate window.</p>"
+        }
       },
       "url": "/castles/qr-sprievodca-zvonica-hrusove/",
       "urlAliasy": []

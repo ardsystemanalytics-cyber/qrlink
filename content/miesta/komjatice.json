@@ -23,5 +23,10 @@
     "hu": "https://www.qrlink.sk/new/hu/category/komjatice/"
   },
   "foto": "assets/images/places/komjatice.png",
-  "fotoErb": true
+  "fotoErb": true,
+  "i18n": {
+    "en": {
+      "popis": "A village with a manor house that was once its magnificent landmark."
+    }
+  }
 }

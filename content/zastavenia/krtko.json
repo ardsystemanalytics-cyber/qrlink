@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/krtko/",
     "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/krtko/",
     "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/krtko/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Mole",
+      "text": "**&#x1f43e; Mole**\n\nThe mole lives down underground, \n\nhis shovel paws dig all around. \n\nHe digs himself a burrow deep, \n\nand there in peace he goes to sleep.\n\nHis eyes are small, he hardly sees, \n\nhis nose will lead him where he pleases. \n\nHis tunnels wind both here and there, \n\nbut the mole knows his home is where."
+    }
   }
 }

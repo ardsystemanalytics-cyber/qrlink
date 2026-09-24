@@ -17,5 +17,10 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/dendrolog-1/"
-  ]
+  ],
+  "i18n": {
+    "en": {
+      "nazov": "Dendrologist 1"
+    }
+  }
 }

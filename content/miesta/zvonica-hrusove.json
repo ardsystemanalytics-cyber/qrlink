@@ -25,5 +25,11 @@
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/"
   ],
-  "foto": "assets/images/places/zvonica-hrusove.jpg"
+  "foto": "assets/images/places/zvonica-hrusove.jpg",
+  "i18n": {
+    "en": {
+      "nazov": "Hrušové Bell Tower",
+      "popis": "A historic bell tower."
+    }
+  }
 }

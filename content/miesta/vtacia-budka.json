@@ -17,5 +17,10 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/vtacia-budka/"
-  ]
+  ],
+  "i18n": {
+    "en": {
+      "nazov": "Birdhouse"
+    }
+  }
 }

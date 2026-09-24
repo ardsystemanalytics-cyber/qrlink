@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/pinka-obycajna/",
     "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/pinka-obycajna/",
     "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/pinka-obycajna/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Common Chaffinch",
+      "text": "Sound recording 1 – Song\n\nSource: [SanoAK: Alexander Kürthy, own work, CC BY-SA 4.0,](https://sk.wikipedia.org/wiki/S%C3%BAbor:FringillaCoelebsSongSlovakiaOlympusLS11file0212.ogg)"
+    }
   }
 }

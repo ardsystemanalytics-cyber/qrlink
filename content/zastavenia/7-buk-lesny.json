@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/7-buk-lesny/",
     "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/7-buk-lesny/",
     "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/7-buk-lesny/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "7. European Beech",
+      "text": "**European Beech – Fagus sylvatica**\n\nIt can reach 40 – 45 m and forms massive, shady crowns under which few plants grow. It forms pure beech stands in moist hills and lower mountains up to 1,000 m, where it prefers deep, fertile soils. The trunk has smooth grey bark nicknamed “elephant skin”. After steaming, beech wood softens and can be bent, which is why the famous Thonet bentwood chairs were made from it. Beech leaves form a thick layer of humus in the forest that retains moisture."
+    }
   }
 }

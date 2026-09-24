@@ -19,7 +19,8 @@
   ],
   "i18n": {
     "en": {
-      "nazov": "Architecture"
+      "nazov": "Architecture",
+      "popis": "Architectural features of the English park at the Andrássy Manor House."
     },
     "hu": {
       "nazov": "Építészet"

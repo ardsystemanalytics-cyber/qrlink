@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/muzeum-juraja-janosika/",
     "pl": "https://www.qrlink.sk/new/pl/muzeum-juraja-janosika/",
     "hu": "https://www.qrlink.sk/new/hu/muzeum-juraja-janosika/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Juraj Jánošík Museum",
+      "text": "The permanent exhibition dedicated to the national hero Jánošík and to life in the village of Terchová in the past has been open since 2008. It is divided into several thematic sections: the traditional Terchová dwelling, the history of the village, and Jánošík as a folk hero."
+    }
   }
 }

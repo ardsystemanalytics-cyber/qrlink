@@ -26,5 +26,10 @@
     "https://www.qrlink.sk/new/turzovka/"
   ],
   "foto": "assets/images/places/turzovka.png",
-  "fotoErb": true
+  "fotoErb": true,
+  "i18n": {
+    "en": {
+      "popis": "A town in the Upper Kysuce region."
+    }
+  }
 }

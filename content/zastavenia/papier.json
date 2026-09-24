@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/papier/",
     "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/papier/",
     "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/papier/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Paper",
+      "text": "Depending on its quality, paper can be recycled 6 or sometimes even 7 times. The thin fibres that make up paper become shorter with each recycling, which lowers their quality and the possibility of recycling them again. Boxes should be flattened before being thrown away so they do not take up much space in the container.\n\n**The blue container is for** newspapers, magazines, office paper, advertising leaflets, boxes (if not combined with another material, e.g. aluminium or cellophane), cardboard, paper bags, envelopes, paperboard, books without bindings, and packaging with the recycling symbol and code PAP 20, 21 and 22.\n\n**The paper container is not for** wet, greasy and soiled paper, carbon and waxed paper, hardback books, beverage cartons, asphalt and tarred paper, used nappies and hygiene products, carbon copy and self-copying paper.\n\n*Source: [Wikipedia](https://sk.wikipedia.org/wiki/Papier)*"
+    }
   }
 }

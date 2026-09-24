@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/plte-na-vahu/",
     "pl": "https://www.qrlink.sk/new/pl/plte-na-vahu/",
     "hu": "https://www.qrlink.sk/new/hu/plte-na-vahu/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Rafting on the Váh",
+      "text": "A raft trip through the Strečno gorge offers a unique and safe way to discover history and natural, cultural and technical attractions on a traditional means of transport – beneath the ancient castles of Strečno and Starhrad, past the best-known obstacles for raftsmen, the Margita and Besná rocks, in the pass where the Váh cuts through the Malá Fatra mountains."
+    }
   }
 }

@@ -31,5 +31,11 @@
     "ru": "https://www.qrlink.sk/new/ru/castles/vstup-na-hrad/",
     "pl": "https://www.qrlink.sk/new/pl/castles/vstup-na-hrad/",
     "hu": "https://www.qrlink.sk/new/hu/castles/vstup-na-hrad/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Entrance to the Castle",
+      "text": "## **Crossroads**\n\nHere the two paths meet, just as the lord of the castle František meets Lady Žofia, and they go together hand in hand to Strečno Castle, where the servants welcome them.\n\n## The History of Castles in Slovakia\n\nThe 11th and 12th centuries were a time when it was important to protect the border areas from enemy attacks. Besides guard service, a system of castles along the most important routes also served this purpose. The greatest boom in the construction of stone castles in Slovakia, however, began only in the middle of the 13th century (immediately after the Tatar invasion). New buildings were constructed either on the sites of the original wooden castles or near them. During the 14th – 15th centuries, originally royal properties passed into the hands of the nobility, either as security for loans or as rewards for extraordinary services to the king. The nobility sometimes invested in rebuilding them and turned old castles into luxurious palaces. Only the Turkish raids of the 16th century required the construction of new fortifications. From the last third of the 17th century, however, the system of medieval castles gradually began to lose its military and strategic importance, and during the 18th century noble families moved from their castle estates to manor houses. It was in this period that many castles were demolished or burned, and others quickly fell into disrepair after their inhabitants moved out."
+    }
   }
 }

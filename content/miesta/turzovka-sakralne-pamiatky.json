@@ -20,7 +20,8 @@
   ],
   "i18n": {
     "en": {
-      "nazov": "The sacral monuments in the town"
+      "nazov": "The sacral monuments in the town",
+      "popis": "Churches and chapels in and around Turzovka."
     }
   },
   "foto": "assets/images/places/turzovka-sakralne-pamiatky.jpg"

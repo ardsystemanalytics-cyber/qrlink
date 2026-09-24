@@ -19,7 +19,8 @@
   ],
   "i18n": {
     "en": {
-      "nazov": "Flora"
+      "nazov": "Flora",
+      "popis": "Fauna and flora of the English park at the Andrássy Manor House."
     },
     "hu": {
       "nazov": "Flóra"

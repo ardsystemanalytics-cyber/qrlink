@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/klin/",
     "pl": "https://www.qrlink.sk/new/pl/klin/",
     "hu": "https://www.qrlink.sk/new/hu/klin/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Klin",
+      "text": "The name of the village of Klin comes from the original term for a spur of a hill between two streams (klin means “wedge”). The village offers many attractions, such as cross-country ski trails, the hiking trail to Vahanov and the Statue of Christ on Grapa, the cycle path from Klin to Námestovo (the old Klin road) and the Forest Transformation nature trail.\n\nThe small village of Klin near the district town of Námestovo looks unremarkable at first sight. Who would have thought that above it there is a truly world-class gem? Since 2008 a statue of Jesus Christ has stood on Grapa hill above the village, at an altitude of 686 m. It is 9.5 metres high, its arms span seven metres and it weighs 23 tonnes. Its author is the local folk woodcarver Peter Ganobjak.\n\nThere are only three similar statues in the world. The best known is above the city of Rio de Janeiro, the second is in Lisbon, Portugal, and the third is right here."
+    }
   }
 }

@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/castles/juzne-nadvorie/",
     "pl": "https://www.qrlink.sk/new/pl/castles/juzne-nadvorie/",
     "hu": "https://www.qrlink.sk/new/hu/castles/juzne-nadvorie/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Southern Courtyard",
+      "text": "Where the southern courtyard is today, there was originally a moat that protected access to the tower. Later a courtyard was built in its place, which had another storey and also a roof."
+    }
   }
 }

@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/gejzir-v-rajeckej-lesnej/",
     "pl": "https://www.qrlink.sk/new/pl/gejzir-v-rajeckej-lesnej/",
     "hu": "https://www.qrlink.sk/new/hu/gejzir-v-rajeckej-lesnej/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Geyser in Rajecká Lesná",
+      "text": "It is an attraction for many tourists. It is about 10 m high and is most interesting in winter, when it forms a huge cone of ice."
+    }
   }
 }

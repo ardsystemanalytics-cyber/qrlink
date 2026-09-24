@@ -31,5 +31,11 @@
     "ru": "https://www.qrlink.sk/new/ru/slovensky-severny-pol-oravska-polhora/",
     "pl": "https://www.qrlink.sk/new/pl/slovensky-severny-pol-oravska-polhora/",
     "hu": "https://www.qrlink.sk/new/hu/slovensky-severny-pol-oravska-polhora/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Slovakia's North Pole, Oravská Polhora",
+      "text": "The northernmost point of Slovakia is located near boundary stone 91/10 at an altitude of 1,086 m below the summit of Modralová, also known as Beskydok (1,168 m). The starting point is the village of Oravská Polhora, the Píla part. On the way to the so-called North Pole of Slovakia – the summit of Modralová – don't hesitate to visit the technical monuments hidden in the forests of Oravská Polhora. The so-called tajchy are artificially created log dams, which were built in the upper reaches of watercourses to hold back water."
+    }
   }
 }

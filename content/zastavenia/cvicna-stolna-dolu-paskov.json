@@ -20,5 +20,11 @@
     "ru": "https://www.qrlink.sk/new/ru/castles/cvicna-stolna-dolu-paskov/",
     "pl": "https://www.qrlink.sk/new/pl/castles/cvicna-stolna-dolu-paskov/",
     "hu": "https://www.qrlink.sk/new/hu/castles/cvicna-stolna-dolu-paskov/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Paskov Mine Training Gallery",
+      "text": "It is an artificially built demonstration gallery with working mining equipment. Along 200 m of mine corridors there are typical mine workplaces arranged in technological sequence, just as in a real mine."
+    }
   }
 }

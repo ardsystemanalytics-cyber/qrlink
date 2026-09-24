@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/martakov-kopec-rozhladna-zakopcie/",
     "pl": "https://www.qrlink.sk/new/pl/martakov-kopec-rozhladna-zakopcie/",
     "hu": "https://www.qrlink.sk/new/hu/martakov-kopec-rozhladna-zakopcie/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Marťák Hill – Zákopčie Lookout Tower",
+      "text": "Altitude: 854 metres, height of the lookout tower: 14 metres, year built: 2011\n\nIt stands on the top of Marťák Hill in the Javorníky mountains. The lookout tower offers a view of almost the whole Kysuce region, nearby Zákopčie (north), the Moravian-Silesian Beskids (north-west) dominated by Lysá hora (with its transmitter), the Kysuce Beskids (north-east), the Kysuce Highlands, Oravská Magura (east), Malá Fatra (south-east) and, in good visibility, even the peaks of the Western Tatras on the south-eastern horizon. Near the lookout tower there is a wooden cross and a hikers' shelter for resting."
+    }
   }
 }

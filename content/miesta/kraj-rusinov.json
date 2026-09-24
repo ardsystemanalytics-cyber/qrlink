@@ -23,5 +23,11 @@
     "hu": "https://www.qrlink.sk/new/hu/category/kraj-rusinov-a-andyho-warhola/"
   },
   "foto": "assets/images/places/kraj-rusinov.jpg",
-  "fotoErb": true
+  "fotoErb": true,
+  "i18n": {
+    "en": {
+      "nazov": "The Land of the Rusyns and Andy Warhol",
+      "popis": "The Medzilaborce region, connected with Rusyn culture and the family of Andy Warhol."
+    }
+  }
 }

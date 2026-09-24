@@ -23,5 +23,10 @@
     "hu": "https://www.qrlink.sk/new/hu/category/ruzomberok/"
   },
   "foto": "assets/images/places/ruzomberok.jpg",
-  "fotoErb": true
+  "fotoErb": true,
+  "i18n": {
+    "en": {
+      "popis": "A town in the Liptov region below the Veľká Fatra mountains."
+    }
+  }
 }

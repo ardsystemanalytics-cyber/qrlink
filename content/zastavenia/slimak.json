@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/environmental-upbringing-and-education/slimak/",
     "pl": "https://www.qrlink.sk/new/pl/environmental-upbringing-and-education/slimak/",
     "hu": "https://www.qrlink.sk/new/hu/environmental-upbringing-and-education/slimak/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Snail",
+      "text": "**&#x1f40c; Snail**\n\nThe snail's in no hurry, he feels no stress, \n\nhe won't cross the world in a day, no less. \n\nWherever he gets to, there he'll stay, \n\nhe won't rush his life away.\n\nWhen it rains he likes to smile, \n\nhe slides on the drops for a merry while. \n\nHe leaves a slimy trail behind – \n\nhello, snail, welcome back, how kind!"
+    }
   }
 }

@@ -30,5 +30,11 @@
     "ru": "https://www.qrlink.sk/new/ru/castles/vcelarska-naucna-stezka/",
     "pl": "https://www.qrlink.sk/new/pl/castles/vcelarska-naucna-stezka/",
     "hu": "https://www.qrlink.sk/new/hu/castles/vcelarska-naucna-stezka/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Beekeeping Nature Trail",
+      "text": "The nature trail consists of a rest stop – a large wooden gazebo – surrounded by information panels where visitors can read many interesting facts from the history of beekeeping and basic information about the honey bee. A bee colony is essentially a kind of super-organism that has survived unchanged on our planet for millions of years, and each bee in it plays an important role. Visitors can also learn from the information boards which members make up such a colony and how they work together.\n\n## Top attraction:\n\nThe Ostravice river flows along the trail, with beautiful access and views of the river. Next to the trail there is also an educational beehive where visitors can see how the bees work.\n\n![](/assets/images/migrated/vcela3.jpg)\n\n![](/assets/images/migrated/vcela1.jpg)"
+    }
   }
 }

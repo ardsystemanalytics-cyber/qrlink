@@ -27,5 +27,11 @@
     "ru": "https://www.qrlink.sk/new/ru/castles/chlebovicka-medova-stopa/",
     "pl": "https://www.qrlink.sk/new/pl/castles/chlebovicka-medova-stopa/",
     "hu": "https://www.qrlink.sk/new/hu/castles/chlebovicka-medova-stopa/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Chlebovice Honey Trail",
+      "text": "The trail follows on from the Chlebovice Beekeeping Educational Area and lets visitors to the area, as well as ordinary hikers, get to know beekeeping and interesting places in Chlebovice in a fun way. The Honey Trail is guided by Medulinka the bee, who at five stations introduces visitors to 12 beekeeping topics and 12 interesting places in Chlebovice. With the “Medovka” game card, children and adults can test their new knowledge in “Medulinka's quiz”. The trail takes you all the way to the Kabátice lookout tower, which offers a beautiful view to the east of the Olešná reservoir and the town of Frýdek-Místek.\n\n## Top attraction:\n\n### Beekeeping Museum\n\nA unique collection of honey extractors, smokers, beehives and beekeeping equipment.\n\n### Kabátice lookout tower, Olešná reservoir, Hukvaldy Castle, the birthplace of Leoš Janáček, Hukvaldy game park, Štramberk, the Štramberk Trúba tower.\n\n![](/assets/images/migrated/bez-nazvuc2.jpg)"
+    }
   }
 }

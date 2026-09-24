@@ -28,5 +28,11 @@
     "ru": "https://www.qrlink.sk/new/ru/trojmedzie/",
     "pl": "https://www.qrlink.sk/new/pl/trojmedzie/",
     "hu": "https://www.qrlink.sk/new/hu/trojmedzie/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Tripoint",
+      "text": "The Tripoint (Trojmedzie) is the place where the borders of Slovakia, the Czech Republic and Poland meet. From this point run 541 km of the Slovak-Polish border and 251 km of the Slovak-Czech border. At the Tripoint you can have a unique experience – standing in three countries at once.\n\nThe tripoint lies in a stream gully 8 m deep and 34 m wide and is the centre of the circle circumscribed by the vertices of an isosceles triangle. The vertices of the triangle are 240 cm tall granite monoliths. The tripoint itself, marked by a smaller monolith, is in the bed of the stream.\n\nWhen they were built on 22 June 1995, commemorative documents of the time – various papers, newspapers and coins – were placed in metal cases in their bases.\n\nMeetings of friends and various events are regularly held at the Tripoint, e.g. New Year's Eve at the Tripoint, the hiking march Through Three States of Europe, the Celebration of the Eucharist at the Tripoint, the Goral Marathon and others."
+    }
   }
 }

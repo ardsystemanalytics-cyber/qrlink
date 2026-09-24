@@ -24,5 +24,10 @@
     "hu": "https://www.qrlink.sk/new/hu/category/betliar/"
   },
   "foto": "assets/images/places/betliar.png",
-  "fotoErb": true
+  "fotoErb": true,
+  "i18n": {
+    "en": {
+      "popis": "A village known for the manor house of the Andrássy family."
+    }
+  }
 }

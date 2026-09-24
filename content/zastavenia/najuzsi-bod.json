@@ -34,5 +34,11 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/castles/najuzsi-bod/"
-  ]
+  ],
+  "i18n": {
+    "en": {
+      "nazov": "The Narrowest Point",
+      "text": "You are in the locality called Pri kríži (By the Cross). Its peculiarity is that here the town's cadastral area forms a kind of “neck”, its narrowest point. From east (Olešná) to west (Klokočov) it measures just over 300 metres. It is also a crossroads. In the past such places were attributed magical significance – they were said to be favourite places for supernatural forces. Christians marked these places with a cross. In the past a small cross stood here too. It marked the place where a certain Jakub, a native of a nearby settlement, died tragically while working with timber. His relatives placed the cross here in his memory. The fact that the adjacent homestead is called “Pod krížom” (Below the Cross) shows that a cross has stood here for many years. In Slovakia, crosses in the open countryside began to spread widely from the second half of the 18th century. They were placed along roads, at crossroads and forks, on the boundaries of village lands, and by wells or springs. Along paths and tracks they recalled the place of a tragic death or a miraculous apparition. They also served as signposts or landmarks. In Vrch Hlinené a wooden cross with a tin corpus is first mentioned as early as 1828; it was restored, or rather replaced, in 1919.\n\nThe place Pri kríži has several meanings. On Sundays people from Potôčky, Riečky and Vrch Hlinené met here and prayed together for the harvest, rain, health or other intentions. After a strenuous, steep climb, tired and with packs on their backs, people rested here, prayed and continued to their homesteads U Kadurov, Na Vŕšok, Na Rovienky, Do Stoligov or Do Gajdičiarov. In these remote settlements life was hard and modest because of the strenuous work and the distances, but at the same time joyful. Even though the mountain settlements were far apart, people were close to one another.\n\nProject name: In the footsteps of the cultural and natural heritage of the Czech-Slovak\n\n![](/assets/images/migrated/obalka-03.png)\n\nregion,\n\nProject code: NFP304030BMA2"
+    }
+  }
 }

@@ -24,5 +24,11 @@
     "ru": "https://www.qrlink.sk/new/ru/castles/historicka-kniznica-bibliotheca-antiqua-taganiana/",
     "pl": "https://www.qrlink.sk/new/pl/castles/historicka-kniznica-bibliotheca-antiqua-taganiana/",
     "hu": "https://www.qrlink.sk/new/hu/castles/historicka-kniznica-bibliotheca-antiqua-taganiana/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Historical Library Bibliotheca antiqua Taganiana",
+      "text": "The historical library is located in the cultural centre of the town of Turzovka and is named after František Taganí, a long-standing national revivalist and priest who contributed to the development of schooling and education. Books were his lifelong passion: he collected them and even founded one of the first private libraries. In the library you will find 2,500 volumes in Hungarian, Latin and German. In terms of content they are liturgical, theological, homiletic and religious works, but there are also books on history, linguistics and geography. The library is decorated with 2 paintings of Empress Sisi and Emperor Franz Joseph I, painted by Dominik Bartolomej Lippay, a native of Turzovka. There are also various period accessories of old libraries, with the possibility of meditation, studying the books or holding recitals in an intimate atmosphere."
+    }
   }
 }

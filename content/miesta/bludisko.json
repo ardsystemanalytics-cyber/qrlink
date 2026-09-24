@@ -17,5 +17,10 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/bludisko/"
-  ]
+  ],
+  "i18n": {
+    "en": {
+      "nazov": "Maze"
+    }
+  }
 }

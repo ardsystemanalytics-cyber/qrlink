@@ -24,5 +24,11 @@
     "ru": "https://www.qrlink.sk/new/ru/romansky-kostol-sv-ducha/",
     "pl": "https://www.qrlink.sk/new/pl/romansky-kostol-sv-ducha/",
     "hu": "https://www.qrlink.sk/new/hu/romansky-kostol-sv-ducha/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Romanesque Church of the Holy Spirit",
+      "text": "One of the oldest sacred monuments of Trebišov is the Romanesque Church of the Holy Spirit, whose foundations and cemetery were discovered by chance in the grounds of the Young Naturalists' Station in Trebišov. Its existence was confirmed by records of the papal tithes from 1332 – 1337. Archaeological research showed that the Church of the Holy Spirit had a rectangular nave with a semicircular apse-sanctuary. In 65 skeletal graves the dead were buried on their backs without coffins and mostly without grave goods. Based on the finds, the church can probably be dated to the first half of the 13th century and its disappearance to around 1400."
+    }
   }
 }

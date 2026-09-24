@@ -27,7 +27,8 @@
   ],
   "i18n": {
     "en": {
-      "nazov": "The Čierne Kľačany’s Pyxida"
+      "nazov": "The Čierne Kľačany’s Pyxida",
+      "popis": "A rare ivory casket from the Great Moravian period."
     }
   },
   "foto": "assets/images/places/cierne-klacany.jpg"

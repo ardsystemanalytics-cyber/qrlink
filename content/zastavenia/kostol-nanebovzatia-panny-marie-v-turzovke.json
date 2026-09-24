@@ -24,5 +24,11 @@
     "ru": "https://www.qrlink.sk/new/ru/castles/kostol-nanebovzatia-panny-marie-v-turzovke/",
     "pl": "https://www.qrlink.sk/new/pl/castles/kostol-nanebovzatia-panny-marie-v-turzovke/",
     "hu": "https://www.qrlink.sk/new/hu/castles/kostol-nanebovzatia-panny-marie-v-turzovke/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "Church of the Assumption of the Virgin Mary in Turzovka",
+      "text": "The most important sacred building, which is also listed as a national cultural monument, is the Roman Catholic Baroque Church of the Assumption of the Virgin Mary from 1759. The main altar dates from the 18th century, and there are works from the late Baroque, Classicism and late Neoclassicism. Works by the painters Jozef Božetech Klemens, Jozef Hübsch and Alexander Loszinský, as well as by unknown artists, are richly represented. A remarkable feature of the church is the pseudo-Baroque organ with polychrome woodcarving. Part of the original organ from 1799 is built into the middle of the choir parapet."
+    }
   }
 }

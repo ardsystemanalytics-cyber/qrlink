@@ -24,5 +24,11 @@
     "ru": "https://www.qrlink.sk/new/ru/zastavka-1-autonomna-zeleznicna-zastavka-v-sr/",
     "pl": "https://www.qrlink.sk/new/pl/zastavka-1-autonomna-zeleznicna-zastavka-v-sr/",
     "hu": "https://www.qrlink.sk/new/hu/zastavka-1-autonomna-zeleznicna-zastavka-v-sr/"
+  },
+  "i18n": {
+    "en": {
+      "nazov": "The Stop – The First Autonomous Railway Stop in Slovakia",
+      "text": "<div class=\"video-embed\"><iframe src=\"https://www.youtube.com/embed/Rvd2X_QsYyg\" title=\"Video\" loading=\"lazy\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></div>"
+    }
   }
 }
