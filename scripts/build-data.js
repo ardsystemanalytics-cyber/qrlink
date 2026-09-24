@@ -128,6 +128,18 @@ const zastavenia = readFolder(path.join(CONTENT, "zastavenia"))
 
 const kontakt = readJSON(path.join(CONTENT, "kontakt.json"));
 
+// Pravidlo: všetky fotky/audio musia byť uložené priamo v projekte
+// (assets/...), nie odkazované zo starého webu – po jeho vypnutí by
+// zmizli. Build neprejde potichu: vypíše každý takýto odkaz (na Verceli
+// je to vidieť v logu nasadenia). Opraví to scripts/localize-remaining-media.js.
+const OLD_MEDIA = /https?:\/\/(?:www\.)?qrlink\.sk\/new\/wp-content\/[^\s"'()<>\\]+/gi;
+for (const sub of ["miesta", "zastavenia"]) {
+  for (const f of fs.readdirSync(path.join(CONTENT, sub)).filter((x) => x.endsWith(".json"))) {
+    const hits = fs.readFileSync(path.join(CONTENT, sub, f), "utf8").match(OLD_MEDIA);
+    if (hits) console.warn(`POZOR: content/${sub}/${f} odkazuje na súbor zo STARÉHO webu (zmizne po jeho vypnutí): ${[...new Set(hits)].join(", ")}`);
+  }
+}
+
 const { PLACE_PHOTOS: RAW_PLACE_PHOTOS, KAT_ICONS } = readJSON(path.join(ROOT, "scripts/static-data.json"));
 const PLACE_PHOTOS = Object.fromEntries(Object.entries(RAW_PLACE_PHOTOS).map(([id, url]) => [id, abs(url)]));
 

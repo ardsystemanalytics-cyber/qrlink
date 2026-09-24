@@ -94,7 +94,8 @@ collections:
       - { label: "Názov (slovensky)", name: "nazov", widget: "string" }
       - { label: "Popis (slovensky)", name: "popis", widget: "text", required: false }
       - { label: "Titulná fotka (cover)", name: "cover", widget: "image", required: false }
-      - { label: "Fotka (foto)", name: "foto", widget: "image", required: false, hint: "Používa sa najmä pri podkategóriách." }
+      - { label: "Fotka (foto)", name: "foto", widget: "image", required: false, hint: "Fotka na karte miesta a v hlavičke jeho stránky. Nahraná fotka sa automaticky zmenší na max. 400 KB." }
+      - { label: "Fotka je erb / logo (zobraziť celé, nezrezať)", name: "fotoErb", widget: "boolean", required: false, default: false }
 
       - label: "① Toto je podkategória/trasa? → vyber jej nadradené miesto"
         name: "rodic"

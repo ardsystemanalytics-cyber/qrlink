@@ -1,0 +1,42 @@
+# Automatické pravidlo pre fotky: po každom nahratí obrázka (aj cez Decap
+# CMS na /admin) zmenší všetky fotky nad 400 KB a commitne ich späť.
+# Logika je v scripts/optimize-images.js (rovnaký názov aj formát súboru,
+# odkazy v obsahu sa nemenia).
+name: Zmenšenie fotiek (max. 400 KB)
+
+on:
+  push:
+    branches: [main, pretty-urls]
+    paths:
+      - "assets/images/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: optimize-images-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install --no-save sharp
+      - run: node scripts/optimize-images.js
+      - name: Commit zmenšených fotiek
+        run: |
+          if [ -n "$(git status --porcelain assets/images)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets/images
+            git commit -m "Automaticky zmenšené fotky nad 400 KB"
+            git pull --rebase
+            git push
+          else
+            echo "Všetky fotky sú do 400 KB."
+          fi

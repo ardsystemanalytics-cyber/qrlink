@@ -21,5 +21,7 @@
     "ru": "https://www.qrlink.sk/new/ru/category/zemplinske-muzeum/",
     "pl": "https://www.qrlink.sk/new/pl/category/zemplinske-muzeum/",
     "hu": "https://www.qrlink.sk/new/hu/category/zemplinske-muzeum/"
-  }
+  },
+  "foto": "assets/images/places/zemplinske-muzeum.jpg",
+  "fotoErb": true
 }

@@ -9,35 +9,7 @@
    ===================================================================== */
 
 // Fotky miest bez vlastnej fotky (systémové dáta, spravuje sa mimo CMS)
-const PLACE_PHOTOS = {
-  "bratislava-ivanka": "/assets/images/places/bratislava-ivanka.jpg",
-  "betliar": "/assets/images/places/betliar.jpg",
-  "euroregion-beskydy": "/assets/images/places/euroregion-beskydy.jpg",
-  "frydlant": "/assets/images/places/frydlant.jpg",
-  "kraj-rusinov": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
-  "knm": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&q=80",
-  "porabka": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800&q=80",
-  "presov": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?w=800&q=80",
-  "roznov": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80",
-  "ruzomberok": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
-  "sokolovce": "https://images.unsplash.com/photo-1599598425947-5202edd56bdb?w=800&q=80",
-  "trebisov": "https://images.unsplash.com/photo-1589553416260-f586c8f1514f?w=800&q=80",
-  "turzovka": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
-  "vranov": "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=800&q=80",
-  "hrad-strecno": "/assets/images/migrated/1-paseka-e1592570206493.jpg",
-  "cierne-klacany": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80",
-  "klenoty-pohranicie": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
-  "cestovatelsky-dennik": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
-  "nch-pohranicie": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
-  "nch-hlinene": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
-  "nch-zivcakova": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
-  "gabcikovo": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-  "zvonica-hrusove": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80",
-  "zs-a-ms-banova": "/assets/images/migrated/zs-banova-logo.jpg",
-  "komjatice": "/assets/images/migrated/16.jpg",
-  "zemplinske-muzeum": "/assets/images/migrated/rotunda.jpg",
-  "partizanske-simonovany": "/assets/images/migrated/zastavka.jpg"
-};
+const PLACE_PHOTOS = {};
 
 // SVG ikonky kategórií (systémové dáta, spravuje sa mimo CMS)
 const KAT_ICONS = {
@@ -151,7 +123,7 @@ const DB = {
       "id": "bludisko",
       "rodic": "zs-a-ms-banova",
       "nazov": "Bludisko",
-      "foto": "/assets/images/migrated/zs-banova-bludisko-icon.jpg",
+      "foto": "/assets/images/places/bludisko.jpg",
       "popis": "",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
@@ -187,6 +159,7 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/hrad-strecno/",
         "hu": "https://www.qrlink.sk/new/hu/category/hrad-strecno/"
       },
+      "foto": "/assets/images/places/hrad-strecno.jpg",
       "url": "/category/hrad-strecno/",
       "urlAliasy": [
         "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/"
@@ -221,6 +194,7 @@ const DB = {
           "nazov": "A község nevezetességei Betliar"
         }
       },
+      "foto": "/assets/images/places/betliar-info-pointy.jpg",
       "url": "/category/betliar/info-pointy/",
       "urlAliasy": [
         "/category/info-pointy/"
@@ -247,6 +221,7 @@ const DB = {
           "nazov": "Építészet"
         }
       },
+      "foto": "/assets/images/places/betliar-info-strom-architektura.jpg",
       "url": "/category/betliar/info-strom/architektura/",
       "urlAliasy": [
         "/category/architektura/"
@@ -273,6 +248,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/ivanka-pri-dunaji/",
         "hu": "https://www.qrlink.sk/new/hu/category/ivanka-pri-dunaji/"
       },
+      "foto": "/assets/images/places/bratislava-ivanka.png",
+      "fotoErb": true,
       "url": "/category/ivanka-pri-dunaji/",
       "urlAliasy": []
     },
@@ -280,7 +257,7 @@ const DB = {
       "id": "dendrolog-1",
       "rodic": "zs-a-ms-banova",
       "nazov": "Dendrológ 1",
-      "foto": "/assets/images/migrated/zs-banova-dendrolog-1-icon.jpg",
+      "foto": "/assets/images/places/dendrolog-1.jpg",
       "popis": "",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-1/",
@@ -313,6 +290,7 @@ const DB = {
           "nazov": "The monuments in Turzovka"
         }
       },
+      "foto": "/assets/images/places/turzovka-pamatniky.jpg",
       "url": "/category/turzovka/pamatniky-v-turzovke/",
       "urlAliasy": [
         "/category/pamatniky-v-turzovke/"
@@ -339,6 +317,7 @@ const DB = {
           "nazov": "Flóra"
         }
       },
+      "foto": "/assets/images/places/betliar-info-strom-fauna-flora.jpg",
       "url": "/category/betliar/info-strom/flora/",
       "urlAliasy": [
         "/category/flora/"
@@ -365,6 +344,7 @@ const DB = {
           "nazov": "Angol park az Andrássy-kastélynál Betliáron"
         }
       },
+      "foto": "/assets/images/places/betliar-info-strom.jpg",
       "url": "/category/betliar/info-strom/",
       "urlAliasy": [
         "/category/info-strom/"
@@ -374,7 +354,7 @@ const DB = {
       "id": "dendrolog-2",
       "rodic": "zs-a-ms-banova",
       "nazov": "Dendrológ 2",
-      "foto": "/assets/images/migrated/zs-banova-dendrolog-2-icon.jpg",
+      "foto": "/assets/images/places/dendrolog-2.jpg",
       "popis": "",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-2/",
@@ -407,6 +387,7 @@ const DB = {
           "nazov": "The sacral monuments in the town"
         }
       },
+      "foto": "/assets/images/places/turzovka-sakralne-pamiatky.jpg",
       "url": "/category/turzovka/sakralne-pamiatky/",
       "urlAliasy": [
         "/category/sakralne-pamiatky/",
@@ -417,7 +398,7 @@ const DB = {
       "id": "hmyzi-domcek",
       "rodic": "zs-a-ms-banova",
       "nazov": "Hmyzí domček",
-      "foto": "/assets/images/migrated/zs-banova-hmyzi-domcek-icon.jpg",
+      "foto": "/assets/images/places/hmyzi-domcek.jpg",
       "popis": "",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/hmyzi-domcek/",
@@ -436,7 +417,7 @@ const DB = {
       "id": "pexeso",
       "rodic": "zs-a-ms-banova",
       "nazov": "Pexeso",
-      "foto": "/assets/images/migrated/zs-banova-pexeso-icon.jpg",
+      "foto": "/assets/images/places/pexeso.jpg",
       "popis": "",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/pexeso/",
@@ -455,7 +436,7 @@ const DB = {
       "id": "vtacia-budka",
       "rodic": "zs-a-ms-banova",
       "nazov": "Vtáčia búdka",
-      "foto": "/assets/images/migrated/zs-banova-vtacia-budka-icon.jpg",
+      "foto": "/assets/images/places/vtacia-budka.jpg",
       "popis": "",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacia-budka/",
@@ -492,6 +473,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/betliar/",
         "hu": "https://www.qrlink.sk/new/hu/category/betliar/"
       },
+      "foto": "/assets/images/places/betliar.png",
+      "fotoErb": true,
       "url": "/category/betliar/",
       "urlAliasy": []
     },
@@ -499,7 +482,7 @@ const DB = {
       "id": "vtacie-krmitko",
       "rodic": "zs-a-ms-banova",
       "nazov": "Vtáčie kŕmitko",
-      "foto": "/assets/images/migrated/zs-banova-vtacie-krmitko-icon.jpg",
+      "foto": "/assets/images/places/vtacie-krmitko.jpg",
       "popis": "",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/",
@@ -569,6 +552,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/euroregion-beskydy/",
         "hu": "https://www.qrlink.sk/new/hu/category/euroregion-beskydy/"
       },
+      "foto": "/assets/images/places/euroregion-beskydy.jpg",
+      "fotoErb": true,
       "url": "/category/euroregion-beskydy/",
       "urlAliasy": []
     },
@@ -594,6 +579,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/frydlant/",
         "hu": "https://www.qrlink.sk/new/hu/category/frydlant/"
       },
+      "foto": "/assets/images/places/frydlant.png",
+      "fotoErb": true,
       "url": "/category/frydlant/",
       "urlAliasy": [
         "/frydlant/"
@@ -620,6 +607,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/kraj-rusinov-a-andyho-warhola/",
         "hu": "https://www.qrlink.sk/new/hu/category/kraj-rusinov-a-andyho-warhola/"
       },
+      "foto": "/assets/images/places/kraj-rusinov.jpg",
+      "fotoErb": true,
       "url": "/category/kraj-rusinov-a-andyho-warhola/",
       "urlAliasy": []
     },
@@ -644,6 +633,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/knm/",
         "hu": "https://www.qrlink.sk/new/hu/category/knm/"
       },
+      "foto": "/assets/images/places/knm.png",
+      "fotoErb": true,
       "url": "/category/knm/",
       "urlAliasy": []
     },
@@ -669,6 +660,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/porabka/",
         "hu": "https://www.qrlink.sk/new/hu/category/porabka/"
       },
+      "foto": "/assets/images/places/porabka.png",
+      "fotoErb": true,
       "url": "/category/porabka/",
       "urlAliasy": [
         "/porabka/"
@@ -695,6 +688,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/presov/",
         "hu": "https://www.qrlink.sk/new/hu/category/presov/"
       },
+      "foto": "/assets/images/places/presov.jpg",
+      "fotoErb": true,
       "url": "/category/presov/",
       "urlAliasy": []
     },
@@ -720,6 +715,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/roznov-pod-radhostem/",
         "hu": "https://www.qrlink.sk/new/hu/category/roznov-pod-radhostem/"
       },
+      "foto": "/assets/images/places/roznov.jpg",
+      "fotoErb": true,
       "url": "/category/roznov-pod-radhostem/",
       "urlAliasy": []
     },
@@ -744,6 +741,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/ruzomberok/",
         "hu": "https://www.qrlink.sk/new/hu/category/ruzomberok/"
       },
+      "foto": "/assets/images/places/ruzomberok.jpg",
+      "fotoErb": true,
       "url": "/category/ruzomberok/",
       "urlAliasy": []
     },
@@ -768,6 +767,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/sokolovce/",
         "hu": "https://www.qrlink.sk/new/hu/category/sokolovce/"
       },
+      "foto": "/assets/images/places/sokolovce.jpg",
+      "fotoErb": true,
       "url": "/category/sokolovce/",
       "urlAliasy": []
     },
@@ -792,6 +793,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/trebisov/",
         "hu": "https://www.qrlink.sk/new/hu/category/trebisov/"
       },
+      "foto": "/assets/images/places/trebisov.jpg",
+      "fotoErb": true,
       "url": "/category/trebisov/",
       "urlAliasy": []
     },
@@ -816,6 +819,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/turzovka/",
         "hu": "https://www.qrlink.sk/new/hu/category/turzovka/"
       },
+      "foto": "/assets/images/places/turzovka.png",
+      "fotoErb": true,
       "url": "/category/turzovka/",
       "urlAliasy": [
         "/turzovka/"
@@ -842,6 +847,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/vranov-nad-toplou/",
         "hu": "https://www.qrlink.sk/new/hu/category/vranov-nad-toplou/"
       },
+      "foto": "/assets/images/places/vranov.png",
+      "fotoErb": true,
       "url": "/category/vranov-nad-toplou/",
       "urlAliasy": []
     },
@@ -871,6 +878,7 @@ const DB = {
           "nazov": "The Čierne Kľačany’s Pyxida"
         }
       },
+      "foto": "/assets/images/places/cierne-klacany.jpg",
       "url": "/category/cierne-klacany/",
       "urlAliasy": [
         "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/"
@@ -898,6 +906,7 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/klenoty-v-cesko-slovenskom-pohranici/",
         "hu": "https://www.qrlink.sk/new/hu/category/klenoty-v-cesko-slovenskom-pohranici/"
       },
+      "foto": "/assets/images/places/klenoty-pohranicie.jpg",
       "url": "/category/klenoty-v-cesko-slovenskom-pohranici/",
       "urlAliasy": [
         "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/klenoty-v-cesko-slovenskom-pohranici/"
@@ -925,6 +934,7 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/",
         "hu": "https://www.qrlink.sk/new/hu/category/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/"
       },
+      "foto": "/assets/images/places/cestovatelsky-dennik.jpg",
       "url": "/category/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/",
       "urlAliasy": [
         "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/"
@@ -952,6 +962,7 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/naucne-chodniky-v-cesko-slovenskom-pohranici/",
         "hu": "https://www.qrlink.sk/new/hu/category/naucne-chodniky-v-cesko-slovenskom-pohranici/"
       },
+      "foto": "/assets/images/places/nch-pohranicie.jpg",
       "url": "/category/naucne-chodniky-v-cesko-slovenskom-pohranici/",
       "urlAliasy": [
         "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/"
@@ -978,6 +989,7 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/naucny-chodnik-hlinene/",
         "hu": "https://www.qrlink.sk/new/hu/category/naucny-chodnik-hlinene/"
       },
+      "foto": "/assets/images/places/nch-hlinene.jpg",
       "url": "/category/naucny-chodnik-hlinene/",
       "urlAliasy": [
         "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/"
@@ -1004,6 +1016,7 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/naucny-chodnik-zivcakova/",
         "hu": "https://www.qrlink.sk/new/hu/category/naucny-chodnik-zivcakova/"
       },
+      "foto": "/assets/images/places/nch-zivcakova.jpg",
       "url": "/category/naucny-chodnik-zivcakova/",
       "urlAliasy": [
         "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/"
@@ -1031,6 +1044,7 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/doc-ing-julius-binder-dr-h-c/",
         "hu": "https://www.qrlink.sk/new/hu/category/doc-ing-julius-binder-dr-h-c/"
       },
+      "foto": "/assets/images/places/gabcikovo.jpg",
       "url": "/category/doc-ing-julius-binder-dr-h-c/",
       "urlAliasy": [
         "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/"
@@ -1057,6 +1071,7 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/zvonica-hrusove/",
         "hu": "https://www.qrlink.sk/new/hu/category/zvonica-hrusove/"
       },
+      "foto": "/assets/images/places/zvonica-hrusove.jpg",
       "url": "/category/zvonica-hrusove/",
       "urlAliasy": [
         "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/"
@@ -1083,6 +1098,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/"
       },
+      "foto": "/assets/images/places/zs-a-ms-banova.jpg",
+      "fotoErb": true,
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/",
       "urlAliasy": [
         "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/",
@@ -1111,6 +1128,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/komjatice/",
         "hu": "https://www.qrlink.sk/new/hu/category/komjatice/"
       },
+      "foto": "/assets/images/places/komjatice.png",
+      "fotoErb": true,
       "url": "/category/komjatice/",
       "urlAliasy": []
     },
@@ -1135,6 +1154,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/zemplinske-muzeum/",
         "hu": "https://www.qrlink.sk/new/hu/category/zemplinske-muzeum/"
       },
+      "foto": "/assets/images/places/zemplinske-muzeum.jpg",
+      "fotoErb": true,
       "url": "/category/zemplinske-muzeum/",
       "urlAliasy": []
     },
@@ -1159,6 +1180,8 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/partizanske-cast-simonovany/",
         "hu": "https://www.qrlink.sk/new/hu/category/partizanske-cast-simonovany/"
       },
+      "foto": "/assets/images/places/partizanske-simonovany.png",
+      "fotoErb": true,
       "url": "/category/partizanske-cast-simonovany/",
       "urlAliasy": []
     }
@@ -1890,12 +1913,15 @@ const DB = {
       "poradie": 19,
       "nazov": "Zvonička",
       "popis": "",
-      "cover": "",
+      "cover": "/assets/images/migrated/2025_0920-betliar_zvonica-035.jpg",
       "audio": [],
-      "galeria": [],
+      "galeria": [
+        "/assets/images/migrated/2025_0920-betliar_zvonica-035.jpg",
+        "/assets/images/migrated/zvonicka-s-pamatnym-zvonom.jpg"
+      ],
       "gps": null,
       "mapEmbed": "",
-      "text": "<p>V lesoch nad obcou Betliar stáli v 18. storočí dve pútnické sakrálne stavby – Kaplnka sv. Anny a Kaplnka Navštívenia Panny Márie, ktoré dnes už neexistujú. Nachádzali sa v tesnom susedstve pri cestách vedúcich na Spiš. Obe kaplnky vznikli pravdepodobne začiatkom 18. storočia z iniciatívy baróna Pavla Andrášiho a jeho manželky Kristíny Balašovej. Tieto sakrálne stavby dlhé roky slúžili ako pútnické miesta pre obyvateľov Betliara a širšieho okolia. Každoročná tradícia púti vo sviatky patrónov kaplniek bola úzko spätá s participáciou členov Spoločnosti Ježišovej z neďalekej Rožňavy. Kaplnka Navštívenia Panny Márie predstavovala rozmerovo väčší a možno konštatovať, že aj reprezentatívnejší sakrálny objekt, o čom svedčia aj neskôr pre ňu pridelené odpustkové výsady. Úpadok kaplniek nastal po zrušení jezuitskej rehole v roku 1773. Kaplnka sv. Anny bola už v roku 1782 označená za opustenú, zatiaľ čo Kaplnka Navštívenia Panny Márie si ešte isté obdobie zachovala úlohu pútnického miesta. Konštrukčný zánik oboch objektov nastal pravdepodobne koncom 18. alebo začiatkom 19. storočia. Príčiny tohto vývoja je potrebné hľadať v nedostatočných finančných prostriedkoch a neprejavenej vôli o ich zachovanie, či už zo strany farnosti alebo predstaviteľov šľachtickej rodiny Andrášiovcov. Zvyšky muriva stavieb sme v predpokladanom priestore ich existencie nenašli, čo môže evokovať, že materiál z nich bol rozobratý a odvezený a zánik tak bol koordinovaný a náhly. Zaniknuté kaplnky nad obcou Betliar dnes predstavujú zabudnutú, ale dôležitú kapitolu náboženských dejín obce ale aj širšieho okolia, ktorá dokresľuje význam pútnickej tradície na Gemeri.</p>",
+      "text": "<p>V lesoch nad obcou Betliar stáli v 18. storočí dve pútnické sakrálne stavby – Kaplnka sv. Anny a Kaplnka Navštívenia Panny Márie, ktoré dnes už neexistujú. Nachádzali sa v tesnom susedstve pri cestách vedúcich na Spiš. Obe kaplnky vznikli pravdepodobne začiatkom 18. storočia z iniciatívy baróna Pavla Andrášiho a jeho manželky Kristíny Balašovej. Tieto sakrálne stavby dlhé roky slúžili ako pútnické miesta pre obyvateľov Betliara a širšieho okolia. Každoročná tradícia púti vo sviatky patrónov kaplniek bola úzko spätá s participáciou členov Spoločnosti Ježišovej z neďalekej Rožňavy. Kaplnka Navštívenia Panny Márie predstavovala rozmerovo väčší a možno konštatovať, že aj reprezentatívnejší sakrálny objekt, o čom svedčia aj neskôr pre ňu pridelené odpustkové výsady. Úpadok kaplniek nastal po zrušení jezuitskej rehole v roku 1773. Kaplnka sv. Anny bola už v roku 1782 označená za opustenú, zatiaľ čo Kaplnka Navštívenia Panny Márie si ešte isté obdobie zachovala úlohu pútnického miesta. Konštrukčný zánik oboch objektov nastal pravdepodobne koncom 18. alebo začiatkom 19. storočia. Príčiny tohto vývoja je potrebné hľadať v nedostatočných finančných prostriedkoch a neprejavenej vôli o ich zachovanie, či už zo strany farnosti alebo predstaviteľov šľachtickej rodiny Andrášiovcov. Zvyšky muriva stavieb sme v predpokladanom priestore ich existencie nenašli, čo môže evokovať, že materiál z nich bol rozobratý a odvezený a zánik tak bol koordinovaný a náhly. Zaniknuté kaplnky nad obcou Betliar dnes predstavujú zabudnutú, ale dôležitú kapitolu náboženských dejín obce ale aj širšieho okolia, ktorá dokresľuje význam pútnickej tradície na Gemeri.</p>\n<p><img src=\"/assets/images/migrated/zvonicka-s-pamatnym-zvonom.jpg\" alt=\"\"></p>",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/zvonicka/",
         "en": "https://www.qrlink.sk/new/en/zvonicka/",

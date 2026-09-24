@@ -74,6 +74,24 @@ nič nasadzuje, iba prepíše `js/data.js` podľa aktuálneho obsahu `content/`)
   veľkým (napr. „Kaplnka sv. Cyrila a Metoda“, nie „KAPLNKA SV. CYRILA
   A METODA“) – rovnako v prekladoch.
 
+### Pravidlá pre fotky
+
+- **Max. 400 KB na fotku.** Netreba to strážiť ručne: po každom nahratí
+  fotky (aj cez `/admin`) GitHub Action `.github/workflows/optimize-images.yml`
+  spustí `scripts/optimize-images.js`, ktorý každú fotku nad 400 KB
+  zmenší (max. 1920 px na dlhšej strane, čo najvyššia kvalita) a uloží
+  späť pod rovnakým názvom. Na webe sa zmenšená verzia objaví o 1–2 minúty
+  (ďalšie nasadenie). Menšie fotky ostávajú nedotknuté.
+- **Fotky (aj audio) vždy ukladať do projektu, nikdy neodkazovať na starý
+  web** (`qrlink.sk/new/wp-content/...`) – po jeho vypnutí by zmizli.
+  V CMS vždy fotku **nahraj** (tlačidlo na výber/nahratie súboru), nevkladaj
+  adresu obrázka z iného webu. Build na Verceli každý taký odkaz vypíše
+  ako „POZOR“ a `scripts/localize-remaining-media.js` ich vie stiahnuť.
+- **Fotka miesta/kategórie** = pole „Fotka (foto)“ (karta miesta aj hlavička
+  jeho stránky). Ak je to erb alebo logo (mestá), zaškrtni „Fotka je erb /
+  logo“ – zobrazí sa celé a nezrezané. Podkategória bez vlastnej fotky
+  zdedí fotku nadradeného miesta.
+
 ## Hierarchia: hlavná kategória → projekt → podkategória → zastavenie
 
 Obsah má 4 úrovne:

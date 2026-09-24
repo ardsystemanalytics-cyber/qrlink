@@ -25,5 +25,7 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/porabka/"
-  ]
+  ],
+  "foto": "assets/images/places/porabka.png",
+  "fotoErb": true
 }

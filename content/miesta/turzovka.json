@@ -24,5 +24,7 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/turzovka/"
-  ]
+  ],
+  "foto": "assets/images/places/turzovka.png",
+  "fotoErb": true
 }

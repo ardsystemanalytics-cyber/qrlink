@@ -1054,6 +1054,12 @@ a { color: var(--pine); }
   transition: transform .35s;
 }
 .place-card:hover .card-photo img { transform: scale(1.04); }
+/* erb / logo mesta (m.fotoErb) – celý, nezrezaný, nikdy nezväčšený nad
+   vlastnú veľkosť (malé erby zo starého webu by sa rozmazali) */
+.card-photo img.erb, .cat-hero-photo img.erb {
+  object-fit: scale-down; padding: 18px; box-sizing: border-box;
+}
+.cat-hero-photo img.erb { padding: 32px; }
 
 
 .card-cat-icon svg { width: 18px; height: 18px; color: var(--ink); }

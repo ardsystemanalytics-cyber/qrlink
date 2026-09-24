@@ -21,5 +21,7 @@
     "ru": "https://www.qrlink.sk/new/ru/category/knm/",
     "pl": "https://www.qrlink.sk/new/pl/category/knm/",
     "hu": "https://www.qrlink.sk/new/hu/category/knm/"
-  }
+  },
+  "foto": "assets/images/places/knm.png",
+  "fotoErb": true
 }

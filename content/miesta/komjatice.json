@@ -21,5 +21,7 @@
     "ru": "https://www.qrlink.sk/new/ru/category/komjatice/",
     "pl": "https://www.qrlink.sk/new/pl/category/komjatice/",
     "hu": "https://www.qrlink.sk/new/hu/category/komjatice/"
-  }
+  },
+  "foto": "assets/images/places/komjatice.png",
+  "fotoErb": true
 }

@@ -22,5 +22,7 @@
     "ru": "https://www.qrlink.sk/new/ru/category/roznov-pod-radhostem/",
     "pl": "https://www.qrlink.sk/new/pl/category/roznov-pod-radhostem/",
     "hu": "https://www.qrlink.sk/new/hu/category/roznov-pod-radhostem/"
-  }
+  },
+  "foto": "assets/images/places/roznov.jpg",
+  "fotoErb": true
 }

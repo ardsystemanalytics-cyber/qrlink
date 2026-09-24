@@ -25,5 +25,7 @@
   },
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/frydlant/"
-  ]
+  ],
+  "foto": "assets/images/places/frydlant.png",
+  "fotoErb": true
 }

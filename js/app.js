@@ -118,6 +118,14 @@ function fotoPre(m) {
   return DEFAULT_PHOTO;
 }
 
+/* <img> fotky miesta; erb/logo (m.fotoErb) sa zobrazí celý a nezrezaný */
+function fotoImg(m, lazy = true) {
+  let src = m;
+  while (src && !src.foto && !(typeof PLACE_PHOTOS !== "undefined" && PLACE_PHOTOS[src.id]) && src.rodic) src = miestoById(src.rodic);
+  const erb = src && src.foto && src.fotoErb;
+  return `<img src="${fotoPre(m)}" alt="${tc(m, "nazov")}"${erb ? ' class="erb"' : ""}${lazy ? ' loading="lazy"' : ""}>`;
+}
+
 /* vykreslí breadcrumby do #crumbs; items = [{label, href|null}] */
 function renderBreadcrumb(items) {
   const host = Q("#crumbs");
@@ -232,7 +240,6 @@ function cardHTML(m) {
   const katObj = katById(m.primarna) || {};
   const farba  = katObj.farba || "#4E7FAE";
   const icon   = (typeof KAT_ICONS !== "undefined" && KAT_ICONS[m.primarna]) || KAT_ICONS["mesta"] || "";
-  const photo  = fotoPre(m);
   const pocet  = pocetZastaveni(m.id);
 
   // Farebne taby – farba z kategorie
@@ -246,7 +253,7 @@ function cardHTML(m) {
   // Pozadie: 15% opacity farby, ikona plnou farbou
   return `<a class="place-card" href="${m.url}">
     <div class="card-photo">
-      <img src="${photo}" alt="${tc(m, "nazov")}" loading="lazy">
+      ${fotoImg(m)}
       <span class="card-cat-icon" style="background:${farba};border:none">
         <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"
              stroke-linecap="round" stroke-linejoin="round">${icon}</svg>
@@ -372,7 +379,7 @@ function subcatCardHTML(m) {
   const pocet = pocetZastaveni(m.id);
   return `<a class="place-card" href="${m.url}">
     <div class="card-photo">
-      <img src="${fotoPre(m)}" alt="${tc(m, "nazov")}" loading="lazy">
+      ${fotoImg(m)}
     </div>
     <div class="card-body">
       <h3>${tc(m, "nazov")}</h3>
@@ -508,7 +515,7 @@ function renderKategoria() {
 
   const photoHost = Q("#catPhoto");
   if (photoHost) {
-    photoHost.innerHTML = `<img src="${fotoPre(m)}" alt="${tc(m, "nazov")}">`;
+    photoHost.innerHTML = fotoImg(m, false);
     if (m.heroOverlay) {
       const overlayIcon = CAT_FEATURE_ICONS[m.heroOverlay.icon] || CAT_FEATURE_ICONS.stromy;
       photoHost.innerHTML += `
