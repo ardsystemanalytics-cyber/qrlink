@@ -29,6 +29,10 @@
     "cs": {
       "nazov": "Cvičná štola Dolu Paskov",
       "text": "Je to uměle vybudovaná ukázková štola s funkčním důlním zařízením. Na 200 m důlních chodeb se nacházejí běžná důlní pracoviště v technologické návaznosti jako ve skutečném dole."
+    },
+    "hu": {
+      "nazov": "A Paskovi Bánya gyakorló tárója",
+      "text": "Mesterségesen kialakított bemutató tárna működő bányászati berendezésekkel. A 200 m hosszú bányafolyosókon a szokásos bányászati munkahelyek technológiai sorrendben követik egymást, akárcsak egy valódi bányában."
     }
   }
 }

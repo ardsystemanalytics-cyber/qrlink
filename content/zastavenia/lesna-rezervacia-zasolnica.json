@@ -40,6 +40,10 @@
     "cs": {
       "nazov": "Lesní rezervace Zasolnica",
       "text": "Lesní rezervace „Zasolnica“ vznikla v roce 1973 na ochranu starého karpatského bukového lesa. Je to jedna z mála přírodních rezervací v Malém Beskydu. Její celková plocha je 16 hektarů. Zahrnuje pásmo Wilkowické Magury, oblast Chrobacké Łąky a svahy Zasolnické hory."
+    },
+    "hu": {
+      "nazov": "Zasolnica erdőrezervátum",
+      "text": "A „Zasolnica” erdőrezervátum 1973-ban jött létre az öreg kárpáti bükkerdő védelmére. Egyike a Kis-Beszkidek kevés természetvédelmi területének. Teljes területe 16 hektár. Magában foglalja a Wilkowicka Magura vonulatát, a Chrobacza Łąka területét és a Zasolnica-hegy lejtőit."
     }
   }
 }

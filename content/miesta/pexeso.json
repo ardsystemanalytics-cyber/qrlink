@@ -21,6 +21,9 @@
   "i18n": {
     "en": {
       "nazov": "Memory Game"
+    },
+    "hu": {
+      "nazov": "Memóriajáték"
     }
   }
 }

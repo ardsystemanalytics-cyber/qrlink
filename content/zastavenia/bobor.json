@@ -37,6 +37,10 @@
     "cs": {
       "nazov": "Bobr",
       "text": "**Bobr**\n\nBobr staví v řece hráz, \n\nze stromů má hradby zas. \n\nZoubky silné, ostré má, \n\nstromy rychle ohryzá.\n\nOcas plochý jako pádlo, \n\nplácne jím, když skočí na dno. \n\nVe vodě je mistr plavby, \n\nv řece tvoří svoje stavby."
+    },
+    "hu": {
+      "nazov": "Hód",
+      "text": "**Hód**\n\nGátat épít hód a vízben,\n\nfából rak várat szépen.\n\nFoga erős, éles ám,\n\nfát rág gyorsan, nincs hiány.\n\nFarka lapos, mint egy evező,\n\ncsattan, ha a mélybe lemerül ő.\n\nVízben úszni mester ő,\n\nfolyóban épít, szorgos, erős."
     }
   }
 }

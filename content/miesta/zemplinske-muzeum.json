@@ -32,6 +32,10 @@
     "cs": {
       "nazov": "Zemplínské muzeum",
       "popis": "Muzeum v Michalovcích s archeologickými nálezy z regionu."
+    },
+    "hu": {
+      "nazov": "Zempléni Múzeum",
+      "popis": "Múzeum Michalovcéban (Nagymihályban) a régió régészeti leleteivel."
     }
   }
 }

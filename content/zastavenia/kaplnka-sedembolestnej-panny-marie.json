@@ -37,6 +37,10 @@
     "cs": {
       "nazov": "Kaple Panny Marie Sedmibolestné",
       "text": "Kaple byla postavena v roce 1944 nad cestou vedoucí z Turzovky přes horské sedlo Semeteš na Považí. Ve věžičce je umístěn zvon s nápisem: „Ulil R. Manoušek a spol. v Brně 1943.“"
+    },
+    "hu": {
+      "nazov": "Hétfájdalmú Szűz Mária-kápolna",
+      "text": "A kápolna 1944-ben épült a Turzovkáról a Semeteš-nyergen át a Vág mentére vezető út fölött. A tornyocskában harang található a következő felirattal: „Ulil R. Manoušek a spol. v Brne 1943.” (Öntötte R. Manoušek és társa, Brno, 1943.)"
     }
   }
 }

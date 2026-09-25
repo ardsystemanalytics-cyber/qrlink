@@ -37,6 +37,10 @@
     "cs": {
       "nazov": "ZŠ a MŠ Bánová",
       "popis": "Areál základní a mateřské školy v Žilině-Bánové s naučnými zastaveními pro environmentální výchovu."
+    },
+    "hu": {
+      "nazov": "Bánovái Alapiskola és Óvoda",
+      "popis": "Alapiskola és óvoda területe Zsolna-Bánován, tanösvény-megállókkal a környezeti neveléshez."
     }
   }
 }

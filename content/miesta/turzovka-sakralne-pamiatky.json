@@ -26,6 +26,10 @@
     "cs": {
       "nazov": "Sakrální památky",
       "popis": "Kostely a kaple v Turzovce a okolí."
+    },
+    "hu": {
+      "nazov": "Szakrális műemlékek",
+      "popis": "Templomok és kápolnák Turzovkán és környékén."
     }
   },
   "foto": "assets/images/places/turzovka-sakralne-pamiatky.jpg"

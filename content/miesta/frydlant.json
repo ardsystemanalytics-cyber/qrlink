@@ -34,6 +34,10 @@
     },
     "cs": {
       "popis": "Město v česko-slovenském pohraničí."
+    },
+    "hu": {
+      "nazov": "Frýdlant",
+      "popis": "Város a cseh–szlovák határvidéken."
     }
   }
 }

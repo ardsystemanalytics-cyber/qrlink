@@ -33,6 +33,10 @@
     "cs": {
       "nazov": "Pyxida z Čiernych Kľačan",
       "popis": "Vzácná slonovinová schránka z velkomoravského období."
+    },
+    "hu": {
+      "nazov": "A čierne kľačanyi pyxis",
+      "popis": "Értékes elefántcsont szelence a nagymorva korból."
     }
   },
   "foto": "assets/images/places/cierne-klacany.jpg"

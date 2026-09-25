@@ -40,6 +40,10 @@
     "cs": {
       "nazov": "Kaple na Tronce",
       "text": "Kaple na Tronce stojí na turistické stezce vedoucí přes Bukowski Groń na průsmyk Kocierska. Je zde obraz Matky Boží Sněžné. Každou první srpnovou neděli se zde konají odpustová shromáždění, na která přicházejí davy věřících."
+    },
+    "hu": {
+      "nazov": "Kápolna a Tronkán",
+      "text": "A Tronka-kápolna a Bukowski Groń-on át a Kocierska-hágóra vezető turistaúton áll. A Havas Boldogasszony képe található itt. Minden augusztus első vasárnapján búcsút tartanak, amelyre hívők tömegei érkeznek."
     }
   }
 }

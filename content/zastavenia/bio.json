@@ -37,6 +37,10 @@
     "cs": {
       "nazov": "Bio",
       "text": "## Bioodpad\n\nNádoba na bioodpad má hnědou barvu a je označena jako biologicky rozložitelný odpad.\n\n**Do hnědého kontejneru patří** biologicky rozložitelný odpad, jako jsou zbytky ovoce a zeleniny, slupky, zbytky kávy a čaje, tráva, malé větve ze stromů, květiny a listí.\n\n**Nepatří sem** vlasy, popel, zbytky jídla a masa, kosti, plastové sáčky, kameny, skořápky od vajec a ostatní nerozložitelný odpad.\n\n*Zdroj: [Wikipedia](https://sk.wikipedia.org/)*"
+    },
+    "hu": {
+      "nazov": "Bio",
+      "text": "## Biohulladék\n\nA biohulladék-gyűjtő edény barna színű, és biológiailag lebomló hulladékként van megjelölve.\n\n**A barna konténerbe kerül** a biológiailag lebomló hulladék, például gyümölcs- és zöldségmaradék, héjak, kávé- és teamaradék, fű, kisebb faágak, virágok, lomb.\n\n**Nem ide tartozik** a haj, a hamu, az ételmaradék és a hús, a csont, a műanyag zacskó, a kő, a tojáshéj és egyéb le nem bomló hulladék.\n\n*Forrás: [Wikipedia](https://sk.wikipedia.org/)*"
     }
   }
 }

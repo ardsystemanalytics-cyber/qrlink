@@ -35,6 +35,10 @@
     "cs": {
       "nazov": "Klenoty česko-slovenského pohraničí",
       "popis": "Kulturní a přírodní klenoty pohraničí."
+    },
+    "hu": {
+      "nazov": "Kincsek a cseh–szlovák határvidéken",
+      "popis": "A határvidék kulturális és természeti kincsei."
     }
   }
 }

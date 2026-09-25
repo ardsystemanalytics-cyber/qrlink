@@ -37,6 +37,10 @@
     "cs": {
       "nazov": "Písnička „Kohútik jarabý“ (Kohoutek strakatý)",
       "text": "## Text písničky „Kohútik jarabý“\n\n*Kohoutku strakatý,* \n\n*nechoď do zahrady,* \n\n*polámeš lilii,* \n\n*potom tě zabijí.*\n\n*A když tě zabijí,* \n\n*tak tě pochovají* \n\n*do takové zahrady,* \n\n*kde páni sedají.*"
+    },
+    "hu": {
+      "nazov": "„Kohútik jarabý” (Tarka kakaska) című dal",
+      "text": "## A „Kohútik jarabý” című dal szövege\n\n*Kohútik jarabý,*\n\n*nechoď do záhrady,*\n\n*polámeš ľaliu,*\n\n*potom ťa zabijú.*\n\n*A keď ťa zabijú*\n\n*Tak ťa pochovajú*\n\n*Do takej záhrady*\n\n*Kde páni sedajú*"
     }
   }
 }

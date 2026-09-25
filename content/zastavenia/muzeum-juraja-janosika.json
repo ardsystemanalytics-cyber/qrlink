@@ -37,6 +37,10 @@
     "cs": {
       "nazov": "Muzeum Juraje Jánošíka",
       "text": "Stálá expozice věnovaná národnímu hrdinovi Jánošíkovi a dávnému životu v obci Terchová je zpřístupněna od roku 2008. Expozice je rozdělena do několika tematických celků: tradiční terchovské obydlí, historie obce a Jánošík jako lidový hrdina."
+    },
+    "hu": {
+      "nazov": "Juraj Jánošík Múzeum",
+      "text": "A nemzeti hősnek, Jánošíknak és a terchovái régi életnek szentelt állandó kiállítás 2008 óta látogatható. A kiállítás több tematikus egységre oszlik: a hagyományos terchovai lakóház, a község története, Jánošík mint népi hős."
     }
   }
 }

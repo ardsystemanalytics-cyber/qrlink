@@ -30,6 +30,10 @@
     },
     "cs": {
       "popis": "Město na Kysucích."
+    },
+    "hu": {
+      "nazov": "Kysucké Nové Mesto",
+      "popis": "Város a Kiszuca vidékén."
     }
   }
 }

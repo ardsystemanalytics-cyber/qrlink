@@ -37,6 +37,10 @@
     "cs": {
       "nazov": "Jižní nádvoří",
       "text": "Na místě dnešního jižního nádvoří se původně nacházel příkop, který chránil přístup do věže. Později na jeho místě vzniklo nádvoří, které mělo další podlaží a také střechu."
+    },
+    "hu": {
+      "nazov": "Déli udvar",
+      "text": "A mai déli udvar helyén eredetileg árok húzódott, amely a torony megközelítését védte. Később a helyén udvar jött létre, amelynek további szintje és teteje is volt."
     }
   }
 }

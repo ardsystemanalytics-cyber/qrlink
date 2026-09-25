@@ -32,6 +32,10 @@
     "cs": {
       "nazov": "Kraj Rusínů a Andyho Warhola",
       "popis": "Region Medzilaborců spjatý s rusínskou kulturou a rodinou Andyho Warhola."
+    },
+    "hu": {
+      "nazov": "A ruszinok és Andy Warhol vidéke",
+      "popis": "Mezőlaborc vidéke, amely a ruszin kultúrához és Andy Warhol családjához kötődik."
     }
   }
 }

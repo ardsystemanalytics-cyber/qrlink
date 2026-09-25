@@ -37,6 +37,10 @@
     "cs": {
       "nazov": "Cisterna",
       "text": "Cisterna sloužila k zachytávání dešťové vody ze střech hradu. Voda se do ní dostávala dešťovými okapy. Cisterna je hluboká 3,5 m a má průměr 2,6 m. Pět spodních řad obložení je původních, ostatní 3 řady jsou dorekonstruované. Dno a stěny cisterny byly v době používání vymazány jílem, čímž se zabránilo prosakování vody do vápencového podloží. Voda z cisterny nebyla pitná, pouze užitková."
+    },
+    "hu": {
+      "nazov": "Ciszterna",
+      "text": "A ciszterna a vár tetőiről lefolyó esővíz összegyűjtésére szolgált. A víz esőcsatornákon keresztül jutott bele. A ciszterna 3,5 m mély, átmérője 2,6 m. A burkolat öt alsó sora eredeti, a többi 3 sort rekonstruálták. A ciszterna alját és oldalát használata idején agyaggal tapasztották ki, így megakadályozták, hogy a víz a mészkő altalajba szivárogjon. A ciszterna vize nem volt iható, csak használati víz volt."
     }
   }
 }

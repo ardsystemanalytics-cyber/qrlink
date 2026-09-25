@@ -35,6 +35,10 @@
     "cs": {
       "nazov": "Naučné stezky v česko-slovenském pohraničí",
       "popis": "Síť naučných stezek v pohraničí."
+    },
+    "hu": {
+      "nazov": "Tanösvények a cseh–szlovák határvidéken",
+      "popis": "Tanösvények hálózata a határvidéken."
     }
   }
 }

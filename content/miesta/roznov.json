@@ -31,6 +31,10 @@
     },
     "cs": {
       "popis": "Valašské město známé skanzenem."
+    },
+    "hu": {
+      "nazov": "Rožnov pod Radhoštěm",
+      "popis": "Skanzenjéről ismert valašskói város."
     }
   }
 }

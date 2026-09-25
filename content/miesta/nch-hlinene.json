@@ -34,6 +34,10 @@
     "cs": {
       "nazov": "Naučná stezka Hlinené",
       "popis": "Naučná stezka v okolí Turzovky."
+    },
+    "hu": {
+      "nazov": "Hlinené tanösvény",
+      "popis": "Tanösvény Turzovka környékén."
     }
   }
 }

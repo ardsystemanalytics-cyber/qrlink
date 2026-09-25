@@ -30,6 +30,10 @@
     },
     "cs": {
       "popis": "Město na východním Slovensku."
+    },
+    "hu": {
+      "nazov": "Vranov nad Topľou",
+      "popis": "Város Kelet-Szlovákiában."
     }
   }
 }

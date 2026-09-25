@@ -30,6 +30,10 @@
     },
     "cs": {
       "popis": "Metropole Šariše s historickým centrem."
+    },
+    "hu": {
+      "nazov": "Prešov",
+      "popis": "Sáros metropolisza történelmi belvárossal."
     }
   }
 }

@@ -37,6 +37,10 @@
     "cs": {
       "nazov": "Gejzír v Rajecké Lesné",
       "text": "Je lákadlem pro mnoho turistů. Je vysoký přibližně 10 m a nejzajímavější je v zimním období, kdy vytváří obrovský ledový kužel."
+    },
+    "hu": {
+      "nazov": "Gejzír Rajecká Lesnán",
+      "text": "sok turistát vonz. Körülbelül 10 m magas, és télen a legérdekesebb, amikor hatalmas jégkúpot képez."
     }
   }
 }

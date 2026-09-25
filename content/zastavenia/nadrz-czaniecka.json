@@ -40,6 +40,10 @@
     "cs": {
       "nazov": "Nádrž Czaniecka",
       "text": "Umělá nádrž Czaniecka byla postavena v roce 1966 s cílem zajistit odběr vody pro Hornoslezskou průmyslovou oblast a Bielsko-Białou s regulací stavu vody. Nachází se v malebném údolí řeky Soła. Rozkládá se na ploše 45 hektarů a její kapacita je 1,3 milionu m3. Nádrž má přímé pásmo hygienické ochrany."
+    },
+    "hu": {
+      "nazov": "Czanieci víztározó",
+      "text": "A czanieci mesterséges víztározó 1966-ban épült, hogy vízgyűjtési lehetőséget teremtsen a Felső-sziléziai ipari körzet és Bielsko-Biała számára, a vízszint szabályozásával. A Soła folyó festői völgyében található. 45 hektáron terül el, befogadóképessége 1,3 millió m3. A tározó közvetlen egészségügyi védőövezettel rendelkezik."
     }
   }
 }

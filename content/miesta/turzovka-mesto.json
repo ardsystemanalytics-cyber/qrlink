@@ -14,6 +14,10 @@
     "cs": {
       "nazov": "Turzovka – městské památky a zajímavosti",
       "popis": "Ostatní pamětihodnosti a zajímavosti přímo ve městě Turzovka."
+    },
+    "hu": {
+      "nazov": "Turzovka – városi műemlékek és látnivalók",
+      "popis": "További nevezetességek és látnivalók közvetlenül Turzovka városában."
     }
   }
 }

@@ -32,6 +32,10 @@
     "cs": {
       "nazov": "Partizánske – část Šimonovany",
       "popis": "Městská část Partizánského s první autonomní železniční zastávkou na Slovensku."
+    },
+    "hu": {
+      "nazov": "Partizánske – Šimonovany városrész",
+      "popis": "Partizánske városrésze Szlovákia első autonóm vasúti megállóhelyével."
     }
   }
 }
