@@ -41,6 +41,10 @@
     "hu": {
       "nazov": "Bio",
       "text": "## Biohulladék\n\nA biohulladék-gyűjtő edény barna színű, és biológiailag lebomló hulladékként van megjelölve.\n\n**A barna konténerbe kerül** a biológiailag lebomló hulladék, például gyümölcs- és zöldségmaradék, héjak, kávé- és teamaradék, fű, kisebb faágak, virágok, lomb.\n\n**Nem ide tartozik** a haj, a hamu, az ételmaradék és a hús, a csont, a műanyag zacskó, a kő, a tojáshéj és egyéb le nem bomló hulladék.\n\n*Forrás: [Wikipedia](https://sk.wikipedia.org/)*"
+    },
+    "de": {
+      "nazov": "Bio",
+      "text": "## Bioabfall\n\nDer Behälter für Bioabfall ist braun und als biologisch abbaubarer Abfall gekennzeichnet.\n\n**In den braunen Container gehört** biologisch abbaubarer Abfall wie Obst- und Gemüsereste, Schalen, Kaffee- und Teereste, Gras, kleine Baumäste, Blumen, Laub.\n\n**Nicht hinein gehören** Haare, Asche, Speise- und Fleischreste, Knochen, Plastiktüten, Steine, Eierschalen und sonstiger nicht abbaubarer Abfall.\n\n*Quelle: [Wikipedia](https://sk.wikipedia.org/)*"
     }
   }
 }

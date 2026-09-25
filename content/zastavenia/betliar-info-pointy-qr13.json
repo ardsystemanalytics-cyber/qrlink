@@ -44,6 +44,10 @@
     "cs": {
       "nazov": "Budova železniční stanice",
       "text": "Budova železniční stanice stojí u trati Rožňava – Dobšiná. Byla postavena v roce 1874 současně s výstavbou této trati, která tvořila hlavní tah Gemeru z Bánréve do Dobšiné. V budově stanice byla kancelář dopravní společnosti a byty pro zaměstnance. Svému účelu sloužila až do zrušení osobní dopravy na této trati v roce 2003."
+    },
+    "de": {
+      "nazov": "Bahnhofsgebäude",
+      "text": "Das Bahnhofsgebäude steht an der Strecke Rožňava – Dobšiná. Es wurde 1874 gleichzeitig mit dem Bau dieser Strecke errichtet, die die Hauptverbindung von Gemer über Bánréve nach Dobšiná bildete. Im Bahnhofsgebäude befand sich das Büro der Verkehrsgesellschaft sowie Wohnungen für die Angestellten. Es diente seinem Zweck bis zur Einstellung des Personenverkehrs auf dieser Strecke im Jahr 2003."
     }
   }
 }

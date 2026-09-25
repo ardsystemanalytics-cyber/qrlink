@@ -29,6 +29,10 @@
     "cs": {
       "nazov": "Architektura",
       "popis": "Architektonické prvky anglického parku u kaštelu Andrássyů."
+    },
+    "de": {
+      "nazov": "Architektur",
+      "popis": "Architektonische Elemente des englischen Parks beim Schloss der Andrássys."
     }
   },
   "foto": "assets/images/places/betliar-info-strom-architektura.jpg"

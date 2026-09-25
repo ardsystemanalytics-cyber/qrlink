@@ -37,6 +37,10 @@
     "hu": {
       "nazov": "A čierne kľačanyi pyxis",
       "popis": "Értékes elefántcsont szelence a nagymorva korból."
+    },
+    "de": {
+      "nazov": "Die Pyxis von Čierne Kľačany",
+      "popis": "Kostbares Elfenbeinkästchen aus der großmährischen Zeit."
     }
   },
   "foto": "assets/images/places/cierne-klacany.jpg"

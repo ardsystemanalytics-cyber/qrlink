@@ -53,6 +53,10 @@
     "hu": {
       "nazov": "Régészeti kiállítás",
       "text": "Ebben a helyiségben régészeti kiállítás található. A vitrinekben az őskortól a középkorig terjedő időszak régészeti leletei láthatók, amelyek a Strečnóban és a környező községekben (Varín, Rosina, Krasňany, Gbeľany) végzett régészeti kutatások során kerültek elő.\n\n![](/assets/images/migrated/strecno-mapka_3.jpg)"
+    },
+    "de": {
+      "nazov": "Archäologische Ausstellung",
+      "text": "In diesem Raum befindet sich eine archäologische Ausstellung. In den Vitrinen können Sie archäologische Funde aus der Zeit von der Urgeschichte bis zum Mittelalter sehen, die bei archäologischen Untersuchungen in Strečno und den umliegenden Gemeinden (Varín, Rosina, Krasňany, Gbeľany) gefunden wurden.\n\n![](/assets/images/migrated/strecno-mapka_3.jpg)"
     }
   }
 }

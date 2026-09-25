@@ -44,6 +44,10 @@
     "hu": {
       "nazov": "Euroregión Beskydy",
       "popis": "Fedezze fel a szlovák–cseh határvidék kivételes helyszíneit – városokat, várakat, természeti szépségeket és a két nemzetet összekötő kulturális örökséget."
+    },
+    "de": {
+      "nazov": "Euroregion Beskiden",
+      "popis": "Entdecken Sie außergewöhnliche Orte im slowakisch-tschechischen Grenzgebiet – Städte, Burgen, Naturschönheiten und das kulturelle Erbe, das zwei Nationen verbindet."
     }
   },
   "hlavnaKategoria": "Mestá",

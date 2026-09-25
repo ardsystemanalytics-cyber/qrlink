@@ -29,6 +29,10 @@
     "hu": {
       "nazov": "Emlékművek Turzovkán",
       "popis": "Emlékművek és emlékhelyek Turzovkán."
+    },
+    "de": {
+      "nazov": "Denkmäler in Turzovka",
+      "popis": "Denkmäler und Gedenkstätten in Turzovka."
     }
   },
   "foto": "assets/images/places/turzovka-pamatniky.jpg"

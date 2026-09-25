@@ -29,6 +29,10 @@
     "cs": {
       "nazov": "Anglický park u kaštelu Andrássyů",
       "popis": "Naučná trasa anglickým parkem – fauna, flóra a architektura."
+    },
+    "de": {
+      "nazov": "Englischer Park beim Schloss der Andrássys",
+      "popis": "Lehrpfad durch den englischen Park – Fauna, Flora und Architektur."
     }
   },
   "foto": "assets/images/places/betliar-info-strom.jpg"

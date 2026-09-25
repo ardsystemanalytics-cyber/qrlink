@@ -36,6 +36,10 @@
     "hu": {
       "nazov": "Zempléni Múzeum",
       "popis": "Múzeum Michalovcéban (Nagymihályban) a régió régészeti leleteivel."
+    },
+    "de": {
+      "nazov": "Museum der Zemplín-Region",
+      "popis": "Museum in Michalovce mit archäologischen Funden der Region."
     }
   }
 }

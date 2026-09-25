@@ -29,6 +29,10 @@
     "cs": {
       "nazov": "Pamětihodnosti obce Betliar",
       "popis": "Prohlídková trasa po pamětihodnostech přímo v obci Betliar."
+    },
+    "de": {
+      "nazov": "Sehenswürdigkeiten der Gemeinde Betliar",
+      "popis": "Besichtigungsroute zu den Sehenswürdigkeiten direkt in der Gemeinde Betliar."
     }
   },
   "foto": "assets/images/places/betliar-info-pointy.jpg"

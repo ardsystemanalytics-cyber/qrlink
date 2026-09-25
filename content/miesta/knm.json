@@ -34,6 +34,10 @@
     "hu": {
       "nazov": "Kysucké Nové Mesto",
       "popis": "Város a Kiszuca vidékén."
+    },
+    "de": {
+      "nazov": "Kysucké Nové Mesto",
+      "popis": "Stadt in der Region Kysuce."
     }
   }
 }

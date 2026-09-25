@@ -44,6 +44,10 @@
     "cs": {
       "nazov": "Velký rybník",
       "text": "Byl vybudován v 80. letech 19. století a má rozlohu 4 750 m2. Na rybníku je vybudováno přístaviště, z břehu vede dřevěný můstek do malé besídky."
+    },
+    "de": {
+      "nazov": "Großer Teich",
+      "text": "Er wurde in den 1880er Jahren angelegt und hat eine Fläche von 4750 m². Am Teich befindet sich ein Bootsanleger, vom Ufer führt ein hölzerner Steg zu einem kleinen Pavillon."
     }
   }
 }

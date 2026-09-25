@@ -33,6 +33,10 @@
     "hu": {
       "nazov": "A Paskovi Bánya gyakorló tárója",
       "text": "Mesterségesen kialakított bemutató tárna működő bányászati berendezésekkel. A 200 m hosszú bányafolyosókon a szokásos bányászati munkahelyek technológiai sorrendben követik egymást, akárcsak egy valódi bányában."
+    },
+    "de": {
+      "nazov": "Übungsstollen Dolu Paskov",
+      "text": "Es handelt sich um einen künstlich angelegten Schaustollen mit funktionsfähiger Bergbauausrüstung. Auf 200 m Länge der Grubengänge befinden sich übliche Arbeitsplätze des Bergbaus in technologischer Abfolge wie in einem echten Bergwerk."
     }
   }
 }

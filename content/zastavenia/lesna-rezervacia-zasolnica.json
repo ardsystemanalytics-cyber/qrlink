@@ -44,6 +44,10 @@
     "hu": {
       "nazov": "Zasolnica erdőrezervátum",
       "text": "A „Zasolnica” erdőrezervátum 1973-ban jött létre az öreg kárpáti bükkerdő védelmére. Egyike a Kis-Beszkidek kevés természetvédelmi területének. Teljes területe 16 hektár. Magában foglalja a Wilkowicka Magura vonulatát, a Chrobacza Łąka területét és a Zasolnica-hegy lejtőit."
+    },
+    "de": {
+      "nazov": "Waldreservat Zasolnica",
+      "text": "Das Waldreservat „Zasolnica“ entstand 1973 zum Schutz eines alten karpatischen Buchenwaldes. Es ist eines der wenigen Naturreservate in den Kleinen Beskiden. Seine Gesamtfläche beträgt 16 Hektar. Es umfasst den Kamm der Wilkowicka Magura, das Gebiet der Chrobacza Łąka sowie die Hänge des Berges Zasolnica."
     }
   }
 }

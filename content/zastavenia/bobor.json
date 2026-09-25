@@ -41,6 +41,10 @@
     "hu": {
       "nazov": "Hód",
       "text": "**Hód**\n\nGátat épít hód a vízben,\n\nfából rak várat szépen.\n\nFoga erős, éles ám,\n\nfát rág gyorsan, nincs hiány.\n\nFarka lapos, mint egy evező,\n\ncsattan, ha a mélybe lemerül ő.\n\nVízben úszni mester ő,\n\nfolyóban épít, szorgos, erős."
+    },
+    "de": {
+      "nazov": "Biber",
+      "text": "**Biber**\n\nBiber baut im Fluss einen Damm,\n\naus Bäumen macht er große Wälle.\n\nZähne stark und scharf hat er,\n\nBäume nagt er blitzeschnell.\n\nFlacher Schwanz wie ein Paddel,\n\nklatscht damit, springt er in die Tiefe.\n\nIm Wasser ist er Schwimmmeister,\n\nim Fluss errichtet er sein Bauwerk."
     }
   }
 }

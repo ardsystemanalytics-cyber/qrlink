@@ -29,6 +29,10 @@
     "cs": {
       "nazov": "Fauna a flóra",
       "popis": "Fauna a flóra anglického parku u kaštelu Andrássyů."
+    },
+    "de": {
+      "nazov": "Fauna und Flora",
+      "popis": "Fauna und Flora des englischen Parks beim Schloss der Andrássys."
     }
   },
   "foto": "assets/images/places/betliar-info-strom-fauna-flora.jpg"

@@ -36,6 +36,10 @@
     "hu": {
       "nazov": "A ruszinok és Andy Warhol vidéke",
       "popis": "Mezőlaborc vidéke, amely a ruszin kultúrához és Andy Warhol családjához kötődik."
+    },
+    "de": {
+      "nazov": "Land der Russinen und Andy Warhols",
+      "popis": "Die Region Medzilaborce, verbunden mit der russinischen Kultur und der Familie Andy Warhols."
     }
   }
 }

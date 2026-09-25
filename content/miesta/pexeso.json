@@ -24,6 +24,9 @@
     },
     "hu": {
       "nazov": "Memóriajáték"
+    },
+    "de": {
+      "nazov": "Memory-Spiel"
     }
   }
 }

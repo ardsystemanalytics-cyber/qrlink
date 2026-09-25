@@ -1,0 +1,2870 @@
+{
+  "popis": "Automatický (strojový) preklad do nemčiny, 2026-09-25 – len polia, ktoré predtým nemecký preklad nemali (zobrazoval sa slovenský, resp. pri niekoľkých zastaveniach český pôvodný text). Existujúce nemecké preklady sa nemenili. Preklady zo starého webu sú v translations-from-old-site.json.",
+  "zaznamy": [
+    {
+      "sub": "miesta",
+      "id": "betliar-info-pointy",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "betliar-info-strom-architektura",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "betliar-info-strom-fauna-flora",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "betliar-info-strom",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "betliar",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "bludisko",
+      "prelozene": [
+        "nazov"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "bratislava-ivanka",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "cestovatelsky-dennik",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "cierne-klacany",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "dendrolog-1",
+      "prelozene": [
+        "nazov"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "dendrolog-2",
+      "prelozene": [
+        "nazov"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "euroregion-beskydy",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "frydlant",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "gabcikovo",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "hmyzi-domcek",
+      "prelozene": [
+        "nazov"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "hrad-strecno",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "klenoty-pohranicie",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "knm",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "komjatice",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "kraj-rusinov",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "nch-hlinene",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "nch-pohranicie",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "nch-zivcakova",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "partizanske-simonovany",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "pexeso",
+      "prelozene": [
+        "nazov"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "porabka",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "presov",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "roznov",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "ruzomberok",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "sokolovce",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "trebisov",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "turzovka-mesto",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "turzovka-pamatniky",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "turzovka-sakralne-pamiatky",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "turzovka",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "vranov",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "vtacia-budka",
+      "prelozene": [
+        "nazov"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "vtacie-krmitko",
+      "prelozene": [
+        "nazov"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "zemplinske-muzeum",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "zs-a-ms-banova",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "miesta",
+      "id": "zvonica-hrusove",
+      "prelozene": [
+        "nazov",
+        "popis"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "2-gastan-jedly",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "3-orech-kralovsky",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "4-ceresna-vtacia",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "5-jablon-domaca",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "6-slivka-trnkova",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "7-buk-lesny",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "8-breza-previsnuta",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "areal-sportu-a-oddychu-skatepark",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "babia-hora",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "barokovo-klasicisticky-kastiel",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "bazilika-minor-narodenia-panny-marie-a-klastor-paulinov",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "bazilika-minor-putnicky-chram-navstivenie-panny-marie",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-pointy-qr1",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-pointy-qr10",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-pointy-qr11",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-pointy-qr12",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-pointy-qr13",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-pointy-qr14",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-pointy-qr15",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-pointy-qr16",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-pointy-qr17",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-pointy-qr18",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-pointy-qr2",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-pointy-qr3",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-pointy-qr4",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-pointy-qr5",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-pointy-qr6",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-pointy-qr7",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-pointy-qr8",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-pointy-qr9",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr1",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr10",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr11",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr12",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr13",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr14",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr15",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr16",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr17",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr18",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr19",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr2",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr20",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr21",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr22",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr23",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr24",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr25",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr26",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr27",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr28",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr29",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr3",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr30",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr31",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr32",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr33",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr34",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr35",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr4",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr5",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr6",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr7",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr8",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "betliar-info-strom-qr9",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "bio",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "bobor",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "bobrovska-kalvaria",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "bytcianski-turzovci-povod-dejiny-rodu-erb",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "caraffova-vaznica",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "centrum-socialnych-sluzieb",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "certuv-mlyn",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "cervienka-obycajna",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "cesticka-na-hrad",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "chata-mamenka-a-libusin",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "chlebovicka-medova-stopa",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "chodnik-jozefa-kronera",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "chram-sv-jana-krstitela",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "chranena-lipa",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "ciernoklacianska-pyxida",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "cisterna",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "cmel",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "cvicna-stolna-dolu-paskov",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "cyril-daxner-daxnerov-dom",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "dendrolog-2-stvrta-podstranka",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "dendrolog-2-tretia-podstranka",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "detsky-naucny-turisticky-chodnik",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "doc-ing-julius-binder-dr-h-c",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "drozd-cierny",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "edmund-reitter-clovek-a-filantrop",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "edmund-reitter-odkaz-v-soudobem-paskove",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "edmund-reitter-rodinne-zazemi-2",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "edmund-reitter-vedec-novinar-a-cestovatel",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "evanjelicke-kolegium",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "evanjelicky-a-v-chram-sv-trojice",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "evanjelicky-a-v-kostol",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "expozicia-archeologie",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "frantiskansky-kostol",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "frydecky-les",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "futbalove-ihrisko-a-hala-sport-frydlant-nad-ostravici",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "gabcikov-sad",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "galeria-ludovita-fullu",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "gejzir-v-rajeckej-lesnej",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "goticky-a-vychodny-palac",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "greckokatolicky-biskupsky-palac",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "greckokatolicky-chram-zosnutia-presvatej-bohorodicky",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "grun-bily-kriz",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "hasicske-hobby-muzeum",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "historia-vranovskej-synagogy",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "historicka-kniznica-bibliotheca-antiqua-taganiana",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "historicka-lesna-uvratova-zeleznica-muzeum-kysuckej-dediny",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "hlavna-ulica",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "hlavna-veza-vyhlad",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "hlavne-nadvorie",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "hlinensky-potok",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "hmyzi-hotel",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "hrad-hukvaldy-s-odborom",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "hrad-lietava",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "hrad-strecno",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "janosikove-diery",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "javor-mliecny",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "javorniky-dominanta-hornych-kysuc",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "juraj-turzo-a-turzovka",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "juraj-turzo-podporovatel-vzdelanosti-a-patron-evanjelickej-cirkvi",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "jurkovicova-rozhladna",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "juzne-nadvorie",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kalvaria-2",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kalvaria",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kamenna-gula-pred-mestskym-uradom",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kamenne-gule-na-kysuciach",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kaple-sv-cyrila-a-metodeje",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kaplnka-a-vojensky-cintorin-z-1-sv-vojny",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kaplnka-na-bukovine",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kaplnka-na-javorovej-ulici",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kaplnka-na-tronce",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kaplnka-najsvatejsieho-srdca-panny-marie",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kaplnka-panny-marie-kralovnej-pokoja-zivcakova",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kaplnka-panny-marie-lurdskej-pri-motoreste",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kaplnka-panny-marie-skapuliarskej",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kaplnka-sedembolestnej-panny-marie-u-blazkov",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kaplnka-sedembolestnej-panny-marie",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kaplnka-st-urbana-ul-krakowska",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kaplnka-sv-antonina-paduanskeho-ondrejnik",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kaplnka-v-bujakowskom-lese",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kaplnka",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kastiel-komjatice",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kastiel-sokolovce",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kastiel-v-radoli",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "klin",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kolegium-piaristov",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kornansky-ropny-pramen",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kostol-fatimskej-panny-marie",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kostol-nanebovzatia-panny-marie-pomnik-padlym-v-1-sv-vojne",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kostol-nanebovzatia-panny-marie-v-turzovke",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kostol-panny-marie-matky-cirkvi-zivcakova",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kostol-ruzencovej-panny-marie",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kostol-sv-bartolomeja",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kostol-sv-mikulasa",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kostol-sv-stefana",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kostol-v-czancu",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kov",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kraj-rusinov-a-andyho-warhola-tazba-ropy-v-regione",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kraj-rusinov-a-andyho-warhola-vystahovalectvo",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "krtko",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "ku-pramenu-rieky-kysuca-400-rokov-4000-krokov",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kulturne-centrum-frydlant-nad-ostravici",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kulturny-dom-andreja-hlinku",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kupalisko-a-tenisove-kurty-edimex",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kysucka-hvezdaren",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "kysucky-detsky-les",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "lesna-rezervacia-zasolnica",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "lesni-stezka-vyhlidka",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "letisko-frydlant-nad-ostravici",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "lienka-sedembodkova",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "lipa-slobody",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "liptovske-muzeum",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "lysa-hora",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "lyziarske-stredisko-bukovina-javornicko-beskydska-magistrala",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "marianske-putnicke-miesto-zivcakova",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "marianske-susosie",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "mariansky-stlp-socha-imacculata",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "martakov-kopec-rozhladna-zakopcie",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "mauzoleum-andreja-hlinku",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "mauzoleum-grofa-juliusa-andrassyho",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "mestske-hradby",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "mestske-muzeum-karola-tocika",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "mestsky-cintorin",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "mestsky-park",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "mestsky-urad-frydlant-nad-ostravici",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "miesto-tragickych-udalosti",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "mimoriadne-udalosti-na-uzemi-turzovky",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "mravec",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "muzeum-beskyd-frydek-mistek-frydecky-zamok",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "muzeum-juraja-janosika",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "muzeum-karola-tocika",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "muzeum-kysuckej-dediny",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "nadrz-czaniecka",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "najstarsie-zmienky-o-zivcakovej",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "najuzsi-bod",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "namestie-andreja-hlinku",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "namestie-juraja-thurzu",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "naucny-chodnik-vrchlinenskym-kopcom",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "nch-zarubana-kycera",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "neptunova-fontana",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "nizinny-vodny-hrad-paric",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "o-hlinenom-v-najstarsich-casoch",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "obec-ivanka-pri-dunaji",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "obecne-centrum-kultury-v-porabke",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "oravsky-hrad",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "oriesok-obycajny",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "ortodoxna-synagoga",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "osada-kolonia-v-style-witkiewiczovcov",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "palac-klobusickych",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "pamatna-tabula-v-parku-rodakov",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "pamatnik-hrdinom-a-bojovnikom-proti-fasizmu-a-pamatnik-oslobodenia-mesta",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "pamatnik-m-r-stefanika",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "pamatnik-obetiam-cernovskej-tragedie",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "pamatnik-tomasa-uhorcika",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "pamatniky",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "papier",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "park-drotara-a-dzarka-pricestny-stlp-jana-nepomuckeho-susosie-drotara-a-dzarka",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "pavlinsky-klastor",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "pesnicka-kohutik-jaraby",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "pesnicka-oda-na-radost",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "piaristicke-gymnazium",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "pieskovcovy-kriz",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "pinka-obycajna",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "plast",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "plte-na-vahu",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "politicka-a-vojenska-kariera-juraja-turza",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "pomnik-sloboda-slovenskeho-naroda",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "potomstvo-juraja-turza-2",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "povest-o-vzniku-vranova",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "prameny-moravky",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "prirodny-amfiteater-historia-beskydskych-slavnosti",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "prizemie-juzneho-palaca-kuchyna",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "prve-podlazie-juzneho-palaca",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "pustevny",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "putnicke-miesto-zivcakova",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "qr-sprievodca-zvonica-hrusove",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "radnica-2",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "radnica",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "rakociho-palac",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "regionalna-izba-v-porabke",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "rimsko-katolicky-kostol-sv-michala-archanjela-velicna",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "rimskokatolicky-kostol-navstevy-panny-marie",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "rimskokatolicky-kostol-navstivenia-panny-marie",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "rimskokatolicky-kostol-povysenia-sv-kriza",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "rimskokatolicky-kostol-sv-ondreja",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "rodny-dom-andreja-hlinku",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "rodny-dom-jozefa-kronera",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "rolnicke-povstanie-na-vychodnom-slovensku-1831",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "rolnicky-dom",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "romansky-kostol-sv-ducha",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "rotunda",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "rozhladna-luby",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "rozhladna-okrouhla",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "rozhladna-tabor",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "rybniky",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "sarisska-galeria",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "schwartzov-dom",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "severna-veza",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "severny-palac",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "sklo",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "slanicky-ostrov-umenia",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "slimak",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "slnecne-hodiny-kalvinsky-kostol-na-hviezdoslavovej-ulici",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "slovenska-banka",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "slovensky-severny-pol-oravska-polhora",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "socha-bretislav-benda-mladosti-a-krase-patri-buducnost",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "socha-radegasta",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "sportove-a-relaxacne-centrum-kotelna",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "stala-expozicia-ludoveho-rezbarstva",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "stavba-kaplnky-a-putnicke-miesto",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "stehlik-cecetka",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "studna",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "sulovsky-hrad",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "susosie-immaculaty",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "susosie-sv-jana-nepomuckeho-panny-marie-s-jeziskom",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "svetlonos",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "sykorka-belasa",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "synagoga",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "the-museum-of-wines",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "tri-krize-na-stratenci-a-kriz-na-velkom-javorniku",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "trojmedzie",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "udajne-zjavenia-na-zivcakovej-matusovi-lasutovi",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "unikatny-dreveny-betlehem-v-rajeckej-lesnej",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "valasske-muzeum-v-prirode",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "vcela-samotarka",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "vcelarska-naucna-stezka",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "vcielka",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "velka-raca-1236-m-n-m",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "vevericka",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "vila-v-kobiernicach-a-pamiatkovy-park",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "vlacik-korytko-na-zeleznicnej-stanici",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "vlakova-stanica-frydlant-nad-ostravici",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "vodna-nadrz-v-porabke",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "vodna-pila-vincenta-hrtusa",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "vstup-do-hlavnej-veze",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "vstup-na-hrad",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "vyhliadkova-veza-s-oddychovou-zonou-na-vrchu-bukovina",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "vyvoj-do-roku-1989",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "zakladna-skola-frydlant-nad-ostravici-komenskeho-420-prispevkova-organizacia",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "zakladna-skola-frydlant-nad-ostravici-namestie-t-g-masaryka-1260-prispevkova-organizacia",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "zakopy",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "zamocky-park",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "zamok-v-paskove",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "zastavka-1-autonomna-zeleznicna-zastavka-v-sr",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "zaver-zivota-uhorskeho-palatina",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "zivcakova-marianske-putnicke-miesto",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "zlatoocka-obycajna",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "zrucanina-hradu-hradisko",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "zrucanina-hradu-na-wolku-a-historicka-trasa",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "zupny-dom",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "zvonica-2",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "zvonica",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    },
+    {
+      "sub": "zastavenia",
+      "id": "zvonicka",
+      "prelozene": [
+        "nazov",
+        "text"
+      ]
+    }
+  ]
+}

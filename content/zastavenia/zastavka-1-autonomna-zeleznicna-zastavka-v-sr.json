@@ -37,6 +37,10 @@
     "hu": {
       "nazov": "Megálló – az első autonóm vasúti megálló Szlovákiában",
       "text": "<div class=\"video-embed\"><iframe src=\"https://www.youtube.com/embed/Rvd2X_QsYyg\" title=\"Video\" loading=\"lazy\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></div>"
+    },
+    "de": {
+      "nazov": "Haltestelle – 1. autonome Eisenbahnhaltestelle in der SR",
+      "text": "<div class=\"video-embed\"><iframe src=\"https://www.youtube.com/embed/Rvd2X_QsYyg\" title=\"Video\" loading=\"lazy\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></div>"
     }
   }
 }
