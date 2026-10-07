@@ -10,7 +10,7 @@
   "lat": 48.2,
   "mapX": 155,
   "mapY": 349,
-  "cover": "",
+  "cover": "assets/images/migrated/komjatice.png",
   "popis": "Obec s kaštieľom, ktorý bol kedysi honosnou dominantou.",
   "hlavnaKategoria": "Pamiatky",
   "korenoveMiesto": "Komjatice",
@@ -22,7 +22,6 @@
     "pl": "https://www.qrlink.sk/new/pl/category/komjatice/",
     "hu": "https://www.qrlink.sk/new/hu/category/komjatice/"
   },
-  "foto": "assets/images/places/komjatice.png",
   "fotoErb": true,
   "i18n": {
     "en": {
@@ -39,5 +38,6 @@
       "nazov": "Komjatice",
       "popis": "Gemeinde mit einem Schloss, das einst ihre prächtige Dominante war."
     }
-  }
+  },
+  "cesta": "Hlavné miesto · Pamiatky"
 }

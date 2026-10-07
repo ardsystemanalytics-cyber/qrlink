@@ -10,7 +10,7 @@
   "lat": 48.471,
   "mapX": 275,
   "mapY": 346,
-  "cover": "",
+  "cover": "assets/images/migrated/cierne-klacany.jpg",
   "popis": "Vzácna slonovinová schránka z veľkomoravského obdobia.",
   "hlavnaKategoria": "Pamiatky",
   "korenoveMiesto": "Čiernokľačianska Pyxida",
@@ -43,5 +43,5 @@
       "popis": "Kostbares Elfenbeinkästchen aus der großmährischen Zeit."
     }
   },
-  "foto": "assets/images/places/cierne-klacany.jpg"
+  "cesta": "Hlavné miesto · Pamiatky"
 }

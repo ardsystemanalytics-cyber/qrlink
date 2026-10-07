@@ -10,7 +10,7 @@
   "lat": 49.271,
   "mapX": 883,
   "mapY": 94,
-  "cover": "",
+  "cover": "assets/images/migrated/kraj-rusinov.jpg",
   "popis": "Región Medzilaboriec spätý s rusínskou kultúrou a rodinou Andyho Warhola.",
   "hlavnaKategoria": "Mestá",
   "korenoveMiesto": "Kraj Rusínov a Andyho Warhola",
@@ -22,7 +22,6 @@
     "pl": "https://www.qrlink.sk/new/pl/category/kraj-rusinov-a-andyho-warhola/",
     "hu": "https://www.qrlink.sk/new/hu/category/kraj-rusinov-a-andyho-warhola/"
   },
-  "foto": "assets/images/places/kraj-rusinov.jpg",
   "fotoErb": true,
   "i18n": {
     "en": {
@@ -41,5 +40,6 @@
       "nazov": "Land der Russinen und Andy Warhols",
       "popis": "Die Region Medzilaborce, verbunden mit der russinischen Kultur und der Familie Andy Warhols."
     }
-  }
+  },
+  "cesta": "Hlavné miesto · Mestá"
 }

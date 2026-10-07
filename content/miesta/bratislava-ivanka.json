@@ -10,7 +10,7 @@
   "lat": 48.175,
   "mapX": 73,
   "mapY": 393,
-  "cover": "",
+  "cover": "assets/images/migrated/bratislava-ivanka.png",
   "popis": "Obec pri Bratislave s bohatou históriou.",
   "hlavnaKategoria": "Mestá",
   "korenoveMiesto": "Ivanka pri Dunaji",
@@ -22,7 +22,6 @@
     "pl": "https://www.qrlink.sk/new/pl/category/ivanka-pri-dunaji/",
     "hu": "https://www.qrlink.sk/new/hu/category/ivanka-pri-dunaji/"
   },
-  "foto": "assets/images/places/bratislava-ivanka.png",
   "fotoErb": true,
   "i18n": {
     "en": {
@@ -39,5 +38,6 @@
       "nazov": "Ivanka pri Dunaji",
       "popis": "Gemeinde bei Bratislava mit reicher Geschichte."
     }
-  }
+  },
+  "cesta": "Hlavné miesto · Mestá"
 }

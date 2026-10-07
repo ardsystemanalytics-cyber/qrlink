@@ -10,7 +10,7 @@
   "lat": 49.402,
   "mapX": 312,
   "mapY": 58,
-  "cover": "",
+  "cover": "assets/images/migrated/turzovka.png",
   "popis": "Mesto na horných Kysuciach.",
   "hlavnaKategoria": "Mestá",
   "korenoveMiesto": "Turzovka",
@@ -25,7 +25,6 @@
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/turzovka/"
   ],
-  "foto": "assets/images/places/turzovka.png",
   "fotoErb": true,
   "i18n": {
     "en": {
@@ -42,5 +41,6 @@
       "nazov": "Turzovka",
       "popis": "Stadt im oberen Kysuce-Tal."
     }
-  }
+  },
+  "cesta": "Hlavné miesto · Mestá"
 }

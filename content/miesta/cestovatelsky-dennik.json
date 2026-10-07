@@ -11,7 +11,7 @@
   "lat": 49.27,
   "mapX": 240,
   "mapY": 95,
-  "cover": "",
+  "cover": "assets/images/migrated/cestovatelsky-dennik.jpg",
   "popis": "Putovanie po klenotoch pohraničia.",
   "hlavnaKategoria": "Pamiatky",
   "korenoveMiesto": "Cestovateľský denník – Klenoty v česko-slovenskom pohraničí",
@@ -26,7 +26,6 @@
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/"
   ],
-  "foto": "assets/images/places/cestovatelsky-dennik.jpg",
   "i18n": {
     "en": {
       "nazov": "Travel Diary – Gems of the Czech-Slovak Borderland",
@@ -44,5 +43,6 @@
       "nazov": "Reisetagebuch – Kleinode im slowakisch-tschechischen Grenzgebiet",
       "popis": "Eine Wanderung zu den Kleinoden des Grenzgebiets."
     }
-  }
+  },
+  "cesta": "Hlavné miesto · Pamiatky"
 }

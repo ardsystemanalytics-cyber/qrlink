@@ -35,5 +35,6 @@
       "popis": "Besichtigungsroute zu den Sehenswürdigkeiten direkt in der Gemeinde Betliar."
     }
   },
-  "foto": "assets/images/places/betliar-info-pointy.jpg"
+  "cover": "assets/images/migrated/betliar-info-pointy.jpg",
+  "cesta": "Betliar"
 }

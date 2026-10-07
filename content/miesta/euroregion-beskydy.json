@@ -11,7 +11,7 @@
   "lat": 49.38,
   "mapX": 330,
   "mapY": 30,
-  "cover": "",
+  "cover": "assets/images/migrated/euroregion-beskydy.jpg",
   "popis": "Objavujte výnimočné miesta na slovensko-českom pohraničí – mestá, hrady, prírodné krásy aj kultúrne dedičstvo, ktoré spája dva národy.",
   "heroOverlay": {
     "icon": "stromy",
@@ -60,6 +60,6 @@
     "pl": "https://www.qrlink.sk/new/pl/category/euroregion-beskydy/",
     "hu": "https://www.qrlink.sk/new/hu/category/euroregion-beskydy/"
   },
-  "foto": "assets/images/places/euroregion-beskydy.jpg",
-  "fotoErb": true
+  "fotoErb": true,
+  "cesta": "Hlavné miesto · Mestá"
 }

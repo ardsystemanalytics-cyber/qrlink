@@ -10,7 +10,7 @@
   "lat": 48.597,
   "mapX": 179,
   "mapY": 299,
-  "cover": "",
+  "cover": "assets/images/migrated/sokolovce.jpg",
   "popis": "Obec pri Piešťanoch.",
   "hlavnaKategoria": "Mestá",
   "korenoveMiesto": "Sokolovce",
@@ -22,7 +22,6 @@
     "pl": "https://www.qrlink.sk/new/pl/category/sokolovce/",
     "hu": "https://www.qrlink.sk/new/hu/category/sokolovce/"
   },
-  "foto": "assets/images/places/sokolovce.jpg",
   "fotoErb": true,
   "i18n": {
     "en": {
@@ -39,5 +38,6 @@
       "nazov": "Sokolovce",
       "popis": "Gemeinde bei Piešťany."
     }
-  }
+  },
+  "cesta": "Hlavné miesto · Mestá"
 }

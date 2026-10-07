@@ -123,7 +123,6 @@ const DB = {
       "id": "bludisko",
       "rodic": "zs-a-ms-banova",
       "nazov": "Bludisko",
-      "foto": "/assets/images/places/bludisko.jpg",
       "popis": "",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
@@ -147,6 +146,7 @@ const DB = {
           "nazov": "Labyrinth"
         }
       },
+      "cover": "/assets/images/migrated/bludisko.jpg",
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/bludisko/",
       "urlAliasy": [
         "/category/bludisko/"
@@ -163,7 +163,7 @@ const DB = {
       "lat": 49.177,
       "mapX": 354,
       "mapY": 120,
-      "cover": "/assets/images/migrated/1-paseka-e1592570206493.jpg",
+      "cover": "/assets/images/migrated/hrad-strecno.jpg",
       "popis": "Stredoveký hrad nad Váhom – 14 zastavení s audio sprievodcom.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/hrad-strecno/",
@@ -173,7 +173,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/hrad-strecno/",
         "hu": "https://www.qrlink.sk/new/hu/category/hrad-strecno/"
       },
-      "foto": "/assets/images/places/hrad-strecno.jpg",
       "i18n": {
         "en": {
           "nazov": "Strečno Castle",
@@ -220,6 +219,8 @@ const DB = {
           "popis": "Weitere Sehenswürdigkeiten direkt in der Stadt Turzovka."
         }
       },
+      "cover": "/assets/images/migrated/turzovka.png",
+      "fotoErb": true,
       "url": "/kategoria.html?id=turzovka-mesto",
       "urlAliasy": []
     },
@@ -254,7 +255,7 @@ const DB = {
           "popis": "Besichtigungsroute zu den Sehenswürdigkeiten direkt in der Gemeinde Betliar."
         }
       },
-      "foto": "/assets/images/places/betliar-info-pointy.jpg",
+      "cover": "/assets/images/migrated/betliar-info-pointy.jpg",
       "url": "/category/betliar/info-pointy/",
       "urlAliasy": [
         "/category/info-pointy/"
@@ -291,7 +292,7 @@ const DB = {
           "popis": "Architektonische Elemente des englischen Parks beim Schloss der Andrássys."
         }
       },
-      "foto": "/assets/images/places/betliar-info-strom-architektura.jpg",
+      "cover": "/assets/images/migrated/betliar-info-strom-architektura.jpg",
       "url": "/category/betliar/info-strom/architektura/",
       "urlAliasy": [
         "/category/architektura/"
@@ -308,7 +309,7 @@ const DB = {
       "lat": 48.175,
       "mapX": 73,
       "mapY": 393,
-      "cover": "",
+      "cover": "/assets/images/migrated/bratislava-ivanka.png",
       "popis": "Obec pri Bratislave s bohatou históriou.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/ivanka-pri-dunaji/",
@@ -318,7 +319,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/ivanka-pri-dunaji/",
         "hu": "https://www.qrlink.sk/new/hu/category/ivanka-pri-dunaji/"
       },
-      "foto": "/assets/images/places/bratislava-ivanka.png",
       "fotoErb": true,
       "i18n": {
         "en": {
@@ -343,7 +343,6 @@ const DB = {
       "id": "dendrolog-1",
       "rodic": "zs-a-ms-banova",
       "nazov": "Dendrológ 1",
-      "foto": "/assets/images/places/dendrolog-1.jpg",
       "popis": "",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-1/",
@@ -367,6 +366,7 @@ const DB = {
           "nazov": "Dendrologe 1"
         }
       },
+      "cover": "/assets/images/migrated/dendrolog-1.jpg",
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-1/",
       "urlAliasy": [
         "/category/dendrolog-1/"
@@ -403,7 +403,7 @@ const DB = {
           "popis": "Denkmäler und Gedenkstätten in Turzovka."
         }
       },
-      "foto": "/assets/images/places/turzovka-pamatniky.jpg",
+      "cover": "/assets/images/migrated/turzovka-pamatniky.jpg",
       "url": "/category/turzovka/pamatniky-v-turzovke/",
       "urlAliasy": [
         "/category/pamatniky-v-turzovke/"
@@ -440,7 +440,7 @@ const DB = {
           "popis": "Fauna und Flora des englischen Parks beim Schloss der Andrássys."
         }
       },
-      "foto": "/assets/images/places/betliar-info-strom-fauna-flora.jpg",
+      "cover": "/assets/images/migrated/betliar-info-strom-fauna-flora.jpg",
       "url": "/category/betliar/info-strom/flora/",
       "urlAliasy": [
         "/category/flora/"
@@ -477,7 +477,7 @@ const DB = {
           "popis": "Lehrpfad durch den englischen Park – Fauna, Flora und Architektur."
         }
       },
-      "foto": "/assets/images/places/betliar-info-strom.jpg",
+      "cover": "/assets/images/migrated/betliar-info-strom.jpg",
       "url": "/category/betliar/info-strom/",
       "urlAliasy": [
         "/category/info-strom/"
@@ -487,7 +487,6 @@ const DB = {
       "id": "dendrolog-2",
       "rodic": "zs-a-ms-banova",
       "nazov": "Dendrológ 2",
-      "foto": "/assets/images/places/dendrolog-2.jpg",
       "popis": "",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-2/",
@@ -511,6 +510,7 @@ const DB = {
           "nazov": "Dendrologe 2"
         }
       },
+      "cover": "/assets/images/migrated/dendrolog-2.jpg",
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/dendrolog-2/",
       "urlAliasy": [
         "/category/dendrolog-2/"
@@ -547,7 +547,7 @@ const DB = {
           "popis": "Kirchen und Kapellen in Turzovka und Umgebung."
         }
       },
-      "foto": "/assets/images/places/turzovka-sakralne-pamiatky.jpg",
+      "cover": "/assets/images/migrated/turzovka-sakralne-pamiatky.jpg",
       "url": "/category/turzovka/sakralne-pamiatky/",
       "urlAliasy": [
         "/category/sakralne-pamiatky/",
@@ -558,7 +558,6 @@ const DB = {
       "id": "hmyzi-domcek",
       "rodic": "zs-a-ms-banova",
       "nazov": "Hmyzí domček",
-      "foto": "/assets/images/places/hmyzi-domcek.jpg",
       "popis": "",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/hmyzi-domcek/",
@@ -582,6 +581,7 @@ const DB = {
           "nazov": "Insektenhotel"
         }
       },
+      "cover": "/assets/images/migrated/hmyzi-domcek.jpg",
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/hmyzi-domcek/",
       "urlAliasy": [
         "/category/hmyzi-domcek/"
@@ -591,7 +591,6 @@ const DB = {
       "id": "pexeso",
       "rodic": "zs-a-ms-banova",
       "nazov": "Pexeso",
-      "foto": "/assets/images/places/pexeso.jpg",
       "popis": "",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/pexeso/",
@@ -612,6 +611,7 @@ const DB = {
           "nazov": "Memory-Spiel"
         }
       },
+      "cover": "/assets/images/migrated/pexeso.jpg",
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/pexeso/",
       "urlAliasy": [
         "/category/pexeso/"
@@ -621,7 +621,6 @@ const DB = {
       "id": "vtacia-budka",
       "rodic": "zs-a-ms-banova",
       "nazov": "Vtáčia búdka",
-      "foto": "/assets/images/places/vtacia-budka.jpg",
       "popis": "",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacia-budka/",
@@ -645,6 +644,7 @@ const DB = {
           "nazov": "Vogelnistkasten"
         }
       },
+      "cover": "/assets/images/migrated/vtacia-budka.jpg",
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacia-budka/",
       "urlAliasy": [
         "/category/vtacia-budka/"
@@ -662,7 +662,7 @@ const DB = {
       "lat": 48.695,
       "mapX": 641,
       "mapY": 252,
-      "cover": "",
+      "cover": "/assets/images/migrated/betliar.png",
       "popis": "Obec známa kaštieľom rodu Andrássyovcov.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/betliar/",
@@ -672,7 +672,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/betliar/",
         "hu": "https://www.qrlink.sk/new/hu/category/betliar/"
       },
-      "foto": "/assets/images/places/betliar.png",
       "fotoErb": true,
       "i18n": {
         "en": {
@@ -697,7 +696,6 @@ const DB = {
       "id": "vtacie-krmitko",
       "rodic": "zs-a-ms-banova",
       "nazov": "Vtáčie kŕmitko",
-      "foto": "/assets/images/places/vtacie-krmitko.jpg",
       "popis": "",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/",
@@ -721,6 +719,7 @@ const DB = {
           "nazov": "Vogelfutterhaus"
         }
       },
+      "cover": "/assets/images/migrated/vtacie-krmitko.jpg",
       "url": "/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/vtacie-krmitko/",
       "urlAliasy": [
         "/category/vtacie-krmitko/"
@@ -738,7 +737,7 @@ const DB = {
       "lat": 49.38,
       "mapX": 330,
       "mapY": 30,
-      "cover": "",
+      "cover": "/assets/images/migrated/euroregion-beskydy.jpg",
       "popis": "Objavujte výnimočné miesta na slovensko-českom pohraničí – mestá, hrady, prírodné krásy aj kultúrne dedičstvo, ktoré spája dva národy.",
       "heroOverlay": {
         "icon": "stromy",
@@ -785,7 +784,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/euroregion-beskydy/",
         "hu": "https://www.qrlink.sk/new/hu/category/euroregion-beskydy/"
       },
-      "foto": "/assets/images/places/euroregion-beskydy.jpg",
       "fotoErb": true,
       "url": "/category/euroregion-beskydy/",
       "urlAliasy": []
@@ -802,7 +800,7 @@ const DB = {
       "lat": 50.921,
       "mapX": 266,
       "mapY": 6,
-      "cover": "",
+      "cover": "/assets/images/migrated/frydlant.png",
       "popis": "Mesto na česko-slovenskom pohraničí.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/frydlant/",
@@ -812,7 +810,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/frydlant/",
         "hu": "https://www.qrlink.sk/new/hu/category/frydlant/"
       },
-      "foto": "/assets/images/places/frydlant.png",
       "fotoErb": true,
       "i18n": {
         "en": {
@@ -846,7 +843,7 @@ const DB = {
       "lat": 49.271,
       "mapX": 883,
       "mapY": 94,
-      "cover": "",
+      "cover": "/assets/images/migrated/kraj-rusinov.jpg",
       "popis": "Región Medzilaboriec spätý s rusínskou kultúrou a rodinou Andyho Warhola.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/kraj-rusinov-a-andyho-warhola/",
@@ -856,7 +853,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/kraj-rusinov-a-andyho-warhola/",
         "hu": "https://www.qrlink.sk/new/hu/category/kraj-rusinov-a-andyho-warhola/"
       },
-      "foto": "/assets/images/places/kraj-rusinov.jpg",
       "fotoErb": true,
       "i18n": {
         "en": {
@@ -890,7 +886,7 @@ const DB = {
       "lat": 49.3,
       "mapX": 341,
       "mapY": 86,
-      "cover": "",
+      "cover": "/assets/images/migrated/knm.png",
       "popis": "Mesto na Kysuciach.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/knm/",
@@ -900,7 +896,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/knm/",
         "hu": "https://www.qrlink.sk/new/hu/category/knm/"
       },
-      "foto": "/assets/images/places/knm.png",
       "fotoErb": true,
       "i18n": {
         "en": {
@@ -933,7 +928,7 @@ const DB = {
       "lat": 49.742,
       "mapX": 413,
       "mapY": 8,
-      "cover": "",
+      "cover": "/assets/images/migrated/porabka.png",
       "popis": "Poľská obec v Beskydách.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/porabka/",
@@ -943,7 +938,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/porabka/",
         "hu": "https://www.qrlink.sk/new/hu/category/porabka/"
       },
-      "foto": "/assets/images/places/porabka.png",
       "fotoErb": true,
       "i18n": {
         "en": {
@@ -977,7 +971,7 @@ const DB = {
       "lat": 48.999,
       "mapX": 768,
       "mapY": 169,
-      "cover": "",
+      "cover": "/assets/images/migrated/presov.jpg",
       "popis": "Metropola Šariša s historickým centrom.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/presov/",
@@ -987,7 +981,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/presov/",
         "hu": "https://www.qrlink.sk/new/hu/category/presov/"
       },
-      "foto": "/assets/images/places/presov.jpg",
       "fotoErb": true,
       "i18n": {
         "en": {
@@ -1020,7 +1013,7 @@ const DB = {
       "lat": 49.458,
       "mapX": 228,
       "mapY": 41,
-      "cover": "",
+      "cover": "/assets/images/migrated/roznov.jpg",
       "popis": "Valašské mesto známe skanzenom.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/roznov-pod-radhostem/",
@@ -1030,7 +1023,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/roznov-pod-radhostem/",
         "hu": "https://www.qrlink.sk/new/hu/category/roznov-pod-radhostem/"
       },
-      "foto": "/assets/images/places/roznov.jpg",
       "fotoErb": true,
       "i18n": {
         "en": {
@@ -1062,7 +1054,7 @@ const DB = {
       "lat": 49.083,
       "mapX": 430,
       "mapY": 147,
-      "cover": "",
+      "cover": "/assets/images/migrated/ruzomberok.jpg",
       "popis": "Mesto na Liptove pod Veľkou Fatrou.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/ruzomberok/",
@@ -1072,7 +1064,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/ruzomberok/",
         "hu": "https://www.qrlink.sk/new/hu/category/ruzomberok/"
       },
-      "foto": "/assets/images/places/ruzomberok.jpg",
       "fotoErb": true,
       "i18n": {
         "en": {
@@ -1104,7 +1095,7 @@ const DB = {
       "lat": 48.597,
       "mapX": 179,
       "mapY": 299,
-      "cover": "",
+      "cover": "/assets/images/migrated/sokolovce.jpg",
       "popis": "Obec pri Piešťanoch.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/sokolovce/",
@@ -1114,7 +1105,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/sokolovce/",
         "hu": "https://www.qrlink.sk/new/hu/category/sokolovce/"
       },
-      "foto": "/assets/images/places/sokolovce.jpg",
       "fotoErb": true,
       "i18n": {
         "en": {
@@ -1146,7 +1136,7 @@ const DB = {
       "lat": 48.629,
       "mapX": 852,
       "mapY": 271,
-      "cover": "",
+      "cover": "/assets/images/migrated/trebisov.jpg",
       "popis": "Mesto na Zemplíne.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/trebisov/",
@@ -1156,7 +1146,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/trebisov/",
         "hu": "https://www.qrlink.sk/new/hu/category/trebisov/"
       },
-      "foto": "/assets/images/places/trebisov.jpg",
       "fotoErb": true,
       "i18n": {
         "en": {
@@ -1188,7 +1177,7 @@ const DB = {
       "lat": 49.402,
       "mapX": 312,
       "mapY": 58,
-      "cover": "",
+      "cover": "/assets/images/migrated/turzovka.png",
       "popis": "Mesto na horných Kysuciach.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/turzovka/",
@@ -1198,7 +1187,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/turzovka/",
         "hu": "https://www.qrlink.sk/new/hu/category/turzovka/"
       },
-      "foto": "/assets/images/places/turzovka.png",
       "fotoErb": true,
       "i18n": {
         "en": {
@@ -1232,7 +1220,7 @@ const DB = {
       "lat": 48.882,
       "mapX": 845,
       "mapY": 199,
-      "cover": "",
+      "cover": "/assets/images/migrated/vranov.png",
       "popis": "Mesto na východnom Slovensku.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/vranov-nad-toplou/",
@@ -1242,7 +1230,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/vranov-nad-toplou/",
         "hu": "https://www.qrlink.sk/new/hu/category/vranov-nad-toplou/"
       },
-      "foto": "/assets/images/places/vranov.png",
       "fotoErb": true,
       "i18n": {
         "en": {
@@ -1274,7 +1261,7 @@ const DB = {
       "lat": 48.471,
       "mapX": 275,
       "mapY": 346,
-      "cover": "",
+      "cover": "/assets/images/migrated/cierne-klacany.jpg",
       "popis": "Vzácna slonovinová schránka z veľkomoravského obdobia.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/cierne-klacany/",
@@ -1302,7 +1289,6 @@ const DB = {
           "popis": "Kostbares Elfenbeinkästchen aus der großmährischen Zeit."
         }
       },
-      "foto": "/assets/images/places/cierne-klacany.jpg",
       "url": "/category/cierne-klacany/",
       "urlAliasy": [
         "/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/cierne-klacany/"
@@ -1320,7 +1306,7 @@ const DB = {
       "lat": 49.36,
       "mapX": 250,
       "mapY": 70,
-      "cover": "",
+      "cover": "/assets/images/migrated/klenoty-pohranicie.jpg",
       "popis": "Kultúrne a prírodné klenoty pohraničia.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/klenoty-v-cesko-slovenskom-pohranici/",
@@ -1330,7 +1316,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/klenoty-v-cesko-slovenskom-pohranici/",
         "hu": "https://www.qrlink.sk/new/hu/category/klenoty-v-cesko-slovenskom-pohranici/"
       },
-      "foto": "/assets/images/places/klenoty-pohranicie.jpg",
       "i18n": {
         "en": {
           "nazov": "Gems of the Czech-Slovak Borderland",
@@ -1366,7 +1351,7 @@ const DB = {
       "lat": 49.27,
       "mapX": 240,
       "mapY": 95,
-      "cover": "",
+      "cover": "/assets/images/migrated/cestovatelsky-dennik.jpg",
       "popis": "Putovanie po klenotoch pohraničia.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/",
@@ -1376,7 +1361,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/",
         "hu": "https://www.qrlink.sk/new/hu/category/cestovatelsky-dennik-klenoty-v-cesko-slovenskom-pohranici/"
       },
-      "foto": "/assets/images/places/cestovatelsky-dennik.jpg",
       "i18n": {
         "en": {
           "nazov": "Travel Diary – Gems of the Czech-Slovak Borderland",
@@ -1412,7 +1396,7 @@ const DB = {
       "lat": 49.45,
       "mapX": 290,
       "mapY": 45,
-      "cover": "",
+      "cover": "/assets/images/migrated/nch-pohranicie.jpg",
       "popis": "Sieť náučných chodníkov v pohraničí.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/naucne-chodniky-v-cesko-slovenskom-pohranici/",
@@ -1422,7 +1406,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/naucne-chodniky-v-cesko-slovenskom-pohranici/",
         "hu": "https://www.qrlink.sk/new/hu/category/naucne-chodniky-v-cesko-slovenskom-pohranici/"
       },
-      "foto": "/assets/images/places/nch-pohranicie.jpg",
       "i18n": {
         "en": {
           "nazov": "Nature Trails in the Czech-Slovak Borderland",
@@ -1457,7 +1440,7 @@ const DB = {
       "lat": 49.383,
       "mapX": 305,
       "mapY": 65,
-      "cover": "",
+      "cover": "/assets/images/migrated/nch-hlinene.jpg",
       "popis": "Náučný chodník v okolí Turzovky.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/naucny-chodnik-hlinene/",
@@ -1467,7 +1450,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/naucny-chodnik-hlinene/",
         "hu": "https://www.qrlink.sk/new/hu/category/naucny-chodnik-hlinene/"
       },
-      "foto": "/assets/images/places/nch-hlinene.jpg",
       "i18n": {
         "en": {
           "nazov": "Hlinené Nature Trail",
@@ -1502,7 +1484,7 @@ const DB = {
       "lat": 49.432,
       "mapX": 300,
       "mapY": 50,
-      "cover": "",
+      "cover": "/assets/images/migrated/nch-zivcakova.jpg",
       "popis": "Chodník k pútnickému miestu Živčákova.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/naucny-chodnik-zivcakova/",
@@ -1512,7 +1494,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/naucny-chodnik-zivcakova/",
         "hu": "https://www.qrlink.sk/new/hu/category/naucny-chodnik-zivcakova/"
       },
-      "foto": "/assets/images/places/nch-zivcakova.jpg",
       "i18n": {
         "en": {
           "nazov": "Živčáková Nature Trail",
@@ -1548,7 +1529,7 @@ const DB = {
       "lat": 47.883,
       "mapX": 68,
       "mapY": 437,
-      "cover": "",
+      "cover": "/assets/images/migrated/gabcikovo.jpg",
       "popis": "Vodné dielo na Dunaji – doc. Ing. Július Binder, Dr. h. c.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/doc-ing-julius-binder-dr-h-c/",
@@ -1558,7 +1539,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/doc-ing-julius-binder-dr-h-c/",
         "hu": "https://www.qrlink.sk/new/hu/category/doc-ing-julius-binder-dr-h-c/"
       },
-      "foto": "/assets/images/places/gabcikovo.jpg",
       "i18n": {
         "en": {
           "nazov": "Gabčíkovo / Čunovo Waterworks",
@@ -1593,7 +1573,7 @@ const DB = {
       "lat": 48.75,
       "mapX": 165,
       "mapY": 227,
-      "cover": "",
+      "cover": "/assets/images/migrated/zvonica-hrusove.jpg",
       "popis": "Historická zvonica.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/zvonica-hrusove/",
@@ -1603,7 +1583,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/zvonica-hrusove/",
         "hu": "https://www.qrlink.sk/new/hu/category/zvonica-hrusove/"
       },
-      "foto": "/assets/images/places/zvonica-hrusove.jpg",
       "i18n": {
         "en": {
           "nazov": "Hrušové Bell Tower",
@@ -1638,7 +1617,7 @@ const DB = {
       "lat": 49.19,
       "mapX": 356,
       "mapY": 128,
-      "cover": "",
+      "cover": "/assets/images/migrated/zs-a-ms-banova.jpg",
       "popis": "Areál základnej a materskej školy v Žiline-Bánovej s náučnými zastaveniami pre environmentálnu výchovu.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/",
@@ -1648,7 +1627,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/",
         "hu": "https://www.qrlink.sk/new/hu/category/environmentalna-vychova-a-vzdelavanie/zs-a-ms/zs-a-ms-banova/"
       },
-      "foto": "/assets/images/places/zs-a-ms-banova.jpg",
       "fotoErb": true,
       "i18n": {
         "en": {
@@ -1686,7 +1664,7 @@ const DB = {
       "lat": 48.2,
       "mapX": 155,
       "mapY": 349,
-      "cover": "",
+      "cover": "/assets/images/migrated/komjatice.png",
       "popis": "Obec s kaštieľom, ktorý bol kedysi honosnou dominantou.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/komjatice/",
@@ -1696,7 +1674,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/komjatice/",
         "hu": "https://www.qrlink.sk/new/hu/category/komjatice/"
       },
-      "foto": "/assets/images/places/komjatice.png",
       "fotoErb": true,
       "i18n": {
         "en": {
@@ -1728,7 +1705,7 @@ const DB = {
       "lat": 48.755,
       "mapX": 793,
       "mapY": 176,
-      "cover": "",
+      "cover": "/assets/images/migrated/zemplinske-muzeum.jpg",
       "popis": "Múzeum v Michalovciach s archeologickými nálezmi regiónu.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/zemplinske-muzeum/",
@@ -1738,7 +1715,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/zemplinske-muzeum/",
         "hu": "https://www.qrlink.sk/new/hu/category/zemplinske-muzeum/"
       },
-      "foto": "/assets/images/places/zemplinske-muzeum.jpg",
       "fotoErb": true,
       "i18n": {
         "en": {
@@ -1772,7 +1748,7 @@ const DB = {
       "lat": 48.62,
       "mapX": 270,
       "mapY": 276,
-      "cover": "",
+      "cover": "/assets/images/migrated/partizanske-simonovany.png",
       "popis": "Mestská časť Partizánskeho s prvou autonómnou železničnou zastávkou na Slovensku.",
       "povodnaUrl": {
         "sk": "https://www.qrlink.sk/new/category/partizanske-cast-simonovany/",
@@ -1782,7 +1758,6 @@ const DB = {
         "pl": "https://www.qrlink.sk/new/pl/category/partizanske-cast-simonovany/",
         "hu": "https://www.qrlink.sk/new/hu/category/partizanske-cast-simonovany/"
       },
-      "foto": "/assets/images/places/partizanske-simonovany.png",
       "fotoErb": true,
       "i18n": {
         "en": {

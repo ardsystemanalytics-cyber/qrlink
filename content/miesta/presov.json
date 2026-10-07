@@ -10,7 +10,7 @@
   "lat": 48.999,
   "mapX": 768,
   "mapY": 169,
-  "cover": "",
+  "cover": "assets/images/migrated/presov.jpg",
   "popis": "Metropola Šariša s historickým centrom.",
   "hlavnaKategoria": "Mestá",
   "korenoveMiesto": "Prešov",
@@ -22,7 +22,6 @@
     "pl": "https://www.qrlink.sk/new/pl/category/presov/",
     "hu": "https://www.qrlink.sk/new/hu/category/presov/"
   },
-  "foto": "assets/images/places/presov.jpg",
   "fotoErb": true,
   "i18n": {
     "en": {
@@ -39,5 +38,6 @@
       "nazov": "Prešov",
       "popis": "Metropole der Region Šariš mit historischem Zentrum."
     }
-  }
+  },
+  "cesta": "Hlavné miesto · Mestá"
 }

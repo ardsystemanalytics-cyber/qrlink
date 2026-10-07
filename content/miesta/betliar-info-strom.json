@@ -35,5 +35,6 @@
       "popis": "Lehrpfad durch den englischen Park – Fauna, Flora und Architektur."
     }
   },
-  "foto": "assets/images/places/betliar-info-strom.jpg"
+  "cover": "assets/images/migrated/betliar-info-strom.jpg",
+  "cesta": "Betliar"
 }

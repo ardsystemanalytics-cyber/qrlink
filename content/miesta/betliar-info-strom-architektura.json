@@ -35,5 +35,6 @@
       "popis": "Architektonische Elemente des englischen Parks beim Schloss der Andrássys."
     }
   },
-  "foto": "assets/images/places/betliar-info-strom-architektura.jpg"
+  "cover": "assets/images/migrated/betliar-info-strom-architektura.jpg",
+  "cesta": "Betliar › Anglický park pri kaštieli Andrássyovcov"
 }

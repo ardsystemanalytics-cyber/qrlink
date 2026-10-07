@@ -10,7 +10,7 @@
   "lat": 48.62,
   "mapX": 270,
   "mapY": 276,
-  "cover": "",
+  "cover": "assets/images/migrated/partizanske-simonovany.png",
   "popis": "Mestská časť Partizánskeho s prvou autonómnou železničnou zastávkou na Slovensku.",
   "hlavnaKategoria": "Mestá",
   "korenoveMiesto": "Partizánske – časť Šimonovany",
@@ -22,7 +22,6 @@
     "pl": "https://www.qrlink.sk/new/pl/category/partizanske-cast-simonovany/",
     "hu": "https://www.qrlink.sk/new/hu/category/partizanske-cast-simonovany/"
   },
-  "foto": "assets/images/places/partizanske-simonovany.png",
   "fotoErb": true,
   "i18n": {
     "en": {
@@ -41,5 +40,6 @@
       "nazov": "Partizánske – Ortsteil Šimonovany",
       "popis": "Stadtteil von Partizánske mit der ersten autonomen Bahnhaltestelle der Slowakei."
     }
-  }
+  },
+  "cesta": "Hlavné miesto · Mestá"
 }

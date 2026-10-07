@@ -10,7 +10,7 @@
   "lat": 48.755,
   "mapX": 793,
   "mapY": 176,
-  "cover": "",
+  "cover": "assets/images/migrated/zemplinske-muzeum.jpg",
   "popis": "Múzeum v Michalovciach s archeologickými nálezmi regiónu.",
   "hlavnaKategoria": "Pamiatky",
   "korenoveMiesto": "Zemplínske múzeum",
@@ -22,7 +22,6 @@
     "pl": "https://www.qrlink.sk/new/pl/category/zemplinske-muzeum/",
     "hu": "https://www.qrlink.sk/new/hu/category/zemplinske-muzeum/"
   },
-  "foto": "assets/images/places/zemplinske-muzeum.jpg",
   "fotoErb": true,
   "i18n": {
     "en": {
@@ -41,5 +40,6 @@
       "nazov": "Museum der Zemplín-Region",
       "popis": "Museum in Michalovce mit archäologischen Funden der Region."
     }
-  }
+  },
+  "cesta": "Hlavné miesto · Pamiatky"
 }

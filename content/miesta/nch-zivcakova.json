@@ -10,7 +10,7 @@
   "lat": 49.432,
   "mapX": 300,
   "mapY": 50,
-  "cover": "",
+  "cover": "assets/images/migrated/nch-zivcakova.jpg",
   "popis": "Chodník k pútnickému miestu Živčákova.",
   "hlavnaKategoria": "Náučné chodníky",
   "korenoveMiesto": "Náučný chodník Živčákova",
@@ -25,7 +25,6 @@
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-zivcakova/"
   ],
-  "foto": "assets/images/places/nch-zivcakova.jpg",
   "i18n": {
     "en": {
       "nazov": "Živčáková Nature Trail",
@@ -43,5 +42,6 @@
       "nazov": "Lehrpfad Živčákova",
       "popis": "Pfad zum Wallfahrtsort Živčákova."
     }
-  }
+  },
+  "cesta": "Hlavné miesto · Náučné chodníky"
 }

@@ -91,9 +91,9 @@ const kategorie = readFolder(path.join(CONTENT, "kategorie"))
 
 const miesta = readFolder(path.join(CONTENT, "miesta"))
   .sort((a, b) => (a.poradie ?? 0) - (b.poradie ?? 0))
-  // "poradie"/"hlavnaKategoria"/"korenoveMiesto" sú len pomocné polia
+  // "poradie"/"hlavnaKategoria"/"korenoveMiesto"/"cesta" sú len pomocné polia
   // (zoradenie + zoskupovanie v Decap CMS), do data.js sa nedávajú
-  .map(({ poradie, hlavnaKategoria, korenoveMiesto, povodneUrlAliasy, povodnePresmerovania, ...m }) => {
+  .map(({ poradie, hlavnaKategoria, korenoveMiesto, cesta, povodneUrlAliasy, povodnePresmerovania, ...m }) => {
     const url = prettyUrl(m, `/kategoria.html?id=${m.id}`);
     addRedirects({ povodnePresmerovania }, url);
     return {
@@ -114,7 +114,7 @@ const urlListToStrings = (list) => (list || []).map((it) => abs(typeof it === "s
 
 const zastavenia = readFolder(path.join(CONTENT, "zastavenia"))
   .sort((a, b) => a.miesto.localeCompare(b.miesto) || (a.poradie ?? 0) - (b.poradie ?? 0))
-  .map(({ hlavnaKategoria, projekt, miestoNazov, povodneUrlAliasy, povodnePresmerovania, ...z }) => {
+  .map(({ hlavnaKategoria, projekt, miestoNazov, cesta, povodneUrlAliasy, povodnePresmerovania, ...z }) => {
     // "hlavnaKategoria"/"projekt"/"miestoNazov" sú len pomocné polia na
     // zoskupovanie/popisky v Decap CMS (/admin), do data.js sa nedávajú
     // – app.js ich nepozná/nepotrebuje.

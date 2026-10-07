@@ -10,7 +10,7 @@
   "lat": 49.177,
   "mapX": 354,
   "mapY": 120,
-  "cover": "assets/images/migrated/1-paseka-e1592570206493.jpg",
+  "cover": "assets/images/migrated/hrad-strecno.jpg",
   "popis": "Stredoveký hrad nad Váhom – 14 zastavení s audio sprievodcom.",
   "hlavnaKategoria": "Pamiatky",
   "korenoveMiesto": "Hrad Strečno",
@@ -25,7 +25,6 @@
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/hrad-strecno/"
   ],
-  "foto": "assets/images/places/hrad-strecno.jpg",
   "i18n": {
     "en": {
       "nazov": "Strečno Castle",
@@ -43,5 +42,6 @@
       "nazov": "Burg Strečno",
       "popis": "Mittelalterliche Burg über der Waag – 14 Stationen mit Audioguide."
     }
-  }
+  },
+  "cesta": "Hlavné miesto · Pamiatky"
 }

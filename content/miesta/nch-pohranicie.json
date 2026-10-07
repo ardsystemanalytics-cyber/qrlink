@@ -11,7 +11,7 @@
   "lat": 49.45,
   "mapX": 290,
   "mapY": 45,
-  "cover": "",
+  "cover": "assets/images/migrated/nch-pohranicie.jpg",
   "popis": "Sieť náučných chodníkov v pohraničí.",
   "hlavnaKategoria": "Náučné chodníky",
   "korenoveMiesto": "Náučné chodníky v česko-slovenskom pohraničí",
@@ -26,7 +26,6 @@
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucne-chodniky-v-cesko-slovenskom-pohranici/"
   ],
-  "foto": "assets/images/places/nch-pohranicie.jpg",
   "i18n": {
     "en": {
       "nazov": "Nature Trails in the Czech-Slovak Borderland",
@@ -44,5 +43,6 @@
       "nazov": "Lehrpfade im slowakisch-tschechischen Grenzgebiet",
       "popis": "Ein Netz von Lehrpfaden im Grenzgebiet."
     }
-  }
+  },
+  "cesta": "Hlavné miesto · Náučné chodníky"
 }

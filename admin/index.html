@@ -12,6 +12,16 @@
   <link href="/admin/admin.css" rel="stylesheet">
 </head>
 <body>
+  <script>
+    // Predvolene zobraziť zoznamy ako KARTY s titulnou fotkou (Decap inak
+    // začína textovým zoznamom bez fotiek). Ak si používateľ prepne na
+    // zoznam ikonou vpravo hore, jeho voľba sa zapamätá a rešpektuje.
+    try {
+      if (!localStorage.getItem("decap-cms.entries.viewStyle")) {
+        localStorage.setItem("decap-cms.entries.viewStyle", "VIEW_STYLE_GRID");
+      }
+    } catch (e) {}
+  </script>
   <!-- Decap CMS (Git-based redakčný systém) – prihlásenie cez GitHub,
        zmeny sa ukladajú ako commity priamo do repozitára. -->
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>

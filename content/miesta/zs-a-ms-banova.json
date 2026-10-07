@@ -10,7 +10,7 @@
   "lat": 49.19,
   "mapX": 356,
   "mapY": 128,
-  "cover": "",
+  "cover": "assets/images/migrated/zs-a-ms-banova.jpg",
   "popis": "Areál základnej a materskej školy v Žiline-Bánovej s náučnými zastaveniami pre environmentálnu výchovu.",
   "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
   "korenoveMiesto": "ZŠ a MŠ Bánová",
@@ -27,7 +27,6 @@
     "https://www.qrlink.sk/new/category/zs-a-ms-banova/",
     "https://www.qrlink.sk/new/category/zs-a-ms/"
   ],
-  "foto": "assets/images/places/zs-a-ms-banova.jpg",
   "fotoErb": true,
   "i18n": {
     "en": {
@@ -46,5 +45,6 @@
       "nazov": "Grundschule und Kindergarten Bánová",
       "popis": "Areal der Grundschule und des Kindergartens in Žilina-Bánová mit Lehrstationen zur Umweltbildung."
     }
-  }
+  },
+  "cesta": "Hlavné miesto · Environmentálna výchova a vzdelávanie"
 }

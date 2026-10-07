@@ -11,7 +11,7 @@
   "lat": 47.883,
   "mapX": 68,
   "mapY": 437,
-  "cover": "",
+  "cover": "assets/images/migrated/gabcikovo.jpg",
   "popis": "Vodné dielo na Dunaji – doc. Ing. Július Binder, Dr. h. c.",
   "hlavnaKategoria": "Pamiatky",
   "korenoveMiesto": "Vodné dielo Gabčíkovo / Čunovo",
@@ -26,7 +26,6 @@
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/doc-ing-julius-binder-dr-h-c/"
   ],
-  "foto": "assets/images/places/gabcikovo.jpg",
   "i18n": {
     "en": {
       "nazov": "Gabčíkovo / Čunovo Waterworks",
@@ -44,5 +43,6 @@
       "nazov": "Wasserkraftwerk Gabčíkovo / Čunovo",
       "popis": "Wasserbauwerk an der Donau – Doz. Ing. Július Binder, Dr. h. c."
     }
-  }
+  },
+  "cesta": "Hlavné miesto · Pamiatky"
 }

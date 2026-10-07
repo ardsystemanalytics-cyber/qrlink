@@ -10,7 +10,7 @@
   "lat": 49.3,
   "mapX": 341,
   "mapY": 86,
-  "cover": "",
+  "cover": "assets/images/migrated/knm.png",
   "popis": "Mesto na Kysuciach.",
   "hlavnaKategoria": "Mestá",
   "korenoveMiesto": "Kysucké Nové Mesto",
@@ -22,7 +22,6 @@
     "pl": "https://www.qrlink.sk/new/pl/category/knm/",
     "hu": "https://www.qrlink.sk/new/hu/category/knm/"
   },
-  "foto": "assets/images/places/knm.png",
   "fotoErb": true,
   "i18n": {
     "en": {
@@ -39,5 +38,6 @@
       "nazov": "Kysucké Nové Mesto",
       "popis": "Stadt in der Region Kysuce."
     }
-  }
+  },
+  "cesta": "Hlavné miesto · Mestá"
 }

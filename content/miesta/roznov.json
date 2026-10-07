@@ -11,7 +11,7 @@
   "lat": 49.458,
   "mapX": 228,
   "mapY": 41,
-  "cover": "",
+  "cover": "assets/images/migrated/roznov.jpg",
   "popis": "Valašské mesto známe skanzenom.",
   "hlavnaKategoria": "Mestá",
   "korenoveMiesto": "Rožnov pod Radhoštěm",
@@ -23,7 +23,6 @@
     "pl": "https://www.qrlink.sk/new/pl/category/roznov-pod-radhostem/",
     "hu": "https://www.qrlink.sk/new/hu/category/roznov-pod-radhostem/"
   },
-  "foto": "assets/images/places/roznov.jpg",
   "fotoErb": true,
   "i18n": {
     "en": {
@@ -40,5 +39,6 @@
       "nazov": "Rožnov pod Radhoštěm",
       "popis": "Walachische Stadt, bekannt für ihr Freilichtmuseum."
     }
-  }
+  },
+  "cesta": "Hlavné miesto · Mestá"
 }

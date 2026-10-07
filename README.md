@@ -87,10 +87,12 @@ nič nasadzuje, iba prepíše `js/data.js` podľa aktuálneho obsahu `content/`)
   V CMS vždy fotku **nahraj** (tlačidlo na výber/nahratie súboru), nevkladaj
   adresu obrázka z iného webu. Build na Verceli každý taký odkaz vypíše
   ako „POZOR“ a `scripts/localize-remaining-media.js` ich vie stiahnuť.
-- **Fotka miesta/kategórie** = pole „Fotka (foto)“ (karta miesta aj hlavička
-  jeho stránky). Ak je to erb alebo logo (mestá), zaškrtni „Fotka je erb /
-  logo“ – zobrazí sa celé a nezrezané. Podkategória bez vlastnej fotky
-  zdedí fotku nadradeného miesta.
+- **Titulná fotka miesta aj zastavenia** = pole „Titulná fotka“ (`cover`) –
+  karta na webe, hlavička stránky a zároveň náhľad na karte v `/admin`.
+  Ak je to erb alebo logo (mestá), zaškrtni „Titulná fotka je erb / logo“ –
+  zobrazí sa celé a nezrezané. Podkategória bez vlastnej fotky zdedí fotku
+  nadradeného miesta. Pri zastavení je titulná fotka vždy aj prvou fotkou
+  hlavného obrázka/galérie (ak v galérii chýba, web ju doplní na začiatok).
 
 ## Hierarchia: hlavná kategória → projekt → podkategória → zastavenie
 
@@ -108,7 +110,7 @@ Obsah má 4 úrovne:
 
 3. **Podkategória** – záznam v `miesta` s `rodic` = id rodiča (projektu
    alebo inej podkategórie). Nemá vlastnú hlavnú kategóriu – farbu/ikonu
-   aj fotku (ak nemá vlastnú `foto`) dedí od koreňového projektu.
+   aj fotku (ak nemá vlastnú `cover`) dedí od nadradeného miesta.
    Podkategórií môže byť pod jedným rodičom 0, 1 aj viac, do ľubovoľnej
    hĺbky. Je to vždy samostatný záznam – aj keď sa volá rovnako ako iný
    top-level projekt, nezdieľa s ním obsah ani zastavenia.
@@ -172,7 +174,28 @@ schvaľovanie – tak, ako sme sa dohodli). Zmena sa na webe prejaví do minúty
 **Používanie:** kolega otvorí `https://<doména>/admin`, prihlási sa cez
 "Login with GitHub", a uvidí formuláre na editáciu Kategórií, Miest,
 Zastavení a Kontaktu. Nahrávanie obrázkov cez CMS ukladá súbory do
-`assets/images/uploads/`.
+`assets/images/migrated/` (tam sú všetky fotky webu), audio do
+`assets/audio/migrated/`.
+
+**Prehľad v CMS:** Miesta a Zastavenia sa predvolene zobrazujú ako karty
+s titulnou fotkou (prepínač zoznam/karty je vpravo hore, voľba sa
+zapamätá). Na každej karte je názov a pod ním, kam záznam patrí
+(napr. „Podkategória: Betliar › Anglický park › Architektúra“, pri hlavnom
+mieste „Hlavné miesto · Mestá“). Tento text je pomocné pole `cesta`
+(spolu s `hlavnaKategoria`, `projekt`, `korenoveMiesto`, `miestoNazov`),
+ktoré po každej zmene obsahu automaticky dopočíta GitHub Action
+`.github/workflows/cms-helpers.yml` (skripty `scripts/backfill-*-helpers.js`)
+– nové miesto/zastavenie ho dostane do 1–2 minút po uložení. Do webu
+(`js/data.js`) sa tieto polia nedostanú.
+
+**Lokálne testovanie CMS (bez GitHub prihlásenia):** spusti
+`npx decap-server` (port 8081) a lokálny web (`node scripts/_dev-server.js`),
+potom otvor `http://localhost:5173/admin/` – vďaka `local_backend: true`
+CMS číta a ukladá priamo súbory na disku (funguje len na localhoste).
+Pozn.: lokálny decap-server pri otvorení zastavenia načítava celý priečinok
+audia naraz a pri ~500 MB zlyhá („Failed to load entry“) – na lokálny test
+treba dočasne odstrániť `media_folder`/`public_folder` z audio polí
+v `admin/config.yml`. Na ostrom `/admin` (GitHub) sa to nedeje.
 
 **Bezpečnosť v skratke:** žiadna databáza ani vlastná appka bežiaca na
 serveri (mimo dvoch malých funkcií na prihlásenie) = žiadne typické

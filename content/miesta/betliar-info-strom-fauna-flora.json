@@ -35,5 +35,6 @@
       "popis": "Fauna und Flora des englischen Parks beim Schloss der Andrássys."
     }
   },
-  "foto": "assets/images/places/betliar-info-strom-fauna-flora.jpg"
+  "cover": "assets/images/migrated/betliar-info-strom-fauna-flora.jpg",
+  "cesta": "Betliar › Anglický park pri kaštieli Andrássyovcov"
 }

@@ -10,7 +10,7 @@
   "lat": 49.383,
   "mapX": 305,
   "mapY": 65,
-  "cover": "",
+  "cover": "assets/images/migrated/nch-hlinene.jpg",
   "popis": "Náučný chodník v okolí Turzovky.",
   "hlavnaKategoria": "Náučné chodníky",
   "korenoveMiesto": "Náučný chodník Hlinené",
@@ -25,7 +25,6 @@
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/naucny-chodnik-hlinene/"
   ],
-  "foto": "assets/images/places/nch-hlinene.jpg",
   "i18n": {
     "en": {
       "nazov": "Hlinené Nature Trail",
@@ -43,5 +42,6 @@
       "nazov": "Lehrpfad Hlinené",
       "popis": "Lehrpfad in der Umgebung von Turzovka."
     }
-  }
+  },
+  "cesta": "Hlavné miesto · Náučné chodníky"
 }

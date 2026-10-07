@@ -10,7 +10,7 @@
   "lat": 48.75,
   "mapX": 165,
   "mapY": 227,
-  "cover": "",
+  "cover": "assets/images/migrated/zvonica-hrusove.jpg",
   "popis": "Historická zvonica.",
   "hlavnaKategoria": "Pamiatky",
   "korenoveMiesto": "Zvonica Hrušové",
@@ -25,7 +25,6 @@
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok/zvonica-hrusove/"
   ],
-  "foto": "assets/images/places/zvonica-hrusove.jpg",
   "i18n": {
     "en": {
       "nazov": "Hrušové Bell Tower",
@@ -43,5 +42,6 @@
       "nazov": "Glockenturm Hrušové",
       "popis": "Historischer Glockenturm."
     }
-  }
+  },
+  "cesta": "Hlavné miesto · Pamiatky"
 }

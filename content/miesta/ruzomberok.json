@@ -10,7 +10,7 @@
   "lat": 49.083,
   "mapX": 430,
   "mapY": 147,
-  "cover": "",
+  "cover": "assets/images/migrated/ruzomberok.jpg",
   "popis": "Mesto na Liptove pod Veľkou Fatrou.",
   "hlavnaKategoria": "Mestá",
   "korenoveMiesto": "Ružomberok",
@@ -22,7 +22,6 @@
     "pl": "https://www.qrlink.sk/new/pl/category/ruzomberok/",
     "hu": "https://www.qrlink.sk/new/hu/category/ruzomberok/"
   },
-  "foto": "assets/images/places/ruzomberok.jpg",
   "fotoErb": true,
   "i18n": {
     "en": {
@@ -39,5 +38,6 @@
       "nazov": "Ružomberok",
       "popis": "Stadt in der Liptau unterhalb der Großen Fatra."
     }
-  }
+  },
+  "cesta": "Hlavné miesto · Mestá"
 }

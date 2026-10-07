@@ -10,7 +10,7 @@
   "lat": 48.629,
   "mapX": 852,
   "mapY": 271,
-  "cover": "",
+  "cover": "assets/images/migrated/trebisov.jpg",
   "popis": "Mesto na Zemplíne.",
   "hlavnaKategoria": "Mestá",
   "korenoveMiesto": "Trebišov",
@@ -22,7 +22,6 @@
     "pl": "https://www.qrlink.sk/new/pl/category/trebisov/",
     "hu": "https://www.qrlink.sk/new/hu/category/trebisov/"
   },
-  "foto": "assets/images/places/trebisov.jpg",
   "fotoErb": true,
   "i18n": {
     "en": {
@@ -39,5 +38,6 @@
       "nazov": "Trebišov",
       "popis": "Stadt in der Region Zemplín."
     }
-  }
+  },
+  "cesta": "Hlavné miesto · Mestá"
 }

@@ -109,10 +109,12 @@ function retazPredkov(m) {
   return chain;
 }
 
-/* fotka: vlastná (m.foto) → PLACE_PHOTOS → zdedená od rodiča → predvolená */
+/* titulná fotka miesta: vlastná (m.cover, "Titulná fotka" v CMS) → PLACE_PHOTOS
+   → zdedená od rodiča → predvolená. (m.foto = staršie pole, ostáva ako záloha) */
+const vlastnaFoto = m => m && (m.cover || m.foto);
 function fotoPre(m) {
   if (!m) return DEFAULT_PHOTO;
-  if (m.foto) return m.foto;
+  if (vlastnaFoto(m)) return vlastnaFoto(m);
   if (typeof PLACE_PHOTOS !== "undefined" && PLACE_PHOTOS[m.id]) return PLACE_PHOTOS[m.id];
   if (m.rodic) return fotoPre(miestoById(m.rodic));
   return DEFAULT_PHOTO;
@@ -121,8 +123,8 @@ function fotoPre(m) {
 /* <img> fotky miesta; erb/logo (m.fotoErb) sa zobrazí celý a nezrezaný */
 function fotoImg(m, lazy = true) {
   let src = m;
-  while (src && !src.foto && !(typeof PLACE_PHOTOS !== "undefined" && PLACE_PHOTOS[src.id]) && src.rodic) src = miestoById(src.rodic);
-  const erb = src && src.foto && src.fotoErb;
+  while (src && !vlastnaFoto(src) && !(typeof PLACE_PHOTOS !== "undefined" && PLACE_PHOTOS[src.id]) && src.rodic) src = miestoById(src.rodic);
+  const erb = src && vlastnaFoto(src) && src.fotoErb;
   return `<img src="${fotoPre(m)}" alt="${tc(m, "nazov")}"${erb ? ' class="erb"' : ""}${lazy ? ' loading="lazy"' : ""}>`;
 }
 
@@ -720,7 +722,10 @@ function renderZastavenie() {
 
   // Hlavná fotka hore je zároveň prvá fotka fotogalérie nižšie - klik na
   // ktorúkoľvek miniatúru v galérii ju sem prepne (pozri showHeroPhoto).
-  const heroPhotos = (z.galeria && z.galeria.length) ? z.galeria : (z.cover ? [z.cover] : []);
+  // Titulná fotka (z CMS) je vždy v galérii – ak v nej chýba, pridá sa na začiatok.
+  const galeria = (z.galeria || []).slice();
+  if (z.cover && !galeria.includes(z.cover)) galeria.unshift(z.cover);
+  const heroPhotos = galeria;
   let heroIndex = z.cover ? Math.max(0, heroPhotos.indexOf(z.cover)) : 0;
   if (heroPhotos.length) {
     Q("#dCover").innerHTML = `
@@ -760,7 +765,7 @@ function renderZastavenie() {
   });
 
 
-  if (z.galeria && z.galeria.length) renderGallery(z.galeria, heroIndex, showHeroPhoto);
+  if (z.galeria && z.galeria.length) renderGallery(galeria, heroIndex, showHeroPhoto);
   else Q("#galleryHost").remove();
 
   if (z.mapEmbed) {

@@ -76,6 +76,16 @@ Object.values(miesta).forEach(m => {
     touched = true;
   }
 
+  // "cesta" – kam miesto patrí, na karte v /admin pod názvom:
+  // hlavné miesto -> "Hlavné miesto · Mestá", podkategória -> "Betliar › Anglický park"
+  const predkovia = [];
+  for (let p = miesta[m.rodic], i = 0; p && i < 30; p = miesta[p.rodic], i++) predkovia.unshift(p.nazov);
+  const cesta = predkovia.length ? predkovia.join(" › ") : `Hlavné miesto${kat ? " · " + kat : ""}`;
+  if (data.cesta !== cesta) {
+    data.cesta = cesta;
+    touched = true;
+  }
+
   if (touched) {
     fs.writeFileSync(file, JSON.stringify(data, null, 2) + "\n", "utf8");
     changed++;

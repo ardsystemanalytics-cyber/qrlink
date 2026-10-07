@@ -36,5 +36,6 @@
       "popis": "Kirchen und Kapellen in Turzovka und Umgebung."
     }
   },
-  "foto": "assets/images/places/turzovka-sakralne-pamiatky.jpg"
+  "cover": "assets/images/migrated/turzovka-sakralne-pamiatky.jpg",
+  "cesta": "Turzovka"
 }

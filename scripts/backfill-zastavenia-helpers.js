@@ -75,6 +75,16 @@ fs.readdirSync(ZASTAVENIA_DIR).filter(f => f.endsWith(".json")).forEach(f => {
     touched = true;
   }
 
+  // "cesta" – celá cesta k zastaveniu (projekt › … › podkategória), na karte
+  // v /admin pod názvom, nech je hneď jasné, kam zastavenie patrí
+  const retaz = [];
+  for (let p = priameMiesto, i = 0; p && i < 30; p = miesta[p.rodic], i++) retaz.unshift(p.nazov);
+  const cesta = retaz.join(" › ") || z.miesto;
+  if (cesta && z.cesta !== cesta) {
+    z.cesta = cesta;
+    touched = true;
+  }
+
   if (touched) {
     fs.writeFileSync(file, JSON.stringify(z, null, 2) + "\n", "utf8");
     changed++;

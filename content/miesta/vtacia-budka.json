@@ -3,7 +3,6 @@
   "id": "vtacia-budka",
   "rodic": "zs-a-ms-banova",
   "nazov": "Vtáčia búdka",
-  "foto": "assets/images/places/vtacia-budka.jpg",
   "popis": "",
   "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
   "korenoveMiesto": "ZŠ a MŠ Bánová",
@@ -31,5 +30,7 @@
     "de": {
       "nazov": "Vogelnistkasten"
     }
-  }
+  },
+  "cover": "assets/images/migrated/vtacia-budka.jpg",
+  "cesta": "ZŠ a MŠ Bánová"
 }

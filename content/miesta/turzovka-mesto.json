@@ -23,5 +23,8 @@
       "nazov": "Turzovka – Stadtdenkmäler und Sehenswürdigkeiten",
       "popis": "Weitere Sehenswürdigkeiten direkt in der Stadt Turzovka."
     }
-  }
+  },
+  "cover": "assets/images/migrated/turzovka.png",
+  "fotoErb": true,
+  "cesta": "Turzovka"
 }

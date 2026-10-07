@@ -11,7 +11,7 @@
   "lat": 49.742,
   "mapX": 413,
   "mapY": 8,
-  "cover": "",
+  "cover": "assets/images/migrated/porabka.png",
   "popis": "Poľská obec v Beskydách.",
   "hlavnaKategoria": "Mestá",
   "korenoveMiesto": "Porąbka",
@@ -26,7 +26,6 @@
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/porabka/"
   ],
-  "foto": "assets/images/places/porabka.png",
   "fotoErb": true,
   "i18n": {
     "en": {
@@ -43,5 +42,6 @@
       "nazov": "Porąbka",
       "popis": "Polnische Gemeinde in den Beskiden."
     }
-  }
+  },
+  "cesta": "Hlavné miesto · Mestá"
 }

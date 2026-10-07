@@ -9,11 +9,16 @@ const MIME = {
   ".html": "text/html", ".js": "application/javascript", ".css": "text/css",
   ".json": "application/json", ".jpg": "image/jpeg", ".jpeg": "image/jpeg",
   ".png": "image/png", ".svg": "image/svg+xml", ".mp3": "audio/mpeg", ".ico": "image/x-icon",
+  ".yml": "text/yaml",
 };
 
 http.createServer((req, res) => {
   const urlPath = decodeURIComponent(req.url.split("?")[0]);
   let filePath = path.join(ROOT, urlPath === "/" ? "index.html" : urlPath);
+  // priečinok (napr. /admin/) -> jeho index.html, rovnako ako na Verceli
+  if (fs.existsSync(filePath) && fs.statSync(filePath).isDirectory()) {
+    filePath = path.join(filePath, "index.html");
+  }
   if (!fs.existsSync(filePath) || fs.statSync(filePath).isDirectory()) {
     res.writeHead(404); res.end("Not found"); return;
   }

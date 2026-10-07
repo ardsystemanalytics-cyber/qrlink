@@ -11,7 +11,7 @@
   "lat": 48.695,
   "mapX": 641,
   "mapY": 252,
-  "cover": "",
+  "cover": "assets/images/migrated/betliar.png",
   "popis": "Obec známa kaštieľom rodu Andrássyovcov.",
   "hlavnaKategoria": "Mestá",
   "korenoveMiesto": "Betliar",
@@ -23,7 +23,6 @@
     "pl": "https://www.qrlink.sk/new/pl/category/betliar/",
     "hu": "https://www.qrlink.sk/new/hu/category/betliar/"
   },
-  "foto": "assets/images/places/betliar.png",
   "fotoErb": true,
   "i18n": {
     "en": {
@@ -40,5 +39,6 @@
       "nazov": "Betliar",
       "popis": "Gemeinde, bekannt für das Schloss der Familie Andrássy."
     }
-  }
+  },
+  "cesta": "Hlavné miesto · Mestá"
 }

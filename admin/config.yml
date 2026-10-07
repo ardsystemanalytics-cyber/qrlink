@@ -9,12 +9,23 @@ backend:
   base_url: https://qrlink-six.vercel.app
   auth_endpoint: api/auth
 
+# Len pre lokálne testovanie (http://localhost): CMS potom číta/zapisuje súbory
+# priamo z disku cez "npx decap-server" namiesto GitHubu. Na produkcii sa
+# toto nastavenie ignoruje (aktivuje sa iba na localhost).
+local_backend: true
+
 # Po uložení v CMS commitne priamo do vetvy "main" -> Vercel to hneď nasadí.
 # (Redakčný "editorial workflow" so schvaľovaním sme vedome vypli.)
 publish_mode: simple
 
-media_folder: "assets/images/uploads"
-public_folder: "/assets/images/uploads"
+# Všetky fotky webu sú v JEDNOM priečinku – CMS ich tak vie zobraziť (náhľady
+# v zozname aj vo formulári), v záložke "Media" ponúkne na výber všetky
+# existujúce fotky a nové nahraté fotky uloží k nim. (Decap hľadá obrázok
+# vždy v media_folder podľa názvu súboru – preto to nemôže byť viac priečinkov.)
+# Cesta sa ukladá bez úvodného "/" rovnako ako pri existujúcich fotkách;
+# build-data.js ju pre web normalizuje na "/assets/...".
+media_folder: "assets/images/migrated"
+public_folder: "assets/images/migrated"
 
 locale: "en"
 
@@ -88,14 +99,17 @@ collections:
         field: hlavnaKategoria
       - label: "Projekt"
         field: korenoveMiesto
+    # Karta v zozname: názov, pod ním kam miesto patrí ("cesta" – dopočítava
+    # scripts/backfill-miesta-helpers.js) a titulná fotka.
+    summary: "{{nazov}}\n{{cesta}}"
+    sortable_fields:
+      - { field: "nazov", label: "Názov", default_sort: true }
+      - { field: "poradie", label: "Poradie na webe" }
     fields:
-      - { label: "ID (nemeniť po vytvorení)", name: "id", widget: "string", hint: "Krátky identifikátor bez diakritiky a medzier. Musí byť rovnaký ako názov súboru." }
-      - { label: "Poradie zobrazenia", name: "poradie", widget: "number", value_type: "int", hint: "Nižšie číslo = zobrazí sa skôr na hlavnej stránke." }
       - { label: "Názov (slovensky)", name: "nazov", widget: "string" }
+      - { label: "Titulná fotka", name: "cover", widget: "image", required: false, hint: "Fotka na karte miesta, v hlavičke jeho stránky aj tu v zozname. Ak ostane prázdna, použije sa fotka nadradeného miesta. Nahraná fotka sa automaticky zmenší na max. 400 KB." }
+      - { label: "Titulná fotka je erb / logo (zobraziť celú, neorezať)", name: "fotoErb", widget: "boolean", required: false, default: false }
       - { label: "Popis (slovensky)", name: "popis", widget: "text", required: false }
-      - { label: "Titulná fotka (cover)", name: "cover", widget: "image", required: false }
-      - { label: "Fotka (foto)", name: "foto", widget: "image", required: false, hint: "Fotka na karte miesta a v hlavičke jeho stránky. Nahraná fotka sa automaticky zmenší na max. 400 KB." }
-      - { label: "Fotka je erb / logo (zobraziť celé, nezrezať)", name: "fotoErb", widget: "boolean", required: false, default: false }
 
       - label: "① Toto je podkategória/trasa? → vyber jej nadradené miesto"
         name: "rodic"
@@ -221,6 +235,9 @@ collections:
               - { label: "Názov", name: "nazov", widget: "string", required: false }
               - { label: "Popis", name: "popis", widget: "text", required: false }
 
+      - { label: "Technické: poradie na hlavnej stránke", name: "poradie", widget: "number", value_type: "int", hint: "Nižšie číslo = zobrazí sa skôr na hlavnej stránke." }
+      - { label: "Technické: ID (vyplniť len pri novom mieste, potom nemeniť)", name: "id", widget: "string", hint: "Krátky identifikátor bez diakritiky a medzier, napr. 'hrad-lietava'. Musí byť rovnaký ako názov súboru." }
+
   - name: zastavenia
     label: "Zastavenia"
     label_singular: "Zastavenie"
@@ -235,11 +252,12 @@ collections:
     identifier_field: nazov
     # Predvolené zoradenie v zozname (aj v rámci skupín nižšie) –
     # rovnaké poradie, v akom sa zastavenia zobrazujú na webe.
-    sortable_fields: ["poradie", "nazov"]
-    # Keďže skupiny sa (viď POZOR nižšie) nedajú zoradiť podľa webu,
-    # nech je aspoň priamo v zozname pri každom zastavení vidno, ku
-    # ktorému konkrétnemu (najbližšiemu) miestu/podkategórii patrí.
-    summary: "{{nazov}}\nPodkategória: {{miestoNazov}}"
+    sortable_fields:
+      - { field: "nazov", label: "Názov", default_sort: true }
+      - { field: "poradie", label: "Poradie v rámci miesta" }
+    # Karta v zozname: názov, pod ním celá cesta, kam zastavenie patrí
+    # ("cesta" – dopočítava scripts/backfill-zastavenia-helpers.js) a titulná fotka.
+    summary: "{{nazov}}\nPodkategória: {{cesta}}"
     # V /admin sa pri Zastaveniach objaví rozbaľovacie "Group by" –
     # zvolíš si, či chceš zoznam rozdelený podľa hlavnej kategórie,
     # alebo podľa celého projektu (všetky jeho podkategórie/trasy
@@ -259,30 +277,18 @@ collections:
       - label: "Projekt"
         field: projekt
     fields:
-      - { label: "ID (nemeniť po vytvorení)", name: "id", widget: "string", hint: "Krátky identifikátor bez diakritiky a medzier. Musí byť rovnaký ako názov súboru." }
-      - label: "Hlavná kategória (len na zoradenie v tomto zozname)"
-        name: "hlavnaKategoria"
-        widget: "select"
-        required: false
-        options:
-          - "Mestá"
-          - "Pamiatky"
-          - "Náučné chodníky"
-          - "Environmentálna výchova a vzdelávanie"
-          - "Česko-slovenské pohraničie"
-        hint: "Podľa čoho sa toto zastavenie zoskupí vyššie v zozname. Zvoľ hlavnú kategóriu miesta, ku ktorému patrí – ak si nie si istá/istý, kľudne nechaj prázdne, doplní sa to."
-      - label: "Miesto"
+      - { label: "Názov (slovensky)", name: "nazov", widget: "string" }
+      - { label: "Titulná fotka", name: "cover", widget: "image", required: false, hint: "Hlavná fotka zastavenia – zobrazí sa hore na jeho stránke, ako prvá vo fotogalérii aj tu v zozname. Nahraná fotka sa automaticky zmenší na max. 400 KB." }
+      - label: "Patrí do miesta / podkategórie"
         name: "miesto"
         widget: "relation"
         collection: "miesta"
         value_field: "id"
         search_fields: ["nazov", "id"]
-        display_fields: ["nazov", "id"]
-        hint: "Ku ktorému miestu/trase toto zastavenie patrí."
+        display_fields: ["nazov", "cesta"]
+        hint: "Ku ktorému miestu/trase toto zastavenie patrí (vyhľadaj podľa názvu)."
       - { label: "Poradie v rámci miesta", name: "poradie", widget: "number", value_type: "int", hint: "Nižšie číslo = zobrazí sa skôr." }
-      - { label: "Názov (slovensky)", name: "nazov", widget: "string" }
       - { label: "Krátky popis (slovensky)", name: "popis", widget: "text", required: false }
-      - { label: "Titulná fotka (cover)", name: "cover", widget: "image", required: false }
       - label: "Text zastavenia (slovensky)"
         name: "text"
         widget: "markdown"
@@ -293,7 +299,7 @@ collections:
         name: "audio"
         widget: "list"
         required: false
-        field: { label: "Audio súbor", name: "url", widget: "file" }
+        field: { label: "Audio súbor", name: "url", widget: "file", media_folder: "/assets/audio/migrated", public_folder: "assets/audio/migrated" }
       - label: "Fotogaléria"
         name: "galeria"
         widget: "list"
@@ -338,7 +344,7 @@ collections:
                 widget: "list"
                 required: false
                 hint: "Nechaj prázdne, ak nahrávka v tomto jazyku nie je – prehrá sa slovenská."
-                field: { label: "Audio súbor", name: "url", widget: "file" }
+                field: { label: "Audio súbor", name: "url", widget: "file", media_folder: "/assets/audio/migrated", public_folder: "assets/audio/migrated" }
           - label: "Čeština"
             name: "cs"
             widget: "object"
@@ -352,7 +358,7 @@ collections:
                 widget: "list"
                 required: false
                 hint: "Nechaj prázdne, ak nahrávka v tomto jazyku nie je – prehrá sa slovenská."
-                field: { label: "Audio súbor", name: "url", widget: "file" }
+                field: { label: "Audio súbor", name: "url", widget: "file", media_folder: "/assets/audio/migrated", public_folder: "assets/audio/migrated" }
           - label: "Maďarčina"
             name: "hu"
             widget: "object"
@@ -366,7 +372,7 @@ collections:
                 widget: "list"
                 required: false
                 hint: "Nechaj prázdne, ak nahrávka v tomto jazyku nie je – prehrá sa slovenská."
-                field: { label: "Audio súbor", name: "url", widget: "file" }
+                field: { label: "Audio súbor", name: "url", widget: "file", media_folder: "/assets/audio/migrated", public_folder: "assets/audio/migrated" }
           - label: "Nemčina"
             name: "de"
             widget: "object"
@@ -380,7 +386,9 @@ collections:
                 widget: "list"
                 required: false
                 hint: "Nechaj prázdne, ak nahrávka v tomto jazyku nie je – prehrá sa slovenská."
-                field: { label: "Audio súbor", name: "url", widget: "file" }
+                field: { label: "Audio súbor", name: "url", widget: "file", media_folder: "/assets/audio/migrated", public_folder: "assets/audio/migrated" }
+
+      - { label: "Technické: ID (vyplniť len pri novom zastavení, potom nemeniť)", name: "id", widget: "string", hint: "Krátky identifikátor bez diakritiky a medzier, napr. 'hradna-studna'. Musí byť rovnaký ako názov súboru." }
 
   - name: kontakt
     label: "Kontakt"

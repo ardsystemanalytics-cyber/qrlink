@@ -10,7 +10,7 @@
   "lat": 48.882,
   "mapX": 845,
   "mapY": 199,
-  "cover": "",
+  "cover": "assets/images/migrated/vranov.png",
   "popis": "Mesto na východnom Slovensku.",
   "hlavnaKategoria": "Mestá",
   "korenoveMiesto": "Vranov nad Topľou",
@@ -22,7 +22,6 @@
     "pl": "https://www.qrlink.sk/new/pl/category/vranov-nad-toplou/",
     "hu": "https://www.qrlink.sk/new/hu/category/vranov-nad-toplou/"
   },
-  "foto": "assets/images/places/vranov.png",
   "fotoErb": true,
   "i18n": {
     "en": {
@@ -39,5 +38,6 @@
       "nazov": "Vranov nad Topľou",
       "popis": "Stadt in der Ostslowakei."
     }
-  }
+  },
+  "cesta": "Hlavné miesto · Mestá"
 }

@@ -1,0 +1,47 @@
+# Pomocné polia pre prehľad v Decap CMS (/admin): po každej zmene obsahu
+# (aj cez CMS) dopočíta na miestach a zastaveniach "cestu" (Betliar ›
+# Anglický park › Architektúra – zobrazuje sa na kartách pod názvom),
+# hlavnú kategóriu a projekt, a commitne ich späť. Nové miesto/zastavenie
+# tak má správny popis na karte bez ručného spúšťania skriptov.
+# Logika je v scripts/backfill-miesta-helpers.js a
+# scripts/backfill-zastavenia-helpers.js (do webu sa tieto polia nedostanú).
+name: Pomocné polia pre CMS
+
+on:
+  push:
+    branches: [main, pretty-urls]
+    paths:
+      - "content/miesta/**"
+      - "content/zastavenia/**"
+      - "content/kategorie/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cms-helpers-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  helpers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/backfill-miesta-helpers.js
+      - run: node scripts/backfill-zastavenia-helpers.js
+      - name: Commit pomocných polí
+        run: |
+          if [ -n "$(git status --porcelain content)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add content
+            git commit -m "Automaticky doplnené pomocné polia pre CMS (cesta, kategória, projekt)"
+            git pull --rebase
+            git push
+          else
+            echo "Pomocné polia sú aktuálne."
+          fi

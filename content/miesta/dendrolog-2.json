@@ -3,7 +3,6 @@
   "id": "dendrolog-2",
   "rodic": "zs-a-ms-banova",
   "nazov": "Dendrológ 2",
-  "foto": "assets/images/places/dendrolog-2.jpg",
   "popis": "",
   "hlavnaKategoria": "Environmentálna výchova a vzdelávanie",
   "korenoveMiesto": "ZŠ a MŠ Bánová",
@@ -31,5 +30,7 @@
     "de": {
       "nazov": "Dendrologe 2"
     }
-  }
+  },
+  "cover": "assets/images/migrated/dendrolog-2.jpg",
+  "cesta": "ZŠ a MŠ Bánová"
 }

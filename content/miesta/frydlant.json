@@ -11,7 +11,7 @@
   "lat": 50.921,
   "mapX": 266,
   "mapY": 6,
-  "cover": "",
+  "cover": "assets/images/migrated/frydlant.png",
   "popis": "Mesto na česko-slovenskom pohraničí.",
   "hlavnaKategoria": "Mestá",
   "korenoveMiesto": "Frýdlant",
@@ -26,7 +26,6 @@
   "povodneUrlAliasy": [
     "https://www.qrlink.sk/new/frydlant/"
   ],
-  "foto": "assets/images/places/frydlant.png",
   "fotoErb": true,
   "i18n": {
     "en": {
@@ -43,5 +42,6 @@
       "nazov": "Frýdlant",
       "popis": "Stadt im tschechisch-slowakischen Grenzgebiet."
     }
-  }
+  },
+  "cesta": "Hlavné miesto · Mestá"
 }
