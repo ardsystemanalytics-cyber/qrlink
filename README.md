@@ -172,16 +172,18 @@ schvaľovanie – tak, ako sme sa dohodli). Zmena sa na webe prejaví do minúty
    App (krok 2) a znova nasadiť.
 
 **Používanie:** kolega otvorí `https://<doména>/admin`, prihlási sa cez
-"Login with GitHub", a uvidí formuláre na editáciu Kategórií, Miest,
-Zastavení a Kontaktu. Nahrávanie obrázkov cez CMS ukladá súbory do
+"Login with GitHub", a uvidí formuláre na editáciu Kategórií, Projektov,
+Zastavení a Kontaktu. (V `/admin` sa kolekcia `miesta` volá **Projekty** –
+obsahuje hlavné projekty aj ich podkategórie/trasy; v kóde a v
+`content/miesta/` ostáva názov „miesta“.) Nahrávanie obrázkov cez CMS ukladá súbory do
 `assets/images/migrated/` (tam sú všetky fotky webu), audio do
 `assets/audio/migrated/`.
 
-**Prehľad v CMS:** Miesta a Zastavenia sa predvolene zobrazujú ako karty
+**Prehľad v CMS:** Projekty a Zastavenia sa predvolene zobrazujú ako karty
 s titulnou fotkou (prepínač zoznam/karty je vpravo hore, voľba sa
 zapamätá). Na každej karte je názov a pod ním, kam záznam patrí
 (napr. „Podkategória: Betliar › Anglický park › Architektúra“, pri hlavnom
-mieste „Hlavné miesto · Mestá“). Tento text je pomocné pole `cesta`
+projekte „Hlavný projekt · Mestá“). Tento text je pomocné pole `cesta`
 (spolu s `hlavnaKategoria`, `projekt`, `korenoveMiesto`, `miestoNazov`),
 ktoré po každej zmene obsahu automaticky dopočíta GitHub Action
 `.github/workflows/cms-helpers.yml` (skripty `scripts/backfill-*-helpers.js`)

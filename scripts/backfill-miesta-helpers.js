@@ -77,10 +77,11 @@ Object.values(miesta).forEach(m => {
   }
 
   // "cesta" – kam miesto patrí, na karte v /admin pod názvom:
-  // hlavné miesto -> "Hlavné miesto · Mestá", podkategória -> "Betliar › Anglický park"
+  // hlavný projekt -> "Hlavný projekt · Mestá", podkategória -> "Betliar › Anglický park"
+  // (v /admin sa kolekcia "miesta" volá "Projekty")
   const predkovia = [];
   for (let p = miesta[m.rodic], i = 0; p && i < 30; p = miesta[p.rodic], i++) predkovia.unshift(p.nazov);
-  const cesta = predkovia.length ? predkovia.join(" › ") : `Hlavné miesto${kat ? " · " + kat : ""}`;
+  const cesta = predkovia.length ? predkovia.join(" › ") : `Hlavný projekt${kat ? " · " + kat : ""}`;
   if (data.cesta !== cesta) {
     data.cesta = cesta;
     touched = true;

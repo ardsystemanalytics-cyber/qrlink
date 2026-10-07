@@ -33,7 +33,7 @@ collections:
   - name: kategorie
     label: "Kategórie"
     label_singular: "Kategória"
-    description: "Hlavné kategórie miest (Mestá, Pamiatky, Náučné chodníky…). Zobrazujú sa na hlavnej stránke."
+    description: "Hlavné kategórie projektov (Mestá, Pamiatky, Náučné chodníky…). Zobrazujú sa na hlavnej stránke."
     folder: "content/kategorie"
     create: true
     extension: "json"
@@ -77,9 +77,11 @@ collections:
               - { label: "Názov", name: "nazov", widget: "string", required: false }
 
   - name: miesta
-    label: "Miesta"
-    label_singular: "Miesto"
-    description: "Mestá, pamiatky, náučné chodníky a ich podkategórie/trasy. Hlavné miesto má vyplnenú 'Hlavnú kategóriu' a súradnice; podkategória/trasa má namiesto toho vyplnené 'Nadradené miesto'."
+    # Interný názov kolekcie ostáva "miesta" (priečinok content/miesta,
+    # odkazy v dátach); v rozhraní /admin sa volá "Projekty".
+    label: "Projekty"
+    label_singular: "Projekt"
+    description: "Mestá, pamiatky, náučné chodníky a ich podkategórie/trasy. Hlavný projekt má vyplnenú 'Hlavnú kategóriu' a súradnice; podkategória/trasa má namiesto toho vyplnený nadradený projekt."
     folder: "content/miesta"
     create: true
     extension: "json"
@@ -91,15 +93,15 @@ collections:
     # tu (nepravidelná, ľubovoľne vnorená štruktúra prevzatá zo starého webu),
     # preto náhľad vedie na vždy funkčnú internú adresu s ?id=.
     preview_path: "kategoria.html?id={{id}}"
-    # V /admin sa pri Miestach objaví rozbaľovacie "Group by" – zoznam si
+    # V /admin sa pri Projektoch objaví rozbaľovacie "Group by" – zoznam si
     # vieš rozdeliť buď podľa hlavnej kategórie, alebo podľa toho, pod
-    # ktoré (hlavné) miesto podkategórie/trasy patria.
+    # ktorý (hlavný) projekt podkategórie/trasy patria.
     view_groups:
       - label: "Hlavná kategória"
         field: hlavnaKategoria
       - label: "Projekt"
         field: korenoveMiesto
-    # Karta v zozname: názov, pod ním kam miesto patrí ("cesta" – dopočítava
+    # Karta v zozname: názov, pod ním kam projekt/podkategória patrí ("cesta" – dopočítava
     # scripts/backfill-miesta-helpers.js) a titulná fotka.
     summary: "{{nazov}}\n{{cesta}}"
     sortable_fields:
@@ -107,11 +109,11 @@ collections:
       - { field: "poradie", label: "Poradie na webe" }
     fields:
       - { label: "Názov (slovensky)", name: "nazov", widget: "string" }
-      - { label: "Titulná fotka", name: "cover", widget: "image", required: false, hint: "Fotka na karte miesta, v hlavičke jeho stránky aj tu v zozname. Ak ostane prázdna, použije sa fotka nadradeného miesta. Nahraná fotka sa automaticky zmenší na max. 400 KB." }
+      - { label: "Titulná fotka", name: "cover", widget: "image", required: false, hint: "Fotka na karte projektu, v hlavičke jeho stránky aj tu v zozname. Ak ostane prázdna, použije sa fotka nadradeného projektu. Nahraná fotka sa automaticky zmenší na max. 400 KB." }
       - { label: "Titulná fotka je erb / logo (zobraziť celú, neorezať)", name: "fotoErb", widget: "boolean", required: false, default: false }
       - { label: "Popis (slovensky)", name: "popis", widget: "text", required: false }
 
-      - label: "① Toto je podkategória/trasa? → vyber jej nadradené miesto"
+      - label: "① Toto je podkategória/trasa? → vyber jej nadradený projekt"
         name: "rodic"
         widget: "relation"
         collection: "miesta"
@@ -119,8 +121,8 @@ collections:
         search_fields: ["nazov", "id"]
         display_fields: ["nazov", "id"]
         required: false
-        hint: "Vyplň LEN ak je toto podkategória/trasa patriaca pod iné (hlavné) miesto. Ak toto vyplníš, polia nižšie (Hlavná kategória, Všetky kategórie, súradnice) nechaj prázdne – nepoužijú sa, kategóriu aj farbu/ikonu táto podkategória zdedí od nadradeného miesta."
-      - label: "② Alebo je toto samostatné hlavné miesto? → vyplň jeho kategóriu a polohu"
+        hint: "Vyplň LEN ak je toto podkategória/trasa patriaca pod iný projekt (alebo inú podkategóriu). Ak toto vyplníš, polia nižšie (Hlavná kategória, Všetky kategórie, súradnice) nechaj prázdne – nepoužijú sa, kategóriu aj farbu/ikonu táto podkategória zdedí od nadradeného projektu."
+      - label: "② Alebo je toto samostatný hlavný projekt? → vyplň jeho kategóriu a polohu"
         name: "primarna"
         widget: "relation"
         collection: "kategorie"
@@ -128,7 +130,7 @@ collections:
         search_fields: ["nazov", "id"]
         display_fields: ["nazov"]
         required: false
-        hint: "Vyplň LEN ak si vyššie NEVYBRALA/VYBRAL nadradené miesto (teda toto je samostatné hlavné miesto, nie podkategória)."
+        hint: "Vyplň LEN ak si vyššie NEVYBRALA/VYBRAL nadradený projekt (teda toto je samostatný hlavný projekt, nie podkategória)."
       - label: "Všetky kategórie"
         name: "kategorie"
         widget: "relation"
@@ -138,18 +140,18 @@ collections:
         display_fields: ["nazov"]
         multiple: true
         required: false
-        hint: "Vyplniť LEN pre hlavné miesto (pozri ②) – do ktorých kategórií ešte patrí (okrem hlavnej)."
-      - { label: "Zemepisná dĺžka (lon)", name: "lon", widget: "number", value_type: "float", required: false, hint: "Vyplniť LEN pre hlavné miesto (pozri ②) – súradnica na mape." }
-      - { label: "Zemepisná šírka (lat)", name: "lat", widget: "number", value_type: "float", required: false, hint: "Vyplniť LEN pre hlavné miesto (pozri ②) – súradnica na mape." }
-      - { label: "Pozícia X na ilustračnej mape (px)", name: "mapX", widget: "number", value_type: "int", required: false, hint: "Vyplniť LEN pre hlavné miesto (pozri ②)." }
-      - { label: "Pozícia Y na ilustračnej mape (px)", name: "mapY", widget: "number", value_type: "int", required: false, hint: "Vyplniť LEN pre hlavné miesto (pozri ②)." }
+        hint: "Vyplniť LEN pre hlavný projekt (pozri ②) – do ktorých kategórií ešte patrí (okrem hlavnej)."
+      - { label: "Zemepisná dĺžka (lon)", name: "lon", widget: "number", value_type: "float", required: false, hint: "Vyplniť LEN pre hlavný projekt (pozri ②) – súradnica na mape." }
+      - { label: "Zemepisná šírka (lat)", name: "lat", widget: "number", value_type: "float", required: false, hint: "Vyplniť LEN pre hlavný projekt (pozri ②) – súradnica na mape." }
+      - { label: "Pozícia X na ilustračnej mape (px)", name: "mapX", widget: "number", value_type: "int", required: false, hint: "Vyplniť LEN pre hlavný projekt (pozri ②)." }
+      - { label: "Pozícia Y na ilustračnej mape (px)", name: "mapY", widget: "number", value_type: "int", required: false, hint: "Vyplniť LEN pre hlavný projekt (pozri ②)." }
 
       - label: "Zvýraznená zaujímavosť (voliteľné)"
         name: "heroOverlay"
         widget: "object"
         required: false
         collapsed: true
-        hint: "Malá 'vedeli ste že...' bublina na stránke miesta."
+        hint: "Malá 'vedeli ste že...' bublina na stránke projektu."
         fields:
           - { label: "Ikonka", name: "icon", widget: "select", options: ["hrad", "stromy", "ludia", "qr"], required: false }
           - { label: "Nadpis (napr. 'Zaujímavosť')", name: "text", widget: "string", required: false }
@@ -194,7 +196,7 @@ collections:
         widget: "object"
         required: false
         collapsed: true
-        hint: "Ak nevyplníš, použije sa automaticky názov/popis/fotka miesta."
+        hint: "Ak nevyplníš, použije sa automaticky názov/popis/fotka projektu."
         fields:
           - { label: "SEO titulok", name: "title", widget: "string", required: false }
           - { label: "SEO popis", name: "description", widget: "text", required: false }
@@ -236,12 +238,12 @@ collections:
               - { label: "Popis", name: "popis", widget: "text", required: false }
 
       - { label: "Technické: poradie na hlavnej stránke", name: "poradie", widget: "number", value_type: "int", hint: "Nižšie číslo = zobrazí sa skôr na hlavnej stránke." }
-      - { label: "Technické: ID (vyplniť len pri novom mieste, potom nemeniť)", name: "id", widget: "string", hint: "Krátky identifikátor bez diakritiky a medzier, napr. 'hrad-lietava'. Musí byť rovnaký ako názov súboru." }
+      - { label: "Technické: ID (vyplniť len pri novom projekte, potom nemeniť)", name: "id", widget: "string", hint: "Krátky identifikátor bez diakritiky a medzier, napr. 'hrad-lietava'. Musí byť rovnaký ako názov súboru." }
 
   - name: zastavenia
     label: "Zastavenia"
     label_singular: "Zastavenie"
-    description: "Jednotlivé zastávky s QR kódom v rámci miesta/trasy (napr. izby na hrade, jednotlivé body na náučnom chodníku)."
+    description: "Jednotlivé zastávky s QR kódom v rámci projektu/trasy (napr. izby na hrade, jednotlivé body na náučnom chodníku)."
     folder: "content/zastavenia"
     create: true
     extension: "json"
@@ -254,7 +256,7 @@ collections:
     # rovnaké poradie, v akom sa zastavenia zobrazujú na webe.
     sortable_fields:
       - { field: "nazov", label: "Názov", default_sort: true }
-      - { field: "poradie", label: "Poradie v rámci miesta" }
+      - { field: "poradie", label: "Poradie v rámci projektu" }
     # Karta v zozname: názov, pod ním celá cesta, kam zastavenie patrí
     # ("cesta" – dopočítava scripts/backfill-zastavenia-helpers.js) a titulná fotka.
     summary: "{{nazov}}\nPodkategória: {{cesta}}"
@@ -279,15 +281,15 @@ collections:
     fields:
       - { label: "Názov (slovensky)", name: "nazov", widget: "string" }
       - { label: "Titulná fotka", name: "cover", widget: "image", required: false, hint: "Hlavná fotka zastavenia – zobrazí sa hore na jeho stránke, ako prvá vo fotogalérii aj tu v zozname. Nahraná fotka sa automaticky zmenší na max. 400 KB." }
-      - label: "Patrí do miesta / podkategórie"
+      - label: "Patrí do projektu / podkategórie"
         name: "miesto"
         widget: "relation"
         collection: "miesta"
         value_field: "id"
         search_fields: ["nazov", "id"]
         display_fields: ["nazov", "cesta"]
-        hint: "Ku ktorému miestu/trase toto zastavenie patrí (vyhľadaj podľa názvu)."
-      - { label: "Poradie v rámci miesta", name: "poradie", widget: "number", value_type: "int", hint: "Nižšie číslo = zobrazí sa skôr." }
+        hint: "Ku ktorému projektu/podkategórii/trase toto zastavenie patrí (vyhľadaj podľa názvu)."
+      - { label: "Poradie v rámci projektu", name: "poradie", widget: "number", value_type: "int", hint: "Nižšie číslo = zobrazí sa skôr." }
       - { label: "Krátky popis (slovensky)", name: "popis", widget: "text", required: false }
       - label: "Text zastavenia (slovensky)"
         name: "text"
