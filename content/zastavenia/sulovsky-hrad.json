@@ -15,7 +15,10 @@
       "url": "assets/images/migrated/05-sulovsky-hrad.jpg"
     }
   ],
-  "gps": null,
+  "gps": {
+    "lat": 49.174701,
+    "lng": 18.583512
+  },
   "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4783.777667273124!2d18.57905918803144!3d49.174502187227404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe9f96e36f7422be0!2zNDnCsDEwJzI4LjkiTiAxOMKwMzUnMDAuNiJF!5e0!3m2!1ssk!2ssk!4v1673719216891!5m2!1ssk!2ssk",
   "text": "Na mohutnom skalnom bradle Súľovských skál, v nadmorskej výške 660 metrov sa nachádzajú zbytky Súľovského hradu. Hrad pochádza z prvej tretiny 15. storočia a do dnešného dňa sa, žiaľ, zachovalo len minimum obvodových múrov. Podľa povesti žil v okolí hradu drak, ktorý rozzúrený lietal okolo hradu a narážal do skál. Zanechal tak otvor – Gotickú bránu a Šarkaniu dieru. Odvážny mladík Suľo sa ho vybral zabiť, lebo znepríjemňoval život v okolí. To sa mu podarilo a dedinčania mu za to postavili malý hrad v nedobytných skalách.",
   "hlavnaKategoria": "Mestá",

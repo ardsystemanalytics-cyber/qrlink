@@ -15,7 +15,10 @@
       "url": "assets/images/migrated/chata-libusin.jpg"
     }
   ],
-  "gps": null,
+  "gps": {
+    "lat": 49.489497,
+    "lng": 18.265817
+  },
   "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2591.735799126436!2d18.26362851563728!3d49.48949747935442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeca8d0d023eb66b5!2zNDnCsDI5JzIyLjIiTiAxOMKwMTUnNTYuOSJF!5e0!3m2!1ssk!2ssk!4v1662655426017!5m2!1ssk!2ssk",
   "text": "Chata Maměnka bola postavená, rovnako ako susedná chata Libušín, podľa návrhov architekta Dušana Jurkoviča v roku 1898. Výrazne zdobená ľudovo-secesná budova s prvkami valašskej architektúry dnes slúži ako hotel. Stavba je národnou kultúrnou pamiatkou.\n\nChata Libušín, jedna z dominánt horského sedla Pustevny, bola postavená podľa návrhov architekta Dušana Jurkoviča v roku 1898. Chata je postavená v štýle tzv. ľudovej secesie s prvkami valašskej architektúry. Obzvlášť vzácna bola jedáleň zdobená freskami a sgrafitami s motívmi moravských a slovenských povestí, ktorú však v roku 2014 veľmi poškodil požiar celej budovy.\n\nV roku 1995 bola vyhlásená za národnú kultúrnu pamiatku. V auguste 2020 bola znovu otvorená.\n\nZemepisné súradnice: 49.4894975N, 18.2658172E; nadmorská výška 1 018 m. n. m.\n\nZemepisné súradnice: 49.4896744N, 18.2654061E; nadmorská výška 1 018 m. n. m.",
   "hlavnaKategoria": "Mestá",

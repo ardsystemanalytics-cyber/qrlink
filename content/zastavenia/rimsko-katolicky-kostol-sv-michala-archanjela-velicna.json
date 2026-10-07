@@ -15,7 +15,10 @@
       "url": "assets/images/migrated/20-velicna-rim-kat-kostol-sv-michala-archanjela.jpg"
     }
   ],
-  "gps": null,
+  "gps": {
+    "lat": 49.205864,
+    "lng": 19.243332
+  },
   "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2606.720349880515!2d19.241142915626877!3d49.20586437932307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x747fd1364c8d3d40!2zNDnCsDEyJzIxLjEiTiAxOcKwMTQnMzYuMCJF!5e0!3m2!1ssk!2ssk!4v1669999145589!5m2!1ssk!2ssk",
   "text": "Pôvodne gotický kostol postavený v 14. storočí bol v roku 1683 zničený požiarom spoločne s väčšou časťou obce. Počas opráv v 17. storočí získal kostol dnešnú podobu. Areál kostola obkolesuje obranný múr, pred kostolom sa nachádza kalvária z roku 1777 a zvyšok niekdajšieho cintorína. V interiéri sa nachádza ľudový vyrezávaný betlehem. Kostol bol v roku 1963 vyhlásený za národnú kultúrnu pamiatku.",
   "hlavnaKategoria": "Mestá",

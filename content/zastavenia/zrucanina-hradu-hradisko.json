@@ -15,7 +15,10 @@
       "url": "assets/images/migrated/zdrucanina-hradu-hradisko.jpg"
     }
   ],
-  "gps": null,
+  "gps": {
+    "lat": 49.453335,
+    "lng": 18.121274
+  },
   "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2593.649815731038!2d18.11908551563592!3d49.4533352793502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x367111fea396b9fd!2zNDnCsDI3JzEyLjAiTiAxOMKwMDcnMTYuNiJF!5e0!3m2!1ssk!2ssk!4v1662654800821!5m2!1ssk!2ssk",
   "text": "Hrad Rožnov bol postavený v 2. polovici 14. storočia. Na jeho stavbu vybrali vhodné miesto na vrchu Hradisko (522 m n. m.). Jeho úlohou bola ochrana hraníc s Uhorskom. Od 14. do 17. storočia bol hrad niekoľkokrát rozširovaný. Prvá zmienka o hrade sa našla v listine Voka z Kravař, neskôr patril pánom z Cimburka a na konci 15. storočia pánom z Pezinka. V roku 1505 ho získali páni z Kunštátu a v roku 1526 Jaroslav zo Šelenberka. V roku 1535 získal hrad Ján z Pernštejna, ale už v roku 1539 bol na príkaz kráľa Ferdinanda I. obsadený a zbúraný, pretože sa v ňom usadila zbojnícka banda. Neskôr bol hrad provizórne opravený a ešte v roku 1660 slúžil panským úradníkom. Koncom 17. storočia bol úplne opustený. Skazu hradu dokonali samotní obyvatelia Rožnova. V druhej polovici 19. storočia dostali od obecného úradu povolenie rozobrať zvyšky hradu na stavbu svojich obydlí, „aby také nějak té památky oučastní byli“.\n\nOd roku 1964 sú zvyšky hradu chránené ako kultúrna pamiatka. Zachovali sa zvyšky múrov, brána, priekopa s valom a časť podzemia.",
   "hlavnaKategoria": "Mestá",

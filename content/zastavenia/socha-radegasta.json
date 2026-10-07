@@ -15,7 +15,10 @@
       "url": "assets/images/migrated/socha-radegasta.jpg"
     }
   ],
-  "gps": null,
+  "gps": {
+    "lat": 49.482577,
+    "lng": 18.252892
+  },
   "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2592.102187670639!2d18.250703015636972!3d49.48257667935352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa7f8594118c5d672!2zNDnCsDI4JzU3LjMiTiAxOMKwMTUnMTAuNCJF!5e0!3m2!1ssk!2ssk!4v1662655306416!5m2!1ssk!2ssk",
   "text": "Pôvodnú sochu Radegasta vytvoril sochár Albín Polášek z betónu a kameninovej drte. Na horský chrbát medzi Pustevnami a Radhošťom ju umiestnili v roku 1931. Horské podnebie sochu poškodzovalo, a preto ju v roku 1996 premiestnili do haly radnice vo Frenštáte pod Radhoštěm a na jej mieste stojí od roku 1998 kópia z odolnejšej žuly.\n\nRadegasta uctievali pohania ako boha slnka, hojnosti a úrody. Albín Polášek ho stvárnil ako postavu s mužským telom a levou hlavou, na ktorej má nasadenú prilbu s býčími rohmi. V pravej ruke zviera roh hojnosti, ľavou sa opiera o sekeru.",
   "hlavnaKategoria": "Mestá",

@@ -15,7 +15,10 @@
       "url": "assets/images/migrated/10-janosikove-diery.jpg"
     }
   ],
-  "gps": null,
+  "gps": {
+    "lat": 49.250346,
+    "lng": 19.073251
+  },
   "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2604.374588629687!2d19.07106211562841!3d49.25034557932786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x635b6fac453705a4!2zNDnCsDE1JzAxLjIiTiAxOcKwMDQnMjMuNyJF!5e0!3m2!1ssk!2ssk!4v1673718427616!5m2!1ssk!2ssk",
   "text": "Najkrajšia a najobľúbenejšia časť Malej Fatry sú Jánošíkove diery. Nachádzajú sa v prírodnej rezervácii Rozsutce a skladajú sa z troch častí: z Dolných dier, Horných dier a Nových dier. O ich vyformovanie sa zaslúžil tzv. Dierový potok, ktorý nimi preteká.",
   "hlavnaKategoria": "Mestá",
