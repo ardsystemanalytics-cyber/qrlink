@@ -9,6 +9,7 @@
 const fs = require("fs");
 const path = require("path");
 const { marked } = require("marked");
+const SEO = require("../js/seo.js");
 
 const ROOT = path.join(__dirname, "..");
 const CONTENT = path.join(ROOT, "content");
@@ -281,12 +282,52 @@ const sitemapUrls = [
   ...miesta.map((m) => m.url),
   ...zastavenia.map((z) => z.url),
 ];
+// Každá adresa je v sitemape vo všetkých jazykoch (SK, EN, CS, HU, DE) a pri
+// každej sú uvedené aj ostatné jazykové verzie (hreflang) - Google tak vie,
+// že ide o ten istý obsah v rôznych jazykoch.
+const xmlEsc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+const sitemapEntries = [];
+for (const u of sitemapUrls) {
+  const alt = SEO.LANGS.map((l) => `<xhtml:link rel="alternate" hreflang="${l}" href="${xmlEsc(SITE_ORIGIN + SEO.langPath(u, l))}"/>`)
+    .concat(`<xhtml:link rel="alternate" hreflang="x-default" href="${xmlEsc(SITE_ORIGIN + u)}"/>`).join("");
+  for (const l of SEO.LANGS) sitemapEntries.push(`  <url><loc>${xmlEsc(SITE_ORIGIN + SEO.langPath(u, l))}</loc>${alt}</url>`);
+}
 const sitemapXml =
   `<?xml version="1.0" encoding="UTF-8"?>\n` +
-  `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
-  sitemapUrls.map((u) => `  <url><loc>${SITE_ORIGIN}${u}</loc></url>`).join("\n") +
+  `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n` +
+  sitemapEntries.join("\n") +
   `\n</urlset>\n`;
 fs.writeFileSync(path.join(ROOT, "sitemap.xml"), sitemapXml, "utf8");
+
+// SEO (titulok, popis, obrázok) pre každú stránku a jazyk -> lib/seo-map.mjs.
+// Pravidlá sú v js/seo.js (rovnaké ako v prehliadači); middleware.js podľa
+// tejto mapy vloží meta tagy priamo do HTML. "lib/seo-lib.mjs" je len kópia
+// js/seo.js zabalená ako ES modul, nech ju middleware (Vercel Edge) môže
+// importovať bez zmeny pôvodného súboru.
+const miestaById = Object.fromEntries(miesta.map((m) => [m.id, m]));
+const seoCtx = { miestoById: (id) => miestaById[id], placePhotos: PLACE_PHOTOS };
+const byLang = (fn) => Object.fromEntries(SEO.LANGS.map((l) => [l, fn(l)]));
+const seoMap = {
+  home: SEO.entryFromMetas(byLang((l) => SEO.forHome(l))),
+  kontakt: SEO.entryFromMetas(byLang((l) => SEO.forContact(l))),
+};
+for (const m of miesta) seoMap[`m:${m.id}`] = SEO.entryFromMetas(byLang((l) => SEO.forMiesto(m, l, seoCtx)));
+for (const z of zastavenia) seoMap[`z:${z.id}`] = SEO.entryFromMetas(byLang((l) => SEO.forZastavenie(z, l, seoCtx)));
+fs.mkdirSync(path.join(ROOT, "lib"), { recursive: true });
+fs.writeFileSync(
+  path.join(ROOT, "lib", "seo-map.mjs"),
+  `// AUTOMATICKY VYGENEROVANÉ - pozri scripts/build-data.js a js/seo.js\n` +
+    `export default ${JSON.stringify(seoMap)};\n`,
+  "utf8"
+);
+fs.writeFileSync(
+  path.join(ROOT, "lib", "seo-lib.mjs"),
+  `// AUTOMATICKY VYGENEROVANÉ (kópia js/seo.js ako ES modul) - pozri scripts/build-data.js\n` +
+    `const module = { exports: {} };\n` +
+    fs.readFileSync(path.join(ROOT, "js/seo.js"), "utf8") +
+    `\nexport default module.exports;\n`,
+  "utf8"
+);
 
 // Zoznam existujúcich súborov webu (mimo priečinkov, ktoré middleware.js
 // vôbec nerieši) - middleware podľa neho pozná, čo na webe NEEXISTUJE,
@@ -302,7 +343,7 @@ const staticFiles = [];
     else staticFiles.push(r);
   }
 })(ROOT, "");
-if (!staticFiles.includes("lib/pretty-url-map.mjs")) staticFiles.push("lib/pretty-url-map.mjs");
+for (const f of ["lib/pretty-url-map.mjs", "lib/seo-map.mjs", "lib/seo-lib.mjs"]) if (!staticFiles.includes(f)) staticFiles.push(f);
 staticFiles.sort();
 
 fs.mkdirSync(path.join(ROOT, "lib"), { recursive: true });

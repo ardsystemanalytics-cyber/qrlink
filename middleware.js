@@ -36,6 +36,8 @@
    ===================================================================== */
 import { rewrite, next } from "@vercel/functions";
 import urlMap, { guess, redirects, staticFiles } from "./lib/pretty-url-map.mjs";
+import seoMap from "./lib/seo-map.mjs";
+import SEO from "./lib/seo-lib.mjs";
 
 const OLD_LANGS = ["sk", "en", "cs", "hu", "de", "ru", "pl"];
 // Jazyky, ktoré nový web naozaj má (js/i18n.js) - len tie majú vlastnú
@@ -112,7 +114,48 @@ function applyOldRedirect(pathname) {
   return lang ? `/${lang}${target}` : target;
 }
 
-export default function middleware(request) {
+/* 4) SEO v HTML: stránky (zastavenie, kategória, domov, kontakt) majú v
+   šablóne vyznačené miesto <!--SEO--> … <!--/SEO-->. Tu sa doň pre danú
+   stránku a jazyk vložia hotové meta tagy (titulok, popis, obrázok, canonical,
+   hreflang, og:, twitter:) z lib/seo-map.mjs - takže ich vidí aj Google bez
+   JavaScriptu a Facebook/WhatsApp/Messenger pri zdieľaní. Pravidlá sú v
+   js/seo.js. Ak čokoľvek zlyhá (chýba záznam, šablóna, sieť), vráti sa null
+   a stránka sa obslúži ako doteraz (prehliadač si SEO doplní sám). */
+async function withSeo(target, request) {
+  try {
+    const id = target.searchParams.get("id");
+    const langParam = target.searchParams.get("lang");
+    const lang = SITE_LANGS.includes(langParam) ? langParam : "sk";
+    let key;
+    let template = target.pathname;
+    if (target.pathname === "/zastavenie.html" && id) key = `z:${id}`;
+    else if (target.pathname === "/kategoria.html" && id) key = `m:${id}`;
+    else if (target.pathname === "/kontakt.html") key = "kontakt";
+    else if (target.pathname === "/" || target.pathname === "/index.html") { key = "home"; template = "/index.html"; }
+    else return null;
+    const entry = seoMap[key];
+    if (!entry) return null;
+
+    const res = await fetch(new URL(template, request.url), { headers: { "x-seo-internal": "1" } });
+    if (!res.ok) return null;
+    const html = SEO.injectHead(await res.text(), SEO.metaFromEntry(entry, lang));
+    if (html === null) return null;
+    return new Response(html, {
+      status: 200,
+      headers: {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+      },
+    });
+  } catch {
+    return null;
+  }
+}
+
+export default async function middleware(request) {
+  // Interné načítanie šablóny z withSeo() - bez ďalšieho spracovania.
+  if (request.headers.get("x-seo-internal")) return next();
+
   const url = new URL(request.url);
   const { pathname } = url;
 
@@ -125,10 +168,12 @@ export default function middleware(request) {
 
   const found = resolve(pathname);
   if (!found) return Response.redirect(new URL(homeFor(pathname), url), 301);
-  if (found.file) return next();
+  // Priama interná adresa (napr. /zastavenie.html?id=nove-zastavenie - tak sa
+  // zobrazí záznam z CMS, ktorý nemá starú peknú adresu) - tiež dostane SEO.
+  if (found.file) return (await withSeo(url, request)) || next();
 
   const target = new URL(found.rewrite, url);
   // pôvodné query parametre (napr. ?utm_source=qr) zachovať
   for (const [k, v] of url.searchParams) if (!target.searchParams.has(k)) target.searchParams.set(k, v);
-  return rewrite(target);
+  return (await withSeo(target, request)) || rewrite(target);
 }

@@ -36,36 +36,18 @@ function recordByIdOrPath(list, idFieldGetter, guessByLastSegment = false) {
   return hits.length === 1 ? hits[0] : undefined;
 }
 const DEFAULT_PHOTO = "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80";
-const SITE_ORIGIN = "https://qrlink.sk";
 
-/* SEO – voliteľné polia "seo.title/description/image" (editovateľné cez CMS);
-   kým nie sú vyplnené, spadnú späť na bežný názov/popis/fotku daného záznamu.
-   Poznámka: takto nastavené meta tagy vidí prehliadač aj Google (renderuje JS),
-   ale NIE sociálne siete pri zdieľaní (tie JS nespúšťajú) – na to bude
-   časom treba samostatné pred-generovanie stránok. */
-function seoTitle(obj) { return (obj.seo && obj.seo.title) || tc(obj, "nazov"); }
-function seoDescription(obj) { return (obj.seo && obj.seo.description) || tc(obj, "popis") || ""; }
-function seoImage(obj) { return (obj.seo && obj.seo.image) || obj.cover || obj.foto || DEFAULT_PHOTO; }
-
-function updateSEO({ title, description, image, url }) {
-  document.title = title;
-  const setMeta = (selector, attr, value) => {
-    const el = Q(selector);
-    if (el) el.setAttribute(attr, value || "");
-  };
-  setMeta('meta[name="description"]', "content", description);
-  setMeta('meta[property="og:title"]', "content", title);
-  setMeta('meta[property="og:description"]', "content", description);
-  if (image) setMeta('meta[property="og:image"]', "content", image);
-  // Kanonická URL je vždy tá "pekná" (napr. "/category/betliar/") na
-  // ostrej doméne - nie aktuálna adresa v prehliadači (tá môže byť
-  // rozohnaná (podľa toho) na Vercel preview doméne, alebo priamy
-  // needitovaný "/kategoria.html?id=..." odkaz, keby sem niekto prišiel
-  // obídením middleware presmerovania).
-  const canonicalUrl = new URL(url || location.pathname, SITE_ORIGIN).href;
-  setMeta('meta[property="og:url"]', "content", canonicalUrl);
-  setMeta('link[rel="canonical"]', "href", canonicalUrl);
-}
+/* SEO – titulok, popis, obrázok na zdieľanie, canonical a jazykové verzie.
+   Pravidlá (aj to, čo sa použije, keď sú CMS polia "SEO" prázdne) sú v
+   js/seo.js. Rovnaké meta tagy vloží do HTML už aj middleware.js (aby ich
+   videl Google bez JavaScriptu a Facebook/WhatsApp pri zdieľaní) - tu sa len
+   znova nastavia v prehliadači, pre prípad priameho prístupu bez middleware
+   (napr. náhľad z /admin alebo lokálny test). */
+const seoCtx = () => ({
+  miestoById,
+  placePhotos: typeof PLACE_PHOTOS !== "undefined" ? PLACE_PHOTOS : {},
+});
+function updateSEO(meta) { SEO.apply(document, meta); }
 
 /* ------------------------------------------- strom kategórií ------ */
 /* projekt = miesto bez "rodic" (top-level); podkategória = miesto s "rodic" */
@@ -504,7 +486,7 @@ function renderKategoria() {
   const m = recordByIdOrPath(DB.miesta, miestoById);
   if (!m) { titleEl.textContent = t("not_found_place"); return; }
 
-  updateSEO({ title: `${seoTitle(m)} – QR LINK`, description: seoDescription(m), image: seoImage(m), url: m.url });
+  updateSEO(SEO.forMiesto(m, getLang(), seoCtx()));
   titleEl.textContent = tc(m, "nazov");
   const descEl = Q("#catDesc");
   if (descEl) descEl.textContent = tc(m, "popis") || "";
@@ -698,7 +680,7 @@ function renderZastavenie() {
   if (!z) { root.innerHTML = `<p>${t("detail_not_found")}</p>`; return; }
 
   const m = miestoById(z.miesto);
-  updateSEO({ title: `${seoTitle(z)} – QR LINK`, description: seoDescription(z), image: seoImage(z), url: z.url });
+  updateSEO(SEO.forZastavenie(z, getLang(), seoCtx()));
 
   const chain = m ? retazPredkov(m) : [];
   const koren = m ? rootProjekt(m) : null;
@@ -991,7 +973,14 @@ function initContactForm(formId, statusId) {
 }
 
 /* ------------------------------------------------------- štart ---- */
+/* SEO domovskej stránky a kontaktu (stránky záznamov si ho nastavia samy) */
+function initStaticPageSeo() {
+  if (Q("#leaflet-map")) updateSEO(SEO.forHome(getLang()));
+  else if (Q("#contactForm")) updateSEO(SEO.forContact(getLang()));
+}
+
 document.addEventListener("DOMContentLoaded", () => {
+  initStaticPageSeo();
   initNav();
   renderMap();
   renderMapFilters();

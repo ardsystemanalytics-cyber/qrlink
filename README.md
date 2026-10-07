@@ -240,6 +240,38 @@ Nový web má adresy zhodné so starým WordPress webom, len bez `/new`
 Mapa adries aj zoznam existujúcich súborov sa generujú pri každom builde
 (`scripts/build-data.js` → `lib/pretty-url-map.mjs`).
 
+## SEO (vyhľadávače a zdieľanie)
+
+Každá stránka (zastavenie, projekt/podkategória, domov, kontakt) vo všetkých
+5 jazykoch (SK, EN, CS, HU, DE) má titulok, popis, obrázok na zdieľanie,
+kanonickú adresu a odkazy `hreflang` na ostatné jazykové verzie. Meta tagy
+sú **priamo v HTML** (nie až po spustení JavaScriptu), takže ich vidí aj Google
+a Facebook / WhatsApp / Messenger pri zdieľaní odkazu.
+
+**Ako to funguje:** `js/seo.js` je jediný zdroj pravidiel. Build
+(`scripts/build-data.js`) z nich pre každú stránku a jazyk vyrobí
+`lib/seo-map.mjs` (+ `lib/seo-lib.mjs`, kópia `seo.js` pre Vercel) a
+`middleware.js` ich pri požiadavke vloží do vyznačenej časti
+`<!--SEO--> … <!--/SEO-->` v `<head>` šablón (`zastavenie.html`,
+`kategoria.html`, `index.html`, `kontakt.html`). Ak by čokoľvek zlyhalo,
+stránka sa zobrazí ako predtým a prehliadač si SEO doplní sám (`js/app.js`).
+`sitemap.xml` obsahuje všetky jazykové verzie aj s `hreflang`.
+
+**Čo sa použije, keď CMS polia „SEO“ ostanú prázdne (všetky záznamy):**
+
+| | |
+|---|---|
+| **Titulok** | „Názov – Projekt | QR LINK“ (projekt sa vynechá, ak by bol titulok dlhší než ~65 znakov) |
+| **Popis** | krátky popis → inak začiatok textu zastavenia (prvý zmysluplný odsek, ~155 znakov, na celé slovo/vetu; riadky typu „Nadmorská výška: …“ sa preskočia) → inak všeobecná veta o QR LINK. Veľmi krátky popis sa doplní všeobecnou vetou. |
+| **Obrázok** | titulná fotka → prvá z galérie → fotka nadradeného projektu → predvolená fotka webu (`hrad-strecno.jpg`); vždy s celou adresou `https://qrlink.sk/…` |
+
+Ručne vyplnené **SEO titulok a popis** (v CMS, sekcia „SEO“) majú prednosť,
+ale platia **len pre slovenčinu** – v ostatných jazykoch by boli v zlom
+jazyku, tam sa použije automatika z prekladu. **SEO obrázok** platí pre
+všetky jazyky. Domovská stránka a kontakt majú preklady v `js/seo.js`.
+
+Stránka zo CMS bez peknej adresy (`/zastavenie.html?id=…`) dostane SEO tiež.
+
 ## Počítadlo návštev
 
 Zatiaľ počíta návštevy len v prehliadači návštevníka (localStorage).
@@ -256,12 +288,12 @@ Všetky zastavenia), kontakt, mobilná verzia, viacjazyčnosť rozhrania
 (SK/EN/CS/HU, prepínač v hlavičke) – obsah zatiaľ preložený len pre
 Euroregión Beskydy / Oravský hrad, ostatné miesta majú zatiaľ len slovenský text.
 Redakčný systém (Decap CMS) na `/admin`, vrátane voliteľných SEO polí
-(titulok/popis/obrázok) na miestach a zastaveniach.
+(titulok/popis/obrázok) na miestach a zastaveniach; automatické SEO pre
+všetky stránky a jazyky (pozri sekciu „SEO“).
 
 ČAKÁ NA OBSAH: texty/audio/fotky ostatných zastavení z pôvodného webu
 (v content/ označené [DOPLNIŤ]), cover fotky miest, preklady ostatných
-miest do EN/CS/HU, SEO polia (zatiaľ prázdne – bez nich sa použije bežný
-názov/popis/fotka), serverové počítadlo návštev, presmerovania starých
+miest do EN/CS/HU, serverové počítadlo návštev, presmerovania starých
 QR adries.
 
 ČAKÁ NA DOKONČENIE (technické, nie na kolegu): jednorazové nastavenie

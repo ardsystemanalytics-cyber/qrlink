@@ -200,11 +200,11 @@ collections:
         widget: "object"
         required: false
         collapsed: true
-        hint: "Ak nevyplníš, použije sa automaticky názov/popis/fotka projektu."
+        hint: "Netreba nič vypĺňať – bez tohto sa titulok vytvorí z názvu („Názov – nadradený projekt | QR LINK“), popis z krátkeho popisu projektu a obrázok z titulnej fotky. Vypĺňaj len ak chceš pre vyhľadávače / zdieľanie niečo iné. Titulok a popis platia len pre slovenčinu (v iných jazykoch sa použije preklad), obrázok pre všetky jazyky."
         fields:
-          - { label: "SEO titulok", name: "title", widget: "string", required: false }
-          - { label: "SEO popis", name: "description", widget: "text", required: false }
-          - { label: "SEO obrázok (zdieľanie na sociálnych sieťach)", name: "image", widget: "image", required: false }
+          - { label: "SEO titulok", name: "title", widget: "string", required: false, hint: "Do cca 60 znakov. Za titulok sa automaticky pridá „ | QR LINK“." }
+          - { label: "SEO popis", name: "description", widget: "text", required: false, hint: "Do cca 155 znakov – zobrazí sa pod titulkom vo výsledkoch Google a pri zdieľaní." }
+          - { label: "SEO obrázok (zdieľanie na sociálnych sieťach)", name: "image", widget: "image", required: false, hint: "Odporúčaný pomer 1200 × 630 px. Ak nevyplníš, použije sa titulná fotka." }
 
       - label: "Preklady obsahu"
         name: "i18n"
@@ -327,11 +327,11 @@ collections:
         widget: "object"
         required: false
         collapsed: true
-        hint: "Ak nevyplníš, použije sa automaticky názov/popis/fotka zastavenia."
+        hint: "Netreba nič vypĺňať – bez tohto sa titulok vytvorí z názvu („Názov – projekt | QR LINK“), popis zo začiatku textu zastavenia (alebo z krátkeho popisu, ak je vyplnený) a obrázok z titulnej fotky. Vypĺňaj len ak chceš pre vyhľadávače / zdieľanie niečo iné. Titulok a popis platia len pre slovenčinu (v iných jazykoch sa použije preklad), obrázok pre všetky jazyky."
         fields:
-          - { label: "SEO titulok", name: "title", widget: "string", required: false }
-          - { label: "SEO popis", name: "description", widget: "text", required: false }
-          - { label: "SEO obrázok (zdieľanie na sociálnych sieťach)", name: "image", widget: "image", required: false }
+          - { label: "SEO titulok", name: "title", widget: "string", required: false, hint: "Do cca 60 znakov. Za titulok sa automaticky pridá „ | QR LINK“." }
+          - { label: "SEO popis", name: "description", widget: "text", required: false, hint: "Do cca 155 znakov – zobrazí sa pod titulkom vo výsledkoch Google a pri zdieľaní." }
+          - { label: "SEO obrázok (zdieľanie na sociálnych sieťach)", name: "image", widget: "image", required: false, hint: "Odporúčaný pomer 1200 × 630 px. Ak nevyplníš, použije sa titulná fotka." }
 
       - label: "Preklady obsahu"
         name: "i18n"
