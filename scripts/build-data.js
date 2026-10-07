@@ -93,7 +93,7 @@ const miesta = readFolder(path.join(CONTENT, "miesta"))
   .sort((a, b) => (a.poradie ?? 0) - (b.poradie ?? 0))
   // "poradie"/"hlavnaKategoria"/"korenoveMiesto"/"cesta" sú len pomocné polia
   // (zoradenie + zoskupovanie v Decap CMS), do data.js sa nedávajú
-  .map(({ poradie, hlavnaKategoria, korenoveMiesto, cesta, povodneUrlAliasy, povodnePresmerovania, ...m }) => {
+  .map(({ poradie, hlavnaKategoria, korenoveMiesto, cesta, zoradenie, povodneUrlAliasy, povodnePresmerovania, ...m }) => {
     const url = prettyUrl(m, `/kategoria.html?id=${m.id}`);
     addRedirects({ povodnePresmerovania }, url);
     return {
@@ -114,7 +114,7 @@ const urlListToStrings = (list) => (list || []).map((it) => abs(typeof it === "s
 
 const zastavenia = readFolder(path.join(CONTENT, "zastavenia"))
   .sort((a, b) => a.miesto.localeCompare(b.miesto) || (a.poradie ?? 0) - (b.poradie ?? 0))
-  .map(({ hlavnaKategoria, projekt, miestoNazov, cesta, povodneUrlAliasy, povodnePresmerovania, ...z }) => {
+  .map(({ hlavnaKategoria, projekt, miestoNazov, cesta, zoradenie, povodneUrlAliasy, povodnePresmerovania, ...z }) => {
     // "hlavnaKategoria"/"projekt"/"miestoNazov" sú len pomocné polia na
     // zoskupovanie/popisky v Decap CMS (/admin), do data.js sa nedávajú
     // – app.js ich nepozná/nepotrebuje.
@@ -184,6 +184,28 @@ const DB = ${JSON.stringify(DB, null, 2)};
 
 fs.writeFileSync(path.join(ROOT, "js/data.js"), output, "utf8");
 console.log(`js/data.js vygenerovaný: ${kategorie.length} kategórií, ${miesta.length} miest, ${zastavenia.length} zastavení.`);
+
+// Malá mapa pre /admin (admin/admin-groups.js): celá cesta projektu/podkategórie
+// ("ZŠ a MŠ Bánová › Bludisko") -> jej id, zoradená v poradí ako na webe
+// (projekt, jeho podkategórie, ďalší projekt…). Podľa nej sa v Zastaveniach
+// pri zoskupení dopĺňa do hlavičky skupiny odkaz "Upraviť podkategóriu/projekt"
+// a skupiny sa zoradia ako na webe (Decap ich sám radí podľa načítania).
+const miestaRaw = Object.fromEntries(readFolder(path.join(CONTENT, "miesta")).map((m) => [m.id, m]));
+const struktura = Object.values(miestaRaw)
+  .map((m) => {
+    const nazvy = [], kluc = [];
+    for (let p = m, i = 0; p && i < 30; p = miestaRaw[p.rodic], i++) {
+      nazvy.unshift(p.nazov);
+      kluc.unshift(`${String(p.poradie ?? 999).padStart(3, "0")} ${p.nazov}`);
+    }
+    return { cesta: nazvy.join(" › "), kluc: kluc.join(" › "), id: m.id };
+  })
+  .sort((a, b) => (a.kluc < b.kluc ? -1 : a.kluc > b.kluc ? 1 : 0));
+fs.writeFileSync(
+  path.join(ROOT, "admin/struktura.json"),
+  JSON.stringify(Object.fromEntries(struktura.map((s) => [s.cesta, s.id])), null, 2) + "\n",
+  "utf8"
+);
 
 // ---------------------------------------------------------------------
 // Pekné URL (2/2): mapa pre middleware.js ("stará cesta bez /new/" ->

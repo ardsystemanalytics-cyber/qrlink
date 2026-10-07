@@ -87,6 +87,16 @@ Object.values(miesta).forEach(m => {
     touched = true;
   }
 
+  // "zoradenie" – triediaci kľúč "Poradie ako na webe" v /admin: poradie
+  // každej úrovne od projektu po toto miesto, doplnené nulami (triedi sa ako text)
+  const retaz = [];
+  for (let p = m, i = 0; p && i < 30; p = miesta[p.rodic], i++) retaz.unshift(`${String(p.poradie ?? 999).padStart(3, "0")} ${p.nazov}`);
+  const zoradenie = retaz.join(" › ");
+  if (data.zoradenie !== zoradenie) {
+    data.zoradenie = zoradenie;
+    touched = true;
+  }
+
   if (touched) {
     fs.writeFileSync(file, JSON.stringify(data, null, 2) + "\n", "utf8");
     changed++;

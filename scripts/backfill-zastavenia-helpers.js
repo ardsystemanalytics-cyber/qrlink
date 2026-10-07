@@ -8,9 +8,10 @@
      mieste, bez ohľadu na to, na akej hĺbke podkategórie/trasy sa
      konkrétne zastavenie nachádza.
    - "miestoNazov" – čitateľný názov konkrétneho (najbližšieho) miesta/
-     podkategórie (nie jeho id) – zobrazí sa ako poznámka pod fotkou pri
-     každom zastavení v zozname (keďže skupiny sa nedajú zoradiť podľa
-     webu, aspoň takto je vidno, kam presne zastavenie patrí).
+     podkategórie (nie jeho id).
+   - "cesta" – celá cesta (projekt › … › podkategória): text na karte
+     a skupina "Projekt › podkategória" v /admin.
+   - "zoradenie" – triediaci kľúč "Poradie ako na webe" v /admin.
    Do js/data.js sa tieto polia nedostanú (build skript ich odstráni).
 
    Spusti znova, ak niekedy pribudne nové miesto/zastavenie a tieto
@@ -48,6 +49,14 @@ function root(id, depth = 0) {
   return root(m.rodic, depth + 1);
 }
 
+const pad = n => String(n ?? 999).padStart(3, "0");
+// "003 Betliar › 001 Anglický park … › 002 Architektúra" (od koreňa po dané miesto)
+function zoradenieKluc(m) {
+  const retaz = [];
+  for (let p = m, i = 0; p && i < 30; p = miesta[p.rodic], i++) retaz.unshift(`${pad(p.poradie)} ${p.nazov}`);
+  return retaz.join(" › ");
+}
+
 let changed = 0;
 fs.readdirSync(ZASTAVENIA_DIR).filter(f => f.endsWith(".json")).forEach(f => {
   const file = path.join(ZASTAVENIA_DIR, f);
@@ -82,6 +91,16 @@ fs.readdirSync(ZASTAVENIA_DIR).filter(f => f.endsWith(".json")).forEach(f => {
   const cesta = retaz.join(" › ") || z.miesto;
   if (cesta && z.cesta !== cesta) {
     z.cesta = cesta;
+    touched = true;
+  }
+
+  // "zoradenie" – triediaci kľúč pre /admin ("Poradie ako na webe"): poradie
+  // každej úrovne (projekt › podkategória › …) + poradie zastavenia, vždy
+  // doplnené nulami, nech sa dá triediť obyčajne ako text. Vďaka nemu idú
+  // v CMS projekty, podkategórie aj zastavenia v rovnakom poradí ako na webe.
+  const zoradenie = zoradenieKluc(priameMiesto) + ` #${pad(z.poradie)}`;
+  if (z.zoradenie !== zoradenie) {
+    z.zoradenie = zoradenie;
     touched = true;
   }
 

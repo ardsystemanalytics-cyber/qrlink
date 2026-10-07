@@ -184,11 +184,23 @@ s titulnou fotkou (prepínač zoznam/karty je vpravo hore, voľba sa
 zapamätá). Na každej karte je názov a pod ním, kam záznam patrí
 (napr. „Podkategória: Betliar › Anglický park › Architektúra“, pri hlavnom
 projekte „Hlavný projekt · Mestá“). Tento text je pomocné pole `cesta`
-(spolu s `hlavnaKategoria`, `projekt`, `korenoveMiesto`, `miestoNazov`),
-ktoré po každej zmene obsahu automaticky dopočíta GitHub Action
-`.github/workflows/cms-helpers.yml` (skripty `scripts/backfill-*-helpers.js`)
-– nové miesto/zastavenie ho dostane do 1–2 minút po uložení. Do webu
-(`js/data.js`) sa tieto polia nedostanú.
+(spolu s `hlavnaKategoria`, `projekt`, `korenoveMiesto`, `miestoNazov`
+a triediacim kľúčom `zoradenie`), ktoré po každej zmene obsahu automaticky
+dopočíta GitHub Action `.github/workflows/cms-helpers.yml` (skripty
+`scripts/backfill-*-helpers.js`) – nové miesto/zastavenie ho dostane do
+1–2 minút po uložení. Do webu (`js/data.js`) sa tieto polia nedostanú.
+
+**Triedenie a skupiny:** predvolené triedenie je „Poradie ako na webe“
+(projekty, podkategórie aj zastavenia v rovnakom poradí ako na webe;
+„Názov (abecedne)“ je druhá možnosť). Zastavenia sa dajú cez „Group by“
+zoskupiť podľa Hlavnej kategórie, Projektu (všetky zastavenia projektu
+spolu) alebo **Projekt › podkategória** – každá podkategória (aj 2./3.
+úrovne, napr. „ZŠ a MŠ Bánová › Bludisko“) je samostatná skupina len s jej
+zastaveniami a v hlavičke má počet zastavení a tlačidlo „Upraviť
+podkategóriu“ (otvorí ju v Projektoch). Decap sám vie len jednu úroveň
+skupín bez odkazov – hlavičky dopĺňa a skupiny ako na webe radí
+`admin/admin-groups.js` podľa `admin/struktura.json` (generuje
+`scripts/build-data.js`).
 
 **Lokálne testovanie CMS (bez GitHub prihlásenia):** spusti
 `npx decap-server` (port 8081) a lokálny web (`node scripts/_dev-server.js`),

@@ -104,11 +104,15 @@ collections:
     # Karta v zozname: názov, pod ním kam projekt/podkategória patrí ("cesta" – dopočítava
     # scripts/backfill-miesta-helpers.js) a titulná fotka.
     summary: "{{nazov}}\n{{cesta}}"
+    # "Poradie ako na webe" = pomocné pole "zoradenie" (projekt › podkategória
+    # podľa ich poradia na webe, dopočítava scripts/backfill-miesta-helpers.js).
     sortable_fields:
-      - { field: "nazov", label: "Názov", default_sort: true }
-      - { field: "poradie", label: "Poradie na webe" }
+      - { field: "zoradenie", label: "Poradie ako na webe", default_sort: true }
+      - { field: "nazov", label: "Názov (abecedne)" }
     fields:
       - { label: "Názov (slovensky)", name: "nazov", widget: "string" }
+      # skryté pomocné pole – musí byť deklarované, inak sa podľa neho nedá triediť
+      - { label: "Zoradenie", name: "zoradenie", widget: "hidden", required: false }
       - { label: "Titulná fotka", name: "cover", widget: "image", required: false, hint: "Fotka na karte projektu, v hlavičke jeho stránky aj tu v zozname. Ak ostane prázdna, použije sa fotka nadradeného projektu. Nahraná fotka sa automaticky zmenší na max. 400 KB." }
       - { label: "Titulná fotka je erb / logo (zobraziť celú, neorezať)", name: "fotoErb", widget: "boolean", required: false, default: false }
       - { label: "Popis (slovensky)", name: "popis", widget: "text", required: false }
@@ -252,34 +256,38 @@ collections:
     # Pozri poznámku pri "preview_path" v kolekcii "miesta" vyššie - rovnaký dôvod.
     preview_path: "zastavenie.html?id={{id}}"
     identifier_field: nazov
-    # Predvolené zoradenie v zozname (aj v rámci skupín nižšie) –
-    # rovnaké poradie, v akom sa zastavenia zobrazujú na webe.
+    # Predvolené zoradenie = "Poradie ako na webe": pomocné pole "zoradenie"
+    # (poradie projektu › podkategórie › zastavenia, dopočítava
+    # scripts/backfill-zastavenia-helpers.js). Decap radí aj SKUPINY podľa
+    # toho, v akom poradí idú záznamy – takže pri tomto triedení idú projekty
+    # aj podkategórie v skupinách presne tak ako na webe.
     sortable_fields:
-      - { field: "nazov", label: "Názov", default_sort: true }
-      - { field: "poradie", label: "Poradie v rámci projektu" }
+      - { field: "zoradenie", label: "Poradie ako na webe", default_sort: true }
+      - { field: "nazov", label: "Názov (abecedne)" }
     # Karta v zozname: názov, pod ním celá cesta, kam zastavenie patrí
     # ("cesta" – dopočítava scripts/backfill-zastavenia-helpers.js) a titulná fotka.
     summary: "{{nazov}}\nPodkategória: {{cesta}}"
-    # V /admin sa pri Zastaveniach objaví rozbaľovacie "Group by" –
-    # zvolíš si, či chceš zoznam rozdelený podľa hlavnej kategórie,
-    # alebo podľa celého projektu (všetky jeho podkategórie/trasy
-    # spolu, nech je akokoľvek hlboko vnorené). "Group by: Miesto" sme
-    # zámerne vynechali – pri drvivej väčšine projektov by len
-    # zdvojovalo "Projekt" (jedno miesto = jeden projekt).
-    #
-    # POZOR – obmedzenie Decap CMS: skupiny (aj poradie zastavení v rámci
-    # skupiny "Projekt") sa NEDAJÚ zoradiť tak, aby presne kopírovali
-    # poradie podkategórií na webe – to Decap CMS neponúka (potvrdené,
-    # nie je to prehliadnutá možnosť). V rámci JEDNEJ skupiny si ale
-    # vieš zapnúť triedenie "Sort by: Poradie" hore v zozname, nech
-    # aspoň zastavenia idú v správnom poradí.
+    # "Group by" v /admin:
+    # - Hlavná kategória
+    # - Projekt – všetky zastavenia projektu spolu (nech je podkategória
+    #   akokoľvek hlboko vnorená)
+    # - Projekt › podkategória – každá podkategória (aj 2./3. úroveň) je
+    #   samostatná skupina len s jej zastaveniami. Decap vie len jednu úroveň
+    #   skupín, preto je v hlavičke celá cesta ("ZŠ a MŠ Bánová › Bludisko").
+    # admin/admin-groups.js hlavičky skupín "Projekt" a "Projekt › podkategória"
+    # sprehľadní a doplní do nich odkaz "Upraviť projekt/podkategóriu"
+    # (otvorí ju v kolekcii Projekty) + počet zastavení.
     view_groups:
       - label: "Hlavná kategória"
         field: hlavnaKategoria
       - label: "Projekt"
         field: projekt
+      - label: "Projekt › podkategória"
+        field: cesta
     fields:
       - { label: "Názov (slovensky)", name: "nazov", widget: "string" }
+      # skryté pomocné pole – musí byť deklarované, inak sa podľa neho nedá triediť
+      - { label: "Zoradenie", name: "zoradenie", widget: "hidden", required: false }
       - { label: "Titulná fotka", name: "cover", widget: "image", required: false, hint: "Hlavná fotka zastavenia – zobrazí sa hore na jeho stránke, ako prvá vo fotogalérii aj tu v zozname. Nahraná fotka sa automaticky zmenší na max. 400 KB." }
       - label: "Patrí do projektu / podkategórie"
         name: "miesto"

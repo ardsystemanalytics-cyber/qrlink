@@ -20,10 +20,20 @@
       if (!localStorage.getItem("decap-cms.entries.viewStyle")) {
         localStorage.setItem("decap-cms.entries.viewStyle", "VIEW_STYLE_GRID");
       }
+      // Jednorazovo zabudnúť zapamätané triedenie (predtým "Názov"), nech sa
+      // každému raz uplatní nové predvolené "Poradie ako na webe". Ďalšie
+      // ručné prepnutie triedenia sa už zapamätá a rešpektuje.
+      if (!localStorage.getItem("qrlink-admin-sort-v2")) {
+        localStorage.removeItem("decap-cms.entries.sort");
+        localStorage.setItem("qrlink-admin-sort-v2", "1");
+      }
     } catch (e) {}
   </script>
   <!-- Decap CMS (Git-based redakčný systém) – prihlásenie cez GitHub,
        zmeny sa ukladajú ako commity priamo do repozitára. -->
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <!-- Prehľadnejšie hlavičky skupín v Zastaveniach (Group by Projekt /
+       Projekt › podkategória) + odkaz na úpravu podkategórie. -->
+  <script src="/admin/admin-groups.js"></script>
 </body>
 </html>
