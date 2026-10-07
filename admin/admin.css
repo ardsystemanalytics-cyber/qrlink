@@ -66,9 +66,36 @@ html, body, #nc-root {
 /* Horný panel a bočný panel ------------------------------------------ */
 [class*="TopBarContainer"],
 [class*="ToolbarContainer"],
-[class*="AppHeader"] {
+[class*="AppHeader"]:not([class*="AppHeaderQuickNewButton"]) {
   background: var(--qr-card) !important;
   border-bottom: 1px solid var(--qr-line) !important;
+}
+
+/* Tlačidlo "Quick add" vpravo hore (rýchle pridanie Kategórie / Projektu /
+   Zastavenia). Jeho trieda obsahuje "AppHeader", preto ho predtým pravidlo
+   vyššie zafarbilo na bielo – biely text na bielom, nečitateľné. Teraz je
+   zelené ako ostatné "+" tlačidlá a s textom po slovensky (pôvodný anglický
+   text sa skryje, font-size 0; šípku dole kreslí Decap cez ::after). */
+#nc-root [class*="AppHeaderQuickNewButton"] {
+  background: var(--qr-pine) !important;
+  color: #fff !important;
+  border-radius: 999px !important;
+  height: 34px !important;
+  line-height: 34px !important;
+  padding: 0 30px 0 16px !important;
+  font-size: 0 !important;
+}
+#nc-root [class*="AppHeaderQuickNewButton"]::before {
+  content: "+ Nový záznam";
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+}
+#nc-root [class*="AppHeaderQuickNewButton"]::after { top: 15px !important; right: 12px !important; }
+#nc-root [class*="AppHeaderQuickNewButton"]:hover,
+#nc-root [class*="AppHeaderQuickNewButton"]:focus {
+  background: var(--qr-pine-deep) !important;
+  color: #fff !important;
 }
 
 [class*="Sidebar"] {
