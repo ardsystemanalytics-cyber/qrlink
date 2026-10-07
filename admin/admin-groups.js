@@ -2,8 +2,8 @@
    Sprehľadnenie skupín v /admin → Zastavenia → "Group by".
    Decap CMS vie zoskupovať len do jednej úrovne a hlavička skupiny je
    obyčajný text "<popis skupiny> <hodnota>" (napr. "Projekt › podkategória
-   ZŠ a MŠ Bánová › Bludisko"). Tento skript ju pri skupinách "Projekt"
-   a "Projekt › podkategória" prepíše na čitateľnú hlavičku:
+   ZŠ a MŠ Bánová › Bludisko"). Tento skript ju pri skupine
+   "Projekt › podkategória" prepíše na čitateľnú hlavičku:
      ZŠ a MŠ Bánová › Bludisko      6 zastavení   ✎ Upraviť podkategóriu
    Odkaz otvorí danú podkategóriu/projekt v kolekcii Projekty.
 
@@ -16,7 +16,6 @@
 (function () {
   const SKUPINY = {
     "Projekt › podkategória": "podkategoria",
-    "Projekt": "projekt",
   };
   let mapa = null;
 
@@ -38,7 +37,6 @@
 
   function vylepsi(h) {
     const raw = povodnyText(h);
-    // najdlhší popis ako prvý ("Projekt › podkategória" pred "Projekt")
     const label = Object.keys(SKUPINY).find(l => raw.startsWith(l + " "));
     if (!label) {
       if (h.classList.contains("qr-group")) {

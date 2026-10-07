@@ -193,8 +193,7 @@ dopočíta GitHub Action `.github/workflows/cms-helpers.yml` (skripty
 **Triedenie a skupiny:** predvolené triedenie je „Poradie ako na webe“
 (projekty, podkategórie aj zastavenia v rovnakom poradí ako na webe;
 „Názov (abecedne)“ je druhá možnosť). Zastavenia sa dajú cez „Group by“
-zoskupiť podľa Hlavnej kategórie, Projektu (všetky zastavenia projektu
-spolu) alebo **Projekt › podkategória** – každá podkategória (aj 2./3.
+zoskupiť podľa Hlavnej kategórie alebo **Projekt › podkategória** – každá podkategória (aj 2./3.
 úrovne, napr. „ZŠ a MŠ Bánová › Bludisko“) je samostatná skupina len s jej
 zastaveniami a v hlavičke má počet zastavení a tlačidlo „Upraviť
 podkategóriu“ (otvorí ju v Projektoch). Decap sám vie len jednu úroveň

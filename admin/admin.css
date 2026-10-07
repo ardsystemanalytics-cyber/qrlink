@@ -114,7 +114,7 @@ html, body, #nc-root {
 }
 #nc-root [class*="GridCardLink"]:hover [class*="CardHeading"] { color: var(--qr-pine) !important; }
 
-/* Hlavičky skupín v Zastaveniach (Group by "Projekt" / "Projekt › podkategória")
+/* Hlavičky skupín v Zastaveniach (Group by "Projekt › podkategória")
    – doplňuje ich admin/admin-groups.js. Pôvodný text Decapu sa skryje
    (font-size 0), zobrazí sa náš: cesta, počet zastavení, odkaz na úpravu. */
 /* skupiny zoradené ako na webe (CSS order nastavuje admin-groups.js) */

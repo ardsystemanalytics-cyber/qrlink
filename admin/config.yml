@@ -269,19 +269,17 @@ collections:
     summary: "{{nazov}}\nPodkategória: {{cesta}}"
     # "Group by" v /admin:
     # - Hlavná kategória
-    # - Projekt – všetky zastavenia projektu spolu (nech je podkategória
-    #   akokoľvek hlboko vnorená)
     # - Projekt › podkategória – každá podkategória (aj 2./3. úroveň) je
     #   samostatná skupina len s jej zastaveniami. Decap vie len jednu úroveň
     #   skupín, preto je v hlavičke celá cesta ("ZŠ a MŠ Bánová › Bludisko").
-    # admin/admin-groups.js hlavičky skupín "Projekt" a "Projekt › podkategória"
+    #   (Samostatné "Projekt" – všetky zastavenia projektu v jednej skupine –
+    #   sme na želanie odstránili, toto ho nahrádza.)
+    # admin/admin-groups.js hlavičky skupín "Projekt › podkategória"
     # sprehľadní a doplní do nich odkaz "Upraviť projekt/podkategóriu"
     # (otvorí ju v kolekcii Projekty) + počet zastavení.
     view_groups:
       - label: "Hlavná kategória"
         field: hlavnaKategoria
-      - label: "Projekt"
-        field: projekt
       - label: "Projekt › podkategória"
         field: cesta
     fields:
