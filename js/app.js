@@ -900,7 +900,8 @@ async function renderCounter(id) {
   let counted = false;
   try { counted = localStorage.getItem(dayKey) === today; } catch (e) { /* súkromný režim */ }
   try {
-    const res = await fetch("/api/visit?id=" + encodeURIComponent(id), { method: counted ? "GET" : "POST" });
+    // s koncovým lomítkom ("trailingSlash" vo vercel.json), inak by išlo o zbytočné presmerovanie
+    const res = await fetch("/api/visit/?id=" + encodeURIComponent(id), { method: counted ? "GET" : "POST" });
     const data = res.ok ? await res.json() : null;
     if (!data || typeof data.count !== "number") throw new Error("počítadlo nedostupné");
     if (!counted) { try { localStorage.setItem(dayKey, today); } catch (e) { /* nevadí */ } }
