@@ -477,11 +477,13 @@ function tStops(n) {
 
 function tVisits(n) {
   const lang = getLang();
-  if (lang === "en") return n === 1 ? "1 visit" : `${n} visits`;
-  if (lang === "hu") return `${n} megtekintés`;
-  if (lang === "de") return n === 1 ? "1 Besuch" : `${n} Besuche`;
-  if (lang === "cs") return n === 1 ? "1 návštěva" : `${n} návštěv`;
-  return n === 1 ? "1 návšteva" : `${n} návštev`;
+  // číslo s oddeľovačom tisícov podľa jazyka (1 234)
+  const num = n.toLocaleString({ sk: "sk-SK", en: "en-US", cs: "cs-CZ", hu: "hu-HU", de: "de-DE" }[lang] || "sk-SK");
+  if (lang === "en") return n === 1 ? "1 visit" : `${num} visits`;
+  if (lang === "hu") return `${num} megtekintés`;
+  if (lang === "de") return n === 1 ? "1 Besuch" : `${num} Besuche`;
+  if (lang === "cs") return n === 1 ? "1 návštěva" : `${num} ${n >= 2 && n <= 4 ? "návštěvy" : "návštěv"}`;
+  return n === 1 ? "1 návšteva" : `${num} ${n >= 2 && n <= 4 ? "návštevy" : "návštev"}`;
 }
 
 /* naplní statický HTML text pomocou atribútu data-i18n (+ voliteľne data-i18n-attr) */

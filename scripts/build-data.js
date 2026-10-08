@@ -299,6 +299,10 @@ const sitemapXml =
   `\n</urlset>\n`;
 fs.writeFileSync(path.join(ROOT, "sitemap.xml"), sitemapXml, "utf8");
 
+// Platné id zastavení pre api/visit.js (počítadlo návštev) - súbor s "_" na
+// začiatku Vercel nepovažuje za samostatný endpoint.
+fs.writeFileSync(path.join(ROOT, "api", "_zastavenia-ids.json"), JSON.stringify(zastavenia.map((z) => z.id)) + "\n", "utf8");
+
 // SEO (titulok, popis, obrázok) pre každú stránku a jazyk -> lib/seo-map.mjs.
 // Pravidlá sú v js/seo.js (rovnaké ako v prehliadači); middleware.js podľa
 // tejto mapy vloží meta tagy priamo do HTML. "lib/seo-lib.mjs" je len kópia

@@ -887,14 +887,30 @@ function renderGallery(imgs, activeIndex, showHeroPhoto) {
   QA("#gStrip img").forEach((img, i) => img.addEventListener("click", () => goTo(i)));
 }
 
-/* počítadlo návštev – zatiaľ lokálne; miesto pre napojenie na API */
-function renderCounter(id) {
-  const key = "qrlink-visits-" + id;
-  const n = Number(localStorage.getItem(key) || 0) + 1;
-  localStorage.setItem(key, n);
+/* počítadlo návštev – zdieľané medzi všetkými návštevníkmi (api/visit.js,
+   databáza Upstash Redis vo Verceli). Návšteva sa započíta najviac raz za deň
+   z jedného zariadenia (obnovenie stránky číslo nezvyšuje); inak sa len
+   načíta aktuálny počet. Ak server/databáza nie sú dostupné (napr. lokálny
+   test), použije sa pôvodné lokálne počítadlo v prehliadači. */
+async function renderCounter(id) {
   const el = Q("#visitCount");
-  if (el) el.textContent = tVisits(n);
-  /* Neskôr: nahradiť volaním serverového počítadla, viď README. */
+  if (!el) return;
+  const today = new Date().toISOString().slice(0, 10);
+  const dayKey = "qrlink-visit-day-" + id;
+  let counted = false;
+  try { counted = localStorage.getItem(dayKey) === today; } catch (e) { /* súkromný režim */ }
+  try {
+    const res = await fetch("/api/visit?id=" + encodeURIComponent(id), { method: counted ? "GET" : "POST" });
+    const data = res.ok ? await res.json() : null;
+    if (!data || typeof data.count !== "number") throw new Error("počítadlo nedostupné");
+    if (!counted) { try { localStorage.setItem(dayKey, today); } catch (e) { /* nevadí */ } }
+    el.textContent = tVisits(data.count);
+  } catch (e) {
+    const key = "qrlink-visits-" + id;
+    let n = 1;
+    try { n = Number(localStorage.getItem(key) || 0) + 1; localStorage.setItem(key, n); } catch (e2) { /* nevadí */ }
+    el.textContent = tVisits(n);
+  }
 }
 
 /* -------------------------------------------------- kontakt ------- */

@@ -274,10 +274,23 @@ Stránka zo CMS bez peknej adresy (`/zastavenie.html?id=…`) dostane SEO tiež.
 
 ## Počítadlo návštev
 
-Zatiaľ počíta návštevy len v prehliadači návštevníka (localStorage).
-Skutočné zdieľané počítadlo vyžaduje malý backend – na Verceli sa dá
-doplniť serverless funkciou. Miesto na napojenie je v `js/app.js`
-vo funkcii `renderCounter`.
+Zdieľané medzi všetkými návštevníkmi: počty návštev každého zastavenia sú
+v databáze **Upstash Redis** pripojenej k projektu vo Verceli (Storage →
+„qrlink-visits“, bezplatný plán, región Frankfurt). Serverová funkcia
+`api/visit.js` (POST zvýši a vráti počet, GET počet len vráti) používa
+priamo REST adresu databázy – premenné prostredia (`KV_REST_API_URL` a
+`KV_REST_API_TOKEN`, resp. s inou predponou) vytvorí Vercel sám pri
+pripojení databázy, funkcia ich nájde podľa koncovky.
+
+- ukladá sa len číslo pre zastavenie (žiadna IP ani osobné údaje),
+- návšteva sa z jedného zariadenia počíta najviac raz za deň (obnovenie
+  stránky číslo nezvyšuje), roboty (Google, náhľady odkazov) sa nepočítajú,
+- platné id zastavení generuje build (`api/_zastavenia-ids.json`), do
+  databázy sa tak nedajú zapísať ľubovoľné kľúče,
+- ak databáza/server nie sú dostupné (napr. lokálny test bez `/api`),
+  `renderCounter` v `js/app.js` použije pôvodné počítadlo v prehliadači,
+- počty vidno v Upstash konzole (Vercel → Storage → qrlink-visits → Open in
+  Upstash → Data Browser → hash `qrlink:visits`).
 
 ## Čo je hotové a čo čaká
 
