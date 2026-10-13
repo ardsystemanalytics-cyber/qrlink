@@ -17,6 +17,9 @@ const I18N_NAMES = { sk: "Slovenčina", en: "English", cs: "Čeština", hu: "Mag
 const I18N = {
   sk: {
     nav_map: "Mapa", nav_places: "Miesta", nav_contact: "Kontakt",
+    err404_title: "Stránka sa nenašla",
+    err404_text: "Táto adresa neexistuje alebo sa stránka presunula. Skúste sa vrátiť na domovskú stránku alebo vyberte miesto na mape.",
+    err404_home: "Domovská stránka", err404_map: "Objaviť miesta", err404_suggest: "Možno ste hľadali:",
     menu_toggle_aria: "Otvoriť menu", logo_home_aria: "ARDSYSTÉM – domov",
 
     home_hero_line1: "Sprievodca,", home_hero_line2: "ktorý čaká priamo na mieste",
@@ -86,6 +89,9 @@ const I18N = {
 
   en: {
     nav_map: "Map", nav_places: "Places", nav_contact: "Contact",
+    err404_title: "Page not found",
+    err404_text: "This address does not exist or the page has moved. Try going back to the home page or pick a place on the map.",
+    err404_home: "Home page", err404_map: "Discover places", err404_suggest: "Perhaps you were looking for:",
     menu_toggle_aria: "Open menu", logo_home_aria: "ARDSYSTÉM – home",
 
     home_hero_line1: "A guide", home_hero_line2: "waiting right where you stand",
@@ -155,6 +161,9 @@ const I18N = {
 
   cs: {
     nav_map: "Mapa", nav_places: "Místa", nav_contact: "Kontakt",
+    err404_title: "Stránka nenalezena",
+    err404_text: "Tato adresa neexistuje nebo se stránka přesunula. Zkuste se vrátit na domovskou stránku nebo vyberte místo na mapě.",
+    err404_home: "Domovská stránka", err404_map: "Objevit místa", err404_suggest: "Možná jste hledali:",
     menu_toggle_aria: "Otevřít menu", logo_home_aria: "ARDSYSTÉM – domů",
 
     home_hero_line1: "Průvodce,", home_hero_line2: "který na vás čeká přímo na místě",
@@ -224,6 +233,9 @@ const I18N = {
 
   hu: {
     nav_map: "Térkép", nav_places: "Helyszínek", nav_contact: "Kapcsolat",
+    err404_title: "Az oldal nem található",
+    err404_text: "Ez a cím nem létezik, vagy az oldal át lett helyezve. Térjen vissza a kezdőlapra, vagy válasszon egy helyszínt a térképen.",
+    err404_home: "Kezdőlap", err404_map: "Helyszínek felfedezése", err404_suggest: "Talán ezt keresi:",
     menu_toggle_aria: "Menü megnyitása", logo_home_aria: "ARDSYSTÉM – kezdőlap",
 
     home_hero_line1: "Egy útikalauz,", home_hero_line2: "amely magán a helyszínen vár rád",
@@ -293,6 +305,9 @@ const I18N = {
 
   de: {
     nav_map: "Karte", nav_places: "Orte", nav_contact: "Kontakt",
+    err404_title: "Seite nicht gefunden",
+    err404_text: "Diese Adresse existiert nicht oder die Seite wurde verschoben. Kehren Sie zur Startseite zurück oder wählen Sie einen Ort auf der Karte.",
+    err404_home: "Startseite", err404_map: "Orte entdecken", err404_suggest: "Vielleicht suchten Sie:",
     menu_toggle_aria: "Menü öffnen", logo_home_aria: "ARDSYSTÉM – Startseite",
 
     home_hero_line1: "Ein Reiseführer,", home_hero_line2: "der direkt vor Ort auf Sie wartet",

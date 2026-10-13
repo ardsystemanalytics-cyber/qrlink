@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stránka sa nenašla – QR LINK</title>
+  <!-- Chybová stránka sa nemá indexovať; middleware.js ju vracia so stavom 404
+       pre každú neexistujúcu adresu (v rovnakom jazyku ako adresa). -->
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="/" aria-label="ARDSYSTÉM – domov"><img src="/img/logo-ardsystem.png" alt="ARDSYSTÉM, s. r. o."></a>
+    <button class="nav-toggle" data-i18n="menu_toggle_aria" data-i18n-attr="aria-label">MENU</button>
+    <nav class="nav">
+      <a href="/#mapa" data-i18n="nav_map">Mapa</a>
+      <a href="/#miesta" data-i18n="nav_places">Miesta</a>
+      <a href="/kontakt/" data-i18n="nav_contact">Kontakt</a>
+      <div class="lang-switch"></div>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="err-page">
+    <div class="err-code" aria-hidden="true">
+      <span>4</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="6" y="6" width="20" height="20" rx="3"/><rect x="38" y="6" width="20" height="20" rx="3"/>
+        <rect x="6" y="38" width="20" height="20" rx="3"/>
+        <rect x="13" y="13" width="6" height="6"/><rect x="45" y="13" width="6" height="6"/><rect x="13" y="45" width="6" height="6"/>
+        <path d="M38 38h6v6M58 38v6M38 58h6M52 52l6 6M58 52v0"/>
+      </svg>
+      <span>4</span>
+    </div>
+    <h1 data-i18n="err404_title">Stránka sa nenašla</h1>
+    <p class="err-text" data-i18n="err404_text">Táto adresa neexistuje alebo sa stránka presunula. Skúste sa vrátiť na domovskú stránku alebo vyberte miesto na mape.</p>
+
+    <div class="err-actions">
+      <a class="btn" href="/" data-i18n="err404_home">Domovská stránka</a>
+      <a class="btn ghost" href="/#mapa" data-i18n="err404_map">Objaviť miesta</a>
+    </div>
+
+    <div class="err-suggest" id="errSuggest" hidden></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-bottom wrap">
+    <a class="footer-logo" href="https://www.ardsystem.sk" target="_blank" rel="noopener" aria-label="ARDSYSTÉM, s. r. o.">
+      <img src="/img/logo-ardsystem.png" alt="ARDSYSTÉM, s. r. o." style="height:42px;width:auto">
+    </a>
+    <span data-i18n="footer_copyright">© ARDSYSTÉM, s.r.o. – všetky práva vyhradené</span>
+    <span data-i18n="footer_tagline">QR LINK – digitálny sprievodca</span>
+  </div>
+</footer>
+
+<script src="/js/data.js"></script>
+<script src="/js/seo.js"></script>
+<script src="/js/i18n.js"></script>
+<script src="/js/app.js"></script>
+</body>
+</html>

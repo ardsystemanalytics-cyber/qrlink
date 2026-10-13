@@ -1,4 +1,9 @@
+# QR LINK – pravidlá pre vyhľadávače
 User-agent: *
+# administrácia (CMS) a serverové funkcie (počítadlo návštev, prehľady) sa neindexujú
 Disallow: /admin/
+Disallow: /api/
+# chybová stránka
+Disallow: /404.html
 
 Sitemap: https://qrlink.sk/sitemap.xml

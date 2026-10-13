@@ -1015,6 +1015,36 @@ function initContactForm(formId, statusId) {
   });
 }
 
+/* ---------------------------------------- stránka 404 (nenájdené) --- */
+/* middleware.js vracia 404.html so stavom 404 pre každú neexistujúcu adresu.
+   Z chybnej adresy sa tu vytiahnu slová a ponúknu sa podobné zastavenia/projekty
+   (napr. staršia alebo mierne iná adresa z vytlačeného QR kódu). */
+function renderNotFound() {
+  const host = Q("#errSuggest");
+  if (!host) return;
+  document.title = t("err404_title") + " | QR LINK";
+  const norm = (str) => String(str || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  let path = location.pathname;
+  try { path = decodeURIComponent(path); } catch (e) { /* nechať ako je */ }
+  const skip = new Set([...OLD_LANGS, "new", "category", "castles", "html", "index"]);
+  const tokens = [...new Set(norm(path).split(/[^a-z0-9]+/).filter(w => w.length >= 4 && !skip.has(w)))];
+  if (!tokens.length || typeof DB === "undefined") return;
+  const items = [
+    ...DB.zastavenia.map(r => ({ r, miesto: miestoById(r.miesto) })),
+    ...DB.miesta.map(r => ({ r, miesto: r.rodic ? miestoById(r.rodic) : null })),
+  ].filter(x => x.r.url);
+  const hits = items.map(x => {
+    const hay = norm((x.r.url || "") + " " + (x.r.nazov || ""));
+    return { ...x, score: tokens.filter(w => hay.includes(w)).length };
+  }).filter(x => x.score > 0)
+    .sort((a, b) => b.score - a.score || (a.r.nazov || "").length - (b.r.nazov || "").length)
+    .slice(0, 5);
+  if (!hits.length) return;
+  const link = (x) => `<a href="${langHref(x.r.url)}">${tc(x.r, "nazov")}${x.miesto ? `<small>${tc(x.miesto, "nazov")}</small>` : ""}</a>`;
+  host.innerHTML = `<h2>${t("err404_suggest")}</h2><ul>${hits.map(x => `<li>${link(x)}</li>`).join("")}</ul>`;
+  host.hidden = false;
+}
+
 /* ------------------------------------------------------- štart ---- */
 /* SEO domovskej stránky a kontaktu (stránky záznamov si ho nastavia samy) */
 function initStaticPageSeo() {
@@ -1023,6 +1053,7 @@ function initStaticPageSeo() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  renderNotFound();
   initStaticPageSeo();
   initNav();
   renderMap();

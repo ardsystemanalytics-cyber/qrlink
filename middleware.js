@@ -9,8 +9,8 @@
       "/zastavenie.html?id=hlavne-nadvorie&lang=en".
 
    2) "/new/..." (starý WordPress web) -> 301 na tú istú adresu bez "/new".
-      Ak by taká adresa na novom webe neexistovala, ide 301 ROVNO na hlavnú
-      stránku (jedno presmerovanie, žiadna reťaz /new/x -> /x -> /).
+      Ak by taká adresa na novom webe neexistovala, vráti sa rovno stránka
+      404 (žiadna reťaz /new/x -> /x -> 404, ani presmerovanie na domov).
       Ruské/poľské adresy (/new/ru/..., /ru/..., /pl/...) idú na slovenskú
       verziu bez prefixu - nový web ruštinu ani poľštinu nemá.
 
@@ -18,9 +18,10 @@
       (pole "povodnePresmerovania" v content/), -> 301 rovno na kanonickú
       adresu cieľa (aj z "/new/..." je to jediný skok).
 
-   3) Čokoľvek ostatné, čo na novom webe neexistuje (napr. adresy ešte
-      staršej verzie webu bez "/new") -> 301 na hlavnú stránku (pri
-      jazykovom prefixe en/cs/hu/de na hlavnú stránku v tom jazyku).
+   3) Čokoľvek ostatné, čo na novom webe neexistuje -> pekná chybová stránka
+      404.html so stavom HTTP 404 (v jazyku adresy: /en/..., /cs/..., /hu/...,
+      /de/...; noindex). Ponúkne podobné zastavenia podľa slov v adrese.
+      Adresa v prehliadači ostáva pôvodná, nič sa nepresmerúva.
 
    Mapa pekných URL aj zoznam existujúcich súborov sa generujú automaticky
    v scripts/build-data.js (z poľa "povodnaUrl" a zo súborov projektu),
@@ -83,10 +84,30 @@ function resolve(pathname) {
   return STATIC.has(rel) ? { file: true } : null;
 }
 
-// Hlavná stránka, na ktorú ide neexistujúca adresa (so zachovaním jazyka).
-function homeFor(pathname) {
+// Neexistujúca adresa: namiesto presmerovania na hlavnú stránku sa vráti
+// pekná chybová stránka 404.html (v jazyku adresy, so stavom 404 a bez
+// indexovania). Adresa v prehliadači ostáva pôvodná.
+const NOT_FOUND_FALLBACK = `<!DOCTYPE html><html lang="sk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>404 – QR LINK</title></head><body style="font-family:system-ui,sans-serif;text-align:center;padding:80px 20px"><h1>404</h1><p>Stránka sa nenašla. / Page not found.</p><p><a href="/">QR LINK</a></p></body></html>`;
+
+async function notFound(pathname, request) {
   const first = pathname.split("/").filter(Boolean)[0];
-  return SITE_LANGS.includes(first) ? `/${first}/` : "/";
+  const lang = SITE_LANGS.includes(first) ? first : "sk";
+  let html = null;
+  try {
+    const res = await fetch(new URL("/404.html", request.url), { headers: { "x-seo-internal": "1" } });
+    const text = await res.text();
+    if (text.includes('class="err-page"')) html = text.replace(/<html lang="[^"]*"/, () => `<html lang="${lang}"`);
+  } catch {
+    /* použije sa záložná stránka nižšie */
+  }
+  return new Response(html || NOT_FOUND_FALLBACK, {
+    status: 404,
+    headers: {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "x-robots-tag": "noindex",
+    },
+  });
 }
 
 // Jazykový prefix, ktorý nový web nemá ako samostatnú verziu: ru/pl (starý
@@ -96,10 +117,11 @@ function homeFor(pathname) {
 const NON_SITE_PREFIX = /^\/(?:sk|ru|pl)(?=\/|$)/;
 const withoutNonSiteLang = (pathname) => pathname.replace(NON_SITE_PREFIX, "") || "/";
 
-// Jedno presmerovanie 301 na cieľ, ak existuje, inak rovno na hlavnú stránku.
-function redirectTo(target, url) {
-  const dest = resolve(target) ? new URL(target + url.search, url) : new URL(homeFor(target), url);
-  return Response.redirect(dest, 301);
+// Jedno presmerovanie 301 na cieľ, ak existuje; ak taká stránka neexistuje,
+// rovno chybová stránka 404 (žiadne presmerovanie na hlavnú stránku).
+function redirectTo(target, url, request) {
+  if (!resolve(target)) return notFound(target, request);
+  return Response.redirect(new URL(target + url.search, url), 301);
 }
 
 // Stará adresa, ktorú už starý web presmeroval (301) na iný obsah
@@ -171,14 +193,14 @@ export default async function middleware(request) {
   }
 
   if (pathname === "/new" || pathname.startsWith("/new/")) {
-    return redirectTo(applyOldRedirect(withoutNonSiteLang(pathname.slice(4) || "/")), url);
+    return redirectTo(applyOldRedirect(withoutNonSiteLang(pathname.slice(4) || "/")), url, request);
   }
-  if (NON_SITE_PREFIX.test(pathname)) return redirectTo(applyOldRedirect(withoutNonSiteLang(pathname)), url);
+  if (NON_SITE_PREFIX.test(pathname)) return redirectTo(applyOldRedirect(withoutNonSiteLang(pathname)), url, request);
   const redirected = applyOldRedirect(pathname);
-  if (redirected !== pathname) return redirectTo(redirected, url);
+  if (redirected !== pathname) return redirectTo(redirected, url, request);
 
   const found = resolve(pathname);
-  if (!found) return Response.redirect(new URL(homeFor(pathname), url), 301);
+  if (!found) return notFound(pathname, request);
   // Priama interná adresa (napr. /zastavenie.html?id=nove-zastavenie - tak sa
   // zobrazí záznam z CMS, ktorý nemá starú peknú adresu) - tiež dostane SEO.
   if (found.file) return (await withSeo(url, request)) || next();

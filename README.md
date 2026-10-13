@@ -237,8 +237,15 @@ Nový web má adresy zhodné so starým WordPress webom, len bez `/new`
   `/kaplnka-panny-marie-ustavicnej-pomoci-u-okuliarov/`,
 - ruské/poľské adresy (`/ru/...`, `/pl/...`, aj `/new/ru/...`) → 301 na
   slovenskú verziu bez prefixu (nový web ruštinu ani poľštinu nemá),
-- akákoľvek iná neexistujúca adresa → 301 na hlavnú stránku (pri prefixe
-  `/en/`, `/cs/`, `/hu/`, `/de/` na hlavnú stránku v danom jazyku),
+- akákoľvek iná neexistujúca adresa → **vlastná stránka 404** (`404.html`,
+  stavový kód HTTP 404, `noindex`; v jazyku adresy podľa prefixu `/en/`,
+  `/cs/`, `/hu/`, `/de/`). Nepresmerúva na hlavnú stránku – ponúkne tlačidlá
+  späť na domov/mapu a „Možno ste hľadali:“ podobné zastavenia podľa slov v
+  adrese (pomôže pri preklepoch v adrese z vytlačeného QR kódu). `/new/...`
+  adresa, ktorá na novom webe neexistuje, dostane 404 rovno (bez reťaze
+  presmerovaní),
+- `robots.txt` blokuje `/admin/`, `/api/` a `/404.html` a odkazuje na
+  `sitemap.xml`,
 - `/admin`, `/api`, `/assets`, `/css`, `/js`, `/img` middleware vôbec
   nerieši.
 
