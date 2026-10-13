@@ -89,6 +89,15 @@ function resolve(pathname) {
 // indexovania). Adresa v prehliadači ostáva pôvodná.
 const NOT_FOUND_FALLBACK = `<!DOCTYPE html><html lang="sk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>404 – QR LINK</title></head><body style="font-family:system-ui,sans-serif;text-align:center;padding:80px 20px"><h1>404</h1><p>Stránka sa nenašla. / Page not found.</p><p><a href="/">QR LINK</a></p></body></html>`;
 
+// Titulok chybovej stránky v jazyku adresy (rovnaké texty ako "err404_title" v js/i18n.js).
+const NOT_FOUND_TITLE = {
+  sk: "Stránka sa nenašla",
+  en: "Page not found",
+  cs: "Stránka nenalezena",
+  hu: "Az oldal nem található",
+  de: "Seite nicht gefunden",
+};
+
 async function notFound(pathname, request) {
   const first = pathname.split("/").filter(Boolean)[0];
   const lang = SITE_LANGS.includes(first) ? first : "sk";
@@ -96,7 +105,11 @@ async function notFound(pathname, request) {
   try {
     const res = await fetch(new URL("/404.html", request.url), { headers: { "x-seo-internal": "1" } });
     const text = await res.text();
-    if (text.includes('class="err-page"')) html = text.replace(/<html lang="[^"]*"/, () => `<html lang="${lang}"`);
+    if (text.includes('class="err-page"')) {
+      html = text
+        .replace(/<html lang="[^"]*"/, () => `<html lang="${lang}"`)
+        .replace(/<title>[^<]*<\/title>/, () => `<title>${NOT_FOUND_TITLE[lang]} | QR LINK</title>`);
+    }
   } catch {
     /* použije sa záložná stránka nižšie */
   }
