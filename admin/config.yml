@@ -425,3 +425,20 @@ collections:
               - { label: "Facebook", name: "facebook", widget: "string", required: false }
               - { label: "Instagram", name: "instagram", widget: "string", required: false }
               - { label: "LinkedIn", name: "linkedin", widget: "string", required: false }
+
+  # Záložka v ľavom menu CMS s PREHĽADOM návštevnosti (nie je to formulár –
+  # jej obsah nahrádza admin/admin-stats.js živými údajmi z databázy cez
+  # zabezpečený /api/stats). Tu je len kvôli tomu, aby sa v menu objavila;
+  # súbor content/pocitadlo.json je prázdny zástupca a nič sa v ňom neupravuje.
+  - name: pocitadlo
+    label: "Počítadlo návštev"
+    description: "Ktoré zastavenia si návštevníci pustili najčastejšie."
+    editor:
+      preview: false
+    files:
+      - name: "pocitadlo"
+        label: "Počítadlo návštev"
+        file: "content/pocitadlo.json"
+        format: "json"
+        fields:
+          - { label: "Poznámka", name: "poznamka", widget: "text", required: false }

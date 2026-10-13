@@ -1,0 +1,3 @@
+{
+  "poznamka": "Zástupný súbor pre záložku Počítadlo návštev v CMS - nič sa v ňom neupravuje; prehľad sa načítava z databázy (pozri admin/admin-stats.js)."
+}

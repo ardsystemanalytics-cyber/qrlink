@@ -7,7 +7,7 @@
    premenné prostredia s adresou a tokenom (KV_REST_API_URL / _TOKEN alebo
    s iným predponou, napr. STORAGE_REST_API_URL / _TOKEN, resp.
    UPSTASH_REDIS_REST_URL / _TOKEN) - funkcia si ich nájde podľa koncovky.
-   Používa sa priamo REST adresa databázy, žiadna ďalšia knižnica.
+   Používa sa priamo REST adresa databázy (api/_redis.js), žiadna ďalšia knižnica.
 
    Čo sa ukladá: len číslo pre každé zastavenie (žiadna IP ani iné osobné
    údaje). Roboty (Google, náhľady odkazov...) sa nepočítajú; opakované
@@ -17,34 +17,13 @@
    pôvodné lokálne počítadlo - nič sa nerozbije.
    ===================================================================== */
 
-const HASH = "qrlink:visits";
+const { redisConfig, redis, VISITS_HASH: HASH } = require("./_redis");
 // Zoznam platných id zastavení generuje scripts/build-data.js (bránime tomu,
 // aby si niekto do databázy zapísal ľubovoľné kľúče).
 let VALID_IDS = null;
 try { VALID_IDS = new Set(require("./_zastavenia-ids.json")); } catch (e) { /* bez zoznamu: len kontrola tvaru */ }
 
 const BOT_RE = /bot|crawl|spider|slurp|facebookexternalhit|whatsapp|telegram|preview|lighthouse|headless|curl|wget|python-requests|monitor|uptime/i;
-
-function redisConfig() {
-  const env = process.env;
-  const names = Object.keys(env);
-  const urlKey = names.find(k => /_REST_API_URL$/.test(k)) || names.find(k => k === "UPSTASH_REDIS_REST_URL");
-  const tokenKey = names.find(k => /_REST_API_TOKEN$/.test(k) && !/READ_ONLY/.test(k)) || names.find(k => k === "UPSTASH_REDIS_REST_TOKEN");
-  if (!urlKey || !tokenKey || !env[urlKey] || !env[tokenKey]) return null;
-  return { url: env[urlKey].replace(/\/+$/, ""), token: env[tokenKey] };
-}
-
-async function redis(cfg, command) {
-  const res = await fetch(cfg.url, {
-    method: "POST",
-    headers: { Authorization: `Bearer ${cfg.token}`, "Content-Type": "application/json" },
-    body: JSON.stringify(command),
-  });
-  if (!res.ok) throw new Error(`Redis HTTP ${res.status}`);
-  const json = await res.json();
-  if (json.error) throw new Error(json.error);
-  return json.result;
-}
 
 module.exports = async (req, res) => {
   res.setHeader("Cache-Control", "no-store");

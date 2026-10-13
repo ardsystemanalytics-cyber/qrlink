@@ -289,8 +289,18 @@ pripojení databázy, funkcia ich nájde podľa koncovky.
   databázy sa tak nedajú zapísať ľubovoľné kľúče,
 - ak databáza/server nie sú dostupné (napr. lokálny test bez `/api`),
   `renderCounter` v `js/app.js` použije pôvodné počítadlo v prehliadači,
-- počty vidno v Upstash konzole (Vercel → Storage → qrlink-visits → Open in
-  Upstash → Data Browser → hash `qrlink:visits`).
+- **prehľad návštevnosti je v CMS:** v ľavom menu `/admin` je záložka
+  **„Počítadlo návštev“** – súhrn (návštev spolu, zastavení s návštevou,
+  najčastejšie), rebríček najnavštevovanejších zastavení (filter podľa
+  projektu, odkaz na úpravu v CMS aj na web) a návštevnosť podľa projektov.
+  Je to kolekcia `pocitadlo` v `admin/config.yml` (len aby sa v menu
+  objavila; `content/pocitadlo.json` je prázdny zástupca), ktorej obsah
+  nahrádza `admin/admin-stats.js`. Údaje prináša `api/stats.js`, ktorý
+  **nie je verejný**: vyžaduje GitHub prihlásenie redaktora a overí, že má
+  právo zápisu do repozitára (inak 401/403). Lokálne (bez `/api`) záložka
+  hlási, že funguje len na ostrom webe,
+- počty vidno aj v Upstash konzole (Vercel → Storage → qrlink-visits → Open
+  in Upstash → Data Browser → hash `qrlink:visits`).
 
 ## Čo je hotové a čo čaká
 
