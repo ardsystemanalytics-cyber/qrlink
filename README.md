@@ -314,6 +314,31 @@ pripojení databázy, funkcia ich nájde podľa koncovky.
 - počty vidno aj v Upstash konzole (Vercel → Storage → qrlink-visits → Open
   in Upstash → Data Browser → hash `qrlink:visits`).
 
+## Kontaktný formulár (e-mail + ochrana pred spamom)
+
+Formuláre na domovskej stránke aj na stránke Kontakt posielajú správy na
+`/api/contact` (`api/contact.js`), ktorý ich odošle e-mailom cez službu
+**Resend**. Úspech sa ukáže len vtedy, keď server správu naozaj prijal; ak
+odoslanie nie je nastavené/nefunguje, návštevník dostane chybu s e-mailom
+firmy (nikdy falošné „Ďakujeme“).
+
+**Nastavenie vo Verceli** (Settings → Environment Variables, potom Redeploy):
+
+| Premenná | Čo je to |
+|---|---|
+| `RESEND_API_KEY` | API kľúč z resend.com (povinné; bez neho je odoslanie vypnuté) |
+| `CONTACT_TO` | kam majú správy chodiť (predvolene `ard@ard.sk`) |
+| `CONTACT_FROM` | odosielateľ, napr. `QR LINK <web@qrlink.sk>` – doména musí byť overená v Resende (DNS záznamy). Kým nie je, platí `QR LINK <onboarding@resend.dev>`, ktoré doručí len na e-mail majiteľa účtu Resend (na skúšku) |
+| `TURNSTILE_SITE_KEY` | verejný kľúč Cloudflare Turnstile (zobrazí captcha vo formulári) |
+| `TURNSTILE_SECRET_KEY` | tajný kľúč Turnstile (overenie na serveri; keď je nastavený, captcha je povinná) |
+
+**Ochrana pred spamom:** Cloudflare Turnstile (skutočné captcha, zadarmo,
+bez sledovania), neviditeľné honeypot pole, minimálny čas vyplnenia, limit
+5 správ za hodinu z jedného zariadenia (z IP sa ukladá len hash na 1 hodinu,
+cez Redis) a denný strop 150 správ, kontrola e-mailu/dĺžok/odkazov.
+Turnstile sa nastavuje na dash.cloudflare.com → Turnstile → Add widget
+(hostnames: `qrlink.sk`, `qrlink-six.vercel.app`).
+
 ## Čo je hotové a čo čaká
 
 HOTOVÉ: dizajn, mapa SR s bodmi, filtre podľa kategórií, breadcrumbs,

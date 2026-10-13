@@ -66,11 +66,8 @@
           <input type="email" name="email" data-i18n="email_placeholder" data-i18n-attr="placeholder" placeholder="E-mail *" required>
         </div>
         <textarea name="sprava" data-i18n="message_placeholder" data-i18n-attr="placeholder" placeholder="Vaša správa *" required rows="5"></textarea>
-        <label class="fake-captcha">
-          <input type="checkbox" required>
-          <span data-i18n="not_robot">Nie som robot</span>
-          <span class="captcha-badge">reCAPTCHA</span>
-        </label>
+        <input type="text" name="website" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="captcha-host" data-captcha></div>
         <button type="submit" class="btn contact-submit">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="17" height="17">
             <path d="M10 14l11 -11"/><path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5"/>

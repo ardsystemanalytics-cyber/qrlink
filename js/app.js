@@ -1000,18 +1000,102 @@ function contactFeaturesHTML() {
 
 /* kontaktné formuláre (stránka Kontakt aj homepage) – zatiaľ len klientská
    validácia a potvrdenie, bez servera; miesto pre napojenie na e-mailovú/API službu */
+/* Kontaktné formuláre (domov aj Kontakt): odosielajú sa cez /api/contact
+   (api/contact.js -> e-mail). Ochrana pred spamom: Cloudflare Turnstile
+   (widget sa zobrazí, len ak je vo Verceli nastavený TURNSTILE_SITE_KEY),
+   neviditeľné honeypot pole a minimálny čas vyplnenia. Úspech sa ukáže len
+   vtedy, keď server správu naozaj prijal - inak sa ukáže chyba. */
+let contactConfigPromise = null;
+function contactConfig() {
+  if (!contactConfigPromise) {
+    contactConfigPromise = fetch("/api/contact/", { cache: "no-store" })
+      .then(r => (r.ok ? r.json() : null))
+      .catch(() => null);
+  }
+  return contactConfigPromise;
+}
+function loadTurnstile() {
+  if (window.turnstile) return Promise.resolve(window.turnstile);
+  return new Promise((resolve, reject) => {
+    const s = document.createElement("script");
+    s.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
+    s.async = true;
+    s.onload = () => resolve(window.turnstile);
+    s.onerror = () => reject(new Error("turnstile"));
+    document.head.appendChild(s);
+  });
+}
+
 function initContactForm(formId, statusId) {
   const form = Q(formId);
   if (!form || form.dataset.bound) return;
   form.dataset.bound = "1";
   const status = Q(statusId);
-  form.addEventListener("submit", e => {
+  const button = Q('button[type="submit"]', form);
+  const host = Q("[data-captcha]", form);
+  const shownAt = Date.now();
+  let widgetId = null;
+  let siteKey = null;
+
+  const say = (text, kind) => {
+    if (!status) return;
+    status.textContent = text;
+    status.className = "form-status" + (kind ? " " + kind : "");
+  };
+
+  // Turnstile sa vykreslí, len ak je na serveri nastavený kľúč
+  contactConfig().then(cfg => {
+    if (!cfg || !cfg.turnstileSiteKey || !host) return;
+    siteKey = cfg.turnstileSiteKey;
+    return loadTurnstile().then(ts => {
+      widgetId = ts.render(host, { sitekey: siteKey, language: getLang(), theme: "light" });
+    });
+  }).catch(() => { /* bez widgetu server správu odmietne a formulár to ohlási */ });
+
+  form.addEventListener("submit", async e => {
     e.preventDefault();
-    form.reset();
-    if (status) {
-      status.textContent = t("form_success");
-      status.className = "form-status ok";
+    if (button && button.disabled) return;
+    const fd = new FormData(form);
+    const payload = {
+      meno: fd.get("meno"),
+      email: fd.get("email"),
+      telefon: fd.get("telefon") || "",
+      sprava: fd.get("sprava"),
+      website: fd.get("website") || "",
+      elapsed: Date.now() - shownAt,
+      turnstileToken: fd.get("cf-turnstile-response") || "",
+      lang: getLang(),
+      page: location.pathname,
+    };
+    if (siteKey && !payload.turnstileToken) { say(t("form_err_captcha"), "err"); return; }
+
+    if (button) button.disabled = true;
+    say(t("form_sending"));
+    let failure = "unavailable";
+    try {
+      const res = await fetch("/api/contact/", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      let data = null;
+      try { data = await res.json(); } catch (err) { /* nie je JSON */ }
+      if (res.ok && data && data.ok) {
+        form.reset();
+        say(t("form_success"), "ok");
+        if (window.turnstile && widgetId !== null) window.turnstile.reset(widgetId);
+        if (button) button.disabled = false;
+        return;
+      }
+      const map = { invalid: "invalid", links: "links", captcha: "captcha", rate: "rate" };
+      failure = (data && map[data.error]) || "unavailable";
+    } catch (err) {
+      failure = "unavailable";
     }
+    const email = (typeof DB !== "undefined" && DB.kontakt && DB.kontakt.email) || "";
+    say(failure === "unavailable" ? t("form_err_unavailable", { email }) : t("form_err_" + failure), "err");
+    if (window.turnstile && widgetId !== null) window.turnstile.reset(widgetId);
+    if (button) button.disabled = false;
   });
 }
 

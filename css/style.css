@@ -927,6 +927,12 @@ a { color: var(--pine); }
 .contact-form textarea { resize: vertical; min-height: 110px; font-family: inherit; }
 .contact-form input::placeholder, .contact-form textarea::placeholder { color: var(--ink-soft); opacity: .75; }
 
+/* honeypot (neviditeľné pole pre roboty) a miesto pre Cloudflare Turnstile */
+.hp-field { position: absolute !important; left: -9999px !important; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+.captcha-host:empty { display: none; }
+.captcha-host { min-height: 65px; }
+.form-status.err { color: var(--berry); font-weight: 600; }
+.contact-form button[disabled] { opacity: .65; cursor: default; transform: none; }
 .fake-captcha {
   display: flex; align-items: center; gap: 12px; cursor: pointer;
   border: 1.5px solid var(--line); border-radius: 12px; padding: 12px 14px;
