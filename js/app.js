@@ -599,6 +599,32 @@ function renderKategoria() {
     }
   }
 
+  /* Zmiešaná kategória: podkategórie AJ zastavenia priamo v nej (napr. Turzovka –
+     rovnako ako na starom webe). Karty podkategórií sú hore (vyššie), zastavenia
+     tejto kategórie pod nimi. */
+  const stopsSection = Q("#catStopsSection");
+  if (stopsSection) {
+    const mixed = podkategorie.length > 0 && zastaveniaTu.length > 0;
+    stopsSection.hidden = !mixed;
+    if (mixed) {
+      Q("#catStopsTitle").textContent = m.nadpisZastaveni || t("stops_default_title");
+      const toggle = Q("#catStopsToggle");
+      toggle.innerHTML = catViewToggleHTML();
+      QA(".view-toggle-btn", toggle).forEach(b => b.addEventListener("click", () => {
+        catView = b.dataset.view;
+        renderKategoria();
+      }));
+      const sg = Q("#catStopsGrid");
+      if (catView === "zoznam") {
+        sg.className = "stops-list";
+        sg.innerHTML = zastaveniaTu.map(stopRowHTML).join("");
+      } else {
+        sg.className = "stops-grid";
+        sg.innerHTML = zastaveniaTu.map(stopCardHTML).join("");
+      }
+    }
+  }
+
   const featuresHost = Q("#catFeatures");
   if (featuresHost) {
     featuresHost.style.display = podkategorie.length ? "" : "none";

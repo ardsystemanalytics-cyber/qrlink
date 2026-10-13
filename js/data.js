@@ -197,34 +197,6 @@ const DB = {
       ]
     },
     {
-      "id": "turzovka-mesto",
-      "rodic": "turzovka",
-      "nazov": "Turzovka – mestské pamiatky a zaujímavosti",
-      "popis": "Ostatné pamätihodnosti a zaujímavosti priamo v meste Turzovka.",
-      "i18n": {
-        "en": {
-          "nazov": "Turzovka – Town Landmarks and Places of Interest",
-          "popis": "Other landmarks and places of interest right in the town of Turzovka."
-        },
-        "cs": {
-          "nazov": "Turzovka – městské památky a zajímavosti",
-          "popis": "Ostatní pamětihodnosti a zajímavosti přímo ve městě Turzovka."
-        },
-        "hu": {
-          "nazov": "Turzovka – városi műemlékek és látnivalók",
-          "popis": "További nevezetességek és látnivalók közvetlenül Turzovka városában."
-        },
-        "de": {
-          "nazov": "Turzovka – Stadtdenkmäler und Sehenswürdigkeiten",
-          "popis": "Weitere Sehenswürdigkeiten direkt in der Stadt Turzovka."
-        }
-      },
-      "cover": "/assets/images/migrated/turzovka.png",
-      "fotoErb": true,
-      "url": "/kategoria.html?id=turzovka-mesto",
-      "urlAliasy": []
-    },
-    {
       "id": "betliar-info-pointy",
       "rodic": "betliar",
       "nazov": "Pamätihodnosti obce Betliar",
@@ -14914,7 +14886,7 @@ const DB = {
     },
     {
       "id": "kostol-nanebovzatia-panny-marie-pomnik-padlym-v-1-sv-vojne",
-      "miesto": "turzovka-mesto",
+      "miesto": "turzovka",
       "poradie": 1,
       "nazov": "Kostol Nanebovzatia Panny Márie – Pomník padlým v 1. sv. vojne",
       "popis": "",
@@ -14965,7 +14937,7 @@ const DB = {
     },
     {
       "id": "muzeum-karola-tocika",
-      "miesto": "turzovka-mesto",
+      "miesto": "turzovka",
       "poradie": 2,
       "nazov": "Múzeum Karola Točíka",
       "popis": "",
@@ -15013,7 +14985,7 @@ const DB = {
     },
     {
       "id": "rybniky",
-      "miesto": "turzovka-mesto",
+      "miesto": "turzovka",
       "poradie": 3,
       "nazov": "Rybníky",
       "popis": "",
@@ -15061,7 +15033,7 @@ const DB = {
     },
     {
       "id": "prirodny-amfiteater-historia-beskydskych-slavnosti",
-      "miesto": "turzovka-mesto",
+      "miesto": "turzovka",
       "poradie": 4,
       "nazov": "Prírodný amfiteáter – história beskydských slávností",
       "popis": "",
@@ -15112,7 +15084,7 @@ const DB = {
     },
     {
       "id": "lyziarske-stredisko-bukovina-javornicko-beskydska-magistrala",
-      "miesto": "turzovka-mesto",
+      "miesto": "turzovka",
       "poradie": 5,
       "nazov": "Lyžiarske stredisko Bukovina, Javornícko – beskydská magistrála",
       "popis": "",
@@ -15163,7 +15135,7 @@ const DB = {
     },
     {
       "id": "kamenna-gula-pred-mestskym-uradom",
-      "miesto": "turzovka-mesto",
+      "miesto": "turzovka",
       "poradie": 6,
       "nazov": "Kamenná guľa pred Mestským úradom",
       "popis": "",
@@ -15216,7 +15188,7 @@ const DB = {
     },
     {
       "id": "namestie-juraja-thurzu",
-      "miesto": "turzovka-mesto",
+      "miesto": "turzovka",
       "poradie": 7,
       "nazov": "Námestie Juraja Thurzu",
       "popis": "",
@@ -15267,7 +15239,7 @@ const DB = {
     },
     {
       "id": "areal-sportu-a-oddychu-skatepark",
-      "miesto": "turzovka-mesto",
+      "miesto": "turzovka",
       "poradie": 8,
       "nazov": "Areál športu a oddychu, Skatepark",
       "popis": "",
@@ -15315,7 +15287,7 @@ const DB = {
     },
     {
       "id": "park-drotara-a-dzarka-pricestny-stlp-jana-nepomuckeho-susosie-drotara-a-dzarka",
-      "miesto": "turzovka-mesto",
+      "miesto": "turzovka",
       "poradie": 9,
       "nazov": "Park Drotára a Džarka, Prícestný stĺp Jána Nepomuckého, Súsošie Drotára a Džarka",
       "popis": "",
@@ -15363,7 +15335,7 @@ const DB = {
     },
     {
       "id": "hasicske-hobby-muzeum",
-      "miesto": "turzovka-mesto",
+      "miesto": "turzovka",
       "poradie": 10,
       "nazov": "Hasičské Hobby múzeum",
       "popis": "",

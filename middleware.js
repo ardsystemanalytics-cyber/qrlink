@@ -35,7 +35,7 @@
    takže na zvyšné (bežné CommonJS) skripty/funkcie to nemá vplyv.
    ===================================================================== */
 import { rewrite, next } from "@vercel/functions";
-import urlMap, { guess, redirects, staticFiles } from "./lib/pretty-url-map.mjs";
+import urlMap, { guess, redirects, movedPlaces, staticFiles } from "./lib/pretty-url-map.mjs";
 import seoMap from "./lib/seo-map.mjs";
 import SEO from "./lib/seo-lib.mjs";
 
@@ -158,6 +158,17 @@ export default async function middleware(request) {
 
   const url = new URL(request.url);
   const { pathname } = url;
+
+  // Zrušené interné miesto (napr. /kategoria.html?id=turzovka-mesto) -> 301 na
+  // jeho nástupcu (aj s jazykovým prefixom).
+  if (pathname === "/kategoria.html") {
+    const moved = movedPlaces[url.searchParams.get("id")];
+    if (moved) {
+      const langParam = url.searchParams.get("lang");
+      const prefix = SITE_LANGS.includes(langParam) ? `/${langParam}` : "";
+      return Response.redirect(new URL(prefix + moved, url), 301);
+    }
+  }
 
   if (pathname === "/new" || pathname.startsWith("/new/")) {
     return redirectTo(applyOldRedirect(withoutNonSiteLang(pathname.slice(4) || "/")), url);

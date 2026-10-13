@@ -132,6 +132,11 @@ Obsah má 4 úrovne:
     priamo zastavenia. Je to posledná (listová) úroveň, má samostatný
     dizajn (max 5 kartičiek v riadku, zobrazujú sa vždy všetky). Aj tento
     vizuál sa ešte môže meniť/dolaďovať.
+  - **Zmiešaná kategória** – má podkategórie aj zastavenia priamo v sebe
+    (napr. Turzovka: 2 podkategórie + 10 zastavení, rovnako ako na starom
+    webe). Najprv sa zobrazia karty podkategórií a pod nimi zastavenia tejto
+    kategórie. V CMS stačí pri zastavení vybrať „Patrí do projektu“ = daná
+    kategória, netreba pre ne vytvárať umelú podkategóriu.
 - Breadcrumb rastie o úroveň s každým kliknutím: `Domov > Projekt >
   Podkategória > (zastavenie)`.
 

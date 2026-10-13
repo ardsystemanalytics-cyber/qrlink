@@ -272,6 +272,17 @@ for (const z of zastavenia) {
   guess[last] = `/zastavenie.html?id=${z.id}`;
 }
 for (const [last, n] of Object.entries(guessCount)) if (n > 1) delete guess[last];
+// Zrušené interné miesta (id) -> kam sa presmerujú ich adresy
+// "/kategoria.html?id=..." (301 v middleware.js). Napr. umelá podkategória
+// "turzovka-mesto" zanikla - jej zastavenia sú teraz priamo v Turzovke,
+// rovnako ako na starom webe.
+const MOVED_PLACES = { "turzovka-mesto": "turzovka" };
+const movedPlaces = {};
+for (const [oldId, newId] of Object.entries(MOVED_PLACES)) {
+  const target = miesta.find((m) => m.id === newId);
+  if (target && target.url) movedPlaces[oldId] = target.url;
+  else console.warn(`POZOR: MOVED_PLACES "${oldId}" -> "${newId}" - cieľové miesto neexistuje.`);
+}
 for (const from of Object.keys(redirects)) {
   if (urlMap[from]) console.warn(`POZOR: povodnePresmerovania "/${from}/" je zároveň platná adresa obsahu - presmerovanie ju prekryje.`);
 }
@@ -357,6 +368,7 @@ fs.writeFileSync(
     `export default ${JSON.stringify(urlMap, null, 2)};\n` +
     `export const guess = ${JSON.stringify(guess, null, 2)};\n` +
     `export const redirects = ${JSON.stringify(redirects, null, 2)};\n` +
+    `export const movedPlaces = ${JSON.stringify(movedPlaces, null, 2)};\n` +
     `export const staticFiles = ${JSON.stringify(staticFiles)};\n`,
   "utf8"
 );

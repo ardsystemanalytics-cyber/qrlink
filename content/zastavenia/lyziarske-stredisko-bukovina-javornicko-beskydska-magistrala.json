@@ -1,6 +1,6 @@
 {
   "id": "lyziarske-stredisko-bukovina-javornicko-beskydska-magistrala",
-  "miesto": "turzovka-mesto",
+  "miesto": "turzovka",
   "poradie": 5,
   "nazov": "Lyžiarske stredisko Bukovina, Javornícko – beskydská magistrála",
   "popis": "",
@@ -23,7 +23,7 @@
   "text": "Rekreačné stredisko Bukovina sa nachádza 2 km od centra Turzovky v regióne Kysuce. Stredisko ponúka priamo v areáli možnosť ubytovacích a stravovacích služieb. K dispozícii sú dva lyžiarske vleky s dĺžkou 500 m a 600 m s prepravnou kapacitou 1250 osôb za hodinu. Svahy sú vhodné pre začiatočníkov, ale aj pokročilých lyžiarov. Sú denne upravované snežnými pásovými vozidlami. Je tu aj možnosť večerného lyžovania, nakoľko je svah osvetlený umelým osvetlením. Ubytovacia kapacita rekreačného strediska je 45 lôžok. 18 lôžok je v hlavnej chate v dvoj-, troj- a štvorposteľových izbách so sociálnym zariadením. V blízkosti sa nachádza bežecká trasa Beskydsko-javornícka lyžiarska magistrála. Základná dĺžka magistrály je 54 km, vinie sa od hraníc Českej republiky z Makova – Veľkého Javorníka, Makova – Bumbálky a pokračuje pohorím Vysokých Javorníkov až po lokalitu Čadca – Husárik. Ďalšie trasy tvoria alternatívy, možnosti nástupu alebo zostupu z hlavnej trasy a majú celkovú dĺžku cca 42 km. Turisti z Českej republiky sa môžu napojiť v Makove – Bumbálke, v Makovskom priesmyku (U Tabuli) a v Klokočove – Konečnej. Na hrebeni Javorníkov okrem nezameniteľnej atmosféry osád sprevádza turistov aj jedinečná galéria v prírode, ktorú vytvorili umelci z regiónu Kysúc a Považia.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Turzovka",
-  "miestoNazov": "Turzovka – mestské pamiatky a zaujímavosti",
+  "miestoNazov": "Turzovka",
   "povodnaUrl": {
     "sk": "https://www.qrlink.sk/new/lyziarske-stredisko-bukovina-javornicko-beskydska-magistrala/",
     "en": "https://www.qrlink.sk/new/en/lyziarske-stredisko-bukovina-javornicko-beskydska-magistrala/",
@@ -55,6 +55,6 @@
       "text": "Das Erholungszentrum Bukovina befindet sich 2 km vom Zentrum von Turzovka in der Kysuce-Region. Das Zentrum bietet direkt im Areal Unterkunfts- und Verpflegungsmöglichkeiten. Zur Verfügung stehen zwei Skilifte mit einer Länge von 500 m und 600 m und einer Beförderungskapazität von 1250 Personen pro Stunde. Die Hänge eignen sich für Anfänger sowie für fortgeschrittene Skifahrer. Sie werden täglich mit Pistenraupen präpariert. Es besteht auch die Möglichkeit des Abendskifahrens, da der Hang künstlich beleuchtet ist. Die Unterkunftskapazität des Erholungszentrums beträgt 45 Betten. 18 Betten befinden sich in der Haupthütte in Zwei-, Drei- und Vierbettzimmern mit Sanitäranlagen. In der Nähe befindet sich die Langlaufstrecke Beskiden-Javorníky-Skimagistrale. Die Grundlänge der Magistrale beträgt 54 km; sie schlängelt sich von der Grenze zur Tschechischen Republik von Makov – Veľký Javorník, Makov – Bumbálka aus und setzt sich durch das Gebirge der Hohen Javorníky bis zur Ortslage Čadca – Husárik fort. Weitere Strecken bilden Alternativen sowie Ein- und Ausstiegsmöglichkeiten von der Hauptstrecke und haben eine Gesamtlänge von etwa 42 km. Touristen aus der Tschechischen Republik können sich in Makov – Bumbálka, am Makover Pass (U Tabuli) sowie in Klokočov – Konečná anschließen. Auf dem Kamm der Javorníky begleitet die Touristen neben der unverwechselbaren Atmosphäre der Weiler auch eine einzigartige Galerie in der Natur, geschaffen von Künstlern aus der Region Kysuce und dem Waagtal."
     }
   },
-  "cesta": "Turzovka › Turzovka – mestské pamiatky a zaujímavosti",
-  "zoradenie": "024 Turzovka › 000 Turzovka – mestské pamiatky a zaujímavosti #005"
+  "cesta": "Turzovka",
+  "zoradenie": "024 Turzovka #005"
 }

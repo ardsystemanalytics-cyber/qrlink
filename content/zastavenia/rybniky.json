@@ -1,6 +1,6 @@
 {
   "id": "rybniky",
-  "miesto": "turzovka-mesto",
+  "miesto": "turzovka",
   "poradie": 3,
   "nazov": "Rybníky",
   "popis": "",
@@ -23,7 +23,7 @@
   "text": "Nachádzajú sa v mestskej časti Predmier. Je to vodná plocha dvoch štrkovísk pri sútoku riek Predmieranka a Korňanka. História lovných rybníkoch siaha až do roku 1975. Pôvodne sa členovia rybárskeho spolku stretávali len pri bežných rybačkách. Kysucký región je chudobný na stojace vody, a preto vznikla potreba vybudovať vlastné lovné rybníky. Spolok dokončil stavbu svojho prvého rybníka – v Turzovke a spravil zarybnenie. Nasadený bol kapor (600 kg, 1- až 2-kilové) a pstruh dúhový (200 kg, dvojročný). Na výstavbe rybníka bolo odpracované veľké množstvo brigádnických hodín. Pre zaujímavosť: pán Zemaník 840 hodín a pán Drvár 620 hodín.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Turzovka",
-  "miestoNazov": "Turzovka – mestské pamiatky a zaujímavosti",
+  "miestoNazov": "Turzovka",
   "povodnaUrl": {
     "sk": "https://www.qrlink.sk/new/rybniky/",
     "en": "https://www.qrlink.sk/new/en/rybniky/",
@@ -50,6 +50,6 @@
       "text": "Sie befinden sich im Stadtteil Predmier. Es handelt sich um die Wasserfläche zweier Kiesgruben am Zusammenfluss der Flüsse Predmieranka und Korňanka. Die Geschichte der Angelteiche reicht bis in das Jahr 1975 zurück. Ursprünglich trafen sich die Mitglieder des Anglervereins nur zum gewöhnlichen Angeln. Die Region Kysuce ist arm an stehenden Gewässern, weshalb der Bedarf entstand, eigene Angelteiche anzulegen. Der Verein vollendete den Bau seines ersten Teichs – in Turzovka – und nahm den Fischbesatz vor. Eingesetzt wurden Karpfen (600 kg, 1- bis 2-kilogrammschwer) und Regenbogenforelle (200 kg, zweijährig). Beim Bau des Teichs wurde eine große Zahl an Arbeitsstunden freiwillig geleistet. Zur Anschauung: Herr Zemaník leistete 840 Stunden und Herr Drvár 620 Stunden."
     }
   },
-  "cesta": "Turzovka › Turzovka – mestské pamiatky a zaujímavosti",
-  "zoradenie": "024 Turzovka › 000 Turzovka – mestské pamiatky a zaujímavosti #003"
+  "cesta": "Turzovka",
+  "zoradenie": "024 Turzovka #003"
 }

@@ -1,6 +1,6 @@
 {
   "id": "kamenna-gula-pred-mestskym-uradom",
-  "miesto": "turzovka-mesto",
+  "miesto": "turzovka",
   "poradie": 6,
   "nazov": "Kamenná guľa pred Mestským úradom",
   "popis": "",
@@ -23,7 +23,7 @@
   "text": "Kamenná guľa sa nachádza pred budovou Mestského úradu v Turzovke. Každé 4 roky sa v Turzovke koná Svetové stretnutie Turzovčanov. Pamiatkou na prvé stretnutie je pamätník s plastikou od akademického maliara Ondreja Zimku ml. Prvé svetové stretnutie sa uskutočnilo v roku 1998 pri príležitosti 400. výročia vzniku Turzovky. Iniciátorom myšlienky stretnutia Turzovčanov, rodákov Turzovky a ich potomkov bol Spolok priateľov Turzovky na čele s predsedom Ivanom Gajdičiarom st. Svetové stretnutie Turzovčanov a ich potomkov sa koná v auguste každé štyri roky v rámci Turzovského kultúrneho leta a Beskydských slávností, ktoré majú už svoju tradíciu. Je to vhodná príležitosť pre všetkých, aby svoj rodný kraj – Kysuce prišli navštíviť práve v tomto čase, keď na tradičných turzovských hodoch vrcholia spoločenské a kultúrne aktivity jeho občanov. Stretnutia sú charakteristické účasťou rodákov a mnohých významných osobností, prominentov spoločenského a politického života, známych umelcov a športovcov. Názov svetové má svoje opodstatnenie v tom, že sa na ňom zúčastnia vždy rodáci zo zámoria alebo iných vzdialených končín sveta. Návštevníkmi svetového stretnutia boli osobnosti a rodáci ako Rudolf Zigmund – generálny tajomník Svetového kongresu Slovákov v USA, Jozef Okuliar či mnohí pravidelní účastníci stretnutia rodákov Helena Záhradníkova, Ondrej Zimka st., Ondrej Zimka ml., sochár Gustáv Švábik či Štefan Šimák.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Turzovka",
-  "miestoNazov": "Turzovka – mestské pamiatky a zaujímavosti",
+  "miestoNazov": "Turzovka",
   "povodnaUrl": {
     "sk": "https://www.qrlink.sk/new/kamenna-gula-pred-mestskym-uradom/",
     "en": "https://www.qrlink.sk/new/en/kamenna-gula-pred-mestskym-uradom/",
@@ -61,6 +61,6 @@
       "text": "Die Steinkugel befindet sich vor dem Gebäude des Stadtamts in Turzovka. Alle 4 Jahre findet in Turzovka das Welttreffen der Turzovkaer statt. Ein Denkmal an das erste Treffen ist ein Denkmal mit einer Plastik des akademischen Malers Ondrej Zimka jun. Das erste Welttreffen fand 1998 anlässlich des 400. Jahrestages der Entstehung von Turzovka statt. Initiator der Idee eines Treffens der Turzovkaer, der Landsleute von Turzovka und ihrer Nachkommen, war der Verein der Freunde von Turzovka unter dem Vorsitz von Ivan Gajdičiar sen. Das Welttreffen der Turzovkaer und ihrer Nachkommen findet im August alle vier Jahre im Rahmen des Turzovkaer Kultursommers und der Beskiden-Festspiele statt, die bereits eine eigene Tradition haben. Es ist eine passende Gelegenheit für alle, ihre Heimatregion – die Kysuce – gerade zu dieser Zeit zu besuchen, wenn bei den traditionellen Turzovkaer Kirchweihfesten die gesellschaftlichen und kulturellen Aktivitäten seiner Bürger gipfeln. Die Treffen zeichnen sich durch die Teilnahme von Landsleuten sowie vieler bedeutender Persönlichkeiten, Prominenter des gesellschaftlichen und politischen Lebens, bekannter Künstler und Sportler aus. Die Bezeichnung „Welt-“ hat ihre Berechtigung darin, dass daran stets Landsleute aus Übersee oder anderen entfernten Teilen der Welt teilnehmen. Besucher des Welttreffens waren Persönlichkeiten und Landsleute wie Rudolf Zigmund – Generalsekretär des Weltkongresses der Slowaken in den USA, Jozef Okuliar oder viele regelmäßige Teilnehmer des Landsleute-Treffens Helena Záhradníková, Ondrej Zimka sen., Ondrej Zimka jun., der Bildhauer Gustáv Švábik oder Štefan Šimák."
     }
   },
-  "cesta": "Turzovka › Turzovka – mestské pamiatky a zaujímavosti",
-  "zoradenie": "024 Turzovka › 000 Turzovka – mestské pamiatky a zaujímavosti #006"
+  "cesta": "Turzovka",
+  "zoradenie": "024 Turzovka #006"
 }

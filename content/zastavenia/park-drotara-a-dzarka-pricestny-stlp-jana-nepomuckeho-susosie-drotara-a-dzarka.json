@@ -1,6 +1,6 @@
 {
   "id": "park-drotara-a-dzarka-pricestny-stlp-jana-nepomuckeho-susosie-drotara-a-dzarka",
-  "miesto": "turzovka-mesto",
+  "miesto": "turzovka",
   "poradie": 9,
   "nazov": "Park Drotára a Džarka, Prícestný stĺp Jána Nepomuckého, Súsošie Drotára a Džarka",
   "popis": "",
@@ -23,7 +23,7 @@
   "text": "Mesto Turzovka bolo v minulosti jedným z centier drotárstva. Park Drotára a džarka bol vybudovaný v roku 1998 a nachádza sa v blízkosti železničného priecestia a križovatky ulíc Nádražná, Štefániková a Obchodná. Dominantou parku je bronzové súsošie drotára a džarka, ktorého autorom je akademický maliar a čestný občan mesta Turzovka Miroslav Cipár. Pamätník bol slávnostne odhalený v roku 1998 pri príležitosti 400. výročia založenia mesta. Súčasťou parku je taktiež rustikálny prícestný stĺp Sv. Jána Nepomuckého, mučeníka katolíckej cirkvi, ktorý je umiestnený medzi dvoma vyše dvestoročnými lipami. Prícestný stĺp pochádza z 19. storočia, je dielom neznámeho autora a patrí k národným kultúrnym pamiatkam.",
   "hlavnaKategoria": "Mestá",
   "projekt": "Turzovka",
-  "miestoNazov": "Turzovka – mestské pamiatky a zaujímavosti",
+  "miestoNazov": "Turzovka",
   "povodnaUrl": {
     "sk": "https://www.qrlink.sk/new/park-drotara-a-dzarka-pricestny-stlp-jana-nepomuckeho-susosie-drotara-a-dzarka/",
     "en": "https://www.qrlink.sk/new/en/park-drotara-a-dzarka-pricestny-stlp-jana-nepomuckeho-susosie-drotara-a-dzarka/",
@@ -50,6 +50,6 @@
       "text": "Die Stadt Turzovka war in der Vergangenheit eines der Zentren des Drahtbindergewerbes. Der Park des Drahtbinders und Džarko wurde 1998 errichtet und befindet sich in der Nähe des Bahnübergangs und der Kreuzung der Straßen Nádražná, Štefániková und Obchodná. Blickfang des Parks ist die bronzene Statuengruppe des Drahtbinders und Džarko, deren Autor der akademische Maler und Ehrenbürger der Stadt Turzovka, Miroslav Cipár, ist. Das Denkmal wurde 1998 anlässlich des 400. Jahrestages der Stadtgründung feierlich enthüllt. Bestandteil des Parks ist auch eine rustikale Wegsäule des hl. Johannes von Nepomuk, eines Märtyrers der katholischen Kirche, die zwischen zwei über zweihundert Jahre alten Linden aufgestellt ist. Die Wegsäule stammt aus dem 19. Jahrhundert, ist das Werk eines unbekannten Autors und zählt zu den nationalen Kulturdenkmälern."
     }
   },
-  "cesta": "Turzovka › Turzovka – mestské pamiatky a zaujímavosti",
-  "zoradenie": "024 Turzovka › 000 Turzovka – mestské pamiatky a zaujímavosti #009"
+  "cesta": "Turzovka",
+  "zoradenie": "024 Turzovka #009"
 }
