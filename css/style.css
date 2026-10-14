@@ -1285,5 +1285,6 @@ h1 .herogreen { color: #5c7159;  }
 .footer-privacy { font-size: 13px; color: var(--ink-soft); text-decoration: underline; }
 .footer-privacy:hover { color: var(--pine); }
 .contact-consent { display: flex; align-items: flex-start; gap: 10px; font-size: 13.5px; color: var(--ink-soft); cursor: pointer; margin: 4px 0 12px; }
-.contact-consent input { margin-top: 3px; accent-color: var(--pine); }
+.contact-form .contact-consent input { flex: 0 0 auto; width: 18px; height: 18px; padding: 0; margin: 2px 0 0; accent-color: var(--pine); }
+.contact-consent > span { flex: 1 1 auto; }
 .contact-consent a { color: var(--pine); text-decoration: underline; }
