@@ -982,7 +982,7 @@ a { color: var(--pine); }
 .home-consent-link { text-decoration: underline; }
 .home-consent input[type="checkbox"] {
   appearance: none; -webkit-appearance: none; position: relative;
-  width: 20px; height: 20px; flex-shrink: 0; margin: 0;
+  width: 20px; height: 20px; padding: 0; box-sizing: border-box; flex-shrink: 0; margin: 0;
   border: 1.5px solid rgba(255,255,255,.55); border-radius: 5px;
   background: transparent; cursor: pointer;
 }
@@ -1282,9 +1282,20 @@ h1 .herogreen { color: #5c7159;  }
 .legal ul { padding-left: 22px; }
 .legal a { color: var(--pine); text-decoration: underline; }
 .legal-date { color: var(--ink-soft); font-size: 14px; margin: 0 0 12px; }
-.footer-privacy { font-size: 13px; color: var(--ink-soft); text-decoration: underline; }
+.footer-privacy { font-size: 13px; color: var(--ink-soft); text-decoration: underline; padding: 10px 4px; }
 .footer-privacy:hover { color: var(--pine); }
 .contact-consent { display: flex; align-items: flex-start; gap: 10px; font-size: 13.5px; color: var(--ink-soft); cursor: pointer; margin: 4px 0 12px; }
 .contact-form .contact-consent input { flex: 0 0 auto; width: 18px; height: 18px; padding: 0; margin: 2px 0 0; accent-color: var(--pine); }
 .contact-consent > span { flex: 1 1 auto; }
 .contact-consent a { color: var(--pine); text-decoration: underline; }
+
+/* Mobil: väčšie plochy na ťuknutie (odkazy v omrvinkovej navigácii, Zdieľať, hlasitosť) */
+@media (max-width: 780px) {
+  .crumbs a { padding: 9px 2px; margin: -9px 0; }
+  .cat-sibling-link { padding: 11px 0; }
+  .detail-share-btn { padding: 12px 18px; }
+  .player .volume-btn { width: 40px; height: 40px; }
+  /* písmo polí aspoň 16 px, inak iPhone pri ťuknutí do poľa stránku približuje */
+  input:not([type=checkbox]):not([type=radio]):not([type=range]), textarea, .contact-form textarea, select { font-size: 16px; }
+  #contactData a { display: inline-block; padding: 7px 0; }
+}
