@@ -231,6 +231,7 @@ const urlMap = {
   "hrady-a-zamky": "/",
   "environmentalna-vychova-a-vzdelavanie": "/",
   "kontakt": "/kontakt.html",
+  "ochrana-osobnych-udajov": "/ochrana-udajov.html",
   // Zoskupujúce kategórie starého webu bez vlastného obsahu (len rozcestník
   // na podkategórie, ktoré tu už sú ako samostatné miesta).
   "category/kategorie-kulturnych-historickych-a-prirodnych-pamiatok": "/",
@@ -290,6 +291,7 @@ for (const from of Object.keys(redirects)) {
 const sitemapUrls = [
   "/",
   "/kontakt/",
+  "/ochrana-osobnych-udajov/",
   ...miesta.map((m) => m.url),
   ...zastavenia.map((z) => z.url),
 ];
@@ -325,6 +327,7 @@ const byLang = (fn) => Object.fromEntries(SEO.LANGS.map((l) => [l, fn(l)]));
 const seoMap = {
   home: SEO.entryFromMetas(byLang((l) => SEO.forHome(l))),
   kontakt: SEO.entryFromMetas(byLang((l) => SEO.forContact(l))),
+  privacy: SEO.entryFromMetas(byLang((l) => SEO.forPrivacy(l))),
 };
 for (const m of miesta) seoMap[`m:${m.id}`] = SEO.entryFromMetas(byLang((l) => SEO.forMiesto(m, l, seoCtx)));
 for (const z of zastavenia) seoMap[`z:${z.id}`] = SEO.entryFromMetas(byLang((l) => SEO.forZastavenie(z, l, seoCtx)));

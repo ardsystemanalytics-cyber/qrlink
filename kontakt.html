@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <!--SEO-->
   <title>Kontakt – QR LINK</title>
   <meta name="description" content="Kontaktujte nás – radi pripravíme QR sprievodcu pre vaše mesto, pamiatku alebo náučný chodník.">
@@ -67,6 +68,14 @@
         </div>
         <textarea name="sprava" data-i18n="message_placeholder" data-i18n-attr="placeholder" placeholder="Vaša správa *" required rows="5"></textarea>
         <input type="text" name="website" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <label class="contact-consent">
+          <input type="checkbox" required>
+          <span>
+            <span data-i18n="consent_prefix">Súhlasím so</span>
+            <a href="/ochrana-osobnych-udajov/" target="_blank" rel="noopener" data-i18n="consent_link">spracovaním údajov</a>
+            <span data-i18n="consent_suffix">*</span>
+          </span>
+        </label>
         <div class="captcha-host" data-captcha></div>
         <button type="submit" class="btn contact-submit">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="17" height="17">
@@ -87,6 +96,7 @@
     <a class="footer-logo" href="https://www.ardsystem.sk" target="_blank" rel="noopener" aria-label="ARDSYSTÉM, s. r. o.">
       <img src="/img/logo-ardsystem.png" alt="ARDSYSTÉM, s. r. o." style="height:42px;width:auto">
     </a>
+    <a class="footer-privacy" href="/ochrana-osobnych-udajov/" data-i18n="footer_privacy">Ochrana osobných údajov</a>
     <span data-i18n="footer_copyright">© ARDSYSTÉM, s.r.o. – všetky práva vyhradené</span>
     <span data-i18n="footer_tagline">QR LINK – digitálny sprievodca</span>
   </div>

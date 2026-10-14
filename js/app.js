@@ -35,7 +35,7 @@ function recordByIdOrPath(list, idFieldGetter, guessByLastSegment = false) {
   const hits = list.filter(x => x.url && !x.url.includes(".html") && x.url.split("/").filter(Boolean).pop() === last);
   return hits.length === 1 ? hits[0] : undefined;
 }
-const DEFAULT_PHOTO = "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80";
+const DEFAULT_PHOTO = "/assets/images/migrated/hrad-strecno.jpg";
 
 /* SEO – titulok, popis, obrázok na zdieľanie, canonical a jazykové verzie.
    Pravidlá (aj to, čo sa použije, keď sú CMS polia "SEO" prázdne) sú v
@@ -1134,6 +1134,7 @@ function renderNotFound() {
 function initStaticPageSeo() {
   if (Q("#leaflet-map")) updateSEO(SEO.forHome(getLang()));
   else if (Q("#contactForm")) updateSEO(SEO.forContact(getLang()));
+  else if (Q("#privacyPage")) updateSEO(SEO.forPrivacy(getLang()));
 }
 
 document.addEventListener("DOMContentLoaded", () => {

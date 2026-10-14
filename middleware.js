@@ -47,6 +47,12 @@ const SITE_LANGS = ["en", "cs", "hu", "de"];
 // Priečinky, ktoré obsluhuje priamo Vercel (a matcher ich vynecháva).
 const PASSTHROUGH_DIRS = ["admin", "api", "assets", "css", "js", "img", "_vercel", ".well-known"];
 const STATIC = new Set(staticFiles);
+// Starý PHP web (pred /new/): 10 miest + systémové stránky. Nový web ich nemá.
+const OLD_PHP_ROOTS = new Set([
+  "Cadca", "Devinska-Nova-Ves", "Nitra", "Rajecka-dolina", "Rajecke-Teplice",
+  "Sabinov", "Stara-Lubovna", "Svidnik", "Vajnory", "Zilina",
+  "Uvodna-stranka", "Mapa-stranok", "login", "index.php", "rss.xml",
+]);
 
 export const config = {
   // Vynechá /admin, /api, /assets, /css, /js, /img (+ interné /_vercel a
@@ -166,6 +172,7 @@ async function withSeo(target, request) {
     if (target.pathname === "/zastavenie.html" && id) key = `z:${id}`;
     else if (target.pathname === "/kategoria.html" && id) key = `m:${id}`;
     else if (target.pathname === "/kontakt.html") key = "kontakt";
+    else if (target.pathname === "/ochrana-udajov.html") key = "privacy";
     else if (target.pathname === "/" || target.pathname === "/index.html") { key = "home"; template = "/index.html"; }
     else return null;
     const entry = seoMap[key];
@@ -204,6 +211,12 @@ export default async function middleware(request) {
       return Response.redirect(new URL(prefix + moved, url), 301);
     }
   }
+
+  // Adresy zaniknutého starého PHP webu (www.qrlink.sk mimo /new/): mestá
+  // a systémové stránky -> úvodná stránka, /Kontakt/ -> /kontakt/.
+  const oldFirst = pathname.split("/").filter(Boolean)[0];
+  if (oldFirst === "Kontakt") return Response.redirect(new URL("/kontakt/", url), 301);
+  if (OLD_PHP_ROOTS.has(oldFirst)) return Response.redirect(new URL("/", url), 301);
 
   if (pathname === "/new" || pathname.startsWith("/new/")) {
     return redirectTo(applyOldRedirect(withoutNonSiteLang(pathname.slice(4) || "/")), url, request);

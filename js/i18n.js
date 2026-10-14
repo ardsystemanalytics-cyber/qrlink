@@ -38,6 +38,7 @@ const I18N = {
     footer_benefit3_title: "Objavujte Slovensko", footer_benefit3_text: "Zážitková forma poznávania našich krás.",
     footer_benefit4_title: "QR LINK", footer_benefit4_text: "Digitálny sprievodca - naskenujte, počúvajte, objavujte.",
     footer_copyright: "© ARDSYSTÉM, s.r.o. – Všetky práva vyhradené",
+    footer_privacy: "Ochrana osobných údajov",
     footer_tagline: "QR LINK – digitálny sprievodca",
     map_popup_close_aria: "Zavrieť", map_popup_view_detail: "Zobraziť detail →",
 
@@ -113,6 +114,7 @@ const I18N = {
     footer_benefit3_title: "Discover Slovakia", footer_benefit3_text: "An experience-based way to explore our beauty.",
     footer_benefit4_title: "QR LINK", footer_benefit4_text: "Digital guide – scan, listen, discover.",
     footer_copyright: "© ARDSYSTÉM, s.r.o. – All rights reserved",
+    footer_privacy: "Privacy policy",
     footer_tagline: "QR LINK – digital guide",
     map_popup_close_aria: "Close", map_popup_view_detail: "View detail →",
 
@@ -188,6 +190,7 @@ const I18N = {
     footer_benefit3_title: "Objevujte Slovensko", footer_benefit3_text: "Zážitková forma poznávání našich krás.",
     footer_benefit4_title: "QR LINK", footer_benefit4_text: "Digitální průvodce – naskenujte, poslouchejte, objevujte.",
     footer_copyright: "© ARDSYSTÉM, s.r.o. – Všechna práva vyhrazena",
+    footer_privacy: "Ochrana osobních údajů",
     footer_tagline: "QR LINK – digitální průvodce",
     map_popup_close_aria: "Zavřít", map_popup_view_detail: "Zobrazit detail →",
 
@@ -263,6 +266,7 @@ const I18N = {
     footer_benefit3_title: "Fedezze fel Szlovákiát", footer_benefit3_text: "Élményalapú módja hazánk szépségeinek felfedezésének.",
     footer_benefit4_title: "QR LINK", footer_benefit4_text: "Digitális útikalauz – olvassa be, hallgassa, fedezze fel.",
     footer_copyright: "© ARDSYSTÉM, s.r.o. – Minden jog fenntartva",
+    footer_privacy: "Adatvédelem",
     footer_tagline: "QR LINK – digitális útikalauz",
     map_popup_close_aria: "Bezárás", map_popup_view_detail: "Részletek →",
 
@@ -338,6 +342,7 @@ const I18N = {
     footer_benefit3_title: "Entdecken Sie die Slowakei", footer_benefit3_text: "Unsere Schönheiten auf erlebnisreiche Weise kennenlernen.",
     footer_benefit4_title: "QR LINK", footer_benefit4_text: "Digitaler Reiseführer – scannen, zuhören, entdecken.",
     footer_copyright: "© ARDSYSTÉM, s.r.o. – Alle Rechte vorbehalten",
+    footer_privacy: "Datenschutz",
     footer_tagline: "QR LINK – digitaler Reiseführer",
     map_popup_close_aria: "Schließen", map_popup_view_detail: "Details anzeigen →",
 
