@@ -219,7 +219,7 @@ fs.writeFileSync(
 // bez nastaveného "type":"module" v package.json (ktoré by rozbilo ostatné,
 // bežné CommonJS skripty v tomto projekte) nie sú spoľahlivé naprieč
 // verziami; obyčajný "export default {...}" funguje vždy.
-const SITE_ORIGIN = "https://qrlink.sk";
+const SITE_ORIGIN = "https://www.qrlink.sk"; // rovnaké ako ORIGIN v js/seo.js
 
 // Kľúč = pekná cesta (bez /new/, bez jazyka) -> hodnota = SKUTOČNÁ interná
 // stránka, ktorú middleware.js má vykresliť (nie "record.url" - to je tá

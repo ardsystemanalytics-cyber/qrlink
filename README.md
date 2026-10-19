@@ -173,8 +173,10 @@ schvaľovanie – tak, ako sme sa dohodli). Zmena sa na webe prejaví do minúty
    - Po pridaní premenných treba projekt znova nasadiť (Redeploy).
 4. **Skontroluj `base_url` v `admin/config.yml`** – musí presne sedieť
    s doménou, na ktorej web beží (bez lomítka na konci). Ak sa doména
-   niekedy zmení (napr. na `qrlink.sk`), treba upraviť aj tu, aj v OAuth
-   App (krok 2) a znova nasadiť.
+   niekedy zmení (napr. na `www.qrlink.sk`), treba upraviť aj tu, aj v OAuth
+   App (krok 2: Homepage URL a callback `https://www.qrlink.sk/api/callback`)
+   a znova nasadiť. **Pri prepnutí domény to treba urobiť naraz** – kým
+   `www.qrlink.sk` nesmeruje na nový web, ostáva `base_url` na Vercel adrese.
 
 **Používanie:** kolega otvorí `https://<doména>/admin`, prihlási sa cez
 "Login with GitHub", a uvidí formuláre na editáciu Kategórií, Projektov,
@@ -275,7 +277,7 @@ stránka sa zobrazí ako predtým a prehliadač si SEO doplní sám (`js/app.js`
 |---|---|
 | **Titulok** | „Názov – Projekt | QR LINK“ (projekt sa vynechá, ak by bol titulok dlhší než ~65 znakov) |
 | **Popis** | krátky popis → inak začiatok textu zastavenia (prvý zmysluplný odsek, ~155 znakov, na celé slovo/vetu; riadky typu „Nadmorská výška: …“ sa preskočia) → inak všeobecná veta o QR LINK. Veľmi krátky popis sa doplní všeobecnou vetou. |
-| **Obrázok** | titulná fotka → prvá z galérie → fotka nadradeného projektu → predvolená fotka webu (`hrad-strecno.jpg`); vždy s celou adresou `https://qrlink.sk/…` |
+| **Obrázok** | titulná fotka → prvá z galérie → fotka nadradeného projektu → predvolená fotka webu (`hrad-strecno.jpg`); vždy s celou adresou `https://www.qrlink.sk/…` |
 
 Ručne vyplnené **SEO titulok a popis** (v CMS, sekcia „SEO“) majú prednosť,
 ale platia **len pre slovenčinu** – v ostatných jazykoch by boli v zlom
@@ -337,7 +339,7 @@ bez sledovania), neviditeľné honeypot pole, minimálny čas vyplnenia, limit
 5 správ za hodinu z jedného zariadenia (z IP sa ukladá len hash na 1 hodinu,
 cez Redis) a denný strop 150 správ, kontrola e-mailu/dĺžok/odkazov.
 Turnstile sa nastavuje na dash.cloudflare.com → Turnstile → Add widget
-(hostnames: `qrlink.sk`, `qrlink-six.vercel.app`).
+(hostnames: `www.qrlink.sk`, `qrlink.sk`, `qrlink-six.vercel.app`).
 
 ## Čo je hotové a čo čaká
 
