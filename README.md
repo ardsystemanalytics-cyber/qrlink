@@ -162,9 +162,9 @@ schvaľovanie – tak, ako sme sa dohodli). Zmena sa na webe prejaví do minúty
 2. **Vytvor GitHub OAuth App:** GitHub → Settings (osobné, nie repo) →
    Developer settings → OAuth Apps → New OAuth App.
    - Application name: napr. `QR LINK CMS`
-   - Homepage URL: adresa nasadeného webu (napr. `https://qrlink.vercel.app`)
+   - Homepage URL: adresa nasadeného webu (`https://www.qrlink.sk`)
    - Authorization callback URL: rovnaká adresa + `/api/callback`
-     (napr. `https://qrlink.vercel.app/api/callback`)
+     (`https://www.qrlink.sk/api/callback`)
    - Po vytvorení skopíruj **Client ID** a vygeneruj **Client secret**.
 3. **Vo Vercel nastav premenné prostredia** (Project → Settings →
    Environment Variables):
