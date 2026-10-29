@@ -424,7 +424,7 @@ collections:
             fields:
               - { label: "Facebook", name: "facebook", widget: "string", required: false }
               - { label: "Instagram", name: "instagram", widget: "string", required: false }
-              - { label: "LinkedIn", name: "linkedin", widget: "string", required: false }
+              - { label: "YouTube", name: "youtube", widget: "string", required: false }
 
   # Záložka v ľavom menu CMS s PREHĽADOM návštevnosti (nie je to formulár –
   # jej obsah nahrádza admin/admin-stats.js živými údajmi z databázy cez
