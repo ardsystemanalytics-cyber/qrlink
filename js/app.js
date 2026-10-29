@@ -404,7 +404,6 @@ const CONTACT_ICONS = {
   mail: `<path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10"/><path d="M3 7l9 6l9 -6"/>`,
   world: `<path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"/><path d="M3.6 9h16.8"/><path d="M3.6 15h16.8"/><path d="M11.5 3a17 17 0 0 0 0 18"/><path d="M12.5 3a17 17 0 0 1 0 18"/>`,
   send: `<path d="M10 14l11 -11"/><path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5"/>`,
-  armchair: `<path d="M5 11a2 2 0 0 1 2 2v2h10v-2a2 2 0 1 1 4 0v4a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-4a2 2 0 0 1 2 -2"/><path d="M5 11v-5a3 3 0 0 1 3 -3h8a3 3 0 0 1 3 3v5"/><path d="M6 19v2"/><path d="M18 19v2"/>`
 };
 const CONTACT_ICON_SVG = (path) =>
   `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${path}</svg>`;
@@ -625,12 +624,6 @@ function renderKategoria() {
     }
   }
 
-  const featuresHost = Q("#catFeatures");
-  if (featuresHost) {
-    featuresHost.style.display = podkategorie.length ? "" : "none";
-    featuresHost.innerHTML = podkategorie.length ? catFeaturesHTML() : "";
-  }
-
   const siblingHost = Q("#catSiblingNav");
   if (siblingHost) {
     if (jeKoren(m) || podkategorie.length) {
@@ -671,32 +664,13 @@ function catViewToggleHTML() {
     </button>`;
 }
 
-/* statický 4-stĺpcový pruh výhod – zobrazuje sa len na stránke projektu (koreňa) */
+/* ikony na výber pre ikonku v úvodnom obrázku projektu (CMS: hrad, stromy, ľudia, QR) a nadpisy textov */
 const CAT_FEATURE_ICONS = {
   hrad: `<path d="M15 19v-2a3 3 0 0 0 -6 0v2a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1v-14h4v3h3v-3h4v3h3v-3h4v14a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1"/><path d="M3 11l18 0"/>`,
   stromy: `<path d="M16 5l3 3l-2 1l4 4l-3 1l4 4h-9"/><path d="M15 21l0 -3"/><path d="M8 13l-2 -2"/><path d="M8 12l2 -2"/><path d="M8 21v-13"/><path d="M5.824 16a3 3 0 0 1 -2.743 -3.69a3 3 0 0 1 .304 -4.833a3 3 0 0 1 4.615 -3.707a3 3 0 0 1 4.614 3.707a3 3 0 0 1 .305 4.833a3 3 0 0 1 -2.919 3.695h-4l-.176 -.005"/>`,
   ludia: `<path d="M5 7a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"/><path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/><path d="M21 21v-2a4 4 0 0 0 -3 -3.85"/>`,
   qr: `<path d="M4 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4"/><path d="M7 17l0 .01"/><path d="M14 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4"/><path d="M7 7l0 .01"/><path d="M4 15a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4"/><path d="M17 7l0 .01"/><path d="M14 14l3 0"/><path d="M20 14l0 .01"/><path d="M14 14l0 3"/><path d="M14 20l3 0"/><path d="M17 17l3 0"/><path d="M20 17l0 3"/>`
 };
-
-function catFeaturesHTML() {
-  const items = [
-    { icon: CAT_FEATURE_ICONS.hrad, nadpis: t("history_culture_title"), text: t("history_culture_text") },
-    { icon: CAT_FEATURE_ICONS.stromy, nadpis: t("nature_title"), text: t("nature_text") },
-    { icon: CAT_FEATURE_ICONS.ludia, nadpis: t("connects_title"), text: t("connects_text") },
-    { icon: CAT_FEATURE_ICONS.qr, nadpis: t("qr_guide_title"), text: t("qr_guide_text") }
-  ];
-  return items.map(it => `
-    <div class="cat-feature">
-      <span class="cat-feature-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${it.icon}</svg>
-      </span>
-      <div>
-        <strong>${it.nadpis}</strong>
-        <p>${it.text}</p>
-      </div>
-    </div>`).join("");
-}
 
 /* -------------------------------------- detail zastavenia --------- */
 function renderZastavenie() {
@@ -972,30 +946,7 @@ function renderKontakt() {
       <a href="${c.social.linkedin}" target="_blank" rel="noopener" aria-label="LinkedIn">${SOCIAL_ICONS.linkedin}</a>`;
   }
 
-  const features = Q("#contactFeatures");
-  if (features) features.innerHTML = contactFeaturesHTML();
-
   initContactForm("#contactForm", "#formStatus");
-}
-
-/* statický 4-stĺpcový pruh výhod na stránke Kontakt */
-function contactFeaturesHTML() {
-  const items = [
-    { icon: CAT_FEATURE_ICONS.qr, nadpis: t("contact_qr_title"), text: t("contact_qr_text") },
-    { icon: CAT_INFO_ICONS.kniha, nadpis: t("contact_trails_title"), text: t("contact_trails_text") },
-    { icon: CONTACT_ICONS.armchair, nadpis: t("contact_furniture_title"), text: t("contact_furniture_text") },
-    { icon: CAT_INFO_ICONS.audio, nadpis: t("contact_audio_title"), text: t("contact_audio_text") }
-  ];
-  return items.map(it => `
-    <div class="cat-feature">
-      <span class="cat-feature-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${it.icon}</svg>
-      </span>
-      <div>
-        <strong>${it.nadpis}</strong>
-        <p>${it.text}</p>
-      </div>
-    </div>`).join("");
 }
 
 /* kontaktné formuláre (stránka Kontakt aj homepage) – zatiaľ len klientská

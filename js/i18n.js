@@ -56,10 +56,6 @@ const I18N = {
     audio_title: "Audio", audio_suffix: "sprievodca",
     view_cards: "Karty", view_list: "Zoznam",
     back_to: "Späť na „{name}“", next_place_prefix: "Ďalšie miesto: ",
-    history_culture_title: "História a kultúra", history_culture_text: "Hrady, zámky a historické mestá s bohatým príbehom.",
-    nature_title: "Príroda", nature_text: "Objavujte krásu krajiny na každom kroku.",
-    connects_title: "Spája nás", connects_text: "Objavujte miesta, ktoré spájajú Slovensko a Česko.",
-    qr_guide_title: "QR sprievodca", qr_guide_text: "Naskenujte QR kódy a spoznajte miesta ešte lepšie.",
 
     detail_not_found: "Zastavenie sa nenašlo.", stop_of: "Zastavenie {n} z {total}",
     share: "Zdieľať", open_in_maps: "Otvoriť v Mapách",
@@ -85,10 +81,6 @@ const I18N = {
     home_contact_text: "Napíšte nám a radi vám pomôžeme s vaším projektom či sprievodcom.",
     phone_placeholder: "Telefón",
     consent_prefix: "Súhlasím so", consent_link: "spracovaním údajov", consent_suffix: "*",
-    contact_qr_title: "QR sprievodca", contact_qr_text: "Naskenujte QR kód priamo na mieste a spoznajte jeho príbeh.",
-    contact_trails_title: "Náučné chodníky", contact_trails_text: "Trasy so zastaveniami pre výlety plné objavovania.",
-    contact_furniture_title: "Mestský mobiliár", contact_furniture_text: "Informačné tabule a lavičky s QR kódom v teréne.",
-    contact_audio_title: "Audio sprievodca", contact_audio_text: "Vypočujte si príbeh miesta priamo vo vašom telefóne."
   },
 
   en: {
@@ -132,10 +124,6 @@ const I18N = {
     audio_title: "Audio", audio_suffix: "guide",
     view_cards: "Cards", view_list: "List",
     back_to: "Back to “{name}”", next_place_prefix: "Next place: ",
-    history_culture_title: "History & culture", history_culture_text: "Castles, chateaux and historic towns full of stories.",
-    nature_title: "Nature", nature_text: "Discover the beauty of the landscape at every step.",
-    connects_title: "What connects us", connects_text: "Discover places that connect Slovakia and Czechia.",
-    qr_guide_title: "QR guide", qr_guide_text: "Scan QR codes and get to know the places even better.",
 
     detail_not_found: "Stop not found.", stop_of: "Stop {n} of {total}",
     share: "Share", open_in_maps: "Open in Maps",
@@ -161,10 +149,6 @@ const I18N = {
     home_contact_text: "Write to us and we'll gladly help with your project or guide.",
     phone_placeholder: "Phone",
     consent_prefix: "I agree to the", consent_link: "processing of my data", consent_suffix: "*",
-    contact_qr_title: "QR guide", contact_qr_text: "Scan the QR code right on site and learn its story.",
-    contact_trails_title: "Nature trails", contact_trails_text: "Routes with stops for trips full of discovery.",
-    contact_furniture_title: "Urban furniture", contact_furniture_text: "Info boards and benches with QR codes out in the field.",
-    contact_audio_title: "Audio guide", contact_audio_text: "Listen to the place's story right on your phone."
   },
 
   cs: {
@@ -208,10 +192,6 @@ const I18N = {
     audio_title: "Audio", audio_suffix: "průvodce",
     view_cards: "Karty", view_list: "Seznam",
     back_to: "Zpět na „{name}“", next_place_prefix: "Další místo: ",
-    history_culture_title: "Historie a kultura", history_culture_text: "Hrady, zámky a historická města s bohatým příběhem.",
-    nature_title: "Příroda", nature_text: "Objevujte krásu krajiny na každém kroku.",
-    connects_title: "Spojuje nás", connects_text: "Objevujte místa, která spojují Slovensko a Česko.",
-    qr_guide_title: "QR průvodce", qr_guide_text: "Naskenujte QR kódy a poznejte místa ještě lépe.",
 
     detail_not_found: "Zastavení nebylo nalezeno.", stop_of: "Zastavení {n} z {total}",
     share: "Sdílet", open_in_maps: "Otevřít v Mapách",
@@ -237,10 +217,6 @@ const I18N = {
     home_contact_text: "Napište nám a rádi vám pomůžeme s vaším projektem či průvodcem.",
     phone_placeholder: "Telefon",
     consent_prefix: "Souhlasím se", consent_link: "zpracováním údajů", consent_suffix: "*",
-    contact_qr_title: "QR průvodce", contact_qr_text: "Naskenujte QR kód přímo na místě a poznejte jeho příběh.",
-    contact_trails_title: "Naučné stezky", contact_trails_text: "Trasy se zastaveními pro výlety plné objevování.",
-    contact_furniture_title: "Městský mobiliář", contact_furniture_text: "Informační tabule a lavičky s QR kódem v terénu.",
-    contact_audio_title: "Audio průvodce", contact_audio_text: "Poslechněte si příběh místa přímo ve svém telefonu."
   },
 
   hu: {
@@ -284,10 +260,6 @@ const I18N = {
     audio_title: "Hang", audio_suffix: "kalauz",
     view_cards: "Kártyák", view_list: "Lista",
     back_to: "Vissza: „{name}”", next_place_prefix: "Következő helyszín: ",
-    history_culture_title: "Történelem és kultúra", history_culture_text: "Várak, kastélyok és történelmi városok gazdag történettel.",
-    nature_title: "Természet", nature_text: "Fedezze fel a táj szépségét minden lépésnél.",
-    connects_title: "Ami összeköt minket", connects_text: "Fedezze fel a Szlovákiát és Csehországot összekötő helyszíneket.",
-    qr_guide_title: "QR-kalauz", qr_guide_text: "Olvassa be a QR-kódokat, és ismerje meg jobban a helyszíneket.",
 
     detail_not_found: "A megálló nem található.", stop_of: "{n}. / {total} megálló",
     share: "Megosztás", open_in_maps: "Megnyitás térképen",
@@ -313,10 +285,6 @@ const I18N = {
     home_contact_text: "Írjon nekünk, szívesen segítünk projektjében vagy kalauzában.",
     phone_placeholder: "Telefon",
     consent_prefix: "Hozzájárulok az", consent_link: "adataim kezeléséhez", consent_suffix: "*",
-    contact_qr_title: "QR-kalauz", contact_qr_text: "Olvassa be a QR-kódot a helyszínen, és ismerje meg a történetét.",
-    contact_trails_title: "Tanösvények", contact_trails_text: "Megállókkal teli útvonalak a felfedezéssel teli kirándulásokhoz.",
-    contact_furniture_title: "Utcabútorok", contact_furniture_text: "Információs táblák és padok QR-kóddal a terepen.",
-    contact_audio_title: "Hangos kalauz", contact_audio_text: "Hallgassa meg a helyszín történetét közvetlenül a telefonján."
   },
 
   de: {
@@ -360,10 +328,6 @@ const I18N = {
     audio_title: "Audio", audio_suffix: "Guide",
     view_cards: "Karten", view_list: "Liste",
     back_to: "Zurück zu „{name}“", next_place_prefix: "Nächster Ort: ",
-    history_culture_title: "Geschichte und Kultur", history_culture_text: "Burgen, Schlösser und historische Städte mit reicher Geschichte.",
-    nature_title: "Natur", nature_text: "Entdecken Sie die Schönheit der Landschaft auf Schritt und Tritt.",
-    connects_title: "Was uns verbindet", connects_text: "Entdecken Sie Orte, die die Slowakei und Tschechien verbinden.",
-    qr_guide_title: "QR-Guide", qr_guide_text: "Scannen Sie die QR-Codes und lernen Sie die Orte noch besser kennen.",
 
     detail_not_found: "Station nicht gefunden.", stop_of: "Station {n} von {total}",
     share: "Teilen", open_in_maps: "In Karten öffnen",
@@ -389,10 +353,6 @@ const I18N = {
     home_contact_text: "Schreiben Sie uns – wir helfen Ihnen gerne bei Ihrem Projekt oder Guide.",
     phone_placeholder: "Telefon",
     consent_prefix: "Ich stimme der", consent_link: "Verarbeitung meiner Daten", consent_suffix: "zu *",
-    contact_qr_title: "QR-Guide", contact_qr_text: "Scannen Sie den QR-Code direkt vor Ort und erfahren Sie seine Geschichte.",
-    contact_trails_title: "Lehrpfade", contact_trails_text: "Routen mit Stationen für Ausflüge voller Entdeckungen.",
-    contact_furniture_title: "Stadtmobiliar", contact_furniture_text: "Infotafeln und Bänke mit QR-Code direkt im Gelände.",
-    contact_audio_title: "Audio-Guide", contact_audio_text: "Hören Sie die Geschichte des Ortes direkt auf Ihrem Handy."
   }
 };
 
