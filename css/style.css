@@ -960,7 +960,9 @@ a { color: var(--pine); }
 .home-contact-form { flex: 2 1 480px; gap: 14px; }
 .home-contact-footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 14px; }
 .home-consent { display: flex; align-items: center; gap: 10px; font-size: 13.5px; color: rgba(255,255,255,.85); cursor: pointer; }
-.home-consent-link { text-decoration: underline; }
+.consent-end { white-space: nowrap; }
+.home-consent-link { color: inherit; text-decoration: underline; }
+.home-consent-link:hover { color: #fff; }
 .home-consent input[type="checkbox"] {
   appearance: none; -webkit-appearance: none; position: relative;
   width: 20px; height: 20px; padding: 0; box-sizing: border-box; flex-shrink: 0; margin: 0;
@@ -1278,5 +1280,8 @@ h1 .herogreen { color: #5c7159;  }
   .player .volume-btn { width: 40px; height: 40px; }
   /* písmo polí aspoň 16 px, inak iPhone pri ťuknutí do poľa stránku približuje */
   input:not([type=checkbox]):not([type=radio]):not([type=range]), textarea, .contact-form textarea, select { font-size: 16px; }
-  #contactData a { display: inline-block; padding: 7px 0; }
+  .contact-field { align-items: center; }
+  .contact-field svg { margin-top: 0; }
+  .contact-field.link { padding: 0; }
+  .contact-field.link a { flex: 1; padding: 12px 0; }
 }
