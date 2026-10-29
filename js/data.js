@@ -17255,7 +17255,7 @@ const DB = {
       "010 01 Žilina"
     ],
     "tel": "+421 41 700 25 01",
-    "email": "ard@ard.sk",
+    "email": "info@ard.sk",
     "web": "https://www.ardsystem.sk",
     "ico": "36 397 563",
     "dic": "2020105989",
