@@ -329,7 +329,7 @@ firmy (nikdy falošné „Ďakujeme“).
 | Premenná | Čo je to |
 |---|---|
 | `RESEND_API_KEY` | API kľúč z resend.com (povinné; bez neho je odoslanie vypnuté) |
-| `CONTACT_TO` | kam majú správy chodiť (predvolene `ard@ard.sk`) |
+| `CONTACT_TO` | kam majú správy chodiť (predvolene `info@ard.sk`) |
 | `CONTACT_FROM` | odosielateľ, napr. `QR LINK <web@qrlink.sk>` – doména musí byť overená v Resende (DNS záznamy). Kým nie je, platí `QR LINK <onboarding@resend.dev>`, ktoré doručí len na e-mail majiteľa účtu Resend (na skúšku) |
 | `TURNSTILE_SITE_KEY` | verejný kľúč Cloudflare Turnstile (zobrazí captcha vo formulári) |
 | `TURNSTILE_SECRET_KEY` | tajný kľúč Turnstile (overenie na serveri; keď je nastavený, captcha je povinná) |

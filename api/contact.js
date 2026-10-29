@@ -16,7 +16,7 @@
 
    Nastavenie vo Verceli (Settings -> Environment Variables):
      RESEND_API_KEY        kľúč zo služby Resend (resend.com) - povinné
-     CONTACT_TO            kam majú správy chodiť (predvolene ard@ard.sk)
+     CONTACT_TO            kam majú správy chodiť (predvolene info@ard.sk)
      CONTACT_FROM          odosielateľ, napr. "QR LINK <web@qrlink.sk>" (musí byť
                            z overenej domény v Resende; kým nie je, funguje
                            predvolený "QR LINK <onboarding@resend.dev>" len na
@@ -120,7 +120,7 @@ module.exports = async (req, res) => {
   if (day !== null && day > MAX_PER_DAY) return send(res, 429, { error: "rate" });
 
   // odoslanie e-mailu (Resend)
-  const to = process.env.CONTACT_TO || "ard@ard.sk";
+  const to = process.env.CONTACT_TO || "info@ard.sk";
   const from = process.env.CONTACT_FROM || "QR LINK <onboarding@resend.dev>";
   const page = oneLine(b.page, 300);
   const lang = oneLine(b.lang, 5);
