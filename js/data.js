@@ -17254,7 +17254,7 @@ const DB = {
       "Pavla Mudroňa 5",
       "010 01 Žilina"
     ],
-    "tel": "+421 41 700 25 01",
+    "tel": "+421 907 870 746",
     "email": "info@ard.sk",
     "web": "https://www.ardsystem.sk",
     "ico": "36 397 563",
